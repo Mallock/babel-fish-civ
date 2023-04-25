@@ -28,6 +28,4 @@ The following languages are currently available:
 
 If you would like to contribute a translation for a language that is not currently available, please make a suggestion.
 
-## License
 
-This repository is licensed under the [MIT License](LICENSE).
