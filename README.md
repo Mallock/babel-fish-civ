@@ -17,8 +17,8 @@ Babel Fish Civ is a project that provides localized XML files for Civilization V
 The following languages are currently available:
 
 - Finnish -> In progress
-- Danish -> Queued
-- Ukrainian -> Queued
+- Danish -> In progress
+- Ukrainian -> In progress
 
 ## Contributing
 
