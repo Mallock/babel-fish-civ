@@ -23,6 +23,7 @@ The following languages are currently available:
 - Finnish -> In progress
 - Danish -> In progress
 - Ukrainian -> In progress
+- Hindi -> In progress
 
 ## Contributing
 
