@@ -27,6 +27,7 @@ The following languages are currently available:
 
 ## Contributing
 
-If you would like to contribute a translation for a language that is not currently available, please make a suggestion.
+If you notice any mistakes in the automated translations, I would appreciate your help in cleaning them up. Please feel free to suggest any corrections or improvements. Also, if you would like to contribute a translation for a language that is not currently available, please let me know and I will work to make it available. Thank you for your help in improving the translations!
+
 
 
