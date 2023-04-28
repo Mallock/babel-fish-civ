@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Names -->
+    <Row Tag="LOC_ABILITY_ANTI_CAVALRY_NAME">
+      <Text>Антикінній</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAVY_CHARIOT_NAME">
+      <Text>Важкий багатоколісний візок</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_TERRAIN_COST_NAME">
+      <Text>Ігноруйте вартість терену</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_NAME">
+      <Text>Ігноруйте вартість переходу річок</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_ZOC_NAME">
+      <Text>Ігноруйте ZOC</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHT_CHARIOT_NAME">
+      <Text>Світла Колісниця</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_MOVE_AND_SHOOT_NAME">
+      <Text>Немає руху та стрільби</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_OCEAN_NAME">
+      <Text>Лише прибережні</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CANNOT_ATTACK">
+      <Text>Не можу атакувати</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_COMBAT">
+      <Text>Бонус «Дружня територія»</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_NAME">
+      <Text>Дозволяє атаку стіни</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_WALLS_NAME">
+      <Text>Обійти стіни</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_SPEAR_NAME">
+      <Text>Анти-Спір</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_RANGE_BONUS_NAME">
+      <Text>Знаходження цілі</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_NAME">
+      <Text>Незакритий вид</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_NAME">
+      <Text>Олігархічна бійка</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_NAME">
+      <Text>Теократія</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ORDERS_BUFF_NAME">
+      <Text>Релігійні ордени</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_NAME">
+      <Text>Атака фашизму</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COMMUNISM_DEFENSE_BUFF_NAME">
+      <Text>Захист землі комунізму</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDIC_HEAL_NAME">
+      <Text>Лікування медиком</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STEALTH_NAME">
+      <Text>Скритість</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SEE_HIDDEN_NAME">
+      <Text>Розкрийте хованку</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COASTAL_RAID_NAME">
+      <Text>Берегова рейдовість</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MELEE_COASTAL_RAID_NAME">
+      <Text>Береговий рейд "Громова блискавка"</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_COMBAT_UNIT_NAME">
+      <Text>Напрямлена атака</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAL_NEUTRAL_TERRITORY_NAME">
+      <Text>Лікувати нейтральну територію</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA_NAME">
+      <Text>Непідсудність за грабіж на морі</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_RAGE_NAME">
+      <Text>Шалений бій Берсерка</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_MOVEMENT_NAME">
+      <Text>Рух Берсерків</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LONGSHIP_MOVEMENT_NAME">
+      <Text>Рух довгих човнив</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PRIZE_SHIPS_NAME">
+      <Text>Призові кораблі</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CAPTIVE_WORKERS_NAME">
+      <Text>Прикуті працівники</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BALKAN_CAVALRY_NAME">
+      <Text>Кавалерія Балканських країн</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALTITUDE_TRAINING_NAME">
+      <Text>Тренування на висоті</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COSSACK_NAME">
+      <Text>І тече Дон тихо</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_REDCOAT_NAME">
+      <Text>Глобальна армія</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VARU_NAME">
+      <Text>Страх</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NAGAO_NAME">
+      <Text>Лісовий Борець</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CONQUISTADOR_NAME">
+      <Text>Примусове перетворення</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GARDE_NAME">
+      <Text>Еліта Наполеона</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOPLITE_NAME">
+      <Text>Фаланга</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UBOAT_NAME">
+      <Text>Вовча зграя</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROUGH_RIDER_NAME">
+      <Text>Теддів Грубий Вершник</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MUSTANG_NAME">
+      <Text>Мустанг</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAMLUK_NAME">
+      <Text>Фурусійя</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SAMURAI_NAME">
+      <Text>Самурай</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_FOREIGN_SPREAD_NAME">
+      <Text>Внутрішнє поширення</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ARCHAEOLOGIST_ENTER_FOREIGN_LANDS_NAME">
+      <Text>Ввійти в чужі країни</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_CANNOT_ATTACK_NAME">
+      <Text>Миротворець</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_RELIGIOUS_NAME">
+      <Text>Перевага дружньої території</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ENTER_FOREIGN_LANDS_NAME">
+      <Text>Ігнорує кордони</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_IGNORE_TERRAIN_COST_NAME">
+      <Text>Ходьба на повітрі</Text>
+    </Row>
+    <!-- Full description -->
+    <Row Tag="LOC_ABILITY_ANTI_CAVALRY_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойова міць проти легкої та важкої кінної юрби.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_SPEAR_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової Сили проти анти-кінних військ.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAVY_CHARIOT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух, якщо почати в пустелі, рівнині, степу або тундрі.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_IGNORE_TERRAIN_COST_DESCRIPTION">
+      <Text>Ліс, Джунглі, Пагорби та Болота вимагають лише один рух [ICON_Movement].</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_ZOC_DESCRIPTION">
+      <Text>Не підпадає під зону контролю ворога.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHT_CHARIOT_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Руху, якщо розпочати на Пустелі, Рівнині, Луках або Тундрі.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_MOVE_AND_SHOOT_DESCRIPTION">
+      <Text>Неможливо рухатись та атакувати в один хід.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_OCEAN_DESCRIPTION">
+      <Text>Неможливо входити до океанських гексів.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CANNOT_ATTACK_DESCRIPTION">
+      <Text>Не може нападати на ворогів; може лише захищатися.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_COMBAT_DESCRIPTION">
+      <Text>Бонус до бойових характеристик у власній території.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_DESCRIPTION">
+      <Text>Коли поряд з ворожим містом, ближні бійці завдають повний пошкодження стінам міста.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_WALLS_DESCRIPTION">
+      <Text>Коли знаходишся поруч з ворожим містом, дружні ближні бійці можуть обійти стіни міста і нападати безпосередньо на саме місто.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANIT_SPEAR_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова сила проти копійників та пікінерів.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_RANGE_BONUS_DESCRIPTION">
+      <Text>+1 [ICON_Range] Діапазон до близьких осадних одиниць ближньої битви.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_DESCRIPTION">
+      <Text>Видимість на відкритій місцевості без перешкод.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OBSERVATION_STRENGTH_BONUS_DESCRIPTION">
+      <Text>Грантиє +1 [ICON_Range] радіус дії для одиниць класу осади в радіусі 1 гекса.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_DESCRIPTION">
+      <Text>+4 [ICON_Strength] Бойова сила від уряду Олігархії.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Religion] Релігійної сили від уряду Теократії.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ORDERS_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Religion] Релігійної сили з політикою Релігійні Ордени.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Strength] бойової сили при атакуванні уряду фашизму.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COMMUNISM_DEFENSE_BUFF_DESCRIPTION">
+      <Text>+6 [ICON_Strength] Бойової Сили при захисті від уряду Комунізму.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDIC_HEAL_DESCRIPTION">
+      <Text>+20 очок здоров'я відновлюється для одиниць гравця, які перебувають в радіусі 1 плитки.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STEALTH_DESCRIPTION">
+      <Text>Залишається схованим від одиниць більше, ніж на відстані 1 гекса.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SEE_HIDDEN_DESCRIPTION">
+      <Text>Показати приховані одиниці на мапі в межах досяжності зору.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COASTAL_RAID_DESCRIPTION">
+      <Text>Можна розграбувати будівлі та вдосконалення і захоплювати цивільні одиниці на прибережних землях.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MELEE_COASTAL_RAID_NAME_DESCRIPTION">
+      <Text>Може розграбувати будівлі та покращення, а також захоплювати мирних жителів на узбережних землях. (Хардрада)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_COMBAT_UNIT_DESCRIPTION">
+      <Text>Атакуйте підтримуючі підрозділи безпосередньо, навіть якщо вони знаходяться в формації з бойовим підрозділом.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAL_NEUTRAL_TERRITORY_DESCRIPTION">
+      <Text>Може лікуватись в нейтральній території. (Knarr)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA_DESCRIPTION">
+      <Text>Поки на водному тайлі, його [ICON_TradeRoute] Торговий Маршрут не може бути розграбований ворожими військами. Отримується при становленні Сюзереном міста-держави Лісабон.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_RAGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової міці при атакі.[NEWLINE][ICON_Bullet]-5 [ICON_Strength] Бойової міці при захисті.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_MOVEMENT_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Рух, якщо ця одиниця розпочинає в території ворога.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LONGSHIP_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух під час прибережних вод.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PRIZE_SHIPS_DESCRIPTION">
+      <Text>Можна захоплювати поразковані військові кораблі противника.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CAPTIVE_WORKERS_DESCRIPTION">
+      <Text>Можна захоплювати бойові одиниці цивілізації противника, яку було переможено, і перетворювати їх на Будівельників.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BALKAN_CAVALRY_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова сила важкої та легкої кавалерії на пагорбах, коли Сюзерен міста-держави Преслав.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALTITUDE_TRAINING_DESCRIPTION">
+      <Text>Місіонери, Інквізитори та Апостоли зможуть швидше рухатися по пагорбах після того, як пересунуться поруч з чудом природи "Маунт Еверест".</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COSSACK_DESCRIPTION">
+      <Text>Може переміщуватись після атаки.[NEWLINE][ICON_Bullet]+5 [ICON_Strength] бойової сили в межах вашої території або поруч з нею.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_REDCOAT_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової міцності при бою на континенті, відмінному від того, де знаходиться ваша [ICON_Capital] столиця.[NEWLINE][ICON_Bullet] Не збільшує витрат [ICON_Movement] руху при висадці на берег</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VARU_DESCRIPTION">
+      <Text>-5 [ICON_Strength] Бойової Міці до сусідніх ворожих одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NAGAO_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової міцності при захисті від дальнобойних одиниць. [NEWLINE] [ICON_Bullet] Може бачити через об’єкти [NEWLINE] [ICON_Bullet] Може пересуватися через ліси та тропічні дощові ліси без штрафу [ICON_Movement].</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CONQUISTADOR_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової Сили, якщо в межах одного шестикутника знаходиться релігійна одиниця.[NEWLINE][ICON_Bullet]Якщо ця одиниця захоплює місто або знаходиться поруч з містом, коли воно захоплене, місто автоматично конвертується на більшість релігії гравця Конкістадора.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GARDE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойова міць, коли перебуваєте на тому ж континенті, що і [ICON_Capital] столиця.[NEWLINE][ICON_Bullet]+10 очок великого генерала [ICON_GreatGeneral] за вбивство ворогів.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOPLITE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової Сили якщо поруч знаходиться щонайменше один Гопліт.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UBOAT_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової Сили в Океанському бою.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROUGH_RIDER_DESCRIPTION">
+      <Text>При поразці ворожої одиниці на континенті вашої [ICON_Capital] столиці отримайте [ICON_Culture] культури, рівної 50% від базової [ICON_Strength] сили бойової одиниці (у стандартному режимі)[NEWLINE][ICON_Bullet]+10 [ICON_Strength] сили бойової одиниці під час бою на пагорбах.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MUSTANG_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бонус Сили Бойових дій проти Літаків[NEWLINE][ICON_Bullet]+50% досвіду з бойових дій.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAMLUK_DESCRIPTION">
+      <Text>Ця одиниця відновлює здоров'я кожен хід, навіть після переміщення або бою.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SAMURAI_DESCRIPTION">
+      <Text>Цей блок не отримує штрафів в бою, коли пошкоджений.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BARRACKS_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Отриманий досвід від Бараків</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STABLE_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Заробленого досвіду зі стайнею</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ARMORY_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Заробленого досвіду від Арсеналу</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MILITARY_ACADEMY_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Заробленого досвіду з військової академії</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHTHOUSE_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Заробленого досвіду від Маяка</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SHIPYARD_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Заробленого досвіду від верфі</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SEAPORT_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Заробленого досвіду від Морського порту</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HANGAR_TRAINED_AIRCRAFT_XP_DESCRIPTION">
+      <Text>+25% Заробленого досвіду з ангару</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AIRPORT_TRAINED_AIRCRAFT_XP_DESCRIPTION">
+      <Text>+50% Отриманого досвіду на аеропорту</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROYAL_NAVY_DOCKYARD_MOVEMENT_BONUS_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух з королівської морської верфі.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROMAN_LEGION_BUILD_DESCRIPTION">
+      <Text>Можна будувати унікальне поліпшення - Римський форт.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_LIGHTHOUSE_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух з Великого маяка.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT_DESCRIPTION">
+      <Text>+1 Посадка [ICON_Movement] Рух з Великого Маяка.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RANGED_ATTACK_DISTRICT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Ranged][ENDCOLOR]Здатність до дальньої атаки проти районів та морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BOMBARD_ATTACK_UNIT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Bombard][ENDCOLOR] Сила бомбардування проти військових одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AIR_FIGHTER_ATTACK_DISTRICT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Ranged][ENDCOLOR]Здібності дальньої атаки проти районів.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AIR_BOMBER_ATTACK_UNIT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Bombard][ENDCOLOR] Сила обстрілу проти військових одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_AIR_COVER_DESCRIPTION">
+      <Text>Забезпечує захист від повітряних атак на відстані до 1 гекса.</Text>
+    </Row>
+    <Row Tag="LOC_PREVIEW_MONTEZUMA_COMBAT_BONUS_PER_LUXURY_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Бойової сили від розкішей. (Монтесума)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова міць проти військ іншої релігії. (Філіп II)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова міць проти міст-держав. (Барбароса)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової Сили на батьківщині. (Рузвельт)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова сила проти поранених одиниць. (Томіріс)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT_DESCRIPTION">
+      <Text>+30 [ICON_Damaged] Здоров'я після перемоги над ворожою одиницею. (Томіріс)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_KNARR_IGNORE_EMBARK_DISEMBARK_COST_DESCRIPTION">
+      <Text>Ігнорує додаткові витрати на рух при посадці та висадці. (Кнар)</Text>
+    </Row>
+    <!--Great People Assigned-->
+    <Row Tag="LOC_ABILITY_RAJENDRA_CHOLA_PLUNDER_BONUS_DESCRIPTION">
+      <Text>+40% Винагороди за здобуття торговельних маршрутів. (Раджендра Чола)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRANCIS_DRAKE_PLUNDER_BONUS_DESCRIPTION">
+      <Text>+50% Винагороди за грабування торгових маршрутів. (Френсіс Дрейк)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CHING_SHIH_PLUNDER_BONUS_DESCRIPTION">
+      <Text>+60% Винагороди за пограбування торгових маршрутів. (Чин Ші)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CLANCY_FERNANDO_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+200% отриманого досвіду з бою. (Кленсі Фернандо)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HORATIO_NELSON_FLANKING_BONUS_DESCRIPTION">
+      <Text>+50% бонус за флангування. (Горатіо Нельсон)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LASKARINA_BOUBOULINA_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+50% Отриманого досвіду від бою. (Ласкарина Бубуліна)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SERGEY_GORSHKOV_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+100% Заробленого досвіду від бойових дій (Сергій Горшков)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS_DESCRIPTION">
+      <Text>+50% бонус за флангування. (Георгій Жуков)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+75 Отримано досвіду від бойових дій. (Джон Монаш)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VIJAYA_WIMALARATNE_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+100 Отримано досвіду від бойових дій. (Віджая Вімаларатне)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової Сили при боротьбі на береговій землі. (Ходжо Токімуне)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOJO_TOKIMUNE_SHALLOW_WATER_COMBAT_BONUS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова міць під час боротьби в мілкій воді. (Ходзьо Токімуне)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY_DESCRIPTION">
+      <Text>+1 [ICON_Strength] Бойової Сили за кожну унікальну розкош, якою володієте.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS_DESCRIPTION">
+      <Text>+1 [ICON_Strength] бойової сили за кожну військову політику, встановлену в поточному уряді.</Text>
+    </Row>
+    <!-- Combat preview description -->
+    <Row Tag="LOC_COMBAT_DIFFICULTY_SCALING">
+      <Text>+{Amount} [ICON_Strength] Бонус бойової сили через складність.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_CAVALRY_MODIFIER_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойова міць проти кінниці</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_FIGHTER_AIRCRAFT_MODIFIER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова сила проти бойових літаків</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAVY_CHARIOT_MODIFIER_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух при старті на відкритій місцевості.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION">
+      <Text>Весь терен коштує 1 [ICON_Movement] Руху.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_ZOC_MODIFIER_DESCRIPTION">
+      <Text>Не піддається впливу ЗОК.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHT_CHARIOT_MODIFIER_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Рух при старті на відкритій місцевості.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_MOVE_AND_SHOOT_MODIFIER_DESCRIPTION">
+      <Text>Не можна рухатись та атакувати в один хід.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_OCEAN_MODIFIER_DESCRIPTION">
+      <Text>Не можу ввійти в океанічні гексагони.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CANNOT_ATTACK_MODIFIER_DESCRIPTION">
+      <Text>Запобігає атакі пристрою.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>Бонус до [ICON_Strength] Бойової Сили в союзній території.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_MODIFIER_DESCRIPTION">
+      <Text>Дозволяє ближньому бою атакувати стіни.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_WALLS_MODIFIER_DESCRIPTION">
+      <Text>Дозволяє ближньому бою обходити стіни.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANIT_SPEAR_MODIFIER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової сили проти протитанкових одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_RANGE_BONUS_MODIFIER_DESCRIPTION">
+      <Text>+1 [ICON_Ranged] Діапазон атаки для навколишньої осадної артилерії.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_MODIFIER_DESCRIPTION">
+      <Text>Неперешкоджений вид</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+4 [ICON_Strength] Бойової Сили від Олігархії</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової Сили від Теократії</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ORDERS_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової Сили від Релігійних Орденів</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 Атака [ICON_Strength] Бойова сила від Фашизму</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COMMUNISM_DEFENSE_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+4 Захист [ICON_Strength] Бойова сила від комунізму</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_OTHER_RELIGION_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової Сили проти цивілізацій, які віддають перевагу іншій релігії.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_WARS_OF_RELIGION">
+      <Text>Релігійні війни: +4 [ICON_Strength] бойова міць проти цивілізацій, які відслідковують іншу релігію.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_HOME_CONTINENT_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова Сила на батьківщині.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_VS_CITY_STATES_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова міць проти міст держав.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_LAND_ON_COAST_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової Сили на прибережній землі</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_SHALLOW_WATER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова міцність в мілких водах</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDIC_HEAL_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} відновлення здоров'я для підрозділів, що знаходяться в радіусі 1 плитки</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STRONG_WHEN_ATTACKING_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Бойової Сили під час атаки</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WEAK_WHEN_DEFENDING_DESCRIPTION">
+      <Text>{1_Amount} [ICON_Strength] Бойової сили при захисті</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PRIZE_SHIPS_MODIFIER_DESCRIPTION">
+      <Text>{1_Amount}% шанс захопити ворога.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CAPTIVE_WORKERS_MODIFIER_DESCRIPTION">
+      <Text>{1_Amount}% шанс захопити ворога</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BALKAN_CAVALRY_COMBAT_HILLS_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Бойової сили під час бою в горах</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COSSACK_LOCAL_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] бойової сили, коли перебуваєте в своїх територіальних межах або поруч з ними</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_REDCOAT_FOREIGN_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Бойова сила при боротьбі на континенті, відмінному від того, де знаходиться ваша столиця</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VARU_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>{1_Amount} [ICON_Strength] Бойової сили, коли прилегає до ворожого Вару</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NAGAO_RANGED_DEFENSE_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Бойової Сили при захисті від дальнобойної атаки</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CONQUISTADOR_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Бойової Сили, коли є релігійна одиниця в межах одного гекса</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GARDE_CONTINENT_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Бойової Сили на тому ж континенті, що й ваша столиця</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOPLITE_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Бойової сили, коли поруч з іншим Гоплітом</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UBOAT_OCEAN_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Бойової Сили на Океанському Терені</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROUGH_RIDER_BONUS_IN_HILLS_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Бойової Сили на гірській місцевості</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_FOREIGN_SPREAD_DESCRIPTION">
+      <Text>Можуть поширювати свою релігію лише в містах в межах своєї імперії.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_CANNOT_ATTACK_DESCRIPTION">
+      <Text>Не можу ініціювати богословську боротьбу.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_RELIGIOUS_DESCRIPTION">
+      <Text>Значна перевага Теологічного бою в їхньому імперії.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ENTER_FOREIGN_LANDS_DESCRIPTION">
+      <Text>Навіть без відкритих кордонів, ця одиниця може увійти на іноземну територію.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_TERRAIN_COST_DESCRIPTION">
+      <Text>Ліс, Джунглі, Пагорби та Болото вимагають лише одного руху [ICON_Movement].</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION">
+      <Text>Нехай вартість руху через річку буде ігнорована.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ARCHAEOLOGIST_ENTER_FOREIGN_LANDS_DESCRIPTION">
+      <Text>Навіть без відкритих кордонів цей загін може ввійти на територію іншої країни.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

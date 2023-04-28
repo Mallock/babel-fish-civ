@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Civ Info-->
+    <Row Tag="LOC_CIVILIZATION_MACEDON_DESCRIPTION">
+      <Text>Македонська імперія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MACEDON_ADJECTIVE">
+      <Text>Macedonian</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_MACEDON_LOCATION">
+      <Text>Європа (та коротко частини Азії та Африки)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_MACEDON_SIZE">
+      <Text>Як королівство, приблизно 25 800 квадратних миль (67 000 квадратних кілометрів)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_MACEDON_POPULATION">
+      <Text>До часів Олександра, можливо, 700 000</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_MACEDON_CAPITAL">
+      <Text>Айгай та Пелла</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PERSIA_DESCRIPTION">
+      <Text>Перська імперія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PERSIA_ADJECTIVE">
+      <Text>Будь ласка, надайте текст для перекладу</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_PERSIA_LOCATION">
+      <Text>Азія та Африка</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_PERSIA_SIZE">
+      <Text>На піку, 2,1 мільйона квадратних миль (5,5 мільйона квадратних кілометрів)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_PERSIA_POPULATION">
+      <Text>35 мільйонів на піку (оцінено)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_PERSIA_CAPITAL">
+      <Text>Пасаргад, Вавилон, Персеполіс</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_ALEXANDER">
+      <Text>Великий воїн, Олександр, під твоїм мечем Македонія розповсюдиться по всьому світу. Кожне царство буде унікальним викликом для подолання, але нагороди будуть великі, якщо ти залишатимешся справжнім і хоробрим. Відкинь мир, бо немає іншого способу заснувати своє спадщину, як завойовуючи великі території. Вперед, Олександре, і приведи свій народ до слави!</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_CYRUS">
+      <Text>Претендуйте на корону, Кір, цар Персії, бо ви помазаний. Зі своїми безсмертними вояками та невідступною вірою, ви підкорите та будете правити народами світу. Можливо, ви бачите, як навколо вас утворюються багато союзів, але не дайте себе обдурити - це застарілий та слабкий спосіб навігації в світі. Не обіцяйте нічого, якщо це не допомагає вам досягти своїх цілей.</Text>
+    </Row>
+    <!-- Leader Agenda-->
+    <Row Tag="LOC_AGENDA_SHORT_LIFE_GLORY_NAME">
+      <Text>Коротке життя слави</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_SHORT_LIFE_GLORY_DESCRIPTION">
+      <Text>Подобаються цивілізації, які перебувають у війні з державами-лідерами, окрім Македонії. Зневажають цивілізації, що перебувають у мирі.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_SHORT_LIFE_GLORY_XP2_DESCRIPTION">
+      <Text>Подобаються цивілізації, що перебувають у війні з іншими великими державами, окрім Македонії. Має зневагу до цивілізацій, які перебувають у мирі. Образливість проти цього лідера зникає з двічі більшою швидкістю, ніж зазвичай.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BACKSTABBER_NAME">
+      <Text>Опортуніст</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BACKSTABBER_DESCRIPTION">
+      <Text>Симпатизує лідерам, які оголошують внезапну війну. Відкидає лідерів, які не використовують оголошення про внезапну війну.</Text>
+    </Row>
+    <!-- Trait Info-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_BASILIKOI_PAIDES_NAME">
+      <Text>Македонська унікальна споруда: Василікой Паїдес</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HYPASPIST_NAME">
+      <Text>Македонська унікальна одиниця: Гіпаспіст</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HETAIROI_NAME">
+      <Text>Унікальна одиниця Александра: Гетерої</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_PAIRIDAEZA_NAME">
+      <Text>Парідейза - унікальна перська будівля</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_PAIRIDAEZA_NAME">
+      <Text>Перська унікальна одиниця: Безсмертний</Text>
+    </Row>
+    <!-- Macedon Cities-->
+    <Row Tag="LOC_CITY_NAME_PELLA">
+      <Text>Пелла</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AIGAI">
+      <Text>Айгай</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA">
+      <Text>Олександрія</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_METHONE">
+      <Text>Метон</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_CHALKIDIKI">
+      <Text>Халкідікі</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_DION">
+      <Text>Діон</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDROUPOLI">
+      <Text>Александропулі</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AMPHIPOLIS">
+      <Text>Амфіполіс</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_TROAS">
+      <Text>Александрія Троя</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PYDNA">
+      <Text>Підна</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_LATMUS">
+      <Text>Александрія біля Латмосу</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRETTA">
+      <Text>Александретта</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_ARIA">
+      <Text>Александрія в Арії</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_PROPHTHASIA">
+      <Text>Александрія Профтазія (Note: This is a transliteration of the English name into Ukrainian.)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_ARACHOSIA">
+      <Text>Александрія в Арахозії</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AIANI">
+      <Text>Aiani</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_CAUCASUS">
+      <Text>Олександрія на Кавказі</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_ESCHATE">
+      <Text>Александрія Есхата</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AKANTHOS">
+      <Text>Акантос</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_OXIANA">
+      <Text>Александрія Оксіана</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_HERACLEA_LYNCESTIS">
+      <Text>Гераклея Лінкестійська</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_BUCEPHALA">
+      <Text>Александрія Букепала</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_NICAEA">
+      <Text>Александрія Нікая</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PHILIPPOLIS">
+      <Text>Філіпполіс</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_INDUS">
+      <Text>Александрія на Індусі</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_RHAMBACIA">
+      <Text>Александрія Рамбація</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_STAGIRA">
+      <Text>Стагіра</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_SUSIANA">
+      <Text>Александрія в Сусіані</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_APOLLONIA">
+      <Text>Аполлонія</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BATMAN">
+      <Text>Бетмен</Text>
+    </Row>
+    <!-- Persia Cities-->
+    <Row Tag="LOC_CITY_NAME_PASARGADAE">
+      <Text>Пасарґада</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SUSA">
+      <Text>Суса</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_HAGMATANA">
+      <Text>Гагматана</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TARSUS">
+      <Text>Тарсус</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BAKHTRI">
+      <Text>Бахтрі</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SPARDA">
+      <Text>Спарда</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_GORDIAN">
+      <Text>Гордіан</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TUSHPA">
+      <Text>Тушпа</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_RAY">
+      <Text>Рей</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ZRANKA">
+      <Text>Доброго ранку</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SHAHR_I_QUMIS">
+      <Text>Шахр-і Куміс</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PARSA">
+      <Text>Parsa</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_HALICARNASSUS">
+      <Text>Галікарнас</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ISPAHAN">
+      <Text>Ісфахан</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TYAIY_DRAYAHYA">
+      <Text>Tyaiy Drayahya </Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MAZAKA">
+      <Text>Mazaka</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_HARAIVA">
+      <Text>Haraiva</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ANASHAN">
+      <Text>Anashan</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PUSHKALAVATI">
+      <Text>Пушкалаваті (Pushkalavati)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PURA">
+      <Text>Pura</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TAXILA">
+      <Text>Таксіла</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BUKHARA">
+      <Text>Бухара</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_GANZAK">
+      <Text>Ganzak</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MARAKANDA">
+      <Text>Мараканда</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_THAPSACUS">
+      <Text>Тапсак</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ISTAKHR">
+      <Text>Істахр</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ARTASHAT">
+      <Text>Арташат</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_IZKI">
+      <Text>Ізки</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BORAZJAN">
+      <Text>Боразджан</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_CYRA">
+      <Text>Cyra</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TOPRAK_QALA">
+      <Text>Топрак-Кала</Text>
+    </Row>
+    <!-- Citizen Names -->
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_1">
+      <Text>Aeropus (Аероп)</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_2">
+      <Text>Агатоклес</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_3">
+      <Text>Алкетас</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_4">
+      <Text>Balacrus</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_5">
+      <Text>Каранус</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_6">
+      <Text>Кратеас</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_7">
+      <Text>Койнос</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_8">
+      <Text>Лісімах</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_9">
+      <Text>Орстед</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_10">
+      <Text>Tryimmas</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_1">
+      <Text>Adea</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_2">
+      <Text>Арсіноє</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_3">
+      <Text>Береніка</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_4">
+      <Text>Цинане</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_5">
+      <Text>Європа</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_6">
+      <Text>Гея</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_7">
+      <Text>Нікая</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_8">
+      <Text>Філінна</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_9">
+      <Text>Фтія</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_10">
+      <Text>Стратоніка</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_1">
+      <Text>Аргіріс</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_2">
+      <Text>Елефтеріос</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_3">
+      <Text>Харіс</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_4">
+      <Text>Іоанніс</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_5">
+      <Text>I am sorry, but "Omiros" is a name and cannot be translated as it does not have a meaning in English or Ukrainian</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_6">
+      <Text>Prokopis</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_7">
+      <Text>Стефанос</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_8">
+      <Text>Танасіс</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_9">
+      <Text>Трифон</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_10">
+      <Text>Зінон</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_1">
+      <Text>Крізантема</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_2">
+      <Text>Дімітра</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_3">
+      <Text>Евдокія</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_4">
+      <Text>Kyveli</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_5">
+      <Text>Мельпомена</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_6">
+      <Text>Нефелі</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_7">
+      <Text>Параскеві</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_8">
+      <Text>Поліксені</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_9">
+      <Text>Теофанія (Teofaniya)</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_10">
+      <Text>Зіновія</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_1">
+      <Text>Аріомардус</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_2">
+      <Text>Арсамес</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_3">
+      <Text>Арсітес</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_4">
+      <Text>Бардія</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_5">
+      <Text>Камбізес</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_6">
+      <Text>Ґаумата</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_7">
+      <Text>Гідарнес</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_8">
+      <Text>Otanes</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_9">
+      <Text>Оксіатрес</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_10">
+      <Text>Согдіанус</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_1">
+      <Text>Artistun</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_2">
+      <Text>Кассандане</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_3">
+      <Text>Sorry, but "Drypetis" is a name and it doesn't have a translation into Ukrainian</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_4">
+      <Text>Парміда</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_5">
+      <Text>Парисатіс</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_6">
+      <Text>Федимія</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_7">
+      <Text>Роксана</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_8">
+      <Text>Сісігамбіс</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_9">
+      <Text>Stateira</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_10">
+      <Text>Amytis</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_1">
+      <Text>Араш</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_2">
+      <Text>Даріуш</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_3">
+      <Text>Фірдаус</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_4">
+      <Text>Ялал</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_5">
+      <Text>К'януш</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_6">
+      <Text>Ростам</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_7">
+      <Text>Saam</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_8">
+      <Text>Soheil</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_9">
+      <Text>Vahid</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_10">
+      <Text>Зубін</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_1">
+      <Text>Banu</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_2">
+      <Text>Darya</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_3">
+      <Text>Firuzeh</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_4">
+      <Text>Гольнар</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_5">
+      <Text>Лале</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_6">
+      <Text>Нюша</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_7">
+      <Text>Рогая</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_8">
+      <Text>Simin</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_9">
+      <Text>Ясамін</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_10">
+      <Text>Zareen</Text>
+    </Row>
+    <!-- Wonders-->
+    <Row Tag="LOC_BUILDING_APADANA_NAME">
+      <Text>Ападана</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_APADANA_DESCRIPTION">
+      <Text>+2 [ICON_ENVOY] Послів, коли ви будуєте диво, включаючи Ападану, у цьому місті.[NEWLINE][NEWLINE]Має бути побудовано поруч з вашим [ICON_CAPITAL] Капіталом.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_NAME">
+      <Text>Мавзолей у Галикарнасі</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION">
+      <Text>+1 [ICON_Science] Наука, +1 [ICON_Faith] Віра та +1 [ICON_Culture] Культура на всіх прибережних плитах для даного міста. [ICON_GREATENGINEER] Великі інженери мають додатковий заряд. Має бути побудований поруч з гаванню.</Text>
+    </Row>
+    <!-- Diplo Text-->
+    <Row Tag="LOC_DIPLO_MODIFIER_SHORT_LIFE_GLORY_AT_WAR">
+      <Text>Олександр радий бачити, що ваша цивілізація веде війну з іншими.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SHORT_LIFE_GLORY_NOT_AT_WAR">
+      <Text>Олександр не радий бачити, що ваша цивілізація наразі знаходиться в стані миру.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BACKSTABBER_USED_SURPRISE_WAR">
+      <Text>Кірс радий бачити вашу Декларацію Несподіваної Війни.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BACKSTABBER_NOT_AT_WAR">
+      <Text>Кірус незадоволений тим, що ви не оголосили Неочікувану Війну.</Text>
+    </Row>
+    <!-- Dialog Text Alexander -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>Люди Македонії вітають цю довготривалу дружбу.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>Це ще зарано визначати, чи призначено нашу дружбу. Лише Боги самі точно знають.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Я вважаю тебе справжнім другом, і сподіваюся, що заслужив твою довіру так само, як і ти мою.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Люди Македонії вітають це тривале дружбу.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Ще зарано сказати, чи призначено нам бути друзями. Тільки боги знають на певно.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>Мир ніколи не цікавив мене занадто багато.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Армії Греції чекають на вас з відкритими обіймами!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>Я ціную ваші пропозиції. Будьте впевнені, ваша делегація насолодиться всім, що пропонує Македонія протягом перебування в моєму королівстві.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>Я ніколи не прийняв би цього!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Я відправив торгову делегацію, яка несе дарунки з найкращого вина та оливкової олії, які може запропонувати Македонія. Я сподіваюся, що ви щиро зустрінете моїх послів?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>Твій клеветницький язик зробить все те, що я зазнаю задоволення, коли я стану перед руїнами твоєї столиці!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Я мав справу з зрадниками та дезертирами, які були ще більш чесними, ніж ти! (висловлює засудження вас).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ALEXANDER_ANY">
+      <Text>Привітання! Я Олександр Македонський, Король та Фараон, непереможний Генерал Греції! Ви, безперечно, чули про мене?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ALEXANDER_ANY">
+      <Text>Приходьте і відвідайте найближчі мої міста, прогуляйтеся серед шумних Агор Македонії та побачте, як торгівля процвітає серед мого народу.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ALEXANDER_ANY">
+      <Text>Хай буде зроблено.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ALEXANDER_ANY">
+      <Text>Чи чули ви про надзвичайно обороноздатне місто Пелла? Можливо, ми могли б поділитися історіями наших великих столиць!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_ALEXANDER_ANY">
+      <Text>Ласкаво просимо!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ALEXANDER_ANY">
+      <Text>Я сподіваюсь, що ми ніколи не зустрінемося в бою, бо було б шкода втратити такого гідного опонента.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ALEXANDER_ANY">
+      <Text>Як ви збираєтеся розширювати свою імперію, якщо ви відмовляєтеся боротися за свій народ?!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Як союзники, ми могли би підтримувати завоювання один одного. Я навіть не збираюся вимагати від вас дань!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ALEXANDER_ANY">
+      <Text>Я припускаю, що зараз я можу розмістити свої армії в іншому місці.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ALEXANDER_ANY">
+      <Text>Не витрачайте мій час.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Я вважаю, що настав час миру. Як ви вважаєте?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>Я довіряю, що ви поважатимете привілей перетинати наші землі.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>Це може бути небезпечним для вашої армії проходити через ці землі так близько до моїх власних сил.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Чи дозволите ви нам маршрутувати за межі вашої території? Ми шукаємо Велике Зовнішнє Море!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ALEXANDER_ANY">
+      <Text>Мої розвідники повідомили мені, що ви концентруєте сили біля наших кордонів. Будьте обережні, мої армії легко можуть бути спокушені до війни.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_ALEXANDER_ANY">
+      <Text>Мої армії будуть рухатись вільно та без будь-якого втручання з вашого боку!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_ALEXANDER_ANY">
+      <Text>Мусить бути якась помилка, ви ще не повинні спричинити гнів моїх армій.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Так само швидко, як почалася, моя довга мандрівка нарешті закінчується.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Малоймовірно.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>Домовлено!</Text>
+    </Row>
+    <!-- Dialog Text Cyrus -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>Ми завжди раді формувати міцні дружні стосунки. Де б ми були без наших друзів?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>Персія завжди шукає надійних друзів. Коли ми будемо впевнені, що ви є таким, ми з вами зв'яжемося.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Ви є серед наших найбільш довірених друзів. Ми сподіваємося, що ви бачите нас у такому ж світлі.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Тоді вирішено.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Яка нещастя.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>Чи не чули ви легенд? Чи не бачили ви могутність моїх армій? Переконайтесь самі.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Прийшов час показати вашому народу, як вони можуть прожити під компетентним правителем.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>Я особисто привітав вашого посланця до Королівства Персії. Я можу лише сподіватися на плідні переговори, які найкраще служать нашим інтересам.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>Ми відмовляємося.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Я послав до вашого королівства торгового емісара з подарунками з дзеркального скла та глиняної посуду від наших найкращих майстрів. Я впевнений, що ви будете ставитися до мого посланця з тим самим повагою, що й до мене?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>Тільки зі страхом та невіглаством можна було зробити таку декларацію проти благовільного управління Персії.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Ми відкидаємо все, що ви представляєте! Персія бажає лише відірватися від вас та вашого способу життя. (Відкидає вас).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CYRUS_ANY">
+      <Text>Ви стоїте перед великим Кіром Перським. Я впевнений, що ми станемо швидкими друзями, принаймні на даний момент.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CYRUS_ANY">
+      <Text>Ти повинен відвідати наше поруч місто, мій друг, насолоджуючись величчю мистецтва і грандіозного архітектурного стилю Персії.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CYRUS_ANY">
+      <Text>Розумна пропозиція.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CYRUS_ANY">
+      <Text>Я чув цікаві речі про вашу столицю. Можливо, культурний обмін якогось виду між нами був би взаємовигідним?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_CYRUS_ANY">
+      <Text>Що привело вас до мене?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CYRUS_ANY">
+      <Text>Я дуже добре розумію, що деякі можливості просто неможливо пропустити.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CYRUS_ANY">
+      <Text>Якщо виникає обман, я вважаю, що краще, якщо це я забезпечую інтригу.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Це альянс зручності, нічого більше. Але все ж альянс.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CYRUS_ANY">
+      <Text>Так. Відмінно.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CYRUS_ANY">
+      <Text>Ви нас берете за дурнів?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Давайте прийти до миру.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>Нехай це знаменує початок глибшого розуміння між нашими імперіями.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>Зараз не є час, щоб моє царство відкрило свої двері для чужих. Можливо, ми зможемо повернутися до цієї проблеми у майбутньому.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Відкриття наших кордонів, безумовно, зміцнить обидві наші нації. Що ви говорите?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CYRUS_ANY">
+      <Text>Я можу тільки припустити, що така демонстрація сили була проведена помилково. Чи можу я очікувати обережного відведення від наших кордонів найближчим часом?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_CYRUS_ANY">
+      <Text>Якщо ви настільки налаштовані на війну, то армії Персії приймуть вас з відкритими обіймами!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_CYRUS_ANY">
+      <Text>Ми не мали на меті проявляти нешанобливий ставлення. Наші війська негайно відступлять зі своїх позицій.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Так рідко я бачив цю сторону війни.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Ви припускаєте, що збираєтеся скористатися мною?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>Розумна пропозиція.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

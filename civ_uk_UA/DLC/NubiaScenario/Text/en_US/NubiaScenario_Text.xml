@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- OVERRIDES-->
+    <Row Tag="LOC_UI_RELIGION_WORKING_TOWARDS_RELIGION">
+      <Text>Моя релігія</Text>
+    </Row>
+    <Row Tag="LOC_RELIGIONPANEL_NEXT_STEP_EARN_PROPHET">
+      <Text>Ваша релігія починається з пантеону вірувань. Додайте одне додаткове вірування до вашої релігії, коли виконуєте кожну з цивіків: Муміфікація, Книга Мертвих та Амун: Пан Всіх Богів.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCORE_DETAILS">
+      <Text>У цьому сценарії не може бути [COLOR:NeutralCS]SCORE[ENDCOLOR] перемоги. Рахунки відстежуються лише для визначення рівня перемоги у той момент, коли ви завершите будівництво 7 храмів Амона.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Culture] Культура у кожному районі Святого Місця.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Додаткові +2 [ICON_Culture] Культури в кожному окрузі Святого Місця.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Science] Наука в кожному районі Святого Місця.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Додатково +2 [ICON_Science] науки в кожному районі Святого місця.</Text>
+    </Row>
+    <!-- Beliefs-->
+    <Row Tag="LOC_BELIEF_NUN_NAME">
+      <Text>Бог Водяного Безодні (Нун)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ATUM_NAME">
+      <Text>Бог створіння (Атум)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_AMON_NAME">
+      <Text>Господар всіх богів (Амун)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ISIS_NAME">
+      <Text>Богиня плодючості (Ісіда)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_APEDEMAK_NAME">
+      <Text>Бог війни (Апедемак)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ANUBIS_NAME">
+      <Text>Бог муміфікації (Анубіс)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HORUS_NAME">
+      <Text>Охоронець фараонів (Горус)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SEBIUMEKER_NAME">
+      <Text>Страж-Божий (Себіумекер)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_BES_NAME">
+      <Text>Будинок Бога (Беса)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ASH_NAME">
+      <Text>Бог оазисів (Ясен)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_NUN_DESCRIPTION">
+      <Text>+1 [ICON_Production] Виробництво з рибальських човнів.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ATUM_DESCRIPTION">
+      <Text>Усі будівельники можуть збудувати 1 додаткове покращення.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_AMON_DESCRIPTION">
+      <Text>+30% виробництва [ICON_Production] при побудові чудес. Вартість покупки [ICON_Faith] віри зменшена на 30%.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ISIS_DESCRIPTION">
+      <Text>Темпи зростання міста на 15% вищі.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_APEDEMAK_DESCRIPTION">
+      <Text>Бойові перемоги надають [ICON_Science] Науки у розмірі 50% від [ICON_Strength] Бойової Сили знищеного військового підрозділу.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ANUBIS_DESCRIPTION">
+      <Text>Всі будівлі Святого Місця надають +2 [ICON_Faith] Віри.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HORUS_DESCRIPTION">
+      <Text>Один додатковий слот політики Wildcard у будь-якому уряді.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SEBIUMEKER_DESCRIPTION">
+      <Text>Бойові підрозділи отримують +10 [ICON_Strength] бойової міцності, коли знаходяться в межах дружніх міст.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_BES_DESCRIPTION">
+      <Text>Усі дружні міста отримують додатково +1 [ICON_Amenities] зручностей.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ASH_DESCRIPTION">
+      <Text>+3 [ICON_Culture] Культури, +3 [ICON_Faith] Віри та +2 [ICON_Production] Виробництва на плитах Оазису.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SEBIUMEKER_DESCRIPTION">
+      <Text>+{1_Value} Віра в Божество-опікуна (Себумекера)</Text>
+    </Row>
+    <!-- Buildings-->
+    <Row Tag="LOC_BUILDING_OBELISK_NAME">
+      <Text>Обеліск</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIAN_SHRINE_NAME">
+      <Text>Святилище</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_AMUN_NAME">
+      <Text>Храм Амона</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NILOMETER_NAME">
+      <Text>Нілометр</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NILOMETER_DESCRIPTION">
+      <Text>+1 [ICON_Food] Їжі та +1 [ICON_Production] Виробництву на всіх плоскогірських плитах. Може бути збудований лише в місті, яке межує з плитою річки Ніл.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_WALLS_DESCRIPTION">
+      <Text>Забезпечує стіни навколо Центру міста та Окопного району. Стіни дозволяють [ICON_Ranged] постріли на відстані з Центру міста та Окопного району і повинні бути знищені перед наступом на місто.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_GREAT_LIBRARY_DESCRIPTION">
+      <Text>Отримайте підвищення всіх технологій стародавньої та класичної ери. Має бути побудовано на рівній землі.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_GREAT_LIGHTHOUSE_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Рух для всіх морських одиниць[NEWLINE][NEWLINE]Має бути побудовано на узбережжі, поруч з землею та портом з маяком.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_PYRAMIDS_DESCRIPTION">
+      <Text>Побудовано до початку сценарію біля міста-держави Он на місці, що знаходиться біля Гізи. Може бути захоплено, щоб отримати основний джерело віри і нагородити всіх нових будівельників здатністю будувати 1 додаткове вдосконалення.</Text>
+    </Row>
+    <!-- City State-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ASHMUNEIN">
+      <Text>Ашмунейн</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BAHARIYA">
+      <Text>Бахарія</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BYBLOS">
+      <Text>Біблос</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DAKHLA">
+      <Text>Дахла</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_IHNASIYA">
+      <Text>Ihnasiya</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_IREM">
+      <Text>Я слухаю вас</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KHARGA">
+      <Text>Kharga</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NEKHEN">
+      <Text>Некен</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ON">
+      <Text>На</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PUNT">
+      <Text>I need a full sentence or text to translate, as "Punt" alone does not provide enough context for translation</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SHARUHEN">
+      <Text>Sharuhen</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SERABIT_EL_KHADIM">
+      <Text>Серабит-ель-Хадім</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_THINIS">
+      <Text>Thinis</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASHMUNEIN_DESCRIPTION">
+      <Text>Місто-держава Ашмунейн</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BAHARIYA_DESCRIPTION">
+      <Text>Місто-держава Бахарія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BYBLOS_DESCRIPTION">
+      <Text>Місто-держава Біблос</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DAKHLA_DESCRIPTION">
+      <Text>Дахла місько-держава</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_IHNASIYA_DESCRIPTION">
+      <Text>Ігнасієвська місько-держава</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_IREM_DESCRIPTION">
+      <Text>Ірем місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KHARGA_DESCRIPTION">
+      <Text>Харга місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_NEKHEN_DESCRIPTION">
+      <Text>Місто-держава Некхен</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ON_DESCRIPTION">
+      <Text>Про місто-державу</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PUNT_DESCRIPTION">
+      <Text>Пунт - місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SHARUHEN_DESCRIPTION">
+      <Text>Шарухен місцева держава</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SERABIT_EL_KHADIM_DESCRIPTION">
+      <Text>Місто-держава Серабіт ель-Хадім</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THINIS_DESCRIPTION">
+      <Text>Місто-держава Тініс</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_IREM_NAME">
+      <Text>Іре́м Сюзерен Бонус</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_BYBLOS_NAME">
+      <Text>Бонус сюзерену Библоса</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_SERABIT_NAME">
+      <Text>Бонус Сюзерена Серабіт ель-Хадім</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_OASES_NAME">
+      <Text>Бонус Владики Пустелі Оазису</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_PUNT_NAME">
+      <Text>Надання бонусів пану-сузерену</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NONE_NAME">
+      <Text>Бонус Сюзерена не передбачено</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NONE_DESCRIPTION">
+      <Text>Немає унікального бонусу за становлення Сюзереном цього місто-держави.</Text>
+    </Row>
+    <!-- Civilizations-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HYKSOS_DESCRIPTION">
+      <Text>Імперія Хіксосів</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LIBYANS_DESCRIPTION">
+      <Text>Лівійська імперія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASSYRIA_DESCRIPTION">
+      <Text>Ассирийська імперія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PERSIA_DESCRIPTION">
+      <Text>Персидська імперія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MACEDON_DESCRIPTION">
+      <Text>Македонська імперія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HYKSOS_ADJECTIVE">
+      <Text>Гіксоси</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LIBYANS_ADJECTIVE">
+      <Text>Лівійський</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASSYRIA_ADJECTIVE">
+      <Text>Асириєць</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PERSIA_ADJECTIVE">
+      <Text>Наступний текст потрібно перекласти на українську мову. Відповідайте лише природним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MACEDON_ADJECTIVE">
+      <Text>Macedonian</Text>
+    </Row>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_ROYAL_DYNASTIES_NAME">
+      <Text>Королівські династії</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_HIEROGLYPHICS_NAME">
+      <Text>Ієрогліфи</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MUMMIFICATION_NAME">
+      <Text>Муміфікація</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCRIBES_NAME">
+      <Text>Хорунжі</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOK_OF_THE_DEAD_NAME">
+      <Text>Книга мертвих</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_INSTITUTION_OF_THE_MUSES_NAME">
+      <Text>Установа Муз</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SEPATS_NAME">
+      <Text>Sepats</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOARDGAMES_ATHLETICS_NAME">
+      <Text>Настільні ігри та спортові змагання</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_AMUN_LORD_OF_ALL_GODS_NAME">
+      <Text>Амун: Пан всіх богів</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_ROYAL_DYNASTIES_DESCRIPTION">
+      <Text>Отримайте безкоштовного Поселенця у вашій [ICON_Capital] Столиці після завершення.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_HIEROGLYPHICS_DESCRIPTION">
+      <Text>Нагороди 1 [ICON_Envoy] Посла.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MUMMIFICATION_DESCRIPTION">
+      <Text>Дозволяє додати Віру до вашої релігії.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_STATE_WORKFORCE_DESCRIPTION">
+      <Text>Отримайте безкоштовного поселенця у вашій [ICON_Capital] столиці після завершення.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_FOREIGN_TRADE_DESCRIPTION">
+      <Text>Дозволяє створити ще один торговий маршрут [ICON_TradeRoute]. Нагороджує 1 відправником [ICON_Envoy].</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCRIBES_DESCRIPTION">
+      <Text>Нагороди 1 [ICON_Envoy] Посланця.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOK_OF_THE_DEAD_DESCRIPTION">
+      <Text>Дозволяє додати Віру до вашої релігії.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_INSTITUTION_OF_THE_MUSES_DESCRIPTION">
+      <Text>Нагороди 1 [ICON_Envoy] Посла.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SEPATS_DESCRIPTION">
+      <Text>Отримайте безкоштовного Поселенця в своєму [ICON_Capital] столиці після завершення.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOARDGAMES_ATHLETICS_DESCRIPTION">
+      <Text>Отримайте безкоштовно [ICON_GreatGeneral] Великого генерала у вашій [ICON_Capital] столиці після завершення. Надає бонуси за бій з флангу та підтримку всім бойовим підрозділам.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_AMUN_LORD_OF_ALL_GODS_DESCRIPTION">
+      <Text>Дозволяє додати Віру до вашої релігії.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_FUTURE_CIVIC_DESCRIPTION">
+      <Text>Це можна виконати кілька разів.</Text>
+    </Row>
+    <!-- Districts-->
+    <Row Tag="LOC_DISTRICT_NUBIA_SCENARIO_HARBOR_DESCRIPTION">
+      <Text>Район для морської діяльності у вашому місті. Також знімає штраф руху [ICON_Movement] при посадці та висадці на цю клітину. Має бути побудований на узбережжі, річці Ніл або озері поруч з землею. [NEWLINE] [NEWLINE] +1 [ICON_TradeRoute] ємність торгового маршруту, якщо у цьому місті ще немає району комерційного центру.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NILE_RIVER_FAITH">
+      <Text>+{1_num} [ICON_Faith] Віра з прилеглої річки Ніл {1_Num : plural 1?плитка; other?плиток;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NILE_RIVER_GOLD">
+      <Text>+{1_num} [ICON_Gold] Золото з прилеглої ріки Ніл {1_Num : plural 1?плитки; other?плиток;}.</Text>
+    </Row>
+    <!-- Governments-->
+    <Row Tag="LOC_GOVERNMENT_KANDAKE_NAME">
+      <Text>Кандака</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_PHARAOH_NAME">
+      <Text>Фараон</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_KANDAKE">
+      <Text>+1 [ICON_TradeRoute] Торговельні маршрути.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_PHARAOH">
+      <Text>[ICON_Capital] Столиця отримує підвищення на +2 до всіх доходів.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATING_BONUS_KANDAKE">
+      <Text>Знижка 15% на покупки з [ICON_Gold] Gold.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATING_BONUS_PHARAOH">
+      <Text>+2 [ICON_Housing] Житло у будь-якому місті зі святинею.</Text>
+    </Row>
+    <!-- Great People-->
+    <Row Tag="LOC_NUBIA_SCENARIO_DOUBLE_COMBAT_STRENGTH_AOE_LAND">
+      <Text>+10 [ICON_Strength] Бонус бойової дії для всіх одиниць, що знаходяться в радіусі 2 плиток.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_DOUBLE_COMBAT_STRENGTH_AOE_LAND_MODIFIER">
+      <Text>+10 [ICON_Strength] бойовий бонус від [ICON_GreatGeneral] Великого Генерала.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MONTUHOTEP_NAME">
+      <Text>Ментухотеп II</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PIYE_NAME">
+      <Text>Piye</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMANIRENAS_NAME">
+      <Text>Аманіренас</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHA_NABU_SHU_NAME">
+      <Text>Ша-Набу-шу</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CAMBYSES_NAME">
+      <Text>Камбіз II</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALEXANDER_NAME">
+      <Text>Олександр</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMANISHAKETO_NAME">
+      <Text>Я не маю контексту, що означає це слово. Будь ласка, надайте додаткову інформацію</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HOREMHEB_NAME">
+      <Text>Горемхеб</Text>
+    </Row>
+    <!-- Improvements-->
+    <Row Tag="LOC_IMPROVEMENT_NUBIA_SCENARIO_SPHINX_DESCRIPTION">
+      <Text>Розблоковує здібність Верховної Жриці будувати Сфінкс, унікальний для Єгипту.[NEWLINE][NEWLINE]+1 [ICON_Faith] Віри та +1 [ICON_Culture] Культури. +1 Апеляції. +2 [ICON_Faith] Віри, якщо поруч з чудом або Святим Місцем. Не може бути побудований поруч з іншим Сфінксом. Може бути побудований на Затоплених Землях. [ICON_Faith] [ICON_Culture] [ICON_Faith]</Text>
+    </Row>
+    <!-- Policies-->
+    <Row Tag="LOC_POLICY_ABU_SIMBEL_NAME">
+      <Text>Абу Сімбел</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FRONTIER_FORTRESSES_NAME">
+      <Text>Фортеці на кордоні</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INUNDATION_CALENDAR_NAME">
+      <Text>Календар затоплень</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERCENARIES_NAME">
+      <Text>Найманці</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_COMMUNICATION_NAME">
+      <Text>Військове спілкування</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MUSAEUM_NAME">
+      <Text>Музей</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RECORDKEEPING_NAME">
+      <Text>Облік документів</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ROYAL_BODYGUARDS_NAME">
+      <Text>Королівські охоронці</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCORPION_KING_NAME">
+      <Text>Король Скорпіонів</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_AGREEMENT_NAME">
+      <Text>Угода про торгівлю</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_VALLEY_OF_THE_KINGS_NAME">
+      <Text>Долина царів</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_CONSCRIPTION_DESCRIPTION">
+      <Text>+50% [ICON_Production] Виробництво ближньої та дальньої бойових одиниць епохи Стародавнього та Класичного періодів.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_GOD_KING_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Віра в [ICON_Capital] Капітал.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_MANEUVER_DESCRIPTION">
+      <Text>+100% [ICON_Production] виробництво важких та легких кінних одиниць епохи Стародавнього світу та Класичної епохи.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ABU_SIMBEL_DESCRIPTION">
+      <Text>+100% [ICON_Culture] Культури з будівель Святинь.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FRONTIER_FORTRESSES_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Золото з усіх [ICON_TradeRoute] Торгових Маршрутів.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INUNDATION_CALENDAR_DESCRIPTION">
+      <Text>+1 [ICON_Science] Наука за кожне місто, прилегле до водного тайлу</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERCENARIES_DESCRIPTION">
+      <Text>Сплатіть половину звичайної вартості для збору місько-державних підрозділів.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_COMMUNICATION_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Рух для всіх земельних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MUSAEUM_DESCRIPTION">
+      <Text>Подвоєння виробітку [ICON_Science] науки всіма вашими містами.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RECORDKEEPING_DESCRIPTION">
+      <Text>Обслуговування одиниць зменшено на 1 золото [ICON_Gold] на хід, на одну одиницю.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ROYAL_BODYGUARDS_DESCRIPTION">
+      <Text>+2 [ICON_Culture] Культура в [ICON_Capital] столиці.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCORPION_KING_DESCRIPTION">
+      <Text>+4 [ICON_Strength] Бойової сили для всіх одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SCORPION_KING_COMBAT_STRENGTH">
+      <Text>+{1_Value} від Короля Скорпіонів.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_AGREEMENT_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Золота з міжнародних [ICON_TradeRoute] Торгових маршрутів.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_VALLEY_OF_THE_KINGS_DESCRIPTION">
+      <Text>+100% бонусів прилеглості до священного району.</Text>
+    </Row>
+    <!-- Religions-->
+    <Row Tag="LOC_RELIGION_NUBIA_SCENARIO_NUBIA_NAME">
+      <Text>Боги Нубії</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_NUBIA_SCENARIO_EGYPT_NAME">
+      <Text>Єгипетські боги</Text>
+    </Row>
+    <!-- Resources-->
+    <Row Tag="LOC_RESOURCE_SCENARIO_GOLD_NAME">
+      <Text>Золота руда</Text>
+    </Row>
+    <!-- Routes-->
+    <Row Tag="LOC_ROUTE_NUBIA_SCENARIO_ROAD_DESCRIPTION">
+      <Text>Може бути побудований через [ICON_TradeRoute] Торгівельні маршрути. Покращує [ICON_Movement] швидкість руху будь-якого військового підрозділу, що переміщується з одного ділянки дороги на іншу.</Text>
+    </Row>
+    <!-- Technologies-->
+    <Row Tag="LOC_TECH_FISHING_NAME">
+      <Text>Риболовля</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MEDICINE_NAME">
+      <Text>Медицина</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FORTIFICATION_NAME">
+      <Text>Фортифікація</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TOMB_BUILDING_NAME">
+      <Text>Будівництво гробниці</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FISHING_DESCRIPTION">
+      <Text>Дозволяє будівельникам розпочати роботу.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_NUBIA_SCENARIO_SAILING_DESCRIPTION">
+      <Text>Дозволяє всім сухопутним військам виходити на борт.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_NUBIA_SCENARIO_MATHEMATICS_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Рух для всіх морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MEDICINE_DESCRIPTION">
+      <Text>Отримайте 2 безкоштовних поселенців у вашій [ICON_Capital] столиці при завершенні.</Text>
+    </Row>
+    <!-- Units-->
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_GREAT_GENERAL_DESCRIPTION">
+      <Text>Кожен [ICON_GreatGeneral] Великий Генерал має пасивний бойовий ефект на близько розташовані військові частини у цьому сценарії.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_GREAT_PROPHET_DESCRIPTION">
+      <Text>Великі [ICON_GreatProphet] Пророки не зустрічаються в цьому сценарії. Як тільки буде засновано столицю, релігія автоматично народжується і в Єгипті, і в Нубії.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_EGYPTIAN_CHARIOT_ARCHER_DESCRIPTION">
+      <Text>Єгипетська унікальна дальнобійна одиниця епохи Стародавнього світу, що замінює Важкий Карету. 6 [ICON_Movement] руху при старті в відкритому місцевості.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_SETTLER_DESCRIPTION">
+      <Text>Можна створювати нові міста. Поселенці отримуються тільки за умови завершення цивільних наук та технології медицини. Їх ніколи не можна будувати.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HIGH_PRIESTESS_NAME">
+      <Text>Верховна жриця</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDJAY_NAME">
+      <Text>Меджай</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HIGH_PRIESTESS_DESCRIPTION">
+      <Text>Унікальний будівельник, який єдиною функцією має створення однієї Сфінкса або Нубійської піраміди.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDJAY_DESCRIPTION">
+      <Text>Міцний ближній бійцівський підрозділ з великим бойовим бонусом, якщо знаходиться на дружній території та в радіусі 1 тайлу від Святого місця. Може будуватися лише в місті з Святим місцем, яке містить будівлю Алтаря</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDJAY_HOLY_SITE_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Value} Бойової сили в дружній території біля святого місця.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_DOUBLE_STRENGTH_NAME">
+      <Text>Поблизу Великий Генерал</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_DOUBLE_STRENGTH_DESCRIPTION">
+      <Text>+10 [ICON_Strength] бонус до бойових властивостей від Великого Генерала.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDJAY_DESCRIPTION">
+      <Text>+20 [ICON_Strength] Бойовий бонус, коли перебуваєте поруч зі Святинею Святилища.</Text>
+    </Row>
+    <!-- Civic Boosts-->
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_STATE_WORKFORCE">
+      <Text>Покращити 8 плиток.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_FOREIGN_TRADE">
+      <Text>Знайомтеся з 6 міст-державами.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SCRIBES">
+      <Text>Побудуйте 2 різні спеціалізовані райони.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_BOOK_OF_THE_DEAD">
+      <Text>Завоювати місто.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_INSTITUTION_OF_THE_MUSES">
+      <Text>Дослідіть технології математики.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SEPATS">
+      <Text>Побудуйте 2 райони Таборів.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_BOARDGAMES_ATHLETICS">
+      <Text>Зростіть свою цивілізацію до щонайменше 24 населення.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_AMUN_LORD_OF_ALL_GODS">
+      <Text>Побудуйте 3 святилища.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_STATE_WORKFORCE">
+      <Text>З розвитком земель навколо наших ранніх міст, ми можемо допрацювати свої техніки виробництва.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_FOREIGN_TRADE">
+      <Text>Ваші контакти з іншими державами відкрили можливості для прибуткової торгівлі.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SCRIBES">
+      <Text>Наше місто так швидко зростає, що нам потрібен новий клас робітників, щоб допомогти нам відслідковувати все.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_BOOK_OF_THE_DEAD">
+      <Text>У нас є деякі полеглих героїв з нашої завойованої міста. Давайте полегшимо їм шлях через підземний світ.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_INSTITUTION_OF_THE_MUSES">
+      <Text>Наші вчені з математики є зразком для науки. Давайте допоможемо їм, зібравши знання світу під одним дахом.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SEPATS">
+      <Text>За допомогою Табору ми можемо захищати наші землі та контролювати наші кордони, зміцнюючи нашу регіональну владу.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_BOARDGAMES_ATHLETICS">
+      <Text>Зростаюча кількість громадян на вашій території потребує більшого розваги. Можливо, ми зіграємо в сенет або спробуємо свої сили в стрільбі з лука?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_AMUN_LORD_OF_ALL_GODS">
+      <Text>Наші люди тепер визнають одного всевишнього бога Амона. Давайте побудуємо великі храми, щоб відсвяткувати творця посоха життя.</Text>
+    </Row>
+    <!-- Tech Boosts-->
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SAILING">
+      <Text>Покращіть 2 морські ресурси.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_IRRIGATION">
+      <Text>Побудуйте 4 ферми.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_THE_WHEEL">
+      <Text>Побудуйте пасовисько.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_MEDICINE">
+      <Text>Побудуйте 2 плантації.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_FORTIFICATION">
+      <Text>Стати об'єктом Декларації війни.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_TOMB_BUILDING">
+      <Text>Маєте громадянство Книги мертвих.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_CELESTIAL_NAVIGATION">
+      <Text>Маю 2 галери.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_MATHEMATICS">
+      <Text>Побудуйте 3 нілометри.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_IRON_WORKING">
+      <Text>Вбити ворожого мечника.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_HORSEBACK_RIDING">
+      <Text>Вбити ворожого кіннотника.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SAILING">
+      <Text>Ваші рибалки допомагають нам вивчати, як будувати човни для військових цілей.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_IRRIGATION">
+      <Text>Ваші багаточисельні ферми дають вам усвідомлення важливості поливу ваших посівів.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_THE_WHEEL">
+      <Text>Приручення тварин може бути корисним. Чи можемо ми змусити їх нести війська до бою?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_MEDICINE">
+      <Text>Ви змішуєте трави з вирощуваними культурами на своїх плантаціях. Чи мають деякі з них лікарські властивості?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_FORTIFICATION">
+      <Text>Стикаючись з загрозою інвазії, ваші люди готові придумувати нові інноваційні захисні засоби.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_TOMB_BUILDING">
+      <Text>З усіма правильними молитвами записаними, ми тепер можемо будувати гробниці для вшанування наших найвеличніших людей.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_CELESTIAL_NAVIGATION">
+      <Text>Ваші команди камбузу вчаться керувати своїми подорожами, вивчаючи нічне небо.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_MATHEMATICS">
+      <Text>Ваші найкращі наукові розуми дуже точно передбачають повені Нілу.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_IRON_WORKING">
+      <Text>Ми здолали достатньо Мечників, щоб скоро ми могли використовувати подібні одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_HORSEBACK_RIDING">
+      <Text>Ми здолали достатньо Всадників, щоб незабаром ми могли створювати подібні підрозділи.</Text>
+    </Row>
+    <!-- Terrain/Features-->
+    <Row Tag="LOC_FEATURE_CATARACT_NAME">
+      <Text>Катаракта</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_NILE_RIVER_NAME">
+      <Text>Річка Ніл</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_VICTORY_NUBIA_SCENARIO_TEXT">
+      <Text>Ви стали першим гравцем, який побудував 7 храмів на честь великого бога Амона. Безумовно, варто побудувати велику піраміду, щоб відзначити ваші досягнення!</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_TEMPLE_COUNT">
+      <Text>{1_Player} - Храми Амона, побудовані: {2_Num}</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_1_NAME">
+      <Text>Живе зображення Амона</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_2_NAME">
+      <Text>Шанований Ісідою</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_3_NAME">
+      <Text>Обраність Анубіса</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_4_NAME">
+      <Text>Учень Горуса</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_5_NAME">
+      <Text>Забутий Bes-ом</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_6_NAME">
+      <Text>Відкинутий Ашем</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_1_QUOTE">
+      <Text>Пан всіх богів шанує вас. (Не дозволяйте цьому заважати вам.)</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_2_QUOTE">
+      <Text>Вона плаче сльозами радості за ваші досягнення.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_3_QUOTE">
+      <Text>Він готує спеціальні канопічні посудини для ваших внутрішніх органів.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_4_QUOTE">
+      <Text>За вшанування його творів, ви ніколи не зіткнетеся із піщаною бурею.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_5_QUOTE">
+      <Text>Можливо, наступного разу він згадає попередити вас про змій.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_6_QUOTE">
+      <Text>Ви не знайдете жодної оази в пустелі, тільки пісок на піску на піску.</Text>
+    </Row>
+    <!-- Events-->
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_1">
+      <Text>Відновити Стародавнє Царство</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_2">
+      <Text>Нубія натягує свій лук</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_3">
+      <Text>Просити повернення до Нубії</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_4">
+      <Text>Просимо повернутися до нашого сервісу</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_5">
+      <Text>Фараон Ментухотеп II зайняв трон</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_6">
+      <Text>Фараон Ментухотеп II зустрічається з Озирісом</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_7">
+      <Text>Високопреосвящена жерцівка присвячує святе місце</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_8">
+      <Text>Король Піє вступає на трон</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_9">
+      <Text>Король Піє зустрічає Озиріса</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_10">
+      <Text>Королева Аманіренас піднімається на трон</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_11">
+      <Text>Королева Аманіренас зустрічається з Озирисом</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_12">
+      <Text>Гіксоси вторгаються</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_13">
+      <Text>Лівія нападає</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_14">
+      <Text>Ассирія нападає</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_15">
+      <Text>Перси здійснює вторгнення</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_16">
+      <Text>Македонія нападає</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_17">
+      <Text>Рим нападає</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_18">
+      <Text>Таємні військові слони</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_1">
+      <Text>Стародавнє царство більше не існує. Хоча громадянська війна тягне землю, доля твоєї родини - об’єднана Єгипет. Можливо, короткострокова допомога нубійських наемників допоможе тобі повернути міста вздовж річки Ніл.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_2">
+      <Text>Ваша сім'я має владу над важливим ділянкою річки Ніл. З вашими єгипетськими сусідами на півночі, які стикаються з внутрішніми конфліктами, Країна Лука знаходиться на межі імперії.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_3">
+      <Text>Нубійські наємники виконали свій контракт. Вони повертаються до країни Лука.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_4">
+      <Text>Наші наємні лучники виконали свій контракт з Єгиптом. Вони повертаються додому досвідченими та добре оплаченими.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_5">
+      <Text>Великий Ментухотеп II прагне нічого менше, ніж зіднання Верхнього та Нижнього Єгипту. Якщо він досягне успіху, ми вшануємо його званням "Горус, що з'єднує дві землі"</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_6">
+      <Text>Після смерті Ментухотепа II, його життєва сила покидає його тіло та розпочинає нову подорож у загробне життя. Там він зустріне суд Озиріса. Нехай його дії зароблять йому вічне життя.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_7">
+      <Text>Релігійний лідер з'являється, щоб завершити ваш новий храм. З її допомогою ми можемо створити нові символи божественних сил, що належать нашим богам.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_8">
+      <Text>Праведний цар Піє прагне звільнити єгипетський народ від гнилі в серці їхніх панів. Він повинен зробити це, навіть якщо це означає, що нубійське правління розшириться глибоко в територію Єгипту.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_9">
+      <Text>Після смерті Піє, його життєва сила покидає тіло та починає нову подорож у загробне життя. Там він зустріне суд Озиріса. Хай його діяння заслуговують на вічне життя.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_10">
+      <Text>Сильна королева Аманіренас не боїться іноземних загарбників. Якщо хто-небудь загрожуватиме Нубії, вона особисто очолить атаку - навіть якщо це будуть найпотужніші армії світу.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_11">
+      <Text>Зі смертю Аманіренас її життєва сила покидає її тіло і починає нову подорож у загробне життя. Там вона зустріне суд Озиріса. Нехай її діяння заслуговують їй вічне життя.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_12">
+      <Text>Іноземні загарбники прибувають з північного сходу! Хіксоси командують жорстокою армією на колесних возах з Леванту. Вони прибувають зі знаряддям війни, якого раніше не було на Нілі - кінь.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_13">
+      <Text>Іноземні загарбники прибувають з Середземного моря! Лівійці йдуть з заходу, рухаючись вздовж узбережжя до Нілу. Зі сходу приходять їхні таємничі союзники - Морські народи.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_14">
+      <Text>Іноземні загарбники прибули з північного сходу! Ассирійці під керівництвом Ша-Набу-шу вже завоювали месопотамські землі. Обережно попереду страшний ворог!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_15">
+      <Text>Іноземні загарбники прибувають з півночі! Перси наступають на в'язів ассирійців. Чи зможуть будь-яке з цих царств зі сходу здобути опору вздовж Ніла?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_16">
+      <Text>Іноземні загарбники прибувають з північного сходу! Завоювання Олександра III Македонського, як відомо, простягаються до країв землі. Тепер він прагне долучити народи Нілу до своєї імперії.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_17">
+      <Text>Іноземні загарбники прибувають з півночі! Могутні легіони римської армії прийшли з заходу, щоб проголосити Ніл своїм володінням. Чи зможе хтось зупинити наймогутнішу армію епохи?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_18">
+      <Text>Значні кошти були витрачені на тренування воєнних слонів на секретних тренувальних майданчиках. Сильно стежте за ними - ми зможемо зберігати їх кількість, не зважаючи на їх повільне розмноження, але не очікуйте змоги тренувати більше.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_1">
+      <Text>Ці нубійські лучники Пітаті будуть служити у вашій армії наступних 6 ходів.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_2">
+      <Text>Знайшли місто і досліджуємо багаті мінеральні родовища поруч.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_3">
+      <Text>Ваші одиниці Лучник Пітаті були видалені.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_4">
+      <Text>Ці досвідчені Лучники Пітаті тепер доступні неподалік від нашої [ICON_Capital] Столиці. Ми також отримали 100 [ICON_Gold] Золота.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_5">
+      <Text>Цей [ICON_GreatGeneral] Великий Генерал буде очолювати наші війська наступні 15 ходів.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_6">
+      <Text>[ICON_GreatGeneral] Великий Генерал Ментухотеп II був відсторонений.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_7">
+      <Text>Ця Верховна Жриця може бути використана для побудови вашого унікального покращення (Сфінкса або Нубійської піраміди), якщо ви дослідили технологію Масонства.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_8">
+      <Text>Цей [ICON_GreatGeneral] Великий Генерал буде очолювати наші війська наступні 15 ходів.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_9">
+      <Text>[ICON_GreatGeneral] Великий Генерал Піє був знятий з посади.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_10">
+      <Text>Цей [ICON_GreatGeneral] Великий Генерал буде очолювати наші війська наступні 15 ходів.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_11">
+      <Text>[ICON_GreatGeneral] Великий Генерал Аманіренас був знятий.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_12">
+      <Text>Ці інвазійні хіксоси спробують завоювати міста і створити королівство вздовж Середземного узбережжя.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_13">
+      <Text>Ці лівійські завойовники намагатимуться захопити міста та створити царство на узбережжі Середземного моря.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_14">
+      <Text>Ці асирійські загарбники намагатимуться завоювати міста та створити королівство вздовж Середземного узбережжя.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_15">
+      <Text>Ці перські загарбники спробують підкорити міста та заснувати королівство вздовж Середземного узбережжя.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_16">
+      <Text>Ці македонські завойовники спробують захопити міста та створити королівство вздовж Середземноморського узбережжя.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_17">
+      <Text>Ці римські завойовники спробують підкорити міста та створити королівство вздовж Середземного узбережжя.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_18">
+      <Text>Тепер доступні нові одиниці Військового Слона. Вони не можуть бути створені в місті та отримуються лише через цю подію.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

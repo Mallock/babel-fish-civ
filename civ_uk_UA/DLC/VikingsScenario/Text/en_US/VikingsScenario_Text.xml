@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by matthew beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- City-State Empire Names-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_APUOLE_DESCRIPTION">
+      <Text>Місто-держава Апуоле</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ARLES_DESCRIPTION">
+      <Text>Королівство Арль</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASILAH_DESCRIPTION">
+      <Text>Місто-держава Асілах</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BALARM_DESCRIPTION">
+      <Text>Емірат Сицилії</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DUMBARTON_DESCRIPTION">
+      <Text>Альт Клут</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GIJON_DESCRIPTION">
+      <Text>Реґнум Астурурум</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KAIROUAN_DESCRIPTION">
+      <Text>Династія Зірідів</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PAMPLONA_DESCRIPTION">
+      <Text>Королівство Наварра</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PISA_DESCRIPTION">
+      <Text>Республіка Піза</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PRESLAV_DESCRIPTION">
+      <Text>Болгарське ханство</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ROME_DESCRIPTION">
+      <Text>Статус Понтифіціус</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TAMWORTH_DESCRIPTION">
+      <Text>Середнє королівство</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THETFORD_DESCRIPTION">
+      <Text>"Східна Королівство" (literal translation) or "Королівство Східної Англії" (natural sounding translation)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TMUTARAKAN_DESCRIPTION">
+      <Text>Місто-держава Тмутаракан</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_VENICE_DESCRIPTION">
+      <Text>Республіка Венеція</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WINCHESTER_DESCRIPTION">
+      <Text>Королівство Весексів</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WOLIN_DESCRIPTION">
+      <Text>Місто-держава Волинь</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_YORK_DESCRIPTION">
+      <Text>Королівство Нортумбрія</Text>
+    </Row>
+    <!--Traits-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_ALCAZAR_NAME">
+      <Text>Андалусійський унікальний покращення: Алькасар</Text>
+    </Row>
+    <Row Tag="TRAIT_CIVILIZATION_UNIT_MOORISH_FARFANES_NAME">
+      <Text>Андалусійська унікальна одиниця: Фарфанес</Text>
+    </Row>
+    <Row Tag="TRAIT_CIVILIZATION_IMPROVEMENT_MONASTERY_NAME">
+      <Text>Унікальне покращення: Монастир</Text>
+    </Row>
+    <Row Tag="TRAIT_CIVILIZATION_UNIT_QUADRIREME_NAME">
+      <Text>Бизантійський унікальний бійцівський одиниця: Квадрирема</Text>
+    </Row>
+    <Row Tag="TRAIT_CIVILIZATION_UNIT_FRANKISH_CABALLARII_NAME">
+      <Text>Унікальна франкська одиниця: Кабаларії</Text>
+    </Row>
+    <!--Denmark City Names-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ODENSE">
+      <Text>Оденсе</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_RIBE">
+      <Text>Риби (ryby)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ROSKILDE">
+      <Text>Розкільде</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CAEN">
+      <Text>Кан (Caen)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LUND">
+      <Text>Лунд</Text>
+    </Row>
+    <!--Sweden-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KOPINGSVIK">
+      <Text>Кепінгсвік</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BIRKA">
+      <Text>Бірка</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LADOGA">
+      <Text>Ладога</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KIEV">
+      <Text>Київ</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GNEZDOVO">
+      <Text>Гніздово</Text>
+    </Row>
+    <!--Byzantium-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CONSTANTINOPLE">
+      <Text>Константинополь</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ATTALEIA">
+      <Text>Атталея</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DYRRACHIUM">
+      <Text>Диррахій</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PHILIPPOPOLIS">
+      <Text>Філіппополь</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TREBIZOND">
+      <Text>Трабзон</Text>
+    </Row>
+    <!--Al-Andalus-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SEVILLE">
+      <Text>Ішбілія</Text>
+    </Row>
+    <!--Francia-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_AACHEN">
+      <Text>Аахен (Aachen)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NARBONNE">
+      <Text>Нарбонн</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_POITIERS">
+      <Text>Пуатьє (Pouat'ye)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_RUSTRINGEN">
+      <Text>Рюстринген</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_UTRECHT">
+      <Text>Утрехт</Text>
+    </Row>
+    <!--City-States-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_APUOLE">
+      <Text>Apuolė</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ARLES">
+      <Text>Арль</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ASILAH">
+      <Text>Асілах</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BALARM">
+      <Text>Balarm</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DUMBARTON">
+      <Text>Дун Британнія</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GIJON">
+      <Text>Xixón</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KAIROUAN">
+      <Text>Аль-Кайруан</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PAMPLONA">
+      <Text>Іруньєа</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PISA">
+      <Text>Піза</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ROME">
+      <Text>Рома</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TAMWORTH">
+      <Text>Темуорт</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_THETFORD">
+      <Text>Тефорд</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TMUTARAKAN">
+      <Text>Тмутаракан</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VENICE">
+      <Text>Венеція</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_WINCHESTER">
+      <Text>Wintanceaster</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_WOLIN">
+      <Text>Wòlin</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_YORK">
+      <Text>Еофорвік</Text>
+    </Row>
+    <!--City-States-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_APUOLE_NAME">
+      <Text>Я не маю можливості перекласти цей текст, оскільки це неправильне слово литовською мовою. Будь ласка, перекажіть, що саме Ви хотіли сказати</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ARLES_NAME">
+      <Text>Арль</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASILAH_NAME">
+      <Text>Асілах</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BALARM_NAME">
+      <Text>Сицилія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DUMBARTON_NAME">
+      <Text>Дун Бретанн (Dun Breтанн)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GIJON_NAME">
+      <Text>Астурії</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KAIROUAN_NAME">
+      <Text>Зірід</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PAMPLONA_NAME">
+      <Text>Я не знаю, що означає це слово. Будь ласка, надайте контекст або повніше речення для перекладу</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PISA_NAME">
+      <Text>Піза</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PRESLAV_NAME">
+      <Text>Болгарія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ROME_NAME">
+      <Text>Рома</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TAMWORTH_NAME">
+      <Text>Мерсія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THETFORD_NAME">
+      <Text>Східна Англія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TMUTARAKAN_NAME">
+      <Text>Тмутаракан</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_VENICE_NAME">
+      <Text>Венеція</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WINCHESTER_NAME">
+      <Text>Весекс</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WOLIN_NAME">
+      <Text>Волинь</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_YORK_NAME">
+      <Text>Нортумбрія</Text>
+    </Row>
+    <!-- Civilizations Adj-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DENMARK_ADJECTIVE">
+      <Text>Наступний текст потрібно перекласти. Відповідайте лише натуральним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SWEDEN_ADJECTIVE">
+      <Text>Наступний текст потрібно перекласти. Відповідайте тільки натуральним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_AL_ANDALUS_ADJECTIVE">
+      <Text>Андалусійський</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BYZANTIUM_ADJECTIVE">
+      <Text>Візантійський</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_FRANCIA_ADJECTIVE">
+      <Text>Франківський</Text>
+    </Row>
+    <!--City-States Adj-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_APUOLE_ADJECTIVE">
+      <Text>Куронський</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ARLES_ADJECTIVE">
+      <Text>Arles (Арл)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASILAH_ADJECTIVE">
+      <Text>Асілах</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BALARM_ADJECTIVE">
+      <Text>Наступний текст потрібно перекласти на українську мову. Відповідайте тільки природним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DUMBARTON_ADJECTIVE">
+      <Text>Дун Британнія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GIJON_ADJECTIVE">
+      <Text>Астурія</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KAIROUAN_ADJECTIVE">
+      <Text>Зірід</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PAMPLONA_ADJECTIVE">
+      <Text>Іруньян (Iruñean)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PISA_ADJECTIVE">
+      <Text>Наступний текст потребує перекладу. Відповідайте тільки натуральним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ROME_ADJECTIVE">
+      <Text>Я не зовсім розумію, який саме текст ви маєте на увазі. Будь ласка, надайте мені більше деталей</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PRESLAV_ADJECTIVE">
+      <Text>Наступний текст потрібно перекласти. Відповідайте лише природним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TAMWORTH_ADJECTIVE">
+      <Text>Мерсійський</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THETFORD_ADJECTIVE">
+      <Text>Східний Англіянський</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TMUTARAKAN_ADJECTIVE">
+      <Text>Тмутаракан</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_VENICE_ADJECTIVE">
+      <Text>Венеціанський</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WINCHESTER_ADJECTIVE">
+      <Text>Wessexian</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WOLIN_ADJECTIVE">
+      <Text>Wòlin</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_YORK_ADJECTIVE">
+      <Text>Північний юмберсайдський діалект</Text>
+    </Row>
+    <!--Denmark-->
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_MALE_1">
+      <Text>Магнус</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_MALE_2">
+      <Text>Бірк (transliteration)</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_MALE_3">
+      <Text>Грольфр (Hrólfr)</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_MALE_4">
+      <Text>Gorm</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_MALE_5">
+      <Text>Fróði</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_FEMALE_1">
+      <Text>Гельга</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_FEMALE_2">
+      <Text>Tófa</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_FEMALE_3">
+      <Text>Веалтхеов</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_FEMALE_4">
+      <Text>Sorry, but "Aslaug" is a name and cannot be translated as it has no meaning in Ukrainian</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_FEMALE_5">
+      <Text>Тіра</Text>
+    </Row>
+    <!--Sweden-->
+    <Row Tag="LOC_CITIZEN_SWEDEN_MALE_1">
+      <Text>Ерік</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_MALE_2">
+      <Text>Håkan</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_MALE_3">
+      <Text>Anund</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_MALE_4">
+      <Text>Свен</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_MALE_5">
+      <Text>Alf</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_FEMALE_1">
+      <Text>Астрид</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_FEMALE_2">
+      <Text>Ґуннхільдр</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_FEMALE_3">
+      <Text>Інгеборг</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_FEMALE_4">
+      <Text>Þóra</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_FEMALE_5">
+      <Text>Крістіна</Text>
+    </Row>
+    <!--Great Admirals-->
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_BJARNI_NAME">
+      <Text>Б'ярні Герьольфссон</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_ERIK_NAME">
+      <Text>Ерік Рудий (Yerik Rudyi)</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_INGVAR_NAME">
+      <Text>Інтерпретація назви Yngvarr víðförli не може бути дана без контексту. Будь ласка, надайте контекст для перекладу</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_FREYDIS_NAME">
+      <Text>Фрейдіс Ейріксдоттір</Text>
+    </Row>
+    <!--Great Generals  -->
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_HALFDAN_NAME">
+      <Text>Гальфдан Рагнарссон</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_RORIK_NAME">
+      <Text>Рорік з Дорестаду</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_SVIATOSLAV_NAME">
+      <Text>Святослав Добромирний</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_OLAF_NAME">
+      <Text>Олаф Триггвасон</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_WILLIAM_NAME">
+      <Text>Вільгельм Завойовник</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_THORFIN_NAME">
+      <Text>Торфінн Могутній</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_ROGER_NAME">
+      <Text>Роджер І Сицилійський</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ADJACENT_PIOPIOTAHI_GOLD">
+      <Text>Коли прилегає до Вінландії, отримуйте +500 [ICON_Gold] золота та очки перемоги залежно від порядку активації.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HALFDAN_ACTIVE">
+      <Text>Надайте 1 одиницю Берсеркера.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_OLAF_ACTIVE">
+      <Text>Надайте 1 місіонерську групу.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_WILLIAM_ACTIVE">
+      <Text>+1 [ICON_TradeRoute] ємність торгового шляху. Надає одиницю Торговця.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ROGER_ACTIVE">
+      <Text>Наділити 1 одиницю Катапульти 1 рівнем підвищення.</Text>
+    </Row>
+    <!--Technologies Name-->
+    <Row Tag="LOC_TECH_SCENARIO_LONGSHIPS_NAME">
+      <Text>Довгі кораблі</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_MEAD_HALLS_NAME">
+      <Text>Зал меду</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_PORTAGE_NAME">
+      <Text>Портаж</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_SHIELDWALL_NAME">
+      <Text>Стіну щитів</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_KNARRS_NAME">
+      <Text>Кнарси</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_LANCES_NAME">
+      <Text>Лати</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_GREAT_HEATHEN_ARMY_NAME">
+      <Text>Велике Язичницьке Військо</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_HACKSILVER_NAME">
+      <Text>Гаксільвер (Hacksilver)</Text>
+    </Row>
+    <!--Technologies Description-->
+    <Row Tag="LOC_TECH_SCENARIO_SAILING_DESCRIPTION">
+      <Text>+1 Рух для всіх морських одиниць та дозволяє всім сухопутним військам відправитися в похід.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_PORTAGE_DESCRIPTION">
+      <Text>Переправи через річки не збільшують витрати руху.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_KNARRS_DESCRIPTION">
+      <Text>Усі підрозділи можуть переміщуватись на океан.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_HACKSILVER_DESCRIPTION">
+      <Text>Комерційні вузли та порти мають +1 торговельних маршрутів.</Text>
+    </Row>
+    <!--Technologies Boost-->
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_PORTAGE">
+      <Text>Маю 2 Лучника.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_STIRRIPS">
+      <Text>Розорити плитку.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_SHIELDWALL">
+      <Text>Маєте одиницю поселенця.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_KNARRS">
+      <Text>Маєте громадянське право в Імперії Військово-морських сил.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_ENGINEERING">
+      <Text>Маю 5 міст.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LANCES">
+      <Text>Вбийте одиницю лицаря.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_GREAT_HEATHEN_ARMY">
+      <Text>Маю 3 одиниці довгих кораблів.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_HACKSILVER">
+      <Text>Створіть 4 торгові маршрути.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MACHINERY">
+      <Text>Побудуйте 2 конюшні.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MILITARY_TACTICS">
+      <Text>Маю 2 одиниці лицарів.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_SHIPBUILDING">
+      <Text>Здобудьте звання Великого Адмірала.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MEDIEVAL_FAIRES">
+      <Text>Місто має 12 населення.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MILITARY_ENGINEERING">
+      <Text>Захопити місто.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_CASTLES">
+      <Text>Маю 2 арбалетника.</Text>
+    </Row>
+    <!--Technologies Boost Description-->
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_PORTAGE">
+      <Text>Після побудови лучників ваша більша армія сподівається побачити, що знаходиться за річками.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_STIRRIPS">
+      <Text>Можливо, кіннота вам допоможе пограбувати більше плиток?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_SHIELDWALL">
+      <Text>Нові міста створюють нову одиницю, щоб захищати себе.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_KNARRS">
+      <Text>З більшим військовим флотом вони могли б розширити свої території на океан?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_ENGINEERING">
+      <Text>Ваші інженери розробляють кращу сантехніку для великої кількості міст.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_LANCES">
+      <Text>Тепер, коли ти здолав лицаря, можливо твої вікінги можуть завоювати з допомогою одного?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_GREAT_HEATHEN_ARMY">
+      <Text>За допомогою трьох довгих кораблів ваша армія може захопити будь-яке місто.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_HACKSILVER">
+      <Text>Тепер, коли ви створили чотири торгові шляхи, як ваша торгова імперія розширюється?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MILITARY_TACTICS">
+      <Text>Ваша армія має більше кінних військ зараз, можливо, ви повинні додати піхоту?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_SHIPBUILDING">
+      <Text>Великий адмірал надихнув ваш народ на створення нових способів будівництва кораблів.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MEDIEVAL_FAIRES">
+      <Text>Можливо, з більшою кількістю громадян вони захотіли б розваг?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MILITARY_ENGINEERING">
+      <Text>Після надихаючого захоплення міста ваші люди надихнені придумувати ще більш ефективні ідеї облоги.</Text>
+    </Row>
+    <!--Civics Name-->
+    <Row Tag="LOC_CIVIC_SCENARIO_NAVAL_EMPIRE_NAME">
+      <Text>Морська імперія</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_MONOTHEISM_NAME">
+      <Text>Монотеїзм</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_VIKING_NAME">
+      <Text>Вікінг</Text>
+    </Row>
+    <!--Civics Description-->
+    <Row Tag="LOC_CIVIC_SCENARIO_VIKING_DESCRIPTION">
+      <Text>Надає гранти, що додають бонуси до бойових дій та підтримки всім ближнього бою дивізіонам.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_FEUDALISM_DESCRIPTION">
+      <Text>Ферми тепер отримують бонус до [ICON_Food] Їжі, коли 3 ферми розташовані поруч одна з одною.</Text>
+    </Row>
+    <!--Civics Boost-->
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_NAVAL_TRADITION">
+      <Text>Побудуйте 3 гавані.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MILITARY_TRADITION">
+      <Text>Вбийте одиницю за допомогою берсерк-одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_NAVAL_EMPIRE">
+      <Text>Переможіть битву з вікінгським довгим човном.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MILITARY_TRAINING">
+      <Text>Маю 6 земельних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MONOTHEISM">
+      <Text>Мати більшість релігії.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_VIKING">
+      <Text>Маю 2 гускарлів</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_FEUDALISM">
+      <Text>Маю 6 ферм.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_THEOLOGY">
+      <Text>Має 2 Святині</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MERCENARIES">
+      <Text>Маю 10 земельних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_RECORDED_HISTORY">
+      <Text>Дослідницька техніка</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_GUILDS">
+      <Text>Побудуйте 4 ринки</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_DIVINE_RIGHT">
+      <Text>Маємо уряд з 4-ма посадами.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_EXPLORATION">
+      <Text>Знайдіть Природний Диво.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_REFORMED_CHURCH">
+      <Text>Маємо 2 місіонерів.</Text>
+    </Row>
+    <!--Civics Boost Description-->
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MILITARY_TRADITION">
+      <Text>Тепер, коли ти вбив берсеркером, чи можеш ти збільшити свою армію?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_NAVAL_TRADITION">
+      <Text>Після будівництва портів ваша військова флотилія розширилася.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MILITARY_TRAINING">
+      <Text>З великою військовою силою ваша армія хоче диверсифікуватися.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MONOTHEISM">
+      <Text>Ваші люди почали відходити від поганських ідей. Тепер вони починають будувати дерев'яні церкви.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_VIKING">
+      <Text>Зараз, коли ваша армія стала більшою, час відправлятися на вікінг!</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_THEOLOGY">
+      <Text>З появою більше святих місць ваші теологи почали поширюватись.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_RECORDED_HISTORY">
+      <Text>Ваш винахід машин може протистояти втраченим церковним записам.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_EXPLORATION">
+      <Text>Тепер, коли ви знайшли Вінланд, як зміниться ваша урядова політика?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_REFORMED_CHURCH">
+      <Text>Після набору богословів ваші люди починають формувати нові релігійні практики.</Text>
+    </Row>
+    <!--Scoring-->
+    <Row Tag="LOC_CATEGORY_SCENARIO_VINLAND_NAME">
+      <Text>Вінланд</Text>
+    </Row>
+    <Row Tag="LOC_LINE_ITEM_PLUNDER_NAME">
+      <Text>Розбійництво</Text>
+    </Row>
+    <Row Tag="LOC_LINE_ITEM_TRADE_NAME">
+      <Text>Торгівля</Text>
+    </Row>
+    <Row Tag="LOC_LINE_ITEM_VINLAND_NAME">
+      <Text>Вінланд</Text>
+    </Row>
+    <Row Tag="LOC_VIKING_SCENARIO_RELIGION_DESCRIPTION">
+      <Text>Ви будете отримувати [ICON_Faith] Віру в сценарії, головним чином, розграбовуючи святині, алькасари, монастирі та плантації. Кожного разу, коли ви отримуєте [ICON_Faith] Віру, ваші міста отримують більше тиску на перехід до католицтва.</Text>
+    </Row>
+    <Row Tag="LOC_VIKING_SCENARIO_SCORING_DESCRIPTION1">
+      <Text> Cities cannot be razed. Traders and Admirals cannot be transfered between cities. Victory Points are earned as follows:[NEWLINE][ICON_Bullet]Empire: {1_CityVP} VP per city. {2_PopVP} VP per population.[NEWLINE][ICON_Bullet]Prestige: {3_GPVP} VP for each [ICON_GreatPerson] Great Person earned.[NEWLINE][ICON_Bullet]Trade: {4_TradeVP} VP per [ICON_TradeRoute] Trade Route capacity.[NEWLINE][ICON_Bullet]Pillage: {5_PillageVP} VP per tile pillaged.</Text>
+    </Row>
+    <Row Tag="LOC_VIKING_SCENARIO_SCORING_DESCRIPTION2">
+      <Text>[NEWLINE][ICON_Bullet]Вінландія: {1_VinlandA} очок перемоги якщо першим активує [ICON_GreatAdmiral] Великого адмірала, розташованого поруч з Вінландією; {2_VinlandB} за другим, {3_VinlandC} - за третім, {4_VinlandD} - після цього.</Text>
+    </Row>
+    <Row Tag="LOC_VIKING_SCENARIO_SCORING_DESCRIPTION3">
+      <Text>[NEWLINE][ICON_Bullet]Релігія: {1_PillageEarly} ОП за [ICON_Faith] віру, зароблену під час пограбування плитки, коли менше, ніж половина ваших міст має ту саму релігію. {2_PopLate} ОП за кожне населення, додане, коли половина або більше ваших міст мають одну й ту саму релігію.[NEWLINE][ICON_Bullet]Бонус: У останньому ході {3_GoldEnd} ОП за кожні {4_GoldPer} [ICON_Gold] золота у скарбниці вікінга та {5_FaithEnd} ОП за кожне {6_FaithPer} [ICON_Faith] віри, якою володіє вікінг.</Text>
+    </Row>
+    <!--Features-->
+    <Row Tag="LOC_FEATURE_SCENARIO_VINLAND_NAME">
+      <Text>Вінланд</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_SCENARIO_VINLAND_DESCRIPTION">
+      <Text>VP бали: 1000 для першого, 500 для другого, 300 для третього, 100 для четвертого і 100 для п'ятого.</Text>
+    </Row>
+    <!--Policies-->
+    <Row Tag="LOC_POLICY_SCENARIO_LEIDANGR_NAME">
+      <Text>Leiðangr (Лейдангр)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_VOLLEY_NAME">
+      <Text>Волейбол</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_THING_NAME">
+      <Text>Річ</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_TRAVELING_MONKS_NAME">
+      <Text>Подорожуючі монахи</Text>
+    </Row>
+    <!--Policies Descriptions-->
+    <Row Tag="LOC_POLICY_SCENARIO_CARAVANSERIES_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Золота з міжнародних [ICON_TradeRoute] Торгових маршрутів.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CHIVALRY_DESCRIPTION">
+      <Text>+100% [ICON_Production] Виробництво конних військ.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_FEUDAL_CONTRACT_DESCRIPTION">
+      <Text>+50% [ICON_Production] Виробництво для ближньої бойової одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MARITIME_INDUSTRIES_DESCRIPTION">
+      <Text>+100% [ICON_Production] Виробництво морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MERITOCRACY_DESCRIPTION">
+      <Text>Кожне місто отримує +1 [ICON_Faith] Віри за кожний спеціалізований район, що будується.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_NATURAL_PHILOSOPHY_DESCRIPTION">
+      <Text>+100% Наукові показники при Поселенні [ICON_Science].</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_SIEGE_TACTICS_DESCRIPTION">
+      <Text>+100% Виробництво на осадні та підтримуючі військові одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_TRADE_CONFEDERATION_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Золота з міжнародних [ICON_TradeRoute] торговельних маршрутів.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_TRAVELING_MONKS_DESCRIPTION">
+      <Text>Внутрішні [ICON_TradeRoute] Торгові Маршрути +2 [ICON_Faith] Віри.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_VOLLEY_DESCRIPTION">
+      <Text>+100% [ICON_Production] Виробництво дальнобойних одиниць.</Text>
+    </Row>
+    <!--Units Name-->
+    <Row Tag="LOC_UNIT_SCENARIO_HUSCARL_NAME">
+      <Text>Гускарл (Huscarl)</Text>
+    </Row>
+    <!--Units Description-->
+    <Row Tag="LOC_UNIT_SCENARIO_HUSCARL_DESCRIPTION">
+      <Text>Ближній бійцівський одиниця, яка є сильною проти дальніх атак. Низька вартість виробництва [ICON_Production].</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_MISSIONARY_DESCRIPTION">
+      <Text>Вікінг - унікальна одиниця, яка може перетворювати [ICON_Citizen] громадян на свою релігію.</Text>
+    </Row>
+    <!--Unit Abilities-->
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_POINTS_DESCRIPTION">
+      <Text>+10 великих загальних балів за кожну знищену одиницю.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_ADMIRAL_POINTS_DESCRIPTION">
+      <Text>+10 великих очок адмірала за кожну знищену одиницю.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RANGED_DEFENSE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової міцності при захисті від дистанційних атак.</Text>
+    </Row>
+    <!--Continent Descriptions-->
+    <Row Tag="LOC_CONTINENT_SCENARIO_BRITAIN_DESCRIPTION">
+      <Text>Велика Британія</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_FAROE_DESCRIPTION">
+      <Text>Фарерські острови</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_GREENLAND_DESCRIPTION">
+      <Text>Ґренландія</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_HEBRIDES_DESCRIPTION">
+      <Text>Гебриди</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_ICELAND_DESCRIPTION">
+      <Text>Ісландія</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_IRELAND_DESCRIPTION">
+      <Text>Ірландія</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_NORTHERN_ISLES_DESCRIPTION">
+      <Text>Північні острови</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_SCANDINAVIA_DESCRIPTION">
+      <Text>Скандинавія</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_VINLAND_DESCRIPTION">
+      <Text>Вінланд</Text>
+    </Row>
+    <!--Continent Cities-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TORSHAVN">
+      <Text>Торсхавн</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_FUNNINGUR">
+      <Text>Funningur</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LEIRVIK">
+      <Text>Лейрвік</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BRATTAHLID">
+      <Text>Браттаглід</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_HVALSEY">
+      <Text>Гвальсей</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SANDNAES">
+      <Text>Санднеc</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GARDAR">
+      <Text>Гардар</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_HERJOLFSNES">
+      <Text>Герйольфснес</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SKID">
+      <Text>Скид</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MYL">
+      <Text>Myl</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BARR_OY">
+      <Text>Б'ярнар-Ой</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_REYKJAVIK">
+      <Text>Рейк'явік</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_HUSAVIK">
+      <Text>Хусавік</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_AKRANES">
+      <Text>Акранес</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SKALHOLT">
+      <Text>Скалахольт</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DYFLIN">
+      <Text>Дублін</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_INIS_SIBHTONN">
+      <Text>Ініс Шівтонн</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VEDRAFJORDR">
+      <Text>Ведрафьорд</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VEISAFJORDR">
+      <Text>Вейсафьорд</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KIRKJUVAGR">
+      <Text>Кіркювагр</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SKALAVAGR">
+      <Text>Скалавагр</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BIRGISHERD">
+      <Text>Birgisherað</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_EID">
+      <Text>Eið - це слово на ісландській мові, яке можна перекласти як "перехрестя" або "злиття"</Text>
+    </Row>
+    <!--Religion-->
+    <Row Tag="LOC_BELIEF_ODIN_NAME">
+      <Text>Один</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ODIN_DESCRIPTION">
+      <Text>+100 [ICON_Gold] Золота, коли ви розграбуєте плитку і не маєте домінуючої релігії.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_POPULATION_GROWTH_NAME">
+      <Text>Зростання населення</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_POPULATION_GROWTH_DESCRIPTION">
+      <Text>Подвійні бали перемоги за населення, якщо ця релігія є домінуючою релігією.</Text>
+    </Row>
+    <!--Buildings-->
+    <Row Tag="LOC_BUILDING_SCENARIO_HAGIA_SOPHIA_DESCRIPTION">
+      <Text>Унікальне диво для Візантії.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_ALHAMBRA_DESCRIPTION">
+      <Text>Унікальна чудова в Аль-Андалусі.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_MONT_ST_MICHEL_DESCRIPTION">
+      <Text>Унікальне диво для Франції.</Text>
+    </Row>
+    <!--Float-->
+    <Row Tag="LOC_PILLAGE_GOLD_DESCRIPTION">
+      <Text>+100 [COLOR_FLOAT_GOLD]Золото[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_VINLAND_GOLD_DESCRIPTION">
+      <Text>+500 [COLOR_FLOAT_GOLD]Золота[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_POINTS_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num} балів[ENDCOLOR]</Text>
+    </Row>
+    <!--District-->
+    <Row Tag="LOC_DISTRICT_SCENARIO_ENCAMPMENT_DESCRIPTION">
+      <Text>Район у вашому місті для військових об'єктів. Також забезпечує науку.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_HOLY_SITE_DESCRIPTION">
+      <Text>Район у вашому місті для релігійного поклоніння. Також забезпечує культуру.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

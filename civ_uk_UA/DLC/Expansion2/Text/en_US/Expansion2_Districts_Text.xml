@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!--Shared Districts-->
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_DESCRIPTION">
+      <Text>Район, який забезпечує це місто джерелом свіжої води з прилеглої річки, озера, оазису або гори. Міста, які ще не мають свіжої води, отримують до 6 [ICON_Housing]  житла. Міста, які вже мають свіжу воду, замість цього отримують +2 [ICON_Housing]  житла. Якщо будується поруч з Геотермальною тріщиною, +1 [ICON_Amenities]  зручностей. Запобігає втраті [ICON_Food] продуктів під час посухи. Повинен бути побудований поруч з центром міста.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION">
+      <Text>Район, який забезпечує це місто джерелом свіжої води з сусідньої річки, озера, оазису або гори. Міста, які ще не мають свіжої води, отримують до 6 [ICON_Housing] квартир. Міста, які вже мають свіжу воду, замість цього отримують +2 [ICON_Housing] квартири. Якщо побудовано поруч з геотермальною розломом, то +1 [ICON_Amenities] задоволення. Запобігає втратам [ICON_Food] їжі під час посухи. Має бути побудовано поруч з центром міста. Військові інженери можуть витратити заряд на завершення 20% виробництва Акведуку.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_NAME">
+      <Text>Канал</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_DESCRIPTION">
+      <Text>Район, побудований на рівній місцевості для з'єднання двох водойм або водойми з Центром Міста. [ICON_TradeRoute] Шляхи Торгівлі, які проходять через нього, можуть помножити [ICON_Gold] Золото, яке вони отримують від районів у пунктах призначення. Канали можуть прямувати прямо через гекс або згинатись на 60 градусів. Однак тристоронні розвилки Каналів не допускаються, і Канали повинні мати повну земельну плиту на кожному боці водного шляху, який вони створюють. Військові Інженери можуть витратити заряд, щоб завершити 20% виробництва Каналу.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_NAME">
+      <Text>Дамба</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_DESCRIPTION">
+      <Text>Район, побудований на піщаному ділянці, щоб покращити комфорт проживання вздовж цієї річки. Запобігає пошкодженням від повені цієї річки (хоча врожай з повені знижується на 50%). Запобігає втраті [ICON_Food] їжі під час посухи. Можна побудувати лише один вздовж паводкової рівнини кожної річки (той, хто першим будує, стає власником) і річка повинна перетинати щонайменше дві сторони шестигранника Дамба. Військові інженери можуть витрачати заряди, щоб завершити 20% виробництва Дамби.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION_XP2">
+      <Text>Район, який необхідно будувати проекти перемоги в науці. До них входять {LOC_PROJECT_LAUNCH_EARTH_SATELLITE_NAME}, {LOC_PROJECT_LAUNCH_MOON_LANDING_NAME}, {LOC_PROJECT_LAUNCH_MARS_BASE_NAME} та {LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME}. Не можна будувати на пагорбах.</Text>
+    </Row>
+    <!--Adjacency Bonuses-->
+    <Row Tag="LOC_DISTRICT_DESERT_HILLS_FAITH">
+      <Text>+{1_num} [ICON_Faith] Віра з прилеглих піщаних пагорбів {1_Num : plural 1?плитка; other?плиток;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DESERT_FOOD">
+      <Text>+{1_num} [ICON_FOOD] Їжа з прилеглої пустелі {1_Num : plural 1?плитка; other?плиток;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DESERT_HILLS_FOOD">
+      <Text>+{1_num} [ICON_FOOD] Їжа з прилеглих піскових пагорбів {1_Num : plural 1?плитка; other?плитки;}.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_GOLD">
+      <Text>+{1_num} [ICON_GOLD] Золото з сусідньої гори {1_Num : plural 1?плитки; other?плиток;}.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Виробництво з прилеглої гори {1_Num : plural 1?плитки; other?плиток;}.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Культура з сусідньої гори {1_Num : plural 1?плитка; other?плиток;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GEOTHERMAL_SCIENCE">
+      <Text>+{1_num} [ICON_SCIENCE] Наука з кожної прилеглої геотермальної тріщини.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_REEF_SCIENCE">
+      <Text>+{1_num} [ICON_SCIENCE] Наука з кожного прилеглого Рифу.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_GOLD">
+      <Text>+{1_num} [ICON_Gold] Золото з прилеглої району Котон.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_DESCRIPTION_ADJACENCY">
+      <Text>Прилеглість: Великий бонус золота [ICON_Gold] за кожен прилеглий центр міста. Стандартний бонус золота [ICON_Gold] за кожний прилеглий прибережний ресурс. Малий бонус золота [ICON_Gold] за прилеглі плити округ.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOLY_SITE_GOLD">
+      <Text>+{1_num} [ICON_Gold] Золото з сусідньої околиці Святилища.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_LAVRA_GOLD">
+      <Text>+{1_num} [ICON_Gold] Золото з сусіднього району Лаври.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION_ADJACENCY">
+      <Text>Суміжність: Головний [ICON_Gold] бонус у Золоті за кожен прилеглий Святий Об'єкт. Головний [ICON_Gold] бонус у Золоті за плитку, що містить край Річки. Незначний [ICON_Gold] бонус у Золоті за прилеглі плитки округів.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MINES_HALF_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Виробництво з прилеглих шахт.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_LUMBER_MILL_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Виробництво з прилеглих лісопильних заводів.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Виробництво з прилеглого Акведуку {1_Num : plural 2?району; other?районах;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BATH_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Виробництво з сусідніх ванн {1_Num : plural 2?району; other?районів;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Виробництво з прилеглої каналу {1_Num : plural 2?району; other?районів;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Виробництво з прилеглої Греблі {1_Num : plural 2?району; other?районів;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_STRATEGIC_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Виробництво з прилеглих стратегічних {1_Num : plural 1?ресурсу; other?ресурсів;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HANSA_DESCRIPTION_ADJACENCY">
+      <Text>Суміжність: Великий бонус виробництва [ICON_Production] якщо розташовано поруч з районами Комерційного центру, Акведука, Каналу та Греблі. Стандартний бонус виробництва [ICON_Production] за кожен прилеглий ресурс. Малий бонус виробництва [ICON_Production] за прилеглі тайли районів.</Text>
+    </Row>
+    <!--Projects-->
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_NAME">
+      <Text>Перенести столицю</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_SHORT_NAME">
+      <Text>Перенести столицю</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_DESCRIPTION">
+      <Text>Унікальний проект Фенікської імперії доступний для будь-якого міста з Котоном. Після завершення будівництва, Фенікська [ICON_Capital] столиця переїжджає в це місто.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_NAME">
+      <Text>Захоплення вуглецю</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_SHORT_NAME">
+      <Text>Захоплення вуглецю</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_DESCRIPTION">
+      <Text>Може бути запущений у будь-якому місті з промисловою зоною. Після завершення, викиди вуглецю цивілізації будуть зменшені на 50, і будуть зароблені 30 [ICON_FAVOR] дипломатичних пільг. Цей проект навіть може зменшити ваш вуглецевий борг до нуля та дозволити накопичувати знижки на глобальний вуглецевий відбиток.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL">
+      <Text>Перейти на використання вугільної енергії</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL_SHORT_NAME">
+      <Text>Перейти на використання вугільної енергії</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL_DESCRIPTION">
+      <Text>Вивести з експлуатації поточну електростанцію в цьому місті та замінити її на {LOC_BUILDING_COAL_POWER_PLANT_NAME}. [NEWLINE][NEWLINE]{LOC_BUILDING_COAL_POWER_PLANT_NAME}: [NEWLINE]{LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL">
+      <Text>Перетворити на нафтову енергію</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL_SHORT_NAME">
+      <Text>Перетворити на нафтову енергію</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL_DESCRIPTION">
+      <Text>Виводить з ладу поточну електростанцію у цьому місті та замінює її на {LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME}. [NEWLINE] [NEWLINE]{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME}: [NEWLINE]{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM">
+      <Text>Перейти до ядерної енергетики</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM_SHORT_NAME">
+      <Text>Перейти на ядерну енергетику</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM_DESCRIPTION">
+      <Text>Виводить з ладу поточну електростанцію у цьому місті та замінює її на {LOC_BUILDING_POWER_PLANT_EXPANSION2_NAME}. [NEWLINE][NEWLINE]{LOC_BUILDING_POWER_PLANT_EXPANSION2_NAME}: [NEWLINE]{LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_NAME">
+      <Text>Запустити колонію на Марсі</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_SHORT_NAME">
+      <Text>Запустити Колонію на Марсі</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_DESCRIPTION">
+      <Text>Проект Космічної гонки, який передбачає створення невеликої людської бази на поверхні Марсу. Це третій крок до досягнення наукової перемоги.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_POPUP">
+      <Text>Ви успішно заснували колонію на Марсі! Це третій крок до виконання наукоової перемоги.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME">
+      <Text>Запустіть експедицію до екзопланет</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_SHORT_NAME">
+      <Text>Експедиція до екзопланет</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_DESCRIPTION">
+      <Text>Проект Космічної Гонки, який подорожує глибоким космосом на 1 світлорік за хід, щоб поширити людство на іншу зіркову систему. Отримує перемогу науковою виправданістю, коли досягає мети. Може бути прискорений іншими проектами.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_POPUP">
+      <Text>Ваш судно з насінням відправлене до іншої зіркової системи! Ви отримаєте перемогу в науці, коли воно прибуде. Подорожує 1 світловий рік за хід, а швидкість може бути збільшена іншими проектами.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_NAME">
+      <Text>Запустіть лазерну станцію Лагранж</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME">
+      <Text>Станція Лазерного Контролю Лагранжа</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION">
+      <Text>Для початку будівництва потрібно 30 [ICON_RESOURCE_ALUMINUM] алюмінію (на стандартній швидкості). Проект "Космічна гонка", який прискорює вашу експедицію на екзопланети на +1 світловий рік на хід, прискорюючи ваш прогрес до наукової перемоги.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_POPUP">
+      <Text>Ви розташовуєте Лазерну Станцію Лагранжа в орбіті, прискорюючи ваш корабель Екзопланетної Експедиції на 1 світлорік на кожному оберті і наближаючись до перемоги в науці!</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_NAME">
+      <Text>Побудуйте земну лазерну станцію</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME">
+      <Text>Земна лазерна станція</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_DESCRIPTION">
+      <Text>Після завершення, вимоги до енергії [ICON_Power] цього міста збільшуються на 5. Проект "Космічна гонка", який прискорює вашу експедицію на екзопланету на +1 Світловий Рік на хід, поки місто працює в режимі [ICON_Power], прискорює ваш прогрес до досягнення наукової перемоги.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_POPUP">
+      <Text>Ви встановлюєте Земну лазерну станцію на Космічному порту, прискорюючи корабель Екзопланетної експедиції на 1 світловий рік за хід і наближаєтесь до наукової перемоги!</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_NAME">
+      <Text>Надішліть допомогу</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_SHORT_NAME">
+      <Text>Надіслати допомогу</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_DESCRIPTION">
+      <Text>Проект для заробітку балів у конкурсах з проханням допомоги.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_POPUP">
+      <Text>Ваш пакет допомоги був доставлений і підвищив ваш рейтинг у конкурсі запитів на допомогу.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_NAME">
+      <Text>Тренуйте спортсменів</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_SHORT_NAME">
+      <Text>Тренуйте спортсменів</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_DESCRIPTION">
+      <Text>Проект для набуття балів на конкурсі Світових ігор.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_POPUP">
+      <Text>Ваші спортсмени готові до ігор та підвищують ваш рахунок у змаганнях світових ігор.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_NAME">
+      <Text>Тренувати астронавтів</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_SHORT_NAME">
+      <Text>Тренувати космонавтів</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_DESCRIPTION">
+      <Text>Проект для набуття балів у конкурсі Міжнародної Космічної Станції.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_POPUP">
+      <Text>Ваші космонавти готові працювати на Міжнародній космічній станції, збільшуючи ваш рахунок у конкуренції Міжнародної космічної станції.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_EXPANSION2_DESCRIPTION">
+      <Text>Районний проект, який забезпечує [ICON_Faith] Віру та +100% Релігійний тиск кожен хід. Надає [ICON_GreatProphet] Великі балі профета при завершенні.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_EXPANSION2_DESCRIPTION">
+      <Text>Проект на рівні району, який забезпечує місто повною [ICON_Power] енергією під час активного використання. Крім того, завершення проекту дозволяє отримати бали [ICON_GreatEngineer] Великого інженера.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_NAME">
+      <Text>Перезапустити ядерний реактор</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_SHORT_NAME">
+      <Text>Відновити роботу ядерного реактора</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_DESCRIPTION">
+      <Text>Дозволяє перезапустити ядерний реактор для покращення заходів безпеки та зменшення ризику ядерної аварії. [NEWLINE] [NEWLINE] Перезапускання скидає вік реактора на 0. Чим старше реактор, тим вище шанс виникнення ядерної аварії.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_NAME">
+      <Text>Вивести від експлуатації вугільну електростанцію</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_SHORT_NAME">
+      <Text>Вивести з експлуатації вугільну електростанцію</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_DESCRIPTION">
+      <Text>Проект для отримання балів на конкурсі Кліматичних домовленостей. Видаляє ТЕС на вугіллі та всі його наслідки з цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_NAME">
+      <Text>Припинити дію роботи нафтової електростанції</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_SHORT_NAME">
+      <Text>Вивести з експлуатації нафтову електростанцію</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_DESCRIPTION">
+      <Text>Проект для заробітку балів на конкурсі "Кліматичні домовленості". Видаляє Нафтову Електростанцію та всі її негативні впливи з цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_NAME">
+      <Text>Вивести з експлуатації Атомну електростанцію</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_SHORT_NAME">
+      <Text>Відключити атомну електростанцію</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_DESCRIPTION">
+      <Text>Проект для заробітку балів у конкурсі Кліматичних домовленостей. Видаляє Атомну електростанцію та всі її наслідки з цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ENTERTAINMENT_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Культура з сусідньої частини Розважального Комплексу.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WATER_PARK_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Культура з сусідньої частини міста, де розташований Водний парк.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_STREET_CARNIVAL_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Культура зі сусідньої району вуличного карнавалу.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COPACABANA_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Культура сусіднього району Копакабана.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

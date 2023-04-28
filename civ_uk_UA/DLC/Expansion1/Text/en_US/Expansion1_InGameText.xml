@@ -1,0 +1,1885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <!-- Combat Modifiers -->
+    <Row Tag="LOC_GOVERNOR_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Губернатор)</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Альянс)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_DIPLOMATIC_BONUS">
+      <Text>+{1_Value} Останні дипломатичні зміни</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ESPIONAGE_BONUS">
+      <Text>+{1_Value} Розвідка щодо руху опонента</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_CITY_COMBAT_BONUS">
+      <Text>+{1_Value} Командир гарнізону</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ALLIANCE_MILITARY_BUFF">
+      <Text>+{1_Value} з Військового Альянсу</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_EMERGENCY_MILITARY_BUFF">
+      <Text>[COLOR_RED]{1_Value: число +#;-#}[ENDCOLOR] з Надзвичайних ситуацій</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ALLIANCE_RELIGIOUS_COMBAT_BUFF">
+      <Text>+{1_Value} від Релігійного Альянсу</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ANTI_AIR_DEFENSE_BONUS_DESC">
+      <Text>+{1_Value} посилив систему протиповітряної оборони</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_RELIGIOUS_CITY_BONUS">
+      <Text>+{1_Value} Продвиження губернатором Великого Інквізитора</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_LESS_EFFECTIVE_VS_LAND_UNITS_DESC">
+      <Text>-{1_Value} Менш ефективний проти наземних військ</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_LESS_EFFECTIVE_VS_NAVAL_UNITS_DESC">
+      <Text>-{1_Value} Менш ефективний порівняно з морськими одиницями</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GROWTH_OCCUPIED">
+      <Text>Окуповано</Text>
+    </Row>
+    <Row Tag="LOC_REPORTS_LOYALTY">
+      <Text>Лояльність</Text>
+    </Row>
+    <Row Tag="LOC_REPORTS_GOVERNOR">
+      <Text>Губернатор</Text>
+    </Row>
+    <Row Tag="LOC_POST_COMBAT_LOYALTY_PLUS">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num} Вірність[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_POST_COMBAT_LOYALTY_MINUS">
+      <Text>[COLOR_RED]{1_Num} Відданість[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_AMENITIES_LOST_FROM_GOVERNORS">
+      <Text>Зручності від губернаторів:</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_OCCUPIED_LOYALITY_STATUS">
+      <Text>Окуповано: {1_LoyalityStatus}</Text>
+    </Row>
+    <Row Tag="LOC_NO_GOVERNORS_TITLE_AVAILABLE">
+      <Text>Немає доступних титулів губернатора</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_TITLE">
+      <Text>ГУБЕРНАТОРИ</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PANEL_UNMET_CIV">
+      <Text>Незустрічена цивілізація</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_PATRONAGE_FAITH_OFF">
+      <Text>[COLOR_RED]Витрачення [ICON_Faith] Віри на покровительство відключено через одну з ваших поточних політик. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_PATRONAGE_GOLD_OFF">
+      <Text>[COLOR_RED]Витрачення [ICON_Gold] Золота на покровительство відключено через одну з ваших поточних політик.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATIONS_CANNOT_REPAIR_BLOCKED_BY_POLICY">
+      <Text>Неможливо вилікуватися на цій території через вибір політики</Text>
+    </Row>
+    <!-- Alliance Text -->
+    <Row Tag="LOC_DIPLOACTION_INVALID_REASON_YOU_HAVE_THIS_ALLIANCE">
+      <Text>Ви вже маєте такий Альянс з іншою цивілізацією.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_INVALID_REASON_THEY_HAVE_THIS_ALLIANCE">
+      <Text>{1_OtherCiv} вже має такий тип альянсу з іншою цивілізацією.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_COLON_INPUT">
+      <Text>Рівень Альянсу: {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_COLON">
+      <Text>Рівень Альянсу:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL">
+      <Text>Рівень альянсу</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_COLON">
+      <Text>Бали Альянсу:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_PER_TURN">
+      <Text>+{1_БалиЗаХід}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_NEEDED">
+      <Text>{1_PointsNeeded}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_CURRENT">
+      <Text>Поточний альянс: {1_AllianceTypeName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_BUTTON_TOOLTIP">
+      <Text>Перегляньте важливу інформацію про рівень вашого Альянсу з цим лідером, включаючи доступ до переваг Альянсу.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_SCIENCE_NAME_LEVEL">
+      <Text>Рівень альянсу дослідження {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_CULTURAL_NAME_LEVEL">
+      <Text>Культурний рівень альянсу {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_ECONOMIC_NAME_LEVEL">
+      <Text>Економічний рівень альянсу {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_MILITARY_NAME_LEVEL">
+      <Text>Військовий рівень альянсу {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_RELIGIOUS_NAME_LEVEL">
+      <Text>Релігійний рівень Альянсу {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_RESEARCH">
+      <Text>Альянс досліджень</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_CULTURAL">
+      <Text>Культурний Альянс</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_MILITARY">
+      <Text>Військовий альянс</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_ECONOMIC">
+      <Text>Економічний Альянс</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_RELIGIOUS">
+      <Text>Релігійний Альянс</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_RESEARCH">
+      <Text>Створити дослідницький альянс</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_CULTURAL">
+      <Text>Створити культурний альянс</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_MILITARY">
+      <Text>Створіть військовий альянс</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_ECONOMIC">
+      <Text>Створити Економічний Альянс</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_RELIGIOUS">
+      <Text>Створити Релігійний Альянс</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_RENEW_ALLIANCE">
+      <Text>Оновити Альянс</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES">
+      <Text>Альянси</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_TT">
+      <Text>Запропонуйте альянс з цією силою</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_RENEW_ALLIANCE_TT">
+      <Text>Пропоную продовжити термін дії вашого поточного альянсу з цією силою</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_CURRENT_BENEFITS_HEADER">
+      <Text>Ваш поточний Альянс надає наступні переваги:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_LEVEL_UP_BENEFITS_HEADER">
+      <Text>На наступному рівні Альянсу ваші Альянси матимуть такі додаткові переваги:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_ALLIANCES">
+      <Text>{1_Tooltip}[NEWLINE]Загалом [ICON_Tourism] туризм збільшився на +{2_Percent} від Альянсів</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_SCIENCE_MODIFIER_FROM_ALLIANCES">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) від Альянсів</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_CULTURE_FROM_ALLIANCES">
+      <Text>{Value : number +#.#;-#.#}% ({ActualValue : number +#.#;-#.#}) від Альянсів</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAITH_FROM_ALLIANCES">
+      <Text>{Value : число +#.#;-#.#} з Релігійних Альянсів</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_SHARED_VIS_EFFECT">
+      <Text>Спільна видимість</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_NO_CULTURE_PRESSURE_EFFECT">
+      <Text>Міста вашого союзника не надають тиску Лояльності на ваші міста, і навпаки</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_NO_RELIGIOUS_PRESSURE_EFFECT">
+      <Text>Релігія вашого союзника не здійснює релігійного тиску на міста, що контролюються вашою релігією, і навпаки</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_MILITARY_EFFECT_1">
+      <Text>+5 [ICON_Strength] Бойової Сили проти одиниць гравців, які перебувають у війні з вами та вашим союзником</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_1">
+      <Text>+4 [ICON_GOLD] Золота з [ICON_TradeRoute] Торгівельних маршрутів до вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_2">
+      <Text>+2 [ICON_GOLD] Золота з [ICON_TradeRoute] Торгових Маршрутів від вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_1">
+      <Text>+2 [ICON_FAITH] Віра від [ICON_TradeRoute] Торгових маршрутів до вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_2">
+      <Text>+1 [ICON_FAITH] Віра від [ICON_TradeRoute] торгових маршрутів від вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_1">
+      <Text>+2 [ICON_Culture] Культури від [ICON_TradeRoute] Торговельних маршрутів до вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_2">
+      <Text>+1 [ICON_Culture] Культура від [ICON_TradeRoute] Торгових маршрутів від вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_1">
+      <Text>+2 [ICON_SCIENCE] Науки з [ICON_TradeRoute] Торгових Маршрутів до вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_2">
+      <Text>+1 [ICON_SCIENCE] Наука з [ICON_TradeRoute] Торговельних Маршрутів вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_ECONOMIC_EFFECT_1">
+      <Text>Бонус [ICON_Envoy] балів для кожного Міського-Держави з вашим союзником як Сюзереном</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_MILITARY_EFFECT_1">
+      <Text>+15% [ICON_PRODUCTION] Виробництво військових одиниць, коли ви або ваш союзник перебуваєте у війні</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_RELIGIOUS_EFFECT_1">
+      <Text>+10 Релігійна Бойова Сила проти релігій, що не є союзниками</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_RESEARCH_EFFECT_1">
+      <Text>Кожні 30 ходів (на режимі "Стандартний"), ви отримуєте [ICON_TechBoosted] Евреку для технології, яку дослідив або підвищив рівень ваш союзник, а ви - ні</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_CULTURAL_EFFECT_1">
+      <Text>Кожен з ваших районів [ICON_District] надає додатковий очок Великої Особи [ICON_GreatPerson] кожного ходу, якщо у вас є [ICON_TradeRoute] Торговельний маршрут з цього міста до вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_MILITARY_EFFECT_1">
+      <Text>Одиниці починаються з безкоштовної промоції</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RELIGIOUS_EFFECT_1">
+      <Text>+1 [ICON_FAITH] Віри для кожного з ваших [ICON_Citizen] Громадян, що слідують релігією вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RELIGIOUS_EFFECT_2">
+      <Text>Бонусна релігійний тиск в містах без послідовників релігії вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RESEARCH_EFFECT_1">
+      <Text>+10% [ICON_SCIENCE] Науки, коли ви або ваш союзник досліджуєте технологію, яку інший вже завершив, або досліджуєте ту ж саму технологію</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_CULTURAL_EFFECT_1">
+      <Text>Ви отримуєте +20% туризму [ICON_Tourism] вашого союзника від міст</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_CULTURAL_EFFECT_2">
+      <Text>Ви отримуєте +10% [ICON_Culture] культури від міст вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_ECONOMIC_EFFECT">
+      <Text>Поділіться зі своїм союзником унікальними бонусами Suzerain</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_DEFAULT">
+      <Text>{1_Amount} Балів за бутиє союзниками</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_TRADE_ROUTES_TO_THEM">
+      <Text>[NEWLINE]{1_Amount} очок за наявність [ICON_TradeRoute] Торговельного шляху до вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_TRADE_ROUTES_FROM_THEM">
+      <Text>[NEWLINE]{1_Amount} Очок за наявність [ICON_TradeRoute] торгового шляху від вашого союзника</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_COMMON_ENEMY">
+      <Text>[NEWLINE]{1_Amount} Очок за оголошення війни спільному ворогу</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_YOUR_MODIFIER">
+      <Text>[NEWLINE]{1_Amount} Бали з вашого іншого джерела</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_THEIR_MODIFIER">
+      <Text>[NEWLINE]{1_Amount} Бали з інших джерел вашого союзника</Text>
+    </Row>
+    <!-- New Government Text -->
+    <Row Tag="LOC_GOVT_POLICY_TYPE_DARKAGE">
+      <Text>Політики Темних часів</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_XP1">
+      <Text>+1 до всіх врожаїв за кожен будинок уряду та палац у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_XP1">
+      <Text>Усі наземні ближнього бою, антикавалерійські та морські ближнього бою одиниці отримують +4 [ICON_Strength] бойової сили.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_XP1">
+      <Text>Усі міста з районами отримують додатково +1 [ICON_Housing] житло та +1 [ICON_Amenities] зручність.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_XP1">
+      <Text>+1 [ICON_Housing] Житло на кожному рівні Стін.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1">
+      <Text>+5 [ICON_Religion] Релігійна сила в теологічному бою.[NEWLINE]+0.5 [ICON_Faith] Віра на кожного [ICON_Citizen] громадянина в містах з [ICON_Governor] управителями.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_XP1">
+      <Text>+10% [ICON_GOLD] Золото у всіх містах з заснованим [ICON_Governor] Губернатором.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_XP1">
+      <Text>Всі підрозділи отримують +5 [ICON_Strength] бойової міці. Зневага до війни зменшується на 15%.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1">
+      <Text>+0.6 [ICON_Production] Виробництво на одного [ICON_Citizen] Громадянина у містах з [ICON_Governor] Губернаторами.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP1">
+      <Text>+1 [ICON_Production] Виробництво, +1 [ICON_Housing] Житло на округу.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_XP1">
+      <Text>+10% виробництво для Див.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_XP1">
+      <Text>+20% досвіду одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_XP1">
+      <Text>+15% балів Великої Особистості.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1">
+      <Text>+50% Балів впливу.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_XP1">
+      <Text>15% Знижка на покупки з [ICON_Faith] Вірою.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_XP1">
+      <Text>+15% виробництва для районів.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_XP1">
+      <Text>+50% Виробництва одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP1">
+      <Text>+15% Виробництва.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_XP1">
+      <Text>Знижка 25% на покупки з [ICON_Gold] Gold.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_UNLOCKS_POLICY_CARD">
+      <Text>Розблоковує картку політики {1_PolicyName}.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+4 з Олігархічної Спадщини</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 від Теократичної спадщини</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 від Фашистського спадщини</Text>
+    </Row>
+    <!-- Governors UI -->
+    <Row Tag="LOC_GOVERNORS_SCREEN_TAB_OWNED_GOVERNORS">
+      <Text>Поточні губернатори</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_TAB_GOVERNOR_CANDIDATES">
+      <Text>Кандидати</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_APPOINT_GOVERNOR">
+      <Text>Призначити</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_DETAILS">
+      <Text>Details</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_PROMOTE">
+      <Text>Продвигати (prodvyhaty)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_VIEW_PROMOTIONS">
+      <Text>Переглянути акції</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ESTABLISHED_IN">
+      <Text>Засновано в:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TRANSITIONING_TO">
+      <Text>Завоювання політичної влади в:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_NEEDS_ASSIGNMENT">
+      <Text>Потрібно доручення</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_REPLACES">
+      <Text>Замінює:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_CONFIRM_REPLACEMENT">
+      <Text>ЗАМІНИТИ ГУБЕРНАТОРА? Встановлення цього губернатора замінить губернатора у цьому місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_PLUS_PRESSURE">
+      <Text>{1_Тиск: число +#;-#}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_IS_ESTABLISHED">
+      <Text>{1_Name} ({2_Type}) засновано у цьому місті</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_IS_ESTABLISHING">
+      <Text>{1_Name} ({2_Type}) засновується у цьому місті</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_NO_GOVERNOR">
+      <Text>Не призначено губернатора</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_CURRENT_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>Поточна відданість на кожен хід</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_FUTURE_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>Лояльність за кожний хід з цим Губернатором закріплена</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TRANSITION_TURNS">
+      <Text>{1_NumTurns} Обертань</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TURNS_UNTIL_ESTABLISHED">
+      <Text>{1_NumTurns} обертань до встановлення</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_NAME_WITH_TURNS">
+      <Text>{1_GovernorName} ({2_Turns} {2_Turns : plural 1?зворот; few?звороти; many?зворотів;})</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_NEUTRALIZED">
+      <Text>Нейтралізовано:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_NEUTRALIZED_TURNS_REMAINING">
+      <Text>(Ще {1_Turns : один оборот; 2-4 оберти; 5-20 обертiв;})</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_CANDIDATE">
+      <Text>Кандидат на посаду губернатора</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ASSIGN_TO">
+      <Text>Призначити {1_GovernorName} на посаду:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_BASE_ABILITY_HEADER_TEXT">
+      <Text>Базова Здатність:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_PROMOTIONS_HEADER_TEXT">
+      <Text>Промоції:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_CHANGE_ASSIGNMENT">
+      <Text>Змінити призначення міста</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_GRANT_PROMOTION">
+      <Text>Рекламна акція на отримання грантів</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_GOVERNOR_NEUTRALIZED">
+      <Text>Поза комісією</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_CANCEL_PROMOTE_PROMPT">
+      <Text>Обрана промо-акція не буде застосована, якщо ви залишите цей екран. Хочете продовжити?</Text>
+    </Row>
+    <!-- Governors -->
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_NAME">
+      <Text>Віктор</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_NAME">
+      <Text>Amani</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_NAME">
+      <Text>Мокша</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME">
+      <Text>Магнус</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_NAME">
+      <Text>Лянг</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_NAME">
+      <Text>Пінгала</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_NAME">
+      <Text>Рейна</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_TITLE">
+      <Text>Кастелян</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_TITLE">
+      <Text>Дипломат</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_TITLE">
+      <Text>Кардинал</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_TITLE">
+      <Text>Стюард</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_TITLE">
+      <Text>Опитувач</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_TITLE">
+      <Text>Вихователь</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_TITLE">
+      <Text>Фінансист</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_SHORT_TITLE">
+      <Text>Кастелян</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_SHORT_TITLE">
+      <Text>Дипломат</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_SHORT_TITLE">
+      <Text>Кардинал</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_SHORT_TITLE">
+      <Text>Стюард</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_SHORT_TITLE">
+      <Text>Опитувальник</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_SHORT_TITLE">
+      <Text>Вихователь</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_SHORT_TITLE">
+      <Text>Фінансист</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_DESCRIPTION">
+      <Text>Зосереджений на військових питаннях, після встановлення у місті {LOC_GOVERNOR_THE_DEFENDER_NAME} є ключовим у зміцненні, збереженні та захисті міста від зовнішніх загроз.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_DESCRIPTION">
+      <Text>Здатний здобувати підтримку для вашої цивілізації та поширювати її вплив на прилеглі міста. {LOC_GOVERNOR_THE_AMBASSADOR_NAME} - єдиний губернатор, якого можна призначити на іноземне завдання в місто-державу.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_DESCRIPTION">
+      <Text>Духовний та релігійний лідер, який може збільшити релігійну міць міста [ICON_Religion] та релігійні одиниці, що розміщені там. {LOC_GOVERNOR_THE_CARDINAL_NAME} є маяком [ICON_FAITH] віри в вашій імперії.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_DESCRIPTION">
+      <Text>Підприємливий та здатний {LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME} здатний забезпечувати цінні ресурси в потрібний момент. Він також досить кваліфікований у оптимізації загального [ICON_PRODUCTION] Виробництва в місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_DESCRIPTION">
+      <Text>{LOC_GOVERNOR_THE_EDUCATOR_NAME} зосереджується на культивуванні [ICON_SCIENCE] наукових та [ICON_Culture] культурних зусиль у місті. Він також вміє приваблювати [ICON_GreatPerson] Великих Людей до свого міста.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_DESCRIPTION">
+      <Text>Кмітливий та фінансово обізнаний, {LOC_GOVERNOR_THE_MERCHANT_NAME} здатен зміцнити економічну потужність міста, використовуючи фінанси для забезпечення більшого, ніж зазвичай можливо.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_DESCRIPTION">
+      <Text>Експерт у питаннях ефективності, {LOC_GOVERNOR_THE_BUILDER_NAME}, вміє усе що пов'язано з будівництвом та конструкцією. Як досвідчаний планувальник, вона також може керувати розробкою індивідуальних покращень у місті.</Text>
+    </Row>
+    <!-- Governor Promotions -->
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_NAME">
+      <Text>Редут</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION">
+      <Text>Збільшує бойову міць [ICON_Strength] гарнізону міста на +5.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_NAME">
+      <Text>Командувач гарнізоном</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION">
+      <Text>Одиниці, які захищаються на території міста, отримують +5 [ICON_Strength] бойової міцності.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_NAME">
+      <Text>Зубний проміжок (literal); міжзубний простір (common usage)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION">
+      <Text>Місто отримує додатковий [ICON_Ranged] постріл на дальність на кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_NAME">
+      <Text>Логістика оборони</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SECURITY_EXPERT_NAME">
+      <Text>Експерт з безпеки</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SECURITY_EXPERT_DESCRIPTION">
+      <Text>Ворожі шпигуни працюють на 2 рівня нижче звичайного в цьому місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION">
+      <Text>Місто не може бути піддане облозі.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_NAME">
+      <Text>Ініціатива з Повітряної Оборони</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION">
+      <Text>+25 [ICON_Strength] Бойової Сили для підтримки проти-повітряних військ в межах території міста під час захисту від літаків та МБР.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_NAME">
+      <Text>Месенджер</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION">
+      <Text>Може бути призначена до місто-держави, де вона діє як 2 [ICON_Envoy] відправника.</Text>
+    </Row>
+    <Row Tag="LOC_SETTLER_LOYALTY_WARNING_TOOLTIP">
+      <Text>Вплив навколишніх міст застосовуватиме {1_LoyaltyPerTurnAmount} Лояльності на хід до нового міста, розташованого тут. Розгляньте можливість використання у новому місті Губернатора [ICON_Governor] або облаштування десь інакше.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_NAME">
+      <Text>Емісар</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION">
+      <Text>Інші міста, що знаходяться в межах 9 тайлів і не належать вам, втрачають 2 балів лояльності кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE_NAME">
+      <Text>Престиж</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE_DESCRIPTION">
+      <Text>Інші міста, що знаходяться на відстані до 9 тайлів, отримують +2 Лояльності на кожен хід до вашої цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_NAME">
+      <Text>Добробут</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_DESCRIPTION">
+      <Text>Поки вона перебуває в місто-державі, вона надає вам копію своїх ресурсів розкішів.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER_NAME">
+      <Text>Промоутер</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER_DESCRIPTION">
+      <Text>+4 [ICON_Amenities] Зручності у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_NAME">
+      <Text>Керувальник ляльок</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_DESCRIPTION">
+      <Text>Коли засновано у містовій державі, подвоює кількість [ICON_Envoy] послів, які ви маєте там.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_NAME">
+      <Text>Єпископ</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_NAME">
+      <Text>Великий Інквізитор</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_NAME">
+      <Text>Божественний Архітектор</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_NAME">
+      <Text>Накладання рук</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_NAME">
+      <Text>Цитадель Бога</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_NAME">
+      <Text>Покровитель святий</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION">
+      <Text>Релігійний тиск на сусідні міста з цього міста є на 100% сильніший.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Релігійної сили у богословському бою на тайлах цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_DESCRIPTION">
+      <Text>+20% [ICON_Production] виробництво до будівель Святого місця у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_DESCRIPTION">
+      <Text>[ICON_Governor] Релігійні одиниці Губернатора повністю відновлюють здоров'я за один хід на тайлах цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_DESCRIPTION">
+      <Text>Місто ігнорує вплив тиску та бойових дій релігій, які не були засновані гравцем [ICON_Governor] губернатора.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_DESCRIPTION">
+      <Text>Апостоли та Воїнські монахи, навчені в місті, отримують 1 додаткове просування при отриманні свого першого просування.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_NAME">
+      <Text>Руйнівник стережі</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION">
+      <Text>+50% урожаю з ділянок та видалення функцій в місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_NAME">
+      <Text>Логістика надлишків</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION">
+      <Text>+20% зростання [ICON_Food] у місті. Ваші [ICON_TradeRoute] торговельні маршрути, що закінчуються тут, надають +2 [ICON_Food] харчів початковому місту.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_NAME">
+      <Text>Надання (Nadan'nya)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION">
+      <Text>+20% [ICON_Production] до будівель промислових зон у місті. Оселенці, навчені у місті, не споживають [ICON_Citizen] Населення.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_NAME">
+      <Text>Промисловець</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION">
+      <Text>+1 [ICON_Production] Виробництво за хід з кожного стратегічного ресурсу в місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_NAME">
+      <Text>Чорний ринківець</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION">
+      <Text>Для будівництва залежних від ресурсів одиниць в місті не потрібні стратегічні ресурси.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_NAME">
+      <Text>Вертикальна інтеграція</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_DESCRIPTION">
+      <Text>Це місто отримує [ICON_Production] виробництво з будь-яких промислових зон в радіусі 6 тайлів, а не тільки з першої.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_NAME">
+      <Text>Магістр гільдії</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_DESCRIPTION">
+      <Text>Усі будівельники, навчені у місті, отримують додатковий заряд будівництва +1.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_INFRASTRUCTURE_NAME">
+      <Text>Інфраструктура</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_INFRASTRUCTURE_DESCRIPTION">
+      <Text>+30% [ICON_Production] Виробництво для будівель Центру міста та Площі уряду.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_NAME">
+      <Text>Аквакультура</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION">
+      <Text>Удосконалення "Рибальство" можна побудувати у місті на узбережжі. Забезпечує 1 [ICON_Food] харчування, +1 [ICON_Food], якщо поряд знаходиться морський ресурс.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_NAME">
+      <Text>Парки та рекреація</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION">
+      <Text>У місті можна побудувати унікальне покращення - Міський парк. Дає 2 бали привабливості та 1 культури [ICON_Culture]. +1 [ICON_Amenities] зручності, якщо прилегає до води.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_NAME">
+      <Text>Комісіонер зонування</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION">
+      <Text>+20% [ICON_Production] Виробництво для будівництва районів у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ARCHITECT_NAME">
+      <Text>Розвага</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ARCHITECT_DESCRIPTION">
+      <Text>+30% [ICON_Production] Виробництво для будівель Комплексу розваг та аквапарку у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_NAME">
+      <Text>Бібліотекар</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION">
+      <Text>15% збільшення виробітку [ICON_Science] науки та [ICON_Culture] культури містом.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_NAME">
+      <Text>Конишньйор</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_DESCRIPTION">
+      <Text>+20% [ICON_Production] Виробництво будівель для Театрального майдану в місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_NAME">
+      <Text>Дослідник</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_DESCRIPTION">
+      <Text>+20% [ICON_Production] Виробництво до будівель Кампусу в місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_NAME">
+      <Text>Гранти</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_DESCRIPTION">
+      <Text>+100% [ICON_GreatPerson] Очки Великих Людей, генерируемые каждый ход в городе.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_NAME">
+      <Text>Пропонент гонки озброєнь</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION">
+      <Text>Збільшення виробництва на 30% [ICON_Production] для всіх проектів ядерної зброї в місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_NAME">
+      <Text>Ініціатива Космосу</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_DESCRIPTION">
+      <Text>Збільшення виробництва на 30% [ICON_Production] для всіх проектів космічної програми у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_NAME">
+      <Text>Закупівля землі</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION">
+      <Text>Отримуйте нові плитки в місті швидше.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_NAME">
+      <Text>Міський гаванний майстер</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION">
+      <Text>Подвійні бонуси прилеглості від Торгових Центрів та Портів у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE_NAME">
+      <Text>Іноземна валюта</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE_DESCRIPTION">
+      <Text>+3 [ICON_Gold] Золота щовічни з кожного іноземного [ICON_TradeRoute] Торговельного маршруту, який проходить через місто.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TARIFFS_NAME">
+      <Text>Тарифи</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TARIFFS_DESCRIPTION">
+      <Text>+3 [ICON_Gold] Золота щоворуші з усіх [ICON_TradeRoute] Торговельних маршрутів в і з міста.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_NAME">
+      <Text>Збирач податків</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Золота на хід за кожного [ICON_Citizen] Громадянина у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_NAME">
+      <Text>Підрядник</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_DESCRIPTION">
+      <Text>Дозволяє місту купувати райони за [ICON_Gold] Золото.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_NAME">
+      <Text>Куратор</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_DESCRIPTION">
+      <Text>+100% [ICON_Tourism] Туризм з великих творів мистецтва, музики та літератури у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ACTION_AVAILABLE">
+      <Text>Ви можете просунути або призначити [ICON_Governor] губернатора!</Text>
+    </Row>
+    <!-- Leader Agendas-->
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_HORN_CHEST_LOINS">
+      <Text>Подобається цивілізація, яка має багато корпорацій та армій</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_HORSE_LORD">
+      <Text>Він любить цивілізації, які не конкурують з ним за кінництво</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_CULTURAL_ID">
+      <Text>Подобаються цивілізації з високою вірністю, але не подобаються ті, у яких низька</Text>
+    </Row>
+    <!-- Unit Abilities-->
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING_NAME">
+      <Text>Альпіністський тренінг</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING__DESCRIPTION">
+      <Text>Альпійський тренінг: +3 [ICON_Strength] Сили бойової дії під час бою в горах та відсутність штрафу руху на гірському рельєфі.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING_COMBAT_HILLS_MODIFIER_DESCRIPTION">
+      <Text>+3 [ICON_Strength] Бойової Сили під час боїв в горах</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Bombard] Сила артилерії від допоміжного підрозділу</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SCOTTISH_HIGHLANDER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] бонус до бойової сили на пагорбах та в лісах</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MONGOLIAN_KESHIG_DESCRIPTION">
+      <Text>Може супроводжувати рух цивільних та підрозділів підтримки зі швидкістю руху [ICON_Movement].</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GEORGIAN_KHEVSURETI_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бонус до сили бойового навиків під час бою в гірській місцевості. [NEWLINE][ICON_Bullet] Немає штрафу [ICON_Movement] на рух в гірській місцевості.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAPUCHE_MALON_RAIDER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] бонус до бойової міцності в радіусі 4 шестикутників від союзних територій.[NEWLINE][ICON_Bullet] Розграбування коштує 1 [ICON_Movement] руху.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PREVIEW_ZEVEN_PROVINCIEN_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила проти оборонних районів</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DUTCH_ZEVEN_PROVINCIEN_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила при атакуванні оборонних районів.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CREE_OKIHTCITAW_DESCRIPTION">
+      <Text>Починається з 1 безкоштовної промоції.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZULU_IMPI_DESCRIPTION">
+      <Text>+100% бонус за флангування.[NEWLINE][ICON_Bullet]Отримує досвід на 25% швидше.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_INCREASED_MOVEMENT_NAME">
+      <Text>Монгольська степ</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_INCREASED_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% бойового досвіду від Орду</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_NAME">
+      <Text>Економічна Золота Доба</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_DESCRIPTION">
+      <Text>Торговий маршрут [ICON_TradeRoute] цього підрозділу не може бути розграбований ворожими підрозділами. Отримується як частина економічного золотого віку.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS_NAME">
+      <Text>Інквізиція</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS_DESCRIPTION">
+      <Text>+15 Релігійної бойової сили на дружній території.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_NAME">
+      <Text>Сутінкова мужність</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової міці для всіх ближнього бою військових одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_MOVEMENT_BONUS_DESCRIPTION">
+      <Text>Гранти +1 [ICON_Movement] Руху для військ, що розпочинають свій рух на відстані до 1 гекса.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PARADROP_DESCRIPTION">
+      <Text>Можна зробити парашутний спуск зі свого тайлу до місця, віддаленого на 7 тайлів (12, якщо почати з аеродрому або аеропорту).</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_XP_FROM_GOVERNOR_DESCRIPTION">
+      <Text>+10% Отриманого досвіду від боїв (Токі)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_XP_FROM_GOVERNOR_NOT_FOUNDED_DESCRIPTION">
+      <Text>+30% Заробленого досвіду від бою (Токі)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_COMBAT_BUFF_VS_GOLDEN_AGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойова Сила проти Вільних Міст або цивілізацій у Золотий Вік. [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TIMUR_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+25% Отриманого досвіду від бою (Тімур)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DRONE_GRANT_SIEGE_BONUS_DESCRIPTION">
+      <Text>Гранти +5 [ICON_Bombard] Сила Обстрілу для одиниць класу Облога в радіусі 1 гекса.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GENGHIS_KHAN_CAVALRY_BONUS_DESCRIPTION">
+      <Text>+3 [ICON_Strength] Бойова Сила (Монгольська Орда).</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GENGHIS_KHAN_CAVALRY_CAPTURE_CAVALRY_DESCRIPTION">
+      <Text>Можливість захоплювати переможені конні підрозділи (Монгольського улусу).</Text>
+    </Row>
+    <!-- Feature -->
+    <Row Tag="LOC_FEATURE_REEF_NAME">
+      <Text>Риф</Text>
+    </Row>
+    <!-- Cultural Identity UI-->
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_SUBSECTION">
+      <Text>Вірність</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_ACCUMULATED_IDENTITY_SUBSECTION">
+      <Text>Накопичена вірність</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_DISTANCE_FROM_CAPITAL">
+      <Text>Близькість до вашої столиці [ICON_Capital]</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY">
+      <Text>[SIZE:16]{1_Лояльність} [SIZE:12]Лояльність</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_OF">
+      <Text>of</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_TOTAL_LOYALTY">
+      <Text>[SIZE:16]{1_Loyalty} [SIZE:12]Можливо</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_STATUS">
+      <Text>Статус:</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_LINE">
+      <Text>Лояльність за час оберту:</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OWNERSHIP">
+      <Text>Власність цього міста</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_POPULATION">
+      <Text>[ICON_Citizen] Громадяни, що проживають тут</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_MARTIAL_LAW">
+      <Text>Військова одиниця, розташована під час Окупації</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OCCUPATION">
+      <Text>Окупація</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_STARVATION">
+      <Text>Голодування</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_TRADE_ROUTES">
+      <Text>[ICON_TradeRoute] Торговельні маршрути</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_GOVERNOR">
+      <Text>[ICON_Governor] Губернатор розміщений тут</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_HAPPINESS">
+      <Text>Рівень щастя</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_RELIGION_MATCHING_FOUNDED">
+      <Text>Відповідно до вашої заснованої [ICON_Religion] Релігії</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_RELIGION_MISMATCHING_FOUNDED">
+      <Text>Не дотримуватися заснованої тобою релігії [ICON_Religion]</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_MODIFIERS">
+      <Text>Інші ефекти</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_ORIGINAL_OWNERSHIP">
+      <Text>Бути першовласником міста</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OWNERSHIP_BEFORE_OCCUPATION">
+      <Text>Бути власником міста перед окупацією</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_FREE_CITIES">
+      <Text>Бажання незалежності</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_ALWAYS_LOYAL">
+      <Text>Завжди повністю вірний</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_CITIZEN_PRESSURE">
+      <Text>Тиск з боку оточуючих [ICON_Citizen] громадян</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_OWNED_CITIES">
+      <Text>Поблизу [ICON_Citizen] громадяни</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_FOREIGN_CITIES">
+      <Text>Поблизу конкурентів [ICON_Citizen] Громадян</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_OWNED_GOVERNORS">
+      <Text>Поруч володіються [ICON_Governor] Губернатори, розташовані поруч</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_FOREIGN_GOVERNORS">
+      <Text>Поруч зі змагальником-дипломатом [ICON_Governor] Губернаторами</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_OWNERSHIP">
+      <Text>{1_IdentityPressureAmount} від володіння містом</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_POPULATION">
+      <Text>{1_IdentityPressureAmount} з середнього громадянина міста [ICON_Citizen]</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_AGES">
+      <Text>{1_IdentityPressureAmount} золотого або темного середньовіччя</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_GOVERNOR">
+      <Text>{1_IdentityPressureAmount} від дипломата [ICON_Governor] губернатора</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_MODIFIERS">
+      <Text>{1_IdentityPressureAmount} від інших впливів</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_OWN_CITIES">
+      <Text>Ваші [ICON_Citizen] Громадяни в радіусі 9 тайлів</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_MARTIAL_LAW">
+      <Text>Воєнний стан</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_OCCUPATION">
+      <Text>[COLOR_RED]Заняття</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_TRADE_ROUTES">
+      <Text>[ICON_TradeRoute] Торговельні маршрути</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_GOVERNOR">
+      <Text>[ICON_Governor] Резидентний губернатор</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_BASE_DECAY">
+      <Text>Розклад основи</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_HAPPINESS">
+      <Text>Щастя громадян</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_UNHAPPINESS">
+      <Text>[COLOR_RED]Незадоволеність громадян</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_GOLDEN_AND_DARK_AGES">
+      <Text>Золоті та Темні часи</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_MISC">
+      <Text>Інші модифікатори</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_INDEPENDENCE_DESIRE">
+      <Text>[COLOR_RED]Загальне незадоволення</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_FOREIGN_CITIES">
+      <Text>[COLOR_RED]Громадяни [ICON_Citizen] інших цивілізацій в радіусі 9 тайлів</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_STARVATION">
+      <Text>[COLOR_RED]Місто голодує</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_ADDITIONAL">
+      <Text>Додаткові джерела</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_NO_GROWTH_PENALTY">
+      <Text>Немає штрафу</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CULTURAL_IDENTITY_LENS">
+      <Text>Вірність</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CULTURAL_IDENTITY_LENS_TOOLTIP">
+      <Text>Покажіть вірність міст, та джерела вірності, які на неї впливають.</Text>
+    </Row>
+    <!-- Disloyal City UI -->
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_EXPLANATION">
+      <!--New version of base game text used in conquer city UI popup, to describe Liberation effect on Loyalty-->
+      <Text>Звільнення міста поверне його до одного з його попередніх власників, можливо, повернувши цивілізацію назад до гри.[NEWLINE][NEWLINE]{1_WarmongerInfo}[NEWLINE][NEWLINE]Це місто буде імунним до впливу лояльності зі сторони ваших міст і урядників.</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_HEADER">
+      <Text>МІСТО ПОСТАВИЛОСЯ НА БОРОТЬБУ</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_NAME_LABEL">
+      <Text>Назва міста:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_POPULATION_LABEL">
+      <Text>Населення:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_DISTRICTS_LABEL">
+      <Text>Кількість районів, які присутні:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_KEEP_BUTTON_LABEL">
+      <Text>Збережіть місто</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_KEEP_EXPLANATION">
+      <Text>Збережіть це місто. Ви можете захотіти призначити [ICON_Governor] губернатора сюди, щоб зміцнити Лояльність цих нових громадян, які приєднуються до вашої імперії.</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_REFUSE_BUTTON_LABEL">
+      <Text>Місто відмовляється</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_REFUSE_EXPLANATION">
+      <Text>Відмовтеся від домагання цього міста приєднатися до вашої імперії. Воно залишиться вільним містом. [NEWLINE][NEWLINE] Це місто буде імунним до впливу лояльності від ваших міст і губернаторів, і не буде просити знову приєднатися до вашої цивілізації. Його все ще можна підкорити іншою цивілізацією.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_LOYALTY_TOOLTIP">
+      <Text>{Value: число +#;-#}% ({ActualValue: число +#.#;-#.#}) зі {1_LoyaltyLevelName}</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) з Hwarang ([ICON_Governor] губернатор з {1} {1 : plural 1?продвиженням; other?продвиженнями;})</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_3_NAME">
+      <Text>Вірний</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_2_NAME">
+      <Text>Хитра Лояльність</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_1_NAME">
+      <Text>Ненадійний</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_0_NAME">
+      <Text>Нестабільність</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_3_DESCRIPTION">
+      <Text>Громадяни вірні вашій цивілізації</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_2_DESCRIPTION">
+      <Text>Лояльність громадян до вашої цивілізації хитається.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_1_DESCRIPTION">
+      <Text>Громадяни не вірні вашій цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_0_DESCRIPTION">
+      <Text>Громадяни знаходяться у стані неспокою.</Text>
+    </Row>
+    <Row Tag="LOC_GLORY_SCORE_BREAKDOWN">
+      <Text>{1_Icon}({2_Оцінка}/{3_поріг})</Text>
+    </Row>
+    <!-- Resources -->
+    <Row Tag="LOC_RESOURCE_AMBER_NAME">
+      <Text>Янтар</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_OLIVES_NAME">
+      <Text>Оливки</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_TURTLES_NAME">
+      <Text>Черепахи</Text>
+    </Row>
+    <!-- HUD -->
+    <Row Tag="LOC_HUD_CITY_POPULATION_GRAPH_TOOLTIP">
+      <Text>{1_Amount} {2_CivName} {1_Amount : plural 1?Громадянин; few?Громадяни; many?Громадян;}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_LOYALTY">
+      <Text>{1_LoyaltyAmount} Вірність ({2_LoyaltyPerTurn : number +#.#;-#.#} на хід)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_FULL_LOYALTY">
+      <Text>Повна вірність</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GAINING_LOYALTY">
+      <Text>Повна вірність протягом {1_Turns} {1_Turns : plural 1?ходу; other?ходів;}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_LOSING_LOYALTY">
+      <Text>Повстання в {1_Turns}</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_UNIT_PRODUCTION_MODIFIER">
+      <Text>{Value : number +#.#;-#.#}% до одиниць</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_BUILDING_PRODUCTION_MODIFIER">
+      <Text>{Value : number +#.#;-#.#}% на будівлі та дива</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_BUILDING_NON_WONDER_PRODUCTION_MODIFIER">
+      <Text>{Value : число +#.#;-#.#}% до будівель</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_STABLE_LOYALTY">
+      <Text>Лояльність громадян не змінюється</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_CULTURAL_EFFECT">
+      <Text>Немає позитивних або негативних наслідків</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR">
+      <Text>Губернатор</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CIVICS_TREE_AWARD_GOVERNOR">
+      <Text>Нагороди 1 [Icon_Governor] Титул Губернатора</Text>
+    </Row>
+    <Row Tag="LOC_HUD_LAUNCHBAR_GOVERNOR_BUTTON">
+      <Text>Губернатори[NEWLINE][NEWLINE]Переглядайте або керуйте [Icon_Governor] губернаторами в своїй цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_LAUNCHBAR_HISTORIAN_BUTTON">
+      <Text>Історична лінія часу [NEWLINE][NEWLINE]Перегляньте лінію часу історичних подій, досягнутих вашою цивілізацією.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_CULTURE_TOOLTIP">
+      <Text>Лояльність та губернатори</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ESTABLISHED">
+      <Text>Засновано у місті</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ASSIGNED_SPECIFIC">
+      <Text>[ICON_Governor] Губернатор {1_GovernorName} призначений до міста</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ESTABLISHED_SPECIFIC">
+      <Text>[ICON_Governor] Губернатор {1_GovernorName} заснував у місті</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_NO_GOVERNOR">
+      <Text>Не призначений [ICON_Governor] Губернатор</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_NO_GOVERNOR_EFFECT">
+      <Text>...</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_TURNS">
+      <Text>{1_num} {1_Num : plural 1?поворот; other?повороти;}.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GOLD_FROM_POPULATION">
+      <Text>{Value : число +#.#;-#.#} з додаткового оподаткування</Text>
+    </Row>
+    <!-- Loyalty and Identity -->
+    <Row Tag="LOC_LOYALTY_STATUS_LOYAL">
+      <Text>[COLOR_GREEN]Вірний</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_STATUS_DISLOYAL">
+      <Text>[COLOR_RED]Ненадійний</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_GAINING">
+      <Text>[COLOR_GREEN][ICON_PressureUp] Підвищення</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_STABLE">
+      <Text>Стабільний</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_LOSING">
+      <Text>[COLOR_RED][ICON_PressureDown] Падіння</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_NONE">
+      <Text>Це місто вірне вам, і тут немає жодних негативних наслідків.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_DANGER_OF_REBELLION_TO_PLAYER">
+      <Text>[COLOR_RED]Якщо рівень лояльності впаде до нуля, місто повстане та приєднається до {1_PlayerName}, який/яка має найбільше накопиченої лояльності тут.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_DANGER_OF_REBELLION_TIED_PLAYERS">
+      <Text>[COLOR_RED]Якщо Рівень вірності опуститься до 0, місто повстане і приєднається до іншої цивілізації, яка має найбільшу кількість Рівня вірності тут.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_GROWTH_AND_YIELD_EFFECTS_TEXT">
+      <Text>Зростання міста становить {1_GrowthReduction}%[NEWLINE]Урожайність міста зменшена на {2_YieldPercentage}%</Text>
+    </Row>
+    <!-- Emergency Text Blocks -->
+    <Row Tag="LOC_EMERGENCY_PARTICIPANTS">
+      <Text>УЧАСНИКИ:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING">
+      <Text>Очікується {1_TypeEmergency}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_ONGOING">
+      <Text>Поточна {1_TypeEmergency}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETED">
+      <Text>Завершено {1_TypeEmergency}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET">
+      <Text>Ціль: {1_Target}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_YOU_ARE_TARGET">
+      <Text>Я</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_JOIN">
+      <Text>Прийняти</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REJECT">
+      <Text>Відхилити</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TURNS_REMAINING">
+      <Text>[ICON_Turn] Залишилося {1_Turns : plural 1?{1_Turns} один хід; few?{1_Turns} ходи; other?{1_Turns} ходів;}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NO_TURNS_REMAINING">
+      <Text>Закінчення [ICON_Turn] Цього Ходу</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TURNS_OVER">
+      <Text>Екстрена ситуація закінчилася</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_BUFFS_EXPLANATION">
+      <Text>Під час цього надзвичайного стану:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARDS_EXPLANATION">
+      <Text>Якщо члени досягнуть успіху:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARDS_EXPLANATION">
+      <Text>Якщо члени не вдаються:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBERS_HAVE_WON_REWARDS">
+      <Text>Через перемогу членів:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_HAS_WON_REWARDS">
+      <Text>Через перемогу Target:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_THESE_GOALS">
+      <Text>Будь ласка, виконайте наступні завдання:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_EXPLANATION">
+      <Text>У вас є шанс долучитись до Надзвичайної ситуації проти цієї Мети. [NEWLINE] {1_GoalsExplanation} [NEWLINE] Якщо ви успішно виконаєте цю місію, вас буде винагороджено. Якщо ж ви зазнаєте невдачі, Мета стане сильнішою. Ви повинні Прийняти або Відхилити цю Надзвичайну ситуацію.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_EXPLANATION_DEFENDER">
+      <Text>Проти вас оголошено надзвичайний стан![NEWLINE]{1_GoalsExplanation}[NEWLINE]Якщо ви успішно запобігатимете членам досягнення цих цілей, вас буде винагороджено. Якщо ж ви зазнаєте невдачі, члени стануть сильнішими.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_SHORT_DESCRIPTION">
+      <Text>В ОЧІКУВАННІ: ПРИЙНЯТИ АБО ВІДХИЛИТИ</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_MEMBERS_WIN">
+      <Text>Члени переможні</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_TARGET_WIN">
+      <Text>Ціль переможна</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_GOLD_REWARD">
+      <Text>Цивілізації-учасники діляться котлом з {1_Amount} [ICON_Gold] золота.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_GOLD_REWARD">
+      <Text>Ціль отримує [ICON_Gold] {1_Amount} Золота за кожного учасника.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_BUFF_DESCRIPTION_IDENTITY_IN_CITY">
+      <Text>Ціль отримує +20 вірності щоразу в місті-цілі.</Text>
+    </Row>
+    <!-- |||||||||  Goal Specific                                                   ||||||||||||| -->
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_CAPTURE_CITIES">
+      <Text>Ті, хто приєднаються до Екстреної служби, повинні захопити певні міста від {TargetName} протягом [ICON_Turn] {Turns} ходів.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_CAPTURE_SPECIFIC_CITY">
+      <Text>Ті, хто приєднаються до аварійної команди, повинні захопити {CityName} від {TargetName} протягом [ICON_Turn] {Turns} ходів.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_CAPTURE_CITIES">
+      <Text>Члени Екстреної служби повинні захопити певні міста від {TargetName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_CAPTURE_SPECIFIC_CITY">
+      <Text>Члени Надзвичайної комісії повинні захопити {CityName} від {TargetName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_CAPTURE_CITIES">
+      <Text>Захопити {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_CAPTURE_CITIES_DEFENSE">
+      <Text>Захистіть {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_CAPTURE_CITY_DEFENSE">
+      <Text>Захистіть {1_CityName} до кінця надзвичайної ситуації.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_CAPTURE_CITIES">
+      <Text>Захопіть {1_CityName} до закінчення надзвичайної ситуації.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_UNCONVERT_CITY">
+      <Text>Ті, хто приєднаються до Аварійної ситуації, повинні запобігти місту {CityName} перейти на релігію {TargetName} на {HalfTurns} наступних [ICON_Turn] {Turns} ходів.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_UNCONVERT_CITY">
+      <Text>Члени Надзвичайних заходів повинні перешкодити {CityName} переходити на релігію {TargetName} на протязі [ICON_Turn] {HalfTurns} ходів.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_UNCONVERT_CITY">
+      <Text>Засудження {NewReligion}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_UNCONVERT_CITY_DEFENSE">
+      <Text>Захистіть {NewReligion}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_UNCONVERT_CITY_DEFENSE">
+      <Text>Зробіть {NewReligion} головною релігією в місті {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_UNCONVERT_CITY">
+      <Text>Запобігти тому, щоб {NewReligion} стала домінуючою релігією в місті {1_CityName}.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_LIBERATE_CITY">
+      <Text>Ті, хто приєднаються до Надзвичайного стану, повинні звільнити місто {CityName} від контролю {TargetName} протягом [ICON_Turn] {Turns} ходів.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIBERATE_CITY">
+      <Text>Члени екстреної команди повинні визволити {CityName} від {TargetName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_LIBERATE_CITY">
+      <Text>Звільніть {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_LIBERATE_CITY_DEFENSE">
+      <Text>Захистіть {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_LIBERATE_CITY_DEFENSE">
+      <Text>Захищайте {1_CityName} до кінця надзвичайної ситуації.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_LIBERATE_CITY">
+      <Text>Звільніть {1_CityName} до закінчення надзвичайної ситуації.</Text>
+    </Row>
+    <!-- |||||||||  Emergency Specific                                              ||||||||||||| -->
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_MILITARY">
+      <Text>Військовий надзвичайний стан</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_MILITARY">
+      <Text>"Якщо ми не станемо єдиною командою, то доля цього одного міста наступить на нас усіх з часом."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_MILITARY">
+      <Text>{TargetName}, хоча й перебуває на передовій світових цивілізацій, захопила {OldCityName}. Беззаперечний успіх {TargetName} є причиною серйозної стурбованості.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_MILITARY">
+      <Text>Крім того, всі члени матимуть мир, відкриті кордони та спільну видимість один з одним. Всі члени будуть йти на війну з мішенню.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_MILITARY_MOVEMENT">
+      <Text>Члени груп отримують +1 [ICON_Movement] Руху на території Цілі.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_MILITARY_COMBAT_STRENGTH">
+      <Text>Цільові одиниці мають -2 [ICON_Strength] бойової міцності під час бою з одиницями учасників.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_MILITARY_INCREASED_HEALING">
+      <Text>Члени підрозділів отримують додатково +5 очікування в лікуванні на території Мішені.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_MILITARY_CITY_STRIKE">
+      <Text>Ціль набуває +2 [ICON_Strength] бойової сили при атакуванні Міської Одиниці зі Страйком по Місту.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_SETTLEMENT_MOVEMENT">
+      <Text>Члени військових підрозділів отримують додатково +1 [ICON_Movement] Руху.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_BUFF_DESCRIPTION_SETTLEMENT_MOVEMENT">
+      <Text>Цільові одиниці отримують додатково +1 [ICON_Movement] Руху.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SETTLEMENT_GOLD_PER_TURN">
+      <Text>Учасники отримують +1 Золото за хід.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_SETTLEMENT_GOLD_PER_TURN">
+      <Text>Мета отримує +1 Золота щоразу, коли наставає її черга.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_CITY_STATE">
+      <Text>Надзвичайна ситуація в міській державі</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_CITY_STATE">
+      <Text>"Ми поважаємо незалежність міських держав і не будемо закривати очі на цей завоювання."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_CITY_STATE">
+      <Text>{TargetName} захопило {OldCityName}. Завоювання {OldCityName} - це питання великої турботи.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_CITY_STATE">
+      <Text>Всі члени матимуть мир, відкриті кордони та спільну видимість один з одним. Усі члени будуть йти на війну з метою.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_CITY_STATE_GOLD_PER_ENVOY">
+      <Text>Учасники отримують +1 [ICON_Gold] Золота за кожного свого посланця [ICON_Envoy] на кожному ході.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_CITY_STATE_GOLD_FOR_TRADE_ROUTES">
+      <Text>Маршрути [ICON_TradeRoute] Торгівлі до Міст-Держав дають +2 [ICON_Gold] Золота щотижня.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_RELIGIOUS">
+      <Text>Релігійна надзвичайна ситуація</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_RELIGIOUS">
+      <Text>"Кличі вірних височать до небес, а на землі ми переходимо до праведного гніву."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_RELIGIOUS">
+      <Text>{TargetName} переконвертував {OldCityName}, Святе Місто {OldReligion}, на {NewReligion}. Здається, що {TargetName} не бажає співіснувати мирно з іншими великими релігіями світу.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_RELIGIOUS_RELICS">
+      <Text>Кожен учасник отримує Священний Артефакт.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_RELIGIOUS_PRESSURE">
+      <Text>Релігія Цілі випускає хвилю тиску в усіх навколишніх містах.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_SPYING">
+      <Text>Шпигунська надзвичайна ситуація</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SPYING">
+      <Text>Кожен шпигує, але цей хлопець спалився! Давайте щось зробимо з цим!</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SPYING">
+      <Text>Захопіть шпигуна-ціль, використовуючи пастку в місті, де ціль здійснює операцію.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_SPYING_ACTION">
+      <Text>Учасники шпигунських дій отримують нову можливість у містах учасників: Поставити пастку. Якщо шпигун-ціль спробує здійснити операцію в цьому місті, він потрапить у пастку.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SPYING_SPY_KILLER">
+      <Text>Впійманого шпигуна убили.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SPYING_FORTITUDE">
+      <Text>Для Target буде складніше завершувати розвідувальні операції у містах-членах.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_SPYING_FREE_SPY">
+      <Text>Таргет отримує ще 1 шпигуна.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_NUCLEAR">
+      <Text>Ядерна надзвичайна ситуація</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_NUCLEAR">
+      <Text>"Гидотні сили, використовувані для гидотних цілей. Ніколи більше!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_NUCLEAR">
+      <Text>{TargetName} використав найпотужнішу зброю у світі, і ядерний джин був випущений з пляшки. Чи є наша вимирання на порозі?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_NUCLEAR">
+      <Text>Крім того, всі члени матимуть Мир, Відкриті Кордони та Спільну Видимість між собою. Всі члени будуть війнувати з Ціллю.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_NUCLEAR_MOVEMENT">
+      <Text>Члени груп отримують додатково +1 [ICON_Movement] руху на території Мішені.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_NUCLEAR_COMBAT_STRENGTH">
+      <Text>Цільові одиниці мають -2 [ICON_Strength] бойової сили при боротьбі з одиницями-членами</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_NUCLEAR_COMBAT_STRENGTH">
+      <Text>Цільові одиниці мають -3 [ICON_Strength] бойової міцності при боротьбі з одиницями членів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_NUCLEAR_CULTURE_SCARE">
+      <Text>Міста-учасники створюють на одну одиницю менше тиску Лояльності.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_BACKSTAB">
+      <Text>Надзвичайна ситуація зради</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_BACKSTAB">
+      <Text>"Відкрита, чесна війна безумовно менш огидна, ніж ця хитра дипломатія."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_BACKSTAB">
+      <Text>{TargetName} наніс підступний удар, оголошуючи війну {OldPlayerName}, давньому другу! Здається, що ніхто не застрахований від агресії {TargetName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_BACKSTAB">
+      <Text>Крім того, всі члени матимуть мир, відкриті кордони та спільну видимість один з одним. Всі члени будуть військовою державою проти цілі.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_MOVEMENT">
+      <Text>Члени одиниці отримують +1 [ICON_Movement] руху на території Цілі.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_COMBAT_STRENGTH">
+      <Text>Цільові одиниці мають -3 [ICON_Strength] бойової сили під час бою з одиницями-членами</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_CANCEL_TRADE_ROUTES">
+      <Text>Всі торгові маршрути між членами та цільовою країною скасовані.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_TRADING">
+      <Text>Всі Торгові шляхи між учасниками надають +2 [ICON_Production] виробництва.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_MILITARY_COMBAT_STRENGTH">
+      <Text>Цільові одиниці мають -3 [ICON_Strength] бойової сили, коли борються з одиницями Членів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_MILITARY_WAR_WEARINESS">
+      <Text>Ціль отримає зменшену військову втому, коли буде воювати з членами.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TAB_COMPLETED">
+      <Text>Completed</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!--Spy-->
+    <Row Tag="LOC_UNITOPERATION_SPY_FABRICATE_SCANDAL_DESCRIPTION">
+      <Text>Вигадати скандал</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_FOMENT_UNREST_DESCRIPTION">
+      <Text>Заохочуйте незадоволення</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_NEUTRALIZE_GOVERNOR_DESCRIPTION">
+      <Text>Нейтралізувати губернатора</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FABRIRCATE_SCANDAL_REWARD">
+      <Text>видалення ворожих послів</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FOMENT_UNREST_REWARD">
+      <Text>зниження лояльності та збільшення нашої лояльності</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NEUTRALIZE_GOVERNOR_REWARD">
+      <Text>вимкнення ворожого Губернатора [ICON_Governor]</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_FABRICATE_SCANDAL">
+      <Text>Змушуючи провідних конкурентів програти {1_EnvoyString}</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_FOMENT_UNREST">
+      <Text>Знизити лояльність ворога на {1_LoyaltyString}</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_NEUTRALIZE_GOVERNOR">
+      <Text>Видаліть ворожого [ICON_Governor] управлінця з посади на {1_TurnString}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FABRICATE_SCANDAL_ESTIMATE">
+      <Text>{1_Amount} [ICON_Envoy] Послів</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FOMENT_UNREST_ESTIMATE">
+      <Text>{1_Сума}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NEUTRALIZE_GOVERNOR_ESTIMATE">
+      <Text>{1_Amount} поворотів</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SMEAR_CAMPAIGN_NAME">
+      <Text>Кампанія ганебна</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_COVERT_ACTION_NAME">
+      <Text>Таємна операція</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LICENSE_TO_KILL_NAME">
+      <Text>Ліцензія на вбивство</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SMEAR_CAMPAIGN_DESCRIPTION">
+      <Text>Сфабрикуйте скандал, ніби ви маєте на два рівні більше досвіду.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_COVERT_ACTION_DESCRIPTION">
+      <Text>Спричинюйте незадоволення, наче маєте досвід на два рівні вище.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LICENSE_TO_KILL_DESCRIPTION">
+      <Text>Нейтралізуйте губернатора, ніби ви маєте досвід на 2 рівні вище.</Text>
+    </Row>
+    <!--Diplomacy modifiers-->
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_BROKEN_PLEDGE">
+      <Text>Порушив обіцянку про переміщення військ зі своєї кордону</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_KEPT_PLEDGE">
+      <Text>Дотримали обітницю про переміщення військ від їх кордону</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_NO_PLEDGE">
+      <Text>Вирішено не обіцяти переміщення військ</Text>
+    </Row>
+    <!--OPERATIONS AND COMMANDS TEXT-->
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_DESCRIPTION">
+      <Text>Послання парашутом</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_IN_ZOC">
+      <Text>У зоні контролю ворога</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_FRIENDLY_TERRITORY">
+      <Text>Має бути на дружній території або поруч з аеродромом.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_REQUIRES_FULL_MOVEMENT">
+      <Text>Потрібен повний рух</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PROJECT_PRODUCTION_DESCRIPTION">
+      <Text>Додайте виробництво [ICON_Production] до проекту. Тільки один раз на місто за хід.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PRIORITY_TARGET_DESCRIPTION">
+      <Text>Пріоритетна мета</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IDENTITY_PRESSURE">
+      <Text>Лояльність за хід</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_DETAILS_TURNS_TO_ESTABLISH">
+      <Text>Намагання встановити</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>Кількість лояльності, що надає цей управитель місту на кожен хід вашій цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TRANSITION_STRENGTH">
+      <Text>Сила переходу</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TRANSITION_STRENGTH_TOOLTIP">
+      <Text>Швидкість, з якою цей Губернатор увійшов у владу у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGN_GOVERNOR_TO">
+      <Text>Призначити губернатора для...</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_SELECT_A_CITY">
+      <Text>Виберіть місто...</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_NO_PREVIOUS_GOVERNOR">
+      <Text>Немає попереднього губернатора</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TURNS_TO_ESTABLISH">
+      <Text>Кількість обертів до досягнення режиму регулювання.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_SKILL_TREE">
+      <Text>Дерево навичок (Derevo navychok)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTE">
+      <Text>Продвинути</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_ASSIGN_GOVERNOR">
+      <Text>Призначити</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_REASSIGN_GOVERNOR">
+      <Text>Перерозподілати</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_ABILITIES">
+      <Text>ЗДІБНОСТІ</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ABILITIES">
+      <Text>ЗДАТНОСТІ ГУБЕРНАТОРА</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ABILITIES_SUBTEXT">
+      <Text>Витратити титули Губернатора на просування</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES">
+      <Text>Титули губернаторів: {1_PointsAvailable}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES_AVAILABLE">
+      <Text>ДОСТУПНІ ТИТУЛИ ГУБЕРНАТОРА: {1_PointsAvailable}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES_SPENT">
+      <Text>ВИТРАЧЕНО: {1_PointsSpent}</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_TIMELINE_TITLE">
+      <Text>Історія {1_PlayerCiv}</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_NEW_MOMENT">
+      <Text>{1_PlayerCiv} записує історію</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_MOMENT_EFFECTS">
+      <Text>{1_MomentDate}    \|    Хід {2_MomentTurn}    \|    Рейтинг Ери {3_MomentScore}</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_MOMENT_EFFECTS_NO_SCORE">
+      <Text>{1_MomentDate}    \|    Поворот {2_MomentTurn}</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_PERCENTAGE">
+      <Text>Лояльність: {1_CurrentLoyalty}/{2_MaxLoyalty} ({3_LoyaltyIcon}{4_LoyaltyPerTurn})</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POSITIVE_PRESSURE">
+      <Text>+{1_Value}</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_GOVERNORS_PRESSURE_TOOLTIP">
+      <Text>[ICON_Governor] Губернатор розміщений тут</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_MY_CITIES_PRESSURE_TOOLTIP">
+      <Text>Власник [ICON_Citizen] Громадяни в радіусі 9 тайлів</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_THEIR_CITIES_PRESSURE_TOOLTIP">
+      <Text>Громадяни інших цивілізацій [ICON_Citizen] в радіусі 9 тайлів</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_INDEPENDENCE_PRESSURE_TOOLTIP">
+      <Text>Бажання незалежності</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_HAPPINESS_PRESSURE_TOOLTIP">
+      <Text>Рівень щастя</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_OTHER_PRESSURE_TOOLTIP">
+      <Text>Інші ефекти тут</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_CITY_STATES_PRESSURE_TOOLTIP">
+      <Text>Базова міць як Місто-Держава</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_FREE_CITIES_PRESSURE_TOOLTIP">
+      <Text>Базова сила як вільного міста</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP">
+      <Text>Тиск з боку близьких громадян [ICON_Citizen]</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP_MAJOR_CIVS">
+      <Text>Ranges from +20 to -20, based on the comparison of pressure coming from nearby [ICON_Citizen] Citizens belonging to the city's owner and nearby [ICON_Citizen] Citizens belonging to a different civilization.[NEWLINE][ICON_Bullet]1 Pressure per [ICON_Citizen] Citizen normally[NEWLINE][ICON_BULLET]Increased in [ICON_Capital] Capital[NEWLINE][ICON_BULLET]Can be affected by Golden Ages, Dark Ages, and the Bread and Circuses city project[NEWLINE][ICON_BULLET]Also applies to other cities within 9 tiles, but is 10% less effective per tile</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP_MINOR_CIVS">
+      <Text>Діапазон варіюється від +20 до -20 і залежить від порівняння тиску, що надходить від найближчих [ICON_Citizen] громадян, що належать власнику міста, та найближчих [ICON_Citizen] громадян, що належать до іншої цивілізації.[NEWLINE][ICON_Bullet] 1 тиск на [ICON_Citizen] громадянинів зазвичай збільшується[NEWLINE][ICON_BULLET] Збільшується в [ICON_Capital] столиці</Text>
+    </Row>
+    <!-- Dedications-->
+    <Row Tag="LOC_TECH_BOOST_DEDICATION_NOTIFICATION">
+      <Text>Ви спричинили [ICON_TechBoosted] Евреку.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOST_DEDICATION_NOTIFICATION">
+      <Text>Ви викликали [ICON_CivicBoosted] натхнення.</Text>
+    </Row>
+    <Row Tag="LOC_RELIGIOUS_CONVERSION_DEDICATION_NOTIFICATION">
+      <Text>Ви вперше змогли перетворити місто на свою засновану релігію.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMPLETION_DEDICATION_NOTIFICATION">
+      <Text>Ви створили новий район.</Text>
+    </Row>
+    <Row Tag="LOC_TRADE_ROUTE_DEDICATION_NOTIFICATION">
+      <Text>Ви завершили [ICON_TradeRoute] Торговий маршрут.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_DISCOVERY_DEDICATION_NOTIFICATION">
+      <Text>Ви відкрили новий континент або природний диво.</Text>
+    </Row>
+    <Row Tag="LOC_CORPS_KILL_DEDICATION_NOTIFICATION">
+      <Text>Ви знищили корпус.</Text>
+    </Row>
+    <Row Tag="LOC_ARMY_KILL_DEDICATION_NOTIFICATION">
+      <Text>Ви знищили армію.</Text>
+    </Row>
+    <Row Tag="LOC_NAVAL_UNIT_KILL_DEDICATION_NOTIFICATION">
+      <Text>Ви знищили ненорманський військовий корабель.</Text>
+    </Row>
+    <Row Tag="LOC_SCIENCE_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Ви побудували будівлю, що забезпечує базовий вихід [ICON_Science] Науки.</Text>
+    </Row>
+    <Row Tag="LOC_CULTURE_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Ви побудували будівлю з підходящим слотом Великої Роботи.</Text>
+    </Row>
+    <Row Tag="LOC_INDUSTRIAL_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Ви збудували будівлю з епохи Промисловості або пізніше.</Text>
+    </Row>
+    <Row Tag="LOC_AERODROME_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Ви побудували будівлю в районі Аеродрому.</Text>
+    </Row>
+    <Row Tag="LOC_SPY_MISSION_DEDICATION_NOTIFICATION">
+      <Text>Ви успішно завершили оперативну розвідувальну операцію наступу.</Text>
+    </Row>
+    <Row Tag="LOC_ARTIFACT_EXTRACTION_DEDICATION_NOTIFICATION">
+      <Text>Ви видобули артефакт [ICON_GreatWork_Artifact].</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EARNED_NOTIFICATION">
+      <Text>Ви заробили [ICON_GreatPerson] Велику Особистість.</Text>
+    </Row>
+    <!-- Scoring -->
+    <Row Tag="LOC_CATEGORY_ERA_SCORE_NAME">
+      <Text>Оцінка Ери</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP">
+      <Text>Цивілізації, які призначили свого дипломата [ICON_Governor] губернатором цього місто-держави:</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP_ENTRY">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName})</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP_ENTRY_UNMET">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_CIV_AMBASSADOR_TOOLTIP">
+      <Text>{1_CivName} призначила Дипломата до цього міста-держави.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_HAS_AMBASSADOR_TOOLTIP_ENTRY_LIMITED">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName})</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_HAS_AMBASSADOR_TOOLTIP_ENTRY_FULL">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName}) - {3_EstablishInfo} 
+
+[NEWLINE][ICON_Bullet]{1_Ім'яЦивілізації} ({2_Ім'яГравця}) - {3_ІнформаПроЗаснування}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_INHERENT_BONUS">
+      <Text>Головний бонус</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_ACCUMULATED_BONUS">
+      <Text>Невеликий бонус</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION">
+      <Text>+1 [ICON_Food] Їжа з покращення Плантації.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_NEW_FEATURES">
+      <Text>Нові функції</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_NEW_FEATURES_TOOLTIP">
+      <Text>Оглянути нові функції в поточному розширенні.</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_NEXT">
+      <Text>Наступний</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_PREVIOUS">
+      <Text>Previous</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_CONTINUE">
+      <Text>Sure, here's the translation:
+
+Наступний текст потрібно перекласти. Відповідайте тільки природним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_XP_INTRO_HIDETHIS">
+      <Text>Не показувати це знову</Text>
+    </Row>
+    <Row Tag="LOC_END_GAME_MENU_HISTORIAN_BUTTON">
+      <Text>Переглянути хронологію</Text>
+    </Row>
+    <Row Tag="LOC_END_GAME_MENU_EXPORT_HISTORIAN_BUTTON">
+      <Text>Часова шкала експорту</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_CITY_IS_LOYAL_TO_TT">
+      <Text>Місто вірне {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_CITY_WILL_FALL_TO_TT">
+      <Text>Місто впаде у руки цивілізації {1_CivName}, коли рівень лояльності досягне 0</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_RISING_BY_X_TT">
+      <Text>Лояльність до {1_CivName} зростає на {2_PointsPerTurn} {2_PointsPerTurn : plural 1?бал; few?бали; many?балів;} за хід</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_DROPPING_BY_X_TT">
+      <Text>Лояльність до {1_CivName} падає на {2_PointsPerTurn} {2_PointsPerTurn : plural 1?бал; few?бали; many?балів;} за хід</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_NOT_CHANGING_TT">
+      <Text>Лояльність до {1_CivName} не зміниться наступного ходу</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_STATUS_TT">
+      <Text>{1_LoyaltyIcon} ВІРНІСТЬ {2_CurrentLoyalty}/{3_MaxLoyalty}[NEWLINE]Статус: {4_LoyaltyStatus}</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_ALLIANCE_TT">
+      <Text>Активно досліджуйте ту ж технологію, що й ваш партнер з досліджень, щоб зберігати щоразове підвищення науки [ICON_Science].</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_ALLIANCE_BONUS_TT">
+      <Text>Отримання бонусу науки Рівня 3 за науковий альянс.[NEWLINE]Дослідження тієї ж технології, що й ваш науковий союзник, зберігає щотижня бонус науки в [ICON_Science].</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_MAX_LOYALTY_TT">
+      <Text>Місто повністю вірне та збільшує свою вірність кожен хід</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_NO_CHANGE_TT">
+      <Text>Немає змін</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_RISING_LOYALTY_TT">
+      <Text>Зростаюча {1_LoyaltyPerTurn}</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_FALLING_LOYALTY_TT">
+      <Text>Падіння {1_LoyaltyPerTurn} на кожен хід</Text>
+    </Row>
+    <!-- Replay DataSets -->
+    <Row Tag="LOC_REPLAYDATASET_ERASCORE_NAME">
+      <Text>Оцінка ери на кожен хід</Text>
+    </Row>
+    <Row Tag="LOC_REPLAYDATASET_GOVERNORS_NAME">
+      <Text>Загальна кількість губернаторів</Text>
+    </Row>
+    <Row Tag="LOC_REPLAYDATASET_GOVERNORTITLES_NAME">
+      <Text>Загальна кількість титулів губернатора</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FILTER_DARK">
+      <Text>Темний</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FISHERY_NAME">
+      <Text>Рибальство</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION">
+      <Text>Удосконалення, що є унікальним для Губернатора [ICON_Governor], може бути побудовано в місті, в якому присутній Губернатор-Вимірювач з підвищенням Аквакультури. Приносить 1 [ICON_Food] одиницю їжі, +1 додаткову [ICON_Food] одиницю їжі, якщо знаходиться поруч з морським ресурсом. Має бути побудовано на узбережжі.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_CITY_PARK_NAME">
+      <Text>Міський парк</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION">
+      <Text>Удосконалення, що є унікальним для губернатора [ICON_Governor], яке може бути побудоване в місті з губернатором-вимірювачем з просуванням у парках та відпочинку. Дає 2 очки привабливості та 1 [ICON_Culture] культури. +1 [ICON_Amenities] зручність, якщо прилегає до води. Не може прилягати до іншого міського парку.</Text>
+    </Row>
+    <!-- MISC -->
+    <Row Tag="LOC_CIVILIZATION_NOT_ABLE_TO_DECLARE_SURPRISE_WAR">
+      <Text>Ваша цивілізація не може оголошувати несподівану війну, включаючи оголошення війни місту-державі.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JERUSALEM_DESCRIPTION_EXPANSION">
+      <Text>Ваші міста зі святинями тиснуть, як святі міста (4 рази давлять релігійним тиском на всі міста в радіусі 10 плиток).</Text>
+    </Row>
+    <!-- Type Traits-->
+    <Row Tag="LOC_TYPE_TRAIT_GOVERNOR_POINTS">
+      <Text>{1_Amount: number +#,###.#;-#,###.#} [ICON_STAT_GOVERNOR] Очки губернатора</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_GOVERNOR_POINTS_WITH_REQUIREMENT">
+      <Text>{1_Amount: number +#,###.#;-#,###.#} [ICON_STAT_GOVERNOR] Бали губернатора (потрібно {2_TechOrCivicName})</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_REQUIRES_GOVERNMENT_TIER">
+      <Text>Потрібний рівень уряду: {1_GovernmentTier}</Text>
+    </Row>
+  </EnglishText>
+</GameData>

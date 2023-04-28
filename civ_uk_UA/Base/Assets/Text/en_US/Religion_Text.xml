@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--RELIGIONS-->
+    <Row Tag="LOC_RELIGION_PANTHEON">
+      <Text>Пантеон</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_BUDDHISM">
+      <Text>Буддизм</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_CATHOLICISM">
+      <Text>Католицизм</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_CONFUCIANISM">
+      <Text>Конфуціанство</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_HINDUISM">
+      <Text>Гіндуїзм</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_ISLAM">
+      <Text>Іслам</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_JUDAISM">
+      <Text>Юдаїзм</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_ORTHODOXY">
+      <Text>Східне православ'я</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_PROTESTANTISM">
+      <Text>Протестантизм</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SHINTO">
+      <Text>Шінто</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SIKHISM">
+      <Text>Сіхізм</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_TAOISM">
+      <Text>Таоїзм</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_ZOROASTRIANISM">
+      <Text>Зороастризм</Text>
+    </Row>
+    <!--BELIEF CLASSES-->
+    <Row Tag="LOC_BELIEF_CLASS_PANTHEON_NAME">
+      <Text>Пантеон</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_FOLLOWER_NAME">
+      <Text>Послідовник</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_WORSHIP_NAME">
+      <Text>Поклоніння</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_FOUNDER_NAME">
+      <Text>Засновник</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_ENHANCER_NAME">
+      <Text>Підсилювач</Text>
+    </Row>
+    <!--MISCELLANEOUS-->
+    <Row Tag="LOC_RELIGION_MARTYRED_APOSTLE">
+      <Text>Мученицький апостол</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_TRIBAL_VILLAGE">
+      <Text>Племінне село</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_GOVERNOR">
+      <Text>Губернатор</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_CITY_STATE">
+      <Text>Сюзерен</Text>
+    </Row>
+    <!--PANTHEON NAMES-->
+    <!--1. PANTHEON BELIEFS-->
+    <!--Pantheon - Adjacency Bonuses-->
+    <Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_NAME">
+      <Text>Танець Північного сяйва</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DESERT_FOLKLORE_NAME">
+      <Text>Фольклор пустелі</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SACRED_PATH_NAME">
+      <Text>Святий Шлях</Text>
+    </Row>
+    <!--Pantheon - Amenity Bonuses-->
+    <Row Tag="LOC_BELIEF_RIVER_GODDESS_NAME">
+      <Text>Річкова Богиня</Text>
+    </Row>
+    <!--Pantheon - Gameplay Race Bonuses-->
+    <Row Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_NAME">
+      <Text>Монумент богам</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_SPARK_NAME">
+      <Text>Божественна іскра</Text>
+    </Row>
+    <!--Pantheon - Local Feature Bonuses-->
+    <Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_NAME">
+      <Text>Леді Тростин і Боліт</Text>
+    </Row>
+    <!--Pantheon - Local Resource Bonuses-->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_SEA_NAME">
+      <Text>Бог моря</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_NAME">
+      <Text>Бог Відкритого Неба</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_NAME">
+      <Text>Богиня полювання</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STONE_CIRCLES_NAME">
+      <Text>Кам'яні кола</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_NAME">
+      <Text>Релігійні ідоли</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_NAME">
+      <Text>Бог ремісників</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_NAME">
+      <Text>Богиня святкувань</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ORAL_TRADITION_NAME">
+      <Text>Усна традиція</Text>
+    </Row>
+    <!--Pantheon - Military -->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_FORGE_NAME">
+      <Text>Бог Кузні</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_WAR_NAME">
+      <Text>Бог війни</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_INITIATION_RITES_NAME">
+      <Text>Обряди ініціації</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_HEALING_NAME">
+      <Text>Бог Лікування</Text>
+    </Row>
+    <!--Pantheon - General Purpose-->
+    <Row Tag="LOC_BELIEF_FERTILITY_RITES_NAME">
+      <Text>Обряди плодючості</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_NAME">
+      <Text>Релігійні поселення</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HARVEST_NAME">
+      <Text>Богиня врожаю</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CITY_PATRON_GODDESS_NAME">
+      <Text>Богиня-покровителька міста</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_EARTH_GODDESS_NAME">
+      <Text>Богиня Землі</Text>
+    </Row>
+    <!--2. WORSHIP BELIEFS-->
+    <Row Tag="LOC_BELIEF_CATHEDRAL_NAME">
+      <Text>Собор</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DAR_E_MEHR_NAME">
+      <Text>Дар-е Мехр</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GURDWARA_NAME">
+      <Text>Ґурдвара</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MEETING_HOUSE_NAME">
+      <Text>Будинок зустрічей</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MOSQUE_NAME">
+      <Text>Мечеть</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAGODA_NAME">
+      <Text>Пагода</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STUPA_NAME">
+      <Text>Ступа</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SYNAGOGUE_NAME">
+      <Text>Синагога</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WAT_NAME">
+      <Text>Яка тема для перекладу? Будь ласка, надайте текст</Text>
+    </Row>
+    <!--3. FOLLOWER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHORAL_MUSIC_NAME">
+      <Text>Хорова музика</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_INSPIRATION_NAME">
+      <Text>Божественна натхнення</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_FEED_THE_WORLD_NAME">
+      <Text>Годуйте світ</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JESUIT_EDUCATION_NAME">
+      <Text>Єзуїтська освіта</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIQUARIES_NAME">
+      <Text>Релікварії</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_NAME">
+      <Text>Релігійна громада</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WARRIOR_MONKS_NAME">
+      <Text>Воїнські монахи</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORK_ETHIC_NAME">
+      <Text>Етика праці</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ZEN_MEDITATION_NAME">
+      <Text>Медитація Зен</Text>
+    </Row>
+    <!--4. FOUNDER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHURCH_PROPERTY_NAME">
+      <Text>Церковна власність</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CROSS_CULTURAL_DIALOGUE_NAME">
+      <Text>Міжкультурний діалог</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_LAY_MINISTRY_NAME">
+      <Text>Лекайське служіння</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAPAL_PRIMACY_NAME">
+      <Text>Папська приматеність</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PILGRIMAGE_NAME">
+      <Text>Паломництво</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_UNITY_NAME">
+      <Text>Релігійна єдність</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STEWARDSHIP_NAME">
+      <Text>Піклування</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_TITHE_NAME">
+      <Text>Десятина</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORLD_CHURCH_NAME">
+      <Text>Світова Церква</Text>
+    </Row>
+    <!--5. ENHANCER BELIEFS-->
+    <Row Tag="LOC_BELIEF_BURIAL_GROUNDS_NAME">
+      <Text>Місця поховань</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DEFENDER_OF_FAITH_NAME">
+      <Text>Захисник віри</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HOLY_ORDER_NAME">
+      <Text>Святе Орден</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ITINERANT_PREACHERS_NAME">
+      <Text>Кочівні проповідники</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JUST_WAR_NAME">
+      <Text>Хрестовий похід</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MISSIONARY_ZEAL_NAME">
+      <Text>Місійна запальність</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MONASTIC_ISOLATION_NAME">
+      <Text>Монастирська ізоляція</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_NAME">
+      <Text>Релігійна колонізація</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCRIPTURE_NAME">
+      <Text>Писання (Pysannia)</Text>
+    </Row>
+    <!--PANTHEON DESCRIPTIONS-->
+    <!--1. PANTHEON BELIEFS-->
+    <!--Pantheon - Adjacency Bonuses-->
+    <Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION">
+      <Text>Райони Священних Місць отримують +1 [ICON_Faith] віри від прилеглих пустельних плиток.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION">
+      <Text>Райони Священних місць отримують +1 [ICON_Faith] віри від прилеглих пустельних плит.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SACRED_PATH_DESCRIPTION">
+      <Text>Райони Святих місць отримують додатково +1 [ICON_Faith] віри за сусідні плити дощових лісів.</Text>
+    </Row>
+    <!--Pantheon - Amenity Bonuses-->
+    <Row Tag="LOC_BELIEF_RIVER_GODDESS_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Приємність для міст, якщо вони мають околицю Святого Місця поряд з річкою.</Text>
+    </Row>
+    <!--Pantheon - Gameplay Race Bonuses-->
+    <Row Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION">
+      <Text>+15% [ICON_Production] виробництва для див на часи античності та класики.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_SPARK_DESCRIPTION">
+      <Text>+1 [ICON_GreatPerson] Очко Великої Особистості з Святого Місця (Пророк), Кампусу (Вчений) та Театрального Майданчика (Письменник) округів.</Text>
+    </Row>
+    <!--Pantheon - Local Feature Bonuses-->
+    <Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION">
+      <Text>+1 [ICON_Production] Виробництво з Маршів, Оазисів та Затоплених Рівнин.</Text>
+    </Row>
+    <!--Pantheon - Local Resource Bonuses-->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_SEA_DESCRIPTION">
+      <Text>+1 [ICON_Production] Виробництво з рибальських човнів.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION">
+      <Text>+1 [ICON_Culture] Культура з пасовищ.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION">
+      <Text>+1 [ICON_Food] Їжа з таборів.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Віра з кар'єрів.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Віра з шахт над розкішшю та бонусними ресурсами.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_DESCRIPTION">
+      <Text>+1 [ICON_Production] Виробництво з рудників над стратегічними ресурсами.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_DESCRIPTION">
+      <Text>+1 [ICON_Food] Їжа з плантацій [ICON_RESOURCE_WINE] Вина, [ICON_RESOURCE_INCENSE] Інкенсу, [ICON_RESOURCE_COCOA] Какао, [ICON_RESOURCE_TOBACCO] Тютюну, [ICON_RESOURCE_COFFEE] Кави та [ICON_RESOURCE_TEA] Чаю.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION">
+      <Text>+1 [ICON_Culture] Culture from [ICON_RESOURCE_BANANAS] Banana, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_DYES] Dyes, [ICON_RESOURCE_SILK] Silk, [ICON_RESOURCE_SPICES] Spices, and [ICON_RESOURCE_SUGAR] Sugar Plantations.</Text>
+    </Row>
+    <!--Pantheon - Military -->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_FORGE_DESCRIPTION">
+      <Text>+25% [ICON_Production] Виробництво стосовно військових одиниць епохи Античності та Класики.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_HEALING_DESCRIPTION">
+      <Text>Збільшує відновлення на +30 в окрузі святині або на будь-яких прилеглих плитах.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_WAR_DESCRIPTION">
+      <Text>Бонус [ICON_Faith] Віра, рівна 50% сили кожної бойової одиниці, знищеної в радіусі 8 клітинок від району Святого Місця. (на стандартній швидкості)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_INITIATION_RITES_DESCRIPTION">
+      <Text>+50 [ICON_Faith] Віри за кожен звільнений варварський аутпост.</Text>
+    </Row>
+    <!--Pantheon - General Purpose-->
+    <Row Tag="LOC_BELIEF_FERTILITY_RITES_DESCRIPTION">
+      <Text>Темпи зростання міста на 10% вищі.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_DESCRIPTION">
+      <Text>Темпи розширення кордонів вищі на 15%.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HARVEST_DESCRIPTION">
+      <Text>Збирання ресурсу або видалення особливості приносить [ICON_Faith] Віру, що дорівнює кількості іншого врожаю.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION">
+      <Text>+25% [ICON_Production] Виробництво для районів у містах без спеціалізованого району.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_EARTH_GODDESS_DESCRIPTION">
+      <Text>+1 Віра [ICON_Faith] з плиток з неперевершеним чи кращим Народженням.</Text>
+    </Row>
+    <!--2. WORSHIP BELIEFS-->
+    <Row Tag="LOC_BELIEF_CATHEDRAL_DESCRIPTION">
+      <Text>Дозволяє будувати катедралу (+3 [ICON_Faith] Віри, 1 слот для релігійного мистецтва).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DAR_E_MEHR_DESCRIPTION">
+      <Text>Дозволяє будувати Дар-е-Мехри (+3 [ICON_Faith] Віри, +1 додатковий [ICON_FAITH] за кожну еру з моменту побудови або останнього ремонту).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GURDWARA_DESCRIPTION">
+      <Text>Дозволяє будівництво Гурдвар (+3 [ICON_Faith] Віра, +2 [ICON_Food] Їжа).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MEETING_HOUSE_DESCRIPTION">
+      <Text>Дозволяє будувати Будинки Зборів (+3 [ICON_Faith] Віра, +2 [ICON_Production] Виробництво).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MOSQUE_DESCRIPTION">
+      <Text>Дозволяє будівництво мечетей (+3 [ICON_Faith] Віри). Місіонери та апостоли поширюють віру +1.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAGODA_DESCRIPTION">
+      <Text>Дозволяє будівництво Пагод (+ 3 [ICON_Faith] Віри, + 1 [ICON_Housing] Житла).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STUPA_DESCRIPTION">
+      <Text>Дозволяє будівництво ступ (+3 [ICON_Faith] Віри, +1 [ICON_Amenities] Зручностей).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SYNAGOGUE_DESCRIPTION">
+      <Text>Дозволяє будувати синагоги (+5 [ICON_Faith] віри).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WAT_DESCRIPTION">
+      <Text>Дозволяє будівництво Ватів (+3 [ICON_Faith] Віри, +2 [ICON_Science] Науки).</Text>
+    </Row>
+    <!--3. FOLLOWER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHORAL_MUSIC_DESCRIPTION">
+      <Text>Святині та Храми забезпечують культуру [ICON_Culture], що дорівнює їх внутрішньому виводу віри [ICON_Faith].</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_INSPIRATION_DESCRIPTION">
+      <Text>Усі світові дива дають +4 [ICON_Faith] віри.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_FEED_THE_WORLD_DESCRIPTION">
+      <Text>Святилища та храми надають [ICON_Food] їжу, що дорівнює їх вбудованому вихідному [ICON_Faith] віруванню.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION">
+      <Text>Можна придбати будівлі в районі Кампусу та Театральної площі за [ICON_Faith] віру.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIQUARIES_DESCRIPTION">
+      <Text>[ICON_GreatWork_Relic] Реліквії мають потрійну вибірку як [ICON_Faith] Віра, так і [ICON_Tourism] Туризм.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_DESCRIPTION">
+      <Text>Кожен святиня та храм надає +1 [ICON_Housing] житла.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WARRIOR_MONKS_DESCRIPTION">
+      <Text>Дозволяє витрачати [ICON_Faith] Віру для тренування Воїнських Монахів - середньовічних бойових одиниць з унікальним деревом поліпшень. Може бути придбано лише в місті з Храмом на своєму Святому Місці.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORK_ETHIC_DESCRIPTION">
+      <Text>+1% [ICON_Production] Виробництво для кожного громадянина, який проводить цю релігію у місті.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Зручність у містах з 2 спеціалізованими районами.</Text>
+    </Row>
+    <!--4. FOUNDER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHURCH_PROPERTY_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Золота за кожне місто, яке відповідає цій Релігії.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CROSS_CULTURAL_DIALOGUE_DESCRIPTION">
+      <Text>+1 [ICON_Science] Наука для кожних 5 послідовників цієї релігії у інших цивілізаціях.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_LAY_MINISTRY_DESCRIPTION">
+      <Text>Кожен священний сайт або театральний район у місті, яке відповідає цій релігії, забезпечує +1 [ICON_Faith] віру або +1 [ICON_Culture] культуру відповідно.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAPAL_PRIMACY_DESCRIPTION">
+      <Text>Бонуси від міст-держав, які віддані вашій релігії, на 50% потужніші.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PILGRIMAGE_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Віра для кожного міста, що слідує цій релігії в інших цивілізаціях і міст-державах.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_UNITY_DESCRIPTION">
+      <Text>+1 [ICON_Envoy] Посол у кожному місто-державі, коли вона вперше приймає цю релігію, на додачу до будь-якого посла з запиту місто-держави.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STEWARDSHIP_DESCRIPTION">
+      <Text>Кожен район кампусу або комерційного хабу в місті, що відповідає цій Релігії, надає +1 [ICON_Science] науки або +1 [ICON_Gold] золота відповідно.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_TITHE_DESCRIPTION">
+      <Text>+1 [ICON_Gold] Золото за кожних 4 послідовників цієї Релігії.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORLD_CHURCH_DESCRIPTION">
+      <Text>+1 [ICON_Culture] Культура за кожних 5 послідовників цієї релігії в інших цивілізаціях.</Text>
+    </Row>
+    <!--5. ENHANCER BELIEFS-->
+    <Row Tag="LOC_BELIEF_BURIAL_GROUNDS_DESCRIPTION">
+      <Text>Культурний Вибух застосовується на сусідніх плитах при завершенні будівництва Святого Місця.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DEFENDER_OF_FAITH_DESCRIPTION">
+      <Text>Бойові частини отримують +5 [ICON_Strength] бойової сили, коли перебувають в межах дружніх міст, що дотримуються цієї релігії.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HOLY_ORDER_DESCRIPTION">
+      <Text>Місіонери та апостоли можуть бути придбані зі знижкою в 30%.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ITINERANT_PREACHERS_DESCRIPTION">
+      <Text>Релігія поширюється на міста на 30% далі.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JUST_WAR_DESCRIPTION">
+      <Text>Бойові підрозділи отримують +10 [ICON_Strength] бойової сили, коли перебувають в межах іноземних міст, які відповідають цій релігії.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MISSIONARY_ZEAL_DESCRIPTION">
+      <Text>Релігійні одиниці ігнорують [ICON_Movement] витрати руху на різних типах території та об'єктах.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MONASTIC_ISOLATION_DESCRIPTION">
+      <Text>Тиск вашої релігії ніколи не знижується через втрати у богословському бою.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_DESCRIPTION">
+      <Text>Міста починаються з цієї Релігії на місці заснування, якщо її більшість належить гравцю, який є засновником.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCRIPTURE_DESCRIPTION">
+      <Text>Релігійне поширення з тиску сусіднього міста є на 25% сильніше. Збільшується до 50%, коли досліджується друк.</Text>
+    </Row>
+    <!--BELIEF COMBAT BONUSES-->
+    <Row Tag="LOC_PROMOTION_DEFENDER_OF_FAITH_DESCRIPTION">
+      <Text>+{1_Value} Захисник віри Вірування</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_JUST_WAR_DESCRIPTION">
+      <Text>Переклад: Віра у Хрестовий похід +{1_Value}</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_INCOMING_RELIGION_PRESSURE">
+      <Text>Вхідний тиск на обертання</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_OUTGOING_RELIGION_PRESSURE">
+      <Text>Вихідний тиск на обертання</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_PREDOMINANT_RELIGION">
+      <Text>{1_ReligionName} (Переважна)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_FOLLOWER_PRESSURE_TOOLTIP_HEADER">
+      <Text>Підписники / Загальний тиск, отриманий:</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_FOLLOWER_PRESSURE_TOOLTIP">
+      <Text>{1_ReligionName}: [NEWLINE] {2_Followers} послідовників, {3_TotalPressure} тиск</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

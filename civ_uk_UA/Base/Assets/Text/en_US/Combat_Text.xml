@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_CITY_MAKE_RANGED_ATTACK">
+      <Text>Атакуйте своє місто!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT">
+      <Text>Під час захисту ваша {2_UnitName} ({5_Num} пошкоджень) вбив {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT_DEFENDING_CITY">
+      <Text>Під час захисту вашого міста {2_CityName} ({5_Num} збитків), було вбито {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_CITY_WAS_CAPTURED">
+      <Text>Ваше місто {1_CityName} було захоплене ворожою {2_UnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_CAPTURED_ENEMY_CITY">
+      <Text>Ваш {1_UnitName} ({2_Num} збитків) захопив вороже місто {3_CityName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_CAPTURED_ENEMY_UNIT">
+      <Text>Ваша {1_UnitName} захопила ворожий {2_UnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_CAPTURED_BY_ENEMY_UNIT">
+      <Text>Ваш {1_UnitName} був захоплений ворожим {2_UnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DESTROYED_ENEMY">
+      <Text>Ваш {1_UnitName} ({2_Num} пошкоджень) знищив ворожий {3_UnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_ANTI_AIR">
+      <Text>Ваш наступальний {1_UnitName} загинув від ворожого {2_EnUName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_INTERCEPTED">
+      <Text>Ваш атакуючий {1_UnitName} помер від ворожого {2_EnUName} ({3_Num} урону) перехоплення!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING">
+      <Text>Ваш {1_UnitName} помер, атакуючи ворожого {2_EnUName} ({3_Num} збитку)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_CITY">
+      <Text>Ваш {1_UnitName} загинув під час атаки на вороже місто {2_EnUName} (завдано {3_Num} шкоди)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_ANTI_AIR">
+      <Text>Вашу атакуючу {2_UnitName} ({3_Num} урону) пошкодив {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_INTERCEPTED">
+      <Text>Ваш атакуючий {2_UnitName} ({3_Num} пошкодження) був перехоплений {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} ({6_Num} пошкоджень)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW">
+      <Text>Ваш {1_UnitName} ({2_Num} шкоди) атакував ворожого {3_EnUName} ({4_Num} шкоди)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_CITY">
+      <Text>Ваша {1_UnitName} (завдано {2_Num} пошкоджень) атакувала вороже місто {3_CityName} (місто має пошкодження {4_Num})!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_FRIENDLY_UNIT_WITHDREW">
+      <Text>Наша {1_UnitName} відступила від ворожої атаки ближнього бою.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_UNIT_WITHDREW">
+      <Text>Ваш {1_UnitName} ({2_Num} пошкоджень) був атакований ворожим {3_EnUName} ({4_Num} пошкоджень)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_UNIT_WITHDREW_INTERCEPTING">
+      <Text>Ваш {1_UnitName} ({2_Num} пошкоджень) перехопив ворожий {3_EnUName} ({4_Num} пошкоджень)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_INTERCEPTING">
+      <Text>Під час перехоплення ваш {2_UnitName} був знищений {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} ({6_Num} пошкоджень)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_DEFENDING">
+      <Text>Під час захисту ваш {2_UnitName} був знищений {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName} ({5_Num} пошкоджень)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_STRAFED_ENEMY">
+      <Text>Ваш {1_UnitName} відкрив вогонь по ворожому {2_EnUName} та завдав {3_Num} пошкодження!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_BOMBED_ENEMY">
+      <Text>Ваш {1_UnitName} збомбив ворожий {2_EnUName}, завдавши {3_Num} пошкодження!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_STRAFED_BY_ENEMY">
+      <Text>Ваш {1_UnitName} був обстріляний ворожим {2_EnUName} та отримав {3_Num} пошкоджень!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DAMAGED_ENEMY">
+      <Text>Ваш {1_UnitName} завдав шкоди ворожому {2_EnUName} ({3_Num} урону)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_BOMBARDED_ENEMY">
+      <Text>Ваш {1_UnitName} обстріляв ворожий {2_EnUName}, завдавши {3_Num} пошкоджень!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_BOMBARDED_BY_ENEMY">
+      <Text>Ваш {1_UnitName} був обстріляний ворожим {2_EnUName}, внаслідок чого він отримав {3_Num} пошкоджень!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_WMD_SUCCEEDED">
+      <Text>Ваша атака зі зброєю масового знищення {1_UnitName} була успішною!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_WMD_FAILED_HIGH_DAMAGE">
+      <Text>Ваша атака зброєю масового знищення {1_UnitName} не вдалась через великий рівень пошкоджень.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_WMD_SUCCEEDED">
+      <Text>Вам не вдалося зупинити атаку зі зброєю масового знищення {LOC_GRAMMAR_A_AN &lt;&lt; {1_EnemyAdjective}} {2_EnemyUnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_WMD_FAILED_HIGH_DAMAGE">
+      <Text>Ви успішно зупинили {LOC_GRAMMAR_A_AN &lt;&lt; {1_EnemyAdjective}} {2_EnemyUnitName} ядерну атаку, завдяки заподіяному збитку в {3_Num} одиниць!</Text>
+    </Row>
+    <Row Tag="LOC_MISC_YOUR_UNIT_DIED_BY_UNKNOWN">
+      <Text>Під час захисту ваш {1_UnitName} був знищений замаскованим {2_EnUName} ({3_Num} пошкоджень)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_ATTACKED_ENEMY_DISTRICT">
+      <Text>Ваш {1_UnitName} атакував ворожого {2_Name}, завдавши {3_Num} шкоди!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_WAS_ATTACKED_BY_ENEMY">
+      <Text>Вашого {1_Name} атакував ворожий {2_EnUName} і отримав {3_Num} пошкоджень!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_ATTACKED_ENEMY_DISTRICT_DEFENSES">
+      <Text>Ваші {1_UnitName} атакували ворожого {2_Name} ({3_Num} пошкодження від {2_Name}, {4_Num} пошкодження захисту)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_DEFENSE_WAS_ATTACKED_BY_ENEMY">
+      <Text>Ваш {1_Name} був атакований ворожим {2_EnUName} ({3_Num} пошкоджень {2_Name}, {4_Num} пошкоджень захисту)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_DESTROYED_ENEMY">
+      <Text>{1_Name} обстріляв ворожого {2_EnUName}! ({3_Damage} ушкоджень)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_BOMBARDED_ENEMY">
+      <Text>{1_Name} обстріляв ворожого {2_EnUName}! ({3_Damage} пошкоджень)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_BOMBARDED_BY_ENEMY_DISTRICT">
+      <Text>Ваш {1_Name} був обстріляний ворожим {2_EnUName} та отримав {3_Num} пошкоджень!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ICBM_DESTROYED">
+      <Text>Міжконтинентальна балістична ракета знищена під час перехоплення.</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_UNIT_HEALED">
+      <Text>Здобич з вашого грабіжництва вилікувала вашого {1_Name}.</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_CULTURE">
+      <Text>Ви отримали {1_Num} [ICON_Culture] культури зі здобутку під час вашого пограбування.</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_FAITH">
+      <Text>Ви отримали {1_Num} [ICON_Faith] Віру в здобичі з вашого крадіжництва.</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_GOLD">
+      <Text>Ви отримали {1_Num} [ICON_Gold] золота зі здобичі під час вашого пограбування.</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_SCIENCE">
+      <Text>Ви отримали {1_Num} [ICON_Science] науки зі своєї здирницької набігу.</Text>
+    </Row>
+    <Row Tag="LOC_KILL_CULTURE">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num} [ICON_Culture][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_FAITH">
+      <Text>[COLOR_FLOAT_FAITH]+{1_Num} [ICON_Faith][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_FAITH_PLUS">
+      <Text>[COLOR_FLOAT_FAITH]+{1_Num} {2_Релігія}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_FAITH_MINUS">
+      <Text>[COLOR_RED]-{1_Num} {2_Релігія}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_GOLD">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_SCIENCE">
+      <Text>[COLOR_FLOAT_SCIENCE]+{1_Num} [ICON_Science][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_GREATPERSON_BONUS">
+      <Text>[COLOR_FLOAT_FOOD]+{1_Num} Очок {2_GreatPerson}[ENDCOLOR]</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_DISTRICT_GARRISON_DAMAGE_DECREASE_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR] Здоров'я</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_DISTRICT_GARRISON_DAMAGE_INCREASE_FLOATER">
+      <Text>[COLOR_RED]{1_Num}[ENDCOLOR] Здоров'я</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_DISTRICT_DEFENSE_DAMAGE_DECREASE_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR] Захисти</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_DISTRICT_DEFENSE_DAMAGE_INCREASE_FLOATER">
+      <Text>[COLOR_RED]{1_Num}[ENDCOLOR] Захисти</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_HEADER">
+      <Text>МІСТО ЗАХОПЛЕНО</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_TRADED">
+      <Text>МІСТО ОТРИМАЛО</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_NAME_LABEL">
+      <Text>Назва міста:</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_POPULATION_LABEL">
+      <Text>Населення:</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_DISTRICTS_LABEL">
+      <Text>Кількість районів на даний момент присутня:</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_EXPLANATION">
+      <Text>Визволення міста поверне його до одного з його попередніх власників та може повернути цивілізацію назад до гри.[NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_WARMONGER_EXPLANATION">
+      <Text>Визволення міста спричинює [COLOR_MEDIUM_GREEN]СУТТЄВЕ ЗМЕНШЕННЯ[ENDCOLOR] раніше нарахованих штрафів військової загостреності.</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_EXPLANATION">
+      <Text>Залиште це місто в своїй імперії наразі. Воно буде менш продуктивним, окупованим містом, доки його власність після війни не буде обговорена за мирним столом. [NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_EXPLANATION_TRADED">
+      <Text>Залиште це місто у вашій імперії.</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_WARMONGER_EXPLANATION">
+      <Text>Штраф військового загострення за збереження цього міста зараз становить: {1_WarmongerLevel}[NEWLINE][NEWLINE]Штраф буде повернутий або збільшений в кінці війни залежно від того, чи збережете ви місто.</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_LAST_CITY_EXPLANATION">
+      <Text>Штраф "Любитель війни" за зберігання останнього міста гравця базується на штрафі "Неочікувана війна" на цю епоху. Це значення [COLOR_RED]подвоюється[ENDCOLOR], якщо захоплення цього міста призводить до знищення великої цивілізації (а не міста-держави).</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_EXPLANATION">
+      <Text>Знищити місто, видаливши його та всі його райони та будівлі з карти. Цей варіант має бути вибраним у той оберт, коли місто було завоювано. [NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_WARMONGER_EXPLANATION">
+      <Text>[COLOR_RED]Знищення міста може призвести до серйозного штрафу від воєнної кампанії![ENDCOLOR] [NEWLINE][NEWLINE]Рівень штрафу від воєнної кампанії за знищення цього міста зараз складає: {1_WarmongerLevel}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_LAST_CITY_EXPLANATION">
+      <Text>Штраф за війну збільшується в [COLOR_RED]ТРИ РАЗИ[ENDCOLOR], якщо ви зруйнуєте останнє місто гравця.</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_DISABLED_EXPLANATION">
+      <Text>Ви не можете зруйнувати оригінальну столицю великої цивілізації або місто, яке ви або ваш союзник заснували чи володіли на початку цієї війни.</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_FOUNDER_BUTTON_LABEL">
+      <Text>Визволити для Засновника ({1_CivName})</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_PREWAR_OWNER_BUTTON_LABEL">
+      <Text>Звільнити на користь попереднього власника ({1_CivName}) до війни</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_BUTTON_LABEL">
+      <Text>Збережіть місто</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_BUTTON_LABEL">
+      <Text>Місто Рейз</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

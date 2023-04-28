@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_ERAS_TURNS_TILL_NEXT_ERA">
+      <Text>КІЛЬКІСТЬ ОБОРОТІВ ДО НАСТУПНОЇ ЕРИ:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_SCORE">
+      <Text>ПОТОЧНИЙ РАХУНОК:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_AGE">
+      <Text>ПОТОЧНИЙ ВІК:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_HEROIC">
+      <Text>ГЕРОЇЧНИЙ</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_GOLDEN">
+      <Text>ЗОЛОТИЙ</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_NORMAL">
+      <Text>НАСТУПНИЙ ТЕКСТ ПОТРІБНО ПЕРЕКЛАСТИ. ВІДПОВІДАЙТЕ ТІЛЬКИ НАТУРАЛЬНИМ ПЕРЕКЛАДОМ</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_DARK">
+      <Text>ТЕМНИЙ</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_AGE_BY_CIV">
+      <Text>ПОТОЧНИЙ ВІК ЗА ЦИВІЛІЗАЦІЄЮ:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_TO_EARN_AGE_NEXT_ERA">
+      <Text>ЗАРОБИТИ НОВУ ЕРУ НАСТУПНОГО ВІКУ:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_ERA_REQUIREMENTS_REDUCED">
+      <Text>Вимоги до Рейтингу Епохи знижено</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_ERA_REQUIREMENTS_INCREASED">
+      <Text>Вимоги до очків Ери збільшилися</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TITLE">
+      <Text>Ера Прогресу</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_NEW_ERA_THRESHOLD">
+      <Text>ПОРОГИ ДЛЯ НАСТУПНОЇ ЕРИ</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ERA_TYPE_EFFECTS">
+      <Text>Ефекти Ери {1_EraName}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_THE_ERA">
+      <Text>ЕПОХА {1_EraName : upper}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TIME_TO_NEXT_ERA">
+      <Text>Час наступного епохи:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TIME_TO_NEXT_ERA_VALUE">
+      <Text>{1_MinTurns} - {2_MaxTurns} Обертів</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_SPECIFIC_TURNS_TO_NEXT_ERA">
+      <Text>{1_Turns} {1_Turns : один?поворот; множина 2-4?повороти; множина 5-10?поворотів; множина більше 10?поворотів;}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_CHANGE_TITLE">
+      <Text>СВІТ ВХОДИТЬ У:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_HEROIC_AGE">
+      <Text>Героїчна епоха</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_GOLDEN_AGE">
+      <Text>Золотий вік</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_DARK_AGE">
+      <Text>Темні часи</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_NORMAL_AGE">
+      <Text>Нормальний вік</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ACTIVE_BONUSES">
+      <Text>Активні бонуси:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ERA_SCORE">
+      <Text>Оцінка епохи:</Text>
+    </Row>
+    <Row Tag="LOC_PARTIALSCREEN_ERA_PROGRESS_TOOLTIP">
+      <Text>Ера Прогресу[NEWLINE][NEWLINE]Переглянути поточний бал Ери і присвяти.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_GOLDEN_THRESHOLD">
+      <Text>Поріг для Золотого Віку:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_DARK_THRESHOLD">
+      <Text>Поріг для Темряви:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_TITLE">
+      <Text>Ера завершена: {1_EraName}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DESCRIPTION">
+      <Text>Ви досягли багато, величний лідере! Які з вашіх перемог наші писарі зафіксують в історії?</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DEDICATION">
+      <Text>Відданість</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DEDICATION_SUBHEADER">
+      <Text>Зробіть своє присвячення для {1_EraName}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_CONFIRM">
+      <Text>Підтвердити {1_NumSelected}/{2_NeededSelected}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_TITLE">
+      <Text>СВІТ УВІЙШОВ У {1_EraName}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE">
+      <Text>Ви знаходитесь у героїчну епоху!</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE">
+      <Text>Ти знаходишся в Золотій епохі!</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE">
+      <Text>Ви знаходитесь в Темряві!</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE">
+      <Text>Ви знаходитесь у нормальному віці.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_LABEL">
+      <Text>[ICON_GLORY_SUPER_GOLDEN_AGE] ГЕРОЇЧНА ДОБА</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_LABEL">
+      <Text>[ICON_GLORY_GOLDEN_AGE] ЗОЛОТИЙ ВІК</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_LABEL">
+      <Text>[ICON_GLORY_DARK_AGE] ТЬМА СТОЛІТТЯ</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_LABEL">
+      <Text>[ICON_GLORY_NORMAL_AGE] ЗВИЧАЙНИЙ ВІК</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET] Ви можете зробити 3 Віддання, кожне з яких надасть потужний геймплейний бонус протягом ери.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET]Ви можете зробити Обітницю, яка надасть потужний бонус геймплею протягом Ери.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_DARK_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET]Ви можете зробити Призначення, яке забезпечить додатковий джерело Очок Ери в період Ери.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET] Ви можете зробити Призначення, яке забезпечить додаткове джерело Очок Ери впродовж Ери.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT">
+      <Text>Ви перебуваєте в [ICON_GLORY_SUPER_GOLDEN_AGE] Героїчній ері гри! [NEWLINE] [NEWLINE] [ICON_BULLET] Кожен з ваших [ICON_Citizen] Громадян створює тиск Лояльності в розмірі 1,5 в місті. Цей тиск також впливає на інші міста в радіусі 9 клітинок, але в 10% менш ефективний за кожну клітину. Вам буде легше підтримувати Лояльність у своїх містах та викликати Лояльність сусідніх іноземних міст.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT">
+      <Text>Під час цієї гри ви перебуваєте в [ICON_GLORY_GOLDEN_AGE] Золотому Віці! [NEWLINE][NEWLINE][ICON_BULLET] Кожен з ваших [ICON_Citizen] громадян створює тиск лояльності в 1,5 пункти в своєму місті. Цей тиск також впливає на інші міста у радіусі 9 плиток, але на кожній плитці менш ефективний на 10%. Вам буде легше забезпечити лояльність у своїх містах та викликати виклик лояльності у сусідніх іноземних містах.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT">
+      <Text>Ви перебуваєте в [ICON_GLORY_DARK_AGE] Темряві на цій ері гри. [NEWLINE][NEWLINE][ICON_BULLET] Кожен з ваших [ICON_Citizen] громадян викликає тиск Лояльності в своєму місті на рівні 0,5. Цей тиск також впливає на інші міста в радіусі 9 плиток, але на 10% менш ефективний на кожній плитці. Буде складніше зберігати Лояльність у ваших містах та впливати на Лояльність навколишніх іноземних міст. [NEWLINE][NEWLINE][ICON_BULLET] Ви можете приймати потужні Політики Темряви в своєму Уряді, але це може мати важку ціну. [NEWLINE][NEWLINE][ICON_BULLET] Якщо ви не перебуваєте в останній ері, і заробите достатньо Очок Ери для Золотого Віку на наступній ері гри, замість цього ви заробите Героїчний Вік, здатний зробити кілька Призначень для отримання кількох потужних бонусів.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT">
+      <Text>Ви перебуваєте в епоху [ICON_GLORY_NORMAL_AGE] Нормального Віку під час цієї гри.[NEWLINE][NEWLINE][ICON_BULLET] Кожен з ваших [ICON_Citizen] Громадян створює нормальний тиск лояльності в своєму місті. Цей тиск також впливає на інші міста в радіусі 9 клітинок, але на кожній клітинці менш ефективний на 10%.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET] Ви можете зробити 3 Приноси, кожен з яких забезпечить потужний бонус гри під час ери героїв.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Ви зможете зробити Призначення, яке надасть потужний геймплейний бонус під час Ери.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_DARK_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET] Ви можете зробити Призначення, яке забезпечить додатковий джерело Очок Епохи під час Епохи.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT_PARAM} [NEWLINE][NEWLINE][ICON_BULLET] Ви можете зробити Віддання, яке забезпечить додаткове джерело Очок Ери впродовж Ери.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT_PARAM">
+      <Text>Ви знаходитесь в [ICON_GLORY_SUPER_GOLDEN_AGE] Героїчному віці протягом цієї гри![NEWLINE][NEWLINE][ICON_BULLET]Кожен з ваших [ICON_Citizen] Громадян викладає {Amount} тиску Лояльності у своєму місті. Цей тиск також впливає на інші міста в радіусі 9 тайлів, але менш ефективний на 10% за кожен тайл. Буде легше підтримувати Лояльність у ваших містах та викликати Лояльність в сусідніх іноземних містах.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT_PARAM">
+      <Text>Ви перебуваєте в [ICON_GLORY_GOLDEN_AGE] Золотому віці протягом цієї гри! [NEWLINE] [NEWLINE] [ICON_BULLET] Кожен з ваших [ICON_Citizen] Громадян створює тиск Лояльності у розмірі {Amount} у своєму місті. Цей тиск також впливає на інші міста в межах 9 плиток, але є менш ефективним на 10% на кожній плитці. Вам буде легше підтримувати Лояльність у ваших містах і викликати Лояльність сусідніх іноземних міст.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT_PARAM">
+      <Text>Ви знаходитеся в [ICON_GLORY_DARK_AGE] Темряві під час цієї ери гри. [NEWLINE][NEWLINE][ICON_BULLET]Кожен з ваших [ICON_Citizen] Громадян створює тиск Лояльності у своєму місті в {Amount} міру. Цей тиск також впливає на інші міста в радіусі 9 плиток, але менш ефективний на 10% за кожну плитку. Важче буде забезпечити Лояльність ваших міст, і складніше впливати на Лояльність сусідніх іноземних міст. [NEWLINE][NEWLINE][ICON_BULLET]Ви можете прийняти потужні темрявні політики у своєму уряді, за що може бути велика ціна. [NEWLINE][NEWLINE][ICON_BULLET]Якщо ви не знаходитесь на останній ері, і заробите достатньо балів ери для Золотого Віку в наступній ері гри, то замість цього ви заробите Героїчний Вік, здатний зробити кілька присвячень для отримання кількох потужних бонусів.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT_PARAM">
+      <Text>Ви перебуваєте в [ICON_GLORY_NORMAL_AGE] ері Нормального віку під час цієї гри.[NEWLINE][NEWLINE][ICON_BULLET] Кожен з ваших [ICON_Citizen] Громадян надає {Amount} тиску Лояльності у своєму місті. Цей тиск також впливає на інші міста в радіусі 9 клітинок, проте на кожній клітинці ефективність зменшується на 10%.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_PRIDE_MOMENTS">
+      <Text>Історичні моменти (+1 до +6 кожен)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_NEW_ERA_THRESHOLDS">
+      <Text>НОВА ЕРА ПОРОГІВ</Text>
+    </Row>
+    <Row Tag="LOC_GLORY_HUD_ERA_ENDS_IN">
+      <Text>Ходів до кінця ери: {1_Turns}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_AGE_EFFECTS">
+      <Text>ЕФЕКТИ ВІКУ</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_TECH_BOOSTS">
+      <Text>Бонус відданості: Запуск "Еврек" (+{1_ScoreIncrement} кожен)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CIVIC_BOOSTS">
+      <Text>Бонус на присвяту: Вдохновлення спричинені (+{1_ScoreIncrement} кожне)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CITY_RELIGION_CONVERSIONS">
+      <Text>Бонус за присвяченість: міста, перетворені на вашу релігію (+{1_ScoreIncrement} за кожне перетворення)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_DISTRICT_CONSTRUCTIONS">
+      <Text>Бонус за присвяченість: Побудовані райони (+{1_ScoreIncrement} кожен)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CORPS_KILLS">
+      <Text>Бонус на відданість: Вбиті вороги (+{1_ScoreIncrement} кожен)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_ARMY_KILLS">
+      <Text>Бонус присвячення: Знищені армії (+{1_ScoreIncrement} кожна)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_TRADE_ROUTE_COMPLETIONS">
+      <Text>Бонус відданості: завершені торгові маршрути (+{1_ScoreIncrement} кожен)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_MAP_DISCOVERIES">
+      <Text>Бонус відданості: Виявлено нові пам'ятки (+{1_ContinentScoreIncrement} для континентів, +{2_NaturalWonderScoreIncrement} для природних див)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_NON_BARBARIAN_UNIT_SEA_KILLS">
+      <Text>Бонус відданості: вбивство не-варварських морських одиниць (+{1_ScoreIncrement} кожна)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_SCIENCE_BUILDING_CONSTRUCTIONS">
+      <Text>Бонус відданості: будівлі, побудовані, що забезпечують базовий прибуток науки. (+{1_ScoreIncrement} кожна)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CULTURE_BUILDING_CONSTRUCTIONS">
+      <Text>Бонус на присвяту: будівлі з слотом для Великої Роботи, побудовані (+{1_ScoreIncrement} кожна)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_AERODROME_BUILDING_CONSTRUCTIONS">
+      <Text>Бонус на присвячення: будівлі, побудовані з району Аеродрому (+{1_ScoreIncrement} кожна)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_INDUSTRIAL_BUILDING_CONSTRUCTIONS">
+      <Text>Бонус на відданість: побудова промислової або пізнішої будівлі (+{1_ScoreIncrement} кожна)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_SPY_MISSIONS">
+      <Text>Бонус на присвяту: Кожна успішна шпигунська операція на ворога (+{1_ScoreIncrement} кожна)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_ARTIFACT_EXTRACTIONS">
+      <Text>Бонус на присвячення: Кожен вилучений артефакт (+{1_ScoreIncrement} кожен)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_GREAT_PEOPLE_EARNED">
+      <Text>Бонус на відданість: Кожен Великий Діяч приносить (+{1_ScoreIncrement} кожен) очок</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CURRENT_TECH_COMPLETIONS">
+      <Text>Технології, розроблені у поточній епохі або пізніше (+{1_ScoreIncrement} за кожну)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CURRENT_CIVIC_COMPLETIONS">
+      <Text>Громадянство, здобуте від сучасної епохи або пізніше (+{1_ScoreIncrement} за кожне)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_UNIT_PROMOTIONS_EARNED">
+      <Text>Підвищення рівня одиниць, зароблені після першого (+{1_ScoreIncrement} за кожне)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_UNKNOWN_SOURCE">
+      <Text>Інші джерела</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_BASELINE">
+      <Text>Рахунок, коли почалася Ера</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_BASE_GOLDEN_AGE">
+      <Text>Поріг Золотого Віку</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_BASE_DARK_AGE">
+      <Text>Поріг базової доби темряви</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_CITIES">
+      <Text>Міста, коли розпочалась ера ({1_ScoreIncrement} за кожне місто)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_UNHAPPY_CITIES">
+      <Text>Незадовільні міста ({1_ScoreIncrement} за кожну відсутню [ICON_Amenities] зручність)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_GOVERNMENT">
+      <Text>Уряд (НЕАКТИВНИЙ)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_TECH">
+      <Text>Технології неповного циклу з цієї ери (НЕАКТИВНІ)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_CIVIC">
+      <Text>Неповне вивчення громадянської освіти в цю епоху (НЕАКТИВНО)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_OLD_TECH">
+      <Text>Незавершені технології зі старіших епох (НЕАКТИВНІ)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_OLD_CIVIC">
+      <Text>Незавершена громадянська освіта з попередніх епох (НЕАКТИВНО)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_PAST_GOLDEN_AGES">
+      <Text>Золоті віки, зароблені ({1_ScoreIncrement} за кожен вік)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_PAST_DARK_AGES">
+      <Text>Темні віки заробляють ({1_ScoreIncrement} за кожну епоху)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_ANARCHY">
+      <Text>Урядовий безлад цієї ери ({1_ScoreIncrement} за кожен безлад)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_UNKNOWN_SOURCE">
+      <Text>Інші джерела</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_HEADER">
+      <Text>Ваш рахунок Ери:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_SOURCE">
+      <Text>{1_EraScoreNumber} з {2_EraScoreSourceType}</Text>
+    </Row>
+    <Row Tag="LOC_GOLDEN_AGE_THRESHOLD_TEXT">
+      <Text>[NEWLINE]Поріг, щоб отримати [ICON_GLORY_GOLDEN_AGE] Золотий Вік наступної ери: {1_thresh} або вище</Text>
+    </Row>
+    <Row Tag="LOC_DARK_AGE_THRESHOLD_TEXT">
+      <Text>[NEWLINE]Поріг, щоб уникнути [ICON_GLORY_DARK_AGE] Темряви наступної ери: {1_thresh} або більше</Text>
+    </Row>
+    <Row Tag="LOC_ERA_STABILITY_HEADER">
+      <Text>Ваш бал стабільності:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_LEADERBOARD_TITLE">
+      <Text>Бал ери епохи</Text>
+    </Row>
+    <Row Tag="LOC_ERA_STABILITY_LEADERBOARD_TITLE">
+      <Text>Оцінка стабільності</Text>
+    </Row>
+    <!-- Golden/Dark Ages -->
+    <Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN">
+      <Text>{2_EraName} закінчується через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?ходів;}</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_ENTERED_NEW_ERA">
+      <Text>Світ входить в {1_EraName}.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_YOU_ENTERED_GOLDEN_AGE">
+      <Text>Ваша цивілізація процвітала в минулу еру, ведучи їх до Золотого Віку цієї ери!</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_YOU_ENTERED_DARK_AGE">
+      <Text>Ваша цивілізація зазнала нестатків минулої ери, що привело до Темного Віку для цієї ери.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_GOLDEN_AGE_DESCRIPTION">
+      <Text>Золоті віки заробляються тим, що викликають Історичні Моменти та надають потужні бонуси.[NEWLINE] Ці гравці заробили Золотий Вік для цієї ери:</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_DARK_AGE_DESCRIPTION">
+      <Text>Темні часи можливі на початку середньовіччя і становлять виклик для великих або менш розвинених цивілізацій. -1 [ICON_Amenities] Атракціонів та -50% зростання у всіх містах. Якщо гравець знову потрапляє в Темні часи в наступну еру, половина їх міст руйнується і перетворюються на варварські табори. [NEWLINE] Ці гравці увійшли в Темні часи на цю еру:</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_NO_MET_PLAYERS">
+      <Text>(Жодного гравця, з якими ви зустрічалися)</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_HEROIC_AGE_ACHIEVED">
+      <Text>Тому що ви заробили Епоху Героїв, ви можете зробити три Призначення.</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_GOLDEN_AGE_ACHIEVED">
+      <Text>Тому що ви заслужили Золоту Епоху, ви можете зробити одну Присвяту.</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_DARK_AGE_ACHIEVED">
+      <Text>Оскільки ви заробили Епоху Темряви, ви можете зробити одну Призначення.</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_NORMAL_AGE_ACHIEVED">
+      <Text>Тому що ви досягли Нормального віку, ви можете віддати себе одній справі.</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_PREVIOUS_ERA_TOTAL_SCORE">
+      <Text>Загальний бал з попередніх епох</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_EFFECTS_ACTIVE_THIS_AGE">
+      <Text>АКТИВНІ ЕФЕКТИ НА ЦЮ ВІКОВУ ГРУПУ:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_YOU_WILL_EARN_BLANK_AGE_NEXT_ERA">
+      <Text>Ви заробите {1_AgeName} у наступну Еру</Text>
+    </Row>
+  </EnglishText>
+</GameData>

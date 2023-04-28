@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData>
+  <EnglishText>
+    <!-- Loading Screen -->
+    <Row Tag="LOC_LOADING_INFO_CIVROYALE_SCENARIO">
+      <Text>{LOC_CIV_ROYALE_MOD_DESCRIPTION_TUTORIAL}</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_CIV_ROYALE_VICTORY_WIN_BLURB">
+      <Text>Вони всі нас сміялися. Вони казали, що ми занадто слабкі та занадто малочисельні, щоб дістатися до посадкового модуля. Хто тепер сміється? Хто є останньою фракцією, яка покидає цю дурну та гнилу планету? Хто отримав квиток в один кінець на блискучий новий космічний корабель, п'є чисту воду та дихає повітрям, що не містить токсичного пилу? Ми![NEWLINE][NEWLINE]Ми від'їжджаємо! Обережно, Всесвіте!</Text>
+    </Row>
+    <!-- Goody Huts -->
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_WARRIOR_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]До вашої фракції приєдналась піхотна одиниця.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ARCHER_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Вашій фракції приєднався загін кулеметників. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_AT_TEAM_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]До вашої фракції долучилась анти-танкова одиниця.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_SETTLER_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Цивільні, які приховувалися в руїнах, приєдналися до вашої фракції.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_GUNSHIP_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Ви виявили функціонуючий вертольот.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_TANK_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Ви виявили функціонуючий танк.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ARTILLERY_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]До вашої фракції приєдналась артилерійська частина.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_NUKE_STRIKE_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Ви знайшли функціональний термоядерний пристрій.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ZOMBIES_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Ваші зомбі забрали ще одну жертву. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ZOMBIES_DESCRIPTION_B">
+      <Text>[COLOR_FLOAT_MILITARY]Більше тіл для орди.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ZOMBIES_DESCRIPTION_C">
+      <Text>[COLOR_FLOAT_MILITARY]Ви виявили загін зомбі.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_IMPROVISED_TRAP_GOODIES">
+      <Text>Ти потрапив у пастку!</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_GRIEVING_GIFT_GOODIES">
+      <Text>Це була пастка!</Text>
+    </Row>
+    <!-- HUD UI -->
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS">
+      <Text>Обертайтеся до тих пір, поки Зона Безпеки не стиснеться.</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_B">
+      <Text>{1_Залишилось} Обертань до скорочення Безпечної Зони.</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_MIN_SIZE">
+      <Text>Безпечна зона має мінімальний розмір.</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_MIN_SIZE_B">
+      <Text>Безпечна зона стабілізувалася. [COLOR_RED]Евакуацію блокує інші виживші фракції.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_MIN_SIZE_C">
+      <Text>Безпечна зона стабілізувалася. [COLOR_RED]Сигнал від віддаленого посадкового апарату все ще перешкоджають інші фракції![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_STORM_STRENGTH">
+      <Text>Радіація: Категорія {1_safeZonePhase} (Шкода {2_dangerZoneDamage})</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_CATEGORY">
+      <Text>Категорія</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_CATEGORY_TOOLTIP">
+      <Text>Одиниця отримає {1_Damage} пошкодження від наслідків в зоні.[NEWLINE]До цього моменту Безпечна Зона закривалась {2_RingCount} {2_RingCount : plural 1?раз; few?рази; many?разів; other?разів;}.</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_DAMAGE">
+      <Text>Шкода</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_DAMAGE_TOOLTIP">
+      <Text>Кількість збитків, які зазнають ваші виживші у Червоній смерті.</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS">
+      <Text>{1_Поворот : plural 1?Поворот; few?Повороти; other?Поворотів;}</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_TOOLTIP">
+      <Text>Скільки обертів залишилось до того, як Червона Смерть дістане Безпечну Зону?</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_CIVILIAN_WARNING">
+      <Text>Ваш громадянський находиться в зоні впливу радіації!</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_PLAYER_NAME_LABEL">
+      <Text>Ім'я гравця:</Text>
+    </Row>
+    <!--Global Ability Tracker-->
+    <Row Tag="LOC_CIV_ROYALE_GLOBAL_ABILITY_AVAILABLE">
+      <Text>Можливість доступна!</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_GLOBAL_ABILITY_CHARGES">
+      <Text>Оплата: {1_CurrentCharges} / {2_Max_Charges}</Text>
+    </Row>
+    <!-- Notifications -->
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SUPPLY_DROP_MESSAGE">
+      <Text>Доставка припасів!</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SUPPLY_DROP_SUMMARY">
+      <Text>З’явився постачальний пакунок!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_MESSAGE">
+      <Text>Виявлено руїни міста</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_SUMMARY">
+      <Text>Ви знайшли руїни міста, де можуть бути необхідні забезпечення.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_APPEARED_MESSAGE">
+      <Text>Безпечна зона створена</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_APPEARED_SUMMARY">
+      <Text>Червона Смерть реформується. Безпечна зона в оці шторму позначена на вашій карті.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_CHANGED_MESSAGE">
+      <Text>Безпечна зона зменшилася</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_CHANGED_SUMMARY">
+      <Text>Червона Смерть стає гірше. Безпечна зона зміщується та зменшується.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_NEW_TREASURE_MAP_MESSAGE">
+      <Text>Нова карта скарбів</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_NEW_TREASURE_MAP_SUMMARY">
+      <Text>Ви знайшли нову карту з похованим скарбом.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_HAIL_MARY_READY_MESSAGE">
+      <Text>Готова, О Маріє, будь ласка</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_HAIL_MARY_READY_SUMMARY">
+      <Text>Господи, Маріє, готова до відправки.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_ZOMBIE_DECAYED_MESSAGE">
+      <Text>Зомбі-горда Розпадаються</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_ZOMBIE_DECAYED_SUMMARY">
+      <Text>Ваша хорда зомбі була знищена через розкладання.</Text>
+    </Row>
+    <!-- Supply Drop Improvement -->
+    <Row Tag="LOC_IMPROVEMENT_SUPPLY_DROP_NAME">
+      <Text>Доставка поставок</Text>
+    </Row>
+    <!-- Goody Hut Improvements -->
+    <Row Tag="LOC_CIV_ROYALE_IMPROVEMENT_GOODY_HUT_NAME">
+      <Text>Руїни міста</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_POPPED_GOODY_NAME">
+      <Text>Досліджені руїни міста</Text>
+    </Row>
+    <!--Improvised Trap Improvement-->
+    <Row Tag="LOC_IMPROVEMENT_IMPROVISED_TRAP">
+      <Text>Імпровізована пастка</Text>
+    </Row>
+    <!-- Destroyed City Feature -->
+    <Row Tag="LOC_FEATURE_DESTROYED_CITY_NAME">
+      <Text>Знищене Місто</Text>
+    </Row>
+    <!-- MiniMap -->
+    <Row Tag="LOC_MINIMAP_RED_DEATH_TOOLTIP">
+      <Text>Червона Смерть</Text>
+    </Row>
+    <Row Tag="LOC_MINIMAP_SAFE_ZONE_TOOLTIP">
+      <Text>Безпечна Зона</Text>
+    </Row>
+    <!-- Promotions -->
+    <Row Tag="LOC_PROMOTION_SCOUTING_REGIMENT_NAME">
+      <Text>Розвідувальний полк</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUTING_REGIMENT_DESCRIPTION">
+      <Text>Бійці та їхнє утворення ігнорують штрафи руху [ICON_Movement] в лісах, дощових лісах та на пагорбах.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_CAPARISON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова сила проти екіпажів протитанкових засобів.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_COURSERS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової Сили при атаках на кулемети.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_ARMOR_PIERCING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила проти інших танків.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_REACTIVE_ARMOR_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила при захисті від танків та екіпажів ПТН.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_ECHELON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова сила проти танків та вертольотів.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_HOLD_THE_LINE_DESCRIPTION">
+      <Text>Прилеглі одиниці іншого класу отримують +10 [ICON_Strength] Бойової міцності проти танків та гелікоптерів.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_CHOKE_POINTS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова Сила при обороні в лісах, джунглях, на пагорбах або болотах.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_RANGE_NAME">
+      <Text>Замініть запускні труби</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_RANGE_DESC">
+      <Text>+1 [ICON_Range] Дальність атаки</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_MOVE_NAME">
+      <Text>Замінити приводи ніг</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_MOVE_DESC">
+      <Text>+2 [ICON_Movement] Рух</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_LIMITED_HEAL_NAME">
+      <Text>Перезаправлення та ремонт нанітів</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_LIMITED_HEAL_DESC">
+      <Text>+10 швидкість відновлення здоров'я</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_1_NAME">
+      <Text>Замініть стволи гвинтівок</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_1_DESC">
+      <Text>+8 [ICON_Strength] Бойова сила</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_2_NAME">
+      <Text>Замінити цільовий комп'ютер</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_2_DESC">
+      <Text>+8 [ICON_Strength] Бойова Сила</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_3_NAME">
+      <Text>Свіжа боєприпаси</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_3_DESC">
+      <Text>+8 [ICON_Strength] Бойова міць</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_1_NAME">
+      <Text>Мозки!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_1_DESC">
+      <Text>+5 [ICON_Strength] Бойова міць</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_2_NAME">
+      <Text>Мозок!!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_2_DESC">
+      <Text>+5 [ICON_Strength] Бойова міць</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_3_NAME">
+      <Text>Мозки!!!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_3_DESC">
+      <Text>+5 [ICON_Strength] Бойова сила</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_LESS_DECAY_NAME">
+      <Text>Ой!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_LESS_DECAY_DESC">
+      <Text>Немає пошкоджень від розкладу</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_1_NAME">
+      <Text>Грах!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_1_DESC">
+      <Text>+1 [ICON_Movement] Рух</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_2_NAME">
+      <Text>Грах!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_2_DESC">
+      <Text>+1 [ICON_Movement] Рух</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_3_NAME">
+      <Text>Грах!!!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_3_DESC">
+      <Text>+1 [ICON_Movement] Рух</Text>
+    </Row>
+    <!-- Unit Abilities -->
+    <Row Tag="LOC_ABILITY_TANK_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух, якщо починається в Пустелі.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_HEAL_MOVE_NAME">
+      <Text>Ксенологічна регенерація</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_HEAL_MOVE_DESCRIPTION">
+      <Text>Одиниця здоров'я відновлюється кожен хід поза водою або зонами випадіння радіації. Відновлюється зі швидкістю в 50% від стандартної.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_HEAL_MOVE_UNITPANEL_DESCRIPTION">
+      <Text>Лікує кожен хід поза водою або радіацією. Лікує за 50% стандартної швидкості.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_XENO_STEALTH_NAME">
+      <Text>Ксенологічний камуфляж</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_XENO_STEALTH_DESCRIPTION">
+      <Text>Невидимий для ворожих військ, поки не знаходиться поруч.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CULTISTS_UNIT_SIGHT_NAME">
+      <Text>Спостерігаючи кінець</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CULTISTS_UNIT_SIGHT_DESCRIPTION">
+      <Text>+3 зірки.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNIT_BASE_WMD_RESISTANCE_NAME">
+      <Text>Звик до катастрофи</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNIT_BASE_WMD_RESISTANCE_DESCRIPTION">
+      <Text>Втрачає 50 ОП замість миттєвої смерті від ЗМЗ.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ABILITY_WMD_STRIKE_NAME">
+      <Text>Здатний до запуску ЗМЗ</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WMD_STRIKE_DESCRIPTION">
+      <Text>Може запустити ЗМЗ.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PIRATES_IGNORE_EMBARK_DISEMBARK_COST_DESCRIPTION">
+      <Text>Ігнорує додаткові витрати руху [ICON_Movement] при посадці на корабель та з нього.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAD_SCIENTISTS_UNIT_SHIELD_NAME">
+      <Text>Оборонна інерційна захисна екранування</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAD_SCIENTISTS_UNIT_SHIELD_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойова сила при обороні. Повністю імунний до повіні, Червоної Смерті та ЯОВУ шкоди.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CRIPPLED_GDR_NO_HEAL_NAME">
+      <Text>Немає запасних частин</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CRIPPLED_GDR_NO_HEAL_DESCRIPTION">
+      <Text>Одиниця не відновлює здоров'я щоразу за хід.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_NO_HEAL_NAME">
+      <Text>Зомбі-розклад</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_NO_HEAL_DESCRIPTION">
+      <Text>Отримує шкоду від розкладу кожен хід та може вилікуватись лише з просуванням в рангу або вбивством не-зомбі одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_COMBAT_SPAWN_NAME">
+      <Text>Зомбі Бій Спавн</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_COMBAT_SPAWN_DESCRIPTION">
+      <Text>Створює хорду зомбі, коли вбивається не-зомбі юніт.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_RANGED_RESISTANCE_NAME">
+      <Text>Без болю</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_RANGED_RESISTANCE_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова сила при захисті від дистанційних атак.</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_SPREAD_FALLOUT_IMMUNE_NAME">
+      <Text>Мутант поширює імунітет до наслідків радіації</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_SPREAD_FALLOUT_IMMUNE_DESCRIPTION">
+      <Text>Імунні до пошкоджень від поширення мутантів Червоної Смерті.</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_SPEED_NAME">
+      <Text>Радіоактивний рух</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_SPEED_DESCRIPTION">
+      <Text>+3 [ICON_Movement] Рух у Червоній Смерті.</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_RESISTANCE_NAME">
+      <Text>Радіоактивний опір</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_RESISTANCE_DESCRIPTION">
+      <Text>Зменшення пошкоджень від червоної смерті на 50%.</Text>
+    </Row>
+    <Row Tag="LOC_MAD_SCIENTISTS_UNIT_SHIELD_MODIFIER">
+      <Text>+{1_Amount} Інерційний екранування</Text>
+    </Row>
+    <Row Tag="LOC_BORDERLORD_EDGENESS_COMBAT_BONUS_MODIFIER">
+      <Text>+{1_Amount} Едженес</Text>
+    </Row>
+    <Row Tag="LOC_ZOMBIES_DEFENSE_BONUS_VS_RANGED_COMBAT_MODIFIER">
+      <Text>+{1_Кількість} Стійкість до дальнього бою зомбі</Text>
+    </Row>
+    <Row Tag="LOC_SHIELDS_DEPLETED">
+      <Text>Щити вичерпано</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_TT">
+      <Text>Оборонна інерційна захисна система [NEWLINE][NEWLINE] Активуйте оборонну інерційну захисну систему, яка забезпечує +10 [ICON_Strength] бойової міцності під час оборони. Захист також забезпечує повний імунітет до води, "Червоної смерті" та вибухів від ЗМЗ. Оборонна інерційна захисна система діє протягом 4 ходів і потребує 6 ходів для перезарядки.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_ACTIVE_TT">
+      <Text>Щит активний. Залишилося хідів: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_ACTIVE_WORLDTEXT">
+      <Text>Щити на місці!</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_RECHARGING_TT">
+      <Text>Щит перезаряджається. Залишилося хідів: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_NAME">
+      <Text>Візія дороги</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_TT">
+      <Text>Дорожній Взірець[NEWLINE][NEWLINE]Розкриває всю раніше досліджену територію.</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_ACTIVE_TT">
+      <Text>Дорожній Видіння активне. Залишилося ходів: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_ACTIVE_WORLDTEXT">
+      <Text>Я пам'ятаю це!</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_RECHARGING_TT">
+      <Text>Візія дороги перезаряджається. Залишилось ходів: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_PLACE_TRAP_TT">
+      <Text>Побудуйте саморобну пастку[NEWLINE][NEWLINE]Покладіть саморобну пастку на поточний гекс.</Text>
+    </Row>
+    <Row Tag="LOC_PLACE_TRAP_OUT_OF_TRAPS_TT">
+      <Text>Застежі відкриті.</Text>
+    </Row>
+    <Row Tag="LOC_PLACE_TRAP_FAILED_WORLDTEXT">
+      <Text>Неможливо розмістити пастку тут</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PANEL_TRAPS">
+      <Text>Пастки</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_NAME">
+      <Text>Надіслати подарунок на честь зниклого</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_TT">
+      <Text>Надіслати Подарунок Сумуючому[NEWLINE][NEWLINE]Виберіть гекс, щоб розмістити підступний Подарунок Сумуючому на наступному ході. Подарунок Сумуючому буде виглядати як звичайний Падаючий Запас для всіх інших гравців. Ви можете мати до двох Подарунків Сумуючому, а їх потрібно заряджати протягом 5 ходів.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_ACTIVE_WORLDTEXT">
+      <Text>Неможливо розмістити подарунок тут</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_COUNT_TT">
+      <Text>Готові Подарунки: {1_giftCount}</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_RECHARGING_TT">
+      <Text>Пакування нових подарунків. Залишилося обертати: {1_turnsRemaining} разів</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_EMPTY_TT">
+      <Text>Закінчилися Подарунки для Скорботи.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CLOAK_TT">
+      <Text>Ксенологічний камуфляж[NEWLINE][NEWLINE]Стати переважно невидимим.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CLOAK_ACTIVE_TT">
+      <Text>Накидка активна. Залишилося обертань: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CLOAK_RECHARGING_TT">
+      <Text>Плащ заряджається. Залишилось ходів: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_NAME">
+      <Text>Згоріла карта скарбів</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_TT">
+      <Text>Згоріла карта скарбів[NEWLINE][NEWLINE]Згоріла зарита карта скарбів, отримай нову.[NEWLINE]"Тепер вони ніколи не знайдуть мій скарб!"</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_ACTIVE_WORLDTEXT">
+      <Text>Це палиться!</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_RECHARGING_TT">
+      <Text>Карта сховища Палає. Залишилось ходів: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_TT">
+      <Text>Жертвуйте одиницею [NEWLINE][NEWLINE] Жертвуйте цією одиницею, щоб дати просування Незгасаючому Оку.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_TT_B">
+      <Text>Офіційна жертва[NEWLINE][NEWLINE] Жертвуйте цю підрозділ, щоб дати просування {1_UnitName}.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_TT_C">
+      <Text>Прогуляйтеся по дошці [NEWLINE][NEWLINE] Знищте цей блок, щоб розважити команду GDRRRrrrr та дати йому просування.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_WORLDTEXT">
+      <Text>Я готовий служити до останнього подиху!</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_WORLDTEXT_PIRATE">
+      <Text>Арр! Дарунок богам глибин!</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_NOT_ADJACENT_TT">
+      <Text>"Незгасне Око приймає жертви тільки з сусідніх гексів."</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_NOT_ADJACENT_TT_B">
+      <Text>{1_UnitName} приймає жертви лише з сусідніх гексів.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_NOT_ADJACENT_TT_C">
+      <Text>Ви можете тільки кинути одиниці з борту, якщо вони знаходяться поруч з GDRRRrrrr.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_MAX_PROMOTIONS_TT">
+      <Text>Несмертельне Око повністю проявилось і більше не потребує жертв.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_MAX_PROMOTIONS_TT_B">
+      <Text>{1_UnitName} повністю проявлене і більше не потребує жертвоприношень.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_MAX_PROMOTIONS_TT_C">
+      <Text>Екіпаж GDRRRrrrr нудьгує від спостереження за тим, як підрозділи йдуть на борт.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RAD_SPREAD_TT">
+      <Text>Перемикач Сяючих Особистостей[NEWLINE][NEWLINE]Перемикайте здатність цього відділення розповсюджувати радіацію Червоної Смерті при русі.</Text>
+    </Row>
+    <!-- Terrain Replacements -->
+    <Row Tag="LOC_CIVROYALE_TERRAIN_WASTELAND_NAME">
+      <Text>Пустеля</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME">
+      <Text>Пустеля (Пагорби)</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME">
+      <Text>Пустелі (Гора)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_DESERT_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME} (ВІДХОДИ)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_DESERT_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_DESERT_MOUNTAIN_NAME">
+      <Text>Пустеля (Гора)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_GRASS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME} (ВІДХИЛ)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_GRASS_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME} (IN UKRAINIAN: ПУСТЕЛЯ ГІРСЬКА МІСЦЕВІСТЬ)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_GRASS_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_OCEAN_NAME">
+      <Text>Отруєний океан</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_LAKE">
+      <Text>Отруйне озеро</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_COAST">
+      <Text>Отруйний узбережжя</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_PLAINS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME} (УРОЧИЩЕ)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_PLAINS_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_PLAINS_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME} (УКР. НЕЗАСЕЛЕНИЙ ГІРСЬКИЙ СТЕП)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_SNOW_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_SNOW_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME} (TRANSLITERATION: {LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME})</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_SNOW_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_TUNDRA_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_TUNDRA_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_TUNDRA_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME} (PLEASE NOTE THAT THIS IS A PROPER NOUN AND SHOULD NOT BE TRANSLATED)</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_ICE_NAME">
+      <Text>Велика Гниль (Заборонено)</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_MARSH_NAME">
+      <Text>Бог</Text>
+    </Row>
+    <!-- Unit Replacements -->
+    <Row Tag="LOC_UNIT_SETTLER_NAME">
+      <Text>Цивільний</Text>
+    </Row>
+    <!-- Barbarian Replacements -->
+    <Row Tag="LOC_IMPROVEMENT_BARBARIAN_CAMP_NAME">
+      <Text>Аванпост Рейдерів</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BARBARIAN_NAME">
+      <Text>Рейдери</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BARBARIAN_DESCRIPTION">
+      <Text>Рейдери</Text>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_MESSAGE">
+      <Text>Новий Аутпост Райдерів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_SUMMARY">
+      <Text>Ми отримали чутки, що нова банда Райдерів перебралась в близьке регіон.</Text>
+    </Row>
+    <!-- Overlays -->
+    <Row Tag="LOC_EDGELORD_COMBAT_BONUS_OVERLAY_TT">
+      <Text>Бойова бонусна зона Еджелорда</Text>
+    </Row>
+    <!-- Zombie Combat Unit -->
+    <Row Tag="LOC_UNIT_ZOMBIE_NAME">
+      <Text>Хорда зомбі</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ZOMBIE_DESCRIPTION">
+      <Text>Ледве збройовані Зомбі-гордості</Text>
+    </Row>
+    <!-- Crippled GDR -->
+    <Row Tag="LOC_UNIT_CRIPPLED_GDR_NAME">
+      <Text>Покалічена НДР</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CRIPPLED_GDR_DESCRIPTION">
+      <Text>Цей Гігантський Робот Смерті кращі дні вже пройшов. Він ніколи не буде такий самий, але все ще є потужною силою, з якою потрібно братися до розрахунку.</Text>
+    </Row>
+    <!-- Faction Specific Unit Naming -->
+    <Row Tag="LOC_UNIT_UNDYING_EYE_NAME">
+      <Text>Незгасне Око</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATE_TREASURE_TANK_NAME">
+      <Text>Скарбний танк</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATE_TREASURE_CRIPPLED_GDR_NAME">
+      <Text>ГДРРРррррррррррр</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATE_TREASURE_INFANTRY_NAME">
+      <Text>Незнайомець з моря</Text>
+    </Row>
+    <!-- Combat Modifier Strings -->
+    <Row Tag="LOC_TRAIT_JOCKS_COMBAT_BONUS_DESC">
+      <Text>+{1_Amount} Свідок Досконалості</Text>
+    </Row>
+    <!-- WMDs -->
+    <Row Tag="LOC_WMD_HAIL_MARY_NAME">
+      <Text>Слава Марії</Text>
+    </Row>
+    <Row Tag="LOC_WMD_HAIL_MARY_DISABLED_COOLDOWN">
+      <Text>[COLOR:Red]{1_turns} обертається до наступної боєголовки Hail Mary. [ENDCOLOR]</Text>
+    </Row>
+    <!-- Treasure Locations -->
+    <Row Tag="LOC_TREASURE_UNIT_INFANTRY_RECRUITED">
+      <Text>Ми знайшли кількох нових кандидатів!</Text>
+    </Row>
+    <Row Tag="LOC_TREASURE_UNIT_TANK_RECRUITED">
+      <Text>Це буде танк!</Text>
+    </Row>
+    <Row Tag="LOC_TREASURE_UNIT_CRIPPLED_GDR_RECRUITED">
+      <Text>ГДРРРРррррр!</Text>
+    </Row>
+    <!-- UFO Unit Names -->
+    <Row Tag="LOC_UFO_UNIT_NAME1">
+      <Text>"Болотний газ"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME2">
+      <Text>"Рідкісні Хмари"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME3">
+      <Text>"П'яний свідок"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME4">
+      <Text>"Снодійні"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME5">
+      <Text>"Ненаслідений метеорит"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME6">
+      <Text>"Тест секретної зброї"</Text>
+    </Row>
+  </EnglishText>
+</GameData>

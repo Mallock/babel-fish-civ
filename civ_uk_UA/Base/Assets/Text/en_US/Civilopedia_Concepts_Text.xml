@@ -1,0 +1,1268 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BaseGameText>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_MODES_NAME">
+      <Text>Режими</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_INTRO_CHAPTER_INTRO_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_INTRO_CHAPTER_INTRO_PARA_1">
+      <Text>Ласкаво просимо до Цивілопедії для гри Sid Meier's Civilization VI! Тут ви знайдете детальні описи всіх аспектів гри. Натискання на вкладки у верхній частині екрана перенесе вас до різних головних розділів Цивілопедії. Навігаційна панель на лівому боці екрана відображатиме різні записи у розділі. Клацніть на запис, щоб перейти безпосередньо туди.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_CITIES_NAME">
+      <Text>Міста</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Міста є ключовими для успіху вашої цивілізації. Вони дозволяють будувати військові одиниці, будівлі та дива. Також вони дозволяють досліджувати нові технології та збирати багатство. Ви не зможете перемогти без потужних та добре розташованих міст.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_2_CHAPTER_CONTENT_TITLE">
+      <Text>Як будувати міста</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Міста будуються за допомогою поселенців. Якщо Поселенець знаходиться на місці, де можна побудувати місто, з'явиться кнопка дії "Заснувати місто". Натисніть на кнопку, і Поселенець зникне, його замінить нове місто.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_3_CHAPTER_CONTENT_TITLE">
+      <Text>Де будувати міста?</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Міста повинні будуватися на місцях з багатою кількістю [ICON_Food] Їжі та [ICON_Production] Продукції та з доступом до стратегічних, розкішних та бонусних ресурсів. Часто гарною ідеєю є будівництво міста на річковому або прибережному шестикутнику, оскільки джерела води дуже важливі для зростаючої [ICON_Citizen] Людності. Міста, побудовані на пагорбах, отримують бонус до оборони, що робить їх важкодоступними для ворогів.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_3_CHAPTER_CONTENT_PARA_2">
+      <Text>З вибраним поселенцем на мапі відобразяться ідеальні місця для міста з піктограмою. Крім того, кожен наступний поселенець після першого покаже об'єктив для поселенця, що допоможе знайти найкраще джерело води для вашого міста, і показує недоступні тайли.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_TITLE">
+      <Text>Зростання</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_PARA_1">
+      <Text>Ваше місто буде рости або додавати більше [ICON_Citizen] громадян з надлишком [ICON_Food] їжі. Будь-яка кількість [ICON_Food] їжі понад загальне споживання [ICON_Citizen] громадян міста, 2 на кожного, вважається надлишком і додається як прогрес до нового [ICON_Citizen] громадянина.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_PARA_2">
+      <Text>Якщо поточна кількість населення [ICON_Citizen] міста менше ніж на 2 від ліміту житла [ICON_Housing], місто додасть усі надлишкові продукти [ICON_Food] до зростання. Якщо місто менше на 1 [ICON_Citizen] від ліміту житла [ICON_Housing], його зростання сповільниться до 50%. Коли населення [ICON_Citizen] досягне ліміту житла [ICON_Housing], місто буде зростати лише на 25% від звичайної швидкості. Місто може зростати до 5 [ICON_Citizen] громадян понад його ліміт житла [ICON_Housing] з такою швидкістю, і потім зупиниться на зростанні.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_PARA_3">
+      <Text>Місто зупиниться в своєму розвитку та не зможе зростати, якщо в нього немає надлишку [ICON_Food] Їжі. Якщо місто виробляє менше [ICON_Food] Їжі, ніж споживають його [ICON_Citizen] Мешканці, то воно буде голодувати та повільно втрачати [ICON_Citizen] Населення доки не зможе забезпечити себе знову.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_13_CHAPTER_CONTENT_TITLE">
+      <Text>Їжа</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_13_CHAPTER_CONTENT_PARA_1">
+      <Text>Місто потребує 2 [ICON_Food] одиниці їжі на одного [ICON_Citizen] громадянина (інша назва для "[ICON_Citizen] населення") за хід, щоб уникнути голоду. Місто отримує [ICON_Food] одиниці їжі (а також інші доходи), призначаючи своїх [ICON_Citizen] громадян "працювати" на землі навколо міста. Місто може працювати на будь-якій плитці, що знаходиться в межах 3 клітинок від міста і також в межах цивілізації, за умови, що її не працює інше місто. Міста не можуть працювати на плитках з чудесами.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_13_CHAPTER_CONTENT_PARA_2">
+      <Text>Залишене на поталу місто призначатиме стільки громадян [ICON_Citizen], скільки потрібно, щоб забезпечити своє [ICON_Food] Їжу.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_14_CHAPTER_CONTENT_TITLE">
+      <Text>Житло</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_14_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Housing] Житло є представленням максимальної кількості [ICON_Citizen] Громадян або [ICON_Citizen] Населення, яке може бути в кожному місті. Основним джерелом [ICON_Housing] Житла є джерело води.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_14_CHAPTER_CONTENT_PARA_2">
+      <Text>Багато будівель надають [ICON_Housing] житло. Після дослідження гончарного мистецтва кожне місто може будувати зернове сховище, яке додає 2 [ICON_Housing] житло, і пізніше вони можуть будувати каналізацію, що також додає 2 [ICON_Housing] житло. Будівлі в інших районах іноді додають [ICON_Housing] житло, наприклад, Бараки в районі Табору, Університет в Кампусі та Маяк в Порту. Будівля Палацу у вашому столиці також додає 1 [ICON_Housing] житло.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_14_CHAPTER_CONTENT_PARA_3">
+      <Text>Кожне поле, пастухове, плантація або табір забезпечує підтримку невеликої кількості [ICON_Citizen] Жителів - 1 [ICON_Housing] Житло на кожні 2 такі покращення. Підтримка сільського [ICON_Citizen] Населення таким чином дозволить мати трохи більше [ICON_Citizen] Населення до початку епохи промисловості, коли стає доступним район Міська чверть.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_15_CHAPTER_CONTENT_TITLE">
+      <Text>Вода</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_15_CHAPTER_CONTENT_PARA_1">
+      <Text>Розташування вашого міста біля джерела води має бути одним з ваших перших рішень у будь-якій грі. Наявність доброго джерела води зразу встановить початковий рівень [ICON_Housing] житла в місті. Місто, яке не прилягає до жодного водного джерела, матиме максимальну [ICON_Citizen] населення 2 на початку. Місто на узбережжі матиме максимальну [ICON_Citizen] населення 3. А місто, що прилягає до річки, озера чи оазису матиме максимальну [ICON_Citizen] населення 5.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_15_CHAPTER_CONTENT_PARA_2">
+      <Text>Статус прісної води міста можна покращити, додавши плиту Акведука поруч із Центром міста. Акведуки можуть бути розміщені лише на плитах, що прилягають до Річки, Озера, або Гори, що також прилягає до Центру міста. Завершення району Акведука підвищує [ICON_Housing] Житлове місце міста на 2 або до 6 для кожного, який є більшим - тому 7, якщо він прилягає до Річки, Озера або Оазису, або 6 інакше.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_TITLE">
+      <Text>Райони</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_PARA_1">
+      <Text>У Civilization VI будівлі вже не знаходяться в пастці у вашому Центрі міста, а можуть простягатися по вашій території в рамках районів. Карта є важливішою, ніж коли-небудь раніше, оскільки ви стикаєтесь з важливими стратегічними рішеннями щодо розташування. Кампус та Священне місце отримують спеціальні підсилення від розташування на підніжжі гір, але Кампус також користується перевагами від найближчої тропічної лісової плити.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_PARA_2">
+      <Text>Місто повинно розширити своє [ICON_Citizen] населення, перш ніж будувати кілька районів: [NEWLINE]• 1 [ICON_Citizen] Населення на 1 Район[NEWLINE]• 4 [ICON_Citizen] Населення на 2 Райони[NEWLINE]• 7 [ICON_Citizen] Населення на 3 Райони[NEWLINE]• Кожен додатковий Район вимагає +3 [ICON_Citizen] Населення[NEWLINE]Акведук, квартали та космодроми не враховують вимогу до [ICON_Citizen] населення. Райони, які вимагають певну кількість [ICON_Citizen] населення, є спеціалізованими районами</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_PARA_3">
+      <Text>Коли місто готове щось будувати, на панелі з'являється кнопка Вибрати виробництво. Якщо можна побудувати район, він з'явиться в цьому меню. Клацніть на районі, щоб вказати місту розпочати будівництво, відкриваючи лінзу розміщення району. Тут ви отримаєте огляд різних результатів врожаю, доступних на плитках навколо вашого центру міста, і зможете краще вирішити, де розмістити свій район. Ця лінза також покаже вам, які плитки недоступні, оскільки деякі райони мають дуже конкретні вимоги до розміщення (наприклад, табір не можна будувати поруч з центром міста). Крім того, всі райони повинні бути побудовані в межах 3 плиток від центру міста.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_PARA_4">
+      <Text>Райони можуть бути розміщені на вершині рис, таких як Ліс або Тропічний ліс, якщо у вас є технологія, щоб видалити ці риси, але ця будівництва займе довше часу. Ніякого району не можна будувати на затопленій рівнині.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_TITLE">
+      <Text>Сусідства та привабливість</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_1">
+      <Text>Квартали - це особливий район, який дозволяє місту розмістити більше [ICON_Citizen] населення та залежить від привабливості. Термін "привабливість" використовується для опису особливої форми бонусу суміжності, яка стосується лише кварталів, а також впливає на систему туризму [ICON_Tourism] Здобуття культурної перемоги через національні парки та курорти на березі моря.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_2">
+      <Text>Захоплюючі райони надають 6 [ICON_Housing] житла.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_3">
+      <Text>Чарівні квартали забезпечують 5 [ICON_Housing] житлом.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_4">
+      <Text>Середні райони надають 4 [ICON_Housing] житла.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_5">
+      <Text>Непривабливі райони забезпечують 3 [ICON_Housing] житла.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_6">
+      <Text>Огидні квартали забезпечують 2 [ICON_Housing] Житла.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_7">
+      <Text>Нарешті, апеляційна інстанція також впливає на можливість створення національних парків та курортів на узбережжі.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_8">
+      <Text>Привабливість плитки можна побачити в її підказці та нею впливають наступні фактори:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_9">
+      <Text>+4: якщо плитка знаходиться на горі.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_10">
+      <Text>+2: Кожен прилеглий диво природи</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_11">
+      <Text>Кожен сусідній священний об'єкт, театральний майданчик, розважальний комплекс або диво</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_12">
+      <Text>Кожен сусідній гірський хребет, узбережжя, ліс або оазис</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_13">
+      <Text>+1: Якщо плитка знаходиться на річці або озері</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_14">
+      <Text>Кожен Шато та Сфінкс.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_15">
+      <Text>-1: Кожна прилегла промислова зона, табір, аеропорт або космодром</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_16">
+      <Text>-1: Кожен прилеглий дощовий ліс, болото або затоплена рівнина</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_17">
+      <Text>-1: Кожна прилегла зруйнована плитка</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_18">
+      <Text>-1: Кожна прилегла до шахти, кар'єру, нафтової свердловини, морської нафтової платформи та аеродрому</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_5_CHAPTER_CONTENT_TITLE">
+      <Text>Будівлі</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Після того, як ваш район буде побудований, ви можете почати заселяти його будівлями. Будівлі можна будувати через меню виробництва, так само, як ви будуєте свій район. Деякі будівлі мають передумови, такі як інші будівлі або вимоги до технологій; ці будівлі не будуть видимі в вашому меню виробництва. Ви можете помітити, що у вас є деякі будівлі, які можна будувати, ще до того, як ви розмістите будь-які райони, наприклад, Монумент. Ці будівлі знаходяться в центрі міста.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_6_CHAPTER_CONTENT_TITLE">
+      <Text>Дива</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Дива - це особливий тип будівлі, який заповнює весь шестикут і має значний вплив на геймплей. Коли ви вибираєте одне для будівництва з меню виробництва, ви потрапите в область розміщення, так само, як і при будівництві району. Більшість див мають конкретні вимоги до розміщення, а область виділимої під них зазначить наявні плитки. Усі дива мають бути побудовані в межах 3 плиток від центру міста. Якщо ви завершите будівництво дива в місті, то межі цього міста негайно розширяться на дві плитки.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_6_CHAPTER_CONTENT_PARA_2">
+      <Text>Кожен дивоунікальний. Незважаючи на те, що кілька цивілізацій можуть спробувати побудувати те саме диво, тільки та цивілізація, яка першою завершить будівництво, зможе скористатися його перевагами. Цивілізації, які не встигли завершити будівництво дива вчасно, отримують частину [ICON_Production] Виробництва та деяку кількість [ICON_Gold] Золота у відшкодування.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_6_CHAPTER_CONTENT_PARA_3">
+      <Text>Для отримання додаткової інформації про кожну дивину, перегляньте розділ "Дива та проекти" в Цивілопедії.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_7_CHAPTER_CONTENT_TITLE">
+      <Text>Палац</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_7_CHAPTER_CONTENT_PARA_1">
+      <Text>Палац - це особлива будівля. Це частково будівля, частково диво, Палац автоматично з'являється у першому місті, яке ви будуєте, що робить його [ICON_Capital] столицею вашої імперії. Палац надає невелику кількість [ICON_Production] виробництва, [ICON_Science] науки, [ICON_Gold] золота та [ICON_Culture] культури вашій цивілізації. Якщо вашу [ICON_Capital] столицю захопила інша цивілізація і у вас все ще є інші міста під вашим контролем, Палац автоматично перейде у інше місто, яке стане вашою новою [ICON_Capital] столицею.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_8_CHAPTER_CONTENT_TITLE">
+      <Text>Громадяни</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_8_CHAPTER_CONTENT_PARA_1">
+      <Text>Cities thrive based upon the land around them. Their [ICON_Citizen] Citizens "work" the land, harvesting [ICON_Food] Food, [ICON_Gold] Gold, [ICON_Production] Production, [ICON_Science] Science, and many other yields from the tiles. [ICON_Citizen] Citizens can work tiles that are within three tiles' distance from the city and that are within your civilization's borders. As your city grows, it automatically assigns its [ICON_Citizen] Citizens to work the lands around it. It seeks to provide a balanced amount of [ICON_Food] Food, [ICON_Production] Production, and [ICON_Gold] Gold. You may order a city's [ICON_Citizen] Citizens to work other tiles – for example, if you want a certain city to concentrate on generating [ICON_Gold] Gold, or [ICON_Production] Production, select the Manage Citizens icon in the City Selection Panel to choose specific tiles for your [ICON_Citizen] Citizens to work.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_16_CHAPTER_CONTENT_TITLE">
+      <Text>Щастя</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_16_CHAPTER_CONTENT_PARA_1">
+      <Text>Щастя вимірює задоволеність жителів у одному місті і вимірюється шляхом перевірки, чи має [ICON_Citizen] населення цього міста стільки [ICON_Amenities] зручностей, скільки очікувалося. Для кожних 2 [ICON_Citizen] населення, починаючи з [ICON_Citizen] населення в 3, потрібно 1 [ICON_Amenities] зручність. Задоволене місто не матиме застосованого до нього жодного модифікатора, але щасливе місто матиме збільшення зростання на 10% та збільшення виходів на 5%. Крім того, екстатичне місто матиме збільшення зростання на 20% та збільшення виходів на 10%. Аналогічно, недостатнє число [ICON_Amenities] зручностей створюватиме незадоволення серед ваших [ICON_Citizen] громадян, і зростання та виходи отримають від'ємні модифікатори. На ступені Нестабільності ваше зростання зупиниться, і ви можете знайти повстанські партізани в вашому місті.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_17_CHAPTER_CONTENT_TITLE">
+      <Text>Джерела зручностей</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_17_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Amenities] Зручності можуть бути отримані з різноманітних джерел. Кожен тип розкішного ресурсу може додати до 4 [ICON_Amenities] зручностей в вашу імперію (1 на місто) для 4 міст, які найбільше їх потребують. Розподіл відбувається автоматично, якщо розкішний ресурс покращений (наприклад, розбудовано плантації на прянощах). Арена, побудована в Розважальному комплексі, забезпечує [ICON_Amenities] Зручності місцевому місту. Зоопарк і Стадіон також забезпечують [ICON_Amenities] Зручності, але регіонально. Деякі чудеса також забезпечують [ICON_Amenities] Зручності. Крім того, є кілька релігійних переконань та політик, які забезпечують [ICON_Amenities] Зручності. Деякі [ICON_GreatPerson] Великі Люди також надають [ICON_Amenities] Зручності.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_17_CHAPTER_CONTENT_PARA_2">
+      <Text>Військова втома та банкрутство знизять [ICON_Amenities] комфорт у місті.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_TITLE">
+      <Text>Спеціалісти</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_1">
+      <Text>Спеціалісти - альтернативні завдання для [ICON_Citizen] Громадян, які передбачають роботу з тайлом округи замість звичайного тайлу. Загалом, спеціалісти - це хороший спосіб отримати врожаї, які важко знайти на звичайних тайлах, але місту потрібна міцна база підтримки з [ICON_Food] Їжі, щоб утримувати їх у довгостроковій перспективі. Спеціалісти також особливо корисні, коли місто зростає великим пізніше в грі і має більше [ICON_Citizen] Населення, ніж звичайних тайлів для роботи. Існують різні типи спеціалістів, кожен з різними ефектами. У всіх типів спеціалістів, крім загальних [ICON_Citizen] Громадян, є обмеження на кількість завдань у місті. Це обмеження визначається кількістю будівель у районі, пов'язаних з цим типом спеціаліста. Перевірте сторінку будівлі, щоб побачити, чи додають вони до району додаткові врожаї [ICON_Citizen] Громадян.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_2">
+      <Text>Вчені працюють на кампусі та забезпечують +2 [ICON_Science] науки.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_3">
+      <Text>Священики працюють на Святій Місцевості та забезпечують +2 [ICON_Faith] Віри.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_4">
+      <Text>Командири працюють у таборі та забезпечують +1 [ICON_Production] виробництва та +2 [ICON_Gold] золота.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_5">
+      <Text>Капітани працюють в порту і забезпечують +1 [ICON_Food] одиницю їжі та +2 [ICON_Gold] одиниці золота.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_6">
+      <Text>Купці працюють в Торгівельному центрі та забезпечують +4 [ICON_Gold] Золота.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_7">
+      <Text>Інженери працюють у промисловій зоні та забезпечують додаткові +2 [ICON_Production] продуктивності.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_8">
+      <Text>Митеці працюють в театрі та забезпечують +2 [ICON_Culture] культури.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_WORLD_NAME">
+      <Text>Світ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_1_CHAPTER_CONTENT_TITLE">
+      <Text>Рельєф та Особливості</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_1_CHAPTER_CONTENT_PARA_1">
+      <Text>У Civilization VI світ складається з шестикутних "плиток" (іноді відомих як гекси та простори). Ці плитки мають різноманітні "типи ландшафту" - пустеля, рівнина, луки та інші - і багато з них також містять "елементи", такі як ліси та дощові ліси. Ці елементи допомагають визначити корисність плитки для міста поруч, а також наскільки легко або складно рухатися через плитку. Ландшафт та елементи плитки можуть мати важливі ефекти на будь-яку битву, яка відбувається там.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Кожна плитка в грі належить до континенту. Континенти є географічними межами і не обов'язково пов'язані з сухопуттям - наприклад, карта Pangaea складається з кількох континентів. Ви можете дізнатися про континент плитки за допомогою її підказки або переглянути лінзу континенту.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_TITLE">
+      <Text>Ресурси</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Ресурси є джерелами різних видів виходів ([ICON_Food] Їжа, [ICON_Production] Виробництво тощо), а деякі з них надають інші спеціальні бонуси цивілізації. Вони з'являються на певних шестикутниках. Деякі з них видно на початку гри, тоді як інші потребують володіння певними технологіями, перш ніж ви зможете їх побачити. Щоб використовувати ресурс, він повинен бути в межах вашої цивілізації, і вам потрібно побудувати відповідне "вдосконалення" на цьому шестикутнику. Існує три типи ресурсів: бонусні, розкішні та стратегічні</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Бонусні ресурси можуть збільшити вихід [ICON_Food] їжі, [ICON_Gold] золота або [ICON_Production] виробництва на гексі. Бонусні ресурси не можуть бути передані іншим цивілізаціям. Ці ресурси можуть бути "зібрані" Будівниками, щоб видалити ресурс та забезпечити миттєву, одноразову суму [ICON_Food] їжі або [ICON_Production] виробництва місту, яке володіє гексом.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_3">
+      <Text>Розкішні ресурси підвищують щастя вашої цивілізації, надаючи [ICON_Amenities] Зручностей та надаючи невеликий бонус до виходу врожаю гекса. Тільки один джерело певного розкішного ресурсу забезпечує [ICON_Amenities] Зручності.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_4">
+      <Text>Стратегічні ресурси не завжди видно на початку гри - їх може з'явитися на мапі тільки після отримання знань певної технології. Стратегічні ресурси дозволяють будувати певні одиниці. Коли ви будуєте покращення на стратегічному ресурсі, ви можете будувати одиниці, які вимагають цього ресурсу (наприклад, мушкетери потребують азоту) у будь-якому з ваших міст, що має відповідний район - табір для сухопутних одиниць, гафний порт для морських одиниць або аеродром для повітряних одиниць. Якщо ви побудуєте покращення на двох копіях цього ресурсу, ви зможете будувати або купувати ці одиниці у будь-якому місті, незалежно від того, чи має воно відповідний район, чи ні.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_3_CHAPTER_CONTENT_TITLE">
+      <Text>Природні дива</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Природні дива - це великі та славні створіння природи, які вражають та надихають нас всіх. Серед них Кратернее Озеро та Великий Бар'єрний Риф - всі місця, які справді демонструють велич краси природного світу. Усі природні дива надають унікальних переваг для вашої цивілізації, а деякі навіть мають додаткові особливі ефекти (наприклад, лікування поруч з Мертвим морем повністю відновлюватиме здоров'я одиниці.)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_4_CHAPTER_CONTENT_TITLE">
+      <Text>Річки</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Традиційно міста будувалися вздовж річок, і з поважної причини. Річки забезпечують прісну воду для пиття та зрошення, покращуючи землі навколо міста. Вони також захищають місто, оскільки не дуже просто напасти місто через річку.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Річки блокують Зону Контролю для всіх одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_5_CHAPTER_CONTENT_TITLE">
+      <Text>Племінні села</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Племінні села менш цивілізовані в порівнянні з іншими цивілізаціями, але, тим не менш, дружелюбні. Відвідування племінних сіл надає випадкову користь цивілізації одиниці, яка першою потрапила на їх плиту. Село зникає після того, як їхні подарунки були отримані. Подарунки включають виживших, таких як Будівельники або Торговці, технології або їх покращення, військові одиниці, [ICON_Faith] Віра, [ICON_Gold] Золото, [ICON_GreatWork_Relic] Реліквії або підвищення цивільності.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_TITLE">
+      <Text>Варвари</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Варвари приходять з "аванпостів", які можуть з'являтися випадковим чином на будь-якій плитці, яку не можна побачити одиниця. Кожна одиниця варварів належить до свого власного домашнього аванпосту. Є три типи аванпостів варварів: морські, кінні і ближнього бою. Цивілізація отримає [ICON_Gold] винагороду золота за розгон аванпосту варварів - на додачу до переваги зупинки від нових одиниць варварів.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_PARA_2">
+      <Text>Морські варварські форпости на узбережжі можуть створювати морські одиниці (рівні тим, які можуть бути створені цивілізацією з найбільш передовою технологією). Ці одиниці загрожуватимуть вашому узбережжю, знищують морські поліпшення і атакуватимуть нещасних земних одиниць, які занадто близько підійдуть до узбережжя. Важливо мати флот, щоб утримувати їх від спини, але найкращий спосіб зупинити ці напади - знищити недалеко розташовані прибережні форпости.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_PARA_3">
+      <Text>Поставки кінниці, які з'являються на суходолі та біля ресурсу Кінь, будуть створювати верховіні одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_PARA_4">
+      <Text>Аванпости ближнього бою включають в себе кожний другий випадок появи варварів.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_PARA_5">
+      <Text>Кожна засідка спочатку згенерує Розвідника, щоб шукати цілі. Якщо вас помітить Розвідник Варварів, він повернеться до своєї засідки та почне будувати одиниці для нападу чи рейду. Будьте обережні, оскільки ви будете наступною ціллю. Якщо ви не зрушитесь швидко, скоро побачите групу Варварів на своїх кордонах, готових зруйнувати ваші покращення або завойовувати ваше місто. Саме тому важливо періодично обходити околиці навколо своєї цивілізації і знищувати засідки, поки вони не стануть загрозою.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_7_CHAPTER_CONTENT_TITLE">
+      <Text>Лінзи</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_7_CHAPTER_CONTENT_PARA_1">
+      <Text>Лінзи - це інструмент, який ви можете використовувати, щоб змінити свій погляд на світ. Кожна лінза буде додавати важливу інформацію, яка допоможе вам приймати стратегічні рішення в грі. Деякі лінзи автоматично активуються, наприклад, коли ви вибираєте розташування району зі списку виробництва міста. Інші можна активувати вручну, натиснувши на кнопку Лінзи на міні-карті. Ось лінзи, які ви можете використовувати в грі і що вони роблять:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_7_CHAPTER_CONTENT_PARA_2">
+      <Text>Апеляція. Показує рівень апеляції кожної плитки.[NEWLINE][NEWLINE]Континент. Показує географічний розподіл кожного континенту.[NEWLINE][NEWLINE]Розміщення району. Показує дійсні місця розташування чудес і районів, а також будь-які бонуси суміжності, доступні для районів. Це буде відображатися лише при спробі побудувати район або диво.[NEWLINE][NEWLINE]Уряд. Показує розподіл урядів по всій мапі.[NEWLINE][NEWLINE]Політичний. Показує власника кожної плитки.[NEWLINE][NEWLINE]Релігія. Показує основну релігію та розподіл послідовників релігії по всій мапі. Це з'являється кожного разу, коли вибирається релігійна одиниця.[NEWLINE][NEWLINE]Осадник. Показує рекомендовані місця для міст та наявність води на кожній плитці.[NEWLINE][NEWLINE]Туризм. Показує кількість [ICON_Tourism] туристів, яких приваблює плитка.[NEWLINE][NEWLINE]Імперія. Показує кордони вашого міста та розташування районів з бонусами суміжності.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_COMBAT_NAME">
+      <Text>Бій</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Combat occurs between two political entities that are at war with each other. A civilization may be at war with another civilization or with a city-state. Barbarians are always at war with all civilizations and city-states.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_2_CHAPTER_CONTENT_TITLE">
+      <Text>Оголошення війни</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Є кілька способів оголосити війну. Перший полягає в тому, що ви переміщуєте військову одиницю, якою керуєте, в одиницю іншої цивілізації. Це спричинить виникнення спливаючого повідомлення, яке запитує, чи хочете ви розпочати війну. Альтернативно, війну можна оголосити у вікні дипломатії. У цьому вікні ви завжди матимете можливість зробити несподіваний оголошення війни, за винятком відносин з ваших союзників. Ваша цивілізація зазнає втрат через воєнні дії, якщо ви зробите несподіване оголошення війни. Щоб уникнути окремих штрафів, відмовтеся від співпраці з обраною цивілізацією, і незабаром у вікні дипломатії з'явиться можливість формально оголосити війну.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_TITLE">
+      <Text>Військове виснаження</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Мати націю, яка постійно перебуває війні, зменшує продуктивність та щастя вашого народу. Військове виснаження зростає з кожною битвою. Ця накопичення стає гіршою, коли ці битви відбуваються на іноземній території, або коли ваші військові підрозділи загинули. Воно ще гірше, якщо ці підрозділи були знищені ядерною зброєю, проте запуск ядерної зброї самостійно є найбільшим джерелом військового виснаження. Все військове виснаження, яке ви накопичуєте, збільшується в залежності від епохи, і якщо ви оголосили війну без використання Casus Belli.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Військове виснаження застосовується до кожного міста, що ви володієте, як негативний бонус [ICON_Amenities], знижуючи зростання та продуктивність вашого міста. Мати низький бонус [ICON_Amenities] протягом занадто довгого часу може призвести до з'явлення повстанських партізан у ваших містах. Ці ворожі одиниці будуть нападати на ваші одиниці та розграбовувати ваші плитки та райони.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_PARA_3">
+      <Text>Поки ви перебуваєте у війні, втома від неї буде повільно зменшуватися, але вона зменшується з значно швидшою швидкістю, коли ви не перебуваєте у війні з жодним гравцем.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_TITLE">
+      <Text>Загострення війни</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_PARA_1">
+      <Text>Розпал війни - це не просто дипломатичне наслідок; це може бути станом розуму, який вважається найбільш шанованим з певної точки зору. Вважається, що солдат у ранні дні завоювань Наполеона вважав бесперервне розпалювання війн його генералів та імператора праведною справою! Однак є карні санкції за запуск необгрунтованої, або війни без належного підстави (Casus Belli).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_PARA_2">
+      <Text>Гравець, який розпочинає не-Casus Belli війну (див. розділ про Casus Belli у дипломатії), починає накопичувати дипломатичні пенальті за військові дії від інших цивілізацій, які він зустрів на своєму шляху, на додачу до всіх уже пережитих пенальтів від військової втоми. Запуск сюрпризової війни, захоплення міст інших цивілізацій, руйнування захоплених міст і використання ядерних пристроїв підвищує дипломатичний пенальті в залежності від ери, в якій перебуває гравець</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_PARA_3">
+      <Text>Інший підхід полягає у тому, щоб спочатку засудити протилежну цивілізацію, а потім офіційно оголосити війну. При такому підході до війни штрафи за війнування НЕ збільшуються, і є можливість використовувати Casus Belli, щоб зменшити ці штрафи. Однак, тому що ви повинні спочатку засудити свого опонента, такий план "телеграфується" цілі, і ви не матимете переваги несподіванки.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_4_CHAPTER_CONTENT_TITLE">
+      <Text>Закінчення війни</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Війни можуть закінчуватися насильницьки або мирним шляхом. Насильницьке закінчення війни настає, коли одна сторона знищена. Це трапляється, коли ця сторона втратила своє останнє місто. Мирне врегулювання війни передбачає дипломатичні переговори. Ви або ваш опонент можете ініціювати Угоду про мир. Дивіться розділ про Дипломатію для подальших деталей.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Варвари ніколи не йдуть на переговори. Війна з варварами триватиме, доки варвари не будуть знищені.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_TITLE">
+      <Text>Статистика бойових одиниць</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_1">
+      <Text>У грі Civilization VI військові одиниці мають п'ять статистичних показників, спрямованих на бойові дії: кількість очок здоров'я, [ICON_Strength] бойова сила, [ICON_Ranged] дальній бій, [ICON_Bombard] артилерійська сила і [ICON_Range] дальність атаки.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Усі одиниці мають 100 очок здоров'я. Коли одиниця отримує ушкодження, вона втрачає очки здоров'я. Одиниця знищується, якщо вона втрачає всі свої очки здоров'я.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_3">
+      <Text>Всі військові частини мають [ICON_Strength] Бойову силу. Ближні бійці використовують свою [ICON_Strength] Бойову силу при нападі чи захисті. Дальнобійні військові використовують свою [ICON_Strength] Бойову силу під час захисту.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_4">
+      <Text>Будь-яка одиниця, яка може брати участь у дальньому бою, має статистику [ICON_Ranged] Дальньої сили. Це число порівнюється зі статистикою [ICON_Strength] Бойової сили цілі, щоб визначити результати атаки. Сухопутні одиниці зі статистикою [ICON_Ranged] Дальньої сили також можуть атакувати оборону округів, але з меншою ефективністю.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_5">
+      <Text>[ICON_Bombard] Сила обстрілу є анти-силою району для одиниці. Одиниці з [ICON_Bombard] силою обстрілу також можуть атакувати одиниці, але зменшеною ефективністю. Наземні одиниці не можуть мати одночасно [ICON_Bombard] Силу обстрілу та [ICON_Ranged] Дальнобійну силу, але морські одиниці в основному функціонують як [ICON_Bombard] Силові обстрілу та [ICON_Ranged] Дальнобійні одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_6">
+      <Text>Статистика [ICON_Range] Дальність одиниці визначає відстань, на яку вона може запустити дальній атаку. Дальність [ICON_Range] "2" означає, що ціль може бути на сусідній плитці або на відстані в одну плитку. Дальність [ICON_Range] "1" означає, що ціль повинна бути поруч з атакуючим.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_7">
+      <Text>Деякі одиниці мають [ICON_AntiAir_Large] значення бойової міці проти повітряних цілей. Ці одиниці автоматично захищаються від повітряних атак у межах їх зони протиповітряної оборони. [ICON_AntiAir_Large] міць протиповітряної оборони використовується для оцінки бойового зіткнення з нападаючим повітряним об'єктом.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_6_CHAPTER_CONTENT_TITLE">
+      <Text>Лінія огляду</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Загалом, не повинно бути жодних перешкод, таких як гора, між дальнобойною одиницею та її ціллю. Одиниці на пагорбах або літаючі часто можуть побачити через перешкоди на землі.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_TITLE">
+      <Text>Бонуси бойових дій</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_1">
+      <Text>Війна не практикується лише досвідченими та добре підготовленими. Військова історія неодноразово показала, що бійці, використовуючи перевагу у тактиці, лідерстві та терені, можуть перемогти чисельно сильніші та краще екіпіровані сили. У Civilization VI все те ж саме.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_2">
+      <Text>Об'єднавши свою військову потугу з вірною організацією об'єднаних збройних сил, лідерством і інтуїтивним використанням території, ви можете мати силу знищувати армії своїх ворогів, незалежно від того, які вони великі або малі, просунуті або ні. Використовуючи територію на свою користь, ви можете розмістити свої сили на пагорбах, в дощових лісах або лісах та через ріки від вашого ворога, щоб забезпечити визначену оборонну перевагу. Дивлячись на рухи ворогів по території, коли вони наближаються до вас, ви також можете краще зрозуміти їх бойовий план або де вони планують ударити.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_3">
+      <Text>Терен також може негативно впливати на вашу боротьбу; переконайтеся, що уникаєте боїв на Повеневих Рівнинах та Болотах, оскільки вони мають негативний вплив на вашу обороноздатність. Якщо ви потрапили на незахищений терен і не вірите, що зможете перемогти свого ворога нападом, можливо, побудування кількох фортець допоможе вам відігнати ворога. Пам'ятайте, що атака ворожих флангів - це їх найслабша точка і також дасте вам перевагу! Використання добре збалансованої військової сили з правильними тактичними розташуваннями на терені та використання великого генерала гарантуватиме перемогу!</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_4">
+      <Text>Бонуси за обхід та підтримку: Обхід ворога та підтримка одиниць на полі бою є важливими для забезпечення перемоги. У цивілізації VI ми симулюємо це за допомогою бонусів за обхід та підтримку. Якщо гравець завершив громадянську традицію "Військова", його військо вважається достатньо розвиненим, щоб скористатися цими бонусами. [NEWLINE][NEWLINE] Обхід: Якщо ворожа бойова одиниця оточена 2 або більше прилеглими дружніми бойовими одиницями під час атаки, вона вважається обхідною і надає бонус до бойової сили +2 бойовим одиницям, що оточують її. [NEWLINE][NEWLINE] Підтримка: Захищаючись від ворожої бойової атаки, захисна одиниця може отримати бонус до бойової сили +2 за кожну прилеглу дружню одиницю.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_8_CHAPTER_CONTENT_TITLE">
+      <Text>Досвід та Промоції</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_8_CHAPTER_CONTENT_PARA_1">
+      <Text>Одиниця, яка переживає бій або виявляє Племінне Село, отримує "Бали Досвіду" (XP). Як тільки одиниця досягає певної кількості XP, вона "піднімається на рівень", після чого вона може отримати просування. Продвиження покращують одиницю якось. При виборі просування, одиницю виліковують за кількістю очок здоров'я. Одиниця не буде продовжувати отримувати будь-який інший XP, поки просування не буде вибрано.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_CHAPTER_CONTENT_TITLE">
+      <Text>Міський бій</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_CHAPTER_CONTENT_PARA_1">
+      <Text>Міста можуть бути атаковані та захоплені військовими підрозділами. Кожне місто має показник "Сила бою міста", який визначає його силу при атаках інших підрозділів. Чим вищий показник Сили бою міста, тим важче захопити місто. Якщо місто не є дуже слабким або атакуючий підрозділ не є дуже сильним, то на захоплення міста потрібно декілька ходів</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_CHAPTER_CONTENT_PARA_2">
+      <Text>Sorry, something went wrong.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_CHAPTER_CONTENT_PARA_3">
+      <Text>Міста також можуть бути під облогою нападаючих військ. Центр міста та інші оборонні райони, такі як табір, вважаються під облогою, якщо всі 6 плиток, що оточують їх, зайняті ворожими військами, перебувають під ворожим контролем або є непрохідними через гори або природні дива. У таких обставинах район не буде відновлювати втрачене здоров'я, замість того, щоб автоматично лікуватися кожен хід як зазвичай.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_10_CHAPTER_CONTENT_TITLE">
+      <Text>Завоювання міста</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_10_CHAPTER_CONTENT_PARA_1">
+      <Text>Коли ваша військова одиниця входить у вороже місто, у вас є два варіанти: ви можете знищити місто (якщо воно не є [ICON_Capital] столицею), або ви можете анексувати його і зробити частиною своєї імперії. Якщо це місто колись належало до іншої цивілізації, ви також можете вирішити звільнити його своєму первісному власнику.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_12_CHAPTER_CONTENT_TITLE">
+      <Text>Формації</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_12_CHAPTER_CONTENT_PARA_1">
+      <Text>Формації дозволяють легко переміщувати військові підрозділи разом. Це може бути корисним для охорони цивільних підрозділів ворожих земель, або навіть для створення більш міцних підрозділів у Корпусі та Армії. Військовий підрозділ може створювати формацію зі супровідним або цивільним підрозділом в будь-який момент. Морські військові підрозділи також можуть створювати формацію з на борту знаходячимися сухопутними підрозділами. Супровідні підрозділи, такі як осадні підрозділи, найбільш ефективні в бою, коли пов'язані з іншим військовим підрозділом.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_12_CHAPTER_CONTENT_PARA_2">
+      <Text>Починаючи з епохи Індустрії після завершення громадянської пробудження націоналізму, гравці зможуть розблокувати можливість об'єднання кількох військових одиниць одного типу в одну сильнішу одиницю. Дві військові одиниці одного типу зможуть об'єднатися, щоб створити Корпус, надаючи їм +10 до їх базової [ICON_Strength] Сили бойових дій. Після дослідження Мобілізації, три одиниці одного типу можуть бути поєднані в Армію, надаючи +7 до їх базової [ICON_Strength] Сили бойових дій. Майте на увазі, що їх HP НЕ збільшуються, коли одиниці об'єднуються таким чином.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_12_CHAPTER_CONTENT_PARA_3">
+      <Text>Коли сформовано Корпус або Армію, їх одиниці не можуть бути розібрані на окремі одиниці знову. Досвід та просування найбільш досвідченої одиниці зберігаються при створенні цього типу формації, тому корисно об'єднувати новачків з більш досвідченими одиницями. Морські одиниці також можуть бути об'єднані во Флоти та Армади.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_13_CHAPTER_CONTENT_TITLE">
+      <Text>Розбійництво</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_13_CHAPTER_CONTENT_PARA_1">
+      <Text>Як покращення, так і будівлі в районах без гарнізонів можуть бути розграбовані. Ця дія робить їх непридатними для використання і дарує розграбувальній одиниці якусь форму "здобичі". За винятком вилікування, ці нагороди за здобичі збільшуються за мірою того, як ви просуваєтесь у грі.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_13_CHAPTER_CONTENT_PARA_2">
+      <Text>Розграбування району потребує 3 балів руху або всієї вашої рухливості. Кожну будівлю у районі потрібно розграбувати окремо, і вона дає певний здобуток, залежно від району. Для отримання конкретних результатів перейдіть на сторінку району. Після розграбування будівлі її не можна розграбувати знову, доки її власник не відновить її роботу (це можна зробити через меню «Виробництво», і це коштує 25% вартості виробництва [ICON_Production] будівництва цієї будівлі)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_13_CHAPTER_CONTENT_PARA_3">
+      <Text>Розграбування покращення забере 3 бали руху або всі ваші очки руху (якщо у вас [ICON_Movement] менше 3). Це позначить покращення на плитці як "розграбоване". Після розграбування покращення не можна розграбувати знову, поки його власник не відновить його роботу (операція Будівельника, яка завжди займає один хід, але не потребує заряду Будівельника). Зверніться до сторінки покращення для отримання конкретних виходів.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_MOVEMENT_NAME">
+      <Text>Пересування військових підрозділів</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_1_CHAPTER_CONTENT_TITLE">
+      <Text>Бали руху</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Усі мобільні одиниці мають певну кількість [ICON_Movement] балів руху, які вони можуть використовувати на [ICON_Movement] рух щоразу. Як тільки вони витратять ці [ICON_Movement] бали, вони не зможуть рухатися до наступного ходу. Одиниці витрачають [ICON_Movement] бали руху, щоб зайти на плитки, нападати на інші одиниці або грабувати поліпшення чи райони. Вартість руху одиниці залежить від типу терену на плитці, на яку вона входить.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_2_CHAPTER_CONTENT_TITLE">
+      <Text>Дороги</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Roads are an important part of moving around the world. Placed by Trader units beginning in the Ancient Era, roads begin by reducing the [ICON_Movement] Movement cost of a tile to 1 when moving from one road tile to another. As technology progresses, you will unlock the ability to build better and better roads, and even bridges. Modern roads, for example, reduce [ICON_Movement] Movement to a half [ICON_Movement] Movement point per tile, when moving from one road tile to another. All roads allow units to ignore terrain-based movement penalties.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Дороги ставлять Торговці, але також можуть бути встановлені вручну військовими інженерами.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_3_CHAPTER_CONTENT_TITLE">
+      <Text>Зона контролю</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Багато бойових підрозділів впливають на блокування зони (ZOC) на тайли поруч з ними. Бойові підрозділи, які потрапляють у зону впливу ворога, повинні зупинятися, незалежно від кількості залишкового [ICON_Movement] Руху. Підрозділи, які були зупинені зонами впливу ворога, можуть нападати, якщо вони мають достатній [ICON_Movement] Рух для цього. [NEWLINE][NEWLINE] Одиниці дальнього бою та бомбардувального класу не впливають на блокування зони. Військові одиниці кінноти та класу морських рейдерів мають здатність ігнорувати зони впливу ворога. [NEWLINE][NEWLINE] Релігійні одиниці впливають на блокування зони проти інших релігійних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Річки блокують Зону Контролю для всіх військових одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_4_CHAPTER_CONTENT_TITLE">
+      <Text>Морський рух</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Зазвичай, морські підрозділи дотримуються тих самих правил, що і сухопутні, окрім того, що вони рухаються в воді, а не на суші. Ранні морські підрозділи часто обмежені прибережними водами (те, що прилегає до суші), а також прибережними містами. З часом ви вироблятимете морські підрозділи, які можуть входити на глибоководні тайли, і таким чином досліджувати світ.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_5_CHAPTER_CONTENT_TITLE">
+      <Text>Виходячи на пост</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_5_CHAPTER_CONTENT_PARA_1">
+      <Text>На початку гри ваші сухопутні одиниці не можуть входити на водні плити. Але як тільки ви вивчите технологію "Плавання", будівники зможуть пересуватися на прибережних водяних плитах. Після "Астрономії" торговці зможуть перевозитися на воді. А після "Кораблебудування" всі одиниці зможуть перевозитися на воді. Щоб перевезти одиницю, перемістіть її на прибережну клітину, а потім клацніть на дію "Переміститися". Як тільки вона потрапить на воду, її необхідно рухатися тільки по воді.[NEWLINE] Сухопутні одиниці, які перевозяться на воді, вважаються транспортними кораблями і не мають такої ж бойової здатності, як на суходолі. Перевезені сухопутні одиниці також мають знижену бойову силу і можуть лікуватися тільки в дружніх водах, що робить їх значно більш вразливими до атак від ворожих морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_SCIENCE_NAME">
+      <Text>Наука та технології</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Кожна технологія, яку ви здобуваєте, дає вашій цивілізації доступ до деяких передових одиниць, будівель, ресурсів, чудес чи надає іншу конкретну перевагу, таку як можливість класти дерева чи збирати врожай з кіз. Кожна нова технологія робить вашу цивілізацію ще потужнішою. Кожен хід ваша цивілізація отримує додані до свого запасу [ICON_Science] науки, і коли ви накопичите достатньо [ICON_Science] науки, ви здобуєте нову технологію.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_2_CHAPTER_CONTENT_TITLE">
+      <Text>Наука заробітку</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Science] Наука походить з різних джерел, включаючи вашіх [ICON_Citizen] Громадян (0,7 на кожного [ICON_Citizen]), ваш Палац, деякі політики, деякі релігійні вірування, деякі ресурси, дива, торгівлю та, звичайно ж, район Кампусу та його будівлі. Перегляньте Цивілопедію, щоб знайти джерела [ICON_Science] Науки.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_3_CHAPTER_CONTENT_TITLE">
+      <Text>Моменти Евреки</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Моменти Евреки, також відомі як "технологічні турбо", надають негайний і значний поштовх у напрямку дослідження технології. Ці турбо можна заробити, граючи в гру природним чином, і ваші дії визначать, які саме моменти Евреки ви зустрінете. Наприклад, заселення міста на узбережжі підвищить ваш прогрес у напрямку "Мореплавства", а створення пасовиська підвищить ваш прогрес у напрямку "Кіннотопіння". В дереві технологій перелічені турбо, пов'язані з кожною технологією, але ви можете отримати їх з інших джерел (наприклад, Великих Людей, дослідницьких угод або спільних досліджень команди).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_4_CHAPTER_CONTENT_TITLE">
+      <Text>Дерево технологій</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Щоб побачити, як все це працює в грі, перейдіть до дивовижного дерева технологій. Воно відображає всі технології та показує, як вони переплітаються. Ви можете натиснути на технологію, щоб наказати своїй цивілізації досліджувати її - якщо ваша цивілізація не знає передумовних технологій, вона також їх досліджуватиме. Дерево технологій побудує найшвидший шлях до запитаної технології, і ви будете досліджувати необхідні попередники у порядку, який воно відображає</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_CULTURE_NAME">
+      <Text>Культура та громадянство</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_1_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Culture] Культура - це шлях, яким ви рухаєтесь через Дерево цивільних наук, розблоковуючи нові політики та уряди. Також це те, як ви збільшуєте території своїх міст. Найголовніше, [ICON_Culture] культура може бути ще одним шляхом до перемоги. Кожен цивільний закон, який ви отримуєте, дає вашій цивілізації доступ до політик або урядів, а також деяких будівель, районів та дипломатичних досягнень. Ви отримуєте цивільні закони, накопичуючи [ICON_Culture] культуру. Кожен хід ваша цивілізація отримує певну кількість доданої до свого пулу [ICON_Culture] культури. Кожен цивільний закон коштує певну кількість [ICON_Culture] культури для вивчення; коли ви накопичили достатньо [ICON_Culture] культури, ви отримуєте цивільний закон. Коли ви отримуєте новий цивільний закон, ваш пул зменшується, і ви починаєте накопичувати все заново, зберігаючи кошти на наступний цивільний закон.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_2_CHAPTER_CONTENT_TITLE">
+      <Text>Культура заробітку</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Culture] Культуру можна здобути завдяки чудесам, політикам, властивостям лідера, природним дивам, містам-державам, Віруванням, [ICON_TradeRoute] Торговельним маршрутам та, звичайно, району Театральної площі. Перегляньте Цивілопедію, щоб знайти джерела [ICON_Culture] Культури.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_3_CHAPTER_CONTENT_TITLE">
+      <Text>Моменти натхнення</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Моменти натхнення, також відомі як "громадянські посилення", забезпечують негайне і значне підсилення для вашого вивчення громадянства. Ці посилення будуть зароблятися, коли ви гратимете у гру природним чином, і ваші дії визначатимуть, які моменти натхнення ви зустрінете. Наприклад, будівництво дива сприяє вашому прогресу в напрямку драми та поезії, а будівництво будь-якого району підсилює ваш прогрес в напрямку державних робітників. Дерево громадянства перелічує посилення, пов'язані з кожним громадянським, але ви можете отримати їх з інших джерел (таких як Великі Люди або колективні дослідження).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_4_CHAPTER_CONTENT_TITLE">
+      <Text>Дерево Громадянства</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Щоб побачити, як все це працює у грі, перегляньте захопливу Дерево Громадянства. Воно відображає всі громадянства та показує, як вони пов'язані між собою. Ви можете натиснути на громадянство, щоб наказати вашій цивілізації вивчати його - якщо ваша цивілізація не знає вимогового громадянства, то вона також буде досліджувати їх. Дерево Громадянства побудує найшвидший маршрут до запитаного громадянства, і ви будете вивчати необхідні попередні громадянства в тому порядку, як відображено</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_5_CHAPTER_CONTENT_TITLE">
+      <Text>Культурні бомби</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_5_CHAPTER_CONTENT_PARA_1">
+      <Text>"Культурна бомба" - це дія, яка дозволяє вам захопити сусідні плитки та додати їх до вашої власної імперії, навіть якщо вони належать іншому гравцю. Плитки, що були отримані таким чином, повинні знаходитися в межах 3 просторів від міста, що розширюється. Плитки, на яких вже знаходиться закінчений район або диво, не переходять у власність після "Культурної бомби". Плитки з незавершеними районами чи дивами переходять у власність, але частково побудований зміст цих плиток буде знищено.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Культурні бомби часто обмежуються унікальними можливостями цивілізацій, таких як Австралія або Польща. Зверніться до цих записів для отримання більш детальної інформації про те, як викликати культурні бомби.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_GOLD_NAME">
+      <Text>Золото та економіка</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_1_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Gold] Золото - кровообіг цивілізації. Можливо, правда, що "гроші не можуть купити тобі любов", але вони можуть придбати підводний човен, озброєний ядерними ракетами, і це непогано.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_2_CHAPTER_CONTENT_TITLE">
+      <Text>Отримання золота</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Gold] Золото походить з різних джерел. Ви отримуєте [ICON_Gold] Золото працюючи з плитами навколо своїх міст, але також є інші джерела: місцевість та покращення, торгові пости, райони та будівлі, [ICON_TradeRoute] Торговельні маршрути, вишини варварів, племінні села, міста-держави, розграбування ворожих покращень, захоплення міст і дипломатія з іншими цивілізаціями.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_3_CHAPTER_CONTENT_TITLE">
+      <Text>Витрачання золота</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Часто ви будете витрачати [ICON_Gold] Золото. Одиниці, ядерні бомби, райони та будівлі мають витрати на утримання, що потрібно сплатити щоразу на ході. Ви також можете розширювати територію своєї цивілізації, купуючи окремі тайли, або використовувати [ICON_Gold] Золото для купівлі одиниць та будівель. Оновлення застарілих одиниць також потребує [ICON_Gold] Золота. [ICON_Gold] Золото також можна обмінювати з іншими цивілізаціями під час дипломатії.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_4_CHAPTER_CONTENT_TITLE">
+      <Text>Банкрутство</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Якщо ваш скарбниця порожня і ваш бюджет від'ємний, то ви будете отримувати штраф -1 до вашого [ICON_Amenities] Комфорту за кожні 10 [ICON_Gold] Золота, на яке ви впадете нижче 0. Крім того, при досягненні -10 [ICON_Gold] Золота, ви автоматично розформовуєте один загін, а при досягненні -20 [ICON_Gold] Золота - два загони та так далі.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_FAITH_NAME">
+      <Text>Віра та релігія</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Ваші вибори релігії надзвичайно важливі та можуть змінювати хід гри. З Релігійною перемогою та Богословським боєм у вас є нові та захоплюючі інструменти, які дозволяють поширювати свої вірування в інших містах та цивілізаціях.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_2_CHAPTER_CONTENT_TITLE">
+      <Text>Заробіток віри</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Faith] Віра є валютою Релігії і може бути заробленою з див, політик, здібностей лідера, природних див, міст-держав, Вірувань, [ICON_TradeRoute] Торговельних Маршрутів, і звичайно ж, округи Святого Місця та її будівель. Огляньте Цивілопедію, щоб знайти джерела [ICON_Faith] Віри.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_3_CHAPTER_CONTENT_TITLE">
+      <Text>Пантеони</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Коли ви зберете достатньо [ICON_Faith] Віри, ви отримаєте запит на створення Пантеону, передвісників повноцінних Релігій, які можна буде створити пізніше. Вибір Пантеону залежить від ваших короткострокових та довгострокових цілей для вашої цивілізації. Отримавши Пантеон, ви дійшли значного прогресу у створенні своєї Релігії. На відміну від повноцінної Релігії, Пантеон, який ви виберете, буде унікальним для вашої цивілізації та не може поширюватись за межі ваших кордонів або бути заміщеним</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_TITLE">
+      <Text>Великі пророки</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Ви можете заснувати свою релігію, якщо заробите (або придбаєте) [ICON_GreatProphet] Великого пророка. Релігійні будівлі накопичуватимуть очки [ICON_GreatProphet], необхідні для залучення цього спеціального підрозділу до вашої цивілізації. Після отримання [ICON_GreatProphet] Великого пророка відправте його до свого Святого місця, а потім заснуйте свою релігію. [ICON_GreatProphet] Великі пророки також можуть бути зароблені від Стоунхенджу.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_TITLE">
+      <Text>Заснування вашої релігії</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Після створення своєї релігії вам буде запропоновано вибрати назву та піктограму, які будуть представляти ваші переконання. Ви можете обрати історичну релігію або створити свою власну! Новостворена релігія складатиметься з двох вірувань: вірування послідовника та одного з трьох додаткових типів вірувань, які можуть бути настроєні під ваш стиль гри. Як тільки ваша релігія буде заснована, всі ваші міста зі святинями автоматично перейдуть на неї.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Тоді ви можете використовувати дію 'Інколикувати віру' з апостолами, щоб додати додаткові вірування до вашої релігії. У релігії може бути загалом 4 вірування.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_PARA_3">
+      <Text>Переконання прихильників надають певний вид виходу або іншу внутрішню бонус. Це стосується всіх міст і цивілізацій, які слідують за цією релігією.[NEWLINE][NEWLINE]Переконання засновника забезпечують бонус, який залежить від кількості послідовників цієї релігії. Послідовники - це громадяни, які слідують цій релігії в усіх містах, незалежно від того, чи є ця релігія переважною в місті. Цей бонус застосовується лише до цивілізації, яка заснувала цю релігію.[NEWLINE][NEWLINE]Переконання поклоніння надають унікальний тип будівлі, яку можна побудувати в Священних місцях або купити там за допомогою [ICON_Faith] Віри. Кожна будівля Поклону має різні переваги.[NEWLINE][NEWLINE]Переконання покращувача допомагають поширювати релігію, зробивши її природний релігійний тиск сильнішим або зробивши Місіонерів та Апостолів дешевшими.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_TITLE">
+      <Text>Релігійні одиниці та тиск</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Існує чотири типи Релігійних одиниць: Місіонери, Апостоли, Гуру та Інквізитори. Релігійні одиниці можна купувати у вашому місті за допомогою [ICON_Faith] Віри та приймати більшість Релігії міста, у якому вони будуються. Основна мета Релігійних одиниць полягає в тому, щоб поширювати свою Релігію в інші міста. Для цього перемістіть одиницю поруч із центром міста, або всередину його, якщо місто належить вам, та використайте дію "Поширення Релігії". Це перетворить деяких громадян цього міста на прихильників вашої Релігії. [NEWLINE] [NEWLINE] Якщо більше половини громадян міста є прихильниками певної Релігії, і ця Релігія має більшість прихильників у цьому місті, то ця Релігія стане переважною в цьому місті. Міста з переважною Релігією будуть накладати релігійний тиск на інші міста у межах 10 клітинок, повільно перетворюючи громадян тих міст на прихильників цієї Релігії.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_2">
+      <Text>Місіонерів можна придбати за [ICON_Faith] Віру в будь-якому місті зі святинею та головною релігією, і вони мають здатність поширювати вашу релігію на будь-який центр міста в сусідньому шестиграннику.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_3">
+      <Text>Апостоли можуть бути придбані за допомогою [ICON_Faith] Віри в будь-якому місті з Храмом та домінуючою Релігією та вони сильніші за Місіонерів. Апостоли отримують можливість вибрати унікальне підвищення, коли вони створюються, що робить їх більш унікальними, такими як більше зарядів або видалення інших релігій з міста. [NEWLINE] [NEWLINE] У Апостолів є кілька унікальних дій, доступних, крім поширення своєї Релігії. Вони можуть Евангелізувати Віру, додавши додаткові вірування до вашої Релігії, або Запустити Інквізицію, надавши можливість купувати Інквізиторів. Крім того, Апостоли можуть розпочати богословську боротьбу проти інших Релігійних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_4">
+      <Text>Інквізитори - це спеціальні одиниці, які потрібно розблокувати за допомогою дії "Запустити інквізицію" на апостола. Ви повинні використовувати цю дію лише один раз; як тільки ви запустите інквізицію, вона ніколи не закінчиться! Потім ви можете купити інквізиторів за [ICON_Faith] віру в містах, які слідують релігією апостола, який запустив інквізицію. Інквізитори не дуже добрі у поширенні Релігії, але замість цього вони видаляють усі інші Релігії з міста, яке належить користувачеві. Вони також можуть займатися богословським боєм проти інших релігійних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_5">
+      <Text>Ґуру служить релігійним підтримуючим військовими одиницями, надаючи лікування релігійним одиницям поблизу. Коли він витрачає заряд лікування, Гуру лікує себе і всі сусідні одиниці тієї ж релігії.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_6">
+      <Text>Релігія також може поширюватися через [ICON_TradeRoute] торговельні маршрути. Кожного разу, коли між двома містами створюється [ICON_TradeRoute] торговельний маршрут, між цими містами відбувається обмін релігією. Місто-відправник має більший вихідний релігійний тиск, проте є також тиск, який повертається від міста-отримувача. Ця інформація з'являтиметься у меню з [ICON_TradeRoute] виручкою торговельного маршруту під час вибору місця, куди відправити Торгівця</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_TITLE">
+      <Text>Богословський бій</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_PARA_1">
+      <Text>Теологічний бій - це найкращий спосіб захиститися від інших Релігій, які намагаються поширюватися по карті. Тільки Апостоли та Інквізитори можуть ініціювати теологічний бій, і тільки проти інших релігійних одиниць. Вам не потрібно перебувати у війні з іншою цивілізацією, щоб зайнятися теологічним боєм. Це само по собі не спровокує війну, хоча це може призвести до негативних дипломатичних наслідків внаслідок зниження релігійного тиску. Релігійні одиниці використовують зону контролю проти інших релігійних одиниць, обмежуючи їх рух, коли вони близько.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_PARA_2">
+      <Text>Богословський бій працює так само, як бій з військовими підрозділами: атакуйте один релігійний підрозділ іншим. Вони завдаватимуть один одному шкоду, залежно від їх потужності. Релігійні підрозділи можуть отримувати бонуси до своєї потужності у богословському бою від рекламних акцій, політик, бонусів флангування та підтримки від інших підрозділів, уряду Теократії, якщо вони знаходяться на або поруч із святинею своєї релігії, якщо вони знаходяться на території міста, яке слідує їх релігією, або величезний бонус, якщо вони знаходяться на території святого міста своєї релігії</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_PARA_3">
+      <Text>Пошкоджена Релігійна одиниця отримує штраф до сили дії Поширення Релігії, що означає, що вона буде конвертувати менше Послідовників. Якщо Релігійна одиниця зменшується до 0 очок здоров'я від богословської битви, вона помере. Коли Релігійна одиниця була переможена цим способом, всі міста в радіусі 10 клітин матимуть зниження релігійного тиску Релігії померлої одиниці на силу Апостола з повним здоров'ям, а потім збільшення Релігії переможеної одиниці на ту саму кількість. Якщо Релігійну одиницю вбиває ворожа військова одиниця, то релігійний тиск буде падати в містах на відстані 6 клітин, а падіння релігійного тиску буде зменшено наполовину.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_PARA_4">
+      <Text>Релігійні одиниці можуть вилікувати будь-які пошкодження, перебуваючи поруч зі святинею на території гравця, незалежно від релігії цієї святині. Релігійні одиниці виліковують пошкодження відповідно до 3 разів вихідного вірування тієї святині. Деякі покращення також можуть слугувати альтернативним джерелом вилікування для релігійних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_PARA_5">
+      <Text>Релігійні одиниці також піддаються атакам військових одиниць. Засудження єретика - це дія, яку військові одиниці можуть виконати проти релігійних одиниць на тому ж полі, і працює так само, як і розкрадання Торгового маршруту.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_DIPLO_NAME">
+      <Text>Дипломатія</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Ви можете досягти багато через дипломатію. Ви можете здобути союзників та ізолювати ворогів. Ви можете створювати оборонні та наступальні пакти. Ви можете підвищувати свої технології за допомогою спільних наукових досліджень. Ви можете припинити війни, що йдуть вам погано. Ви можете бути обманливим з наївних та налякати трусливих</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_2_CHAPTER_CONTENT_TITLE">
+      <Text>Diplomacy with Civilizations</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Щоб розпочати дипломатію, клацніть на лідера, з яким хочете зв'язатися, в верхній правій частині екрана. З'явиться панель дипломатії, показуючи всі відомі цивілізації. Клацніть на будь-якого лідера, щоб поговорити з ними. Альтернативно, ви можете клацнути на банер міста цивілізації, щоб відкрити з ними зв'язок</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Коли ви взаємодієте з цивілізаціями дипломатично, будуть доступні різні варіанти, залежно від вашого поточного відношення. Цей екран також надасть важливу інформацію про ваші взаємини, а також останні чутки про те, що робив той лідер.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_2_CHAPTER_CONTENT_PARA_3">
+      <Text>Ви можете обрати заявити про війну або відмовитися від лідера. Ви також можете переговорити про торговельну угоду або вимагати речі від іншої цивілізації. Ви також можете запропонувати дружбу, оборонний договір і відправити делегації.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_12_CHAPTER_CONTENT_TITLE">
+      <Text>Дипломатичні відносини</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_12_CHAPTER_CONTENT_PARA_1">
+      <Text>Кожен інший лідер гри має думку про вас. Його думка може бути позитивною або негативною, вона постійно змінюється з подіями у грі. Ви можете дізнатися про ваші відносини з іншим лідером за значком на їх портреті, або обравши "Наші відносини" з та панелі Дипломатії. У грі існують наступні стани відносин:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_12_CHAPTER_CONTENT_PARA_2">
+      <Text>Союзники. Коли в Альянсі з лідером, ви не можете оголосити одне одному формальну війну, ви автоматично ділитеся відкритими кордонами, ви можете укладати договори про дослідження та оборонні пакти, а угоди, які ви укладаєте один з одним, будуть дуже вигідними. Територія, що належить іншій цивілізації в Альянсі, вважається "Дружньою", що дозволяє отримувати ті ж привілеї, що й ваша власна територія.[NEWLINE][NEWLINE]Оголошені друзі. Коли ви вирішуєте оголосити про своє дружнє ставлення до лідера, ви не можете оголосити одне одному формальну війну, ви можете укладати договори про дослідження, а угоди, які ви укладаєте один з одним, будуть більш вигідними. Цей відносинний стан необхідний для укладання Альянсу.[NEWLINE][NEWLINE]Дружній. Це означає, що лідер ставиться до вас позитивно, і у вас є кращі шанси отримати вигідні угоди з ним.[NEWLINE][NEWLINE]Нейтральний. Ви не зробили нічого, щоб насторожити чи вразити лідера, і ваші взаємодії з ним будуть стандартними.[NEWLINE][NEWLINE]Недружній. З якоїсь причини ви зробили щось, що насторожило цього лідера, і угоди з ним ймовірно будуть невигідні для вас, або ви можете зробити вимоги. [NEWLINE][NEWLINE]Оголошений про бій. Між вами розпочалися відкриті ворожості, і ви можете атакувати чи вторгатися на територію цього лідера, але ви отримаєте пенальті за ведення війни і військову втому.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_TITLE">
+      <Text>Торгівля, попит та обговорення</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_PARA_1">
+      <Text>Ви можете укладати угоди з іншими гравцями, обравши "Зробити угоду" у Панелі Дипломатії з обраним лідером. Ви потрапите на стіл переговорів з цим лідером. [NEWLINE][NEWLINE]Ліва частина столу показує речі, якими ви можете торгувати, а права частина столу показує речі, якими може торгувати інший гравець. Ви можете торгувати чим завгодно, від [ICON_Gold] золота до ресурсів і міст! Виберіть речі зі сторони іншого лідера, щоб запросити їх у вас, а також виберіть речі з вашої сторони столу, щоб запропонувати їх у обмін. [NEWLINE][NEWLINE]Коли інший лідер знаходить угоду прийнятною, з'являється кнопка "Прийняти угоду", що підтвердить угоду, яка є на столі. Ви втратите будь-які речі, які ви запропонували, і отримаєте будь-які речі від іншого лідера. [NEWLINE][NEWLINE]Якщо лідер не подобається угода, ви можете обрати кнопку "Зробити цю угоду більш рівноправною", щоб змусити лідера запропонувати угоду, яку він вважає справедливою. Потім ви можете відкоригувати їх пропозицію на свій розсуд і побачити, чи приймає вони угоду. Ви також можете запитати у лідера щось і обрати "Що для цього потрібно?" щоб побачити, що вони хочуть від вас в обмін. [NEWLINE][NEWLINE]Якщо ви пропонуєте річ, але нічого не просите взамін, ви можете обрати "Дати подарунок", щоб безкоштовно дати річ лідеру. Хто не любить подарунків? Або ви можете обрати "Що ви мені дасте?" щоб запитати лідера, що він буде готовий заплатити.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_PARA_2">
+      <Text>Якщо ви не дружні з лідером або один з вас однозначно відмовився від співпраці з іншим, ви побачите опцію "Поставити вимоги" на панелі Дипломатії з обраним лідером. Ця опція перенаправить вас до столу перемовин, але ваша сторона столу буде порожньою. Замість цього, ви виберете речі з їхньої сторони столу, які можете вимагати як дань! Виберіть "Укласти угоду" для того, щоб дізнатися, чи погодиться лідер на ваші вимоги. Лідер може не сприйняти ваші вимоги лояльно.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_PARA_3">
+      <Text>Незалежно від того, чи йдеться про угоду чи вимогу, деякі речі передаються лідеру назавжди, а деякі лише позичаються. Суми [ICON_Gold] золота, великі твори мистецтва [ICON_GreatWork_Relic], реліквії [ICON_GreatWork_Artifact] та захоплені шпигуни є постійними обмінами - якщо ви віддаєте ці речі, вам доведеться знову торгувати, щоб повернути їх. Ресурси та золото на кожен хід є тимчасовими, і коли угода завершиться, ви отримаєте їх назад.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_PARA_4">
+      <Text>Залежно від того, як ви спілкуєтеся з лідером, у вас може бути опція "Обговорити" у вікні Дипломатії. Вибір цієї опції покаже вам список дій, які ви можете попросити лідера припинити відносно вас, але тільки у випадку, якщо він вже зробив цю дію хоча б один раз. Ви можете попросити його припинити заселяти нові міста поруч з вами, перестати поширювати свою релігію на вас, перестати шпигувати за вами чи перестати атакувати Місто-Державу, над якою ви є Сюзереном.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_PARA_5">
+      <Text>Всі угоди, вимоги та обіцянки діють протягом 30 ходів, після чого потрібно їх оновити.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_8_CHAPTER_CONTENT_TITLE">
+      <Text>Делегації та Посольства</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_8_CHAPTER_CONTENT_PARA_1">
+      <Text>Між гравцями можуть бути укладені угоди та встановлені Постійні Посольства для покращення відносин та здобуття Дипломатичної Видимості</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_8_CHAPTER_CONTENT_PARA_2">
+      <Text>Потрібно відправити дипломатичну делегацію або посольство до кожного лідера окремо. Вартість делегації - 10 [ICON_Gold] Золота, а посольства - 25 [ICON_Gold] Золота, які виплачуються іншому лідеру. Це дозволяє отримати невеликий позитивний бонус у вашому відношенні до цього лідера. Крім того, це дає вам 1 рівень Дипломатичної Видимості. Дивіться розділ "Дипломатична видимість та чутки" у Цивілопедії для отримання додаткової інформації про Дипломатичну видимість.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_8_CHAPTER_CONTENT_PARA_3">
+      <Text>Резидентні посольства відкриваються за допомогою цивіку Дипломатичної Служби, при цьому вони замінюють Делегації. Ефекти резидентських посольств та делегацій не сумуються.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_9_CHAPTER_CONTENT_TITLE">
+      <Text>Відкриті кордони</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_9_CHAPTER_CONTENT_PARA_1">
+      <Text>Відкриті кордони - це угода з іншим лідером, за якою ви дозволяєте їм переміщувати свої військові або цивільні одиниці через ваш територію. Без цієї угоди вступ до території іншого лідера є актом війни, за винятком Релігійних одиниць, які можуть ігнорувати кордони повністю. Якщо у вас є відкриті кордони з лідером, то їх кордон буде виділено пунктирно, а не суцільною лінією. Відкриті кордони розблоковуються Зразковим Цивілізаційним Режимом. До того часу ваші кордони відкриті для всіх.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_9_CHAPTER_CONTENT_PARA_2">
+      <Text>Відкриті кордони можуть бути запропоновані як частина угоди з торгівлею, якщо обидві сторони дослідили цивік Ранньої імперії, але кожним лідером пропонується окремо - ви можете отримати відкриті кордони з лідером, не надаючи їм відкритих кордонів відповідно. Угода діє протягом 30 ходів, після чого її потрібно оновлювати.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_9_CHAPTER_CONTENT_PARA_3">
+      <Text>Якщо ви в Альянсі з іншим лідером, ви автоматично надаєте один одному вільний доступ на кордони.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_10_CHAPTER_CONTENT_TITLE">
+      <Text>Договори досліджень</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_10_CHAPTER_CONTENT_PARA_1">
+      <Text>Два союзних або оголошених дружніми гравці можуть укласти Угоду про дослідження, щоб отримати підвищення технології для обраної технології, якщо обидва гравці вивчили науку. В рамках укладання цієї угоди повинна бути узгоджена певна технологія. Кількість ходів, необхідних для завершення дослідження, буде залежати від поточних темпів дослідження обох користувачів. Якщо будь-який з гравців отримує підвищення або технологію будь-яким іншим способом, угода закінчується, і інший гравець одразу отримує підвищення.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_11_CHAPTER_CONTENT_TITLE">
+      <Text>Оборонний пакт</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_11_CHAPTER_CONTENT_PARA_1">
+      <Text>Оборонний договір - це угода між двома лідерами, за якою вони зобов'язуються надавати допомогу один одному, якщо їх атакуватимуть війська. Цей договір стає доступним після відкриття цивіку Мобілізація, і обидва партнери повинні мати цей цивік, щоб укласти оборонний договір. Якщо один з членів оборонного договору стає об'єктом нападу, інший член також оголошує війну нападникові. Оборонні договори можна укладати на столі переговорів "Зробити угоду". Для укладення угоди обидва лідери повинні бути в Альянсі.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_14_CHAPTER_CONTENT_TITLE">
+      <Text>Спільна війна</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_14_CHAPTER_CONTENT_PARA_1">
+      <Text>Після вивчення громадянської Зовнішньої торгівлі може бути запропонована спільна війна між гравцями, які вивчили Зовнішню торгівлю. Якщо ви приймаєте або пропонуєте спільну війну, ви та інший гравець негайно перебуватимете у війні з цільовим гравцем відповідно до параметрів угоди.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_15_CHAPTER_CONTENT_TITLE">
+      <Text>Територія</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_15_CHAPTER_CONTENT_PARA_1">
+      <Text>Дипломатична територія поділяється на 3 типи:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_15_CHAPTER_CONTENT_PARA_2">
+      <Text>Дружній: територія, що належить вашій цивілізації. Дружня територія також може бути встановлена за допомогою становлення союзником з великою цивілізацією або стаючись Сюзереном міст-держав. Одиниці будуть швидше одужувати на території, що є дружньою до них, а також користуватися спеціальними можливостями та політиками, пов'язаними з дружньою територією. Одиниці повинні бути на дружній території, щоб бути покращеними.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_15_CHAPTER_CONTENT_PARA_3">
+      <Text>Нейтральна територія - територія, яка на даний момент не належить жодній цивілізації або місту-державі. Її може здобути цивілізація або місто-держава, розширюючи свої кордони або засновуючи там нове місто. За винятком удосконалень Форту та Аеродрому, гравцям заборонено будувати щось на нейтральній території.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_15_CHAPTER_CONTENT_PARA_4">
+      <Text>Суперник: Територія, що належить іншій цивілізації або місту-державі. Гравці не можуть пересуватися на територію суперника без попереднього встановлення Відкритих кордонів з цією цивілізацією. Відновлення одиниць найнижче на території суперника.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_TITLE">
+      <Text>Казус Беллі</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Casus Belli represent reasons to go to war where the normal Warmonger penalty for a declaration of war or capturing cities are reduced or eliminated.  Once you reach the Renaissance-era civic Diplomatic Service, you may accumulate Casus Belli against other powers. You must Denounce the other power in order to use a Casus Belli against them. See the table below for the conditions for each Casus Belli, the civic that unlocks them, and the percentage of the usual warmonger penalty that is applied.[NEWLINE][NEWLINE]Holy War: If one of your cities is converted to the enemy's religion[NEWLINE](Diplomatic Service, 50% warmongering)[NEWLINE][NEWLINE]War of Liberation: If a friend or ally had cities conquered[NEWLINE](Diplomatic Service, no warmongering penalty when liberating cities that have been conquered)[NEWLINE][NEWLINE]War of Reconquest: If you had cities conquered in a previous war[NEWLINE](Defensive Tactics, no warmongering penalty when retaking your previous cities)[NEWLINE][NEWLINE]Protectorate War: if a city-state you are Suzerain of is attacked[NEWLINE](Defensive Tactics, no warmongering penalty when liberating a city-state target)[NEWLINE][NEWLINE]Colonial War: if target civilization is two eras behind you in technology[NEWLINE](Nationalism, 50% warmongering)[NEWLINE][NEWLINE]War of Territorial Expansion: if target civilization borders your nation[NEWLINE](Mobilization, 75% warmongering)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_13_CHAPTER_CONTENT_TITLE">
+      <Text>Порядки денні</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_13_CHAPTER_CONTENT_PARA_1">
+      <Text>Дипломатичні плани - це один з основних рушіїв у взаємовідносинах з іншими лідерами. Вони визначають бажання та поведінку цих лідерів. Ви можете використовувати плани, щоб знати, як потрапити на добру сторону лідера, або що робити, щоб уникнути розлючення.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_13_CHAPTER_CONTENT_PARA_2">
+      <Text>Лідери мають Історичну та Приховану Повністю. Історична Повність ґрунтується на реальній історичній особистості та досягненнях лідера. Прихована Повність призначається на початку кожної гри та може мати різноманітні форми - можливо, їм подобаються інші цивілізації з багатою культурою чи золотом, або може вони не люблять військових. Розкриття Прихованої Повністі важливе для того, щоб знати, що лідерам подобається та не подобається. Збільшуйте свою Дипломатичну Видимість з кожною цивілізацією, щоб дізнатися, якою є Прихована Повність їхніх лідерів.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_TITLE">
+      <Text>Дипломатична видимість та плітки</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Дипломатична Видимість дозволяє отримувати чутки - інформацію про дії іншого гравця. Ви отримуєте детальнішу інформацію про чутки в залежності від вашого рівня видимості, яких є 5: Немає, Обмежена, Відкрита, Таємна і Строго Секретна. Наприклад, коли ви тільки зустрілися з цивілізацією, ви отримаєте інформацію про їх оголошення війни, заяви про відмову, дружбі, союзах, та коли вони щось зроблять, як заснування Пантеону або завершення дива. Якщо ви отримаєте Обмежену Дипломатичну Видимість, ви дізнаєтеся певну інформацію про їхнє ставлення до вас й уряд. На Відкритому рівні, ви будете мати доступ до дипломатичних планів цивілізації, їх стосунків з іншими цивілізаціями, та знаєте, коли вони започаткували інквізицію.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Вам необхідно накопичувати рівні дипломатичної видимості окремо для кожної цивілізації. Рівні можна отримати, накоплюючи різні джерела Чуток, включаючи:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_PARA_3">
+      <Text>Торговці. Встановлюйте [ICON_TradeRoute] Торговельний маршрут до цивілізації, щоб збільшити рівень видимості на один рівень. [NEWLINE] [NEWLINE]Надіслати делегацію. Відправте делегацію до цивілізації, щоб збільшити рівень видимості на один рівень. Як тільки будуть доступні посольства, встановлення Посольства замінить це. [NEWLINE] [NEWLINE]Надіслати шпигуна на місію "Слідкування за підривом". Виконання місії "Слідкування за підривом" в місті іншої цивілізації збільшує рівень видимості на один рівень. [NEWLINE] [NEWLINE]Формування альянсу. Як альтернативу шпигунству, ви можете укласти альянс з дружньою цивілізацією. Ці дві дії не додають окремих рівнів дипломатичної видимості - немає сенсу шпигувати за своїми союзниками! [NEWLINE] [NEWLINE]Досліджуйте технологію Друкарства. Це збільшить вашу видимість з усіма цивілізаціями на один рівень. [NEWLINE] [NEWLINE]Грайте за Катерину де Медічі. Вона надає Франції один рівень доступу вище норми завжди з цивілізаціями, які вона зустріла.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_TITLE">
+      <Text>Шпигуни та шпигунство</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Починаючи з епохи Відродження, будуть доступні Шпигуни. Ви можете отримувати Шпигунів з деяких технологій та цивілізацій. Вони можуть бути побудовані у будь-якому місті, але їх не можна купувати за допомогою [ICON_Gold] Золота або [ICON_Faith] Віри. Шпигуни починають на рівні Новобранця, і можуть отримувати рівні від успішних нападів або захоплення ворожого Шпигуна. При досягненні 2-го рівня, Шпигуни також можуть отримувати підвищення.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Шпигуни не пересуваються, як інші одиниці. Вони перескакують з міста в місто, використовуючи повітряний, морський, дорожній або пішохідний транспорт, кожен зі своїм часом подорожі, але вони не можуть пересуватися до міста союзника. Якщо шпигун вже знаходиться в місті, то його можна відправити в конкретний район та почати місію. Місії включають в себе крадіжку підвищень технологій, створення повстанських військ або просто підвищення дипломатичної видимості. Кожна місія займає певний час та матиме різний результат. Ваш шпигун може бути вбитий або захоплений, можливо, він провалив місію, але не був виявлений, або, можливо, місію не виявили, і вона була успішною.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_3">
+      <Text>Кожна цивілізація може створити 5 шпигунів. Грайте як Катерина, щоб здобути можливість створювати 6.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_CITYSTATES_NAME">
+      <Text>Місто-Держави</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Місто-держави є меншими політичними утвореннями. Вони не можуть перемогти у грі - вони не конкурують з вами - але вони можуть значно допомогти або завадити вашому прогресу до перемоги. Ви можете знайомитися з містами-державами та отримувати ряд важливих переваг, ви можете ігнорувати їх та концентруватися на більших та важливіших ворогах, або ви можете підкорити їх та взяти їх речі. Все залежить від вас</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_TITLE">
+      <Text>Типи міст-держав</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Існує шість різних "смаків" міських держав. Кожна з них може дати вам різні переваги, якщо ви зблизькуєтеся або укладете з ними союз.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Торгове місто-держава може забезпечити [ICON_Gold] золото вашій цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_3">
+      <Text>Релігійне місто-держава може забезпечити [ICON_Faith] віру вашій цивілізації</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_4">
+      <Text>Мілітаристична місько-держава може надавати [ICON_Production] виробництво для створення військових одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_5">
+      <Text>Наукове місто-держава може забезпечити вашій цивілізації [ICON_Science] Науку.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_6">
+      <Text>Культурна місто-держава може допомогти вам покращити вашу [ICON_Culture] культуру</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_7">
+      <Text>Промислове місто-держава може забезпечити [ICON_Production] виробництво для чудес, будівель та районів.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_3_CHAPTER_CONTENT_TITLE">
+      <Text>Комунікація з міськими державами</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Щоб спілкуватися з міською державою, вам спочатку потрібно її знайти. Коли один з ваших підрозділів зустріне міську державу, вона повідомить вам свій тип, а якщо ви будете першим, хто її відкриє, ви автоматично отримаєте [ICON_Envoy] посланця до цієї міської держави. Після того, як ви зустрілись, ви зможете брати у них "запити". Якщо ви хочете взаємодіяти з міською державою, ви можете натиснути на саме місто або скористатися Панеллю міської держави</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_4_CHAPTER_CONTENT_TITLE">
+      <Text>Посланики</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Бонуси, які ви отримуєте від держав-міст, залежать від кількості відправлених вами [ICON_Envoy] Послів до цих держав-міст. [ICON_Envoy] Посли заробляються з часом за рахунок балів впливу (які надходять від урядів та політик), або миттєво за допомогою завершення певних громадських наук. Як тільки ви заробите Послів, ви отримаєте запит на вибір держав-міст, куди передати їх. Якщо у вас є кілька [ICON_Envoy] Послів, ви можете розподілити їх між державами-містами за власним бажанням.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Пряме оголошення війни міст-державі призводить до зняття всіх [ICON_Envoy] Емісарів, які ви мали там. В іншому випадку [ICON_Envoy] Емісарі залишаються на місці назавжди. [ICON_Envoy] Емісарі в міст-державі видимі всім гравцям, і їх розміщення може мати дипломатичні наслідки. Бонуси, які ви отримуєте, залежать від кількості [ICON_Envoy] Емісарів, яких ви маєте в міст-державі, незалежно від того, скільки [ICON_Envoy] Емісарів є в інших гравців. Міст-держави одного типу мають спільні бонуси типу. Вони накопичуються, тому коли гравець розміщує все більше та більше [ICON_Envoy] Емісарів в міст-державі, вони додаються до бонусів, які були до цього. Кожен [ICON_Envoy] Емісар, розміщений в міст-державі, розширює її межі на 1 плитку.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_5_CHAPTER_CONTENT_TITLE">
+      <Text>Сюзерен</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Цивілізація з найбільшою кількістю [ICON_Envoy] Послів в міста-державі, і щонайменше 3 [ICON_Envoy] Послів, вважається Сюзереном цієї міста-держави. Може бути тільки один Сюзерен; рівні не допускаються. Якщо ніхто не має [ICON_Envoy] Послів в місті-державі, Сюзерену немає. Сюзерен отримує кілька значних переваг:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Унікальний бонус: це потужний бонус, який надає Сюзерену, який жоден інший місто-держава не забезпечить.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_5_CHAPTER_CONTENT_PARA_3">
+      <Text>{ЛОК_МІСЬКІ_ДЕРЖАВИ_СУЗЕРЕН_ДИПЛОМАТИЧНИЙ_БОНУС}</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_5_CHAPTER_CONTENT_PARA_5">
+      <Text>Дружня територія: Територія міст-держави вважається "дружньою" до свого Сюзерена, що дозволяє Сюзерену отримувати ті ж привілеї, що й надаються на його власній території.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_TRADE_NAME">
+      <Text>Торгівля</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Одиниця Торговця розблоковується шляхом дослідження Закордонної торгівлі та будується в містах. Одиниці Торговця знаходяться на окремому рівні карт, і не взаємодіють з більшістю звичайних речей на карті. Вони можуть вільно стекатися з будь-якими іншими одиницями та ігнорують культурні кордони.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Коли Торговець перебуває у місті, що належить гравцю, він може розпочати торговий маршрут [ICON_TradeRoute] між цим містом та іншим містом, що знаходиться в радіусі дії, якщо жоден з ваших [ICON_TradeRoute] торгових маршрутів туди не веде (наприклад, якщо у мене вже є [ICON_TradeRoute] торговий маршрут до міста Афіни, я не можу створити другий маршрут туди), і якщо гравець ще не досяг максимальної кількості [ICON_TradeRoute] торгових маршрутів</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Після створення [ICON_TradeRoute] Торгового маршруту він триватиме принаймні 20 ходів за стандартної швидкості гри. Торговий караван автоматично рухатиметься вздовж свого маршруту на протязі всього маршруту, але не завершить маршрут, поки не повернеться на початкову плитку міста. Перебуваючи на активному маршруті, торговий караван ігноруватиме обмеження місцевості і буде переміщуватись на 1 плитку кожен хід, розташовуючи дорогу по мірі руху. Не забудьте захистити своїх Торговців від Варварів або ворожих цивілізацій, оскільки вони піддаються розбоюванню.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_1_CHAPTER_CONTENT_PARA_4">
+      <Text>В кінці терміну дії [ICON_TradeRoute] Торговельного маршруту, у вас буде можливість продовжити попередній [ICON_TradeRoute] Торговий маршрут, призначивши новий [ICON_TradeRoute] Торговий маршрут з поточного міста або перенаправити Торговця до нового міста.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_2_CHAPTER_CONTENT_TITLE">
+      <Text>Збільшення торгових маршрутів</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Гравець може підтримувати обмежену кількість активних [ICON_TradeRoute] Торговельних Маршрутів. Ця можливість визначається переважно кількістю комерційних кварталів та гаваней, які вони мають, але також може бути збільшена іншими способами. Зверніть увагу, що [ICON_TradeRoute] Торговельні Маршрути від комерційних кварталів та гаваней не накладаються в одному місті – перевага застосовується лише з першого, який ви будуєте.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_3_CHAPTER_CONTENT_TITLE">
+      <Text>Діапазон торгів</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_3_CHAPTER_CONTENT_PARA_1">
+      <Text>На землі Торговий маршрут [ICON_TradeRoute] може досягати місць призначення в радіусі 15 тайлів. Якщо гравець дослідив технологію, що дозволяє ембаркацію, Купці також можуть пересуватися по воді. На воді радіус становить 30 тайлів. Якщо у місті є Торгова станція [ICON_TradingPost], то Купець "поповнює" своє дозволення для нового транспортного виду і може рухатися далі. В іншому випадку, він мусить зупинитися в цьому місті.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Переміщення між сушею та водою можливе лише в центрі міста або гавані, а дозвіл не переноситься.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_4_CHAPTER_CONTENT_TITLE">
+      <Text>Торгові пости</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Розширте свою торгівельну мережу та зробіть її більш вигідною за допомогою торгових постів [ICON_TradingPost]. Торговий пост [ICON_TradingPost] встановлюється в місті, якщо туди успішно завершується торговий маршрут [ICON_TradeRoute] з цього міста або до нього. Він належить гравцеві, який володіє торговим маршрутом [ICON_TradeRoute].</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Ваші торговельні маршрути [ICON_TradeRoute] можуть «заправлятися» в будь-якому місті з вашим [ICON_TradingPost] торговельним постом, що дозволяє їм досягати більш віддалених місць. Якщо місто належить іншому гравцю, то [ICON_TradingPost] торговельний пост також робить маршрут більш цінним, забезпечуючи +1 [ICON_Gold] Золота до його доходу.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_5_CHAPTER_CONTENT_TITLE">
+      <Text>Доходи власника торговельного маршруту</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_5_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_TradeRoute] Торговий шлях надає урожаї кожен хід до міста походження, в основному на основі того, які округи є у місті призначення. Наприклад, торгівля з містом зі святинею надасть [ICON_Faith] Віру, а торгівля з містом з округом Театрального майданчика забезпечить [ICON_Culture] Культуру. Крім того, релігія та [Icon_Tourism] Туризм можуть поширюватись по [Icon_TradeRoute] торгових шляхах.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Він також отримує доходи залежно від шляху, яким йде. Якщо він проходить через торгівельну посту [ICON_TradingPost], яку ви володієте в іноземному місті, він коштує 1 [ICON_Gold] золота більше. Довгі шляхи, які проходять через кілька [ICON_TradingPost] торгівельних постів, є дуже цінними.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_6_CHAPTER_CONTENT_TITLE">
+      <Text>Урожайність для міст на маршруті</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Місто отримує 1 [ICON_Gold] Золото щоразу, коли кожен [ICON_TradeRoute] Торговий маршрут, належний іншому гравцю, проходить через центр міста.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_GOVT_NAME">
+      <Text>Уряди та політики</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_1_CHAPTER_CONTENT_TITLE">
+      <Text>Уряди</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Уряди дозволяють налаштовувати свою цивілізацію, щоб вона відповідала вашому стилю гри, пропонуючи різні комбінації слотів для вибору різних типів політики, а також пропонуючи відмінні бонуси.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Разблоковані через дерево цивільних знань, уряди, доступні для використання, будуть змінюватись залежно від вашого прогресу в часі. На початку ви матимете простий уряд з кількома слотами. Але з часом, ви отримаєте більше слотів уряду в різних комбінаціях. Крім того, кожен уряд має свої власні бонуси. Наприклад, уряд Теократії дозволяє покупати земельні війська за допомогою [ICON_Faith] віри та надає знижку на покупки за [ICON_Faith] віру, коли він активний.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Нарешті, всі уряди мають бонуси спадщини, залежно від того, як довго уряд був активним в вашій імперії. Наприклад, хоча ви можливо вже перейшли від уряду Теократії, ви отримаєте бонус спадщини [ICON_Faith] зі знижкою на віру, залежно від того, як довго уряд був активним у історії вашої імперії. Ви можете змінити свій уряд в будь-який час. Якщо ви переключитеся на раніше прийнятий уряд, ви потрапите в стан безладу.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_2_CHAPTER_CONTENT_TITLE">
+      <Text>Політики</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Політика має конкретний вплив на геймплей. Деякі збільшують [ICON_Production] виробництво вашого міста, інші генерують більше багатства, а інші допомагають створити більш ефективну армію. У грі немає правильних або неправильних виборів політики, і одна політика може бути кращою для певної обставини, ніж інша, або краще відповідати вашому особистому стилю гри. Спробуйте їх і побачте</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Існує 6 типів політик, кожен з яких може бути внесений у відповідний слот у владі. Внесення цих окремих політик дозволить отримати описані переваги та покращити вашу гру</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_3_CHAPTER_CONTENT_TITLE">
+      <Text>Отримання політик</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Ви можете обратися до прийняття політик, як тільки здобудете [ICON_Culture] Культури, щоб відкрити ваш перший уряд. Політики будуть розблоковані по мірі просування через дерево цивіки, а зміна уряду дозволить вам встановлювати різні комбінації політик, щоб краще відповідати вашому стилю гри. Кожного разу, коли новий уряд або політика буде розблокований від дерева цивіки, ви матимете можливість повторно вибрати політики або змінити уряд безкоштовно. В іншому випадку, на здійснення цих змін буде вартувати певний кошт.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_TITLE">
+      <Text>Види політик</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Існує 4 різних типи політики для дослідження, кожен з яких приписується до різного стилю урядування. Всі типи повинні бути застосовані до порожнього слоту того ж типу уряду, але слот Вайлдкард може містити будь-який тип політики.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Військові: ці політики найкраще підходять для гравців, які хочуть міцну армію на суходолі та на морі.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_3">
+      <Text>Економічний: Ці політики можуть бути корисними для збільшення всіх видів врожаїв, будь то за рахунок збільшення бонусів за прилеглість до району або зменшення витрат.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_4">
+      <Text>Дипломатичні: Ці політики найкраще підходять для гравців зі сильним бажанням будувати взаємини, і можуть допомогти зміцнити зв'язки з міськими державами або поліпшити шпигунські операції.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_5">
+      <Text>Шаблон: Ці політики прискорюють темп виробництва [ICON_GreatPerson] Великих Осіб.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_5_CHAPTER_CONTENT_TITLE">
+      <Text>Анархія</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Перехід до раніше прийнятої влади тимчасово ставить вашу цивілізацію в стан анархії, що має наступні негативні наслідки:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_5_CHAPTER_CONTENT_PARA_2">
+      <Text>1. Ви не отримуєте жодного [ICON_Gold] Золота, [ICON_Science] Науки, [ICON_Culture] Культури або [ICON_Faith] Віри з жодного джерела.[NEWLINE]2. Анархія не має спеціального бонусу уряду або спадковості.[NEWLINE]3. Ваші політики не надають жодної переваги і не можуть бути вставлені.[NEWLINE]4. Ви не зможете змінити уряди, поки триває стан Анархії.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_5_CHAPTER_CONTENT_PARA_3">
+      <Text>Анархія триває принаймні три ходи. Що більше разів ви раніше приймали цю форму урядування, то довше буде тривати Анархія.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_GREATPEOPLE_NAME">
+      <Text>Великі люди</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_1_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_GreatPerson] Great People are the artists, merchants, engineers, scientists, generals, and admirals who can, singlehandedly, change the course of a civilization. There are nine types of [ICON_GreatPerson] Great People: [ICON_GreatArtist] Great Artists, [ICON_GreatWriter] Great Writers, [ICON_GreatMusician] Great Musicians, [ICON_GreatEngineer] Great Engineers, [ICON_GreatMerchant] Great Merchants, [ICON_GreatScientist] Great Scientists, [ICON_GreatProphet] Great Prophets, [ICON_GreatAdmiral] Great Admirals, and [ICON_GreatGeneral] Great Generals.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_2_CHAPTER_CONTENT_TITLE">
+      <Text>Заробіток відмінних людей</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_GreatPerson] Великі люди можуть бути зароблені шляхом генерування достатньої кількості відповідного типу балів. Вони видимі для всіх гравців, і між всіма гравцями видимо конкуренцію за них. Тільки великі цивілізації можуть заробити [ICON_GreatPerson] Великих людей, не варвари або місто-держави. Кожен тип [ICON_GreatPerson] Великої людини має власні бали, які відстежуються окремо. [ICON_GreatScientist] Бали Великого вченого не можуть бути пораховані як бали [ICON_GreatArtist] Великого художника і так далі. Кількість балів, необхідних для заробітку конкретної [ICON_GreatPerson] Великої людини, залежить від ери цієї [ICON_GreatPerson] Великої людини. Вчений Великого доби відродження буде коштувати набагато менше балів Великого вченого, ніж сучасний. Бали надходять з різних джерел.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Кожен район та будинки всередині нього забезпечують очки для пов'язаного з ними типу Великої Особистості [ICON_GreatPerson]. Це повільне, але стійке джерело очок. Райони також дозволяють місту використовувати [ICON_Production] виробництво для проектів, які, коли вони будуть завершені, будуть додавати очки для [ICON_GreatPerson] Великих Особистостей.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_2_CHAPTER_CONTENT_PARA_3">
+      <Text>Гравці також можуть витрачати [ICON_Gold] Золото або [ICON_Faith] Віру, щоб підтримати Велику Особистість, заробивши її миттєво. Вартість підтримки залежить від того, на скільки більше [ICON_GreatPerson] очок Великої Особистості потрібно гравцю для того, щоб найняти її в звичайний спосіб.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_3_CHAPTER_CONTENT_TITLE">
+      <Text>Використання Великих Людей</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Кожен окремий [ICON_GreatPerson] Велика Особистість має різний ефект, який надихнутий історією. Більшість ефектів сильно пов'язані з певним ігровим етапом і не є оптимальними для використання за межами цього часу. Ефекти поділяються на дві широкі категорії: Пасивні Ефекти та Ефекти Дій.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Пасивний ефект відбувається, як тільки на карті з'являється [ICON_GreatPerson] Велика Особистість. Це переважно зустрічається на Великих Генералах та Великих Адміралах.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_3_CHAPTER_CONTENT_PARA_3">
+      <Text>Ефект дії повинен бути активований [ICON_GreatPerson] Великою Особою, використовуючи «заряд» в певному місці. Кількість зарядів, тип необхідного місця та активований ефект будуть різні для кожної особи. Більшість осіб мають лише 1 заряд та можуть активувати його тільки в окрузі, що відповідає їх типу (наприклад, більшість [ICON_GreatScientist] Великих Вчених мають 1 заряд та повинні використовувати його в Кампусі). Як і в інших зарядних одиницях, особа зникне, коли всі заряди будуть вичерпані.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_4_CHAPTER_CONTENT_TITLE">
+      <Text>Пересуваємо Великих Людей</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_4_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_GreatPerson] Великі люди можуть рухатись по дошці як будь-які інші одиниці. Вони є некомбатними одиницями, що означає, що вони не можуть ставати в стопку на тайлі з іншими некомбатними одиницями (робітники, поселенці), але вони можуть ставати в стопку з однією військовою одиницею. Якщо ворожа одиниця потрапляє на тайл з [ICON_GreatPerson] Великою людиною, то ця [ICON_GreatPerson] Велика людина автоматично відступає до найближчого міста, якщо це можливо (ворог не захоплює її). Ці одиниці також можуть бути переведені до іншого міста, якщо вони знаходяться в центрі міста.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_AIRCOMBAT_NAME">
+      <Text>Повітряна битва</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Існують чотири основних типи повітряних військ: розвідка підтримки, оборони підтримки, істребителі та стратегічні бомбардувальники. Їх можна виробляти в будь-якому місті, яке побудувало Аеродром та провело необхідні технології.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_2_CHAPTER_CONTENT_TITLE">
+      <Text>Air Bases</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Повітряні одиниці не рухаються по карті, як земляні та морські одиниці. Вони повинні бути "базовані" десь. Міський центр завжди може містити одну повітряну одиницю, але будівництво аеродрому, авіастрічки або авіаносця може збільшити ваші доступні слоти. Аеродром може мати до 8 слотів, авіастрічка - 3, а авіаносець починає з 2, але може отримати ще більше через просування.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_3_CHAPTER_CONTENT_TITLE">
+      <Text>Патрулі</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Літаки-винищувачі можуть бути розгорнуті на дійсному гексі в межах їх діапазону руху [ICON_Movement] з дружньої авіабази. Після розгортання літак почне літати по орбіті в межах його ефективного дальній перехоплювання (наразі радіус 1 гекс). Це повинно зробити більш зрозумілим статус винищувачів у стані патрулювання для як нападника, так і захисника.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Патрулювання продовжується, дещо схоже на операцію одиниці "Заповнити". Якщо літак був встановлений на Патрулювання, він буде це робити, поки йому не буде наказано інше або він не буде знищений. Під час патрулювання літак продовжуватиме перехоплювати та захищатися від багатьох нападників</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_3_CHAPTER_CONTENT_PARA_3">
+      <Text>У будь-який момент під час ходу гравця, винищувачі можуть "Повернутися на базу" (розташуватися на дружній авіабазі) для відновлення здоров'я. Літаки, що розташовані на авіабазі, не перехоплюють нападаючі літаки. Літаки можуть відновити здоров'я в кінці ігрового ходу, коли вони розташовані на Центрі міста, Аеродромі, Майданчику або на авіаносці, тільки якщо вони не брали участі в бойових діях. Відновлення здоров'я є "найшвидшим" на районах Аеродрому, і менш ефективним на Майданчиках або авіаносці. Ці значення можуть бути збільшені за допомогою просування та / або політик.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_4_CHAPTER_CONTENT_TITLE">
+      <Text>Авіаудари</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Важкі бомбардувальники не можуть виходити на патрулювання, але, замість цього, вони розглядаються як «розташовані» на дружній авіабазі і можуть здійснювати напади з цієї бази. На відміну від винищувачів, бомбардувальники не займаються повітряним боєм, але прямують до своєї мети і атакують. 
+
+[NEWLINE][NEWLINE]
+
+Стратегічне бомбардування: Бомбардувальники можуть нападати на будівлі районів і поліпшення міста безпосередньо, якщо в цій точці немає земельної одиниці. Якщо цей тип атаки успішний, результат такий самий, як дія розграбування земельною одиницею, за винятком того, що нападаючий повітряний апарат не отримує результативну користь від дії розграбування. Щоб бомбардувальна атака була успішною, нападаючий повітряний апарат повинен мати 50% здоров'я або більше після вирішення будь-яких пошкоджень, завданих захищаючими винищувачами і підривними авіаційними підрозділами. 
+
+[NEWLINE][NEWLINE]
+
+Пріоритетна ціль: Повітряні апарати також мають можливість пріоритетної цілі, яка дозволяє їм нападати безпосередньо на підрозділи класу Підтримки, не вбиваючи спочатку ворожу бойову одиницю, розташовану в тій же точці.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_5_CHAPTER_CONTENT_TITLE">
+      <Text>Перехоплення</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Літаки-винищувачі можуть бути розміщені на карті в межах досяжності, де вони будуть патрулювати прилеглі ділянки. Якщо повітряна одиниця намагається здійснити повітряний наліт на ціль, яка знаходиться в межах досягнення перехоплюючої одиниці, перехоплювач відкриває вогонь по нападнику і завдає йому шкоди.[NEWLINE][NEWLINE]Якщо нападаючий літак потрапляє в захисний радіус більш, ніж одного патрулюючого літака, обирається літак з найбільшою силою для перехоплення. Решта літаків діють у підтримку оборони, додаючи +5 до сили головного перехоплювача.[NEWLINE][NEWLINE]Після завершення бою з будь-якими протиповітряними наземними одиницями та перехоплюючими повітряними одиницями, якщо бомбардувальник-нападник виживає, бій відбувається з оригінальною ціллю. Якщо літак-винищувач був перехоплений іншим літаком-винищувачем на шляху до наземної цілі, він змушений боротися тільки з ворожим літаком і не атакуватиме наземну ціль. Бомбардувальники не мають цього обмеження і продовжать до цілі, якщо вони виживають після будь-яких оборонних перехоплювань та протиповітряних нападів.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_NUKES_NAME">
+      <Text>Ядерні бомби</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Типи ядерних пристроїв</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Існують 2 категорії атомних зброй: Ядерний пристрій та Термоядерний пристрій. Їх можна побудувати як Міський проект у будь-якому місті та для виробництва обох потрібний ресурс - Уран. Гравець може збудувати будь-яку кількість таких зброй. [NEWLINE][NEWLINE]Якщо Ядерний пристрій або Термоядерний пристрій створено, він додається до інвентарю гравця та може бути використаний будь-яким кваліфікованим для цього військовим чи покращенням на карті. Це включає бомбардувальники, Ядерні підводні човни та Ракетний силос.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Ядерні пристрої мають радіус вибуху 1. При розгортанні з Ракетного Силосу вони мають дальність [ICON_Range] 12. Вартість їх утримання становить 14 [ICON_Gold] золотих монет на хід.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Термоядерні пристрої мають радіус вибуху 2. При запуску з Ракетного Силосу, вони мають дальність дії [ICON_Range] 15. Витрата на їх підтримку становить 16 золотих [ICON_Gold] щорічно.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_2_CHAPTER_CONTENT_TITLE">
+      <Text>Ядерне знищення</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Коли вибухає атомна зброя, відбувається кілька речей з усіма шестикутниками, що знаходяться у зоні вибуху. [ICON_Citizen] Громадяни, що "працюють" на пошкоджених шестикутниках, усуваються, одиниці, що займають пошкоджені шестикутники, знищуються, а всі покращення шестикутників розграбовуються. Будівлі та райони на пошкоджених шестикутниках також розграбовуються та повинні бути відновлені, щоб знову використовуватися. Усі пошкоджені шестикутники забруднені радіоактивним пилом.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_3_CHAPTER_CONTENT_TITLE">
+      <Text>Ядерне забруднення</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Після ядерної атаки, радіаційний дощ забруднить кожну плитку, що зазнала впливу вибуху. Будь-які одиниці, які завершують свій хід на забрудненій плитці, отримують 50 одиниць пошкодження щоразу, коли настає їх черга. [ICON_Production] Виробництво не може застосовуватись до нічого в плитках, що містять забруднення, наприклад, до відновлення будівель та районів. Плитки, що забруднені, не можуть бути оброблені містом, доки таймер забруднення не закінчиться або доки плитка не буде "вибрана"</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Ядерне забруднення може бути «очищено» з пошкоджених плиток з допомогою одиниць Будівельника та Військового інженера. Очищення забрудненої плитки займає 1 заряд будівництва. Одиниці Будівельника, Військового інженера та Римської легіону, які можуть очистити забруднені шестигранники, отримають менше пошкоджень, якщо закінчують свій хід в такому шестиграннику. Будь-які плитки міста, які не безпосередньо постраждали від ядерного вибуху, все ще будуть працювати нормально та сприятливо впливати на врожай міста.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_TOURISM_NAME">
+      <Text>Туризм</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_1_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Tourism] Tourism is needed in order to win a Culture Victory. You can generate [ICON_Tourism] Tourism through Great Works, wonders, Holy Cities, [ICON_GreatWork_Relic] Relics, [ICON_GreatWork_Artifact] Artifacts, Seaside Resorts and National Parks. You can boost your [ICON_Tourism] Tourism through [ICON_TradeRoute] Trade Routes, Open Borders, Great People, policies, and shared (or conflicting) late game governments.[NEWLINE][NEWLINE]Building a wonder will probably be one of the first ways you start earning [ICON_Tourism] Tourism. Each Wonder provides 2 [ICON_Tourism] Tourism per turn, plus 1 for each era you have advanced past the era in which that wonder was first available. So an ancient wonder like Stonehenge can earn you 9 [ICON_Tourism] Tourism per turn by the end of the game.[NEWLINE][NEWLINE]Tourism is divided into Religious Tourism (from creating a Holy City and from Relics) and Non-Religious Tourism. Some Civics (Enlightenment) and Wonders (Cristo Redentor) specifically affect the impact of your Religious Tourism.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_2_CHAPTER_CONTENT_TITLE">
+      <Text>Величні твори, реліквії та артефакти</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Великі Твори поділяються на п'ять різних типів. [ICON_GreatWork_Writing] Письменство, [ICON_GreatWork_Landscape] Мистецтво та [ICON_GreatWork_Music] Музика, які можуть бути створені [ICON_GreatPerson] Великими Людьми, [ICON_GreatWork_Artifact] Артефакти, що знаходяться на Сайтах Античності Археологами, та [ICON_GreatWork_Relic] Реліквії, що створюються Апостолами зі здібністю Мученика після їх смерті у богословському бою. (Реліквії можуть бути отримані з інших джерел, таких як Племінні Селища, місто-держава Канді або Жанна Д'Арк після її відставки.) Одержавши, Великий Твір можна помістити у відповідному слоті Великих Творів у будівлі або Чуді</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_3_CHAPTER_CONTENT_TITLE">
+      <Text>Курорти на узбережжі</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Курорти на узбережжі - це особлива будівля, яку можна побудувати після дослідження технології радіо. Вони генерують [ICON_Tourism] туризм на основі привабливості тайлу.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_TITLE">
+      <Text>Національні парки</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Визначення національних парків може значно покращити [ICON_Tourism] туризм та [ICON_Amenities] зручності. Національні парки визначаються природознавчими одиницями, які можна придбати у вашому місті за [ICON_Faith] віру після дослідження консерваційної цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Національні парки можуть бути створені на кластері будь-яких чотирьох плиток, що відповідають наступним вимогам:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_3">
+      <Text>1. Плитки повинні бути природними дивами, горами або плиткою з привабливістю «чарівно» або краще. [NEWLINE] 2. Усі чотири плитки повинні бути власністю одного міста. [NEWLINE] 3. Плитки повинні бути суміжними та утворювати вертикальну форму ромба. [NEWLINE] 4. Жодна з плиток не може мати покращення або округу.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_4">
+      <Text>Ви можете вибрати Натураліста, щоб побачити будь-які дійсні місця на карті. Відправлення Натураліста на будь-яку підсвічену плитку розкриє кнопку дії "Визначити Національний парк". Клацнувши на цю кнопку, ви визначите Національний парк і використаєте Натураліста.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_5">
+      <Text>[ICON_Tourism] Туристичний потік Національного парку дорівнює загальній привабливості всіх плиток, які входять до парку. Крім того, місто, яке володіє парком, отримує 2 [ICON_Amenities] зручності, а чотири найближчих міста у вашій цивілізації отримують по 1 [ICON_Amenities] зручності.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_6_CHAPTER_CONTENT_TITLE">
+      <Text>Культурна домінантність</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Якщо ваша цивілізація привертає більше відвідувачів з іншої цивілізації, ніж вітчизняних туристів, то ви культурно домінуючі над тою цивілізацією. Першому гравцю, який став культурно домінуючим над усіма іншими цивілізаціями, присуджується перемога культури.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_5_CHAPTER_CONTENT_TITLE">
+      <Text>Теми та оформлення тематики</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Деякі будівлі (такі як Музей мистецтв або Археологічний музей) дозволяють тематизувати Великі твори для значного підвищення [ICON_Culture] культури та [ICON_Tourism] туризму. Щоб отримати бонус за тематизацію, відобразіть [ICON_GreatWork_Landscape] мистецтво того ж типу від різних художників або [ICON_GreatWork_Artifact] артефакти того ж часу від різних цивілізацій.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_VICTORY_NAME">
+      <Text>Перемога та поразка</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Є кілька способів виграти та програти гру у Civilization VI. Важливо стежити за прогресом ваших опонентів у досягненні перемоги, коли ви розвиваєте свою власну цивілізацію. Ніщо не є таким образливим, як знаходитися на межі захоплення останнього міста ворога, лише щоб безпомічно дивитися, як він чи вона завершує свою колонію на Марсі та виграє несподівану наукою перемогу.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_2_CHAPTER_CONTENT_TITLE">
+      <Text>Перемога домінування</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Щоб перемогти у грі, ви повинні захопити всі оригінальні столиці цивілізацій [ICON_Capital].</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Якщо ви втратили свою початкову [ICON_Capital] столицю, але маєте інші міста, ви все ще можете перемогти в іншого типу вікторії: культурній, науковій, за рахунком або релігійній. Однак ви не можете перемогти в Домінуванні, доки не відновите свою власну початкову [ICON_Capital] столицю</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_2_CHAPTER_CONTENT_PARA_3">
+      <Text>ПЕРЕМОГА КОМАНДИ В ДОМІНУВАННІ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_2_CHAPTER_CONTENT_PARA_4">
+      <Text>Щоб перемогти у командній грі з домінуванням, всі члени команди повинні контролювати свої власні столиці [ICON_Capital], тоді як усі інші гравці - ні.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_TITLE">
+      <Text>Перемога у науці</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Перемога в Науковій грі досягається першому гравцю, який заснує колонію на планеті Марс. Як тільки Велогонка космосу розпочалася, і хтось запустив свій перший супутник, всі гравці дізнаються, хто намагається досягти цієї перемоги. Гравці отримують бонуси за досягнення кожного кроку на шляху до перемоги. Наступні кроки повинні бути виконані в порядку:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Запустіть супутник у космос:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_3">
+      <Text>Нагадує про Супутник у 1957 році, ви можете побудувати супутник для запуску його у космос після дослідження Ракетобудування та створення Космодрому. Після завершення проекту Земляний Супутник, ваш супутник буде запущений, і вам буде надана можливість бачити всю карту</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_4">
+      <Text>Вивести людину на Місяць:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_5">
+      <Text>Так само, як у місії Аполлон-11 в 1969 році, ви відправите людину на Місяць. Це розблокується після дослідження технології супутників і може бути побудовано в будь-якому місті з Космодромом. Оберіть виробництво проекту "Посадка на Місяць", щоб розпочати цю місію. Після запуску ракети ви одразу отримаєте суму [ICON_Culture] Культури.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_6">
+      <Text>Заснувати колонію на Марсі:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_7">
+      <Text>Наразі це наукова фантастика, але ви можете бути першими, хто відправить своїх людей на Марс. Після досліджень у галузі робототехніки, ядерної розщеплення та нанотехнологій ви можете будувати проекти реактора, житлових будівель та гідропоніки в будь-якому місті з космодромом. Зверніть увагу, що більше одного космодрому означає паралельне виробництво!</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_8">
+      <Text>Коли кожен шматок буде запущений, ви виграли гру.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_9">
+      <Text>КОМАНДА НАУКОВОЇ ПЕРЕМОГИ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_10">
+      <Text>Щоб перемогти в Командній наукої перемозі, кожен член команди повинен виконати стандартні вимоги для досягнення Наукової перемоги. Виконання вимог не передається. Зачинення на загальних засадах допомагаємо один одному досягти Командної наукової перемоги, використовуючи загальні дослідження команди. Див. Сторінку Команди.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_4_CHAPTER_CONTENT_TITLE">
+      <Text>Перемога культури</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Якщо ви маєте на меті бути культурним епіцентром світу, то це перемога для вас. Перша цивілізація, яка має загальну кількість [ICON_Tourism] відвідувачів-туристів, що перевищує [ICON_Tourism] відвідувачів-туристів національного рівня будь-якої іншої цивілізації в грі, перемагає у культурній війні.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_4_CHAPTER_CONTENT_PARA_2">
+      <Text>[ICON_Tourism] Туризм генерується [ICON_TradeRoute] Торговельними маршрутами, урядами, що діють у пізній грі (подібними або протилежними), відкритими кордонами, великими творами, розміщеними в вашій цивілізації, [ICON_GreatWork_Relic] Реліквіями, розміщеними у вашій цивілізації, Святими місцями, Національними парками, [ICON_GreatWork_Artifact] Артефактами та чудесами.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_4_CHAPTER_CONTENT_PARA_3">
+      <Text>КОМАНДНА КУЛЬТУРНА ПЕРЕМОГА</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_4_CHAPTER_CONTENT_PARA_4">
+      <Text>Щоб здобути перемогу в культурній грі команди, кількість [ICON_Tourism] відвідувачів туристів окремого члена команди має перевищувати кількість [ICON_Tourism] внутрішніх туристів всіх цивілізацій, що не є членами команди. [ICON_Tourism] Відвідувачі туристів не діляться між членами команди.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_5_CHAPTER_CONTENT_TITLE">
+      <Text>Релігійна перемога</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Щоб отримати Релігійну перемогу, вам потрібно зробити свою Релігію переважаючою для кожної іншої головної цивілізації в грі. Це означає, що не всі міста цивілізації повинні слідувати вашій Релігії, просто більшість.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Хоча ваша Релігія буде поширюватися пасивно просто завдяки тому, що ви оселилися поруч з іншими гравцями, ваші Місіонери та Апостоли надають найкращу можливість досягнення перемоги.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_5_CHAPTER_CONTENT_PARA_3">
+      <Text>КОМАНДА РЕЛІГІЙНОЇ ПЕРЕМОГИ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_5_CHAPTER_CONTENT_PARA_4">
+      <Text>Щоб перемогти командну релігійну перемогу, релігії, засновані командою, повинні бути переважаючою релігією в кожній іншій цивілізації. Домінуючі релігії можуть бути будь-якої комбінації, якщо всі релігії були засновані членами команди.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_6_CHAPTER_CONTENT_TITLE">
+      <Text>Отримати перемогу</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_6_CHAPTER_CONTENT_PARA_1">
+      <Text>У багатьох іграх один з гравців перемагає, досягнувши одну з можливих перемог. Проте, якщо до 2050 року (або до заданого гравцем обороту) жоден гравець не досягне жодної з цих перемог, переможцем вважається цивілізація, що вижила, за її "бали". Бали за ваш рахунок заробляються за кількістю громадян, кількістю міст, кількістю технологій, кількістю "майбутніх технологій", кількістю див, військових досягнень, кількістю [ICON_GreatPerson] Великих Людей та кількістю Вірувань.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_6_CHAPTER_CONTENT_PARA_2">
+      <Text>КОМАНДНА ЗАЛІКОВА ПЕРЕМОГА</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_6_CHAPTER_CONTENT_PARA_3">
+      <Text>Граючи у команді, бали рахуються як сума балів цивілізацій кожного з учасників команди.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_TEAMS_NAME">
+      <Text>Команди</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_1_CHAPTER_CONTENT_TITLE">
+      <Text>Вступ</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Перед початком гри можна розподілити окремі цивілізації на команди для більш співпрацювального досвіду. Граючи як команда, учасники діляться різноманітними ігровими перевагами та можуть перемогти разом.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Гра командами зараз доступна у звичайних багатокористувацьких іграх та більшості багатокористувацьких сценаріїв.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_2_CHAPTER_CONTENT_TITLE">
+      <Text>Команда Дипломатичних Відносин</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Члени команди мають постійний дипломатичний союз. Застосовуються всі стандартні правила та переваги союзу.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_3_CHAPTER_CONTENT_TITLE">
+      <Text>Команда Спільна Війна</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Члени команди діляться статусом війни. Якщо член команди оголошує війну, умови заявленого Casus Belli застосовуються до всіх членів команди.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_4_CHAPTER_CONTENT_TITLE">
+      <Text>Команда спільного дослідження</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Члени команди частково діляться прогресом дослідження. Члени команди отримують технологічний буст для кожної технології, що належить члену команди.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_ESPIONAGE_CONFIRMATION">
+      <Text>{1_Ім'я}[NEWLINE][NEWLINE]{2_Вихідний продукт}[NEWLINE]{3_Заголовок}[NEWLINE]{4_Успішно}[NEWLINE]{5_Успішно втечі}[NEWLINE]{6_Не вдалося}[NEWLINE]{7_Не вдалося втечі}[NEWLINE]{8_Захоплення}[NEWLINE]{9_Вбитий}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_MISSION_HEADER">
+      <Text>ОПИС ЗАВДАННЯ[NEWLINE][NEWLINE]Ваше завдання: {1_Mission}[NEWLINE]Тривалість: {2_Num} Ходів</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_OPERATION_YIELD">
+      <Text>Успіх принесе {1_Award}. [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_OPERATION_CHANCES">
+      <Text>Можливі результати:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SUCCESS">
+      <Text>{1_Num}% - Успіх</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SUCCESS_ESCAPE">
+      <Text>{1_Num}% - Успіх, якщо вдалося втекти з міста</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FAILURE">
+      <Text>{1_Num}% - Невдача</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FAILURE_ESCAPE">
+      <Text>{1_Num}% - Не вдача та потреба в утіканні з міста</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_CAPTURED">
+      <Text>[COLOR_RED]{1_Num}%[ENDCOLOR] - спійманий шпигун</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_KILLED">
+      <Text>[COLOR_RED]{1_Num}%[ENDCOLOR] - Загинув шпигун</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_START_MISSION">
+      <Text>Приймати</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ABORT_MISSION">
+      <Text>Аборт</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_HEIST_REWARD">
+      <Text>Велика робота з району</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_PARTISAN_REWARD">
+      <Text>повстання незадоволених партізанів</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SABOTAGE_REWARD">
+      <Text>розграбування всіх будівель в районі Промислової Зони</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SIPHON_REWARD">
+      <Text>видобуток золота [ICON_Gold] у місті протягом наступних {1_Num} ходів</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ROCKETRY_REWARD">
+      <Text>видобуток здобичі в районі космічного порту ворога</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_TECH_REWARD">
+      <Text>підвищення технологій</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_GAIN_SOURCES">
+      <Text>ЗВІТ ПРО МІСІЮ[NEWLINE][NEWLINE]Ваша місія: отримати джерела[NEWLINE]Тривалість: {1_Num} ходів[NEWLINE][NEWLINE]Як тільки Шпигун витратить необхідний час на пошук місцевих контактів, ця місія автоматично успішна. Вона покращить шанси на всі оперативні дії Шпигуна у цьому місті на наступні {2_Duration} ходів.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LISTENING_POST">
+      <Text>БРИФІНГ МІСІЇ[NEWLINE][NEWLINE]Ваша місія: Послуховий пункт[NEWLINE]Тривалість: {1_Num} Ходів[NEWLINE][NEWLINE]Ця місія автоматично успішна. Її виконання підвищить ваш дипломатичний статус перед цивілізацією на 1 рівень.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PANEL_HEADER">
+      <Text>ПОСЛІДОВНІСТЬ ПОГОНІ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CITY_HEADER">
+      <Text>у {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_AGENT_LABEL">
+      <Text>Агент:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_LOOT">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_LOOT_LABEL">
+      <Text>Вилучення:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_BOOST_LOOT">
+      <Text>Таємниці {1_TechName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_LABEL">
+      <Text>Переслідуваний:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_POLICE">
+      <Text>Поліція</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_COUNTERSPY">
+      <Text>Поліція та агент {1_Counterspy}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_HEADER">
+      <Text>Виберіть, як ваш агент спробує втекти:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_1">
+      <Text>Літак</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_2">
+      <Text>Човен</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_3">
+      <Text>Транспортний засіб</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_4">
+      <Text>Нога</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_NO_DISTRICT">
+      <Text>Немає жодного {1_DistrictName} у місті</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_TURNS">
+      <Text>Обернень для повернення: {1_Turns}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_TOOLTIP">
+      <Text>Оберіть шлях виходу з міста для свого агента. Поліція найчастіше патрулює швидкі виходи, такі як Аеродром або Гавань. Вихід пішки завжди є найбезпечнішим варіантом.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_1_NAME">
+      <Text>Рекрут шпигун</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_2_NAME">
+      <Text>Агент</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_3_NAME">
+      <Text>Таємний Агент</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_4_NAME">
+      <Text>Майстер Шпигун</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SIPHON_ESTIMATE">
+      <Text>+{1_Amount} [ICON_Gold]</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_STEAL_TECH_ESTIMATE">
+      <Text>Викрасти {1_Amount} {1_Amount : plural 1?підсилювач; other?підсилювачів;} включаючи {2_TechName}.</Text>
+    </Row>
+    <!-- ==================== Espionage Text ==================== -->
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_HEADER">
+      <Text>Шпигуни для {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_NAME">
+      <Text>ШПИОНСЬКЕ ІМ'Я</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_LEVEL">
+      <Text>РІВЕНЬ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_PROMOTION">
+      <Text>ПРОМОЦІЯ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_CITY">
+      <Text>МІСТО</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_MISSION">
+      <Text>МІСІЯ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_TURNS">
+      <Text>ЗАЛИШИЛОСЬ ПОВОРОТІВ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_NO_MISSION">
+      <Text>none</Text>
+    </Row>
+    <!-- ==================== EspionageChooser ==================== -->
+    <Row Tag="LOC_ESPIONAGECHOOSER_PANEL_HEADER">
+      <Text>ВБУДУВАТИ ШПИГУНА</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_SELECT_A_CITY">
+      <Text>Оберіть місто для спрямування шпигунської діяльності.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_POSSIBLE_MISSIONS">
+      <Text>МОЖЛИВІ МІСІЇ:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_CONFIRM_PLACEMENT">
+      <Text>ПІДТВЕРДІТЬ РОЗМІЩЕННЯ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_CANCEL">
+      <Text>СКАСУВАТИ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_CHOOSE_MISSION">
+      <Text>ОБЕРІТЬ МІСІЮ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_GAIN_SOURCES_ACTIVE">
+      <Text>Джерела збільшення активовані! ({1_Turns}[Icon_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_SUCCESS_BOOSTED">
+      <Text>Успіх місії зросло</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_NO_BOOST_ACTIVE">
+      <Text>Немає активного підсилення</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_TRAVEL_TIME_TOOLTIP">
+      <Text>Час подорожі {1_TravelTime} {1_TravelTime: plural 1?обертання; other?обертань;} для подорожі до міста[NEWLINE]Час на освоєння {2_EstablishTime} {2_EstablishTime : plural 1?обертання; other?обертань;} для освоєння міста</Text>
+    </Row>
+    <!-- ==================== Spy Operation Details ==================== -->
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_LISTENING_POST">
+      <Text>Підвищує [ICON_VisLimited] дипломатичну видимість на 1 рівень.</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_GAIN_SOURCES">
+      <Text>Шпигуни будуть діяти на {1_Levels} {1_Levels : plural 1?рівні; few?рівня; many?рівнів} вище на {2_Turns} {2_Turns : plural 1?ході; few?ходах; many?ходах;}.</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_GREAT_WORK_HEIST">
+      <Text>Вкрасти {1_GreatWorkName} з цього міста</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_SABOTAGE_PRODUCTION">
+      <Text>Здійсніть розбій всіх будівель в промисловій зоні.</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_SIPHON_FUNDS">
+      <Text>Отримайте [ICON_Gold] виноски золота в місті {1_CityName} протягом тривалості місії. ({2_GoldString})</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_DISRUPT_ROCKETRY">
+      <Text>Вимкніть космодром у місті.</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_RECRUIT_PARTISANS">
+      <Text>Створіть повстанські групи в місті.</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_STEAL_TECH_BOOST">
+      <Text>Украсти технологічний підйом.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_COUNTERSPY">
+      <Text>Захистіть {1_District} (та всі прилеглі райони) від шпигунів ворожої сторони.</Text>
+    </Row>
+    <!-- ==================== EspionagePopup ==================== -->
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_BRIEFING">
+      <Text>ОПИС ЗАВДАННЯ: {1_MissionName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CURRENT_MISSION">
+      <Text>ПОТОЧНА МІСІЯ: {1_MissionName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_OBJECTIVE">
+      <Text>МЕТА МІСІЇ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_DETAILS">
+      <Text>ДЕТАЛІ МІСІЇ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_OUTCOME">
+      <Text>РЕЗУЛЬТАТ МІСІЇ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESS">
+      <Text>УСПІХ!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_FAILURE">
+      <Text>НЕВДАЧА</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_DURATION">
+      <Text>ТРИВАЛІСТЬ МІСІЇ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_TURNS">
+      <Text>{1_NumberOfTurns} {1_NumberOfTurns : plural 1?Хід; few?Ходи; many?Ходів;}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_TURNS_REMAINING">
+      <Text>Залишилося {1_RemainingTurns : plural=one{один хід} few{# ходи} many{# ходів} other{# ходів}}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_POSSIBLE_OUTCOMES">
+      <Text>МОЖЛИВІ РЕЗУЛЬТАТИ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_OUTCOME_DETAILS">
+      <Text>Наша розвідка прогнозує наступні ймовірності:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESS_OUTCOME_CHANCE">
+      <Text>Шанс на успішне виконання місії</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_FAILURE_OUTCOME_CHANCE">
+      <Text>Ймовірність невдачі місії</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CAPTUREDORKILLED_OUTCOME_CHANCE">
+      <Text>Ймовірність бути захопленим або вбитим</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_DISCOVERED_WARNING">
+      <Text>Якщо виявляться, що {1_TargetName}, вони втратять повагу до нас</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_TARGET">
+      <Text>ЦІЛЬ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_ACCEPT_MISSION">
+      <Text>ПРИЙНЯТИ МІСІЮ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_RENEW_MISSION">
+      <Text>ОНОВИТИ МІСІЮ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_ABORT_MISSION">
+      <Text>ПЕРЕРВАТИ МІСІЮ!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CANCEL">
+      <Text>СКАСУВАТИ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_GAIN_SOURCES_OUTCOME">
+      <Text>Це підвищить ваші шанси на будь-яку наступну операцію в цьому місті. Немає жодних ризиків для вашого шпигуна.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESSBUTTON">
+      <Text>OK</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_FAILUREBUTTON">
+      <Text>Я БАЧУ.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_REWARDS">
+      <Text>НАГОРОДИ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_PROMOTIONREADY">
+      <Text>Підвищення на ранг {1_NextRank}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENTREADYFORPROMOTION">
+      <Text>Агент готовий до просування. Використайте кнопку дії одиниці, щоб вибрати спеціальний бонус. {1_SpyName} також матиме підвищену ймовірність успіху в усіх майбутніх операціях.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_LOOTREWARD_TITLE">
+      <Text>Вкрав {1_LootName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_LOOTREWARD_DESCRIPTION">
+      <Text>Успішно здобуто {1_LootName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CONSEQUENCES">
+      <Text>НАСЛІДКИ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_RELATIONSHIP_DAMAGED_TITLE">
+      <Text>Пошкоджені стосунки</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_RELATIONSHIP_DAMAGED_DESC">
+      <Text>Наш опонент втратив до нас повагу.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_CAPTURED_TITLE">
+      <Text>Агент затриманий</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_CAPTURED_DESC">
+      <Text>{1_AgentName} був захоплений у місті {2_CityName}. Ви можете спробувати провести обмін для їх звільнення.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_KILLED_TITLE">
+      <Text>Агент загинув</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_KILLED_DESC">
+      <Text>{1_AgentName} був убитий у місті {2_CityName}.</Text>
+    </Row>
+    <!-- ==================== EspionageOverview ==================== -->
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_HEADER">
+      <Text>Оперативники</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_SUBHEADER">
+      <Text>ОПЕРАТИВНИКИ ({1_NumberOfSpies}/{2_SpyCapacity})</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_AWAITING_ASSIGNMENT">
+      <Text>Очікування призначення...</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MORE_TURNS">
+      <Text>Залишилося ще {1_RemainingTurns : plural 1?ход; other?ходів;}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY_ACTIVITY_HEADER">
+      <Text>Міська діяльність</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY_ACTIVITY_SUBHEADER">
+      <Text>МІСЬКА ДІЯЛЬНІСТЬ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY">
+      <Text>Місто</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TRANSIT_TO">
+      <Text>В транзиті до {1_DestinationName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED">
+      <Text>Захоплений (Zakhoplennyy)</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_ASK_FOR_TRADE">
+      <Text>Запит на торгівлю</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TRAVELING">
+      <Text>Подорожування</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_GREAT_WORK_TO_STEAL">
+      <Text>Немає Великої Роботи, яку можна вкрасти</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_TECH_BOOST_TO_STEAL">
+      <Text>Немає технологічного підсилення, яке можна вкрасти</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSION_HISTORY_HEADER">
+      <Text>Історія місії</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSION_HISTORY_SUBHEADER">
+      <Text>ІСТОРІЯ МІСІЇ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES">
+      <Text>ЗАЛОВЛЕНІ ШПИГУНИ:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_OFFER_TRADE">
+      <Text>Пропонуємо торгівлю</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_VIEW_CITY">
+      <Text>Перегляньте це місто на мапі.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TURNS_AGO">
+      <Text>{1_RemainingTurns} {1_RemainingTurns : plural 1?ход; few?ходи; many?ходів;} тому</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME">
+      <Text>Результат місії:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TARGETACQUIRED">
+      <Text>Ціль захоплена</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_FAILURE">
+      <Text>Невдача</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SUCCESS">
+      <Text>Успіх</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYCAUGHT">
+      <Text>Шпигун виявлений!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYKILLED">
+      <Text>Шпигун вбитий!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYAPPREHENDED">
+      <Text>Шпигун був затриманий</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_COUNTERSPY">
+      <Text>Місія з моніторингу {1_CityName} на наявність ворожих дій завершена без виявлення шпигунів.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_UNDETECTED">
+      <Text>Місія була успішною в місті {1_CityName}, шпигун не був виявлений.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_UNDETECTED_STOLELOOT">
+      <Text>Викрав {1_LootName} з міста {2_CityName} непомітно.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_STOLELOOT">
+      <Text>Спіймавши момент, викрав {1_LootName} і втік з міста {2_CityName}, уникаючи виявлення.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_ESCAPED">
+      <Text>Місія була успішною у місті {1_CityName}, і шпигун успішно уникнув захоплення після того, як його виявлено.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_CAPTURED">
+      <Text>Місія була успішною у місті {1_CityName}, проте шпигун був заарештований після того, як був виявлений.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_CAPTURED_STOLELOOT">
+      <Text>Місія по викраденню {1_Loot} була успішною у місті {2_CityName}, але шпигун був захоплений після виявлення.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_KILLED">
+      <Text>Місія була успішно виконана в місті {1_CityName}, але шпигун був убитий після виявлення.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_KILLED_STOLELOOT">
+      <Text>Місія зі здобуття {1_Loot} була успішною в місті {2_CityName}, але шпигун був убитий після виявлення.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_UNDETECTED">
+      <Text>Місія не вдалась у місті {1_CityName}, але шпигун залишився непоміченим.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_UNDETECTED_STOLELOOT">
+      <Text>Місія викрадення {1_Loot} провалилася в місті {2_CityName}, але шпигун не був виявлений.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_ESCAPED">
+      <Text>Місія провалена у місті {1_CityName}, але шпигун вдалося успішно уникнути захоплення після виявлення.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_ESCAPED_STOLELOOT">
+      <Text>Місія з викрадення {1_Loot} провалилася в місті {2_CityName}, але шпигун успішно уникнув захоплення після виявлення.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_CAPTURED">
+      <Text>Місія не вдалася в місті {1_CityName} і шпигун був захоплений після виявлення.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_CAPTURED_STOLELOOT">
+      <Text>Місія зі здобуття {1_Loot} провалилася у місті {2_CityName}, шпигун був виявлений та заарештований.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_KILLED">
+      <Text>Місію не вдалося виконати у місті {1_CityName}, шпигуна було виявлено та вбито.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_KILLED_STOLELOOT">
+      <Text>Місія по крадіжці {1_Loot} не вдалася у місті {2_CityName}, і шпигун був вбитий після виявлення.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_GOLD">
+      <Text>[ICON_Gold] {1_AmountOfGold} Золота</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_NO_GOLD">
+      <Text>[ICON_Gold] Золото</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_KILLED">
+      <Text>Шпигун був вбитий під час місії в місті {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_KILLED_STOLELOOT">
+      <Text>Шпигун був вбитий під час місії зі здобуття {1_Loot} у місті {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_CAPTURED">
+      <Text>Шпигун був захоплений під час місії у місті {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_CAPTURED_STOLELOOT">
+      <Text>Шпигун був захоплений під час місії зі здобуття {1_Loot} у місті {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_NOMISSIONHISTORY">
+      <Text>Недавніх розвідувальних місій не було</Text>
+    </Row>
+    <!-- ==================== Speculative text for temporary Captured Spies tab (which would become part of Mission History) ==================== -->
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES_HEADER">
+      <Text>Захоплені шпигуни</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES_SUBHEADER">
+      <Text>СПОЙМАНІ ШПИГУНИ</Text>
+    </Row>
+    <!-- ==================== UnitPanel - Espionage ==================== -->
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_LOCATED_IN">
+      <Text>Розташований у</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_MORE_TURNS">
+      <Text>Ще {1_RemainingTurns : plural=one{один хід} few{# хода} many{# ходів} other{# ходів}} залишилося</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_AWAITING_ASSIGNMENT">
+      <Text>Очікуйте на призначення завдання...</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_SPY_RANK">
+      <Text>{1_RankName} (рівень {2_RankLevel})</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_CANCEL_MISSION">
+      <Text>Скасувати місію</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_CHOOSE_MISSION">
+      <Text>Оберіть місію</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SPY_TRADE_DISABLED_AT_WAR">
+      <Text>[COLOR_RED]Торгівля з {1_SpyName} в даний момент не можлива. Ви перебуваєте у війні з {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_OPERATIVES">
+      <Text>Відправте шпигуна до одного з ваших міст, щоб побачити його статус тут.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_CITIES">
+      <Text>Побудуйте своє місто або відкрийте місто іншої цивілізації, щоб переглянути її шпигунську діяльність тут.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_HISTORY">
+      <Text>Виконуйте розвідувальні місії, щоб переглянути історію своїх місій тут.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

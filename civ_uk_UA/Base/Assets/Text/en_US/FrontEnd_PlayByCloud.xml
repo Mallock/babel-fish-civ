@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <FrontEndText>
+    <Row Tag="LOC_PLAY_MULTIPLAYER_HAVE_CLOUD_NOTIFY">
+      <Text>[ICON_Exclamation] Багатокористувацька гра</Text>
+    </Row>
+    <Row Tag="LOC_PLAY_MULTIPLAYER_UNSEEN_COMPLETE_GAME">
+      <Text>[ICON_Exclamation] Мультиплеєр</Text>
+    </Row>
+    <Row Tag="LOC_PLAY_MULTIPLAYER_NEW_MP_MODE">
+      <Text>[ICON_Exclamation] Багатокористувацька гра</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_GAME">
+      <Text>Грайте у хмарах</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_GAME_HAVE_CLOUD_NOTIFY">
+      <Text>[ICON_Exclamation] Грайте через Хмару</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_UNSEEN_COMPLETE_GAME">
+      <Text>[ICON_Exclamation] Грайте у хмарі</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_NEW_MODE">
+      <Text>[ICON_Exclamation] Грайте у хмарі</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_GAME_TT">
+      <Text>Грайте в асинхронну багатокористувацьку гру, яка буде збережена в хмарі та буде спільною для всіх гравців. Для цього потрібне активне підключення до серверів Civilization.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_GAME_NO_LOGIN_TT">
+      <Text>Не ввійшов на сервери гри Civilization.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_GAME_HAVE_TURN_TT">
+      <Text>Це ваш черга в грі «Гра в хмарі».</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_GAME_GAME_READY_TT">
+      <Text>Один з ваших ігор Play By Cloud готовий до старту.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_UNSEEN_COMPLETE_GAME_TT">
+      <Text>Один з ваших ігор Play By Cloud щойно завершився.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_GAME_NEW_MODE_TT">
+      <Text>Новий режим гри в мультиплеєрі доступний!</Text>
+    </Row>
+    <Row Tag="LOC_PLAYBYCLOUD_REMOTE_READY_POPUP_TITLE">
+      <Text>Готовий грати</Text>
+    </Row>
+    <Row Tag="LOC_PLAYBYCLOUD_REMOTE_READY_POPUP_TEXT">
+      <Text>Ви готові до цієї гри. Ви будете сповіщені на головному меню та в лобі Play By Cloud, коли настане ваш черга. Ви можете безпечно вийти з цієї гри та грати додаткові одиночні або багатокористувацькі ігри.</Text>
+    </Row>
+    <Row Tag="LOC_PLAYBYCLOUD_REMOTE_READY_POPUP_OK">
+      <Text>НІЧОГО НЕ РОБІТЬ</Text>
+    </Row>
+    <Row Tag="LOC_PLAYBYCLOUD_REMOTE_READY_POPUP_LOBBY_EXIT">
+      <Text>ВИХІД ДО ЛОБІ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_LOBBY">
+      <Text>Грай за хмарою</Text>
+    </Row>
+    <!-- Cloud Game Screen -->
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_LIST">
+      <Text>Список</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_TEMPLATE">
+      <Text>Шаблон</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_HOST">
+      <Text>Господар</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_JOIN">
+      <Text>Приєднуйся</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CLOUD_START">
+      <Text>Початок</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_MY_GAMES">
+      <Text>Мої ігри</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_MY_GAMES_TT">
+      <Text>Показати активні ігри, у яких ви берете участь.</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_OPEN_GAMES">
+      <Text>Відкриті Ігри</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_OPEN_GAMES_TT">
+      <Text>Показати громадські ігри, які можна приєднатися.</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_COMPLETED_GAMES">
+      <Text>Завершені ігри</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_COMPLETED_GAMES_TT">
+      <Text>Показати історію ігор, які ви завершили.</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_COMPLETED_GAMES_UNSEEN">
+      <Text>[ICON_Exclamation] Завершені ігри</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_COMPLETED_GAMES_UNSEEN_TT">
+      <Text>Один з ваших ігор Play By Cloud нещодавно завершився.[NEWLINE][NEWLINE]Показати історію зіграних ігор.</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_GAME_YOUR_TURN_TOOLTIP">
+      <Text>Це твій черга у цій грі.</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_GAME_GAME_READY_TOOLTIP">
+      <Text>Гра готова до початку.</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_GAME_UNSEEN_COMPLETE_TOOLTIP">
+      <Text>Ця гра була недавно завершена.</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_GAME_CLOUD_PLAYER_TURN_TOOLTIP">
+      <Text>Це черга гравця {1_playerName} у цій грі.</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_GAME_NAME_YOUR_TURN">
+      <Text>[ICON_Exclamation] {1_gameName} (укр. {1_gameName})</Text>
+    </Row>
+    <Row Tag="LOC_LOBBY_GAME_NAME_UNSEEN_COMPLETE">
+      <Text>[ICON_Exclamation] {1_gameName} (укр. {1_gameName})</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_PLAYBYCLOUD_REMOTE_READY">
+      <Text>Очікування початку гри</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_PLAYBYCLOUD_REMOTE_READY_TT">
+      <Text>Чекаю, коли господар розпочне гру.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_NOT_ENOUGH_HUMANS">
+      <Text>Недостатньо гравців людської раси</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_NOT_ENOUGH_HUMANS_TT">
+      <Text>Не можу запустити гру. Для початку потрібно два людських гравці.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MULTIPLAYER_HAVE_CLOUD_TURN_TT">
+      <Text>Ваша черга у грі Play By Cloud.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MULTIPLAYER_GAME_READY_TT">
+      <Text>Один з твоїх ігор "Грай через Хмару" готовий до старту.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MULTIPLAYER_UNSEEN_COMPLETE_GAME_TT">
+      <Text>Один з ваших ігор "Play By Cloud" нещодавно завершився.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MULTIPLAYER_NEW_MP_MODE_TT">
+      <Text>Новий мультиплеєрний режим доступний!</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MULTIPLAYER_BASE_TT">
+      <Text>Грати через хмару, Інтернет, мережеві та гарячі матчі можна налаштувати або приєднатися тут.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_PITBOSS_LOBBY">
+      <Text>ПІТБОС ГЕЙМС</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_PITBOSS_GAME">
+      <Text>Пітбосс</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_PITBOSS_GAME_TT">
+      <Text>Грайте в багатокористувацьку гру, де віддалений сервер управляє грою на протязі тривалого часу.</Text>
+    </Row>
+    <!-- Multiplayer Joining Room Screen -->
+    <Row Tag="LOC_MP_ROOM_TOO_MANY_MATCHES">
+      <Text>Неможливо приєднатися до гри. Ви вже перевищили максимально допустиму кількість активних ігор "Грай за хмарою".</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_TOO_MANY_MATCHES_TITLE">
+      <Text>Занадто багато матчів</Text>
+    </Row>
+    <!-- Lobby Screen -->
+    <Row Tag="LOC_MULTIPLAYER_PLAY_GAME">
+      <Text>Грати в гру</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_PLAY_GAME_TT">
+      <Text>Продовжуйте грати у мультиплеєрну гру, в якій ви вже берете участь.</Text>
+    </Row>
+    <!-- Join Code Popup  -->
+    <Row Tag="LOC_JOIN_CODE_POPUP_TITLE">
+      <Text>Приєднуйтесь за кодом приєднання</Text>
+    </Row>
+    <Row Tag="LOC_JOIN_CODE_POPUP_TEXT">
+      <Text>Приєднуйтесь до гри, використовуючи код приєднання. Код приєднання можна знайти в розділі Огляд гри в Кімнаті підготовки гри. Коди приєднання чутливі до регістру.</Text>
+    </Row>
+    <Row Tag="LOC_JOIN_CODE_POPUP_EDITBOX">
+      <Text>Приєднуйся код:</Text>
+    </Row>
+    <Row Tag="LOC_JOIN_CODE_POPUP_CANCEL">
+      <Text>Скасувати</Text>
+    </Row>
+    <!-- Staging Room -->
+    <Row Tag="LOC_START_WAITING_FOR_TURN">
+      <Text>Чекаючи своєї черги</Text>
+    </Row>
+    <Row Tag="LOC_START_WAITING_FOR_TURN_TT">
+      <Text>Клацніть, щоб переглянути поточний стан світу гри.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_QUIT_GAME">
+      <Text>ВІДМОВИТИСЯ / ЗВІЛЬНИТИСЯ</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_QUIT_GAME_TITLE">
+      <Text>Вийти з гри</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_QUIT_GAME_WARNING">
+      <Text>Ви впевнені, що бажаєте покинути цю гру з багатьма гравцями? Ваш прогрес буде втрачено, і вас буде видалено з цієї гри.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_QUITING_GAME_TITLE">
+      <Text>Зупинити гру</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_QUITING_GAME_PROMPT">
+      <Text>Вихід із гри...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_QUITING_GAME_FAIL_TITLE">
+      <Text>Помилка вихідного коду</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_QUITING_GAME_FAIL">
+      <Text>Помилка при виході з гри.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_QUITING_GAME_FAIL_ACCEPT">
+      <Text>Ok</Text>
+    </Row>
+    <Row Tag="LOC_STAGING_ROOM_JOIN_CODE">
+      <Text>Приєднуйтеся за кодом:</Text>
+    </Row>
+    <Row Tag="LOC_STAGING_ROOM_COPY_JOIN_CODE">
+      <Text>Клацніть на "Код приєднання", щоб скопіювати</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_END_GAME_TITLE">
+      <Text>Видалити гру</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_END_GAME_WARNING">
+      <Text>Ви впевнені, що хочете видалити цю багатокористувацьку гру? Це призведе до закінчення гри для всіх гравців.</Text>
+    </Row>
+    <!-- Options Screen -->
+    <Row Tag="LOC_OPTIONS_WEBHOOK_URL">
+      <Text>URL вебхука для гри у хмарі:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WEBHOOK_FREQ">
+      <Text>Частота вебхука для гри в хмарі:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WEBHOOK_MODE">
+      <Text>Режим "Гра через хмару":</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WEBHOOK_MODE_TOOLTIP">
+      <Text>Режим A - Сумісний з IFTTT[NEWLINE] Змінні JSON Payload[NEWLINE][ICON_Bullet]"value1" = Назва гри[NEWLINE][ICON_Bullet]"value2" = Ім'я гравця[NEWLINE][ICON_Bullet]"value3" = Хід гри[NEWLINE]Режим B - Сумісний з Discord[NEWLINE]Змінні JSON Payload[NEWLINE][ICON_Bullet]"content" = Повідомлення повідомлення</Text>
+    </Row>
+    <Row Tag="LOC_WEBHOOK_FREQ_MY_TURN">
+      <Text>Мій черга</Text>
+    </Row>
+    <Row Tag="LOC_WEBHOOK_FREQ_EVERY_TURN">
+      <Text>Кожний поворот</Text>
+    </Row>
+    <Row Tag="LOC_WEBHOOK_PAYLOAD_MODE_A">
+      <Text>Режим A</Text>
+    </Row>
+    <Row Tag="LOC_WEBHOOK_PAYLOAD_MODE_B">
+      <Text>Режим B</Text>
+    </Row>
+    <!-- PlayByCloud Notification Reminder Popup -->
+    <Row Tag="LOC_PBC_NOTIFY_REMINDER_TITLE">
+      <Text>Налаштуйте свої сповіщення!</Text>
+    </Row>
+    <Row Tag="LOC_PBC_OVERVIEW_DESC">
+      <Text>Play By Cloud - це асинхронний багатокористувацький формат, в якому всі гравці роблять свої ходи відносно спільного файлу збереження, який зберігається на хостинговому сервері. Це більш сучасна версія "передачі файлу збереження", яка була стародавньою практикою, коли друзі ділилися дискетою зі спільним файлом збереження (якщо ви не знайомі з концепцією "дискети", будь ласка, запитайте поважної дорослої людини). [NEWLINE][NEWLINE] Гра в режимі Play By Cloud може тривати довго (до декількох днів або тижнів), так як кожен гравець робить свій хід в час, який їм зручний. Ви отримуватимете повідомлення, коли прийде ваш черга грати. Ви можете побачити повідомлення від Steam, якщо воно є активним, або використовувати веб-хуки. Веб-хуки - це загальний формат повідомлень, який технічно обізнані користувачі можуть інтегрувати в інші служби месенджерів, електронної пошти або пристроїв Інтернету речей. [NEWLINE][NEWLINE] У асинхронному мультиплеєрі вважається культурним бути повністю присутнім, щоб тримати гру в русі. У стародавні часи гравці морально зобов'язані були захищати дискету від пошкодження, і недобросовісні гравці вдалися до "втрати" файлу збереження, коли опинилися в неприємному положенні. Play By Cloud усуває таку злочинну поведінку</Text>
+    </Row>
+    <Row Tag="LOC_PBC_NOTIFY_REMINDER_DESC">
+      <Text>Ми рекомендуємо вам увімкнути сповіщення перед початком гри в режимі Play By Cloud. [NEWLINE][NEWLINE] Вам потрібно налаштувати сповіщення, щоб отримувати їх поза грою Sid Meier's Civilization VI</Text>
+    </Row>
+    <Row Tag="LOC_DO_NOT_REMIND_ALT">
+      <Text>Не нагадуйте</Text>
+    </Row>
+    <Row Tag="LOC_DO_NOT_REMIND_ALT_TT">
+      <Text>Ніколи більше не показувати цей нагадування.</Text>
+    </Row>
+    <Row Tag="LOC_DO_NOT_REMIND">
+      <Text>Не показувати це знову</Text>
+    </Row>
+    <Row Tag="LOC_DO_NOT_REMIND_TT">
+      <Text>Ніколи більше не показувати це нагадування.</Text>
+    </Row>
+  </FrontEndText>
+</GameData>

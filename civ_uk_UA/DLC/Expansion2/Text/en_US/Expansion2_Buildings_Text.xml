@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!--New for XP2-->
+    <Row Tag="LOC_BUILDING_FLOOD_BARRIER_NAME">
+      <Text>Затоплення бар'єр</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FLOOD_BARRIER_DESCRIPTION">
+      <Text>Захищає прибережні низовинні плити цього міста від затоплення. Початкова вартість будівництва та щорічне утримання залежать від кількості прибережних низовинних плит у цьому місті та поточного рівня моря. Якщо будівельні роботи проводяться після того, як деякі плити міста зазнали затоплення, ті плити можуть бути повністю відновлені. Однак занурені плити не можуть бути відновлені.[NEWLINE][NEWLINE]Має бути побудований у місті з однією або більше прибережними низовинними плитами. Не буде спустошений, якщо місто буде захоплено.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FLOOD_BARRIER_ALT_DESCRIPTION">
+      <Text>Захищає прибережні низовинні плити в цьому місті від повеней. Початкова вартість будівництва та плата за технічне обслуговування на кожен хід є змінними залежно від кількості Прибережних низовинних плит у цьому місті та поточного рівня моря. Якщо споруджується після того, як деякі плити міста затоплено, ці плити можна повністю відновити. Однак занурені плити ніколи не можна відновити.[NEWLINE][NEWLINE]Має бути побудований у місті з однією або декількома Прибережними низовинними плитами. Не буде розграбований, якщо місто захоплено. Військові інженери можуть використовувати заряд, щоб завершити 20% виробництва Поплавкового бар'єру.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HYDROELECTRIC_DAM_NAME">
+      <Text>Гідроелектростанція</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION">
+      <Text>Забезпечує місто +6 [ICON_Power] енергією з відновлюваних водних джерел.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_COAL_POWER_PLANT_NAME">
+      <Text>Електростанція на вугіллі</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION">
+      <Text>Автоматично перетворює будь-яку кількість [ICON_RESOURCE_COAL] вугілля в [ICON_Power] електроенергію для міст, що потребують її, в радіусі 6 тайлів кожен хід за таким курсом:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_COAL] вугілля [ICON_PowerRight] 4 [ICON_Power] електроенергії[NEWLINE][ICON_Bullet]Велика кількість CO2 в атмосфері</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME">
+      <Text>Нафтова електростанція</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION">
+      <Text>Automatically converts any amount of [ICON_RESOURCE_OIL] Oil into [ICON_Power] Power for cities within 6 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_OIL] Oil [ICON_PowerRight] 4 [ICON_Power] Power[NEWLINE][ICON_Bullet]Moderate CO2 into the atmosphere[NEWLINE]Its [ICON_Production] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from a Power Plant building.</Text>
+    </Row>
+    <!--Wonders-->
+    <Row Tag="LOC_BUILDING_GREAT_BATH_NAME">
+      <Text>Велика Лазня</Text>
+      <Gender>Masculine:the</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION">
+      <Text>Тайли повздовж річки в районі Великої Ванни, що затоплюються, тепер імунні до пошкоджень від повені (хоча бонуси [ICON_FOOD] Їжі та [ICON_PRODUCTION] Виробництва з затоплення зменшуються на 50%). Тайли повеневих рівнин, що належать цьому місту, отримують +1 [ICON_FAITH] Віри за кожен раз, коли зменшується пошкодження від повені. [NEWLINE] [NEWLINE] Має бути побудований на тайлі повеневої рівнини.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MEENAKSHI_TEMPLE_NAME">
+      <Text>Храм Мінакші</Text>
+      <Gender>Masculine:the</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_MEENAKSHI_TEMPLE_DESCRIPTION">
+      <Text>Надає знижку у 30% на придбання Гуру. Релігійні одиниці поруч з Гуру отримують +5 [ICON_Religion] Релігійної сили у богословському бою та +1 [ICON_Movement] Руху. Має бути побудований поруч із Святинею, а також потребує заснування Релігії.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_UNIVERSITY_SANKORE_NAME">
+      <Text>Університет Санкоре</Text>
+      <Gender>Masculine:the</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION">
+      <Text>Торгові шляхи інших цивілізацій, що ведуть до цього міста [ICON_TradeRoute], надають їм +1 [ICON_SCIENCE] науки та +1 [ICON_GOLD] золота. +2 [ICON_SCIENCE] науки за кожен [ICON_TradeRoute] торговий шлях до цього міста. Внутрішні [ICON_TradeRoute] торгові шляхи додають до цього міста додатково +1 [ICON_FAITH] віри. [NEWLINE][NEWLINE] Місто має бути побудоване на пустелі або пустельних пагорбах, поруч з кампусом з університетом.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_NAME">
+      <Text>Мачу-Пікчу</Text>
+      <Gender>Masculine:no_article</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_DESCRIPTION">
+      <Text>Гірські плитки надають стандартний бонус суміжності для районів Торгового центру, Театрального майданчика та Промислової Зони у всіх містах.[NEWLINE][NEWLINE]Повинні бути побудовані на гірській плитці, що не містить вулкану.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ORSZAGHAZ_NAME">
+      <Text>Оршаша́г (Országház)</Text>
+      <Gender>Masculine:no_article</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION">
+      <Text>+100% [ICON_Favor] Дипломатичних послуг щоворуші від початку ходу як Сюзерен міста-держави. [NEWLINE] [NEWLINE] Має бути побудована на річці.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PANAMA_CANAL_NAME">
+      <Text>Панамський канал</Text>
+      <Gender>Masculine:the</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_PANAMA_CANAL_DESCRIPTION">
+      <Text>Після завершення будівництва автоматично будуть побудовані 1 або 2 прилеглих канальних райони. На плиті дива Панамський канал тепер можуть переходити морські одиниці. [ICON_TradeRoute] Торгові маршрути, які проходять через нього, можуть множити [ICON_Gold] золото, яке вони отримують від районів у пункті призначення. [NEWLINE][NEWLINE]Потрібно побудувати на плоскій земельній плиті, де є дві прилеглі плити, які безпосередньо перетинають будівельну плиту одна з одною і відповідають наступним критеріям: одна прилегла плита повинна мати законне право на утримання канального району, що з'єднується з будівельною плитою Панамського каналу; інша повинна бути містом, водною плитою або іншою плитою, яка може утримувати з'єднуючий канал.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_NAME">
+      <Text>Міст Золоті Ворота</Text>
+      <Gender>Masculine:the</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_DESCRIPTION">
+      <Text>Land units can cross without needing to embark. Acts as Modern Road and creates Modern Roads (if not present) in land tiles on either end. City gains +3 [ICON_Amenities] Amenities. All tiles in this city +4 Appeal. +100% [ICON_Tourism] Tourism from improvements and National Parks in this city. [ICON_TradeRoute] Trade Routes traveling through it can multiply the [ICON_Gold] Gold they get from districts at their destination.[NEWLINE][NEWLINE]Must be built on a Coast tile. The bridge must run straight across the hex between two land tiles directly opposite one another. At least one water tile must be present on both the left and right sides of the bridge.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_JEBEL_BARKAL_EXPANSION2_DESCRIPTION">
+      <Text>Надає 6 [ICON_RESOURCE_IRON] Заліза на хід. Надає +4 [ICON_Faith] Віри всім вашим містам, якщо вони знаходяться в радіусі 6 тайлів. [NEWLINE] [NEWLINE] Має бути побудований на пустелі (пагорбах).</Text>
+    </Row>
+    <!-- Other balance changes -->
+    <Row Tag="LOC_BUILDING_BIG_BEN_DESCRIPTION">
+      <Text>+1 слот економічної політики. +50% [ICON_Gold] Золота. [NEWLINE][NEWLINE] Потрібно побудувати поруч з річкою, прилеглою до району комерційної гавани з банком.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MAHABODHI_TEMPLE_EXPANSION2_DESCRIPTION">
+      <Text>+2 дипломатичні очки перемоги та дає 2 апостолів після будівництва.[NEWLINE][NEWLINE]Має бути збудована на лісі поруч з округою Святого місця з храмом, і ви повинні заснувати релігію.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_STATUE_LIBERTY_EXPANSION2_DESCRIPTION">
+      <Text>+4 Дипломатичних очки перемоги при будівництві. Всі ваші міста в радіусі 6 тайлів завжди залишаються 100% вірними. [NEWLINE][NEWLINE] Має бути побудовано на березі, поряд з землею та портом.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_POTALA_PALACE_EXPANSION2_DESCRIPTION">
+      <Text>+1 Слот дипломатичної політики. +1 Дипломатичний очко перемоги.[NEWLINE][NEWLINE]Має бути побудований на пагорбі поруч з горою.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_AIRPORT_DESCRIPTION">
+      <Text>+50% бойового досвіду для повітряних одиниць, навчених в цьому місті. +1 слот для повітряних одиниць в районі Аеродрому. Дозволяє перевезення наземних одиниць повітряним транспортом між районами Аеродрому з Аеропортами, після того, як досвід Гнучкого розгортання буде розблоковано.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HANGAR_DESCRIPTION">
+      <Text>+25% бойового досвіду для повітряних одиниць, підготовлених у цьому місті. +1 слот для повітряних одиниць у районі Аеродрому.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_NAME">
+      <Text>Атомна електростанція</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION">
+      <Text>Автоматично перетворює будь-яку кількість [ICON_RESOURCE_URANIUM] Урану на [ICON_Power] Енергію для міст в радіусі 6 плиток, які потребують її кожен хід, за курсом:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_URANIUM] Уран [ICON_PowerRight] 16 [ICON_Power] Енергії[NEWLINE][ICON_Bullet]Мінімальна кількість СО2 в атмосфері[NEWLINE]Після побудови, зі старінням Атомної Електростанції збільшується ймовірність Ядерної Аварії. Бонуси [ICON_Production] Виробництва та [ICON_Science] Науки поширюються на всі Центри Міст в радіусі 6 плиток, які ще не отримали бонусу від побудованої Електростанції.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_BIG_BEN_EXPANSION2_DESCRIPTION">
+      <Text>+1 слот економічної політики[NEWLINE][NEWLINE]Відразу після будівництва [ICON_GOLD] Золото в скарбниці збільшується на 50%. Має бути побудований поруч з річкою, прилегло до району комерційного центру з банком.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_BARRACKS_EXPANSION2_DESCRIPTION">
+      <Text>+25% бойового досвіду для всіх ближньо- та дальньобойних сухопутних військових одиниць, навчених у цьому місті.[NEWLINE]Збільшення запасів стратегічних ресурсів на +10 (на стандартній швидкості).[NEWLINE][NEWLINE]Не може бути побудований в районі Табору, що вже має конюшню.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_STABLE_EXPANSION2_DESCRIPTION">
+      <Text>+25% бойового досвіду для всіх кінних та осадних одиниць, навчених у цьому місті. [NEWLINE] Запаси стратегічних ресурсів збільшені на +10 (зі стандартною швидкістю). [NEWLINE] [NEWLINE] Не може бути побудований в окрузі табору, в якій вже є казарми.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ARMORY_EXPANSION2_DESCRIPTION">
+      <Text>+25% бойового досвіду для всіх сухопутних військ, що навчаються в цьому місті.[NEWLINE]Запаси стратегічних ресурсів збільшено на +10 (на стандартній швидкості).</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MILITARY_ACADEMY_EXPANSION2_DESCRIPTION">
+      <Text>+25% досвіду бойових дій для всіх сухопутних військ, навчених у цьому місті.[NEWLINE]Запаси стратегічних ресурсів збільшені на +10 (на стандартній швидкості).[NEWLINE]Дозволяє непосредственно тренувати корпуси та армії. Вартість навчання корпусів та армій зменшена на 25%.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION">
+      <Text>Його бонус виробництва [ICON_Production] поширюється на всі центри міст, що знаходяться в радіусі 6 клітинок і не мають бонусу від цього типу будівлі.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CASTLE_EXPANSION2_DESCRIPTION">
+      <Text>Збільшує міцність вашої зовнішньої оборони. Після переходу до громадянської науки Консервації, надає 2 [ICON_TOURISM] Туризму. Це місто не піддається впливу Налітачів.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_STAR_FORT_EXPANSION2_DESCRIPTION">
+      <Text>Підвищує міць вашої зовнішньої оборони до найвищого рівня. Забезпечує 3 [ICON_TOURISM] Туризму після переходу до культурного положення "Охорона природи". Це місто не піддається впливу осадних веж та таранів.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION">
+      <Text>+25% досвіду в бою для всіх морських одиниць, навчених у цьому місті. +1 [ICON_FOOD] Їжі на всіх узбережжях для цього міста. +2 [ICON_HOUSING] Житла, якщо це місто примикає до узбережжя. +1 [ICON_TradeRoute] Потужність торгового маршруту, якщо це місто ще не має ринкової будівлі.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION">
+      <Text>+25% бойового досвіду для всіх морських одиниць, навчених у цьому місті. Бонус [ICON_Production] виробництва, рівний бонусу сусідньої затоки. +1 [ICON_PRODUCTION] виробництва на всіх неполіпшених узбережних та озерних плитах для цього міста</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION">
+      <Text>+1 [ICON_Favor] Дипломатичний Кредит на кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_DAR_E_MEHR_EXPANSION2_DESCRIPTION">
+      <Text>+1 додаткова [ICON_FAITH] Віра за кожну еру з моменту побудови або останнього ремонту. Не може бути розграбована природними катастрофами.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION">
+      <Text>+3 [ICON_Favor] Дипломатичних послуг. Використання міст-держав коштує наполовину менше [ICON_Gold] Золота. [NEWLINE] Одиниці міст-держав отримують +4 [ICON_Strength] бойової міці, якщо ви є їхнім сузереном (включаючи використані одиниці). [NEWLINE] Нагороджує +1 [Icon_Governor] Титул Губернатора.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

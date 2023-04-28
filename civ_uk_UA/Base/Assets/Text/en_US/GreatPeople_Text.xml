@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- UI -->
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_DEFAULT">
+      <Text>Активований ефект</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_CREATE_GREAT_WORK">
+      <Text>Створюйте велике діло</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_FOUND_RELIGION">
+      <Text>Знайшов релігію</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_RETIRE">
+      <Text>Вийти на пенсію</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_CHARGES">
+      <Text>{1_ChargeAmount} {1_ChargeAmount : plural 1?оплата; few?оплати; many?оплат}</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_FOUND_RELIGION">
+      <Text>Активуйте в районі Священного Місця або Стоунхендж.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CREATE_GREAT_WORK">
+      <Text>Активуйте в районі або дивіться з наявним слотом для великих творів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNOWNED_TILE">
+      <Text>Активуйте на плитці, яку не володіє жоден гравець.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ENEMY_TERRITORY">
+      <Text>Активуйтеся на території ворога.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_NONHOSTILE_TERRITORY">
+      <Text>Активуватися на території недружньої зарубіжної держави.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CITY_STATE_TERRITORY">
+      <Text>Активуйте на території міської держави.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_SUZERAIN_TERRITORY">
+      <Text>Активуйте на території міст-держави, якою ви є сюзереном.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_DOES_NOT_NEED_OWNED_TILE">
+      <Text>Може активуватись навіть на плитках, які ви не володієте.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OWNED_TILE">
+      <Text>Активуйте на плитці, яку Ви володієте.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_BARBARIAN_UNIT">
+      <Text>Активувати поряд з військами Варварів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_MOUNTAIN">
+      <Text>Активуйте поруч з горою.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_TO_OWNED_TILE">
+      <Text>Активуйте поруч з плиткою, яка належить вам.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CITY_GREAT_WORK_OBJECT">
+      <Text>Активуйте у місті з {LOC_GRAMMAR_A_AN_WITH_ICON &lt;&lt; {1_GreatWorkObjectTypeName} &lt;&lt; {2_IconString}} великим твором.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_COMPLETED_DISTRICT">
+      <Text>Активуйте в районі {1_DistrictName}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_INCOMPLETE_SPACE_RACE_PROJECT">
+      <Text>Активуйте проект Космічної гонки, який будується.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_INCOMPLETE_WONDER">
+      <Text>Активуйте на чуді знаходяться в стадії будівництва.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT">
+      <Text>Активуйте на військовій земельній одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_SEA_UNIT">
+      <Text>Активуйте на військовому морському підрозділі.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_AIR_UNIT">
+      <Text>Активуйте на військову авіаодиницю.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_NO_MILITARY_UNIT">
+      <Text>Активуйте на плитці без військової одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT_WITHIN_RANGE">
+      <Text>Активувати на військовій земельній одиниці за межею {1_Distance} плиток.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OR_ADJACENT_TO_FEATURE">
+      <Text>Активуйте на або поруч з плиткою з {1_FeatureName}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OR_ADJACENT_TO_NATURAL_WONDER">
+      <Text>Активуйте поруч з природним дивом або на його території.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_STANDARD_MILITARY_FORMATION">
+      <Text>Активуйте на військову частину, яка не є корпусом або армією.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_CORPS_MILITARY_FORMATION">
+      <Text>Активуйте на військову частину корпусу.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_ARMY_MILITARY_FORMATION">
+      <Text>Активуйте на військовій частині Армії.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_STANDARD_MILITARY_FORMATION_SEA">
+      <Text>Активуйте на військову частину, яка не є флотом або армадою.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_CORPS_MILITARY_FORMATION_SEA">
+      <Text>Активуйте на військовій частині Флоту.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_ARMY_MILITARY_FORMATION_SEA">
+      <Text>Активуйте на військовій флотилії.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_LUXURY_RESOURCE">
+      <Text>Активувати на розкішний ресурс.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ANYWHERE">
+      <Text>Активувати на будь-якій плитці.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_OPEN_PLAYER_RELIC_SLOT">
+      <Text>Маєте мати відкритий слот великої праці [ICON_GreatWork_Relic] Реліквії в одному зі своїх міст.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MISSING_BUILDING">
+      <Text>Місто не повинно мати будівлю {1_BuildingName}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_GOLD_COST">
+      <Text>Дія коштує {1_GoldAmount} [ICON_Gold] Золота.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_EFFECT_FOUND_RELIGION">
+      <Text>Заснував Релігію та зробив це місто святим містом.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_EFFECT_GREAT_WORK_OBJECT">
+      <Text>{1_GreatWorkName} ({2_GreatWorkObjectIconString} {3_GreatWorkObjectName}).</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_PASSIVE_NAME_DEFAULT">
+      <Text>Пасивний ефект</Text>
+    </Row>
+    <!-- Shared by Multiple Classes -->
+    <Row Tag="LOC_GREATPERSON_GOLD">
+      <Text>Отримайте {Amount} {YieldType} негайно.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMPUTERSTECHBOOST">
+      <Text>Спричинює натхнення [ICON_TechBoosted] Еврека моменту для технології комп'ютерів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MODERNTECHBOOST">
+      <Text>Спровокує [ICON_TechBoosted] момент Евреки для {Amount} випадкових {Amount : plural 1?технології; other?технологій;} з сучасної ери.</Text>
+    </Row>
+    <!-- Generals -->
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_LAND_MODIFIER">
+      <Text>+5 [ICON_Strength] Бонус бойових дій від Великого Генерала.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_SEA_MODIFIER">
+      <Text>+5 [ICON_Strength] Бойовий бонус від Великого Адмірала.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух від Великого Генерала.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_ADMIRAL_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух від великого адмірала.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND">
+      <Text>+5 [ICON_Strength] бойової сили та +1 [ICON_Movement] швидкості руху для сухопутних військ епохи Античності та Середньовіччя в радіусі 2 клітинок.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND">
+      <Text>+5 [ICON_Strength] Бойової Сили та +1 [ICON_Movement] Руху для земельних військ середньовіччя та Відродження в радіусі 2 тайлів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND">
+      <Text>+5 [ICON_Strength] Бойової сили та +1 [ICON_Movement] Руху для земних військ епохи Ренесансу та Промисловості в радіусі 2 клітинок.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND">
+      <Text>+5 [ICON_Strength] Бойової Сили та +1 [ICON_Movement] Руху для земних військ епохи промисловості та сучасності, що знаходяться в радіусі 2 плиток.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND">
+      <Text>+5 [ICON_Strength] Бойової Міцності та +1 [ICON_Movement] Руху для земних військових одиниць ери "Модерн" та "Атомна" в радіусі 2-ох тайлів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND">
+      <Text>+5 [ICON_Strength] Бойова міць та +1 [ICON_Movement] Рух до сухопутних одиниць епохи Атомної та Інформаційної досяжності, розташованих на відстані до 2 тайлів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND">
+      <Text>+5 [ICON_Strength] Бойова сила та +1 [ICON_Movement] Рух до земляних одиниць епохи Інформації в радіусі 2 плиток.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_BOUDICA_ACTIVE">
+      <Text>Перетворює прилеглі варварські одиниці на ваше керування.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HANNIBAL_BARCA_ACTIVE">
+      <Text>Надає один рівень підвищення до військової сухопутної одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE">
+      <Text>Миттєво створює одиницю лицаря.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EL_CID_ACTIVE">
+      <Text>Створює корпус з військової земельної частини.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GENGHIS_KHAN_ACTIVE">
+      <Text>Надає 1 рівень просування та +25% бойового досвіду військовій сухопутній одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE">
+      <Text>Миттєво створює одиницю "Бомбардувальник" з одним рівнем підвищення військової майстерності.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOAN_OF_ARC_ACTIVE">
+      <Text>Створює Реліквію [ICON_GreatWork_Relic].</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ANA_NZINGA_ACTIVE">
+      <Text>Отримайте {Amount} [ICON_Envoy] {Amount: plural 1?Envoys; few?Envoys; many?Envoys; other?Envoys;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE">
+      <Text>Формує армію з військової земельної одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RANI_LAKSHMIBAI_ACTIVE">
+      <Text>Миттєво створює військову одиницю кавалерії з 1 рівнем просування.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE">
+      <Text>Отримайте {Amount} [ICON_Envoy] {Amount : plural 1?посла; few?посли; many/other?послів;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE">
+      <Text>Надає 1 рівень продвиження та +75% бойового досвіду військовій земляній одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MARINA_RASKOVA_ACTIVE">
+      <Text>Район на цьому плитці отримує додаткові слоти для повітряних одиниць (+1).</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SAMORI_TURE_ACTIVE">
+      <Text>Миттєво створює піхотину з 1 рівнем підвищення.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE">
+      <Text>+5% [ICON_Production] Виробництво військових одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE">
+      <Text>+50% бонус при флангуванні для всіх сухопутних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SUDIRMAN_ACTIVE">
+      <Text>Дарує 1 рівень просування та +100% бойового досвіду військової сухопутної одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE">
+      <Text>Миттєво створює частину танків з 1 рівнем просування.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE">
+      <Text>Миттєво створює сучасний протитанковий бійців з 1 рівнем підвищення.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE">
+      <Text>Надає грант на 1 рівень просування та +100% бойового досвіду військовій земляній одиниці.</Text>
+    </Row>
+    <!-- Admirals -->
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA">
+      <Text>+5 [ICON_Strength] Бойова сила та +1 [ICON_Movement] Рух для морських одиниць класичної та середньовічної ери в радіусі 2 клітинок.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA">
+      <Text>+5 [ICON_Strength] Бойової сили та +1 [ICON_Movement] Руху для морських одиниць середньовіччя та Відродження в радіусі 2 плиток.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA">
+      <Text>+5 [ICON_Strength] бойової сили та +1 [ICON_Movement] руху для морських одиниць епохи Відродження та Промисловості в радіусі 2 плиток.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA">
+      <Text>+5 [ICON_Strength] Бойова міць та +1 [ICON_Movement] Рух для морських одиниць промислової та сучасної ери в радіусі 2 тайлів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA">
+      <Text>+5 [ICON_Strength] бойової сили та +1 [ICON_Movement] руху для морських одиниць епохи "модерн" та "атомна ера" у межах 2 тайлів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA">
+      <Text>+5 [ICON_Strength] бойової міці та +1 [ICON_Movement] руху для морських одиниць епохи Атомної та Інформаційної в межах 2 плиток.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA">
+      <Text>+5 [ICON_Strength] бойової сили та +1 [ICON_Movement] руху до морських одиниць епохи інформації на відстані до 2 тайлів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ARTEMISIA_ACTIVE">
+      <Text>Надає дотацію в 1 рівень продвиження військово-морській одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GAIUS_DUILIUS_ACTIVE">
+      <Text>Формує флот з військового морського підрозділу.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_THEMISTOCLES_ACTIVE">
+      <Text>Миттєво створює одиницю квадріреми.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LEIF_ERIKSON_ACTIVE">
+      <Text>Дозволяє всім морським одиницям рухатися по океанських плитках без звичайних вимог до технологій.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RAJENDRA_CHOLA_ACTIVE">
+      <Text>Отримайте 50 [ICON_Gold] Золота (на стандартній швидкості). Військові одиниці отримують +40% нагороди за здобутки на морських [ICON_TradeRoute] торгових маршрутах.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ZHENG_HE_ACTIVE">
+      <Text>Отримати {Amount} [ICON_Envoy] {Amount: plural 1?посланника; few?посланники; many?посланників;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FRANCIS_DRAKE_ACTIVE">
+      <Text>Отримайте 75 [ICON_Gold] Золота (на стандартній швидкості). Військові одиниці отримують +50% нагороди за здобуття морських [ICON_TradeRoute] Торговельних Маршрутів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SANTA_CRUZ_ACTIVE">
+      <Text>Формує Армаду з військово-морської частини.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_YI_SUN_SIN_ACTIVE">
+      <Text>Миттєво створює одиницю "Железний Крейсер" з одним рівнем підвищення.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHING_SHIH_ACTIVE">
+      <Text>Заробіть 100 [ICON_Gold] Золота (зі стандартною швидкістю). Військові одиниці отримують +60% нагороди за грабеж морських [ICON_TradeRoute] Торгових маршрутів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HORATIO_NELSON_ACTIVE">
+      <Text>+50% бонус на обката для всіх морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE">
+      <Text>Надає 1 рівень просування та +50% бойового досвіду військовому морському підрозділу.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FRANZ_VON_HIPPER_ACTIVE">
+      <Text>Миттєво створює одиницю Лінкор з 1 рівнем підвищення.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE">
+      <Text>Накопичуйте на 25% менше військової втоми, ніж зазвичай.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE">
+      <Text>Надає 1 рівень просування та +75% бойового досвіду військовому морському підрозділу.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHESTER_NIMITZ_ACTIVE">
+      <Text>+20% [ICON_Production] Виробництво одиниць класу просування Naval Raider.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRACE_HOPPER_ACTIVE">
+      <Text>Викликає момент Евреки [ICON_TechBoosted] для {Amount} випадкових {Amount : plural 1?технології; other?технологій;} з епохи Атомної або Інформаційної.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SERGEY_GORSHKOV_ACTIVE">
+      <Text>Надає один рівень просування та +100% бойового досвіду військовому морському підрозділу.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CLANCY_FERNANDO_ACTIVE">
+      <Text>Надає стипендію на 1 рівень військового морського підрозділу та +200% бойового досвіду.</Text>
+    </Row>
+    <!-- Engineers -->
+    <Row Tag="LOC_GREATPERSON_EXTRA_DISTRICT_CAPACITY">
+      <Text>Дозвольте цьому місту збудувати ще один район, ніж дозволяє ліміт населення [ICON_Citizen].</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_PRINTINGTECHBOOST">
+      <Text>Спричинює [ICON_TechBoosted] момент еврики для технології друку.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL">
+      <Text>Гранти {Amount} [ICON_Production] виробництва для будівництва дива.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE_ACTIVE">
+      <Text>Миттєво будує стіни середньовіччя та давнини в цьому місті.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_RENAISSANCE">
+      <Text>Гранти {Amount} [ICON_Production] виробництва для будівництва дива.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_WORKSHOP_CULTURE">
+      <Text>Майстер-класи надають +{Amount} [ICON_Culture] культури.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_HOUSING_SMALL">
+      <Text>+{Amount} [ICON_Housing] Житло для цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_AMENITIES_SMALL">
+      <Text>+{Amount} [ICON_Amenities] {Amount: plural 1?Зручність; few?Зручності; other?Зручностей;} для цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL">
+      <Text>Гранти {Amount} [ICON_Production] виробництва на будівництво дива.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE">
+      <Text>Миттєво будує Фабрику та Майстерню в цьому районі. Фабрики надають +2 [ICON_Production] виробництва.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_APPEAL_SMALL">
+      <Text>Це місто надає +{Amount} привабливості будь-яким своїм плиткам.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE">
+      <Text>Регіональні будівлі цього району досягають {Amount} {Amount : plural 1?плитки; other?плиток;} далі.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_PRODUCTION">
+      <Text>Регіональні будівлі цього району забезпечують +{Amount} [ICON_Production] виробництва.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SPACE_RACE_PRODUCTION_RATE_SMALL">
+      <Text>+{Amount}% [ICON_Production] виробництво на проекти Космічної гонки.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST">
+      <Text>Спричинює [ICON_TechBoosted] евріку-момент для технології Ракетобудування.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_HOUSING_MEDIUM">
+      <Text>+{Кількість} [ICON_Housing] Житло для цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_HOUSING_LARGE">
+      <Text>+{Кількість} [ICON_Housing] Житло для цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_AMENITIES_LARGE">
+      <Text>+{Кількість} [ICON_Amenities] {Кількість: plural 1?Зручність; few?Зручності; many?Зручностей;} для цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_EARLY_SPACE_RACE">
+      <Text>Гранти {Amount} [ICON_Production] на виробництво для будівництва проекту Космічної гонки.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_APPEAL_LARGE">
+      <Text>Це місто надає +{Amount} Привабливості будь-яким плиткам, які воно володіє.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_ENTERTAINMENT">
+      <Text>Регіональні будівлі цього району забезпечують +{Amount} [ICON_Amenities] {Amount: plural 1?зручністю; other?зручностями;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_INFORMATION">
+      <Text>Гранти {Amount} [ICON_Production] Виробництву на будівництво чуда.</Text>
+    </Row>
+    <!-- Merchants -->
+    <Row Tag="LOC_GREATPERSON_GRANT_PLOT_RESOURCE">
+      <Text>Надає {Amount} безкоштовних {Amount : plural 1?копія; other?копії;} ресурсу Розкіш на цій тайлі у ваше столичне місто [ICON_Capital].</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FAITH_SMALL">
+      <Text>Отримайте {Amount} [ICON_Faith] віри.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PLOT">
+      <Text>Ваш найближчий місто анексує цю плитку до своєї території.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_TINY">
+      <Text>Отримайте {Amount : number #} [ICON_Gold] золота.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE">
+      <Text>Збільшує ємність [ICON_TradeRoute] торгових маршрутів на 1 одиницю. Іноземні [ICON_TradeRoute] торгові маршрути до цього міста надають +2 [ICON_Gold] золота обом містам.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MARCO_POLO_ACTIVE">
+      <Text>Надає безкоштовного торговця у цьому місті та збільшує потужність [ICON_TradeRoute] торгових маршрутів на 1. Іноземні [ICON_TradeRoute] торгові маршрути до цього міста забезпечують додатково +2 [ICON_Gold] золота для обох міст.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_TO_INCOMING_FOREIGN_ROUTES">
+      <Text>Це місто надає +{Amount} [ICON_Gold] Золота іноземним [ICON_TradeRoute] Торговим Маршрутам.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_FROM_INCOMING_FOREIGN_ROUTES">
+      <Text>Це місто отримує +{Amount} [ICON_Gold] золота з іноземних [ICON_TradeRoute] торгових маршрутів.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FREE_TRADER_UNIT">
+      <Text>Отримайте безкоштовний одиницю Торговця у цьому місті.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_TRADE_ROUTE_CAPACITY">
+      <Text>Збільшує ємність Торгового Маршруту [ICON_TradeRoute] на {Amount}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_SMALL">
+      <Text>Отримайте {Amount : number #} [ICON_Gold] Золота.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_INFLUENCE_TOKENS_SMALL">
+      <Text>Отримайте {Amount} [ICON_Envoy] {Amount : plural 1?посла; few?послів; many?послів; other?послів;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GIOVANNI_DE_MEDICI_ACTIVE">
+      <Text>Миттєво будує Банк та Ринок у цьому районі. У Банку є 2 слоти великих творів, в яких можна зберігати все.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MARKET">
+      <Text>Миттєво будує ринок в цьому районі.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_BANK">
+      <Text>Миттєво будує банк в цьому районі.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_BANK_GREAT_WORK_SLOTS">
+      <Text>Цей банк отримує {Amount} слотів великих робіт для зберігання будь-чого, крім реліквій [ICON_GreatWork_Relic].</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_MEDIUM">
+      <Text>Отримайте {Amount: number #} [ICON_Gold] Золота.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_INFLUENCE_TOKENS_MEDIUM">
+      <Text>Набрати {Amount} [ICON_Envoy] {Amount : plural 1? Оповідник; other? Оповідники;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT">
+      <Text>Ваші торгові маршрути [ICON_TradeRoute] до ваших власних міст отримують +{Amount} [ICON_Gold] золота за кожний спеціалізований район в пункті призначення.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ECONOMIC_POLICY_SLOT">
+      <Text>+1 Економічна політика слоту в будь-якому уряді.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_JEANS">
+      <Text>Гранти {Amount} [ICON_RESOURCE_JEANS] джинсів - це унікальний ресурс розкішного виробництва, який надає +4 [ICON_Amenities] благоустрою.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_LARGE">
+      <Text>Отримайте {Amount : number #} [ICON_Gold] Золота.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PERFUME">
+      <Text>Надає {Amount} [ICON_RESOURCE_PERFUME] Парфумів - розкішного ресурсу, виготовленого унікальним способом, який забезпечує +6 [ICON_Amenities] Зручностей.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOHN_ROCKEFELLER_ACTIVE">
+      <Text>Надає 1 [ICON_RESOURCE_OIL] нафти - стратегічного ресурсу. Ваші [ICON_TradeRoute] торговельні маршрути отримують +2 [ICON_Gold] золота за кожен стратегічний ресурс у місті-призначенні.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_OIL">
+      <Text>Гранти {Кількість} [ICON_RESOURCE_OIL] нафти, стратегічного ресурсу.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_STRATEGIC">
+      <Text>Ваші [ICON_TradeRoute] торгові шляхи отримують додатково +{Amount} [ICON_Gold] золота за кожний покращений стратегічний ресурс в місті призначення.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_TRADE_ROUTE_TOURISM_MODIFIER">
+      <Text>+{Amount}% [ICON_Tourism] Рівень туризму до інших цивілізацій, з якими у вас є [ICON_TradeRoute] Торговельний маршрут.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_COSMETICS">
+      <Text>Надає {Amount} [ICON_RESOURCE_COSMETICS] косметики, унікального виробництва розкішного ресурсу, який забезпечує +4 [ICON_Amenities] зручності.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DIPLO_VISIBILITY">
+      <Text>+{Amount} {Amount : plural 1?рівень; few?рівні; many?рівнів} дипломатичної видимості з усіма іншими цивілізаціями.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_TOYS">
+      <Text>Надає гранти на {Amount} [ICON_RESOURCE_TOYS] іграшок - унікального розкішного ресурсу, який забезпечує +4 [ICON_Amenities] задоволення.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_INDUSTRIAL_ZONE_TOURISM">
+      <Text>Промислові зони надають +{Amount} [ICON_Tourism] туризму.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CAMPUS_TOURISM">
+      <Text>Кампусні райони забезпечують +{Amount} [ICON_Tourism] туризму.</Text>
+    </Row>
+    <!-- Scientists -->
+    <Row Tag="LOC_GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS">
+      <Text>Спровокує [ICON_TechBoosted] "Момент Евреки" для {Amount} випадкових {Amount : plural 1?технології; other?технологій;} з классичного або середньовічного періоду.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EUCLID_ACTIVE">
+      <Text>Спричинює [ICON_TechBoosted] мить Евреки для математики та однієї випадкової технології з епохи Середнього віку.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MEDIEVALTECHBOOST">
+      <Text>Спричинює [ICON_TechBoosted] Еврека-момент для {Amount} випадкових {Amount : plural 1?технології; other?технологій;} з середньовічної епохи.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MATHTECHBOOST">
+      <Text>Спричинює момент [ICON_TechBoosted] "Еврека" для математичної технології.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LIBRARY">
+      <Text>Миттєво будує бібліотеку в цьому районі.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LIBRARY_FREE_MAINTENANCE">
+      <Text>+{Amount} [ICON_Gold] Золота.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITY">
+      <Text>Миттєво будує університет у цьому районі.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITY_FREE_MAINTENANCE">
+      <Text>+{Amount} [ICON_Gold] Золота.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST">
+      <Text>Спровокує [ICON_TechBoosted] евреку випадково для {Amount} випадкових {Amount : plural 1?технології; other?технологій;} з середньовічної або Відродженської епохи.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE">
+      <Text>Цей округ Святого Місця надає бонус до наукового потенціалу [ICON_Science], а також має бонус сусідства віри [ICON_Faith].</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FAITH">
+      <Text>Отримайте {Amount} [ICON_Faith] Віри.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE">
+      <Text>Запускає момент "Еврека" [ICON_TechBoosted] для 2 випадкових технологій та момент натхнення [ICON_CivicBoosted] для 1 випадкового міського розкладу з середньовіччя або Відродження.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS">
+      <Text>Викликає ейфорію [ICON_TechBoosted] Еврека для {Amount} випадкових {Amount:plural 1?технології; other?технологій;} з середньовіччя або епохи Відродження.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST">
+      <Text>Запускає момент натхнення [ICON_CivicBoosted] для {Amount} випадкових {Amount:plural 1?громадянській; other?громадянських;} з середньовічної або ренесансної епохи.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GALILEO_GALILEI_ACTIVE">
+      <Text>Отримайте 250 [ICON_Science] науки (за стандартної швидкості) за кожну прилеглу гірську клітину.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RESEARCH_LAB">
+      <Text>Миттєво будує дослідний центр в цьому районі.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RESEARCHLABS_BIG_SCIENCE">
+      <Text>Дослідні лабораторії забезпечують +{Amount} [ICON_Science] Науки.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RESEARCH_LAB_FREE_MAINTENANCE">
+      <Text>+{Amount} [ICON_Gold] Золота.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ISAAC_NEWTON_ACTIVE">
+      <Text>Миттєво будує Університет та Бібліотеку в цьому районі. Університети надають +2 [ICON_Science] Науки.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS">
+      <Text>Запускає момент [ICON_TechBoosted] Евріки для {Amount} випадкових {Amount : plural 1?технології; other?технологій;} з епохи Відродження або Промислової революції.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GREAT_PERSON_FREE_POINTS">
+      <Text>Застосовує {Amount} безкоштовних [ICON_GreatPerson] очок Великих Осіб для найму всіх поточних та майбутніх Великих Осіб.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHARLES_DARWIN_ACTIVE">
+      <Text>Отримайте 500 [ICON_Science] науки (зі стандартною швидкістю) за кожну природну чудесну плитку тут або поруч.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DMITRI_MENDELEEV_ACTIVE">
+      <Text>Спричинює евреку-момент [ICON_TechBoosted] для хімії та однієї випадкової технології з епохи промисловості.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ALAN_TURING_ACTIVE">
+      <Text>Викликає [ICON_TechBoosted] момент Евреки для комп'ютерів та однієї випадкової технології з сучасної ери.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1INDUSTRIALTECHBOOST">
+      <Text>Тригерує момент [ICON_TechBoosted] Євреки для {Amount} випадкових {Amount: plural 1?технології; other?технологій;} з промислової ери.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHEMISTRYTECHBOOST">
+      <Text>Викликає [ICON_TechBoosted] момент Евреки для технології Хімії.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LIBRARIES_SCIENCE">
+      <Text>Бібліотеки надають +{Amount} [ICON_Science] науки.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITIES_SMALL_SCIENCE">
+      <Text>Університети забезпечують +{Amount} [ICON_Science] наукових досліджень.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITIES_BIG_SCIENCE">
+      <Text>Університети забезпечують +{Amount} [ICON_Science] науки.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MODERNATOMICTECHBOOST">
+      <Text>Спричинює [ICON_TechBoosted] момент Евреки для {Amount} випадкових {Amount : plural 1?технології; other?технологій;} з епохи Модерну або Атомної.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_REVEAL_OIL">
+      <Text>Відкриває [ICON_RESOURCE_OIL] нафту без звичайних вимог до технологій.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS">
+      <Text>Спричинює миттєву ідею [ICON_TechBoosted] для {Amount} випадкових {Amount : plural 1?технології; other?технологій;} з промислової або сучасної ери.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ADJACENT_RAINFOREST_SCIENCE">
+      <Text>Отримайте {Amount} [ICON_Science] науки за кожну плиту дощового лісу тут або поруч.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ARTIFACT_TOURISM_MODIFIER">
+      <Text>[ICON_GreatWork_Artifact] Артефакти у всіх містах генерують {ScalingFactor}% від їхньої звичайної [ICON_Tourism] Туристичної привабливості.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ARTIFACT_SCIENCE">
+      <Text>Отримайте {Кількість} [ICON_Science] Науки за кожен [ICON_GreatWork_Artifact] Артефакт у цьому місті.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS">
+      <Text>Спричиняє [ICON_TechBoosted] мить евреки для {Amount} випадкових {Amount : plural 1?технології; other?технологій;} з відому ядерного чи інформаційного епох.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS">
+      <Text>Спричинює момент Евреки [ICON_TechBoosted] для всіх технологій епохи Інформації.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE">
+      <Text>Гранти {Amount} [ICON_Production] виробництву на будівництво проекту «Космічна гонка».</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SPACE_RACE_PRODUCTION_RATE_LARGE">
+      <Text>+{Amount}% Виробництво на проекти Космічної Гонки. [ICON_Production]</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE">
+      <Text>Поранені бойові одиниці можуть відновлювати +5 ОХ кожен хід.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

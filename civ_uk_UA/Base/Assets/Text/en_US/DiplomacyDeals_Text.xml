@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GOLD_PER_TURN">
+      <Text>ЗОЛОТО ЗА ХОДОМ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GOLD_PER_TURN_WITH_TURNS">
+      <Text>ЗОЛОТО ЗА ОДИН ХІД[newline]{1_number} ХОДІВ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_FOR_TURNS">
+      <Text>На {1_number} обертів</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_FOR_30_TURNS">
+      <Text>НА 30 ОБЕРТІВ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ONE_TIME">
+      <Text>УГОДА ОДНОГО РАЗУ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_LUXURY_RESOURCES">
+      <Text>РОЗКІШНІ РЕСУРСИ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_STRATEGIC_RESOURCES">
+      <Text>СТРАТЕГІЧНІ РЕСУРСИ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_AGREEMENTS">
+      <Text>УГОДИ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CITIES">
+      <Text>МІСТА</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_OTHER_PLAYERS">
+      <Text>ІНШІ ГРАВЦІ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CAPTIVES">
+      <Text>УВ'ЯЗНЕНІ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GREAT_WORKS">
+      <Text>ВЕЛИКІ РОБОТИ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_TECHNOLOGIES">
+      <Text>ТЕХНОЛОГІЇ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_PLAYER_PANEL_TITLE">
+      <Text>{1_LeaderName}[NEWLINE]{2_CivName} (in Ukrainian alphabet: {1_LeaderName}[NEWLINE]{2_CivName})</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ACCEPT_DEAL">
+      <Text>Прийняти угоду</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_REFUSE_DEAL">
+      <Text>Відмовитися від угоди</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_PROPOSE_DEAL">
+      <Text>Пропоную угоду</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_DEMAND_DEAL">
+      <Text>Угода на вимогу</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ACCEPT_DEMAND">
+      <Text>Прийняти запит</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_REFUSE_DEMAND">
+      <Text>Відмовити вимозі</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ACCEPT_GIFT">
+      <Text>Прийняти подарунок</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_REFUSE_GIFT">
+      <Text>Відмовитися від подарунку</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GIFT_DEAL">
+      <Text>Даруйте подарунок</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_EXIT_DEAL">
+      <Text>Не звертайте увагу</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CANCEL_DEAL">
+      <Text>Скасувати угоду</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CANCEL_DEMAND">
+      <Text>Скасувати вимогу</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_RESUME_GAME">
+      <Text>Резюме</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_YOUR_ITEMS">
+      <Text>Ваші речі</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_THEIR_ITEMS">
+      <Text>Їхні речі</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_WHAT_WOULD_YOU_GIVE_ME">
+      <Text>Що ти мені дав би?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_WHAT_WOULD_IT_TAKE">
+      <Text>Що для цього потрібно?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CLICK_TO_CHANGE_DEAL_PARAMETER">
+      <Text>Встановіть деталі угоди...</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_DEAL_PARAMETER">
+      <Text>Встановіть деталі угоди...</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_PARAMETER_WITH_TURNS">
+      <Text>{1_DisplayName} ({2_Turns} ходів)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_OTHER_PLAYER_SAYS">
+      <Text>{1_LeaderName} каже:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_RETURN_CITY">
+      <Text>{1_Name}, поверніться.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_RETURN_CITY_TOOLTIP">
+      <Text>Поверніть {1_Name} до {1_LeaderName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CEDE_CITY">
+      <Text>{1_Name}, здайся.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CEDE_CITY_TOOLTIP">
+      <Text>Передайте {1_Name} до {1_LeaderName}</Text>
+    </Row>
+    <!--Deal Error Messages-->
+    <Row Tag="LOC_DEAL_CITY_NOT_FOUND">
+      <Text>Місто не знайдено</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_DUPLICATE">
+      <Text>Ще один товар угоди має ту саму місто</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_GOLD_NOT_ENOUGH_IN_TREASURY">
+      <Text>Недостатньо золота</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_GOLD_NOT_ENOUGH_YIELD">
+      <Text>Не вистачає золота</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_GREAT_WORK_NOT_FOUND">
+      <Text>Великої роботи не знайдено</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_INVALID_PLAYER">
+      <Text>Невірний гравець</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_NO_SLOT_TO_RECEIVE_WORK">
+      <Text>Немає слоту, де можна розмістити роботу</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_RESOURCES_NOT_ENOUGH">
+      <Text>Недостатньо цього ресурсу</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_SPY_NOT_FOUND">
+      <Text>Шпигуна не знайдено</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_POPULATION_TOOLTIP">
+      <Text>Населення: {1_number}</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_DISTRICTS_TOOLTIP">
+      <Text>Райони:</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_RESOURCES_TOOLTIP">
+      <Text>Ресурси:</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_GREAT_WORKS_TOOLTIP">
+      <Text>Великі твори:</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_ITEM_TRANSFERRED_WITH_CITY_TOOLTIP">
+      <Text>Перевезено до {1_CityName}</Text>
+    </Row>
+    <!-- Diplomactic Actions -->
+    <Row Tag="LOC_DIPLOACTION_RESIDENT_EMBASSY_NAME">
+      <Text>Резидентне посольство</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEMAND_TRIBUTE_NAME">
+      <Text>Вимагати внесок</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_OPEN_BORDERS_NAME">
+      <Text>Відкриті кордони</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_REQUEST_ASSISTANCE_NAME">
+      <Text>Прошу допомогти</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DENOUNCE_NAME">
+      <Text>Оголосити (ogolosyty)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_SURPRISE_WAR_NAME">
+      <Text>Війна-сюрприз</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_MAKE_PEACE_NAME">
+      <Text>Запровадь мир</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DIPLOMATIC_DELEGATION_NAME">
+      <Text>Надіслати делегацію</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_ALLIANCE_NAME">
+      <Text>Альянс</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FRIENDSHIP_NAME">
+      <Text>Оголосити дружбу</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_GRANT_INFLUENCE_TOKEN_NAME">
+      <Text>Надайте Токен Впливу</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_GIFT_UNIT_NAME">
+      <Text>Подарункова одиниця</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_MILITARY_REQUEST_NAME">
+      <Text>Військовий запит</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_WAR_MINOR_CIV_NAME">
+      <Text>Оголосити війну маленьким цивілізаціям</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FORMAL_WAR_NAME">
+      <Text>Оголосити війну</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_HOLY_WAR_NAME">
+      <Text>Оголосити священну війну</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_NAME">
+      <Text>Оголошення визвольної війни</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_RECONQUEST_WAR_NAME">
+      <Text>Оголосити війну реконкісти</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_PROTECTORATE_WAR_NAME">
+      <Text>Оголосити війну протекторату</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_COLONIAL_WAR_NAME">
+      <Text>Оголосити колоніальну війну</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_NAME">
+      <Text>Оголосити війну територіального розширення</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEFENSIVE_PACT_NAME">
+      <Text>Оборонний пакт</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_JOINT_WAR_NAME">
+      <Text>Спільна війна</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_RESEARCH_AGREEMENT_NAME">
+      <Text>Договір дослідження</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_SPY_NAME">
+      <Text>Обіцяю не шпигувати</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_CONVERT_NAME">
+      <Text>Обіцяю не перетворювати міста</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_DIG_ARTIFACTS_NAME">
+      <Text>Обіцяю не розкопувати артефакти</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_SETTLE_TOO_NEAR_NAME">
+      <Text>Обіцяю не заселятися занадто близько</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_INVALID">
+      <Text>Я не зроблю цю угоду ні за яких обставин.</Text>
+    </Row>
+    <!-- Diplomactic Action Tooltips-->
+    <Row Tag="LOC_DIPLOACTION_RESEARCH_AGREEMENT_DESCRIPTION">
+      <Text>Укладіть договір досліджень з оголошеним другом або членом союзу. Договори досліджень дозволяють двом сторонам спільно досліджувати технології. Чим більша вартість технології, тим довше триватиме договір. Під час тривалості договору кожна сторона отримує підвищення для цієї технології.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_JOINT_WAR_DESCRIPTION">
+      <Text>Створити спільну війну проти цивілізації-цілі.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEFENSIVE_PACT_DESCRIPTION">
+      <Text>Укладіть договір про оборонну угоду. Коли будь-який член Альянсу атакований, всі члени автоматично оголосять війну нападникові.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_ALLIANCE_DESCRIPTION">
+      <Text>Укладіть Альянс з оголошеним другом. Альянси не можуть йти на війну, автоматично мають Відкриті Кордони і кожен з альянсів отримує Casus Belli на агресивну цивілізацію, якщо один з їх союзників втрачає місто.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_RESIDENT_EMBASSY_DESCRIPTION">
+      <Text>Створіть постійне посольство з цією державою. Якщо пропозиція буде прийнята, отримувач стане трохи дружнішим, ви отримаєте рівень доступу та буде розкрито [ICON_Capital] столицю отримувача.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEMAND_TRIBUTE_DESCRIPTION">
+      <Text>Вимагайте дипломатичний подарунок від цієї сили.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_OPEN_BORDERS_DESCRIPTION">
+      <Text>Попросіть цю владу дозволити вашим підрозділам подорожувати через їх контрольовану територію.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_REQUEST_ASSISTANCE_DESCRIPTION">
+      <Text>Попросіть цю владу про дипломатичний подарунок.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DENOUNCE_DESCRIPTION">
+      <Text>Використовується для офіційного висловлення незадоволення цією силою. Формальна декларація війни (з або без причини для війни) може бути подана після додаткових 5 ходів.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_SURPRISE_WAR_DESCRIPTION">
+      <Text>Зазвичай починалося війну негайно. Звичайні штрафи за розпалювання війни збільшені на 50%.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_MAKE_PEACE_DESCRIPTION">
+      <Text>Укладіть угоду для завершення поточної війни з цією силою.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DIPLOMATIC_DELEGATION_DESCRIPTION">
+      <Text>Надішліть делегацію з подарунком у вигляді [ICON_Gold] золота для цієї влади. Якщо подарунок буде прийнятий, отримайте трохи більше дружніх стосунків з отриманою владою та підвищення рівня доступу. Ефект діє до отримання громадського курсу з дипломатії</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FRIENDSHIP_DESCRIPTION">
+      <Text>Формально заявте про свою наміреність підтримувати дружні відносини з цією державою. Якщо ви є другом, ви будете відповідним для Альянсу, але не зможете оголосити офіційну війну проти цієї держави.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FORMAL_WAR_DESCRIPTION">
+      <Text>Було звичаєм оголошувати війну гравцю, який вас засудив або якого ви засудили принаймні 5 ходів тому. Немає обмежень на міста, які ви можете захоплювати.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_HOLY_WAR_DESCRIPTION">
+      <Text>Зазвичай оголошувати війну державі, яка релігійно конвертувала одне з ваших міст. Усі штрафи для військових зловживань півтора рази знижені.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_DESCRIPTION">
+      <Text>Зазвичай оголошувалося війну силі, яка захопила місто від одного з ваших друзів або союзників. Немає штрафу за війну в разі звільнення будь-якого з цих міст.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_RECONQUEST_WAR_DESCRIPTION">
+      <Text>Вживалося оголошувати війну проти держави, яка захопила одне з ваших міст. Жодні штрафи воєначальника не застосовуються.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_PROTECTORATE_WAR_DESCRIPTION">
+      <Text>Зазвичай, відкриває війну проти держави, яка атакувала одне з ваших союзних міст-держав. Не нараховується штраф за війну, якщо ви визволите це місто-державу.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_COLONIAL_WAR_DESCRIPTION">
+      <Text>Звичайно оголошуйте війну державі, що відстає на дві технологічні ери. Усі штрафи від ведення війни зменшені наполовину.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_DESCRIPTION">
+      <Text>Необхідно оголосити війну державі, яка межує з вашою імперією. Потрібно мати 2 ваші міста в радіусі 10 плиток від 2 міст супротивників. Штрафи за військові дії зменшуються на 25%.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_PROPOSE_TRADE_DESCRIPTION">
+      <Text>Ініціюйте переговори з цією державою щодо торгівлі.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_PROPOSE_PEACE_DEAL_DESCRIPTION">
+      <Text>Пропонуйте мирний договір з цією владою.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_TECH">
+      <Text>Вибір технології</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_ALLIANCE">
+      <Text>Оберіть Альянс</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_TARGET">
+      <Text>Виберіть цільову мету</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_HOW_MANY">
+      <Text>Скільки?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_GIFT">
+      <Text>Я прийняв би цей подарунок</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_GIFT_EFFECT">
+      <Text>Подарунки покращують ваші стосунки</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_DEMAND">
+      <Text>Я більше нахилився до переговорів.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_DEMAND_EFFECT">
+      <Text>Вимагання можуть пошкодити ваші стосунки</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_UNFAIR">
+      <Text>Я не можу прийняти цю угоду, вона несправедлива.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_WHAT_WOULD_YOU_GIVE_ME_TOOLTIP">
+      <Text>Запитайтеся, що цей лідер запропонує вам за вашу пропозицію.[NEWLINE]Це лише додасть пункти на їх сторону столу угод.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_UNACCEPTABLE_DEAL">
+      <Text>Я не можу прийняти цю угоду за будь-яких обставин.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_UNACCEPTABLE_ITEM_TOOLTIP">
+      <Text>Пропонуємо угоду щодо блокування</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_MARK_UNACCEPTABLE">
+      <Text>Позначте цей елемент як неприйнятний</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_STOP_ASKING_POPUP_TEXT">
+      <Text>Позначення цього елемента як неприйнятного та відмова від угоди запобігає цьому ШІ надалі запитувати цей елемент. Ви бажаєте продовжити?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_STOP_ASKING_POPUP_TITLE">
+      <Text>Перестаньте запитувати?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_REMOVE_ITEM">
+      <Text>Видалити елемент з угоди</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_EQUALIZE_SUCCEEDED">
+      <Text>How about this?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_EQUALIZE_FAILED">
+      <Text>Я не готовий бартерувати цим</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_GIFT_EQUALIZE_FAILED">
+      <Text>У мене немає нічого, за що я б хотів обмінятися на це</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_FRIENDLY_1">
+      <Text>Можливо, у майбутньому ми знайдемо прийнятну угоду?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_FRIENDLY_2">
+      <Text>Іншим разом, можливо?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_FRIENDLY_3">
+      <Text>Я дивуюся, що ми не змогли дійти до згоди.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_NEUTRAL_1">
+      <Text>Шкода.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_NEUTRAL_2">
+      <Text>Я не осмілююсь підвищувати свою пропозицію вище.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_NEUTRAL_3">
+      <Text>Як жально.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_AGGRESSIVE_1">
+      <Text>Який сенс у скарбу, якщо ви не будете користуватися ним?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_AGGRESSIVE_2">
+      <Text>Так чи інакше, ти мені даси те, що я хочу.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_AGGRESSIVE_3">
+      <Text>Я приймаю ваш відмову - наразі.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_EXPAND_CATEGORY">
+      <Text>Розширити категорію угод.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_COLLAPSE_CATEGORY">
+      <Text>Згорнути категорію угод.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_EXPAND_CITY_INFO">
+      <Text>Розширити інформацію про місто.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_COLLAPSE_CITY_INFO">
+      <Text>Згорнути інформацію про місто.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

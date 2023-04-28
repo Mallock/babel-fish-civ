@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- REPLACEMENTS -->
+    <Delete Tag="LOC_PRODUCTION_ITEM_DECONTAMINATE" />
+    <Delete Tag="LOC_TOOLTIP_PLOT_CONTAMINATED_TEXT" />
+    <Delete Tag="LOC_GOVERNMENT_MONARCHY_NAME" />
+    <Delete Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY" />
+    <Delete Tag="LOC_HUD_CITY_PURCHASE_TILE" />
+    <Delete Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING" />
+  </LocalizedText>
+  <EnglishText>
+    <!-- REPLACEMENTS -->
+    <Row Tag="LOC_PRODUCTION_ITEM_DECONTAMINATE">
+      <Text>(Хворий на чуму)</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PLOT_CONTAMINATED_TEXT">
+      <Text>[COLOR:Civ6Red]ПОРАЖЕНИЙ ЧУМОЮ: {1_Turns} ходів[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_MONARCHY_NAME">
+      <Text>Католицька монархія</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY">
+      <Text>+3 [ICON_Faith] Віра в кожному місті. Бонус [ICON_Faith] Віра, рівна 50% сили кожної знищеної ворожої одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_PURCHASE_TILE">
+      <Text>Примусові плитки</Text>
+    </Row>
+    <!-- City Names -->
+    <Row Tag="LOC_CITY_NAME_BREST">
+      <Text>Брест</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ANGERS">
+      <Text>Анжерс</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_LANCASTER">
+      <Text>Ланкастер</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_DUBLIN">
+      <Text>Дублін</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MUNICH">
+      <Text>Мюнхен</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_STRASBOURG">
+      <Text>Страсбург</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BRANDENBURG">
+      <Text>Бранденбург</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_LEON">
+      <Text>Леон</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_UTRECHT">
+      <Text>Утрехт</Text>
+    </Row>
+    <!-- Units -->
+    <Row Tag="LOC_UNIT_SCHOLAR_NAME">
+      <Text>Учений</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCHOLAR_DESCRIPTION">
+      <Text>Громадянська одиниця, яка може вивчати міста, які страждають від чуми, щоб отримати [Icon_Science] науки. Вчені можуть бути використані 2 рази. Це можна збільшити за допомогою політики Studia Generalia.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PLAGUE_DOCTOR_NAME">
+      <Text>Доктор чуми</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PLAGUE_DOCTOR_DESCRIPTION">
+      <Text>Громадянська одиниця, яка може скоротити тривалість чуми на хворих на чуму плитках та відновити Лояльність міст. Лікарі-чумники можуть бути використані 2 рази. Це можна збільшити за допомогою політики Studia Generalia.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FLAGELLANT_NAME">
+      <Text>Флагелант</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FLAGELLANT_DESCRIPTION">
+      <Text>Цивільний підрозділ, який може набувати [Icon_Faith] Віру, [Icon_Culture] Культуру та Лояльність від міст, що постраждали від чуми.</Text>
+    </Row>
+    <!-- Unit Commands -->
+    <Row Tag="LOC_UNITCOMMAND_STUDY_NAME">
+      <Text>Вивчайте чуму</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_STUDY_DESCRIPTION">
+      <Text>Отримайте {1_Num} [ICON_Science] науки.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_STUDY_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Необхідно використовувати в місті, яке постраждало від чуми. Не може бути використано в місті, яке раніше вивчалося.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_NAME">
+      <Text>Міністр для хворих</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_DESCRIPTION">
+      <Text>Зменшити тривалість чуми на цій плитці на 50%.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Потрібно використовувати на тайлі, на якому є чума.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_NAME">
+      <Text>Приборкати місто</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_DESCRIPTION">
+      <Text>Додайте {1_Num} лояльності до міста.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Повинно використовуватись у місті. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_NAME">
+      <Text>Очистити гріхи</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_DESCRIPTION">
+      <Text>Отримайте {1_Num} [ICON_Faith] віру та {2_Num} [ICON_Culture] культуру. Додайте {3_Num} лояльності до міста. Флагелант споживається цією дією.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Повинно використовуватися у місті, яке постраждало від чуми.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_NAME">
+      <Text>Святий запал</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_DESCRIPTION">
+      <Text>Витратити {1_Num} [ICON_Faith] Віри, щоб відновити точки руху та атаки цього бійця. Можна використовувати тільки раз на хід.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Може бути використано лише після переміщення або виконання дії.[ENDCOLOR]</Text>
+    </Row>
+    <!-- Unit Abilities -->
+    <Row Tag="LOC_ABILITY_TEUTONIC_KNIGHT_NAME">
+      <Text>Жага хрестоносця</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TEUTONIC_KNIGHT_DESCRIPTION">
+      <Text>+8 [ICON_Strength] Бойової Сили в території ворога.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SCENARIO_ABILITY_TEUTONIC_KNIGHT_STRENGTH_ENEMY_TERRITORY_DESCRIPTION">
+      <Text>+{1_Amount} Бойової Сили на території ворога.</Text>
+    </Row>
+    <!-- Districts -->
+    <Row Tag="LOC_DISTRICT_WALLED_QUARTER_NAME">
+      <Text>Огороджений квартал</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
+      <Text>15% шанс уникнути смерті від чуми кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_THEATER_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Культура з сусідньої театральної частини міста.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMMERCIAL_GOLD">
+      <Text>+{1_num} [ICON_Gold] Золото з прилеглої торговельної гілки.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOLY_SITE_FAITH">
+      <Text>+{1_num} [ICON_Faith] Віра з сусідньої округи Священного Місця.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CAMPUS_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Наука з прилеглої району Кемпус.</Text>
+    </Row>
+    <!-- Buildings -->
+    <Row Tag="LOC_BUILDING_GUILDHALL_NAME">
+      <Text>Ратуша</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MASS_GRAVE_NAME">
+      <Text>Масова могила</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MASS_GRAVE_DESCRIPTION">
+      <Text>Зменшити тривалість чуми у цьому місті на 2 ходи (мінімально на 1).</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_SEWER_DESCRIPTION">
+      <Text>20% шанс уникнути смерті від чуми кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_NAME">
+      <Text>Хворобниця чуми</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION">
+      <Text>+50% [ICON_Production] Виробництво при будівництві Учених та Лікарів-протиепідемічників.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KEEP_NAME">
+      <Text>Зберігати</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KEEP_DESCRIPTION">
+      <Text>Зменшити тривалість чуми в цьому місті на 1 хід (мінімум 1).</Text>
+    </Row>
+    <!-- Techs -->
+    <Row Tag="LOC_TECH_SCENARIO_CIVIL_ENGINEERING_NAME">
+      <Text>Цивільне будівництво</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_MEDICINE_NAME">
+      <Text>Медицина</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_INVENTION_NAME">
+      <Text>Винахід</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_INVENTION_DESCRIPTION">
+      <Text>Виграйте сценарій.</Text>
+    </Row>
+    <!-- Civics -->
+    <Row Tag="LOC_CIVIC_SCENARIO_FEUDALISM_DESCRIPTION">
+      <Text>+1 [ICON_Food] Поліпшення харчування з ферм.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_WAGE_REFORM_NAME">
+      <Text>Реформа заробітної плати</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_HIGHER_LEARNING_NAME">
+      <Text>Вища освіта</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_LABOR_ECONOMY_NAME">
+      <Text>Економіка праці</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_URBANIZATION_NAME">
+      <Text>Урбанізація</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_MIDDLE_CLASS_NAME">
+      <Text>Середній клас</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_MIDDLE_CLASS_DESCRIPTION">
+      <Text>Переможіть сценарій.</Text>
+    </Row>
+    <!-- Policies -->
+    <Row Tag="LOC_SCENARIO_POLICY_CHIVALRY_DESCRIPTION">
+      <Text>+50% [ICON_Production] Виробництво для військових одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_SERFDOM_DESCRIPTION">
+      <Text>Ферми та плантації отримують +1 [ICON_Food] їжі.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_TOWN_CHARTERS_DESCRIPTION">
+      <Text>+100% бонуси сусідства району комерційного центру.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_MERITOCRACY_DESCRIPTION">
+      <Text>+100% бонуси за прилеглість до кампусу району.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEALTY_NAME">
+      <Text>Вірність</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEALTY_DESCRIPTION">
+      <Text>+50% [ICON_Production] Виробництво для цивільних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_UNDERCLASS_NAME">
+      <Text>Міська непривільна верства</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_UNDERCLASS_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Золота та +2 [ICON_Faith] Віри у всіх містах.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STUDIA_GENERALIA_NAME">
+      <Text>Студії Генералії</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STUDIA_GENERALIA_DESCRIPTION">
+      <Text>Новообрані Учені отримують 2 додаткові заряди. Новообрані Лікарі-чумаки отримують 1 додатковий заряд.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COTTAGE_INDUSTRIES_NAME">
+      <Text>Котеджні промисли</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COTTAGE_INDUSTRIES_DESCRIPTION">
+      <Text>+3 [ICON_Gold] Золото з будівель Майстерні.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SKILLED_TRADES_NAME">
+      <Text>Кваліфіковані ремесла</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SKILLED_TRADES_DESCRIPTION">
+      <Text>+100% бонуси за прилеглість до промислової зони.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_SERVANTS_NAME">
+      <Text>Державні службовці</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_SERVANTS_DESCRIPTION">
+      <Text>50% знижка при покупці будівель та цивільних одиниць за [ICON_Gold] Золото.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPECIALIZATION_NAME">
+      <Text>Спеціалізація</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPECIALIZATION_DESCRIPTION">
+      <Text>+4 [ICON_Production] Виробництво з фабричних будівель.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COMMERCIAL_LEAGUE_NAME">
+      <Text>Комерційна ліга</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COMMERCIAL_LEAGUE_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Золото з будівель Гільдії.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INDENTURE_NAME">
+      <Text>Індентура</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INDENTURE_DESCRIPTION">
+      <Text>Ділянки з поліпшеннями можна обробляти під час епідемії.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LABOR_MARKET_NAME">
+      <Text>Ринок праці</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LABOR_MARKET_DESCRIPTION">
+      <Text>+1 [ICON_Housing] Житло на округу, +2 [ICON_Gold] Золота у всіх містах.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CIVIL_QUARANTINE_NAME">
+      <Text>Цивільна карантинна ізоляція</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CIVIL_QUARANTINE_DESCRIPTION">
+      <Text>+2 [ICON_Science] Науки з районів Кампусу. Міста, які постраждали від чуми, отримують 10% шанс уникнути втрати [ICON_Citizen] Населення кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POGROM_NAME">
+      <Text>Погром</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POGROM_DESCRIPTION">
+      <Text>+2 [ICON_Culture] Культура, +4 [ICON_Gold] Золото у всіх містах.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PATRONAGE_NAME">
+      <Text>Покровительство</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PATRONAGE_DESCRIPTION">
+      <Text>+100% бонуси суміжності для району Театральної площі.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NOBLESSE_OBLIGE_NAME">
+      <Text>Шляхетна повинність</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NOBLESSE_OBLIGE_DESCRIPTION">
+      <Text>Обслуговування одиниць зменшено на 1 [ICON_Gold] золота за кожен хід, за кожну одиницю.</Text>
+    </Row>
+    <!-- Misc -->
+    <Row Tag="LOC_SCENARIO_GOVT_INHERENT_BONUS_MONARCHY">
+      <Text>None.</Text>
+    </Row>
+    <!-- ************************************************ -->
+    <!-- UI -->
+    <!-- ************************************************ -->
+    <!-- HUD -->
+    <Row Tag="LOC_SCENARIO_HUD_CHARGES">
+      <Text>Звинувачення</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_PLAGUE_POS">
+      <Text>[COLOR:FoodDark]+{1_Num} Чума[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_PLAGUE">
+      <Text>[COLOR:FoodDark]{1_Num} Чума[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_LOYALTY_POS">
+      <Text>[COLOR:Happiness]+{1_Num} Вірність[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_LOYALTY">
+      <Text>[COLOR:Happiness]{1_Num} Вірність [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_HOLY_FERVOR">
+      <Text>[COLOR_FLOAT_FAITH] Святе запалення! [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_NAME">
+      <Text>Папська політика</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_DESC">
+      <Text>Обслуговування: {1_Num} [ICON_Faith] Віри на хід</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_FAITH_TT">
+      <Text>{1_Num} про Папську політику</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCE_LABEL">
+      <Text>Змусити ({1_Num} [ICON_Gold] Золото)</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCE_TT">
+      <Text>Примусити цю плитку на {1_NumTurns} ходів. Примусовані плитки можуть бути піддані роботі, поліпшенню або будівництву навіть під час зараження чумою.</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_YOU_NEED_MORE_GOLD_TO_COERCE">
+      <Text>Вам потрібно {1_num} більше [ICON_Gold] Золота, щоб примусити цей плитку.</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCED_TURNS_LABEL">
+      <Text>Примушеність: {1_Num} Оберти</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS">
+      <Text>Чума</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_TT">
+      <Text>Показує плитки, заражені Чорною Хворобою (чорні плитки на піку інфекції, білі плитки наближаються до одужання від інфекції).</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_KEY_MIN">
+      <Text>Чума присутня</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_KEY_MAX">
+      <Text>Епідемія чуми</Text>
+    </Row>
+    <!-- Notifications -->
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_RUMOR_MESSAGE">
+      <Text>Чутки про чуму</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_RUMOR_SUMMARY">
+      <Text>До нас дійшли чутки, що Чорна Смерть може бути присутня в місті {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_OUTBREAK_MESSAGE">
+      <Text>Вибух чуми!</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_OUTBREAK_SUMMARY">
+      <Text>Чорна Смерть прибула до нашого міста {1_CityName}!</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_FRANCE_PAPAL_SLOT_SUMMARY">
+      <Text>Немає досить [ICON_Faith] віри, щоб зберігати можливість використання нашого слоту Папської політики.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_FRANCE_PAPAL_SLOT_MESSAGE">
+      <Text>Політика Папи відмінена!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING">
+      <Text>Ви втратили {1_UnitName} через чуму.</Text>
+    </Row>
+    <!-- Victory Conditions -->
+    <Row Tag="LOC_WORLD_RANKINGS_BLACKDEATH_SCENARIO_RULES">
+      <Text>In this scenario you must guide your Medieval civilization through the infamous Black Death, keeping its cultural and scientific efforts alive as the population suffers death and despair. To win, you must unlock either the final Technology (Invention) or the final Civic (The Middle Class), sowing the seed of the Enlightenment to come.[NEWLINE][NEWLINE]THE PLAGUE[NEWLINE][NEWLINE]Over 85 turns the Black Death will sweep across the continent in waves. It originates in port cities in every nation and spreads outward across the landscape. It can spread to any land tile except Mountains, and will spread more easily to cities, roads, Coasts that contain Harbor districts, and rural improvements. When the plague arrives in a tile it becomes [COLOR:Red]Plague-Stricken[ENDCOLOR] for a number of turns. When the turns are up the tile will recover, but while plague-stricken it suffers the following effects:[NEWLINE][NEWLINE][COLOR:Red][ICON_BULLET]Plague-stricken tiles cannot be worked by citizens, cannot be improved or repaired, and cannot be used to construct districts or add buildings if a district already exists[NEWLINE][NEWLINE][ICON_BULLET]If the tile is a city center, there is a high chance one population will die each turn the plague remains. This chance can be reduced by constructing certain buildings or using certain government policies[NEWLINE][NEWLINE][ICON_BULLET]Units that end their turn on a plague-stricken tiles suffer 20 damage[ENDCOLOR][NEWLINE][NEWLINE]To combat the Black Death, look to preserve your cities' power to keep working through the calamity. Build essential districts while your citizens are able. Keep your [ICON_Gold] Gold and [ICON_Faith] Faith reserves high to purchase buildings and units when your cities are crippled. Establish centers of science and culture early and protect them as best you can. When Plague Doctors become available, use them to safeguard your most vulnerable areas or shore up the Loyalty of cities that are wavering.[NEWLINE][NEWLINE]Difficulty affects [ICON_GOLD] Gold and [ICON_FAITH] Faith.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_BLACKDEATH_REQUIRES_PLAYER_HAS_FINAL_CIVIC_PROGRESS">
+      <Text>Громадянська освіта: {NumCompleted}/{NumTotal} (~{EstimatedTurns}[ICON_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_BLACKDEATH_REQUIRES_PLAYER_HAS_FINAL_TECH_PROGRESS">
+      <Text>Технології: {NumCompleted}/{NumTotal} (~{EstimatedTurns}[ICON_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_VICTORY_BLACKDEATH_SCENARIO">
+      <Text>{1_ЗавершеніЦивіки}/{2_ЗагальнаКількістьЦивіків} Цивіків, {3_ЗавершеніТехнології}/{4_ЗагальнаКількістьТехнологій} Технологій</Text>
+    </Row>
+    <!-- Tooltips -->
+    <Row Tag="LOC_CITY_BANNER_PLAGUE_TT">
+      <Text>Це місто було уражене чумою. Воно втратить Вірність та потенційно [ICON_Citizen] Населення кожен хід, доки чума не зникне.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CULTURE_THEATER">
+      <Text>+{1_num} [ICON_Culture] Культура від прилеглого театру.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GOLD_COMMERCIAL_HUB">
+      <Text>+{1_num} [ICON_Gold] Золото з прилеглої Торгівельної Хати.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_FAITH_HOLY_SITE">
+      <Text>+{1_num} [ICON_Faith] Віра з прилеглої Святої Місцевості.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCIENCE_CAMPUS">
+      <Text>+{1_num} [ICON_Science] Наука з сусіднього кампусу.</Text>
+    </Row>
+    <!--Historic Rankings-->
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_1_NAME">
+      <Text>Бездоганний</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_1_QUOTE">
+      <Text>А коли прийде священик та подивиться, що захворювання не поширилося в будинку після штукатурення, то священик оголосить будинок чистим, бо захворювання зцілено.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_2_NAME">
+      <Text>Лікар-чумак</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_2_QUOTE">
+      <Text>Так само, як і в інших мистецтвах, ті, хто їх практикують, відрізняються один від одного за майстерністю та знаннями, і так само в медицині.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_3_NAME">
+      <Text>Третє становище</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_3_QUOTE">
+      <Text>Бейкстери та бруйстери,
+І багато інших ремесел;
+Ткачі шерсті та льону,
+Кравці та поштовхачі на ринку,
+Каменярі та шахтарі,
+І багато інших ремесел.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_4_NAME">
+      <Text>Філософ</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_4_QUOTE">
+      <Text>Хоча ті речі, які перевищують знання людини, не можна шукати людиною за допомогою свого розуму, проте, якщо вони були відкриті Богом, вони повинні бути прийняті вірою.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_5_NAME">
+      <Text>Харитаунт</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_5_QUOTE">
+      <Text>Я знайшов там братів, всі чотири ордени, які проповідують народу на користь самого себе</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_6_NAME">
+      <Text>Мишоловкар</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_6_QUOTE">
+      <Text>Чому має собака, кінь, щур життя, а ти не маєш жодного дихання?</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_7_NAME">
+      <Text>Кладовищенець</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_7_QUOTE">
+      <Text>У яку би могилу вони не виявились першими, вони поховували їх без зайвих формальностей та церемоній.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_8_NAME">
+      <Text>Флагеллант (Flagellant)</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_8_QUOTE">
+      <Text>Піе Єзу Доміне, Дай їм спокій.</Text>
+    </Row>
+    <!-- Popup Events -->
+    <Row Tag="LOC_POPUP_SCENARIO_GENERIC_WHICH_PATH">
+      <Text>Який шлях ви оберете?</Text>
+    </Row>
+    <!-- A New Plague Appears (Intro) -->
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_TITLE">
+      <Text>З'являється нова хвороба</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_DESCRIPTION">
+      <Text>Поширилися чутки про те, що в рухливих портах Середземного моря з'явилася смертельна хвороба. Вона може вже бути в дорозі до вашого узбережжя на борту торгових суден чи на спинах візків.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_EFFECT">
+      <Text>Спостерігайте за вашими дорогами та портами на перший ознаки вибуху. Вам потрібно буде швидко реагувати, щоб обмежити поширення.</Text>
+    </Row>
+    <!-- Outbreak! -->
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_TITLE">
+      <Text>Вибух!</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_DESCRIPTION">
+      <Text>Чума прибула до [COLOR:Civ6Yellow]{1_CityName}[ENDCOLOR]! Тепер це не просто чутки, хвороба серед нас і населення занурюється у жах та паніку.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_EFFECT">
+      <Text>Кількість жертв може бути неуникною, але ми повинні все ж зберігати стійкість міста, зменшуючи подальше поширення.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_REPEAT_DESCRIPTION">
+      <Text>Чума прибула до [COLOR:Civ6Yellow]{1_CityName}[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_REPEAT_EFFECT">
+      <Text>Як і з попередніми випадками, це місто буде паралізовано, оскільки його квартали стануть непридатними для роботи, а населення зменшиться. Будьте уважні до загрози голоду та втрати лояльності.</Text>
+    </Row>
+    <!-- The Nobility Flees -->
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_TITLE">
+      <Text>Шляхта біжить</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_DESCRIPTION">
+      <Text>Багаті землевласники покладають вину за смертоносну хворобу на міазму - гнилі випари, що вирують у густонаселених містах. Вони масово втечі з своїх маєтків у села, забираючи з собою своїх слуг та залишаючи вулиці для бідних та бездомних.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_EFFECT">
+      <Text>Страх підштовхує деякі населення до вашого міста, а інших - навпаки, від нього віддаляє. Нові політики дають можливість вибрати, яку групу підтримати.</Text>
+    </Row>
+    <!-- False Cures, Empty Promises -->
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_TITLE">
+      <Text>Неправдиві ліки, порожні обіцянки</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_DESCRIPTION">
+      <Text>Багато людей твердять, що мають владу чи знання, щоб зупинити чуму. Але, незалежно від того, чи це шахраї, священики, лікарі чи королі, чума перемагає їх усіх. Люди засмучені та відчайдушно шукають відповіді.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_EFFECT">
+      <Text>Нові політики дозволяють вживати більш різких заходів для заспокоєння громадської думки.</Text>
+    </Row>
+    <!-- We All Fall Down -->
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_TITLE">
+      <Text>Ми всі падаємо</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_DESCRIPTION">
+      <Text>Чума та її жахливий урожай покривають землю. Смерть стикається з твоїм народом скрізь, куди вони не звернулися. Який сенс боротьби, коли багаті та бідні, високі та низькі страждають однаково?</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_EFFECT">
+      <Text>-30% зростання [ICON_Food] їжі, -3 [ICON_Production] виробництва, -3 [ICON_Gold] золота та -3 [ICON_Faith] віри у всіх містах.</Text>
+    </Row>
+    <!-- Sick in Body and Soul -->
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_TITLE">
+      <Text>Хворий на тілі та душі</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_DESCRIPTION">
+      <Text>Хвороба охоплює націю, перекреслюючи стабільність та традиції, на яких наша суспільна система спирається десятиліттями. Ті, хто має владу, встановлюють приклад того, як реагувати на розпад соціального порядку.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_A">
+      <Text>Вправляйтесь у покаянні</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_A_EFFECT">
+      <Text>-2 [ICON_Production] Виробництво, +3 [ICON_Faith] Віра у всіх містах</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_B">
+      <Text>Обіймайте розпусту</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_B_EFFECT">
+      <Text>-20% зростання [ICON_Food] , +3 [ICON_Gold] Золото у всіх містах</Text>
+    </Row>
+    <!-- Physician, Heal Thyself -->
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_TITLE">
+      <Text>Лікарю, лікуйся сам</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_DESCRIPTION">
+      <Text>Зі зростанням кількості жертв люди звертаються за допомогою до влади, якій довіряють. Багато просять наукових знань та хочуть найняти лікарів, щоб допомогти хворим. Інші ж захоплюються фанатизмом і вимагають покаяння, щоб благати Бога зупинити чуму.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_CHOICE_A">
+      <Text>Лікуйте хворих</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_CHOICE_B">
+      <Text>Постиджуй грішника</Text>
+    </Row>
+    <!-- The End of the World -->
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_TITLE">
+      <Text>Кінець світу</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_DESCRIPTION">
+      <Text>Кількість загиблих зростає за межу уявлення. Віра в церкву та державу руйнується, оскільки настанова безнадії встановлюється. Суспільство не може продовжуватися таким чином - потрібна перерва.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_A">
+      <Text>Здайся на волю Божу</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_A_EFFECT">
+      <Text>-3 до всіх виробів, крім [ICON_Faith] Віри у всіх містах</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_B">
+      <Text>Відмовитися від Бога</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_B_EFFECT">
+      <Text>-10 [ICON_Faith] Віра у всіх містах</Text>
+    </Row>
+    <!-- Is This God's Judgement? -->
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_TITLE">
+      <Text>Це суд Бога?</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_DESCRIPTION">
+      <Text>Мертві наповнюють міста та переповнюють кладовища. Навіть найбільш консервативні свідки засвідчують руйнування та дивуються, чи нарешті світова злість заслуговує на Боже покарання.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_A">
+      <Text>Наші духи знищені</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_A_EFFECT">
+      <Text>-1 [ICON_Culture] Культура, -1 [ICON_Faith] Віра в усіх містах</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_B">
+      <Text>Наші зусилля безглузді</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_B_EFFECT">
+      <Text>-1 [ICON_Science] Наука, -10% [ICON_Food] Зростання в усіх містах</Text>
+    </Row>
+    <!-- ************************************************ -->
+    <!-- CIVILOPEDIA -->
+    <!-- ************************************************ -->
+    <!--Units-->
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SCHOLAR_CHAPTER_HISTORY_PARA_1">
+      <Text>Перед Чорною Смертю в Європі процвітання навчання та освіти, і з'явилася нова категорія освічених професіоналів, присвячених вивченню. Деякі вчені зосередилися на практичних питаннях, таких як право, але зростаюча група звернулася до питань про природу знань та природознавство, прокладаючи шлях раннього Ренесансу.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PLAGUE_DOCTOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Однією з найвражаючіших фігур Чорної Смерті є лікар-чумник з його макабричною маскою у формі дзьоба, довгими мантиями та палицею. В кінчику маски-дзьоба було закладено саше з ароматичними травами (помилково вважалося, що солодкий запах відлякує чуму). Лікар-чумник викликався, коли підозрювали, що хворий (або померлий) заразився чумою. Він використовував свою палицю, щоб оглянути хворого, не доторкуючись до нього, щоб підтвердити діагноз або зняти його</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FLAGELLANT_CHAPTER_HISTORY_PARA_1">
+      <Text>У релігійно насиченому світі пізнього Середньовіччя чума вважалася божевільним покаранням за гріхи людства. Деякі групи людей взяли на себе вину за гріхи людства та здійснювали акти екстремальної публічної покаяння, процесуючи по землі та б'ючи себе батогами, від чого походить назва. Спочатку ці вистави мали (принаймні мовчазну) згоду церковних влад, але, коли практика стала екстремальною, церковні влади засудили її. Це не припинило практику флагеляції та процесії флагелантів.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TEUTONIC_KNIGHT_CHAPTER_HISTORY_PARA_1">
+      <Text>Один з релігійних орденів лицарства в Європі, Тевтонські лицарі проводили Північний хрестовий похід проти язичницьких племен у Балтійському регіоні. Вони були особливо відомі своєю агресивністю, непохідністю, багатством та суворим способом життя, навіть за стандартами хрестоносних орденів.</Text>
+    </Row>
+    <!--Districts-->
+    <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_WALLED_QUARTER_CHAPTER_HISTORY_PARA_1">
+      <Text>Без належного розуміння епідеміології чуми мешканці міст все ж відкрили систему для стримування Чорної Смерті: відокремлювали хворих у постійну карантинну зону. Ця драконівська міра приречена на страшну долю відокремлених хворих, але іноді могла зупинити поширення чуми. Це є прикладом жахливого розрахунку страждань під час Чорної Смерті, коли деякі здорові люди добровільно пішли у карантин, щоб запобігти поширенню епідемії.</Text>
+    </Row>
+    <!--Buildings-->
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GUILDHALL_CHAPTER_HISTORY_PARA_1">
+      <Text>Гільдійський будинок - це пів-публічна будівля, що належить гільдії та надає зустрічний простір для її членів, а також демонструє їх багатство та владу. Вони часто були прикрашені з вишуканою метою вираження міської та торговельної гордості.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MASS_GRAVE_CHAPTER_HISTORY_PARA_1">
+      <Text>Під час Чорної Смерті кількість жертв зростала настільки, що індивідуальні похорони стали неможливими, і мерці поховувалися у великій кількості з тим скромністю, яку можна було забезпечити для померлих. Іноді частково розкладені тіла виходили з-під землі та поховувалися разом, щоб заощадити місце. У інших випадках цвинтарі ставали настільки переповненими, що мерці поховувалися над землею. Не всі масові могили були позначені, і їх й досі виявляють в наш час.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PLAGUE_HOSPITAL_CHAPTER_HISTORY_PARA_1">
+      <Text>Міста намагалися лікувати жертв чуми якнайкраще, або принаймні зменшувати їхню страждання. Хоспітали для хворих на чуму можуть надавати підозрілу допомогу, але принаймні вони надавали своїм пацієнтам певну міру надії, що на них дбають.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_KEEP_CHAPTER_HISTORY_PARA_1">
+      <Text>Центральна частина замку або фортифікації, використовується як опір та остання лінія оборони у разі прориву зовнішніх стін. Кепи часто мають дуже мало та дуже вузькі входи, щоб горстка захисників могла стримати нападників</Text>
+    </Row>
+    <!--Techs-->
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_CIVIL_ENGINEERING_CHAPTER_HISTORY_PARA_1">
+      <Text>Кілька факторів вплинули на поліпшення цивільної інженерії в середньовічний період, включаючи важливість будівництва міцних замків, важливість осадження цих замків та потребу будувати міста, здатні утримувати великі населення без тонення у власному смітті.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_INVENTION_CHAPTER_HISTORY_PARA_1">
+      <Text>Кваліфіковані ремісники та митці почали відкривати системи та технології, відомі в класичному світі. З такою великою кількістю смертей під час Чорної смерті, машини для збереження праці стали важливішими.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_MEDICINE_CHAPTER_HISTORY_PARA_1">
+      <Text>Медицина - це практичне мистецтво балансування гуморів тіла - крові, флегми, чорної та жовтої жовчі - так, як це викладено у Гіппократа. Це може включати вивчення астрології (оскільки небесні тіла впливають на ці гумори) та чотирьох основних елементів: вогня, землі, повітря та води. Це підходящий курс для тих людей, які не можуть повністю оцінити возвеличені дисципліни, такі як логіка та богослов'я.</Text>
+    </Row>
+    <!--Civics-->
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_WAGE_REFORM_CHAPTER_HISTORY_PARA_1">
+      <Text>Нехватка робітників після Чорної Смерті призвела до занепаду традиційних систем кріпацтва в Європі. Тепер сільськогосподарські та інші робітники могли очікувати отримання зарплати за свою працю замість того, щоб бути змушеними її виконувати безкоштовно.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_HIGHER_LEARNING_CHAPTER_HISTORY_PARA_1">
+      <Text>Відновлення текстів Римського права в середні віки призвело до зростання університетської системи у містах, таких як Болонья та Париж. Освіта стала широко доступною поза церквою та покладла основи для Ренесансу</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_LABOR_ECONOMY_CHAPTER_HISTORY_PARA_1">
+      <Text>Нехватка робітників після смертей від Чорної Смерті підвищила цінність праці. Більше не могли шляхетні просто бити кріпаків, щоб працювати на землі, оскільки ці невдячні просто йшли служити новому пану, який платив їм грошима.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_MIDDLE_CLASS_CHAPTER_HISTORY_PARA_1">
+      <Text>Зростання міст в Європі означало зростання нового класу поза традиційною моделлю феодального світу - аристократії, духовенства та селянства. Більшість правителів розглядали їх як корисну базу оподаткування для фінансування війн.</Text>
+    </Row>
+    <!--Policies-->
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_FEALTY_CHAPTER_HISTORY_PARA_1">
+      <Text>Відданість - це процес складання присяги вірності господарю в феодальній системі, наприклад, лицар складає присягу на службу баронові, або сам барон складає присягу королю.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_UNDERCLASS_CHAPTER_HISTORY_PARA_1">
+      <Text>Розквіт міст означав, що разом зі збором торговців та кваліфікованих ремісників з'явилася категорія людей, яких соціальний статус вважав менш цінним або непотрібним через те, що вони не вписувалися в соціальні норми феодального періоду. Можна стверджувати, що ці уявлення поширюються й на сучасний вік.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_STUDIA_GENERALIA_CHAPTER_HISTORY_PARA_1">
+      <Text>Оригінальна назва університету або освіта, яку отримують університетські студенти, означає «загальну освіту». На відміну від семи вільних мистецтв, не існувало чіткої навчальної програми для Studia, що змушувало університети видається диплом як визнання успішного навчання та можливого засвоєння матеріалу студентом.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COTTAGE_INDUSTRIES_CHAPTER_HISTORY_PARA_1">
+      <Text>Котеджна промисловість - це невеликий бізнес, заснований окремою особою або сім'єю, який призначений для забезпечення себе чи отримання додаткового доходу. Ці малі підприємства вважаються складовою переміни з феодальної економіки до ринкової економіки</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SKILLED_TRADES_CHAPTER_HISTORY_PARA_1">
+      <Text>Мистецтва або ремесла можуть бути опановані тільки завдяки довгому тренуванню, особливо коли мова йде про виготовлення цінних товарів, таких як срібні вироби, тканини, скло та машини. Ремісники збиралися в містах, де вони могли працювати разом, навчати майбутніх практиків, встановлювати ціни та намагатися контролювати ринок своїх товарів. Кваліфіковані ремісники були одними з перших справжніх громадян середнього класу в історії.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PUBLIC_SERVANTS_CHAPTER_HISTORY_PARA_1">
+      <Text>Зростаюча ідея, що держави є політичними сутностями поза їх правителями, призвела до зростання класу слуг, які висловлювали свій обов'язок в термінах служіння державі, а не її правителю. Це дало їм можливість безпристрасно служити добру держави, але не зробило їх більш популярними, коли настав час збору податків.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SPECIALIZATION_CHAPTER_HISTORY_PARA_1">
+      <Text>При виробництві складних об'єктів фокусування осіб на одному аспекті виробництва дозволяє досягти вищої швидкості виробництва, ніж у випадку, коли один артист працює над виробом з матеріалу до завершення. Багато об'єктів було зведено у такий спосіб протягом середньовіччя та ранньомодерного періоду, включаючи зброю та броню. Підйом спеціалізації в кінцевому рахунку знайшов більш повне відображення в промисловій епохі та на лінії збірки.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COMMERCIAL_LEAGUE_CHAPTER_HISTORY_PARA_1">
+      <Text>Групи купців об'єднувалися, щоб здійснювати більшу економічну владу. Ці комерційні союзи згодом стали основою сучасних систем банківської справи та валюти</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_INDENTURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Індентура - це процес укладання договору про відчуження своєї праці іншій особі на визначений строк з очікуванням отримання чогось в кінці. Це процес зв'язування навчанців з майстрами на початку їхньої освіти.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LABOR_MARKET_CHAPTER_HISTORY_PARA_1">
+      <Text>В певний момент робочий ринок буквально був місцем на ринку, де некваліфіковані робітники збиралися, чекаючи, щоб їх найняли на певну роботу. У деяких місцях це все ще так.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CIVIL_QUARANTINE_CHAPTER_HISTORY_PARA_1">
+      <Text>Карантин - це ізоляція хворих людей з метою запобігання поширенню хвороби серед населення. Від часів Чорної Смерті для позначення місць, де проводиться карантин, використовують жовті прапори</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_POGROM_CHAPTER_HISTORY_PARA_1">
+      <Text>За значенням російського слова, що означає "руйнувати", погром - це систематичне вбивство та пригнічення групи зі згодою держави. Пригнічена група зазвичай є меншістю, наприклад євреї в Європі більшу частину європейської історії. Підставою зазвичай є наклеп на якийсь злочин, який вони не вчинили. Погроми мають довгу та жахливу історію і сталися занадто багато разів, незважаючи на те, що люди урочисто клянуться "і це більше не станеться" після кожного з них.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PATRONAGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Практика безпосередньої підтримки робіт іншої особи називається патронатом. Патронат може бути помітним індикатором багатства, або може здійснюватися зі справді безкорисливих мотивів. Багато великих творів мистецтва і літератури були зроблені за наказом багатих покровителів.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_NOBLESSE_OBLIGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Буквально "Шляхта надає", цей вираз означає, що люди з вищим соціальним статусом та багатством повинні бути щедрими та надавати допомогу тим, хто менш забезпечений. Безпрохана благодійність не завжди отримується з очікуваною покірливою покірністю від дарувальника</Text>
+    </Row>
+    <!--Leaders-->
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_1">
+      <Text>Філіп VI був першим французьким королем династії Валуа, чиє панування визначалося початком Столітньої війни з Англією. Однією з його перших дій було придушення повстання в Фландрії і відновлення на троні Графа Луї. Відносини з Едвардом III Англії з початку були добрими, але погіршувалися через статус Герцогства Аквітанії та питання про те, чи був Едвард васалом Філіпа. Це та інші питання були причиною початку Столітньої війни</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_2">
+      <Text>Поки Філіп вів Едварда в знищенні війни з райдів та атриції, він мав перевагу завдяки багатству Франції, але відкрита та рішуча битва була більш сприятливою для англійців. Після Битви при Крессі в 1346 році, французька знать та їхні союзники були настільки понищені, що Шляхетні стани Франції відмовилися від оплати будь-яких наступних війн. Прибуття Чорної Смерті у 1348 році було не менш руйнівним, а серед загиблих була королева Жанна, його дружина.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_1">
+      <Text>Можливо, найуспішніший середньовічний король Англії. Його 50-річне правління було відзначене війнами, підйомом парламенту та чумою. Його батько, Едвард II, був свергнутий, коли Едвард III був ще дитиною, але Едвард швидко перейшов до виконання влади на власних засадах.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_2">
+      <Text>Ведучи війни проти Шотландії та Франції, Едвард III та його підлеглі командири (зокрема, його найстарший син, Едвард Чорний Принц) були відповідальні за багато з найвеличніших перемог Англії від столітньої війни, включаючи морську битву під Слюйсом. Сам Едвард III командував військами на Битві під Крезі, де англійські лучники зарізали квітку французької знать в один день.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_3">
+      <Text>Чорна смерть 1361 року означає спад і заходження його правління. Смерть від чуми позбавила його ресурсів, необхідних для боротьби з війнами, та підвищення соціальної напруги в країні зайняли його протягом більшої частини життя</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_1">
+      <Text>Відомий як Альфонсо Справедливий, він був королем Кастилії та Леону, успадкувавши трон від свого батька, Фердинанда IV, коли йому був всього один рік. Після досягнення повноліття у 1325 році, він успішно придушив сварки (і владу) благородних родів, встановив важливі юридичні реформи в "Повісті від Алькали-де-Енарес" та вів війну з марокканськими берберами Марінідів, здобувши важливу перемогу над ними у битві на річці Саладо в Андалусії</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_2">
+      <Text>Альфонсо помер від Чорної Смерті під час облоги Гібралтару в 1350 році, і влада перейшла до його сина Петра Жорстокого</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_1">
+      <Text>Людвіг Баварський, Головний Римський імператор, був першим імператором Віттельсбахів в Німеччині. На початку його правління було помітною боротьба проти сімей Габсбургів та Люксембургів, які також претендували на імператорський трон. Цей конфлікт перетворився на додатковий конфлікт із папою, який екскомунікував Людвіга як єретика. Це стало трохи незручно, коли Людвіга коронували імператором у Римі в 1328 році місцеві жителі. Правління Людвіга як імператора було остаточно забезпечено переважно в результаті смерті його суперників та загального виснаження в імперії через безкінечні схеми успадкування головних династій.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_2">
+      <Text>Він був союзником Едуарда III Англії, але перебував в опозиції зі Францією (і Папою в Авіньйоні), що погіршувало його політичну ситуацію вдома. На момент своєї смерті біля Мюнхена в 1347 році він не зміг зробити Віттельсбахів домінуючим родом в Імперській політиці</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_1">
+      <Text>Найбільший політичний орган у Центральній Європі на час Чорної Смерті був поліглотним, багатонаціональним сукупністю королівств, князівств, єпископств, герцогств, вільних міст, конфліктних земель, баронств та парафій, які теоретично перебували під світським правлінням імператора. Могутні правлячі родини та Папа часто конкурували за ефективний контроль або автономію своїх власних територій.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_1">
+      <Text>Регіон Кастілія займає значну частину центральної частини сучасної іспанської нації. У середньовічні часи королівство зазвичай було у війні з мусульманськими регіонами на півдні Іспанії. Об'єднання корон Кастілії та сусіднього королівства Леон створило передумови для того, щоб Кастілія стала домінуючою силою на Іберійському півострові.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_1">
+      <Text>Родина Плантагенетів, яка правила Англією під час Чорної Смерті, мала претензії на обидва престоли, англійський та французький. Вони вирушили на військові завоювання проти Шотландії та Уельсу. З часом, король Англії був змушений передати владу у Парламент та знать, що означало, що англійські королі порівняно менш потужні, ніж інші європейські монархи.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_1">
+      <Text>Під час Середньовіччя Франція була одним з найбагатших і найпроцвітаючих регіонів Європи. На той час, французькі королі безпосередньо контролювали значну кількість території, що робило їх одними з найбільш централізованих королівств того часу.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

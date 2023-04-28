@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_DISTRICT_GOVERNMENT_NAME">
+      <Text>Площа уряду</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_NAME">
+      <Text>Водний парк</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION">
+      <Text>Округ, розташований колись у вашій імперії для вшанування ваших управлінських рішень. Забезпечує +8 лояльності на хід цьому місту і збільшує бонуси суміжних округів на +1. Нагороджує +1 [Icon_Governor] Титулом Губернатора.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_DESCRIPTION">
+      <Text>Район, розташований на узбережжі, призначений для забезпечення задоволення населення, збільшуючи [ICON_Amenities] зручності. Не може бути побудований в місті з Розважальним комплексом. Не може бути побудований на Рифі.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION">
+      <Text>Район у вашому місті, який спеціалізується на фінансах та торгівлі.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION">
+      <Text>Район для морської діяльності у вашому місті. Також видаляє штраф руху для посадки та висадки з цього тайлу [ICON_Movement]. Має бути побудований на березі або озері поруч з землею. Не може бути побудований на рифі.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_EXPANSION1_DESCRIPTION">
+      <Text>Район у вашому місті, який присвячений збереженню задоволення вашого народу, збільшуючи [ICON_Amenities] зручності. Не може бути побудований у місті з водним парком.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_RIVER_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Культура з прилеглої річки.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_RIVER_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Виробництво з прилеглої річки.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_RIVER_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Наука з прилеглої ріки.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_RIVER_FAITH">
+      <Text>+{1_num} [ICON_Faith] Віра з прилеглої ріки.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Наука.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NEGATIVE_DISTRICT_SCIENCE">
+      <Text>{1_num: number +#,###;-#,###} [ICON_Science] Наука з прилеглих районів.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GOVERNMENT_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Культура з прилеглої урядової площі.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GOVERNMENT_FAITH">
+      <Text>+{1_num} [ICON_Faith] Віра з прилеглої Площі Уряду.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GOVERNMENT_GOLD">
+      <Text>+{1_num} [ICON_Gold] Золото з прилеглої Плази Уряду.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GOVERNMENT_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Виробництво з прилеглої Правлінської площі.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GOVERNMENT_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Наука з прилеглої Урядової площі.</Text>
+    </Row>
+    <!-- Projects -->
+    <Row Tag="LOC_PROJECT_WATER_CARNIVAL_NAME">
+      <Text>Карнавал</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_WATER_CARNIVAL_SHORT_NAME">
+      <Text>Карнавал (прибережний)</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_WATER_CARNIVAL_DESCRIPTION">
+      <Text>Бразильський унікальний проект, який надає +1 [ICON_Amenities] Зручностей, коли він активний, та [ICON_GreatPerson] очки Великих Осіб для [ICON_GreatEngineer] Великих Інженерів, [ICON_GreatMerchant] Великих Купців, [ICON_GreatWriter] Великих Письменників, [ICON_GreatArtist] Великих Художників та [ICON_GreatMusician] Великих Музикантів після завершення.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_BREAD_AND_CIRCUSES_NAME">
+      <Text>Хліб та цирки</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_BREAD_AND_CIRCUSES_SHORT_NAME">
+      <Text>Хліб та Цирки - гасло, яке вказує на те, що уряд намагається забезпечити населенню лише базовими потребами та розвагами, а не дійсними покращеннями у житті людей</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_WATER_BREAD_AND_CIRCUSES_SHORT_NAME">
+      <Text>Хліб та цирки (Крайовий)</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_BREAD_AND_CIRCUSES_DESCRIPTION">
+      <Text>Проект міста, який збільшує тиск Лояльності, який він справляє на себе та інші міста поблизу.[NEWLINE][NEWLINE]Під час дії проекту, кожен з ваших [ICON_Citizen] Громадян тут справляє тиск Лояльності +0,5 на це місто. Цей тиск також впливає на інші міста в радіусі 9 плиток, але на 10% менше ефективний за кожну плитку. Після завершення одразу отримайте +20 Лояльності в цьому місті.[NEWLINE][NEWLINE]Вимагає: Розважальний комплекс.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_BREAD_AND_CIRCUSES_DESCRIPTION_ALT">
+      <Text>Проект міста, який збільшує тиск Лояльності, який це місто накладає на себе та інші міста поруч. [NEWLINE] [NEWLINE] Поки активний, кожен ваш [ICON_Citizen] громадянин тут накладає на це місто тиск Лояльності +1. Цей тиск також впливає на інші міста в радіусі 9 плиток, але є менш ефективним на 10% на кожну плитку відстані. Після завершення миттєво отримайте +20 Лояльності в цьому місті. [NEWLINE] [NEWLINE] Вимагається: район водного парку.</Text>
+    </Row>
+    <!-- Updates to base game Districts -->
+    <Row Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION">
+      <Text>Район у вашому місті, присвячений збереженню щастя вашого народу за допомогою збільшення [ICON_Amenities] зручностей. Не може бути побудований у місті з аквапарком.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_STREET_CARNIVAL_DESCRIPTION">
+      <Text>Район, що є унікальним для Бразилії. Замінює район Розважальних Закладів та забезпечує +2 [ICON_Amenities] атракціонів, а також дешевший у виробництві. Неможливо побудувати в місті з Копакабаною. Також відкриває проект Карнавал, який надає додатковий +1 [ICON_Amenities] атракціону під час виконання та різноманітні очки [ICON_GreatPerson] Великої Особистості після завершення.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

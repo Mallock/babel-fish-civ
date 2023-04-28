@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Political Event Titles-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_1">
+      <Text>ГОТОВИЙ ДО ДОСЛІДЖЕНЬ</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_2">
+      <Text>КОЛОНІЗАЦІЙНИЙ КОРАБЕЛЬ ПРИБУВАЄ</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_3">
+      <Text>НАРОД НАРОДЖУЄТЬСЯ</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_4">
+      <Text>ПЕРША СВІТОВА ВІЙНА</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_5">
+      <Text>ДРУГА СВІТОВА ВІЙНА</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_6">
+      <Text>ДОДАТКОВІ КОЛОНІСТИ</Text>
+    </Row>
+    <!-- Political Event Descriptions-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_1">
+      <Text>Відважний дослідник відправився з британської колонії Новий Південний Уельс, щоб розкрити таємниці Австралійського континенту</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_2">
+      <Text>Ми залучили корабель твердих духом людей, щоб розпочати вашу нову колонію. Ми маємо високі надії на цю групу: не всі з них є засудженими.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_3">
+      <Text>З того часу, як багато поколінь народилися та померли як туземці Австралії, наш народ хоче об'єднати наші окремі штати в єдину країну. Час створити федерацію Австралії, утворити нову незалежну націю від Великобританії</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_4">
+      <Text>Велика війна стала причиною страждань континенту Європи, і наша батьківщина Британія потрапила в цей конфлікт. Ми відправимо військових для надання допомоги</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_5">
+      <Text>Розпочалася наступна світова війна і на цей раз навіть наша батьківщина Австралія перебуває під загрозою. Як нагадував наш прем'єр-міністр Джон Кертін: "Полум'я свободи, запалене на цій землі нашими першими поселенцями, і підтримуване поколіннями, що наступали, не може бути загашене жодним ворогом"</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_6">
+      <Text>Ваш громадський прогрес помічений ще в Англії. Ще більше колоністів тільки що прибули, бажаючи зробити вашу колонію своїм новим домом.</Text>
+    </Row>
+    <!-- Political Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_1">
+      <Text>Використовуйте цього дослідника наступні чотири ходи, щоб знайти найкраще місце для нової поселення.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_2">
+      <Text>Вільний поселенець з'явиться на початку наступного ходу на береговій плитці, найближчій до вашого дослідника.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_3">
+      <Text>Після завершення Федеративного громадянства ви зможете оновитися до найсильнішої урядової системи - Державного уряду.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_4">
+      <Text>Ви можете розпочати проект AIF у будь-якому зі своїх міст. Кожен такий внесок до військового зусилля підвищить статус вашої держави в нашій нації, заробивши вам +10 [ICON_Gold] Золота щоразу.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_5">
+      <Text>Завершення проекту AIF є ще більш критичним на цей час та принесе вам нагороду +20 [ICON_Gold] Золота щоразу.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_6">
+      <Text>У вашій столиці з'явився вільний поселенець. З цього моменту нові міста повинні бути будовані в межах 10 плиток від одного з ваших існуючих міст.</Text>
+    </Row>
+    <!-- Danger Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_1">
+      <Text>Ваш {1_UnitName} зазнав {2_Damage} пошкодження.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_2">
+      <Text>Ваш {1_UnitName} був убитий.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_3">
+      <Text>Ваш {1_UnitName} назавжди втратив 1 [ICON_Movement] Руху.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_4">
+      <Text>Ви втрачаєте {1_Amount} [ICON_Gold] золота.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_5">
+      <Text>Ваш {1_UnitName} повернувся до найближчого міста {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_6">
+      <Text>Ваш {1_Improvement} поруч був зруйнований.</Text>
+    </Row>
+    <!-- Delay Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_1">
+      <Text>Ваша {1_UnitName} втратила {2_Movement} очок руху на цей хід.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_2">
+      <Text>Ваш {1_UnitName} не зможе здійснити рух у цьому ході.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_3">
+      <Text>Знання про деяку місцевість біля {1_UnitName} втрачені.</Text>
+    </Row>
+    <!-- Benefit Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_1">
+      <Text>У найближчому місті {2_CityName} прибула {1_UnitName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_2">
+      <Text>До вашої {2_UnitName} прибув {1_UnitName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_3">
+      <Text>Розкрито не досліджену територію поблизу вашої {1_UnitName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_4">
+      <Text>Ваш {1_UnitName} отримав постійне покращення +1 [ICON_Movement] руху.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_5">
+      <Text>Ваш {1_UnitName} був повністю вилікуваний.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_6">
+      <Text>Вашу {1_UnitName} було відновлено {2_HitPoints} очок здоров'я.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_7">
+      <Text>Ваше найближче місто {1_CityName} збільшило свою популяцію на 1.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_8">
+      <Text>Ви отримуєте {1_Amount} [ICON_Gold] Золота.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_9">
+      <Text>Ви отримали Євреку за технологію {1_TechName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_10">
+      <Text>Ви отримали натхнення для громадської {1_CivicName}.</Text>
+    </Row>
+    <!-- Exploration Event Titles-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_1">
+      <Text>Потрапив у вирій</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_2">
+      <Text>Торкнувся скорпеноподібної медузи</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_3">
+      <Text>Зібрав раковину шишечника</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_4">
+      <Text>Затримано через небезпечну туманність</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_5">
+      <Text>Поповнені австралійськими індіанцями-рибалками</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_6">
+      <Text>Рок-скакуни на прокат</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_7">
+      <Text>Багаті Води Розташовані</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_1">
+      <Text>Розмірковуючи про водні потреби, ми надто печально недооцінюємо їх</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_2">
+      <Text>"Біглядка верблюдів"</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_3">
+      <Text>"Я наступив на Смертельного Гадюку."</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_4">
+      <Text>Затримка через нескінченну пилову бурю</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_5">
+      <Text>Оазис помічений</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_6">
+      <Text>Знайдено залишене цуценя дінго без нагляду</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_1">
+      <Text>Застопорений бушрангерами</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_2">
+      <Text>Потрапивший у пожежу в кущах</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_3">
+      <Text>Турбота про Дінго, який турбує</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_4">
+      <Text>З'їв неправильні ягоди</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_5">
+      <Text>Поповнені сквотерами</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_6">
+      <Text>Роділися для стилю</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_1">
+      <Text>Кам'яний зсув!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_2">
+      <Text>Надзвичайно морозні ночі</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_3">
+      <Text>Постачання впали у яр</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_4">
+      <Text>Безплідний прохід</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_5">
+      <Text>Шукачі перлин за наймом</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_6">
+      <Text>Відкрито гірське джерело</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_1">
+      <Text>Сварка з червоним кенгуру</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_2">
+      <Text>Продовження посушливих умов</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_3">
+      <Text>Інфекція спініфексу</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_4">
+      <Text>Повна втрата напрямку</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_5">
+      <Text>Стокмени на найм</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_6">
+      <Text>"Led to Water" - "Ведений до води" (pronounced: "Vedeniy do vody") by Galah Flock</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_1">
+      <Text>Проблеми з малярією</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_2">
+      <Text>Голодомором, спричиненим роїв саран, відгодований</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_3">
+      <Text>Змито у повені</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_4">
+      <Text>Застрягли в глибочах</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_5">
+      <Text>Піймані раки в потоці</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_1">
+      <Text>З'їдений солонуватою крокодилом</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_2">
+      <Text>Жахливі заражені рани</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_3">
+      <Text>Укушений павуком-лійкою воронкою</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_4">
+      <Text>З'їв неправильну рибу</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_5">
+      <Text>Загублений в болоті</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_6">
+      <Text>Жахливі чутки про Буніпа</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_1">
+      <Text>Заражений глистами-нитянками</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_2">
+      <Text>Випив занадто багато води занадто швидко</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_3">
+      <Text>Уникнули майже мутинії</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_4">
+      <Text>Відновився в Біллабонгу</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_5">
+      <Text>Мирне Відновлення</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_1">
+      <Text>Все тут отруйне</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_2">
+      <Text>Злякав касуара</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_3">
+      <Text>Хворий на лихоманку Денге</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_4">
+      <Text>Терзається роями жалючих мурашок</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_5">
+      <Text>Розкрита наукова таємниця</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_1">
+      <Text>Збуджена Східна бура змія</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_2">
+      <Text>Вигорілі дрова з гумового дерева</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_3">
+      <Text>Розлючений територіальний ему</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_4">
+      <Text>Неправдиві чутки про Капкан Ведмедів</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_5">
+      <Text>Виявлено гніздо яєць ему</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_1">
+      <Text>Неблагоприятна Осінь</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_2">
+      <Text>Поразка Скорбутом</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_3">
+      <Text>Конфліктуючі напрямки</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_4">
+      <Text>Забув прив'язати коней</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_5">
+      <Text>Відкрито скорочення</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_6">
+      <Text>Доповнено індіанським кланом</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_7">
+      <Text>Слідував по Дінго Трейлу</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_8">
+      <Text>Суперечка з конкуруючими дослідниками</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_9">
+      <Text>Виявлені неточності на мапах</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_10">
+      <Text>Скарб!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_11">
+      <Text>Аборигенські гіди на прокат</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_12">
+      <Text>Неосвідомлено ображено туземців</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_13">
+      <Text>Випадково спалахнула лісова пожежа</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_14">
+      <Text>Міграція аборигенів</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_15">
+      <Text>Безплідна розмова з індігенами</Text>
+    </Row>
+    <!-- Exploration Event Descriptions-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_1">
+      <Text>Те, що почалося як освіжаюча купання в океані, закінчилось трагедією.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_2">
+      <Text>Така крихка річ, повна рідинного болю.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_3">
+      <Text>Красивий зовнішній вигляд приховує дрібну, отруйну гарпун.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_4">
+      <Text>Воно наростало з моря, гуще, ніж дим гармати.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_5">
+      <Text>Вони знали місцеві води та ловили місцеву рибу. Ми жодного з цього не знали.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_6">
+      <Text>Як вони ловлять рибу від узбережжя на скелях, не слизькаючись? Таємниця!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_7">
+      <Text>Це було чудовим знахідкою. Достатньо, щоб підтримати поселення.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_1">
+      <Text>Коні були першими, хто загинув, бувши божевільними від спраги.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_2">
+      <Text>Покинуті ранніми поселенцями, вони з тих пір стали бездомними.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_3">
+      <Text>Все це зливається в одне на тій засушливій місцевості. Навіть змії.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_4">
+      <Text>Це потрапило у все. Через декілька днів ми все ще розкидаємо його за собою.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_5">
+      <Text>Ми знайшли острів життя в тій знищеній пустелі.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_6">
+      <Text>Ви повинні зрозуміти. Це було необхідно для нашого виживання.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_1">
+      <Text>Вони взяли їжу, але залишили нам воду. Вони були злодіями, а не вбивцями.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_2">
+      <Text>Воно горіло гарячіше, ніж ливарня. Брови спалилися, а шкіра пропалена.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_3">
+      <Text>Вони переслідували нас днів кілька, нарешті вбивши безпритульного тварину з загону.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_4">
+      <Text>Біль пройшов крізь наші кишки, як гарячі вугілля.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_5">
+      <Text>Вони створювали нове життя для себе в дикій природі.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_6">
+      <Text>Кочівні фермери шукали стійку роботу, залежно від сезону.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_1">
+      <Text>Нашою нещастю було розпочати наметове містечко на його шляху.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_2">
+      <Text>Скупі ковдри не могли зупинити холодний вітер з гір.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_3">
+      <Text>На основі того, що відбулося, ми повинні були зберігати їх далі від краю.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_4">
+      <Text>Те, що здавалося бути перспективною скороченою дорогою, призвело до дня марної праці.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_5">
+      <Text>Багато людей шукали золоті родовища далеко і широко. Мало кому вдалося знайти справжнє багатство.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_6">
+      <Text>Захищений джерело забезпечило нас усією водою, яку ми могли носити.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_1">
+      <Text>На нашу захист, ми намагалися дізнатися, що він носить у своїй сумці.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_2">
+      <Text>Жадібні рослини заставлять нас висохнути спершу, перед тим як це станеться з ними.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_3">
+      <Text>Краї листів ламалися в нашій шкірі, коли ми торкнулися їх.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_4">
+      <Text>У безкінечно однаковому ландшафті досить легко заблукати.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_5">
+      <Text>Це була самотня та важка робота, але їм не було байдуже до умов.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_6">
+      <Text>Ми похилили туди, де вони оселилися. Гарні птахи. Трохи дикі в смаку.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_1">
+      <Text>Було достатньо комарів у повітрі, щоб затемнити небо.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_2">
+      <Text>Вони зруйнували ландшафт, від чого могли жити люди.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_3">
+      <Text>Якщо не вдасться дістатися високої точки, можна просто зникнути.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_4">
+      <Text>Деякі чоботи та панчохи були втрачені в грязі.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_5">
+      <Text>Вони їстівні у вареному вигляді, за винятком черепашок.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_1">
+      <Text>Не було жодного звуку чи крику. Лише хвилька на воді.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_2">
+      <Text>Ці прокляті блювітки справді були винуватцями.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_3">
+      <Text>Чим менша істота, тим потужнішим є її отрута. Загалом.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_4">
+      <Text>Не всі риби можна їсти. Особливо не цю.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_5">
+      <Text>Місцевість здається змінюватися протягом дня. Обман зору?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_6">
+      <Text>Немає сумніву, що дух куща переслідував нас у тому болоті.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_1">
+      <Text>Навіть найсвіжіша вода в Аутбеку несе загрозу для кишкових захворювань.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_2">
+      <Text>Після тривалого періоду без води спрага призводить до поганих виборів.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_3">
+      <Text>Вони відмовилися покинути оазис. Майже сталася бійка.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_4">
+      <Text>Одиноке водопой підняв настрій.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_5">
+      <Text>Чудовий день. Бажаю, щоб він міг збалансувати всі інші.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_1">
+      <Text>Кожен комаха, тварина, квітка, коріння або лоза могли нас знищити.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_2">
+      <Text>Думати, коли воно вперше стрибнуло і вистрілило ногами, ми сміялися.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_3">
+      <Text>Лихоманка тривала деякий час, поки рана не отримала печатку долі.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_4">
+      <Text>Ми мали неприємність лягти спати на мурашник.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_5">
+      <Text>У цьому дивному лісі можна знайти дива.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_1">
+      <Text>Воно проявило свою злої природи, коли вдарило без будь-якої належної причини.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_2">
+      <Text>Ми не передбачали вибух. Дехто подумали, що це атака гармат.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_3">
+      <Text>Його жорстоке клювання здивувало нас.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_4">
+      <Text>Ми ніколи не зустрічали харчуючогося м'ясом коалу. Ми були щасливчики.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_5">
+      <Text>Коли їсти сире жовток, то він має консистенцію кущових острів.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_1">
+      <Text>Якщо потрібно, можна вистрілити в каліка, але не можна зробити цього з людиною.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_2">
+      <Text>Шкіра з вуха випала би зі стелі рота. Досить неприємно.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_3">
+      <Text>Суворі умови та розізлі настрої часто призводять до сварок.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_4">
+      <Text>Проста помилка в місті. Менш просто в глушині.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_5">
+      <Text>На перший погляд непомітна стежка може час від часу показувати перспективи.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_6">
+      <Text>На щастя, не всюди в лісі відсутній людський спрямування.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_7">
+      <Text>Дінго подорожували до води та здобичі. Краще йти за місцевими.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_8">
+      <Text>Багато хто були зацікавлені в присвоєнні відкриттів для себе</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_9">
+      <Text>Можливо, вони були праві. Перспектива дивна в пустелі.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_10">
+      <Text>Шкода, що це було знайдено на тілі неуспішного дослідника.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_11">
+      <Text>Ми змогли розділити нашу групу, щоб охопити більше території.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_12">
+      <Text>Набагато пізніше ми зрозуміли, що це було величезною образою для клану.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_13">
+      <Text>Тоді ми не мали уявлення наскільки далеко це подорожує. Занадто далеко.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_14">
+      <Text>Погані умови змусили їх шукати щастя десь інде.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_15">
+      <Text>Здається, що їх попередні зустрічі з іноземцями були негативними.</Text>
+    </Row>
+    <!-- Exploration Event Journal Entries-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_1">
+      <Text>Віднесло до моря, передбачається, що загинув.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_2">
+      <Text>Ступай на спарюючі жалючки. Ампутація не вдалася.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_3">
+      <Text>Тримав ракушку баштанку біля вуха. Не чув океану.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_4">
+      <Text>Видимість відсутня. Немає прогресу.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_5">
+      <Text>Торгувались за свіжу їжу та воду.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_6">
+      <Text>Приємні характери, готові до праці.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_7">
+      <Text>Це справжній різноманітний набір. Місцезнаходження зафіксовано.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_1">
+      <Text>Щоб вижити, ми покладаємось на воду, яку ми виробляємо.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_2">
+      <Text>Заштампований. Осліплений ковтками від верблюжої слини. Низький дух.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_3">
+      <Text>Укус на телевізорі. Легені закрилися незабаром після цього.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_4">
+      <Text>Видимість відсутня. Піна мутна. Немає прогресу.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_5">
+      <Text>З'являється привітне полегшення. Місце записано.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_6">
+      <Text>Їжа поповнена. Мораль низька.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_1">
+      <Text>Втратив зуби в початковій бійцівці. Також були втрачені провізії.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_2">
+      <Text>Не вдалося розрізнити останки серед попелу. Продовжую йти вперед.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_3">
+      <Text>Безкінечне виття. Чотири ночі без сну. Низький бойовий дух.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_4">
+      <Text>Виснажений. Деморалізований. Занадто слабкий для подорожі.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_5">
+      <Text>Нагодовані та поповнені запаси. Мораль висока.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_6">
+      <Text>Надана карта до найближчого поселення.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_1">
+      <Text>Медичні запаси втрачені. Травми залишаються, погано лікуються.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_2">
+      <Text>Обмороження. Потрібно продовжувати рухатися, поки всі не захворіли.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_3">
+      <Text>Спроба відновлення не вдалася. Голодні, поранені, деморалізовані.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_4">
+      <Text>Прохід був тупиковим. Повернулися на попереднє місце розташування табору.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_5">
+      <Text>Направлено шукачів на ближче колоніальне гірниче управління.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_6">
+      <Text>Захищеність і поповнення запасів. Гарне збирання їжі. Настрій високий.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_1">
+      <Text>Повторні удари призвели до ушкодження органів, за якими наступив смертельний випадок.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_2">
+      <Text>Земля висохла. Експедиція також висохла. Вперед.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_3">
+      <Text>Неможливо уникнути купин Spinifex на цій місцевості.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_4">
+      <Text>Перетнув шляхи вчорашнього двічі до обіду. Мораль низька.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_5">
+      <Text>Найближча станція в глибинку скоро отримає більше ковбоїв.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_6">
+      <Text>Наповнені водяними мішками та животами до границі. Мораль висока.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_1">
+      <Text>Безкінечна лихоманка. Відновлення неможливе. Мораль на низькому рівні.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_2">
+      <Text>Збір харчів неефективний. Ремені пощільніли. Мораль на низькому рівні.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_3">
+      <Text>Перенесений з табору вночі, вважається мертвим.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_4">
+      <Text>Незначний прогрес. Покриті мухами. Мораль низька.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_5">
+      <Text>Знайшли ракоподібних! Запаси їжі поповнені. Мораль висока.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_1">
+      <Text>Відійшов, коли ми вважали, що вже ситі. Одного разу помилилися в оцінці.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_2">
+      <Text>Постраждалі втекли, кричачи, до болота. Припускають, що вони померли.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_3">
+      <Text>Які жахи містить ця негостинна земля!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_4">
+      <Text>Брудна смерть настала після повної паралізу.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_5">
+      <Text>Години важкого подорожування. Знайшли табір. Наш, зі вчорашнього дня.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_6">
+      <Text>Претензії Bunyip - це явна спроба ухилятись. Немає прогресу.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_1">
+      <Text>Сильне свербіння призвело до інфекції. Неможливо спати або сидіти.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_2">
+      <Text>Очікувалося, що відновлення піде на краще з водної хвороби. Прогресу немає.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_3">
+      <Text>Розумно було б продовжити наш період відновлення.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_4">
+      <Text>Приємне водопровідне процедури. Мораль на високому рівні.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_5">
+      <Text>Їжа поповнена. Наповнені фляги з водою. Мораль висока.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_1">
+      <Text>Ще одна людина померла з невідомої причини з невідомого джерела.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_2">
+      <Text>Горло перерізане птахом з бритвоподібними кігтями. Смерть настала швидко.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_3">
+      <Text>Це денге. Ми всі знаємо, як це закінчується. Мораль на низькому рівні.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_4">
+      <Text>Розкладушки не придатні до використання. Провів день, виганяючи мурах.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_5">
+      <Text>Записав безліч нотаток. Право на назву буде наше!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_1">
+      <Text>Повторили про небезпеку обмеження змій.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_2">
+      <Text>Коні збуджені. Опіки заживлені. Брови обпалені.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_3">
+      <Text>Око втрачено. Орбіта заражена. Індича стегна пропонуються жертві.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_4">
+      <Text>Втратив день на абсурдну балачку. Дурні оточують мене.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_5">
+      <Text>Запас їжі поповнений. Мораль висока.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_1">
+      <Text>Серйозна травма через капризи території.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_2">
+      <Text>Дуже потрібна якісна їжа.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_3">
+      <Text>Відбулася бійка, деякі з них серйозні. Мораль низька.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_4">
+      <Text>Наголосив з великою емоцією на необхідності прив'язування.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_5">
+      <Text>Знайшов приховану стежку, щоб прискорити подорож завтра.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_6">
+      <Text>Торгувалися за свіжу їжу та воду. І далі вперед.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_7">
+      <Text>Знайшли біллабонг, відганяли дінґо, поповнили запас води.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_8">
+      <Text>Урешті-решт досягнули угоди про спільні права на надання назви.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_9">
+      <Text>Потрібно провести додаткове дослідження. Місцезнаходження зафіксовано.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_10">
+      <Text>Обіцянка винагороди збуджує наші ряди. Мораль висока.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_11">
+      <Text>Яке щастя! Ми тільки що подвоїли своє багатство.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_12">
+      <Text>Поспішно покинув область, щоб уникнути подальшої антагонізації.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_13">
+      <Text>Вогнені іскри з костра спричинили пожежу. Ми втікали за своїми життями.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_14">
+      <Text>Направляйте клан до найближчого поселення. Вперед.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_15">
+      <Text>Торгівля відмовлена, незважаючи на запевнення. Від'їхав незабаром після цього.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

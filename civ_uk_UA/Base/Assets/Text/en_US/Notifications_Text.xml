@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Turn-Blocking Notifications -->
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_ARTIFACT_PLAYER_MESSAGE">
+      <Text>Оберіть Артефакт</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_ARTIFACT_PLAYER_SUMMARY">
+      <Text>Ви розкопали археологічний сайт. Тепер виберіть артефакт для повернення до вашого музею.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_TECH_MESSAGE">
+      <Text>Оберіть технологію</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_TECH_SUMMARY">
+      <Text>Виберіть нову технологію для початку досліджень.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CITY_PRODUCTION_MESSAGE">
+      <Text>Виберіть виробництво</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CITY_PRODUCTION_SUMMARY">
+      <Text>Виробництво завершене в цьому місті. Виберіть, що ми будемо виробляти далі.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CIVIC_MESSAGE">
+      <Text>Оберіть громадянський автомобіль</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CIVIC_SUMMARY">
+      <Text>Виберіть новий цивік для розробки.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMAND_UNITS_MESSAGE">
+      <Text>Командні одиниці</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMAND_UNITS_SUMMARY">
+      <Text>Перемістіть одиницю або виконайте її операцію.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGE_ATTACK_MESSAGE">
+      <Text>Міська атака на відстані</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGE_ATTACK_SUMMARY">
+      <Text>Ваше місто може здійснювати дальні атаки.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_GOVERNMENT_CHANGE_MESSAGE">
+      <Text>Розгляньте можливість зміни уряду</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_GOVERNMENT_CHANGE_SUMMARY">
+      <Text>Ви завершили громадянський проект, який дозволив створити новий уряд. Варто розглянути можливість переходу на цю форму правління.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_RAZE_CITY_MESSAGE">
+      <Text>Руйнувати або зберігати місто</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_RAZE_CITY_SUMMARY">
+      <Text>Ви захопили місто цього ходу. Вирішіть, чи звільнити, зруйнувати або залишити його.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FILL_CIVIC_SLOT_MESSAGE">
+      <Text>Заповніть слот політики</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FILL_CIVIC_SLOT_SUMMARY">
+      <Text>Необхідно додати політику до нашого уряду.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_PANTHEON_MESSAGE">
+      <Text>Виберіть Пантеон</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_RELIGION_MESSAGE">
+      <Text>Виберіть релігію</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_BELIEF_MESSAGE">
+      <Text>Оберіть Віру</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAIM_GREAT_PERSON_MESSAGE">
+      <Text>Позитивна висока особистість</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAIM_GREAT_PERSON_SUMMARY">
+      <Text>Ви заробили Велику Особистість і повинні вирішити, чи приймати їх, чи передавати їх.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GIVE_INFLUENCE_TOKEN_MESSAGE">
+      <Text>Надіслати посланця</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GIVE_INFLUENCE_TOKEN_SUMMARY">
+      <Text>Ви заробили [ICON_Envoy] Енвоя і можете відправити його до міст-держави за бонусами.</Text>
+    </Row>
+    <!-- Unit Notifications -->
+    <Row Tag="LOC_NOTIFICATION_UNIT_DIED">
+      <Text>Одиниця вбита</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_DISBANDED_MESSAGE">
+      <Text>Підрозділ розформовано</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_DISBANDED_SUMMARY">
+      <Text>Ваш баланс [ICON_Gold] Золота від'ємний. Ваш {1_UnitName} розформовано.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_PROMOTION_AVAILABLE_MESSAGE">
+      <Text>Одиниця доступна для продвиження</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_PROMOTION_AVAILABLE_SUMMARY">
+      <Text>Одиниця {1_UnitName} доступна для промоції.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_MESSAGE">
+      <Text>Поразка!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_SUMMARY">
+      <Text>{1_leader} був переможений.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_BY_SUMMARY">
+      <Text>{1_leader} був переможений {2_leader}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_PLAYER_DEFEATED_MESSAGE">
+      <Text>Поразка!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_PLAYER_DEFEATED_SUMMARY">
+      <Text>Незадоволений гравець був переможений.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_CITY_STATE_DEFEATED_SUMMARY">
+      <Text>Невідкладне місто-держава було поборонено.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_OCCUPATION">
+      <Text>Ви втратили {1_UnitName} через ворожу окупацію.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_RETREAT_FROM_OCCUPATION">
+      <Text>Ворожа окупація змусила вашу {1_UnitName} відступити.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING">
+      <Text>Ви втратили {1_UnitName} через радіаційне отруєння.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_WATER_DAMAGE">
+      <Text>Ви втратили один {1_UnitName} через отруєння водою.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_LIFESPAN_EXPIRED_MESSAGE">
+      <Text>Одиниця закінчилася</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_LIFESPAN_EXPIRED_SUMMARY">
+      <Text>{1_UnitName} досяг свого [ICON_Lifespan] терміну життя.</Text>
+    </Row>
+    <!-- Diplomacy Notifications-->
+    <Row Tag="LOC_NOTIFICATION_DECLARE_WAR_MESSAGE">
+      <Text>Декларація війни</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DECLARE_WAR_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?оголосив; few?оголосили; many?оголосили;} війну проти {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MAKE_PEACE_MESSAGE">
+      <Text>Угода, досягнута шляхом переговорів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MAKE_PEACE_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} мир зробили з {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_MESSAGE_CIV">
+      <Text>Ви зустріли нову цивілізацію</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_MESSAGE_CITY_STATE">
+      <Text>Ви зустріли нове місто-державу</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_SUMMARY">
+      <Text>Ви зустрілися з лідером {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}} цивілізації {LOC_GRAMMAR_CIVDESC &lt;&lt; {2_CivDesc}}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BORDERS_NOW_ENFORCED_MESSAGE">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} Забезпечує безпеку на кордонах</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BORDERS_NOW_ENFORCED_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?застосовує; other?застосовують;} тепер контроль над своїми кордонами. Ваші війська, які перебували у їхній імперії, були переміщені на тайл, що знаходиться за межами їхніх земель.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_FRIENDSHIP_EXPIRED_MESSAGE">
+      <Text>Дружба минула</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_FRIENDSHIP_EXPIRED_SUMMARY">
+      <Text>Ваше дружба з {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}} вичерпала себе та потребує оновлення.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_ALLIANCE_EXPIRED_MESSAGE">
+      <Text>Альянс закінчився</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_ALLIANCE_EXPIRED_SUMMARY">
+      <Text>Sorry, something went wrong.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_GAINED_MESSAGE">
+      <Text>Отримано привід для війни</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_GAINED_SUMMARY">
+      <Text>Ви отримали привід для оголошення {1_WarType} проти {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_COLONIAL">
+      <Text>Колоніальна війна</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_HOLY">
+      <Text>Священна війна</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_LIBERATION">
+      <Text>Визвольна війна</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_PROTECTORATE">
+      <Text>Війна протекторатів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_RECONQUEST">
+      <Text>Війна реконкістиції</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_TERRITORIAL_EXPANSION">
+      <Text>Війна за територіальне розширення</Text>
+    </Row>
+    <!-- Espionage Notifications -->
+    <Row Tag="LOC_NOTIFICATION_SPY_CHOOSE_ESCAPE_ROUTE_MESSAGE">
+      <Text>Виберіть шлях втечі</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CHOOSE_DRAGNET_PRIORITY_MESSAGE">
+      <Text>Виберіть пріоритет погоні</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_HEIST_GREAT_WORK_SUMMARY">
+      <Text>Ваш агент {1_unitName} в {2_CityName} зумів викрасти Велику Роботу "{3_Work}".</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_HEIST_GREAT_WORK_MESSAGE">
+      <Text>Успіх полягає у вкраданні великої роботи</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_HEIST_GREAT_WORK_SUMMARY">
+      <Text>Шпигун противника в {1_CityName} вдалося вкрасти велику роботу "{2_Work}".</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_HEIST_GREAT_WORK_MESSAGE">
+      <Text>Ворог вкрав велику роботу</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SABOTAGED_PRODUCTION_SUMMARY">
+      <Text>Ваш агент {1_unitName} успішно саботував промислову зону у місті {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SABOTAGED_PRODUCTION_MESSAGE">
+      <Text>Сприяння успіху в руйнуванні виробництва</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SABOTAGED_PRODUCTION_SUMMARY">
+      <Text>Ворожий шпигун вдалося підривати промислову зону у місті {1_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SABOTAGED_PRODUCTION_MESSAGE">
+      <Text>Ворожий шпигун підривав виробництво</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SIPHONED_FUNDS_SUMMARY">
+      <Text>Ваш агент {1_unitName} успішно відтягнув {2_Amount} [ICON_Gold] Золота з міста {3_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SIPHONED_FUNDS_MESSAGE">
+      <Text>Успіх у відцентровуванні золота</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SIPHONED_FUNDS_SUMMARY">
+      <Text>Ворожий шпигун зміг витягти {1_Amount} [ICON_Gold] золота з міста {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SIPHONED_FUNDS_MESSAGE">
+      <Text>Шпигун-ворог відсмоктує золото</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_STOLE_TECH_BOOST_SUMMARY">
+      <Text>Ваш агент {1_unitName} в {2_CityName} успішно викрав підсилення для {3_Tech}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_STOLE_TECH_BOOST_MESSAGE">
+      <Text>Успіх Крадіжки Технологічного Піднесення</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_STOLE_TECH_BOOST_SUMMARY">
+      <Text>Ворожий шпигун у {1_CityName} успішно вкрав підсилення для {2_Tech}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_STOLE_TECH_BOOST_MESSAGE">
+      <Text>Ворог скрав технологічний зріст</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_RECRUITED_PARTISANS_SUMMARY">
+      <Text>Ваш агент {1_unitName} у {2_CityName} вдалося залучити партізанські сили, які хочуть повернути своє місто.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_RECRUITED_PARTISANS_MESSAGE">
+      <Text>Успішний рекрутинг партнерів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_RECRUITED_PARTISANS_SUMMARY">
+      <Text>An enemy Spy in {1_CityName} succeeded in recruiting partisan forces that now threaten your city.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_RECRUITED_PARTISANS_MESSAGE">
+      <Text>Ворог вербував партизанів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_DISRUPTED_ROCKETRY_SUMMARY">
+      <Text>Ваш агент {1_unitName} успішно здійснив напад на Космопорт у місті {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_DISRUPTED_ROCKETRY_MESSAGE">
+      <Text>Успіх руйнування ракетобудування</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_DISRUPTED_ROCKETRY_SUMMARY">
+      <Text>Ворожий шпигун зумів викрасти космопорт у місті {1_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_DISRUPTED_ROCKETRY_MESSAGE">
+      <Text>Ворожий шпигун перешкодив ракетобудуванню</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CITY_SOURCES_GAINED_SUMMARY">
+      <Text>Ваш агент {1_unitName} знайшов джерела, які знають про внутрішні справи міста {2_CityName}. Ваші шпигуни в цьому місті будуть діяти на {3_Levels} рівнів вище на протязі {4_Turns} ходів.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CITY_SOURCES_GAINED_MESSAGE">
+      <Text>Отримані джерела</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_LISTENING_POST_SUMMARY">
+      <Text>Ваш агент {1_unitName} завершив свій час на допомогу на пості прослуховування в {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_LISTENING_POST_MESSAGE">
+      <Text>Звуковий пост завершено</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_SUMMARY">
+      <Text>Ваш агент {1_unitName} втік з міста {2_CityName}, оскільки там прийшла до влади нова імперія.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_MESSAGE">
+      <Text>Шпигун втікає з міста</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_ALLIANCE_SUMMARY">
+      <Text>Ваш агент {1_unitName} залишив місто {2_CityName}, щоб виконати умови вашого нового союзу з його власником.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_ALLIANCE_MESSAGE">
+      <Text>Шпигун виходить з міста</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_FAILED_SUMMARY">
+      <Text>Ваш агент {1_unitName} зазнав невдачі у місії {2_mission} у місті {3_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_FAILED_MESSAGE">
+      <Text>Шпигун не вдалося</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CAPTURED_SUMMARY">
+      <Text>Вашого агента {1_unitName} захопили під час місії {2_mission} у місті {3_cityName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CAPTURED_MESSAGE">
+      <Text>Зловження шпигуна</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_CAPTURED_SUMMARY">
+      <Text>Шпигун з {1_civName} був заарештований під час місії {2_mission} у місті {3_cityName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_CAPTURED_MESSAGE">
+      <Text>Схоплений шпигун ворога</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_KILLED_SUMMARY">
+      <Text>Ваш агент {1_unitName} був вбитий під час місії {2_mission} у місті {3_cityName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_KILLED_MESSAGE">
+      <Text>Шпигун був вбитий</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_KILLED_SUMMARY">
+      <Text>Шпигун з {1_civName} був убитий під час місії {2_mission} у місті {3_cityName}. {4_CounterspyAssist}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_KILLED_MESSAGE">
+      <Text>Вбито шпигуна ворога</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_TO_CAPITAL">
+      <Text>Ваш шпигун {1_unitName} перервав свою подорож, оскільки місто-ціль перейшло у інші руки. Ви зможете знайти його у вашій столиці.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_SUMMARY">
+      <Text>Ваш агент {1_unitName} скасував місію {2_mission} у місті {3_cityName}. Ціль місії більше не є актуальною.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_MESSAGE">
+      <Text>Шпигунська місія скасована</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_PROMOTED_SUMMARY">
+      <Text>За роль, яку відіграв(ла) у зупиненні ворога місії {1_mission} у місті {2_cityName}, ваш шпигун {3_unitName} був підвищений у званні!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_PROMOTED_MESSAGE">
+      <Text>Контршпигун підвищений в званні</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_ASSIST">
+      <Text>Ваш контршпигун {1_unitName} був вирішальним у цій перемозі для наших сил безпеки.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ESCAPED_CAPTURE_SUMMARY">
+      <Text>Ваш шпигун {1_unitName} уник від захоплення і повернеться до вашої столиці [ICON_Capital] через {2_turns} ходів.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ESCAPED_CAPTURE_MESSAGE">
+      <Text>Шпигун втік</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_ESCAPED_CAPTURE_SUMMARY">
+      <Text>Шпигун ворожої цивілізації втік з вашого міста {1_cityName} і його не вдалося схопити.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_ESCAPED_CAPTURE_MESSAGE">
+      <Text>Ворог-шпигун втік</Text>
+    </Row>
+    <!-- City-State Notifications -->
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_GIVEN_MESSAGE">
+      <Text>Завдання нового міського держави</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_GIVEN_SUMMARY">
+      <Text>{1_CityStateName} дав вам нове завдання: {2_QuestName}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_COMPLETED_MESSAGE">
+      <Text>Місько-державне завдання виконано</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_COMPLETED_SUMMARY">
+      <Text>Ви виконали квест для {1_CityStateName} та заробили винагороду: {2_RewardText}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_MET_FIRST_MESSAGE">
+      <Text>Бонус за зустріч міста-держави</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_MET_FIRST_SUMMARY">
+      <Text>Як перша велика цивілізація, яка зустріла {1_CityStateName}, ви заробили {2_NumEnvoys} [ICON_Envoy] {2_NumEnvoys : plural 1?посланця; other?посланців;} там.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_USURPED_MESSAGE">
+      <Text>Статус сюзерена втрачено</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_USURPED_SUMMARY">
+      <Text>Після зміни [ICON_Envoy] Послів, ви більше не є Сюзереном {1_CityStateName}.</Text>
+    </Row>
+    <!-- Trade Route Notifications -->
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_MESSAGE">
+      <Text>Торговий маршрут здійснюється</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_SUMMARY_NO_ROUTE">
+      <Text>{1_PlayerName} {1_PlayerName: plural 1?здійснив; few?здійснили; many?здійснили;} напад і здобув вашу одиницю Торговця.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_SUMMARY_ACTIVE_ROUTE">
+      <Text>{1_PlayerName} {1_PlayerName: plural 1?здійснив; other?здійснили;} напад на вашу Торговельну одиницю. Ваш [ICON_TradeRoute] Торговельний шлях з {2_OriginCityName} до {3_DestinationCityName} більше не активний.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADING_POST_CREATED_MESSAGE">
+      <Text>Створено Торгову Площу</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADING_POST_CREATED_SUMMARY">
+      <Text>Завершення [ICON_TradeRoute] торговельного маршруту створило [ICON_TradingPost] торгову пошту для вас у місті {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_CAPACITY_INCREASED_MESSAGE">
+      <Text>Збільшена місткість торговельних маршрутів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_CAPACITY_INCREASED_SUMMARY">
+      <Text>Ви тепер можете створювати та підтримувати більше [ICON_TradeRoute] торгових маршрутів, ніж раніше.</Text>
+    </Row>
+    <!-- Economic Notifications -->
+    <Row Tag="LOC_NOTIFICATION_REBELLION_MESSAGE">
+      <Text>Повстання!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_REBELLION_SUMMARY">
+      <Text>Відсутність [ICON_Amenities] зручностей у {1_CityName} змусила людей взяти зброю проти нас, створивши {2_NumUnits} ворожих одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOW_AMENITIES_MESSAGE">
+      <Text>Потрібно більше зручностей</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOW_AMENITIES_SUMMARY">
+      <Text>{1_CityName} потребує більше [ICON_Amenities] послуг, аби залишатися продуктивним. Якщо це погіршиться, люди можуть повстати проти нас!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOUSING_PREVENTING_GROWTH_MESSAGE">
+      <Text>Потрібно більше житла</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOUSING_PREVENTING_GROWTH_SUMMARY">
+      <Text>{1_CityName} потребує більше [ICON_Housing] житла, щоб продовжувати зростати. Якщо це продовжуватиметься, ми матимемо складнощі з набуттям нових [ICON_Citizen] громадян.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_STARVING_MESSAGE">
+      <Text>Місто голодує!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_STARVING_SUMMARY">
+      <Text>{1_CityName} не забезпечує достатньої кількості [ICON_Food] Їжі для своїх жителів. Якщо це продовжуватиметься, воно втратить [ICON_Citizen] Громадян!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_FOOD_FOCUS_MESSAGE">
+      <Text>Місту потрібна їжа</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_FOOD_FOCUS_SUMMARY">
+      <Text>{1_CityName} не забезпечує достатньо [ICON_Food] Їжі для своїх мешканців. Розгляньте можливість спрямувати своє місто на [ICON_Food] Їжу.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURY_BANKRUPT_MESSAGE">
+      <Text>Скарбниця в банкрутстві!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURY_BANKRUPT_SUMMARY">
+      <Text>У нас не залишилось [ICON_Gold] Золота, а наші витрати вищі за дохід. Якщо так буде продовжуватись, наші міста втратять [ICON_Amenities] Зручності, а наші війська залишать нас!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAN_PURCHASE_WITH_FAITH_MESSAGE">
+      <Text>Можна купити з вірою</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAN_PURCHASE_WITH_FAITH_SUMMARY">
+      <Text>Ви накопичили достатньо [ICON_Faith] Віри, щоб придбати {LOC_GRAMMAR_A_AN &lt;&lt; {1_ItemName}}.</Text>
+    </Row>
+    <!-- Multiplayer Notifications -->
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTING">
+      <Text>{1_playerName} Приєднується</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTING_TT">
+      <Text>{1_playerName} приєднується до гри. Цей процес може зайняти кілька хвилин.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTED">
+      <Text>{1_playerName} приєднався</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTED_TT">
+      <Text>{1_playerName} завершив приєднання до гри.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DISCONNECT">
+      <Text>{1_playerName} Відключився</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DISCONNECT_TT">
+      <Text>{1_playerName} відключився від гри.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_KICKED">
+      <Text>{1_playerName} вилучений з гри</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_KICKED_TT">
+      <Text>{1_playerName} був вилучений з гри.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MOD_STATUS">
+      <Text>{1_playerName} Завантаження модів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MOD_STATUS_TT">
+      <Text>{1_playerName} завантажує модифікації, необхідні для гри в цю гру. ({2 : number} з {3 : number} загальної кількості)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_MIGRATION">
+      <Text>Міграція хостів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_MIGRATION_TT">
+      <Text>Гра мігрує на новий хост-сервер. Гра буде продовжена незабаром.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_CHANGED">
+      <Text>Хост перенесено</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_CHANGED_TT">
+      <Text>{1_playerName} - новий ведучий гри.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_YOURTURN">
+      <Text>Грайте у Хмарі. Ваш хід</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_YOURTURN_TT">
+      <Text>Це ваш чергу в грі Play By Cloud. ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_GAMEREADY">
+      <Text>Гра готова до запуску у режимі гри через хмару</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_GAMEREADY_TT">
+      <Text>Один із ваших ігор Play By Cloud готовий до початку. ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_UNSEENCOMPLETE">
+      <Text>Гра в режимі "Play By Cloud" завершена</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_UNSEENCOMPLETE_TT">
+      <Text>Один з ваших ігор у режимі "Грай через Хмару" завершився нещодавно. ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WRONG_PHASE_TT">
+      <Text>[color:Civ6Red]Неправильна фаза[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SIMULTANEOUS_TURNS">
+      <Text>Спільні оберти</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SIMULTANEOUS_TURNS_TT">
+      <Text>Ваша війна з гравцем людиною закінчилась. Ваші ходи будуть відтепер зіграні одночасно з ходами всіх цивілізацій, які не перебувають у війні.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SEQUENTIAL_TURNS">
+      <Text>Послідовні повороти</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SEQUENTIAL_TURNS_TT">
+      <Text>Ви перебуваєте у війні з людським гравцем. Ваші ходи будуть зіграні послідовно з усіма воюючими цивілізаціями, поки конфлікт не завершиться.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DESYNCED">
+      <Text>{1_playerName} десинхронізувався</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DESYNCED_TT">
+      <Text>Гра {1_playerName} відхилилася від господаря. Вони перезавантажують, щоб виправити проблему.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESYNC_COMPLETE">
+      <Text>{1_playerName} Синхронізація завершена</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESYNC_COMPLETE_TT">
+      <Text>{1_playerName} завантажився.</Text>
+    </Row>
+    <!-- Multiplayer deferred popup notifications -->
+    <Row Tag="LOC_NOTIFICATION_TECH_BOOST_MESSAGE">
+      <Text>Технологічний підйом</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_BOOST_SUMMARY">
+      <Text>Технології підвищені: {1_Name}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_BOOST_MESSAGE">
+      <Text>Громадянський Поштовх</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_BOOST_SUMMARY">
+      <Text>Громадянський поштовх: {1_Name}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_DISCOVERED_MESSAGE">
+      <Text>Відкрито {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_DISCOVERED_SUMMARY">
+      <Text>Ви відкрили {1_Name}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_DISCOVERED_MESSAGE">
+      <Text>Відкрито {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_DISCOVERED_SUMMARY">
+      <Text>Ви відкрили {1_Name}!</Text>
+    </Row>
+    <!-- Great Work Notifications -->
+    <Row Tag="LOC_NOTIFICATION_RELIC_CREATED_MESSAGE">
+      <Text>Реліквія створена</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RELIC_CREATED_SUMMARY">
+      <Text>[ICON_GreatWork_Relic] Священна реліквія {1_RelicName} була поміщена у будівлю {2_BuildingName} у місті {3_CityName}.</Text>
+    </Row>
+    <!-- Discovery Notifications -->
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_CONTINENT_MESSAGE">
+      <Text>Виявлено новий континент</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_CONTINENT_SUMMARY">
+      <Text>Ми відкрили новий континент. Наш дослідник назвав його {1_ContinentName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_MESSAGE">
+      <Text>Виявлено племінне село</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_SUMMARY">
+      <Text>Ви знайшли село, в якому проживає дружня плем'я.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_NATURAL_WONDER_MESSAGE">
+      <Text>Відкрито чудову природну красу</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_NATURAL_WONDER_SUMMARY">
+      <Text>Ваші дослідники відкрили природну визначність {1_NaturalWonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_RESOURCE_MESSAGE">
+      <Text>Знайдено ресурс</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_RESOURCE_SUMMARY">
+      <Text>Ми відкрили нове джерело {1_ResourceName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_MESSAGE">
+      <Text>Барбари наближаються</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_SUMMARY">
+      <Text>Ми помітили наступ барбарів на місто {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_MESSAGE">
+      <Text>Новий варварський проруб</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_SUMMARY">
+      <Text>Ми отримали чутки, що нове плем'я варварів переїхало в недалеку область.</Text>
+    </Row>
+    <!-- Victory Notifications -->
+    <Row Tag="LOC_NOTIFICATION_MY_DOMINANT_CULTURE_MESSAGE">
+      <Text>Ваша домінуюча культура</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_DOMINANT_CULTURE_SUMMARY">
+      <Text>Ви залучили достатньо [ICON_Tourism] туристів, щоб зробити вашу культуру домінуючою над {1_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_DOMINANT_CULTURE_MESSAGE">
+      <Text>Іноземна культура домінує</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_DOMINANT_CULTURE_SUMMARY">
+      <Text>{1_CivName} залучила достатньо [ICON_Tourism] туристів, щоб зробити свою культуру домінуючою над вашою.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_CULTURE_VICTORY_SOON_MESSAGE">
+      <Text>Ваша культурна перемога неминуча</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_CULTURE_VICTORY_SOON_SUMMARY">
+      <Text>Ваша культура стала домінуючою над усіма іноземними цивілізаціями, крім однієї. Перемога культурою вже на підході.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_CULTURE_VICTORY_SOON_MESSAGE">
+      <Text>Перемога іноземної культури неминуча</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_CULTURE_VICTORY_SOON_SUMMARY">
+      <Text>{1_CivName} потрібно лише домінувати своєю культурою над ще одним гравцем, щоб здобути перемогу культурою.</Text>
+    </Row>
+    <!--Future Notifications (not yet implemented)-->
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_AVAILABLE_MESSAGE">
+      <Text>Доступний новий Casus Belli</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_AVAILABLE_SUMMARY">
+      <Text>У нас зараз є належне обґрунтування для оголошення {1_WarType} проти {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGED_ATTACK_MESSAGE">
+      <Text>Страйк міського рівня</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGED_ATTACK_SUMMARY">
+      <Text>Місто {1_CityName} може ударити по ворожих силах.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENCAMPMENT_RANGED_ATTACK_MESSAGE">
+      <Text>Удар по Зоні Положення</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENCAMPMENT_RANGED_ATTACK_SUMMARY">
+      <Text>Табір поза містом {1_CityName} може ударити по ворожим силам.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUKE_DROPPED_MESSAGE">
+      <Text>Вибух ядерного пристрою</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUKE_DROPPED_SUMMARY">
+      <Text>Ядерний пристрій був підірваний {1_CivName} біля міста {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_THERMONUKE_DROPPED_MESSAGE">
+      <Text>Було підірвано термоядерний пристрій</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_THERMONUKE_DROPPED_SUMMARY">
+      <Text>Руйнівний термоядерний пристрій був підривний громадянами {1_CivName} біля міста {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEW_AGENT_MESSAGE">
+      <Text>Не можу зрозуміти, що саме потрібно перекласти. Не вистачає контексту. Будь ласка, надайте більше інформації</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEW_AGENT_SUMMARY">
+      <Text>Ви можете навчати ще одного Шпигуна.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_CAPTURED_MESSAGE">
+      <Text>Одиницю захоплено</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_CAPTURED_SUMMARY">
+      <Text>Ваш {1_UnitType} був захоплений {2_EnemyUnitType} з {3_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_ATTACKED_MESSAGE">
+      <Text>Атакована одиниця</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_ATTACKED_SUMMARY">
+      <Text>Ваш {1_UnitType} був атакований {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_MESSAGE">
+      <Text>Дивовижно завершено</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_SUMMARY">
+      <Text>{1_CivName} завершили будівництво світової дивувань {2_WonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_HOTSEAT_CURRENT_PLAYER_SUMMARY">
+      <Text>Ви завершили будівництво світової дивовижі {1_WonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_UNMET_PLAYER_SUMMARY">
+      <Text>Не задоволений гравець завершив будівництво світової чудеси {1_WonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_FAILED_MESSAGE">
+      <Text>Відновлення виробництва</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_FAILED_SUMMARY">
+      <Text>Ви не змогли завершити світову чудесу {1_WonderName} вчасно. Однак {2_Production} [ICON_Production] Виробництво було врятовано від спроби та надано місту {3_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOST_MESSAGE">
+      <Text>Місто захоплено</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOST_SUMMARY">
+      <Text>Місто {1_CityName} було захоплено {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_WALLS_BREACHED_MESSAGE">
+      <Text>Стіни міста прорвані</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_WALLS_BREACHED_SUMMARY">
+      <Text>Стіни міста {1_CityName} були прорвані військами з {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_LOST_MESSAGE">
+      <Text>Захоплення столиці</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_LOST_SUMMARY">
+      <Text>Столицю [ICON_Capital] {1_CivName} захопили {2_CivName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_RECLAIMED_MESSAGE">
+      <Text>Освоєний капітал</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_RECLAIMED_SUMMARY">
+      <Text>{1_CivName} відновив свою столицю.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENEMY_IN_TERRITORY_MESSAGE">
+      <Text>Ворог всередині кордонів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENEMY_IN_TERRITORY_SUMMARY">
+      <Text>Ворожі війська були помічені в межах наших кордонів поблизу міста {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_ANTIQUITY_SITE_MESSAGE">
+      <Text>Знайдено руїни давнього поселення</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_ANTIQUITY_SITE_SUMMARY">
+      <Text>Ви відкрили новий античний сайт. Відправте археолога для вилучення артефакту.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_SHIPWRECK_MESSAGE">
+      <Text>Виявлено корабельну катастрофу</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_SHIPWRECK_SUMMARY">
+      <Text>Ви знайшли сайт давнього корабельного катастрофи. Як тільки ви досягнете громадянської культурної спадщини, відправте археолога підняти затонутий артефакт.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_COUNTERDEAL_RECEIVED_MESSAGE">
+      <Text>Отримано контрпропозицію</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_COUNTERDEAL_RECEIVED_SUMMARY">
+      <Text>{1_CivName} відправив контроферту на вашу пропозицію угоди.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_RECEIVED_MESSAGE">
+      <Text>Запропоновано угоду</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_RECEIVED_SUMMARY">
+      <Text>Ви отримали пропозицію угоди від {1_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_AI_EXPIRED_MESSAGE">
+      <Text>Денонсування проти вас вичерпано</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_AI_EXPIRED_SUMMARY">
+      <Text>Повідомлення про вас від {1_CivName} не має чинності. Якщо їм потрібно офіційно оголосити війну, вони повинні видати нове повідомлення.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_HUMAN_EXPIRED_MESSAGE">
+      <Text>Ваша заява про відкликання втрати чинності</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_HUMAN_EXPIRED_SUMMARY">
+      <Text>Ваша денонсація щодо {1_CivName} застаріла та потребує оновлення, якщо ви бажаєте офіційно оголосити війну.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_KEPT_MESSAGE">
+      <Text>Обіцянка виконана для вас</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_KEPT_SUMMARY">
+      <Text>Обіцянка, дана вам {1_CivName} стосовно {2_PromiseType}, була виконана.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_KEPT_MESSAGE">
+      <Text>Ваша обіцянка виконана</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_KEPT_SUMMARY">
+      <Text>Ваша обіцянка {2_PromiseType} {1_CivName} була виконана.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_BROKEN_MESSAGE">
+      <Text>Обіцянка, яка була порушена перед тобою</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_BROKEN_SUMMARY">
+      <Text>Обіцянка, яку {1_CivName} зробив вам про {2_PromiseType}, була порушена.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_BROKEN_MESSAGE">
+      <Text>Ваша обіцянка порушена</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_BROKEN_SUMMARY">
+      <Text>Ваша обіцянка {2_PromiseType} {1_CivName} була порушена.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_ARTIFACTS">
+      <Text>зупиніть викопування артефактів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_ON_BORDER">
+      <Text>розмістіть війська на кордоні</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_RELIGIOUS">
+      <Text>перестаньте перетворювати міста</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_SETTLING">
+      <Text>перестати поселятися поруч</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_SPYING">
+      <Text>зупиніть шпигунство</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_EXPIRED_MESSAGE">
+      <Text>Угода закінчилася</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_EXPIRED_SUMMARY">
+      <Text>Угода, яку ви уклали з {1_CivName}, закінчилась.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISTRICT_PILLAGED_MESSAGE">
+      <Text>Район розграбований</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISTRICT_PILLAGED_SUMMARY">
+      <Text>Ваш {1_DistrictName} в {2_CityName} було спустошено {3_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_IMPROVEMENT_PILLAGED_MESSAGE">
+      <Text>Поліпшення розграбовано</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_IMPROVEMENT_PILLAGED_SUMMARY">
+      <Text>Ваш {1_ImprovementName} у місті {2_CityName} було зруйновано цивілізацією {3_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_MESSAGE">
+      <Text>Будівлю розграбували</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_SUMMARY">
+      <Text>Ваш {1_BuildingName} в місті {2_CityName} було розграбовано {3_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROUTE_PILLAGED_MESSAGE">
+      <Text>Дорога зруйнована</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROUTE_PILLAGED_SUMMARY">
+      <Text>Плитка {1_RoadName} біля {2_CityName} була розграбована цивілізацією {3_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESURRECTED_MESSAGE">
+      <Text>Гравець Воскрес</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESURRECTED_SUMMARY">
+      <Text>{1_civName} відновив місто і знову ожив.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_ELIMINATED_MESSAGE">
+      <Text>Гравець вилучений</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_ELIMINATED_SUMMARY">
+      <Text>{1_civName} було еліміновано.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROADS_UPGRADED_MESSAGE">
+      <Text>Дороги покращено</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROADS_UPGRADED_SUMMARY">
+      <Text>Розблоковано дорогу {1_RoadName}, що покращує всі дороги на вашій території (рух {2_MovementCost} [ICON_Movement] з витратою {2_MovementCost : plural 1?point; other?points;} незалежно від типу місцевості).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_RELIGIOUS_UNIT_MESSAGE">
+      <Text>Перша релігійна одиниця</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_RELIGIOUS_UNIT_SUMMARY">
+      <Text>Через запал, що охоплює ваш народ при заснуванні нової релігії, ви отримали першу {1_UnitName} безкоштовно. Використовуйте [ICON_Faith] Віру, щоб купувати їх у майбутньому.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_ESPIONAGE_UNIT_MESSAGE">
+      <Text>Перший шпигун</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_ESPIONAGE_UNIT_SUMMARY">
+      <Text>Через захоплення новою шпигунською мережею, ви отримали ваш перший {1_UnitName} безкоштовно. Коли ви отримаєте можливість будувати більше, тренуйте їх у ваших містах.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BESIEGED_BY_OTHER_PLAYER_MESSAGE">
+      <Text>Місто оточено</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BESIEGED_BY_OTHER_PLAYER_SUMMARY">
+      <Text>{1_CityName} оточена ворогом. Поки ворожі підрозділи не матимуть зони контролю над усіма гексами навколо вашого міста, воно не буде відновлюватися.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TILE_LOST_CULTURE_BOMB_MESSAGE">
+      <Text>Втрачений територія</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TILE_LOST_CULTURE_BOMB_SUMMARY">
+      <Text>Ми втратили територію через Культурну Бомбу, ініційовану {1_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_FORCED_REBASE_MESSAGE">
+      <Text>Перенесення авіаційної бази через примус</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_FORCED_REBASE_SUMMARY">
+      <Text>Місцезнаходження {1_AirUnit} було скомпрометовано і було змушено перебазуватися.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_BASE_OVERRUN_MESSAGE">
+      <Text>Переповнення аеробази</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_BASE_OVERRUN_SUMMARY">
+      <Text>{1_AirUnit} не зміг перебазуватись і був знищений.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

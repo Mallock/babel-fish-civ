@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- TEMPORARY KLUDGE: DO NOT USE ".", "'", or "-" punctuation in this file until DiplomacyActionView.lua has been updated to have a more robust string parsing algorithm! -->
+    <!-- Standard modifiers -->
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLY">
+      <Text>Союзник</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEMAND">
+      <Text>Ми висунули вимогу до них</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_JOINT_WAR">
+      <Text>Ми разом воювали в спільній війні</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_CONVERTED">
+      <Text>Ми перетворили їх релігійне місто</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CULTURE_BOMBED">
+      <Text>Ми здійснили культурний наступ на одне з їх міст</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_OCCUPIED">
+      <Text>Ми зайняли одне з їх міст</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_OCCUPIED_FRIEND">
+      <Text>Ми зайняли місто, яке належить їхньому другові або союзнику</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_LIBERATED_CITY">
+      <Text>Ми звільнили місто</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_LIBERATED_MY_CITY">
+      <Text>Ми звільнили одне з їх міст</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_RAZED_MY_CITY">
+      <Text>Ми зруйнували одне з їх міст</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_SURPRISE_WAR_ON_FRIEND">
+      <Text>Оголошено несподівану війну другу</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_FRIEND">
+      <Text>Зрадив друга</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_FRIENDSHIP_WITH_FRIEND">
+      <Text>Оголошення дружби з другом</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIED_WITH_FRIEND">
+      <Text>Оголошено союз із другом</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_SURPRISE_WAR_ON_ENEMY">
+      <Text>Оголосив несподівану війну проти ворога</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_ENEMY">
+      <Text>Засудив ворога</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_FRIENDSHIP_WITH_ENEMY">
+      <Text>Оголошена дружба з ворогом</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_ALLIED_WITH_ENEMY">
+      <Text>Оголошено союз з ворогом</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_FRIEND">
+      <Text>Декларований друг</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEFENSIVE_PACT">
+      <Text>Оборонний пакт</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DELEGATION">
+      <Text>Ми відправили до них делегацію</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED">
+      <Text>Ми засудили їх</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_HAD_FRIENDLY_MEETING">
+      <Text>Дружнє зустріч</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_NEAR_BORDER_WARNING">
+      <Text>Ми мали війська на їхньому кордоні</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SETTLED_NEAR_BORDER_WARNING">
+      <Text>Ми заселилися занадто близько до їхнього кордону</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SHARED_RELIGION">
+      <Text>Вони дотримуються нашої релігії</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_STOP_SPYING_ON_ME_WARNING">
+      <Text>На нас спіймали, коли ми шпигували за ними</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_STOP_DIGGING_UP_ARTIFACTS_WARNING">
+      <Text>Ми були помічені під час розкопок артефактів на їхній території</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BROKEN_PROMISE">
+      <Text>Ми порушили дипломатичну обіцянку, яку зробили їм</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CLOSE_TO_VICTORY">
+      <Text>Ми перемагаємо. Вони нас бояться.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_KEPT_PROMISE">
+      <Text>Ми виконали дипломатичну обіцянку, яку дали їм</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_NO_PROMISE">
+      <Text>Ми вирішили не давати їм дипломатичну обіцянку</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_OPEN_BORDERS">
+      <Text>Відкриті кордони</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GAVE_OPEN_BORDERS">
+      <Text>Ви дали відкриті кордони</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_RECEIVED_OPEN_BORDERS">
+      <Text>Ви отримали відкриті кордони</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_RESIDENT_EMBASSY">
+      <Text>Ми заснували там постійне посольство</Text>
+    </Row>
+    <!-- Historical agenda modifiers -->
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLY_OF_ENKIDU_DECLARED_FRIEND">
+      <Text>Ґілґамеш любить оголошених друзів</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLY_OF_ENKIDU_DENOUNCED_FRIEND">
+      <Text>Ґілґамеш ненавидить, коли ви засуджуєте його друзів</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BACKSTAB_AVERSE_FRIEND">
+      <Text>Томіріс подобається оголошений друг</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BACKSTAB_AVERSE_SURPRISE_WAR">
+      <Text>Томіріс не любить людей, які оголошують війни з несподіванки</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_OBSESSED_LAGGING">
+      <Text>Педро задоволений тим, що в вас немає великих людей</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_OBSESSED_LEADING">
+      <Text>Педро ображений, що у тебе більше великих людей, ніж у нього</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WESTERNIZER_LAGGING">
+      <Text>Петро розчарований, що у вас мало науки та культури</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WESTERNIZER_LEADING">
+      <Text>Петро задоволений вашою наукою та культурою</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WITH_SHIELD_OR_ON_IT">
+      <Text>Ґорґо хоче побачити, як ти б'єшся, або знає, що ти заплатив за мир</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WITH_SHIELD_NEVER_WARRED">
+      <Text>Ґорґо хоче побачити, як ти б'єшся</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WITH_SHIELD_PAID_FOR_PEACE">
+      <Text>Ґорго знає, що ви заплатили за мир</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_OBSESSED_LAGGING">
+      <Text>Кін задоволений вашою відсутністю див</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_OBSESSED_LEADING">
+      <Text>Кін обурений тим, що у вас більше див наук, ніж у нього</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_PEACEKEEPER_NOT_WARMONGER">
+      <Text>Ґанді радий, що ви зберігаєте мир</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_PEACEKEEPER_WARMONGER">
+      <Text>Ґанді обурений вашим воєнолюбством</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_COUNTER_REFORMER_SAME">
+      <Text>Філіп радий, що ви поділяєте релігію</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_COUNTER_REFORMER_ENCROACHING">
+      <Text>Філіп гнівиться, що ваша релігія присутня в його імперії</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DELIAN_NOT_COMPETING">
+      <Text>Перікл радий, що ви не змагаєтеся за місто-держави</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DELIAN_COMPETING">
+      <Text>Перікл обурений тим, що Ви набираєте своїми рекрутами військову силу його міст-держав</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DISCIPLE_RECEIVED">
+      <Text>Мвемба щасливий, що ти привів свою релігію до нього</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DISCIPLE_NOT_RECEIVED">
+      <Text>Мвемба розчарований, що ваша релігія не існує на його землях</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_IRON_CROWN_NOT_INVOLVED">
+      <Text>Барбаросса радий, що ви уникаєте міських держав</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_IRON_CROWN_INVOLVED">
+      <Text>Барбаросса обурений тим, що ви контролювали міст-держави</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SUN_SETS_HOME_CONTINENT">
+      <Text>Вікторія рада, що ви ділитеся одним континентом, домівкою</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SUN_SETS_NEW_CONTINENT">
+      <Text>Вікторія хоче розширити свої дії на континент, який ви займаєте</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BIG_STICK_CONTINENT_ATTACKED">
+      <Text>Тедді ненавидить напади на цивільних на основі їх континенту</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BIG_STICK_CONTINENT_PEACEFUL">
+      <Text>Тедді подобаються мирні цивілізації на його континенті</Text>
+    </Row>
+    <!-- Random agendas -->
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_ADVOCATE_LAGGING">
+      <Text>Вони задоволені відсутністю великих людей серед вас</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_ADVOCATE_LEADING">
+      <Text>Вони обурені тим, що у тебе є більше чудових людей</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_ADVOCATE_LAGGING">
+      <Text>Вони задоволені вашою відсутністю див і дивовиж</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_ADVOCATE_LEADING">
+      <Text>Вони засмучені, що у вас є більше дивовиж</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_STATE_NOT_COMPETING">
+      <Text>Вони раді, що ви не конкуруєте за міські держави</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_STATE_COMPETING">
+      <Text>Вони сердяться, що ви рекрутуюєте їх міські держави</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CULTURE">
+      <Text>Вони раді бачити ще одну культурну цивілізацію</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_CULTURE">
+      <Text>Вони не люблять цивілізації з низькою культурою</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_INDUSTRY">
+      <Text>Вони раді бачити ще одну працьовиту цивілізацію</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_INDUSTRY">
+      <Text>Вони не люблять цивілізації з низькою продуктивністю</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_STANDING_ARMY">
+      <Text>Вони раді бачити ще одну цивілізацію з великою стоячою армією</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_STANDING_ARMY">
+      <Text>Вони не люблять цивілізації з невеликою стоячою армією</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_SCIENCE">
+      <Text>Вони раді бачити іншу наукову цивілізацію</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_SCIENCE">
+      <Text>Вони не люблять цивілізації з низьким рівнем науки</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_HAPPINESS">
+      <Text>Вони раді бачити цивілізацію з щасливими громадянами</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_HAPPINESS">
+      <Text>Вони не люблять цивілізації з нещасними людьми</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_INCOME">
+      <Text>Вони раді бачити цивілізацію з високим доходом</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_INCOME">
+      <Text>Вони не люблять цивілізації з низьким доходом</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_POPULATION">
+      <Text>Вони раді бачити цивілізацію з високою населеністю</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_POPULATION">
+      <Text>Вони не люблять цивілізації з низькою населеністю</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ENJOYS_WAR">
+      <Text>Вони подобаються тим, хто бореться та перемагає</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ATTACKS_BARBARIANS">
+      <Text>Вони раді бачити, як ви очищаєте табори варварів</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_IGNORES_BARBARIANS">
+      <Text>They dislike civilizations who do not clear barbarians</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ENVIRONMENT">
+      <Text>Вони спостерігають за вашою поведінкою щодо природного світу</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_EXPLOITATION">
+      <Text>Вони спостерігають за вашими успіхами в поліпшенні вашої території</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_SAME_GOVERNMENT">
+      <Text>Вони раді бачити, як ви керуєте своїм народом таким самим способом</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_DIFFERENT_GOVERNMENT">
+      <Text>Вони не подобається твій підхід до управління</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_NUKE_LOVE">
+      <Text>Вони згодні, що є час і місце для ядерної зброї</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_NUKE_LOVE">
+      <Text>Вони не приймають цивілізації, які не змогли побудувати ядерні зброї</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_FAITH">
+      <Text>Вони раді бачити ще одну віруючу цивілізацію</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_FAITH">
+      <Text>Вони не люблять цивілізації з низькою вірою</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_EXPLORATION">
+      <Text>Вони не люблять цивілізації, які є кращими дослідниками, ніж вони</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_EXPLORATION">
+      <Text>Вони задоволені тим, що інші залишають дослідження світу їм</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_AIRPOWER">
+      <Text>Вони раді бачити цивілізацію з потужним повітряним флотом</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_AIRPOWER">
+      <Text>Вони не люблять цивілізації зі слабкою повітряною силою</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CITY_STATE_PROTECTION">
+      <Text>Вони дуже раді бачити, як ви захищаєте багато міст-держав</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_MED_CITY_STATE_PROTECTION">
+      <Text>Вони раді бачити, що ви захищаєте міські держави</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_MED_CITY_STATE_AGGRESSION">
+      <Text>Вони не люблять цивілізації, які дещо агресивні до міст-держав</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CITY_STATE_AGGRESSION">
+      <Text>Вони дуже не люблять цивілізації, які дуже агресивні до міст-держав</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_WONDERS_COMPETING">
+      <Text>Вони засмучені, що у вас є більше дивовиж</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_WONDERS_NOT_COMPETING">
+      <Text>Вони задоволені вашою відсутністю див і дивацтв</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GREAT_PEOPLE_COMPETING">
+      <Text>Вони ображені на те, що у вас є більше великих людей</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GREAT_PEOPLE_NOT_COMPETING">
+      <Text>Вони задоволені вашою відсутністю великих людей</Text>
+    </Row>
+    <!-- Future modifiers (not yet implemented)-->
+    <Row Tag="LOC_DIPLO_MODIFIER_THIRD_PARTY_TRADE_POSITIVE">
+      <Text>Ми торгуємо з їх друзями</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_THIRD_PARTY_TRADE_NEGATIVE">
+      <Text>Ми торгуємо з їхніми ворогами</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DOF_WITH_THEIR_FRIENDS">
+      <Text>Ми друзі з їх друзями</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DOF_WITH_THEIR_ENEMIES">
+      <Text>Ми друзі з їхніми ворогами</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIED_WITH_THEIR_FRIENDS">
+      <Text>Ми союзники з їхніми друзями</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIED_WITH_THEIR_ENEMIES">
+      <Text>Ми союзники їхніх ворогів</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEFENSIVE_PACT_WITH_THEIR_FRIENDS">
+      <Text>Ми маємо договір про оборону з їхніми друзями</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEFENSIVE_PACT_WITH_THEIR_ENEMIES">
+      <Text>Ми маємо договір про оборону з їхніми ворогами</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_THEIR_ENEMIES">
+      <Text>Ми засудили їхніх ворогів</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_THEIR_FRIENDS">
+      <Text>Ми зрадили їхніх друзів</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_UNWANTED_RELIGION">
+      <Text>Ми намагаємося переконати їх прийняти нашу релігію</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIANCE_BROKEN">
+      <Text>Ми розірвали наш союз</Text>
+    </Row>
+    <!-- Non-leader specific versions of modifiers (to use in scenarios, etc.) -->
+    <Row Tag="LOC_DIPLO_MODIFIER_GENERIC_BIG_STICK_CONTINENT_ATTACKED">
+      <Text>Вони ненавидять напади на цивільних на основі їх континенту</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GENERIC_BIG_STICK_CONTINENT_PEACEFUL">
+      <Text>Вони люблять мирні цивілізації на своєму континенті</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

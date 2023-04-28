@@ -1,0 +1,946 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Buildings-->
+    <Row Tag="LOC_BUILDING_SCENARIO_LIGHTHOUSE_DESCRIPTION">
+      <Text>+1 [ICON_FOOD] Їжа на всіх узбережжях для цього міста.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_TEMPLE_DESCRIPTION">
+      <Text>Релігійні одиниці, що навчаються тут, отримують додаткову просування.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_SHIPYARD_DESCRIPTION">
+      <Text>Бонус [ICON_Production] виробництва, рівний бонусу суміжності району Гавані.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_MOSQUE_DESCRIPTION">
+      <Text>Місіонерські та монаші частини, створені тут, мають +1 розповсюдження.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_PAGODA_DESCRIPTION">
+      <Text>Одиниці священика, створені тут, отримують +1 "Вилікувати від єресі" та +1 "Лікувати гуру", які навчаються тут.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_MAHABODHI_TEMPLE_DESCRIPTION">
+      <Text>При завершенні будівництва надає 2 випадково обраних безкоштовних громадянських прав. Усі нові навчені одиниці місіонерів та монахів отримують +1 розповсюдження.[NEWLINE][NEWLINE]Має бути побудований на лісі або тропічному лісі.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_ANGKOR_WAT_DESCRIPTION">
+      <Text>Коли це диво будується, отримайте +3 [ICON_ENVOY] Емісара та +1 [ICON_Citizen] Населення у всіх поточних містах. +1 [ICON_Housing] Житло у всіх містах. [NEWLINE] [NEWLINE] Має бути побудовано поруч з районом Акведука.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_POTALA_PALACE_DESCRIPTION">
+      <Text>+1 Слот політики Дикої картки[NEWLINE][NEWLINE]Має бути побудовано на пагорбі.</Text>
+    </Row>
+    <!-- China-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KAIFENG">
+      <Text>Кайфенг</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LINAN">
+      <Text>Лінь Ан</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_QUANZHOU">
+      <Text>Куанджоу</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CHONGQING">
+      <Text>Чунцин (Chongqing)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CHANGAN">
+      <Text>Чан'ан (Chang'an)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PANYU">
+      <Text>Паню</Text>
+    </Row>
+    <!-- Chola-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ANURADHAPURA">
+      <Text>Анурадхапура</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VENGI">
+      <Text>Vengi</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BANAVASI">
+      <Text>Банавасі</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KADARAM">
+      <Text>Kadaram</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PEGU">
+      <Text>Pegu</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MA_NAKKAVARAM">
+      <Text>Ма-Наккаварам</Text>
+    </Row>
+    <!-- Ghaznavid-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GHAZNA">
+      <Text>Ґазні</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAHORE">
+      <Text>Лахор</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BALKH">
+      <Text>Балх</Text>
+    </Row>
+    <!-- Pala-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BIKRAMPUR">
+      <Text>Бікрампур</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PATALIPUTRA">
+      <Text>Паталіпутра</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KANNAUJ">
+      <Text>Каннауї</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DURJAYA">
+      <Text>Durjaya</Text>
+    </Row>
+    <!-- Tufan-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LHASA">
+      <Text>Лхаса</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_QAMDO">
+      <Text>Камдо</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BURANG">
+      <Text>Burang</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_XINING">
+      <Text>Ксінінг</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NAGQU">
+      <Text>Нагку (Nagqu)</Text>
+    </Row>
+    <!-- City States-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DALI">
+      <Text>Далі</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DALI_DESCRIPTION">
+      <Text>Далі місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DELHI">
+      <Text>Делі</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DELHI_DESCRIPTION">
+      <Text>Делі - місто-штат</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GAOCHANG">
+      <Text>Гаочанг</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GAOCHANG_DESCRIPTION">
+      <Text>Місто-держава Гаочанг</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GOA">
+      <Text>Гоа</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GOA_DESCRIPTION">
+      <Text>місто-штат Гоа</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_HEIAN">
+      <Text>Хейан</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HEIAN_DESCRIPTION">
+      <Text>Хейанська місько-держава</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KAESONG">
+      <Text>Кесонг</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KAESONG_DESCRIPTION">
+      <Text>Кесон - місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KASHGAR">
+      <Text>Кашгар</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KASHGAR_DESCRIPTION">
+      <Text>Місто-держава Кашгар</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KHOTAN">
+      <Text>Хотан</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KHOTAN_DESCRIPTION">
+      <Text>Місто-держава Хотан</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KUCHA">
+      <Text>Kucha</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KUCHA_DESCRIPTION">
+      <Text>Куха місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAMPHUN">
+      <Text>Лампхун</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LAMPHUN_DESCRIPTION">
+      <Text>місто-штат Лампхун</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAMURI">
+      <Text>Ламурі</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LAMURI_DESCRIPTION">
+      <Text>Ламурі - місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MALABANG">
+      <Text>Малабанг</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MALABANG_DESCRIPTION">
+      <Text>Місто-штат Малабанг</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PAGAN">
+      <Text>Язичництво</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PAGAN_DESCRIPTION">
+      <Text>Язичницьке місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PALEMBANG_DESCRIPTION">
+      <Text>Місто-штат Палембанг</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SAMARKAND">
+      <Text>Самарканд</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SAMARKAND_DESCRIPTION">
+      <Text>Місто-держава Самарканд</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SOMNATH">
+      <Text>Сомнат</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SOMNATH_DESCRIPTION">
+      <Text>Сомнат - місто-штат</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_THANG_LONG">
+      <Text>Тханг Лонг (Tkhahng Long)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THANG_LONG_DESCRIPTION">
+      <Text>Місто-держава Тханг Лонг</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TEMASEK">
+      <Text>Темасек (Temasek)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TEMASEK_DESCRIPTION">
+      <Text>Темасек - місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TONDO">
+      <Text>Тондо</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TONDO_DESCRIPTION">
+      <Text>Тондо місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TURPAN">
+      <Text>Турпан</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TURPAN_DESCRIPTION">
+      <Text>Турпан місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_UJJAIN">
+      <Text>Уджайн</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_UJJAIN_DESCRIPTION">
+      <Text>Місто-штат Уджайн</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VIJAYA">
+      <Text>Відповідь: Віяя</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_VIJAYA_DESCRIPTION">
+      <Text>місто-держава Віджая</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_XINGQING">
+      <Text>Ксіньцін</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_XINGQING_DESCRIPTION">
+      <Text>Місто-держава Сінцюан</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ZHONGJING">
+      <Text>Жонґжін</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ZHONGJING_DESCRIPTION">
+      <Text>Жонгджін місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGEGROUP_SCENARIO_MARITIME_NAME">
+      <Text>Морський</Text>
+    </Row>
+    <!-- City States Traits-->
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TRADE_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS} 
+
+(TRANSLATION NOT REQUIRED, AS THESE ARE PLACEHOLDERS FOR GAME-SPECIFIC TERMS)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Виробництво у столиці [ICON_Capital] під час виробництва одиниць</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Виробництво в кожному районі Торгівельного Центру під час виробництва одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Додаткові +2 [ICON_Production] виробництва в кожному комерційному районі під час виробництва одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_CULTURAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_CULTURE] Культура в [ICON_Capital] столиці.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_CULTURE] Культура в кожному районі Центру міста.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Додаткові +2 [ICON_CULTURE] культури в кожному районі Центру міста.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_NAME">
+      <Text>Морське місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_FOOD] Їжа в [ICON_Capital] столиці.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_FOOD] Їжа в кожному районі порту.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Додатково +2 [ICON_FOOD] Їжі в кожному портовому районі.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_INDUSTRIAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Виробництво у столиці [ICON_Capital] при будівництві чудес, будівель та районів.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Виробництво в кожному районі Акведука при будівництві див, будівель та районів.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Додаткові +2 [ICON_Production] виробництва в кожному районі Акведуку при виробництві див і будівель.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DALI_TRAIT_NAME">
+      <Text>Далі Сюзерен Бонус</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DELHI_TRAIT_NAME">
+      <Text>Бонус Делійського Сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GAOCHANG_TRAIT_NAME">
+      <Text>Бонус Гаочангського сюзерену</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GOA_TRAIT_NAME">
+      <Text>Бонус для господаря Гоа</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_HEIAN_TRAIT_NAME">
+      <Text>Бонус Сюзерена Хейану</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KAESONG_TRAIT_NAME">
+      <Text>Бонус Васал Кесонгу</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KASHGAR_TRAIT_NAME">
+      <Text>Бонус Кашгарського Сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KHOTAN_TRAIT_NAME">
+      <Text>Бонус від Сюзерена Хотану</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KUCHA_TRAIT_NAME">
+      <Text>Куча бонусів від сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMPHUN_TRAIT_NAME">
+      <Text>Бонус Сюзерена Лампхуну</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMURI_TRAIT_NAME">
+      <Text>Бонус від Ламурі Сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MALABANG_TRAIT_NAME">
+      <Text>Малабанг Сюзерен Бонус</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PAGAN_TRAIT_NAME">
+      <Text>Бонус Поганського Сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PALEMBANG_TRAIT_NAME">
+      <Text>Бонус від Палембанг Сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SAMARKAND_TRAIT_NAME">
+      <Text>Сузерен Самарканду - бонус</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SOMNATH_TRAIT_NAME">
+      <Text>Бонус Сомнат Сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_THANG_LONG_TRAIT_NAME">
+      <Text>Бонус від Сюзерена Тан Лонг</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TEMASEK_TRAIT_NAME">
+      <Text>Бонус від Темасек Сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TONDO_TRAIT_NAME">
+      <Text>Тондо Сюзерен Бонус</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TURPAN_TRAIT_NAME">
+      <Text>Турпанський сюзеренний бонус</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_UJJAIN_TRAIT_NAME">
+      <Text>Бонус сюзерена Уджайн</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_VIJAYA_TRAIT_NAME">
+      <Text>Бонус Віджаїя Сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_XINGQING_TRAIT_NAME">
+      <Text>Бонус сюзерена Сіньчжін у вигляді Xingqing</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_ZHONGJING_TRAIT_NAME">
+      <Text>Бонус від пана Чжунджинга Сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_BANDAR_BRUNEI_TRAIT_DESCRIPTION">
+      <Text>Ваші райони на або поруч з прибережними плитами забезпечують +2 [ICON_FAITH] Віри.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DALI_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Зручність у містах з комерційним районом.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DELHI_TRAIT_DESCRIPTION">
+      <Text>Ваші торговельні шляхи до будь-якої місто-держави [ICON_TradeRoute] забезпечують +2 [ICON_FAITH] Віри за кожен спеціалізований район у вихідному місті.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GAOCHANG_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Зручність у містах з комерційним районом.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GOA_TRAIT_DESCRIPTION">
+      <Text>Ваші райони на або поруч з прибережними плитами забезпечують +2 [ICON_FAITH] Віри.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_HEIAN_TRAIT_DESCRIPTION">
+      <Text>Ваші райони на або поруч з прибережними плитками забезпечують +2 [ICON_FAITH] Віри.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KAESONG_TRAIT_DESCRIPTION">
+      <Text>Ваші [ICON_TradeRoute] Торговельні маршрути до будь-якої місто-держави забезпечують +2 [ICON_FAITH] Віри за кожен спеціалізований район у вихідному місті.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KASHGAR_TRAIT_DESCRIPTION">
+      <Text>Ваші [ICON_TradeRoute] Торговельні маршрути до іноземних міст приносять +1 [ICON_FAITH] Віри за кожний розкішний ресурс на місці призначення.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KHOTAN_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Послуга у містах з районом комерційного центру.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KUCHA_TRAIT_DESCRIPTION">
+      <Text>Ваші [ICON_TradingPost] Торгові пости в іноземних містах надають +1 [ICON_CULTURE] культури вашим [ICON_TradeRoute] Торговим маршрутам, які проходять через це місто або йдуть до нього.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMPHUN_TRAIT_DESCRIPTION">
+      <Text>Ваші бонусні ресурси поводяться як розкішні ресурси, надаючи 1 [ICON_Amenities] задоволення за кожен тип.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMURI_TRAIT_DESCRIPTION">
+      <Text>Ваші [ICON_TradeRoute] Торговельні Маршрути до будь-якого міста-держави забезпечують +2 [ICON_FAITH] Віри за кожен спеціалізований район у місті походження.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MALABANG_TRAIT_DESCRIPTION">
+      <Text>Ваші [ICON_TradeRoute] Торговельні Шляхи до будь-якого міст-держави надають +2 [ICON_FAITH] Віри за кожен спеціалізований район у вихідному місті.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PAGAN_TRAIT_DESCRIPTION">
+      <Text>Ваші [ICON_TradeRoute] Торговельні маршрути до будь-якої місто-держави надають +2 [ICON_FAITH] Віри за кожен спеціалізований район в місті-відправнику.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PALEMBANG_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Зручності у містах з районом комерційного центру.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SAMARKAND_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Зручність у містах з комерційним районом.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SOMNATH_TRAIT_DESCRIPTION">
+      <Text>Ваші [ICON_TradeRoute] Торговельні маршрути до будь-якої держави-міста надають +2 [ICON_FAITH] Віри за кожен спеціалізований район в місті-відправнику.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_THANG_LONG_TRAIT_DESCRIPTION">
+      <Text>Ваші райони на або поруч з прибережними плитами забезпечують +2 [ICON_FAITH] Віри.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TEMASEK_TRAIT_DESCRIPTION">
+      <Text>Ваші бонусні ресурси поводяться як розкішні ресурси, надаючи 1 [ICON_Amenities] зручність для кожного типу.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TONDO_TRAIT_DESCRIPTION">
+      <Text>Ваші райони на або поряд з прибережними плитками надають +2 [ICON_FAITH] Віри.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TURPAN_TRAIT_DESCRIPTION">
+      <Text>Ваші [ICON_TradeRoute] торговельні маршрути до будь-якої міст-держави забезпечують +2 [ICON_FAITH] віри за кожен спеціалізований район у вихідному місті.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_UJJAIN_TRAIT_DESCRIPTION">
+      <Text>Ваші бонусні ресурси поводяться як розкішові ресурси, забезпечуючи 1 [ICON_Amenities] зручність на кожен тип.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_VIJAYA_TRAIT_DESCRIPTION">
+      <Text>Ваші торговельні маршрути [ICON_TradeRoute] до будь-якого міста-держави забезпечують +2 [ICON_FAITH] Віри за кожен спеціальний район у вихідному місті.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_XINGQING_TRAIT_DESCRIPTION">
+      <Text>Ваші бонусні ресурси поводяться як розкішні ресурси, забезпечуючи 1 [ICON_Amenities] задоволення за кожен тип.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_ZHONGJING_TRAIT_DESCRIPTION">
+      <Text>Ваші Торгові пости [ICON_TradingPost] у іноземних містах надають +1 [ICON_CULTURE] Культури вашим Торговим маршрутам [ICON_TradeRoute], що проходять через ці міста або йдуть до них.</Text>
+    </Row>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_SCENARIO_PAPERMAKING_NAME">
+      <Text>Виготовлення паперу</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_PRINTING">
+      <Text>Бруски на папір. Папір на сторінки. Сторінки на книги. Книги в мислі. Мислі в душі.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_COMPASS_NAME">
+      <Text>Компас</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_CELESTIAL_NAVIGATION_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Рух для ембаркованих одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_FUTURE_CIVIC_DESCRIPTION">
+      <Text>Може бути завершено кілька разів, збільшуючи кількість [ICON_Envoy] Послів.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_GUILDS">
+      <Text>Як наші міста процвітають, однодумці збираються разом у процвітанні.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_ENGINEERING">
+      <Text>Побудуйте 3 храми.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_ENGINEERING">
+      <Text>Стандартизований ліктемір має значення і в світському світі.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_THEOLOGY">
+      <Text>Володійте 3 місіонерами.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_THEOLOGY">
+      <Text>Коли ми відправляємо місіонерів, ми відчуваємо потребу у православній вірі.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MACHINERY">
+      <Text>Побудуйте 2 Акведука.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_MACHINERY">
+      <Text>"Уявіть водяне колесо", кажуть наші інженери, "але, що може приводити майже будь-що!"</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_FEUDALISM">
+      <Text>Зрости місто до 14 населення.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_FEUDALISM">
+      <Text>Наші міста містять багатошаровість. Давайте закодифікуємо зобов'язання від королів до простих людей.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_PAPERMAKING">
+      <Text>Зберігайте 3 [ICON_TradeRoute] Торгові маршрути.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_PAPERMAKING">
+      <Text>Напевно, існує кращий спосіб вести облік караванів, ніж писати на глиняних черепках?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_CIVIL_SERVICE">
+      <Text>Бути колись сюзереном трьох міст-держав.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_CIVIL_SERVICE">
+      <Text>Що, якщо ви могли б делегувати делегації легіону секретарів?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_BANKING">
+      <Text>Побудуйте 3 ринки.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_BANKING">
+      <Text>Шлях до небес може бути тоншим за золото, але золото майже таке ж винагородне.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_COMPASS">
+      <Text>Побудуйте 3 маяки.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_COMPASS">
+      <Text>Моряк мріє про плавання, кероване невидимим маяком неба.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_DIVINE_RIGHT">
+      <Text>Маєте 15 міст, які притримуються вашої релігії.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_DIVINE_RIGHT">
+      <Text>Який кращий доказ правильності вашої віри, ніж очі багатьох, спрямовані на вас?</Text>
+    </Row>
+    <!-- Districts-->
+    <Row Tag="LOC_DISTRICT_SCENARIO_RIVER_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Культура з прилеглої річки.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_HARBOR_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Культура з прилеглої району Гавані.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_CITY_CENTER_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Культура з сусіднього району Центрального міста.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_DISTRICT_CULTURE">
+      <Text>+{1_num} [ІКОНА_КУЛЬТУРИ] Культура з прилеглих {1_Num : plural 1?району; plural 2?районів; plural 3?районів;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_SEARESOURCE_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Культура з прилеглого моря {1_Num : plural 1?ресурс; other?ресурси;}.</Text>
+    </Row>
+    <!-- Governments-->
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_MONARCHY_DESCRIPTION">
+      <Text>Столиця отримує +3 [ICON_FAITH] віри, +1 [ICON_CULTURE] культури, +1 [ICON_PRODUCTION] виробництва та +1 [ICON_FOOD] харчування випродукції.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_SCENARIO_THALASSOCRACY_NAME">
+      <Text>Таласократія</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_THALASSOCRACY_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Віра для кожного рибальського човна.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_THEOCRACY_DESCRIPTION">
+      <Text>Всі релігійні одиниці отримують здібність Мученик, яка надає [ICON_GreatWork_Relic] Реліквію, якщо ця одиниця помирає у богословському бою.</Text>
+    </Row>
+    <!-- Improvements-->
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_CAMP_DESCRIPTION">
+      <Text>Розблоковує здатність Будівельника будувати табори. [NEWLINE][NEWLINE]+1 [ICON_FOOD] Їжі. Можна будувати лише на підходящих ресурсах.[NEWLINE][NEWLINE]Якщо побудовано на розкішних ресурсах, місто буде мати доступ до цього ресурсу.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_MINE_DESCRIPTION">
+      <Text>Розблоковує можливість будівництва копалень для Будівельника. [NEWLINE] [NEWLINE] +1 [ICON_Production] Виробництво. -1 Апеляція. Може бути побудовано на пагорбах або на дійсних ресурсах. [NEWLINE] [NEWLINE] Якщо побудовано на ресурсах розкоші, місто отримає можливість використання цього ресурсу.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_PASTURE_DESCRIPTION">
+      <Text>Розблоковує можливість будівництва Пасовища для будівництва.[NEWLINE][NEWLINE]+1 [ICON_Production] виробництва. Може бути побудований лише на придатних ресурсах.[NEWLINE][NEWLINE] Якщо будується на розкішних ресурсах, місто отримає можливість використання цього ресурсу. [NEWLINE][ICON_Production][NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_PLANTATION_DESCRIPTION">
+      <Text>Розблоковує можливість будівництва плантацій для будівельника. [NEWLINE] [NEWLINE] +1 [ICON_FOOD] Їжі. Можна будувати тільки на дійсних ресурсах. [NEWLINE] [NEWLINE] Якщо будується на розкішних ресурсах, місто отримає можливість використовувати цей ресурс.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_KAMPUNG_DESCRIPTION">
+      <Text>Розблоковує можливість будувати Kampung для Будівельника.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] виробництво та +1 [ICON_Housing] житло. +1 [ICON_FOOD] харчування за кожним прилеглим рибальським човном. Можна розмістити на побережжі або біля озера поруч із морським ресурсом.</Text>
+    </Row>
+    <!-- Policies-->
+    <Row Tag="LOC_POLICY_SCENARIO_URBAN_PLANNING_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Віра у всіх містах.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CARAVANSARIES_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Віра від міжнародних [ICON_TradeRoute] Торгових Маршрутів.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_NOBLE_PATH_NAME">
+      <Text>Шлях благородства</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_NOBLE_PATH_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Віра від внутрішніх [ICON_TradeRoute] Торговельних маршрутів.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CORVEE_DESCRIPTION">
+      <Text>+15% [ICON_Production] Виробництво на користь дивин.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_DEVOTION_NAME">
+      <Text>Відданість</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_DEVOTION_DESCRIPTION">
+      <Text>+25% [ICON_Production] виробництва щодо релігійних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_RAJ_DESCRIPTION">
+      <Text>+6 [ICON_Faith] Віри з кожного міст-держави, якої ви є Сюзереном.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MERITOCRACY_DESCRIPTION">
+      <Text>Кожне місто отримує +1 [ICON_FAITH] Віри за кожен спеціалізований район, який воно будує.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MERCHANT_CONFEDERATION_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Віра від кожного з ваших [ICON_Envoy] Послів в міських державах.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CHARITY_NAME">
+      <Text>Благодійність</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_QUECHANG_NAME">
+      <Text>Quechang</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_QUECHANG_DESCRIPTION">
+      <Text>+100% [ICON_PRODUCTION] Урожайність виробництва з будівель комерційного центру.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_TRADE_CONFEDERATION_DESCRIPTION">
+      <Text>+3 [ICON_FAITH] Віра з усіх [ICON_TradeRoute] Торгових маршрутів.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_JUNK_NAME">
+      <Text>Junk</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_JUNK_DESCRIPTION">
+      <Text>Подвоює випуск [ICON_FOOD] Їжі та [ICON_PRODUCTION] Виробництва з будівель району Гавані.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_FESTIVALS_NAME">
+      <Text>Фестивалі</Text>
+    </Row>
+    <!-- Projects-->
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_HARBOR_DESCRIPTION">
+      <Text>Проект на рівні району, який забезпечує [ICON_CULTURE] культуру кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_COMMERCIAL_HUB_DESCRIPTION">
+      <Text>Проект на основі районів, який забезпечує [ICON_CULTURE] культурою кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_HOLY_SITE_DESCRIPTION">
+      <Text>Проект, що базується на районах і забезпечує велику кількість [ICON_FAITH] Віри кожен хід</Text>
+    </Row>
+    <!-- Religion-->
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM1_NAME">
+      <Text>Шаївізм</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM2_NAME">
+      <Text>Хінду Дхарма</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM3_NAME">
+      <Text>Теравада буддизм</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM4_NAME">
+      <Text>Махаяна буддизм</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM5_NAME">
+      <Text>Вайраяна буддизм</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_GOD_OF_THE_OPEN_SKY_DESCRIPTION">
+      <Text>+2 [ICON_FOOD] Їжа з пасовищ.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_STONE_CIRCLES_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Віри та +2 [ICON_Production] виробництва з кар'єрів.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_DANA_NAME">
+      <Text>Дана</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_DANA_DESCRIPTION">
+      <Text>Кожен амбар забезпечує +3 [ICON_FAITH] Віри. +1 [ICON_Amenities] Зручності для кожного міста.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_NUSANTARA_DESCRIPTION">
+      <Text>Плитки узбережжя та озера надають незначний бонус суміжності для округів Святих місць.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_LINGA_NAME">
+      <Text>Linga</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_LINGA_DESCRIPTION">
+      <Text>Можна придбати будівлі комерційного кварталу та порту з використанням [ICON_Faith] віри.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_VAJRAYANA_STUPA_NAME">
+      <Text>Ступа Ваджраяни</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_VAJRAYANA_STUPA_DESCRIPTION">
+      <Text>Дозволяє будувати Ступи (+3 [ICON_Faith] Віри, +1 [ICON_Amenities] Зручностей) Розблоковується при вивченні Друку.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MAHAYANA_STUPA_NAME">
+      <Text>Махаяна Ступа</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MAHAYANA_STUPA_DESCRIPTION">
+      <Text>Дозволяє будувати ступи (+3 [ICON_Faith] Віри, +1 [ICON_Amenities] Зручності). Розблоковано з Друкуванням.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_STEWARDSHIP_DESCRIPTION">
+      <Text>Кожен комерційний центр або гавань у місті, що відповідає цій релігії, надає +1 [ICON_FAITH] віри.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_KAMPUNG_DESCRIPTION">
+      <Text>Ваши будівельники тепер можуть здійснювати покращення Кампунгу. Розблоковано з Гільдіями.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MOSQUE_DESCRIPTION">
+      <Text>Дозволяє будування мечетей (+3 [ICON_Faith] Віри). Місіонерські та Монаші одиниці +1 поширення. Розблоковано з друкарством.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_PAGODA_DESCRIPTION">
+      <Text>Дозволяє будувати пагоди (+3 [ICON_Faith] віри). Одиниці священика +1 видаляють герезу, а гуру +1 відновлюють здоров'я. Розблоковується з Друкарства.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_WAT_DESCRIPTION">
+      <Text>Дозволяє будувати Вати (+3 [ICON_Faith] Віри, +1 [ICON_Housing] Житла). Розблоковано з Друкарства.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_HOLY_ORDER_DESCRIPTION">
+      <Text>Місіонери та монахи можуть бути придбані зі знижкою в 30%.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_YOGA_NAME">
+      <Text>Йога</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_YOGA_DESCRIPTION">
+      <Text>Можна придбати цивільні одиниці за допомогою віри [ICON_Faith].</Text>
+    </Row>
+    <!-- Route-->
+    <Row Tag="LOC_ROUTE_SCENARIO_ANCIENT_ROAD_DESCRIPTION">
+      <Text>Розміщений на початку сценарію. Покращує [ICON_Movement] швидкість переміщення будь-якої одиниці, що рухається від однієї дорожньої плитки до іншої.</Text>
+    </Row>
+    <Row Tag="LOC_ROUTE_SCENARIO_MEDIEVAL_ROAD_DESCRIPTION">
+      <Text>Розташовано на початку сценарію. Поліпшує [ICON_Movement] швидкість руху будь-якої одиниці, що рухається з однієї дорожньої плитки на іншу.</Text>
+    </Row>
+    <!-- Scoring-->
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FOLLOWERS_NAME">
+      <Text>Послідовники Слідуючі Релігія</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FOREIGN_CITIES_NAME">
+      <Text>Іноземні міста, що дотримуються релігії</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FAITH_NAME">
+      <Text>Віра на кожен оберт</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_1">
+      <Text>Особливі Правила Сценарію:</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_2">
+      <Text>Немає Дерева Технологій, Золота, Дипломатії, Туризму чи Науки. Культурні кордони залишаються незмінними. Особливості не можуть бути видалені.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_3">
+      <Text>Усі релігійні одиниці починають з 1 просування та можуть бути навчені.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_4">
+      <Text>Лише один бонус влади Сузерена міст-держав додає додаткові виручки або [ICON_Amenities] переваги для кожного типу міст-держави.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_5">
+      <Text>Торговці не створюють дороги.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_6">
+      <Text>Очки отримуються з:</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_7">
+      <Text>Послідовники вашої релігії: {1_Followers} {1_Followers: один послідовник; між 2 і 4 послідовниками; більше 5 послідовників; між 10 і 20 послідовників;} на кожного послідовника цієї релігії.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_8">
+      <Text>Іноземні міста: {2_Cities} {2_Cities : plural 1?точка; other?точок;} для всіх іноземних міст, що дотримуються цієї релігії.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_9">
+      <Text>Віра: {1_Faith} {2_Faith : plural 1?Очко; other?Очки;} за кожну [ICON_FAITH] віру на кожен [ICON_TURN] Хід.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_10">
+      <Text>Коли ви відправляєте [ICON_ENVOY] посланця до Місто-держави, він додає 300 релігійного тиску до цієї Місто-держави.</Text>
+    </Row>
+    <!-- Slots-->
+    <Row Tag="LOC_SLOT_SCENARIO_RELIGIOUS_NAME">
+      <Text>Релігійний</Text>
+    </Row>
+    <!-- Units-->
+    <Row Tag="LOC_UNIT_SCENARIO_BUILDER_DESCRIPTION">
+      <Text>Можуть створювати покращення плитки або збирати ресурси. Будівельники можуть використовуватися 3 рази. Це можна збільшити за допомогою політики.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_TRADER_DESCRIPTION">
+      <Text>Можна створити та підтримувати єдиний маршрут торгівлі [ICON_TradeRoute].</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_PRIEST_NAME">
+      <Text>Священик</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_MONK_NAME">
+      <Text>Монах</Text>
+    </Row>
+    <Row Tag="LOC_UI_RELIGION_PRIEST_TT">
+      <Text>Священики можуть усунути наявність інших релігій на своїй території та ініціювати теологічний бій з одиницями інших релігій.</Text>
+    </Row>
+    <Row Tag="LOC_UI_RELIGION_MONK_TT">
+      <Text>Монахи можуть перетворювати [ICON_Citizen] Громадян на свою релігію та розпочинати богословські бої з одиницями інших релігій.</Text>
+    </Row>
+    <!-- Unit Promotion Classes-->
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_MISSIONARY_NAME">
+      <Text>Релігійна місіонерська діяльність</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_PRIEST_NAME">
+      <Text>Релігійний священик</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_MONK_NAME">
+      <Text>Релігійний монах</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_GURU_NAME">
+      <Text>Релігійний гуру</Text>
+    </Row>
+    <!-- Unit Promotions-->
+    <Row Tag="LOC_PROMOTION_SCENARIO_WALK_ON_WATER_NAME">
+      <Text>Прогулянка по воді</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_WALK_ON_WATER_DESCRIPTION">
+      <Text>Відсутність штрафу за рух [ICON_Movement] під час пересування з моря або річки.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TRAVELER_NAME">
+      <Text>Мандрівник</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TRAVELER_DESCRIPTION">
+      <Text>Швидший [ICON_Movement] Рух у лісах, тропічних лісах, на пагорбах чи в болотах.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PROPAGATOR_NAME">
+      <Text>Розповсюджувач (rozpovsyudzhuvach)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PROPAGATOR_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Рух.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PRACTITIONER_NAME">
+      <Text>Практикуючий фахівець</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PRACTITIONER_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Релігійної Сили у Богословському Бою на чужині.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GARRISON_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Релігійної Сили в Божевільній Битві при окупації району.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ORATOR_DESCRIPTION">
+      <Text>Можна виконати знищення єресі 2 додаткові рази.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ALCHEMIST_NAME">
+      <Text>Алхімік</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ALCHEMIST_DESCRIPTION">
+      <Text>+7 [ICON_Religion] Релігійна Сила у Теологічному Бою при захисті в Лісах, Райських Лісах, Пагорбах або Болотах.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_INTERPRETER_NAME">
+      <Text>Перекладач</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_INTERPRETER_DESCRIPTION">
+      <Text>Отримайте 75 [ICON_FAITH] віри, якщо цей блок перетворить місто на вашу релігію вперше.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SANGHA_NAME">
+      <Text>Санґха</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SANGHA_DESCRIPTION">
+      <Text>Бонус за флангування в два рази.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GUIDE_NAME">
+      <Text>Гід</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GUIDE_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух до релігійних одиниць на початку ходу в радіусі 2 плиток.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SAGE_NAME">
+      <Text>Шавлія</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SAGE_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Релігійна сила в духовному бою для релігійних одиниць в межах 2 плиток.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TEACHER_NAME">
+      <Text>Вчитель</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TEACHER_DESCRIPTION">
+      <Text>Цей блок працює в якості медика, забезпечуючи додаткове вилікування для блоків, які знаходяться в радіусі 1 тайлу.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_MASTER_NAME">
+      <Text>Майстер</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_MASTER_DESCRIPTION">
+      <Text>+1 Заряд лікування.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_SAGE_COMBAT_STRENGTH_AOE_RELIGIOUS_MODIFIER">
+      <Text>+10 [ICON_Religion] Релігійної Сили у Божевільному Бою від Підвищення Мудреця Гуру</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_SAGE_COMBAT_STRENGTH_AOE_RELIGIOUS">
+      <Text>+10 [ICON_Religion] Релігійної Сили у Богослівському Бою для Релігійних одиниць в радіусі 2 тайлів.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_GUIDE_MOVEMENT_AOE_RELIGIOUS">
+      <Text>+1 [ICON_Movement] Рух до релігійних одиниць на початку ходу в межах 2 плиток.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATES_SCENARIO_TYPE_MARITIME">
+      <Text>Морський</Text>
+    </Row>
+    <!--Citizen Names-->
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_1">
+      <Text>Норбу</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_2">
+      <Text>Phuntsok</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_3">
+      <Text>Рабтен</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_4">
+      <Text>Tashi</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_5">
+      <Text>Ванчук</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_1">
+      <Text>Dawa</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_2">
+      <Text>Jungney</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_3">
+      <Text>Pema</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_4">
+      <Text>Рінчен</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_5">
+      <Text>Тсерінг</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_NO_MILITARY_SLOTS">
+      <Text>Ця ​​урядова влада не надає слоти для релігійної політики.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FILTER_MILITARY">
+      <Text>Релігійний</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICY_TYPE_MILITARY">
+      <Text>Релігійна політика</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_1_NAME">
+      <Text>Арахант</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_2_NAME">
+      <Text>Анагамі</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_3_NAME">
+      <Text>Сакадагамі</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_4_NAME">
+      <Text>Сотапанна</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_5_NAME">
+      <Text>Путуджжана</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_1_QUOTE">
+      <Text>Досягнута просвіта</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_2_QUOTE">
+      <Text>Незворотньо покидання Фізичного Світу</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_3_QUOTE">
+      <Text>Одноразовий повернення до фізичного світу</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_4_QUOTE">
+      <Text>Потік-Вступник на шлях до Пробудження</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_5_QUOTE">
+      <Text>Звичайна людина</Text>
+    </Row>
+  </EnglishText>
+</GameData>

@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData>
+  <EnglishText>
+    <!-- Unit Types -->
+    <Row Tag="LOC_UNIT_SLOOP_NAME">
+      <Text>Слуп</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BRIGANTINE_NAME">
+      <Text>Бригантина</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GALLEON_NAME">
+      <Text>Галеон</Text>
+    </Row>
+    <!-- Unit Veteran Names -->
+    <Row Tag="LOC_UNIT_TREASURE_FLEET_GOLD_SHIP_NAME">
+      <Text>Корабель скарбів</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TREASURE_FLEET_GUARD_SHIP_NAME">
+      <Text>Супровід скарбів</Text>
+    </Row>
+    <!-- Loading Screen -->
+    <Row Tag="LOC_LOADING_INFO_PIRATES_SCENARIO">
+      <Text>{LOC_PIRATES_MOD_DESCRIPTION_TUTORIAL} (ЦЕ ПОСІБНИК З ОПИСОМ МОДУ "ПІРАТСЬКІ")</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_PIRATES_VICTORY_WIN_BLURB">
+      <Text>День належить тобі!</Text>
+    </Row>
+    <!-- Scoring -->
+    <Row Tag="LOC_SCORE_CATEGORY_TREASURE_NAME">
+      <Text>Скарб</Text>
+    </Row>
+    <Row Tag="LOC_SCORE_CATEGORY_INFAMOUS_PIRATES_NAME">
+      <Text>Ноторійні Пірати</Text>
+    </Row>
+    <Row Tag="LOC_SCORE_CATEGORY_FIGHTING_NAME">
+      <Text>Боротьба</Text>
+    </Row>
+    <Row Tag="LOC_SCORE_CATEGORY_TREASURE_WORLDTEXT">
+      <Text>{1_Points} Скарб</Text>
+    </Row>
+    <Row Tag="LOC_SCORE_CATEGORY_INFAMOUS_PIRATES_WORLDTEXT">
+      <Text>{1_Points} Погані пірати</Text>
+    </Row>
+    <Row Tag="LOC_SCORE_CATEGORY_FIGHTING_WORLDTEXT">
+      <Text>{1_Points} Боротьба</Text>
+    </Row>
+    <!-- Diplomacy Ribbon -->
+    <Row Tag="LOC_HUD_RIBBON_SCORE">
+      <Text>Загальна непопулярність/невідомість</Text>
+    </Row>
+    <!--Relic Screen Button Tooltip-->
+    <Row Tag="LOC_HUD_GOVT_FREE_CHANGES">
+      <Text>У вас є нові Реліквії, доступні для використання!</Text>
+    </Row>
+    <!-- Unit Panel -->
+    <Row Tag="LOC_HUD_UNIT_PANEL_CREW">
+      <Text>Екіпаж</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCORE_NAME">
+      <Text>Король Піратів</Text>
+    </Row>
+    <!-- Unit Promotions -->
+    <Row Tag="LOC_PROMOTION_CLASS_BRIGANTINE_NAME">
+      <Text>Бригантина</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PIRATES_SILENT_RUNNING_NAME">
+      <Text>Мідне покриття корпусу</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PIRATES_WOLFPACK_NAME">
+      <Text>Піратський кодекс</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PIRATES_BOARDING_NAME">
+      <Text>Поворотна гармата</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PIRATES_HOMING_TORPEDOES_NAME">
+      <Text>Вибухова куля</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PIRATES_OBSERVATION_NAME">
+      <Text>Венеційський телескоп</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PIRATES_LOOT_NAME">
+      <Text>Флінтові мушкети</Text>
+    </Row>
+    <!-- Unit Abilities -->
+    <Row Tag="LOC_UNIT_ABILITY_NOT_ENOUGH_MOVEMENT">
+      <Text>[COLOR:Red]Недостатньо [ICON_Movement] Очок Руху доступно.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_VISIT_TAVERN_TOOLTIP">
+      <Text>Відвідайте Таверну[NEWLINE][NEWLINE]Відвідайте таверну в порту, щоб набрати команду та дізнатися нове завдання. Можна використовувати лише поруч з центром колоніального міста</Text>
+    </Row>
+    <Row Tag="LOC_VISIT_TAVERN_WORLDTEXT">
+      <Text>+1 Екіпаж</Text>
+    </Row>
+    <Row Tag="LOC_VISIT_TAVERN_NOT_ADJACENT_TT">
+      <Text>[COLOR:Red]Не прилегло до центру колоніального міста.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CAREENING_TOOLTIP">
+      <Text>Карінг[NEWLINE][NEWLINE]Виконуйте екстрені ремонтні роботи на мілководді. Витрачайте [ICON_Movement] Рух, щоб швидко відновити здоров'я. Кількість відновленого здоров'я залежить від кількості витраченого [ICON_Movement] Руху.</Text>
+    </Row>
+    <Row Tag="LOC_CAREENING_WORLDTEXT">
+      <Text>Поставте свою енергію в це! Ми можемо її врятувати!</Text>
+    </Row>
+    <Row Tag="LOC_CAREENING_NO_DAMAGE_TOOLTIP">
+      <Text>[COLOR:Red]Неможливо зійти на каріну, будучи непошкодженим.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CAREENING_NO_MOVEMENT_TOOLTIP">
+      <Text>[COLOR:Red]Карінг потребує [ICON_Movement] Очок Руху.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CAREENING_ENEMY_TERRITORY_TOOLTIP">
+      <Text>[COLOR:Red]Неможливо вибитися з курсу під час перебування на ворожій території.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CAREENING_DEEP_WATER_TOOLTIP">
+      <Text>[COLOR:Red]Карінг потребує мілкої води.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CAPTURE_BOAT_TOOLTIP">
+      <Text>Захопити човен[NEWLINE][NEWLINE]З'їсти команду супротивника, щоб захопити його пошкоджений корабель та додати до свого флоту.</Text>
+    </Row>
+    <Row Tag="LOC_CAPTURE_BOAT_WORLDTEXT">
+      <Text>Вона наша!</Text>
+    </Row>
+    <Row Tag="LOC_SHORE_PARTY_TOOLTIP">
+      <Text>Береговий екіпаж[NEWLINE][NEWLINE]Висадити екіпаж на землю.</Text>
+    </Row>
+    <Row Tag="LOC_SHORE_PARTY_WORLDTEXT">
+      <Text>Сідайте в човни, ви брудні кабани!</Text>
+    </Row>
+    <Row Tag="LOC_SHORE_PARTY_NO_LAND_TOOLTIP">
+      <Text>[COLOR:Red]Не прилягає до землі.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_SHORE_PARTY_EMBARK_TOOLTIP">
+      <Text>Відправляє берегову команду на корабель, що знаходиться поруч, до екіпажу на ньому. [NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_SHORE_PARTY_EMBARK_WORLDTEXT">
+      <Text>Готовий до вильоту, пане!</Text>
+    </Row>
+    <Row Tag="LOC_SHORE_PARTY_EMBARK_NO_SHIP_TOOLTIP">
+      <Text>[COLOR:Red]Не прилегло до військового корабля.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_BURY_TREASURE_TOOLTIP">
+      <Text>Поховайте скарб[NEWLINE][NEWLINE]Поховайте 600 золота, щоб отримати 30 [ICON_TreasureScore] балів скарбу.</Text>
+    </Row>
+    <Row Tag="LOC_BURY_TREASURE_TREASURE_IN_WAY_TOOLTIP">
+      <Text>[COLOR:Red]Не можна поховати скарб на вершині іншої скарбниці.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_BURY_TREASURE_NOT_HERE_TOOLTIP">
+      <Text>[COLOR:Red]Тут не можна поховати скарб. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_BURY_TREASURE_WORLDTEXT">
+      <Text>Вони ніколи не знайдуть це тут!</Text>
+    </Row>
+    <Row Tag="LOC_NAVAL_FIELD_REPAIRS_NAME">
+      <Text>Польові ремонти</Text>
+    </Row>
+    <Row Tag="LOC_NAVAL_FIELD_REPAIRS_DESCRIPTION">
+      <Text>Польові ремонти постійно відновлюють морські одиниці на морі.</Text>
+    </Row>
+    <Row Tag="LOC_DREAD_PIRATE_PASSIVE_NAME">
+      <Text>Купаний кров'ю та залізом</Text>
+    </Row>
+    <Row Tag="LOC_DREAD_PIRATE_PASSIVE_DESCRIPTION">
+      <Text>+10 [ICON_Gold] Золота кожного разу, коли одиниця бере участь в бою.</Text>
+    </Row>
+    <Row Tag="LOC_DREAD_PIRATE_PASSIVE_COMBAT_GOLD">
+      <Text>+{1_Amount} [ICON_Gold]</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DREAD_PIRATE_UNIT_ACTIVE_NAME">
+      <Text>Прогуляй планку</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DREAD_PIRATE_UNIT_ACTIVE_DESCRIPTION">
+      <Text>Екіпаж був надихнутий, бачачи як вороги йдуть по дошці.[NEWLINE]+3 [ICON_Movement] Руху. +5 [ICON_Strength] Сили бойової дії</Text>
+    </Row>
+    <Row Tag="LOC_DREAD_PIRATE_UNIT_ACTIVE_TOOLTIP">
+      <Text>Примусьте свою команду до вчинення жорстокого вчинку: змусіть екіпаж захопленого корабля пройти до кінця дощової дошки. Цей акт надасть +3 [ICON_Movement] одиниць руху та +5 [ICON_Strength] бойової сили на протязі 5 ходів.</Text>
+    </Row>
+    <Row Tag="LOC_DREAD_PIRATE_ACTIVE_ACTIVATED_WORLDTEXT">
+      <Text>До дошки! І далі до безодні.</Text>
+    </Row>
+    <Row Tag="LOC_DREAD_PIRATE_ACTIVE_DEACTIVATED_WORLDTEXT">
+      <Text>Екіпаж виглядає нудним та непевним.</Text>
+    </Row>
+    <Row Tag="LOC_DREAD_PIRATE_ACTIVE_ACTIVATED_TT">
+      <Text>Ходьба по дошці активна. Поворотів залишилось: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_DREAD_PIRATE_ACTIVE_RECHARGING_TT">
+      <Text>[COLOR:Red]Walk the Plank перезаряджається. Залишилося ходів: {1_turnsRemaining}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRIVATEER_UNIT_ACTIVE_TOOLTIP">
+      <Text>Привезіть її додому[NEWLINE][NEWLINE]Захопіть ворожий корабель і віддайте його своєму покровителю за +5 [ICON_PirateScore] піратських очок слави та +100 [ICON_Gold] золота.</Text>
+    </Row>
+    <Row Tag="LOC_PRIVATEER_ACTIVE_ACTIVATED_WORLDTEXT">
+      <Text>Ще одна для Корони!</Text>
+    </Row>
+    <Row Tag="LOC_PRIVATEER_ACTIVE_ACTIVATED_TT">
+      <Text>"Принести її додому" активний. Залишилося ходів: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_PRIVATEER_ACTIVE_RECHARGING_TT">
+      <Text>[COLOR:Red]Приведення Додому[/COLOR] [COLOR:Red]заряджається. Залишилося ходів: {1_turnsRemaining}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SWASHBUCKLER_UNIT_ACTIVE_NAME">
+      <Text>Проти вітру</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SWASHBUCKLER_UNIT_ACTIVE_DESCRIPTION">
+      <Text>2x [ICON_Movement] Рух</Text>
+    </Row>
+    <Row Tag="LOC_SWASHBUCKLER_UNIT_ACTIVE_TOOLTIP">
+      <Text>Проти вітру[NEWLINE][NEWLINE]2x [ICON_Movement] Рух за поточний та наступний хід.</Text>
+    </Row>
+    <Row Tag="LOC_SWASHBUCKLER_ACTIVE_ACTIVATED_WORLDTEXT">
+      <Text>Готуйтеся, тяжко на ліву бік! Тримайтеся міцно!</Text>
+    </Row>
+    <Row Tag="LOC_SWASHBUCKLER_ACTIVE_DEACTIVATED_WORLDTEXT">
+      <Text>Ей, повернуть на інший курс. Давайте дати їй відпочити наразі.</Text>
+    </Row>
+    <Row Tag="LOC_SWASHBUCKLER_ACTIVE_ACTIVATED_TT">
+      <Text>Бійка з вітром. Залишилося ходів: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_SWASHBUCKLER_ACTIVE_RECHARGING_TT">
+      <Text>[COLOR:Red]Зміна курсу проти вітру заряджається. Залишилося ходів: {1_turnsRemaining}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HOARDER_UNIT_ACTIVE_TOOLTIP">
+      <Text>Ланцюжкова атака[NEWLINE][NEWLINE]Заставте ворожий корабель на один хід застояти на місці.</Text>
+    </Row>
+    <Row Tag="LOC_HOARDER_ACTIVE_RECHARGING_TT">
+      <Text>[COLOR:Red]Ланцюгова стрільба перезаряджається. Залишилося ходів: {1_turnsRemaining}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HOARDER_ACTIVE_ACTIVATED_WORLDTEXT">
+      <Text>Навпаки їх парусів! Випустіть шарпові ланцюгові снаряди!</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CHAINSHOT_MOVE_LOCKED_NAME">
+      <Text>Цепной выстрел ошеломил</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CHAINSHOT_MOVE_LOCKED_DESCRIPTION">
+      <Text>Неможливо рухатися через ланцюгову кулю.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_PILLAGE_DESCRIPTION">
+      <Text>Розкрадати</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_PILLAGE_DISABLED_TT_OWN_TREASURE">
+      <Text>[COLOR:Red]Неможливо розграбувати власний скарб![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_VISIT_TAVERN_RECHARGING_TT">
+      <Text>[COLOR:Red]Таверна ще відновлюється після минулого візиту. Залишилось ходів: {1_turnsRemaining}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_CAPTURE_BOAT_NO_CREW_TT">
+      <Text>[COLOR:Red]Недостатньо екіпажу![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_CAPTURE_BOAT_NO_DAMAGE_TT">
+      <Text>[COLOR:Red]Ворожий корабель повинен бути більше пошкоджений![ENDCOLOR]</Text>s
+		</Row>
+    <Row Tag="LOC_UNITOPERATION_CAPTURE_BOAT_FLAGSHIP_TT">
+      <Text>[COLOR:Red]Флагмани та Корсари не можуть бути захоплені.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SHORE_PARTY_NO_CREW_TT">
+      <Text>[COLOR:Red]Недостатньо доступних членів екіпажу![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_EMBARK_NO_SHIP_TT">
+      <Text>[COLOR:Red]Не прилегло до корабля.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_BURY_TREASURE_NO_GOLD_TT">
+      <Text>[COLOR:Red]Недостатньо золота.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_BURY_TREASURE_NO_LAND_TT">
+      <Text>[COLOR:Red]Можливо ховати скарб тільки на землі.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_BURY_TREASURE_ALREADY_IMPROVED_TT">
+      <Text>[COLOR:Red]Можна поховати скарб тільки на порожній ділянці.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_BURY_TREASURE_OWNED_PLOT_TT">
+      <Text>[COLOR:Red]Можна поховати скарб лише на необурядованій ділянці.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLAGSHIP_NAME">
+      <Text>Флагман</Text>
+    </Row>
+    <Row Tag="LOC_FLAGSHIP_DESCRIPTION">
+      <Text>Цей корабель є флагманом вашого флоту.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATES_NAME">
+      <Text>Берегова команда</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATES_DESCRIPTION">
+      <Text>Бродяча банда наземних піратів.</Text>
+    </Row>
+    <!-- Combat Modifier Strings -->
+    <Row Tag="LOC_DREAD_PIRATE_UNIT_ACTIVE_COMBAT_BONUS_MODIFIER">
+      <Text>+Пройдіть по дошці з {1_Amount} кроків уперед</Text>
+    </Row>
+    <Row Tag="LOC_KRAKANNONS_COMBAT_BONUS_MODIFIER">
+      <Text>+{1_Amount} Краканонів</Text>
+    </Row>
+    <Row Tag="LOC_SKULL_FIRESHOT_MODIFIER">
+      <Text>+{1_Кількість} Кричащих Черепів Fireshot</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_BONUS_VS_BARBARIANS">
+      <Text>Перевага +{1_Value} проти Баканірів</Text>
+    </Row>
+    <!-- Infamous Pirates -->
+    <Row Tag="LOC_PIRATE_HENRY_MORGAN">
+      <Text>Генрі Морган</Text>
+    </Row>
+    <Row Tag="LOC_PIRATE_BLACKBEARD">
+      <Text>Чорна Борода</Text>
+    </Row>
+    <Row Tag="LOC_PIRATE_CAPTAIN_KIDD">
+      <Text>Капітан Кідд</Text>
+    </Row>
+    <Row Tag="LOC_PIRATE_JEAN_LAFITTE">
+      <Text>Жан Лафітт</Text>
+    </Row>
+    <Row Tag="LOC_PIRATE_STEDE_BONNET">
+      <Text>Стід Боннет</Text>
+    </Row>
+    <Row Tag="LOC_PIRATE_LOLONNAIS">
+      <Text>л'Олонне (l'Olonnais)</Text>
+    </Row>
+    <Row Tag="LOC_PIRATE_ROC_BRASILIANO">
+      <Text>Роше Бразільяно (Note: this is a person's name and should not be translated further)</Text>
+    </Row>
+    <Row Tag="LOC_PIRATE_BART_ROBERTS">
+      <Text>Барт Робертс</Text>
+    </Row>
+    <Row Tag="LOC_PIRATE_JACK_RACKHAM">
+      <Text>Джек Ракхем</Text>
+    </Row>
+    <!-- Improvements -->
+    <Row Tag="LOC_IMPROVEMENT_BURIED_TREASURE_NAME">
+      <Text>Закопаний скарб</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FLOATING_TREASURE_NAME">
+      <Text>Плаваючий скарб</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_BARBARIAN_CAMP_NAME">
+      <Text>Форт Буканеер</Text>
+    </Row>
+    <!-- Notifications -->
+    <Row Tag="LOC_NOTIFICATION_NEW_BURIED_TREASURE_MESSAGE">
+      <Text>Знайшов скарбову карту {1_playerName}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BURIED_TREASURE_SUMMARY">
+      <Text>Ви відкрили карту до скарбу {1_playerName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURE_LOCATED_MESSAGE">
+      <Text>Скарб знайдено!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURE_LOCATED_SUMMARY">
+      <Text>Ви знайшли скарб.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_INFAMOUS_PIRATE_MESSAGE">
+      <Text>Пообіцяний пірат помічений!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_INFAMOUS_PIRATE_SUMMARY">
+      <Text>Ви чули чутки про знаменитого піратa, який пливе в цих водах.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_INFAMOUS_PIRATE_DEFEATED_MESSAGE">
+      <Text>{1_ІменемНоторісПірат} Потонув!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_INFAMOUS_PIRATE_DEFEATED_SUMMARY">
+      <Text>Поширюється чутка, що {1_InfamousPirateName} був переможений.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_TREASURE_FLEET_MESSAGE">
+      <Text>Новий скарбний флот</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_TREASURE_FLEET_SUMMARY">
+      <Text>Новий флот скарбів вирушив до Європи.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURE_MAP_PILLAGED_MESSAGE">
+      <Text>Скарб здобуто!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURE_MAP_PILLAGED_SUMMARY">
+      <Text>Хтось вже встиг знайти цей скарб!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_YOUR_TREASURE_PILLAGED_MESSAGE">
+      <Text>Скарб викрадено!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_YOUR_TREASURE_PILLAGED_SUMMARY">
+      <Text>Інший пірат відкопав і забрав твій захований скарб!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURY_BANKRUPT_MESSAGE">
+      <Text>Наближається повстання</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURY_BANKRUPT_SUMMARY">
+      <Text>Ваше золото закінчується! Ваш флот скоро збунтується!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_MESSAGE">
+      <Text>Нова Фортеця Піратів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_SUMMARY">
+      <Text>Ми отримали чутки про те, що новий флот Буканірів перебрався у сусідній регіон.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_MESSAGE">
+      <Text>Нова фортеця Буканірів</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_SUMMARY">
+      <Text>Ми отримали чутки про те, що новий флот Буканів переїхав до недалекого регіону.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_LETTER_OF_MARQUE_MESSAGE">
+      <Text>{1_ЦивільнийПрикметник} лист маркізу</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_LETTER_OF_MARQUE_SUMMARY">
+      <Text>Наша Величність вирішила надати нам лист каперства. Тепер ми здійснюємо підкорення морів в ім'я {1_CivShortName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_RELIC_MESSAGE">
+      <Text>Придбано {1_relicName}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_RELIC_SUMMARY">
+      <Text>Ви знайшли потужний релікт під час своїх подорожів.</Text>
+    </Row>
+    <!-- Governments -->
+    <Row Tag="LOC_GOVERNMENT_PIRATE_KING_NAME">
+      <Text>Король Піратів</Text>
+    </Row>
+    <!-- Pirate Relics -->
+    <Row Tag="LOC_GOVERNMENT_MANAGE_GOVERNMENT_AND_POLICIES">
+      <Text>Реліквії[NEWLINE][NEWLINE]Переглянути або керувати своїми Піратськими реліквіями.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_DOESNT_UNLOCK">
+      <Text>Реліквії[NEWLINE][NEWLINE]Переглянути або керувати своїми реліквіями Піратів.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POPUP_PROMPT_POLICIES_CLOSE">
+      <Text>Ви впевнені, що хочете закрити меню?[NEWLINE]Зміни реліквій не були підтверджені!</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_SINGING_TOPMEN_NAME">
+      <Text>Співаючі Топмені</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_SINGING_TOPMEN_DESCRIPTION">
+      <Text>Топмени - чоловіки, які працюють високо над палубами в рейках - відомі своїми піснями, а ви найняли декілька відмінних співаків. Морські пісні розвіюють меланхолію туманів, полегшують тривогу бурхливого моря і допомагають згладити спокійні дні.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_SINGING_TOPMEN_NAME">
+      <Text>Співочі Матроси</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_SINGING_TOPMEN_DESCRIPTION">
+      <Text>Зменшує вартість обслуговування одиниці на 3 одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_CURSED_PIECES_OF_EIGHT_NAME">
+      <Text>Прокляті щасливі дублони</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_CURSED_PIECES_OF_EIGHT_DESCRIPTION">
+      <Text>Говорять, що один капітан Клівленд взяв їх з трюму іспанського галеону, але втратив їх у поєдинку. Переможець був багатий на деякий час, але був отруєний з поліоном своєю відкинутою коханою, яка веде таверну в Тортузі, поки не захворіла на віспу, і так далі. Ці золоті монети були щасливі, і нещасні, а зараз вони твої.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_CURSED_PIECES_OF_EIGHT_NAME">
+      <Text>Прокляті щасливі грошові монети овалу</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_CURSED_PIECES_OF_EIGHT_DESCRIPTION">
+      <Text>+3 золота за одиницю утримання (вищий шанс бунту); 3% відсотків на золоті резерви кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_CRATES_OF_RUM_NAME">
+      <Text>Скриньки з ромом</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_CRATES_OF_RUM_DESCRIPTION">
+      <Text>Бочка з Нельсоновим помилуванням! Ми зможемо продати її за багато грошей в портах, в яких ми зупинятимемося.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_CRATES_OF_RUM_NAME">
+      <Text>Скриньки з ромом</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_CRATES_OF_RUM_DESCRIPTION">
+      <Text>+10 [ICON_Gold] Золота на хід.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_CAPTAIN_KIDD_JOURNAL_NAME">
+      <Text>Журнал капітана Вільяма Кіда</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_CAPTAIN_KIDD_JOURNAL_DESCRIPTION">
+      <Text>Легендарний щоденник капітана! І, можливо, місця, де він сховав свої скарби.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_CAPTAIN_KIDD_JOURNAL_NAME">
+      <Text>Журнал капітана Вільяма Кіда</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_CAPTAIN_KIDD_JOURNAL_DESCRIPTION">
+      <Text>50% шанс знайти додаткову карту скарбів, відвідавши таверну.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_LOLONNAIS_CUTLERY_NAME">
+      <Text>Столові прибори Л'Олонне</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_LOLONNAIS_CUTLERY_DESCRIPTION">
+      <Text>Фешенебельний сервіз, яким користувався жахливий пірат для своїх святкувань. Навколо ручки ножа є іржава пляма, яка не виходить.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_LOLONNAIS_CUTLERY_NAME">
+      <Text>Столові прибори L'Olonnais</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_LOLONNAIS_CUTLERY_DESCRIPTION">
+      <Text>Отримуйте [ICON_gold] Золота відповідно до [ICON_Strength] бойової сили знищених військ.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_KRAKANNONS_NAME">
+      <Text>Краканонс</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_KRAKANNONS_DESCRIPTION">
+      <Text>Круті залізні бочки та всі пристрасті морської істоти! Гармати, створені самим Деві Джонсом!</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_KRAKANNONS_NAME">
+      <Text>Krakannons</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_KRAKANNONS_DESCRIPTION">
+      <Text>+1 [ICON_range] Дальність для шхун та бригантинів. +5 [ICON_Strength] Бойова сила для морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_JOLLY_ROGERS_NAME">
+      <Text>Джека Ракема Веселі Роджери</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_JOLLY_ROGERS_DESCRIPTION">
+      <Text>Чорний прапор терору сам по собі. Більшість зображували череп, або кровоточаче серце зі стрілою, що пробиває його. Назва може походити з французького "rouge", що відноситься до червоного прапора, або від прізвиська Диявола.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_JOLLY_ROGERS_NAME">
+      <Text>Джека Рекхема веселі Роджери</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_JOLLY_ROGERS_DESCRIPTION">
+      <Text>Отримайте додатково 50 [ICON_Gold] золота при пограбуванні торгового корабля. Зробить прапорці на вашому кораблі вигляд потрісканими.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_BLACKBEARD_FUSE_NAME">
+      <Text>Короткий запал Чорної Бороди</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_BLACKBEARD_FUSE_DESCRIPTION">
+      <Text>Страшний пірат кладе це в свою бороду і запалював, щоб налякати своїх ворогів. Вони, можливо, не були необхідними.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_BLACKBEARD_FUSE_NAME">
+      <Text>Коротке луняння Блекбірда</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_BLACKBEARD_FUSE_DESCRIPTION">
+      <Text>Атаки морських одиниць понижують швидкість руху супротивника на -2 [ICON_Movement] Руху на наступний хід.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_BONNY_PISTOLS_NAME">
+      <Text>Бонні Брейс пістолетів</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_BONNY_PISTOLS_DESCRIPTION">
+      <Text>Енн Бонні, народжена Енн Фулфорд, була коханкою піратського капітана Каліко Джека, але коли вона поєдналася з Мері Рід, вони покинули Джека і відправилися у море разом. Ось її пістолети.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_BONNY_PISTOLS_NAME">
+      <Text>Боні Брейс пістолетів</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_BONNY_PISTOLS_DESCRIPTION">
+      <Text>+1 додаткова атака для всіх одиниць. Всі одиниці можуть рухатися після атаки.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_SKULL_FIRESHOT_NAME">
+      <Text>Кричущий Череп Fireshot</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_SKULL_FIRESHOT_DESCRIPTION">
+      <Text>Не справжній череп, а скоріше кмітливо зроблене залізне куля. Але коли ледь неспокійні вороги-моряки бачать, як вони летять до них з повітря, викидаючи вогонь з очних впадин та рота і випускаючи пронизливий свист... Може, спробуєте їм пояснити, що це не череп.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_SKULL_FIRESHOT_NAME">
+      <Text>Кричащий череп Fireshot</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_SKULL_FIRESHOT_DESCRIPTION">
+      <Text>+3 [ICON_Strength] бойової сили для військових кораблів.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_FISHING_FLOATS_NAME">
+      <Text>Поплавки для рибальства на північному морі</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_FISHING_FLOATS_DESCRIPTION">
+      <Text>Ряд кольорових скляних поплавків, зв'язаних між собою мереживом, ці "відьмині кулі" використовуються на північних морських торговельних маршрутах так довго, що вони містять і є очарованими вітрами свого імені. Коли їх вішають на ярмарках корабля, вони світяться і наповнюють паруси корабля навіть в спокійні дні.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_FISHING_FLOATS_NAME">
+      <Text>Поплавки для риболовлі на північному морі з вітром</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_FISHING_FLOATS_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Рух для кораблів-несенних.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_ENGLISH_POINTER_NAME">
+      <Text>Фігурна голова англійського пойнтера</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_ENGLISH_POINTER_DESCRIPTION">
+      <Text>Собака вказує і тримає ліхтар, який висить з її рота. Ліхтар таємничим чином світиться яскравіше, коли фіґурка вказує в напрямку найближчого корабля.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_ENGLISH_POINTER_NAME">
+      <Text>Фігурна голова англійського пойнтера</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_ENGLISH_POINTER_DESCRIPTION">
+      <Text>Кожен корабель відчуватиме найближчий невидимий корабель в радіусі 20 гексів.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_BLACK_SPOT_NAME">
+      <Text>Брендувальний залізний напильник із чорною плямою</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_BLACK_SPOT_DESCRIPTION">
+      <Text>За допомогою цього заліза ви можете накидати прокляття на своїх ворогів, яке буде переслідувати їх через моря. Воно ніколи не зможе бути вимите, доки прокляття триває.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_BLACK_SPOT_NAME">
+      <Text>Брендувальний залізний символ "Чорна пляма"</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_BLACK_SPOT_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової Сили під час боротьби з каперами або відомими піратами.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_DOWSING_ROD_NAME">
+      <Text>Вигинка-лоза</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RELIC_DOWSING_ROD_DESCRIPTION">
+      <Text>Киянка фермера, використовувана суперститійними людьми для пошуку води. З парою поворотів, можливо, вона вказуватиме на золото</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_DOWSING_ROD_NAME">
+      <Text>Вигинка для пошуку води</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIC_DOWSING_ROD_DESCRIPTION">
+      <Text>Кожен корабель може відчути найближчий скарбницю протягом 20 гексів.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKBEARD_FUSE_NAME">
+      <Text>Коротке запалення Чорної Бороди</Text>
+    </Row>
+    <Row Tag="LOC_BLACKBEARD_FUSE_DESCRIPTION">
+      <Text>Атаки завдають -2 [ICON_Movement] Руху цільовій одиниці на наступному ході.</Text>
+    </Row>
+    <Row Tag="LOC_KRAKANNONS_RANGE_BONUS_NAME">
+      <Text>Бонус до дальності стрільби Краканнона</Text>
+    </Row>
+    <Row Tag="LOC_KRAKANNONS_RANGE_BONUS_DESCRIPTION">
+      <Text>+1 [ICON_range] Діапазон</Text>
+    </Row>
+    <Row Tag="LOC_KRAKANNONS_COMBAT_BONUS_NAME">
+      <Text>Бонус бойової дії Краканнона</Text>
+    </Row>
+    <Row Tag="LOC_KRAKANNONS_COMBAT_BONUS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової Міці</Text>
+    </Row>
+    <Row Tag="LOC_BONNY_PISTOLS_NUM_ATTACKS_NAME">
+      <Text>Бонні Брейс пістолетів</Text>
+    </Row>
+    <Row Tag="LOC_BONNY_PISTOLS_NUM_ATTACKS_DESCRIPTION">
+      <Text>+1 додаткова атака на хід, якщо [ICON_Movement] Рух дозволяє. Може рухатись після атаки.</Text>
+    </Row>
+    <Row Tag="LOC_SKULL_FIRESHOT_NAME">
+      <Text>Кричать Череп Fireshot</Text>
+    </Row>
+    <Row Tag="LOC_SKULL_FIRESHOT_DESCRIPTION">
+      <Text>+3 [ICON_Strength] Бойова сила</Text>
+    </Row>
+    <Row Tag="LOC_FISHING_FLOATS_NAME">
+      <Text>Поплавки для рибальства на північному морі з вітром</Text>
+    </Row>
+    <Row Tag="LOC_FISHING_FLOATS_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Рух</Text>
+    </Row>
+    <!--Relics Screen-->
+    <Row Tag="LOC_RELIC_SCREEN_TITLE">
+      <Text>Реліквії Піратів</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_SCREEN_CHOOSE_RELIC">
+      <Text>Оберіть Релікт</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_SCREEN_ACTIVE_RELICS">
+      <Text>Активні Реліквії</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_SCREEN_ASSIGN_ALL_RELICS">
+      <Text>Наділити всі реліквії</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_SCREEN_CONFIRM_RELICS">
+      <Text>Підтвердіть реліквії</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_SCREEN_DRAG_RELIC_TEXT">
+      <Text>Перетягніть Реліквію до слоту, щоб встановити її тут</Text>
+    </Row>
+    <!--Relic Popup-->
+    <Row Tag="LOC_RELIC_POPUP_RELIC_FOUND">
+      <Text>Знайдено реліквію</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_POPUP_CHANGE_RELIC">
+      <Text>Обладнати Реліквію</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_POPUP_UNLOCKED_BY_RELIC">
+      <Text>Розблоковано цим Реліквієм:</Text>
+    </Row>
+    <!--City Banner Tavern Indicator-->
+    <Row Tag="LOC_TAVERN_AVAILABLE">
+      <Text>Ця таверна може бути відвідана!</Text>
+    </Row>
+    <Row Tag="LOC_TAVERN_COOLDOWN">
+      <Text>Ром закінчився! [NEWLINE] Завітайте знову через {1_Turns: plural 1?{1_turns} хід; other?{1_Turns} ходи; }!</Text>
+    </Row>
+    <!--City Banner Sacked Indicator-->
+    <Row Tag="LOC_PIRATES_CITY_SACKED">
+      <Text>З міста все ще йде дим.[NEWLINE]Воно може бути знову здобуте через {1_Turns: plural 1?{1_turns} хід; other?{1_Turns} ходи;}.</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_CITY_NOT_SACKED">
+      <Text>Це місто готове для збирання врожаю.</Text>
+    </Row>
+    <!--Morale Tracker (World Tracker Panel)-->
+    <Row Tag="LOC_PIRATES_MORALE_TRACKER_TITLE">
+      <Text>[ICON_GoldLarge]Мораль команди[ICON_GoldLarge]</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_MORALE_TRACKER_GOLD">
+      <Text>Золото: {1_totalGold}</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_MORALE_TRACKER_GOLD_USAGE">
+      <Text>За один хід: {1_usagePerTurn}</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_MORALE_TRACKER_MUTINY_TURNS">
+      <Text>Мутині ємнент в {1_Turns: plural 1?{1_turns}turn; other?{1_Turns} turns;}!</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_MORALE_TRACKER_PROFIT">
+      <Text>Наш скарб зростає!</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_MORALE_TRACKER_STABLE">
+      <Text>Наші скарби стабільні!</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_MORALE_TRACKER_TOTAL_MUTINY_TURNS">
+      <Text>Повна мутіні в {1_Turns: plural 1?{1_turns} обертає; other?{1_Turns} обертається; }!</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_MORALE_TRACKER_NO_MORE_UNITS">
+      <Text>Ваша флотилія порожня!</Text>
+    </Row>
+    <!--Spain-->
+    <Row Tag="LOC_CITY_NAME_VERA_CRUZ">
+      <Text>Вера Крус</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_VILLA_HERMOSA">
+      <Text>Вілла Ермоса</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_CAMPECHE">
+      <Text>Кампече</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_LA_HABANA">
+      <Text>Гавана</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_CARACAS">
+      <Text>Каракас</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ST_AUGUSTINE">
+      <Text>Святий Огустин</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SANTA_CATALINA">
+      <Text>Санта-Каталіна</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PUERTO_BELLO">
+      <Text>Пуерто-Белло</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_NOMBRE_DE_DIOS">
+      <Text>Ім'я Боже</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SANTA_MARTA">
+      <Text>Санта-Марта</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_RIO_DE_LA_HACHA">
+      <Text>Ріо де ла Ача (Rio de la Hacha)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MARACAIBO">
+      <Text>Маракайбо</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PURTO_CABELLO">
+      <Text>Пуерто Кабельйо</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_GIBRALTAR">
+      <Text>Ґібралтар</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_CUMANA">
+      <Text>Кумана</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MARGARITA">
+      <Text>Маргарита</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TRINIDAD">
+      <Text>Тринідад</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SANTO_DOMINGO">
+      <Text>Санто-Домінго</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SANTIAGO">
+      <Text>Сантьяго</Text>
+    </Row>
+    <!--England-->
+    <Row Tag="LOC_CITY_NAME_PORT_ROYAL">
+      <Text>Порт Ройал</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ST_KITTS">
+      <Text>Сент-Кітс</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ANTIGUA">
+      <Text>Антигуа</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BARBADOS">
+      <Text>Барбадос</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_NASSAU">
+      <Text>Нассау</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ELUTHERA">
+      <Text>Елеутера</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_GRAND_BAHAMA">
+      <Text>Гранд Багама</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_NEVIS">
+      <Text>Невіс</Text>
+    </Row>
+    <!--Netherlands-->
+    <Row Tag="LOC_CITY_NAME_ST_MARTIN">
+      <Text>Святий Мартін</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ST_EUSTATIUS">
+      <Text>Святий Євстахій</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_CURACAO">
+      <Text>Кюрасао</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ARUBA">
+      <Text>Аруба</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BONAIRE">
+      <Text>Бонайре</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SABA">
+      <Text>Saba</Text>
+    </Row>
+    <!--France-->
+    <Row Tag="LOC_CITY_NAME_FLORIDA_KEYS">
+      <Text>Флоріда Кіз</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TORTUGA">
+      <Text>Тортуга</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PORT_DE_PAIX">
+      <Text>Пор-де-Пекс</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_LEOGANE">
+      <Text>Леогане</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PETIT_GOAVE">
+      <Text>Петіт-Гоав</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MONTSERRAT">
+      <Text>Монтсеррат</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_GUADELOUPE">
+      <Text>Гваделупа</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MARTINIQUE">
+      <Text>Мартиніка</Text>
+    </Row>
+    <!-- Plot ToolTips -->
+    <Row Tag="LOC_PIRATES_PLOT_TOOLTIP_TREASURE_MAP">
+      <Text>Го-го, мої сердечні! Ми відчуваємо запах золота на вітрі!</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_PLOT_TOOLTIP_INFAMOUS_PIRATE">
+      <Text>[COLOR_RED]На піні видно слід буканіра. Вони близько! [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_PLOT_TOOLTIP_TREASURE_FLEET">
+      <Text>Ми лежимо прямо на шляху скарбового флоту!</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_PLOT_TOOLTIP_TREASURE_OWNER">
+      <Text>Скарб {1_OwnerName}</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_PLOT_TOOLTIP_TREASURE_OWNER_NONE">
+      <Text>Скарб печеніга-піратa</Text>
+    </Row>
+    <!-- Victory/Defeat Text -->
+    <Row Tag="LOC_DEFEAT_PIRATE_NAME">
+      <Text>Флот втрачено!</Text>
+    </Row>
+    <Row Tag="LOC_DEFEAT_PIRATE_TEXT">
+      <Text>Море приходить, щоб забрати своє.</Text>
+    </Row>
+    <Row Tag="LOC_DEFEAT_COLONIAL_NAME">
+      <Text>Колоніальна держава зазнала поразки</Text>
+    </Row>
+    <Row Tag="LOC_DEFEAT_COLONIAL_TEXT">
+      <Text>Колоніальні держави не повинні мати можливості бути переможеними. Як Адмірал Чорного збив велетня?</Text>
+    </Row>
+    <!-- Misc Text -->
+    <Row Tag="LOC_PIRATES_GRANT_GOLD_WORLD_TEXT">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Amount} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CITY_SACKED_WORLDTEXT">
+      <Text>Стіни руйнуються! Золото належить нам!</Text>
+    </Row>
+    <Row Tag="LOC_CITY_RECENTLY_SACKED_WORLDTEXT">
+      <Text>Яр, тут нема золота.</Text>
+    </Row>
+    <Row Tag="LOC_UNKNOWN_TREASURE_OWNER">
+      <Text>Невідомий пірат</Text>
+    </Row>
+    <Row Tag="LOC_PIRATES_BUCCANEER_DESCRIPTION">
+      <Text>Буканери</Text>
+    </Row>
+  </EnglishText>
+</GameData>

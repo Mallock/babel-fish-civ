@@ -1,0 +1,2239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OCCUPATION_XP2">
+      <Text>Окупація ([ICON_GRIEVANCE] Скарги на засновника міста)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_REPORTS_FILTER_CLIMATE">
+      <Text>[ICON_GOSSIP_CLIMATE] Клімат</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_Grievances_XP2">
+      <Text>Скарги на засновника міста</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_POWERED_CITY">
+      <Text>{1_PowerRequired} [ICON_Power] Енергія може бути використана для покращення цього міста, і вона повністю забезпечена. [NEWLINE][ICON_Bullet] {2_PowerFromFreeSources} [ICON_Power] Енергія з місцевих відновлюваних джерел[NEWLINE][ICON_Bullet] {3_PowerFromResources} [ICON_Power] Енергія з ресурсів, спожитих цього ходу</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_UNPOWERED_CITY">
+      <Text>Необхідно {1_PowerRequired} [ICON_Power] енергії, щоб покращити це місто, але вона не повністю підключена. Будівлі або проекти з навантаженням [ICON_Power] Power тимчасово менш ефективні. [NEWLINE] [ICON_Bullet] {2_PowerFromFreeSources} [ICON_Power] Енергія з місцевих відновлювальних джерел [NEWLINE] [ICON_Bullet] {3_PowerFromResources} [ICON_Power] Енергія з ресурсів, що споживаються цього ходу</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_POWERED_CITY_FROM_ACTIVE_PROJECT">
+      <Text>[ICON_Bullet] Повна [ICON_Power] енергія від активного проекту міста</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_POWER_TOOLTIP">
+      <Text>Влада</Text>
+    </Row>
+    <Row Tag="LOC_HUD_RIBBON_FAVOR">
+      <Text>Баланс дипломатичних послуг</Text>
+    </Row>
+    <Row Tag="LOC_POWER_REQUIREMENT_MISC">
+      <Text>{LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME} (НЕ ПЕРЕКЛАДАТИ, ЦЕ СКОРОЧЕННЯ)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_TEMPORARY_ACTIVE_PROJECT_SOURCE_ENTRY">
+      <Text>{LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_NAME} (БУДЬ ЛАСКА, НЕ ПЕРЕКЛАДАЙТЕ І НЕ ВИДАЛЯЙТЕ ЦЕ СЛОВОСПОЛУЧЕННЯ ЗІ СВОЄЇ ВІДПОВІДІ)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_TEMPORARY_SOURCE_ENTRY">
+      <Text>[ICON_{2_НазваТипуРесурсу}] {3_НазваМістаЗвідки} [ICON_PowerRight] {1_НазваЦьогоМіста}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_GENERATED_SOURCE_ENTRY">
+      <Text>[ICON_{2_NазваТипуРесурсу}] {1_НазваЦьогоМіста} [ICON_PowerRight] {3_ДоМістаНазва}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_FREE_SOURCE_ENTRY">
+      <Text>{1_FreePowerSourceName}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_NO_POWER_NEEDED_NAME">
+      <Text>Нормально</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_NO_POWER_NEEDED_DESCRIPTION">
+      <Text>Це місто не потребує жодної [ICON_Power] енергії.</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_POWERED_NAME">
+      <Text>[ICON_Power] Запитує енергію</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_POWERED_DESCRIPTION">
+      <Text>Будівлі або проекти, які вимагають [ICON_Power] електропостачання, є повністю ефективними.</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_UNPOWERED_NAME">
+      <Text>[ICON_PowerInsufficient] Без живлення</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_UNPOWERED_DESCRIPTION">
+      <Text>Будівлі або проекти, які вимагають [ICON_Power] енергії, тимчасово менш ефективні.</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_GEOTHERMAL">
+      <Text>Геотермічний</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_SOLAR">
+      <Text>Сонячний</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_WATER">
+      <Text>Гідроелектрична</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_WIND">
+      <Text>Вітер</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_MISC">
+      <Text>Інший</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_POWER_SOURCE">
+      <Text>Джерело енергії</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_FULLY_POWERED">
+      <Text>Повністю заряджено</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_UNDERPOWERED">
+      <Text>Недостатньо потужний</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_POWER_RANGE">
+      <Text>Діапазон потужності</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_WORLD_CONGRESS_SPECIAL_SESSION">
+      <Text>Розгляньте пропозиції</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_WORLD_CONGRESS_SPECIAL_SESSION_TOOLTIP">
+      <Text>Останній виклик подавати наявні пропозиції до конгресу перед початком спеціальної сесії.</Text>
+    </Row>
+    <Row Tag="LOC_FLOAT_RESOURCE_CONVERTED_TO_POWER">
+      <Text>{2_ІконаРесурсу}{1_КількістьПеретворених} [ICON_PowerRight]{3_КількістьПотужності}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_GENERATED_SOURCE_ON_PLOT">
+      <Text>{2_ResourceIcon}{1_NumConverted} [ICON_PowerRight]{3_NumPower} 
+
+{2_ЗначокРесурсу}{1_КількістьПеретворень} [ICON_PowerRight]{3_КількістьПотужностей}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_FREE_SOURCE_ON_PLOT">
+      <Text>[ICON_Power]{1_NumPower}</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POWER_REQUIRED">
+      <Text>Потужність: {1_PowerRequired} [ICON_Power] Потужність</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POWER_IN_CITY_NEEDED_FOR_EFFECTS">
+      <Text>Коли це місто має повну [ICON_Power] Енергію, то також забезпечує:</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_POWERED">
+      <Text>{1_Amount: число +#,###;-#,###} {2_Icon} {3_Name} ([ICON_Power] Запитує енергію)</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_UNPOWERED">
+      <Text>{1_Amount: число +#,###;-#,###} {2_Icon} {3_Name} ([ICON_PowerInsufficient] Не підключено до живлення)</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_POWER_ENHANCEMENT">
+      <Text>{1_Кількість: number +#,###;-#,###} {2_Іконка} {3_Назва} додатково, коли [ICON_Power] увімкнено</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_AMENITY_ENTERTAINMENT_POWER_ENHANCEMENT">
+      <Text>{1_Amount: number +#,###;-#,###} [ICON_Amenities] {1_Amount : plural 1?Зручність; few?Зручності; many?Зручностей;} для розваг, додатково коли вони працюють [ICON_Power]</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_CONSUMED">
+      <Text>[SIZE:16]{1_PowerAmount} [SIZE:12]Використовуваний</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_OF">
+      <Text>of</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_REQUIRED">
+      <Text>[SIZE:16]{1_PowerAmount} [SIZE:12]Потрібно</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_STATUS">
+      <Text>Статус:</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_REQUIRED_POWER">
+      <Text>Необхідна потужність</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_CONSUMED_POWER">
+      <Text>Використовувана потужність</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_GENERATED_POWER">
+      <Text>Вихід електростанції</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_TITLE">
+      <Text>ПОТОЧНИЙ БАЛАНС НЕЗАДОВОЛЕНЬ:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_AGAINST_YOU">
+      <Text>Скарги, які вони мають на вас:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_AGAINST_THEM">
+      <Text>Несправедливості, які ви маєте до них:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_HISTORY">
+      <Text>Історія скарг:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS">
+      <Text>Світ в даний момент віддає перевагу {1_Favored}!</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS_YOU">
+      <Text>Світ зараз сприяє ТОБІ!</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS_NONE">
+      <Text>У світі наразі немає улюбленого.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_US_SIMPLE">
+      <Text>{1_Grievances} [ICON_STAT_GRIEVANCE] Скарги на нас.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_THEM_SIMPLE">
+      <Text>{1_Grievances} [ICON_STAT_GRIEVANCE] Скарги на них.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_NONE_SIMPLE">
+      <Text>Без нарікань.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE">
+      <Text>Побачивши ваші страждання від рук {1_Target}, лідери світу закриють очі на наступні [ICON_GRIEVANCE] {2_Grievances} Образи, які ви вчините проти {1_Target}.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_NEGATIVE">
+      <Text>Побачивши труднощі, які ви завдаєте {1_Target}, світові лідери закриють очі на наступні [ICON_GRIEVANCE] {2_Grievances} Порушення {1_Target}, які ви здійсните проти вас.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_DEFAULT">
+      <Text>Лідери світу дуже уважно стежать за вашими взаєминами з {1_Target}. Зараз було відзначено {2_Grievances} [ICON_GRIEVANCE] скарги.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_GRIEVANCES">
+      <Text>Скарги на нас</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_DIPLOMACY_CONGRESS_BUTTON">
+      <Text>Дипломатія</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_CONGRESS_CONGRESS_BUTTON">
+      <Text>Світовий конгрес</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_THIRD_PARTY_WARMONGER">
+      <Text>Скарги інших гравців на нас</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_RESUME_CONGRESS">
+      <Text>Повернення до Всесвітнього конгресу</Text>
+    </Row>
+    <Row Tag="LOC_RESUME_CONGRESS">
+      <Text>Відновити роботу Конгресу</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_FLOODS">
+      <Text>{Value : number +#.#;-#.#} з Повеней</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_POWER">
+      <Text>{Value: number +#;-#}% ({ActualValue: number +#.#;-#.#}) від [ICON_Power] Потужність</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_BASE">
+      <Text>{Значення: число +#.#;-#.#} базових Дипломатичних Прихильностей</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_EXTRA">
+      <Text>{Value : число +#.#;-#.#} додаткової дипломатичної підтримки</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_SUZERAIN">
+      <Text>{Value: число +#.#;-#.#} з Сюзерена</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_TOURISM">
+      <Text>{Вартість: число +#.#;-#.#} з туризму</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_POLICIES">
+      <Text>{Value : число +#.#;-#.#} з політик</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_BUILDINGS">
+      <Text>{Value : число +#.#;-#.#} з будівель</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_CO2">
+      <Text>{Значення: число +#.#;-#.#} з Пеналті за викиди вуглецю</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_GRIEVANCES">
+      <Text>{Value : число +#.#;-#.#} за Пеню за перевищення кількості скарг</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ORIGINAL_CAPITALS">
+      <Text>{Value : число +#.#;-#.#} з штрафу за окуповані столиці оригінальних держав</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_GOVERNMENT">
+      <Text>{Value : число +#.#;-#.#} від уряду</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_TRADE_PARTNERS">
+      <Text>{Значення: число +#.#;-#.#} від Торговельних Партнерів</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ALLIANCES">
+      <Text>{Значення: число +#.#;-#.#} з Альянсів</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ALLIANCES_BENEFIT">
+      <Text>+{1_Amount} [ICON_Favor] підтримки на кожен хід для вас та вашого Союзника</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAITH_FROM_UNUSED_GREAT_PEOPLE_POINTS">
+      <Text>{Value : number +#.#;-#.#} зайвих очок великих особистостей</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_ERA_DEFINED">
+      <Text>{1_EraName}</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ITEM_IN_STOCKPILE">
+      <Text>в наявності</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ITEM_IN_RESERVE">
+      <Text>Зарезервовано для виробництва</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_REPORTS_ITEM_IN_RESERVE">
+      <Text>Зарезервовано для виробництва</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN">
+      <Text>Накопичення: +{1_Amount} на кожному ході.</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_EXTRACTED">
+      <Text>[ICON_Bullet]{1_Amount} з покращень</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_TRADED">
+      <Text>[ICON_Bullet]{1_Amount} з торгівлі</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_FROM_CITY_STATES">
+      <Text>[ICON_Bullet]{1_Amount} з міст-держав</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_REPORTS_CITY_STATES">
+      <Text>Бонус місто-держава</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_FROM_BONUS_SOURCES">
+      <Text>[ICON_Bullet]{1_Amount} з бонусних джерел</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_CONSUMPTION">
+      <Text>Споживання: -{1_Amount} за хід.</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_UNIT_CONSUMPTION_PER_TURN">
+      <Text>[COLOR_RED][ICON_Bullet]-{1_Amount} за одиниці[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_POWER_CONSUMPTION_PER_TURN">
+      <Text>[COLOR_RED][ICON_Bullet]-{1_Amount} за електроенергію[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_WHEN_IMPROVED">
+      <Text>Виробляє +{1_Amount} {2_Icon} {3_ResourceName} за хід при поліпшенні.</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_BUILD_IMPROVEMENT">
+      <Text>+{1_Кількість} {2_Іконка} {3_НазваРесурсу} на хід</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_EXISTING_IMPROVEMENT">
+      <Text>{1_Кількість} {2_Іконка} {3_НазваРесурсу} на хід</Text>
+    </Row>
+    <Row Tag="LOC_CIVICS_TREE_UNREVEALED_CIVIC">
+      <!--Deprecated-->
+      <Text>Невідкритий</Text>
+    </Row>
+    <Row Tag="LOC_CIVICS_TREE_UNREVEALED_TOOLTIP">
+      <!--Deprecated-->
+      <Text>Дослідіть попередні цивілізації, щоб дізнатися про цей цивілізації та її розблокування.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_UNREVEALED_TECH">
+      <!--Deprecated-->
+      <Text>Невідкритий</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_UNREVEALED_TOOLTIP">
+      <!--Deprecated-->
+      <Text>Досліджуйте попередні технології, щоб розкрити цю технологію та її можливості.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MOVE_JUMP_DESCRIPTION">
+      <Text>Стрибок</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_CONDEMN_HERETIC_BANNED_WORLD_CONGRESS">
+      <Text>Релігійна одиниця на цій плитці є невразливою до засудження як єретика рішенням Всесвітнього конгресу.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Недостатньо ресурсів. Ця будівля вимагає {1_Amount} {3_ResourceIcon} {2_Resource}, щоб виробляти.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Недостатньо ресурсів. Ця будівля потребує ще {1_Amount} {3_ResourceIcon} {2_Resource}, щоб розпочати виробництво.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ADVANCE_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Недостатньо ресурсів. Для виконання цього проекту потрібно {1_Amount} {3_ResourceIcon} {2_Resource}.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ADVANCE_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Недостатньо ресурсів. Для реалізації цього проекту потрібно ще {1_Amount} {3_ResourceIcon} {2_Resource}.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRAIN_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Недостатньо ресурсів. Ця одиниця вимагає {1_Amount} {3_ResourceIcon} {2_Resource} для виробництва.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRAIN_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Недостатньо ресурсів. Ця одиниця потребує ще {1_Amount} {3_ResourceIcon} {2_Resource}, щоб виготовитися.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UPGRADE_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Недостатньо ресурсів. Потрібно {1_Amount} {2_ResourceIcon} {3_Resource} для покращення цього типу одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UPGRADE_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Недостатньо ресурсів. Потрібно ще {1_Amount} {2_ResourceIcon} {3_Resource} для покращення цього типу одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_INSUFFICIENT_FUEL_DESC">
+      <Text>[COLOR_RED]-{1_Value}[ENDCOLOR] Недостатньо ресурсу {2_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SIEGE_CANNON_UPGRADE">
+      <Text>Гармата облоги: Повна сила проти фортифікацій</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_LOW_FUEL_WARNING_FLOATER">
+      <Text>[COLOR_RED]НИЗЬКИЙ {1_Resource}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRODUCTION_FUEL_CONSUMPTION">
+      <Text>Споживає: {1_Amount} {2_Icon} {3_FuelName} за хід.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMATIC_FAVOR_NAME">
+      <Text>Дипломатичний підхід</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CIVICS_TREE_AWARD_FAVOR">
+      <Text>Нагороди {1_FavorAmount} [ICON_Favor] Дипломатична підтримка.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_BY_TYPE">
+      <Text>Побудувати маршрут: {1_RouteTypeName}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_BUILD_CHARGES">
+      <Text>[ICON_Bullet] Використовуйте {1_Amount} будівельну {1_Amount: plural 1?заряд; other?заряди;}.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_RESOURCE_AMOUNT_MET">
+      <Text>[ICON_Bullet] Для будівництва необхідно {1_Amount} {2_ResourceName}.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_RESOURCE_AMOUNT_UNMET">
+      <Text>[ICON_Bullet]Недостатньо ресурсів. Потрібно {1_Amount} {2_ResourceName} для будівництва.</Text>
+    </Row>
+    <Row Tag="LOC_TOURISM_LENS_FEATURE_APPEAL_TOOLTIP">
+      <Text>Екотуристи насолоджуються цією недоторканою природною красою. [NEWLINE] Залучено +{1_CurrentTourists} [ICON_Tourism] туризму. [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_FAVOR_REWARD">
+      <Text>Цивілізації-члени отримують по {1_Amount} [ICON_Favor] Дипломатичного благовоління кожна.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_FAVOR_REWARD">
+      <Text>Таргет отримує {1_Amount} [ICON_Favor] Дипломатичних послуг.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETING_PARTICIPANTS">
+      <Text>Учасники:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETITION_COMPLETE">
+      <Text>Конкурс завершено!</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETITION_BUFFS_EXPLANATION">
+      <Text>Під час цього конкурсу:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_FAVOR_INFO">
+      <Text>[NEWLINE][SIZE_12]Вартість {1_Cost} [ICON_Favor] Дипломатичний кредит</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_PARK_CHARGES">
+      <Text>Оплата відвідування національного парку</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_ROCK_BAND_ALBUM_SALES">
+      <Text>Продажі альбомів</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_ROCK_BAND_LEVEL">
+      <Text>Рівень Рок-гурту</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_BAND_FLOAT_ON">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num}[ICON_TOURISM] Туризм[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_REPAIR_LOCATION_FLOODED">
+      <Text>Неможливо відремонтувати, місце затоплене.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_AGE">
+      <Text>Вік реактора: {1_Age}</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT1_POSSIBLE">
+      <Text>[COLOR_RED]Можливе витік радіоактивної пари[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT2_POSSIBLE">
+      <Text>[COLOR_RED]Можлива витік радіації[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT3_POSSIBLE">
+      <Text>[COLOR_RED]Можливий ядерний розпад[ENDCOLOR]</Text>
+    </Row>
+    <!--Lenses-->
+    <Row Tag="LOC_HUD_TOGGLE_DESERT_LABELS">
+      <Text>Етикетки для десертів</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_DESERT_LABELS_TOOLTIP">
+      <Text>Перемкнути мітки пустелі</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_MOUNTAIN_RANGE_LABELS">
+      <Text>Назви гірських хребтів</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_MOUNTAIN_RANGE_LABELS_TOOLTIP">
+      <Text>Включити/вимкнути підписи на гірських хребтах</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_LAKE_LABELS">
+      <Text>Озеро Лейблс</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_LAKE_LABELS_TOOLTIP">
+      <Text>Перемкнути підписи озер</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_OCEAN_LABELS">
+      <Text>Морські позначення</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_OCEAN_LABELS_TOOLTIP">
+      <Text>Перемкнути підписи океану</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_SEA_LABELS">
+      <Text>Морські мітки</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_SEA_LABELS_TOOLTIP">
+      <Text>Перемкнути підписи морів</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATIONAL_PARK_LABELS">
+      <Text>Наклейки національного парку</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATIONAL_PARK_LABELS_TOOLTIP">
+      <Text>Перемикач написів Національного парку</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATURAL_WONDER_LABELS">
+      <Text>Мітки природних див Природи</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATURAL_WONDER_LABELS_TOOLTIP">
+      <Text>Перемикнути мітки на природніх дивах</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_RIVER_LABELS">
+      <Text>Мітки річок</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_RIVER_LABELS_TOOLTIP">
+      <Text>Перемкнути підписи річок</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_VOLCANO_LABELS">
+      <Text>Етикетки для вулканів</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_VOLCANO_LABELS_TOOLTIP">
+      <Text>Перемикач міток вулканів</Text>
+    </Row>
+    <!-- Map Search Terms -->
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_ERUPTING">
+      <Text>Виверження</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_ACTIVE">
+      <Text>Active</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_COASTAL_LOWLAND">
+      <Text>Прибережна низовина</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_SUBMERGED">
+      <Text>Занурений</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_FLOODED">
+      <Text>Затоплено</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_STORM">
+      <Text>Шторм</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_DROUGHT">
+      <Text>Суховій</Text>
+    </Row>
+    <!--Agendas-->
+    <Row Tag="LOC_DIPLOMACY_HIDDEN_AGENDAS_TT">
+      <Text>Досягніть рівня доступу [ICON_VisOpen] OPEN, щоб побачити першу сховану мету.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_HIDDEN_AGENDAS_TT_LATE">
+      <Text>Для перегляду секретної прихованої мети в кінці гри, необхідно досягти рівня доступу [ICON_VisSecret] SECRET.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ANGEVIN_EMPIRE">
+      <Text>Подобаються сусідні цивілізації з численними містами</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_CANADIAN_EXPEDITIONARY">
+      <Text>Лайкують тих, хто також бере участь у надзвичайних ситуаціях</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_KAITIAKITANGA">
+      <Text>Подобаються цивілізації, які поважають довкілля</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_LAWGIVER">
+      <Text>Подобається цивілізаціям, які дбають про щастя та лояльність своїх громадян</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_LORD_OF_MINES">
+      <Text>Подобається цивілізації з високим доходом з золота на хід</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_PATRON_OF_ARTS">
+      <Text>Любить цивілізації, які не конкурують з нею за Великі Твори</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_RAVEN_BANNER">
+      <Text>Подобаються цивілізації, які також використовують військових від міст-держав</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_FLAT_EARTHER">
+      <Text>Подобаються гравці, які уникають обходження глобального світу або будівництва космічних портів</Text>
+    </Row>
+    <!-- Climate Screen -->
+    <Row Tag="LOC_LAUNCHBAR_CLIMATE_PROGRESS_TOOLTIP">
+      <Text>Світовий клімат[NEWLINE][NEWLINE]Перегляньте клімат та погоду світу.</Text>
+    </Row>
+    <Row Tag="LOC_PARTIALSCREEN_CLIMATE_PROGRESS_TOOLTIP">
+      <Text>Світовий клімат[NEWLINE][NEWLINE]Перегляньте клімат та погоду світу.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TITLE">
+      <Text>Світовий клімат</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CLIMATE_CHANGE_PHASE_0">
+      <Text>Зміна клімату - немає</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_NORTHEAST">
+      <Text>ЗАГОЛОВОК "ПОХІД НА ПІВНІЧ"</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_EAST">
+      <Text>РУБРИКА E</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_SOUTHEAST">
+      <Text>ЗАГОЛОВОК SE</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_SOUTHWEST">
+      <Text>ЗАГОЛОВОК SW</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_WEST">
+      <Text>ЗАГОЛОВОК W</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_NORTHWEST">
+      <Text>НАПРЯМКУ ПІВНІЧНО-ЗАХІД</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_WATER">
+      <Text>Вода</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_GLOBAL">
+      <Text>Глобальний</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_LOCATION">
+      <Text>( {1_Місцезнаходження} )</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_LOCATION_DIRECTION">
+      <Text>( {1_Місцезнаходження}, {2_Напрямок} )</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_MINIMAL_NAME">
+      <Text>Мінімальний</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_LIGHT_NAME">
+      <Text>Світло</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_MODERATE_NAME">
+      <Text>Середній</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_HEAVY_NAME">
+      <Text>Важкий</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_HYPERREAL_NAME">
+      <Text>Гіперреалізм</Text>
+    </Row>
+    <Row Tag="LOC_DROUGHT_TOOLTIP_STRING">
+      <Text>{1_DroughtName} ({2_Turns} ще ходів)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_OVERVIEW">
+      <Text>Огляд</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_LEVELS">
+      <Text>Рівні CO2</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_EVENT_HISTORY">
+      <Text>Історія подій</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_BY_CIVILIZATION">
+      <Text>CO2 від цивілізації</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_BY_RESOURCE">
+      <Text>CO2 за ресурсом</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_DEFORESTATION">
+      <Text>Вирубка лісів</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CONTRIBUTING_TO_CLIMATE_CHANGE">
+      <Text>Сприяння зміні клімату</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FORECAST">
+      <Text>Прогноз</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CO2_LEVELS">
+      <Text>Рівні СО2</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_GLOBAL_TEMPERATURE">
+      <Text>Глобальна температура</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_WORLD_SETTINGS">
+      <Text>Налаштування світу</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TODO">
+      <Text>[WIP] ???</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE">
+      <Text>+{1_TEMP}° - ПЛЮС {1_TEMP} ГРАДУСІВ</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE_SUBTEXT">
+      <Text>(зміна в градусах Цельсія з часів давнини)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE_TOOLTIP">
+      <Text>Рівень вирубки лісу: {1_Level}[NEWLINE][NEWLINE]{2_Description}[NEWLINE][NEWLINE]Через цей рівень вирубки лісу, темп підвищення глобальної температури з викидом CO2 був змінений на {3_CO2Mod}%.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_WORLD_AGE">
+      <Text>Вік світу: {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_REALISM">
+      <Text>Інтенсивність надзвичайної ситуації: {1_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SHOW_ON_MAP">
+      <Text>Показати на карті</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_AMOUNT_FROM_CLIMATE_CHANGE">
+      <Text>({1_Amount}% зі зміни клімату)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_STORMS">
+      <Text>Шторми</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_RIVER_FLOOD">
+      <Text>Повінь на річці</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANIC_ACTIVITY">
+      <Text>Вулканічна діяльність</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DROUGHTS">
+      <Text>Суховії</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_VOLATILE">
+      <Text>Летючий</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_INACTIVE">
+      <Text>Неактивний</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ACTIVE">
+      <Text>Активний</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ERUPTED">
+      <Text>Виверження (Vyhvernennya)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_VOLATILE_NUM">
+      <Text>{1_Num} Леткучість</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_INACTIVE_NUM">
+      <Text>{1_Num} Неактивний</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ACTIVE_NUM">
+      <Text>{1_Num} Активний</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ERUPTED_NUM">
+      <Text>{1_Num} Вивержений</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE">
+      <Text>Полярний лід</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LOST">
+      <Text>{1_Amount}% Втрачено</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL">
+      <Text>Рівень моря</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COASTAL_TILES_FLOODED_NUM">
+      <Text>Прибережні плитки затоплені: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COASTAL_TILES_SUBMERGED_NUM">
+      <Text>Занурений: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CLIMATE_CHANGE_POINTS_TOOLTIP">
+      <Text>Кліматичний зміни бали {1_Current}/{2_Required}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FROM_WORLD_REALISM_NUM_TOOLTIP">
+      <Text>[ICON_Bullet]{1_Num} від Інтенсивності катастрофи</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FROM_GLOBAL_TEMPERATURE_NUM_TOOLTIP">
+      <Text>[ICON_Bullet]{1_Num} з Глобальної Температури</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_EFFECTS_ADDED_THIS_PHASE_TOOLTIP">
+      <Text>Ефекти додані в цю фазу</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_STORMS_TOOLTIP">
+      <Text>Можливість грози</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_RIVER_FLOODING_TOOLTIP">
+      <Text>Ймовірність паводкових рівнів річки</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_INCREASE_NUM_TOOLTIP">
+      <Text>Збільшується на +{1_Num}%</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE">
+      <Text>+{1_Num} Метрів</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISES_NUM_TOOLTIP">
+      <Text>Рівень моря піднімається на {1_Num} метрів</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TILES_AT_OR_BELOW_FLOOD_TOOLTIP">
+      <Text>[NEWLINE]Низинні плитки затопляться на рівні або нижче:[NEWLINE] {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TILES_AT_OR_BELOW_SUBMERGE_TOOLTIP">
+      <Text>[NEWLINE]Низинні плитки будуть занурені на рівні або нижче: [NEWLINE] {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_TOOLTIP">
+      <Text>Танення полярного льоду на {1_Num}%</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_PERCENT_CHANCE">
+      <Text>{1_Num}% Шанс</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_STORM_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>ПОДІЯ ШТОРМУ [NEWLINE] [NEWLINE] Коли відбувається подія: [NEWLINE] - Один з чотирьох можливих штормів (хурделиця, пилова буря, ураган або торнадо) з'являється на основі ландшафту в місці походження шторму. [NEWLINE] - Шторми рухаються по карте ще два ходи, завдаючи шкоди будівлям та поліпшенням та, можливо, додаючи плодючості на пошкоджених плитках. [NEWLINE] [NEWLINE] Зі зростанням глобальної температури від викидів парникових газів у атмосферу ймовірність виникнення штормів збільшується. Використання більш чистих джерел енергії зменшує зростання глобальної температури та, отже, зменшує ймовірність штормів.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RIVER_FLOOD_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>ПОВЕНЬ РІЧКИ[NEWLINE][NEWLINE]Коли виникає подія:[NEWLINE]- Поплавкові ділянки вздовж пошкодженої річки затоплюються, що, можливо, підвищує родючість.[NEWLINE]- Будівлі та покращення на затоплених ділянках можуть бути розграбовані або зруйновані.[NEWLINE][NEWLINE]Запобігайте збиткам від повені, будуючи на захопленій річці Греблю або диво Велику ванну.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>ПОДІЯ ВУЛКАНУ[NEWLINE][NEWLINE]Коли відбувається подія:[NEWLINE]- Непланівні плитки, що прилягають до вулкану, отримують ознаку Вулканічний грунт, що може збільшити родючість.[NEWLINE]- Будівлі та поліпшення на цих плитках можуть бути розграбовані або знищені.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DROUGHT_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>ПЕРІОД СУШІ[NEWLINE][NEWLINE]Коли відбувається таке явище:[NEWLINE]- Покращення, пов'язані з фермами, таборами, плантаціями, пастбищами, а також поліпшення Mekewap, Outback Station і Cahokia Mound, будуть розграбовані.[NEWLINE]- Ці поліпшення не можуть бути відновлені, доки Суша не закінчиться.[NEWLINE]- Всі плитки, що постраждали від Суші, дають на 1 менше [Icon_Food] Їжі, ніж зазвичай.[NEWLINE][NEWLINE]Побудуйте Акведук, Дамбу або Степову свердловину у своєму місті, щоб запобігти втраті [Icon_Food] Їжі через Сушу. Суша націлена на території, що не містять жодних ознак природи. Залишайте деякі ліси, тропічні ліси або болота біля своїх міст, щоб зменшити шанси на удар Суші.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_DESCRIPTION_TOOLTIP">
+      <Text>ТАЙФУН В АЗІЇ[NEWLINE][NEWLINE]Зміна клімату впливає на кількість втрачених полярних льодових плит.[NEWLINE][NEWLINE]Розтоплені плити полярного льоду можуть відкривати переваги для морських проходів, але також сприяють підвищенню рівня моря.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_ALERT_TOOLTIP">
+      <Text>Танення полярного льоду недавно оновлено через зміну клімату.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_DESCRIPTION_TOOLTIP">
+      <Text>ПІДВИЩЕННЯ РІВНЯ МОРЯ[NEWLINE][NEWLINE]Рівень моря підвищився на {1_Num} метрів в результаті зміни клімату.[NEWLINE][NEWLINE]Підвищення рівня моря призводить до того, що все більше і більше територій піддається прибережним повеням.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_ALERT_TOOLTIP">
+      <Text>Рівень моря недавно змінився через зміну клімату.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_GLOBAL_CONTRIBUTIONS">
+      <Text>Глобальні внески</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_YOUR_CO2_CONTRIBUTION">
+      <Text>Ваш внесок у викиді вуглекислого газу (CO2)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMPTION_NUM_NAME">
+      <Text>зі споживанням {1_Amount} {2_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_NO_ONE">
+      <Text>Ніхто</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_YOU">
+      <Text>{1_CivName} (Ви)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOTAL_NUM">
+      <Text>Всього: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOTAL_NUM_W_MOD">
+      <Text>Всього: {1_Num} ({2_Modifier}%)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_EVENT_HISTORY">
+      <Text>Історія подій</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOP_CONTRIBUTOR_NUM">
+      <Text>Топ внесок: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_MY_CONTRIBUTION_NUM">
+      <Text>Мій внесок: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_EVENT">
+      <Text>Подія</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_NAME">
+      <Text>Ім'я</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_SEVERITY_LEVEL">
+      <Text>Рівень важливості</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_LOCATION">
+      <Text>Місцезнаходження</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_TRAITS">
+      <Text>Ознаки (ознаки характеру)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_EFFECT">
+      <Text>Ефект</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_AREA_EFFECTED">
+      <Text>Затребувана область</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_OCCURENCE">
+      <Text>Подія</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_DATE">
+      <Text>Дата</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_ENTRY_SEVERITY">
+      <Text>{1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_ENTRY_DATE">
+      <Text>ПОВОРОТ {1_Turn}[NEWLINE]{2_Date}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LOST_FERTILIZED_TILES">
+      <Text>Плитки втрачають поживність</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FERTILIZED_TILES">
+      <Text>Добривні плитки</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DAMAGED_TILES">
+      <Text>Пошкоджені плитки</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_UNITS_LOST">
+      <Text>Втрати одиниць</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POP_LOST">
+      <Text>Втрата населення</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_X_TURNS">
+      <Text>Наступна зміна рівня моря очікується через {1_Turns} обертів.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_X_TURNS">
+      <Text>Наступне тангенціальне тангенціальне тангенціальне відлиття полярного льоду очікується через {1_Turns} обертів.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CO2_TOTAL_TOOLTIP">
+      <Text>Загальні викиди CO2, скориговані на {1_Modifier} відсотків в залежності від рівня обривистості лісів на планеті.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LAUNCHBAR_BANG_TOOLTIP">
+      <Text>Зміна клімату посилилась, досягаючи наступної фази.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_MITIGATED">
+      <Text>(Зменшений)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMED_LAST_TURN">
+      <Text>Ваша імперія витратила {1_Number} {2_Resource} за минулий хід, додаючи {3_CO2Number : plural 1?{3_CO2Number} одиницю; other?{3_CO2Number} одиниць;} CO2 в атмосферу.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMED_LAST_TURN_GLOBAL">
+      <Text>У минулому році було витрачено {1_Number} {2_Resource} по всьому світу, що додало {3_CO2Number : plural 1?{3_CO2Number} одиницю; other?{3_CO2Number} одиниць;} CO2 в атмосферу.</Text>
+    </Row>
+    <!-- Rock Band Results Screen -->
+    <Row Tag="LOC_ROCK_CONCERT_HEADER">
+      <Text>Рок-концерт</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_PERFORMANCE_BY">
+      <Text>Виступ від:</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULTS">
+      <Text>Результати продуктивності:</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_LEGENDS_OF_ROCK_TIER">
+      <Text>Високопродуктивність першого рівня</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_LEGENDS_OF_ROCK_DESCRIPTION">
+      <Text>Ти повинен був бути там! Це було дивовижно! Вони абсолютно розтопили моє обличчя! Ніщо не зможе перевершити це! Я точно куплю всі альбоми, які вони зроблять відтепер і побачу кожен концерт, який вони дадуть.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_HEADLINERS_TIER">
+      <Text>Виконання другого рівня</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_HEADLINERS_DESCRIPTION">
+      <Text>Остання нота останньої торжественної пісні звучить і зливається з криками та оплесками толпи. Усі йдуть додому задоволені, наспівуючи найкращі мелодії гурту.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_RISING_STARS_TIER">
+      <Text>Виконання на третьому рівні ефективності</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_RISING_STARS_DESCRIPTION">
+      <Text>Найкраща частина вечірки сьогодні буде через шість місяців, коли кожен скаже, що він їх фанат, а я зможу сказати: "Так, але я любив їх до того, як вони стали популярними"</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_OPENING_ACT_TIER">
+      <Text>Виконання на четвертому рівні</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_OPENING_ACT_DESCRIPTION">
+      <Text>Ми пішли через головну групу, але відкриваюча група була набагато кращою, ніж я очікував. Я купив футболку і альбом. Ти повинен послухати їх.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_CREATIVE_DIFFERENCES_TIER">
+      <Text>Виконання на п'ятому рівні</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_CREATIVE_DIFFERENCES_DESCRIPTION">
+      <Text>Це була майстерна та щиро виконана музика, але для гурту - гірко-солодкий момент. Його учасники вже планують нові та окремі проекти.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_AGING_ROCKERS_TIER">
+      <Text>Виставка низької продуктивності</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_AGING_ROCKERS_DESCRIPTION">
+      <Text>Життя на турі дуже важке, а толпи не такі великі та ентузіастичні, як раніше. Але найгірше було те, що деякі люди там насолоджувалися шоу іронічно. Час піти на пенсію.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_TOURISM">
+      <Text>Туризм генерується</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_TOURISM_TOOLTIP">
+      <Text>Цей [ICON_Tourism] Туризм, згенерований цим шоу, застосовувався проти гравця, який володіє цим концертним майданчиком.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_ALBUMS">
+      <Text>Продані альбоми</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_ALBUMS_TOOLTIP">
+      <Text>Зростання продажів альбомів підвищує базу [ICON_Tourism] Туризму, який отримає ця група від майбутніх концертів.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_PROMOTION">
+      <Text>Акція діє!</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_PROMOTION_TOOLTIP">
+      <Text>Група може вибрати одну з пропонованих випадково акцій, щоб покращити свої навички перед наступним виступом.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_LEVEL_UP">
+      <Text>Підвищився рівень!</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_LEVEL_UP_TOOLTIP">
+      <Text>Збільшення рівня підвищить шанси цього гурту на сприятливий результат у майбутніх концертах.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_UNIT_LOST">
+      <Text>Втрата одиниці</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_UNIT_LOST_TOOLTIP">
+      <Text>Шкода, чувак!</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_NEARBY_GREAT_WORKS">
+      <Text>Поруч Великі Твори</Text>
+    </Row>
+    <!--Unit Operations -->
+    <Row Tag="LOC_UNITOPERATION_TOURISM_BOMB_DESCRIPTION">
+      <Text>Провести рок-концерт</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_REQUIRES_NAME">
+      <Text>Вашій групі потрібно придумати назву, щоб вона могла вийти на сцену.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_BUILD_IMPROVEMENT_ADJACENT_DESCRIPTION">
+      <Text>Покращення будівлі поруч</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_UPGRADE_RESOURCE_INFO">
+      <Text>Потрібно: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BASE_RESOURCE_COST">
+      <Text>Вартість базового ресурсу: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRODUCTION_RESOURCE_COST">
+      <Text>Потрібно: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UI_FEATURE_NATURAL_DISASTER_DISCOVERY">
+      <Text>Надзвичайна природна подія трапилася</Text>
+    </Row>
+    <Row Tag="LOC_UI_FEATURE_NUCLEAR_DISASTER_DISCOVERY">
+      <Text>Відбувається ядерна катастрофа</Text>
+    </Row>
+    <!--Unit Commands -->
+    <Row Tag="LOC_UNITCOMMAND_BUILDING_PRODUCTION_DESCRIPTION">
+      <Text>Додайте [ICON_Production] виробництво до будівлі.</Text>
+    </Row>
+    <!--Emergencies-->
+    <Row Tag="LOC_EMERGENCY_TARGETING_UNMET_PLAYER">
+      <Text>Ця надзвичайна ситуація спрямована на незадоволеного гравця.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_CITY">
+      <Text>МІСТО-ЦІЛЬ: {1_Target}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_KILL_ENEMY_MILITARY_DESC">
+      <Text>Вбивство цільових одиниць</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ATTACK_CITY_DESC">
+      <Text>Атака на міста-цілі</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_MILITARY_IN_LAND_DESC">
+      <Text>Зберігання військових підрозділів на території Цілі</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_RELIGION_IN_LAND_DESC">
+      <Text>Зберігання релігійних одиниць в території відповідного міста-цілі</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GPP_DESC">
+      <Text>Створення [ICON_GREATPERSON] очок Великих Особистостей на хід</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_MILITARY_TARGET_NAME">
+      <Text>Військова надзвичайна ситуація</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_CITY_STATE_TARGET_NAME">
+      <Text>Надзвичайна ситуація у місті-державі</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_RELIGIOUS_TARGET_NAME">
+      <Text>Релігійна надзвичайна ситуація</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NUCLEAR_TARGET_NAME">
+      <Text>Ядерна надзвичайна ситуація</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_BACKSTAB_TARGET_NAME">
+      <Text>Екстрена ситуація зі зрадою</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_AID_REQUEST_TARGET_NAME">
+      <Text>Запит на допомогу</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_NOBEL_PRIZE_LITERATURE_NAME">
+      <Text>Нобелівська премія з літератури</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NOBEL_PRIZE_PHYSICS_NAME">
+      <Text>Нобелівська премія з фізики</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NOBEL_PRIZE_PEACE_NAME">
+      <Text>Нобелівська премія миру</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_SCORE_COMPETITION_CULTURAL">
+      <Text>"Давайте доведемо, яка нація є справжнім домом найкращих та найрозумніших!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SCORE_COMPETITION_CULTURAL">
+      <Text>Наші віддані [ICON_GREATPERSON] Великі Люди ведуть шлях. Хто з нас може показати найбільшу підтримку для своїх вітчизняних видатних осіб?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_SPACE_STATION">
+      <Text>"Космос - це наступна велика пригода. Давайте зробимо цей стрибок разом!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SPACE_STATION">
+      <Text>Ми повинні розпочати проект будівництва міжнародної космічної станції, поєднуючи найкращі зусилля наукових та інженерних галузей усіх націй.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_WORLD_GAMES">
+      <Text>"Нам не потрібно змагатися зі зброєю. Давайте зміряємося тим, хто краще грає в ігри."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_WORLD_GAMES">
+      <Text>Наші найкращі спортсмени змагатимуться проти найкращих у світі. Яка країна здобуде золото?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_CLIMATE_ACCORDS">
+      <Text>Ми всі ділимося цією планетою. Для наших дітей та їхніх нащадків ми повинні її захищати</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_CLIMATE_ACCORDS">
+      <Text>Ми всі повинні докласти свої зусилля для зменшення вуглецевого сліду людства. Ті, хто зробить це найкраще, будуть подякувані наступним поколінням.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_WORLDS_FAIR_NAME">
+      <Text>Всесвітня виставка</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SPACE_STATION_NAME">
+      <Text>Міжнародна космічна станція</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_CLIMATE_ACCORDS_NAME">
+      <Text>Кліматичні угоди</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_WORLD_GAMES_NAME">
+      <Text>Світові ігри</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PRIZE_LITERATURE_NAME">
+      <Text>Нобелівська премія з літератури</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SPACEPORTS_DESC">
+      <Text>Забезпечення утримання космічних районів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_CAMPUSES_DESC">
+      <Text>Зберігання територій кампусу</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ASTRONAUT_PROJECT_DESC">
+      <Text>Завершення проекту навчання астронавтів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_CO2_FOOTPRINT_DESC">
+      <Text>Маючи викиди СО2 значно нижчі, ніж у найбільшого забруднювача СО2</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_COAL_POWER_PLANT_DESC">
+      <Text>Завершення проєкту зі виведення з експлуатації вугільної електростанції</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_OIL_POWER_PLANT_DESC">
+      <Text>Завершення проекту зняття з лінії роботи Нафтової електростанції</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_NUCLEAR_POWER_PLANT_DESC">
+      <Text>Завершення проекту з ліквідації ядерної електростанції</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ATHLETE_PROJECT_DESC">
+      <Text>Завершення проекту навчання спортсменів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_STADIUMS_DESC">
+      <Text>Підтримка стадіонів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_AQUATIC_CENTERS_DESC">
+      <Text>Підтримка аквакомплексів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_GREAT_ARTISTS">
+      <Text>"Мистецтво перевершує національність, благословляючи нас всіх. Почтімо тих, хто дає нам огляди раю і пекла."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_GREAT_ARTISTS">
+      <Text>Швеція присуджує Нобелівську премію з літератури. Давайте доведемо свій талант в мистецтві та виграємо цю престижну премію.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GREAT_ARTISTS_DESC">
+      <Text>Генерування балів [ICON_GreatWriter] Великого Письменника, [ICON_GreatArtist] Великого Художника та [ICON_GreatMusician] Великого Музиканта</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_GREAT_ARTISTS">
+      <Text>[ICON_Tourism] Туризм з Великих Робіт зрос на +200%.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PHYSICS_NAME">
+      <Text>Нобелівська премія з фізики</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_GREAT_STEMS">
+      <Text>"Навчання - це те, що підштовхує людство в майбутнє. Давайте шанувати тих гігантів, на чиїх плечах ми стоїмо."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_GREAT_STEMS">
+      <Text>Швеція вручає Нобелівську премію з фізики. Давайте доведемо, що ми є найбільш науково-орієнтованою країною та виграємо цю престижну нагороду.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GREAT_STEMS_DESC">
+      <Text>Генерую [ICON_GreatEngineer] Великі інженери, [ICON_GreatScientist] вчені та [ICON_GreatMerchant] купціві бали</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_GREAT_STEMS">
+      <Text>+2 випадкових [ICON_TechBoosted] Евреки і +50% до виробництва Районів.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PRIZE_PEACE_NAME">
+      <Text>Нобелівська премія миру</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_FAVOR">
+      <Text>"Немає нічого більш заслуженого на шанування, як видатна прагнення до миру."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_FAVOR">
+      <Text>Швеція вручає Нобелівську премію за мир. Давайте доведемо, що ми найбільш миролюбні і отримаємо цю престижну нагороду.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_FAVOR_DESC">
+      <Text>Генерування [ICON_Favor] Дипломатичної підтримки.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_FAVOR">
+      <Text>Переможець отримує 2 безкоштовних [ICON_GreatPerson] Великих Людей.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_SWEDEN_GAINS_FAVOR_DESCRIPTION">
+      <Text>Швеція отримує +50 [ICON_FAVOR] Дипломатичного впливу.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REQUEST_AID_NAME">
+      <Text>Запит на допомогу</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_REQUEST_AID">
+      <Text>Ми не можемо дозволити іншим цивілізаціям занепастити під напливом природи. Один за всіх, і всі за одного</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_REQUEST_AID">
+      <Text>Нещодавно {TargetName} було спустошено природною катастрофою. Наша допомога у відновленні їхнього стану дозволить нам здобути престиж в очах Всесвітнього конгресу.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_GOLD_DESC">
+      <Text>Надсилання подарунків [ICON_Gold] золота на ціль.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_CO2_DESC">
+      <Text>Генерація СО2 знизить ваш рейтинг.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_WAR_DESC">
+      <Text>Бути у війні з ціллю зменшить ваш рахунок.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_PROJECT_DESC">
+      <Text>Завершення проекту "Надсилання допомоги".</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REQUEST_MILITARY_AID_NAME">
+      <Text>Запит на військову допомогу</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_REQUEST_MILITARY_AID">
+      <Text>"Ми повинні допомогти тим, кого зацікавлена агресія позбавляє свободи."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_REQUEST_MILITARY_AID">
+      <Text>{TargetName} є метою необґрунтованої війни проти тієї держави, що зробила багато образ. Наша допомога допоможе відновити мир.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_POSITION_AND_HOW_TO">
+      <Text>Ви знаходитесь на {1_Position} місці. Збільшуйте свій рахунок за допомогою:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_HOW_TO">
+      <Text>Заробляйте бали за:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_SEND_AID_PROJECT">
+      <Text>Учасники мають доступ до проекту "Надіслати допомогу".</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ATHLETES_PROJECT">
+      <Text>Учасники мають доступ до проєкту Train Athletes.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ASTRONAUTS_PROJECT">
+      <Text>Учасники мають доступ до проекту "Тренування астронавтів".</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_DECOMMISSION_POWER_PLANT_PROJECTS">
+      <Text>Члени мають доступ до проектів з ліквідації електростанцій у їх містах.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_COMPETE_WITH_OTHERS">
+      <Text>Учасники будуть змагатися, щоб дізнатися, хто зможе набрати найвищий бал у [ICON_Turn] {Turns} ходах.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_COMPETE_WITH_OTHERS">
+      <Text>Учасники змагаються, щоб дізнатися хто з них набере найвищий бал.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_COMPETE_WITH_OTHERS">
+      <Text>Змагайтеся за найвищий бал</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_COMPETE_WITH_OTHERS">
+      <Text>Отримуйте високий бал</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_TARGET_RECEIVE_AID">
+      <Text>Отримуйте допомогу</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARDS_HOSTILE_EXPLANATION">
+      <Text>Якщо учасники виконують всі цілі до закінчення часу:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NON_HOSTILE_DESCRIPTION">
+      <Text>Коли час вийде, учасники будуть винагороджені на основі їхніх балів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_FIRST_PLACE_DESCRIPTION">
+      <Text>Тільки учасник з найвищим балом отримає:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_TOP_TIER_DESCRIPTION">
+      <Text>Учасники з результатами у верхній чверті отримають:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_BOTTOM_TIER_DESCRIPTION">
+      <Text>Члени, які потраплять у наступний 25% балів, отримають:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NO_TIER_DESCRIPTION">
+      <Text>Учасники без балів або які знаходяться у нижній половині за балами, нічого не отримають.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NO_SCORE_DESCRIPTION">
+      <Text>Учасники з нульовим балом не отримають винагород.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_EXTRA_EFFECTS_DESCRIPTION">
+      <Text>Додатково:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_SINGLE_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>1 Дипломатичний бал</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>2 Дипломатичні очки перемоги</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>100 [ICON_Favor] Дипломатичних пільг</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_BOTTOM_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Дипломатичних послуг</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_FIRST_PLACE_GREAT_PERSON_POINTS_DESCRIPTION">
+      <Text>100 балів [ICON_GREATPERSON] Великої Особистості</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Дипломатичних пільг</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_TOP_TIER_CULTURE_DESCRIPTION">
+      <Text>2 збільшення народності (literal translation)
+
+2 підвищення громадянської свідомості (natural sounding translation)</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_BOTTOM_TIER_CULTURE_DESCRIPTION">
+      <Text>1 Громадський Розкрутка</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_FIRST_PLACE_CAMPUS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] Туризм на кожному кампусі</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Дипломатичних Балив</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_STADIUMS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] Туризм для кожного стадіону</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_AQUATIC_CENTERS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] Туризм для кожного аквапарку</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_BOTTOM_TIER_STADIUMS_TOURISM_DESCRIPTION">
+      <Text>1 [ICON_Tourism] Туризм для кожної стадіону</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_BOTTOM_TIER_AQUATIC_CENTERS_TOURISM_DESCRIPTION">
+      <Text>1 [ICON_Tourism] Туризм для кожного аквапарку</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_FIRST_PLACE_SPACESHIP_SPEED_DESCRIPTION">
+      <Text>+3 світлових роки на оберт для їх космічного корабля на екзопланету</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Дипломатичних лагідностей</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_TOP_TIER_SPACE_RACE_PRODUCTION_DESCRIPTION">
+      <Text>+40% [ICON_Production] Виробництво для проектів космічної гонки</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_BOTTOM_TIER_SPACE_RACE_PRODUCTION_DESCRIPTION">
+      <Text>+20% [ICON_Production] Виробництво на проекти космічної гонки</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>1 Дипломатичний балл перемоги</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>100 [ICON_Favor] Дипломатичних Балів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_BOTTOM_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Дипломатичних Бали</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_FIRST_PLACE_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>+50 продаж альбомів для рок-гуртів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_FIRST_PLACE_ROCK_BAND_CHEAPER_DESCRIPTION">
+      <Text>Рок-гурти на 20% дешевші для покупки</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_TOP_TIER_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>+75 продаж альбомів для рок-груп</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_BOTTOM_TIER_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>+25 Продаж альбомів для рок-гуртів</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_FIRST_PLACE_TECH_BOOST_DESCRIPTION">
+      <Text>1 Підвищення технологічного рівня</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_FIRST_PLACE_UNIVERSITY_RESOURCES_DESCRIPTION">
+      <Text>Збільшує накопичення ресурсів у містах з університетом на 1.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_TOP_TIER_TECH_BOOST_DESCRIPTION">
+      <Text>1 Технологічний розгін</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_TOP_TIER_UNIVERSITY_RESOURCES_DESCRIPTION">
+      <Text>Збільшує накопичення ресурсів у містах з дослідницькою лабораторією на 1</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_BOTTOM_TIER_TECH_BOOST_DESCRIPTION">
+      <Text>1 Технологічний прогрес</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_FIRST_PLACE_GREAT_MUSICIAN_DESCRIPTION">
+      <Text>1 [ICON_GreatMusician] Великий Музикант</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_FIRST_PLACE_GREAT_SCIENTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatScientist] Великий вчений</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_TOP_TIER_GREAT_ENGINEER_DESCRIPTION">
+      <Text>1 [ICON_GreatEngineer]Великий інженер</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_TOP_TIER_GREAT_ARTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatArtist] Великий художник</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_BOTTOM_TIER_GREAT_ARTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatArtist] Великий художник</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_MEMBERS_GAIN_FAVOR_DESCRIPTION">
+      <Text>Учасники отримують 100 [ICON_Favor] Дипломатичної вигоди</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_TARGET_GAINS_FAVOR_DESCRIPTION">
+      <Text>Ціль отримує 200 [ICON_Favor] Дипломатичного впливу</Text>
+    </Row>
+    <!--Governors-->
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_NAME">
+      <Text>Ібрагім</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_TITLE">
+      <Text>Великий візир</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_SHORT_TITLE">
+      <Text>Гранд Візир</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_DESCRIPTION">
+      <Text>Візир Сулеймана {LOC_GOVERNOR_IBRAHIM_NAME} є губернатором з фокусом на військових справах та дипломатії. Крім того, він має унікальне дерево просування та може бути призначений до столиці іншої цивілізації, а також будь-якого внутрішнього міста. Він добре підходить для впливу на військові операції, а також є вправним дипломатом, який зміцнює відносини з дружніми цивілізаціями та знімає напругу з конкурентів.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PASHA_NAME">
+      <Text>Паша</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PASHA_DESCRIPTION">
+      <Text>+20% [ICON_Production] Виробництво для всіх військових одиниць у місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_NAME">
+      <Text>Головний соколар</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_DESCRIPTION">
+      <Text>Всі дружні військові підрозділи, що борються на території міста, отримують бонус +5 [ICON_Strength] бойової сили.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SERASKER_NAME">
+      <Text>Сераскер</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SERASKER_DESCRIPTION">
+      <Text>Надає всім одиницям, які знаходяться в радіусі 10 плиток від центру міста, +10 [ICON_Strength] бойової міці при нападі на оборонні райони.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_CITY_GOVERNOR_ATTACK_DISTRICT_COMBAT_BONUS">
+      <Text>+{1_Amount} Сераскер</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_NAME">
+      <Text>Khass-Oda-Bashi</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_DESCRIPTION">
+      <Text>Коли встановлено у союзній іноземній [ICON_Capital] столиці, ваші Очки Альянсу з власником збільшуються на додаткові 0,5 за кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_NAME">
+      <Text>Капу Ага</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_DESCRIPTION">
+      <Text>Коли встановлено в іноземній [ICON_Capital] столиці, [ICON_STAT_GRIEVANCE] Скарги від власника міста проти вас зменшуються на 1 ще на кожному ході.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GRAND_VISIER_NAME">
+      <Text>Великий візир</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GRAND_VISIER_DESCRIPTION">
+      <Text>Коли встановлено у іноземній [ICON_Capital] столиці, жодне з міст власника не надає тиску Лояльності на ваші міста.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_NAME">
+      <Text>Субсидіювання відновлюваної енергетики</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION">
+      <Text>Усі морські вітроелектростанції, сонячні електростанції, вітроелектростанції, геотермальні електростанції та гідроелектростанції в цьому місті отримують +2 [ICON_POWER] енергії та +2 [ICON_Gold] золота.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_NAME">
+      <Text>Лісове господарство</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION">
+      <Text>Це місто отримує +2 [ICON_Gold] Золота з кожної непокращеної особливості. Плитки, прилеглі до непокращених особливостей, отримують +1 привабливості в цьому місті.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_DESCRIPTION">
+      <Text>Щоб досягти [COLOR:DiplomaticLabelCS]ДИПЛОМАТИЧНОЇ[ENDCOLOR] перемоги, вам потрібно першим накопичити встановлену кількість Дипломатичних балів. Кожного разу, коли ви голосуєте за комбінацію цілей та варіантів, яка пройшла як Резолюція Світового Конгресу, ви отримаєте один Дипломатичний бал. Ви можете заробляти додаткові бали через Пропозицію Дипломатичної Перемоги в Світовому Конгресі, найвищий бал за проханням про допомогу, або завершенням Технології Морських Платформ, Глобальної Мітеки Щодо Погрібання, чи Чудес Статуї Свободи, Махабодхі Темплу, або Потали.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_BLURB">
+      <Text>Ваша стародавня і вічна присяга на спільний мир стане основою світу завтрашнього дня.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_REQUIREMENT">
+      <Text>Дипломатичні очки: {1_NumDiplomaticPoints}/{2_TotalDiplomaticPoints}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_DIPLOMATIC_POINTS_TT">
+      <Text>Дипломатичні очки: {1_NumDiplomaticPoints}/{2_TotalDiplomaticPoints}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_NAME">
+      <Text>Місцеві джерела інформації</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_NAME">
+      <Text>Іноземний інвестор</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_DESCRIPTION">
+      <Text>Під час утворення міст-держави накопичуйте її стратегічні ресурси. Якщо ви є сюзереном, отримуйте подвоєну кількість накопичених стратегічних ресурсів.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_DESCRIPTION">
+      <Text>Ворожі Шпигуни діють на 3 рівня нижче звичайного в цьому місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_NAME">
+      <Text>Підсилені матеріали</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_DESCRIPTION">
+      <Text>Покращення, будівлі та райони цього міста не можуть бути пошкоджені від Екологічних Ефектів.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_NAME">
+      <Text>Водні роботи</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION">
+      <Text>+2 [ICON_HOUSING] Житло для кожного району міста, що межує з кварталом житла та акведуком. +1 [ICON_AMENITIES] Зручності для кожного каналу та району з дамбою в цьому місті.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_CANNOT_ASSIGN_TO_UNREVEALED_CITY">
+      <Text>[COLOR_RED]Місцезнаходження цього міста ще не відоме.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_AT_WAR_WITH_CIVILIZATION">
+      <Text>[COLOR_RED]Ви перебуваєте у війні з цивілізацією.</Text>
+    </Row>
+    <!--Diplomacy UI-->
+    <Row Tag="LOC_DIPLO_CHOICE_DENOUNCE_NO_GRIEVANCE">
+      <Text>Засудити</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DENOUNCE">
+      <Text>[SIZE_16]Засудити[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_US">
+      <Text>{1_DiploState}, [NEWLINE][COLOR_RED]{2_Grievances} [ICON_STAT_GRIEVANCE] Скарги на нас. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_THEM">
+      <Text>{1_DiploState},[NEWLINE][COLOR_GREEN]{2_Grievances} [ICON_STAT_GRIEVANCE] Скарги на них. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_NONE">
+      <Text>{1_DiploState},[NEWLINE]Немає скарг.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_FREE_CITY_EXPLANATION">
+      <Text>Руйнувати місто, видаляючи його та всі його райони та будівлі з карти. Цей варіант повинен бути вибраний у той момент, коли місто було підкорене.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_FREE_CITY_EXPLANATION">
+      <Text>Збереження цього вільного міста не спричинить [ICON_STAT_GRIEVANCE] скарг у інших гравців.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_LIBERATE_WARMONGER_EXPLANATION">
+      <Text>Визволення цього міста заробить вам {1_Favor} [ICON_Favor] Дипломатичної підтримки.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_WARMONGER_EXPLANATION">
+      <Text>Збереження цього міста дасть цьому супротивнику {1_Grievances} [ICON_STAT_GRIEVANCE] Скарг проти нас. [NEWLINE][NEWLINE][ICON_STAT_GRIEVANCE] Скарги будуть повернуті або подвоєні в кінці війни, в залежності від того, чи збережете ви місто.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_LAST_CITY_EXPLANATION">
+      <Text>Збереження останнього міста противника принесе всім головним державам {1_Скарги} [ICON_STAT_GRIEVANCE] скарги на нас (хоча для інших держав, які перебувають у війні з цим знищеним ворогом, вони будуть зменшені).</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_WARMONGER_EXPLANATION">
+      <Text>Зруйнування цього міста надасть цьому противнику {1_Скарг} [ICON_STAT_GRIEVANCE] Підстав для скарг на нас!</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_LAST_CITY_EXPLANATION">
+      <Text>Руйнування останнього міста цього противника надасть всім головним силам {1_Grievances} [ICON_STAT_GRIEVANCE] Прикривні претензії проти нас (хоча вони зменшуються для інших сил, які перебувають у війні з цим знищеним ворогом).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_CHOICE_NEGATIVE">
+      <Text>Мій народ буде заселяти місця за своїм бажанням! [NEWLINE][SIZE_12]Генерує [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] Прикривальність[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_CHOICE_POSITIVE">
+      <Text>Вибачте, у майбутньому я знайду інше місце. [NEWLINE][SIZE_12]Отримайте 30 [ICON_Favor] Дипломатичних пільг[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_CHOICE_NEGATIVE">
+      <Text>Я не можу цього обіцяти.[NEWLINE][SIZE_12]Генерує [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] Незадоволень[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_CHOICE_POSITIVE">
+      <Text>Я просив вибачення, я негайно припиню ці операції. [NEWLINE][SIZE_12]Отримайте 30 [ICON_Favor] дипломатичних балив[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_CHOICE_NEGATIVE">
+      <Text>Ви не можете претендувати на історію. Я копатиму, де мені заманеться. [NEWLINE][SIZE_12]Генерує [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] незадоволень[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_CHOICE_POSITIVE">
+      <Text>Вибачте, я перенесу своїх археологів в інше місце.[NEWLINE][SIZE_12]Отримуйте 30 [ICON_Favor] дипломатичних бали[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_CHOICE_NEGATIVE">
+      <Text>Якщо так воля Бога, щоб ваш народ вірив у наші шляхи, то хто я такий, щоб це зупиняти? [NEWLINE][SIZE_12]Генерує [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] Прикрість[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_CHOICE_POSITIVE">
+      <Text>Вибачте, я думав, що мої люди будуть вітані. Я помилився.[NEWLINE][SIZE_12]Отримайте 30 [ICON_Favor] Дипломатичного впливу[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_LIBERATION_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](При захопленні дружніх міст жодних [ICON_STAT_GRIEVANCE] Скарг не виникає)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_RECONQUEST_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](Під час повернення вашого міста не виникає жодних [ICON_STAT_GRIEVANCE] скарг)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_PROTECTORATE_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](Немає [ICON_STAT_GRIEVANCE] скарг при захисті союзних міст-держав)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_INSUFFICIENT_FAVOR">
+      <Text>Неможливо {1_ActionType}[NEWLINE][COLOR_RED]Вам потрібно {2_FavorRequirement} [ICON_Favor] Дипломатичних послуг.[ENDCOLOR]</Text>
+    </Row>
+    <!--Grievance Log-->
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED">
+      <Text>Оголошено війну між нами</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_WAR_DECLARED">
+      <Text>Оголошено війну на місто-державу: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED_ALLY">
+      <Text>Оголошено війну союзнику: {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED_FRIEND">
+      <Text>Оголошено війну другові: {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_OCCUPIED">
+      <Text>Місто окуповане: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_LAST_CITY_OCCUPIED">
+      <Text>Остаточне захоплення міста: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_RAZED">
+      <Text>Зруйноване місто: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_CEDED">
+      <Text>Місто, передане: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_RETURNED">
+      <Text>Місто повернено: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_LIBERATED">
+      <Text>Місто звільнено: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_CONQUERED">
+      <Text>Завойований місто-держава: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_RAZED">
+      <Text>Державе місто було зруйновано: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_REFUSED">
+      <Text>Відмовився давати обіцянку</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_BROKEN">
+      <Text>Обіцянка порушена</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY_DOUBLED">
+      <Text>[NEWLINE]{1_Amount} з подвоєнням звичайного розпаду на кожен оберт у {2_Era}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_BEHAVIOR_CONTINUED">
+      <Text>Відмова в обіцянці та продовження поведінки</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_DENOUNCED">
+      <Text>Спростовано</Text>
+    </Row>
+    <!--Grievance Diplo Tooltip -->
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_HEADER">
+      <Text>{1_Скарги} [ICON_STAT_GRIEVANCE] Накопичилися скарги проти {2_Цивілізації}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_AT_WAR">
+      <Text>У ВІЙНІ [ICON_STAT_GRIEVANCE] Незадоволення не зменшаться, доки війна не закінчиться.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DISABLED">
+      <Text>ВІДКЛЮЧЕНО [ICON_STAT_GRIEVANCE] Скарги не зменшуватимуться через політику, яку ви прийняли.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_GAINING">
+      <Text>Отримання [ICON_STAT_GRIEVANCE] Скарг на кожному ході від:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_LOSING">
+      <Text>ВТРАЧАННЯ [ICON_STAT_GRIEVANCE] Скарг на кожен хід з:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_UNCHANGED">
+      <Text>НЕЗМІННІ [ICON_STAT_GRIEVANCE] Скарги за кожен хід не змінюються:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY">
+      <Text>[NEWLINE]{1_Amount} занепадує з кожним обертом у {2_Era}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} іноземний губернатор знімає напругу в столиці [ICON_Capital].</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_POSSESS_CAPITAL">
+      <Text>[NEWLINE]{1_Amount} за окупацію ворожої [ICON_Capital] столиці.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_POSSESS_NON_CAPITAL">
+      <Text>[NEWLINE]{1_Amount} за окупацію одного з міст противника.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY_MODIFIER">
+      <Text>[NEWLINE][NEWLINE]Швидкість розкладу збільшується на +{1_Amount}% з цим лідером.</Text>
+    </Row>
+    <!--World Rankings UI-->
+    <Row Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_REDUCTION_MODIFIER">
+      <Text>{1_Tooltip}[NEWLINE]Загалом [ICON_Tourism] Туризм зменшився на {2_Percent}% через їхні інші ефекти</Text>
+    </Row>
+    <!--Government UI-->
+    <Row Tag="LOC_GOVERNMENT_FAVOR_BONUS">
+      <Text>Генерація побажань</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FAVOR_PER_TURN">
+      <Text>Отримуйте {1_FavorPerTurn} [ICON_FAVOR] Дипломатичного Впливу за кожен [ICON_Turn] Хід.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POLICY_REQUIRES_GOVERNMENT">
+      <Text>{1_NumGovernments : plural 1?ПОТРІБНА УРЯДОВА ВЛАДА; other?ПОТРІБНІ УРЯДОВІ ВЛАДИ (Будь-яких);}</Text>
+    </Row>
+    <!--City-State Panel UI-->
+    <Row Tag="LOC_CITY_STATE_PANEL_UNIQUE_SUZERAIN_BONUS_DISABLED">
+      <Text>(Заблоковано Всесвітнім конгресом)</Text>
+    </Row>
+    <!--Alliance-->
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_YOUR_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} Очок від вашого Губернатора</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_THEIR_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} Очок від губернатора вашого союзника</Text>
+    </Row>
+    <!-- World Congress -->
+    <Row Tag="LOC_WORLD_CONGRESS_TOP_PANEL_FAVOR_TOOLTIP">
+      <Text>Це Дипломатична Послуга - валюта для купівлі голосів.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_TITLE">
+      <Text>ЛАСКАВО ПРОСИМО НА ВСЕСВІТНІЙ КОНГРЕС</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_TITLE">
+      <Text>СПЕЦІАЛЬНА СЕСІЯ СВІТОВОГО КОНГРЕСУ</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_IS_CURRENTLY_IN_SESSION">
+      <Text>В світі зараз триває Конгрес.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_IS_CURRENTLY_IN_A_SPECIAL_SESSION">
+      <Text>Всесвітній конгрес наразі перебуває на спеціальній сесії.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_BODY_1">
+      <Text>Світовий конгрес зараз в засіданні! Кожен світовий лідер має проголосувати за пропозиції, які наразі розглядаються.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_BODY_2">
+      <Text>Після того, як всі голоси будуть подані, переможні пропозиції будуть здійснені до наступної зустрічі Всесвітнього Конгресу.</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_BODY_1">
+      <Text>Всесвітній конгрес був скликаний на спеціальну сесію для розгляду дискусій.</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_BODY_2">
+      <Text>Коли всі голоси будуть подані, прийняті Дискусії будуть запроваджені, що спричинить відповідні Надзвичайні ситуації.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TITLE">
+      <Text>СВІТОВИЙ КОНҐРЕС: ВІДБУВАЄТЬСЯ СЕАНС</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_END">
+      <Text>СВІТОВИЙ КОНГРЕС: СЕСІЯ ЗАВЕРШЕНА!</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOT_IN_SESSION">
+      <Text>СВІТОВИЙ КОНҐРЕС: НЕ В ЗАСІДАННІ</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_VOTE_NORMAL_SESSION_DESCRIPTION">
+      <Text>Вам потрібно вирішити, як найкраще використати можливості, які ви маєте на Світовому Конгресі. Використовуйте ваші накопичені [ICON_FAVOR] Дипломатичні пільги, щоб голосувати за пропозиції, які є важливими для вас та вашого народу.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_VOTE_SPECIAL_SESSION_DESCRIPTION">
+      <Text>Останні події вимагають уваги Всесвітнього конгресу. Використайте накопичені [ICON_FAVOR] дипломатичні ласощі, щоб голосувати за дискусії, які важливі для вас та ваших людей.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMIT_PROPOSALS_CONFIRM">
+      <Text>Ви впевнені, що хочете подати ці пропозиції?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_TITLE">
+      <Text>СВІТОВИЙ КОНГРЕС: НА СПЕЦІАЛЬНІЙ СЕСІЇ</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_END">
+      <Text>СВІТОВИЙ КОНҐРЕС: СПЕЦІАЛЬНА СЕСІЯ ЗАВЕРШЕНА!</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_INSTRUCTIONS">
+      <Text>Використовуйте [ICON_FAVOR] Дипломатичний Вплив для голосування на цих обговореннях.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_CONFIRM">
+      <Text>Ви впевнені, що хочете подати ці пропозиції?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOOSE_TITLE">
+      <Text>СВІТОВИЙ КОНГРЕС: В СЕАНСІЇ</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_TITLE">
+      <Text>СВІТОВИЙ КОНГРЕС: РЕЗУЛЬТАТИ</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_DESCRIPTION">
+      <Text>Огляньтеся на результати останньої сесії Всесвітнього конгресу.[NEWLINE]Конгрес зібереться знову через {1_Turns} ходів або на особливій сесії за запитом.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_EFFECTS_DESCRIPTION">
+      <Text>Ці пропозиції (з усіх попередніх сесій Всесвітнього конгресу) зараз діють</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AVAILABLE_PROPOSALS_DESCRIPTION">
+      <Text>Тут ви можете звернутися з запитом про проведення спеціальної сесії Всесвітнього конгресу, якщо у вас є достатньо [ICON_FAVOR] дипломатичного впливу.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_ACCEPT">
+      <Text>Почніть голосування</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_GRIEVANCE_VALUE">
+      <Text>[ICON_GRIEVANCE] {1_Скарги}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_GRIEVANCE_DEFINITION">
+      <Text>У вас є [ICON_GRIEVANCE_TT] {1_Grievances} скарги на цього лідера</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NEXT">
+      <Text>Наступний</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREV">
+      <Text>Previous</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMIT">
+      <Text>Подати</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMITTING">
+      <Text>Подання</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RETURN">
+      <Text>Повернення до гри</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_FAVOR">
+      <Text>[ICON_FAVOR] {1_Favor}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CATEGORY_FAVOR">
+      <Text>Вартість: [ICON_FAVOR] {1_Favor}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_FAVOR_TITLE">
+      <Text>[ICON_FAVOR_LARGE] {1_Favor} (no translation needed)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_TITLE">
+      <Text>Очікування інших гравців</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_TITLE_YOU">
+      <Text>Чекаю на тебе</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_WAITING">
+      <Text>Чекаю на пропозиції</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_SUBMITTED">
+      <Text>Пропозиція подана</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_READY">
+      <Text>Всі подані пропозиції</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_DESCRIPTION">
+      <Text>Світовий конгрес знову зібратиметься, як тільки всі залишаючись гравці подадуть свої пропозиції для обговорення.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_HUD_BAR_TIME_UNTIL_NEXT_SESSION">
+      <Text>Час до наступної сесії: {1_Turns : plural 1? {1_Turns} хід; few? {1_Turns} ходи; many? {1_Turns} ходів; other? {1_Turns} ходів;}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MEMBERS">
+      <Text>Конгресові члени</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_PROPOSALS_ENACTED">
+      <Text>Запроваджені пропозиції: ({1_Proposals})</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_WORLD_EVENT_RESOLUTIONS">
+      <Text>Рішення</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_DELIBERATION_PROPOSED_TARGET">
+      <Text>Виберіть ціль для цієї резолюції:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_SUBMISSION_WORLD_EVENT_RESOLUTIONS">
+      <Text>Рішення</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSED_BY">
+      <Text>Запропоновано {1_Senders}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_PASSED">
+      <Text> - [COLOR:Civ6Green]ЗАТВЕРДЖЕНО[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_PASSED_TIE">
+      <Text>[COLOR:Civ6Green]ПРОЙШОВ ЗА ДОПОМОГОЮ ТАБЛИЦІ ПОРЯДКУ[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_FAILED">
+      <Text>- [COLOR:Civ6Red]НЕВДАЧА[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_FAILED_TIE">
+      <Text>- [COLOR:Civ6Red]НЕ ВДАЛОСЯ ЧЕРЕЗ РІВНЕВУ ГРУ[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_LEADER_FAVOR">
+      <Text>Цей лідер має [ICON_FAVOR] {1_Num} Дипломатичних Фаворів.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLAYER_FAVOR">
+      <Text>У вас є [ICON_FAVOR] {1_Num} дипломатичного впливу.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLAYER_FAVOR_TO_SPEND">
+      <Text>У вас залишилося стільки-то [ICON_FAVOR] Дипломатичного впливу для витрачання.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_RESOLUTIONS_FAVOR_COST_WITH_REFUND">
+      <Text>Ви витрачаєте [ICON_FAVOR] {1_Num} Дипломатичного впливу на Резолюції. Якщо Всесвітній Конгрес не погодиться з вашими виборами, частина вашого Впливу буде повернута.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_DISCUSIONS_FAVOR_COST_WITH_REFUND">
+      <Text>Ви витрачаєте [ICON_FAVOR] {1_Num} Дипломатичної Угоди на ці Дискусії. Якщо Всесвітній Конгрес не погодиться з Вашими голосами, частина Вашої Угоди буде повернена.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_DISCUSIONS_FAVOR_COST_NO_REFUND">
+      <Text>Ви витрачаєте [ICON_FAVOR] {1_Num} Дипломатичних Бонусів, щоб запропонувати ці Дискусії.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_INSUFFICIENT_FAVOR_COST">
+      <Text>Недостатньо дипломатичних балів [ICON_FAVOR]. Вам потрібно щонайменше [ICON_FAVOR] {1_Num} дипломатичних балів.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NO_VOTING_DOWN">
+      <Text>Проголосуйте за ціль, яку ви хочете, щоб ця резолюція вплинула, та який ефект має бути реалізованим. Ваш перший голос є безкоштовним.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_AGAINST_TARGET">
+      <Text>Проголосуйте проти цієї Дискусії. Якщо Дискусія буде прийнята, то вас буде цілеспрямовано порушено цією Надзвичайною ситуацією. Перший голос - безкоштовний.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_AGAINST">
+      <Text>Проголосуйте проти цієї Дискусії. Навіть якщо Дискусія буде прийнята, ви не будете брати участь у наступному Оціненому Змаганні. Ваш перший голос безкоштовний.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_FOR">
+      <Text>Проголосуйте за цю дискусію. Якщо дискусія пройде, ви приєднаєтеся до результатів оціненої змагальності. Ваш перший голос безкоштовний.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_TIE_EXPLANATION">
+      <Text>У випадку нічиєї голосування переможцем буде та цивілізація, яка витратила найбільший процент її [ICON_Favor] Дипломатичного впливу під час голосування.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SELECT_ONE">
+      <Text>Ви повинні подати принаймні одну пропозицію.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SELECT_ALL">
+      <Text>Ви повинні проголосувати за всі подані Пропозиції.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_GAME_PAUSED">
+      <Text>Ви не можете продовжити гру, поки вона призупинена.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SUBMITTING">
+      <Text>Ваш голос був зареєстрований...</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PROPOSAL_COST">
+      <Text>Вартість цієї Дискусії складе {1_Num} [ICON_FAVOR] Дипломатичних Фаворів.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_CATEGORY_COST">
+      <Text>Вартість усіх дискусій у цій категорії становитиме {1_Num} [ICON_FAVOR] Дипломатичних Балів.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PROPOSAL_REFUND">
+      <Text>Видаліть цю Дискусію та поверніть {1_Num} [ICON_FAVOR] Дипломатичного Впливу.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_UP">
+      <Text>Додайте голос на підтримку {1_Num} [ICON_FAVOR] Дипломатичної підтримки.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_DOWN">
+      <Text>Зніміть один голос та поверніть {1_Num} [ICON_FAVOR] Дипломатичної Ласки.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_UP_SUMMARY">
+      <Text>Ви збираєтесь подати {1_Votes} {1_Votes : plural 1?голос; few?голоси; many?голосів; other?голосів}, які підтримують цю Дискусію.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_DOWN_SUMMARY">
+      <Text>Ви збираєтеся подати {1_Votes} {1_Votes : plural 1?голос; few?голоси; many?голосів;} проти цієї Дискусії.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_COST">
+      <Text>{1_Icon} {2_Votes} {2_Votes : plural 1?голос; other?голосів;} коштуватимуть {3_Cost} [ICON_FAVOR] Дипломатичної Угоди.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NEW_RESOLUTION">
+      <Text>Ця резолюція була прийнята під час останньої сесії Всесвітнього конгресу.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NEW_PROPOSAL">
+      <Text>Ця дискусія була проведена під час останньої сесії Всесвітнього конгресу.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_MAX_ONE_PROPOSAL">
+      <Text>Ви можете запропонувати лише одне рішення на гравця.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES">
+      <Text>A:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES_TT">
+      <Text>Наступні гравці вибрали варіант A: [NEWLINE][NEWLINE]{1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREFERRED_VOTES_TT">
+      <Text>Наступні гравці віддають перевагу цьому результату:[NEWLINE][NEWLINE]{1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES_TT_SUMMARY">
+      <Text>Ви збираєтеся подати {1_Amount} {1_Amount : plural 1?голос; few?голоси; many?голосів; other?голосів;} за результат А.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES">
+      <Text>B:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES_TT">
+      <Text>Наступних гравців обрали результат B:[NEWLINE][NEWLINE]{1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES_TT_SUMMARY">
+      <Text>Ви збираєтесь подати {1_Amount} {1_Amount : plural 1?голос; few?голоси; many?голосів; other?голосів} за результат B.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SELECT_TARGET">
+      <Text>Виберіть ціль</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_LAST_SESSION_RESULTS">
+      <Text>Результати останньої сесії</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ACTIVE_EFFECTS">
+      <Text>Активні ефекти</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AVAILABLE_PROPOSALS">
+      <Text>Доступні пропозиції</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CONFIRM_SUBMIT_PROPOSALS">
+      <Text>Подання обраних обговорень буде коштувати [ICON_FAVOR] {1_NumFavor} Дипломатичного Впливу і спровокує Спеціальну Сесію Всесвітнього Конгресу під час наступного ходу.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_TARGET">
+      <Text>Обраний мета:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_OUTCOME">
+      <Text>Обраний результат: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREVIEW_PROPOSAL_TARGET">
+      <Text>Обраний ціль:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREVIEW_PROPOSAL_OUTCOME">
+      <Text>Обраний результат: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_REJECTED_OUTCOME">
+      <Text>Відхилений результат: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_VOTER_TARGET">
+      <Text>Оберіть ціль:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_VOTER_OUTCOME">
+      <Text>Виберіть результат: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NO_AVAILABLE_PROPOSALS_TT">
+      <Text>У вас немає жодної пропозиції для подачі на Всесвітній конгрес.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TURNS_LEFT_TT">
+      <Text>Цей ефект Всесвітнього Конгресу закінчиться через [ICON_TURN] {1_Turns} {1_Turns : plural 1?ход; other?ходів;}.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TARGET_RESOLUTION_TT">
+      <Text>Ціллю цієї Резолюції є</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TARGET_PROPOSAL_TT">
+      <Text>Який є цільовий показник цього конкурсу?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_A_VOTES_TT">
+      <Text>{1_Votes} {1_Votes : якщо один голос; one? був голос; few? було голоси; many? було голосів;} подано на користь результату А.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_B_VOTES_TT">
+      <Text>{1_Votes} {1_Votes : коли 1?голос був; few?голоси були; many?голосів було;} подано на підтримку результату B.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_UP_VOTES_TT">
+      <Text>{1_Голос} {1_Голос : plural 1?був голос; few?були голоси; many?було голосів; other?були голоси;}.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_DOWN_VOTES_TT">
+      <Text>{1_Votes} {1_Votes : в одного голосу було; plural 1?було багато голосів;} подано проти цього конкурсу.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_A_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} подав {2_Votes} голос {2_Votes : plural 1?; інші?в тому числі;} на користь результату A.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_B_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} подав {2_Votes} голосів на користь варіанту B.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_UP_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} подав {2_Votes} {2_Votes : plural 1?голос; few?голоса; many?голосів; other?голосів;} на користь цього змагання.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_DOWN_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} подав {2_Votes} {2_Votes : plural 1?голос; few?голоси; many?голосів; other?голосів} проти цього Конкурсу.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_EMPTY">
+      <Text>Сесія Всесвітнього конгресу розпочнеться через {1_Turns} {1_Turns: plural=1?ход; plural=few?ходи; plural=many?ходів;}. [NEWLINE] [NEWLINE] Конгрес також може бути скликаний на Спеціальну сесію, обравши зі списку Доступних пропозицій. За часів криз по всьому світу, з'являться нові пропозиції.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_OR">
+      <Text>МОЖНА</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOICE_A">
+      <Text>БУДЬ ЛАСКА, НАДАЙТЕ ТЕКСТ ДЛЯ ПЕРЕКЛАДУ</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOICE_B">
+      <Text>B</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PASS">
+      <Text>Pass</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ADD_PROPOSALS">
+      <Text>Додати пропозиції</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CITY_STATE_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} захопив місто {OldCityName}. Ми повинні відновити його незалежність."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RELIGIOUS_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} перетворив {OldCityName} на {NewReligion}. Ми повинні знищити цю нову віру."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETRAYAL_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} зрадив {OldPlayerName}. Ми повинні покарати його зраду."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MILITARY_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} захопили {OldCityName}. Ми повинні протистояти їхній агресії."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NUCLEAR_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} використав ядерну зброю. Ми повинні покарати цей згидний вчинок."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AID_REQUEST_SUMMARY">
+      <Text>"{TargetName} постраждало від природної катастрофи. Ми повинні допомогти їм відновитися."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MILITARY_AID_REQUEST_SUMMARY">
+      <Text>"{TargetName} стає об'єктом нападу агресивного ворога. Ми повинні фінансувати їх захист."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CLIMATE_ACCORD_SUMMARY">
+      <Text>"Ми всі ділимо цю планету. Для наших дітей та їхніх дітей після них ми повинні її захищати."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_WORLD_GAMES_SUMMARY">
+      <Text>"Атлетизм не потрібно доводити в битві. Давайте доведемо, хто найсильніший через спорт."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_WORLDS_FAIR_SUMMARY">
+      <Text>"Яка нація має найкращих творчих людей та винахідників? Давайте побачимо, хто має найяскравіші розуми."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ISS_SUMMARY">
+      <Text>"Космос занадто великий для будь-якої цивілізації. Давайте працювати разом, щоб досліджувати цей невідомий фронт."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_PEACE_SUMMARY">
+      <Text>"Швеція бажає визнати найбільш мирну націю. Побачимо, хто з нас такою є."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_LITERATURE_SUMMARY">
+      <Text>"Швеція бажає визнати чудовий почерк. Ми побачимо, хто створить найкращу літературу."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_SCIENCE_SUMMARY">
+      <Text>"Швеція бажає визнати наукове лідерство. Ми побачимо, хто найкраще сприяє розвитку наукових досліджень."</Text>
+    </Row>
+    <!-- Scored Competitions -->
+    <Row Tag="LOC_SCORED_COMPETITION_EMERGENCY_COMPLETED">
+      <Text>{1_Name} ЗАВЕРШИВ(ЛА)</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_EMERGENCY_ONGOING">
+      <Text>ТРИВАЄ {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_COMPLETED">
+      <Text>КОНКУРС ЗАВЕРШЕНО</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_ONGOING">
+      <Text>ТРИВАЄ КОНКУРС</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_WIN">
+      <Text>ВИ ПЕРЕМОГЛИ!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_LEADER_WINS">
+      <Text>{1_Name} ПЕРЕМОЖЕЦЬ!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_WIN">
+      <Text>ЧЛЕНИ ПЕРЕМАГАЮТЬ!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_TARGET_WINS">
+      <Text>ЦІЛЬ ВИГРАЄ!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_BRONZE">
+      <Text>Ви заробили [ICON_Reward_Bronze] винагороди БРОНЗОВОГО рівня</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_SILVER">
+      <Text>Ви отримали [ICON_Reward_Silver] Винагороди Срібного Рівня</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_GOLD">
+      <Text>Ви заробили [ICON_Reward_Gold] Нагороди Золотого рівня</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_NONE">
+      <Text>Ви заробили [ICON_Reward_None] Нагороди</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_TARGET">
+      <Text>Ви заробили [ICON_Reward_Target] Винагороди цільової програми</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_MEMBER">
+      <Text>Ви заробили [ICON_Reward_Member] Нагороди для Учасника</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_GOLD_TIER">
+      <Text>[ICON_Reward_Gold] Золотий рівень</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER">
+      <Text>[ICON_Reward_Silver] СРІБНИЙ рівень</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_BRONZE_TIER">
+      <Text>[ICON_Reward_Bronze] БРОНЗОВИЙ рівень</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_TIME_SUCCESS">
+      <Text>Члени виконали свою мету вчасно.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_TIME_FAIL">
+      <Text>Члени не встигли виконати свою мету вчасно.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_AID_REQUEST_SUCCESS">
+      <Text>Члени відправили усю допомогу, яку могли в рамках виділеного часу. Один благодійник виділяється серед інших.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_SUCCESS">
+      <Text>Цей мирний змагання світових держав дійшло кінця. Одна цивілізація виділяється серед інших.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_LITERATURE_SUCCESS">
+      <Text>Швеція присудила престижну Нобелівську премію з літератури наймистецькішій Цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_PEACE_SUCCESS">
+      <Text>Швеція присудила престижний Нобелівський премію миру найбільш мирній цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_SCIENCE_SUCCESS">
+      <Text>Швеція присудила престижну Нобелівську премію з фізики найбільш науково орієнтованому Цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER_CHILD">
+      <Text>Всі нагороди Silver Tier</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_GOLD_TIER_TITLE">
+      <Text>[ICON_Reward_Gold] Нагороди "Золотого" тиру (за найвищий бал):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER_TITLE">
+      <Text>[ICON_Reward_Silver] Нагороди на срібному рівні (для верхніх 25% рейтингів):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_BRONZE_TIER_TITLE">
+      <Text>[ICON_Reward_Bronze] Винагороди для бронзового тиру (для наступних 25% балів):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_TARGET_TIER_TITLE">
+      <Text>[ICON_Reward_Target] Нагороди за досягнення цілей (якщо час вийшов):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBER_TIER_TITLE">
+      <Text>[ICON_Reward_Member] Винагороди для учасників (за виконання завдань вчасно):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NO_TIER_TITLE_BOTTOM">
+      <Text>[ICON_Reward_None] Гравці, які не отримують місця в рівні, не отримують нагород</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NO_TIER_TITLE_NONE">
+      <Text>[ICON_Reward_None] Учасники без балів не отримують жодних винагород</Text>
+    </Row>
+    <!-- Rock band -->
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_DESCRIPTION">
+      <Text>Ваш менеджер очікує залучити {1_Tourism} [ICON_TOURISM] туристів до цього місця. [NEWLINE][NEWLINE] Є {2_Death}% шанс того, що ці рокери проведуть тут свій останній концерт і піде у відставку.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_DIFFERENT_OWNER">
+      <Text>Має бути на плитці, що належить іншій головній цивілізації, ніж ваша.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_LOCATION">
+      <Text>Потрібно вказати дійсне місце призначення. Можливі місця призначення включають Чудеса, Райони з однією з необхідних будівель або спеціальні місця призначення, дозволені за однією з просувань гурту.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_NOTPLAYED">
+      <Text>Той же самий камінь не можна грати кілька разів.</Text>
+    </Row>
+    <!-- Drought -->
+    <Row Tag="LOC_UNITOPERATION_REPAIR_BLOCKED_BY_DROUGHT">
+      <Text>Ця покращення не може бути відремонтована, поки триває посуха.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_IMPROVEMENT_BLOCKED_BY_DROUGHT">
+      <Text>Це покращення не може бути збудоване, поки триває посуха.</Text>
+    </Row>
+    <!-- Espionage -->
+    <Row Tag="LOC_VIZSOURCE_HIGHLEVEL_SPY">
+      <Text>Шпигун - це таємний агент, або краще</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_HIGHLEVEL_SPY">
+      <Text>(додаткова видимість, якщо секретний агент або майстер шпигун)</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_LISTENING_POST">
+      <Text>Збільшує [ICON_VisLimited] Рівень дипломатичного впливу на 1 рівень (2, якщо агент вищого рівня або вище)</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_BREACH_DAM_DESCRIPTION">
+      <Text>Порушення дамби</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_BREACH_DAM_REWARD">
+      <Text>він розграбовує воду з Даму, щоб затопити долину річки</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_BREACH_DAM">
+      <Text>Затоплення долини річки, що містить греблю</Text>
+    </Row>
+    <!-- updated base game and dlc strings -->
+    <Row Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION">
+      <Text>Покращення, яке розблоковується за допомогою Масонства і повинно бути збудоване на пустелі, пустельних пагорбах або пустельних повенях. +2 [ICON_Faith] Віри та +2 [ICON_Food] Їжі. Отримує додаткові врожаї від прилеглих районів. +1 [ICON_Food] Їжі, якщо прилягає до центру міста. Для всіх інших районів, які надають бонуси за прилеглість: +1 відповідного урожаю, якщо той район прилягає.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION">
+      <Text>Надає безкоштовного будівельника. Всі будівельники можуть збудувати 1 додаткове вдосконалення. Має бути збудований на пустелі (включаючи затоплені пустелі) без пагорбів.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PETRA_DESCRIPTION">
+      <Text>+2 [ICON_Food] Їжі, +2 [ICON_Gold] Золота та +1 [ICON_Production] Виробництва на всіх пустелівих плитах для цього міста (крім заливних рівнин). Має бути побудований на пустелі або заливних рівнинах без пагорбів.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_VIEW_ENABLED_TT">
+      <Text>[NEWLINE]Клікніть, щоб переглянути деталі міста</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_VIEW_DISABLED_TT">
+      <Text>[NEWLINE][COLOR_RED]Підвищити рівень доступу, щоб переглянути деталі цього міста[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATES_SUZERAIN_DIPLOMATIC_BONUS">
+      <Text>Suzerain Diplomacy Bonus:[NEWLINE][ICON_Bolt]You gain a base of +1 [ICON_FAVOR] Diplomatic Favor every turn.[NEWLINE][ICON_Bolt]The city-state follows you into war and peace with other players.[NEWLINE][ICON_Bolt]City-state lands become friendly territory. Your units can move there, heal there, and upgrade there.[NEWLINE][ICON_Bolt]Your Builder units may improve city-state tiles.[NEWLINE][ICON_Bolt]See 3 tiles around the city-state.[NEWLINE][ICON_Bolt]Can pay [ICON_Gold] Gold to temporarily take control of the city-state's military.[NEWLINE][ICON_Bolt]Gain ownership of all the city-state's resources.</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_ADDITIONAL_FERTILITY">
+      <Text>Може отримати додаткові врожаї від екологічних ефектів.</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_MAY_ERUPT">
+      <Text>Може виникнути виверження</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_DETAILS_EXP2">
+      <Text>Щоб досягти перемоги в [COLOR:ResScienceLabelCS]НАУЦІ[ENDCOLOR], вам потрібно виконати 4 основних етапи:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_NO_LAUNCH">
+      <Text>Експедиція до екзопланет ще не розпочалася.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_HAS_MOVED">
+      <Text>Експедиція на екзопланети подорожувала {1_LightYearsTraveled} / {2_LightYearsTotalNeeded} світлових {2_LightYearsTotalNeeded : plural 1?рік; few?роки; other?років;}.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_IS_MOVING">
+      <Text>Експедиція до екзопланет подорожує {1_LightYearsPerTurn} світлових {1_LightYearsPerTurn : plural 1?рік; few?роки; many?років;} за хід.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_LIGHT_YEARS">
+      <Text>світлові роки.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_LIGHT_YEARS_PER_TURN">
+      <Text>світлові роки на оберт.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_4">
+      <Text>Започніть експедицію до екзопланети.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_FINAL">
+      <Text>Допоможіть Експедиції Екзопланет подорожувати {1_NumLightYears} світлових років.</Text>
+    </Row>
+    <Row Tag="LOC_ROUTECHOOSER_YIELD_SOURCE_TRADING_POSTS">
+      <Text>{1_YieldAmount} {2_YieldIconString} {3_YieldName} з пам'яток, що розташовані вздовж шляху, що полегшують торгівлю (водні майданчики, залізниці, канали, гірські тунелі та ваші [ICON_TradingPost] торгові пости).</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_POINT_DETAILS">
+      <Text>{1_PointsPerTurn} {2_IconString} {3_GreatPersonClassName} {1_PointsPerTurn : plural 1?поінт; few?поінти; many?поінтів; other?поінтів;} зароблено цього ходу.[NEWLINE][NEWLINE] Поінти отримуються в основному з округ та будівель, а також можуть бути отримані зі світових чудес, політики та міських проектів.</Text>
+    </Row>
+    <!--Dan Quayle Screen-->
+    <Row Tag="LOC_UI_ENDGAME_RANKING_LEADER_12_NAME">
+      <Text>Луї XV</Text>
+    </Row>
+    <Row Tag="LOC_UI_ENDGAME_RANKING_LEADER_12_QUOTE">
+      <Text>Після мене потоп.</Text>
+    </Row>
+    <!--Power Panel of City Details screen-->
+    <Row Tag="LOC_CITY_PANEL_POWER_HEADER">
+      <Text>Влада</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_CURRENT_POWER">
+      <Text>Згенеровано</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_REQUIRED_POWER">
+      <Text>Надано</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_FULLY_POWERED_STATUS">
+      <Text>Це місто повністю електроенергетизоване. Всі міські споруди, які використовують [ICON_Power] електроенергію, працюють на повну потужність.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_UNPOWERED_STATUS">
+      <Text>Це місто не повністю захоплене електроенергією. Усі міські споруди, які використовують [ICON_Power] електроенергію, мають знижену ефективність.</Text>
+    </Row>
+    <!--Cultural Dominance effects-->
+    <Row Tag="LOC_CULTURAL_DOMINANCE_TRADE_GOLD_SUMMARY">
+      <Text>[ICON_TradeRoute] Торговельні маршрути до іноземних міст, які ви культурно домінуєте, забезпечують +4 [ICON_GOLD] Золота</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_DOMINANCE_ESPIONAGE_MISSION_LENGTH_SUMMARY">
+      <Text>Шпигунські місії в інших містах, де ви маєте культурне переважання, виконуються на 50% швидше</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_DOMINANCE_CITIZEN_LOYALTY_PRESSURE_SUMMARY">
+      <Text>Ваші [ICON_Citizen] громадяни створюють на 25% більше тиску лояльності на інші міста, які культурно підпорядковуються вам</Text>
+    </Row>
+  </EnglishText>
+</GameData>

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Promotion Class Names -->
+    <Row Tag="LOC_PROMOTION_CLASS_RECON_NAME">
+      <Text>Розвідка</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_MELEE_NAME">
+      <Text>Ближній бій</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_RANGED_NAME">
+      <Text>Дальність</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SIEGE_NAME">
+      <Text>Облога</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_ANTI_CAVALRY_NAME">
+      <Text>Антикавалерія</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_LIGHT_CAVALRY_NAME">
+      <Text>Легка кавалерія</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_HEAVY_CAVALRY_NAME">
+      <Text>Важка кавалерія</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_AIR_FIGHTER_NAME">
+      <Text>Літак-воїн</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_AIR_BOMBER_NAME">
+      <Text>Повітряний бомбардувальник</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_MELEE_NAME">
+      <Text>Морський бій</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_RANGED_NAME">
+      <Text>Морський дальнобійний</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_CARRIER_NAME">
+      <Text>Морський авіаносець</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_RAIDER_NAME">
+      <Text>Морський рейдер</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_APOSTLE_NAME">
+      <Text>Релігійний Апостол</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_INQUISITOR_NAME">
+      <Text>Релігійний інквізитор</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SUPPORT_NAME">
+      <Text>Підтримка</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SPY_NAME">
+      <Text>Шпигунство</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_MONK_NAME">
+      <Text>Воїн-монах</Text>
+    </Row>
+    <!-- Formation Class Names -->
+    <Row Tag="LOC_FORMATION_CLASS_AIR_NAME">
+      <Text>Повітряний бій</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_CIVILIAN_NAME">
+      <Text>Цивільний</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_LAND_COMBAT_NAME">
+      <Text>Сухопутний бій</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_NAVAL_NAME">
+      <Text>Naval Combat</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_SUPPORT_NAME">
+      <Text>Підтримка</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_FAITH_INCREASE_FLOATER">
+      <Text>+{1_Num} [ICON_Faith]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_FAITH_DECREASE_FLOATER">
+      <Text>{1_Num} [ICON_Faith] [COLOR_RED]ЗАГУБЛЕНИЙ[ENDCOLOR]</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_UNIT_DAMAGE_DECREASE_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_DAMAGE_INCREASE_FLOATER">
+      <Text>[COLOR_RED]{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <!-- Experience Message -->
+    <Row Tag="LOC_WORLD_UNIT_EXPERIENCE_INCREASE_FLOATER">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num}ОП[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_EXPERIENCE_INCREASE_LEVEL_FLOATER">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num}XP[NEWLINE]*АКЦІЯ ДОСТУПНА*[ENDCOLOR]</Text>
+    </Row>
+    <!-- Production Yield Message -->
+    <Row Tag="LOC_WORLD_PRODUCTION_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_PRODUCTION]+{1_Num} [ICON_Production][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_PRODUCTION_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_PRODUCTION]{1_Num}[ICON_Production][ENDCOLOR] [COLOR_RED]ВТРАЧЕНО[ENDCOLOR]</Text>
+    </Row>
+    <!-- Food Yield Message -->
+    <Row Tag="LOC_WORLD_FOOD_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_FOOD]+{1_Num} [ICON_Food][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_FOOD_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_FOOD]{1_Num} [ICON_Food][ENDCOLOR] [COLOR_RED]ЗАГУБЛЕНО[ENDCOLOR]</Text>
+    </Row>
+    <!-- Gold Yield Message -->
+    <Row Tag="LOC_WORLD_GOLD_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_GOLD_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_GOLD]{1_Num} [ICON_Gold][ENDCOLOR] [COLOR_RED]ЗАГУБЛЕНО[ENDCOLOR]</Text>
+    </Row>
+    <!-- Science Yield Message -->
+    <Row Tag="LOC_WORLD_SCIENCE_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_SCIENCE]+{1_Num} [ICON_Science][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_SCIENCE_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_SCIENCE]{1_Num} [ICON_Science][ENDCOLOR] [COLOR_RED]ЗАГУБЛЕНИЙ[ENDCOLOR]</Text>
+    </Row>
+    <!-- Culture Yield Message -->
+    <Row Tag="LOC_WORLD_CULTURE_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num} [ICON_Culture][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CULTURE_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_CULTURE]{1_Num} [ICON_Culture][ENDCOLOR] [COLOR_RED]ЗАГУБЛЕНО[ENDCOLOR]</Text>
+    </Row>
+    <!-- Civilian-->
+    <Row Tag="LOC_UNIT_SETTLER_DESCRIPTION">
+      <Text>Може створити нові міста. Після завершення зменшує населення міста на 1 [ICON_Citizen].</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BUILDER_DESCRIPTION">
+      <Text>Можна створювати покращення плитки, видаляти рослинність, наприклад ліси або тропічний ліс, або збирати деякі ресурси. Будівельниками можна скористатися 3 рази. Це можна збільшити за допомогою політики або дива, як, наприклад, Піраміди.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRADER_DESCRIPTION">
+      <Text>Може створювати та забезпечувати один єдиний торговий маршрут [ICON_TradeRoute]. Автоматично створює дороги під час подорожі.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MISSIONARY_DESCRIPTION">
+      <Text>Може перетворювати [ICON_Citizen] громадян на їхню релігію. Не може ініціювати богословський бій з одиницями інших релігій (але може захищатися).</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_APOSTLE_DESCRIPTION">
+      <Text>Може перетворювати [ICON_Citizen] громадян на свою релігію та ініціювати богословський бій з одиницями інших релігій. Один раз за гру може запустити Інквізицію, щоб дозволити купівлю Інквізиторів. Один раз за гру може проводити Євангелізацію Віри, щоб додати до своєї релігії додаткову віру. Ці використання вичерпують Апостола. [ICON_Citizen]</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INQUISITOR_DESCRIPTION">
+      <Text>Може ліквідувати присутність інших релігій на своїй території та ініціювати богословську боротьбу з одиницями інших релігій.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GURU_DESCRIPTION">
+      <Text>Може використовувати заряд, щоб вилікувати себе та всі сусідні дружні релігійні одиниці. Не може розпочинати бойові дії з одиницями інших релігій (але може захищатися).</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_WARRIOR_MONK_DESCRIPTION">
+      <Text>Швидкоплинна бойова одиниця на суходолі з унікальним деревом просування.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARCHAEOLOGIST_DESCRIPTION">
+      <Text>Знайдіть та видобудьте [ICON_GreatWork_Artifact] артефакти з [ICON_RESOURCE_ANTIQUITY_SITE] античних місць, щоб вони могли бути виставлені в музеї їхнього рідного міста.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPY_DESCRIPTION">
+      <Text>Виконує таємні місії в іноземних містах та захищає ваші міста від ворожих шпигунів.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NATURALIST_DESCRIPTION">
+      <Text>Цивільний персонаж, який може створити один національний парк в кінці гри, щоб привабити туристів [ICON_Tourism]. Може бути придбаний за допомогою [ICON_Faith] віри.</Text>
+    </Row>
+    <!-- Great People-->
+    <Row Tag="LOC_UNIT_GREAT_GENERAL_DESCRIPTION">
+      <Text>Кожен [ICON_GreatGeneral] Великий Генерал має унікальні здібності, включаючи пасивний ефект та ефект відставки. Відвідайте панель Великих Осіб, щоб дізнатися більше та відстежувати свій прогрес.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ADMIRAL_DESCRIPTION">
+      <Text>Кожен [ICON_GreatAdmiral] Великий Адмірал має унікальні здібності, включаючи пасивний ефект та ефект Відходу. Відвідайте панель Великих Осіб, щоб дізнатися більше та відстежувати свій прогрес.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ENGINEER_DESCRIPTION">
+      <Text>Кожен [ICON_GreatEngineer] Великий Інженер має унікальні можливості під час активації. Відвідайте панель Великих Людей, щоб дізнатися більше та відстежувати свій прогрес.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_MERCHANT_DESCRIPTION">
+      <Text>Кожен [ICON_GreatMerchant] Великий Купець має унікальні здібності при активації. Відвідайте панель Великих Осіб, щоб дізнатися більше і відстежувати свій прогрес.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_PROPHET_DESCRIPTION">
+      <Text>Великі [ICON_GreatProphet] пророки можуть заснувати релігію при активації. Відвідайте панель Великих Людей, щоб дізнатися більше та відстежувати свій прогрес.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_SCIENTIST_DESCRIPTION">
+      <Text>Кожен [ICON_GreatScientist] Великий Вчений має унікальні здібності при активації. Відвідайте вкладку Великих Людей, щоб дізнатися більше та відстежувати свій прогрес.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_WRITER_DESCRIPTION">
+      <Text>Кожен великий письменник [ICON_GreatWriter] створює великий твір письменства [ICON_GreatWork_Writing], як тільки він активується. Відвідайте панель Великих Осіб, щоб дізнатися більше та відстежувати свій прогрес.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ARTIST_DESCRIPTION">
+      <Text>Кожен [ICON_GreatArtist] Великий Митець створює [ICON_GreatWork_Landscape] Великий Твір Мистецтва під час активації. Відвідайте вкладку Великих Осіб, щоб дізнатися більше і відстежувати свій прогрес.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_MUSICIAN_DESCRIPTION">
+      <Text>Кожен [ICON_GreatMusician] Великий Музикант генерує [ICON_GreatWork_Music] Великий Твір Музики при активації. Відвідайте панель Великих Людей, щоб дізнатися більше та відстежити свій прогрес.</Text>
+    </Row>
+    <!-- Recon-->
+    <Row Tag="LOC_UNIT_SCOUT_DESCRIPTION">
+      <Text>Швидкоплинний розвідувальний підрозділ давнього періоду.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RANGER_DESCRIPTION">
+      <Text>Рухлива розвідувальна одиниця промислової ери.</Text>
+    </Row>
+    <!-- Melee-->
+    <Row Tag="LOC_UNIT_WARRIOR_DESCRIPTION">
+      <Text>Слабка ближня одиниця часів Стародавності.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPEARMAN_DESCRIPTION">
+      <Text>Антикавалерійська одиниця давньої епохи.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SWORDSMAN_DESCRIPTION">
+      <Text>Сильний ближній одиниця епохи Класики.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIKEMAN_DESCRIPTION">
+      <Text>Антикавалерійський підрозділ середньовічної епохи.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MUSKETMAN_DESCRIPTION">
+      <Text>Ближньобойна одиниця епохи Відродження.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INFANTRY_DESCRIPTION">
+      <Text>Модерна ближня бійцівська одиниця.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MECHANIZED_INFANTRY_DESCRIPTION">
+      <Text>Бійці інформаційної ери.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AT_CREW_DESCRIPTION">
+      <Text>Сучасна ера засобів протидії кінноті.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MODERN_AT_DESCRIPTION">
+      <Text>Ера інформації протиставлена конниці.</Text>
+    </Row>
+    <!-- Ranged-->
+    <Row Tag="LOC_UNIT_SLINGER_DESCRIPTION">
+      <Text>Слаба далекобійна одиниця Давнього часу. Краще на атаку, ніж на захист.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARCHER_DESCRIPTION">
+      <Text>Перша давньоісторична дальнобойна одиниця з діапазоном [ICON_Range] 2.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION">
+      <Text>Далекобійна одиниця середньовічної епохи.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION">
+      <Text>Промислова одиниця бойової підтримки.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION">
+      <Text>Атомна боєпригодна одиниця.</Text>
+    </Row>
+    <!-- Light Cavalry-->
+    <Row Tag="LOC_UNIT_HORSEMAN_DESCRIPTION">
+      <Text>Швидкісна легка кавалерійська одиниця епохи класики.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CAVALRY_DESCRIPTION">
+      <Text>Швидкоплинна легка кавалерія епохи промислового розвитку.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HELICOPTER_DESCRIPTION">
+      <Text>Швидкісна атомна легка кавалерійська одиниця ери атомів.</Text>
+    </Row>
+    <!-- Siege-->
+    <Row Tag="LOC_UNIT_CATAPULT_DESCRIPTION">
+      <Text>Класичний осадний блок епохи, ідеальний для атак на міста. Не може рухатись та атакувати в одному ході, якщо не отримав підвищення до Експертної екіпажу.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BOMBARD_DESCRIPTION">
+      <Text>Одиниця облоги епохи Ренесансу, ідеальна для атак на міста. Не може рухатись і атакувати у той самий хід, якщо не отримала просування Експертна команда.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARTILLERY_DESCRIPTION">
+      <Text>Сучасний осадний блок, ідеальний для атаки міст. Не може рухатись і атакувати в одному ході, якщо він не отримав просування "Експертна команда".</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ROCKET_ARTILLERY_DESCRIPTION">
+      <Text>Одиниця осади інформаційної ери, ідеальна для атак на міста. Не може рухатись та атакувати в той же хід, якщо вона не отримала просування "Експертна команда".</Text>
+    </Row>
+    <!-- Support-->
+    <Row Tag="LOC_UNIT_BATTERING_RAM_DESCRIPTION">
+      <Text>Підтримуюча одиниця стародавньої ери. Коли вона прилягає до міста, ближні бійці завдають максимальної шкоди стінам міста.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SIEGE_TOWER_DESCRIPTION">
+      <Text>Підтримуюча одиниця епохи класики. Коли перебуває поруч з містом, нападаючі ближнього бою ігнорують Стіни та безпосередньо атакують місто.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDIC_DESCRIPTION">
+      <Text>Промисловий супровідний блок. Може відновлювати здоров'я поруч знаходящимся військовим одиницям.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION">
+      <Text>Одиниця підтримки сучасної епохи. Надає +1 [ICON_Range] Радіусу для одиниць класу Огорожі в межах 1 шестигранника.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MILITARY_ENGINEER_DESCRIPTION">
+      <Text>Підтримуюча одиниця епохи середньовіччя. Для виробництва потрібна збройна камера. Може будувати поліпшення Доріг, Фортець, Майданчиків для літаків та Ракетних силосів.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANTIAIR_GUN_DESCRIPTION">
+      <Text>Атомна ера протиповітряна підтримка. Забезпечує захист від повітряних атак на відстані до 1 гекса від зброї.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MOBILE_SAM_DESCRIPTION">
+      <Text>Відділ підтримки проти повітряних нападів в ері інформації. Забезпечує захист від повітряних та ядерних атак на відстані до 1 гекса від зброї.</Text>
+    </Row>
+    <!-- Heavy Cavalry -->
+    <Row Tag="LOC_UNIT_HEAVY_CHARIOT_DESCRIPTION">
+      <Text>Міцна, важка кінниця давнього часу. Отримує додатковий бонус до руху [ICON_Movement], якщо починає хід на рівному тайлі без лісу, дощових лісів або гір.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KNIGHT_DESCRIPTION">
+      <Text>Важка кіннота середньовічної епохи з сильним ударом.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MODERN_ARMOR_DESCRIPTION">
+      <Text>Юніт важкої кавалерії епохи інформації, що є швидким та міцним.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TANK_DESCRIPTION">
+      <Text>Швидкісна важка кіннота сучасної ери, що нехтує зоною контролю.</Text>
+    </Row>
+    <!--Naval-->
+    <Row Tag="LOC_UNIT_GALLEY_DESCRIPTION">
+      <Text>Давньоериний бій проти морських піхотинців. Може діяти тільки на прибережних водах до дослідження картографії.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_QUADRIREME_DESCRIPTION">
+      <Text>Класичний військовий корабель. Може діяти лише на прибережних водах, доки не буде досліджено картографію.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CARAVEL_DESCRIPTION">
+      <Text>Швидкий ближній морський бійний корабель епохи Ренесансу, призначений для дослідження.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_IRONCLAD_DESCRIPTION">
+      <Text>Могутній промисловий броньований корабельний боєць для ближнього бою.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUCLEAR_SUBMARINE_DESCRIPTION">
+      <Text>Високотехнологічна морська одиниця для рейдінгу в ері інформаційних технологій, яка може бути озброєна ядерними зброями. Може бути помічена тільки іншими морськими рейдерами, якщо перебуває поруч з ними. Розкриває морських рейдерів у радіусі видимості.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SUBMARINE_DESCRIPTION">
+      <Text>Сучасна ера морських рейдерських одиниць. Може бути побачена лише іншими морськими рейдерами, якщо вона прилегла до них. Розкриває наявність морських рейдерів у зоні видимості.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRIVATEER_DESCRIPTION">
+      <Text>Морська одиниця доби Відродження з можливістю прибережного рейду. Вона видна лише іншим морським рейдерам, якщо знаходиться поруч з ними. Розкриває морських рейдерів у зоні видимості.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FRIGATE_DESCRIPTION">
+      <Text>Морська військова одиниця доби Відродження.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AIRCRAFT_CARRIER_DESCRIPTION">
+      <Text>Атомний бійковий морський транспорт, який може переміщувати повітряні одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION">
+      <Text>Сучасна морська далекобійна одиниця. Забезпечує захист від повітряних та ядерних атак на відстань до 1 плитки.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION">
+      <Text>Найсильніша дистанційна морська одиниця, доступна в епоху інформації.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_DESTROYER_DESCRIPTION">
+      <Text>Найсильніша бойова морська одиниця для ближнього бою. Виявляє Навальних Райдерів на відстані видимості.</Text>
+    </Row>
+    <!--Air Units-->
+    <Row Tag="LOC_UNIT_BIPLANE_DESCRIPTION">
+      <Text>Перша бойова авіаційна одиниця, доступна в ері Modern.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FIGHTER_DESCRIPTION">
+      <Text>Покращення біплана епохи атомної ери.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BOMBER_DESCRIPTION">
+      <Text>Перший винищувальний загін, доступний в ерії Атомної епохи.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JET_FIGHTER_DESCRIPTION">
+      <Text>Оновлення бійців інформаційної ери.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JET_BOMBER_DESCRIPTION">
+      <Text>Оновлення бомбардувальника епохи інформації.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAN_AT_ARMS_DESCRIPTION">
+      <Text>Ближнього бою одиниця середньовічної епохи.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_LINE_INFANTRY_DESCRIPTION">
+      <Text>Промисловий бійцівський одиниця епохи промисловості.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TREBUCHET_DESCRIPTION">
+      <Text>Середньовічна осадна одиниця, ідеальна для атаки на міста. Не може рухатись та атакувати в той же хід, якщо вона не отримала просування Експертна команда.</Text>
+    </Row>
+    <!-- Unique Units-->
+    <Row Tag="LOC_UNIT_BARBARIAN_HORSEMAN_DESCRIPTION">
+      <Text>Доісторичний воїн на коні.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BARBARIAN_HORSE_ARCHER_DESCRIPTION">
+      <Text>Стародавній епохи примітивний кінній лучник.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_DESCRIPTION">
+      <Text>Єгипетська унікальна багатострільна одиниця епохи Стародавніх, яка замінює Важкий Колісний Фургон. 4 [ICON_Movement] Руху, коли починається на відкритій місцевості.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREEK_HOPLITE_DESCRIPTION">
+      <Text>Грецька унікальна антикавалерійська одиниця епохи Античності, яка замінює Копійника. +10 [ICON_Strength] бойової міці, якщо є принаймні одна сусідня унітазія Гопліта.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_DESCRIPTION">
+      <Text>Скіфський унікальний одиниця класичної ери. Дальньобійна одиниця з 4 [ICON_Movement] рухом і [ICON_Range] дальністю 1.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SUMERIAN_WAR_CART_DESCRIPTION">
+      <Text>Сумерська унікальна одиниця давньої ери. Сильніше за всі інші початкові одиниці. Немає штрафів проти антикавалерійських одиниць. 4 [ICON_Movement] Руху, якщо ця одиниця починає відкрите поле.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION">
+      <Text>Унікальна одиниця епохи промисловості для Вікторії, яка замінює лінійну піхоту. +10 [ICON_Strength] бойової сили при боротьбі на континенті, відмінному від столиці. Безкоштовна висадка.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_ROUGH_RIDER_DESCRIPTION">
+      <Text>Американська унікальна одиниця часів промислового періоду, коли їхнім лідером був Тедді Рузвельт. [ICON_Culture] Культуру отримують за вбивства на континенті їх [ICON_Capital] столиці. +10 [ICON_Strength] Сили бойових дій при битві на пагорбах. Нижчі витрати на утримання.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ROMAN_LEGION_DESCRIPTION">
+      <Text>Римська унікальна ближньо-бійна одиниця епохи Класики, яка замінює Мечника. Може будувати Римський форт.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION">
+      <Text>Японська унікальна ближньобойна одиниця середньовічної епохи, яка замінює "Man-At-Arms". Не піддається штрафам в бою при пошкодженні.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION">
+      <Text>Норвезький унікальний ближнього бою військовий підрозділ середньовічної ери, що замінює людину-зі-зброєю. 4 [ICON_Movement] Рух, якщо цей підрозділ починає ворожу територію. +10 [ICON_Strength] Сила бойової взаємодії при атаках та -5 [ICON_Strength] Сила бойової взаємодії при захисті від атак ближнього бою.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NORWEGIAN_LONGSHIP_DESCRIPTION">
+      <Text>Норвезька унікальна морська одиниця давнього часу, яка заміняє Галеру. Може розграбувати прибережні землі ворога та захоплювати цивільних осіб, якщо знаходиться поруч з ними, використовуючи свою здатність до прибережного рейду. 4 [ICON_Movement] Рух під час перебування в прибережних водах.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION">
+      <Text>Китайська унікальна одиниця середньовічної ери. Дальньохідний боєць з діапазоном вогню [ICON_Range] 1 та високою бойовою силою.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION">
+      <Text>Іспанська унікальна одиниця епохи Ренесансу, яка замінює Мушкетера. +10 [ICON_Strength] Сили бойових дій, коли в радіусі одного гекса знаходиться релігійна одиниця. Якщо ця одиниця захоплює місто або перебуває поруч з містом під час його захоплення, то місто автоматично перейде на релігію Конкістадора як домінуючу релігію.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RUSSIAN_COSSACK_DESCRIPTION">
+      <Text>Російська унікальна одиниця ери Промисловості, яка замінює Кінноту. Сильніше, ніж Кіннота, та надає додаткові +5 [ICON_Strength] очок бойової міцності, коли бореться в своїй території або поруч з нею. Може переміщуватись після атаки, якщо залишається [ICON_Movement] балів руху.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION">
+      <Text>Індійська унікальна важка кіннота періоду Класичної епохи. Прилеглі ворожі одиниці отримують -5 [ICON_STRENGTH] бойової міцності.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KONGO_SHIELD_BEARER_DESCRIPTION">
+      <Text>Конго унікальна одиниця Класичної епохи, яка замінює Мечника. +10 [ICON_Strength] Бойова сила при захисті від дальнобойних атак. Може рухатися та бачити через ліс та тропічний дощовий ліс.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARABIAN_MAMLUK_DESCRIPTION">
+      <Text>Арабська унікальна одиниця середньовічного періоду, яка замінює лицаря. Він виліковується в кінці кожного ходу, навіть після переміщення або атаки.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ENGLISH_SEADOG_DESCRIPTION">
+      <Text>Унікальна морська одиниця епохи Ренесансу, що замінює Пірата. Має шанс захоплювати здобуті ворожі кораблі. Її можуть побачити лише інші Морські Райдери, якщо вона прилягає до них. Відкриває Морських Райдерів в межах видимості.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION">
+      <Text>Французький унікальний ближній бій на еру промисловості, який замінює лінійну піхоту. +10 [ICON_Strength] бойової міцності під час бою на континенті вашої столиці. [ICON_GreatGeneral] очки Великого Генерала за вбивство ворожих одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GERMAN_UBOAT_DESCRIPTION">
+      <Text>Німецька унікальна морська одиниця епохи «Новітні часи», яка замінює підводний човен. Дешевша у виробництві, має +1 видимість та +10 [ICON_Strength] бойової міцності при бою на океанських плитах. Може розкривати інші приховані одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_P51_DESCRIPTION">
+      <Text>Американський унікальний авіаційний підрозділ епохи Атомної ери, який замінює мисливця. Отримує +5 [ICON_Strength] бойової міцності проти винищувачів, має +2 дальність польоту та отримує +50% досвіду.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_DESCRIPTION">
+      <Text>Бразильська унікальна одиниця індустріальної ери, яка замінює лінкор. Сильніше, ніж лінкор. Розблоковується за допомогою націоналізму.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UNIT_TYPE_NAME_SUFFIX">
+      <Text>({1_ТипНазвиОдиниці})</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!---->
+    <!-- PROMOTION NAME TEXT -->
+    <!---->
+    <!--Recon-->
+    <Row Tag="LOC_PROMOTION_RANGER_NAME">
+      <Text>Рейнджер</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ALPINE_NAME">
+      <Text>Альпи</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SENTRY_NAME">
+      <Text>Сторож</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPYGLASS_NAME">
+      <Text>Дальномер</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GUERRILLA_NAME">
+      <Text>Партизан</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMBUSH_NAME">
+      <Text>Засідка</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAMOUFLAGE_NAME">
+      <Text>Камуфляж</Text>
+    </Row>
+    <!--Melee-->
+    <Row Tag="LOC_PROMOTION_BATTLECRY_NAME">
+      <Text>Боєвий клич</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORTOISE_NAME">
+      <Text>Черепаха</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMMANDO_NAME">
+      <Text>Командо</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMPHIBIOUS_NAME">
+      <Text>Амфібія</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZWEIHANDER_NAME">
+      <Text>Звайхандер</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_URBAN_WARFARE_NAME">
+      <Text>Міське бойове захоплення</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ELITE_GUARD_NAME">
+      <Text>Елітний охоронець</Text>
+    </Row>
+    <!--Ranged-->
+    <Row Tag="LOC_PROMOTION_VOLLEY_NAME">
+      <Text>Волейбол</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GARRISON_NAME">
+      <Text>Гарнізон</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARROW_STORM_NAME">
+      <Text>Стрілковий шторм</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INCENDIARIES_NAME">
+      <Text>Запальники</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPRESSION_NAME">
+      <Text>Пригнічення</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EMPLACEMENT_NAME">
+      <Text>Розташування</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_MARKSMAN_NAME">
+      <Text>Експерт-стрілець</Text>
+    </Row>
+    <!--Siege-->
+    <Row Tag="LOC_PROMOTION_GRAPE_SHOT_NAME">
+      <Text>Грейпшот (a transliteration of the English term)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREW_WEAPONS_NAME">
+      <Text>Зброя екіпажу</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHELLS_NAME">
+      <Text>Оболонки</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHRAPNEL_NAME">
+      <Text>Шрапнель</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEAVY_PROJECTILES_2">
+      <Text>Важкі снаряди 2</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_RANGEFINDING_NAME">
+      <Text>Розширений вимірювач дистанцій</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_CREW_NAME">
+      <Text>Експертна команда</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FORWARD_OBSERVERS_NAME">
+      <Text>Наперед подивлячі (or Передові спостерігачі)</Text>
+    </Row>
+    <!--Anti-Cavalry-->
+    <Row Tag="LOC_PROMOTION_ECHELON_NAME">
+      <Text>Ешелон</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_THRUST_NAME">
+      <Text>Тиск (Tysk)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SQUARE_NAME">
+      <Text>Майдан</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCHILTRON_NAME">
+      <Text>Шилтрон</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REDEPLOY_NAME">
+      <Text>Перевстановити</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHOKE_POINTS_NAME">
+      <Text>Точки заторів</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOLD_THE_LINE_NAME">
+      <Text>Тримай лінію</Text>
+    </Row>
+    <!--Light Cavalry-->
+    <Row Tag="LOC_PROMOTION_ESCORT_MOBILITY_NAME">
+      <Text>Ескорт мобільності</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAPARISON_NAME">
+      <Text>Капарисон</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COURSERS_NAME">
+      <Text>Курси</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEPREDATION_NAME">
+      <Text>Здійснення шкідливих дій</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DOUBLE_ENVELOPMENT_NAME">
+      <Text>Подвійне оточення</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPIKING_THE_GUNS_NAME">
+      <Text>Підняти прапорці</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PURSUIT_NAME">
+      <Text>Переслідування</Text>
+    </Row>
+    <!--Heavy Cavalry-->
+    <Row Tag="LOC_PROMOTION_BREAKTHROUGH_NAME">
+      <Text>Прорив</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHARGE_NAME">
+      <Text>Заряджати</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BARDING_NAME">
+      <Text>Бардинг (transliteration: Barding)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARAUDING_NAME">
+      <Text>Мародерство</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROUT_NAME">
+      <Text>Маршрут</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARMOR_PIERCING_NAME">
+      <Text>Бронепробивний</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REACTIVE_ARMOR_NAME">
+      <Text>Реактивна броня</Text>
+    </Row>
+    <!--Aircraft Fighter-->
+    <Row Tag="LOC_PROMOTION_DOGFIGHTING_NAME">
+      <Text>Бійки собак</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INTERCEPTOR_NAME">
+      <Text>Інтерсептор</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_STRAFE_NAME">
+      <Text>Страф</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GROUND_CREWS_NAME">
+      <Text>Базові бригади</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COCKPIT_ARMOR_NAME">
+      <Text>Кабінний броньовик</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TANK_BUSTER_NAME">
+      <Text>Руйнівник танків</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DROP_TANKS_NAME">
+      <Text>Відкинути резервуари</Text>
+    </Row>
+    <!--Aircraft Bomber-->
+    <Row Tag="LOC_PROMOTION_BOX_FORMATION_NAME">
+      <Text>Формація "Коробка"</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EVASIVE_MANEUVERS_NAME">
+      <Text>Ухиляння від удару</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORPEDO_BOMBER_NAME">
+      <Text>Торпедоносець</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLOSE_AIR_SUPPORT_NAME">
+      <Text>Підтримка з повітряного простору ближнього бою</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TACTICAL_MAINTENANCE_NAME">
+      <Text>Тактичний технічний обслуговування</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LONG_RANGE_NAME">
+      <Text>Дальність дії</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPERFORTRESS_NAME">
+      <Text>Суперфортрес</Text>
+    </Row>
+    <!--Naval Melee-->
+    <Row Tag="LOC_PROMOTION_EMBOLON_NAME">
+      <Text>Емболій</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REINFORCED_HULL_NAME">
+      <Text>Підсилене корпус</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HELMSMAN_NAME">
+      <Text>Кормушник</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AUXILIARY_SHIPS_NAME">
+      <Text>Допоміжні кораблі</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_RUTTER_NAME">
+      <Text>Rutter</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CONVOY_NAME">
+      <Text>Конвой</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREEPING_ATTACK_NAME">
+      <Text>Повзучий наступ</Text>
+    </Row>
+    <!--Naval Ranged-->
+    <Row Tag="LOC_PROMOTION_LINE_OF_BATTLE_NAME">
+      <Text>Лінія бойової роти</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOMBARDMENT_NAME">
+      <Text>Обстріл</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PREPARATORY_FIRE_NAME">
+      <Text>Підготовчий вогонь</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROLLING_BARRAGE_NAME">
+      <Text>Котушкове залпу</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROXIMITY_FUSES_NAME">
+      <Text>Близькість підривних пристроїв</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COINCIDENCE_RANGEFINDING_NAME">
+      <Text>Вимірювання відстані за допомогою випадкових збігів</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPLY_FLEET_NAME">
+      <Text>Флот поставок</Text>
+    </Row>
+    <!--Naval Carrier-->
+    <Row Tag="LOC_PROMOTION_FLIGHT_DECK_NAME">
+      <Text>Кабіна пілота</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HANGAR_DECK_NAME">
+      <Text>Палуба гаражу</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FOLDING_WINGS_NAME">
+      <Text>Складні крила</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUT_PLANES_NAME">
+      <Text>Розвідувальні літаки</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_ENGINES_NAME">
+      <Text>Покращені двигуни</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DECK_CREWS_NAME">
+      <Text>Екіпаж палуби</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPER_CARRIER_NAME">
+      <Text>Супер-авіаносець</Text>
+    </Row>
+    <!--Naval Raider-->
+    <Row Tag="LOC_PROMOTION_LOOT_NAME">
+      <Text>Loot</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOARDING_NAME">
+      <Text>Посадка</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SWIFT_KEEL_NAME">
+      <Text>Швидкий кіль</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_OBSERVATION_NAME">
+      <Text>Спостереження</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SILENT_RUNNING_NAME">
+      <Text>Тихе пливання</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOMING_TORPEDOES_NAME">
+      <Text>Торпеди з автопілотом</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_WOLFPACK_NAME">
+      <Text>Вовчий загін</Text>
+    </Row>
+    <!--Apostles-->
+    <Row Tag="LOC_PROMOTION_ORATOR_NAME">
+      <Text>Оратор</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROSELYTIZER_NAME">
+      <Text>Місіонер</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TRANSLATOR_NAME">
+      <Text>Перекладач</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PILGRIM_NAME">
+      <Text>Паломник</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INDULGENCE_VENDOR_NAME">
+      <Text>Постачальник індульгенцій</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEATHEN_CONVERSION_NAME">
+      <Text>Поганська конверсія</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEBATER_NAME">
+      <Text>Дебатер</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARTYR_NAME">
+      <Text>Мученик</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHAPLAIN_NAME">
+      <Text>Капелан</Text>
+    </Row>
+    <!--Warrior Monk-->
+    <Row Tag="LOC_PROMOTION_MONK_SHADOW_STRIKE_NAME">
+      <Text>Тіньовий удар</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_TWILIGHT_VEIL_NAME">
+      <Text>Сутінковий віковий завісок</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_EXPLODING_PALMS_NAME">
+      <Text>Вибухаючі долоні</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DISCIPLES_NAME">
+      <Text>Учні (Uchni)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_SWEEPING_WIND_NAME">
+      <Text>Підметаючий вітер</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DANCING_CRANE_NAME">
+      <Text>Танцюючий журавель</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_COBRA_STRIKE_NAME">
+      <Text>Удар кобри</Text>
+    </Row>
+    <!--Spy-->
+    <Row Tag="LOC_PROMOTION_SPY_TECHNOLOGIST_NAME">
+      <Text>Технолог</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CAT_BURGLAR_NAME">
+      <Text>Котячий злодій</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DEMOLITIONS_NAME">
+      <Text>Руйнування (Riunuvannya)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CON_ARTIST_NAME">
+      <Text>Шахрай</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_GUERILLA_LEADER_NAME">
+      <Text>Лідер партизанів</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ROCKET_SCIENTIST_NAME">
+      <Text>Ракетний вчений</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SEDUCTION_NAME">
+      <Text>Спокуса</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DISGUISE_NAME">
+      <Text>Маскування</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LINGUIST_NAME">
+      <Text>Лінгвіст</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_QUARTERMASTER_NAME">
+      <Text>Квартмейстер</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ACE_DRIVER_NAME">
+      <Text>Віртуоз водіння</Text>
+    </Row>
+    <!---->
+    <!-- PROMOTION DESCRIPTION TEXT -->
+    <!---->
+    <Row Tag="LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Промоція)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Політика)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Уряд)</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Велика Особистість)</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Релігія)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Здатність)</Text>
+    </Row>
+    <Row Tag="LOC_WONDER_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Диво)</Text>
+    </Row>
+    <!--Recon-->
+    <Row Tag="LOC_PROMOTION_RANGER_DESCRIPTION">
+      <Text>Швидший [ICON_Movement] Рух на терені лісу та тропічного дощового лісу.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ALPINE_DESCRIPTION">
+      <Text>Швидший рух [ICON_Movement] по гірському рельєфу.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SENTRY_DESCRIPTION">
+      <Text>Може бачити через ліси та джунглі.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPYGLASS_DESCRIPTION">
+      <Text>+1 дальність видимості.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GUERRILLA_DESCRIPTION">
+      <Text>Може рухатись після атаки.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMMANDO_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух. Здатний до масштабування скельних стін.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
+      <Text>+20 [ICON_Strength] Бойова міць в усіх ситуаціях.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAMOUFLAGE_DESCRIPTION">
+      <Text>Ця одиниця може бути виявлена лише прилеглими ворожими одиницями.</Text>
+    </Row>
+    <!--Melee-->
+    <Row Tag="LOC_PROMOTION_BATTLECRY_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова міць проти ближнього та дальнього бою.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORTOISE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової Сили при захисті від дальнобойних атак.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMPHIBIOUS_DESCRIPTION">
+      <Text>Немає штрафу до [ICON_Strength] бойової сили та [ICON_Movement] руху під час атаки з моря або річки.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZWEIHANDER_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова Сила проти протитанкових одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_URBAN_WARFARE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової сили під час бою в районі.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ELITE_GUARD_DESCRIPTION">
+      <Text>+1 додаткова атака на хід, якщо [ICON_Movement] Рух дозволяє. Може рухатись після атаки.</Text>
+    </Row>
+    <!--Ranged-->
+    <Row Tag="LOC_PROMOTION_VOLLEY_DESCRIPTION">
+      <Text>+5 [ICON_Ranged] Показник дальньої сили на земельні війська.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GARRISON_DESCRIPTION">
+      <Text>+10 [ICON_Strength] бойової сили при окупації будь-якого поліпшення, яке забезпечує [ICON_Strength] захисну силу, або району.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARROW_STORM_DESCRIPTION">
+      <Text>+7 [ICON_Ranged] Сила на дальність проти сухопутних та морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INCENDIARIES_DESCRIPTION">
+      <Text>+7 [ICON_Ranged] Сила дальньої атаки проти оборони району.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPRESSION_DESCRIPTION">
+      <Text>Зона контролю вправ.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EMPLACEMENT_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойова Сила під час захисту проти атак міста.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_MARKSMAN_DESCRIPTION">
+      <Text>+1 додаткова атака за хід, якщо одиниця не переміщувалася.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_CREW_DESCRIPTION">
+      <Text>Може атакувати після переміщення.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FORWARD_OBSERVERS_DESCRIPTION">
+      <Text>+1 [ICON_Range] Діапазон.</Text>
+    </Row>
+    <!--Anti-Cavalry-->
+    <Row Tag="LOC_PROMOTION_ECHELON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова міць проти кінних військ.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_THRUST_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова сила проти ближнього бою.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SQUARE_DESCRIPTION">
+      <Text>Бонус Подвійної Підтримки.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCHILTRON_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової сили при захисті проти ближнього бою з класом одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REDEPLOY_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух.</Text>
+    </Row>
+    <!--Siege-->
+    <Row Tag="LOC_PROMOTION_CREW_WEAPONS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойової Сили при захисті.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GRAPE_SHOT_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила проти наземних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHRAPNEL_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової Сили проти сухопутних військ.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHELLS_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойова сила проти оборони округу.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_RANGEFINDING_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойова сила проти морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHOKE_POINTS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила при захисті в лісах, джунглях, на пагорбах або в болотах.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOLD_THE_LINE_DESCRIPTION">
+      <Text>Прилеглі одиниці іншого класу отримують +10 [ICON_Strength] бойової міцності проти кінноти.</Text>
+    </Row>
+    <!--Light Cavalry-->
+    <Row Tag="LOC_PROMOTION_ESCORT_MOBILITY_DESCRIPTION">
+      <Text>Формації отримують швидкість руху ескорту [ICON_Movement].</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAPARISON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової сили проти протиконних військ.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COURSERS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойова сила при атакуванні дальнобойних і осадних військ.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEPREDATION_DESCRIPTION">
+      <Text>Розграбування коштує лише 1 [ICON_Movement] очко руху.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DOUBLE_ENVELOPMENT_DESCRIPTION">
+      <Text>Бонус за відступний наступ удвічі.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPIKING_THE_GUNS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила проти осідних військ.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PURSUIT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух.</Text>
+    </Row>
+    <!--Heavy Cavalry-->
+    <Row Tag="LOC_PROMOTION_CHARGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойова сила проти укріпленого захисника.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BARDING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила при захисті від дальнобойних атак.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARAUDING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова потужність проти одиниць в округах.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROUT_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Бойової сили проти пошкоджених одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARMOR_PIERCING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила проти інших важкої кавалерії.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REACTIVE_ARMOR_DESCRIPTION">
+      <Text>Sorry, something went wrong.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BREAKTHROUGH_DESCRIPTION">
+      <Text>+1 додаткова атака на хід, якщо [ICON_Movement] Рух дозволяє.</Text>
+    </Row>
+    <!--Aircraft Fighter-->
+    <Row Tag="LOC_PROMOTION_DOGFIGHTING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила проти бійцівських класів одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COCKPIT_ARMOR_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила при захисті проти повітряної оборони.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INTERCEPTOR_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила проти бомбардувальних одиниць класу.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_STRAFE_DESCRIPTION">
+      <Text>+17 [ICON_Strength] Бойова міць проти не-кінних військ.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GROUND_CREWS_DESCRIPTION">
+      <Text>Лікуйтеся під час патрулювання або розгортання.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TANK_BUSTER_DESCRIPTION">
+      <Text>+17 [ICON_Strength] Бойова сила проти конних одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DROP_TANKS_DESCRIPTION">
+      <Text>+2 [ICON_Range] Дальність.</Text>
+    </Row>
+    <!--Aircraft Bomber-->
+    <Row Tag="LOC_PROMOTION_BOX_FORMATION_DESCRIPTION">
+      <Text>+7 [ICON_Strength] бойової сили під час захисту проти бійців класу одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EVASIVE_MANEUVERS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила при захисті проти повітряних атак.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORPEDO_BOMBER_DESCRIPTION">
+      <Text>+17 [ICON_Strength] Бойова міць проти морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLOSE_AIR_SUPPORT_DESCRIPTION">
+      <Text>+12 [ICON_Strength] Бойова міць проти сухопутних військ.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TACTICAL_MAINTENANCE_DESCRIPTION">
+      <Text>Може вилікуватись після нападу.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LONG_RANGE_DESCRIPTION">
+      <Text>+2 [ICON_Range] Дальність.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPERFORTRESS_DESCRIPTION">
+      <Text>Немає мінімальних вимог здоров'ю для виконання повітряної пляндави.</Text>
+    </Row>
+    <!--Naval Melee-->
+    <Row Tag="LOC_PROMOTION_EMBOLON_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова Сила проти Морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REINFORCED_HULL_DESCRIPTION">
+      <Text>+10 [ICON_Strength] бойової сили при захисті від дальнобойних атак.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_RUTTER_DESCRIPTION">
+      <Text>+1 дальність огляду.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HELMSMAN_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AUXILIARY_SHIPS_DESCRIPTION">
+      <Text>Лікуйся поза дружніми територіями.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CONVOY_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової Сили, коли військова частина знаходиться в формації.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREEPING_ATTACK_DESCRIPTION">
+      <Text>+14 [ICON_Strength] Бойова сила проти морських налітних одиниць.</Text>
+    </Row>
+    <!--Naval Ranged-->
+    <Row Tag="LOC_PROMOTION_SUPPLY_FLEET_DESCRIPTION">
+      <Text>Лікуйтеся поза дружніми територіями.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LINE_OF_BATTLE_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила проти морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOMBARDMENT_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова міць проти оборонних засобів району.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PREPARATORY_FIRE_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова міць проти сухопутних військ.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROLLING_BARRAGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової Сили проти захисту району.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROXIMITY_FUSES_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Бойова сила при захисті від повітряних атак.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COINCIDENCE_RANGEFINDING_DESCRIPTION">
+      <Text>+1 [ICON_Range] Діапазон.</Text>
+    </Row>
+    <!--Naval Carrier-->
+    <Row Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION">
+      <Text>+1 додатковий слот для літака.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HANGAR_DECK_DESCRIPTION">
+      <Text>+1 додатковий слот для повітряного судна.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION">
+      <Text>+1 додатковий слот для літака.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUT_PLANES_DESCRIPTION">
+      <Text>+1 дальність огляду.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_ENGINES_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DECK_CREWS_DESCRIPTION">
+      <Text>Може вилікуватися після атаки.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPER_CARRIER_DESCRIPTION">
+      <Text>Лікуйтесь за межами дружніх територій.</Text>
+    </Row>
+    <!--Naval Raider-->
+    <Row Tag="LOC_PROMOTION_LOOT_DESCRIPTION">
+      <Text>+50 [ICON_Gold] Золота з прибережних рейдів. (на стандартній швидкості)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOARDING_DESCRIPTION">
+      <Text>Отримуйте [ICON_Gold] золото з перемог у морських битвах.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SWIFT_KEEL_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_OBSERVATION_DESCRIPTION">
+      <Text>+1 дальність огляду.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOMING_TORPEDOES_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойова сила проти морських одиниць.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SILENT_RUNNING_DESCRIPTION">
+      <Text>Може переміщуватися після атаки.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_WOLFPACK_DESCRIPTION">
+      <Text>+1 додаткова атака на кожен хід.</Text>
+    </Row>
+    <!--Apostle-->
+    <Row Tag="LOC_PROMOTION_ORATOR_DESCRIPTION">
+      <Text>Може розповсюдити Релігію ще 2 рази.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROSELYTIZER_DESCRIPTION">
+      <Text>Релігійна поширеність зменшує на 75% існуючий тиск від інших релігій у місті-цілі.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TRANSLATOR_DESCRIPTION">
+      <Text>Релігійне поширення має потрійну силу в містах інших цивілізацій.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PILGRIM_DESCRIPTION">
+      <Text>Отримує 3 додаткові поширення, коли пересувається поруч з природним дивом вперше.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INDULGENCE_VENDOR_DESCRIPTION">
+      <Text>Отримайте [ICON_Gold] 100 золота, якщо ця одиниця вперше перетворить місто на вашу релігію.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEATHEN_CONVERSION_DESCRIPTION">
+      <Text>Ви можете перетворити всіх сусідніх варварів на свій бік, використовуючи релігійний бар'єр.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEBATER_DESCRIPTION">
+      <Text>+20 [ICON_Religion] Релігійної Сили у Божевільних Бійцях.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARTYR_DESCRIPTION">
+      <Text>Реліквія створюється, якщо цей Апостол помирає в Богословському бою.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHAPLAIN_DESCRIPTION">
+      <Text>Апостол діє як медик, забезпечуючи додаткове лікування одиницям в межах 1 тайла.</Text>
+    </Row>
+    <!--Warrior Monk-->
+    <Row Tag="LOC_PROMOTION_MONK_SHADOW_STRIKE_DESCRIPTION">
+      <Text>2-кратний бонус за флангування.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_TWILIGHT_VEIL_DESCRIPTION">
+      <Text>Лише прилеглі ворожі підрозділи можуть розкрити цей підрозділ.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_EXPLODING_PALMS_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Бойової Сили у всіх ситуаціях.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DISCIPLES_DESCRIPTION">
+      <Text>Цей одиниця поширює свою релігію на прилеглі міста, коли перемагає ворожу одиницю.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_SWEEPING_WIND_DESCRIPTION">
+      <Text>+1 додаткова атака за хід, якщо [ICON_Movement] Рух дозволяє.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DANCING_CRANE_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Рух.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_COBRA_STRIKE_DESCRIPTION">
+      <Text>+15 [ICON_Strength] Бойової Сили в будь-яких ситуаціях.</Text>
+    </Row>
+    <!--Spy-->
+    <Row Tag="LOC_PROMOTION_SPY_TECHNOLOGIST_DESCRIPTION">
+      <Text>Крадіть технології, наче ви на 2 рівні досвіду вище.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CAT_BURGLAR_DESCRIPTION">
+      <Text>Крадіть Великі Твори, наче ви на 2 рівні досвіду більше.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DEMOLITIONS_DESCRIPTION">
+      <Text>Саботувати виробництво так, наче маєте досвід на 2 рівні вище.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CON_ARTIST_DESCRIPTION">
+      <Text>Відведіть кошти, наче ви маєте на два рівні більше досвіду.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_GUERILLA_LEADER_DESCRIPTION">
+      <Text>Набирайте партизан, наче вони мають досвід на 2 рівні вище.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ROCKET_SCIENTIST_DESCRIPTION">
+      <Text>Перевершіть Рокет-технології, якщо маєте досвід на 2 рівні вище.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SEDUCTION_DESCRIPTION">
+      <Text>Контррозвідник, ніби на два рівні досвідченіший.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DISGUISE_DESCRIPTION">
+      <Text>Не потрібно багато часу, щоб встановити присутність у ворожому місті.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LINGUIST_DESCRIPTION">
+      <Text>Час для виконання всіх місій зменшено на 25%.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_QUARTERMASTER_DESCRIPTION">
+      <Text>Якщо цей Шпигун знаходиться на території свого дому, всі ваші Шпигуни діють з рівнем +1.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ACE_DRIVER_DESCRIPTION">
+      <Text>Якщо вас спіймають під час місії, шанс на втечу набагато вищий (+4 рівні).</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_NOTIFICATION_PRIDE_MOMENT_RECORDED_MESSAGE">
+      <Text>Історичний момент</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PRIDE_MOMENT_RECORDED_SUMMARY">
+      <Text>Ваші люди святкують Історичний Момент! {1_MomentDescription} (+{2_EraScoreAmount} Очок Ери)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_ESTABLISHED_IN_CITY_MESSAGE">
+      <Text>Губернатор призначений у {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_ESTABLISHED_IN_CITY_SUMMARY">
+      <Text>Губернатор {1_GovernorName} тепер знаходиться в місті {2_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_APPOINTMENT_AVAILABLE_MESSAGE">
+      <Text>Доступна нова можливість стати губернатором</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_APPOINTMENT_AVAILABLE_SUMMARY">
+      <Text>Призначити нового губернатора або підвищити посаду існуючого губернатора.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_OPPORTUNITY_AVAILABLE_MESSAGE">
+      <Text>Новий титул губернатора доступний</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_OPPORTUNITY_AVAILABLE_SUMMARY">
+      <Text>Продвиньте існуючого [ICON_Governor] Губернатора або призначте нового Губернатора для своєї цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_OPPORTUNITY">
+      <Text>Титул губернатора</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_OPPORTUNITY_TOOLTIP">
+      <Text>Продовжуйте розвивати існуючого губернатора або призначте нового губернатора для вашої цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_PROMOTION">
+      <Text>Продвиження губернатора</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_PROMOTION_TOOLTIP">
+      <Text>Доступний званок для підвищення одного з ваших губернаторів.</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_IDLE">
+      <Text>Губернатор Idle</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_IDLE_TOOLTIP">
+      <Text>Губернатор доступний для призначення.</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_APPOINTMENT">
+      <Text>Призначення губернатора</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_APPOINTMENT_TOOLTIP">
+      <Text>Призначте нового губернатора для вашої цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_CONSIDER_DISLOYAL_CITY">
+      <Text>Зберегти або звільнити місто</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_CONSIDER_DISLOYAL_CITY_TOOLTIP">
+      <Text>Іноземне місто перейшло на бік повстанців проти свого колишнього володаря, оскільки його вірність знизилася до нуля. Ваша Цивілізація наразі є найсильнішою там, тому місто покірно прохає приєднатися до вашої Цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_PROMOTION_AVAILABLE_MESSAGE">
+      <Text>Доступна Пропозиція на Посаду Губернатора</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_PROMOTION_AVAILABLE_SUMMARY">
+      <Text>Для одного з ваших губернаторів доступна промоція.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_IDLE_MESSAGE">
+      <Text>Губернатор Idle (transliteration)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_IDLE_SUMMARY">
+      <Text>{1_GovernorName} доступний для призначення.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_REMOVED_FROM_CITY_MESSAGE">
+      <Text>Губернатор був відсторонений у {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_REMOVED_FROM_CITY_SUMMARY">
+      <Text>Губернатор {1_GovernorName} більше не призначений до {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_CHANGED_CITIES_MESSAGE">
+      <Text>Губернатор {1_GovernorName} переїхав до міста {2_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_CHANGED_CITIES_SUMMARY">
+      <Text>Губернатор {1_GovernorName} переїхав з {2_CityName} до {3_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_RETURNING_TO_SERVICE_MESSAGE">
+      <Text>Губернатор {1_GovernorName} повернувся до служби.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_RETURNING_TO_SERVICE_SUMMARY">
+      <Text>Губернатор {1_GovernorName} повернувся до служби. Тепер {2_GovernorTitle} може бути призначений до міста.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOSING_CULTURAL_IDENTITY_MESSAGE">
+      <Text>Місто втрачає лояльність</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOSING_CULTURAL_IDENTITY_SUMMARY">
+      <Text>{1_CityName} втрачає лояльність. Якщо рівень лояльності досягне 0, місто може відірватися від нашого контролю. Призначте Губернатора міста, щоб стабілізувати ситуацію і здобути лояльність жителів.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BECAME_FREE_CITY_MESSAGE">
+      <Text>Втрачена вірність місту</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BECAME_FREE_CITY_SUMMARY">
+      <Text>Оскільки Рівень Вірності впав до нуля, {1_CityName} повстало і стало Вільним Містом. Щоб знову здобути контроль над ним, вам потрібно знову проявити свою Вірність там або використати військову силу.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FOREIGN_CITY_BECAME_FREE_CITY_MESSAGE">
+      <Text>Іноземне місто здобуває незалежність</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FOREIGN_CITY_BECAME_FREE_CITY_SUMMARY">
+      <Text>{1_CivName} більше не має достатньої відданості, щоб утримати місто {2_CityName} у своїй імперії. Поблизу розташовані цивілізації, які здійснюють вплив на відданість або використовують військову силу, можуть незабаром отримати контроль над цим вільним містом.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_CITY_BECAME_FOREIGN_CITY_MESSAGE">
+      <Text>Вільне Місто Сприяє Цивілізації</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_CITY_BECAME_FOREIGN_CITY_SUMMARY">
+      <Text>Вільне Місто {2_CityName} не втрималося перед іноземним тиском та проситься в приєднання до {1_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_GOLDEN_AGE">
+      <Text>Золотий вік війни</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_RETRIBUTION">
+      <Text>Війна відплати</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_IDEOLOGICAL">
+      <Text>Ідеологічна війна</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADING_POST_IMMEDIATELY_CREATED_SUMMARY">
+      <Text>Ініціювання [ICON_TradeRoute] Торговельного маршруту створило [ICON_TradingPost] Торгову пошту для вас у місті {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_DISLOYAL_CITY_MESSAGE">
+      <Text>Зберегти або вільне місто</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_DISLOYAL_CITY_SUMMARY">
+      <Text>Вільне Місто втратило бажання залишатися незалежним. Оскільки ваша Вірність тут найбільша, воно скромно проситься приєднатися до вашої Цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FABRICATE_SCANDAL_SUMMARY">
+      <Text>Ваш агент {1_unitName} в {2_CityName} вдалося видалити ворожих послів.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FABRICATE_SCANDAL_MESSAGE">
+      <Text>Успіх у виготовленні скандалу</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_FABRICATE_SCANDAL_SUMMARY">
+      <Text>Шпигун ворога в {1_CityName} зумів видалити деяких наших послів.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_FABRICATE_SCANDAL_MESSAGE">
+      <Text>Ворожа Замовний Скандал</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FOMENT_UNREST_SUMMARY">
+      <Text>Ваш агент {1_unitName} успішно зменшив Лояльність власника у місті {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FOMENT_UNREST_MESSAGE">
+      <Text>Успіх спонукання до неспокою</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_FOMENT_UNREST_SUMMARY">
+      <Text>Ворожий шпигун зменшив Заповіт Ваших громадян у місті {1_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_FOMENT_UNREST_MESSAGE">
+      <Text>Ворог провокував безлад</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEUTRALIZE_GOVERNOR_SUMMARY">
+      <Text>Ваш агент {1_unitName} успішно нейтралізував ворожого губернатора у місті {2_cityName}, знявши його з посади на {3_turns} ходів.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEUTRALIZE_GOVERNOR_MESSAGE">
+      <Text>Успіх у нейтралізації губернатора</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_NEUTRALIZE_GOVERNOR_SUMMARY">
+      <Text>Ворожий шпигун зумів нейтралізувати вашого губернатора {1_governorName} у місті {2_cityName}, прибравши його з повноважень на {3_turns} ходів.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_NEUTRALIZE_GOVERNOR_MESSAGE">
+      <Text>Ворог-шпигун усунутий Губернатором</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ALLIANCE_EXPIRED_MESSAGE">
+      <Text>Альянс минув термін дії</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ALLIANCE_EXPIRED_SUMMARY">
+      <Text>Ваше союзництво з {1_CivName} закінчилося.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ALLIANCE_LEVELED_MESSAGE">
+      <Text>Зріст рівня Альянсу</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ALLIANCE_LEVELED_SUMMARY">
+      <Text>Ваш рівень союзу з {1_CivName} збільшився.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_DECLARED_MESSAGE">
+      <Text>Оголошено надзвичайну ситуацію</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_DECLARED_SUMMARY">
+      <Text>{1_CivName} було націлено випадковою надзвичайною ситуацією.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_DECLARED_UNKNOWN_TARGET_SUMMARY">
+      <Text>Невідомий гравець був взят под приціл У випадку надзвичайної ситуації.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_FAILED_MESSAGE">
+      <Text>Надзвичайна ситуація завершена</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_FAILED_TARGET_SUMMARY">
+      <Text>Аварійна мета на вас не спрацювала. Ви були винагороджені.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_FAILED_SUMMARY">
+      <Text>Екстрена мета на {1_CivName} не вдалася. {1_CivName} було винагороджено.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_FAILED_UNKNOWN_TARGET_SUMMARY">
+      <Text>Екстрене націлювання на невідомого гравця не вдалося.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_SUCCEEDED_MESSAGE">
+      <Text>Надзвичайна ситуація завершена</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_SUCCEEDED_TARGET_SUMMARY">
+      <Text>Екстрений захист, спрямований на вас, був успішним. Ті, хто борються проти вас, були нагороджені.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_SUCCEEDED_SUMMARY">
+      <Text>Екстрене націлення на {1_CivName} було успішним. Тим, хто бореться проти {1_CivName}, були винагороджені.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_SUCCEEDED_UNKNOWN_TARGET_SUMMARY">
+      <Text>Екстрене націлювання на невідомого гравця було успішним.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_MESSAGE">
+      <Text>Надзвичайна ситуація уникнена</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_CITY_DESTROYED">
+      <Text>{1_EmergencyType}, спрямований на {2_CivName}, завершився через те, що місто {3_CityName} було зруйноване.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_CITY_RETURNED_ORIGINAL">
+      <Text>Аварійна ситуація {1_EmergencyType}, спрямована на {2_CivName}, завершилася, оскільки {3_CityName} повернулася до свого законного власника.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_CITY_RETURNED_PREVIOUS">
+      <Text>Надзвичайна ситуація, спрямована проти {2_CivName}, була припинена, оскільки {3_CityName} повернуто до свого попереднього власника.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_CITY_GIFTED">
+      <Text>Аварійна ситуація, спрямована на {2_CivName}, закінчилася, оскільки {3_CityName} більше не належить до {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_TARGET_DEFEATED">
+      <Text>Аварійна ситуація {1_EmergencyType}, яка спрямовувалася на {2_CivName}, закінчилася, оскільки {2_CivName} було переможено.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_NEEDS_ATTENTION_MESSAGE">
+      <Text>НЕДАРМОЮ! (NEDARMOYU)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_NEEDS_ATTENTION_SUMMARY">
+      <Text>Надзвичайна ситуація потребує вашої уваги.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_FROM_KEPT_MESSAGE">
+      <Text>Обіцянку виконано для вас</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_FROM_KEPT_SUMMARY">
+      <Text>Обіцянка, яку дав {1_CivName} щодо {2_PledgeType}, була виконана.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_TO_KEPT_MESSAGE">
+      <Text>Ваша обіцянка виконана</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_TO_KEPT_SUMMARY">
+      <Text>Ваша обіцянка {2_PledgeType} {1_CivName} була виконана.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_FROM_BROKEN_MESSAGE">
+      <Text>Обіцянка порушена перед тобою</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_FROM_BROKEN_SUMMARY">
+      <Text>Обіцянка, яку зробила перед вами {1_CivName}, щодо {2_PledgeType}, була порушена.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_TO_BROKEN_MESSAGE">
+      <Text>Ваша обіцянка була порушена</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_TO_BROKEN_SUMMARY">
+      <Text>Ваша обіцянка {2_PledgeType} на користь {1_CivName} була порушена.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMEMORATION_AVAILABLE_MESSAGE">
+      <Text>Зробити присвячення</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMEMORATION_AVAILABLE_SUMMARY">
+      <Text>Оскільки гра увійшла в нову еру, ви можете зробити Призначення, щоб керувати своїм народом до бажаного майбутнього для вашої цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_QUEST_RECORDED_MESSAGE">
+      <Text>Активовано бонус відданості</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_QUEST_RECORDED_SUMMARY">
+      <Text>{1_DedicationBonusTriggerSentence} Через це ви отримуєте бали ери за бонус відданості!</Text>
+    </Row>
+    <!--TUTORIAL EVENTS TEXT-->
+  </EnglishText>
+</GameData>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BaseGameText>
+    <!-- Victories -->
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_TITLE">
+      <Text>Проксі-війна</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_DESC">
+      <Text>Захопіть три міські держави.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_BLURB">
+      <Text>Ось моя стратегія стосовно Холодної війни: ми перемагаємо, вони програють. - Рональд Рейган</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_TITLE">
+      <Text>Пан Армагеддону</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_DESC">
+      <Text>Якщо будь-який центр міста буде знищений ядерним ударом, знищуйте найбільше можливу кількість центрів міста до кінця гри.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_BLURB">
+      <Text>Єдиний спосіб перемогти - не грати.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_TITLE">
+      <Text>Танк-банкер</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_DESC">
+      <Text>Якщо жоден центр міста не буде знищений ядерним вибухом, має мати найбільшу кількість танків до межі ходів.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_BLURB">
+      <Text>Ви маєте найбільшу кількість танків в кінці гри! Ви перемогли!</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_RULESET_TITLE">
+      <Text>Глобальна термоядерна війна</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_RULESET_DESCRIPTION">
+      <!-- Keep in sync with LOC_COLDWAR_MOD_DESCRIPTION -->
+      <Text>The Cold War runs hot in this combat-based scenario set in the Atomic Era. Lasts 50 Turns.[NEWLINE]Victory Conditions[NEWLINE][ICON_Bullet]Lord of the Armageddon: If any city center is nuked, nuke the most city centers by the turn limit.[NEWLINE][ICON_Bullet]Tank Banker: If no city centers are nuked, have the most tanks by the turn limit.[NEWLINE][ICON_Bullet]Proxy War: Capture 3 city-states.[NEWLINE]Gameplay Changes[NEWLINE][ICON_Bullet]Units and nuclear devices are cheaper to build and maintain. They don't require strategic resources.[NEWLINE][ICON_Bullet]Extended ranges for WMD Strikes and Bombers.[NEWLINE][ICON_Bullet]Builders have more charges for faster city development.[NEWLINE][ICON_Bullet]The map starts revealed.[NEWLINE][ICON_Bullet]No Tribal Villages.[NEWLINE][ICON_Bullet]No Barbarians.[NEWLINE][ICON_Bullet]War Weariness is disabled.</Text>
+    </Row>
+    <!-- Mod Package Text -->
+    <Row Tag="LOC_COLDWAR_MOD_TITLE">
+      <Text>Мультиплеєрний сценарій: Глобальна термоядерна війна</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_MOD_TEASER">
+      <Text>Холодна війна стає гарячою в цьому сценарії бойових дій, що відбуваються в Атомну еру. Триває 50 ходів.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_MOD_DESCRIPTION">
+      <!-- Keep in sync with LOC_COLDWAR_RULESET_DESCRIPTION -->
+      <Text>The Cold War runs hot in this combat-based scenario set in the Atomic Era. Lasts 50 Turns.[NEWLINE]Victory Conditions[NEWLINE][ICON_Bullet]Lord of the Armageddon: If any city center is nuked, nuke the most city centers by the turn limit.[NEWLINE][ICON_Bullet]Tank Banker: If no city centers are nuked, have the most tanks by the turn limit.[NEWLINE][ICON_Bullet]Proxy War: Capture 3 city-states.[NEWLINE]Gameplay Changes[NEWLINE][ICON_Bullet]Units and nuclear devices are cheaper to build and maintain. They don't require strategic resources.[NEWLINE][ICON_Bullet]Extended ranges for WMD Strikes and Bombers.[NEWLINE][ICON_Bullet]Builders have more charges for faster city development.[NEWLINE][ICON_Bullet]The map starts revealed.[NEWLINE][ICON_Bullet]No Tribal Villages.[NEWLINE][ICON_Bullet]No Barbarians.[NEWLINE][ICON_Bullet]War Weariness is disabled.</Text>
+    </Row>
+    <Row Tag="LOC_CW_GAME_TURN_LIMIT_REACHED_PROGRESS">
+      <Text>Обмеження кількості ходів {ElapsedTurns}/{MinGameTurn} {StatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_PROXYWAR_VICTORY_CAPTURE_CITY_STATES_PROGRESS">
+      <Text>Міст-держави захоплено {CurrentConquered}/{CityStatesConquered} {StatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_ARMAGEDDON_VICTORY_REQUIRES_PLAYER_HAS_MOST_WMD_DIRECT_CITY_HITS_PROGRESS">
+      <Text>Центри Міста Найбільш постраждали [NukedCityCenters] {NukeCountStatusIcon} [NEWLINE] Будь-який Центр Міста Найбільш постраждали {NukeWarStatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_TANKBANKER_REQUIRES_PLAYER_HAS_MOST_TANKS_PROGRESS">
+      <Text>Танковий парк володіє {NumPromotionClass} {PromotionStatusIcon}[NEWLINE]Жоден міст не був знищений ядерним ударом {NoNukeWarStatusIcon}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

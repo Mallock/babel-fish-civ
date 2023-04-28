@@ -1,0 +1,1662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <FrontEndText>
+    <Row Tag="LOC_OPTIONS_TITLE">
+      <Text>ВАРІАНТИ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_TEXT">
+      <Text>Це перезавантажить ВСІ опції до їх значень за замовчуванням.[NEWLINE][NEWLINE][COLOR_RED]Деякі зміни можуть не відобразитися, поки ви не перезапустите програму.[ENDCOLOR][NEWLINE][NEWLINE]Скинути опції?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHANGES_REQUIRE_APP_RESTART">
+      <Text>Деякі зміни можуть не набути чинності, поки ви не перезапустите програму.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHANGES_REQUIRE_GAME_RESTART">
+      <Text>Деякі зміни можуть не набути чинності, поки ви не перезапустите поточну гру.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESOLUTION_OK">
+      <Text>Ви хочете залишити поточні налаштування роздільної здатності?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_OK">
+      <Text>OK</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_YES">
+      <Text>What is the text that needs to be translated?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_NO">
+      <Text>problem</Text>
+    </Row>
+    <!-- Option Enums -->
+    <Row Tag="LOC_OPTIONS_ENABLED">
+      <Text>Увімкнено</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_DISABLED">
+      <Text>Інвалід</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MINIMUM">
+      <Text>Мінімум</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LOW">
+      <Text>Низький</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MEDIUM">
+      <Text>Наступний текст потрібно перекладати. Відповідайте тільки природним звучанням перекладу</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HIGH">
+      <Text>Високий</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ULTRA">
+      <Text>Ультра</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CUSTOM">
+      <Text>Користування</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_NONE">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_REAL_LIFE">
+      <Text>Збігайте місцевий час</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_X_TURNS">
+      <Text>Кожен {1_num} поворот</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_10_TURNS">
+      <Text>Кожні 10 поворотів</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_ERA_PROGRESSION">
+      <Text>З розвитком епох</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NEVER">
+      <Text>Ніколи</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ALWAYS">
+      <Text>Завжди</Text>
+    </Row>
+    <!-- Gameplay Panel -->
+    <Row Tag="LOC_OPTIONS_TUTORIAL_EXPERIENCED_PLAYER">
+      <Text>Досвідчений гравець</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_NEW_TO_XP2">
+      <Text>Новий в Civilization VI - Gathering Storm</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_NEW_TO_XP1">
+      <Text>Новачок у Civilization VI - Rise and Fall</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_FAMILIAR_CIVILIZATION">
+      <Text>Новачок в Civilization VI</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_FAMILIAR_STRATEGY">
+      <Text>Новачок у грі "Цивілізація"</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_NEWBIE">
+      <Text>Новачок у стратегії пошагового бою</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TIME_OF_DAY_TEXT">
+      <Text>Анімація часу доби:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HISTORIC_MOMENT_ANIMATION">
+      <Text>Анімація, що розкриває історичний момент</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOUCH_ENABLED">
+      <Text>Включений вхід дотиком</Text>
+    </Row>
+    <!-- Graphics Panel - Option Enums -->
+    <Row Tag="LOC_OPTIONS_TICK_INTERVAL_30_FPS">
+      <Text>30 КАДРІВ В СЕКУНДУ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TICK_INTERVAL_20_FPS">
+      <Text>20 КАДРІВ НА СЕКУНДУ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TICK_INTERVAL_60_FPS">
+      <Text>60 КАДРІВ ЗА СЕКУНДУ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WINDOW_MODE_WINDOWED">
+      <Text>Віконний</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WINDOW_MODE_FULLSCREEN">
+      <Text>Повноекранний режим</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WINDOW_MODE_BORDERLESS">
+      <Text>Межі вікна відсутні</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_2X">
+      <Text>MSAA 2X - МУЛЬТИСЕМПЛИНГ З АНТИАЛІАСИНГОМ X2</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_4X">
+      <Text>MSAA 4X - МУЛЬТИСЕМПЛІНГ З АНТИАЛІАСИНГОМ В 4 РАЗИ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_8X">
+      <Text>MSAA 8X - МУЛЬТИСЕМПЛІНГ З АНТИАЛІАСИНГОМ В 8 РАЗІВ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_16X">
+      <Text>МСАА 16X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_32X">
+      <Text>МСАА 32X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_FULL">
+      <Text>MSAA Повний</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_2X">
+      <Text>CSAA 2X / 4X - КСAA 2X / 4X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_4X">
+      <Text>CSAA 4X / 8X - КСАА 4X / 8X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_8X">
+      <Text>CSAA 8X / 16X - CSAA 8X / 16X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_16X">
+      <Text>CSAA 16X / 32X - КСАА 16Х / 32Х</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_32X">
+      <Text>CSAA 32X / 64X (ЦСАА 32X / 64X)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_FULL">
+      <Text>CSAA Повний (or Повна)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_2X">
+      <Text>EQAA 2X / 4X - ЕКВАА 2Х / 4Х</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_4X">
+      <Text>EQAA 4X / 8X - EQAA 4X / 8X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_8X">
+      <Text>EQAA 8X / 16X - ЕКВАА 8X / 16X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_16X">
+      <Text>EQAA 16X / 32X - ЕКАА 16X / 32X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_32X">
+      <Text>EQAA 32X / 64X - EQAA 32X / 64X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_FULL">
+      <Text>EQAA Повний</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LOW_MEMORY_OPTIMIZED">
+      <Text>Низька (Оптимізована під пам'ять)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LOW_PERFORMANCE_OPTIMIZED">
+      <Text>Низький (оптимізований для продуктивності)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MEDIUM_MEMORY_OPTIMIZED">
+      <Text>Середній (оптимізований для пам'яті)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MEDIUM_PERFORMANCE_OPTIMIZED">
+      <Text>Середня (оптимізована продуктивність)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_1PASS">
+      <Text>1 Передача</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_2PASSES">
+      <Text>2 Пропуски</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_3PASSES">
+      <Text>3 проходи</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_4PASSES">
+      <Text>4 перевали</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADERS_STATIC">
+      <Text>Статичний (без звуку)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_100_PERCENT">
+      <Text>НАСТУПНИЙ ТЕКСТ ПОТРЕБУЄ ПЕРЕКЛАДУ. ВІДПОВІДАЙТЕ ЛИШЕ НАТУРАЛЬНИМ ПЕРЕКЛАДОМ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_150_PERCENT">
+      <Text>150% - СТО П'ЯТДЕСЯТ ВІДСОТКІВ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_200_PERCENT">
+      <Text>200% - ДВІСТІ ВІДСОТКІВ</Text>
+    </Row>
+    <!-- Graphics Panel - Main -->
+    <Row Tag="LOC_OPTIONS_VIDEO_ADAPTER_TEXT">
+      <Text>Вибір ГПУ:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_ADAPTER_TOOLTIP">
+      <Text>Вказує грі, якою графічною картою користуватися.[NEWLINE][NEWLINE][COLOR_RED]Вимагає перезапуску програми![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MULTI_GPU_TEXT">
+      <Text>Мульти-GPU з підтримкою роздільної екранної камери</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MULTI_GPU_TOOLTIP">
+      <Text>Доступно тільки на налаштуваннях багатопотокового ГП з DX12.[NEWLINE][NEWLINE][COLOR_RED]Вимагає перезапуску застосунку![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_RESOLUTION_TEXT">
+      <Text>Резолюція:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_RESOLUTION_TOOLTIP">
+      <Text>Встановлює роздільну здатність, на якій гра рендериться.[NEWLINE][NEWLINE]Менші значення [COLOR_Civ6DarkRed]підвищують продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_UI_UPSCALE_TEXT">
+      <Text>Масштабування інтерфейсу користувача:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_UI_UPSCALE_TOOLTIP">
+      <Text>Збільшує розмір інтерфейсу користувача.[NEWLINE](Доступно лише при певних розширеннях екрану.)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_WINDOW_MODE_TEXT">
+      <Text>Режим вікна:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_WINDOW_MODE_TOOLTIP">
+      <Text>Змінює, як вікно гри відображається.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_PERFORMANCE_TEXT">
+      <Text>Вплив на продуктивність:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_PERFORMANCE_TOOLTIP">
+      <Text>Змінює налаштування розширених параметрів для досягнення бажаного впливу на продуктивність.[NEWLINE][NEWLINE]Нижчі значення зменшують візуальну чіткість, але [COLOR_Civ6DarkRed]підвищують продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MEMORY_TEXT">
+      <Text>Вплив на пам'ять:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MEMORY_TOOLTIP">
+      <Text>Змінює налаштування розширених параметрів, щоб відповідати потрібному впливу на пам'ять. [NEWLINE][NEWLINE] Нижчі значення зменшують візуальну якість, але [COLOR_Blue]зменшують використання пам'яті[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Advanced -->
+    <Row Tag="LOC_OPTIONS_SHOW_ADVANCED_GRAPHICS">
+      <Text>Показати Розширені Опції</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HIDE_ADVANCED_GRAPHICS">
+      <Text>Приховати розширені налаштування</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ADVANCED_GRAPHICS">
+      <Text>Розширені налаштування графіки</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VSYNC_ENABLED_TEXT">
+      <Text>Вертикальна синхронізація</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VSYNC_ENABLED_TOOLTIP">
+      <Text>Запобігає візуальному розриву.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PERFORMANCE_TICK_INTERVAL_TEXT">
+      <Text>Обмежувач частоти кадрів:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PERFORMANCE_TICK_INTERVAL_TOOLTIP">
+      <Text>Обмежує швидкість, з якою гра рендериться. [NEWLINE][NEWLINE] При ввімкненні може збільшувати час роботи батареї на портативних пристроях.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MSAA_TEXT">
+      <Text>Згладжування контурів (Anti-Aliasing):</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MSAA_TOOLTIP">
+      <Text>Вирівнює гострі кути.[NEWLINE][NEWLINE] Нижчі значення [COLOR_Civ6DarkRed]підвищують продуктивність[ENDCOLOR] та [COLOR_Blue]знижують використання пам'яті[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_HIGH_RESOLUTION_ASSET_TEXTURES_TEXT">
+      <Text>Текстури з високою роздільною здатністю активів</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_HIGH_RESOLUTION_ASSET_TEXTURES_TOOLTIP">
+      <Text>Використовує текстури високої деталізації для ігрових об'єктів.[NEWLINE][NEWLINE]Вимкнення [COLOR_Blue]зменшує використання пам'яті[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VFX_DETAIL_LEVEL_TEXT">
+      <Text>Високоякісні візуальні ефекти:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VFX_DETAIL_LEVEL_TOOLTIP">
+      <Text>Створює більше частинкових ефектів.[NEWLINE][NEWLINE]Вимкнення [COLOR_Civ6DarkRed]збільшує продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Lighting -->
+    <Row Tag="LOC_OPTIONS_LIGHTING">
+      <Text>Освітлення</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_ENABLED_TEXT">
+      <Text>Амбієнтна затіненість</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_ENABLED_TOOLTIP">
+      <Text>Затемнює області об'єктів, які менше піддаються впливу навколишнього світла.[NEWLINE][NEWLINE]Вимкнення [COLOR_Civ6DarkRed]підвищує продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_DEPTH_RESOLUTION_TEXT">
+      <Text>Роздільна здатність глибини затінення оточення:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_DEPTH_RESOLUTION_TOOLTIP">
+      <Text>Змінює деталі освітлення навколишнього середовища. [NEWLINE][NEWLINE] Нижчі значення [COLOR_Blue]зменшують використання пам'яті.[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_RENDER_RESOLUTION_TEXT">
+      <Text>Роздільна здатність рендеру оклюзії оточення:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_RENDER_RESOLUTION_TOOLTIP">
+      <Text>Змінює якість затінення середовища.[NEWLINE][NEWLINE]Зменшення значень [COLOR_Blue]зменшує використання пам'яті[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_BLOOM_ENABLED_TEXT">
+      <Text>Розквіт</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_BLOOM_ENABLED_TOOLTIP">
+      <Text>Додає блиск до яскравих світів та відблисків.[NEWLINE][NEWLINE]Вимкнення [COLOR_Civ6DarkRed]підвищує продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_DYNAMIC_LIGHTING_ENABLED_TEXT">
+      <Text>Динамічне освітлення</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_DYNAMIC_LIGHTING_ENABLED_TOOLTIP">
+      <Text>Додає джерела світла, крім сонця.[NEWLINE][NEWLINE]Вимкнення [COLOR_Civ6DarkRed]збільшує продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Shadows -->
+    <Row Tag="LOC_OPTIONS_SHADOWS">
+      <Text>Тіні</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_ENABLED_TEXT">
+      <Text>Тіні</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_ENABLED_TOOLTIP">
+      <Text>Додайте темні області, де світло блокується об'єктом. [NEWLINE][NEWLINE] Вимкнення [COLOR_Civ6DarkRed]підвищує продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_RESOLUTION_TEXT">
+      <Text>Роздільна здатність тіней:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_RESOLUTION_TOOLTIP">
+      <Text>Змінює різкість та деталі тіней.[NEWLINE][NEWLINE] Нижчі значення [COLOR_Blue]зменшують використання пам'яті[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CLOUD_SHADOWS_ENABLED_TEXT">
+      <Text>Хмарні тіні</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CLOUD_SHADOWS_ENABLED_TOOLTIP">
+      <Text>Додайте темні ділянки там, де світло блокується хмарами. [NEWLINE][NEWLINE] Відключення [COLOR_Civ6DarkRed] підвищує продуктивність [ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Overlay -->
+    <Row Tag="LOC_OPTIONS_OVERLAY">
+      <Text>Наложення</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SSOVERLAY_ENABLED_TEXT">
+      <Text>Накладання на екранне простір</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SSOVERLAY_ENABLED_TOOLTIP">
+      <Text>Накладає оверлеї на все, а не тільки на терен.[NEWLINE][NEWLINE]Вимкнення [COLOR_Civ6DarkRed]підвищує продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Terrain -->
+    <Row Tag="LOC_OPTIONS_TERRAIN">
+      <Text>Терен</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_QUALITY_TEXT">
+      <Text>Якість</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_QUALITY_TOOLTIP">
+      <Text>Змінює деталізацію ландшафту. [NEWLINE][NEWLINE] Нижчі значення [COLOR_Civ6DarkRed]підвищують продуктивність[ENDCOLOR] та/або [COLOR_Blue]зменшують використання пам'яті[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXT">
+      <Text>Високо-роздільна геометрія</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TOOLTIP">
+      <Text>Геометрія терену стає більш різкою та деталізованою.[NEWLINE][NEWLINE]Вимкнення [COLOR_Civ6DarkRed]збільшує продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXTURES_TEXT">
+      <Text>Високороздільні текстури</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXTURES_TOOLTIP">
+      <Text>Текстури рельєфу стають більш деталізованими та гострими.[NEWLINE][NEWLINE]Відключення [COLOR_Blue]зменшує використання пам'яті[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_QUALITY_SHADER_TEXT">
+      <Text>Високоякісний шейдер</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_QUALITY_SHADER_TOOLTIP">
+      <Text>Змінює освітлення місцевості.[NEWLINE][NEWLINE]Вимкнення [COLOR_Civ6DarkRed]збільшує продуктивність[ENDCOLOR] і [COLOR_Blue]зменшує використання пам'яті[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_DETAIL_CLUTTER_TEXT">
+      <Text>Високодеталізоване забруднення</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_DETAIL_CLUTTER_TOOLTIP">
+      <Text>Збільшує кількість дерев та крижинок льоду.[NEWLINE][NEWLINE] Вимкнення [COLOR_Civ6DarkRed]збільшує продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Water -->
+    <Row Tag="LOC_OPTIONS_WATER">
+      <Text>Вода</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_RESOLUTION_TEXT">
+      <Text>Вода високої роздільної здатності</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_RESOLUTION_TOOLTIP">
+      <Text>Хвилі води та світлові блиски стають гострішими та деталізованішими.[NEWLINE][NEWLINE]Вимкнення [COLOR_Blue]зменшує використання пам'яті[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_QUALITY_SHADER_TEXT">
+      <Text>Високоякісний шейдер</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_QUALITY_SHADER_TOOLTIP">
+      <Text>Змінює освітлення води. [NEWLINE][NEWLINE] Вимкнення [COLOR_Civ6DarkRed]збільшує продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_REFLECTION_PASSES_TEXT">
+      <Text>Відображення:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_REFLECTION_PASSES_TOOLTIP">
+      <Text>Контролюйте якість відображення води.[NEWLINE][NEWLINE]Відключення [COLOR_Civ6DarkRed]підвищує продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Reflections -->
+    <Row Tag="LOC_OPTIONS_REFLECTIONS">
+      <Text>Відображення (or Роздуми)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTIONS_ENABLED_TEXT">
+      <Text>Відображення</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTIONS_ENABLED_TOOLTIP">
+      <Text>Додайте відображення на місцевості та воді. [NEWLINE] [NEWLINE] Відключення [COLOR_Civ6DarkRed] підвищує продуктивність [ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_PASSES_TEXT">
+      <Text>Якість відображення:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_PASSES_TOOLTIP">
+      <Text>Контролюйте якість відображень.[NEWLINE][NEWLINE]Використання меншої кількості проходів або вимкнення [COLOR_Civ6DarkRed]збільшить продуктивність[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Leaders -->
+    <Row Tag="LOC_OPTIONS_LEADERS">
+      <Text>Анімовані лідери</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_QUALITY_TEXT">
+      <Text>Якість</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_QUALITY_TOOLTIP">
+      <Text>Змінює якість аудіовізуального відображення лідерів.[NEWLINE][NEWLINE] Вимкнення [COLOR_Civ6DarkRed]підвищує продуктивність[ENDCOLOR], а нижчі значення [COLOR_Blue]знижують використання пам'яті[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_MOTIONBLUR_TEXT">
+      <Text>Розмиття руху</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_MOTIONBLUR_TOOLTIP">
+      <Text>Увімкніть ефект розмиття руху для лідерів.</Text>
+    </Row>
+    <!-- Application Panel -->
+    <Row Tag="LOC_OPTIONS_APP_SHOW_MOVIE">
+      <Text>Показати відеоінтро:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_APP_WARN_MOD_COMPATIBILITY">
+      <Text>Попередити про сумісність модів</Text>
+    </Row>
+    <!-- Interface Panel -->
+    <Row Tag="LOC_OPTIONS_INTERFACE_GRAB_MOUSE">
+      <Text>Заблокувати мишу на вікні:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_EDGE_SCROLL">
+      <Text>Прокрутка при наведенні миші на край екрану:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_OPEN_TO_PROD_QUEUE">
+      <Text>Черга виробництва завжди відкрита:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_FORCE_CLICK_TO_DRAG">
+      <Text>Замінити утримання-та-перетягування на кліки:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_FORCE_CLICK_TO_DRAG_TT">
+      <Text>Ця опція замінює поведінку утримання-та-перетягування для перетягуваних UI-елементів на прості кліки для підняття та відкладання їх.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_CLOCK_FORMAT">
+      <Text>Формат годинника:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_12HOUR">
+      <Text>12-годинний</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_24HOUR">
+      <Text>24-годинний</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_TIME_OF_DAY">
+      <Text>Поведінка залежно від часу доби:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_UNIT_CYCLING">
+      <Text>Автоматичний цикл перемикання одиниць:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHAT_TEXT_SIZE">
+      <Text>Розмір тексту для чату:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHAT_TEXT_SIZE_VALUE">
+      <Text>{1_Value: число #.##}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_MINIMAP_SIZE">
+      <Text>Розмір міні-карти:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY">
+      <Text>Затримка підказки сюжету:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY_VALUE">
+      <Text>{1_Value: число #.##}с</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_SPEED">
+      <Text>Швидкість колеса миші:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_SPEED_VALUE">
+      <Text>{1_Значення : число #.##}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_TEXT_SPEED">
+      <Text>Швидкість прокрутки тексту:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_TEXT_SPEED_VALUE">
+      <Text>{1_Значення: число #.##}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_LABEL">
+      <Text>Показати виручку в стрічці HUD:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_ALWAYS_HIDE">
+      <Text>Завжди приховуйте (вимкнено)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_MOUSE_OVER">
+      <Text>Показати при наведенні миші</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_ALWAYS_SHOW">
+      <Text>Завжди показуйте</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_PLAYBYCLOUD_END_TURN_BEHAVIOR">
+      <Text>Поведінка закінчення ходу в грі через хмару:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_END_TURN_BEHAVIOR_ASK_ME">
+      <Text>Ask Me</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_END_TURN_BEHAVIOR_DO_NOTHING">
+      <Text>Нічого не робити</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_END_TURN_BEHAVIOR_EXIT_TO_MAINMENU">
+      <Text>Вихід до головного меню</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_PLAYBYCLOUD_READY_BEHAVIOR">
+      <Text>Готовість до гри у хмарі в поведінці:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_READY_BEHAVIOR_ASK_ME">
+      <Text>Попросіть мене</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_READY_BEHAVIOR_DO_NOTHING">
+      <Text>Нічого не робити</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_READY_BEHAVIOR_EXIT_TO_LOBBY">
+      <Text>Вихід до фойє</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR">
+      <Text>Готова функціональність клієнта гри в хмарі</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR_ASK_ME">
+      <Text>Запитай в мене</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR_DO_NOTHING">
+      <Text>Не робити нічого</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR_EXIT_TO_LOBBY">
+      <Text>Вихід до Лобі</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_COLOR_BLINDNESS_ADAPTATION">
+      <Text>Безбарвний доступність:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_DO_NOTHING">
+      <Text>Стандартні кольори</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_PROTANOPIA">
+      <Text>Червоно-сліпий Протанопія</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_DEUTERANOPIA">
+      <Text>Зелено-сліпий деутеранопія</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_TRITANOPIA">
+      <Text>Синьо-сліпа Тританопія</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_LIGHTING">
+      <Text>Використовуйте сумісне обладнання з RGB підсвічуванням</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_LIGHTING_TOOLTIP">
+      <Text>Дозволяє Civilization VI керувати підсвічуванням на комп'ютерах та периферійних пристроях, сумісних з Logitech Gaming Software або Alienware AlienFX.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SWITCH_UI_LAYOUT">
+      <Text>Змінити макет інтерфейсу користувача</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LAYOUT_PC">
+      <Text>ПК / Клавіатура та Миша</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LAYOUT_CONSOLE">
+      <Text>Консоль / Геймпад</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_DISPLAY">
+      <Text>Черга виробництва:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_HIDE">
+      <Text>Сховати</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_SHOW_FILLED">
+      <Text>Показати, коли заповнено</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_ALWAYS_SHOW">
+      <Text>Завжди показувати чергу міст</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_ALWAYS_SHOW_MANGER">
+      <Text>Завжди показувати менеджер черг</Text>
+    </Row>
+    <!-- Hotkeys Panel -->
+    <!-- Expansion 2 - Additional Hotkeys-->
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UI_XP2">
+      <Text>Інтерфейс користувача (Gathering Storm):</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_WORLDCLIMATE">
+      <Text>Перемикач Всесвітнього кліматичного вікна</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_WORLDCLIMATE_HELP">
+      <Text>Перемикає видимість екрану Світового клімату</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POWER">
+      <Text>Потужність</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POWER_HELP">
+      <Text>Перемикає лінзу живлення.</Text>
+    </Row>
+    <!-- Expansion 1 - Additional Hotkeys-->
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOVERNORS">
+      <Text>Перемикач випадаючого списку урядів</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOVERNORS_HELP">
+      <Text>Перемикає видимість екрана губернаторів</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TIMELINE">
+      <Text>Перемикач випливаючого вікна з часовою шкалою</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TIMELINE_HELP">
+      <Text>Перемикає видимість екрану Історичної Лінії часу</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ERA_PROGRESS">
+      <Text>Перемикач панелі прогресу ери</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ERA_PROGRESS_HELP">
+      <Text>Перемикач видимості Панелі Прогресу Ери</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_CAPITALCITY">
+      <Text>Столиця</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_CAPITALCITY_HELP">
+      <Text>Переходить до столиці</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UI_XP1">
+      <Text>Інтерфейс користувача (піднімання та падіння):</Text>
+    </Row>
+    <!-- Base Game Hot Keys-->
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UI">
+      <Text>Користувацький інтерфейс:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TECH">
+      <Text>Змінити дерево технологій</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVICS">
+      <Text>Перемикнути дерево громадянства</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOV">
+      <Text>Перемкнути екран уряду</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RELIGION">
+      <Text>Перемикач екрану релігії</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GPEOPLE">
+      <Text>Перемкнути екран Великих Людей</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GWORKS">
+      <Text>Перемикач екрану Великих творів</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RANKINGS">
+      <Text>Перемкнути екран рейтингів</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CITYSTATES">
+      <Text>Показати екран міст-держав</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ESPIONAGE">
+      <Text>Перемикнути екран шпигунства</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TRADEROUTES">
+      <Text>Перемкнути на екран маршрутів торгівлі</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVILOPEDIA">
+      <Text>Відкрийте Цивілопедію</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVBACK">
+      <Text>Цивілопедія Історія Назад</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVFWD">
+      <Text>Цивілопедія Історія Вперед</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_FSMAP">
+      <Text>Перемикнути на повноекранну карту</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TECH_HELP">
+      <Text>Перемикає видимість Дерева технологій</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVICS_HELP">
+      <Text>Перемикає видимість Дерева громадянства</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOV_HELP">
+      <Text>Перемикає видимість екрана уряду</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RELIGION_HELP">
+      <Text>Перемикає видимість екрану Релігії</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GPEOPLE_HELP">
+      <Text>Включає / вимикає відображення екрану Великих людей</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GWORKS_HELP">
+      <Text>Перемикає видимість екрану Великих Робіт</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RANKINGS_HELP">
+      <Text>Перемикає видимість екрану Рейтингів</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CITYSTATES_HELP">
+      <Text>Перемикає видимість екрану Міст-держав</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ESPIONAGE_HELP">
+      <Text>Перемикає видимість екрану Шпигунства</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TRADEROUTES_HELP">
+      <Text>Перемикає видимість екрану Торгових Маршрутів</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVILOPEDIA_HELP">
+      <Text>Відкривається Цивілопедія</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVBACK_HELP">
+      <Text>Повернутися до історії сторінок, коли відкрита Civilopedia</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVFWD_HELP">
+      <Text>Переходить до наступної сторінки історії, коли відкрита Civilopedia</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_FSMAP_HELP">
+      <Text>Перемикає видимість повноекранної карти</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UNIT">
+      <Text>Дії одиниць:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FOUNDCITY">
+      <Text>Знайдене Місто</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_MOVETO">
+      <Text>Переїхати до</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY">
+      <Text>Зміцнити (Zmіtsnyty)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY_HEAL">
+      <Text>Зміцнене зцілення</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_DELETE">
+      <Text>Видалити одиницю</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ATTACK">
+      <Text>Атака</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_RANGED">
+      <Text>Дистанційна атака</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_AUTOEXP">
+      <Text>Автоматизуйте дослідження</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SKIPTURN">
+      <Text>Пропустити хід</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SLEEP">
+      <Text>Сон</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ALERT">
+      <Text>Попередження</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ALL_AUTOSAVES">
+      <Text>the people gathered in the square to celebrate the victory. 
+
+Усі люди зібралися на площі, щоб відзначити перемогу</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FOUNDCITY_HELP">
+      <Text>Виконує дію "Заснувати місто", якщо обраний підрозділ - Сільський розбійник.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_MOVETO_HELP">
+      <Text>Виконує дію "Переміщення" з виділеною одиницею.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY_HELP">
+      <Text>Зміцнює обрану одиницю.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY_HEAL_HELP">
+      <Text>Підсилює обрану одиницю до повного відновлення здоров'я.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_DELETE_HELP">
+      <Text>Видаляє вибрану одиницю.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ATTACK_HELP">
+      <Text>Виконує дію Атаки з обраною одиницею.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_RANGED_HELP">
+      <Text>Виконує дію Дальнього Атаку з обраною одиницею.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_AUTOEXP_HELP">
+      <Text>Дозволяє автоматично досліджувати обрану одиницю.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SKIPTURN_HELP">
+      <Text>Вибраний блок пропускає поточний хід.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SLEEP_HELP">
+      <Text>Виконує дію Сон з обраним бойовим одиницею.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ALERT_HELP">
+      <Text>Виконує дію Сповіщення з обраним об'єктом.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_GLOBAL">
+      <Text>Глобальні дії:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ENDTURN">
+      <Text>Наступна дія</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEGRID">
+      <Text>Перемикач сітки</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PAUSEMENU">
+      <Text>Меню гри</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKSAVE">
+      <Text>Швидке збереження</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKLOAD">
+      <Text>Швидке завантаження</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTUNIT">
+      <Text>Наступна готова одиниця</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVUNIT">
+      <Text>Попередній готовий блок</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEYIELD">
+      <Text>Перемикач іконок доходності</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANUP">
+      <Text>Підніміть камеру вгору</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANDOWN">
+      <Text>Опустіть камеру вниз</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANLEFT">
+      <Text>Зверніть ліворуч</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANRIGHT">
+      <Text>Пануйте праворуч</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ZOOMIN">
+      <Text>Збільшити масштаб</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ZOOMOUT">
+      <Text>Зменшити масштаб</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTCITY">
+      <Text>Наступне місто</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVCITY">
+      <Text>Попереднє місто</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLERESOURCES">
+      <Text>Перемикач ікон ресурсів</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLE2DVIEW">
+      <Text>Перемикач Стратегічного Вигляду</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ENDTURN_HELP">
+      <Text>Закінчує хід гравця, якщо можливо.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEGRID_HELP">
+      <Text>Перемикає сітку на мапі.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PAUSEMENU_HELP">
+      <Text>Викликає меню в грі.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKSAVE_HELP">
+      <Text>Зберегти швидкий запис.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKLOAD_HELP">
+      <Text>Завантажує останнє швидке збереження, якщо воно існує.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTUNIT_HELP">
+      <Text>Переключається на наступний готовий блок.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVUNIT_HELP">
+      <Text>Переключається на попередню готову одиницю.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEYIELD_HELP">
+      <Text>Перемикає видимість іконок виходу.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANUP_HELP">
+      <Text>Повернути вид на карті вгору</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANDOWN_HELP">
+      <Text>Прокрутіть карту вниз</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANLEFT_HELP">
+      <Text>Прокрутіть карту вліво</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANRIGHT_HELP">
+      <Text>Прокрутіть карту вправо</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTCITY_HELP">
+      <Text>Переходить до наступного міста.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVCITY_HELP">
+      <Text>Перемкнути на попереднє місто.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLERESOURCES_HELP">
+      <Text>Перемикає видимість ікон ресурсів.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLE2DVIEW_HELP">
+      <Text>Перемикає вигляд гри між стандартним та стратегічним (2D).</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_ONLINE">
+      <Text>Онлайн дії:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_ONLINE_PAUSE">
+      <Text>Онлайн пауза</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_ONLINE_PAUSE_HELP">
+      <Text>Призупинити онлайн гру.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_LENSES">
+      <Text>Лінзи:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_RELIGION">
+      <Text>Релігія</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_CONTINENT">
+      <Text>Континент</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_APPEAL">
+      <Text>Апеляція</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_SETTLER">
+      <Text>Переселенец</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_GOVERNMENT">
+      <Text>Уряд</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POLITICAL">
+      <Text>Політичний</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_TOURISM">
+      <Text>Tourism</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_LOYALTY">
+      <Text>Вірність</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_EMPIRE">
+      <Text>Імперія</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_MOVE_CURSOR">
+      <Text>Перемістити курсор</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LEFT_CLICK_CURSOR">
+      <Text>Курсор лівої кнопки миші</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_UP">
+      <Text>Камера панує вгору</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_DOWN">
+      <Text>Камера опускається вниз</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_LEFT">
+      <Text>Камера рухається вліво</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_RIGHT">
+      <Text>Камера зріхнути вправо</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_RELIGION_HELP">
+      <Text>Перемикається на Релігійний об'єктив.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_CONTINENT_HELP">
+      <Text>Перемикає лінзу Континент.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_APPEAL_HELP">
+      <Text>Перемикає лінзу "Привабливість".</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_SETTLER_HELP">
+      <Text>Перемикає об'єктив поселенця.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_GOVERNMENT_HELP">
+      <Text>Перемикає об'єктив уряду.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POLITICAL_HELP">
+      <Text>Перемикає політичний об'єктив.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_TOURISM_HELP">
+      <Text>Перемикає об'єктив Туризм.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_LOYALTY_HELP">
+      <Text>Перемикає лінзу відданості.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_EMPIRE_HELP">
+      <Text>Перемикає об'єктив Імперії.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_MOVE_CURSOR_HELP">
+      <Text>Імітує рух курсору за допомогою аналогових палиць.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LEFT_CLICK_CURSOR_HELP">
+      <Text>Емулювати ліве натискання курсору.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_UP_HELP">
+      <Text>Підніміть камеру гри вгору.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_DOWN_HELP">
+      <Text>Посуньте камеру гри вниз.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_LEFT_HELP">
+      <Text>Перемістіть камеру гри вліво.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_RIGHT_HELP">
+      <Text>Поверніть камеру гри праворуч.</Text>
+    </Row>
+    <!-- Console Actions -->
+    <Row Tag="LOC_OPTIONS_FOCUS_NEXT">
+      <Text>Фокусуйся наступним</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_FOCUS_NEXT_HELP">
+      <Text>Перемістіть фокус на наступний варіант праворуч.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_FOCUS_PREV">
+      <Text>Фокус Попередній</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_FOCUS_PREV_HELP">
+      <Text>Перемістіть фокус на попередню опцію ліворуч.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT">
+      <Text>Виберіть</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT_HELP">
+      <Text>Вибирає поточну опцію або виділену ділянку.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BACK">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BACK_HELP">
+      <Text>Закрити поточне меню або скасувати поточний вибір.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NEXT_ACTION">
+      <Text>Наступна дія</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NEXT_ACTION_HELP">
+      <Text>Виберіть наступну дію з блокування повороту, яку потрібно виконати.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NOTIFICATIONS">
+      <Text>Сповіщення</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NOTIFICATIONS_HELP">
+      <Text>Відкрийте меню сповіщень.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOGGLE_TOOLTIPS">
+      <Text>Перемикач підказок</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOGGLE_TOOLTIPS_HELP">
+      <Text>Увімкнути/вимкнути підказки в обраному меню.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INGAME_MENU">
+      <Text>Меню в грі</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INGAME_MENU_HELP">
+      <Text>Відкриває ігрове меню.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NAVIGATE_MAP">
+      <Text>Навігувати карту</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NAVIGATE_MAP_HELP">
+      <Text>Керування вибором ділянки на карті.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN">
+      <Text>Панорамна камера</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_HELP">
+      <Text>Переміщуйте камеру під час вибору мапи.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT_CENTER_PLOT">
+      <Text>Оберіть центральний графік</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT_CENTER_PLOT_HELP">
+      <Text>Виберіть сюжет, який зараз знаходиться в центрі камери.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_IN">
+      <Text>Збільшити масштаб</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_IN_HELP">
+      <Text>Збільшити камеру на карті.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_OUT">
+      <Text>Зменшити масштаб</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_OUT_HELP">
+      <Text>Зменшити масштаб камери на мапі.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_UP">
+      <Text>Меню вгору</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_UP_HELP">
+      <Text>Виберіть елемент меню вище поточного вибору.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_DOWN">
+      <Text>Меню вниз</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_DOWN_HELP">
+      <Text>Вибрати пункт меню нижче поточного вибору.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_LEFT">
+      <Text>Ліве Меню</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_LEFT_HELP">
+      <Text>Виберіть пункт меню ліворуч від поточного вибору.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_RIGHT">
+      <Text>Ліве меню</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_RIGHT_HELP">
+      <Text>Виберіть елемент меню праворуч від поточного вибору.</Text>
+    </Row>
+    <!-- End Console Actions -->
+    <Row Tag="LOC_OPTIONS_KEY_UNDERSCORE">
+      <Text>_</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_A">
+      <Text>A</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_B">
+      <Text>УДЬ ЛАСКА, НАДАЙТЕ ТЕКСТ ДЛЯ ПЕРЕКЛАДУ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_C">
+      <Text>C</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_D">
+      <Text>D</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_E">
+      <Text>E</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F">
+      <Text>F</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_G">
+      <Text>G</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_H">
+      <Text>ELLO, I AM AN AI LANGUAGE MODEL. HOW CAN I ASSIST YOU TODAY?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_I">
+      <Text>I</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_J">
+      <Text>J</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_K">
+      <Text>K</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_L">
+      <Text>L</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_M">
+      <Text>AY I KNOW WHAT TEXT NEEDS TO BE TRANSLATED?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_N">
+      <Text>N</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_O">
+      <Text>O</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_P">
+      <Text>LEASE PROVIDE THE TEXT TO BE TRANSLATED</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_Q">
+      <Text>Q</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_R">
+      <Text>WHAT IS THE TEXT THAT NEEDS TO BE TRANSLATED?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_S">
+      <Text>URE, WHAT IS THE TEXT THAT NEEDS TO BE TRANSLATED?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_T">
+      <Text>T</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_U">
+      <Text>НАСТУПНИЙ ТЕКСТ ПОТРІБНО ПЕРЕКЛАСТИ НА УКРАЇНСЬКУ МОВУ. ВІДПОВІДАЙТЕ ЛИШЕ НАТУРАЛЬНИМ ПЕРЕКЛАДОМ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_V">
+      <Text>V</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_W">
+      <Text>W</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_X">
+      <Text>X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_Y">
+      <Text>Y</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_Z">
+      <Text>Z</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_0">
+      <Text>0</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_1">
+      <Text>1</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_2">
+      <Text>2</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_3">
+      <Text>3</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_4">
+      <Text>4</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_5">
+      <Text>5</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_6">
+      <Text>6</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_7">
+      <Text>7</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_8">
+      <Text>8</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_9">
+      <Text>9</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_0">
+      <Text>0 (Клавіша з числового блоку)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_1">
+      <Text>1 (Цифрова клавіатура)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_2">
+      <Text>2 (Нумерична клавіатура)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_3">
+      <Text>3 (Клавіша Числової Клавіатури)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_4">
+      <Text>4 (цифрова клавіатура)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_5">
+      <Text>5 (цифрова клавіатура)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_6">
+      <Text>6 (цифрова клавіатура)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_7">
+      <Text>Сім (клавіша з цифрою)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_8">
+      <Text>8 (цифрова клавіатура)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_9">
+      <Text>9 (цифрова клавіатура)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_MULTIPLY">
+      <Text>(Клавіші з цифрами)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_PLUS">
+      <Text>+ (Цифрова клавіатура)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_MINUS">
+      <Text>(Цифрова клавіатура)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_DECIMAL">
+      <Text>(Клавіша числового блоку)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_DIVIDE">
+      <Text>/ (Клавіша числової клавіатури)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_CENTER">
+      <Text>Центр (цифрова клавіатура)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F1">
+      <Text>Ф1</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F2">
+      <Text>F2</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F3">
+      <Text>F3</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F4">
+      <Text>F4</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F5">
+      <Text>F5</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F6">
+      <Text>Ф6</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F7">
+      <Text>F7</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F8">
+      <Text>F8 (THERE IS NO NEED TO TRANSLATE THIS AS IT IS ALREADY IN ENGLISH AND IS A TECHNICAL TERM.)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F9">
+      <Text>F9</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F10">
+      <Text>F10</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F11">
+      <Text>F11 (Ф11)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F12">
+      <Text>F12</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F13">
+      <Text>F13 (НЕ ПОТРЕБУЄ ПЕРЕКЛАДУ, ОСКІЛЬКИ ЦЕ КОДОВА НАЗВА АБО СКОРОЧЕННЯ, ЩО НЕ МАЄ КОНКРЕТНОГО ЗНАЧЕННЯ БЕЗ КОНТЕКСТУ)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F14">
+      <Text>F14</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F15">
+      <Text>F15</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F16">
+      <Text>F16 (Ф16)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F17">
+      <Text>F17</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F18">
+      <Text>F18</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F19">
+      <Text>F19</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F20">
+      <Text>F20</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F21">
+      <Text>F21</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F22">
+      <Text>F22 (THERE IS NO NEED TO TRANSLATE AS IT IS A TECHNICAL DESIGNATION AND DOES NOT HAVE A DIRECT TRANSLATION IN UKRAINIAN LANGUAGE)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F23">
+      <Text>F23</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F24">
+      <Text>F24</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_INSERT">
+      <Text>Insert</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_HOME">
+      <Text>Дім</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PAGEUP">
+      <Text>Сторінка вгору</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_DELETE">
+      <Text>Delete</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_END">
+      <Text>Кінець</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PAGEDOWN">
+      <Text>Прокрутити сторінку вниз</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LEFT">
+      <Text>Ліва стрілка</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_UP">
+      <Text>Стрілка вгору</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RIGHT">
+      <Text>Права стрілка</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_DOWN">
+      <Text>Стрілка вниз</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_SEMICOLON">
+      <Text>;</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PLUS">
+      <Text>=</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_COMMA">
+      <Text>,</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MINUS">
+      <Text>-</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PERIOD">
+      <Text>.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_SLASH">
+      <Text>/</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_TILDE">
+      <Text>~</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LBRACKET">
+      <Text>[</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_BACKSLASH">
+      <Text>НАСТУПНИЙ ТЕКСТ ПОТРІБНО ПЕРЕКЛАСТИ. ВІДПОВІДАЙТЕ ТІЛЬКИ НАТУРАЛЬНИМ ПЕРЕКЛАДОМ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RBRACKET">
+      <Text>SORRY, THERE IS NO TEXT PROVIDED FOR ME TO TRANSLATE</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_QUOTE">
+      <Text>НАСТУПНИЙ ТЕКСТ ПОТРІБНО ПЕРЕКЛАСТИ. ВІДПОВІДАЙТЕ ЛИШЕ НАТУРАЛЬНИМ ПЕРЕКЛАДОМ."</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PRINTSCREEN">
+      <Text>Друк екрану</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PAUSE">
+      <Text>Перерва</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_SPACE">
+      <Text>Космос</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_TAB">
+      <Text>Таб</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RETURN">
+      <Text>Повернення</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_ESCAPE">
+      <Text>Esc</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_BACKSPACE">
+      <Text>Backspace - Відміна дії (відступ)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_CANCEL">
+      <Text>Скасувати</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_SHIFT">
+      <Text>Зміна (Zmina)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_CONTROL">
+      <Text>Контроль</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_ALT">
+      <Text>Alt</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LSHIFT">
+      <Text>Ліва клавіша Shift</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LCONTROL">
+      <Text>Ліва контрольна клавіша</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LALT">
+      <Text>Ліва Alt</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RSHIFT">
+      <Text>Права Shift</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RCONTROL">
+      <Text>Правий контроль</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RALT">
+      <Text>Правий Альт</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LBUTTON">
+      <Text>Ліва кнопка миші</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RBUTTON">
+      <Text>Права кнопка миші</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MBUTTON">
+      <Text>Середня кнопка миші</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_CAPSLOCK">
+      <Text>Клавіша "Caps Lock"</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NUMLOCK">
+      <Text>Num Lock - Цифровий блок</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_SCROLLLOCK">
+      <Text>Клавіша Scroll Lock</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LWIN">
+      <Text>Ліва перемога</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RWIN">
+      <Text>"Права Перемога"</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_APPS">
+      <Text>Додатки</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_L">
+      <Text>Ліва кнопка миші</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_R">
+      <Text>Права кнопка миші</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_M">
+      <Text>Середня кнопка миші</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_X">
+      <Text>Миша {1_ButtonIndex}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_X1">
+      <Text>Миша X1</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_X2">
+      <Text>Миша X2</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_A">
+      <Text>Не розумію контексту, що означає "Pad A". Будь ласка, надайте додаткову інформацію</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_B">
+      <Text>Пад Бі</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_X">
+      <Text>Планшет X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_Y">
+      <Text>Pad Y</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RSHOULDER">
+      <Text>Pad RB</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LSHOULDER">
+      <Text>Пад LB</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTRIGGER">
+      <Text>Пад LT</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTRIGGER_CLICK">
+      <Text>Планшет Pad LT Click</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTRIGGER">
+      <Text>Планшет Pad RT</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTRIGGER_CLICK">
+      <Text>Натиснення правої кнопки на планшеті RT</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_DPAD_UP">
+      <Text>Падіння Дпад Вгору. (Note: This does not make sense in Ukrainian.)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_DPAD_DOWN">
+      <Text>Падіння Дпаду Вниз</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_DPAD_LEFT">
+      <Text>Лівий керуючий пульт D-pad</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_DPAD_RIGHT">
+      <Text>Право кнопка D-pad</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_UP">
+      <Text>Право стовпчика Вгору стрілки Дпад</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_DOWN">
+      <Text>Права кнопка Dpad Вниз</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_LEFT">
+      <Text>Права стрілка - вправо, ліва стрілка - вліво</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_RIGHT">
+      <Text>Права стрілка д-паду праворуч</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_START">
+      <Text>Початок (start) з заповненням (pad)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_BACK">
+      <Text>Задня частина</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTHUMB_PRESS">
+      <Text>Натиснути лівий стик</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTHUMB_PRESS">
+      <Text>Натисніть на праву стійку джойстика (RStick)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTHUMB_AXIS">
+      <Text>Зсув лівого стику</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTHUMB_AXIS">
+      <Text>Натисніть правий стик вниз</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_GRIP">
+      <Text>Ліва ручка для паду</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_GRIP">
+      <Text>Правий захват для педалі</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_TOUCHPAD_TOUCH">
+      <Text>Торкніться лівого тачпаду</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_TOUCHPAD_SWIPE">
+      <Text>Змащення тачпаду ліворуч</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_TOUCHPAD_CLICK">
+      <Text>Клік лівою кнопкою на тачпаді</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_MIDDLE_TOUCHPAD_TOUCH">
+      <Text>Торкніться середини тачпаду</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_MIDDLE_TOUCHPAD_SWIPE">
+      <Text>Середній свайп по тачпаду</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_MIDDLE_TOUCHPAD_CLICK">
+      <Text>Середнє натискання на тачпаді</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_TOUCHPAD_TOUCH">
+      <Text>Торкніться правого тачпаду</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_TOUCHPAD_SWIPE">
+      <Text>Правий свайп тачпаду</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_TOUCHPAD_CLICK">
+      <Text>Клік правою кнопкою на сенсорній панелі праворуч</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_MOVE">
+      <Text>Переміщення гіроскопа</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_PITCH">
+      <Text>Крен гіроскопа в плані</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_YAW">
+      <Text>Крен, тангаж, рыскание</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_ROLL">
+      <Text>Pad Gyro Roll</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_VOLUME_MUTE">
+      <Text>Я не можу вимовити текст, оскільки я машинний інтелект і не маю здатностей до голосового відтворення. Будь ласка, напишіть текст для перекладу</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_VOLUME_DOWN">
+      <Text>Зменшити гучність</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_VOLUME_UP">
+      <Text>Підняти гучність</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MEDIA_NEXT_TRACK">
+      <Text>Наступний трек</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MEDIA_PREV_TRACK">
+      <Text>Попередній трек</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MEDIA_STOP">
+      <Text>Зупинитись</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MEDIA_PLAY_PAUSE">
+      <Text>Грати / Пауза</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_TOOLTIP_REFRESH">
+      <Text>Оновити підказку</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NUM_KEYS">
+      <Text>Клавіші чисел</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SUBTITLES">
+      <Text>Кінематографічні субтитри:</Text>
+    </Row>
+  </FrontEndText>
+</GameData>

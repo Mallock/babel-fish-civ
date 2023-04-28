@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Instance Names-->
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_INSTANCE_NAME">
+      <Text>Потяг {LOC_GRAMMAR_A_AN &lt;&lt; {1_UnitName}}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_INSTANCE_NAME">
+      <Text>Побудуйте {LOC_GRAMMAR_A_AN &lt;&lt; {1_DistrictName}}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_INSTANCE_NAME">
+      <Text>Запустіть [ICON_TechBoosted] Eureka для {1_TechName}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_INSTANCE_NAME">
+      <Text>Спровокуйте [ICON_CivicBoosted] натхнення для {1_CivicName}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_INSTANCE_NAME">
+      <Text>Набрати {LOC_GRAMMAR_A_AN &lt;&lt; {1_GreatPersonClassName}}.</Text>
+    </Row>
+    <!--Descriptions-->
+    <Row Tag="LOC_QUEST_CONVERT_CAPITAL_TO_RELIGION_DESCRIPTION">
+      <Text>Перетворіть місто-державу на свою [ICON_Religion] релігію.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_SEND_TRADE_ROUTE_DESCRIPTION">
+      <Text>Надіслати [ICON_TradeRoute] Торговий маршрут до міста-держави.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_DESCRIPTION">
+      <Text>Знищте один [ICON_Barbarian] варварський форпост в радіусі 5 плиток від міста.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_DESCRIPTION">
+      <Text>Тренуйте випадковий тип військової [ICON_Unit] одиниці.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_DESCRIPTION">
+      <Text>Створити випадкову спеціальність типу району [ICON_District].</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_DESCRIPTION">
+      <Text>Спровокуйте випадково обраний [ICON_TechBoosted] момент Евреки.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_DESCRIPTION">
+      <Text>Спровокуйте випадковий момент [ICON_CivicBoosted] натхнення.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_DESCRIPTION">
+      <Text>Наймайте випадково обраного [ICON_GreatPerson] велику особистість.</Text>
+    </Row>
+    <!--Instance Descriptions-->
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_INSTANCE_DESCRIPTION">
+      <Text>Тренуйте військову {1_UnitName} одиницю.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_INSTANCE_DESCRIPTION">
+      <Text>Побудуйте район {LOC_GRAMMAR_A_AN &lt;&lt; {1_DistrictName}}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_INSTANCE_DESCRIPTION">
+      <Text>Спричиніть [ICON_TechBoosted] момент Евреки для технології {1_TechnologyName}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_INSTANCE_DESCRIPTION">
+      <Text>Активуйте момент натхнення [ICON_CivicBoosted] для міської громадянської організації {1_CivicName}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_INSTANCE_DESCRIPTION">
+      <Text>Найняти одного {1_IconString} {2_GreatPersonClassName}.</Text>
+    </Row>
+    <!--Rewards-->
+    <Row Tag="LOC_QUEST_REWARD_ENVOYS">
+      <Text>[ICON_Envoy] Посли</Text>
+    </Row>
+    <!--Instance Rewards-->
+    <Row Tag="LOC_QUEST_REWARD_ENVOYS_NUMBER">
+      <Text>[ICON_Envoy] {1_Amount} {1_Amount : plural 1?Посол; few?Посла; many?Послів;}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

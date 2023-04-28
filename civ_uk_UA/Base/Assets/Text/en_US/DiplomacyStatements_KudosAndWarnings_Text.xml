@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- AI Kudos -->
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_ANY_ANY">
+      <Text>БУДЬ ЛАСКА, ПЕРЕКЛАДІТЬ НАСТУПНИЙ ТЕКСТ УКРАЇНСЬКОЮ МОВОЮ. ВІДПОВІДАЙТЕ ЛИШЕ НАТУРАЛЬНИМ ПЕРЕКЛАДОМ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CATHERINE_DE_MEDICI_ANY">
+      <Text>Я бачу, що ви також займаєтеся більш витонченим мистецтвом державного управління. Я завжди насолоджувався трохи шпигунства, як для себе.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CLEOPATRA_ANY">
+      <Text>Я зацікавлений тільки в людях, які варті мого часу. Явно, ти один з них.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_BARBAROSSA_ANY">
+      <Text>Я хвалю вас за вашу обережність. Допомагати тому місто-державі - це запрошення на смерть.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_GANDHI_ANY">
+      <Text>Немає сорому у стримуванні. Мати зброю - це дуже відмінно від фактичного використання її.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_GILGAMESH_ANY">
+      <Text>Ти є добрим другом та союзником. Гільгамеш запам'ятає це.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_GORGO_ANY">
+      <Text>Ти був би хорошим спартанцем... стійким, міцним, хоробрим.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HARDRADA_ANY">
+      <Text>Сильне військо… це прекрасний вид.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HOJO_ANY">
+      <Text>Ви будуєте своє імперію як Сходяче Сонце: потужно та блискуче.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MVEMBA_ANY">
+      <Text>Я вітаю слова ваших пророків та священиків. Ми вчимося багато з їхніх добрих справ.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_PEDRO_ANY">
+      <Text>Уявіть всі неймовірні речі, які здійснять геніальні розуми мого народу.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_PERICLES_ANY">
+      <Text>Ви мудрі, що залишаєте наш сусідній місто-державі нам.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_PETER_GREAT_ANY">
+      <Text>Ваше суспільство вартує наслідування. Мистецтво, науки... що ви не маєте?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_PHILIP_II_ANY">
+      <Text>Я відчуваю полегшення, що ви розумієте, що ми не можемо терпіти єретиків. Це проти Бога, звичайно.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_QIN_ANY">
+      <Text>Добре, що ви не намагаєтесь конкурувати з величною імперією Цінь. Наші дива неперевершені.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SALADIN_ANY">
+      <Text>Благословіння на тебе. Ти поширюєш правду та співчуття через свої дії в ім'я величного та бездоганного Бога.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_T_ROOSEVELT_ANY">
+      <Text>Дякую за збереження миру на континенті. Вам належить вітання!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TOMYRIS_ANY">
+      <Text>Наші дві нації ніколи не були такими сильними. Бажаємо вам багато перемог у мирний час.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TRAJAN_ANY">
+      <Text>Поширення вашої імперії подібно до Юпітера над небом. Молодець.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_VICTORIA_ANY">
+      <Text>Будь ласка, прийміть мою найщирішу подяку за Ваші добрі зусилля на континенті, який ми ділимо.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_CATHERINE_DE_MEDICI_REASON_ANY">
+      <Text>Ви сильні у дипломатичній видимості та шпигунстві</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_CLEOPATRA_REASON_ANY">
+      <Text>У вас сильна армія</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_BARBAROSSA_REASON_ANY">
+      <Text>(Ви не атакуєте або укладаєте союзи з міст-державами)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_GANDHI_REASON_ANY">
+      <Text>Ви зберігаєте мир</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_GILGAMESH_REASON_ANY">
+      <Text>(Ви один з моїх друзів)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_GORGO_REASON_ANY">
+      <Text>Ви боролися чесно і не капітулювали у мирній угоді</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_HARDRADA_REASON_ANY">
+      <Text>У вас потужна морська флотиля</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_HOJO_REASON_ANY">
+      <Text>Ви сильні в військовій справі, а також у вірі та культурі</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_MVEMBA_REASON_ANY">
+      <Text>Ви створили релігію та привезли її до Конго</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_PEDRO_REASON_ANY">
+      <Text>(Ви не загрожуєте здобувати більше Великих Людей)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_PERICLES_REASON_ANY">
+      <Text>(Ви не конкуруєте за міські держави)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_PETER_GREAT_REASON_ANY">
+      <Text>Ви сильні у науці та культурі</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_PHILIP_II_REASON_ANY">
+      <Text>(Ви поділяєте його релігію)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_QIN_REASON_ANY">
+      <Text>(Ви не загрожуєте будувати більше див.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_SALADIN_REASON_ANY">
+      <Text>(Ваша імперія містить його релігійну споруду)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_T_ROOSEVELT_REASON_ANY">
+      <Text>Ви зберегли мир на його рідному континенті</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_TOMYRIS_REASON_ANY">
+      <Text>(Ви є одним з її друзів)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_TRAJAN_REASON_ANY">
+      <Text>(Ваша імперія велика)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_VICTORIA_REASON_ANY">
+      <Text>Ви проживаєте на одному континенті</Text>
+    </Row>
+    <!-- Generic kudos for random agendas -->
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_ANY">
+      <Text>Кудоси - Причина невідома</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_CULTURE">
+      <Text>Я вражений унікальною культурою, яку розвивають ваші люди.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_HAPPINESS">
+      <Text>Я чув, що ваші люди хочуть святкувати вашу владу. Гарна робота, що ви дбаєте про їх щастя.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_INCOME">
+      <Text>Ваш скарбниця досить добре наповнюється. Завжди приємно мати такий сильний дохід, чи не так?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_INDUSTRY">
+      <Text>Я вітаю вас з успішною продуктивністю вашого народу.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS">
+      <Text>Ми є справжніми друзями менших цивілізацій. Ми вдячні, що ви визнаєте цей факт.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_POPULATION">
+      <Text>Кількість людей, які живуть у вашій імперії, дійсно вражає.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_SCIENCE">
+      <Text>Я вражений глибиною вашого наукового дослідження.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_STANDING_ARMY">
+      <Text>Я люблю лідера, який оточений вражаючою армією.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_ENJOYS_WAR">
+      <Text>Саме в бою розкривається справжня душа цивілізації. Нехай переможе кращий.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG">
+      <Text>Мені приємно бачити, що великі розуми світу віддають перевагу нашій імперії, а не вашій.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG">
+      <Text>Мені приємно, що ви довіряєте нам будівництво дива.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_PROTECT_CITY_STATES">
+      <Text>Ваша захист права міської держави на існування став прикладом для наслідування всім світом.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_MED_PROTECT_CITY_STATES">
+      <Text>Сильні мають захищати слабких. Добре, що ви згодні.</Text>
+    </Row>
+    <!--Kudos for future random agendas (not yet implemented)-->
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_AIRPOWER">
+      <Text>Мені треба визнати, що потужність вашої повітряної сили не можна недооцінити. Дуже гарно.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_PROTECTS_CITY_STATES">
+      <Text>Це захоплююча річ дбати про тих, хто не може дбати про себе.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS">
+      <Text>Ці барбари завдали нам всім багато клопоту. Дякуємо вам за допомогу!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_ENVIRONMENT">
+      <Text>Нам було даний лише один Земля, і я рада, що я не єдиний, хто це поважає.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_EXPLOITATION">
+      <Text>Світ належить нам! І ви його взяли.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_SAME_GOVERNMENT">
+      <Text>Я бачу, що ви єдинодумна людина і повинен відзначити ваші правлінські практики.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_NUKE_LOVE">
+      <Text>Великі розуми мислять подібно, бачу. Існує безліч застосувань цієї технології...</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_FAITH">
+      <Text>Мир і благополуччя тобі та твоїм близьким. Душевно приємно бачити ще одну особу, яка так само вірна, як і я.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_LOW_EXPLORATION">
+      <Text>Так, дуже добре. Нехай дослідження залишаться за мною.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_PARANOID">
+      <Text>Я відчуваю полегшення, бачачи, що ваша імперія не становить загрози для нашої.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_AGENDA_EXPLANATION">
+      <Text>[NEWLINE] (Ви задовольнили план дій {Name}, {Agenda})</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_ZEALOT">
+      <Text>Навіть після всього, що ми зробили, я все ще переймаюсь тим, що є душі, які не хочуть бути спасені</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_LEADER_MONTEZUMA_REASON_AGENDA_ZEALOT">
+      <Text>Це добре, що ви обрали правильну віру. Ймовірно, ви зробили це з захоплення до мене. Це зрозуміло.</Text>
+    </Row>
+    <!-- AI Warnings-->
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_ANY_ANY">
+      <Text>БУДЬ ЛАСКА, ПЕРЕКЛАДІТЬ НАСТУПНИЙ ТЕКСТ НА УКРАЇНСЬКУ МОВУ. ВІДПОВІДАЙТЕ ЛИШЕ ПРИРОДНИМ ПЕРЕКЛАДОМ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CATHERINE_DE_MEDICI_ANY">
+      <Text>Тобі дійсно варто почати приділяти увагу тому, що відбувається навколо тебе. Тут відбувається гра на багатьох рівнях.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CLEOPATRA_ANY">
+      <Text>Ви не заслуговуєте на те, щоб знаходитися поряд з нами. Ваша сила така сама хитка, як і Ваша армія є слабкою.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_BARBAROSSA_ANY">
+      <Text>Я знищу своїх ворогів, і якщо ви продовжуватимете допомагати їм, я знищу вас теж.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_GANDHI_ANY">
+      <Text>Якщо ви такі кровожадні, можливо краще кінчити з вашим лідерством.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_GILGAMESH_ANY">
+      <Text>Якщо ви завдадите шкоди моїм друзям, ви зіткнетесь з могутністю Уруку; я обіцяю вам це.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_GORGO_ANY">
+      <Text>Ви такий трус, що уникнути пролиття крові? Так легко поступатися? Де ваша честь?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HARDRADA_ANY">
+      <Text>Твої моря без захисту, друже. Занадто легко здійснювати набіги.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HOJO_ANY">
+      <Text>Дотримуючись Бушідо, потрібно тренувати тіло, розум та душу ... але де ваші люди можуть це зробити?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MVEMBA_ANY">
+      <Text>Я можу припустити, що ваша небажання поширювати свою релігію походить з недостатньої переконаності.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_PEDRO_ANY">
+      <Text>Ваші найкращі інженери та архітекти були б щасливіші в місці, де вони могли б рости. Наприклад, Бразилія.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_PERICLES_ANY">
+      <Text>Це наше місто. Я раджу вам не втручатися.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_PETER_GREAT_ANY">
+      <Text>Ваші люди голодують за знанням та красою, і все ж ви ігноруєте науку та мистецтво. Чому?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_PHILIP_II_ANY">
+      <Text>Замість покаяння, ти богохульний. Помста Бога спаде на твою голову.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_QIN_ANY">
+      <Text>Яка потреба у вас є в диві, коли ви можете дивитись на твори Середньовічного Королівства?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SALADIN_ANY">
+      <Text>Я не буду допускати святотатства. Ви заплатите за своє безбожництво проти найвищого, того, хто не має недоліків.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_T_ROOSEVELT_ANY">
+      <Text>Ніхто не стоїть вище закону. Тебе варто це запам'ятати.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TOMYRIS_ANY">
+      <Text>Вірність - це власна нагорода. Чи не знаєте ви цього?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TRAJAN_ANY">
+      <Text>Ви залишаєте найдохідніші частини землі вашим ворогам для зайняття. Чи ви настільки боїтеся розширення?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_VICTORIA_ANY">
+      <Text>Ви ступаєте на небезпечні води перед Англією та її вірними колоніями.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_CATHERINE_DE_MEDICI_REASON_ANY">
+      <Text>Ви слабкі в дипломатичній видимості та шпигунстві</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_CLEOPATRA_REASON_ANY">
+      <Text>У вас слабка військова сила</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_BARBAROSSA_REASON_ANY">
+      <Text>(Ви підкорюєте або укладаєте союз з міськими державами.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_GANDHI_REASON_ANY">
+      <Text>(Ви спонукаєте до війни.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_GILGAMESH_REASON_ANY">
+      <Text>(Ви зрадили одного з моїх друзів.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_GORGO_REASON_ANY">
+      <Text>Ви ніколи не йшли на війну або не капітулювали в угоді про мир</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_HARDRADA_REASON_ANY">
+      <Text>(Ви маєте слабку військово-морську флотилю.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_HOJO_REASON_ANY">
+      <Text>(Ви міцні в військовій силі, але не вірі та культурі.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_MVEMBA_REASON_ANY">
+      <Text>Ви створили релігію, але не привезли її до Конго</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_PEDRO_REASON_ANY">
+      <Text>Ви набрали більше Великих Осіб</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_PERICLES_REASON_ANY">
+      <Text>(Ви конкуруєте за місто-держави.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_PETER_GREAT_REASON_ANY">
+      <Text>(Ви слабі в науці та культурі.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_PHILIP_II_REASON_ANY">
+      <Text>Ви розповсюджуєте свою релігію в його містах</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_QIN_REASON_ANY">
+      <Text>Ви збудували більше дивовиж</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_SALADIN_REASON_ANY">
+      <Text>Ви створили конкуруючу релігію, особливо якщо перебуваєте у війні з цивілізацією, що слідує його релігії</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_T_ROOSEVELT_REASON_ANY">
+      <Text>Ви напали на когось на його рідному континенті</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_TOMYRIS_REASON_ANY">
+      <Text>(Ви зрадили друга або оголосили неочікувану війну.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_TRAJAN_REASON_ANY">
+      <Text>(Твоє імперія мала.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_VICTORIA_REASON_ANY">
+      <Text>У вас є присутність на континенті, на якому вона хоче оселитися</Text>
+    </Row>
+    <!-- Generic warnings for random agendas -->
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_ANY">
+      <Text>Попередження - Причина не відома</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_CULTURE">
+      <Text>Ви не робите багато для розвитку сильної культури. Що ми матимемо запам'ятати про ваш народ?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_HAPPINESS">
+      <Text>Вам, можливо, варто підійти до питання про кілька додаткових зручностей для ваших громадян. Я не думаю, що вони задоволені вашим правлінням.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_INCOME">
+      <Text>Ваша імперія рухається до банкрутства. Як ви зможете вижити, коли заборгованість надходить?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_MODIFIER_COMPETING_MINORS">
+      <Text>Ви крокуєте по небезпечній землі, роблячи спільну справу з міст-державами. Залиште їх нам.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_INDUSTRY">
+      <Text>Ваші люди ліниві та недостойні. Якщо ви не зможете нічого створити, ваша цивілізація незабаром буде забута.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_POPULATION">
+      <Text>У вашій імперії живе так мало людей. Мусить бути складно щось зробити.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_SCIENCE">
+      <Text>Ти не витрачаєш багато часу на дослідження. Як твій народ буде доганяти?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_STANDING_ARMY">
+      <Text>У вас так мало військ. Чи ви не боїтеся за своє життя?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_PARANOID">
+      <Text>Ваші міста так близько. Ваші війська так сильні. Ви змушуєте мене нервувати!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD">
+      <Text>Ваша наймання чудових людей, яких ми заздримо, стає справжньою проблемою.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD">
+      <Text>Ви не розумієте, що ми повинні бути провідними будівельниками див і дивовиж?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_HIGH_ATTACK_CITY_STATES">
+      <Text>Лише труси нападають на малі держави світу. Ви для нас ніщо не варті.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_MED_ATACK_CITY_STATES">
+      <Text>Вважайте це попередженням. Більше не нападайте на менші держави.</Text>
+    </Row>
+    <!--Warnings for future random agendas (not yet implemented)-->
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_AIRPOWER">
+      <Text>Немає слави у тому, щоб тримати свої ноги на землі. Варто спробувати створити повітряні сили.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_ATTACKS_CITY_STATES">
+      <Text>Це жалюгідна річ знущатися над слабкими.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS">
+      <Text>Як ви можете дозволити цим варварам вигулювати так близько до вашого дому?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_ENVIRONMENT">
+      <Text>Я повинен повідомити вам, що ваше знищення нашої землі впливає не тільки на вас, а й на ваших сусідів.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_EXPLOITATION">
+      <Text>Плідні землі оточують вас! Як ви можете їх ігнорувати?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_DIFFERENT_GOVERNMENT">
+      <Text>Наші ідеологічні відмінності - це лише початок. Я не можу затверджувати того, як ви керуєте своїми людьми...</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_NUKE_LOVE">
+      <Text>Ядерна зброя - це майбутнє! Як можна цього не бачити?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_FAITH">
+      <Text>Що вас направляє? Ви, безперечно, не можете не вірити ні в що. Прийдіть і покажіть своїм людям світло!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_HIGH_EXPLORATION">
+      <Text>Є лише обмежена кількість речей, які можна відкрити, і я боюся не дотримуватися когось, хто починає свій дослідження перед моїми власними дослідниками.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_AGENDA_EXPLANATION">
+      <Text>[NEWLINE](Ви порушили плани {Name}, {Agenda})</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_MONTEZUMA_REASON_AGENDA_ZEALOT">
+      <Text>Я дарую тобі свою релігію! Чому ти відмовляєшся? Ти засоромишся і зіткнешся з руйнуванням у післяжитті!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_ZEALOT">
+      <Text>Я збираюся побачити спасіння твоєї душі, чи ти хочеш цього, чи ні!</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

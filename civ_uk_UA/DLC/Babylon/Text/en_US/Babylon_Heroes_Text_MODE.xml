@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- REPLACEMENTS -->
+    <Delete Tag="LOC_GREAT_PEOPLE_TITLE" />
+    <Delete Tag="LOC_HUD_GREATPEOPLE_TOOLTIP" />
+    <Delete Tag="LOC_BUILDING_ORACLE_DESCRIPTION" />
+    <Delete Tag="LOC_BUILDING_SHRINE_DESCRIPTION" />
+    <Delete Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" />
+    <Delete Tag="LOC_BUILDING_TEMPLE_DESCRIPTION" />
+  </LocalizedText>
+  <EnglishText>
+    <!-- REPLACEMENTS -->
+    <Row Tag="LOC_GREAT_PEOPLE_TITLE">
+      <Text>Герої та великі люди</Text>
+    </Row>
+    <Row Tag="LOC_HUD_GREATPEOPLE_TOOLTIP">
+      <Text>Герої та Великі Люди[NEWLINE][NEWLINE]Переглянути доступних Великих Людей [ICON_GreatPerson] та свій прогрес у досягненні Великого Людини [ICON_GreatPerson][NEWLINE]Переглянути всіх відкритих Героїв з їхнім поточним статусом та здібностями</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ORACLE_DESCRIPTION">
+      <Text>Відзвітування про Героїв коштує на 15% менше [ICON_Faith] Віри, а Покровительство Великих Людей коштує на 25% менше [ICON_Faith] Віри. Райони у цьому місті забезпечують +2 очки Великої Особи їх типу (наприклад, очки Великого Письменника з району Театрального Майданчика [ICON_GreatWriter]). Має бути побудовано на пагорбах.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SHRINE_DESCRIPTION">
+      <Text>Геройські одиниці, що були заявлені або відкликані в цьому місті, мають на 10% довший термін служби [ICON_Lifespan]. Дозволяє купувати місіонерів. Місіонерів можна купити лише за [ICON_Faith] Віру.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION">
+      <Text>Всі геройські одиниці мають на 10% більший термін [ICON_Lifespan]. Збільшує приріст на 15% у всіх містах. Потрібно будувати поряд із річкою.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_DESCRIPTION">
+      <Text>Нагадування про Героїв у цьому місті коштує на 15% менше віри [ICON_Faith]. Дозволяє купувати Апостолів, Гуру, Інквізиторів та, з належним віруванням, Воїнів-монахів. Ці одиниці можна купувати тільки за [ICON_Faith] віру.</Text>
+    </Row>
+    <!--Hero Units-->
+    <Row Tag="LOC_UNIT_HERO_ANANSI_NAME">
+      <Text>Анансі (Anansi)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_ANANSI_DESCRIPTION">
+      <Text>Півбог та подорожній африканської фольклору, відомий своєю кмітливістю та хитрощами.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_ARTHUR_NAME">
+      <Text>Артур</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_ARTHUR_DESCRIPTION">
+      <Text>Король та засновник Лицарів Круглого столу, відомий своєю доблестью та лицарською честю.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_BEOWULF_NAME">
+      <Text>Беовульф</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_BEOWULF_DESCRIPTION">
+      <Text>Могутній воїн Півночі, що славиться своєю силою та хоробрістю в одиночому бою.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HERCULES_NAME">
+      <Text>Геракл</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HERCULES_DESCRIPTION">
+      <Text>Півбог з надздібностями суперлюдини, відомий своїми знаменитими Працями.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIMIKO_NAME">
+      <Text>Гіміко</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIMIKO_DESCRIPTION">
+      <Text>Шаман-королева давньої Японії, відома своєю мудрістю та містичною силою.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIPPOLYTA_NAME">
+      <Text>Гіпполіта</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIPPOLYTA_DESCRIPTION">
+      <Text>Воїн-королева Амазонок, відома своїм лідерством та бойовими вміннями.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HUNAHPU_NAME">
+      <Plurality>2</Plurality>
+      <Text>Гунахпу та Шбаланке</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HUNAHPU_DESCRIPTION">
+      <Text>Легендарні атлети та герої Майя, відомі своєю владою над смертю та Підземеллям.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_OYA_NAME">
+      <Text>Oya</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_OYA_DESCRIPTION">
+      <Text>Ориша вітрів, штормів та блискавок, відома своєю надзвичайною силою.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MAUI_NAME">
+      <Text>Мауї</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MAUI_DESCRIPTION">
+      <Text>Демібог та герой полінезійського міфу, відомий своїми подвигами та дарами для людства.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MULAN_NAME">
+      <Text>Мулан</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MULAN_DESCRIPTION">
+      <Text>Віддана та кваліфікована воїнка, відома своєю відданістю та лояльністю.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_SINBAD_NAME">
+      <Text>Синдбад</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_SINBAD_DESCRIPTION">
+      <Text>[COLOR_LIGHTBLUE]Морський герой.[ENDCOLOR] Пригодник та авантюрист, славетний своїми дивними та дивовижними подорожами.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_WUKONG_NAME">
+      <Text>Сун Вуко́нг</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_WUKONG_DESCRIPTION">
+      <Text>Мавпа-цар - герой давньої Китаю, відомий своєю хитрістю та бессмертям.</Text>
+    </Row>
+    <!--Other Units-->
+    <Row Tag="LOC_UNIT_QUESTING_KNIGHT_NAME">
+      <Text>Лицар-шукач (Litssar-shukach)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_QUESTING_KNIGHT_DESCRIPTION">
+      <Text>Важка кіннота. Один з обраних лицарів Артура, що зміцнений його наказом.</Text>
+    </Row>
+    <!--Abilities and Classes-->
+    <Row Tag="LOC_HERO_CLASS_NAME">
+      <Text>Герой</Text>
+    </Row>
+    <Row Tag="LOC_HERO_ABILITY_COMBAT_STRENGTH_AOE_NAME">
+      <Text>Надихаючий</Text>
+    </Row>
+    <Row Tag="LOC_HERO_ABILITY_COMBAT_STRENGTH_AOE">
+      <Text>+5 [ICON_Strength] Бойової Сили для всіх одиниць в радіусі 2 шестириків.</Text>
+    </Row>
+    <Row Tag="LOC_HERO_COMBAT_STRENGTH_UNIT_MODIFIER">
+      <Text>+{1_Amount} [ICON_Strength] Бойовий бонус від неподалік Надихаючого Героя.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HIPPOLYTA_HEAL_PER_TURN_NAME">
+      <Text>Ласка Гіпполіти</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_HIPPOLYTA_HEAL_PER_TURN">
+      <Text>Гіпполіта автоматично відновлює {1_Amount} HP кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HUNAHPU_RESURRECT_KILL_NAME">
+      <Text>Воскресіння Близнюків</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_HUNAHPU_RESURRECT_KILL">
+      <Text>Будь-яка звичайна земляна одиниця, вбита Хунапу та Шбаланком, воскресне під вашим контролем з повним запасом здоров'я та руху.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MULAN_STRENGTH_PER_TURN_NAME">
+      <Text>Відданість Мулан</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_MULAN_STRENGTH_PER_TURN">
+      <Text>Мулан отримує {1_Amount} [ICON_Strength] бойової сили кожен хід.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MULAN_FORTIFY_NAME">
+      <Text>Непокірність Мулан</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_MULAN_FORTIFY">
+      <Text>Мулан повністю зміцнюється автоматично в кінці кожного ходу.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WUKONG_STEALTH_NAME">
+      <Text>Переведіть на українську наступний текст. Відповідайте лише натуральним перекладом.
+
+"Приховування Сунь Уконга"</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_WUKONG_STEALTH">
+      <Text>Сун Вукунг залишається прихованим, якщо не знаходиться поруч із ворожою одиницею.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WUKONG_LIFESPAN_NAME">
+      <Text>Безсмертя Сунь Вукона</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WUKONG_LIFESPAN">
+      <Text>Сунь Вукун значно збільшив [ICON_Lifespan] тривалість життя.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SINBAD_GOLD_FOR_DISCOVERY_NAME">
+      <Text>Подорожі Сіндбада</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_SINBAD_GOLD_FOR_DISCOVERY">
+      <Text>Синбад заробляє {1_GoldReward} [ICON_GOLD] золота кожного разу, коли він відкриває континент або природне диво.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SINBAD_OCEAN_VALID_TERRAIN_NAME">
+      <Text>Навігатор</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SINBAD_OCEAN_VALID_TERRAIN">
+      <Text>Можна входити на океанічні тайли.</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_TRAIT_SUMERIA_HEROES_LIFESPAN">
+      <Text>Всі геройські одиниці мають {1_Amount} довші [ICON_Lifespan] терміни служби.</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_TRAIT_SUMERIA_HEROES_FASTER_CLAIM">
+      <Text>Збільшення виробництва на {1_Amount}% [ICON_Production] від Героїчних квестів</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_FOREST_TERRAIN_COST_NAME">
+      <Text>Agile</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_FOREST_TERRAIN_COST">
+      <Text>Ігнорує [ICON_Movement] штрафи Руху на теренах Лісу та Тропічного дощового лісу.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_HILLS_TERRAIN_COST_NAME">
+      <Text>Міцний</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_HILLS_TERRAIN_COST">
+      <Text>Ігнорує штрафи до руху [ICON_Movement] в гірському рельєфі.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_ALL_TERRAIN_COST_NAME">
+      <Text>Швидкий</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_ALL_TERRAIN_COST">
+      <Text>Ігнорує всі пенальті за рух на терені [ICON_Movement].</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_ENTER_FOREIGN_LANDS_NAME">
+      <Text>Дипломатичний</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_ENTER_FOREIGN_LANDS_MODIFIER">
+      <Text>Можна в'їжджати на іноземні землі, коли немає війни.</Text>
+    </Row>
+    <!--Building Modifier strings-->
+    <Row Tag="LOC_MODIFIER_ORACLE_RECALL_FAITH_COST_DISCOUNT">
+      <Text>{1_Amount} [ICON_Faith] Віри для виклику Героїв.</Text>
+    </Row>
+    <!--Unit Commands-->
+    <Row Tag="LOC_UNITCOMMAND_KILL_WEAKER_UNIT_DESCRIPTION">
+      <Text>Виклик Беовульфа</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_KILL_WEAKER_UNIT_HELP">
+      <Text>Нападає на сусідню ворожу одиницю зі [ICON_Strength] бойовою силою менше, ніж у Беовульфа. Беовульф негайно знищує цю ціль. Коштує 1 заряд, 1 [ICON_MOVEMENT] руху.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TRANSFORM_UNIT_DESCRIPTION">
+      <Text>Похвала Артура</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TRANSFORM_UNIT_HELP">
+      <Text>Оберіть сусідню військову одиницю на землі, яку ви контролюєте. Артур перетворює одиницю в Рицаря-Пригодника: унікальну важку кінноту з підвищеним показником бойової міці [ICON_Strength] та {1_LifespanVal} [ICON_Lifespan] терміном служби. Це коштує 1 заряд, 1 [ICON_MOVEMENT] одиницю руху.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESOURCE_INSPIRE_DESCRIPTION">
+      <Text>Хитрощі Анансі</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESOURCE_INSPIRE_HELP">
+      <Text>Використовується, коли знаходиться на бонусному або розкішному ресурсі. Анансі споживає ресурс і генерує {1_ScienceReward} [ICON_SCIENCE] науки та {2_CultureReward} [ICON_CULTURE] культури. Будь-яке покращення, якщо воно є, буде знищене. Вимагає 1 заряд та закінчує хід.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_COMPLETE_DISTRICT_DESCRIPTION">
+      <Text>Труди Геракла</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_COMPLETE_DISTRICT_HELP">
+      <Text>Використовуйте, коли знаходитесь на дружньому районі у будівництві. Геракл негайно завершує будівництво району. Коштує 2 заряди та закінчує хід.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_DESTROY_DEVELOPMENT_DESCRIPTION">
+      <Text>Гнів Геракла</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_DESTROY_DEVELOPMENT_HELP">
+      <Text>Використовуйте, коли знаходитесь на ворожому районі. Геракліс знищує всі будівлі, що наявні, та розграбовує район. Коштує 1 заряд та закінчує хід.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_GRANT_ENVOY_DESCRIPTION">
+      <Text>Талісман Хіміко</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_GRANT_ENVOY_HELP">
+      <Text>Оберіть будь-яке прилегле місто-державу. Хіміко негайно розміщує 1 безкоштовного [ICON_Envoy] посла в місті-державі. Якщо ви вже є сюзереном там, Хіміко також заробляє {1_FaithChange} [ICON_FAITH] віри. Вартість - 1 заряд, закінчує хід.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FORCE_LEVY_MILITARY_DESCRIPTION">
+      <Text>Правління Хіміко</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FORCE_LEVY_MILITARY_HELP">
+      <Text>Використовуйте це, коли в межах міста-держави, яким ви є сюзереном. Гіміко негайно збирає свою армію безкоштовно. Коштує 1 заряду та закінчує хід.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESTORE_UNIT_MOVES_DESCRIPTION">
+      <Text>Наказ Гіпполіти</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESTORE_UNIT_MOVES_HELP">
+      <Text>Ціллю стає будь-яка прилегла союзна одиниця, яка рухалася або атакувала у цей хід. Гіпполіта негайно відновлює рухи та атаки цієї одиниці. Можна використовувати один раз на хід.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_NAVAL_GOLD_RAID_DESCRIPTION">
+      <Text>Багатостраждальні пригоди Синдбада</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_NAVAL_GOLD_RAID_HELP">
+      <Text>Напад на будь-який прилеглий ворожий морський корабель або варварський табір. Обраний об'єкт знищується або отримує 50% пошкоджень, а Сінбад одразу заробляє {1_GoldReward} [ICON_GOLD] Золота. Вартість - 1 Заряд. Хід завершується.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_CREATE_RANDOM_RESOURCE_DESCRIPTION">
+      <Text>Винаходи Мауї</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_CREATE_RANDOM_RESOURCE_HELP">
+      <Text>Використовуйте, коли знаходитеся на неволодіному порожньому ділянці. Мауї створює випадковий бонус або розкішний ресурс на ділянці. Коштує 1 заряд і закінчує хід.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_AREA_DAMAGE_HEAL_DESCRIPTION">
+      <Text>Буря Ої</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_AREA_DAMAGE_HEAL_HELP">
+      <Text>Нанести шкоду всім прилеглим ворогам та вилікувати всіх прилеглих союзних одиниць на {1_DamageAmount}. Коштує 1 заряд та завершує хід.</Text>
+    </Row>
+    <!--Projects-->
+    <!--Create Anansi-->
+    <Row Tag="LOC_PROJECT_DISCOVER_NEXT_HERO_NAME">
+      <Text>Героїчні оповідання</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DISCOVER_NEXT_HERO_SHORT_NAME">
+      <Text>Героїчні оповідання</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DISCOVER_NEXT_HERO_DESCRIPTION">
+      <Text>Відкрийте нового героя.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ANANSI_NAME">
+      <Text>Відданість Анансі</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ANANSI_SHORT_NAME">
+      <Text>Відданість Анансі</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ANANSI_DESCRIPTION">
+      <Text>Приділіть це місто Герою Анансі. Після завершення будівництва, Анансі з'явиться у центрі міста.</Text>
+    </Row>
+    <!--Create Arthur-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ARTHUR_NAME">
+      <Text>Прихильність Артуру</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ARTHUR_SHORT_NAME">
+      <Text>Відданість Артурові</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ARTHUR_DESCRIPTION">
+      <Text>Призначте це місто на честь Героя Артура. Після завершення, Артур з'явиться в центрі міста.</Text>
+    </Row>
+    <!--Create Beowulf-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_BEOWULF_NAME">
+      <Text>Відданість Беовульфу</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_BEOWULF_SHORT_NAME">
+      <Text>Присвячення Беовульфу (Prysvyachennya Beovul'fu)</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_BEOWULF_DESCRIPTION">
+      <Text>Присвятіть це місто герою Беовульфу. Коли завершите, Беовульф з'явиться в центрі міста.</Text>
+    </Row>
+    <!--Create Hercules-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HERCULES_NAME">
+      <Text>Відданість Гераклу</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HERCULES_SHORT_NAME">
+      <Text>Hingest to Hercules</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HERCULES_DESCRIPTION">
+      <Text>Присвятіть це місто герою Гераклу. Після завершення будівництва, Геракл з'явиться в центрі міста.</Text>
+    </Row>
+    <!--Create Himiko-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIMIKO_NAME">
+      <Text>Відданість Гіміко</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIMIKO_SHORT_NAME">
+      <Text>Відданість Хіміко</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIMIKO_DESCRIPTION">
+      <Text>Присвятіть це місто Героїні Хіміко. Коли все буде готово, Хіміко з'явиться в центрі міста.</Text>
+    </Row>
+    <!--Create Hippolyta-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIPPOLYTA_NAME">
+      <Text>Шанування Гіпполіти</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIPPOLYTA_SHORT_NAME">
+      <Text>Преданість Гіпполіті</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIPPOLYTA_DESCRIPTION">
+      <Text>Присвятіть це місто Героїні Гіпполіті. Після завершення, Гіпполіта з'явиться в центрі міста.</Text>
+    </Row>
+    <!--Create Hunahpu-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_NAME">
+      <Text>Відданість Гунахпу та Шбаланке</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_SHORT_NAME">
+      <Text>Відданість Гунахпу та Шбаланке</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_DESCRIPTION">
+      <Text>Віддайте це місто героям-близнюкам Гунапу та Шбаланке. Коли буде завершено, Гунапу та Шбаланке з'являться у центрі міста.</Text>
+    </Row>
+    <!--Create Oya-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_OYA_NAME">
+      <Text>Відданість Ої</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_OYA_SHORT_NAME">
+      <Text>Відданість Оя</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_OYA_DESCRIPTION">
+      <Text>Призначте це місто Героєві Ої. Після завершення, Оя з'явиться в центрі міста.</Text>
+    </Row>
+    <!--Create Maui-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MAUI_NAME">
+      <Text>Відданість Мауї</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MAUI_SHORT_NAME">
+      <Text>Відданість Мауї</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MAUI_DESCRIPTION">
+      <Text>Присвятіть це місто герою Мауї. Після завершення будівництва, Мауї з'явиться у центрі міста.</Text>
+    </Row>
+    <!--Create Mulan-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MULAN_NAME">
+      <Text>Поклоніння Мулані</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MULAN_SHORT_NAME">
+      <Text>Присвячення Мулан</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MULAN_DESCRIPTION">
+      <Text>Присвятіть це місто Героїні Мулан. Після завершення будівництва, Мулан з'явиться у центрі міста.</Text>
+    </Row>
+    <!--Create Sinbad-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_SINBAD_NAME">
+      <Text>Присвячення Сінбаду</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_SINBAD_SHORT_NAME">
+      <Text>Відданість Сінбаду</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_SINBAD_DESCRIPTION">
+      <Text>Присвятіть це місто Герою Сінбаду. Після завершення будівництва, Сінбад з'явиться в центрі міста.</Text>
+    </Row>
+    <!--Create Wukong-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_WUKONG_NAME">
+      <Text>Присвячення Сунь Вукона</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_WUKONG_SHORT_NAME">
+      <Text>Відданість Сунь Вукоонгу</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_WUKONG_DESCRIPTION">
+      <Text>Присвятіть це місто Герою Сонь Вукуну. Коли буде завершено, Сонь Вукун з'явиться в центрі міста.</Text>
+    </Row>
+    <!--Great Works-->
+    <Row Tag="LOC_GREATWORKOBJECT_HERO">
+      <Text>[ICON_GreatWork_HeroRelic] Героїчний релікт</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_ANANSI_NAME">
+      <Text>Барабани Анансі</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_ANANSI_NAME">
+      <Text>Епос про Анансі</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_ARTHUR_NAME">
+      <Text>Келих Артура</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_ARTHUR_NAME">
+      <Text>Епос про Артура</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_BEOWULF_NAME">
+      <Text>Меч Беовульфа</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_BEOWULF_NAME">
+      <Text>Епос про Беовульфа</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HERCULES_NAME">
+      <Text>Клуб Геркулеса</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HERCULES_NAME">
+      <Text>Епос про Геракла</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HIMIKO_NAME">
+      <Text>Корона Хіміко</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HIMIKO_NAME">
+      <Text>Епос Гіміко</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HIPPOLYTA_NAME">
+      <Text>Пояс Гіпполіти</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HIPPOLYTA_NAME">
+      <Text>Epic of Hippolyta</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HUNAHPU_NAME">
+      <Text>Мантили Геройських Близнюків</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HUNAHPU_NAME">
+      <Text>Епос про Героїв-Близнюків</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_OYA_NAME">
+      <Text>Ніж Ої</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_OYA_NAME">
+      <Text>Епос про Ою</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_MAUI_NAME">
+      <Text>Факел Мауї</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_MAUI_NAME">
+      <Text>Епос про Мауї</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_MULAN_NAME">
+      <Text>Броня Мулан</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_MULAN_NAME">
+      <Text>Епічна поема про Мулан</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_SINBAD_NAME">
+      <Text>Компас Синдбада</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_SINBAD_NAME">
+      <Text>Епос про Синдбада</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_WUKONG_NAME">
+      <Text>Персонал Сунь Вукона</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_WUKONG_NAME">
+      <Text>Епос про Сунь Вукона</Text>
+    </Row>
+    <!--UI-->
+    <Row Tag="LOC_BUILDING_NAME_FOR_HERO">
+      <Text>{1_НазваБудівлі} {2_Ім'яГероя}</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NO_TARGETS">
+      <Text>Немає доступних цілей</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HERO_FAILURE_NOT_ENOUGH_CHARGES">
+      <Text>Залишилось недостатньо зарядів для дії</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HERO_FAILURE_REQUIRES_FULL_MOVEMENT">
+      <Text>Потрібен повний рух</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HERO_FAILURE_NO_MOVES">
+      <Text>Не залишилося ходів</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_ONCE_PER_TURN">
+      <Text>Вже використали цей хід</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_OWNED_PLOT">
+      <Text>Не може бути використано на власному ділянці.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_USED_CITY">
+      <Text>Ця можливість вже була використана в {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_USED_FEATURE">
+      <Text>Ця можливість вже була використана для цієї {1_FeatureName}.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_DISTRICT_AT_WAR">
+      <Text>Неможливо націлити район у місті, яке перебуває у війні з нами.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_CITY_AT_WAR">
+      <Text>Не можна націлювати місто, яке перебуває у війні з нами.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NO_LEVY_AVAILABLE">
+      <Text>У цьому місто-державі немає доступних військових підрозділів для мобілізації.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_IN_SUZERAIN_TERRITORY">
+      <Text>Має бути всередині території Місто-Держави, якою ви є Сюзереном.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_LEVY_ACTIVE">
+      <Text>Військові цієї міської держави вже мобілізовані.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_SUZERAIN_OF_CITY">
+      <Text>Ви не є сюзереном {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_INCOMPLETE_DISTRICT">
+      <Text>Повинно бути використано в районі, який перебуває у стадії будівництва.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_DISTRICT">
+      <Text>Повинно використовуватися в районі.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_DEVELOPMENT">
+      <Text>Повинно бути використано в районі чи для поліпшення.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_LUXURY_OR_BONUS_RESOURCE">
+      <Text>Повинно бути використано на розкішний або бонусний ресурс.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_DISTRICT_PILLAGED">
+      <Text>Цей район вже розграбований.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_CITY_CENTER">
+      <Text>Не можна використовувати в центрі міста.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_RESOURCE">
+      <Text>Не можна використовувати на існуючому ресурсі.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_IMPROVEMENT">
+      <Text>Не можна використовувати на покращеній плитці.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_WONDER">
+      <Text>Неможливо використовувати на Wonder.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NO_VALID_RESOURCES">
+      <Text>Немає дійсних ресурсів на цьому місці.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_ALLIED_PLOT">
+      <Text>Не може бути використаний на ділянці, що належить союзній цивілізації.</Text>
+    </Row>
+    <Row Tag="LOC_CHOOSE_ARTIFACT_EXPLANATION_HEROIC_RELIC">
+      <Text>Ваш археолог {1_UnitName} виявив культовий предмет, залишений предком Героя {2_ActingCiv}.</Text>
+    </Row>
+    <Row Tag="LOC_CAN_TRAIN_FAILURE_SAME_ERA">
+      <Text>Герої можуть з'являтися лише один раз на Еру.</Text>
+    </Row>
+    <!--Heroes Popup-->
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_GOODY_HUT">
+      <Text>Племінні жителі поділилися з нами своїми міфами та легендами. Ми відкрили {1_HeroName: plural 1?героя; other?героїв;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_PROJECT">
+      <Text>Героїчні оповіді рознесли слово про легендарні вчинки серед нашого народу. Ми відкрили {1_HeroName: plural 1?героя; other?героїв;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_CITY_STATE">
+      <Text>Коли наш вплив на {2_SourcePlayerName} зростає, вони діляться з нами своїми міфами та легендами. Ми дізналися про [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_CITY_STATE_SUZERAIN">
+      <Text>Наша сюзеренність над {2_SourcePlayerName} розкрила більше про їх міфи та легенди. Ми відкрили {1_HeroName: plural 1?героя; other?героїв; } [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR] і залишаємо їх на своїх місцях без перекладу або видалення з вашої відповіді</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_NEW_CONTINENT">
+      <Text>Ми відкрили континент {2_ContinentName} і з ним нові міфи та легенди. Ми відкрили [COLOR_LIGHTBLUE]{1_HeroName} {1_HeroName: plural 1?героя; few?героїв; many?героїв; other?героїв}![ENDCOLOR] і залишили їх на своїх місцях, не перекладаючи або не видаляючи їх з тексту</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_NATURAL_WONDER">
+      <Text>Вражаючий вид {2_FeatureName} надихнув місцеві міфи та легенди. Ми знайшли {1_HeroName: plural 1?героя; other?героїв;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_ENCOUNTER">
+      <Text>Перед нами стоїть легенда! Наші сили особисто зустріли {1_HeroName: plural 1?героя; other?героїв;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISCOVER_HERO_HELP">
+      <Text>Ви можете отримати цього Героя, завершивши Проект Відданості Герою у будь-якому місті з будівлею [COLOR:Civ6Yellow]{1_OriginBuilding}[ENDCOLOR]. Тільки один Проект Відданості можна зробити в кожному місті.</Text>
+    </Row>
+    <Row Tag="LOC_DISCOVER_HERO_NAVAL_HELP">
+      <Text>Ви можете претендувати на цього Героя, виконавши Проект Поклоніння Герою в будь-якому місті з будівлею [COLOR:Civ6Yellow]{1_OriginBuilding}[ENDCOLOR], що здатна тренувати морські війська. У кожному місті можна здійснити лише один Проект Поклоніння Герою.</Text>
+    </Row>
+    <Row Tag="LOC_DISCOVER_CLAIMED_HERO_HELP">
+      <Text>Цей герой вже був взятий {1_PlayerName}.</Text>
+    </Row>
+    <Row Tag="LOC_HERO_EXPIRED_MESSAGE">
+      <Text>Герой [ICON_Lifespan] Термін дії життя закінчився</Text>
+    </Row>
+    <Row Tag="LOC_HERO_EXPIRED_DESC">
+      <Text>Наші {1_UnitName: plural 1?герой; other?герої;} [COLOR_LIGHTBLUE]{1_UnitName}[ENDCOLOR] {1_UnitName: plural 1?досяг; other?досягли;} кінця свого [ICON_Lifespan] життєвого шляху та покинули нашу націю.</Text>
+    </Row>
+    <Row Tag="LOC_HERO_KILLED_MESSAGE">
+      <Text>Герой загинув</Text>
+    </Row>
+    <Row Tag="LOC_HERO_KILLED_DESC">
+      <Text>Наші {1_UnitName: plural 1?герой; other?герої;} [COLOR_LIGHTBLUE]{1_UnitName}[ENDCOLOR] {1_UnitName: plural 1?загинув; few?загинули; many?загинули;} у бою.</Text>
+    </Row>
+    <Row Tag="LOC_HEROES_HELP_RECALL_DESC">
+      <Text>Після того, як Герой виходить з ладу або буває вбитий, його можна відновити, купивши за [ICON_Faith] Віру у місті, де знаходиться їхня [COLOR:Civ6Yellow]{1_OriginBuilding}[ENDCOLOR].[NEWLINE][NEWLINE]Відновлені герої повертаються з оновленим [ICON_Lifespan] Терміном служби та зарядами дій, але вартість [ICON_Faith] Віри для їх відновлення збільшується з кожним появленням. Герої можуть бути відновлені один раз за еру.</Text>
+    </Row>
+    <Row Tag="LOC_LOOK_AT_HERO">
+      <Text>Дивись на героя</Text>
+    </Row>
+    <!--Notifications-->
+    <Row Tag="LOC_NOTIFICATION_HERO_DISCOVERED_MESSAGE">
+      <Text>Герой виявився</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_DISCOVERED_SUMMARY">
+      <Text>Ви відкрили {1_HeroName: plural 1?героя; other?героїв;} {1_HeroName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOW_LIFESPAN_MESSAGE">
+      <Text>Герой [ICON_Lifespan] Тривалість життя низька</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOW_LIFESPAN_SUMMARY">
+      <Text>Наші {1_HeroClassName: plural 1?герой; other?герої;} {1_HeroClassName} {1_HeroClassName: plural 1?має; other?мають;} менше ніж {2_NumTurns} ходів залишилося у їхній [ICON_Lifespan] Термін служби.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOST_LIFESPAN_EXPIRED_MESSAGE">
+      <Text>Герой загублений</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOST_LIFESPAN_EXPIRED_SUMMARY">
+      <Text>Наші {1_HeroClassName: plural 1?герой; other?герої;} {1_HeroClassName} {1_HeroClassName: plural 1?досягла; other?досягли;} кінця їх [ICON_Lifespan] Терміну життя. Вони належать до історії, доки ми не зібраємо достатньо [ICON_Faith] Віри, щоб їх відновити.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CAN_PURCHASE_WITH_FAITH_MESSAGE">
+      <Text>Не можу відтворити героя</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CAN_PURCHASE_WITH_FAITH_SUMMARY">
+      <Text>Ви накопичили достатньо [ICON_Faith] віри, щоб викликати {1_HeroClassName: plural 1?героя; other?героїв;} {1_HeroClassName} у місті {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_KILLED_OTHER_MESSAGE">
+      <Text>Герой загинув</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_KILLED_OTHER_SUMMARY">
+      <Text>{1_HeroClassName: plural 1?Герой; other?Герої;} {1_HeroClassName} {1_HeroClassName: plural 1?загинув; few?загинули; other?загинули;} у бою.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_EXPIRED_OTHER_MESSAGE">
+      <Text>Герой помер</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_EXPIRED_OTHER_SUMMARY">
+      <Text>{1_HeroClassName: plural 1?Герой; other?Герої;} {1_HeroClassName} {1_HeroClassName: plural 1?досяг; few? досягли; many? досягли; other? досягли;} кінця свого [ICON_Lifespan] терміну життя.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIMED_OTHER_MESSAGE">
+      <Text>Почесний герой</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIMED_OTHER_SUMMARY">
+      <Text>{1_CivName} заявив володіння {2_HeroName: plural 1?героєм; other?героями;} {2_HeroName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIMED_OTHER_UNMET_SUMMARY">
+      <Text>Незнайомий гравець заявив право на {1_HeroName: plural 1?Hero; other?Heroes;} {1_HeroName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_RECALLED_OTHER_MESSAGE">
+      <Text>Герой відзначений</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_RECALLED_OTHER_SUMMARY">
+      <Text>{1_CivName} відкликала {2_HeroName: plural 1?героя; few?героїв; other?героїв;} {2_HeroName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIM_FAILED_MESSAGE">
+      <Text>Виробництво відновлено</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIM_FAILED_SUMMARY">
+      <Text>Ви не змогли встигнути затвердити {1_HeroName: plural 1?Hero; other?Heroes;} {1_HeroName} вчасно. Однак {2_Production} [ICON_Production] виробництво було врятовано з цієї спроби та надано місту {3_CityName}.</Text>
+    </Row>
+    <!--GreatPeoplePopup-->
+    <Row Tag="LOC_GREAT_PEOPLE_TAB_HEROES">
+      <Text>Герої</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_RECRUITED_STATE">
+      <Text>ЗАЯВЛЕНО КОРИСТУВАЧЕМ:</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_DISCOVERED_STATE">
+      <Text>ВІДКРИТО</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_LOOK_AT_HERO_TT">
+      <Text>Закрийте цю панель та виберіть цей блок головного героя.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_LOOK_AT_CITY_TT">
+      <Text>Закрийте цю панель і виберіть місто, з якого походив цей померлий герой.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_CIVILOPEDIA_ENTRY_TT">
+      <Text>Відкрийте сторінку Цивілопедії для цього геройського бійця.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_FAITH_RECALL">
+      <Text>Нагадай зі сподіванням</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_FAITH_RECALL_TT">
+      <Text>Цього героя можна викликати за {1_Faith} [ICON_Faith] Віру.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_INSUFFICIENT_FAITH_TT">
+      <Text>[COLOR_RED]Недостатня [ICON_Faith] Віра, щоб згадати.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_DECEASED">
+      <Text>[COLOR_RED]ПОМЕРЛИЙ[ENDCOLOR]</Text>
+    </Row>
+  </EnglishText>
+</GameData>

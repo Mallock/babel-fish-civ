@@ -1,0 +1,2179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
+<GameData>
+  <FrontEndText>
+    <!-- Generic -->
+    <Row Tag="LOC_GENERIC_TEST">
+      <Text>Томаш</Text>
+    </Row>
+    <Row Tag="LOC_GENERIC_DOT_DOT_DOT">
+      <Text>...</Text>
+    </Row>
+    <Row Tag="LOC_YES_BUTTON">
+      <Text>Yes</Text>
+    </Row>
+    <Row Tag="LOC_NO_BUTTON">
+      <Text>No</Text>
+    </Row>
+    <Row Tag="LOC_OK_BUTTON">
+      <Text>OK</Text>
+    </Row>
+    <Row Tag="LOC_DEFAULT_BUTTON">
+      <Text>За замовчуванням</Text>
+    </Row>
+    <Row Tag="LOC_GENERIC_CONFIRM_BUTTON">
+      <Text>Підтвердити</Text>
+    </Row>
+    <Row Tag="LOC_SELECTION_NOTHING">
+      <Text>Нічого</Text>
+    </Row>
+    <Row Tag="LOC_SELECTION_EVERYTHING">
+      <Text>Все</Text>
+    </Row>
+    <Row Tag="LOC_SELECTION_CUSTOM">
+      <Text>Користувальницький ({1_Count})</Text>
+    </Row>
+    <Row Tag="LOC_SELECT_ALL">
+      <Text>Виділити все</Text>
+    </Row>
+    <Row Tag="LOC_SELECT_NONE">
+      <Text>Вибрати Нічого</Text>
+    </Row>
+    <!-- Front End Popups -->
+    <Row Tag="LOC_FRONTEND_POPUP_UNKNOWN_DEVICE">
+      <Text>Не вдалося визначити можливості графічного пристрою.[NEWLINE][NEWLINE]Будь ласка, встановіть параметри графіки вручну.</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_OUTDATED_DRIVER">
+      <Text>Ваш графічний драйвер є старішим за мінімально рекомендовану версію.[NEWLINE][NEWLINE]Будь ласка, оновіть драйвер до останньої версії.</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_OUTDATED_DRIVER_QUIET">
+      <Text>Не турбуй мене знову.</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_OUTDATED_DRIVER_LOUD">
+      <Text>Нагадай мені наступного разу.</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_GRAPHICS_SETTINGS_CHANGED">
+      <Text>Налаштування графіки були змінені. Ви можете переглянути або змінити ці налаштування в меню Опції.</Text>
+    </Row>
+    <!-- Main Menu-->
+    <Row Tag="LOC_MAIN_MENU_RESUME_GAME">
+      <Text>Продовжити гру</Text>
+    </Row>
+    <Row Tag="LOC_PLAY_CIVILIZATION_6">
+      <Text>Грай зараз</Text>
+    </Row>
+    <Row Tag="LOC_SINGLE_PLAYER">
+      <Text>Один гравець</Text>
+    </Row>
+    <Row Tag="LOC_PLAY_MULTIPLAYER">
+      <Text>Мультиплеєр</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_GAME">
+      <Text>Завантажити гру</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_CONFIG">
+      <Text>Завантажити конфігурацію</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_MAP">
+      <Text>Завантажити карту</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_TILED">
+      <Text>Імпортувати Карту з Редактора</Text>
+    </Row>
+    <Row Tag="LOC_OPEN_DIRECTORY">
+      <Text>Відкрити</Text>
+    </Row>
+    <Row Tag="LOC_NO_FILE_SELECTED">
+      <Text>На даний момент не обрано жодного файлу</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_OPTIONS">
+      <Text>Опції гри</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MODS">
+      <Text>Модифікації</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MODS_AND_DLC">
+      <Text>Моди та доповнення до гри</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MODS_AND_DLC_TT">
+      <Text>Модифікації та завантажуваний контент для розширення та покращення Civilization VI.</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MY2K_LOGIN">
+      <Text>Мій2К Вхід</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_EXIT_TO_DESKTOP">
+      <Text>Вихід на Робочий стіл</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_BENCH">
+      <Text>Бенчмарк</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_CREDITS">
+      <Text>Кредити</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_TUTORIAL">
+      <Text>Посібник (Posibnyk)</Text>
+    </Row>
+    <!-- Load / Save Menus -->
+    <Row Tag="LOC_DELETE_BUTTON">
+      <Text>Видалити</Text>
+    </Row>
+    <Row Tag="LOC_BACK_BUTTON">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="LOC_AUTOSAVES">
+      <Text>Автозбереження</Text>
+    </Row>
+    <Row Tag="LOC_STEAMCLOUD">
+      <Text>Хмара</Text>
+    </Row>
+    <Row Tag="LOC_2K_CLOUD">
+      <Text>Багатоплатформний хмарний сервіс</Text>
+    </Row>
+    <Row Tag="LOC_STANDARD_CLOUD_SAVES_HELP">
+      <Text>Стандартні хмарні зберігання - сумісні з версіями Civilization VI для ПК, Mac та Linux</Text>
+    </Row>
+    <Row Tag="LOC_2K_CLOUD_SAVES_HELP">
+      <Text>Багатоплатформове збереження в хмарі - сумісне з підтримуваними платформами (Потребує ввімкнення облікового запису 2K у головному меню)</Text>
+    </Row>
+    <Row Tag="LOC_NO_SAVED_GAMES">
+      <Text>Немає збережених ігор</Text>
+    </Row>
+    <Row Tag="LOC_NO_SAVED_CONFIGS">
+      <Text>Немає збережених конфігурацій</Text>
+    </Row>
+    <Row Tag="LOC_NO_SAVED_MAPS">
+      <Text>Немає збережених карт</Text>
+    </Row>
+    <Row Tag="LOC_SORTBY_NAME">
+      <Text>Сортувати за ім'ям</Text>
+    </Row>
+    <Row Tag="LOC_SORTBY_LASTMODIFIED">
+      <Text>Сортувати за останньою зміною</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_MENU_MODS">
+      <Text>МОДИ</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_MENU_DLC">
+      <Text>ДОПОВНЕННЯ ДО ГРИ (ДЦГ)</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_GAME">
+      <Text>Зберегти гру</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_MAP_BUTTON">
+      <Text>Зберегти карту</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_CONFIG">
+      <Text>Зберегти налаштування</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_OBSERVER_MODE_TT">
+      <Text>Неможливо зберегти у режимі спостерігача.</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_AT_MAXIMUM_CLOUD_SAVES_TOOLTIP">
+      <Text>Ви досягли максимальної кількості збережень в Хмарі. Перезапишіть або видаліть збереження.</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_INVALID_FILE_NAME_TOOLTIP">
+      <Text>Невірне ім'я файлу.</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_WAITING_FOR_CLOUD_SAVE_LIST_TOOLTIP">
+      <Text>Очікування списку збережень в хмарі.</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_TITLE_TXT">
+      <Text>Підтвердіть перезапис</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_DELETE_TITLE_TXT">
+      <Text>Підтвердити видалення</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_CHOICE">
+      <Text>Ви впевнені?</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_EXIT_TXT">
+      <Text>Ви впевнені, що хочете вийти з гри?</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_TXT">
+      <Text>Це назавжди видалить ваш файл збереження. Ви впевнені, що хочете це зробити?</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_TITLE_LOAD_TXT">
+      <Text>Підтвердіть завантаження файлу</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_LOAD_TXT">
+      <Text>Це призведе до втрати будь-якого не збереженого прогресу. Ви впевнені, що хочете це зробити?</Text>
+    </Row>
+    <Row Tag="LOC_OVERWRITE_TXT">
+      <Text>Це перезапише ваш поточний файл збереження. Ви впевнені, що хочете зробити це?</Text>
+    </Row>
+    <Row Tag="LOC_DELETE_MOD_TXT">
+      <Text>Це назавжди видалить цей мод. Ви впевнені, що хочете це зробити?</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_DISABLE_MOD">
+      <Text>Ви впевнені, що хочете деактивувати цей мод?</Text>
+    </Row>
+    <Row Tag="LOC_WILL_ALSO_DISABLE_MODS">
+      <Text>Це також вимкне наступні моди:</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_ENABLE_MOD">
+      <Text>Ви впевнені, що хочете увімкнути цей мод?</Text>
+    </Row>
+    <Row Tag="LOC_WILL_ALSO_ENABLE_MODS">
+      <Text>Це також дозволить наступні моди:</Text>
+    </Row>
+    <Row Tag="LOC_EFFECTED_MODS_TXT">
+      <Text>Змінені модифікації:</Text>
+    </Row>
+    <Row Tag="LOC_MOD_VERSION_AVAILABLE">
+      <Text>Доступна версія {1_VersionNumber}.</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_CURRENT_TURN">
+      <Text>ПОВЕРНЕННЯ[ICON_Turn] {1}</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_SCENARIO_HEADER_TITLE">
+      <Text>Опис сценарію</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_HEADER_TITLE">
+      <Text>Опції гри</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_RULESET_TYPE_TITLE">
+      <Text>Правила гри:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_MAP_TYPE_TITLE">
+      <Text>Тип карти:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_MAP_SIZE_TITLE">
+      <Text>Розмір карти:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_WORLD_AGE_TITLE">
+      <Text>Вік світу:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_SAVED_BY_VERSION_TITLE">
+      <Text>Збережено версією:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_ADVANCED_TITLE">
+      <Text>Розширені опції:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_NO_MAP_DATA">
+      <Text>НЕМАЄ ДАНИХ НА МАПІ</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_TUNER_ACTIVE_TITLE">
+      <Text>Тюнер активний:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_QUICK_SAVE">
+      <Text>(Швидке збереження)</Text>
+    </Row>
+    <!-- Advanced Game Setup -->
+    <Row Tag="LOC_NETWORK_NAME_TT">
+      <Text>Назва мережі[NEWLINE]Так буде відображатись ваше ім'я для інших гравців.</Text>
+    </Row>
+    <Row Tag="LOC_NUMBER_OF_CIVILIZATIONS">
+      <Text>Кількість цивілізацій</Text>
+    </Row>
+    <Row Tag="LOC_PLAYERS">
+      <Text>Гравці</Text>
+    </Row>
+    <Row Tag="LOC_TEAM">
+      <Text>Команда | Команди</Text>
+      <Plurality>1|2</Plurality>
+    </Row>
+    <Row Tag="LOC_TEAM_GENERIC_NAME">
+      <Text>Команда {1_Number}</Text>
+    </Row>
+    <Row Tag="LOC_TEAM_UNKNOWN_NAME">
+      <Text>Невідома команда</Text>
+    </Row>
+    <Row Tag="LOC_BACK">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="LOC_GAME_HANDICAP">
+      <Text>Складність гри</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS">
+      <Text>Варіанти</Text>
+    </Row>
+    <Row Tag="LOC_MAP_OPTIONS">
+      <Text>Опції карти</Text>
+    </Row>
+    <!-- Multiplayer Game Abandoned Popup -->
+    <Row Tag="LOC_GAME_ABANDONED_KICKED">
+      <Text>Вас вигнано з гри хостом.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_KICKED_TITLE">
+      <Text>Вигнаний!</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_HOST_LOSTED">
+      <Text>Зв'язок з хостом був втрачений.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_HOST_LOSTED_TITLE">
+      <Text>Втрата з'єднання з хостом</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_ROOM_FULL">
+      <Text>Гра має максимальну кількість гравців.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_ROOM_FULL_TITLE">
+      <Text>Повна гра</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_VERSION_MISMATCH">
+      <Text>Неспівпадіння версій з хостом.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_VERSION_MISMATCH_TITLE">
+      <Text>Невідповідність версій</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_ERROR">
+      <Text>Неможливо застосувати додатковий контент.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_ERROR_TITLE">
+      <Text>Помилка модуля</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_MISSING">
+      <Text>Потрібен додатковий контент, але або він не був придбаний, або не встановлений.[NEWLINE]Контент:[NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_MISSING_TITLE">
+      <Text>Мод відсутній</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_ACCESS_DENIED">
+      <Text>Steam Workshop відмовив у доступі до необхідного додаткового вмісту.[NEWLINE]Вміст: [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_MISSING_DOWNLOADS_DISABLED">
+      <Text>Ця гра потребує додаткового вмісту, який не встановлено. Автоматичне завантаження додаткового вмісту наразі вимкнено. Автоматичні завантаження можна увімкнути в опціях гри.[NEWLINE]Вміст:[NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_CONNECTION_LOST">
+      <Text>З'єднання з мережею втрачено.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_CONNECTION_LOST_TITLE">
+      <Text>Відключено</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_JOIN_FAILED">
+      <Text>Помилка приєднання до сесії багатокористувацької гри.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_JOIN_FAILED_TITLE">
+      <Text>Приєднання не вдалося</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MATCH_DELETED">
+      <Text>Господар видалив гру.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MATCH_DELETED_TITLE">
+      <Text>Гра видалена</Text>
+    </Row>
+    <!-- Multiplayer PlayByCloud End Turn Error Popup -->
+    <Row Tag="LOC_GAME_CLOUD_END_TURN_FAILED">
+      <Text>Гра не змогла обробити ваш хід через помилку. Перевірте підключення до Інтернету та спробуйте ще раз.[NEWLINE]Код помилки: {1_ErrorCode}</Text>
+    </Row>
+    <Row Tag="LOC_GAME_CLOUD_END_TURN_FAILED_TITLE">
+      <Text>Не вдалося завершити хід</Text>
+    </Row>
+    <!-- Multiplayer Select Screen-->
+    <Row Tag="LOC_MULTIPLAYER_DEFAULT_GAME_NAME">
+      <Text>Гра {1_PlayerName}</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STANDARD_GAME">
+      <Text>Наступний текст потрібно перекласти. Відповідайте тільки натуральним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STANDARD_GAME_TT">
+      <Text>Грайте у багатокористувацьку гру, де гравці по черзі безперервно грають один з одним.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME">
+      <Text>Інтернет</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME_OFFLINE">
+      <Text>[ICON_CheckFail] Інтернет</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME_TT">
+      <Text>Грайте в багатокористувацьку гру в інтернеті.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME_OFFLINE_TT">
+      <Text>Інтернет-ігри недоступні, коли Steam не працює в онлайні.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LAN_GAME">
+      <Text>Локальна мережа</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LAN_GAME_TT">
+      <Text>Грайте в багатокористувальницьку гру в локальній мережі.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_GAME">
+      <Text>Гаряче крісло</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_GAME_TT">
+      <Text>Грайте в багатокористувацьку гру, де гравці чергуються, використовуючи цю машину.</Text>
+    </Row>
+    <Row Tag="LOC_MENU_BACK">
+      <Text>Назад</Text>
+    </Row>
+    <!-- Multiplayer Chat Commands -->
+    <Row Tag="LOC_CHAT_HELP_COMMAND_HINT">
+      <Text>[COLOR:ChatMessage_Help]Напишіть /help, щоб отримати довідку з командами чату.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CHAT_HELP_COMMAND_TEXT">
+      <Text>[COLOR:ChatMessage_Help]КОМАНДИ ЧАТУ[NEWLINE]/t Надіслати повідомлення у канал команди[NEWLINE]/g Надіслати повідомлення у глобальний канал[NEWLINE]/w [PlayerName] Послати приватне повідомлення гравцю[NEWLINE]/r Відповісти на приватне повідомлення[NEWLINE]/help Показати повідомлення довідки[ENDCOLOR]</Text>
+    </Row>
+    <!-- Multiplayer Lobby Screen -->
+    <Row Tag="LOC_MULTIPLAYER_REFRESH_GAME_LIST">
+      <Text>ОНОВИТИ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_REFRESH_GAME_LIST_TT">
+      <Text>Отримати останню інформацію про список ігор.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STOP_REFRESH_GAME_LIST">
+      <Text>ЗУПИНІТЬ ОНОВЛЕННЯ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STOP_REFRESH_GAME_LIST_TT">
+      <Text>Зупиніть отримання інформації про список ігор.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_BACK">
+      <Text>НАЗАД (NAZAD)</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_END_GAME">
+      <Text>DELETE</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_TITLE">
+      <Text>Видалити гру</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_PROMPT">
+      <Text>Завершення гри...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_FAIL_TITLE">
+      <Text>Видалити помилку</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_FAIL">
+      <Text>Помилка під час завершення гри.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_FAIL_ACCEPT">
+      <Text>Ok</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_LAUNCH_FAILED_TITLE">
+      <Text>Помилка запуску</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_LAUNCH_FAILED">
+      <Text>Гра не запустилася.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_LAUNCH_FAILED_ACCEPT">
+      <Text>Ok</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_GAME">
+      <Text>Приєднатися до гри</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_GAME_TT">
+      <Text>Приєднатися до існуючої гри з багатокористувацьким режимом.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_CODE">
+      <Text>Використовуйте код приєднання</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_CODE_TT">
+      <Text>Приєднуйтеся до існуючої гри з багатокористувацькою можливістю використовуючи код приєднання.</Text>
+    </Row>
+    <Row Tag="LOC_MISC_BACK">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONNECT_TO_IP">
+      <Text>Підключитися до IP-адреси</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONNECT_TO_IP_TT">
+      <Text>Підключіться до гри з Pitboss за вказаною публічною IP-адресою.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CREATE_GAME">
+      <Text>Створити гру</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONFIRM_SETTINGS">
+      <Text>Підтвердіть налаштування</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOST_GAME">
+      <Text>НАЛАШТУВАННЯ ГРИ З БАГАТЬМА ГРАВЦЯМИ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOST_GAME_TT">
+      <Text>Розпочати нову гру з багатокористувацьким режимом.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOAD_GAME_TT">
+      <Text>Створити мультиплеєрну гру з існуючого збереження.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_FRIENDS">
+      <Text>Друзі</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_SHOW_FRIENDS">
+      <Text>Показати список друзів</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_SETUP">
+      <Text>НАЛАШТУВАННЯ ГРИ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_SUMMARY">
+      <Text>ОПИС ГРИ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_NAME">
+      <Text>Назва гри</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_RULESET">
+      <Text>Набір правил</Text>
+    </Row>
+    <Row Tag="LOC_AD_SETUP_MAP_TYPE">
+      <Text>Тип карти</Text>
+    </Row>
+    <Row Tag="LOC_AD_SETUP_GAME_SPEED">
+      <Text>Швидкість гри</Text>
+    </Row>
+    <Row Tag="LOC_AD_SETUP_MAP_SIZE">
+      <Text>Розмір карти</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_PLAYERS">
+      <Text>Гравці</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DLCHOSTED">
+      <Text>ДОПОВНЕННЯ ДО ГРИ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_MODSHOSTED">
+      <Text>Моди (or Модифікації)</Text>
+    </Row>
+    <Row Tag="LOC_STAGING_ROOM_LOADING_SAVE">
+      <Text>Завантаження збереженої гри</Text>
+    </Row>
+    <Row Tag="LOC_STAGING_ROOM_GAME_IN_PROGRESS">
+      <Text>Гра в процесі</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_LOBBY">
+      <Text>ІНТЕРНЕТ ІГРИ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LAN_LOBBY">
+      <Text>ЛОКАЛЬНІ ІГРИ У МЕРЕЖІ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_MODS">
+      <Text>Додатковий вміст</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_GAMEMODES_OFFICIAL">
+      <Text>Офіційні режими гри:</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_MODS_OFFICIAL">
+      <Text>Офіційний вміст:</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_MODS_COMMUNITY">
+      <Text>Спільний вміст:</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_UNKNOWN">
+      <Text>Невідомо</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_UNKNOWN_MAP_SIZE">
+      <Text>Невідомий розмір карти</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_TRUE">
+      <Text>Наступний текст потрібно перекласти. Відповідайте тільки природними перекладами</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_FALSE">
+      <Text>False</Text>
+    </Row>
+    <!-- Options -->
+    <Row Tag="LOC_CONFIRM_KEY_BINDING">
+      <Text>Підтвердіть зв'язування клавіш</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM">
+      <Text>Підтвердити</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GAME">
+      <Text>Гра</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GRAPHICS">
+      <Text>Графіка</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUDIO">
+      <Text>Аудіо</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LANGUAGE">
+      <Text>Language</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE">
+      <Text>Інтерфейс</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_BINDINGS">
+      <Text>Клавішні комбінації</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_APPLICATION">
+      <Text>Додаток</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GAME_OPTIONS">
+      <Text>Опції гри</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GRAPHICS_OPTIONS">
+      <Text>Опції графіки</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUDIO_OPTIONS">
+      <Text>Опції аудіо</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LANGUAGE_OPTIONS">
+      <Text>Мовні налаштування</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_OPTIONS">
+      <Text>Варіанти інтерфейсу</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_BINDINGS_OPTIONS">
+      <Text>Клавішні комбінації</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUICK_COMBAT">
+      <Text>Швидкий бій:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUICK_MOVEMENT">
+      <Text>Швидкий Рух:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_END_TURN">
+      <Text>Автоматичне завершення ходу:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CITY_RANGE_ATTACK">
+      <Text>Блокування ходу міського облогового наступу:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CITY_RANGE_ATTACK_TOOLTIP">
+      <Text>Коли включені, атаки на відстані міста блокують хід.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TIME_OF_DAY">
+      <Text>Час доби:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUNER">
+      <Text>Тюнер (вимикає досягнення):</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL">
+      <Text>Консультант:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TURNS_BETWEEN_AUTOSAVES">
+      <Text>Інтервали між автоматичним збереженням:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTOSAVES_TO_KEEP">
+      <Text>Кількість автозбережень для зберігання:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LAN_PLAYER_NAME">
+      <Text>Назва локального мережевого програвача:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_DOWNLOAD_ADDITIONAL_CONTENT">
+      <Text>Автоматичне завантаження додаткового вмісту:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_DOWNLOAD_ADDITIONAL_CONTENT_TOOLTIP">
+      <Text>Автоматично завантажувати додатковий вміст, створений спільнотою, коли він необхідний для приєднання до багатокористувацької гри.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_STEAM_CONTROLLER_MESSAGE">
+      <Text>Налаштування контролера Steam відбуваються в середовищі Steam, а не в цьому інтерфейсі користувача. Клавіші Escape, ліва кнопка миші та права кнопка миші зарезервовані і не можуть бути прив'язані до інших функцій.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BIND_HEADER_PRIMARY">
+      <Text>Основне зв'язування</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BIND_HEADER_ALT">
+      <Text>Альтернативний зв'язувальний метод</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_APPLICATION_OPTIONS">
+      <Text>Варіанти додатку</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SPOKEN_LANGUAGE">
+      <Text>Розмовна мова:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_STRATEGIC_VIEW_START">
+      <Text>Почати в Режимі Стратегічного Вигляду:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_DISPLAY_LANGUAGE">
+      <Text>Мова відображення:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MASTER_VOLUME">
+      <Text>Гучність майстра:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MUSIC_VOLUME">
+      <Text>Гучність музики:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EFFECTS_VOLUME">
+      <Text>Гучність звукових ефектів:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AMBIENT_VOLUME">
+      <Text>Об'єм Амбієнтних Звуків:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SPEECH_VOLUME">
+      <Text>Гучність мовлення:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MUTE_FOCUS">
+      <Text>Вимкнути звук, коли вікно гри неактивне:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CLEAR">
+      <Text>Чітко</Text>
+    </Row>
+    <!-- Front End Popop -->
+    <Row Tag="LOC_CLOSE">
+      <Text>Close</Text>
+    </Row>
+    <!-- Multiplayer Joining Room Screen -->
+    <Row Tag="LOC_MULTIPLAYER_JOINING_ROOM_TITLE">
+      <Text>БУДЬ ЛАСКА, ЗАЧЕКАЙТЕ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOINING_ROOM">
+      <Text>Приєднання до кімнати...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOINING_HOST">
+      <Text>Отримання інформації про хост...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONFIGURING_CONTENT">
+      <Text>Конфігурування вмісту гри...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONNECTING_TO_PLAYERS">
+      <Text>Підключення до гравців...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_MATCHMAKING">
+      <Text>Пошук гри...</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_FULL">
+      <Text>Не вдається приєднатися до гри. Гра досягла максимальної кількості гравців.</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_FULL_TITLE">
+      <Text>Повна гра</Text>
+    </Row>
+    <Row Tag="LOC_MP_JOIN_FAILED">
+      <Text>Помилка при приєднанні до багатокористувацької сесії.</Text>
+    </Row>
+    <Row Tag="LOC_MP_JOIN_FAILED_TITLE">
+      <Text>Приєднання не вдалося</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_GAME_STARTED">
+      <Text>Не вдається приєднатись до гри. Гра вже розпочалась.</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_GAME_STARTED_TITLE">
+      <Text>Не вдалося приєднатися</Text>
+    </Row>
+    <!-- Multiplayer Staging Room Screen -->
+    <Row Tag="LOC_MP_SWAP_PLAYER">
+      <Text>Обмін</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_SWAP_BUTTON_TT">
+      <Text>Перемістіться на цей слот гравця.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_SWAP_WITH_PLAYER_BUTTON_TT">
+      <Text>Переміщуйтеся на цей слот гравця лише тоді, коли інший гравець також вирішує помінятися місцями.</Text>
+    </Row>
+    <Row Tag="LOC_MP_KICK_PLAYER">
+      <Text>Вилучити гравця</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STAGING_ROOM">
+      <Text>Кімната для стадіювання</Text>
+    </Row>
+    <Row Tag="LOC_READY_BUTTON">
+      <Text>Ready</Text>
+    </Row>
+    <Row Tag="LOC_ARE_YOU_READY">
+      <Text>Ви готові?</Text>
+    </Row>
+    <Row Tag="LOC_MP_GAME_SUMMARY_GAME_SETTINGS">
+      <Text>Налаштування гри</Text>
+    </Row>
+    <Row Tag="LOC_MP_GAME_SUMMARY_ADDITIONAL_CONTENT">
+      <Text>Додатковий зміст</Text>
+    </Row>
+    <!-- Multiplayer Status Strings -->
+    <Row Tag="LOC_READY_LABEL">
+      <Text>Ready!</Text>
+    </Row>
+    <Row Tag="LOC_NOT_READY">
+      <Text>Неприйнятно готовий</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_MAP_SIZE">
+      <Text>[COLOR:StagingStatus_Invalid]Недійсний для розміру карти[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_MAP_SIZE_TT">
+      <Text>Ця слот гравця недоступна для поточного розміру карти. Попросіть хоста збільшити розмір карти або перейдіть на доступний слот гравця.</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_HUMAN_REQUIRED">
+      <Text>[COLOR:StagingStatus_Invalid]Потрібен гравець[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_HUMAN_REQUIRED_TT">
+      <Text>Цю гральну позицію потрібно зайняти людським гравцем, щоб почати гру.</Text>
+    </Row>
+    <!-- Multiplayer Status Strings END -->
+    <Row Tag="LOC_JOIN">
+      <Text>Приєднуйся!</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OPEN">
+      <Text>Відкрити</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OPEN_TT">
+      <Text>Вільні місця можуть бути зайняті приєднанням гравців.</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMANREQ">
+      <Text>Відкрити</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMANREQ_TT">
+      <Text>Відкриті слоти потребують людського гравця перед початком гри.</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OBSERVER">
+      <Text>Спостерігач</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OBSERVER_TT">
+      <Text>Спостерігайте за грою, а не безпосередньо беріть участь.</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_HOST">
+      <Text>[ICON_Host] Господар</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_PLAYER">
+      <Text>Гравець</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_COMPUTER">
+      <Text>Комп'ютер</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_OPEN">
+      <Text>Відкрити</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_OBSERVER">
+      <Text>Спостерігач</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_OBSERVER_HOST">
+      <Text>[ICON_Host] Спостерігач</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_AI">
+      <Text>ШТУЧНИЙ ІНТЕЛЕКТ</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_AI_TT">
+      <Text>Гравець штучного інтелекту</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_CLOSED">
+      <Text>Закрито</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_CLOSED_TT">
+      <Text>Закриті слоти не можуть використовуватися гравцями.</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMAN">
+      <Text>Людина</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMAN_TT">
+      <Text>Гравець-людина</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DEFAULT_NO_TEAM_NAME">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DEFAULT_TEAM_NAME">
+      <Text>{1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CREATE_NEW_TEAM">
+      <Text>Новий</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_TEAM_HEADER">
+      <Text>Команда</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DIFFICULTY_HEADER">
+      <Text>Складність</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_READY_HEADER">
+      <Text>Готові?</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CIV_LEADER_HEADER">
+      <Text>Цивілізація та лідер</Text>
+    </Row>
+    <Row Tag="LOC_GAMESTART_COUNTDOWN_FORMAT">
+      <Text>Гра починається</Text>
+    </Row>
+    <Row Tag="LOC_READY_COUNTDOWN_FORMAT">
+      <Text>Готуйтесь</Text>
+    </Row>
+    <Row Tag="LOC_WAITING_FOR_PLAYERS_COUNTDOWN_FORMAT">
+      <Text>Очікування гравців</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_DEFAULT_PLAYER_NAME">
+      <Text>Гравець</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORD">
+      <Text>Пароль</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORD_VERIFY">
+      <Text>Retype</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORDS_MATCH">
+      <Text>Match</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORDS_DONT_MATCH">
+      <Text>Паролі не співпадають.</Text>
+    </Row>
+    <!-- Staging Room Ready Button-->
+    <Row Tag="LOC_READY_UNSUPPORTED">
+      <Text>Непідтримуваний.</Text>
+    </Row>
+    <Row Tag="LOC_READY_UNSUPPORTED_TT">
+      <Text>Непідтримувана кількість гравців.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_TEAMS_INVALID">
+      <Text>Недійсні команди</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_TEAMS_INVALID_TT">
+      <Text>Не можу запустити гру. Усі цивілізації є в одній команді.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_CONNECTING_PLAYER">
+      <Text>Не можу запустити гру. Гравці приєднуються до гри.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYER_MAP_SIZE">
+      <Text>Проблема з розміром карти</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYER_MAP_SIZE_TT">
+      <Text>Не вдається запустити гру. Гравець знаходиться в неприпустимому слоті гравця для поточного розміру карти. Поточна карта підтримує лише {1_number} гравців.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_NOT_ENOUGH_PLAYERS">
+      <Text>Недостатньо гравців</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_NOT_ENOUGH_PLAYERS_TT">
+      <Text>Неможливо розпочати гру. Для початку потрібні два гравці.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_CONNECTING">
+      <Text>Гравці приєднуються до гри</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_CONNECTING_TT">
+      <Text>Очікування приєднання гравців до гри.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_NOT_MOD_READY">
+      <Text>Гравець не має необхідних модів</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_NOT_MOD_READY_TT">
+      <Text>Чекаю на гравців, які не мають необхідних модів для цієї гри.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_PASSWORD_MISMATCH">
+      <Text>Невірний пароль</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_PASSWORD_MISMATCH_TT">
+      <Text>Всі паролі повинні збігатися.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_NO_HUMAN_PLAYERS">
+      <Text>Немає гравців людської раси</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_NO_HUMAN_PLAYERS_TT">
+      <Text>Необхідний принаймні 1 людський гравець</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_INVALID_TEAMS">
+      <Text>Недійсні команди</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_INVALID_TEAMS_TT">
+      <Text>Принаймні 2 гравці повинні бути в різних командах</Text>
+    </Row>
+    <!-- Staging Room Invite Button -->
+    <Row Tag="LOC_INVITE_BUTTON">
+      <Text>Запросити друзів</Text>
+    </Row>
+    <Row Tag="LOC_INVITE_BUTTON_TT">
+      <Text>Запросіть друзів зі свого списку друзів у Steam до гри.</Text>
+    </Row>
+    <!-- Confirm Kick Popup -->
+    <Row Tag="LOC_CANCEL_BUTTON">
+      <Text>Скасувати</Text>
+    </Row>
+    <Row Tag="LOC_ACCEPT_BUTTON">
+      <Text>Прийняти</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_KICK_PLAYER_DESC">
+      <Text>Ви впевнені, що хочете викинути гравця {1_player} з гри?</Text>
+    </Row>
+    <!-- Edit Hotseat Player Popup -->
+    <Row Tag="LOC_HOTSEAT_EDIT_PLAYER_TT">
+      <Text>Редагувати гравця гарячого стільця.</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_EDIT_PLAYER">
+      <Text>Редагувати гравця Гарячого крісла</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_PLAYER_NAME">
+      <Text>Ім'я гравця:</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_PASSWORD">
+      <Text>Пароль:</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_RETYPE_PASSWORD">
+      <Text>Повторіть пароль:</Text>
+    </Row>
+    <!-- Network Connection Status -->
+    <Row Tag="LOC_MP_PLAYER_CONNECTED">
+      <Text>Гравець зараз у грі.</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_CONNECTED_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Connected]Підключено[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOTCONNECTED">
+      <Text>Гравець не підключений.</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOTCONNECTED_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Offline]Офлайн[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_CONNECTING">
+      <Text>Гравець приєднується до гри.</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_CONNECTING_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Connecting]Приєднуємося[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOT_MOD_READY">
+      <Text>Гравець не має необхідних модифікацій для гри в цю гру.</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOT_MOD_READY_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_NotModReady]Відсутні модифікації[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_RESYNCING">
+      <Text>Гравець перезавантажує для виправлення десінхронізації.</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_RESYNCING_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Resyncing]Синхронізація...[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TIME_MILLISECONDS">
+      <Text>ms</Text>
+    </Row>
+    <Row Tag="LOC_TIME_SECONDS">
+      <Text>s</Text>
+    </Row>
+    <!-- Friend Actions  -->
+    <Row Tag="LOC_FRIEND_ACTION_PROFILE">
+      <Text>Профіль у Steam</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_PROFILE_TT">
+      <Text>Перегляньте сторінку профілю цього друга.</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_CHAT">
+      <Text>Надіслати повідомлення</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_CHAT_TT">
+      <Text>Надішліть повідомлення цьому другу.</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_INVITE">
+      <Text>Запрошую до гри</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_INVITE_TT">
+      <Text>Запросіть цього друга зіграти.</Text>
+    </Row>
+    <!-- Friend Status  -->
+    <Row Tag="LOC_PRESENCE_ONLINE">
+      <Text>[COLOR:ButtonCS]Онлайн[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_SHELL">
+      <Text>[COLOR:ConnectionStatus_Connected]Головне Меню[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_HOSTING_GAME">
+      <Text>[COLOR:ConnectionStatus_Connected]Гра в хостінгу[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_STAGING_ROOM">
+      <Text>[COLOR:ConnectionStatus_Connected]Кімната розстановки[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_SP">
+      <Text>[COLOR:ConnectionStatus_Connected]Один гравець[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_ONLINE">
+      <Text>[COLOR:ConnectionStatus_Connected]Багатокористувацький режим (онлайн)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_LAN">
+      <Text>[COLOR:ConnectionStatus_Connected]Багатокористувацька гра (LAN)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_HOTSEAT">
+      <Text>[COLOR:ConnectionStatus_Connected]Багатокористувацька гра (Гаряче крісло)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_PLAYBYCLOUD">
+      <Text>[COLOR:ConnectionStatus_Connected]Багатокористувацький режим гри (Грати через хмару)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_INVITED_ONLINE">
+      <Text>[COLOR:ConnectionStatus_Connected]Запрошено[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_INVITED_OFFLINE">
+      <Text>[COLOR:ButtonCS]Запрошений[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_WORLD_BUILDER">
+      <Text>[COLOR:ConnectionStatus_Connected]Світобудівник[ENDCOLOR]</Text>
+    </Row>
+    <!-- Player Connection EVents -->
+    <Row Tag="LOC_MP_PLAYER_CONNECTED_CHAT">
+      <Text>Підключений</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_DISCONNECTED_CHAT">
+      <Text>Відключено</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_HOST_MIGRATED_CHAT">
+      <Text>Зараз є ведучим</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_KICKED_CHAT">
+      <Text>Був вигнаний</Text>
+    </Row>
+    <!-- Multiplayer Chat -->
+    <Row Tag="LOC_MULTIPLAYER_CHAT">
+      <Text>CHAT</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_TO_ALL">
+      <Text>До всіх:</Text>
+    </Row>
+    <!-- Multiplayer Mod Downloads -->
+    <Row Tag="LOC_BYTES">
+      <Text>b</Text>
+    </Row>
+    <Row Tag="LOC_KILOBYTES">
+      <Text>Kb</Text>
+    </Row>
+    <Row Tag="LOC_MEGABYTES">
+      <Text>Mb</Text>
+    </Row>
+    <!-- Setup -->
+    <Row Tag="LOC_SETUP_CREATE_GAME">
+      <Text>Створити гру</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_CHOOSE_RULESET">
+      <Text>Виберіть набір правил</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_CHOOSE_SCENARIO">
+      <Text>Виберіть сценарій</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_SCENARIOS">
+      <Text>Сценарії</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_SCENARIO">
+      <Text>Сценарій</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_CIVILIZATION">
+      <Text>Оберіть цивілізацію</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_DIFFICULTY">
+      <Text>Виберіть рівень складності гри</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_SPEED">
+      <Text>Оберіть швидкість гри</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_TYPE">
+      <Text>Виберіть тип карти</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_SIZE">
+      <Text>Виберіть розмір карти</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MODE_SELECT">
+      <Text>Режими гри</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_NO_GAME_MODES">
+      <Text>Немає режимів гри доступних.</Text>
+    </Row>
+    <Row Tag="LOC_DELETE_AI">
+      <Text>Delete</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADVANCED_OPTIONS">
+      <Text>Розширена настройка</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_VICTORY_CONDITIONS">
+      <Text>Умови перемоги</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_GAME_MODES">
+      <Text>Режими гри</Text>
+    </Row>
+    <Row Tag="LOC_ADVANCED_OPTIONS">
+      <Text>Розширені опції</Text>
+    </Row>
+    <Row Tag="LOC_EDIT_BUTTON">
+      <Text>Edit</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_PLAYER">
+      <Text>Додати гравця</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_PLAYER_TT">
+      <Text>Додайте гравця до гри.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_AI_PLAYER">
+      <Text>Додайте гравця зі штучним інтелектом</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_AI_PLAYER_TT">
+      <Text>Додайте гравця зі штучним інтелектом до гри.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_RESTORE_DEFAULT">
+      <Text>Відновити налаштування за замовчуванням</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_RESTORE_DEFAULT_TT">
+      <Text>Відновіть всі параметри до їхніх значень за замовчуванням.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_MAP_SELECT">
+      <Text>Вибір карти</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_CREATE_GAME_SELECT_MAP">
+      <Text>Виберіть карту</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_SELECT_MAP">
+      <Text>Виберіть карту</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_OFFICIAL_MAPS">
+      <Text>Офіційні карти</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_FIRAXIS_MAPS">
+      <Text>Карти від Фіраксіс</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_FIRAXIS_MAPS_TOOLTIP">
+      <Text>Показуйте тільки офіційні карти, створені компанією Firaxis.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_WORLD_BUILDER_MAPS">
+      <Text>Карти Створювача Світу</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_WORLD_BUILDER_MAPS_TOOLTIP">
+      <Text>Показати лише карти World Builder.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_ALL_MAPS">
+      <Text>Всі карти</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_ALL_MAPS_TOOLTIP">
+      <Text>Показати всі карти.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_MAP_INFO">
+      <Text>Інформація на мапі</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_SELECTED_MAP">
+      <Text>Обрана карта</Text>
+    </Row>
+    <Row Tag="LOC_START_GAME">
+      <Text>Почати Гру</Text>
+    </Row>
+    <Row Tag="LOC_START_WORLD_BUILDER">
+      <Text>Запустити World Builder</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_START_NEW">
+      <Text>Нова карта</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_LOAD">
+      <Text>Завантажити карту</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_IMPORT">
+      <Text>Імпортувати мапу з редактора</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_START_NEW_TOOLTIP">
+      <Text>Створює нову порожню або згенеровану карту World Builder для редагування.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_LOAD_TOOLTIP">
+      <Text>Завантажується раніше збережена карта World Builder.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_IMPORT_TOOLTIP">
+      <Text>Перетворює правильно структурований файл карти .TMX у карту World Builder.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_LEADER">
+      <Text>Випадковий лідер</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_CIVILIZATION">
+      <Text>Випадкова цивілізація</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_NO_DUPLICATE_LEADERS">
+      <Text>Немає дублюючих лідерів</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_NO_DUPLICATE_CIVILIZATIONS">
+      <Text>Немає дублюючих цивілізацій</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_HUMANS_REQUIRED">
+      <Text>Очікування додаткових гравців</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_HUMANS_REQUIRED_TT">
+      <Text>Не можу запустити гру. Усі відкриті слоти гравців повинні бути зайняті, перш ніж гра може початися.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_READY_COUNTDOWN_TT">
+      <Text>Не можу запустити гру. Очікую на готовність зворотного відліку або на повну готовість гравців.</Text>
+    </Row>
+    <Row Tag="LOC_READY_COUNTDOWN_TT">
+      <Text>Ви будете встановлені готовими в кінці цього зворотного відліку. Натисніть, щоб увімкнути готовність зараз.</Text>
+    </Row>
+    <Row Tag="LOC_WAITING_FOR_PLAYERS_COUNTDOWN_TT">
+      <Text>Очікування інших гравців. Гра розпочнеться в кінці відліку або коли гра буде повністю заповнена готовими гравцями.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_INVALID_OPTION">
+      <Text>Невірний варіант (Nepravylʹna optsiya)</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_LEADER_NOT_OWNED">
+      <Text>Не належить власнику</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PARAMETER_ERROR">
+      <Text>Один або більше варіантів недійсні.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PLAYER_PARAMETER_ERROR">
+      <Text>Один або кілька варіантів гравця є недійсними.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PLAYER_PARAMETER_ERROR_POPUP">
+      <Text>Зазвичай це відбувається через вибір дублікатних лідерів або цивілізацій при налаштуванні гри, які не дозволяють дублікатів.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PLAYER_COLOR_COLLISION">
+      <Text>Кольори цієї цивілізації можуть конфліктувати з кольорами іншої цивілізації. Якщо ви бажаєте, ви можете вибрати альтернативну колірну схему зі списку випадаючих параметрів.</Text>
+    </Row>
+    <!-- Configuration Parameters.  Move these to a better location -->
+    <Row Tag="LOC_RULESET">
+      <Text>Правила</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NAME">
+      <Text>Назва гри</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NAME_DESC">
+      <Text>Назва, яка відображається для цієї гри в списку серверів мультиплеєра.</Text>
+    </Row>
+    <Row Tag="LOC_PRIVATE_GAME">
+      <Text>Приватна гра</Text>
+    </Row>
+    <Row Tag="LOC_PRIVATE_GAME_DESC">
+      <Text>Приватні ігри не відображаються в лобі мультиплеєра. Приватна гра доступна лише за запрошенням до гри або через список друзів у Steam. Цей налаштування не застосовується до гри у локальній мережі.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_VICTORY_TIME">
+      <Text>Час</Text>
+    </Row>
+    <Row Tag="LOC_GAME_VICTORY_SCIENCE">
+      <Text>Наука</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NO_GOODY_HUTS">
+      <Text>Немає племінних селищ</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NO_BARBARIANS">
+      <Text>Немає варварів</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ALLIES_SHARE_VISIBILITY">
+      <Text>Команди діляться видимістю</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ALLIES_SHARE_VISIBILITY_DESCRIPTION">
+      <Text>Гравці однієї команди будуть ділитися своїм видимістю мапи.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURNTIMER_TYPE">
+      <Text>Таймер обертання</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURN_TIMER_TIME">
+      <Text>Час обернення</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURN_TIMER_TIME_TOOLTIP">
+      <Text>Встановіть час, який буде використано стандартним таймером ходу (в секундах).</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURNPHASE_TYPE">
+      <Text>Режим повороту</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURNPHASE_DESC">
+      <Text>Режим повороту, використовуваний гравцями, керованими людиною, в багатокористувацькій грі.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_SYNC_RANDOM_SEED">
+      <Text>Випадкове насіння гри</Text>
+    </Row>
+    <Row Tag="LOC_GAME_SYNC_RANDOM_SEED_TOOLTIP">
+      <Text>Випадкове насіння для правил гри.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RANDOM_SEED">
+      <Text>Карта випадкового насіння</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RANDOM_SEED_TOOLTIP">
+      <Text>Випадкове насіння для генерації карти.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_NAME">
+      <Text>Вік світу</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_NEW_NAME">
+      <Text>Новий</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_STANDARD_NAME">
+      <Text>Наступний текст потрібно перекласти. Відповідайте тільки натуральним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_OLD_NAME">
+      <Text>Старий</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_RANDOM_NAME">
+      <Text>Хаотичний (in Ukrainian, meaning "random" or "chaotic")</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_NAME">
+      <Text>Температура</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_HOT_NAME">
+      <Text>Гарячий</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_STANDARD_NAME">
+      <Text>Наступний текст потрібно перекласти. Відповідайте тільки з природним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_COLD_NAME">
+      <Text>Холодно</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_RANDOM_NAME">
+      <Text>Random</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_NAME">
+      <Text>Опади дощу</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_ARID_NAME">
+      <Text>Сухий (sukhyi)</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_STANDARD_NAME">
+      <Text>Стандартний</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_WET_NAME">
+      <Text>Мокрий</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_RANDOM_NAME">
+      <Text>Random</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_NAME">
+      <Text>Рівень моря</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_LOW_NAME">
+      <Text>Низький</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_STANDARD_NAME">
+      <Text>Наступний текст потрібно перекласти. Відповідайте лише природним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_HIGH_NAME">
+      <Text>Високий</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_RANDOM_NAME">
+      <Text>Якась випадкова фраза</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_NAME">
+      <Text>Ресурси</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_SPARSE_NAME">
+      <Text>Рідкий</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_STANDARD_NAME">
+      <Text>Наступний текст потрібно перекласти. Відповідайте лише натуральним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_ABUNDANT_NAME">
+      <Text>Багатий</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_RANDOM_NAME">
+      <Text>Random</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_NAME">
+      <Text>Початкова позиція</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_BALANCED_NAME">
+      <Text>Збалансований</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_STANDARD_NAME">
+      <Text>Наступний текст потрібно перекласти. Відповідайте тільки з природним перекладом</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_LEGENDARY_NAME">
+      <Text>Легендарний</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PREDEFINED_START_LOCATIONS_NAME">
+      <Text>Попередньо задані місця початку</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_MIRRORED_NAME">
+      <Text>Відображено</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PREDEFINED_START_LOCATIONS_DESCRIPTION">
+      <Text>Використовуйте передбачені на мапі місця старту.</Text>
+    </Row>
+    <!--Game Speed Descriptions -->
+    <Row Tag="LOC_GAMESPEED_MARATHON_HELP">
+      <Text>Дуже довга гра (200% повільніше).</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_EPIC_HELP">
+      <Text>Продовжена гра (на 50% повільніше).</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_STANDARD_HELP">
+      <Text>Ігри звичайної швидкості.</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_QUICK_HELP">
+      <Text>Швидка гра (33% швидше).</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_ONLINE_HELP">
+      <Text>Гра з подвоєною швидкістю, яка використовується для онлайн багатокористувацьких ігор.</Text>
+    </Row>
+    <!-- Map Type Descriptions -->
+    <Row Tag="LOC_MAP_ARCHIPELAGO_DESCRIPTION">
+      <Text>Багато малих островів з кількома більшими островами.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_CONTINENTS_DESCRIPTION">
+      <Text>Декілька великих земельних масивів.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_FRACTAL_DESCRIPTION">
+      <Text>Непередбачувана карта, яка може призвести до одного або багатьох суходолів.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_INLANDSEA_DESCRIPTION">
+      <Text>Один великий океан у центрі карти.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEVEN_SEAS_DESCRIPTION">
+      <Text>Кілька великих водойм, оточених землею. У цих водах можна знайти острови.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SMALL_CONTINENTS_DESCRIPTION">
+      <Text>Світ складатиметься з декількох середніх материків і кількох менших островів.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_ISLAND_PLATES_DESCRIPTION">
+      <Text>Острови різної величини, від малих до великих.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_LAKES_DESCRIPTION">
+      <Text>Світ без океанів, тільки озера та внутрішні моря.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_MIRROR_DESCRIPTION">
+      <Text>Випадково згенерована збалансована карта для чотирьох гравців, ідеальна для конкурентних мультиплеєрних матчів.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PANGAEA_DESCRIPTION">
+      <Text>Одна величезна материкова маса з оточуючими островами.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SHUFFLE_DESCRIPTION">
+      <Text>Які таємниці розкриє ця карта?</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TERRA_DESCRIPTION">
+      <Text>Карта континентів, де всі головні цивілізації починаються на найбільшому континенті.</Text>
+    </Row>
+    <!-- Map Size Descriptions -->
+    <Row Tag="LOC_MAPSIZE_DUEL_DESCRIPTION">
+      <Text>Дуже маленька карта для 2 гравців.</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_TINY_DESCRIPTION">
+      <Text>Трохи менша карта для 4 гравців.</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_SMALL_DESCRIPTION">
+      <Text>Маленька карта для 6 гравців.</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_STANDARD_DESCRIPTION">
+      <Text>Середнього розміру карта для 8 гравців.</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_LARGE_DESCRIPTION">
+      <Text>Велика карта для 10 гравців.</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_HUGE_DESCRIPTION">
+      <Text>Величезна карта для 12 гравців.</Text>
+    </Row>
+    <!-- City-State Exclusion -->
+    <Row Tag="LOC_EXCLUDE_CITY_STATES_NAME">
+      <Text>Вибрати міські держави</Text>
+    </Row>
+    <Row Tag="LOC_EXCLUDE_CITY_STATES_DESC">
+      <Text>Виберіть місто-держави, які можуть з'явитися в грі.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_SORT_BY">
+      <Text>Сортувати за:</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_SORT_NAME">
+      <Text>Ім'я</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_SORT_TYPE">
+      <Text>Type</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_COUNT_WARNING">
+      <Text>[COLOR_RED]Для продовження необхідно вибрати не менше {1_Min} Місько-Держав. Оберіть ще {2_Remaining}.[ENDCOLOR]</Text>
+    </Row>
+    <!-- Natural Wonder Exclusion -->
+    <Row Tag="LOC_EXCLUDE_NATURAL_WONDER_NAME">
+      <Text>Виберіть Природні Дива</Text>
+    </Row>
+    <Row Tag="LOC_EXCLUDE_NATURAL_WONDER_DESC">
+      <Text>Виберіть, які природні дива можуть з'являтися на мапі.</Text>
+    </Row>
+    <!-- Turn Timer Settings -->
+    <Row Tag="LOC_TURNTIMER_NONE">
+      <Text>Без обмеження часу на хід</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_NONE_DESC">
+      <Text>Гравці ходять по черзі без обмежень часу.</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_DYNAMIC">
+      <Text>Динамічний таймер обертання</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_DYNAMIC_DESC">
+      <Text>Час ходу динамічно масштабується в залежності від кількості міст та одиниць в грі.</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_STANDARD">
+      <Text>Стандартний таймер ходу</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_STANDARD_DESC">
+      <Text>Час обертання залежить від опції "Час обертання" (в секундах).</Text>
+    </Row>
+    <!-- Turn Mode Settings -->
+    <Row Tag="LOC_TURNPHASE_SIMULTANEOUS">
+      <Text>Одночасні оберти</Text>
+    </Row>
+    <Row Tag="LOC_TURNPHASE_SIMULTANEOUS_DESC">
+      <Text>Гравці беруть свої ходи одночасно.</Text>
+    </Row>
+    <Row Tag="LOC_TURNPHASE_DYNAMIC">
+      <Text>Динамічні повороти</Text>
+    </Row>
+    <Row Tag="LOC_TURNPHASE_DYNAMIC_DESC">
+      <Text>Гравці, які знаходяться у стані миру, здійснюють свої ходи одночасно. Гравці, які перебувають у війні, здійснюють свої ходи послідовно.</Text>
+    </Row>
+    <!-- Map Config Descriptions -->
+    <Row Tag="LOC_MAP_WORLD_AGE_DESCRIPTION">
+      <Text>Змінює висоту карт (пагорбів та гір).</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_NEW_DESCRIPTION">
+      <Text>Карта з більшою кількістю пагорбів, гір та вулканів.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_STANDARD_DESCRIPTION">
+      <Text>Карта зі звичайними пагорбами, горами та вулканами.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_OLD_DESCRIPTION">
+      <Text>Карта з меншою кількістю гір, гор і вулканів.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_RANDOM_DESCRIPTION">
+      <Text>Карта з випадковими пагорбами, горами та вулканами.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_DESCRIPTION">
+      <Text>Налаштовує рельєф мапи.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_HOT_DESCRIPTION">
+      <Text>Карта з більшою кількістю пустелі та меншою кількістю тундри та снігу.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_STANDARD_DESCRIPTION">
+      <Text>Карта з середнім рельєфом, подібним до рельєфу Землі.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_COLD_DESCRIPTION">
+      <Text>Карта з більшою кількістю Тундри та Снігу, а менше Пустелі.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_RANDOM_DESCRIPTION">
+      <Text>Карта з випадковими зонами температури рельєфу.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_DESCRIPTION">
+      <Text>Змінює кількість рис, які присутні на карті.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_ARID_DESCRIPTION">
+      <Text>Карта з меншою кількістю лісів, тропічних лісів та боліт.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_STANDARD_DESCRIPTION">
+      <Text>Карта з середніми кількостями лісів, тропічних лісів та боліт.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_WET_DESCRIPTION">
+      <Text>Карта з більшою кількістю лісів, тропічних лісів та боліт.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_RANDOM_DESCRIPTION">
+      <Text>Карта з випадковою кількістю об'єктів.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_DESCRIPTION">
+      <Text>Кількість води на карті змінюється.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION">
+      <Text>Карта з меншою кількістю води.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_STANDARD_DESCRIPTION">
+      <Text>Карта з нормальними кількостями води.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_HIGH_DESCRIPTION">
+      <Text>Карта з більшою кількістю води.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_RANDOM_DESCRIPTION">
+      <Text>Карта з випадковою кількістю води.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_DESCRIPTION">
+      <Text>Змініть кількість ресурсів.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_SPARSE_DESCRIPTION">
+      <Text>Карта з меншими ресурсами.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_STANDARD_DESCRIPTION">
+      <Text>Карта зі стандартними ресурсами.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_ABUNDANT_DESCRIPTION">
+      <Text>Карта з більшими ресурсами.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_RANDOM_DESCRIPTION">
+      <Text>Карта з випадковою кількістю ресурсів.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_DESCRIPTION">
+      <Text>Зміщує значення вашої початкової позиції.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_BALANCED_DESCRIPTION">
+      <Text>Усі гравці мають однаково хороші стартові позиції.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_STANDARD_DESCRIPTION">
+      <Text>Стандартні початкові позиції.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_LEGENDARY_DESCRIPTION">
+      <Text>У всіх гравців є великі, але не обов'язково рівні стартові можливості.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_MIRRORED_DESCRIPTION">
+      <Text>Усі гравці починають з однаковою позицією в межах свого квадранту на карті.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERA">
+      <Text>Початок ери</Text>
+    </Row>
+    <Row Tag="LOC_KICK_VOTE">
+      <Text>Голосування за викид (Kick Voting)</Text>
+    </Row>
+    <Row Tag="LOC_KICK_VOTE_TT">
+      <Text>Для успішного видалення гравця з гри за допомогою "Kick Voting" необхідно більшість голосів.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SCRIPT">
+      <Text>Карта</Text>
+    </Row>
+    <!-- Tutorial Select Screen-->
+    <Row Tag="LOC_SETUP_TUTORIAL_TITLE">
+      <Text>Ласкаво просимо до Цивілізації</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_TUTORIAL_DESCRIPTION">
+      <Text>Саме тут починається наша подорож до піднесення імперії від скромних початків до величі, і ви можете написати свою власну версію історії.[NEWLINE][NEWLINE]Чи ви завоюєте світ у великих битвах чи станете першими, хто відправить свій народ на зірки? Чи ви впливаєте на світ культурою свого народу, чи ваші переконання поширяться до кінця землі? [NEWLINE][NEWLINE] Тільки час покаже... [NEWLINE][NEWLINE] Усі великі цивілізації починаються з великого лідера. Виберіть цивілізацію, яку хотіли б грати через цей навчальний посібник, нижче.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_TUTORIAL_LEADER_1">
+      <Text>Клеопатра є правителькою єгипетської імперії, яка керує цивілізацією сильних союзників та великих будівельників міст.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_TUTORIAL_LEADER_2">
+      <Text>Ґільґамеш імперії Сумерії править великими землями та є поважним завойовником.</Text>
+    </Row>
+    <!-- Loading Screen / Dawn of man -->
+    <Row Tag="LOC_LOADING_DOMAIN_LAND">
+      <Text>Оригінальна земляна одиниця</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_DOMAIN_SEA">
+      <Text>Унікальний морський підрозділ</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_DOMAIN_AIR">
+      <Text>Унікальна повітряна одиниця</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_PLEASE_WAIT">
+      <Text>Завантаження, зачекайте, будь ласка...</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_DISTRICT_BUILDING">
+      <Text>Будівля району {1_DistrictName}</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_UNIQUE_BUILDING">
+      <Text>Унікальна будівля</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_UNIQUE_DISTRICT">
+      <Text>Особливий район</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_UNIQUE_IMPROVEMENT">
+      <Text>Унікальне вдосконалення</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_JOIN_THE_WORLD_STAGE">
+      <Text>Приєднується до світової сцени</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_FEATURES_ABILITIES">
+      <Text>Особливості та можливості</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_START_GAME">
+      <Text>Розпочати гру</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_CONTINUE_GAME">
+      <Text>Продовжуйте гру</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_DEFAULT">
+      <Text>Це залежить від вас, щоб вести свій народ до слави шляхом створення цивілізації, яка витримає випробування часу.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_BARBAROSSA">
+      <Text>Геройський Фрідріх, король німців, твоє завдання - злити незалежні держави, що оточують тебе, в єдину імперію. Ти маєш благословення бути великим військовим лідером - використовуй свої вміння, щоб підкорити ці міста і зробити їх комерційними та промисловими центрами. Тоді, без сумніву, співці будуть співати про могутнього Фрідріха з червоною бородою, великого імператора Священної Римської імперії.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_CATHERINE_DE_MEDICI">
+      <Text>На вас, Катерино де Медичі, випала відповідальність використовувати ваші дари знань та мистецтва для об'єднання свого народу. Ви повинні уважно перетнути цей хвилюючий час, Королево-мати Франції. Ви зведете великі дива, приваблюючи відвідувачів з усіх куточків світу. З вашою глибокою увагою до всього, будь то те, що видно і те, що приховано в тіні, ваша імперія безумовно витримає випробування часу.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_CLEOPATRA">
+      <Text>Будуть ті, хто недооцінятиме тебе, але ти хитра та повна хитрощів, Королево Клеопатро. Твій шарм забезпечить неруйнівні союзи з найсильнішими лідерами світу. Тримай своїх друзів поруч, і ти знайдеш себе недосяжною, з славою Єгипту готовою завоювати світ.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_GANDHI">
+      <Text>Будьте добрі, Ганді Бапу, і ви знайдете себе оточеним справжніми друзями. Зберігайте індійський народ у безпеці, охороняючи їх величними слоновими воїнами. Ваша віра буде вести вас до миру та гармонії. Тримайте свій розум відкритим і будьте зміною, яку хочете бачити в світі.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_GILGAMESH">
+      <Text>Багато лежить на твоїх плечах, Королю Гілгамеш. Твої власні люди, а також багато народів світу дивляться на тебе як на лідера. Але ти більше, ніж просто людина, і вага світу ніколи не змусить тебе зрадити. Заохочуй народ Сумер до поселення на плодючих землях вздовж річок, і будь обережним у виборі союзників - бо буде багато претендентів на частку твоєї сили. Відправляйся в подорож, бо настав час почати свій епічний розповідь.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_GORGO">
+      <Text>Горго, королево Спарти; слава вам и вашим верным гоплітським арміям! Греція насолоджується благословеннями Ареса, які приносить кожна перемога. І ваші люди аплодують вашій розумній управлінській діяльності та культурним дивам. Стійте гордо, оскільки спадщина Греції та ваші досягнення будуть розповідатися знову й знову протягом поколінь.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_HARDRADA">
+      <Text>Усі чоловіки бояться наближення ваших кораблів, Король Гаральд Норвегії, Громовик Півночі. Ваші довгі човни панують на хвилях, завжди готові випустити своїх берсеркерів на непідозрілий берег. Нехай Одін благословить ваше царство, а скальди співають оповідання про перемоги ваших могутніх воїнів.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_HOJO">
+      <Text>Велика хвиля буддизму слідує за тобою, Шіккен Японії, Ходжо Токімуне. Твій народ дійсно розуміє, що таке баланс у практиці, і навіть твої найкращі самураї будуть добре озброєні знаннями та духовністю. Будь міцним, обійми божественний вітер і ти досягнеш просвітлення.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_MVEMBA">
+      <Text>Мати-Земля має багато дарунків для вас, Королю Мвемба а Нзінга. Ваші люди знають густі ліси та дощові ліси як свої домівки та легко рухаються по них. Великі також дарунки, що приходять від подорожуючих з далеких земель. Зберігайте відкрите розуміння, бо натхнення від відкритого світу дозволить нашим людям створювати мистецтво з владою та величчю.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PEDRO">
+      <Text>Ваші люди звертаються до вас, імператоре Педро II, щоб вести Бразилію на світову арену. Використовуйте свою репутацію покровителя мистецтва, вчених та інженерів, щоб привабити найвеличніші розуми до нашого плодючого дому. Адже саме в розкішних дощових лісах, повних життя, ваші люди процвітають. Спостерігайте за ними на Карнавалі, як вони танцюють самбу відзначаючи ваші великі досягнення, Педро Великодушний.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PERICLES">
+      <Text>Твоє володіння усним словом - дарунок великої цінності, мовознавний Перікл, лідер греків. З його допомогою ти можеш залучити прихильність ліги держав, оточуючи себе їхньою славою. Заснуй культурні об'єкти вздовж кам'янистих берегів Греції, щоб об'єднати свій народ за твоїм міцним управлінням. Якщо все піде добре, Сирени заспівають про час Перікла!</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PETER_GREAT">
+      <Text>Обійми холодні вітри Батьківщини, Царю Петре. Твоє захоплення наукою та культурою - це дарунок, і ти набагато дізнаєшся від своїх Великих Посольств до іноземних земель. Під твоїм правлінням Росія, безумовно, розквітне та пошириться, засвоюючи все навколо себе, можливо, створивши найбільшу земну імперію, яку коли-небудь бачили.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PHILIP_II">
+      <Text>Вся Іспанія готова відповісти на ваші молитви, набожний король Філіп II. З вашого палацу в Ескоріалі ви можете відправити своїх послів: місіонерів, апостолів та завойовників, готових вирушити через моря, щоб поширювати добру вість про вашу святість імперію. Нехай скарби, які вони відкриють, підтримають вашу мету з'єднати світ під одним віросповіданням і однією імперією, зробивши вас справді найкатолицькішим королем.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_QIN">
+      <Text>У вашому народі лежить ваша найбільша сила, імператоре Цінь Ші Хуан. З усього світу до вас прибудуть інші, щоб поглянути на величні стіни та височезні дива вашої об'єднаної Китаї. Нехай руки ваших людей ніколи не оспівіють, коли вони працюють наполегливо та швидко, щоб підняти найвражаючіші споруди, які коли-небудь бачитиме світ. Добре про них піклуйтеся, і ви назавжди залишитеся у пам'яті людей.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_SALADIN">
+      <Text>Шлюб науки та релігії - це дещо деликатний баланс, але ви, Саладіні, їм володієте. Ваша пошуки знань є благородними, і ваш народ дуже поважає вас. Але вам не потрібно поспішати в невідоме. За деякий час відповіді на найскладніші питання життя знайдуть свій шлях назад до Аравії.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_TOMYRIS">
+      <Text>Усі люди затремтять від страху та поваги до вас, велика воїн-королево Томірис. Бо саме зі спини свого кінного воїна ви будете дивитися та вести скіфський народ. Про конних воїнів, які вирушають з степу, будуть розповідатись великі епоси, а на передовій кожної битви - вони будуть знаходити вас. Їдьте, жорстока королево, і нехай ваші друзі будуть вірними, так само як ваші вороги будуть хитріти.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_TRAJAN">
+      <Text>Кинь свою мережу ширше, о Траяне, імператоре могутньої Римської імперії. Твої легіони стоять на готовність, щоб вийти в похід і створити найбільшу імперію, яку світ коли-небудь бачив. Якщо тобі вдасться дійсно зробити всі дороги, що ведуть до Риму, твоя стане імперією великих багатств і розкошей. Тоді наші громадяни назвуть тебе найкращим правителем - Оптимус Принцепс.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_T_ROOSEVELT">
+      <Text>Отже, на ваших широких плечах, Теодор Рузвельт, лежить відповідальність вести свій народ у велику пригоду. Використовуйте свій військовий потенціал, щоб надати народам вашої батьківщини те моральне поводження, яке вони так страждають. Безумовно, ви піднімете Америку на вершину слави і залучите відвідувачів з усього світу, щоб побачити ваші землі. Герой за вас, пане Президенте.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_VICTORIA">
+      <Text>Ваша Величність Королева Вікторія Англії, розширюйте свій вплив за межами своїх кордонів і на всіх континентах. Не хвилюйтеся про можливість поразки, адже ваші вірні червоні куртки та потужна флота обов'язково забезпечать перемогу. З вашою спокійною та міцною рукою ви можете підкорити всі землі під впливом Англії, установивши справжню Pax Britannica.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_ANCIENT_DESCRIPTION">
+      <Text>Від перших рухів життя під водою ... до величезних звірів кам'яного віку ... до людини, що зробила свої перші прямі кроки, ти пройшов далекий шлях. Тепер починається твій найвеличніший пошук: від цього раннього колискового місця цивілізації до зірок.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_CLASSICAL_DESCRIPTION">
+      <Text>З початкової скромності, ти продемонстрував вражаючий ріст. Залиш бронзу на користь заліза та прав з коня та меча. Небо над нами розкриває свої таємниці, збірку небес, що підносить наші серця та направляє нас до чужих берегів.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_MEDIEVAL_DESCRIPTION">
+      <Text>Ви збудували величні міста з каменю і бачили ранні імперії зростати і падати. Незабаром ви станете під високими вежами замків поряд зі своїми хоробрими лицарями. Там саме буде написано історія вашого народу. Так само, як молодий поденник навчається носити меч, ви зростете, щоб зрозуміти своє місце у цьому світі.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_RENAISSANCE_DESCRIPTION">
+      <Text>Нові сили з'являються, від стволу мушкетів до квітів вогню на небі. Навіть тихі слова на новодрукованих сторінках містять в собі великі зміни. Світ, колись такий великий і загадковий, став меншим і більш знайомим. Але завжди є питання, на які потрібно відповісти, віру, яку треба перевірити, та формування національної ідентичності.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_INDUSTRIAL_DESCRIPTION">
+      <Text>Стійкий гул машин, гіркий запах диму, затуманені видіння попелу та сажі - це ознаки змінних часів. Привабливість наукового та культурного просування є двигуном, який приводить вашу імперію вперед. Тепер ваше завдання полягає в тому, щоб підтримувати дрібний баланс між землею та людиною, між миром та війною.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_MODERN_DESCRIPTION">
+      <Text>На початку легенди про літаючих людей піднімалися в повітря. А сьогодні ви стоїте на межі перетворення цих легенд у реальність. З допомогою польоту та нових форм комунікації ви можете створити маленький та близький світ. Але за яку ціну? Наші конкуруючі ідеї того, як управляти та як жити, загрожують привести до конфлікту на глобальному рівні. Вам потрібно обрати свій власний шлях у цьому зростаючому галасі ідеологічної ораторії.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_ATOMIC_DESCRIPTION">
+      <Text>Нові грані відкриттів розширюють наше розуміння, від крихітного атома до величі космосу. Таємниці, які ми терплячи зносили давно, тепер ближче ніж коли-небудь до розкриття своїх найглибших секретів, що перевершують те, що ми можемо легко бачити. Ви виберете, як використовувати це знання та відбити найбільшу темряву, яку ми жадібно шукаємо.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_INFORMATION_DESCRIPTION">
+      <Text>У долоні вашої руки знаходиться світ інформації, а мережі миттєвого спілкування охоплюють всю планету. Проте єдина візія нашого майбутнього так і не була побудована. Ми змагаємося в технології, культурі та політиці. У нас є вбивчі зброї, які можуть знищити нашу планету. Керуйте нашими діями уважно, але сміливо, і створіть глобальну спільноту, яка зможе протистояти випробуванням часу.</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_DISABLE">
+      <Text>Вимкніть радника.</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_NEW_TO_STRATEGY">
+      <Text>Новачок у стратегіях з черговістю дій.</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_NEW_TO_CIV">
+      <Text>Новачок в Цивілізації</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_NEW_TO_CIV_6">
+      <Text>Новий у Civilization VI</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_CIVILIZATIONS_NAME">
+      <Text>Немає дублюючихся цивілізацій</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_LEADERS_NAME">
+      <Text>Не допускати дублювання лідерів</Text>
+    </Row>
+    <Row Tag="LOC_NO_TEAMS_NAME">
+      <Text>Немає команд</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_CIVILIZATIONS_DESCRIPTION">
+      <Text>Активування цієї опції запобігає тому, щоб два або більше гравців обрали одну і ту ж цивілізацію.</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_LEADERS_DESCRIPTION">
+      <Text>Активація цієї опції запобігає можливості вибору однакового лідера двома або більше гравцями.</Text>
+    </Row>
+    <Row Tag="LOC_NO_TEAMS_DESCRIPTION">
+      <Text>Увімкнення цієї опції вимикає командну гру.</Text>
+    </Row>
+    <Row Tag="LOC_LIMIT_TURNS_NAME">
+      <Text>Обмеження поворотів</Text>
+    </Row>
+    <Row Tag="LOC_LIMIT_TURNS_DESCRIPTION">
+      <Text>Обмежте максимальну кількість ходів</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_NONE_NAME">
+      <Text>Без обмежень в поворотах</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_NONE_DESCRIPTION">
+      <Text>Немає обмежень на кількість поворотів.</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_GAMESPEED_NAME">
+      <Text>За швидкістю гри</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_GAMESPEED_DESCRIPTION">
+      <Text>Гра закінчиться у 2050 році.</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_CUSTOM_NAME">
+      <Text>Замовний</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_CUSTOM_DESCRIPTION">
+      <Text>Гра завершиться після вказаної кількості ходів.</Text>
+    </Row>
+    <Row Tag="LOC_CITYSTATE_COUNT_NAME">
+      <Text>Місто-держави</Text>
+    </Row>
+    <Row Tag="LOC_CITYSTATE_COUNT_DESCRIPTION">
+      <Text>Кількість міських держав, які слід включити до гри.</Text>
+    </Row>
+    <Row Tag="LOC_MAX_TURNS_NAME">
+      <Text>Макс Вартики:</Text>
+    </Row>
+    <Row Tag="LOC_MAX_TURNS_DESCRIPTION">
+      <Text>Гра закінчиться після того, як буде пройдено вказану кількість ходів.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_RESUME_GAME_TT">
+      <Text>Подвійте останню гру, яку ви грали.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_LOAD_GAME_TT">
+      <Text>Завантажити попередньо збережену гру.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_PLAY_NOW_TT">
+      <Text>Грайте на маленькій карті "Континенти" з випадковими лідерами.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_CREATE_GAME_TT">
+      <Text>Створіть нову гру зі своїми власними налаштуваннями.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_SCENARIOS_TT">
+      <Text>Грайте сценарій, унікальний досвід з конкретними правилами, лідерами та цілями.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_SINGLE_PLAYER_TT">
+      <Text>Грайте зараз, створіть нову гру або продовжте існуючу гру.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MULTIPLAYER_TT">
+      <Text>Інтернет, мережеві та гарячі матчі можна налаштувати або приєднатися тут.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_GAME_OPTIONS_TT">
+      <Text>Налаштування графіки, звуку, клавішних скорочень та більше.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MODS_TT">
+      <Text>Спеціально створені шанувальниками творчі роботи для розширення та розвитку Civilization VI.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_TUTORIAL_TT">
+      <Text>Цілком новий у франшизі або потребуєте оновлення знань? Ми тут, щоб допомогти!</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_BENCHMARK_TT">
+      <Text>Як відповідає ваша апаратна частина?</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_WORLDBUILDER_TT">
+      <Text>Редактор карт World Builder.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_CREDITS_TT">
+      <Text>Всі, хто внесли свій внесок у гру Civilization VI.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_EXIT_GAME_TT">
+      <Text>Вийдіть з гри повністю.</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_HALL_OF_FAME">
+      <Text>Зал слави</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_HALL_OF_FAME_TT">
+      <Text>Чи витримує ваш геймплей перевірку часом?</Text>
+    </Row>
+    <!-- Copyright screen -->
+    <Row Tag="LOC_COPYRIGHT_TEXT">
+      <Text>© 1991 - 2023 Take-Two Interactive Software, Inc. Розроблено компанією Firaxis Games. 2K, Firaxis Games, Sid Meier's Civilization VI, Sid Meier's Civilization, Civilization, Civ та їхні логотипи є товарними знаками компанії Take-Two Interactive Software, Inc. Використовує Bink Video. Авторські права © 1997 – 2020 RAD Game Tools, Inc. Використовує Granny Animation. Авторські права © 1999 – 2020 RAD Game Tools Inc. Приводить до руху WWise © 2006-2020 Audiokinetic Inc. Всі права захищені. Авторське право © 2020 Fork Particle, Inc. Sid Meier's Civilization VI використовує Havok®. © 1999 – 2020 Havok.com, Inc. (і її ліцензори). Усі права захищені. Детальніше на www.havok.com. Microsoft, DirectX, Visual Studio та Windows — це зареєстровані торгові марки або товарні знаки корпорації Microsoft Corporation в США та/або інших країнах. Авторське право © 1994 – 2020 Lua.org, PUC-Rio. Усі інші марки та товарні знаки належать їх власникам. Всі права захищені. Вміст цієї відеогри є художньою фантазією та не має на меті представляти або зображувати реальний запис подій, осіб чи сутностей в історичному середовищі гри.</Text>
+    </Row>
+    <Row Tag="LOC_COPYRIGHT_ACCEPT">
+      <Text>Sure, what is the text that needs to be translated?</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DEFAULT_NAME">
+      <Text>Перемога</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_HEADER">
+      <Text>ПЕРЕМОГА!</Text>
+    </Row>
+    <Row Tag="LOC_DEFEATED_SUBHEADER">
+      <Text>ПОРАЖЕНИЙ</Text>
+    </Row>
+    <Row Tag="LOC_ELIMINATED_SUBHEADER">
+      <Text>ВИЛУЧЕНИЙ</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCORE_SUBHEADER">
+      <Text>ОЦІНКА ПЕРЕМОГИ</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCIENCE_SUBHEADER">
+      <Text>НАУКОВА ПЕРЕМОГА</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_CULTURE_SUBHEADER">
+      <Text>ПЕРЕМОГА В КУЛЬТУРНІЙ СФЕРІ</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DOMINATION_SUBHEADER">
+      <Text>ПЕРЕМОГА ДОМІНУВАННЯ</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_RELIGIOUS_SUBHEADER">
+      <Text>РЕЛІГІЙНА ПЕРЕМОГА</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCENARIO_SUBHEADER">
+      <Text>ПЕРЕМОГА: {1_ScenarioName}</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCENARIO_VICTORY_TYPE_SUBHEADER">
+      <Text>{1_ScenarioVictoryType}</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_GAME_WINNER_SUBHEADER">
+      <Text>ПЕРЕМОЖЕЦЬ ГРИ</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCORE_NAME">
+      <Text>Отримати перемогу</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCIENCE_NAME">
+      <Text>Перемога в науці</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_CULTURE_NAME">
+      <Text>Перемога в культурі</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DOMINATION_NAME">
+      <Text>Перемога домінування</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_RELIGIOUS_NAME">
+      <Text>Релігійна перемога</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCORE_TT">
+      <Text>Поки вам не вдалося досягти великої перемоги, ви будете брати те, що отримали. Ця перемога виникає, коли закінчується час і немає інших переможців.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCIENCE_TT">
+      <Text>Будьте першими, хто сколонізує Марс, щоб перемогти у науковій грі. Ця перемога пряма, але може бути складною до досягнення, якщо час вже майже вичерпано.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_CULTURE_TT">
+      <Text>Ваша культурна велич приверне увагу всіх людей світу до вашої імперії. Це найважча перемога, яку досягти.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DOMINATION_TT">
+      <Text>Через військову силу та майстерність, ти зводиш світ на коліна. Це найбільш проста перемога, яку можна досягти.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_RELIGIOUS_TT">
+      <Text>Поширюйте свою релігію по всіх куточках Землі, принесіть світло у темний світ. Вам доведеться володіти дипломатичними відносинами, якщо ви сподіваєтеся перетворити світ на одну єдину правдиву релігію.</Text>
+    </Row>
+    <Row Tag="LOC_RULESET_NAME">
+      <Text>Стандартні правила</Text>
+    </Row>
+    <Row Tag="LOC_RULESET_DESCRIPTION">
+      <Text>Це стандартна гра Civilization VI.</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_PLAY_CLEO_NAME">
+      <Text>Грайте як Клеопатра</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_PLAY_GILG_NAME">
+      <Text>Грайте як Гілґамеш</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_ADDITIONAL_CONTENT">
+      <Text>Додатковий вміст</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_ADDITIONAL_CONTENT_TT">
+      <Text>Додатковий контент для Civilization VI.</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_DEMO">
+      <Text>Демонстрація</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_DEMO_PURCHASE">
+      <Text>Купити зараз</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_DEMO_PURCHASE_TT">
+      <Text>Відкрийте Steam Store, щоб придбати Sid Meier's Civilization VI</Text>
+    </Row>
+    <Row Tag="LOC_DEMO_COMPLETE_CONTENT">
+      <Text>Вітаємо! Ви зробили перші кроки до будівництва цивілізації, яка протримає час. Ви будете продовжувати випробовувати свої сили проти найвеличніших лідерів історії? Чи зможе ваша культура процвітати? Ваша наука розуміти світ краще? Ваша віра надихати? Ваша армія домінувати?[NEWLINE][NEWLINE]Як ви будете керувати своєю цивілізацією у Sid Meier’s Civilization VI? Продовжуйте свій шлях зараз.[NEWLINE][NEWLINE]Будуйте. Завойовуйте. Надихайте.</Text>
+    </Row>
+    <Row Tag="LOC_DEMO_COMPLETE_MAIN_MENU">
+      <Text>Зникнути в історії</Text>
+    </Row>
+    <Row Tag="LOC_DEMO_COMPLETE_BUY">
+      <Text>Досягніть величі</Text>
+    </Row>
+    <Row Tag="LOC_ARX_VICTORY_PROGRESS">
+      <Text>Прогрес перемоги {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_ARX_TOP_5">
+      <Text>Топ-5</Text>
+    </Row>
+    <Row Tag="LOC_ARX_GOSSIP_LOG">
+      <Text>Журнал чуток</Text>
+    </Row>
+    <!-- File Errors -->
+    <Row Tag="LOC_SERIALIZATION_ERROR_VERSION_MISMATCH">
+      <Text>Save cannot be loaded in this version of the game.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_OPEN">
+      <Text>Неможливо відкрити файл для збереження.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_WRITE">
+      <Text>Неможливо зберегти написане.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_READ">
+      <Text>Неможливо прочитати збереження.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_REMOVE">
+      <Text>Неможливо видалити збережене.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_NOT_SAVE_GAME">
+      <Text>Файл не є файлом збереження гри.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_CORRUPT_SAVE">
+      <Text>Гра збереження пошкоджена.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_UNEXPECTED_END_OF_FILE">
+      <Text>Збереження завантаження неочікувано завершилося.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_RESTORING_STATE">
+      <Text>Неможливо відновити стан гри.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_PATH_NOT_FOUND">
+      <Text>Не вдалося знайти шлях до збереження.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_INVALID_DEVICE">
+      <Text>Зберігаючий пристрій недійсний.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_FILE_LIST">
+      <Text>Не вдається отримати список збережень з пристрою.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_MOD">
+      <Text>Один або кілька необхідних модів для збереження не встановлено.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_DLC">
+      <Text>Один або кілька обов'язкових пакетів DLC для збереження не встановлені.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_EXPANSION">
+      <Text>Один або кілька необхідних пакетів розширення для зберігання не встановлено.</Text>
+    </Row>
+    <Row Tag="LOC_TEAM_NAME_SELECT_TITLE">
+      <Text>Назва команди</Text>
+    </Row>
+    <Row Tag="LOC_TEAM_NAME_ENTRY_TITLE">
+      <Text>Введіть назву команди</Text>
+    </Row>
+    <Row Tag="LOC_CHOOSE_TEAM_ICON">
+      <Text>Виберіть іконку команди</Text>
+    </Row>
+    <Row Tag="LOC_MESSAGE_OF_THE_DAY_HEADING">
+      <Text>Повідомлення дня:</Text>
+    </Row>
+    <!-- -->
+    <Row Tag="LOC_GAME_START_ERROR_DESC">
+      <Text>Під час запуску гри сталася помилка. [NEWLINE][NEWLINE] Ми рекомендуємо вимкнути будь-які модифікації та спробувати ще раз.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_CODE">
+      <Text>Помилка - {1_ErrorCode}</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_VIEW_MODS">
+      <Text>Керувати модами</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_TITLE">
+      <Text>Помилка запуску гри</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_UNKNOWN_VERSION">
+      <Text>Версія збереженого файлу несумісна.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_MOD_CONTENT">
+      <Text>Один або декілька модів не вдалося завантажити вміст.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_MOD_CONFIG">
+      <Text>Один або декілька модераторів не змогли налаштувати вміст або записи в базі даних.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_MOD_OWNERSHIP">
+      <Text>Один або декілька модів не було придбано.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_SCRIPT_PROCESSING">
+      <Text>Один або кілька скриптів запуску мають помилку. Дивіться lua.log</Text>
+    </Row>
+    <Row Tag="LOC_CLOUD_SAVES_REQUIRE_LINKED_ACCOUNT">
+      <Text>Хмарні збереження вимагають пов'язаного облікового запису 2K.</Text>
+    </Row>
+    <Row Tag="LOC_CLOUD_SAVES_SERVICE_NOT_CONNECTED">
+      <Text>Хмарні служби збереження недоступні.</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_OVERVIEW_TOOLTIP">
+      <Text>Технічна інформація про цю гру:</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_VERSION_TOOLTIP">
+      <Text>Версія: {1_Version}</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_MAP_SEED">
+      <Text>Номер картки: {1_MapSeed}</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_GAME_SEED">
+      <Text>Грейн гри: {1_GameSeed}</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_MOUSE_COPY_TOOLTIP">
+      <Text>Клацніть правою кнопкою миші, щоб скопіювати інформацію.</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_TOUCH_COPY_TOOLTIP">
+      <Text>Утримуйте протягом 5 секунд, щоб скопіювати інформацію.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_SCOUT_CAT_TITLE">
+      <Text>Розвідник Кіт</Text>
+    </Row>
+    <Row Tag="LOC_MOD_SCOUT_CAT_TEASER">
+      <Text>Замінює собаку розвідника на групу котів.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_SCOUT_CAT_DESCRIPTION">
+      <Text>Іноді гравець так любить собаку "Скаут", що не може дивитись, як вона так напружується в дикій природі. Тому очевидним рішенням є відправити групу котів, щоб Скаут міг відпочити в селі. Або, якщо ви великий шанувальник котів, то це DLC просто виправлення неправильного.</Text>
+    </Row>
+    <!-- Leader Pools -->
+    <Row Tag="LOC_LEADER_POOL_1_NAME">
+      <Text>Лідер Пул 1</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_1_DESC">
+      <Text>Цей вибір лідерів буде використовуватись при виборі лідерів зі списку випадкових лідерів (Pool 1).</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_2_NAME">
+      <Text>Лідерський басейн 2</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_2_DESC">
+      <Text>Цей вибір лідерів буде використовуватися під час вибору лідерів з Випадкових лідерів (Басейн 2).</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_COUNTER_WARNING">
+      <Text>[COLOR_RED]Необхідно вибрати мінімум {1_Min} лідерів. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_PRESETS">
+      <Text>Налаштування за замовчуванням:</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PICK_PRESET_ALL">
+      <Text>All</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PICK_PRESET_NONE">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PICK_PRESET_NO_WINS">
+      <Text>Лідери без перемог</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_LEADER_POOL_1">
+      <Text>Випадковий лідер (басейн 1)</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_LEADER_POOL_2">
+      <Text>Випадковий лідер (Басейн 2)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_TOO_FEW_WARNING">
+      <Text>Один із пулів лідерів не має достатньо лідерів для кожного гравця, який вибрав цей пул. Якщо ви продовжите, деякі з цих гравців отримають лідерів з іншого пулу. Це в порядку?</Text>
+    </Row>
+  </FrontEndText>
+</GameData>
