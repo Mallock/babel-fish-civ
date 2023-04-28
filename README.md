@@ -20,8 +20,8 @@ Note: The `assets` folder contains the base game translations, while the `DLC` f
 
 The following languages are currently available:
 
-- Finnish -> In progress
-- Danish -> In progress
+- Finnish -> Testing
+- Danish -> To be tested
 - Ukrainian -> In progress
 - Hindi -> In progress
 
