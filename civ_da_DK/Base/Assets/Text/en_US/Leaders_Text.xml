@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Leader Names-->
+    <Row Tag="LOC_REPRESENTATIVE">
+      <Text>en repræsentant</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_BARBAROSSA_NAME">
+      <Text>Frederik Barbarossa</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_CATHERINE_DE_MEDICI_NAME">
+      <Text>Catherine de Medici</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_CLEOPATRA_NAME">
+      <Text>Cleopatra</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_GANDHI_NAME">
+      <Text>Gandhi (it's the same in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_GILGAMESH_NAME">
+      <Text>Gilgamesh</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_GORGO_NAME">
+      <Text>Gorgo</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_HARDRADA_NAME">
+      <Text>Harald Hardrada</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_HOJO_NAME">
+      <Text>Hojo Tokimune</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MVEMBA_NAME">
+      <Text>Mvemba a Nzinga</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PEDRO_NAME">
+      <Text>Pedro II (no translation needed as it is a name)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PERICLES_NAME">
+      <Text>Perikles</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PETER_GREAT_NAME">
+      <Text>Peter</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PHILIP_II_NAME">
+      <Text>Philip II</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_QIN_NAME">
+      <Text>Qin Shi Huang</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_SALADIN_NAME">
+      <Text>Saladin</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TOMYRIS_NAME">
+      <Text>Tomyris</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAJAN_NAME">
+      <Text>Trajan</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_T_ROOSEVELT_NAME">
+      <Text>Teddy Roosevelt</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_VICTORIA_NAME">
+      <Text>Victoria</Text>
+    </Row>
+    <!--Agenda Names-->
+    <Row Tag="LOC_AGENDA_ALLY_OF_ENKIDU_NAME">
+      <Text>Allieret med Enkidu</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_AYYUBID_DYNASTY_NAME">
+      <Text>Ayyubiddynastiet</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BACKSTAB_AVERSE_NAME">
+      <Text>Ryggen-knivstikkeri-afvisende</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BIG_STICK_POLICY_NAME">
+      <Text>Storstavs politik</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BLACK_QUEEN_NAME">
+      <Text>Sort dronning</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BUSHIDO_NAME">
+      <Text>Bushido (a code of honor followed by samurai)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CITY_STATE_ALLY_NAME">
+      <Text>Bystat Allieret</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_COUNTER_REFORMER_NAME">
+      <Text>Modreformationisten</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DELIAN_LEAGUE_NAME">
+      <Text>Delos-forbundet</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ENTHUSIASTIC_DISCIPLE_NAME">
+      <Text>Begejstret disciplin</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_GREAT_PERSON_OBSESSED_NAME">
+      <Text>Kunstmæcen</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_IRON_CROWN_NAME">
+      <Text>Jernkrone</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_LAST_VIKING_KING_NAME">
+      <Text>Sidste Viking-konge</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_OPTIMUS_PRINCEPS_NAME">
+      <Text>Optimus Princeps. (The text is already in Latin and does not need to be translated.)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_PARANOID_NAME">
+      <Text>Paranoid. (This word is the same in Danish.)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_PEACEKEEPER_NAME">
+      <Text>Fredsvogter</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_QUEEN_OF_THE_NILE_NAME">
+      <Text>Nilens dronning</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_SUN_NEVER_SETS_NAME">
+      <Text>Sol går aldrig ned</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_TLATOANI_NAME">
+      <Text>Tlatoani (Note: This word is already in Nahuatl, the language of the Aztecs, and does not require translation)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WESTERNIZER_NAME">
+      <Text>Vesterlændinge</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WITH_YOUR_SHIELD_OR_ON_IT_NAME">
+      <Text>Med dit skjold eller på det</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WONDER_OBSESSED_NAME">
+      <Text>Mur af 10.000 Li</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_AIRPOWER_NAME">
+      <Text>Luftmagt</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BARBARIAN_LOVER_NAME">
+      <Text>Barbarisk allieret</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CITY_STATE_PROTECTOR_NAME">
+      <Text>Bystaten Beskytter</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CIVILIZED_NAME">
+      <Text>Civiliseret</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CULTURED_NAME">
+      <Text>Kulturelt</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DARWINIST_NAME">
+      <Text>Darwinist (This word is the same in Danish as in English)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DEVOUT_NAME">
+      <Text>Devout</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ENVIRONMENTALIST_NAME">
+      <Text>Miljøforkæmper</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_EXPLOITATIVE_NAME">
+      <Text>Udnyttende</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_EXPLORER_NAME">
+      <Text>Udforsker</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_FUN_LOVING_NAME">
+      <Text>Sjovelskende</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_GREAT_PERSON_ADVOCATE_NAME">
+      <Text>Stor Personforkæmper</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_IDEOLOGUE_NAME">
+      <Text>Ideolog</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_INDUSTRIALIST_NAME">
+      <Text>Tung industri</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_MONEY_GRUBBER_NAME">
+      <Text>Pengegrisk</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_NATURALIST_NAME">
+      <Text>Naturalist</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_NUKE_LOVER_NAME">
+      <Text>Nuke Glad</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_POPULOUS_NAME">
+      <Text>Folkerigt</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_STANDING_ARMY_NAME">
+      <Text>Stående hær</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_TECHNOPHILE_NAME">
+      <Text>Teknofil</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WONDER_ADVOCATE_NAME">
+      <Text>Fascineret af undren</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ZEALOT_NAME">
+      <Text>Iverkætter</Text>
+    </Row>
+    <!--Agenda Description-->
+    <Row Tag="LOC_AGENDA_ALLY_OF_ENKIDU_DESCRIPTION">
+      <Text>Kan lide civilisationer, der er villige til at danne et langsigtet alliance. Kan ikke lide nogen, der fordømmer eller angriber hans venner og allierede.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_AYYUBID_DYNASTY_DESCRIPTION">
+      <Text>Ønsker at have hans tilbedelsesbygning i mange byer og kan lide en civilisation med det. Misliker civilisationer, der følger andre religioner eller civilisationer, der fører krig mod tilhængere af hans religion.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BACKSTAB_AVERSE_DESCRIPTION">
+      <Text>Kan lide civilisationer, der erklærer dem som ven. Hader civilisationer, der dolker dem i ryggen og erklærer overraskelseskrige.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BIG_STICK_POLICY_DESCRIPTION">
+      <Text>Kan lide fredelige civilisationer, der har en by på hans hjemmekontinent. Hader civilisationer, der starter krige mod en bystat eller civilisation baseret på hans kontinent.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BLACK_QUEEN_DESCRIPTION">
+      <Text>Få så mange spioner og så meget diplomatisk adgang som muligt. Kan ikke lide civilisationer, der ignorerer disse spionageaktiviteter.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BUSHIDO_DESCRIPTION">
+      <Text>Kan lide civilisationer, der har en stærk militær og [ICON_Faith] tro og [ICON_Culture] kulturudgang. Kan ikke lide civilisationer, der er stærke på militæret, men svage på [ICON_Faith] tro og [ICON_Culture] kulturudgang.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CITY_STATE_ALLY_DESCRIPTION">
+      <Text>Kan lide civilisationer, der ikke konkurrerer om den samme bystats troskab. Kan ikke lide civilisationer, der direkte konkurrerer om bystats troskab.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_COUNTER_REFORMER_DESCRIPTION">
+      <Text>Kan lide civilisationer, der følger den samme religion, og ønsker, at deres byer alle følger den samme religion. Hader alle, der forsøger at sprede deres religion ind i deres imperium.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DELIAN_LEAGUE_DESCRIPTION">
+      <Text>Kan lide civilisationer, der ikke konkurrerer om den samme bystats troskab. Misliker civilisationer, der direkte konkurrerer om bystats troskab.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ENTHUSIASTIC_DISCIPLE_DESCRIPTION">
+      <Text>Kan lide civilisationer, der bringer religion til Kongo. Misliker civilisationer, der har grundlagt en religion, men ikke har bragt den til en Kongolese by.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_GREAT_PERSON_OBSESSED_DESCRIPTION">
+      <Text>Kan lide civilisationer, der ikke konkurrerer om [ICON_GreatPerson] store personligheder, og vil rekruttere [ICON_GreatPerson] store personligheder, når det er muligt. Kan ikke lide at miste en [ICON_GreatPerson] stor personlighed til en anden civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_IRON_CROWN_DESCRIPTION">
+      <Text>Kan lide civilisationer, der ikke er forbundet med bystater. Kan ikke lide suzeræner af bystater eller civilisationer, der erobrer bystater.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_LAST_VIKING_KING_DESCRIPTION">
+      <Text>Bygger en stor flåde og respekterer civilisationer, der følger deres ledelse. Kan ikke lide civilisationer med en svag flåde.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_OPTIMUS_PRINCEPS_DESCRIPTION">
+      <Text>Forsøger at inkludere så meget territorium som muligt i deres imperium. Kan ikke lide civilisationer, der kontrollerer lidt territorium.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_PARANOID_DESCRIPTION">
+      <Text>Kan lide civilisationer, som ikke udgør en trussel. Misliker civilisationer med stærke militærer eller dem med nærliggende byer.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_QUEEN_OF_THE_NILE_DESCRIPTION">
+      <Text>Kan lide civilisationer med stærke militærer og vil forsøge at alliere sig med dem for at undgå skadelige militære konflikter. Misliker civilisationer med svage militærer.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_PEACEKEEPER_DESCRIPTION">
+      <Text>Han er aldrig den, der erklærer krig og bliver betegnet som krigsliderlig, og han vil forsøge at blive ven med dem, der opretholder freden. Han hader krigsliderlige mennesker.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_SUN_NEVER_SETS_DESCRIPTION">
+      <Text>Kan lide civilisationer fra sit eget kontinent, og ønsker at udvide til alle kontinenter. Kan ikke lide civilisationer på kontinenter, hvor England ikke har nogen by.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_TLATOANI_DESCRIPTION">
+      <Text>Kan lide civilisationer, som har de samme luksusressourcer som ham selv, og vil forsøge at samle alle tilgængelige luksusressourcer. Misliker civilisationer, som har en ny luksusressource, han endnu ikke har samlet.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WESTERNIZER_DESCRIPTION">
+      <Text>Venlig over for de civilisationer, der er foran ham i [ICON_Science] videnskab og [ICON_Culture] kultur. Misliker tilbagestående civilisationer, der mangler i [ICON_Science] videnskab og [ICON_Culture] kultur.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WITH_YOUR_SHIELD_OR_ON_IT_DESCRIPTION">
+      <Text>Nogensinde giver ikke op på varer i en fredsforhandling og kan lide civilisationer, der matcher den tilgang. Misliker civilisationer, der har kapituleret eller aldrig har været i krig.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WONDER_OBSESSED_DESCRIPTION">
+      <Text>Kan lide civilisationer, der ikke konkurrerer om vidundere, og bygger vidundere, når det er muligt. Misliker at miste en vidunder til en anden civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BARBARIAN_LOVER_DESCRIPTION">
+      <Text>Føler med barbarerne. Kan ikke lide civilisationer, der ødelægger barbariske udposter.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CIVILIZED_DESCRIPTION">
+      <Text>Hader barbarer. Kan godt lide civilisationer, der rydder barbariske udposter. Kan ikke lide civilisationer, der ignorerer barbariske udposter.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CULTURED_DESCRIPTION">
+      <Text>Prøver at opbygge [ICON_Culture] Kultur og kan lide civilisationer, der også fokuserer på [ICON_Culture] Kultur.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DARWINIST_DESCRIPTION">
+      <Text>Kan lide at se civilisationer i krig og tror på konstant kamp</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_FUN_LOVING_DESCRIPTION">
+      <Text>Prøver at gøre borgerne i hver by så glade som muligt. Kan lide civilisationer, der også udvikler sig på denne måde.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_INDUSTRIALIST_DESCRIPTION">
+      <Text>Prøver at opbygge industri, og kan lide civilisationer, der også fokuserer på [ICON_Production] produktion.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_MONEY_GRUBBER_DESCRIPTION">
+      <Text>Prøver at have den højst mulige [ICON_Gold] Guld per tur indtjening. Respekterer andre højtindtjenende civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_NATURALIST_DESCRIPTION">
+      <Text>Prøver at finde alle naturvidundere. Kan lide civilisationer, der bevarer skove og regnskove, og dem der etablerer nationalparker.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_NUKE_LOVER_DESCRIPTION">
+      <Text>Har ingen tøven med at bruge atomvåben. Respekterer andre civilisationer, der udviser styrke med atomvåben.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_POPULOUS_DESCRIPTION">
+      <Text>Prøver at have den højeste samlede befolkning. Respekterer andre højt befolkningscivilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_STANDING_ARMY_DESCRIPTION">
+      <Text>Forsøger altid at opretholde en stor stående hær. Respekterer andre civilisationer med store hære.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_TECHNOPHILE_DESCRIPTION">
+      <Text>Prøver at opbygge [ICON_Science] Videnskab og kan lide civilisationer, der også fokuserer på [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_AIRPOWER_DESCRIPTION">
+      <Text>Forsøger at opbygge luftmagt. Beundrer civilisationer med større luftmagt. Misliker civilisationer med svagere luftmagt.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CITY_STATE_PROTECTOR_DESCRIPTION">
+      <Text>Fremhæver beskyttelseskrige. Beundrer civilisationer, der starter beskyttelseskrige. Misliker civilisationer, der angriber bystater.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_EXPLOITATIVE_DESCRIPTION">
+      <Text>Renser alle funktioner og forbedrer alle mulige fliser. Kan lide civilisationer med en høj procentdel af forbedrede fliser. Kan ikke lide civilisationer med lav procentdel af forbedrede fliser eller dem, der finder nationalparker.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ENVIRONMENTALIST_DESCRIPTION">
+      <Text>Bygger nationalparker, rydder ikke funktioner, planter skove. Kan lide civilisationer, der planter skove eller grundlægger nationalparker. Kan ikke lide civilisationer, der rydder funktioner.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_IDEOLOGUE_DESCRIPTION">
+      <Text>Favoriserer civilisationer med samme type regering, misliker civilisationer med forskellige regeringer, og er virkelig imod civilisationer med forskellige regeringer fra samme tidsalder som dens egen.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DEVOUT_DESCRIPTION">
+      <Text>Prøver at opbygge [ICON_Faith] Tro, og kan lide civilisationer, der også fokuserer på [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_EXPLORER_DESCRIPTION">
+      <Text>Prøver at udforske kortet og kan lide civilisationer, der har udforsket mindre af kortet end sig selv, og misliker civilisationer, der har udforsket mere af kortet end sig selv.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ZEALOT_DESCRIPTION">
+      <Text>Forsøger at opnå en religiøs sejr. Kan lide de civilisationer, der allerede har taget deres religion til sig.</Text>
+    </Row>
+    <!-- City-State Traits-->
+    <Row Tag="LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS">
+      <Text>1 [ICON_Envoy] Udsending:</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS">
+      <Text>3 [ICON_Envoy] Udsendinge:</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS">
+      <Text>6 [ICON_Envoy] Udsendinge:</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_NAME">
+      <Text>Videnskabelig bystat</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Science] Videnskab i din [ICON_Capital] Hovedstad.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Science] Videnskab i hver Campus bydel.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_Science] Videnskab i hver Campus-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_NAME">
+      <Text>Religiøs bystat</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Faith] Tro på [ICON_Capital] Hovedstaden.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Faith] Tro i hvert distrikt med Hellig Sted.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_Faith] Tro i hvert Helligt Sted-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_NAME">
+      <Text>Handelsbystat</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS} 
+
+(THERE ARE NO SPECIFIC TRANSLATIONS FOR THESE TEXTS AS THEY SEEM TO BE GAME-SPECIFIC TERMS.)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+4 [ICON_Gold] Guld i [ICON_Capital] Hovedstaden.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+4 [ICON_Gold] Guld i hver kommercielle Hub-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +4 [ICON_Gold] Guld i hver handelscentrum-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_NAME">
+      <Text>Kulturel Bystat</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Culture] Kultur i [ICON_Capital] Hovedstaden.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Culture] Kultur i hvert Byteater-kvarter.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_Culture] Kultur i hver Theater Square-bydel.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_NAME">
+      <Text>Militaristisk bystat</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS} (THESE PHRASES SHOULD NOT BE TRANSLATED)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Produktion i [ICON_Capital] Hovedstaden, når der produceres enheder.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Produktion i hver Lejr-distrikt, når der produceres enheder.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_Production] Produktion i hver Lejr-distrikt, når der produceres enheder.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_NAME">
+      <Text>Industriel bystat</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Produktion] Produktion i [ICON_Hovedstad] Hovedstaden, når man producerer vidundere, bygninger og distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Produktion i hver Industriel Zone bydel når du producerer vidundere, bygninger og bydele.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_Production] Produktion i hver Industriel Zone-distrikt, når du producerer vidundere, bygninger og distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_AMSTERDAM_NAME">
+      <Text>Bonus fra Amsterdam Suzeraint</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_AMSTERDAM_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til fremmede byer tjener +1 [ICON_Gold] Guld for hver luksusressource i destinationen.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_BANDAR_BRUNEI_NAME">
+      <Text>Bonus fra Suzerain i Bandar Brunei</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_BRUSSELS_NAME">
+      <Text>Bruxelles Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_BRUSSELS_DESCRIPTION">
+      <Text>Dine byer får +15% [ICON_Production] Produktion til vidundere.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_BUENOS_AIRES_NAME">
+      <Text>Buenos Aires Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_BUENOS_AIRES_DESCRIPTION">
+      <Text>Dine Bonusressourcer opfører sig som Luksusressourcer, og giver 1 [ICON_Amenities] Fornøjelsespunkt pr. type.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_CARTHAGE_NAME">
+      <Text>Carthage Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_CARTHAGE_DESCRIPTION">
+      <Text>Dine Lejrplads-distrikter giver +1 [ICON_TradeRoute] Handelsrute-kapacitet hver.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_GENEVA_NAME">
+      <Text>Geneva Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_GENEVA_DESCRIPTION">
+      <Text>Dine byer tjener +15% [ICON_Science] videnskab, når du ikke er i krig med nogen civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_HATTUSA_NAME">
+      <Text>Hattusa suzeræn bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_HATTUSA_DESCRIPTION">
+      <Text>Giver dig 1 af hver strategisk ressource, du har afsløret, men ikke ejer.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_HONG_KONG_NAME">
+      <Text>Hongkongs suzeræne bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_HONG_KONG_DESCRIPTION">
+      <Text>Dine byer får +20% [ICON_Production] produktion til byprojekter.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JAKARTA_NAME">
+      <Text>Jakarta Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JAKARTA_DESCRIPTION">
+      <Text>Dine [ICON_TradingPost] Handelsposter i fremmede byer giver +1 [ICON_Gold] Guld til dine [ICON_TradeRoute] Handelsruter, der passerer gennem eller går til byen.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JERUSALEM_NAME">
+      <Text>Jerusalem Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JERUSALEM_DESCRIPTION">
+      <Text>Konverterer automatisk til den religion, du har grundlagt, og udøver pres for den religion, som om det var en hellig by.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KABUL_NAME">
+      <Text>Kabul Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KABUL_DESCRIPTION">
+      <Text>Dine enheder modtager dobbelt erfaring fra kampe, de selv starter.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KANDY_NAME">
+      <Text>Kandy Suzerain Bonus - (As this is a proper noun and doesn't have any direct translation, it would remain same in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KANDY_DESCRIPTION">
+      <Text>Modtag en [ICON_GreatWork_Relic] relikvie hver gang du opdager et nyt naturvidunder, og tjen +50% [ICON_Faith] troskab fra alle [ICON_GreatWork_Relic] relikvier.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KUMASI_NAME">
+      <Text>Kumasi Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KUMASI_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til enhver by-stat giver +2 [ICON_Culture] Kultur og +1 [ICON_Gold] Guld for hver specialdistrikt i oprindelsesbyen.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_LA_VENTA_NAME">
+      <Text>La Venta Suzerain Bonus (this is a name and cannot be translated)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_LA_VENTA_DESCRIPTION">
+      <Text>Dine bygningsarbejdere kan nu lave kolossale hovedforbedringer.[NEWLINE][NEWLINE]Kolossale hoveder giver +2 [ICON_Faith] Tro. +1 [ICON_Faith] Tro for hver 2 tilstødende regnskov. +1 [ICON_Faith] Tro for hver 2 tilstødende skove. Kan ikke bygges på sne eller snedækkede bakker.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_LISBON_NAME">
+      <Text>Mogadishu Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_LISBON_DESCRIPTION">
+      <Text>Dine Trader enheder er immune overfor at blive plyndret på vandfliser.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_NAME">
+      <Text>Mohenjo-Daro Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_DESCRIPTION">
+      <Text>Dine byer har fuld [ICON_Housing] bolig fra vand, som om de alle var ved siden af en flod.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NAN_MADOL_NAME">
+      <Text>Nan Madol Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NAN_MADOL_DESCRIPTION">
+      <Text>Dine distrikter på eller ved kyst- eller sø-fliser giver +2 [ICON_Culture] Kultur.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_PRESLAV_NAME">
+      <Text>Preslav Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION">
+      <Text>Dine lette og tunge kavalerienheder har +5 [ICON_Strength] styrke, når de kæmper på bakker.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_SEOUL_NAME">
+      <Text>Seoul Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_SEOUL_DESCRIPTION">
+      <Text>Når du træder ind i en ny æra, optjener du 1 tilfældig [ICON_TechBoosted] Eureka fra denne æra.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_STOCKHOLM_NAME">
+      <Text>Stockholm Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_STOCKHOLM_DESCRIPTION">
+      <Text>Dine distrikter giver +1 [ICON_GreatPerson] storperson-point af deres type ([ICON_GreatWriter] storforfatter, [ICON_GreatArtist] stor kunstner og [ICON_GreatMusician] stor musiker til Teaterplads-distrikter).</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_TORONTO_NAME">
+      <Text>Bonus fra Toronto Suzerain</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_TORONTO_DESCRIPTION">
+      <Text>Regionale effekter fra dine Industri Zone- og Underholdningskompleks-distrikter rækker 3 fliser længere.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_VALLETTA_NAME">
+      <Text>Valletta Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_VALLETTA_DESCRIPTION">
+      <Text>Bygningskomplekser i Centrum af Byen og Bylejre distriktets bygninger kan købes med [ICON_Faith] Tro. Prisen for at købe Ældgammel, Middelalderlig og Renæssance mure er reduceret, men de kan kun købes med [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_VILNIUS_NAME">
+      <Text>Vilnius Suzerain Bonus. (This is already in English and does not require translation.)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION">
+      <Text>Når du indtræder i en ny æra, modtager du 1 tilfældig [ICON_CivicBoosted] inspiration fra den æra.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_YEREVAN_NAME">
+      <Text>Yerevan Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION">
+      <Text>Dine Apostle-enheder kan vælge imellem enhver mulig forfremmelse i stedet for at modtage en tilfældig forfremmelse.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_ZANZIBAR_NAME">
+      <Text>Zanzibar Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_ZANZIBAR_DESCRIPTION">
+      <Text>Receive the [ICON_RESOURCE_CINNAMON] Cinnamon and [ICON_RESOURCE_CLOVES] Cloves Luxury resources. These cannot be earned any other way in the game, and provide 6 [ICON_Amenities] Amenities each.</Text>
+    </Row>
+    <!--Leader Trait Names-->
+    <Row Tag="LOC_TRAIT_LEADER_THERMOPYLAE_NAME">
+      <Text>Thermopylæ</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_NAME">
+      <Text>Enkidus eventyr</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_NAME">
+      <Text>Middelhavets brud</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_DIVINE_WIND_NAME">
+      <Text>Guddommelig vind</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_NAME">
+      <Text>El Escorial</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_NAME">
+      <Text>Den Store Ambassade</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_NAME">
+      <Text>Tysk-romersk kejser</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_PAX_BRITANNICA_NAME">
+      <Text>Pax Britannica</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_NAME">
+      <Text>Troens retfærdighed</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_NAME">
+      <Text>Religiøs konvertit</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_NAME">
+      <Text>Roosevelt-korrektivet</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SATYAGRAHA_NAME">
+      <Text>Satyagraha</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_THUNDERBOLT_NAME">
+      <Text>Nordens Tordenbolt</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_NAME">
+      <Text>Den Første Kejser</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_NAME">
+      <Text>Catherines Flyvende Eskadre</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_TRAJANS_COLUMN_NAME">
+      <Text>Trajans Søjle</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KILLER_OF_CYRUS_NAME">
+      <Text>Morderen af Cyrus</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_NAME">
+      <Text>Storsindet</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SURROUNDED_BY_GLORY_NAME">
+      <Text>Omgivet af herlighed</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_UNIT_ENGLISH_REDCOAT_NAME">
+      <Text>Victoria unikt enhed: Rødfrakke</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_UNIT_NORWEGIAN_LONGSHIP_NAME">
+      <Text>Harald Hårderåde unikt enhed: Viking Langskib</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_UNIT_AMERICAN_ROUGH_RIDER_NAME">
+      <Text>Theodore Roosevelt unik enhed: Rough Rider</Text>
+    </Row>
+    <!--Leader Trait Descriptions-->
+    <Row Tag="LOC_TRAIT_LEADER_THERMOPYLAE_DESCRIPTION">
+      <Text>Kampssejre giver [ICON_Culture] Kultur svarende til 50% af den [ICON_Strength] Kampstyrke, som blev besejret enhed havde. (på standard hastighed) +1 [ICON_Strength] Kampstyrke for hver militærpolitik, der er indsat.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_DESCRIPTION">
+      <Text>Kan erklære krig mod enhver, der er i krig med deres allierede uden krigshisserstraffe. Når de er i krig med en fælles fjende, deler de og deres allierede plyndringsbelønninger og deler kampoplevelsesgevinster, hvis de er inden for 5 fliser.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til andre civilisationer giver +4 [ICON_Gold] Guld til Egypten. Andre civilisationers [ICON_TradeRoute] Handelsruter til Egypten giver dem +2 [ICON_Food] Fødevarer og Egypten +2 [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_DIVINE_WIND_DESCRIPTION">
+      <Text>Landenheder modtager +5 [ICON_Strength] Kampestyrke på landfliser ved siden af kysten; søenheder modtager +5 [ICON_Strength] Kampestyrke i lavvandede fliser. Bygger Fæstningsværk, Helligdom og Teatersplads kvarterer på halvdelen af tiden.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_DESCRIPTION">
+      <Text>Inquisitorer kan fjerne kætteri én ekstra gang. Kombat- og religiøse enheder har en bonus på +5 [ICON_Strength] kombatkraft mod spillere, der følger andre religioner.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_DESCRIPTION">
+      <Text>Modtager [ICON_Science] Videnskab eller [ICON_Culture] Kultur fra [ICON_TradeRoute] Handelsruter til civilisationer, der er mere avancerede end Rusland. +1 for hver 3 teknologier eller regeringsformer foran.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION">
+      <Text>Yderligere militærpolitik plads. +7 [ICON_Strength] Kampstyrke når der angribes bystater.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_PAX_BRITANNICA_DESCRIPTION">
+      <Text>Alle byer grundlagt på en anden kontinent end din hjemme-kontinent modtager en gratis melee enhed. Konstruktion af en Royal Navy Dockyard i den by vil give en ekstra gratis melee enhed. Få Redcoat-ikonisk enhed når Military Science-teknologien er forsket.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION">
+      <Text>Tilbedelsesbygningen for deres religion kan købes af enhver spiller for kun en tiendedel af den sædvanlige [ICON_Faith] trosomkostning. Denne tilbedelsesbygning er forbedret for at tilføje 10% til [ICON_Science] videnskab, [ICON_Faith] trosprædiken og [ICON_Culture] kulturproduktionen af arabiske byer.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION">
+      <Text>Må ikke opføre Holy Site-distrikter, få Store Profeter eller grundlægge religioner. Modtager alle overbevisninger fra enhver religion, der har etableret sig i flertallet af hans byer. Modtager en apostel hver gang han færdiggør et M'banza eller Theater Square-distrikt (af den pågældende bys flertalsreligion).</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_DESCRIPTION">
+      <Text>Enheder modtager en +5 [ICON_Strength] kampstyrke på deres hjemkontinent. +1 tiltrækning til alle fliser i en by med en nationalpark. Få den unikke enhed Rough Rider, når de forsker i Rifling-teknologien.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION">
+      <Text>+5 [ICON_Faith] Tro for hver civilisation (inklusiv Indien), de har mødt, som har grundlagt en religion og ikke er i krig i øjeblikket. Modsatte civilisationer modtager dobbelt så meget krigstræthed for at kæmpe mod Gandhi.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_THUNDERBOLT_DESCRIPTION">
+      <Text>Tillader kyst-raid for alle marine melee-enheder og +50% [ICON_PRODUCTION] produktion til alle marine melee-enheder. Få Viking Longship unikt enhed med Sailing.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_DESCRIPTION">
+      <Text>Når du bygger Antikke og Klassiske vidundere, kan du bruge Bygger-opladninger til at fuldføre 15% af den oprindelige vidunderomkostning. Byggere modtager en ekstra opladning.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_DESCRIPTION">
+      <Text>Har 1 niveau af [ICON_VisLimited] Diplomatisk Synlighed større end normalt med hver civilisation, hun har mødt. Modtager en gratis spion (og ekstra spionkapacitet) med teknologien Borge. Alle spioner starter som agenter med en gratis forfremmelse.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_TRAJANS_COLUMN_DESCRIPTION">
+      <Text>Alle byer starter med en ekstra bymidte-bygning. (Starter med en monument-bygning i oldtiden).</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KILLER_OF_CYRUS_DESCRIPTION">
+      <Text>Alle enheder modtager +5 [ICON_Strength] Kampstyrke, når de angriber sårede enheder. Når de eliminerer en enhed, helbredes de op til 30 livspoints.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION">
+      <Text>Efter rekruttering eller beskyttelse af en [ICON_GreatPerson] stor person, refunderes 20% af dens [ICON_GreatPerson] store person pointomkostninger.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SURROUNDED_BY_GLORY_DESCRIPTION">
+      <Text>+5% [ICON_Culture] Kultur pr. bystat, som du er suzeræn for.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

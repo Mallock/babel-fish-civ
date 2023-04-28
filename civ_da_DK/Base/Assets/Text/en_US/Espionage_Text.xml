@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_ESPIONAGE_CONFIRMATION">
+      <Text>{1_Name}[NEWLINE][NEWLINE]{2_Yield}[NEWLINE]{3_Header}[NEWLINE]{4_Success}[NEWLINE]{5_SuccessEscape}[NEWLINE]{6_Fail}[NEWLINE]{7_FailEscape}[NEWLINE]{8_Capture}[NEWLINE]{9_Killed} 
+
+(Note: The text consists of placeholders and cannot be translated as it is.)</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_MISSION_HEADER">
+      <Text>MISSIONSBRIEFING[NEWLINE][NEWLINE]Din mission: {1_Mission}[NEWLINE]Varighed: {2_Num} ture</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_OPERATION_YIELD">
+      <Text>Succes vil give {1_Award}. [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_OPERATION_CHANCES">
+      <Text>Mulige resultater:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SUCCESS">
+      <Text>{1_Num}% - Succes</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SUCCESS_ESCAPE">
+      <Text>{1_Num}% - Succes hvis du undslipper byen</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FAILURE">
+      <Text>{1_Num}% - Fejl</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FAILURE_ESCAPE">
+      <Text>{1_Num}% - Fejl og må flygte byen</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_CAPTURED">
+      <Text>[COLOR_RED]{1_Num}%[ENDCOLOR] - Spion Fanget</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_KILLED">
+      <Text>[COLOR_RED]{1_Num}%[ENDCOLOR] - Spion dræbt</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_START_MISSION">
+      <Text>Accepter</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ABORT_MISSION">
+      <Text>Abort</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_HEIST_REWARD">
+      <Text>Et fantastisk arbejde fra området</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_PARTISAN_REWARD">
+      <Text>En oprør af utilfredse partisaner</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SABOTAGE_REWARD">
+      <Text>plyndring af alle bygninger i Industriområdet</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SIPHON_REWARD">
+      <Text>byens [ICON_Gold] Guldproduktion over de næste {1_Num} ture</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ROCKETRY_REWARD">
+      <Text>plyndring af fjendens Spaceport-kvarter</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_TECH_REWARD">
+      <Text>en teknologisk fremdrift/fremgang</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_GAIN_SOURCES">
+      <Text>MISSIONSBESKRIVELSE[NEWLINE][NEWLINE]Din mission: Skaf kilder[NEWLINE]Varighed: {1_Num} ture[NEWLINE][NEWLINE]Når spionen har brugt den nødvendige tid på at finde lokale kontakter, vil denne mission automatisk lykkes. Det vil forbedre chancerne for alle offensive spionoperationer i denne by i de næste {2_Duration} ture.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LISTENING_POST">
+      <Text>MISSIONSBESKRIVELSE[NEWLINE][NEWLINE]Din Mission: Lyttepost[NEWLINE]Varighed: {1_Num} Runder[NEWLINE][NEWLINE]Denne mission er automatisk succesfuld. Mens den køres, vil den forbedre din diplomatiske synlighed på denne civilisation med 1 niveau.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PANEL_HEADER">
+      <Text>JAGT SEKVENS</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CITY_HEADER">
+      <Text>i {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_AGENT_LABEL">
+      <Text>Agent:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_LOOT">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_LOOT_LABEL">
+      <Text>Bytte:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_BOOST_LOOT">
+      <Text>{1_TechName} hemmeligheder</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_LABEL">
+      <Text>Forfulgt af:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_POLICE">
+      <Text>Politi</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_COUNTERSPY">
+      <Text>Politi og agent {1_Counterspy}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_HEADER">
+      <Text>Vælg hvordan din agent vil forsøge at flygte:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_1">
+      <Text>Flyvemaskine</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_2">
+      <Text>Båd</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_3">
+      <Text>Køretøj</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_4">
+      <Text>Fod</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_NO_DISTRICT">
+      <Text>Ingen {1_DistrictName} i byen</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_TURNS">
+      <Text>Tur til at vende tilbage: {1_Turns}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_TOOLTIP">
+      <Text>Vælg flugtruten ud af byen for din agent. Politiet patruljerer sandsynligvis hurtige udgange som Aerodrome eller Harbor. Udgang til fods er altid den sikreste mulighed.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_1_NAME">
+      <Text>Spionrekrut</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_2_NAME">
+      <Text>Agent</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_3_NAME">
+      <Text>Hemmelig agent</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_4_NAME">
+      <Text>Mester Spion</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SIPHON_ESTIMATE">
+      <Text>+{1_Amount} [ICON_Gold]</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_STEAL_TECH_ESTIMATE">
+      <Text>Stjæl {1_Amount} {1_Amount : plural 1?boost; other?boosts;} inklusiv {2_TechName}.</Text>
+    </Row>
+    <!-- ==================== Espionage Text ==================== -->
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_HEADER">
+      <Text>Spioner for {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_NAME">
+      <Text>SPION NAVN</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_LEVEL">
+      <Text>NIVEAU</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_PROMOTION">
+      <Text>PROMOVERING</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_CITY">
+      <Text>BY</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_MISSION">
+      <Text>MISSION (IN DANISH): OPFORDRING ELLER OPGAVE</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_TURNS">
+      <Text>RUNDER TILBAGE</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_NO_MISSION">
+      <Text>none</Text>
+    </Row>
+    <!-- ==================== EspionageChooser ==================== -->
+    <Row Tag="LOC_ESPIONAGECHOOSER_PANEL_HEADER">
+      <Text>INDBEDD SPION</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_SELECT_A_CITY">
+      <Text>Vælg en by at målrette for spionage.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_POSSIBLE_MISSIONS">
+      <Text>MULIGE OPGAVER:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_CONFIRM_PLACEMENT">
+      <Text>BEKRÆFT PLACERING</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_CANCEL">
+      <Text>ANNULLER</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_CHOOSE_MISSION">
+      <Text>VÆLG OPDRAG</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_GAIN_SOURCES_ACTIVE">
+      <Text>Kilde til gevinst er aktiv! ({1_Turns}[Icon_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_SUCCESS_BOOSTED">
+      <Text>Mission success øget</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_NO_BOOST_ACTIVE">
+      <Text>Ingen Boost Aktiv</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_TRAVEL_TIME_TOOLTIP">
+      <Text>{1_TravelTime} {1_TravelTime : plural 1?gang; other?gange;} at rejse til byen[NEWLINE]{2_EstablishTime} {2_EstablishTime : plural 1?gang; other?gange;} at etablere sig i byen</Text>
+    </Row>
+    <!-- ==================== Spy Operation Details ==================== -->
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_LISTENING_POST">
+      <Text>Forøger [ICON_VisLimited] diplomatisk synlighed med 1 niveau.</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_GAIN_SOURCES">
+      <Text>Spioner vil operere på {1_Levels} {1_Levels : plural 1?niveau; other?niveauer} højere i {2_Turns} {2_Turns : plural 1?tur; other?ture}.</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_GREAT_WORK_HEIST">
+      <Text>Stjæl {1_GreatWorkName} fra denne by</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_SABOTAGE_PRODUCTION">
+      <Text>Plyndr alle bygninger i industrikvarteret.</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_SIPHON_FUNDS">
+      <Text>Få [ICON_Gold] Guldudbyttet fra {1_CityName} i løbet af missionens varighed. ({2_GoldString})</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_DISRUPT_ROCKETRY">
+      <Text>Deaktiver Spaceporten i byen.</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_RECRUIT_PARTISANS">
+      <Text>Opret oprørsenheder inden for byen.</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_STEAL_TECH_BOOST">
+      <Text>Stjæl en teknologisk fordel.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_COUNTERSPY">
+      <Text>Beskyt {1_District} (og alle tilstødende distrikter) mod fjendtlige spioner.</Text>
+    </Row>
+    <!-- ==================== EspionagePopup ==================== -->
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_BRIEFING">
+      <Text>OPGAVEBESKRIVELSE: {1_MissionName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CURRENT_MISSION">
+      <Text>NUVÆRENDE OPDRAG: {1_MissionName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_OBJECTIVE">
+      <Text>MISSIONSMÅL</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_DETAILS">
+      <Text>OPGAVEDETALJER</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_OUTCOME">
+      <Text>MISSION RESULTAT</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESS">
+      <Text>SUCCES!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_FAILURE">
+      <Text>SVIGT</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_DURATION">
+      <Text>MISSION VARIGHED</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_TURNS">
+      <Text>{1_NumberOfTurns} {1_NumberOfTurns : plural 1?Tur; other?Ture;}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_TURNS_REMAINING">
+      <Text>{1_RemainingTurns} mere {1_RemainingTurns : plural 1?tur; other?ture;}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_POSSIBLE_OUTCOMES">
+      <Text>MULIGE RESULTATER</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_OUTCOME_DETAILS">
+      <Text>Vores intelligens projekterer følgende sandsynligheder:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESS_OUTCOME_CHANCE">
+      <Text>Chancen for missionssucces</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_FAILURE_OUTCOME_CHANCE">
+      <Text>Risiko for missionssvigt</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CAPTUREDORKILLED_OUTCOME_CHANCE">
+      <Text>Risiko for at blive fanget eller dræbt</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_DISCOVERED_WARNING">
+      <Text>Hvis {1_TargetName} opdager det, vil de miste respekten for os</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_TARGET">
+      <Text>MÅL</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_ACCEPT_MISSION">
+      <Text>ACCEPTER OPDRAGET</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_RENEW_MISSION">
+      <Text>FORNY OPDRAGET</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_ABORT_MISSION">
+      <Text>ABORTER OPDRAGET!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CANCEL">
+      <Text>ANNULLER</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_GAIN_SOURCES_OUTCOME">
+      <Text>Dette vil øge dine chancer for enhver efterfølgende operation inden for denne by. Der er ingen risiko for din spion.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESSBUTTON">
+      <Text>HELT I ORDEN</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_FAILUREBUTTON">
+      <Text>JEG FORSTÅR.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_REWARDS">
+      <Text>BELØNNINGER</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_PROMOTIONREADY">
+      <Text>Forfremmelse til {1_NextRank}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENTREADYFORPROMOTION">
+      <Text>Agenten er klar til forfremmelse. Brug enhedsaktionsknappen til at vælge en særlig bonus. {1_SpyName} vil også have en øget succesrate i alle fremtidige operationer.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_LOOTREWARD_TITLE">
+      <Text>Stole {1_LootName} (this is already in Danish, so no translation needed)</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_LOOTREWARD_DESCRIPTION">
+      <Text>Har fået fat i {1_LootName} med succes.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CONSEQUENCES">
+      <Text>KONSEKVENSER</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_RELATIONSHIP_DAMAGED_TITLE">
+      <Text>Forholdet beskadiget</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_RELATIONSHIP_DAMAGED_DESC">
+      <Text>Vores modstander har mistet respekt for os.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_CAPTURED_TITLE">
+      <Text>Agent Fanget</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_CAPTURED_DESC">
+      <Text>{1_AgentName} blev fanget i byen {2_CityName}. Du kan forsøge at handle for deres frigivelse.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_KILLED_TITLE">
+      <Text>Agent dræbt</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_KILLED_DESC">
+      <Text>{1_AgentName} blev dræbt i byen {2_CityName}.</Text>
+    </Row>
+    <!-- ==================== EspionageOverview ==================== -->
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_HEADER">
+      <Text>Operative</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_SUBHEADER">
+      <Text>OPERATIVER ({1_NumberOfSpies}/{2_SpyCapacity})</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_AWAITING_ASSIGNMENT">
+      <Text>Afventer tildeling...</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MORE_TURNS">
+      <Text>{1_RemainingTurns} mere {1_RemainingTurns : plural 1?tur; other?ture;}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY_ACTIVITY_HEADER">
+      <Text>Byaktiviteter</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY_ACTIVITY_SUBHEADER">
+      <Text>BYAKTIVITET</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY">
+      <Text>By</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TRANSIT_TO">
+      <Text>På vej til {1_DestinationName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED">
+      <Text>Fanget af</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_ASK_FOR_TRADE">
+      <Text>Anmod om handel</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TRAVELING">
+      <Text>Rejser</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_GREAT_WORK_TO_STEAL">
+      <Text>Intet Stort Arbejde at stjæle</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_TECH_BOOST_TO_STEAL">
+      <Text>Ingen teknologi boost at stjæle</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSION_HISTORY_HEADER">
+      <Text>Missionhistorie</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSION_HISTORY_SUBHEADER">
+      <Text>MISSIONSHISTORIK</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES">
+      <Text>FANGNE SPIONER:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_OFFER_TRADE">
+      <Text>Tilbyd handel</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_VIEW_CITY">
+      <Text>Se denne by på kortet.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TURNS_AGO">
+      <Text>{1_RemainingTurns} {1_RemainingTurns : plural 1?tur; other?ture;} siden</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME">
+      <Text>Mission Outcome: Missionresultat:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TARGETACQUIRED">
+      <Text>Mål opnået</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_FAILURE">
+      <Text>Svigt</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SUCCESS">
+      <Text>Succes</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYCAUGHT">
+      <Text>Spion Fanget!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYKILLED">
+      <Text>Spion dræbt!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYAPPREHENDED">
+      <Text>Spion pågrebet</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_COUNTERSPY">
+      <Text>Missionen med at overvåge {1_CityName} for fjendtlig aktivitet blev fuldført uden at opdage nogen spioner.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_UNDETECTED">
+      <Text>Missionen var vellykket i byen {1_CityName} og spionen blev ikke opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_UNDETECTED_STOLELOOT">
+      <Text>Stjal {1_LootName} fra byen {2_CityName} ubemærket.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_STOLELOOT">
+      <Text>Stole {1_LootName} efter at undgå opdagelse fra byen {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_ESCAPED">
+      <Text>Missionen var vellykket i byen {1_CityName}, og spionen undgik succesfuldt at blive fanget, efter at have været opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_CAPTURED">
+      <Text>Missionen var vellykket i byen {1_CityName}, men spionen blev fanget efter at være blevet opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_CAPTURED_STOLELOOT">
+      <Text>Missionen om at stjæle {1_Loot} lykkedes i byen {2_CityName}, men spionen blev fanget efter at være blevet opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_KILLED">
+      <Text>Missionen var en succes i byen {1_CityName}, men spionen blev dræbt efter at være blevet opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_KILLED_STOLELOOT">
+      <Text>Missionen om at stjæle {1_Loot} var vellykket i byen {2_CityName}, men spionen blev dræbt efter at være blevet opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_UNDETECTED">
+      <Text>Missionen mislykkedes i byen {1_CityName}, men spionen blev ikke opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_UNDETECTED_STOLELOOT">
+      <Text>Missionen om at stjæle {1_Loot} mislykkedes i byen {2_CityName}, men spionen blev ikke opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_ESCAPED">
+      <Text>Missionen mislykkedes i byen {1_CityName}, men spionen undgik succesfuldt at blive fanget efter at være blevet opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_ESCAPED_STOLELOOT">
+      <Text>Missionen om at stjæle {1_Loot} mislykkedes i byen {2_CityName}, men spionen undgik succesfuldt at blive fanget efter at være blevet opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_CAPTURED">
+      <Text>Missionen mislykkedes i byen {1_CityName}, og spionen blev fanget, efter at han blev opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_CAPTURED_STOLELOOT">
+      <Text>Missionen om at stjæle {1_Loot} mislykkedes i byen {2_CityName} og spionen blev fanget efter at være blevet opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_KILLED">
+      <Text>Missionen mislykkedes i byen {1_CityName} og spionen blev dræbt efter at være blevet opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_KILLED_STOLELOOT">
+      <Text>Missionen om at stjæle {1_Loot} mislykkedes i byen {2_CityName} og spionen blev dræbt efter at være blevet opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_GOLD">
+      <Text>[ICON_Gold] {1_AmountOfGold} Guld</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_NO_GOLD">
+      <Text>[ICON_Gold] Guld</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_KILLED">
+      <Text>Spionen blev dræbt under en mission i byen {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_KILLED_STOLELOOT">
+      <Text>Spionen blev dræbt under en mission for at stjæle {1_Loot} i byen {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_CAPTURED">
+      <Text>Spionen blev fanget under en mission i byen {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_CAPTURED_STOLELOOT">
+      <Text>Spionen blev fanget under en mission for at stjæle {1_Loot} i byen {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_NOMISSIONHISTORY">
+      <Text>Ingen nylige spionagemissioner</Text>
+    </Row>
+    <!-- ==================== Speculative text for temporary Captured Spies tab (which would become part of Mission History) ==================== -->
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES_HEADER">
+      <Text>Fangede spioner</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES_SUBHEADER">
+      <Text>FANGNE SPIONER</Text>
+    </Row>
+    <!-- ==================== UnitPanel - Espionage ==================== -->
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_LOCATED_IN">
+      <Text>Beliggende i</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_MORE_TURNS">
+      <Text>{1_RemainingTurns} mere {1_RemainingTurns : plural 1?tur; other?ture;}</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_AWAITING_ASSIGNMENT">
+      <Text>Afventer tildeling...</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_SPY_RANK">
+      <Text>{1_RankName} (Niveau {2_RankLevel})</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_CANCEL_MISSION">
+      <Text>Annuller missionen</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_CHOOSE_MISSION">
+      <Text>Vælg mission</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SPY_TRADE_DISABLED_AT_WAR">
+      <Text>Det er i øjeblikket ikke muligt at handle med {1_SpyName}. Du er i krig med {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_OPERATIVES">
+      <Text>Placer en spion i en af dine byer for at se dens status her.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_CITIES">
+      <Text>Byg din egen by eller opdag en anden civilisations by for at se deres spionageaktiviteter her.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_HISTORY">
+      <Text>Kør spionagemissioner for at se din missionshistorik her.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

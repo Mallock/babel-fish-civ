@@ -1,0 +1,944 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Buildings-->
+    <Row Tag="LOC_BUILDING_SCENARIO_LIGHTHOUSE_DESCRIPTION">
+      <Text>+1 [ICON_FOOD] Mad på alle kyst-fliser til denne by.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_TEMPLE_DESCRIPTION">
+      <Text>Religiøse enheder, der trænes her, modtager en ekstra forfremmelse.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_SHIPYARD_DESCRIPTION">
+      <Text>Bonus [ICON_Production] Produktion svarende til nabobonussen fra Havne-distriktet.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_MOSQUE_DESCRIPTION">
+      <Text>Missionær- og munkeenheder, der er oprettet her, har +1 spredning.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_PAGODA_DESCRIPTION">
+      <Text>Præst enheder, der er skabt her, har +1 Fjern Kætteri og +1 Helbred Opladning for Guru enheder trænet her.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_MAHABODHI_TEMPLE_DESCRIPTION">
+      <Text>Uddeler 2 tilfældigt valgte gratis ideologier, når den er færdig. Nytrænede missionære- og munkenheder modtager +1 Spredning.[NEWLINE][NEWLINE]Skal bygges på skov eller regnskov.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_ANGKOR_WAT_DESCRIPTION">
+      <Text>Når dette vidunder er bygget, modtager du +3 [ICON_ENVOY] sendebud og +1 [ICON_Citizen] befolkning i alle nuværende byer. +1 [ICON_Housing] Boliger i alle byer. [NEWLINE][NEWLINE]Skal bygges ved siden af en Akvædukt-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_POTALA_PALACE_DESCRIPTION">
+      <Text>+1 wildcard-politikplads[NEWLINE][NEWLINE]Skal bygges på en bakke.</Text>
+    </Row>
+    <!-- China-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KAIFENG">
+      <Text>Kaifeng</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LINAN">
+      <Text>Lin'an</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_QUANZHOU">
+      <Text>Quanzhou</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CHONGQING">
+      <Text>Chongqing</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CHANGAN">
+      <Text>Chang'an</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PANYU">
+      <Text>Panyu</Text>
+    </Row>
+    <!-- Chola-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ANURADHAPURA">
+      <Text>Anuradhapura</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VENGI">
+      <Text>Vengi</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BANAVASI">
+      <Text>Banavasi</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KADARAM">
+      <Text>Kadaram</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PEGU">
+      <Text>Pegu</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MA_NAKKAVARAM">
+      <Text>Ma-Nakkavaram</Text>
+    </Row>
+    <!-- Ghaznavid-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GHAZNA">
+      <Text>Ghazna</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAHORE">
+      <Text>Lahore (it's already in English and doesn't need translation)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BALKH">
+      <Text>Balkh</Text>
+    </Row>
+    <!-- Pala-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BIKRAMPUR">
+      <Text>Bikrampur</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PATALIPUTRA">
+      <Text>Pataliputra (Pataliputra in Danish is "Pataliputra")</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KANNAUJ">
+      <Text>Kannauj</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DURJAYA">
+      <Text>Durjaya</Text>
+    </Row>
+    <!-- Tufan-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LHASA">
+      <Text>Lhasa</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_QAMDO">
+      <Text>Qamdo (a city in Tibet) - Qamdo (en by i Tibet)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BURANG">
+      <Text>Burang</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_XINING">
+      <Text>Xining</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NAGQU">
+      <Text>Nagqu (this is already the Danish spelling of the name of a town in Tibet)</Text>
+    </Row>
+    <!-- City States-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DALI">
+      <Text>Dali</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DALI_DESCRIPTION">
+      <Text>Dali bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DELHI">
+      <Text>Delhi</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DELHI_DESCRIPTION">
+      <Text>Delhi by-stat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GAOCHANG">
+      <Text>Gaochang</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GAOCHANG_DESCRIPTION">
+      <Text>Gaochang bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GOA">
+      <Text>Goa</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GOA_DESCRIPTION">
+      <Text>Goa by-stat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_HEIAN">
+      <Text>Heian</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HEIAN_DESCRIPTION">
+      <Text>Heian bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KAESONG">
+      <Text>Kaesong</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KAESONG_DESCRIPTION">
+      <Text>Kaesong bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KASHGAR">
+      <Text>Kashgar</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KASHGAR_DESCRIPTION">
+      <Text>Kashgar bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KHOTAN">
+      <Text>Khotan</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KHOTAN_DESCRIPTION">
+      <Text>Khotan by-stat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KUCHA">
+      <Text>Jeg beklager, men "Kucha" er ikke en sætning eller et ord på dansk. Kan du give mere kontekst eller en anden tekst, som skal oversættes?</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KUCHA_DESCRIPTION">
+      <Text>Kucha bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAMPHUN">
+      <Text>Lamphun</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LAMPHUN_DESCRIPTION">
+      <Text>Lamphun bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAMURI">
+      <Text>Lamuri</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LAMURI_DESCRIPTION">
+      <Text>Lamuri bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MALABANG">
+      <Text>Malabang</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MALABANG_DESCRIPTION">
+      <Text>Malabang bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PAGAN">
+      <Text>Pagan (this word does not need to be translated as it is already in English)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PAGAN_DESCRIPTION">
+      <Text>Pagan bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PALEMBANG_DESCRIPTION">
+      <Text>Palembang bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SAMARKAND">
+      <Text>Samarkand</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SAMARKAND_DESCRIPTION">
+      <Text>Samarkand bystatsområde</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SOMNATH">
+      <Text>Somnath</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SOMNATH_DESCRIPTION">
+      <Text>Somnath by-stat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_THANG_LONG">
+      <Text>Thăng Long (which means "Ascending Dragon") is the former name of Hanoi, the capital city of Vietnam</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THANG_LONG_DESCRIPTION">
+      <Text>Thăng Long bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TEMASEK">
+      <Text>Temasek</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TEMASEK_DESCRIPTION">
+      <Text>Temasek bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TONDO">
+      <Text>Tondo</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TONDO_DESCRIPTION">
+      <Text>Tondo bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TURPAN">
+      <Text>Turpan</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TURPAN_DESCRIPTION">
+      <Text>Turpan bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_UJJAIN">
+      <Text>Ujjain</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_UJJAIN_DESCRIPTION">
+      <Text>Ujjain bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VIJAYA">
+      <Text>Vijaya</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_VIJAYA_DESCRIPTION">
+      <Text>Vijaya bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_XINGQING">
+      <Text>Xingqing</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_XINGQING_DESCRIPTION">
+      <Text>Xingqing bystat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ZHONGJING">
+      <Text>Zhongjing (This is a proper name and does not need to be translated.)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ZHONGJING_DESCRIPTION">
+      <Text>Zhongjing bystat</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGEGROUP_SCENARIO_MARITIME_NAME">
+      <Text>Maritim</Text>
+    </Row>
+    <!-- City States Traits-->
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TRADE_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Produktion] Produktion i [ICON_Hovedstad] Hovedstaden når der produceres enheder</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Produktion i hver kommerciel hub-distrikt ved produktion af enheder.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_Production] produktion i hver kommerciel hub-distrikt når der produceres enheder.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_CULTURAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_CULTURE] Kultur i [ICON_Capital] Hovedstaden.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_CULTURE] Kultur i hver bykerne-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_CULTURE] Kultur i hver bycenter-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_NAME">
+      <Text>Maritim bystat</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_FOOD] Mad i [ICON_Capital] Hovedstaden.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_FOOD] Mad i hver havnebydel.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_FOOD] Mad i hver Havne-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_INDUSTRIAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Produktion] Produktion i [ICON_Hovedstaden] Hovedstaden ved produktion af vidundere, bygninger og kvarterer.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Produktion] Produktion i hvert Akvæduktdistrikt, når der produceres vidundere, bygninger og distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_Production] produktion i hver Akvæduktsdistrikt, når der produceres vidundere, bygninger og distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DALI_TRAIT_NAME">
+      <Text>Dali Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DELHI_TRAIT_NAME">
+      <Text>Delhi Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GAOCHANG_TRAIT_NAME">
+      <Text>Gaochang Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GOA_TRAIT_NAME">
+      <Text>Goa suzeræn bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_HEIAN_TRAIT_NAME">
+      <Text>Heian-suzeræn bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KAESONG_TRAIT_NAME">
+      <Text>Kaesong Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KASHGAR_TRAIT_NAME">
+      <Text>Kashgar Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KHOTAN_TRAIT_NAME">
+      <Text>Khotan Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KUCHA_TRAIT_NAME">
+      <Text>Kucha Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMPHUN_TRAIT_NAME">
+      <Text>Lamphun Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMURI_TRAIT_NAME">
+      <Text>Lamuri Suzerain Bonus (This is a proper noun and cannot be translated)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MALABANG_TRAIT_NAME">
+      <Text>Malabang Suzerain Bonus (This appears to be a name or title and does not have a translation in Danish.)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PAGAN_TRAIT_NAME">
+      <Text>Pagan Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PALEMBANG_TRAIT_NAME">
+      <Text>Palembang Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SAMARKAND_TRAIT_NAME">
+      <Text>Samarkand Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SOMNATH_TRAIT_NAME">
+      <Text>Somnath Suzerain Bonussen. (There is no natural sounding translation as this is a name or a title.)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_THANG_LONG_TRAIT_NAME">
+      <Text>Thăng Long Suzerain Bonus (Thăng Long Suzerain Bonus)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TEMASEK_TRAIT_NAME">
+      <Text>Temasek Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TONDO_TRAIT_NAME">
+      <Text>Tondo Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TURPAN_TRAIT_NAME">
+      <Text>Turpan Suzerain bonus. (The text does not require translation as it is already in English and appears to be a proper noun or title.)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_UJJAIN_TRAIT_NAME">
+      <Text>Ujjain Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_VIJAYA_TRAIT_NAME">
+      <Text>Vijaya Suzeræn Bonus (It is not clear what this phrase means, so it cannot be translated accurately without context.)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_XINGQING_TRAIT_NAME">
+      <Text>Xingqing Suzerain bonus = Xingqing suzerain bonus. (There is no natural-sounding translation for this as it seems to be a name or a term specific to a certain context.)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_ZHONGJING_TRAIT_NAME">
+      <Text>Zhongjing Overherre Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_BANDAR_BRUNEI_TRAIT_DESCRIPTION">
+      <Text>Dine distrikter på eller ved kystfliser giver +2 [ICON_FAITH] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DALI_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Fornøjelse i byer med et kommercielt center-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DELHI_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til enhver bystat giver +2 [ICON_FAITH] Tro for hver specialdistrikt i oprindelsesbyen.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GAOCHANG_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Facilitet i byer med et kommercielt center distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GOA_TRAIT_DESCRIPTION">
+      <Text>Dine distrikter på eller ved Kyst fliser giver +2 [ICON_FAITH] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_HEIAN_TRAIT_DESCRIPTION">
+      <Text>Dine distrikter på eller ved kystfliser giver +2 [ICON_FAITH] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KAESONG_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til enhver bystat giver +2 [ICON_FAITH] Tro for hver specialdistrikt i oprindelsesbyen.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KASHGAR_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til fremmede byer tjener +1 [ICON_FAITH] Tro for hver Luksus ressource på destinationen.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KHOTAN_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Facilitet i byer med et kommercielt hub-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KUCHA_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradingPost] Handelsposter i fremmede byer giver +1 [ICON_CULTURE] Kultur til dine [ICON_TradeRoute] Handelsruter, der passerer igennem eller går til byen.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMPHUN_TRAIT_DESCRIPTION">
+      <Text>Dine bonusressourcer fungerer som luksusressourcer og giver 1 [ICON_Amenities] forsyning pr. type.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMURI_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til enhver bystat giver +2 [ICON_FAITH] Tro for hver specialitetsdistrikt i oprindelsesbyen.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MALABANG_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til enhver bystat giver +2 [ICON_FAITH] Tro for hver specialdistrikt i oprindelsesbyen.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PAGAN_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til enhver by-stat giver +2 [ICON_FAITH] Tro for hver specialdistrikt i oprindelsesbyen.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PALEMBANG_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Fornøjelse i byer med et kommercielt distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SAMARKAND_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Facilitet i byer med et kommercielt hub-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SOMNATH_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] handelsruter til enhver by-stat giver +2 [ICON_FAITH] Tro for hvert specialdistrikt i udgangsbyen.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_THANG_LONG_TRAIT_DESCRIPTION">
+      <Text>Dine distrikter på eller ved Kyst fliser giver +2 [ICON_FAITH] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TEMASEK_TRAIT_DESCRIPTION">
+      <Text>Dine bonusressourcer fungerer ligesom luksusressourcer og giver 1 [ICON_Amenities] velfærd pr. type.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TONDO_TRAIT_DESCRIPTION">
+      <Text>Dine distrikter på eller ved kystfliser giver +2 [ICON_FAITH] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TURPAN_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til enhver Bystat giver +2 [ICON_FAITH] Tro for hvert specialiseret distrikt i oprindelsesbyen.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_UJJAIN_TRAIT_DESCRIPTION">
+      <Text>Dine bonusressourcer opfører sig som luksusressourcer og giver 1 [ICON_Amenities] velfærd per type.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_VIJAYA_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til enhver by-stat giver +2 [ICON_FAITH] Tro for hvert special distrikt i oprindelsesbyen.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_XINGQING_TRAIT_DESCRIPTION">
+      <Text>Dine bonusressourcer fungerer som luksusressourcer og giver 1 [ICON_Amenities] velfærd pr. type.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_ZHONGJING_TRAIT_DESCRIPTION">
+      <Text>Dine [ICON_TradingPost] Handelsposter i fremmede byer giver +1 [ICON_CULTURE] Kultur til dine [ICON_TradeRoute] Handelsruter, der passerer igennem eller går til byen.</Text>
+    </Row>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_SCENARIO_PAPERMAKING_NAME">
+      <Text>Papirproduktion</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_PRINTING">
+      <Text>Logs til papir. Papir til sider. Sider til bøger. Bøger til sind. Sind til sjæle.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_COMPASS_NAME">
+      <Text>Kompass</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_CELESTIAL_NAVIGATION_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Bevægelse for indskibede enheder.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_FUTURE_CIVIC_DESCRIPTION">
+      <Text>Kan gennemføres flere gange og øge dine [ICON_Envoy] udsendinge.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_GUILDS">
+      <Text>Mens vores byer blomstrer, samles ligesindede mennesker i velstand.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_ENGINEERING">
+      <Text>Byg 3 templer.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_ENGINEERING">
+      <Text>En standardiseret alen har også værdi i den sekulære verden.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_THEOLOGY">
+      <Text>Ejendom 3 missionærer.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_THEOLOGY">
+      <Text>Når vi sender missionærer ud, finder vi behov for ortodoks tro.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MACHINERY">
+      <Text>Byg 2 akvædukter.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_MACHINERY">
+      <Text>"Forestil dig et vandhjul," siger vores ingeniører, "men der kan drive næsten hvad som helst!"</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_FEUDALISM">
+      <Text>Få byen til at vokse til en befolkning på 14.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_FEUDALISM">
+      <Text>Vores byer indeholder mangfoldigheder. Lad os kodificere forpligtelserne fra konger til almindelige borgere.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_PAPERMAKING">
+      <Text>Vedligehold 3 [ICON_TradeRoute] handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_PAPERMAKING">
+      <Text>Er der ikke en bedre måde at opbevare campingvognsregistre end at skrive på pottemageri?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_CIVIL_SERVICE">
+      <Text>På et tidspunkt være Suzerain for 3 bystater.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_CIVIL_SERVICE">
+      <Text>Hvad hvis du kunne delegere delegationer til en legion af sekretærer?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_BANKING">
+      <Text>Byg 3 markeder.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_BANKING">
+      <Text>Vejen til himlen kan være finere end guld, men guld er næsten lige så belønnende.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_COMPASS">
+      <Text>Byg 3 fyrtårne.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_COMPASS">
+      <Text>En sømand drømmer om at sejle, guidet af en usynlig fyrtårn fra himlen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_DIVINE_RIGHT">
+      <Text>Få 15 byer til at følge din religion.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_DIVINE_RIGHT">
+      <Text>Hvad er bedre bevis på rigtigheden af din tro end øjnene på så mange rettet mod dig?</Text>
+    </Row>
+    <!-- Districts-->
+    <Row Tag="LOC_DISTRICT_SCENARIO_RIVER_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kultur fra den tilstødende flod.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_HARBOR_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kultur fra det tilstødende Havn-kvarter.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_CITY_CENTER_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kultur fra det tilstødende bycentrumsområde.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_DISTRICT_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kultur fra det tilstødende {1_Num : plural 1?distrikt; other?distrikter;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_SEARESOURCE_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kultur fra det tilstødende hav {1_Num : plural 1?ressource; other?ressourcer;}.</Text>
+    </Row>
+    <!-- Governments-->
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_MONARCHY_DESCRIPTION">
+      <Text>Hovedstaden modtager +3 [ICON_FAITH] Tro, +1 [ICON_CULTURE] Kultur, +1 [ICON_PRODUCTION] Produktion og +1 [ICON_FOOD] Fødevareudbytte.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_SCENARIO_THALASSOCRACY_NAME">
+      <Text>Thalassokrati</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_THALASSOCRACY_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Tro for hvert fiskerbåd.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_THEOCRACY_DESCRIPTION">
+      <Text>Alle religiøse enheder får Martyr-evnen, som giver en [ICON_GreatWork_Relic] relikvie, hvis denne enhed dør i teologisk kamp.</Text>
+    </Row>
+    <!-- Improvements-->
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_CAMP_DESCRIPTION">
+      <Text>Åbner Bygger evnen til at konstruere lejre.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Mad. Kan kun bygges på gyldige ressourcer.[NEWLINE][NEWLINE]Hvis den bygges på luksus ressourcer, vil byen få adgang til den ressource.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_MINE_DESCRIPTION">
+      <Text>Låser op for Bygger evnen til at konstruere miner.[NEWLINE][NEWLINE]+1 [ICON_Production] Produktion. -1 Tiltrækningskraft. Kan bygges på bakker eller gyldige ressourcer.[NEWLINE][NEWLINE]Hvis bygget på luksusressourcer, vil byen få gavn af den pågældende ressource.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_PASTURE_DESCRIPTION">
+      <Text>Låser op for "Builder" evnen til at konstruere græsmarker.[NEWLINE][NEWLINE]+1 [ICON_Production] Produktion. Kan kun bygges på gyldige ressourcer.[NEWLINE][NEWLINE]Hvis den er bygget på luksusressourcer, vil byen få brug af den ressource. [NEWLINE][NEWLINE] [ICON_Production] [NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_PLANTATION_DESCRIPTION">
+      <Text>Åbner Builder-evnen til at konstruere Plantager.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Mad. Kan kun bygges på gyldige ressourcer.[NEWLINE][NEWLINE]Hvis den bygges på luksusressourcer, vil byen få brug af den pågældende ressource.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_KAMPUNG_DESCRIPTION">
+      <Text>Låser op for Bygger-evnen til at konstruere en Kampung.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Produktion og +1 [ICON_Housing] Bolig. +1 [ICON_FOOD] Føde for hver tilstødende Fiskebåd. Skal placeres på en Kyst- eller Sø-flise ved siden af en havressource.</Text>
+    </Row>
+    <!-- Policies-->
+    <Row Tag="LOC_POLICY_SCENARIO_URBAN_PLANNING_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Tro i alle byer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CARAVANSARIES_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Tro fra internationale [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_NOBLE_PATH_NAME">
+      <Text>Nobels vej</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_NOBLE_PATH_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Tro fra indenlandske [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CORVEE_DESCRIPTION">
+      <Text>+15% [ICON_Production] Produktion mod vidundere.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_DEVOTION_NAME">
+      <Text>Hengivenhed</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_DEVOTION_DESCRIPTION">
+      <Text>+25% [ICON_Produktion] Produktion til religiøse enheder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_RAJ_DESCRIPTION">
+      <Text>+6 [ICON_Faith] Tro fra hver bystat, som du er Suzerain af.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MERITOCRACY_DESCRIPTION">
+      <Text>Hver by modtager +1 [ICON_FAITH] Tro for hver special-distrikt, den konstruerer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MERCHANT_CONFEDERATION_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Tro på hver af dine [ICON_Envoy] Udsendinge til bystater.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CHARITY_NAME">
+      <Text>Velgørenhed</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_QUECHANG_NAME">
+      <Text>Quechang</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_QUECHANG_DESCRIPTION">
+      <Text>+100% [ICON_PRODUCTION] Produktion høstet fra Commercial Hub-distriktets bygninger.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_TRADE_CONFEDERATION_DESCRIPTION">
+      <Text>+3 [ICON_FAITH] Tro fra alle [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_JUNK_NAME">
+      <Text>Junk</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_JUNK_DESCRIPTION">
+      <Text>Fordobler [ICON_FOOD] mad- og [ICON_PRODUCTION] produktionsudbyttet fra Havne-distriktets bygninger.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_FESTIVALS_NAME">
+      <Text>Festivaler</Text>
+    </Row>
+    <!-- Projects-->
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_HARBOR_DESCRIPTION">
+      <Text>Distriktsbaseret projekt, som giver [ICON_CULTURE] Kultur hver tur.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_COMMERCIAL_HUB_DESCRIPTION">
+      <Text>Distriktbaseret projekt, som giver [ICON_CULTURE] Kultur hver tur.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_HOLY_SITE_DESCRIPTION">
+      <Text>Distriktbaseret projekt, som giver en stor mængde [ICON_FAITH] Tro hver tur</Text>
+    </Row>
+    <!-- Religion-->
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM1_NAME">
+      <Text>Shaivism</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM2_NAME">
+      <Text>Hinduisme</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM3_NAME">
+      <Text>Theravada buddhisme</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM4_NAME">
+      <Text>Mahayana buddhisme</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM5_NAME">
+      <Text>Vajrayana buddhisme</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_GOD_OF_THE_OPEN_SKY_DESCRIPTION">
+      <Text>+2 [ICON_FOOD] Mad fra græsmarker.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_STONE_CIRCLES_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Tro og +2 [ICON_Production] Produktion fra Stenbrud.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_DANA_NAME">
+      <Text>Dāna</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_DANA_DESCRIPTION">
+      <Text>Ladskaber giver hver +3 [ICON_FAITH] Tro. +1 [ICON_Amenities] Behagelighed til hver by.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_NUSANTARA_DESCRIPTION">
+      <Text>Kyst- og søfliser giver en mindre tilstødende bonus til Helligdomsdistrikter.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_LINGA_NAME">
+      <Text>Linga</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_LINGA_DESCRIPTION">
+      <Text>Kan købe bygninger til kommercielt center og havn med [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_VAJRAYANA_STUPA_NAME">
+      <Text>Vajrayana Stupa</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_VAJRAYANA_STUPA_DESCRIPTION">
+      <Text>Tillader konstruktion af Stupas (+3 [ICON_Faith] Tro, +1 [ICON_Amenities] Behagelighed) Låst op med Trykning.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MAHAYANA_STUPA_NAME">
+      <Text>Mahayana Stupa (Mahayana-stupa)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MAHAYANA_STUPA_DESCRIPTION">
+      <Text>Tillader konstruktion af Stupas (+3 [ICON_Faith] Tro, +1 [ICON_Amenities] Velbehag). Låst op med Trykning.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_STEWARDSHIP_DESCRIPTION">
+      <Text>Hver handelsplads eller havne-distrikt i en by, der følger denne religion, giver +1 [ICON_FAITH] tro.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_KAMPUNG_DESCRIPTION">
+      <Text>Dine bygningsarbejdere kan nu foretage forbedringer af kampungen. Låst op med Guilde.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MOSQUE_DESCRIPTION">
+      <Text>Tillader konstruktion af moskéer (+3 [ICON_Faith] Tro). Missionær- og munkeenheder +1 Spredning. Fritgives med Trykning.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_PAGODA_DESCRIPTION">
+      <Text>Tillader konstruktion af pagoder (+3 [ICON_Faith] Tro). Præst enheder +1 Fjern Kætteri og Guru +1 Helbred Charge. Låst op med trykning.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_WAT_DESCRIPTION">
+      <Text>Tillader opførelsen af ​​Wats (+3 [ICON_Faith] Tro, +1 [ICON_Housing] Boliger). Låses op med Printing.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_HOLY_ORDER_DESCRIPTION">
+      <Text>Missionærer og munke kan købes med en rabat på 30%.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_YOGA_NAME">
+      <Text>Yoga</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_YOGA_DESCRIPTION">
+      <Text>Kan købe civile enheder med [ICON_Faith] Tro.</Text>
+    </Row>
+    <!-- Route-->
+    <Row Tag="LOC_ROUTE_SCENARIO_ANCIENT_ROAD_DESCRIPTION">
+      <Text>Placeret i begyndelsen af scenariet. Forbedrer [ICON_Movement] bevægelseshastigheden for enhver enhed, der bevæger sig fra en vejflise til en anden.</Text>
+    </Row>
+    <Row Tag="LOC_ROUTE_SCENARIO_MEDIEVAL_ROAD_DESCRIPTION">
+      <Text>Placeret i begyndelsen af scenariet. Forbedrer [ICON_Movement] bevægelseshastigheden for enhver enhed, der bevæger sig fra en vejflise til en anden.</Text>
+    </Row>
+    <!-- Scoring-->
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FOLLOWERS_NAME">
+      <Text>Følgere Følger Religion</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FOREIGN_CITIES_NAME">
+      <Text>Udenlandske byer følger religion</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FAITH_NAME">
+      <Text>Tro per tur</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_1">
+      <Text>Særlige scenarie-regler:</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_2">
+      <Text>Ingen teknologitræ, guld, diplomati, turisme eller videnskab. Kulturbegrænsningerne er faste. Funktioner kan ikke fjernes.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_3">
+      <Text>Alle religiøse enheder starter med 1 forfremmelse og kan trænes.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_4">
+      <Text>Kun en Bystat Suzerain Bonus tilføjer ekstra Udbytter eller [ICON_Amenities] Faciliteter af hver Bystat type.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_5">
+      <Text>Handlende skaber ikke veje.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_6">
+      <Text>Pointene modtages fra:</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_7">
+      <Text>Tilhængere af din religion: {1_Followers} {1_Followers: plural 1?punkt; other?point;} for hver tilhænger af denne religion.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_8">
+      <Text>Udenlandske Byer: {2_Cities} {2_Cities : plural 1?Punkt; other?Punkter;} for alle udenlandske byer, der følger denne religion.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_9">
+      <Text>Tro: {1_Faith} {2_Faith : plural 1?punkt; other?point;} for hver [ICON_FAITH] Tro per [ICON_TURN] Tur.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_10">
+      <Text>Når du sender en [ICON_ENVOY] udsending til en Bystat, tilføjer det 300 religiøst pres på den pågældende Bystat.</Text>
+    </Row>
+    <!-- Slots-->
+    <Row Tag="LOC_SLOT_SCENARIO_RELIGIOUS_NAME">
+      <Text>Religiøs</Text>
+    </Row>
+    <!-- Units-->
+    <Row Tag="LOC_UNIT_SCENARIO_BUILDER_DESCRIPTION">
+      <Text>Kan skabe flise-forbedringer eller høste nogle ressourcer. Byggere kan bruges 3 gange. Dette kan øges gennem politikker.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_TRADER_DESCRIPTION">
+      <Text>Må oprette og vedligeholde en enkelt [ICON_TradeRoute] handelsrute.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_PRIEST_NAME">
+      <Text>Præst</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_MONK_NAME">
+      <Text>Munk</Text>
+    </Row>
+    <Row Tag="LOC_UI_RELIGION_PRIEST_TT">
+      <Text>Præster kan fjerne tilstedeværelsen af andre religioner på deres område og starte teologisk kamp med enheder fra andre religioner.</Text>
+    </Row>
+    <Row Tag="LOC_UI_RELIGION_MONK_TT">
+      <Text>Munke kan omvende [ICON_Citizen] Borgere til deres religion og påbegynde teologisk kamp med enheder af andre religioner.</Text>
+    </Row>
+    <!-- Unit Promotion Classes-->
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_MISSIONARY_NAME">
+      <Text>Religiøs missionær</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_PRIEST_NAME">
+      <Text>Religiøs præst</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_MONK_NAME">
+      <Text>Religiøs munk</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_GURU_NAME">
+      <Text>Religiøs guru</Text>
+    </Row>
+    <!-- Unit Promotions-->
+    <Row Tag="LOC_PROMOTION_SCENARIO_WALK_ON_WATER_NAME">
+      <Text>Gå på vandet</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_WALK_ON_WATER_DESCRIPTION">
+      <Text>Ingen straf til [ICON_Movement] Bevægelse, når man bevæger sig fra hav eller flod.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TRAVELER_NAME">
+      <Text>Rejsende</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TRAVELER_DESCRIPTION">
+      <Text>Hurtigere [ICON_Movement] bevægelse i skove, regnskove, bakker eller sump.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PROPAGATOR_NAME">
+      <Text>Propagator</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PROPAGATOR_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PRACTITIONER_NAME">
+      <Text>Behandler</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PRACTITIONER_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Religiøs Styrke i Teologisk Kamp, når i fremmed territorium.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GARRISON_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Religiøs Styrke i Teologisk Kamp, når man besætter et distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ORATOR_DESCRIPTION">
+      <Text>Kan fjerne kætteri 2 ekstra gange.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ALCHEMIST_NAME">
+      <Text>Alkymist</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ALCHEMIST_DESCRIPTION">
+      <Text>+7 [ICON_Religion] Religiøs Styrke i Teologisk Kamp ved forsvar i skove, regnskove, bakker eller sumpområder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_INTERPRETER_NAME">
+      <Text>Tolk</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_INTERPRETER_DESCRIPTION">
+      <Text>Få 75 [ICON_FAITH] Tro, hvis denne enhed konverterer en by til din religion for første gang.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SANGHA_NAME">
+      <Text>Sangha (in Buddhism) translates to "fællesskab" in Danish</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SANGHA_DESCRIPTION">
+      <Text>2x bonus på flankeringsangreb.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GUIDE_NAME">
+      <Text>Vejledning</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GUIDE_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse til religiøse enheder i starten af turen inden for 2 fliser.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SAGE_NAME">
+      <Text>Sage (Note: Sage is already a Danish word and does not require translation. It means "visdom" or "klogskab" in Danish.)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SAGE_DESCRIPTION">
+      <Text>+10  [ICON_Religion] Religiøs Styrke i Teologisk Kamp til Religiøse enheder inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TEACHER_NAME">
+      <Text>Lærer</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TEACHER_DESCRIPTION">
+      <Text>Denne enhed fungerer som en Medic og giver ekstra helbredelse til enheder inden for en radius af 1 felt.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_MASTER_NAME">
+      <Text>Mester</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_MASTER_DESCRIPTION">
+      <Text>+1 Helbredelsesopladning.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_SAGE_COMBAT_STRENGTH_AOE_RELIGIOUS_MODIFIER">
+      <Text>+10 [ICON_Religion] Religiøs Styrke i Teologisk Kamp fra Guruenheden's Sage Forfremmelse</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_SAGE_COMBAT_STRENGTH_AOE_RELIGIOUS">
+      <Text>+10 [ICON_Religion] Religiøs styrke i teologisk kamp til religiøse enheder inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_GUIDE_MOVEMENT_AOE_RELIGIOUS">
+      <Text>+1 [ICON_Movement] Bevægelse til Religiøse enheder ved starten af turen inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATES_SCENARIO_TYPE_MARITIME">
+      <Text>Maritim</Text>
+    </Row>
+    <!--Citizen Names-->
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_1">
+      <Text>Norbu</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_2">
+      <Text>Phuntsok</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_3">
+      <Text>Rabten</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_4">
+      <Text>Tashi</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_5">
+      <Text>Wangchuk</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_1">
+      <Text>Dawa</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_2">
+      <Text>Jungney</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_3">
+      <Text>Pema</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_4">
+      <Text>Rinchen</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_5">
+      <Text>Tsering</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_NO_MILITARY_SLOTS">
+      <Text>Denne regering tilbyder ingen Religiøse Politik-slots.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FILTER_MILITARY">
+      <Text>Religiøs</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICY_TYPE_MILITARY">
+      <Text>Religiøse politikker</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_1_NAME">
+      <Text>Arahant</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_2_NAME">
+      <Text>Anāgāmi</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_3_NAME">
+      <Text>Sakadagami</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_4_NAME">
+      <Text>Sotāpanna</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_5_NAME">
+      <Text>Puthujjana</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_1_QUOTE">
+      <Text>Oplysning Opnået</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_2_QUOTE">
+      <Text>En ikke-retur til den fysiske verden</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_3_QUOTE">
+      <Text>En én-gangs tilbagevender til den fysiske verden</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_4_QUOTE">
+      <Text>En Strøm-Indtræder på vejen mod Oplysning</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_5_QUOTE">
+      <Text>En almindelig person</Text>
+    </Row>
+  </EnglishText>
+</GameData>

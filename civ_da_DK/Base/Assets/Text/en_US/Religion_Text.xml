@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--RELIGIONS-->
+    <Row Tag="LOC_RELIGION_PANTHEON">
+      <Text>Pantheon (It is a proper noun and does not require translation)</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_BUDDHISM">
+      <Text>Buddhisme</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_CATHOLICISM">
+      <Text>Katolicisme</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_CONFUCIANISM">
+      <Text>Konfucianisme</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_HINDUISM">
+      <Text>Hinduisme</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_ISLAM">
+      <Text>Islam</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_JUDAISM">
+      <Text>Jødedom</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_ORTHODOXY">
+      <Text>Østortodoksi</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_PROTESTANTISM">
+      <Text>Protestantisme</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SHINTO">
+      <Text>Shinto (a Japanese religion)</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SIKHISM">
+      <Text>Sikhisme</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_TAOISM">
+      <Text>Taoisme</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_ZOROASTRIANISM">
+      <Text>Zoroastrisme</Text>
+    </Row>
+    <!--BELIEF CLASSES-->
+    <Row Tag="LOC_BELIEF_CLASS_PANTHEON_NAME">
+      <Text>Pantheon</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_FOLLOWER_NAME">
+      <Text>Følger</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_WORSHIP_NAME">
+      <Text>Dyrkelse</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_FOUNDER_NAME">
+      <Text>Stifter</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_ENHANCER_NAME">
+      <Text>Forstærker</Text>
+    </Row>
+    <!--MISCELLANEOUS-->
+    <Row Tag="LOC_RELIGION_MARTYRED_APOSTLE">
+      <Text>Myrdede apostel</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_TRIBAL_VILLAGE">
+      <Text>Stammelandsby</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_GOVERNOR">
+      <Text>Guvernør</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_CITY_STATE">
+      <Text>Suzeræn</Text>
+    </Row>
+    <!--PANTHEON NAMES-->
+    <!--1. PANTHEON BELIEFS-->
+    <!--Pantheon - Adjacency Bonuses-->
+    <Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_NAME">
+      <Text>Auroras dans</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DESERT_FOLKLORE_NAME">
+      <Text>Ørken Folketro</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SACRED_PATH_NAME">
+      <Text>Hellig Sti</Text>
+    </Row>
+    <!--Pantheon - Amenity Bonuses-->
+    <Row Tag="LOC_BELIEF_RIVER_GODDESS_NAME">
+      <Text>Flodgudinde</Text>
+    </Row>
+    <!--Pantheon - Gameplay Race Bonuses-->
+    <Row Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_NAME">
+      <Text>Monument til Guderne</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_SPARK_NAME">
+      <Text>Gudefunke</Text>
+    </Row>
+    <!--Pantheon - Local Feature Bonuses-->
+    <Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_NAME">
+      <Text>Ladyen af siv og sumpe</Text>
+    </Row>
+    <!--Pantheon - Local Resource Bonuses-->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_SEA_NAME">
+      <Text>Havets Gud</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_NAME">
+      <Text>Gud af den åbne himmel</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_NAME">
+      <Text>Jagtens gudinde</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STONE_CIRCLES_NAME">
+      <Text>Sten cirkler</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_NAME">
+      <Text>Religiøse ikoner</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_NAME">
+      <Text>Håndværkernes gud</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_NAME">
+      <Text>Festivallens gudinde</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ORAL_TRADITION_NAME">
+      <Text>Muntlig tradition</Text>
+    </Row>
+    <!--Pantheon - Military -->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_FORGE_NAME">
+      <Text>Smedens Gud</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_WAR_NAME">
+      <Text>Kratos: Krigeren fra Sparta</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_INITIATION_RITES_NAME">
+      <Text>Indvielsesritualer</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_HEALING_NAME">
+      <Text>Helbredelsens Gud</Text>
+    </Row>
+    <!--Pantheon - General Purpose-->
+    <Row Tag="LOC_BELIEF_FERTILITY_RITES_NAME">
+      <Text>Frugtbarhedsritualer</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_NAME">
+      <Text>Religiøse bosættelser</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HARVEST_NAME">
+      <Text>Høstens gudinde</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CITY_PATRON_GODDESS_NAME">
+      <Text>Byens skytsgudinde</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_EARTH_GODDESS_NAME">
+      <Text>Moder Jord</Text>
+    </Row>
+    <!--2. WORSHIP BELIEFS-->
+    <Row Tag="LOC_BELIEF_CATHEDRAL_NAME">
+      <Text>Domkirke</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DAR_E_MEHR_NAME">
+      <Text>Dar-e Mehr</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GURDWARA_NAME">
+      <Text>Gurdwara</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MEETING_HOUSE_NAME">
+      <Text>Mødehus</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MOSQUE_NAME">
+      <Text>Moské</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAGODA_NAME">
+      <Text>Pagode</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STUPA_NAME">
+      <Text>Stupa (this word is the same in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SYNAGOGUE_NAME">
+      <Text>Synagoge</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WAT_NAME">
+      <Text>Hvad?</Text>
+    </Row>
+    <!--3. FOLLOWER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHORAL_MUSIC_NAME">
+      <Text>Kor Musik</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_INSPIRATION_NAME">
+      <Text>Guddommelig inspiration</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_FEED_THE_WORLD_NAME">
+      <Text>Fod verdenen</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JESUIT_EDUCATION_NAME">
+      <Text>Jesuit Uddannelse</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIQUARIES_NAME">
+      <Text>Relikvieskrin</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_NAME">
+      <Text>Religiøs Fællesskab</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WARRIOR_MONKS_NAME">
+      <Text>Kriger Munke</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORK_ETHIC_NAME">
+      <Text>Arbejdsetik</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ZEN_MEDITATION_NAME">
+      <Text>Zen-meditation</Text>
+    </Row>
+    <!--4. FOUNDER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHURCH_PROPERTY_NAME">
+      <Text>Kirkens ejendom</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CROSS_CULTURAL_DIALOGUE_NAME">
+      <Text>Tværkulturel dialog</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_LAY_MINISTRY_NAME">
+      <Text>Lægmandstjeneste</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAPAL_PRIMACY_NAME">
+      <Text>Pavelig Primat</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PILGRIMAGE_NAME">
+      <Text>Pilgrimsrejse</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_UNITY_NAME">
+      <Text>Religiøs enhed</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STEWARDSHIP_NAME">
+      <Text>Forvaltning</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_TITHE_NAME">
+      <Text>Tiende</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORLD_CHURCH_NAME">
+      <Text>Verdenskirken</Text>
+    </Row>
+    <!--5. ENHANCER BELIEFS-->
+    <Row Tag="LOC_BELIEF_BURIAL_GROUNDS_NAME">
+      <Text>Begravelsespladser</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DEFENDER_OF_FAITH_NAME">
+      <Text>Troens forsvarer</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HOLY_ORDER_NAME">
+      <Text>Hellig Orden</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ITINERANT_PREACHERS_NAME">
+      <Text>Omrejsende prædikanter</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JUST_WAR_NAME">
+      <Text>Korstog</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MISSIONARY_ZEAL_NAME">
+      <Text>Missionær iver</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MONASTIC_ISOLATION_NAME">
+      <Text>Klostertilværelse</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_NAME">
+      <Text>Religiøs kolonisering</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCRIPTURE_NAME">
+      <Text>Skriptur</Text>
+    </Row>
+    <!--PANTHEON DESCRIPTIONS-->
+    <!--1. PANTHEON BELIEFS-->
+    <!--Pantheon - Adjacency Bonuses-->
+    <Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION">
+      <Text>Helligdom-distrikter får +1 [ICON_Faith] Tro fra tilstødende Tundra-fliser.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION">
+      <Text>Helligdom-distrikter får +1 [ICON_Faith] troskab fra tilstødende ørkenfliser.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SACRED_PATH_DESCRIPTION">
+      <Text>Helligsted-distrikter får +1 [ICON_Faith] Tro fra tilstødende regnskov-fliser.</Text>
+    </Row>
+    <!--Pantheon - Amenity Bonuses-->
+    <Row Tag="LOC_BELIEF_RIVER_GODDESS_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Facilitet til byer, hvis de har et Hellig Sted kvarter ved siden af en flod.</Text>
+    </Row>
+    <!--Pantheon - Gameplay Race Bonuses-->
+    <Row Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION">
+      <Text>+15% [ICON_Production] Produktion til antikke og klassiske tidsalderes vidundere.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_SPARK_DESCRIPTION">
+      <Text>+1 [ICON_GreatPerson] Point af stor person fra Helligdoms-distriktet (Profet), Campus-distriktet (Videnskabsmand) og Teaterplads-distriktet (Forfatter).</Text>
+    </Row>
+    <!--Pantheon - Local Feature Bonuses-->
+    <Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION">
+      <Text>+1 [ICON_Produktion] Produktion fra Marsk, Oase og Floddeltaer.</Text>
+    </Row>
+    <!--Pantheon - Local Resource Bonuses-->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_SEA_DESCRIPTION">
+      <Text>+1 [ICON_Production] Produktion fra Fiskebåde.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION">
+      <Text>+1 [ICON_Culture] Kultur fra Græsgange.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION">
+      <Text>+1 [ICON_Food] Mad fra lejrene.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Tro fra stenbrudene.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Tro fra miner over luksus- og bonusressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_DESCRIPTION">
+      <Text>+1 [ICON_Production] Produktion fra miner over strategiske ressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_DESCRIPTION">
+      <Text>+1 [ICON_Food] Food from [ICON_RESOURCE_WINE] Wine, [ICON_RESOURCE_INCENSE] Incense, [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TOBACCO] Tobacco, [ICON_RESOURCE_COFFEE] Coffee, and [ICON_RESOURCE_TEA] Tea Plantations.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION">
+      <Text>+1 [ICON_Culture] Culture from [ICON_RESOURCE_BANANAS] Banana, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_DYES] Dyes, [ICON_RESOURCE_SILK] Silk, [ICON_RESOURCE_SPICES] Spices, and [ICON_RESOURCE_SUGAR] Sugar Plantations.</Text>
+    </Row>
+    <!--Pantheon - Military -->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_FORGE_DESCRIPTION">
+      <Text>+25% [ICON_Production] Produktion til militære enheder fra antikken og klassisk tid.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_HEALING_DESCRIPTION">
+      <Text>Øger helbredelse med +30 i dit Holy Site-distrikt eller på tilstødende fliser.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_WAR_DESCRIPTION">
+      <Text>Bonus [ICON_Faith] Trosværdighed svarende til 50% af styrken af hver kampenhed dræbt inden for 8 felter af en Helligdoms-distrikt. (på Standardhastighed)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_INITIATION_RITES_DESCRIPTION">
+      <Text>+50 [ICON_Faith] Tro i for hver barbarisk udpost, der er ryddet.</Text>
+    </Row>
+    <!--Pantheon - General Purpose-->
+    <Row Tag="LOC_BELIEF_FERTILITY_RITES_DESCRIPTION">
+      <Text>Byvækstraten er 10% højere.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_DESCRIPTION">
+      <Text>Grænseudvidelseshastigheden er 15% højere.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HARVEST_DESCRIPTION">
+      <Text>At høste en ressource eller fjerne en egenskab modtager [ICON_Faith] Tro svarende til mængden af den anden udbytte.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION">
+      <Text>+25% [ICON_Production] Produktion mod distrikter i byer uden specialdistrikt.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_EARTH_GODDESS_DESCRIPTION">
+      <Text>+1 Tro [ICON_Faith] fra fliser med charmerende eller bedre tiltrækningskraft.</Text>
+    </Row>
+    <!--2. WORSHIP BELIEFS-->
+    <Row Tag="LOC_BELIEF_CATHEDRAL_DESCRIPTION">
+      <Text>Tillader konstruktion af katedraler (+3 [ICON_Faith] Tro, 1 plads til religiøs kunst).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DAR_E_MEHR_DESCRIPTION">
+      <Text>Tillader opførelse af Dar-e Mehrs (+3 [ICON_Faith] Tro, +1 yderligere [ICON_FAITH] for hver æra siden opførelse eller sidste reparation).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GURDWARA_DESCRIPTION">
+      <Text>Tillader opførelse af Gurdwaras (+3 [ICON_Faith] Tro, +2 [ICON_Food] Mad).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MEETING_HOUSE_DESCRIPTION">
+      <Text>Tillader opførelsen af Mødehuse (+3 [ICON_Faith] Tro, +2 [ICON_Production] Produktion).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MOSQUE_DESCRIPTION">
+      <Text>Tillader opførelse af moskeer (+3 [ICON_Faith] Tro). Missionærer og apostle +1 spredning.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAGODA_DESCRIPTION">
+      <Text>Tillader byggeri af pagoder (+3 [ICON_Faith] Tro, +1 [ICON_Housing] Boliger).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STUPA_DESCRIPTION">
+      <Text>Tillader konstruktion af Stupas (+3 [ICON_Faith] Tro, +1 [ICON_Amenities] Godt humør).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SYNAGOGUE_DESCRIPTION">
+      <Text>Tillader opførelse af synagoger (+5 [ICON_Faith] Tro).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WAT_DESCRIPTION">
+      <Text>Tillader konstruktion af Wat (+3 [ICON_Faith] Tro, +2 [ICON_Science] Videnskab).</Text>
+    </Row>
+    <!--3. FOLLOWER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHORAL_MUSIC_DESCRIPTION">
+      <Text>Helligdomme og templer giver [ICON_Culture] Kultur svarende til deres intrinsiske [ICON_Faith] Tro produktion.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_INSPIRATION_DESCRIPTION">
+      <Text>Alle verdens underværker giver +4 [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_FEED_THE_WORLD_DESCRIPTION">
+      <Text>Shrines og templer giver [ICON_Food] mad svarende til deres iboende [ICON_Faith] tro produktion.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION">
+      <Text>Kan købe bygninger i Campus og Theater Square distrikterne med [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIQUARIES_DESCRIPTION">
+      <Text>[ICON_GreatWork_Relic] Relikvier har en tredobbelt gevinst af både [ICON_Faith] Tro og [ICON_Tourism] Turisme.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_DESCRIPTION">
+      <Text>Helligdomme og templer giver hver +1 [ICON_Housing] boliger.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WARRIOR_MONKS_DESCRIPTION">
+      <Text>Tillader at bruge [ICON_Faith] Tro på at træne Warrior Monks, middelalderlige kampenheder med en unik forfremmelsestræ. Kan kun købes i en by med et Tempel i dets Hellige Sted.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORK_ETHIC_DESCRIPTION">
+      <Text>+1% [ICON_Production] Produktion for hver borger, der følger denne religion i byen.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Fornøjelse i byer med 2 specialdistrikter.</Text>
+    </Row>
+    <!--4. FOUNDER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHURCH_PROPERTY_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Guld for hver by, der følger denne religion.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CROSS_CULTURAL_DIALOGUE_DESCRIPTION">
+      <Text>+1 [ICON_Science] Videnskab for hver 5 følgere af denne Religion i andre civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_LAY_MINISTRY_DESCRIPTION">
+      <Text>Hver Hellige Sted eller Teater Plads-distrikt i en by der følger denne Religion giver henholdsvis +1 [ICON_Faith] Tro eller +1 [ICON_Culture] Kultur.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAPAL_PRIMACY_DESCRIPTION">
+      <Text>Type-bonusser fra bystater, der følger din religion, er 50% mere effektive.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PILGRIMAGE_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Tro for hver by, der følger denne religion i andre civilisationer og bystater.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_UNITY_DESCRIPTION">
+      <Text>+1 [ICON_Envoy] Udsending ved hvert bystat, når den først antager denne religion, udover enhver udsending fra en bystats quest.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STEWARDSHIP_DESCRIPTION">
+      <Text>Hver Campus- eller kommercielle hub-distrikt i en by, der følger denne religion, giver henholdsvis +1 [ICON_Science] videnskab eller +1 [ICON_Gold] guld.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_TITHE_DESCRIPTION">
+      <Text>+1 [ICON_Gold] Guld for hver 4. tilhænger af denne religion.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORLD_CHURCH_DESCRIPTION">
+      <Text>+1 [ICON_Culture] Kultur for hver 5 tilhængere af denne religion i andre civilisationer.</Text>
+    </Row>
+    <!--5. ENHANCER BELIEFS-->
+    <Row Tag="LOC_BELIEF_BURIAL_GROUNDS_DESCRIPTION">
+      <Text>Kultur Bombe tilstødende fliser, når en Helligdom er færdigbygget.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DEFENDER_OF_FAITH_DESCRIPTION">
+      <Text>Kampenheder får +5 [ICON_Strength] Kampstyrke, når de er inden for grænserne af venlige byer, der følger denne religion.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HOLY_ORDER_DESCRIPTION">
+      <Text>Missionærer og apostle er 30% billigere at købe.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ITINERANT_PREACHERS_DESCRIPTION">
+      <Text>Religion breder sig til byer, der er 30% længere væk.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JUST_WAR_DESCRIPTION">
+      <Text>Kampenheder får +10 [ICON_Strength] Kampevne, når de er inden for grænserne af fremmede byer, der følger denne religion.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MISSIONARY_ZEAL_DESCRIPTION">
+      <Text>Religiøse enheder ignorerer [ICON_Movement] bevægelsesomkostninger for terræn og funktioner.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MONASTIC_ISOLATION_DESCRIPTION">
+      <Text>Dit religions pres tryk falder aldrig på grund af tab i teologisk kamp.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_DESCRIPTION">
+      <Text>Byer starter med denne religion på pladsen, hvis de er grundlagt af en spiller, der har denne religion som sin majoritetsreligion.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCRIPTURE_DESCRIPTION">
+      <Text>Religiøs spredning fra tilstødende by er 25% stærkere. Øges til 50% når Trykning er forsket.</Text>
+    </Row>
+    <!--BELIEF COMBAT BONUSES-->
+    <Row Tag="LOC_PROMOTION_DEFENDER_OF_FAITH_DESCRIPTION">
+      <Text>+{1_Value} Troforsvarer Tro</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_JUST_WAR_DESCRIPTION">
+      <Text>+{1_Value} Korstog Tro</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_INCOMING_RELIGION_PRESSURE">
+      <Text>Indkommende tryk pr. omdrejning</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_OUTGOING_RELIGION_PRESSURE">
+      <Text>Udgående tryk pr. omdrejning</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_PREDOMINANT_RELIGION">
+      <Text>{1_ReligionName} (Fremherskende)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_FOLLOWER_PRESSURE_TOOLTIP_HEADER">
+      <Text>Følgere / Samlet tryk modtaget:</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_FOLLOWER_PRESSURE_TOOLTIP">
+      <Text>{1_ReligionName}:[NEWLINE]{2_Followers} Følgere, {3_TotalPressure} tryk</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

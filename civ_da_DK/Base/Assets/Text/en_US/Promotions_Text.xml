@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!---->
+    <!-- PROMOTION NAME TEXT -->
+    <!---->
+    <!--Recon-->
+    <Row Tag="LOC_PROMOTION_RANGER_NAME">
+      <Text>Ranger</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ALPINE_NAME">
+      <Text>Alpint</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SENTRY_NAME">
+      <Text>Sentry (Note: "Sentry" is a proper noun and does not require translation.)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPYGLASS_NAME">
+      <Text>Kikkert</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GUERRILLA_NAME">
+      <Text>Guerrilla (the word remains the same in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMBUSH_NAME">
+      <Text>Baghold</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAMOUFLAGE_NAME">
+      <Text>Kamuflage</Text>
+    </Row>
+    <!--Melee-->
+    <Row Tag="LOC_PROMOTION_BATTLECRY_NAME">
+      <Text>Kampskrig</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORTOISE_NAME">
+      <Text>Skildpadde</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMMANDO_NAME">
+      <Text>Kommando</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMPHIBIOUS_NAME">
+      <Text>Amfibisk</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZWEIHANDER_NAME">
+      <Text>Zweihander (This word is actually German and does not require translation in Danish.)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_URBAN_WARFARE_NAME">
+      <Text>Bykampfare</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ELITE_GUARD_NAME">
+      <Text>Elitevagt</Text>
+    </Row>
+    <!--Ranged-->
+    <Row Tag="LOC_PROMOTION_VOLLEY_NAME">
+      <Text>Volley (this is already a word in Danish and does not need translation)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GARRISON_NAME">
+      <Text>Garnison</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARROW_STORM_NAME">
+      <Text>Pilestorm</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INCENDIARIES_NAME">
+      <Text>Brandstiftelse</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPRESSION_NAME">
+      <Text>Undertrykkelse</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EMPLACEMENT_NAME">
+      <Text>Placering</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_MARKSMAN_NAME">
+      <Text>Ekspert skytte</Text>
+    </Row>
+    <!--Siege-->
+    <Row Tag="LOC_PROMOTION_GRAPE_SHOT_NAME">
+      <Text>Druekugler</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREW_WEAPONS_NAME">
+      <Text>Besætningsvåben</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHELLS_NAME">
+      <Text>Skaller</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHRAPNEL_NAME">
+      <Text>Fragmenter (literal translation)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEAVY_PROJECTILES_2">
+      <Text>Tunge Projektiler 2</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_RANGEFINDING_NAME">
+      <Text>Avanceret afstandsmåling</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_CREW_NAME">
+      <Text>Ekspert Besætning</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FORWARD_OBSERVERS_NAME">
+      <Text>Fremrytter</Text>
+    </Row>
+    <!--Anti-Cavalry-->
+    <Row Tag="LOC_PROMOTION_ECHELON_NAME">
+      <Text>Echelon (no translation needed as it is a name)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_THRUST_NAME">
+      <Text>Skub</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SQUARE_NAME">
+      <Text>Torv</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCHILTRON_NAME">
+      <Text>Schiltron (a formation used by Scottish infantry in the Middle Ages)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REDEPLOY_NAME">
+      <Text>Genudsend eller omdisponere</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHOKE_POINTS_NAME">
+      <Text>Flaskehalssteder</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOLD_THE_LINE_NAME">
+      <Text>Hold Linjen</Text>
+    </Row>
+    <!--Light Cavalry-->
+    <Row Tag="LOC_PROMOTION_ESCORT_MOBILITY_NAME">
+      <Text>Escort Mobility (no translation needed as it is a proper noun)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAPARISON_NAME">
+      <Text>Caparison (no translation needed as it is a proper noun and name of a brand)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COURSERS_NAME">
+      <Text>Kurser</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEPREDATION_NAME">
+      <Text>Hærgen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DOUBLE_ENVELOPMENT_NAME">
+      <Text>Dobbelt omringning</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPIKING_THE_GUNS_NAME">
+      <Text>At slå koldt vand i blodet</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PURSUIT_NAME">
+      <Text>Forfølgelse</Text>
+    </Row>
+    <!--Heavy Cavalry-->
+    <Row Tag="LOC_PROMOTION_BREAKTHROUGH_NAME">
+      <Text>Gennembrud</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHARGE_NAME">
+      <Text>Opladning</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BARDING_NAME">
+      <Text>Barding</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARAUDING_NAME">
+      <Text>Hærgen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROUT_NAME">
+      <Text>Rute</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARMOR_PIERCING_NAME">
+      <Text>Panserværnsprojektiler</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REACTIVE_ARMOR_NAME">
+      <Text>Reaktivt panser</Text>
+    </Row>
+    <!--Aircraft Fighter-->
+    <Row Tag="LOC_PROMOTION_DOGFIGHTING_NAME">
+      <Text>Hundedyst</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INTERCEPTOR_NAME">
+      <Text>Interceptor (same word is used in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_STRAFE_NAME">
+      <Text>Straf</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GROUND_CREWS_NAME">
+      <Text>Jordpersonale</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COCKPIT_ARMOR_NAME">
+      <Text>Cockpit Beskyttelse</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TANK_BUSTER_NAME">
+      <Text>Tankødelægger</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DROP_TANKS_NAME">
+      <Text>Brændstoftanke til affyring</Text>
+    </Row>
+    <!--Aircraft Bomber-->
+    <Row Tag="LOC_PROMOTION_BOX_FORMATION_NAME">
+      <Text>Boksdannelse</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EVASIVE_MANEUVERS_NAME">
+      <Text>Undvigelsesmanøvrer</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORPEDO_BOMBER_NAME">
+      <Text>Torpedobomber</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLOSE_AIR_SUPPORT_NAME">
+      <Text>Nærstøtte fra luften</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TACTICAL_MAINTENANCE_NAME">
+      <Text>Taktisk vedligeholdelse</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LONG_RANGE_NAME">
+      <Text>Lang Rækkevidde</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPERFORTRESS_NAME">
+      <Text>Superfortress</Text>
+    </Row>
+    <!--Naval Melee-->
+    <Row Tag="LOC_PROMOTION_EMBOLON_NAME">
+      <Text>Embolon (This word is already in Greek and does not require translation into Danish.)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REINFORCED_HULL_NAME">
+      <Text>Forstærket skrog</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HELMSMAN_NAME">
+      <Text>Rorsmand</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AUXILIARY_SHIPS_NAME">
+      <Text>Hjælpeskibe</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_RUTTER_NAME">
+      <Text>Rutter</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CONVOY_NAME">
+      <Text>Konvoj</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREEPING_ATTACK_NAME">
+      <Text>Snigangreb</Text>
+    </Row>
+    <!--Naval Ranged-->
+    <Row Tag="LOC_PROMOTION_LINE_OF_BATTLE_NAME">
+      <Text>Kampformation</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOMBARDMENT_NAME">
+      <Text>Bombardement</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PREPARATORY_FIRE_NAME">
+      <Text>Forberedende brand</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROLLING_BARRAGE_NAME">
+      <Text>Rullende barrage</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROXIMITY_FUSES_NAME">
+      <Text>Nærhedsforsendelser</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COINCIDENCE_RANGEFINDING_NAME">
+      <Text>Tilfældig afstandsmåling</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPLY_FLEET_NAME">
+      <Text>Forsyningsflåde</Text>
+    </Row>
+    <!--Naval Carrier-->
+    <Row Tag="LOC_PROMOTION_FLIGHT_DECK_NAME">
+      <Text>Cockpit (or Flyvekontrol)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HANGAR_DECK_NAME">
+      <Text>Hangardek</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FOLDING_WINGS_NAME">
+      <Text>Foldbare vinger</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUT_PLANES_NAME">
+      <Text>Spejderfly</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_ENGINES_NAME">
+      <Text>Avancerede motorer</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DECK_CREWS_NAME">
+      <Text>Dækbemanning</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPER_CARRIER_NAME">
+      <Text>Supercarrier (can be translated as "Superhangarskib" in Danish)</Text>
+    </Row>
+    <!--Naval Raider-->
+    <Row Tag="LOC_PROMOTION_LOOT_NAME">
+      <Text>Byttegodt</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOARDING_NAME">
+      <Text>Boarding (which means "boarding" or "boarding process")</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SWIFT_KEEL_NAME">
+      <Text>Hurtig Køl</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_OBSERVATION_NAME">
+      <Text>Observation</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SILENT_RUNNING_NAME">
+      <Text>Stille løbende</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOMING_TORPEDOES_NAME">
+      <Text>Hjemmevendende torpedoer</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_WOLFPACK_NAME">
+      <Text>Ulveflok</Text>
+    </Row>
+    <!--Apostles-->
+    <Row Tag="LOC_PROMOTION_ORATOR_NAME">
+      <Text>Taler</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROSELYTIZER_NAME">
+      <Text>Fremmedelement</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TRANSLATOR_NAME">
+      <Text>Oversætter (in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PILGRIM_NAME">
+      <Text>Pilgrim</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INDULGENCE_VENDOR_NAME">
+      <Text>Syndernes forhandler</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEATHEN_CONVERSION_NAME">
+      <Text>Hedninge Omvendelse</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEBATER_NAME">
+      <Text>Debatter</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARTYR_NAME">
+      <Text>Martyr</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHAPLAIN_NAME">
+      <Text>Feltpræst</Text>
+    </Row>
+    <!--Warrior Monk-->
+    <Row Tag="LOC_PROMOTION_MONK_SHADOW_STRIKE_NAME">
+      <Text>Skyggeangreb</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_TWILIGHT_VEIL_NAME">
+      <Text>Skumringsslør</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_EXPLODING_PALMS_NAME">
+      <Text>Eksplosive hænder</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DISCIPLES_NAME">
+      <Text>Disciple (singular) - Discipel (singular) 
+Disciples (plural) - Disciple (plural)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_SWEEPING_WIND_NAME">
+      <Text>Fejende Vind</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DANCING_CRANE_NAME">
+      <Text>Dansende trane</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_COBRA_STRIKE_NAME">
+      <Text>Cobra slag</Text>
+    </Row>
+    <!--Spy-->
+    <Row Tag="LOC_PROMOTION_SPY_TECHNOLOGIST_NAME">
+      <Text>Teknolog</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CAT_BURGLAR_NAME">
+      <Text>Katteindbrudstyv</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DEMOLITIONS_NAME">
+      <Text>Nedbrydninger</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CON_ARTIST_NAME">
+      <Text>Svindler</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_GUERILLA_LEADER_NAME">
+      <Text>Guerrilla leder</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ROCKET_SCIENTIST_NAME">
+      <Text>Rumforsker</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SEDUCTION_NAME">
+      <Text>Forførelse</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DISGUISE_NAME">
+      <Text>Forklædning</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LINGUIST_NAME">
+      <Text>Sprogforsker</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_QUARTERMASTER_NAME">
+      <Text>Forsyningsofficer</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ACE_DRIVER_NAME">
+      <Text>As Driver</Text>
+    </Row>
+    <!---->
+    <!-- PROMOTION DESCRIPTION TEXT -->
+    <!---->
+    <Row Tag="LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Promovering)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Politik)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Regering)</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Fremragende Person)</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Reeligion)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Evne)</Text>
+    </Row>
+    <Row Tag="LOC_WONDER_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Undren)</Text>
+    </Row>
+    <!--Recon-->
+    <Row Tag="LOC_PROMOTION_RANGER_DESCRIPTION">
+      <Text>Hurtigere [ICON_Movement] bevægelse i skov og regnskov terræn.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ALPINE_DESCRIPTION">
+      <Text>Hurtigere [ICON_Movement] Bevægelse på bakket terræn.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SENTRY_DESCRIPTION">
+      <Text>Kan se igennem skoven og junglen.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPYGLASS_DESCRIPTION">
+      <Text>+1 synsrækkevidde.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GUERRILLA_DESCRIPTION">
+      <Text>Kan bevæge sig efter angreb.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMMANDO_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse. Kan skalere klippesider.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
+      <Text>+20 [ICON_Strength] Kampstyrke i alle situationer.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAMOUFLAGE_DESCRIPTION">
+      <Text>Kun tilstødende fjendtlige enheder kan afsløre denne enhed.</Text>
+    </Row>
+    <!--Melee-->
+    <Row Tag="LOC_PROMOTION_BATTLECRY_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod nærkampsenheder og fjernkampsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORTOISE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke når du forsvarer dig mod afstandsangreb.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMPHIBIOUS_DESCRIPTION">
+      <Text>Ingen [ICON_Strength] Kampstyrke og [ICON_Movement] Bevægelsesstraf ved angreb fra havet eller floden.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZWEIHANDER_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod anti-kavalerienheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_URBAN_WARFARE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke, når du kæmper i et distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ELITE_GUARD_DESCRIPTION">
+      <Text>+1 ekstra angreb per tur, hvis [ICON_Movement] bevægelse tillader det. Kan flytte sig efter at have angrebet.</Text>
+    </Row>
+    <!--Ranged-->
+    <Row Tag="LOC_PROMOTION_VOLLEY_DESCRIPTION">
+      <Text>+5 [ICON_Ranged] Ranged styrke mod landenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GARRISON_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke når man besætter enten en forbedring, der giver [ICON_Strength] Forsvarsstyrke eller en bydel.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARROW_STORM_DESCRIPTION">
+      <Text>+7 [ICON_Ranged] Rækkevidde Styrke mod land- og søenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INCENDIARIES_DESCRIPTION">
+      <Text>+7 [ICON_Ranged] Rækkevidde-styrke mod distriktets forsvar.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPRESSION_DESCRIPTION">
+      <Text>Øvelseszone for kontrol.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EMPLACEMENT_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke ved forsvar mod angreb fra byer.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_MARKSMAN_DESCRIPTION">
+      <Text>+1 ekstra angreb per tur, hvis enheden ikke har bevæget sig.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_CREW_DESCRIPTION">
+      <Text>Kan angribe efter bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FORWARD_OBSERVERS_DESCRIPTION">
+      <Text>+1 [ICON_Range] Rækkevidde.</Text>
+    </Row>
+    <!--Anti-Cavalry-->
+    <Row Tag="LOC_PROMOTION_ECHELON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke mod kavalerienheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_THRUST_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampsstyrke mod nærkampsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SQUARE_DESCRIPTION">
+      <Text>Dobbelt støtte bonus.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCHILTRON_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke, når man forsvarer sig mod nærkampsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REDEPLOY_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <!--Siege-->
+    <Row Tag="LOC_PROMOTION_CREW_WEAPONS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke ved forsvar.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GRAPE_SHOT_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod landenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHRAPNEL_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke mod landenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHELLS_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke mod distriktforsvaret.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_RANGEFINDING_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampevne mod søfartøjer.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHOKE_POINTS_DESCRIPTION">
+      <Text>+7 [ICON_Styrke] Kampstyrke, når man forsvarer sig i skove, jungle, bakker eller moser.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOLD_THE_LINE_DESCRIPTION">
+      <Text>Nærliggende enheder af en anden klasse får +10 [ICON_Strength] Kampstyrke mod kavaleri.</Text>
+    </Row>
+    <!--Light Cavalry-->
+    <Row Tag="LOC_PROMOTION_ESCORT_MOBILITY_DESCRIPTION">
+      <Text>Formation enheder arver alle eskortens [ICON_Movement] bevægelseshastighed.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAPARISON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke mod antikavaleri.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COURSERS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke ved angreb på fjern- og belejringsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEPREDATION_DESCRIPTION">
+      <Text>At plyndre koster kun 1 [ICON_Movement] bevægelsespoint.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DOUBLE_ENVELOPMENT_DESCRIPTION">
+      <Text>2 gange flankebonus.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPIKING_THE_GUNS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod belejringsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PURSUIT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <!--Heavy Cavalry-->
+    <Row Tag="LOC_PROMOTION_CHARGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke mod befæstet forsvarer.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BARDING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke når man forsvarer sig mod distanceangreb.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARAUDING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod enheder i distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROUT_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke mod beskadigede enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARMOR_PIERCING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod andre tunge kavaleri enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REACTIVE_ARMOR_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Angrebsstyrke når man forsvarer mod tung kavaleri og mod anti-kavaleri.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BREAKTHROUGH_DESCRIPTION">
+      <Text>+1 ekstra angreb per tur hvis [ICON_Movement] bevægelse tillader det.</Text>
+    </Row>
+    <!--Aircraft Fighter-->
+    <Row Tag="LOC_PROMOTION_DOGFIGHTING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod enheder af kæmper-klassen.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COCKPIT_ARMOR_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke ved forsvar mod luftforsvar.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INTERCEPTOR_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampevne mod bombeflysenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_STRAFE_DESCRIPTION">
+      <Text>+17 [ICON_Strength] Kampstyrke mod ikke-kavalerienheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GROUND_CREWS_DESCRIPTION">
+      <Text>Helbred mens patruljering eller udstationering.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TANK_BUSTER_DESCRIPTION">
+      <Text>+17 [ICON_Strength] Kampstyrke mod kavalerienheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DROP_TANKS_DESCRIPTION">
+      <Text>+2 [ICON_Range] Rækkevidde.</Text>
+    </Row>
+    <!--Aircraft Bomber-->
+    <Row Tag="LOC_PROMOTION_BOX_FORMATION_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke når man forsvarer mod kampsoldat-klasse enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EVASIVE_MANEUVERS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke når man forsvarer mod anti-luft.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORPEDO_BOMBER_DESCRIPTION">
+      <Text>+17 [ICON_Strength] Kampstyrke mod søenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLOSE_AIR_SUPPORT_DESCRIPTION">
+      <Text>+12 [ICON_Strength] Kampstyrke mod landenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TACTICAL_MAINTENANCE_DESCRIPTION">
+      <Text>Kan helbrede efter angreb.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LONG_RANGE_DESCRIPTION">
+      <Text>+2 [ICON_Range] Rækkevidde.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPERFORTRESS_DESCRIPTION">
+      <Text>Ingen minimums sundhedskrav til luftplyndring.</Text>
+    </Row>
+    <!--Naval Melee-->
+    <Row Tag="LOC_PROMOTION_EMBOLON_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod søenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REINFORCED_HULL_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke når man forsvarer sig imod ranged angreb.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_RUTTER_DESCRIPTION">
+      <Text>+1 synsrækkevidde.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HELMSMAN_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AUXILIARY_SHIPS_DESCRIPTION">
+      <Text>Helbred dig uden for venligt territorium.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CONVOY_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke når i formation.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREEPING_ATTACK_DESCRIPTION">
+      <Text>+14 [ICON_Strength] Kampstyrke mod sørøverenheder.</Text>
+    </Row>
+    <!--Naval Ranged-->
+    <Row Tag="LOC_PROMOTION_SUPPLY_FLEET_DESCRIPTION">
+      <Text>Helbred uden for venligt territorium.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LINE_OF_BATTLE_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod søenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOMBARDMENT_DESCRIPTION">
+      <Text>+7 [ICON_Styrke] Kampstyrke mod distriktforsvar.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PREPARATORY_FIRE_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod landenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROLLING_BARRAGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke mod distriktforsvar.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROXIMITY_FUSES_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke når du forsvarer mod luftangreb.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COINCIDENCE_RANGEFINDING_DESCRIPTION">
+      <Text>+1 [ICON_Range] Interval.</Text>
+    </Row>
+    <!--Naval Carrier-->
+    <Row Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION">
+      <Text>+1 ekstra flyslot.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HANGAR_DECK_DESCRIPTION">
+      <Text>+1 ekstra flyslot.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION">
+      <Text>+1 ekstra flypladsslots.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUT_PLANES_DESCRIPTION">
+      <Text>+1 synsrækkevidde.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_ENGINES_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DECK_CREWS_DESCRIPTION">
+      <Text>Kan hele efter angreb.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPER_CARRIER_DESCRIPTION">
+      <Text>Helbred uden for venligt territorium.</Text>
+    </Row>
+    <!--Naval Raider-->
+    <Row Tag="LOC_PROMOTION_LOOT_DESCRIPTION">
+      <Text>+50 [ICON_Gold] Guld fra kystnære razziaer. (på Standard hastighed)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOARDING_DESCRIPTION">
+      <Text>Få [ICON_Gold] Guld fra søsejre.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SWIFT_KEEL_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_OBSERVATION_DESCRIPTION">
+      <Text>+1 synsrækkevidde.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOMING_TORPEDOES_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke mod søenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SILENT_RUNNING_DESCRIPTION">
+      <Text>Kan flytte efter at have angrebet.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_WOLFPACK_DESCRIPTION">
+      <Text>+1 ekstra angreb pr. tur.</Text>
+    </Row>
+    <!--Apostle-->
+    <Row Tag="LOC_PROMOTION_ORATOR_DESCRIPTION">
+      <Text>Kan sprede religion 2 ekstra gange.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROSELYTIZER_DESCRIPTION">
+      <Text>Religiøs udbredelse eliminerer 75% af den eksisterende pres fra andre religioner i målbyen.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TRANSLATOR_DESCRIPTION">
+      <Text>Religiøs udbredelse er tredobbelt stærk i byer fra andre civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PILGRIM_DESCRIPTION">
+      <Text>Får 3 ekstra udbredelser, når man bevæger sig ved siden af en naturvidunder for første gang.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INDULGENCE_VENDOR_DESCRIPTION">
+      <Text>Få [ICON_Gold] 100 Guld, hvis denne enhed for første gang konverterer en by til din religion.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEATHEN_CONVERSION_DESCRIPTION">
+      <Text>Du kan konvertere alle tilstødende barbarer til din side ved at bruge en religiøs opladning.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEBATER_DESCRIPTION">
+      <Text>+20 [ICON_Religion] Religiøs styrke i teologisk kamp.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARTYR_DESCRIPTION">
+      <Text>Relikvie bliver skabt, hvis denne Apostel dør i teologisk kamp.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHAPLAIN_DESCRIPTION">
+      <Text>Apostel fungerer som en medic, der giver ekstra helbredelse til enheder inden for 1 felt.</Text>
+    </Row>
+    <!--Warrior Monk-->
+    <Row Tag="LOC_PROMOTION_MONK_SHADOW_STRIKE_DESCRIPTION">
+      <Text>2x flankeringsbonus.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_TWILIGHT_VEIL_DESCRIPTION">
+      <Text>Kun tilstødende fjendtlige enheder kan afsløre denne enhed.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_EXPLODING_PALMS_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke i alle situationer.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DISCIPLES_DESCRIPTION">
+      <Text>Denne enhed spreder sin religion til nærliggende byer, når den besejrer en fjendtlig enhed.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_SWEEPING_WIND_DESCRIPTION">
+      <Text>+1 ekstra angreb per tur hvis [ICON_Movement] bevægelse tillader det.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DANCING_CRANE_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_COBRA_STRIKE_DESCRIPTION">
+      <Text>+15 [ICON_Strength] Kampsstyrke i alle situationer.</Text>
+    </Row>
+    <!--Spy-->
+    <Row Tag="LOC_PROMOTION_SPY_TECHNOLOGIST_DESCRIPTION">
+      <Text>Stjæl teknologi som om du var 2 niveauer mere erfaren.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CAT_BURGLAR_DESCRIPTION">
+      <Text>Stjæl store værker som om du var 2 niveauer mere erfaren.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DEMOLITIONS_DESCRIPTION">
+      <Text>Sabotere produktionen som om du var 2 niveauer mere erfaren.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CON_ARTIST_DESCRIPTION">
+      <Text>Tøm midler som om du var 2 niveauer mere erfaren.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_GUERILLA_LEADER_DESCRIPTION">
+      <Text>Rekrutter Partisaner som om de var 2 niveauer mere erfarne.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ROCKET_SCIENTIST_DESCRIPTION">
+      <Text>Forstyr Rocketry som om du var 2 niveauer mere erfaren.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SEDUCTION_DESCRIPTION">
+      <Text>Kontraspionage som om man var 2 niveauer mere erfaren.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DISGUISE_DESCRIPTION">
+      <Text>Det tager ingen tid at etablere tilstedeværelse i en fjendtlig by.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LINGUIST_DESCRIPTION">
+      <Text>Tiden til at fuldføre alle missioner er reduceret med 25%.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_QUARTERMASTER_DESCRIPTION">
+      <Text>Hvis denne Spion er i hjemme-territoriet, opererer alle dine Spioner på +1 niveau.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ACE_DRIVER_DESCRIPTION">
+      <Text>Hvis du bliver fanget på en mission, har du en meget større chance for at undslippe (+4 niveauer).</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

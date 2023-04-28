@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- REPLACEMENTS -->
+    <Delete Tag="LOC_PRODUCTION_ITEM_DECONTAMINATE" />
+    <Delete Tag="LOC_TOOLTIP_PLOT_CONTAMINATED_TEXT" />
+    <Delete Tag="LOC_GOVERNMENT_MONARCHY_NAME" />
+    <Delete Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY" />
+    <Delete Tag="LOC_HUD_CITY_PURCHASE_TILE" />
+    <Delete Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING" />
+  </LocalizedText>
+  <EnglishText>
+    <!-- REPLACEMENTS -->
+    <Row Tag="LOC_PRODUCTION_ITEM_DECONTAMINATE">
+      <Text>(Pestramt)</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PLOT_CONTAMINATED_TEXT">
+      <Text>[COLOR:Civ6Red]RAMT AF PEST: {1_Turns} ture[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_MONARCHY_NAME">
+      <Text>Katolsk Monarki</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY">
+      <Text>+3 [ICON_Faith] Tro på enhver by. Bonus [ICON_Faith] Tro svarende til 50% af styrken af hver fjendenhed dræbt.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_PURCHASE_TILE">
+      <Text>Tvinge fliser</Text>
+    </Row>
+    <!-- City Names -->
+    <Row Tag="LOC_CITY_NAME_BREST">
+      <Text>Brest</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ANGERS">
+      <Text>Angers (this is already in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_LANCASTER">
+      <Text>Lancaster</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_DUBLIN">
+      <Text>Dublin</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MUNICH">
+      <Text>München</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_STRASBOURG">
+      <Text>Strasbourg</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BRANDENBURG">
+      <Text>Brandenburg</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_LEON">
+      <Text>León (no translation needed as it is a proper noun and the same in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_UTRECHT">
+      <Text>Utrecht</Text>
+    </Row>
+    <!-- Units -->
+    <Row Tag="LOC_UNIT_SCHOLAR_NAME">
+      <Text>Stipendiat</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCHOLAR_DESCRIPTION">
+      <Text>Civil enhed, der kan undersøge pestramte byer for at opnå [Icon_Science] Videnskab. Lærde kan bruges 2 gange. Dette kan øges med Studia Generalia-politikken.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PLAGUE_DOCTOR_NAME">
+      <Text>Pestdoktor</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PLAGUE_DOCTOR_DESCRIPTION">
+      <Text>En civil enhed, der kan forkorte pestens varighed på pestramte fliser og genoprette loyalitet til byer. Pestlæger kan bruges 2 gange. Dette kan øges med politikken Studia Generalia.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FLAGELLANT_NAME">
+      <Text>Flagellant (Note: "Flagellant" is a proper noun and is not commonly translated in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FLAGELLANT_DESCRIPTION">
+      <Text>Civil enhed, der kan opnå [Icon_Faith] Tro, [Icon_Culture] Kultur og loyalitet fra pesthærgede byer.</Text>
+    </Row>
+    <!-- Unit Commands -->
+    <Row Tag="LOC_UNITCOMMAND_STUDY_NAME">
+      <Text>Studér Pest</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_STUDY_DESCRIPTION">
+      <Text>Få {1_Num} [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_STUDY_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Skal anvendes i en pest-ramt by. Kan ikke anvendes i en by, der tidligere er blevet undersøgt.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_NAME">
+      <Text>Sygehuspræst</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_DESCRIPTION">
+      <Text>Reducér varigheden af pesten på denne flise med 50%.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Skal anvendes på en flise, der er ramt af pest.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_NAME">
+      <Text>Berolig byen</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_DESCRIPTION">
+      <Text>Tilføj {1_Num} loyalitet til byen.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Skal bruges i en by.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_NAME">
+      <Text>Rens synder</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_DESCRIPTION">
+      <Text>Få {1_Num} [ICON_Faith] Tro og {2_Num} [ICON_Culture] Kultur. Tilføj {3_Num} loyalitet til byen. Flagellanten forbruges af denne handling.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Skal bruges i en by ramt af en pest.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_NAME">
+      <Text>Hellig Begejstring</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_DESCRIPTION">
+      <Text>Brug {1_Num} [ICON_Faith] Tro for at genskabe denne enheds bevægelses- og angrebspunkter. Kan kun bruges en gang pr. tur.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Kan kun bruges efter at have bevæget sig eller udført en handling.[ENDCOLOR]</Text>
+    </Row>
+    <!-- Unit Abilities -->
+    <Row Tag="LOC_ABILITY_TEUTONIC_KNIGHT_NAME">
+      <Text>Korsfarer iver</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TEUTONIC_KNIGHT_DESCRIPTION">
+      <Text>+8 [ICON_Strength] Kampstyrke i fjendtligt territorium.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SCENARIO_ABILITY_TEUTONIC_KNIGHT_STRENGTH_ENEMY_TERRITORY_DESCRIPTION">
+      <Text>+{1_Amount} Kampstyrke i fjendtligt territorium.</Text>
+    </Row>
+    <!-- Districts -->
+    <Row Tag="LOC_DISTRICT_WALLED_QUARTER_NAME">
+      <Text>Område omgivet af mure</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
+      <Text>15% chance for at undgå dødsfald på grund af pest hver tur.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_THEATER_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kultur fra det tilstødende Teaterkvarter.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMMERCIAL_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra den tilstødende handelsbydistrikt.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOLY_SITE_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra den tilstødende Helige Sted-bydel.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CAMPUS_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Videnskab fra det tilstødende Campus-kvarter.</Text>
+    </Row>
+    <!-- Buildings -->
+    <Row Tag="LOC_BUILDING_GUILDHALL_NAME">
+      <Text>Rådhuset</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MASS_GRAVE_NAME">
+      <Text>Massegrav</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MASS_GRAVE_DESCRIPTION">
+      <Text>Reducer pestens varighed i denne by med 2 ture (til en minimum af 1).</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_SEWER_DESCRIPTION">
+      <Text>20% chance for at undgå pest dødsfald hver tur.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_NAME">
+      <Text>Pesthospital</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION">
+      <Text>+50% [ICON_Produktion] Produktion, når man bygger Lærde og Pestlæger.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KEEP_NAME">
+      <Text>Behold</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KEEP_DESCRIPTION">
+      <Text>Reducer pestens varighed i denne by med 1 tur (til et minimum af 1).</Text>
+    </Row>
+    <!-- Techs -->
+    <Row Tag="LOC_TECH_SCENARIO_CIVIL_ENGINEERING_NAME">
+      <Text>Bygge- og anlægsteknik</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_MEDICINE_NAME">
+      <Text>Medicin</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_INVENTION_NAME">
+      <Text>Opfindelse</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_INVENTION_DESCRIPTION">
+      <Text>Vind scenariet.</Text>
+    </Row>
+    <!-- Civics -->
+    <Row Tag="LOC_CIVIC_SCENARIO_FEUDALISM_DESCRIPTION">
+      <Text>+1 [ICON_Food] Forbedringer af mad fra gården.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_WAGE_REFORM_NAME">
+      <Text>Lønreform</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_HIGHER_LEARNING_NAME">
+      <Text>Højere uddannelse</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_LABOR_ECONOMY_NAME">
+      <Text>Arbejdsmarkedøkonomi</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_URBANIZATION_NAME">
+      <Text>Urbanisering</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_MIDDLE_CLASS_NAME">
+      <Text>Den Mellemklasse</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_MIDDLE_CLASS_DESCRIPTION">
+      <Text>Vind scenariet.</Text>
+    </Row>
+    <!-- Policies -->
+    <Row Tag="LOC_SCENARIO_POLICY_CHIVALRY_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til militære enheder.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_SERFDOM_DESCRIPTION">
+      <Text>Gårde og plantager modtager +1 [ICON_Food] mad.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_TOWN_CHARTERS_DESCRIPTION">
+      <Text>+100% handelskvarterets tilstødende bonusser.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_MERITOCRACY_DESCRIPTION">
+      <Text>+100% bonus for tilstødende campusområde.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEALTY_NAME">
+      <Text>Troskab</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEALTY_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til civile enheder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_UNDERCLASS_NAME">
+      <Text>Byunderklasse i byen</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_UNDERCLASS_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Guld og +2 [ICON_Faith] Tro i alle byer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STUDIA_GENERALIA_NAME">
+      <Text>Studia Generalia</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STUDIA_GENERALIA_DESCRIPTION">
+      <Text>Nyuddannede Geleddyr får 2 ekstra ladninger. Nyuddannede Pestlæger får 1 ekstra ladning.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COTTAGE_INDUSTRIES_NAME">
+      <Text>Hytteindustrier</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COTTAGE_INDUSTRIES_DESCRIPTION">
+      <Text>+3 [ICON_Gold] Guld fra Workshop-bygninger.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SKILLED_TRADES_NAME">
+      <Text>Skilled Trades</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SKILLED_TRADES_DESCRIPTION">
+      <Text>+100% bonus for naboskab med industriområdet.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_SERVANTS_NAME">
+      <Text>Offentlige tjenestemænd</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_SERVANTS_DESCRIPTION">
+      <Text>50% rabat ved køb af bygninger og civilsamfunds enheder med [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPECIALIZATION_NAME">
+      <Text>Specialisering</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPECIALIZATION_DESCRIPTION">
+      <Text>+4 [ICON_Production] Production from Factory buildings.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COMMERCIAL_LEAGUE_NAME">
+      <Text>Erhvervsligaen</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COMMERCIAL_LEAGUE_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Guld fra Guildhall-bygningerne.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INDENTURE_NAME">
+      <Text>Indenture</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INDENTURE_DESCRIPTION">
+      <Text>Parceller med forbedringer kan arbejdes på, selvom der er en epidemi.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LABOR_MARKET_NAME">
+      <Text>Arbejdsmarked</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LABOR_MARKET_DESCRIPTION">
+      <Text>+1 [ICON_Housing] Bolig pr. bydel, +2 [ICON_Gold] Guld i alle byer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CIVIL_QUARANTINE_NAME">
+      <Text>Civil karantæne</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CIVIL_QUARANTINE_DESCRIPTION">
+      <Text>+2 [ICON_Science] Videnskab fra Campus-distrikterne. Byer ramt af pest har en 10% chance for at undgå [ICON_Citizen] Befolkningsnedgang hver tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POGROM_NAME">
+      <Text>Pogrom. (The word is the same in both English and Danish.)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POGROM_DESCRIPTION">
+      <Text>+2 [ICON_Culture] Kultur, +4 [ICON_Gold] Guld i alle byer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PATRONAGE_NAME">
+      <Text>Protektion</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PATRONAGE_DESCRIPTION">
+      <Text>+100% bonus for tilstødende kvarterer i Theater Square.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NOBLESSE_OBLIGE_NAME">
+      <Text>Noblesse Oblige (this is a French phrase, and it is typically not translated into other languages)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NOBLESSE_OBLIGE_DESCRIPTION">
+      <Text>Enhedsvedligeholdelse reduceret med 1 [ICON_Gold] Guld per tur, per enhed.</Text>
+    </Row>
+    <!-- Misc -->
+    <Row Tag="LOC_SCENARIO_GOVT_INHERENT_BONUS_MONARCHY">
+      <Text>None.</Text>
+    </Row>
+    <!-- ************************************************ -->
+    <!-- UI -->
+    <!-- ************************************************ -->
+    <!-- HUD -->
+    <Row Tag="LOC_SCENARIO_HUD_CHARGES">
+      <Text>Omkostninger</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_PLAGUE_POS">
+      <Text>[COLOR:FoodDark]+{1_Num} Pest[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_PLAGUE">
+      <Text>[COLOR:FoodDark]{1_Num} Pest[/ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_LOYALTY_POS">
+      <Text>[COLOR:Happiness]+{1_Num} Loyalitet[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_LOYALTY">
+      <Text>[COLOR:Happiness]{1_Num} Trofasthed[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_HOLY_FERVOR">
+      <Text>[COLOR_FLOAT_FAITH]Hellig iver![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_NAME">
+      <Text>Pavens politik</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_DESC">
+      <Text>Vedligeholdelse: {1_Num} [ICON_Faith] Tro per tur</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_FAITH_TT">
+      <Text>{1_Num} fra Pavepolitikken</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCE_LABEL">
+      <Text>Tvinge ({1_Num} [ICON_Gold] Guld)</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCE_TT">
+      <Text>Tving denne flise i {1_NumTurns} omgange. Tvungne fliser kan bearbejdes, forbedres eller bygges på normalt, selv når de er ramt af en epidemi.</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_YOU_NEED_MORE_GOLD_TO_COERCE">
+      <Text>Du har brug for {1_num} mere [ICON_Gold] Guld for at overtale dette felt.</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCED_TURNS_LABEL">
+      <Text>Tvunget: {1_Num} Ture</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS">
+      <Text>Pest</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_TT">
+      <Text>Viser fliser inficeret med Den Sorte Død (sorte fliser er på højdepunktet af infektionen, hvide fliser er tæt på at komme sig efter infektionen).</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_KEY_MIN">
+      <Text>Pest til stede</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_KEY_MAX">
+      <Text>Pest Epidemi</Text>
+    </Row>
+    <!-- Notifications -->
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_RUMOR_MESSAGE">
+      <Text>Pest Rygte</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_RUMOR_SUMMARY">
+      <Text>Der er kommet nyheder om, at Den Sorte Død måske er til stede i byen {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_OUTBREAK_MESSAGE">
+      <Text>Pestudbrud!</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_OUTBREAK_SUMMARY">
+      <Text>Den Sorte Død er ankommet til vores by {1_CityName}!</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_FRANCE_PAPAL_SLOT_SUMMARY">
+      <Text>Der er ikke tilstrækkelig [ICON_Faith] tro til at opretholde brugen af vores pavelige politikplads.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_FRANCE_PAPAL_SLOT_MESSAGE">
+      <Text>Pavens politik droppedes!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING">
+      <Text>Du har mistet en {1_UnitName} på grund af pest.</Text>
+    </Row>
+    <!-- Victory Conditions -->
+    <Row Tag="LOC_WORLD_RANKINGS_BLACKDEATH_SCENARIO_RULES">
+      <Text>In this scenario you must guide your Medieval civilization through the infamous Black Death, keeping its cultural and scientific efforts alive as the population suffers death and despair. To win, you must unlock either the final Technology (Invention) or the final Civic (The Middle Class), sowing the seed of the Enlightenment to come.[NEWLINE][NEWLINE]THE PLAGUE[NEWLINE][NEWLINE]Over 85 turns the Black Death will sweep across the continent in waves. It originates in port cities in every nation and spreads outward across the landscape. It can spread to any land tile except Mountains, and will spread more easily to cities, roads, Coasts that contain Harbor districts, and rural improvements. When the plague arrives in a tile it becomes [COLOR:Red]Plague-Stricken[ENDCOLOR] for a number of turns. When the turns are up the tile will recover, but while plague-stricken it suffers the following effects:[NEWLINE][NEWLINE][COLOR:Red][ICON_BULLET]Plague-stricken tiles cannot be worked by citizens, cannot be improved or repaired, and cannot be used to construct districts or add buildings if a district already exists[NEWLINE][NEWLINE][ICON_BULLET]If the tile is a city center, there is a high chance one population will die each turn the plague remains. This chance can be reduced by constructing certain buildings or using certain government policies[NEWLINE][NEWLINE][ICON_BULLET]Units that end their turn on a plague-stricken tiles suffer 20 damage[ENDCOLOR][NEWLINE][NEWLINE]To combat the Black Death, look to preserve your cities' power to keep working through the calamity. Build essential districts while your citizens are able. Keep your [ICON_Gold] Gold and [ICON_Faith] Faith reserves high to purchase buildings and units when your cities are crippled. Establish centers of science and culture early and protect them as best you can. When Plague Doctors become available, use them to safeguard your most vulnerable areas or shore up the Loyalty of cities that are wavering.[NEWLINE][NEWLINE]Difficulty affects [ICON_GOLD] Gold and [ICON_FAITH] Faith.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_BLACKDEATH_REQUIRES_PLAYER_HAS_FINAL_CIVIC_PROGRESS">
+      <Text>Statsborgerskab: {NumCompleted}/{NumTotal} (~{EstimatedTurns}[ICON_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_BLACKDEATH_REQUIRES_PLAYER_HAS_FINAL_TECH_PROGRESS">
+      <Text>Teknologier: {NumCompleted}/{NumTotal} (~{EstimatedTurns}[ICON_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_VICTORY_BLACKDEATH_SCENARIO">
+      <Text>{1_CompletedCivics}/{2_TotalCivics} Civics, {3_CompletedTechs}/{4_TotalTechs} Teknologier</Text>
+    </Row>
+    <!-- Tooltips -->
+    <Row Tag="LOC_CITY_BANNER_PLAGUE_TT">
+      <Text>Denne by er blevet ramt af pest. Den vil miste loyalitet og potentielt [ICON_Citizen] befolkning hver tur, som pesten bliver ved med at være der.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CULTURE_THEATER">
+      <Text>+{1_num} [ICON_Culture] Kultur fra det tilstødende teater.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GOLD_COMMERCIAL_HUB">
+      <Text>+{1_num} [ICON_Gold] Guld fra den tilstødende kommercielle hub.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_FAITH_HOLY_SITE">
+      <Text>+{1_num} [ICON_Faith] Tro fra den tilstødende hellige site.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCIENCE_CAMPUS">
+      <Text>+{1_num} [ICON_Science] Videnskab fra den tilstødende campus.</Text>
+    </Row>
+    <!--Historic Rankings-->
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_1_NAME">
+      <Text>Uden plet</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_1_QUOTE">
+      <Text>Og hvis præsten kommer ind og ser på det, og se, at sygdommen ikke har spredt sig i huset efter at det var pudset op, så skal præsten erklære huset rent, fordi sygdommen er helbredt.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_2_NAME">
+      <Text>Pestdoktor</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_2_QUOTE">
+      <Text>For, ligesom det er tilfældet i alle andre kunstarter, adskiller dem, der praktiserer dem, sig meget fra hinanden i dygtighed og viden, og det er også tilfældet med medicin.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_3_NAME">
+      <Text>Tredje Stand</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_3_QUOTE">
+      <Text>Bagere og bryggere,/Og mange købmænd;/Uldvævere,/Og linnedvævere,/Skræddere og tinsmede,/Og toldere på markederne,/Murer og minearbejdere,/Og mange andre håndværk.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_4_NAME">
+      <Text>Filosof</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_4_QUOTE">
+      <Text>Selvom de ting, som er uden for menneskets viden, ikke kan søges af mennesket gennem sin fornuft, må de dog, når de er åbenbaret af Gud, accepteres ved tro.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_5_NAME">
+      <Text>Mendicant (Mendikant)</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_5_QUOTE">
+      <Text>Jeg fandt dem der brødre,/Alle de fire ordener,/Prædikende for folket/For deres egen fordel</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_6_NAME">
+      <Text>Rottefænger</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_6_QUOTE">
+      <Text>Hvorfor skal en hund, en hest, en rotte have liv, og du slet ikke nogen ånde?</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_7_NAME">
+      <Text>Graver</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_7_QUOTE">
+      <Text>...til hvilken som helst grav de først fandt ledig, uden at besvære sig selv med en for lang eller formal ceremoni.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_8_NAME">
+      <Text>Flagellant. (This word does not require translation as it is the same in Danish.)</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_8_QUOTE">
+      <Text>Pie Jesu Domine, giv dem hvile.</Text>
+    </Row>
+    <!-- Popup Events -->
+    <Row Tag="LOC_POPUP_SCENARIO_GENERIC_WHICH_PATH">
+      <Text>Hvilken vej vil du vælge?</Text>
+    </Row>
+    <!-- A New Plague Appears (Intro) -->
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_TITLE">
+      <Text>En ny sygdom opstår</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_DESCRIPTION">
+      <Text>Rygterne siger, at en dødelig sygdom er brudt ud i de travle havne i Middelhavet. Den kan allerede være på vej til dine kyster i lastrummet på handelsskibe eller på bagsiden af vogne.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_EFFECT">
+      <Text>Hold øje med dine veje og havne for det første tegn på udbruddet. Du vil skal handle hurtigt for at begrænse spredningen.</Text>
+    </Row>
+    <!-- Outbreak! -->
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_TITLE">
+      <Text>Udbrud!</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_DESCRIPTION">
+      <Text>Pesten er ankommet til [COLOR:Civ6Yellow]{1_CityName}[ENDCOLOR]! Ikke længere blot et rygte, sygdommen er nu iblandt os, og befolkningen er ved at falde i rædsel og panik.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_EFFECT">
+      <Text>Dødstallet kan være uundgåeligt, men vi skal stadig holde byen stabil samtidig med at vi sænker yderligere spredning.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_REPEAT_DESCRIPTION">
+      <Text>Pesten er ankommet til [COLOR:Civ6Yellow]{1_CityName}[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_REPEAT_EFFECT">
+      <Text>Som med tidligere udbrud vil denne by blive lammet, da dens fliser og distrikter bliver ubrugelige, og befolkningen falder. Vær opmærksom på truslen om sult og tab af loyalitet.</Text>
+    </Row>
+    <!-- The Nobility Flees -->
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_TITLE">
+      <Text>Adelen Flygter</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_DESCRIPTION">
+      <Text>Velhavende jordejere skylder miasmaet - rådne dampe, der findes i de tætte byer - skylden for den dødelige sygdom. De flygter i hobetal til deres landejendomme, tager deres tjenere med sig og forlader gaderne til de fattige og hjemløse.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_EFFECT">
+      <Text>Frygt driver nogle befolkningsgrupper mod dine byer, og andre væk fra dem. Nye politikker giver dig mulighed for at vælge, hvem du vil støtte.</Text>
+    </Row>
+    <!-- False Cures, Empty Promises -->
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_TITLE">
+      <Text>Falske kurer, tomme løfter</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_DESCRIPTION">
+      <Text>Mange hævder at have magten eller viden til at stoppe pesten. Men uanset om det er kvaksalvere, præster, læger eller konger, så tilsidesætter pesten dem alle. Folk er fortvivlede og desperat efter svar.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_EFFECT">
+      <Text>Nye politikker tillader dig at tage mere drastiske foranstaltninger for at lette offentlighedens sind.</Text>
+    </Row>
+    <!-- We All Fall Down -->
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_TITLE">
+      <Text>Vi alle falder ned</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_DESCRIPTION">
+      <Text>Pesten og dens grufulde høst dækker landet. Overalt hvor dine folk vender sig, konfronterer døden dem. Hvad er meningen med at stræbe, når både høje og lave, rige og fattige rammes ligeledes?</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_EFFECT">
+      <Text>-30% [ICON_Food] Vækst, -3 [ICON_Production] Produktion, -3 [ICON_Gold] Guld og -3 [ICON_Faith] Tro i alle byer.</Text>
+    </Row>
+    <!-- Sick in Body and Soul -->
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_TITLE">
+      <Text>Syg i krop og sjæl</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_DESCRIPTION">
+      <Text>Sygdommen fejer henover nationen og vælter den stabilitet og de traditioner, vores samfund har støttet sig til i årtier. Dem, der har magten, sætter eksemplet for, hvordan man reagerer på den nedbrudte sociale orden.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_A">
+      <Text>Øv anger</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_A_EFFECT">
+      <Text>-2 [ICON_Produktion] Produktion, +3 [ICON_Tro] Tro i alle byer</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_B">
+      <Text>Omfavne Frådseri</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_B_EFFECT">
+      <Text>-20% Vækst [ICON_Food], +3 [ICON_Gold] Guld i alle byer</Text>
+    </Row>
+    <!-- Physician, Heal Thyself -->
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_TITLE">
+      <Text>Læge, helbred dig selv</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_DESCRIPTION">
+      <Text>Mens dødstallet stiger, søger folket hjælp fra myndighederne, som de stoler på. Mange bønfalder, at videnskaben har svaret, og ønsker at ansætte læger til at tage sig af de syge. Andre bliver drevet af fanatisme og kræver bod for at bede Gud om at stoppe pesten.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_CHOICE_A">
+      <Text>Behandle de syge</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_CHOICE_B">
+      <Text>Skam synderen</Text>
+    </Row>
+    <!-- The End of the World -->
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_TITLE">
+      <Text>Verdens ende</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_DESCRIPTION">
+      <Text>Dødstallet stiger langt ud over enhver forestillingsevne. Troen på kirken og staten er begge ved at smuldre, da fortvivlelse sætter ind. Samfundet kan ikke fortsætte som hidtil - et brud må komme.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_A">
+      <Text>Overgiv dig til Gud</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_A_EFFECT">
+      <Text>-3 til alle udbytter undtagen [ICON_Faith] Tro i alle byer</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_B">
+      <Text>Frafald Gud</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_B_EFFECT">
+      <Text>-10 [ICON_Faith] Tro i alle byer</Text>
+    </Row>
+    <!-- Is This God's Judgement? -->
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_TITLE">
+      <Text>Er dette Guds dom?</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_DESCRIPTION">
+      <Text>The dead fill the cities and overwhelm the graveyards. Even the most conservative witness the devastation and wonder if the world's wickedness has finally earned divine retribution.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_A">
+      <Text>Vores ånder er drænet</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_A_EFFECT">
+      <Text>-1 [ICON_Culture] Kultur, -1 [ICON_Faith] Tro i alle byer</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_B">
+      <Text>Vores indsats er ubrugelig</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_B_EFFECT">
+      <Text>-1 [ICON_Science] Videnskab, -10% [ICON_Food] Vækst i alle byer</Text>
+    </Row>
+    <!-- ************************************************ -->
+    <!-- CIVILOPEDIA -->
+    <!-- ************************************************ -->
+    <!--Units-->
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SCHOLAR_CHAPTER_HISTORY_PARA_1">
+      <Text>Inden Sortedøden var der en blomstrende periode af læring og uddannelse i Europa, og opkomsten af ​​universitetet skabte en ny klasse af uddannede professionelle, der helligede sig studierne. Nogle forskere fokuserede på praktiske anliggender som lov, men en stigende gruppe vendte sig mod spørgsmål om videnens natur og naturfilosofi, hvilket banede vejen for den tidlige Renæssance.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PLAGUE_DOCTOR_CHAPTER_HISTORY_PARA_1">
+      <Text>En af de mest iøjnefaldende figurer fra den sorte død er pestdoktoren, med hans makabre næbformede maske, lange kjoler og stok. Spidsen af ​​næbmasken ville indeholde en pose med aromatiske urter (den søde lugt blev fejlagtigt troet at afvise pesten). En pestdoktor ville blive kaldt ind, når en patient (eller død krop) mistænkes for at have kontraheret pesten. Han ville bruge sin stok eller stav til at undersøge patienten uden at røre ved dem for at bekræfte sagen eller rydde patienten</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FLAGELLANT_CHAPTER_HISTORY_PARA_1">
+      <Text>I den religiøst opladede verden i senmiddelalderen blev pesten betragtet som en guddommelig straf for menneskehedens synder. Nogle grupper af mennesker gennemførte handlinger af ekstrem offentlig bod på vegne af en syndig menneskehed, og de gik gennem landet og piskede eller "flagellerede" sig selv, hvorfra navnet stammer. I starten havde disse udstillinger en (mindst tavs) samtykke fra kirkeautoriteterne, men da praksis blev ekstrem, fordømte kirkeautoriteterne den. Dette stoppede ikke praksisen med flagellation eller processionerne af flagellanterne.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TEUTONIC_KNIGHT_CHAPTER_HISTORY_PARA_1">
+      <Text>En af de religiøse ordeners ridderskaber i Europa, De Tyske Riddere, førte Nordkorstoget mod de hedenske stammer i det baltiske område. De var særligt bemærkelsesværdige for deres aggressivitet, deres ukuelighed, deres rigdom og deres asketiske livsstil, selv efter korsfarerstandarder.</Text>
+    </Row>
+    <!--Districts-->
+    <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_WALLED_QUARTER_CHAPTER_HISTORY_PARA_1">
+      <Text>Uden en ordentlig forståelse af epidemiologien af pesten, opdagede byboere dog et system for at holde den sorte død i skak: At indhegne ofrene i en permanent karantæne. Denne drakoniske foranstaltning dømte de indhegnede ofre til en frygtelig skæbne, men kunne af og til bremse spredningen af pesten. Det er et eksempel på den forfærdelige beregning af lidelse i den sorte død, at nogle raske mennesker villigt accepterede karantæne snarere end at se pesten sprede sig.</Text>
+    </Row>
+    <!--Buildings-->
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GUILDHALL_CHAPTER_HISTORY_PARA_1">
+      <Text>En laugshal er en semi-offentlig bygning ejet af et laug, som giver et mødested for medlemmerne og viser deres rigdom og magt. De var ofte smukt dekorerede som et stærkt udtryk for bystolthed og handelsstolthed.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MASS_GRAVE_CHAPTER_HISTORY_PARA_1">
+      <Text>Mens dødstallet steg under Sortedøden, var individuelle begravelser upraktiske, og døde kroppe blev begravet i store mængder med den beskedenhed, der kunne gives til de døde. Nogle gange ville delvist nedbrudte kroppe blive gravet op og genbegravet sammen for at spare plads. I andre tilfælde blev kirkegårde så fyldt op, at de døde blev begravet over jorden. Ikke alle massegrave blev markeret, og de fortsætter med at blive opdaget i den nuværende tid.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PLAGUE_HOSPITAL_CHAPTER_HISTORY_PARA_1">
+      <Text>Byerne forsøgte at behandle pestofrene så godt som muligt eller i det mindste forsøge at minimere deres lidelse. Pesthospitaler kunne have ydet tvivlsom pleje på bedste vis, men i det mindste gav de deres patienter en vis håb om, at nogen bekymrede sig om dem.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_KEEP_CHAPTER_HISTORY_PARA_1">
+      <Text>Den centrale del af et slot eller befæstning, brugt som en tilflugt og sidste linje i forsvaret skulle de ydre mure blive brudt. Borge har ofte meget få og meget smalle indgange, således at en håndfuld forsvarere stadig kan holde invaderende fjender væk</Text>
+    </Row>
+    <!--Techs-->
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_CIVIL_ENGINEERING_CHAPTER_HISTORY_PARA_1">
+      <Text>Flere faktorer påvirkede forbedringerne inden for civilingeniørfaget i middelalderen, herunder vigtigheden af at bygge stærke slotte, betydningen af at belejre disse slotte og behovet for at bygge byer, der var i stand til at rumme store befolkninger uden at drukne i deres eget affald.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_INVENTION_CHAPTER_HISTORY_PARA_1">
+      <Text>Dygtige håndværkere og kunstnere begyndte at genopdage systemer og teknologier, der var kendt i den klassiske verden. Med så mange dødsfald under Den Sorte Død blev arbejdsbesparende maskiner mere vigtige.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_MEDICINE_CHAPTER_HISTORY_PARA_1">
+      <Text>Medicin er den praktiske kunst at balancere kroppens væsker - blod, slim, sort galde og gul galde - som Hippokrates beskrev det. Det kan omfatte studiet af astrologi (da de himmelske legemer påvirker disse væsker) og de fire primære elementer: ild, jord, luft og vand. Det er en passende studieretning for personer, der ikke er i stand til at værdsætte de sublime discipliner som logik og teologi.</Text>
+    </Row>
+    <!--Civics-->
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_WAGE_REFORM_CHAPTER_HISTORY_PARA_1">
+      <Text>Mangel på arbejdere efter pesten førte til nedgang i de traditionelle systemer af hoveri i Europa. Nu kunne landbrugs- og andre arbejdere forvente at få betalt løn for deres arbejde i stedet for at være tvunget til at udføre det.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_HIGHER_LEARNING_CHAPTER_HISTORY_PARA_1">
+      <Text>Genopdagelsen af romerske lovtekster i Middelalderen førte til væksten af universitetssystemet i byer som Bologna og Paris. Uddannelse blev bredt tilgængelig uden for kirken og lagde grundlaget for Renæssancen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_LABOR_ECONOMY_CHAPTER_HISTORY_PARA_1">
+      <Text>Manglen på arbejdere efter dødsfaldene under Sortedød hævede værdien af arbejdskraft. Adelen kunne ikke længere simpelthen slå bønderne til at arbejde på jorden, da disse utaknemmelige ville gå videre til en ny herre, som ville betale dem i mønter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_MIDDLE_CLASS_CHAPTER_HISTORY_PARA_1">
+      <Text>Stigningen af byer i Europa betød stigningen af en ny klasse uden for den traditionelle aristokrater-kirkelige-bonde model af den feudale verden. De fleste herskere så dem som en nyttig skattebase til at finansiere krige.</Text>
+    </Row>
+    <!--Policies-->
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_FEALTY_CHAPTER_HISTORY_PARA_1">
+      <Text>Fealty er processen med at aflægge troskab til en herre i et feudal system, såsom en ridder, der afgiver troskab til en baron, eller den baron, der afgiver tjeneste til en konge.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_UNDERCLASS_CHAPTER_HISTORY_PARA_1">
+      <Text>Stigningen af byer betød, at der udover samlinger af handlende og dygtige håndværkere opstod en klasse af individer, hvis sociale status blev anset for at være underlegen eller uønsket, fordi de ikke passede ind i samfundsnormerne i feudalperioden. Man kunne argumentere for, at disse holdninger stadig gælder den dag i dag.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_STUDIA_GENERALIA_CHAPTER_HISTORY_PARA_1">
+      <Text>Det oprindelige navn for universitetet eller uddannelsen givet ved universitetet, betyder "almene studier". I modsætning til de syv frie kunster var der ingen defineret læseplan for Studia, hvilket nødvendiggjorde, at universiteterne tilbød diplomet som anerkendelse af, at en studerende havde studeret med succes og måske havde lært noget.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COTTAGE_INDUSTRIES_CHAPTER_HISTORY_PARA_1">
+      <Text>En hytteindustri er en lille virksomhed, der er oprettet af enkeltpersoner eller familier, enten for at støtte sig selv eller for at give supplerende indkomst. Disse små virksomheder anses generelt for at være en del af overgangen fra feudale økonomier til markedsbaserede økonomier</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SKILLED_TRADES_CHAPTER_HISTORY_PARA_1">
+      <Text>Færdigheder inden for håndværk og kunst kan kun mestres gennem lang tids praksis, især inden for produktionen af værdifulde varer som sølvtøj, stof, glasvarer og maskiner. Håndværkere ville samles i byer, hvor de kunne arbejde sammen, træne fremtidige praktikere, fastsætte priser og forsøge at kontrollere markedet for deres varer. Dygtige håndværkere var nogle af de første ægte borger i middelklassen i historien.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PUBLIC_SERVANTS_CHAPTER_HISTORY_PARA_1">
+      <Text>Den voksende opfattelse af, at stater var politiske enheder ud over deres herskere, førte til væksten af en klasse af tjenere, der udtrykte deres pligt i form af tjeneste for staten, ikke dens hersker. Dette tillod dem at tjene statens bedste upartisk, men gjorde dem ikke mere populære, når det kom til at inddrive skatter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SPECIALIZATION_CHAPTER_HISTORY_PARA_1">
+      <Text>Når man fremstiller komplekse objekter, tillader det at have enkeltpersoner fokusere på én del af produktionen en højere produktionshastighed end at have en enkelt håndværker arbejde på et stykke fra materiale gennem færdiggørelse. Mange genstande blev bygget på denne måde gennem middelalderen og den tidlige moderne periode, inklusiv våben og rustning. Specialiseringens stigning ville omsider finde fuldere udtryk i den industrielle tidsalder og samlebåndet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COMMERCIAL_LEAGUE_CHAPTER_HISTORY_PARA_1">
+      <Text>Grupper af købmænd ville danne fællesskaber for at udøve større økonomisk magt. Disse handelsligaer ville senere danne grundlaget for de moderne banksystemer og valutaer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_INDENTURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Indenture er processen med at kontrahere ens arbejdskraft til en anden i en angivet periode med forventning om at opnå noget i enden. Det er processen, hvorved lærlinge blev bundet til mestre i starten af deres uddannelse.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LABOR_MARKET_CHAPTER_HISTORY_PARA_1">
+      <Text>På et tidspunkt var arbejdsmarkedet bogstaveligt talt et sted på markedet, hvor ufaglærte arbejdere ville samles og vente på at blive ansat til en given job. Det er stadig tilfældet et nogle steder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CIVIL_QUARANTINE_CHAPTER_HISTORY_PARA_1">
+      <Text>Karantæne er isolation af syge mennesker for at forhindre spredning af en sygdom blandt befolkningen. Gule flag har været brugt til at markere karantæneområder siden Pesten</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_POGROM_CHAPTER_HISTORY_PARA_1">
+      <Text>Fra det russiske ord, der betyder "at ødelægge", er en pogrom den systematiske drab og undertrykkelse af en gruppe med godkendelse fra staten. Den undertrykte gruppe er normalt en minoritet, såsom jøderne i Europa for størstedelen af Europas historie. Justificeringen er normalt en bagvaskelse for en forbrydelse, de ikke har begået. Pogroms har en lang og frygtelig historie og er sket alt for mange gange, på trods af at folk dybt og helligt sværger "og det vil aldrig ske igen" efter hver forekomst.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PATRONAGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Praksis med direkte støtte til en andens arbejde kaldes patrontjeneste. Patrontjeneste kan være en tydelig identifikator af rigdom, eller den kan udføres af virkelig selvopofrende årsager. Mange store kunstværker og litteraturværker blev udført på opfordring af velhavende patroner.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_NOBLESSE_OBLIGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Bogstaveligt talt betyder udtrykket "Adelen giver", at personer med højere social status og midler bør være generøse og give til dem med mindre. Uopfordret velgørenhed bliver ikke altid modtaget med den ydmyghed, som giveren forventer</Text>
+    </Row>
+    <!--Leaders-->
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_1">
+      <Text>Philip VI var den første franske konge af Valois-dynastiet, hvis regeringstid er defineret af starten på Hundredårs krigen med England. En af hans første handlinger var at undertrykke et oprør i Flandern og genindsætte Greve Louis. Hans relationer med Edward III af England begyndte godt, men forværredes over statussen af hertugdømmet Aquitaine og om Edward var Philips vasal eller ej. Dette og andre spørgsmål var nogle af de udløsende faktorer til Hundredårs krigen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_2">
+      <Text>Mens Philip holdt Edward i en krig med raid og attrition, havde han fordel på grund af rigdommen i Frankrig, men åben og afgørende kamp viste sig at være mere favorabelt for englænderne. Efter slaget ved Crecy i 1346 var den franske adel og deres allierede så hårdt decimeret, at Frankrigs Estates nægtede at betale for flere krige. Ankomsten af ​​den sorte død i 1348 var lige så ødelæggende, og dødsfaldene inkluderede dronning Joan, hans kone.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_1">
+      <Text>Måske Englands mest succesrige middelalderkonge, hans 50-årige regeringstid var præget af krige, opkomsten af Parlamentet og pesten. Hans far, Edward II, blev afsat, da Edward III kun var et barn, men Edward overtog hurtigt styringen på egen hånd.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_2">
+      <Text>Ved at føre krig mod Skotland og Frankrig var Edward III og hans underordnede kommandanter (især hans ældste søn, Edward the Black Prince) ansvarlige for mange af de største engelske sejre under Hundredårskrigen, inklusiv den maritime slag i Sluys. Edward III selv kommanderede styrkerne i slaget ved Crecy, hvor engelske bueskytter slagtede det bedste af den franske adel på en enkelt eftermiddag.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_3">
+      <Text>Den sorte død i 1361 markerer nedgangen og solnedgangen af hans regeringstid. Pestens død fratog ham ressourcerne, som var nødvendige for at kæmpe hans krige, og stigende sociale spændinger derhjemme beskæftigede ham for størstedelen af resten af hans liv</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kendt som Alfonso den retfærdige, var han konge af Castilien og Leon, og arvede tronen fra sin far, Ferdinand IV, da han kun var et år gammel. Da han blev myndig i 1325, knuste han med succes magtkampene mellem de adelige familier og indførte vigtige lovreformer i Alcala de Hernares-ordinanserne. Han førte også krig mod Marinid Berberne og vandt en vigtig sejr over dem i slaget ved Salado-floden i Andalusien</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_2">
+      <Text>Alfonso døde af den sorte død under en belejring af Gibraltar i 1350, og regeringen gik videre til hans søn, Peter den Grusomme</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_1">
+      <Text>Louis den Bayerske, den hellige romerske kejser, var den første Wittelsbach kejser af tyskerne. Hans tidlige regeringstid var præget af kampe mod både Habsburg og Luxembourg familierne og deres kravhavere til den kejserlige krone. Denne konflikt førte til en sekundær konflikt med paven, der ekskommunikerede Louis som kætter. Dette blev lidt akavet, da Louis blev kronet til kejser i Rom i 1328 af den romerske befolkning. Louis' regeringstid som kejser blev endelig sikret mest som et resultat af døden af hans rivaler og generel udmattelse i riget over de endeløse successionsskemaer fra de store huse.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_2">
+      <Text>Allieret med Edward III af England var han i opposition til Frankrig (og paven i Avignon), hvilket forværrede hans politiske situation derhjemme. På tidspunktet for hans død nær München i 1347 havde han ikke formået at etablere Wittelsbachs som et dominerende hus i kejserlig politik</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_1">
+      <Text>Det største politiske organ i Centraleuropa på tidspunktet for Den Sorte Død var en polyglot, multi-etnisk samling af kongeriger, fyrstedømmer, biskopper, hertugdømmer, frie byer, omtvistede områder, baronier og sogne, alle tilknyttet den sekulære regel af Kejseren. Magtfulde herskerfamilier og paven var ofte i konkurrence om effektiv kontrol eller autonomi for deres egne områder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_1">
+      <Text>Regionen Castile optager en stor del af det centrale område i dagens nation Spanien. I løbet af middelalderen var kongeriget normalt i krig med de muslimske regioner i det sydlige Spanien. Samlingen af kronerne i Castile og det nærliggende kongerige Leon ville sætte scenen for, at Castile blev den dominerende magt på Den Iberiske Halvø.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_1">
+      <Text>Plantagenet-familien, der herskede over England under den Sorte Død, havde krav på både den engelske og franske trone. De havde påbegyndt militære erobringer mod Skotland og Wales. Med tiden blev den engelske konge tvunget til at overgive magten til parlamentet og adelen, hvilket betød, at engelske konger var relativt mindre magtfulde end andre europæiske monarker.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_1">
+      <Text>I middelalderen var Frankrig en af de rigeste og mest velstående regioner i Europa. På dette tidspunkt havde kongerne af Frankrig direkte kontrol over en betydelig mængde territorium, hvilket gjorde dem til en af de mest centraliserede kongeriger i denne æra.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

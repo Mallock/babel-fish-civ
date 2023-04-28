@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- REPLACEMENTS -->
+    <Delete Tag="LOC_GREAT_PEOPLE_TITLE" />
+    <Delete Tag="LOC_HUD_GREATPEOPLE_TOOLTIP" />
+    <Delete Tag="LOC_BUILDING_ORACLE_DESCRIPTION" />
+    <Delete Tag="LOC_BUILDING_SHRINE_DESCRIPTION" />
+    <Delete Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" />
+    <Delete Tag="LOC_BUILDING_TEMPLE_DESCRIPTION" />
+  </LocalizedText>
+  <EnglishText>
+    <!-- REPLACEMENTS -->
+    <Row Tag="LOC_GREAT_PEOPLE_TITLE">
+      <Text>Helte og store personligheder</Text>
+    </Row>
+    <Row Tag="LOC_HUD_GREATPEOPLE_TOOLTIP">
+      <Text>Helte og Store Personer[NEWLINE][NEWLINE]Se tilgængelige [ICON_GreatPerson] Store Personer og din fremgang mod at opnå en [ICON_GreatPerson] Store Person[NEWLINE]Se alle opdagede Helte med deres nuværende status og evner</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ORACLE_DESCRIPTION">
+      <Text>At mindes heltene koster 15% mindre [ICON_Faith] Tro, og beskyttelse af store personer koster 25% mindre [ICON_Faith] Tro. Kvarterer i denne by giver +2 [ICON_GreatPerson] Store person-point af deres type (for eksempel [ICON_GreatWriter] Store forfatter-point fra Theater Square-kvarteret). Skal bygges på bakker.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SHRINE_DESCRIPTION">
+      <Text>Heltal-enheder, som er krævet eller tilbagekaldt i denne by, har en 10% længere [ICON_Lifespan] levetid. Tillader køb af missionærer. Missionærer kan kun købes med [ICON_Faith] tro.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION">
+      <Text>Alle Helte-enheder har 10% længere [ICON_Lifespan] Levetid. Øger væksten med 15% i alle byer. Skal bygges ved siden af en flod.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_DESCRIPTION">
+      <Text>At kalde helte tilbage i denne by koster 15% mindre [ICON_Faith] Tro. Tillader køb af apostle, guru, inkvisitorer og med den rette tro, krigsmunke. Disse enheder kan kun købes med [ICON_Faith] Tro.</Text>
+    </Row>
+    <!--Hero Units-->
+    <Row Tag="LOC_UNIT_HERO_ANANSI_NAME">
+      <Text>Anansi</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_ANANSI_DESCRIPTION">
+      <Text>Halvgud og rejsende i afrikansk folklore, berømt for sin intelligens og snedighed.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_ARTHUR_NAME">
+      <Text>Arthur</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_ARTHUR_DESCRIPTION">
+      <Text>Kongen og grundlæggeren af Riddernes Runde Bord, berømt for sin dyd og ridderlighed.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_BEOWULF_NAME">
+      <Text>Beowulf</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_BEOWULF_DESCRIPTION">
+      <Text>Mægtige kriger fra den fjerne nord, berømt for sin styrke og tapperhed i enkeltkampe.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HERCULES_NAME">
+      <Text>Herkules</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HERCULES_DESCRIPTION">
+      <Text>Halvgud med overmenneskelig styrke, berømt for sine berømte arbejder.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIMIKO_NAME">
+      <Text>Himiko</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIMIKO_DESCRIPTION">
+      <Text>Shaman-dronning fra det gamle Japan, kendt for sin visdom og mystiske kraft.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIPPOLYTA_NAME">
+      <Text>Hippolyta</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIPPOLYTA_DESCRIPTION">
+      <Text>Krigerdronning af Amazonerne, berømt for hendes lederskab og kampfærdigheder.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HUNAHPU_NAME">
+      <Plurality>2</Plurality>
+      <Text>Hunahpu og Xbalanque</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HUNAHPU_DESCRIPTION">
+      <Text>Legendariske atleter og helte fra Mayaerne, kendt for deres magt over døden og Underverdenen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_OYA_NAME">
+      <Text>Oya</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_OYA_DESCRIPTION">
+      <Text>Orisha af vinde, storme og lyn, berømt for hendes ekstreme magt.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MAUI_NAME">
+      <Text>Maui</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MAUI_DESCRIPTION">
+      <Text>Halvgud og helt fra polynesisk mytologi, berømt for sine bedrifter og gaver til menneskeheden.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MULAN_NAME">
+      <Text>Mulan</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MULAN_DESCRIPTION">
+      <Text>Hengiven og dygtig kriger, kendt for hendes hengivenhed og loyalitet.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_SINBAD_NAME">
+      <Text>Sinbad</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_SINBAD_DESCRIPTION">
+      <Text>[COLOR_LIGHTBLUE]Søhelt.[ENDCOLOR] Eventyrer og skattejæger, berømt for sine mærkværdige og fantastiske rejser.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_WUKONG_NAME">
+      <Text>Sun Wukong</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_WUKONG_DESCRIPTION">
+      <Text>Abe Kongen, helten fra det gamle Kina, berømt for sin snedighed og udødelighed.</Text>
+    </Row>
+    <!--Other Units-->
+    <Row Tag="LOC_UNIT_QUESTING_KNIGHT_NAME">
+      <Text>Hædersmand på mission</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_QUESTING_KNIGHT_DESCRIPTION">
+      <Text>Tungt Kavaleri. En af Arthurs udvalgte riddere og styrket af hans opladning.</Text>
+    </Row>
+    <!--Abilities and Classes-->
+    <Row Tag="LOC_HERO_CLASS_NAME">
+      <Text>Helt</Text>
+    </Row>
+    <Row Tag="LOC_HERO_ABILITY_COMBAT_STRENGTH_AOE_NAME">
+      <Text>Inspirerende</Text>
+    </Row>
+    <Row Tag="LOC_HERO_ABILITY_COMBAT_STRENGTH_AOE">
+      <Text>+5 [ICON_Styrke] Kampstyrke til alle enheder inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_HERO_COMBAT_STRENGTH_UNIT_MODIFIER">
+      <Text>+{1_Amount} [ICON_Strength] Kampbonus fra en inspirerende helt i nærheden.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HIPPOLYTA_HEAL_PER_TURN_NAME">
+      <Text>Hippolytas Gunst</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_HIPPOLYTA_HEAL_PER_TURN">
+      <Text>Hippolyta helbreder automatisk {1_Amount} HP hver tur.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HUNAHPU_RESURRECT_KILL_NAME">
+      <Text>Tvillingernes genopstandelse</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_HUNAHPU_RESURRECT_KILL">
+      <Text>Enhver almindelig landenhed, der bliver dræbt af Hunahpu &amp; Xbalanque, bliver genoplivet under din kontrol med fuld HP og bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MULAN_STRENGTH_PER_TURN_NAME">
+      <Text>Mulans Hengivenhed</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_MULAN_STRENGTH_PER_TURN">
+      <Text>Mulan får {1_Amount} [ICON_Strength] Kampstyrke hver tur.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MULAN_FORTIFY_NAME">
+      <Text>Mulan's Trods</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_MULAN_FORTIFY">
+      <Text>Mulan styrker sig fuldt ud automatisk i slutningen af hver tur.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WUKONG_STEALTH_NAME">
+      <Text>Sun Wukongs forklædning</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_WUKONG_STEALTH">
+      <Text>Sun Wukong er skjult, medmindre han er ved siden af en fjendtlig enhed.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WUKONG_LIFESPAN_NAME">
+      <Text>Sun Wukongs udødelighed</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WUKONG_LIFESPAN">
+      <Text>Sun Wukong har signifikant øget [ICON_Lifespan] levetiden.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SINBAD_GOLD_FOR_DISCOVERY_NAME">
+      <Text>Sinbads rejser</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_SINBAD_GOLD_FOR_DISCOVERY">
+      <Text>Sinbad tjener {1_GoldReward} [ICON_GOLD] Guld hver gang han opdager en kontinent eller naturvidunder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SINBAD_OCEAN_VALID_TERRAIN_NAME">
+      <Text>Navigator (This word is the same in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SINBAD_OCEAN_VALID_TERRAIN">
+      <Text>Kan gå på Ocean fliser.</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_TRAIT_SUMERIA_HEROES_LIFESPAN">
+      <Text>Alle helte-enheder har {1_Amount} længere [ICON_Lifespan] levetid.</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_TRAIT_SUMERIA_HEROES_FASTER_CLAIM">
+      <Text>{1_Amount}% [ICON_Production] Produktionsstigning fra Heroic Quests</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_FOREST_TERRAIN_COST_NAME">
+      <Text>Agil</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_FOREST_TERRAIN_COST">
+      <Text>Ignorerer [ICON_Movement] bevægelsesstraf i skov- og regnskovterræn.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_HILLS_TERRAIN_COST_NAME">
+      <Text>Robust</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_HILLS_TERRAIN_COST">
+      <Text>Ignorerer [ICON_Movement] bevægelsesstraf i bjergterræn.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_ALL_TERRAIN_COST_NAME">
+      <Text>Swift</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_ALL_TERRAIN_COST">
+      <Text>Ignorerer alle terræn [ICON_Movement] bevægelsesstraffe.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_ENTER_FOREIGN_LANDS_NAME">
+      <Text>Diplomatisk</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_ENTER_FOREIGN_LANDS_MODIFIER">
+      <Text>Kan rejse til andre lande, når der ikke er krig.</Text>
+    </Row>
+    <!--Building Modifier strings-->
+    <Row Tag="LOC_MODIFIER_ORACLE_RECALL_FAITH_COST_DISCOUNT">
+      <Text>{1_Amount} [ICON_Faith] Tro for at kalde helte tilbage.</Text>
+    </Row>
+    <!--Unit Commands-->
+    <Row Tag="LOC_UNITCOMMAND_KILL_WEAKER_UNIT_DESCRIPTION">
+      <Text>Beowulfs udfordring</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_KILL_WEAKER_UNIT_HELP">
+      <Text>Mål en tilstødende fjendtlig enhed med [ICON_Strength] kampstyrke mindre end Beowulfs. Beowulf ødelægger øjeblikkeligt målet. Koster 1 Opladning, 1 [ICON_MOVEMENT] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TRANSFORM_UNIT_DESCRIPTION">
+      <Text>Arthurs hyldest</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TRANSFORM_UNIT_HELP">
+      <Text>Sigte på en tilstødende land militær enhed, som du kontrollerer. Arthur transformerer enheden til en Questing Knight: en unik Heavy Cavalry enhed med øget [ICON_Strength] kampstyrke og {1_LifespanVal} [ICON_Lifespan] levetid. Koster 1 opladning, 1 [ICON_MOVEMENT] bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESOURCE_INSPIRE_DESCRIPTION">
+      <Text>Anansis Tricks (same in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESOURCE_INSPIRE_HELP">
+      <Text>Brug når placeret på en Bonus eller Luksus ressource. Anansi forbruger ressourcen og genererer {1_ScienceReward} [ICON_SCIENCE] Videnskab og {2_CultureReward} [ICON_CULTURE] Kultur. Enhver forbedring, der er til stede, ødelægges. Koster 1 Opladning og afslutter tur.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_COMPLETE_DISTRICT_DESCRIPTION">
+      <Text>Herakles' Arbejde</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_COMPLETE_DISTRICT_HELP">
+      <Text>Brug når du er placeret på et venligt distrikt under konstruktion. Hercules færdiggør straks konstruktionen af distriktet. Koster 2 Opladninger og afslutter tur.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_DESTROY_DEVELOPMENT_DESCRIPTION">
+      <Text>Herkules' Vrede</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_DESTROY_DEVELOPMENT_HELP">
+      <Text>Brug, når du befinder dig på en fjendtlig bydel. Hercules ødelægger alle bygninger i området og plyndrer bydelen. Koster 1 opladning og afslutter tur.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_GRANT_ENVOY_DESCRIPTION">
+      <Text>Himikos amulet</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_GRANT_ENVOY_HELP">
+      <Text>Sigte på enhver tilstødende bystat. Himiko placerer straks 1 gratis [ICON_Envoy] udsending i bystaten. Hvis du allerede er suzerain der, tjener Himiko også {1_FaithChange} [ICON_FAITH] tro. Koster 1 opladning og afslutter turen.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FORCE_LEVY_MILITARY_DESCRIPTION">
+      <Text>Himikos regel</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FORCE_LEVY_MILITARY_HELP">
+      <Text>Brug dette, når du er Suzerain af en Bystat inden for dens område. Himiko mobiliserer straks sin hær uden omkostninger. Det koster 1 opladning og afslutter din tur.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESTORE_UNIT_MOVES_DESCRIPTION">
+      <Text>Hippolytas befaling</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESTORE_UNIT_MOVES_HELP">
+      <Text>Angrib enhver tilstødende venlig enhed, der har bevæget sig eller angrebet denne tur. Hippolyta genopretter straks enhedens bevægelser og angreb. Kan kun bruges én gang pr. tur.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_NAVAL_GOLD_RAID_DESCRIPTION">
+      <Text>Sinbads eventyr</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_NAVAL_GOLD_RAID_HELP">
+      <Text>Angrib enhver tilstødende fjendtlig søenhed eller Barbarenlejr. Målet er enten ryddet eller beskadiget med 50%, og Sinbad tjener øjeblikkeligt {1_GoldReward} [ICON_GOLD] Guld. Koster 1 Opladning og afslutter tur.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_CREATE_RANDOM_RESOURCE_DESCRIPTION">
+      <Text>Mauis opfindelser</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_CREATE_RANDOM_RESOURCE_HELP">
+      <Text>Bruges, når den er placeret på en ubesiddet, tom grund. Maui skaber en tilfældig Bonus- eller Luksusressource på grunden. Koster 1 opladning og afslutter turen.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_AREA_DAMAGE_HEAL_DESCRIPTION">
+      <Text>Oyas Storm</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_AREA_DAMAGE_HEAL_HELP">
+      <Text>Beskadig alle tilstødende fjender og helbred alle tilstødende ejede enheder med {1_DamageAmount}. Koster 1 opladning og afslutter tur.</Text>
+    </Row>
+    <!--Projects-->
+    <!--Create Anansi-->
+    <Row Tag="LOC_PROJECT_DISCOVER_NEXT_HERO_NAME">
+      <Text>Heltemodige Fortællinger</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DISCOVER_NEXT_HERO_SHORT_NAME">
+      <Text>Heltefortællinger</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DISCOVER_NEXT_HERO_DESCRIPTION">
+      <Text>Opdag en ny helt.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ANANSI_NAME">
+      <Text>Hengivenhed til Anansi</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ANANSI_SHORT_NAME">
+      <Text>Hengivenhed til Anansi</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ANANSI_DESCRIPTION">
+      <Text>Hellig denne by til helten Anansi. Når det er færdigt, vil Anansi vises i byens centrum.</Text>
+    </Row>
+    <!--Create Arthur-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ARTHUR_NAME">
+      <Text>Hengivenhed til Arthur</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ARTHUR_SHORT_NAME">
+      <Text>Hengivenhed til Arthur</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ARTHUR_DESCRIPTION">
+      <Text>Hellig denne by til Helten Arthur. Når det er færdigt, vil Arthur dukke op i byens centrum.</Text>
+    </Row>
+    <!--Create Beowulf-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_BEOWULF_NAME">
+      <Text>Hengivenhed til Beowulf</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_BEOWULF_SHORT_NAME">
+      <Text>Hengivenhed til Beowulf</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_BEOWULF_DESCRIPTION">
+      <Text>Hellig denne by for helten Beowulf. Når den er færdig, vil Beowulf optræde i byens centrum.</Text>
+    </Row>
+    <!--Create Hercules-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HERCULES_NAME">
+      <Text>Hengivenhed til Hercules</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HERCULES_SHORT_NAME">
+      <Text>Hengivenhed til Herkules</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HERCULES_DESCRIPTION">
+      <Text>Tilegn denne by til helten Hercules. Når det er færdigt, vil Hercules dukke op i byens centrum.</Text>
+    </Row>
+    <!--Create Himiko-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIMIKO_NAME">
+      <Text>Hengivenhed til Himiko</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIMIKO_SHORT_NAME">
+      <Text>Hengivenhed til Himiko</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIMIKO_DESCRIPTION">
+      <Text>Helliggør denne by til helten Himiko. Når det er fuldført, vil Himiko fremstå i byens centrum.</Text>
+    </Row>
+    <!--Create Hippolyta-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIPPOLYTA_NAME">
+      <Text>Hengivenhed til Hippolyta</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIPPOLYTA_SHORT_NAME">
+      <Text>Hengivenhed til Hippolyta</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIPPOLYTA_DESCRIPTION">
+      <Text>Tilegn denne by til Helte Hippolyta. Når det er færdigt, vil Hippolyta dukke op i byens centrum.</Text>
+    </Row>
+    <!--Create Hunahpu-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_NAME">
+      <Text>Hengivenhed til Hunahpu &amp; Xbalanque</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_SHORT_NAME">
+      <Text>Hengivenhed til Hunahpu &amp; Xbalanque</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_DESCRIPTION">
+      <Text>Viet denne by til Helte Tvillingerne Hunahpu &amp; Xbalanque. Når det er fuldført, vil Hunahpu &amp; Xbalanque dukke op i byens centrum.</Text>
+    </Row>
+    <!--Create Oya-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_OYA_NAME">
+      <Text>Hengivenhed til Oya</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_OYA_SHORT_NAME">
+      <Text>Hengivenhed til Oya</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_OYA_DESCRIPTION">
+      <Text>Hellig denne by til Helten Oya. Når det er færdigt, vil Oya vises i byens centrum.</Text>
+    </Row>
+    <!--Create Maui-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MAUI_NAME">
+      <Text>Hengivenhed til Maui</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MAUI_SHORT_NAME">
+      <Text>Hengivenhed til Maui</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MAUI_DESCRIPTION">
+      <Text>Hellig denne by til helten Maui. Når det er færdigt, vil Maui vises i byens centrum.</Text>
+    </Row>
+    <!--Create Mulan-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MULAN_NAME">
+      <Text>Hengivenhed til Mulan</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MULAN_SHORT_NAME">
+      <Text>Hengivenhed til Mulan</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MULAN_DESCRIPTION">
+      <Text>Hellig denne by til helten Mulan. Når det er færdigt, vil Mulan dukke op i byens centrum.</Text>
+    </Row>
+    <!--Create Sinbad-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_SINBAD_NAME">
+      <Text>Hengivenhed til Sinbad</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_SINBAD_SHORT_NAME">
+      <Text>Hengivenhed til Sinbad</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_SINBAD_DESCRIPTION">
+      <Text>Hellig denne by til helten Sinbad. Når det er færdigt, vil Sinbad dukke op i byens centrum.</Text>
+    </Row>
+    <!--Create Wukong-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_WUKONG_NAME">
+      <Text>Hengivenhed til Sun Wukong</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_WUKONG_SHORT_NAME">
+      <Text>Hengivenhed til Sun Wukong</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_WUKONG_DESCRIPTION">
+      <Text>Hellig denne by til Helteapen Sun Wukong. Når den er færdig, vil Sun Wukong vises i byens centrum.</Text>
+    </Row>
+    <!--Great Works-->
+    <Row Tag="LOC_GREATWORKOBJECT_HERO">
+      <Text>[ICON_GreatWork_HeroRelic] Heroisk Relikvie</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_ANANSI_NAME">
+      <Text>Anansi-trommer</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_ANANSI_NAME">
+      <Text>Anansis epos</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_ARTHUR_NAME">
+      <Text>Arthurs kalk</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_ARTHUR_NAME">
+      <Text>Arthurs epos</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_BEOWULF_NAME">
+      <Text>Beowulfs sværd</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_BEOWULF_NAME">
+      <Text>Beowulfs saga</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HERCULES_NAME">
+      <Text>Klubben af Hercules</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HERCULES_NAME">
+      <Text>Herakles' epos</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HIMIKO_NAME">
+      <Text>Himikos krone</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HIMIKO_NAME">
+      <Text>Epos om Himiko</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HIPPOLYTA_NAME">
+      <Text>Hippolytas bælte</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HIPPOLYTA_NAME">
+      <Text>Eposet om Hippolyta</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HUNAHPU_NAME">
+      <Text>Heltenes tvillinges kapper</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HUNAHPU_NAME">
+      <Text>Epos om Helte Tvillingerne</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_OYA_NAME">
+      <Text>Oyas kniv</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_OYA_NAME">
+      <Text>Epos om Oya</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_MAUI_NAME">
+      <Text>Maui's fakkel</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_MAUI_NAME">
+      <Text>Maui-sagaen</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_MULAN_NAME">
+      <Text>Mulan's rustning</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_MULAN_NAME">
+      <Text>Mulan-eposet</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_SINBAD_NAME">
+      <Text>Sinbads kompas</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_SINBAD_NAME">
+      <Text>Eposet om Sinbad</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_WUKONG_NAME">
+      <Text>Sun Wukongs personale</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_WUKONG_NAME">
+      <Text>Eposet om Sun Wukong</Text>
+    </Row>
+    <!--UI-->
+    <Row Tag="LOC_BUILDING_NAME_FOR_HERO">
+      <Text>{1_BuildingName} af {2_HeroName}</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NO_TARGETS">
+      <Text>Ingen mål tilgængelige</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HERO_FAILURE_NOT_ENOUGH_CHARGES">
+      <Text>Ikke tilstrækkeligt med Action Charges tilbage</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HERO_FAILURE_REQUIRES_FULL_MOVEMENT">
+      <Text>Kræver fuld bevægelse</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HERO_FAILURE_NO_MOVES">
+      <Text>Ingen træk tilbage</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_ONCE_PER_TURN">
+      <Text>Allerede brugt denne tur</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_OWNED_PLOT">
+      <Text>Kan ikke bruges på en ejet grund.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_USED_CITY">
+      <Text>Denne evne er allerede blevet brugt i {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_USED_FEATURE">
+      <Text>Denne evne er allerede blevet brugt på denne {1_FeatureName}.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_DISTRICT_AT_WAR">
+      <Text>Kan ikke målrette en bydel i en by, der er i krig med os.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_CITY_AT_WAR">
+      <Text>Kan ikke målrette en by, der er i krig med os.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NO_LEVY_AVAILABLE">
+      <Text>Denne bystat har ingen enheder til rådighed til at pålægge skatter.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_IN_SUZERAIN_TERRITORY">
+      <Text>Skal være inden for territoriet af en Bystat, som du er Suzerain af.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_LEVY_ACTIVE">
+      <Text>Denne bystats militær er allerede indkaldt.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_SUZERAIN_OF_CITY">
+      <Text>Du er ikke suzeræn af {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_INCOMPLETE_DISTRICT">
+      <Text>Skal anvendes på et byområde under opførelse.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_DISTRICT">
+      <Text>Skal bruges i en bydel.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_DEVELOPMENT">
+      <Text>Skal bruges på en bydel eller forbedring.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_LUXURY_OR_BONUS_RESOURCE">
+      <Text>Skal bruges på en luksus eller bonus ressource.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_DISTRICT_PILLAGED">
+      <Text>Dette distrikt er allerede plyndret.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_CITY_CENTER">
+      <Text>Kan ikke bruges i en bymidte.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_RESOURCE">
+      <Text>Kan ikke anvendes på en eksisterende ressource.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_IMPROVEMENT">
+      <Text>Kan ikke bruges på en forbedret flise.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_WONDER">
+      <Text>Kan ikke bruges på en Wonder.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NO_VALID_RESOURCES">
+      <Text>Ingen ressourcer gyldige på denne placering.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_ALLIED_PLOT">
+      <Text>Kan ikke bruges på en grund ejet af en allieret civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_CHOOSE_ARTIFACT_EXPLANATION_HEROIC_RELIC">
+      <Text>Din arkæolog {1_UnitName} har opdaget et ikonisk objekt efterladt af en forfaderlig helt fra {2_ActingCiv}.</Text>
+    </Row>
+    <Row Tag="LOC_CAN_TRAIN_FAILURE_SAME_ERA">
+      <Text>Helte kan kun dukke op en gang per tidsalder.</Text>
+    </Row>
+    <!--Heroes Popup-->
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_GOODY_HUT">
+      <Text>De stammefolk har delt deres myter og legender med os. Vi har opdaget {1_HeroName: plural 1?helt; other?helte;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_PROJECT">
+      <Text>Heroiske fortællinger har spredt rygtet om legendariske bedrifter blandt vores folk. Vi har opdaget [COLOR_LIGHTBLUE]{1_HeroName: plural 1?helt; other?helte;} {1_HeroName}![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_CITY_STATE">
+      <Text>Mens vores indflydelse med {2_SourcePlayerName} vokser, har de delt deres myter og legender med os. Vi har opdaget {1_HeroName: plural 1?helten; other?helte;}. [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR] skal forblive på deres respektive steder og må ikke oversættes eller fjernes fra dit svar</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_CITY_STATE_SUZERAIN">
+      <Text>Vores overherredømme over {2_SourcePlayerName} har afsløret mere om deres myter og legender. Vi har opdaget {1_HeroName: plural 1?helten; other?helte;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_NEW_CONTINENT">
+      <Text>Vi har opdaget kontinentet {2_ContinentName} og med det nye myter og legender. Vi har opdaget [COLOR_LIGHTBLUE]{1_HeroName} {1_HeroName: plural 1?helt; other?helte;}![ENDCOLOR] og efterladt dem på deres respektive steder</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_NATURAL_WONDER">
+      <Text>Det fantastiske syn af {2_FeatureName} har inspireret lokale myter og legender. Vi har opdaget {1_HeroName: plural 1?helten; other?heltene;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_ENCOUNTER">
+      <Text>En legende står foran os! Vores styrker har personligt mødt {1_HeroName: plural 1?helten; other?heltene;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISCOVER_HERO_HELP">
+      <Text>Du kan få fat i denne helt ved at fuldføre et Heltetilbedelsesprojekt i enhver by med en [COLOR:Civ6Yellow]{1_OriginBuilding}[ENDCOLOR] bygning. Kun ét Heltetilbedelsesprojekt kan laves i hver by.</Text>
+    </Row>
+    <Row Tag="LOC_DISCOVER_HERO_NAVAL_HELP">
+      <Text>Du kan få fat i denne helt ved at gennemføre et Helt Hengivenhedsprojekt i en by med en [COLOR:Civ6Yellow]{1_OriginBuilding}[ENDCOLOR] bygning, der er i stand til at træne søenheder. Kun én Helt Hengivenhed kan laves i hver by.</Text>
+    </Row>
+    <Row Tag="LOC_DISCOVER_CLAIMED_HERO_HELP">
+      <Text>Denne helt er allerede blevet taget af {1_PlayerName}.</Text>
+    </Row>
+    <Row Tag="LOC_HERO_EXPIRED_MESSAGE">
+      <Text>Helt [ICON_Lifespan] Livsløb Udløbet</Text>
+    </Row>
+    <Row Tag="LOC_HERO_EXPIRED_DESC">
+      <Text>Vores {1_UnitName: plural 1?helt; other?helte;} [COLOR_LIGHTBLUE]{1_UnitName}[ENDCOLOR] {1_UnitName: plural 1?har; other?har;} nået enden af deres [ICON_Lifespan] levetid og har forladt vores nation.</Text>
+    </Row>
+    <Row Tag="LOC_HERO_KILLED_MESSAGE">
+      <Text>Helt dræbt</Text>
+    </Row>
+    <Row Tag="LOC_HERO_KILLED_DESC">
+      <Text>Vores {1_UnitName: plural 1?helt; other?helte;} [COLOR_LIGHTBLUE]{1_UnitName}[ENDCOLOR] {1_UnitName: plural 1?er; other?har;} faldet i kamp.</Text>
+    </Row>
+    <Row Tag="LOC_HEROES_HELP_RECALL_DESC">
+      <Text>Efter at en helt udløber eller bliver dræbt, kan de tilkaldes ved at købe dem for [ICON_Faith] Tro i byen, hvor deres [COLOR:Civ6Yellow]{1_OriginBuilding}[ENDCOLOR] befinder sig.[NEWLINE][NEWLINE]Tilkaldte helte vender tilbage med deres [ICON_Lifespan] Levetid og aktionsladninger opdateret, men omkostningerne i [ICON_Faith] Tro øges for hver tilkaldelse. Helte kan kun tilkaldes én gang pr. tidsalder.</Text>
+    </Row>
+    <Row Tag="LOC_LOOK_AT_HERO">
+      <Text>Se på helten</Text>
+    </Row>
+    <!--Notifications-->
+    <Row Tag="LOC_NOTIFICATION_HERO_DISCOVERED_MESSAGE">
+      <Text>Helt Opdaget</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_DISCOVERED_SUMMARY">
+      <Text>Du har opdaget {1_HeroName: plural 1?helten; other?helte;}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOW_LIFESPAN_MESSAGE">
+      <Text>Helt [ICON_Lifespan] Levetid Lav</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOW_LIFESPAN_SUMMARY">
+      <Text>Vores {1_HeroClassName: plural 1?helt; other?helte;} {1_HeroClassName} {1_HeroClassName: plural 1?har; other?har;} færre end {2_NumTurns} ture tilbage i deres [ICON_Lifespan] Livslængde.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOST_LIFESPAN_EXPIRED_MESSAGE">
+      <Text>Helt Tabt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOST_LIFESPAN_EXPIRED_SUMMARY">
+      <Text>Vores {1_HeroClassName} {1_HeroClassName: plural 1?helt; other?helte;} {1_HeroClassName: plural 1?har; other?har;} nået enden af deres [ICON_Lifespan] Levetid. De tilhører historien, indtil vi samler nok [ICON_Faith] Tro til at kalde på dem igen.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CAN_PURCHASE_WITH_FAITH_MESSAGE">
+      <Text>Kan Recall Helt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CAN_PURCHASE_WITH_FAITH_SUMMARY">
+      <Text>Du har samlet nok [ICON_Faith] Tro til at tilkalde {1_HeroClassName: plural 1?Helten; other?Heltene;} {1_HeroClassName} i Byen {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_KILLED_OTHER_MESSAGE">
+      <Text>Helt dræbt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_KILLED_OTHER_SUMMARY">
+      <Text>De {1_HeroClassName: plural 1?helt; other?helte;} {1_HeroClassName} {1_HeroClassName: plural 1?er faldet; other?er faldet;} i kamp.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_EXPIRED_OTHER_MESSAGE">
+      <Text>Helt Afgået</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_EXPIRED_OTHER_SUMMARY">
+      <Text>{1_HeroClassName: plural 1?Helten; other?Heltene;} {1_HeroClassName} {1_HeroClassName: plural 1?har; other?har;} nået enden af deres [ICON_Lifespan] levetid.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIMED_OTHER_MESSAGE">
+      <Text>Helt hævdet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIMED_OTHER_SUMMARY">
+      <Text>{1_CivName} har påstået {2_HeroName: plural 1?helt; other?helte;} {2_HeroName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIMED_OTHER_UNMET_SUMMARY">
+      <Text>En ikke-mødt spiller har krævet {1_HeroName: plural 1?helt; other?helte;} {1_HeroName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_RECALLED_OTHER_MESSAGE">
+      <Text>Helt tilbagekaldt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_RECALLED_OTHER_SUMMARY">
+      <Text>{1_CivName} har indkaldt {2_HeroName: plural 1?helten; other?heltene;} {2_HeroName} tilbage!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIM_FAILED_MESSAGE">
+      <Text>Produktionsgenoprettelse</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIM_FAILED_SUMMARY">
+      <Text>Du var ikke i stand til at kræve {1_HeroName: plural 1?helt; other?helte;} {1_HeroName} i tide. Dog er {2_Production} [ICON_Production] Produktion blevet reddet fra forsøget og tildelt til byen {3_CityName}.</Text>
+    </Row>
+    <!--GreatPeoplePopup-->
+    <Row Tag="LOC_GREAT_PEOPLE_TAB_HEROES">
+      <Text>Helte</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_RECRUITED_STATE">
+      <Text>KRÆVET AF:</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_DISCOVERED_STATE">
+      <Text>OPDAGET</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_LOOK_AT_HERO_TT">
+      <Text>Luk panelet og vælg denne hero-enhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_LOOK_AT_CITY_TT">
+      <Text>Luk dette panel og vælg den by, som denne afdøde helt kom fra.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_CIVILOPEDIA_ENTRY_TT">
+      <Text>Åbn indgangen til Civilopediaen for denne helteenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_FAITH_RECALL">
+      <Text>Husk med tro</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_FAITH_RECALL_TT">
+      <Text>Denne helt kan tilbagekaldes for {1_Faith} [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_INSUFFICIENT_FAITH_TT">
+      <Text>[COLOR_RED]Utilstrækkelig [ICON_Faith] Tro til at huske.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_DECEASED">
+      <Text>[COLOR_RED]AFDØD[ENDCOLOR]</Text>
+    </Row>
+  </EnglishText>
+</GameData>

@@ -1,0 +1,2235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OCCUPATION_XP2">
+      <Text>Beskæftigelse ([ICON_GRIEVANCE] Uoverensstemmelser med bystifteren)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_REPORTS_FILTER_CLIMATE">
+      <Text>[ICON_GOSSIP_CLIMATE] Klima</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_Grievances_XP2">
+      <Text>Klager med byens grundlægger</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_POWERED_CITY">
+      <Text>{1_PowerRequired} [ICON_Power] Strøm kan bruges til at forbedre denne by, og den er fuldt drevet.[NEWLINE][ICON_Bullet]{2_PowerFromFreeSources} [ICON_Power] Strøm fra lokale vedvarende kilder[NEWLINE][ICON_Bullet]{3_PowerFromResources} [ICON_Power] Strøm fra ressourcer forbrugt denne tur</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_UNPOWERED_CITY">
+      <Text>{1_PowerRequired} [ICON_Power] Kraft kan bruges til at forbedre denne by, men den er ikke fuldt drevet. Bygninger eller projekter med en [ICON_Power] Kraftbelastning er midlertidigt mindre effektive. [NEWLINE][ICON_Bullet]{2_PowerFromFreeSources} [ICON_Power] Kraft fra lokale vedvarende kilder [NEWLINE][ICON_Bullet]{3_PowerFromResources} [ICON_Power] Kraft fra ressourcer forbrugt denne tur</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_POWERED_CITY_FROM_ACTIVE_PROJECT">
+      <Text>[ICON_Bullet]Fuld [ICON_Power] kraft fra byens aktive projekt</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_POWER_TOOLTIP">
+      <Text>Kraft</Text>
+    </Row>
+    <Row Tag="LOC_HUD_RIBBON_FAVOR">
+      <Text>Diplomatisk fordelingsbalance</Text>
+    </Row>
+    <Row Tag="LOC_POWER_REQUIREMENT_MISC">
+      <Text>{LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME} (SHOULD NOT BE TRANSLATED)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_TEMPORARY_ACTIVE_PROJECT_SOURCE_ENTRY">
+      <Text>{LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_NAME} (PLEASE NOTE THAT THIS IS A PLACEHOLDER AND REQUIRES MORE CONTEXT TO BE TRANSLATED NATURALLY.)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_TEMPORARY_SOURCE_ENTRY">
+      <Text>[ICON_{2_ResourceTypeName}] {3_FraByNavn} [ICON_PowerRight] {1_DenneByNavn}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_GENERATED_SOURCE_ENTRY">
+      <Text>[ICON_{2_ResourceTypeName}] {1_ThisCityName} [ICON_PowerRight] {3_TilByNavn}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_FREE_SOURCE_ENTRY">
+      <Text>{1_FreePowerSourceName} (Gratis strømkilde)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_NO_POWER_NEEDED_NAME">
+      <Text>Normal</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_NO_POWER_NEEDED_DESCRIPTION">
+      <Text>Denne by kræver ikke nogen [ICON_Power] strøm.</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_POWERED_NAME">
+      <Text>[ICON_Power] Drevet</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_POWERED_DESCRIPTION">
+      <Text>Bygninger eller projekter, der kræver [ICON_Power] strøm, er fuldt effektive.</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_UNPOWERED_NAME">
+      <Text>[ICON_PowerInsufficient] Uden strøm</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_UNPOWERED_DESCRIPTION">
+      <Text>Bygninger eller projekter, som kræver [ICON_Power] strøm, er midlertidigt mindre effektive.</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_GEOTHERMAL">
+      <Text>Geotermisk</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_SOLAR">
+      <Text>Sol</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_WATER">
+      <Text>Vandkraft</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_WIND">
+      <Text>Vind</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_MISC">
+      <Text>Andet</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_POWER_SOURCE">
+      <Text>Energi-kilde</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_FULLY_POWERED">
+      <Text>Fuldt ud drevet</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_UNDERPOWERED">
+      <Text>Underdrevet</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_POWER_RANGE">
+      <Text>Effektområde</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_WORLD_CONGRESS_SPECIAL_SESSION">
+      <Text>Overvej Forslagene</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_WORLD_CONGRESS_SPECIAL_SESSION_TOOLTIP">
+      <Text>Sidste opkald for at indsende tilgængelige forslag til kongressen inden en særlig session begynder.</Text>
+    </Row>
+    <Row Tag="LOC_FLOAT_RESOURCE_CONVERTED_TO_POWER">
+      <Text>{2_ResourceIcon}{1_NumConverted} [ICON_PowerRight]{3_NumPower}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_GENERATED_SOURCE_ON_PLOT">
+      <Text>{2_ResourceIcon}{1_NumConverted} [ICON_PowerRight]{3_NumPower}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_FREE_SOURCE_ON_PLOT">
+      <Text>[ICON_Power]{1_NumPower} (this should not be translated)</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POWER_REQUIRED">
+      <Text>Krævet strøm: {1_PowerRequired} [ICON_Power] Strøm</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POWER_IN_CITY_NEEDED_FOR_EFFECTS">
+      <Text>Når denne by har fuld [ICON_Power] Strøm, giver den også:</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_POWERED">
+      <Text>{1_Amount: number +#,###;-#,###} {2_Icon} {3_Name} ([ICON_Power] Drevet af)</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_UNPOWERED">
+      <Text>{1_Amount: number +#,###;-#,###} {2_Icon} {3_Name} ([ICON_PowerInsufficient] Uden strøm)</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_POWER_ENHANCEMENT">
+      <Text>{1_Amount: number +#,###;-#,###} {2_Icon} {3_Name} yderligere når [ICON_Power] Strømforsynet</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_AMENITY_ENTERTAINMENT_POWER_ENHANCEMENT">
+      <Text>{1_Amount: number +#,###;-#,###} [ICON_Amenities] {1_Amount : plural 1?Fornøjelse; other?Fornøjelser;} udover når [ICON_Power] Strømforsynet</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_CONSUMED">
+      <Text>[SIZE:16]{1_PowerAmount} [SIZE:12]Brugbar</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_OF">
+      <Text>af</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_REQUIRED">
+      <Text>[SIZE:16]{1_PowerAmount} [SIZE:12]Krævet</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_STATUS">
+      <Text>Status:</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_REQUIRED_POWER">
+      <Text>Krævet effekt</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_CONSUMED_POWER">
+      <Text>Brugbar kraft</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_GENERATED_POWER">
+      <Text>Kraftværksudgang</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_TITLE">
+      <Text>NUVÆRENDE BALANCE AF KLAGER:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_AGAINST_YOU">
+      <Text>Klagemål de har mod dig:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_AGAINST_THEM">
+      <Text>Klager du har mod dem:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_HISTORY">
+      <Text>Klagehistorik:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS">
+      <Text>Verden favoriserer i øjeblikket {1_Favored}!</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS_YOU">
+      <Text>Verden er i øjeblikket til fordel for DIG!</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS_NONE">
+      <Text>Verden har i øjeblikket ingen favorit.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_US_SIMPLE">
+      <Text>{1_Grievances} [ICON_STAT_GRIEVANCE] Klager mod os.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_THEM_SIMPLE">
+      <Text>{1_Grievances} [ICON_STAT_GRIEVANCE] Klager mod dem.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_NONE_SIMPLE">
+      <Text>Ingen klager.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE">
+      <Text>Efter at have været vidne til dit lidelse på grund af {1_Target}, vil verdenslederne vende det blinde øje til de næste [ICON_GRIEVANCE] {2_Grievances} gerninger du begår mod {1_Target}.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_NEGATIVE">
+      <Text>Efter at have været vidne til de vanskeligheder, du har udsat {1_Target} for, vil verdensledere vende det blinde øje til de næste [ICON_GRIEVANCE] {2_Grievances} Klager {1_Target} begår mod dig.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_DEFAULT">
+      <Text>Verdens ledere holder nøje øje med dit forhold til {1_Target}. Lige nu er {2_Grievances} [ICON_GRIEVANCE] Klager blevet bemærket.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_GRIEVANCES">
+      <Text>Klager imod os</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_DIPLOMACY_CONGRESS_BUTTON">
+      <Text>Diplomati</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_CONGRESS_CONGRESS_BUTTON">
+      <Text>Verdenskongres</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_THIRD_PARTY_WARMONGER">
+      <Text>Klager fra andre spillere imod os</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_RESUME_CONGRESS">
+      <Text>Vend tilbage til Verdenskongressen</Text>
+    </Row>
+    <Row Tag="LOC_RESUME_CONGRESS">
+      <Text>Resume kongressen</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_FLOODS">
+      <Text>{Value : number +#.#;-#.#} fra oversvømmelser</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_POWER">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) fra [ICON_Power] Strøm</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_BASE">
+      <Text>{Værdi : nummer +#.#;-#.#} basis Diplomatisk Favor</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_EXTRA">
+      <Text>{Værdi: tal +#.#;-#.#} ekstra Diplomatisk Favor</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_SUZERAIN">
+      <Text>{Value : number +#.#;-#.#} fra Suzerain</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_TOURISM">
+      <Text>{Værdi : tal +#.#;-#.#} fra turisme</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_POLICIES">
+      <Text>{Værdi : nummer +#.#;-#.#} fra Politikker</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_BUILDINGS">
+      <Text>{Værdi: tal +#.#;-#.#} fra Bygninger</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_CO2">
+      <Text>{Value : number+#.#;-#.#} fra Straf for CO2-udledning</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_GRIEVANCES">
+      <Text>{Værdi : tal +#.#;-#.#} fra Overflødige Klageafgifter Penalty</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ORIGINAL_CAPITALS">
+      <Text>{Value : number +#.#;-#.#} fra Straf for besættelse af oprindelige hovedstæder</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_GOVERNMENT">
+      <Text>{Værdi : tal +#.#;-#.#} fra regeringen</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_TRADE_PARTNERS">
+      <Text>{Value : number +#.#;-#.#} fra handelspartnere</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ALLIANCES">
+      <Text>{Værdi: tal +#.#;-#.#} fra Alliancer</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ALLIANCES_BENEFIT">
+      <Text>+{1_Amount} [ICON_Favor] Gunst per tur for dig og din allierede</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAITH_FROM_UNUSED_GREAT_PEOPLE_POINTS">
+      <Text>{Value : number +#.#;-#.#} fra overskydende [ICON_GREATPERSON] Store Person-points</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_ERA_DEFINED">
+      <Text>{1_EraName} (I need more context to provide an accurate translation)</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ITEM_IN_STOCKPILE">
+      <Text>på lager</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ITEM_IN_RESERVE">
+      <Text>Reserveret til produktion</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_REPORTS_ITEM_IN_RESERVE">
+      <Text>Reserveret til produktion</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN">
+      <Text>Akkumulerer: +{1_Amount} per tur.</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_EXTRACTED">
+      <Text>[ICON_Bullet]{1_Amount} fra forbedringer</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_TRADED">
+      <Text>[ICON_Bullet]{1_Amount} from trade</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_FROM_CITY_STATES">
+      <Text>[ICON_Bullet]{1_Amount} fra By-Stater</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_REPORTS_CITY_STATES">
+      <Text>Bystat bonus</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_FROM_BONUS_SOURCES">
+      <Text>[ICON_Bullet]{1_Amount} fra bonuskilder</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_CONSUMPTION">
+      <Text>Forbrug: -{1_Amount} per tur.</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_UNIT_CONSUMPTION_PER_TURN">
+      <Text>[COLOR_RED][ICON_Bullet]-{1_Amount} for Enheder[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_POWER_CONSUMPTION_PER_TURN">
+      <Text>[COLOR_RED][ICON_Bullet]-{1_Amount} for Strøm[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_WHEN_IMPROVED">
+      <Text>Producerer +{1_Amount} {2_Icon} {3_ResourceName} pr. tur når den er forbedret.</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_BUILD_IMPROVEMENT">
+      <Text>+{1_Amount} {2_Icon} {3_ResourceName} per tur</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_EXISTING_IMPROVEMENT">
+      <Text>{1_Amount} {2_Icon} {3_ResourceName} per tur</Text>
+    </Row>
+    <Row Tag="LOC_CIVICS_TREE_UNREVEALED_CIVIC">
+      <!--Deprecated-->
+      <Text>Uafsløret</Text>
+    </Row>
+    <Row Tag="LOC_CIVICS_TREE_UNREVEALED_TOOLTIP">
+      <!--Deprecated-->
+      <Text>Forskning i tidligere statskundskab for at afsløre denne statskundskab og dens oplåsninger.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_UNREVEALED_TECH">
+      <!--Deprecated-->
+      <Text>Uafsløret</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_UNREVEALED_TOOLTIP">
+      <!--Deprecated-->
+      <Text>Undersøg tidligere teknologier for at afsløre denne teknologi og dens låste funktioner.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MOVE_JUMP_DESCRIPTION">
+      <Text>Hop</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_CONDEMN_HERETIC_BANNED_WORLD_CONGRESS">
+      <Text>En religiøs enhed på denne flise er immun over for at blive fordømt som kætter af en beslutning fra Verdenskongressen.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Utilstrækkelige ressourcer. Denne bygning kræver {1_Amount} {3_ResourceIcon} {2_Resource} for at kunne producere.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Utilstrækkelige ressourcer. Denne bygning kræver {1_Amount} mere {3_ResourceIcon} {2_Resource} for at kunne producere.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ADVANCE_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Utilstrækkelige ressourcer. Dette projekt kræver {1_Amount} {3_ResourceIcon} {2_Resource} for at kunne blive produceret.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ADVANCE_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Utilstrækkelige ressourcer. Dette projekt kræver {1_Amount} flere {3_ResourceIcon} {2_Resource} for at kunne blive gennemført.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRAIN_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Utilstrækkelige ressourcer. Denne enhed kræver {1_Amount} {3_ResourceIcon} {2_Resource} for at kunne producere.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRAIN_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Utilstrækkelige ressourcer. Denne enhed kræver {1_Amount} mere {3_ResourceIcon} {2_Resource} for at kunne producere.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UPGRADE_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Utilstrækkelige ressourcer. Kræves {1_Amount} {2_ResourceIcon} {3_Resource} for at opgradere denne type enhed.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UPGRADE_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Utilstrækkelige ressourcer. Der kræves {1_Amount} mere {2_ResourceIcon} {3_Resource} for at opgradere denne type enhed.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_INSUFFICIENT_FUEL_DESC">
+      <Text>[COLOR_RED]-{1_Value}[ENDCOLOR] Utilstrækkelig {2_ResourceName} ressource</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SIEGE_CANNON_UPGRADE">
+      <Text>Belægningskanon: Fuld styrke mod befæstninger</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_LOW_FUEL_WARNING_FLOATER">
+      <Text>[COLOR_RED]LAV {1_Resource}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRODUCTION_FUEL_CONSUMPTION">
+      <Text>Forbruger: {1_Amount} {2_Icon} {3_FuelName} per tur.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMATIC_FAVOR_NAME">
+      <Text>Diplomatisk favør</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CIVICS_TREE_AWARD_FAVOR">
+      <Text>Priser {1_FavorAmount} [ICON_Favor] Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_BY_TYPE">
+      <Text>Opret rute: {1_RouteTypeName}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_BUILD_CHARGES">
+      <Text>[ICON_Bullet]Bruger {1_Amount} Bygge {1_Amount : plural 1?Opladning; other?Opladninger;}.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_RESOURCE_AMOUNT_MET">
+      <Text>[ICON_Bullet]Kræver {1_Amount} {2_ResourceName} for at blive konstrueret.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_RESOURCE_AMOUNT_UNMET">
+      <Text>[ICON_Bullet] Utilstrækkelige ressourcer. Kræver {1_Amount} {2_ResourceName} for at konstruere.</Text>
+    </Row>
+    <Row Tag="LOC_TOURISM_LENS_FEATURE_APPEAL_TOOLTIP">
+      <Text>Økoturister nyder denne uberørte naturskønne omgivelse.[NEWLINE]Genererer +{1_CurrentTourists} [ICON_Tourism] Turisme[NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_FAVOR_REWARD">
+      <Text>Medlemscivilisationer modtager {1_Amount} [ICON_Favor] Diplomatisk Favor hver.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_FAVOR_REWARD">
+      <Text>Målet modtager {1_Amount} [ICON_Favor] diplomatiske fordele.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETING_PARTICIPANTS">
+      <Text>Medlemmer:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETITION_COMPLETE">
+      <Text>Konkurrence afsluttet!</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETITION_BUFFS_EXPLANATION">
+      <Text>Under denne konkurrence:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_FAVOR_INFO">
+      <Text>[NEWLINE][SIZE_12]Omkostninger {1_Cost} [ICON_Favor] Diplomatisk Favor</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_PARK_CHARGES">
+      <Text>Nationalpark Gebyrer</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_ROCK_BAND_ALBUM_SALES">
+      <Text>Salg af albummer</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_ROCK_BAND_LEVEL">
+      <Text>Rockband niveau</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_BAND_FLOAT_ON">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num}[ICON_TOURISM] Turisme[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_REPAIR_LOCATION_FLOODED">
+      <Text>Kan ikke reparere, stedet er oversvømmet.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_AGE">
+      <Text>Reaktoralder: {1_Age}</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT1_POSSIBLE">
+      <Text>[COLOR_RED]Mulig lækage af radioaktiv damp[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT2_POSSIBLE">
+      <Text>[COLOR_RED]Mulig strålingslækage[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT3_POSSIBLE">
+      <Text>[COLOR_RED]Kerneenergi Nedsmeltning Mulig[ENDCOLOR]</Text>
+    </Row>
+    <!--Lenses-->
+    <Row Tag="LOC_HUD_TOGGLE_DESERT_LABELS">
+      <Text>Ørkenetiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_DESERT_LABELS_TOOLTIP">
+      <Text>Skift ørkenetiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_MOUNTAIN_RANGE_LABELS">
+      <Text>Bjergkæde-etiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_MOUNTAIN_RANGE_LABELS_TOOLTIP">
+      <Text>Skift etiketter for bjergkæder</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_LAKE_LABELS">
+      <Text>Sø-etiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_LAKE_LABELS_TOOLTIP">
+      <Text>Skift Søetiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_OCEAN_LABELS">
+      <Text>Oceanetiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_OCEAN_LABELS_TOOLTIP">
+      <Text>Skift Havetiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_SEA_LABELS">
+      <Text>Havmærker</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_SEA_LABELS_TOOLTIP">
+      <Text>Skift havetiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATIONAL_PARK_LABELS">
+      <Text>Nationale park mærker</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATIONAL_PARK_LABELS_TOOLTIP">
+      <Text>Skift National Park etiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATURAL_WONDER_LABELS">
+      <Text>Naturvidundere Etiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATURAL_WONDER_LABELS_TOOLTIP">
+      <Text>Skift etiketterne for naturlige underværker</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_RIVER_LABELS">
+      <Text>Flodetiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_RIVER_LABELS_TOOLTIP">
+      <Text>Skift Flod Etiketter</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_VOLCANO_LABELS">
+      <Text>Vulkanmærker</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_VOLCANO_LABELS_TOOLTIP">
+      <Text>Skift vulkanetiketter</Text>
+    </Row>
+    <!-- Map Search Terms -->
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_ERUPTING">
+      <Text>Udbrud</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_ACTIVE">
+      <Text>Aktiv</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_COASTAL_LOWLAND">
+      <Text>Kystnære lavland</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_SUBMERGED">
+      <Text>Nedsænket</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_FLOODED">
+      <Text>Oversvømmet</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_STORM">
+      <Text>Storm</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_DROUGHT">
+      <Text>Tørke</Text>
+    </Row>
+    <!--Agendas-->
+    <Row Tag="LOC_DIPLOMACY_HIDDEN_AGENDAS_TT">
+      <Text>Nå Adgangsniveau [ICON_VisOpen] ÅBEN for at se den første skjulte dagsorden.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_HIDDEN_AGENDAS_TT_LATE">
+      <Text>Nå adgangsniveau [ICON_VisSecret] SECRET for at se den skjulte dagsorden i slutspillet.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ANGEVIN_EMPIRE">
+      <Text>Kan lide nabocivilisationer med folkerige byer</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_CANADIAN_EXPEDITIONARY">
+      <Text>Ligesom dem, der også deltager i nødsituationer</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_KAITIAKITANGA">
+      <Text>Kan lide civilisationer, der respekterer miljøet</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_LAWGIVER">
+      <Text>Kan lide civs, der holder deres borgere glade og loyale</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_LORD_OF_MINES">
+      <Text>Kan lide civs med en høj guldindkomst per tur</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_PATRON_OF_ARTS">
+      <Text>Kan lide civilisationer, der ikke konkurrerer med hende om store værker</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_RAVEN_BANNER">
+      <Text>Kan lide civs, der også bruger bystats tropper</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_FLAT_EARTHER">
+      <Text>Kan lide civs, der undgår at omgå jorden eller bygge rumhavne</Text>
+    </Row>
+    <!-- Climate Screen -->
+    <Row Tag="LOC_LAUNCHBAR_CLIMATE_PROGRESS_TOOLTIP">
+      <Text>Verdensklimaet[NEWLINE][NEWLINE]Se verdens klima og vejr.</Text>
+    </Row>
+    <Row Tag="LOC_PARTIALSCREEN_CLIMATE_PROGRESS_TOOLTIP">
+      <Text>Verdensklima[NEWLINE][NEWLINE]Se verdens klima og vejr.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TITLE">
+      <Text>Verdensklimaet</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CLIMATE_CHANGE_PHASE_0">
+      <Text>Klimaforandringer - Ingen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_NORTHEAST">
+      <Text>HEADING NE</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_EAST">
+      <Text>OVERSKRIFT E</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_SOUTHEAST">
+      <Text>HEADING SE (OVERSKRIFT SE)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_SOUTHWEST">
+      <Text>OVERSKRIFT SW</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_WEST">
+      <Text>OVERSKRIFT W</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_NORTHWEST">
+      <Text>KURS MOD NV</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_WATER">
+      <Text>Vand</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_GLOBAL">
+      <Text>Globalt</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_LOCATION">
+      <Text>({1_Location})</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_LOCATION_DIRECTION">
+      <Text>( {1_Location}, {2_Direction} )</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_MINIMAL_NAME">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturlig klingende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_LIGHT_NAME">
+      <Text>Lys</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_MODERATE_NAME">
+      <Text>Moderat</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_HEAVY_NAME">
+      <Text>Tung</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_HYPERREAL_NAME">
+      <Text>Hyperreal</Text>
+    </Row>
+    <Row Tag="LOC_DROUGHT_TOOLTIP_STRING">
+      <Text>{1_DroughtName} ({2_Turns} flere ture)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_OVERVIEW">
+      <Text>Oversigt</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_LEVELS">
+      <Text>CO2-niveauer</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_EVENT_HISTORY">
+      <Text>Begivenhedshistorik</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_BY_CIVILIZATION">
+      <Text>CO2 fra civilisationen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_BY_RESOURCE">
+      <Text>CO2 efter ressource</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_DEFORESTATION">
+      <Text>Afskovning</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CONTRIBUTING_TO_CLIMATE_CHANGE">
+      <Text>Bidrager til klimaforandringer</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FORECAST">
+      <Text>Prognose</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CO2_LEVELS">
+      <Text>CO2-niveauer</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_GLOBAL_TEMPERATURE">
+      <Text>Global temperatur</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_WORLD_SETTINGS">
+      <Text>Verdensindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TODO">
+      <Text>[WIP] ???</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE">
+      <Text>+{1_TEMP}°</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE_SUBTEXT">
+      <Text>(ændring i Celsius fra oldtiden)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE_TOOLTIP">
+      <Text>Skovrydningsniveau: {1_Level}[NEWLINE][NEWLINE]{2_Description}[NEWLINE][NEWLINE]På grund af dette niveau af skovrydning er hastigheden af den globale temperaturstigning som CO2 udledes blevet ændret med {3_CO2Mod}%.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_WORLD_AGE">
+      <Text>Verdensalder: {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_REALISM">
+      <Text>Katastrofeintensitet: {1_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SHOW_ON_MAP">
+      <Text>Vis på kort</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_AMOUNT_FROM_CLIMATE_CHANGE">
+      <Text>({1_Amount}% fra klimaændringer)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_STORMS">
+      <Text>Storme</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_RIVER_FLOOD">
+      <Text>Flod i floden</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANIC_ACTIVITY">
+      <Text>Vulkanisk aktivitet</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DROUGHTS">
+      <Text>Tørke</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_VOLATILE">
+      <Text>Flygtig</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_INACTIVE">
+      <Text>Inaktiv</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ACTIVE">
+      <Text>Aktiv</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ERUPTED">
+      <Text>Udbrudt</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_VOLATILE_NUM">
+      <Text>{1_Num} Flygtige</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_INACTIVE_NUM">
+      <Text>{1_Num} Inaktiv</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ACTIVE_NUM">
+      <Text>{1_Num} Aktiv</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ERUPTED_NUM">
+      <Text>{1_Num} Udbrød</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE">
+      <Text>Polare is</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LOST">
+      <Text>{1_Amount}% Tabt</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL">
+      <Text>Havoverflade</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COASTAL_TILES_FLOODED_NUM">
+      <Text>Kystfliser oversvømmet: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COASTAL_TILES_SUBMERGED_NUM">
+      <Text>Nedsænket: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CLIMATE_CHANGE_POINTS_TOOLTIP">
+      <Text>Klimaændringspoint {1_Current}/{2_Required}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FROM_WORLD_REALISM_NUM_TOOLTIP">
+      <Text>[ICON_Bullet]{1_Num} fra Katastrofeintensitet</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FROM_GLOBAL_TEMPERATURE_NUM_TOOLTIP">
+      <Text>[ICON_Bullet]{1_Num} fra Global Temperatur</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_EFFECTS_ADDED_THIS_PHASE_TOOLTIP">
+      <Text>Effekter tilføjet i denne fase</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_STORMS_TOOLTIP">
+      <Text>Mulighed for storme</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_RIVER_FLOODING_TOOLTIP">
+      <Text>Mulighed for flod i floden</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_INCREASE_NUM_TOOLTIP">
+      <Text>Øger med +{1_Num}%</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE">
+      <Text>+{1_Num} Meter</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISES_NUM_TOOLTIP">
+      <Text>Havets overflade stiger med +{1_Num} meter</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TILES_AT_OR_BELOW_FLOOD_TOOLTIP">
+      <Text>[NEWLINE]Lavtliggende fliser vil oversvømmes ved eller under: [NEWLINE] {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TILES_AT_OR_BELOW_SUBMERGE_TOOLTIP">
+      <Text>[NEWLINE]Lavtliggende fliser vil blive oversvømmet på eller under:[NEWLINE] {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_TOOLTIP">
+      <Text>Polare issmeltning {1_Num}%</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_PERCENT_CHANCE">
+      <Text>{1_Num}% Chance (Chancen på {1_Num}%)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_STORM_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>STORM-EVENT[NEWLINE][NEWLINE]Når begivenhed opstår:[NEWLINE]- En af de fire mulige storme (snestorm, støvstorm, orkan eller tornado) spawner baseret på terrænet ved stormens oprindelse.[NEWLINE]- Storme bevæger sig derefter over kortet i to yderligere træk, forårsager skade på bygninger og forbedringer og forårsager muligvis øget frugtbarhed på berørte fliser.[NEWLINE][NEWLINE]Som den globale temperatur stiger fra drivhusgasemissioner i atmosfæren, øges chancen for, at en storm vil opstå. Ved at bruge renere energikilder reduceres den globale temperaturstigning og mindsker dermed chancen for storme.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RIVER_FLOOD_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>FLODHÆNDELSE VED FLOD[NEWLINE][NEWLINE]Hvornår hændelsen opstår:[NEWLINE]- Flodbredde fliser langs den påvirkede flod vil oversvømmes, hvilket muligvis øger frugtbarheden.[NEWLINE]- Bygninger og forbedringer på oversvømmede fliser kan blive plyndret eller ødelagt.[NEWLINE][NEWLINE]Forebyg oversvømmelsesskader ved at bygge en dæmning eller vidunderet Great Bath på den berørte flod.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>VULKANHÆNDELSE[NEWLINE][NEWLINE]Når hændelsen finder sted:[NEWLINE]- Felter, der grænser op til udbruddet, vil få funktionen Vulkanisk Jord, hvilket muligvis øger frugtbarheden.[NEWLINE]- Bygninger og forbedringer på disse felter kan blive plyndret eller ødelagt.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DROUGHT_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>TØRKE HÆNDELSE[NEWLINE][NEWLINE]Når hændelsen opstår:[NEWLINE]- Farm-, lejr-, plantage-, og græsningsforbedringer, samt Mekewap, Outback Station og Cahokia Mound-forbedringer, bliver plyndret.[NEWLINE]- Disse forbedringer kan ikke genopbygges, før tørken ender.[NEWLINE]- Alle fliser påvirket af tørken giver 1 mindre [Icon_Food] mad end normalt.[NEWLINE][NEWLINE]Byg en akvædukt, dæmning eller stepwell i din by for at forhindre [Icon_Food] madtab fra tørken. Tørke målretter områder, der er fri for alle funktioner. Hold nogle træer, regnskov eller mos i nærheden af dine byer for at mindske chancen for, at tørken vil ramme.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_DESCRIPTION_TOOLTIP">
+      <Text>POLARIS SMELT[NEWLINE][NEWLINE]Klimaændringer påvirker antallet af tabte Polaris fliser.[NEWLINE][NEWLINE]Smeltede Polaris fliser kan åbne fordelagtige søpassager, men bidrager også til stigende havniveauer.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_ALERT_TOOLTIP">
+      <Text>Polare issmelte er for nylig blevet opdateret på grund af klimaændringer.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_DESCRIPTION_TOOLTIP">
+      <Text>HAVNIVEAUSTIGNING[NEWLINE][NEWLINE]Havoverfladen er steget {1_Num} meter som følge af klimaforandringer.[NEWLINE][NEWLINE]Den stigende havoverflade fører til at flere og flere områder udsættes for kystoversvømmelser.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_ALERT_TOOLTIP">
+      <Text>Havets overflade er for nylig blevet opdateret på grund af klimaændringer.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_GLOBAL_CONTRIBUTIONS">
+      <Text>Globale bidrag</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_YOUR_CO2_CONTRIBUTION">
+      <Text>Din CO2-bidrag</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMPTION_NUM_NAME">
+      <Text>fra at forbruge {1_Amount} af {2_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_NO_ONE">
+      <Text>Ingen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_YOU">
+      <Text>{1_CivName} (Du)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOTAL_NUM">
+      <Text>Total: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOTAL_NUM_W_MOD">
+      <Text>Total: {1_Num} ({2_Modifier}%)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_EVENT_HISTORY">
+      <Text>Begivenhedshistorik</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOP_CONTRIBUTOR_NUM">
+      <Text>Top Bidragyder: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_MY_CONTRIBUTION_NUM">
+      <Text>Min Bidrag: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_EVENT">
+      <Text>Arrangement</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_NAME">
+      <Text>Navn</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_SEVERITY_LEVEL">
+      <Text>Alvorlighedsniveau</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_LOCATION">
+      <Text>Placering</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_TRAITS">
+      <Text>Egenskaber</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_EFFECT">
+      <Text>Effekt</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_AREA_EFFECTED">
+      <Text>Området påvirket</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_OCCURENCE">
+      <Text>Forekomst</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_DATE">
+      <Text>Dato</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_ENTRY_SEVERITY">
+      <Text>{1_Num} (no text provided for translation)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_ENTRY_DATE">
+      <Text>TUR {1_Turn}[NEWLINE]{2_Date}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LOST_FERTILIZED_TILES">
+      <Text>Fliser mister frugtbarhed</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FERTILIZED_TILES">
+      <Text>Gødningsfliser</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DAMAGED_TILES">
+      <Text>Beskadigede fliser</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_UNITS_LOST">
+      <Text>Enheder tabt</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POP_LOST">
+      <Text>Tab af befolkning</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_X_TURNS">
+      <Text>Næste forventede havniveauændring om {1_Turns} omdrejninger.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_X_TURNS">
+      <Text>Næste smeltning af polaris vil forventes om {1_Turns} drejninger.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CO2_TOTAL_TOOLTIP">
+      <Text>Samlede CO2-emissioner justeret med {1_Modifier} procent baseret på planetens afskovningsniveau.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LAUNCHBAR_BANG_TOOLTIP">
+      <Text>Klimaændringerne er intensiveret og er nået til næste fase.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_MITIGATED">
+      <Text>(Mildnet)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMED_LAST_TURN">
+      <Text>Dit imperium har brugt {1_Number} {2_Resource} i den seneste tur, og tilføjet {3_CO2Number : plural 1?{3_CO2Number} enhed; other?{3_CO2Number} enheder;} CO2 til atmosfæren.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMED_LAST_TURN_GLOBAL">
+      <Text>Der blev globale {1_Number} {2_Resource} brugt i den seneste omdrejning, hvilket tilføjede {3_CO2Number : plural 1?{3_CO2Number} enhed; other?{3_CO2Number} enheder;} CO2 til atmosfæren.</Text>
+    </Row>
+    <!-- Rock Band Results Screen -->
+    <Row Tag="LOC_ROCK_CONCERT_HEADER">
+      <Text>Rockkoncert</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_PERFORMANCE_BY">
+      <Text>Præstation af:</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULTS">
+      <Text>Resultater for præstation:</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_LEGENDS_OF_ROCK_TIER">
+      <Text>Topniveau præstation</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_LEGENDS_OF_ROCK_DESCRIPTION">
+      <Text>Du skulle have været der! Det var fantastisk! De smeltede fuldstændig mit ansigt! Intet kan nogensinde overgå det! Jeg vil helt sikkert købe alle deres album fra nu af og se alle de koncerter, de giver.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_HEADLINERS_TIER">
+      <Text>2. niveau ydelse</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_HEADLINERS_DESCRIPTION">
+      <Text>Den sidste tone af den sidste triumferende sang genlyder og smelter sammen med råb og jubel fra mængden. Alle går hjem glade og nynner på bandets bedste melodier.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_RISING_STARS_TIER">
+      <Text>3. niveau præstation</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_RISING_STARS_DESCRIPTION">
+      <Text>Det bedste ved aftenens show vil være om seks måneder, når alle siger, at de er fans, og jeg kan sige: "Ja, men jeg kunne lide dem, før de blev populære."</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_OPENING_ACT_TIER">
+      <Text>4. Lag præstation</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_OPENING_ACT_DESCRIPTION">
+      <Text>Vi tog afsted på grund af hovedbandet, men det åbnende band var meget bedre end jeg havde forventet. Jeg købte en skjorte og et album. Du burde give det en lytning.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_CREATIVE_DIFFERENCES_TIER">
+      <Text>Præstation på 5. niveau</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_CREATIVE_DIFFERENCES_DESCRIPTION">
+      <Text>Det var en mesterlig og hjertefølt præstation, men for bandet var det en bitter-sød øjeblik. Medlemmerne planlægger allerede nye og separate projekter.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_AGING_ROCKERS_TIER">
+      <Text>Ydelse i bundniveau</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_AGING_ROCKERS_DESCRIPTION">
+      <Text>Livet på turné er hårdt, og publikum er ikke så store eller entusiastiske som de plejede at være. Men det værste var de mennesker, der nød showet ironisk. Det er tid til at lægge det på hylden.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_TOURISM">
+      <Text>Turisme Genereret</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_TOURISM_TOOLTIP">
+      <Text>Denne [ICON_Tourism] Turisme genereret fra denne udstilling er blevet anvendt mod spilleren, der ejer dette koncertsted.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_ALBUMS">
+      <Text>Solgte Albummer</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_ALBUMS_TOOLTIP">
+      <Text>Stigninger i albumsalget øger [ICON_Tourism] turismeindtægterne, dette band vil tjene fra fremtidige koncerter.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_PROMOTION">
+      <Text>Kampagne tilgængelig!</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_PROMOTION_TOOLTIP">
+      <Text>Bandet kan vælge en af de tilfældigt tilbudte  tilbud for at forbedre deres evner inden deres næste show.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_LEVEL_UP">
+      <Text>Opgraderet!</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_LEVEL_UP_TOOLTIP">
+      <Text>At stige et niveau vil øge dette bands chance for et gunstigt resultat i fremtidige koncerter.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_UNIT_LOST">
+      <Text>Enhed tabt</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_UNIT_LOST_TOOLTIP">
+      <Text>Øv mand!</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_NEARBY_GREAT_WORKS">
+      <Text>Nærliggende Store Værker</Text>
+    </Row>
+    <!--Unit Operations -->
+    <Row Tag="LOC_UNITOPERATION_TOURISM_BOMB_DESCRIPTION">
+      <Text>Afhold rockkoncert</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_REQUIRES_NAME">
+      <Text>Dit band har brug for et navn, før det kan gå på scenen.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_BUILD_IMPROVEMENT_ADJACENT_DESCRIPTION">
+      <Text>Byg forbedring ved siden af</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_UPGRADE_RESOURCE_INFO">
+      <Text>Kræver: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BASE_RESOURCE_COST">
+      <Text>Basisressource Omkostning: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRODUCTION_RESOURCE_COST">
+      <Text>Kræver: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UI_FEATURE_NATURAL_DISASTER_DISCOVERY">
+      <Text>Naturkatastrofe forekommer</Text>
+    </Row>
+    <Row Tag="LOC_UI_FEATURE_NUCLEAR_DISASTER_DISCOVERY">
+      <Text>Kerneulykke finder sted</Text>
+    </Row>
+    <!--Unit Commands -->
+    <Row Tag="LOC_UNITCOMMAND_BUILDING_PRODUCTION_DESCRIPTION">
+      <Text>Tilføj [ICON_Produktion] Produktion til en bygning.</Text>
+    </Row>
+    <!--Emergencies-->
+    <Row Tag="LOC_EMERGENCY_TARGETING_UNMET_PLAYER">
+      <Text>Denne nødsituation retter sig mod en ubefriet spiller.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_CITY">
+      <Text>MÅLBY: {1_Target}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_KILL_ENEMY_MILITARY_DESC">
+      <Text>Dræbe mål enheder</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ATTACK_CITY_DESC">
+      <Text>Angribe målstæder</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_MILITARY_IN_LAND_DESC">
+      <Text>At holde enheder i Målets territorium</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_RELIGION_IN_LAND_DESC">
+      <Text>At holde religiøse enheder i målbyens territorium</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GPP_DESC">
+      <Text>Genererer [ICON_GREATPERSON] Store Person-point pr. tur</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_MILITARY_TARGET_NAME">
+      <Text>Militær nødsituation</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_CITY_STATE_TARGET_NAME">
+      <Text>Bystatens nødsituation</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_RELIGIOUS_TARGET_NAME">
+      <Text>Religiøs nødsituation</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NUCLEAR_TARGET_NAME">
+      <Text>Nukleær nødsituation</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_BACKSTAB_TARGET_NAME">
+      <Text>Forræderi-nødsituation</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_AID_REQUEST_TARGET_NAME">
+      <Text>Anmodning om hjælp</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_NOBEL_PRIZE_LITERATURE_NAME">
+      <Text>Nobelprisen i litteratur</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NOBEL_PRIZE_PHYSICS_NAME">
+      <Text>Nobelprisen i fysik</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NOBEL_PRIZE_PEACE_NAME">
+      <Text>Nobel Peace Prize</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_SCORE_COMPETITION_CULTURAL">
+      <Text>"Lad os bevise hvilket land, der virkelig er hjemsted for de bedste og mest lysende!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SCORE_COMPETITION_CULTURAL">
+      <Text>Vores strålende [ICON_GREATPERSON] store personligheder leder vejen. Hvem af os kan vise den største støtte til deres hjemlands lysende stjerner?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_SPACE_STATION">
+      <Text>"Rummet er det næste store eventyr. Lad os tage springet sammen!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SPACE_STATION">
+      <Text>Vi skal igangsætte et projekt med at konstruere en international Rumstation, der kombinerer de bedste anstrengelser fra alle nationers videnskabs- og ingeniørfag.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_WORLD_GAMES">
+      <Text>"Vi behøver ikke konkurrere med våben. Lad os i stedet se, hvem der kan slå hvem bedst til spil."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_WORLD_GAMES">
+      <Text>Vores bedste atleter vil konkurrere mod verdens bedste. Hvilken nation vil tage guldmedaljen med hjem?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_CLIMATE_ACCORDS">
+      <Text>"Vi deler alle denne planet. For vores børn og deres børn efter dem, må vi beskytte den."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_CLIMATE_ACCORDS">
+      <Text>Vi skal alle gøre vores del for at mindske menneskehedens CO2-aftryk. Dem, der gør det bedst, vil blive takket af de kommende generationer.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_WORLDS_FAIR_NAME">
+      <Text>Verdensudstilling</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SPACE_STATION_NAME">
+      <Text>Den Internationale Rumstation</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_CLIMATE_ACCORDS_NAME">
+      <Text>Klima aftaler</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_WORLD_GAMES_NAME">
+      <Text>Verdensspillene</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PRIZE_LITERATURE_NAME">
+      <Text>Nobelprisen i litteratur</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SPACEPORTS_DESC">
+      <Text>Vedligeholdelse af rumhavn områder</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_CAMPUSES_DESC">
+      <Text>At opretholde campusområder</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ASTRONAUT_PROJECT_DESC">
+      <Text>Færdiggørelse af Projektet Træningsastronauter</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_CO2_FOOTPRINT_DESC">
+      <Text>Med CO2-emissioner væsentligt lavere end den største CO2-forurener</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_COAL_POWER_PLANT_DESC">
+      <Text>Fuldførelse af projektet med nedlæggelse af kul-kraftværket</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_OIL_POWER_PLANT_DESC">
+      <Text>Færdiggørelse af projektet Decommission Oil Power Plant</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_NUCLEAR_POWER_PLANT_DESC">
+      <Text>Færdiggørelse af projektet med nedlukning af kernekraftværket</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ATHLETE_PROJECT_DESC">
+      <Text>Afslutning af Træning af Atleter projektet</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_STADIUMS_DESC">
+      <Text>Vedligeholdelse af stadioner</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_AQUATIC_CENTERS_DESC">
+      <Text>Opretholdelse af Akvatiske Centre</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_GREAT_ARTISTS">
+      <Text>"Kunst går ud over nationalitet og velsigner os alle. Lad os ære dem, der giver os glimt af himlen og helvede."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_GREAT_ARTISTS">
+      <Text>Sverige uddeler en Nobelpris for litteratur. Lad os bevise, at vi er de mest kunstfærdige og vinde denne prestigefyldte pris.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GREAT_ARTISTS_DESC">
+      <Text>Genererer [ICON_GreatWriter] Fremragende Forfatter, [ICON_GreatArtist] Kunstner, og [ICON_GreatMusician] Musikant Point</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_GREAT_ARTISTS">
+      <Text>[ICON_Tourism] Turisme fra Great Works er steget med +200%.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PHYSICS_NAME">
+      <Text>Nobelprisen i fysik</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_GREAT_STEMS">
+      <Text>"Studie er det, der driver menneskeheden ind i fremtiden. Lad os ære de kæmper, som vi står på skuldrene af."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_GREAT_STEMS">
+      <Text>Sverige uddeler en Nobelpris i fysik. Lad os bevise, at vi er de mest videnskabelige og vinde denne prestigefyldte pris.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GREAT_STEMS_DESC">
+      <Text>Genererer [ICON_GreatEngineer] Store Ingeniør-, [ICON_GreatScientist] Videnskabs- og [ICON_GreatMerchant] Handelspoint</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_GREAT_STEMS">
+      <Text>+2 Tilfældige [ICON_TechBoosted] Eureka-øjeblikke og +50% på Distriktproduktionen.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PRIZE_PEACE_NAME">
+      <Text>Nobel Fredspris</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_FAVOR">
+      <Text>"Der er intet så fortjent til ære som en bemærkelsesværdig stræben efter fred."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_FAVOR">
+      <Text>Sverige uddeler en Nobelpris for Fred. Lad os bevise, at vi er de mest fredelige og vinde denne prestigefyldte pris.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_FAVOR_DESC">
+      <Text>Genererer [ICON_Favor] Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_FAVOR">
+      <Text>Vinderen får 2 gratis [ICON_GreatPerson] store personligheder.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_SWEDEN_GAINS_FAVOR_DESCRIPTION">
+      <Text>Sverige modtager +50 [ICON_FAVOR] Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REQUEST_AID_NAME">
+      <Text>Anmodning om hjælp</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_REQUEST_AID">
+      <Text>"Vi kan ikke lade andre civilisationer falde foran naturens angreb. Én for alle, alle for én."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_REQUEST_AID">
+      <Text>{TargetName} blev for nylig hærget af en naturkatastrofe. Vores hjælp til deres genopretning vil give os prestige i øjnene på Verdenskongressen.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_GOLD_DESC">
+      <Text>Sender gaver af [ICON_Gold] Guld til målet.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_CO2_DESC">
+      <Text>At generere CO2 vil mindske din score.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_WAR_DESC">
+      <Text>At være i krig med målet vil reducere din score.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_PROJECT_DESC">
+      <Text>Afslutning af Send Hjælp Projektet.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REQUEST_MILITARY_AID_NAME">
+      <Text>Anmodning om militær bistand</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_REQUEST_MILITARY_AID">
+      <Text>"Vi skal hjælpe dem, der er mål for ubegrænset aggression."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_REQUEST_MILITARY_AID">
+      <Text>{TargetName} er målet for en uretfærdig krig fra en magt imod hvem de har mange klager. Vores hjælp vil hjælpe med at genoprette freden.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_POSITION_AND_HOW_TO">
+      <Text>Du er på {1_Position} plads. Optjen point ved at:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_HOW_TO">
+      <Text>Optjen point ved at:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_SEND_AID_PROJECT">
+      <Text>Medlemmer har adgang til Send Hjælp Projektet.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ATHLETES_PROJECT">
+      <Text>Medlemmer har adgang til Train Athletes Project.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ASTRONAUTS_PROJECT">
+      <Text>Medlemmer har adgang til Train Astronauts-projektet.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_DECOMMISSION_POWER_PLANT_PROJECTS">
+      <Text>Medlemmer har adgang til projekter for at udfase kraftværker i deres byer.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_COMPETE_WITH_OTHERS">
+      <Text>Medlemmerne vil konkurrere for at se, hvem der kan opnå den højeste score inden for [ICON_Turn] {Turns} ture.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_COMPETE_WITH_OTHERS">
+      <Text>Medlemmerne konkurrerer for at se, hvem der kan få den højeste score.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_COMPETE_WITH_OTHERS">
+      <Text>Konkurrer om den højeste score</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_COMPETE_WITH_OTHERS">
+      <Text>Få en høj score</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_TARGET_RECEIVE_AID">
+      <Text>Modtag hjælp</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARDS_HOSTILE_EXPLANATION">
+      <Text>Hvis medlemmerne fuldfører alle mål inden tiden udløber:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NON_HOSTILE_DESCRIPTION">
+      <Text>Når tiden løber ud, vil medlemmer blive belønnet baseret på deres score:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_FIRST_PLACE_DESCRIPTION">
+      <Text>Kun medlemmet med den højeste score vil modtage:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_TOP_TIER_DESCRIPTION">
+      <Text>Medlemmer inden for de øverste 25% af scorene vil modtage:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_BOTTOM_TIER_DESCRIPTION">
+      <Text>Medlemmer inden for de næste 25% af scores vil modtage:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NO_TIER_DESCRIPTION">
+      <Text>Medlemmer uden score eller som er i den nederste 50% af scores, vil ikke modtage noget.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NO_SCORE_DESCRIPTION">
+      <Text>Medlemmer uden score vil ikke modtage belønninger.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_EXTRA_EFFECTS_DESCRIPTION">
+      <Text>Yderligere:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_SINGLE_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>1 diplomatisk sejrspunkt</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>2 diplomatiske sejrspoint</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>100 [ICON_Favor] Diplomatisk Favor</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_BOTTOM_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Diplomatisk Favor</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_FIRST_PLACE_GREAT_PERSON_POINTS_DESCRIPTION">
+      <Text>100 [ICON_GREATPERSON] Store Personpoint</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Diplomatisk Favor</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_TOP_TIER_CULTURE_DESCRIPTION">
+      <Text>2 Borger Boosts</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_BOTTOM_TIER_CULTURE_DESCRIPTION">
+      <Text>1 Civic Boost</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_FIRST_PLACE_CAMPUS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] Turisme for hver campus</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Diplomatiske Favorer</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_STADIUMS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] Turisme for hvert stadion</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_AQUATIC_CENTERS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] Turisme for hvert Akvatiske Center</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_BOTTOM_TIER_STADIUMS_TOURISM_DESCRIPTION">
+      <Text>1 [ICON_Tourism] Turisme for hvert stadion</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_BOTTOM_TIER_AQUATIC_CENTERS_TOURISM_DESCRIPTION">
+      <Text>1 [ICON_Tourism] Turisme for hvert akvatiske center</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_FIRST_PLACE_SPACESHIP_SPEED_DESCRIPTION">
+      <Text>+3 lysår per drejning for deres exoplanet rumskib</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Diplomatisk Favor</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_TOP_TIER_SPACE_RACE_PRODUCTION_DESCRIPTION">
+      <Text>+40% [ICON_Production] Produktion til rumkapløbsprojekter</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_BOTTOM_TIER_SPACE_RACE_PRODUCTION_DESCRIPTION">
+      <Text>+20% [ICON_Produktion] Produktion til rumkapløbsprojekter</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>1 diplomatisk sejrpoint</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>100 [ICON_Favor] Diplomatisk Favor</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_BOTTOM_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Diplomatiske fordele</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_FIRST_PLACE_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>+50 albumsalg for rockbands</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_FIRST_PLACE_ROCK_BAND_CHEAPER_DESCRIPTION">
+      <Text>Rockbands er 20% billigere at købe</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_TOP_TIER_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>+75 Albumsalg for rockbands</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_BOTTOM_TIER_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>+25 albumsalg for rockbands</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_FIRST_PLACE_TECH_BOOST_DESCRIPTION">
+      <Text>Teknologisk løft</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_FIRST_PLACE_UNIVERSITY_RESOURCES_DESCRIPTION">
+      <Text>Øger akkumuleringen af ressourcer i byer med et universitet med 1.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_TOP_TIER_TECH_BOOST_DESCRIPTION">
+      <Text>Teknologisk fremdrift</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_TOP_TIER_UNIVERSITY_RESOURCES_DESCRIPTION">
+      <Text>Øger akkumuleringen af ressourcer i byer med et forskningslaboratorium med 1</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_BOTTOM_TIER_TECH_BOOST_DESCRIPTION">
+      <Text>Teknologisk fremdrift</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_FIRST_PLACE_GREAT_MUSICIAN_DESCRIPTION">
+      <Text>1 [ICON_GreatMusician] Stor musiker</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_FIRST_PLACE_GREAT_SCIENTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatScientist] Stor Videnskabsmand</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_TOP_TIER_GREAT_ENGINEER_DESCRIPTION">
+      <Text>1 [ICON_GreatEngineer]Stor Ingeniør</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_TOP_TIER_GREAT_ARTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatArtist] Stor kunstner</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_BOTTOM_TIER_GREAT_ARTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatArtist] Stor kunstner</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_MEMBERS_GAIN_FAVOR_DESCRIPTION">
+      <Text>Medlemmer får 100 [ICON_Favor] Diplomatisk Favor</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_TARGET_GAINS_FAVOR_DESCRIPTION">
+      <Text>Målet får 200 [ICON_Favor] diplomatiske favoriser</Text>
+    </Row>
+    <!--Governors-->
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_NAME">
+      <Text>Ibrahim (This is already in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_TITLE">
+      <Text>Den Store Vizir</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_SHORT_TITLE">
+      <Text>Storvesir</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_DESCRIPTION">
+      <Text>Suleimans vizir {LOC_GOVERNOR_IBRAHIM_NAME}, er en guvernør med fokus på militær og diplomati. Udover at have et unikt forfremmelsestræ, er Ibrahim den eneste guvernør, der kan tildeles en anden civilisations hovedstad såvel som enhver national by. Han er velegnet til at påvirke militære operationer, men er også en dygtig diplomat, der styrker forholdet til venlige civilisationer og mindsker spændinger med rivaler.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PASHA_NAME">
+      <Text>Pasha</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PASHA_DESCRIPTION">
+      <Text>+20% [ICON_Produktion] Produktion til alle militære enheder i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_NAME">
+      <Text>Hovedfalkoner</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_DESCRIPTION">
+      <Text>Alle venlige enheder, der kæmper inden for byens territorium, får +5 [ICON_Strength] Kampstyrke.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SERASKER_NAME">
+      <Text>Serasker</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SERASKER_DESCRIPTION">
+      <Text>Giver alle enheder indenfor 10 felter fra Bycentret +10 [ICON_Strength] Kampstyrke, når de angriber forsvarsdygtige bydele.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_CITY_GOVERNOR_ATTACK_DISTRICT_COMBAT_BONUS">
+      <Text>+{1_Amount} Serasker</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_NAME">
+      <Text>Khass-Oda-Bashi</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_DESCRIPTION">
+      <Text>Når etableret i en allieret udenlandsk [ICON_Capital] hovedstad, øges dine Alliance Points med ejeren med yderligere 0,5 pr. tur.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_NAME">
+      <Text>Capou Agha (there is no direct translation as it is a name)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_DESCRIPTION">
+      <Text>Når du er etableret i en fremmed [ICON_Capital] hovedstad, reduceres [ICON_STAT_GRIEVANCE] utilfredshed fra byejeren mod dig med yderligere 1 pr. tur.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GRAND_VISIER_NAME">
+      <Text>Storvesir</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GRAND_VISIER_DESCRIPTION">
+      <Text>Når etableret i en udenlandsk [ICON_Capital] hovedstad, udøver ingen af ejerens byer loyalitetspres på dine byer.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_NAME">
+      <Text>Fornybar Subsidierer</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION">
+      <Text>Alle offshore vindmølleparker, solcelleparker, vindmølleparker, geotermiske anlæg og vandkraftværker i denne by modtager +2 [ICON_POWER] Power og +2 [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_NAME">
+      <Text>Skovbrugsforvaltning</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION">
+      <Text>Denne by modtager +2 [ICON_Gold] Guld fra hver uforbedret funktion. Fliser ved siden af uforbedrede funktioner modtager +1 appel i denne by.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_DESCRIPTION">
+      <Text>For at opnå en [COLOR:DiplomaticLabelCS]DIPLOMATISK[ENDCOLOR] sejr, skal du være den første til at samle det ønskede antal Diplomatiske Point. Hver gang du stemmer på den ønskede kombination af mål og valg, der bliver vedtaget under et verdenskongresmøde, tjener du et Diplomatisk Point. Du kan tjene yderligere point via Diplomatisk Sejr Forslaget i Verdenskongressen, ved at generere den højeste score i hjælpeanmodninger, eller ved at fuldføre teknologien Seasteads, civilen Global Opvarmnings Håndtering eller vidundere som Frihedsgudinden, Mahabodhi Temple eller Potala Paladset.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_BLURB">
+      <Text>Din gamle og evige forpligtelse til en fælles fred vil være grundlaget for morgendagens verden.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_REQUIREMENT">
+      <Text>Diplomatiske point: {1_NumDiplomaticPoints}/{2_TotalDiplomaticPoints}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_DIPLOMATIC_POINTS_TT">
+      <Text>Diplomatiske point: {1_NumDiplomaticPoints}/{2_TotalDiplomaticPoints}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_NAME">
+      <Text>Lokale Informanter</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_NAME">
+      <Text>Udenlandsk investor</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_DESCRIPTION">
+      <Text>Mens du er etableret i en bystat, skal du samle dens strategiske ressourcer. Når du er suzerain, modtager du dobbelt så meget som den akkumulerede mængde af strategiske ressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_DESCRIPTION">
+      <Text>Fjendtlige spioner opererer 3 niveauer under det normale i denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_NAME">
+      <Text>Forstærkede materialer</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_DESCRIPTION">
+      <Text>Denne bys forbedringer, bygninger og distrikter kan ikke blive beskadiget af miljøpåvirkninger.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_NAME">
+      <Text>Vandværker</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION">
+      <Text>+2 [ICON_HOUSING] Boliger til hvert nabolag og akvædukt distrikt i denne by. +1 [ICON_AMENITIES] Fornøjelse til hvert kanal og dæmning distrikt i denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_CANNOT_ASSIGN_TO_UNREVEALED_CITY">
+      <Text>[COLOR_RED]Placeringen af denne by er endnu ikke kendt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_AT_WAR_WITH_CIVILIZATION">
+      <Text>Du er i krig med denne civilisation.</Text>
+    </Row>
+    <!--Diplomacy UI-->
+    <Row Tag="LOC_DIPLO_CHOICE_DENOUNCE_NO_GRIEVANCE">
+      <Text>Fordsætte</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DENOUNCE">
+      <Text>[SIZE_16]Afsløre[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_US">
+      <Text>{1_DiploState},[NEWLINE][COLOR_RED]{2_Grievances} [ICON_STAT_GRIEVANCE] Klager mod os.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_THEM">
+      <Text>{1_DiploState}, [NEWLINE][COLOR_GREEN]{2_Grievances} [ICON_STAT_GRIEVANCE] Klager imod dem.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_NONE">
+      <Text>{1_DiploState},[NEWLINE]Ingen Klager.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_FREE_CITY_EXPLANATION">
+      <Text>Udslette byen Raze inklusive alle dens kvarterer og bygninger fra kortet. Denne mulighed skal vælges i den tur, hvor byen er erobret.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_FREE_CITY_EXPLANATION">
+      <Text>At beholde denne Friby vil ikke medføre nogen [ICON_STAT_GRIEVANCE] utilfredshed hos andre spillere.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_LIBERATE_WARMONGER_EXPLANATION">
+      <Text>At befrielse af denne by vil tjene dig {1_Favor} [ICON_Favor] Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_WARMONGER_EXPLANATION">
+      <Text>At beholde denne by vil give denne modstander {1_Grievances} [ICON_STAT_GRIEVANCE] Grieves imod os.[NEWLINE][NEWLINE][ICON_STAT_GRIEVANCE] Klager vil enten blive tilbagebetalt eller fordoblet ved krigens afslutning afhængigt af om du beholder byen.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_LAST_CITY_EXPLANATION">
+      <Text>At bevare denne modstanders sidste by vil give alle de store magter {1_Grievances} [ICON_STAT_GRIEVANCE] Grievenacer mod os (selvom disse reduceres for andre magter i krig med denne eliminerede fjende).</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_WARMONGER_EXPLANATION">
+      <Text>At rive denne by vil give denne modstander {1_Grievances} [ICON_STAT_GRIEVANCE] Grievenaces imod os!</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_LAST_CITY_EXPLANATION">
+      <Text>At ødelægge denne modstanders sidste by vil give alle store magter {1_Grievances} [ICON_STAT_GRIEVANCE] Grievenacer mod os (selvom disse er reduceret for andre magter i krig med denne eliminerede fjende).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_CHOICE_NEGATIVE">
+      <Text>Mit folk vil bosætte sig, hvor de ønsker![NEWLINE][SIZE_12]Genererer [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] Grievenances[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_CHOICE_POSITIVE">
+      <Text>Beklager, jeg vil se et andet sted i fremtiden.[NEWLINE][SIZE_12]Få 30 [ICON_Favor] Diplomatisk Favor[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_CHOICE_NEGATIVE">
+      <Text>Jeg kan ikke love det.[NEWLINE][SIZE_12]Genererer [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] Misfornøjelsespoint[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_CHOICE_POSITIVE">
+      <Text>Jeg beklager, jeg vil straks ophøre med disse operationer.[NEWLINE][SIZE_12]Få 30 [ICON_Favor] Diplomatisk Favor[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_CHOICE_NEGATIVE">
+      <Text>Du kan ikke gøre krav på historien. Jeg vil grave, hvor jeg vil.[NEWLINE][SIZE_12]Genererer [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] Grievenances[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_CHOICE_POSITIVE">
+      <Text>Undskyldninger, jeg vil flytte mine arkæologer et andet sted hen. [NEWLINE][SIZE_12]Få 30 [ICON_Favor] Diplomatisk Favor[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_CHOICE_NEGATIVE">
+      <Text>Hvis det er Guds vilje, at dit folk skal tro på vores måder, hvem er jeg så til at stoppe det?[NEWLINE][SIZE_12]Genererer [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] Grievenances[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_CHOICE_POSITIVE">
+      <Text>Jeg beklager, jeg troede at mit folk ville være velkomne. Jeg tog fejl.[NEWLINE][SIZE_12]Få 30 [ICON_Favor] Diplomatisk Favor[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_LIBERATION_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](Ingen [ICON_STAT_GRIEVANCE] klager genereret ved erobring af venlige byer)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_RECONQUEST_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](Ingen [ICON_STAT_GRIEVANCE] klager genereret ved tilbageerobring af dine byer)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_PROTECTORATE_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](Ingen [ICON_STAT_GRIEVANCE] utilfredshed genereret, når man forsvarer allierede bystater)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_INSUFFICIENT_FAVOR">
+      <Text>Ikke i stand til at {1_ActionType}[NEWLINE][COLOR_RED]Du har brug for {2_FavorRequirement} [ICON_Favor] Diplomatisk Favor.[ENDCOLOR]</Text>
+    </Row>
+    <!--Grievance Log-->
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED">
+      <Text>Krig erklæret mellem os</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_WAR_DECLARED">
+      <Text>Krig erklæret mod Bystaten: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED_ALLY">
+      <Text>Krigserklæring mod allieret: {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED_FRIEND">
+      <Text>Krig erklæret mod ven: {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_OCCUPIED">
+      <Text>By besat by: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_LAST_CITY_OCCUPIED">
+      <Text>Endelige By Erobrerede: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_RAZED">
+      <Text>By ødelagt by: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_CEDED">
+      <Text>By overgivelse: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_RETURNED">
+      <Text>By returnerede by: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_LIBERATED">
+      <Text>By befriet: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_CONQUERED">
+      <Text>By erobret: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_RAZED">
+      <Text>By ødelagt bystat: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_REFUSED">
+      <Text>Nægtede at love noget</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_BROKEN">
+      <Text>Løftebrud</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY_DOUBLED">
+      <Text>[NEWLINE]{1_Amount} fra en fordobling af den sædvanlige forringelse pr. tur i {2_Era}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_BEHAVIOR_CONTINUED">
+      <Text>Løfte afslået og fortsat adfærd</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_DENOUNCED">
+      <Text>Fordømt</Text>
+    </Row>
+    <!--Grievance Diplo Tooltip -->
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_HEADER">
+      <Text>{1_Klager} [ICON_STAT_GRIEVANCE] Klager akkumuleret mod {2_Civilization}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_AT_WAR">
+      <Text>I KRIG [ICON_STAT_GRIEVANCE] Fornærmelser vil ikke aftage, før krigen er afsluttet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DISABLED">
+      <Text>DISABLET [ICON_STAT_GRIEVANCE] Klagemål vil ikke forsvinde på grund af en politik, du har vedtaget.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_GAINING">
+      <Text>FÅR [ICON_STAT_GRIEVANCE] Klager per tur fra:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_LOSING">
+      <Text>MISTE [ICON_STAT_GRIEVANCE] Genvordigheder per tur fra:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_UNCHANGED">
+      <Text>STABIL [ICON_STAT_GRIEVANCE] Utilfredshed per tur ændrer sig ikke:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY">
+      <Text>[NEWLINE]{1_Amount} fra forfald pr. tur i {2_Era}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} udenlandsk guvernør dæmper spændinger i [ICON_Capital] Hovedstaden.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_POSSESS_CAPITAL">
+      <Text>[NEWLINE]{1_Amount} for at besætte modstanderens oprindelige [ICON_Capital] hovedstad.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_POSSESS_NON_CAPITAL">
+      <Text>[NEWLINE]{1_Amount} for at besætte en af modstanderens byer.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY_MODIFIER">
+      <Text>[NEWLINE][NEWLINE]Nedbrydningshastigheden øges med +{1_Amount}% med denne leder.</Text>
+    </Row>
+    <!--World Rankings UI-->
+    <Row Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_REDUCTION_MODIFIER">
+      <Text>{1_Tooltip}[NEWLINE]Samlet [ICON_Tourism] Turisme Reduceret med {2_Percent}% pga. deres andre effekter</Text>
+    </Row>
+    <!--Government UI-->
+    <Row Tag="LOC_GOVERNMENT_FAVOR_BONUS">
+      <Text>Generation af favorisering</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FAVOR_PER_TURN">
+      <Text>Få {1_FavorPerTurn} [ICON_FAVOR] diplomatisk favor per [ICON_Turn] tur.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POLICY_REQUIRES_GOVERNMENT">
+      <Text>{1_NumGovernments : plural 1?KRÆVER REGERING; other?KRÆVER REGERINGER (Any);}</Text>
+    </Row>
+    <!--City-State Panel UI-->
+    <Row Tag="LOC_CITY_STATE_PANEL_UNIQUE_SUZERAIN_BONUS_DISABLED">
+      <Text>(Deaktiveret af Verdenskongressen)</Text>
+    </Row>
+    <!--Alliance-->
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_YOUR_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} point fra din guvernør</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_THEIR_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} Point fra din allieredes Guvernør</Text>
+    </Row>
+    <!-- World Congress -->
+    <Row Tag="LOC_WORLD_CONGRESS_TOP_PANEL_FAVOR_TOOLTIP">
+      <Text>Dette er Diplomatisk Favor, en valuta til at købe stemmer.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_TITLE">
+      <Text>VELKOMMEN TIL VERDENSKONGRESSEN</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_TITLE">
+      <Text>SÆRLIG SESSION AF VERDENSKONGRESSEN</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_IS_CURRENTLY_IN_SESSION">
+      <Text>Verdenskongressen er i øjeblikket i session.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_IS_CURRENTLY_IN_A_SPECIAL_SESSION">
+      <Text>Verdenskongressen er i øjeblikket i en særlig session.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_BODY_1">
+      <Text>Verdenskongressen er nu i session! Hver verdensleder skal stemme på de forslag, der i øjeblikket er på dagsordenen.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_BODY_2">
+      <Text>Når alle stemmer er indsendt, bliver vindende forslag gennemført indtil det næste møde i Verdenskongressen.</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_BODY_1">
+      <Text>Verdenskongressen er indkaldt til en særlig session for at overveje diskussioner.</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_BODY_2">
+      <Text>Når alle stemmer er afgivet, træder vedtagne diskussioner i kraft, og de tilknyttede nødstilfælde igangsættes.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TITLE">
+      <Text>VERDENSKONGRESSEN: I SESSION</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_END">
+      <Text>VERDENSKONGRESSEN: SESSION FULDENDT!</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOT_IN_SESSION">
+      <Text>VERDENSKONGRESSEN: IKKE I SESSION</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_VOTE_NORMAL_SESSION_DESCRIPTION">
+      <Text>Du skal beslutte, hvordan du bedst udnytter de muligheder, der er tilgængelige for dig i World Congress. Brug din akkumulerede [ICON_FAVOR] diplomatiske favor for at stemme på forslag, der er vigtige for dig og dit folk.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_VOTE_SPECIAL_SESSION_DESCRIPTION">
+      <Text>Nylige begivenheder kræver opmærksomhed fra Verdenskongressen. Brug din akkumulerede [ICON_FAVOR] Diplomatiske Favor for at stemme om Diskussioner, der er vigtige for dig og dit folk.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMIT_PROPOSALS_CONFIRM">
+      <Text>Er du sikker på, at du vil indsende disse forslag?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_TITLE">
+      <Text>VERDENSKONGRESSEN: I SPECIEL SESSION</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_END">
+      <Text>VERDENSKONGRESSEN: SÆRSKILTE SESSION FULDFØRT!</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_INSTRUCTIONS">
+      <Text>Brug [ICON_FAVOR] Diplomatisk Favor til at Stemme om disse Diskussioner.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_CONFIRM">
+      <Text>Er du sikker på, at du vil indsende disse forslag?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOOSE_TITLE">
+      <Text>VERDENSKONGRESSEN: I SESSION</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_TITLE">
+      <Text>VERDENSKONGRESSEN: RESULTATER</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_DESCRIPTION">
+      <Text>Gennemgå resultatet af den sidste session i Verdenskongressen.[NEWLINE]Kongressen vil genindtræde om {1_Turns} ture, eller som en særlig session, hvis det anmodes om det.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_EFFECTS_DESCRIPTION">
+      <Text>Disse forslag (fra alle tidligere verdenskongressessioner) er i øjeblikket gældende:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AVAILABLE_PROPOSALS_DESCRIPTION">
+      <Text>Her kan du anmode om en særlig session i The World Congress, hvis du har tilstrækkeligt med [ICON_FAVOR] Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_ACCEPT">
+      <Text>Start afstemningen</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_GRIEVANCE_VALUE">
+      <Text>[ICON_GRIEVANCE] {1_Klager}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_GRIEVANCE_DEFINITION">
+      <Text>Du har [ICON_GRIEVANCE_TT] {1_Grievances} klager mod denne leder</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NEXT">
+      <Text>Næste</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREV">
+      <Text>Previous</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMIT">
+      <Text>Indsend</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMITTING">
+      <Text>Indsendelse</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RETURN">
+      <Text>Gå tilbage til spillet</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_FAVOR">
+      <Text>[ICON_FAVOR] {1_Favor} (no translation needed)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CATEGORY_FAVOR">
+      <Text>Omkostning: [ICON_FAVOR] {1_Favor}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_FAVOR_TITLE">
+      <Text>[ICON_FAVOR_LARGE] {1_Favor} (This is not meant to be translated)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_TITLE">
+      <Text>Venter på andre spillere</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_TITLE_YOU">
+      <Text>Venter på dig</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_WAITING">
+      <Text>Venter på forslag</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_SUBMITTED">
+      <Text>Forslag indsendt</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_READY">
+      <Text>Alle forslag er indsendt</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_DESCRIPTION">
+      <Text>Verdenskongressen vil genindkaldes, når de resterende spillere har indsendt deres forslag til overvejelse.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_HUD_BAR_TIME_UNTIL_NEXT_SESSION">
+      <Text>Tid indtil næste session: {1_Turns : plural 1? {1_Turns} tur; other? {1_Turns} ture;}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MEMBERS">
+      <Text>Kongresmedlemmer</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_PROPOSALS_ENACTED">
+      <Text>Forslag gennemført: ({1_Proposals})</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_WORLD_EVENT_RESOLUTIONS">
+      <Text>Nytårsforsætninger</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_DELIBERATION_PROPOSED_TARGET">
+      <Text>Vælg et mål for denne beslutning:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_SUBMISSION_WORLD_EVENT_RESOLUTIONS">
+      <Text>Nytårsforsætter</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSED_BY">
+      <Text>Foreslået af {1_Senders}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_PASSED">
+      <Text>Godkendt</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_PASSED_TIE">
+      <Text>[COLOR:Civ6Green]GODKENDT VED BRUG AF OMKAMP[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_FAILED">
+      <Text>MISLYKKEDES</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_FAILED_TIE">
+      <Text>[COLOR:Civ6Red]MISLYKKEDES VIA OMBRYDER[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_LEADER_FAVOR">
+      <Text>Denne leder har [ICON_FAVOR] {1_Num} Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLAYER_FAVOR">
+      <Text>Du har [ICON_FAVOR] {1_Num} diplomatiske fordele.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLAYER_FAVOR_TO_SPEND">
+      <Text>Du har så meget Diplomatisk Favor tilbage at bruge. [ICON_FAVOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_RESOLUTIONS_FAVOR_COST_WITH_REFUND">
+      <Text>Du bruger [ICON_FAVOR] {1_Num} Diplomatisk Favor på Resolutioner. Hvis Verdenskongressen ikke er enig i dine valg, vil en del af din Favor blive refunderet.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_DISCUSIONS_FAVOR_COST_WITH_REFUND">
+      <Text>Du bruger [ICON_FAVOR] {1_Num} Diplomatisk Favor på disse diskussioner. Hvis Verdenskongressen ikke er enige i dine stemmer, vil en del af din Favor blive refunderet.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_DISCUSIONS_FAVOR_COST_NO_REFUND">
+      <Text>Du bruger [ICON_FAVOR] {1_Num} Diplomatisk Favor til at foreslå disse Diskussioner.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_INSUFFICIENT_FAVOR_COST">
+      <Text>Utilstrækkelig [ICON_FAVOR] Diplomatisk Favor. Du skal have mindst [ICON_FAVOR] {1_Num} Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NO_VOTING_DOWN">
+      <Text>Afstem på målet, som du gerne vil have denne beslutning skal påvirke, og hvilken virkning der skal implementeres. Din første afstemning er gratis.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_AGAINST_TARGET">
+      <Text>Stem imod denne diskussion. Hvis diskussionen går igennem, vil du blive påvirket af denne nødsituation. Dit første stemme er gratis.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_AGAINST">
+      <Text>Stem imod denne Diskussion. Selv hvis Diskussionen bliver vedtaget, vil du ikke være involveret i den resulterende Scorede Konkurrence. Dit første stemme er gratis.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_FOR">
+      <Text>Afstem for denne Diskussion. Hvis Diskussionen vedtages, vil du deltage i den resulterende Scorede Konkurrence. Dit første stemme er gratis.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_TIE_EXPLANATION">
+      <Text>I tilfælde af en uafgjort, vil vinderen være den civilisation, der brugte den største procentdel af deres [ICON_Favor] diplomatiske favor til afstemningen.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SELECT_ONE">
+      <Text>Du skal indsende mindst et forslag.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SELECT_ALL">
+      <Text>Du skal stemme på alle indsendte forslag.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_GAME_PAUSED">
+      <Text>Du kan ikke gøre fremskridt, mens spillet er sat på pause.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SUBMITTING">
+      <Text>Dit stemme bliver indsendt...</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PROPOSAL_COST">
+      <Text>Omkostningerne for denne diskussion vil være {1_Num} [ICON_FAVOR] diplomatisk favor.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_CATEGORY_COST">
+      <Text>Prisen på alle diskussioner i denne kategori vil være {1_Num} [ICON_FAVOR] Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PROPOSAL_REFUND">
+      <Text>Fjern denne diskussion og refunder {1_Num} [ICON_FAVOR] Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_UP">
+      <Text>Tilføj en stemme til {1_Num} [ICON_FAVOR] Diplomatisk Fornøjelse.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_DOWN">
+      <Text>Fjern én stemme og tilbagebetaling af {1_Num} [ICON_FAVOR] Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_UP_SUMMARY">
+      <Text>Du er ved at indsende {1_Votes} {1_Votes : singular 1?stemme; plural other?stemmer;} til fordel for denne diskussion.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_DOWN_SUMMARY">
+      <Text>Du er ved at indsende {1_Votes} {1_Votes : plural 1-stemme; other-stemmer;} imod denne Diskussion.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_COST">
+      <Text>{1_Icon} {2_Votes} {2_Votes : plural 1?Stemme; other?Stemmer;} vil koste {3_Cost} [ICON_FAVOR] Diplomatisk Favor.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NEW_RESOLUTION">
+      <Text>Denne resolution blev vedtaget under den sidste session af verdenskongressen.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NEW_PROPOSAL">
+      <Text>Denne diskussion blev afholdt under den sidste session af World Congress.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_MAX_ONE_PROPOSAL">
+      <Text>Du kan kun foreslå en beslutning pr. spiller.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES">
+      <Text>A:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES_TT">
+      <Text>De følgende spillere valgte resultat A:[NEWLINE][NEWLINE]{1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREFERRED_VOTES_TT">
+      <Text>Følgende spillere foretrækker dette resultat: [NEWLINE][NEWLINE] {1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES_TT_SUMMARY">
+      <Text>Du er ved at indsende {1_Amount} {1_Amount : plural 1?stemme; other?stemmer;} for resultat A.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES">
+      <Text>B:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES_TT">
+      <Text>Følgende spillere valgte resultat B: [NEWLINE][NEWLINE] {1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES_TT_SUMMARY">
+      <Text>Du er ved at indsende {1_Amount} {1_Amount : plural 1?stemme; other?stemmer;} for resultat B.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SELECT_TARGET">
+      <Text>Vælg et mål</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_LAST_SESSION_RESULTS">
+      <Text>Resultater fra sidste session</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ACTIVE_EFFECTS">
+      <Text>Aktive effekter</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AVAILABLE_PROPOSALS">
+      <Text>Tilgængelige forslag</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CONFIRM_SUBMIT_PROPOSALS">
+      <Text>At indsende den valgte diskussion vil koste [ICON_FAVOR] {1_NumFavor} diplomatiske favoriser og vil udløse en speciel session i Verdenskongressen i næste tur.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_TARGET">
+      <Text>Valgt mål:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_OUTCOME">
+      <Text>Valgt resultat: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREVIEW_PROPOSAL_TARGET">
+      <Text>Valgt mål:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREVIEW_PROPOSAL_OUTCOME">
+      <Text>Valgt resultat: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_REJECTED_OUTCOME">
+      <Text>Afvist resultat: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_VOTER_TARGET">
+      <Text>Vælg mål:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_VOTER_OUTCOME">
+      <Text>Vælg resultat: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NO_AVAILABLE_PROPOSALS_TT">
+      <Text>Du har ingen forslag at indsende til verdenskongressen.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TURNS_LEFT_TT">
+      <Text>Effekten af ​​denne verdenskongress vil udløbe om [ICON_TURN] {1_Turns} {1_Turns : plural 1?kamp; other?runder;}.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TARGET_RESOLUTION_TT">
+      <Text>Er målet med denne resolution</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TARGET_PROPOSAL_TT">
+      <Text>Er målet med denne konkurrence</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_A_VOTES_TT">
+      <Text>{1_Votes} {1_Votes : Hvis ental 1?vote var; andet?votes var;} indsendt til fordel for resultat A.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_B_VOTES_TT">
+      <Text>{1_Votes} {1_Votes : ental 1?en stemme blev; andet?stemmer blev;} afgivet til fordel for udfald B.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_UP_VOTES_TT">
+      <Text>{1_Votes} {1_Votes : når ental 1?stem blev afgivet; other?stemmer blev afgivet;} til fordel for denne konkurrence.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_DOWN_VOTES_TT">
+      <Text>{1_Votes} {1_Votes : plural 1?stemme blev indsendt; other?stemmer blev indsendt;} imod denne konkurrence.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_A_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} afgav {2_Votes} {2_Votes : plural 1?vote; other?votes;} til fordel for udfald A.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_B_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} afgav {2_Votes} {2_Votes : plural 1?vote; other?votes;} til fordel for resultat B.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_UP_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} har afgivet {2_Votes} {2_Votes : plural 1?stemme; other?stemmer;} til fordel for denne konkurrence.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_DOWN_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} indsendte {2_Votes} {2_Votes : plural 1?vote; other?votes;} imod denne konkurrence.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_EMPTY">
+      <Text>En session af World Congress vil begynde om {1_Turns} {1_Turns : plural 1?turn; other?turns;}. [NEWLINE][NEWLINE] Kongressen kan også indkaldes til en Special Session ved at vælge fra Tilgængelige Forslag. Nye forslag vil blive tilgængelige, når kriser opstår over hele verden.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_OR">
+      <Text>JEG ER KLAR TIL AT OVERSÆTTE TEKSTEN. HVILKEN TEKST ØNSKER DU AT FÅ OVERSAT TIL DANSK?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOICE_A">
+      <Text>HVAD ER DEN TEKST, DU VIL HAVE OVERSAT TIL DANSK?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOICE_B">
+      <Text>EKLAGER, MEN DER ER INGEN TEKST AT OVERSÆTTE. KAN DU VENLIGST GIVE MIG DEN TEKST, DU VIL HAVE OVERSAT?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PASS">
+      <Text>Jeg er ked af det, hvordan kan jeg ellers hjælpe dig?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ADD_PROPOSALS">
+      <Text>Tilføj forslag</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CITY_STATE_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} har erobret {OldCityName}. Vi skal genoprette dens uafhængighed."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RELIGIOUS_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} har konverteret {OldCityName} til {NewReligion}. Vi må udrydde denne nye tro."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETRAYAL_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} har forrådt {OldPlayerName}. Vi må straffe deres forræderi."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MILITARY_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} har erobret {OldCityName}. Vi må modstå deres aggression."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NUCLEAR_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} har brugt et atomvåben. Vi skal straffe denne afskyelige handling."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AID_REQUEST_SUMMARY">
+      <Text>"{TargetName} blev hærget af en naturkatastrofe. Vi bør hjælpe dem med at komme sig."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MILITARY_AID_REQUEST_SUMMARY">
+      <Text>"{TargetName} bliver målrettet af en aggressiv fjende. Vi bør finansiere deres forsvar."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CLIMATE_ACCORD_SUMMARY">
+      <Text>"Vi deler alle denne planet. For vores børn og deres børn efter dem, må vi beskytte den."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_WORLD_GAMES_SUMMARY">
+      <Text>"Atletik behøver ikke bevise sig i kamp. Lad os bevise, hvem der er stærkest gennem sport."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_WORLDS_FAIR_SUMMARY">
+      <Text>"Hvilken nation har de bedste kreative og opfindsomme personer? Lad os se, hvem der har de skarpeste hjerner."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ISS_SUMMARY">
+      <Text>"Rummet er for stort til enhver civilisation alene. Lad os arbejde sammen om at udforske denne ukendte grænse."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_PEACE_SUMMARY">
+      <Text>"Sverige ønsker at anerkende den mest fredelige nation. Vi skal se, hvem af os det er."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_LITERATURE_SUMMARY">
+      <Text>"Sverige ønsker at anerkende en fantastisk håndskrift. Vi vil se, hvem der producerer den bedste litteratur."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_SCIENCE_SUMMARY">
+      <Text>"Sverige ønsker at anerkende videnskabeligt lederskab. Vi vil se, hvem der bedst fremmer videnskaben."</Text>
+    </Row>
+    <!-- Scored Competitions -->
+    <Row Tag="LOC_SCORED_COMPETITION_EMERGENCY_COMPLETED">
+      <Text>{1_Name} FÆRDIG</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_EMERGENCY_ONGOING">
+      <Text>IGANGVÆRENDE {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_COMPLETED">
+      <Text>KONKURRENCEN ER AFSLUTTET</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_ONGOING">
+      <Text>IGANGVÆRENDE KONKURRENCE</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_WIN">
+      <Text>DU VINDER!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_LEADER_WINS">
+      <Text>{1_Name} VINDER!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_WIN">
+      <Text>MEDLEMMER VINDER!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_TARGET_WINS">
+      <Text>MÅLET VINDER!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_BRONZE">
+      <Text>Du har tjent [ICON_Reward_Bronze] BRONZE Tier Rewards</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_SILVER">
+      <Text>Du har optjent [ICON_Reward_Silver] SØLV-niveau belønninger</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_GOLD">
+      <Text>Du har optjent [ICON_Reward_Gold] GULD Tier Belønninger</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_NONE">
+      <Text>Du har tjent [ICON_Reward_None] Ingen Belønninger</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_TARGET">
+      <Text>Du har optjent [ICON_Reward_Target] Målrabatter</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_MEMBER">
+      <Text>Du har optjent [ICON_Reward_Member] Medlemsbelønninger</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_GOLD_TIER">
+      <Text>[ICON_Reward_Gold] GULD Niveau</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER">
+      <Text>[ICON_Reward_Silver] SØLV Niveau</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_BRONZE_TIER">
+      <Text>[ICON_Reward_Bronze] BRONZE-niveau</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_TIME_SUCCESS">
+      <Text>Medlemmerne fuldførte deres mål til tiden.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_TIME_FAIL">
+      <Text>Medlemmerne fuldførte ikke deres mål til tiden.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_AID_REQUEST_SUCCESS">
+      <Text>Medlemmerne har sendt al den hjælp, de kan inden for den tildelte tid. Én filantrop skiller sig ud blandt de andre.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_SUCCESS">
+      <Text>Denne fredelige konkurrence mellem verdensmagter er nået sin afslutning. Én civilisation skiller sig ud blandt de andre.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_LITERATURE_SUCCESS">
+      <Text>Sverige har tildelt den prestigefyldte Nobelpris for litteratur til den mest kunstfærdige civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_PEACE_SUCCESS">
+      <Text>Sverige har tildelt den prestigefyldte Nobelpris for Fred til den mest fredelige civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_SCIENCE_SUCCESS">
+      <Text>Sverige har tildelt den prestigefyldte Nobelpris for fysik til den mest videnskabeligt-minded Civilization.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER_CHILD">
+      <Text>Alle belønninger på sølvtier</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_GOLD_TIER_TITLE">
+      <Text>[ICON_Reward_Gold] Belønninger til Gold Tier (for højeste score):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER_TITLE">
+      <Text>[ICON_Reward_Silver] Sølv Tier Belønninger (til de øverste 25% af scoringer):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_BRONZE_TIER_TITLE">
+      <Text>[ICON_Reward_Bronze] Belønninger for Bronze Tier (til de næste 25% af scores):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_TARGET_TIER_TITLE">
+      <Text>[ICON_Reward_Target] Måldrevne belønninger (hvis tiden løber ud):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBER_TIER_TITLE">
+      <Text>[ICON_Reward_Member] Medlemsbelønninger (for at fuldføre målene til tiden):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NO_TIER_TITLE_BOTTOM">
+      <Text>[ICON_Reward_None] Spillere, der ikke placerer sig i en tier, modtager ingen belønninger</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NO_TIER_TITLE_NONE">
+      <Text>[ICON_Reward_None] Medlemmer uden score modtager ingen belønninger</Text>
+    </Row>
+    <!-- Rock band -->
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_DESCRIPTION">
+      <Text>Din leder forventer at generere [ICON_TOURISM] turisme fra dette sted. [NEWLINE][NEWLINE] Der er en {2_Death}% chance for, at disse rockere vil lave deres sidste optræden og gå på pension efter at have spillet her.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_DIFFERENT_OWNER">
+      <Text>Skal være på en flise ejet af en større civilisation end dig.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_LOCATION">
+      <Text>Kræver en gyldig målplacering. Mulige placeringer inkluderer vidundere, distrikter med en af de påkrævede bygninger eller en særlig målplacering tilladt af et af bandets forfremmelser.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_NOTPLAYED">
+      <Text>Den samme brik må ikke spilles flere gange.</Text>
+    </Row>
+    <!-- Drought -->
+    <Row Tag="LOC_UNITOPERATION_REPAIR_BLOCKED_BY_DROUGHT">
+      <Text>Denne forbedring kan ikke repareres, mens der er tørke i gang.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_IMPROVEMENT_BLOCKED_BY_DROUGHT">
+      <Text>Denne forbedring kan ikke bygges, mens der er tørke i gang.</Text>
+    </Row>
+    <!-- Espionage -->
+    <Row Tag="LOC_VIZSOURCE_HIGHLEVEL_SPY">
+      <Text>Spion er hemmelig agent eller bedre</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_HIGHLEVEL_SPY">
+      <Text>(ekstra synlighed hvis hemmelig agent eller mester spion)</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_LISTENING_POST">
+      <Text>Øger [ICON_VisLimited] Diplomatisk Synlighed med 1 niveau (2 hvis Hemmelig Agent eller højere)</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_BREACH_DAM_DESCRIPTION">
+      <Text>Brydning af dæmning</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_BREACH_DAM_REWARD">
+      <Text>plyndrer Damvandene for at oversvømme floddalen</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_BREACH_DAM">
+      <Text>Oversvømmelse af floddalen, der indeholder en dæmning</Text>
+    </Row>
+    <!-- updated base game and dlc strings -->
+    <Row Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION">
+      <Text>Forbedring, der låses op med Murerarbejde og skal bygges på Ørkener, Ørkendale eller Ørkensletninger. +2 [ICON_Faith] Tro og +2 [ICON_Food] Mad. Modtager yderligere udbytte fra tilstødende distrikter. +1 [ICON_Food] Mad, hvis det er tilstødende til et bycenter. For alle andre distrikter, der giver tilstødende bonusser: +1 af det passende udbytte, hvis det distrikt er tilstødende.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION">
+      <Text>Giver en gratis Builder. Alle Builders kan bygge 1 ekstra forbedring. Skal bygges på ørkenen (inklusiv oversvømmede ørkener), uden bjerge.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PETRA_DESCRIPTION">
+      <Text>+2 [ICON_Food] Mad, +2 [ICON_Gold] Guld og +1 [ICON_Production] Produktion på alle Ørkenfliser for denne by (ikke oversvømmelsesområder). Skal bygges på Ørken eller Ørken Oversvømmelsesområder uden Bakker.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_VIEW_ENABLED_TT">
+      <Text>[NEWLINE]Klik for at se bydetaljer</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_VIEW_DISABLED_TT">
+      <Text>[NEWLINE][COLOR_RED]Øg adgangsniveauet for at se detaljerne om denne by[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATES_SUZERAIN_DIPLOMATIC_BONUS">
+      <Text>Suzeræn diplomati bonus:[NEWLINE][ICON_Bolt] Du får en grundlæggende bonus på +1 [ICON_FAVOR] Diplomatisk Favor hver tur.[NEWLINE][ICON_Bolt] Bystaten følger dig i krig og fred med andre spillere.[NEWLINE][ICON_Bolt] Bystatens land bliver venligt territorium. Dine enheder kan bevæge sig derhen, helbrede der og opgradere der.[NEWLINE][ICON_Bolt] Dine Bygger-enheder kan forbedre bystatens fliser.[NEWLINE][ICON_Bolt] Se 3 fliser omkring bystaten.[NEWLINE][ICON_Bolt] Kan betale [ICON_Gold] Guld for midlertidigt at overtage bystatens militær.[NEWLINE][ICON_Bolt] Få ejerskab over alle bystatens ressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_ADDITIONAL_FERTILITY">
+      <Text>Kan opnå ekstra udbytter fra miljøeffekter.</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_MAY_ERUPT">
+      <Text>Kan bryde ud</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_DETAILS_EXP2">
+      <Text>For at opnå en [COLOR:ResScienceLabelCS]VIDENSKABELIG[ENDCOLOR] sejr, skal du opnå 4 store milepæle:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_NO_LAUNCH">
+      <Text>Exoplanet ekspeditionen er ikke blevet lanceret.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_HAS_MOVED">
+      <Text>Exoplanet Expedition har rejst {1_LightYearsTraveled} / {2_LightYearsTotalNeeded} lys {2_LightYearsTotalNeeded : plural 1?år; other?år;}.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_IS_MOVING">
+      <Text>Exoplanet-ekspeditionen rejser {1_LightYearsPerTurn} lysår {1_LightYearsPerTurn : plural 1?år; other?år;} pr. tur.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_LIGHT_YEARS">
+      <Text>lysår.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_LIGHT_YEARS_PER_TURN">
+      <Text>lysår pr. omgang.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_4">
+      <Text>Start en ekso-planet ekspedition.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_FINAL">
+      <Text>Hjælp Exoplanet Ekspeditionen med at rejse {1_NumLightYears} lysår.</Text>
+    </Row>
+    <Row Tag="LOC_ROUTECHOOSER_YIELD_SOURCE_TRADING_POSTS">
+      <Text>{1_YieldAmount} {2_YieldIconString} {3_YieldName} fra vartegn langs vejen, der gør handel nemmere (vandfliser, jernbaner, kanaler, bjergetunneler og dine [ICON_TradingPost] Handelsposter).</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_POINT_DETAILS">
+      <Text>{1_PointsPerTurn} {2_IconString} {3_GreatPersonClassName} optjent denne tur. [NEWLINE][NEWLINE] Point kommer primært fra distrikter og bygninger, men kan også komme fra verdens underværker, politikker og byprojekter.</Text>
+    </Row>
+    <!--Dan Quayle Screen-->
+    <Row Tag="LOC_UI_ENDGAME_RANKING_LEADER_12_NAME">
+      <Text>Louis XV</Text>
+    </Row>
+    <Row Tag="LOC_UI_ENDGAME_RANKING_LEADER_12_QUOTE">
+      <Text>Efter mig, syndfloden.</Text>
+    </Row>
+    <!--Power Panel of City Details screen-->
+    <Row Tag="LOC_CITY_PANEL_POWER_HEADER">
+      <Text>Kraft</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_CURRENT_POWER">
+      <Text>Genereret</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_REQUIRED_POWER">
+      <Text>Krævet</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_FULLY_POWERED_STATUS">
+      <Text>Denne by er fuldt drevet. Alle bygninger i byen, der bruger [ICON_Power] strøm, opererer med fuld styrke.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_UNPOWERED_STATUS">
+      <Text>Denne by er ikke fuldt dækket af strøm. Alle bygningskonstruktioner i byen, der bruger [ICON_Power] strøm, har nedsat effektivitet.</Text>
+    </Row>
+    <!--Cultural Dominance effects-->
+    <Row Tag="LOC_CULTURAL_DOMINANCE_TRADE_GOLD_SUMMARY">
+      <Text>[ICON_TradeRoute] Handelsruter til fremmede byer, som du kulturelt dominerer, giver +4 [ICON_GOLD] Guld</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_DOMINANCE_ESPIONAGE_MISSION_LENGTH_SUMMARY">
+      <Text>Spionmissioner i fremmede byer, hvor du kulturelt dominerer, er 50% hurtigere at fuldføre</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_DOMINANCE_CITIZEN_LOYALTY_PRESSURE_SUMMARY">
+      <Text>Dine [ICON_Citizen] Borgere udøver 25% mere loyalitetspres på fremmede byer, som du har kulturel dominans over</Text>
+    </Row>
+  </EnglishText>
+</GameData>

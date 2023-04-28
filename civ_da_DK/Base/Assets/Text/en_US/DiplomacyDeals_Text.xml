@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GOLD_PER_TURN">
+      <Text>GULD PER TUR</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GOLD_PER_TURN_WITH_TURNS">
+      <Text>GOUD PER BEURT [newline]{1_number} BEURTEN</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_FOR_TURNS">
+      <Text>I {1_number} omdrejninger</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_FOR_30_TURNS">
+      <Text>I 30 OMDREJNINGER</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ONE_TIME">
+      <Text>ENGANGSTILBUD</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_LUXURY_RESOURCES">
+      <Text>LUKSUSRESSOURCER</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_STRATEGIC_RESOURCES">
+      <Text>STRATEGISKE RESSOURCER</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_AGREEMENTS">
+      <Text>AFTALER</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CITIES">
+      <Text>BYER</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_OTHER_PLAYERS">
+      <Text>ANDRE SPILLERE</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CAPTIVES">
+      <Text>FANGER</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GREAT_WORKS">
+      <Text>FANTASTISK ARBEJDE</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_TECHNOLOGIES">
+      <Text>TEKNOLOGIER</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_PLAYER_PANEL_TITLE">
+      <Text>{1_LeaderName}[NEWLINE]{2_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ACCEPT_DEAL">
+      <Text>Accepter aftale</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_REFUSE_DEAL">
+      <Text>Afslå tilbudet</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_PROPOSE_DEAL">
+      <Text>Foreslå aftale</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_DEMAND_DEAL">
+      <Text>Efterspørgselsaftale</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ACCEPT_DEMAND">
+      <Text>Accepter Efterspørgsel</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_REFUSE_DEMAND">
+      <Text>Afvis Anmodning</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ACCEPT_GIFT">
+      <Text>Accepter gave</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_REFUSE_GIFT">
+      <Text>Afslå gave</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GIFT_DEAL">
+      <Text>Giv gave</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_EXIT_DEAL">
+      <Text>Lad være med at tænke på det / Det betyder ikke noget</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CANCEL_DEAL">
+      <Text>Annuller aftale</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CANCEL_DEMAND">
+      <Text>Annuller Anmodning</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_RESUME_GAME">
+      <Text>Opsummering</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_YOUR_ITEMS">
+      <Text>Dine genstande</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_THEIR_ITEMS">
+      <Text>Deres genstande</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_WHAT_WOULD_YOU_GIVE_ME">
+      <Text>Hvad ville du give mig?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_WHAT_WOULD_IT_TAKE">
+      <Text>Hvad vil det kræve?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CLICK_TO_CHANGE_DEAL_PARAMETER">
+      <Text>Angiv detaljerne i aftalen...</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_DEAL_PARAMETER">
+      <Text>Set deal details...</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_PARAMETER_WITH_TURNS">
+      <Text>{1_DisplayName} ({2_Turns} træk)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_OTHER_PLAYER_SAYS">
+      <Text>{1_LeaderName} siger:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_RETURN_CITY">
+      <Text>{1_Name}, kom tilbage.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_RETURN_CITY_TOOLTIP">
+      <Text>Bring {1_Name} tilbage til {1_LeaderName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CEDE_CITY">
+      <Text>{1_Name}, overgiv dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CEDE_CITY_TOOLTIP">
+      <Text>Overdrage {1_Name} til {1_LeaderName}</Text>
+    </Row>
+    <!--Deal Error Messages-->
+    <Row Tag="LOC_DEAL_CITY_NOT_FOUND">
+      <Text>By ikke fundet</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_DUPLICATE">
+      <Text>Endnu en tilbudsartikel har samme by</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_GOLD_NOT_ENOUGH_IN_TREASURY">
+      <Text>Ikke nok guld</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_GOLD_NOT_ENOUGH_YIELD">
+      <Text>Ikke nok guld</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_GREAT_WORK_NOT_FOUND">
+      <Text>Fantastisk arbejde ikke fundet</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_INVALID_PLAYER">
+      <Text>Ugyldig spiller</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_NO_SLOT_TO_RECEIVE_WORK">
+      <Text>Ingen slot til at placere arbejde</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_RESOURCES_NOT_ENOUGH">
+      <Text>Ikke nok af denne ressource</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_SPY_NOT_FOUND">
+      <Text>Spion ikke fundet</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_POPULATION_TOOLTIP">
+      <Text>Befolkning: {1_number}</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_DISTRICTS_TOOLTIP">
+      <Text>Områder:</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_RESOURCES_TOOLTIP">
+      <Text>Ressourcer:</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_GREAT_WORKS_TOOLTIP">
+      <Text>Store værker:</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_ITEM_TRANSFERRED_WITH_CITY_TOOLTIP">
+      <Text>Overført med {1_CityName}</Text>
+    </Row>
+    <!-- Diplomactic Actions -->
+    <Row Tag="LOC_DIPLOACTION_RESIDENT_EMBASSY_NAME">
+      <Text>Ambassade på fast bopæl</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEMAND_TRIBUTE_NAME">
+      <Text>Kræv hyldest</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_OPEN_BORDERS_NAME">
+      <Text>Åbne grænser</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_REQUEST_ASSISTANCE_NAME">
+      <Text>Anmod om hjælp</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DENOUNCE_NAME">
+      <Text>Fordømme</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_SURPRISE_WAR_NAME">
+      <Text>Overraskelseskrig</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_MAKE_PEACE_NAME">
+      <Text>Skab fred</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DIPLOMATIC_DELEGATION_NAME">
+      <Text>Send delegationen</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_ALLIANCE_NAME">
+      <Text>Alliance</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FRIENDSHIP_NAME">
+      <Text>Erklær Venskab</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_GRANT_INFLUENCE_TOKEN_NAME">
+      <Text>Tildel Indflydelses Token</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_GIFT_UNIT_NAME">
+      <Text>Gaveenhed</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_MILITARY_REQUEST_NAME">
+      <Text>Militær anmodning</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_WAR_MINOR_CIV_NAME">
+      <Text>Erklær krig mod mindre civilisationer</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FORMAL_WAR_NAME">
+      <Text>Erklær krig</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_HOLY_WAR_NAME">
+      <Text>Erklær Hellig Krig</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_NAME">
+      <Text>Frigørelseskrigen erklæres</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_RECONQUEST_WAR_NAME">
+      <Text>Erklær krig om genindtagelse</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_PROTECTORATE_WAR_NAME">
+      <Text>Erklær Protektoratkrig</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_COLONIAL_WAR_NAME">
+      <Text>Erklær kolonikrig</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_NAME">
+      <Text>Erklær krig for territorial ekspansion</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEFENSIVE_PACT_NAME">
+      <Text>Forsvars Pagt</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_JOINT_WAR_NAME">
+      <Text>Fælles Krig</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_RESEARCH_AGREEMENT_NAME">
+      <Text>Forskningsaftale</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_SPY_NAME">
+      <Text>Løfte om ikke at spionere</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_CONVERT_NAME">
+      <Text>Løfte om ikke at konvertere byer</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_DIG_ARTIFACTS_NAME">
+      <Text>Løfte om ikke at grave artefakter op</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_SETTLE_TOO_NEAR_NAME">
+      <Text>Lov mig at ikke bosætte mig for tæt på</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_INVALID">
+      <Text>Jeg vil ikke indgå denne aftale under nogen omstændigheder.</Text>
+    </Row>
+    <!-- Diplomactic Action Tooltips-->
+    <Row Tag="LOC_DIPLOACTION_RESEARCH_AGREEMENT_DESCRIPTION">
+      <Text>Opret en forskningsaftale med en erklæret ven eller alliancemedlem. Forskningsaftaler tillader to parter at samarbejde om at forske i en bestemt teknologi. Jo dyrere teknologien er, desto længere tid vil aftalen tage. Ved udløbet af aftalen, vil hver part modtage et Boost for den pågældende teknologi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_JOINT_WAR_DESCRIPTION">
+      <Text>Etablér en fælles krig mod en målcivilisation.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEFENSIVE_PACT_DESCRIPTION">
+      <Text>Opret en Forsvars Pagt. Når enten medlem af alliancen bliver angrebet, vil alle medlemmer automatisk erklære krig mod angriberen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_ALLIANCE_DESCRIPTION">
+      <Text>Etablér en alliance med en erklæret ven. Allierede må ikke gå i krig, har automatisk åbne grænser, og hver modtager en Casus Belli på en angrebscivilisation, hvis en af deres allierede mister en by.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_RESIDENT_EMBASSY_DESCRIPTION">
+      <Text>Opret en permanent ambassade med denne magt. Hvis det accepteres, vil modtageren være lidt venligere, du vil få adgang på et niveau, og modtagerens [ICON_Capital] hovedstad vil blive afsløret.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEMAND_TRIBUTE_DESCRIPTION">
+      <Text>Kræv en diplomatisk gave fra denne magt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_OPEN_BORDERS_DESCRIPTION">
+      <Text>Bed denne magt om at tillade dine enheder at rejse gennem deres kontrollerede område.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_REQUEST_ASSISTANCE_DESCRIPTION">
+      <Text>Bed om en diplomatisk gave fra denne magt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DENOUNCE_DESCRIPTION">
+      <Text>Bruges til at formelt angive din utilfredshed med denne magt. En formel krigserklæring (med eller uden en Casus Belli) kan følge efter yderligere 5 ture er gået.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_SURPRISE_WAR_DESCRIPTION">
+      <Text>Brugt til at starte en krig øjeblikkeligt. Normale straffe for krigshissere øget med 50%.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_MAKE_PEACE_DESCRIPTION">
+      <Text>Forhandl en aftale for at få en ende på den nuværende krig med denne magt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DIPLOMATIC_DELEGATION_DESCRIPTION">
+      <Text>Send en delegation med en gave af [ICON_Gold] Guld til denne magt. Hvis den bliver accepteret, vil modtageren være lidt venligere, og du vil få adgang til et niveau af adgang. Varer indtil du får Diplomatisk Service-borgerretten</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FRIENDSHIP_DESCRIPTION">
+      <Text>Formelt erklær din hensigt om at opretholde venlige relationer med denne magt. Som en ven vil du være berettiget til en alliance, men du vil ikke være i stand til at erklære krig mod denne magt formelt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FORMAL_WAR_DESCRIPTION">
+      <Text>Used to declare war on a player that Denounced you or that you have Denounced at least 5 turns ago. No restrictions on which cities you may capture.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_HOLY_WAR_DESCRIPTION">
+      <Text>Brugt til at erklære krig mod en magt, der religiøst har konverteret en af dine byer. Alle varmekrigsstraffe er halverede.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_DESCRIPTION">
+      <Text>Bruges til at erklære krig mod en magt, der har erobret en by fra en af ​​dine venner eller allierede. Der er ingen krigshungersstraf for at befri nogen af disse byer.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_RECONQUEST_WAR_DESCRIPTION">
+      <Text>Bruges til at erklære krig mod en magt, der har erobret en af dine byer. Der pålægges ingen krigsforbryderstraffe.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_PROTECTORATE_WAR_DESCRIPTION">
+      <Text>Bruges til at erklære krig mod en magt, der har angrebet en af dine allierede bystater. Ingen krigsherrestraf for at befri den pågældende bystat.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_COLONIAL_WAR_DESCRIPTION">
+      <Text>Brugt til at erklære krig mod en magt, der er to teknologiske æraer bagud i forhold til dig. Alle straffe for krigsherre halveres.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_DESCRIPTION">
+      <Text>Bruges til at erklære krig mod en magt, der grænser op til dit imperium. Du skal have 2 af dine byer inden for 10 fliser af 2 modstanderes byer. Straffene for krigsførelse mindskes med 25%.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_PROPOSE_TRADE_DESCRIPTION">
+      <Text>Initier handelsforhandlinger med denne magt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_PROPOSE_PEACE_DEAL_DESCRIPTION">
+      <Text>Foreslå en fredsaftale med denne magt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_TECH">
+      <Text>Vælg teknologi</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_ALLIANCE">
+      <Text>Vælg Alliance</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_TARGET">
+      <Text>Vælg mål</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_HOW_MANY">
+      <Text>Hvor mange?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_GIFT">
+      <Text>Jeg ville acceptere denne gave</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_GIFT_EFFECT">
+      <Text>Gaver vil forbedre dit forhold</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_DEMAND">
+      <Text>Jeg vil hellere forhandle.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_DEMAND_EFFECT">
+      <Text>At stille krav vil skade dit forhold</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_UNFAIR">
+      <Text>Jeg kan ikke acceptere, at det er en unfair aftale.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_WHAT_WOULD_YOU_GIVE_ME_TOOLTIP">
+      <Text>Spørg hvad denne leder ville give dig for dit tilbud.[NEWLINE]Dette vil kun tilføje varer til deres side af handelsbordet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_UNACCEPTABLE_DEAL">
+      <Text>Jeg kan ikke acceptere denne aftale under nogen omstændigheder.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_UNACCEPTABLE_ITEM_TOOLTIP">
+      <Text>Tilbud om blokering af aftale</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_MARK_UNACCEPTABLE">
+      <Text>Marker dette element som uacceptabelt</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_STOP_ASKING_POPUP_TEXT">
+      <Text>At markere denne vare som uacceptabel og afvise aftalen vil forhindre denne AI i nogensinde at bede om denne vare igen. Ønsker du at fortsætte?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_STOP_ASKING_POPUP_TITLE">
+      <Text>Stop med at spørge?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_REMOVE_ITEM">
+      <Text>Fjern vare fra tilbud</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_EQUALIZE_SUCCEEDED">
+      <Text>How about this?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_EQUALIZE_FAILED">
+      <Text>Jeg er ikke villig til at handle med det</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_GIFT_EQUALIZE_FAILED">
+      <Text>Jeg har intet, jeg er villig til at bytte for det</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_FRIENDLY_1">
+      <Text>Måske vil vi i fremtiden finde en acceptabel aftale?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_FRIENDLY_2">
+      <Text>En anden gang, måske?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_FRIENDLY_3">
+      <Text>Jeg er overrasket over, at vi ikke kunne nå til enighed.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_NEUTRAL_1">
+      <Text>Det er ærgerligt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_NEUTRAL_2">
+      <Text>Jeg tør ikke hæve mit tilbud højere.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_NEUTRAL_3">
+      <Text>Hvor beklageligt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_AGGRESSIVE_1">
+      <Text>Hvad hjælper skatten, hvis du ikke vil bruge den?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_AGGRESSIVE_2">
+      <Text>På den ene eller den anden måde vil du give mig, hvad jeg vil have.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_AGGRESSIVE_3">
+      <Text>Jeg accepterer dit afslag - for nu.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_EXPAND_CATEGORY">
+      <Text>Udvid kategori for aftale.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_COLLAPSE_CATEGORY">
+      <Text>Sammenbrud af aftalekategori.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_EXPAND_CITY_INFO">
+      <Text>Udvid byinformation om byen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_COLLAPSE_CITY_INFO">
+      <Text>Sammenklap byinformationen.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

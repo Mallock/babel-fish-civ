@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Names -->
+    <Row Tag="LOC_ABILITY_ANTI_CAVALRY_NAME">
+      <Text>Anti-kavaleri</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAVY_CHARIOT_NAME">
+      <Text>Tung vogn</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_TERRAIN_COST_NAME">
+      <Text>Ignorer Terræn Omkostning</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_NAME">
+      <Text>Ignorer omkostningerne ved at krydse floder</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_ZOC_NAME">
+      <Text>Ignorer ZOC</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHT_CHARIOT_NAME">
+      <Text>Lysvogn</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_MOVE_AND_SHOOT_NAME">
+      <Text>Ingen bevægelse og skydning</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_OCEAN_NAME">
+      <Text>Kun kystnære</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CANNOT_ATTACK">
+      <Text>Kan ikke angribe</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_COMBAT">
+      <Text>Venligt Territorium Bonus</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_NAME">
+      <Text>Muliggør Væg-angreb</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_WALLS_NAME">
+      <Text>Undgå mure</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_SPEAR_NAME">
+      <Text>Anti-spyd</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_RANGE_BONUS_NAME">
+      <Text>Målsøgning</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_NAME">
+      <Text>Uhindret udsigt</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_NAME">
+      <Text>Oligarki Melé</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_NAME">
+      <Text>Teokrati</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ORDERS_BUFF_NAME">
+      <Text>Religiøse orden</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_NAME">
+      <Text>Fascisme Angreb</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COMMUNISM_DEFENSE_BUFF_NAME">
+      <Text>Forsvar af Kommunismeland</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDIC_HEAL_NAME">
+      <Text>Medic Healing (literal translation: Læge Behandling)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STEALTH_NAME">
+      <Text>Skjult</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SEE_HIDDEN_NAME">
+      <Text>Afslør skjult</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COASTAL_RAID_NAME">
+      <Text>Kystangreb</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MELEE_COASTAL_RAID_NAME">
+      <Text>Thunderbolt Kystangreb</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_COMBAT_UNIT_NAME">
+      <Text>Rettede angreb</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAL_NEUTRAL_TERRITORY_NAME">
+      <Text>Helbred Neutral Territorium</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA_NAME">
+      <Text>Immunitet mod plyndring til søs</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_RAGE_NAME">
+      <Text>Berserker Raseri</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_MOVEMENT_NAME">
+      <Text>Berserker Bevægelsen</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LONGSHIP_MOVEMENT_NAME">
+      <Text>Bevægelse af langskib</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PRIZE_SHIPS_NAME">
+      <Text>Præmie Skibe</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CAPTIVE_WORKERS_NAME">
+      <Text>Fangne arbejdere</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BALKAN_CAVALRY_NAME">
+      <Text>Balkan Kavaleri</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALTITUDE_TRAINING_NAME">
+      <Text>Højdetræning</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COSSACK_NAME">
+      <Text>Og Stille Flyder Don</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_REDCOAT_NAME">
+      <Text>Global hær</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VARU_NAME">
+      <Text>Frygt</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NAGAO_NAME">
+      <Text>Skovbrandbekæmper</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CONQUISTADOR_NAME">
+      <Text>Tvungen omvendelse</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GARDE_NAME">
+      <Text>Napoleons elite</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOPLITE_NAME">
+      <Text>Phalanx (this word does not require translation as it is a proper noun)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UBOAT_NAME">
+      <Text>Wolfsrudel (literal translation) - Ulveflok (natural translation)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROUGH_RIDER_NAME">
+      <Text>Teddy's Rough Rider</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MUSTANG_NAME">
+      <Text>Mustang</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAMLUK_NAME">
+      <Text>Furusiyya (a term referring to horsemanship and chivalry)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SAMURAI_NAME">
+      <Text>Samurai</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_FOREIGN_SPREAD_NAME">
+      <Text>Husstandsbredde</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ARCHAEOLOGIST_ENTER_FOREIGN_LANDS_NAME">
+      <Text>Træd ind i fremmede lande</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_CANNOT_ATTACK_NAME">
+      <Text>Fredsmægler</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_RELIGIOUS_NAME">
+      <Text>Fordel af venligt territorium</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ENTER_FOREIGN_LANDS_NAME">
+      <Text>Ignorerer grænser</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_IGNORE_TERRAIN_COST_NAME">
+      <Text>Gå på luft</Text>
+    </Row>
+    <!-- Full description -->
+    <Row Tag="LOC_ABILITY_ANTI_CAVALRY_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke mod lette og tunge kavalerienheder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_SPEAR_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke mod antikavalerienheder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAVY_CHARIOT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse, hvis man starter i ørken, sletter, græsland eller tundra.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_IGNORE_TERRAIN_COST_DESCRIPTION">
+      <Text>Skov, Jungle, Bakker og Sumpe kræver kun én [ICON_Movement] bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_ZOC_DESCRIPTION">
+      <Text>Ikke påvirket af fjendens kontrolzone.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHT_CHARIOT_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Bevægelse, hvis startende i ørken, slette, græsland eller tundra.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_MOVE_AND_SHOOT_DESCRIPTION">
+      <Text>Kan ikke bevæge sig og angribe i samme tur.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_OCEAN_DESCRIPTION">
+      <Text>Kan ikke bevæge sig ind i ocean hexer.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CANNOT_ATTACK_DESCRIPTION">
+      <Text>Må ikke angribe fjender; kan kun forsvare sig.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_COMBAT_DESCRIPTION">
+      <Text>Kampbonus i vennligt territorium.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_DESCRIPTION">
+      <Text>Når nær en fjendtlig by, gør nærkampsenheder fuld skade på byens mure.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_WALLS_DESCRIPTION">
+      <Text>Når i nærheden af en fjendtlig by, kan venlige melee enheder springe over bymurene og angribe byen direkte.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANIT_SPEAR_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke mod spydmænd og pikemænd.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_RANGE_BONUS_DESCRIPTION">
+      <Text>+1 [ICON_Range] Rækkevidde til nærliggende, afstandsangribende belejringsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_DESCRIPTION">
+      <Text>Synsfelt uskærmet af terræn.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OBSERVATION_STRENGTH_BONUS_DESCRIPTION">
+      <Text>Tilskud +1 [ICON_Range] Rækkevidde til belejringsenheder inden for 1 firkant.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_DESCRIPTION">
+      <Text>+4 [ICON_Styrke] Kampstyrke fra Oligarki-regeringen.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Religion] Religiøs Styrke fra Teokratiet regeringen.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ORDERS_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Religion] Religiøs styrke fra politikken Religiøse Orden.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Styrke] Kampstyrke når man angriber fra Fascismeregeringen.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COMMUNISM_DEFENSE_BUFF_DESCRIPTION">
+      <Text>+6 [ICON_Strength] Kampsstyrke ved forsvar mod kommunistregeringen.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDIC_HEAL_DESCRIPTION">
+      <Text>+20 HP helbredelse for spillerens enheder inden for 1 flise.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STEALTH_DESCRIPTION">
+      <Text>Forbliver skjult for enheder mere end 1 hex væk.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SEE_HIDDEN_DESCRIPTION">
+      <Text>Afslør skjulte enheder på kortet inden for synsvidde.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COASTAL_RAID_DESCRIPTION">
+      <Text>Kan plyndre bygninger og forbedringer og fange civile enheder på kystlande.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MELEE_COASTAL_RAID_NAME_DESCRIPTION">
+      <Text>Kan plyndre bygninger og forbedringer og fange civile enheder på kystområder. (Hardrada)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_COMBAT_UNIT_DESCRIPTION">
+      <Text>Angrib støtteenheder direkte, selvom de er i en formation med en kampenhed.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAL_NEUTRAL_TERRITORY_DESCRIPTION">
+      <Text>Kan helbrede i neutral zone. (Knarr)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA_DESCRIPTION">
+      <Text>Mens du er på en vandflise, kan dens [ICON_TradeRoute] Handelsrute ikke plyndres af fjendtlige enheder. Opnås når Suzerain af bystaten Lissabon.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_RAGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke ved angreb. [NEWLINE][ICON_Bullet]-5 [ICON_Strength] Kampstyrke ved forsvar.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_MOVEMENT_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Bevægelse, hvis denne enhed starter i fjendtligt territorium.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LONGSHIP_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse mens i kystvande.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PRIZE_SHIPS_DESCRIPTION">
+      <Text>Kan erobre besejrede fjendtlige marinefartøjer.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CAPTIVE_WORKERS_DESCRIPTION">
+      <Text>Kan fange besejrede fjendtlige civilisationskampenheder og konvertere dem til Byggere.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BALKAN_CAVALRY_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke til tung og let kavaleri på bakker, når man er Suzerain af bystaten Preslav.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALTITUDE_TRAINING_DESCRIPTION">
+      <Text>Missionærer, inkvisitorer og apostle kan bevæge sig hurtigere over bakker, efter at have bevæget sig ved siden af ​​Mount Everest naturvidunderet.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COSSACK_DESCRIPTION">
+      <Text>Kan flytte efter angreb.[NEWLINE][ICON_Bullet]+5 [ICON_Strength] Kampstyrke i eller ved siden af dit territorium.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_REDCOAT_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke, når du kæmper på en anden kontinent end dit [ICON_Capital] Hovedstads kontinent.[NEWLINE][ICON_Bullet]Ingen [ICON_Movement] Bevægelsesomkostninger ved udskejning</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VARU_DESCRIPTION">
+      <Text>-5 [ICON_Strength] Kampstyrke til tilstødende fjendtlige enheder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NAGAO_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke når man forsvarer mod fjendtlige afstandsangreb.[NEWLINE][ICON_Bullet]Kan se igennem terræn.[NEWLINE][ICON_Bullet]Kan bevæge sig gennem skove og regnskove uden [ICON_Movement] bevægelsesstraf.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CONQUISTADOR_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke, når der er en religiøs enhed indenfor én hex.[NEWLINE][ICON_Bullet]Hvis denne enhed fanger en by eller er ved siden af en by, når den bliver fanget, vil byen automatisk konvertere til Conquistador-spillerens dominerende religion.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GARDE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke når på samme kontinent som [ICON_Capital] hovedstaden.[NEWLINE][ICON_Bullet]+10 [ICON_GreatGeneral] Store General point for drab.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOPLITE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampevne, hvis der er mindst én Hoplit ved siden af.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UBOAT_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke i ocean kampe.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROUGH_RIDER_DESCRIPTION">
+      <Text>Når du besejrer en fjendtlig enhed på dit [ICON_Capital] hovedkontinents territorium, modtager du [ICON_Culture] Kultur svarende til 50% af den enheds basale [ICON_Strength] kampstyrke (på standard hastighed)[NEWLINE][ICON_Bullet]+10 [ICON_Strength] kampstyrke, når du kæmper på bakker.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MUSTANG_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke bonus mod Kæmpere [NEWLINE][ICON_Bullet]+50% erfaring fra kamp.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAMLUK_DESCRIPTION">
+      <Text>Denne enhed helbreder sig selv hver tur, selv efter bevægelse eller kamp.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SAMURAI_DESCRIPTION">
+      <Text>Denne enhed lider ikke af kampstraf, når den er beskadiget.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BARRACKS_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Optjent erfaring fra Kaserner</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STABLE_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Fortjent erfaring fra Stald</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ARMORY_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Optjent erfaring fra Arsenal</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MILITARY_ACADEMY_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Optjent erfaring fra Militærakademiet</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHTHOUSE_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Optjent erfaring fra fyrtårnet</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SHIPYARD_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Optjent erfaring fra Skibsværft</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SEAPORT_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% Tjent erfaring fra havnen</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HANGAR_TRAINED_AIRCRAFT_XP_DESCRIPTION">
+      <Text>+25% Opnået erfaring fra Hangar</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AIRPORT_TRAINED_AIRCRAFT_XP_DESCRIPTION">
+      <Text>+50% Optjent erfaring fra lufthavnen</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROYAL_NAVY_DOCKYARD_MOVEMENT_BONUS_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse fra Royal Navy Dockyard.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROMAN_LEGION_BUILD_DESCRIPTION">
+      <Text>Kan bygge den unikke forbedring Romersk Fort.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_LIGHTHOUSE_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse fra Det Store Fyrtårn.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT_DESCRIPTION">
+      <Text>+1 Påbegyndt [ICON_Movement] Bevægelse fra Stort Fyrtårn.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RANGED_ATTACK_DISTRICT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Ranged][ENDCOLOR]Afstandsangreb-styrke mod distrikter og søenheder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BOMBARD_ATTACK_UNIT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Bombard][ENDCOLOR] Bombardstyrke mod enheder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AIR_FIGHTER_ATTACK_DISTRICT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Ranged][ENDCOLOR]Rækkevidde styrke mod Distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AIR_BOMBER_ATTACK_UNIT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Bombard][ENDCOLOR]Bombard styrke mod enheder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_AIR_COVER_DESCRIPTION">
+      <Text>Giver forsvar mod luftangreb op til 1 hex væk.</Text>
+    </Row>
+    <Row Tag="LOC_PREVIEW_MONTEZUMA_COMBAT_BONUS_PER_LUXURY_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampstyrke fra Luksusvarer. (Montezuma)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampevne mod enheder af en anden religion. (Philip II)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod By-Stater. (Barbarossa)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Combatstyrke på hjemkontinentet. (Roosevelt)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke mod sårede enheder. (Tomyris)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT_DESCRIPTION">
+      <Text>+30 [ICON_Skade] Sundhed efter at have besejret en fjendtlig enhed. (Tomyris)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_KNARR_IGNORE_EMBARK_DISEMBARK_COST_DESCRIPTION">
+      <Text>Ignorerer ekstra bevægelsesomkostninger ved at gå om bord og gå i land. (Knarr)</Text>
+    </Row>
+    <!--Great People Assigned-->
+    <Row Tag="LOC_ABILITY_RAJENDRA_CHOLA_PLUNDER_BONUS_DESCRIPTION">
+      <Text>+40% Belønninger for at plyndre handelsruter. (Rajendra Chola)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRANCIS_DRAKE_PLUNDER_BONUS_DESCRIPTION">
+      <Text>+50% Belønninger for plyndring af handelsruter. (Francis Drake)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CHING_SHIH_PLUNDER_BONUS_DESCRIPTION">
+      <Text>+60% Belønninger for plyndring af handelsruter. (Ching Shih)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CLANCY_FERNANDO_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+200% Optjent erfaring fra kamp. (Clancy Fernando)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HORATIO_NELSON_FLANKING_BONUS_DESCRIPTION">
+      <Text>+50% bonus for flankering. (Horatio Nelson)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LASKARINA_BOUBOULINA_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+50% Øget erfaring fra kamp. (Laskarina Bouboulina)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SERGEY_GORSHKOV_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+100% Optjent erfaring fra kamp (Sergey Gorshkov)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS_DESCRIPTION">
+      <Text>+50% Flankebonus. (Georgy Zhukov)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+75 Optjent erfaring fra kamp. (John Monash)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VIJAYA_WIMALARATNE_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+100 Tjent erfaring fra kamp. (Vijaya Wimalaratne)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke når du kæmper på kystland (Hojo Tokimune)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOJO_TOKIMUNE_SHALLOW_WATER_COMBAT_BONUS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke, når du kæmper i lavt vand. (Hojo Tokimune)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY_DESCRIPTION">
+      <Text>+1 [ICON_Strength] Kampstyrke for hver unik luksusgenstand, der ejes.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS_DESCRIPTION">
+      <Text>+1 [ICON_Strength] Kampstyrke for hver militærpolitik, der er indsat i den nuværende regering.</Text>
+    </Row>
+    <!-- Combat preview description -->
+    <Row Tag="LOC_COMBAT_DIFFICULTY_SCALING">
+      <Text>+{Amount} [ICON_Strength] Kampstyrke bonus på grund af sværhedsgrad.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_CAVALRY_MODIFIER_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke mod kavaleri</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_FIGHTER_AIRCRAFT_MODIFIER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke mod kampfly</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAVY_CHARIOT_MODIFIER_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse ved start i åbent terræn.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION">
+      <Text>Al terræn koster 1 [ICON_Movement] bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_ZOC_MODIFIER_DESCRIPTION">
+      <Text>Ikke påvirket af ZOC.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHT_CHARIOT_MODIFIER_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Bevægelse ved start i åbent terræn.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_MOVE_AND_SHOOT_MODIFIER_DESCRIPTION">
+      <Text>Kan ikke bevæge sig og derefter angribe.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_OCEAN_MODIFIER_DESCRIPTION">
+      <Text>Kan ikke gå ind i hav-hexer.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CANNOT_ATTACK_MODIFIER_DESCRIPTION">
+      <Text>Forhindrer enheden i at angribe.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>Bonus til [ICON_Strength] Kampstyrke i venligt territorium.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_MODIFIER_DESCRIPTION">
+      <Text>Tillader nærkampsenheder at angribe mure.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_WALLS_MODIFIER_DESCRIPTION">
+      <Text>Tillader nærkampsenheder at passere gennem mure.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANIT_SPEAR_MODIFIER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke mod anti-kavaleri enheder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_RANGE_BONUS_MODIFIER_DESCRIPTION">
+      <Text>+1 [ICON_Ranged] Angrebsrækkevidde til nærliggende belejringsartilleri.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_MODIFIER_DESCRIPTION">
+      <Text>Ubegrænset udsigt</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+4 [ICON_Strength] Kampstyrke fra Oligarki</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 [ICON_Styrke] Kampstyrke fra Teokrati</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ORDERS_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke fra Religiøse Ordener</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 Angreb [ICON_Strength] Kampstyrke fra Fascisme</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COMMUNISM_DEFENSE_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+4 Forsvar [ICON_Strength] Kampstyrke fra Kommunisme</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_OTHER_RELIGION_DESCRIPTION">
+      <Text>+5 [ICON_Styrke] Kampstyrke mod civilisationer, der følger en anden religion.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_WARS_OF_RELIGION">
+      <Text>Religionskrigene: +4 [ICON_Strength] Kampstyrke mod civilisationer, der følger en anden religion.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_HOME_CONTINENT_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Combat Strength on home continent.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_VS_CITY_STATES_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke mod bystater.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_LAND_ON_COAST_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke på kystnære landområder</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_SHALLOW_WATER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke i lavvandet farvande</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDIC_HEAL_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} HP helbredelse for enheder inden for 1 flise</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STRONG_WHEN_ATTACKING_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampstyrke ved angreb</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WEAK_WHEN_DEFENDING_DESCRIPTION">
+      <Text>{1_Amount} [ICON_Strength] Kampstyrke når man forsvarer sig</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PRIZE_SHIPS_MODIFIER_DESCRIPTION">
+      <Text>{1_Amount}% chance for at fange fjenden.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CAPTIVE_WORKERS_MODIFIER_DESCRIPTION">
+      <Text>{1_Amount}% chance for at fange fjenden</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BALKAN_CAVALRY_COMBAT_HILLS_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampstyrke når du kæmper i Bakker</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COSSACK_LOCAL_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampstyrke, når i dit territorium eller tilstødende til dit territorium</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_REDCOAT_FOREIGN_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampstyrke, når du kæmper på en anden kontinent end dit hovedstads kontinent</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VARU_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>{1_Amount} [ICON_Strength] Bekæmpelsesstyrke når i nærheden af en fjendtlig Varu</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NAGAO_RANGED_DEFENSE_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampstyrke ved forsvar mod fjernangreb</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CONQUISTADOR_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampstyrke, når der er en religiøs enhed inden for ét hex</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GARDE_CONTINENT_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampstyrke på samme kontinent som din hovedstad</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOPLITE_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampevne når ved siden af en anden Hoplit</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UBOAT_OCEAN_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampstyrke på Ocean-terræn</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROUGH_RIDER_BONUS_IN_HILLS_DESCRIPTION">
+      <Text>+{1_Amount} [ICON_Strength] Kampstyrke på bjergterræn</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_FOREIGN_SPREAD_DESCRIPTION">
+      <Text>Kan kun sprede deres religion til byer inden for deres imperium.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_CANNOT_ATTACK_DESCRIPTION">
+      <Text>Kan ikke starte teologisk kamp.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_RELIGIOUS_DESCRIPTION">
+      <Text>Betydelig fordel ved Teologisk Kamp i deres imperium.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ENTER_FOREIGN_LANDS_DESCRIPTION">
+      <Text>Selv uden åbne grænser kan denne enhed komme ind på fremmed territorium.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_TERRAIN_COST_DESCRIPTION">
+      <Text>Skov, Jungle, Bakker og Sump kræver kun en [ICON_Movement] bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION">
+      <Text>Ignorer bevægelsesomkostningerne for at krydse floden.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ARCHAEOLOGIST_ENTER_FOREIGN_LANDS_DESCRIPTION">
+      <Text>Selv uden Åbne Grænser kan denne enhed komme ind på fremmed territorium.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

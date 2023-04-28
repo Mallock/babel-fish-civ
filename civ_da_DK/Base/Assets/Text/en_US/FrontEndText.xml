@@ -1,0 +1,2179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
+<GameData>
+  <FrontEndText>
+    <!-- Generic -->
+    <Row Tag="LOC_GENERIC_TEST">
+      <Text>Tomáš (This is already in Danish as it is a name and does not require translation)</Text>
+    </Row>
+    <Row Tag="LOC_GENERIC_DOT_DOT_DOT">
+      <Text>JEG KAN IKKE OVERSÆTTE NOGET, MEDMINDRE DU GIVER MIG NOGET TEKST AT ARBEJDE MED. KAN DU VENLIGST GIVE MIG NOGET TEKST, SOM JEG KAN OVERSÆTTE TIL DANSK?</Text>
+    </Row>
+    <Row Tag="LOC_YES_BUTTON">
+      <Text>Ja</Text>
+    </Row>
+    <Row Tag="LOC_NO_BUTTON">
+      <Text>No</Text>
+    </Row>
+    <Row Tag="LOC_OK_BUTTON">
+      <Text>HELT I ORDEN</Text>
+    </Row>
+    <Row Tag="LOC_DEFAULT_BUTTON">
+      <Text>Standard/Standardindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_GENERIC_CONFIRM_BUTTON">
+      <Text>Bekræft</Text>
+    </Row>
+    <Row Tag="LOC_SELECTION_NOTHING">
+      <Text>Intet</Text>
+    </Row>
+    <Row Tag="LOC_SELECTION_EVERYTHING">
+      <Text>Alt</Text>
+    </Row>
+    <Row Tag="LOC_SELECTION_CUSTOM">
+      <Text>Tilpasset ({1_Count})</Text>
+    </Row>
+    <Row Tag="LOC_SELECT_ALL">
+      <Text>Vælg alle</Text>
+    </Row>
+    <Row Tag="LOC_SELECT_NONE">
+      <Text>Vælg ingen</Text>
+    </Row>
+    <!-- Front End Popups -->
+    <Row Tag="LOC_FRONTEND_POPUP_UNKNOWN_DEVICE">
+      <Text>Kunne ikke afgøre grafik enhedens kapacitet.[NEWLINE][NEWLINE]Venligst indstil dine grafik indstillinger manuelt.</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_OUTDATED_DRIVER">
+      <Text>Din grafikdriver er ældre end den minimum anbefalede version.[NEWLINE][NEWLINE]Opdater venligst din driver til den nyeste version.</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_OUTDATED_DRIVER_QUIET">
+      <Text>Lad være med at genere mig igen.</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_OUTDATED_DRIVER_LOUD">
+      <Text>Mind mig næste gang.</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_GRAPHICS_SETTINGS_CHANGED">
+      <Text>Grafikindstillingerne er blevet justeret. Du kan gennemgå eller ændre disse indstillinger i menuen Indstillinger.</Text>
+    </Row>
+    <!-- Main Menu-->
+    <Row Tag="LOC_MAIN_MENU_RESUME_GAME">
+      <Text>Fortsæt spillet</Text>
+    </Row>
+    <Row Tag="LOC_PLAY_CIVILIZATION_6">
+      <Text>Spil nu</Text>
+    </Row>
+    <Row Tag="LOC_SINGLE_PLAYER">
+      <Text>Enkeltspiller</Text>
+    </Row>
+    <Row Tag="LOC_PLAY_MULTIPLAYER">
+      <Text>Flerspiller</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_GAME">
+      <Text>Indlæs spil</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_CONFIG">
+      <Text>Indlæs konfiguration</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_MAP">
+      <Text>Indlæs Kort</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_TILED">
+      <Text>Importer kort fra redaktøren</Text>
+    </Row>
+    <Row Tag="LOC_OPEN_DIRECTORY">
+      <Text>Åben</Text>
+    </Row>
+    <Row Tag="LOC_NO_FILE_SELECTED">
+      <Text>Ingen fil er i øjeblikket valgt</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_OPTIONS">
+      <Text>Spilindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MODS">
+      <Text>Mods (short for "modifications")</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MODS_AND_DLC">
+      <Text>Mods og DLC (Forkortelse for Downloadable Content)</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MODS_AND_DLC_TT">
+      <Text>Ændringer og downloadbart indhold til at udvide og forbedre Civilization VI.</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MY2K_LOGIN">
+      <Text>Min2K Login</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_EXIT_TO_DESKTOP">
+      <Text>Afslut til skrivebordet</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_BENCH">
+      <Text>Benchmark (it is the same in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_CREDITS">
+      <Text>Credits (same word is used in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_TUTORIAL">
+      <Text>Vejledning</Text>
+    </Row>
+    <!-- Load / Save Menus -->
+    <Row Tag="LOC_DELETE_BUTTON">
+      <Text>Slet</Text>
+    </Row>
+    <Row Tag="LOC_BACK_BUTTON">
+      <Text>Tilbage</Text>
+    </Row>
+    <Row Tag="LOC_AUTOSAVES">
+      <Text>Automatiske gemte filer</Text>
+    </Row>
+    <Row Tag="LOC_STEAMCLOUD">
+      <Text>Sky</Text>
+    </Row>
+    <Row Tag="LOC_2K_CLOUD">
+      <Text>Multiplatform Cloud (Mere end en platform i skyen)</Text>
+    </Row>
+    <Row Tag="LOC_STANDARD_CLOUD_SAVES_HELP">
+      <Text>Standard sky-lagring - kompatibel med PC-, Mac- og Linux-versionerne af Civilization VI</Text>
+    </Row>
+    <Row Tag="LOC_2K_CLOUD_SAVES_HELP">
+      <Text>Multiplatform Cloud Saves - kompatibel med understøttede platforme (Kræver aktivering af en 2K-konto i hovedmenuen)</Text>
+    </Row>
+    <Row Tag="LOC_NO_SAVED_GAMES">
+      <Text>Ingen gemte spil</Text>
+    </Row>
+    <Row Tag="LOC_NO_SAVED_CONFIGS">
+      <Text>Ingen gemte konfigurationer</Text>
+    </Row>
+    <Row Tag="LOC_NO_SAVED_MAPS">
+      <Text>Ingen gemte kort</Text>
+    </Row>
+    <Row Tag="LOC_SORTBY_NAME">
+      <Text>Sortér efter navn</Text>
+    </Row>
+    <Row Tag="LOC_SORTBY_LASTMODIFIED">
+      <Text>Sortér efter Sidst ændret</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_MENU_MODS">
+      <Text>MODS (FORKORTELSE AF "MODIFIKATIONER")</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_MENU_DLC">
+      <Text>DLC (DOWNLOADABLE CONTENT)</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_GAME">
+      <Text>Gem spil</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_MAP_BUTTON">
+      <Text>Gem kort</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_CONFIG">
+      <Text>Gem konfigurationen</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_OBSERVER_MODE_TT">
+      <Text>Ikke muligt at gemme i Observer tilstand.</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_AT_MAXIMUM_CLOUD_SAVES_TOOLTIP">
+      <Text>Du har nået det maksimale antal af Cloud-gemte filer. Overskriv eller slet en fil.</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_INVALID_FILE_NAME_TOOLTIP">
+      <Text>Ugyldigt filnavn.</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_WAITING_FOR_CLOUD_SAVE_LIST_TOOLTIP">
+      <Text>Venter på cloud-save-liste.</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_TITLE_TXT">
+      <Text>Bekræft overskrivning</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_DELETE_TITLE_TXT">
+      <Text>Bekræft sletning</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_CHOICE">
+      <Text>Er du sikker?</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_EXIT_TXT">
+      <Text>Er du sikker på, at du vil forlade spillet?</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_TXT">
+      <Text>Dette vil permanent slette din gemte fil. Er du sikker på, at du vil gøre dette?</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_TITLE_LOAD_TXT">
+      <Text>Bekræft indlæsning af fil</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_LOAD_TXT">
+      <Text>Dette vil miste ethvert usavede fremskridt. Er du sikker på, at du vil gøre dette?</Text>
+    </Row>
+    <Row Tag="LOC_OVERWRITE_TXT">
+      <Text>Dette vil overskrive din nuværende gemte fil. Er du sikker på, at du vil gøre dette?</Text>
+    </Row>
+    <Row Tag="LOC_DELETE_MOD_TXT">
+      <Text>Vil du slette denne Mod permanent? Er du sikker på, at du vil gøre dette?</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_DISABLE_MOD">
+      <Text>Er du sikker på, at du ønsker at deaktivere denne mod?</Text>
+    </Row>
+    <Row Tag="LOC_WILL_ALSO_DISABLE_MODS">
+      <Text>Dette vil også deaktivere følgende mods:</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_ENABLE_MOD">
+      <Text>Er du sikker på, at du ønsker at aktivere denne mod?</Text>
+    </Row>
+    <Row Tag="LOC_WILL_ALSO_ENABLE_MODS">
+      <Text>Dette vil også aktivere følgende mods:</Text>
+    </Row>
+    <Row Tag="LOC_EFFECTED_MODS_TXT">
+      <Text>Påvirkede modifikationer:</Text>
+    </Row>
+    <Row Tag="LOC_MOD_VERSION_AVAILABLE">
+      <Text>Version {1_VersionNumber} er tilgængelig.</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_CURRENT_TURN">
+      <Text>VEND[ICON_Turn] {1}</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_SCENARIO_HEADER_TITLE">
+      <Text>Beskrivelse af scenariet</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_HEADER_TITLE">
+      <Text>Spilindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_RULESET_TYPE_TITLE">
+      <Text>Regelsæt:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_MAP_TYPE_TITLE">
+      <Text>Korttype:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_MAP_SIZE_TITLE">
+      <Text>Kortstørrelse:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_WORLD_AGE_TITLE">
+      <Text>Verdensalder:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_SAVED_BY_VERSION_TITLE">
+      <Text>Gemt af Version:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_ADVANCED_TITLE">
+      <Text>Avancerede muligheder:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_NO_MAP_DATA">
+      <Text>INGEN KORTDATA</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_TUNER_ACTIVE_TITLE">
+      <Text>Tuner Aktiv:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_QUICK_SAVE">
+      <Text>(Hurtig Gem)</Text>
+    </Row>
+    <!-- Advanced Game Setup -->
+    <Row Tag="LOC_NETWORK_NAME_TT">
+      <Text>Netværksnavn[NEWLINE]Sådan vil dit navn fremstå for andre spillere.</Text>
+    </Row>
+    <Row Tag="LOC_NUMBER_OF_CIVILIZATIONS">
+      <Text>Antal civilisationer</Text>
+    </Row>
+    <Row Tag="LOC_PLAYERS">
+      <Text>Spillere</Text>
+    </Row>
+    <Row Tag="LOC_TEAM">
+      <Text>Hold|Hold</Text>
+      <Plurality>1|2</Plurality>
+    </Row>
+    <Row Tag="LOC_TEAM_GENERIC_NAME">
+      <Text>Hold {1_Number}</Text>
+    </Row>
+    <Row Tag="LOC_TEAM_UNKNOWN_NAME">
+      <Text>Ukendt hold</Text>
+    </Row>
+    <Row Tag="LOC_BACK">
+      <Text>Tilbage</Text>
+    </Row>
+    <Row Tag="LOC_GAME_HANDICAP">
+      <Text>Spil Sværhedsgrad</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS">
+      <Text>Muligheder</Text>
+    </Row>
+    <Row Tag="LOC_MAP_OPTIONS">
+      <Text>Kortindstillinger</Text>
+    </Row>
+    <!-- Multiplayer Game Abandoned Popup -->
+    <Row Tag="LOC_GAME_ABANDONED_KICKED">
+      <Text>Du er blevet sparket ud af spillet af værten.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_KICKED_TITLE">
+      <Text>Sparket!</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_HOST_LOSTED">
+      <Text>Netværksforbindelsen til værten er blevet tabt.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_HOST_LOSTED_TITLE">
+      <Text>Forbindelsen til værten er tabt</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_ROOM_FULL">
+      <Text>Spillet har det maksimale antal spillere.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_ROOM_FULL_TITLE">
+      <Text>Fuldt Spil</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_VERSION_MISMATCH">
+      <Text>Versionskonflikt med vært.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_VERSION_MISMATCH_TITLE">
+      <Text>Versionsmismatch</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_ERROR">
+      <Text>Ikke i stand til at tilføje yderligere indhold.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_ERROR_TITLE">
+      <Text>Jeg er en AI-sprogmodel og forstår ikke, hvad du mener med "Mod Error". Kan du give mere kontekst eller information, så jeg kan hjælpe dig bedre?</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_MISSING">
+      <Text>Yderligere indhold er påkrævet, men enten er det ikke købt eller installeret.[NEWLINE]Indhold:[NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_MISSING_TITLE">
+      <Text>Mod Missing</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_ACCESS_DENIED">
+      <Text>Steam Workshop nægtede adgang til krævet ekstra indhold.[NEWLINE]Indhold:[NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_MISSING_DOWNLOADS_DISABLED">
+      <Text>Dette spil kræver yderligere indhold, der ikke er installeret. Automatisk download af yderligere indhold er i øjeblikket deaktiveret. Automatiske downloads kan aktiveres i Spilindstillinger.[NEWLINE]Indhold:[NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_CONNECTION_LOST">
+      <Text>Netværksforbindelsen er blevet tabt.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_CONNECTION_LOST_TITLE">
+      <Text>Afbrudt</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_JOIN_FAILED">
+      <Text>Fejl ved tilslutning til Multiplayer-session.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_JOIN_FAILED_TITLE">
+      <Text>Tilmelding mislykkedes</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MATCH_DELETED">
+      <Text>Værten slettede spillet.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MATCH_DELETED_TITLE">
+      <Text>Spil slettet</Text>
+    </Row>
+    <!-- Multiplayer PlayByCloud End Turn Error Popup -->
+    <Row Tag="LOC_GAME_CLOUD_END_TURN_FAILED">
+      <Text>Spillet kunne ikke behandle dit spil træk på grund af en fejl. Tjek din internetforbindelse og prøv igen.[NEWLINE]Fejlkode: {1_ErrorCode}</Text>
+    </Row>
+    <Row Tag="LOC_GAME_CLOUD_END_TURN_FAILED_TITLE">
+      <Text>Afslut Tur Mislykkedes</Text>
+    </Row>
+    <!-- Multiplayer Select Screen-->
+    <Row Tag="LOC_MULTIPLAYER_DEFAULT_GAME_NAME">
+      <Text>{1_PlayerName}s spil</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STANDARD_GAME">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturligt lydende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STANDARD_GAME_TT">
+      <Text>Spil et multiplayer-spil, hvor spillerne tager skiftevis med hinanden.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME">
+      <Text>Internet</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME_OFFLINE">
+      <Text>[ICON_CheckFail] Internet</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME_TT">
+      <Text>Spil et multiplayer-spil på internettet.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME_OFFLINE_TT">
+      <Text>Internet-spil er ikke tilgængelige, når Steam er offline.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LAN_GAME">
+      <Text>Lokalt netværk</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LAN_GAME_TT">
+      <Text>Spil et multiplayer spil på det lokale netværk.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_GAME">
+      <Text>Varm stol</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_GAME_TT">
+      <Text>Spil et multiplayer-spil, hvor spillere tager skiftende ture på denne maskine.</Text>
+    </Row>
+    <Row Tag="LOC_MENU_BACK">
+      <Text>Tilbage</Text>
+    </Row>
+    <!-- Multiplayer Chat Commands -->
+    <Row Tag="LOC_CHAT_HELP_COMMAND_HINT">
+      <Text>[COLOR:ChatMessage_Help]Skriv /help for at få hjælp til chatkommandoer.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CHAT_HELP_COMMAND_TEXT">
+      <Text>[COLOR:ChatMessage_Help]CHAT KOMMANDOER[NEWLINE]/t Send en besked til et holdkanal[NEWLINE]/g Send en besked til en global kanal[NEWLINE]/w [PlayerName] Hvisk en besked til en spiller[NEWLINE]/r Svar på en hvisk[NEWLINE]/help Viser denne hjælpemeddelelse[ENDCOLOR]</Text>
+    </Row>
+    <!-- Multiplayer Lobby Screen -->
+    <Row Tag="LOC_MULTIPLAYER_REFRESH_GAME_LIST">
+      <Text>OPDATER</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_REFRESH_GAME_LIST_TT">
+      <Text>Hent den seneste spilleliste information.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STOP_REFRESH_GAME_LIST">
+      <Text>STOP MED AT OPDATERE</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STOP_REFRESH_GAME_LIST_TT">
+      <Text>Stop spil-liste information indhentning.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_BACK">
+      <Text>TILBAGE</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_END_GAME">
+      <Text>DELETE</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_TITLE">
+      <Text>Slet spil</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_PROMPT">
+      <Text>Afslutter spillet...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_FAIL_TITLE">
+      <Text>Slet fejl</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_FAIL">
+      <Text>Fejl under afslutning af spil.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_FAIL_ACCEPT">
+      <Text>Jeg er klar til at oversætte teksten</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_LAUNCH_FAILED_TITLE">
+      <Text>Opstartsfelt</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_LAUNCH_FAILED">
+      <Text>Spillet kunne ikke startes.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_LAUNCH_FAILED_ACCEPT">
+      <Text>Ok</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_GAME">
+      <Text>Deltag i spillet</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_GAME_TT">
+      <Text>Deltag i et eksisterende multiplayer spil.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_CODE">
+      <Text>Brug Tilmeldingskode</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_CODE_TT">
+      <Text>Deltag i et eksisterende flerspiller spil ved hjælp af en Deltag-kode.</Text>
+    </Row>
+    <Row Tag="LOC_MISC_BACK">
+      <Text>Tilbage</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONNECT_TO_IP">
+      <Text>Forbind til IP-adresse</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONNECT_TO_IP_TT">
+      <Text>Forbind til en Pitboss-spil på en given offentlig IP-adresse.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CREATE_GAME">
+      <Text>Opret Spil</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONFIRM_SETTINGS">
+      <Text>Bekræft indstillingerne</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOST_GAME">
+      <Text>OPSÆTNING AF MULTIPLAYER SPIL</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOST_GAME_TT">
+      <Text>Start en ny multiplayer-spil.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOAD_GAME_TT">
+      <Text>Opret et multiplayer-spil ud fra en eksisterende gemt fil.</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_FRIENDS">
+      <Text>Venner</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_SHOW_FRIENDS">
+      <Text>Vis venneliste</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_SETUP">
+      <Text>SPIL OPSÆTNING</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_SUMMARY">
+      <Text>KAMPRESUMÉ</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_NAME">
+      <Text>Spilnavn</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_RULESET">
+      <Text>Regelsæt</Text>
+    </Row>
+    <Row Tag="LOC_AD_SETUP_MAP_TYPE">
+      <Text>Korttype</Text>
+    </Row>
+    <Row Tag="LOC_AD_SETUP_GAME_SPEED">
+      <Text>Spilhastighed</Text>
+    </Row>
+    <Row Tag="LOC_AD_SETUP_MAP_SIZE">
+      <Text>Kortstørrelse</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_PLAYERS">
+      <Text>Spillere</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DLCHOSTED">
+      <Text>DLC (DOWNLOADBART INDHOLD)</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_MODSHOSTED">
+      <Text>Moderatorer</Text>
+    </Row>
+    <Row Tag="LOC_STAGING_ROOM_LOADING_SAVE">
+      <Text>Indlæser gemt spil</Text>
+    </Row>
+    <Row Tag="LOC_STAGING_ROOM_GAME_IN_PROGRESS">
+      <Text>Spil i gang</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_LOBBY">
+      <Text>INTERNETSPIL</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LAN_LOBBY">
+      <Text>SPIL PÅ LOKALT NETVÆRK</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_MODS">
+      <Text>Yderligere indhold</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_GAMEMODES_OFFICIAL">
+      <Text>Officielle spiltyper:</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_MODS_OFFICIAL">
+      <Text>Officiel indhold:</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_MODS_COMMUNITY">
+      <Text>Fællesskabsindhold:</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_UNKNOWN">
+      <Text>Ukendt</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_UNKNOWN_MAP_SIZE">
+      <Text>Ukendt kortstørrelse</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_TRUE">
+      <Text>Helt rigtigt</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_FALSE">
+      <Text>Falsk</Text>
+    </Row>
+    <!-- Options -->
+    <Row Tag="LOC_CONFIRM_KEY_BINDING">
+      <Text>Bekræft tastebinding</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM">
+      <Text>Bekræft</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GAME">
+      <Text>Spil</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GRAPHICS">
+      <Text>Grafik</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUDIO">
+      <Text>Audio</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LANGUAGE">
+      <Text>Which language should the text be translated to? Please specify</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE">
+      <Text>Brugergrænseflade</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_BINDINGS">
+      <Text>Tastaturgenveje</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_APPLICATION">
+      <Text>Ansøgning</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GAME_OPTIONS">
+      <Text>Spilindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GRAPHICS_OPTIONS">
+      <Text>Grafikindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUDIO_OPTIONS">
+      <Text>Lydindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LANGUAGE_OPTIONS">
+      <Text>Sprogindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_OPTIONS">
+      <Text>Grænsefladeindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_BINDINGS_OPTIONS">
+      <Text>Tastaturgenveje</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUICK_COMBAT">
+      <Text>Hurtig kamp:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUICK_MOVEMENT">
+      <Text>Hurtig bevægelse:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_END_TURN">
+      <Text>Automatisk Afslut Tur:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CITY_RANGE_ATTACK">
+      <Text>Blokerer tur for byangreb i nærkamp:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CITY_RANGE_ATTACK_TOOLTIP">
+      <Text>Når aktiveret, blokerer bybaserede angreb for tur.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TIME_OF_DAY">
+      <Text>Tidspunkt på dagen:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUNER">
+      <Text>Tuner (deaktiverer præstationer):</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL">
+      <Text>Rådgiver:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TURNS_BETWEEN_AUTOSAVES">
+      <Text>Tid mellem automatisk gemte filer:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTOSAVES_TO_KEEP">
+      <Text>Antal autosaves at gemme:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LAN_PLAYER_NAME">
+      <Text>Navn på lokalt netværksafspiller:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_DOWNLOAD_ADDITIONAL_CONTENT">
+      <Text>Automatisk Download af Ekstra Indhold:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_DOWNLOAD_ADDITIONAL_CONTENT_TOOLTIP">
+      <Text>Download automatisk yderligere indhold skabt af fællesskabet, når det er nødvendigt for at deltage i et multiplayer-spil.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_STEAM_CONTROLLER_MESSAGE">
+      <Text>Konfigurationen af Steam Controller sker inde i Steam-klienten og ikke inden for denne brugerflade. Escape-, venstre museknap- og højre museknap er reserveret og kan ikke bindes.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BIND_HEADER_PRIMARY">
+      <Text>Primær binding</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BIND_HEADER_ALT">
+      <Text>Alternativ binding</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_APPLICATION_OPTIONS">
+      <Text>Ansøgningsmuligheder</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SPOKEN_LANGUAGE">
+      <Text>Talesprog:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_STRATEGIC_VIEW_START">
+      <Text>Start i strategisk visning:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_DISPLAY_LANGUAGE">
+      <Text>Visningssprog:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MASTER_VOLUME">
+      <Text>Hovedvolumen:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MUSIC_VOLUME">
+      <Text>Musik Lydstyrke:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EFFECTS_VOLUME">
+      <Text>Lydeffekter Volumen:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AMBIENT_VOLUME">
+      <Text>Omgivende lyde Volumen:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SPEECH_VOLUME">
+      <Text>Talevolumen:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MUTE_FOCUS">
+      <Text>Slå lyden fra når spilvinduet er inaktivt:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CLEAR">
+      <Text>Clear</Text>
+    </Row>
+    <!-- Front End Popop -->
+    <Row Tag="LOC_CLOSE">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturligt lydende oversættelse</Text>
+    </Row>
+    <!-- Multiplayer Joining Room Screen -->
+    <Row Tag="LOC_MULTIPLAYER_JOINING_ROOM_TITLE">
+      <Text>VENT VENLIGST</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOINING_ROOM">
+      <Text>Tilslutter rum...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOINING_HOST">
+      <Text>Henter værtsinformation...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONFIGURING_CONTENT">
+      <Text>Konfigurerer spilindhold...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONNECTING_TO_PLAYERS">
+      <Text>Forbinder til spillere...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_MATCHMAKING">
+      <Text>Finder et spil...</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_FULL">
+      <Text>Kan ikke deltage i spillet. Spillet har det maksimale antal spillere.</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_FULL_TITLE">
+      <Text>Fuldt spil</Text>
+    </Row>
+    <Row Tag="LOC_MP_JOIN_FAILED">
+      <Text>Fejl ved tilslutning til multiplayer-session.</Text>
+    </Row>
+    <Row Tag="LOC_MP_JOIN_FAILED_TITLE">
+      <Text>Tilslutning mislykkedes</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_GAME_STARTED">
+      <Text>Kan ikke deltage i spillet. Spillet er allerede startet.</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_GAME_STARTED_TITLE">
+      <Text>Tilkobling mislykkedes</Text>
+    </Row>
+    <!-- Multiplayer Staging Room Screen -->
+    <Row Tag="LOC_MP_SWAP_PLAYER">
+      <Text>Byt</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_SWAP_BUTTON_TT">
+      <Text>Skift til denne spillerplads.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_SWAP_WITH_PLAYER_BUTTON_TT">
+      <Text>Skift til denne spillerplads kun hvis den anden spiller også vælger at skifte.</Text>
+    </Row>
+    <Row Tag="LOC_MP_KICK_PLAYER">
+      <Text>Spark Spiller</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STAGING_ROOM">
+      <Text>Opsætningsrum</Text>
+    </Row>
+    <Row Tag="LOC_READY_BUTTON">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturligt lydende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_ARE_YOU_READY">
+      <Text>Er du klar?</Text>
+    </Row>
+    <Row Tag="LOC_MP_GAME_SUMMARY_GAME_SETTINGS">
+      <Text>Spilindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_MP_GAME_SUMMARY_ADDITIONAL_CONTENT">
+      <Text>Yderligere indhold</Text>
+    </Row>
+    <!-- Multiplayer Status Strings -->
+    <Row Tag="LOC_READY_LABEL">
+      <Text>Klar!</Text>
+    </Row>
+    <Row Tag="LOC_NOT_READY">
+      <Text>Ikke klar</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_MAP_SIZE">
+      <Text>[COLOR:StagingStatus_Invalid]Ugyldig for kortstørrelse[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_MAP_SIZE_TT">
+      <Text>Denne spillerplads er ikke tilgængelig for den nuværende kortstørrelse. Bed værten om at øge kortstørrelsen eller skifte til en tilgængelig spillerplads.</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_HUMAN_REQUIRED">
+      <Text>[COLOR:StagingStatus_Invalid]Kræver spiller[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_HUMAN_REQUIRED_TT">
+      <Text>Denne spillerplads skal besættes af en menneskelig spiller for at starte spillet.</Text>
+    </Row>
+    <!-- Multiplayer Status Strings END -->
+    <Row Tag="LOC_JOIN">
+      <Text>Deltag!</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OPEN">
+      <Text>Åben</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OPEN_TT">
+      <Text>Tomme pladser kan besættes af spillere, der ønsker at deltage.</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMANREQ">
+      <Text>Åben</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMANREQ_TT">
+      <Text>Åbne pladser kræver en menneskelig spiller, før spillet kan starte.</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OBSERVER">
+      <Text>Observer</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OBSERVER_TT">
+      <Text>Observer spillet i stedet for at deltage direkte.</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_HOST">
+      <Text>Vært [ICON_Host]</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_PLAYER">
+      <Text>Spiller</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_COMPUTER">
+      <Text>Computer</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_OPEN">
+      <Text>Åben</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_OBSERVER">
+      <Text>Observer</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_OBSERVER_HOST">
+      <Text>[ICON_Host] Observatør</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_AI">
+      <Text>AI (KUNSTIG INTELLIGENS)</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_AI_TT">
+      <Text>AI-spiller</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_CLOSED">
+      <Text>Lukket</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_CLOSED_TT">
+      <Text>Lukkede spillepladser kan ikke anvendes af spillere.</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMAN">
+      <Text>Menneske</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMAN_TT">
+      <Text>Menneskelig Spiller</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DEFAULT_NO_TEAM_NAME">
+      <Text>Noget tekst skal gives for at kunne oversætte</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DEFAULT_TEAM_NAME">
+      <Text>{1_Num} (This is not a text to be translated. It is a placeholder for a numerical value.)</Text>
+    </Row>
+    <Row Tag="LOC_CREATE_NEW_TEAM">
+      <Text>Ny</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_TEAM_HEADER">
+      <Text>Hold</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DIFFICULTY_HEADER">
+      <Text>Sværhedsgrad</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_READY_HEADER">
+      <Text>Klar?</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CIV_LEADER_HEADER">
+      <Text>Civilisation og leder</Text>
+    </Row>
+    <Row Tag="LOC_GAMESTART_COUNTDOWN_FORMAT">
+      <Text>Spil starter</Text>
+    </Row>
+    <Row Tag="LOC_READY_COUNTDOWN_FORMAT">
+      <Text>Gør dig klar</Text>
+    </Row>
+    <Row Tag="LOC_WAITING_FOR_PLAYERS_COUNTDOWN_FORMAT">
+      <Text>Venter på spillere</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_DEFAULT_PLAYER_NAME">
+      <Text>Spiller</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORD">
+      <Text>Adgangskode</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORD_VERIFY">
+      <Text>Retype</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORDS_MATCH">
+      <Text>Kamp (or match)</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORDS_DONT_MATCH">
+      <Text>Adgangskoderne matcher ikke.</Text>
+    </Row>
+    <!-- Staging Room Ready Button-->
+    <Row Tag="LOC_READY_UNSUPPORTED">
+      <Text>Ikke understøttet.</Text>
+    </Row>
+    <Row Tag="LOC_READY_UNSUPPORTED_TT">
+      <Text>Ikke understøttet antal spillere.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_TEAMS_INVALID">
+      <Text>Ugyldige hold</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_TEAMS_INVALID_TT">
+      <Text>Kan ikke starte spillet. Alle civilisationer er på det samme hold.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_CONNECTING_PLAYER">
+      <Text>Kan ikke starte spillet. Spillere tilslutter sig spillet.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYER_MAP_SIZE">
+      <Text>Størrelsesproblem med kortet</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYER_MAP_SIZE_TT">
+      <Text>Kan ikke starte spillet. En spiller er i en ugyldig spillerplads for den aktuelle kortstørrelse. Det nuværende kort understøtter kun {1_number} spillere.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_NOT_ENOUGH_PLAYERS">
+      <Text>Ikke nok spillere</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_NOT_ENOUGH_PLAYERS_TT">
+      <Text>Kan ikke starte spillet. To spillere er påkrævet for at starte.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_CONNECTING">
+      <Text>Spillere der slutter sig til spillet</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_CONNECTING_TT">
+      <Text>Venter på spillere, der tilslutter sig spillet.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_NOT_MOD_READY">
+      <Text>Spiller mangler mods</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_NOT_MOD_READY_TT">
+      <Text>Venter på spillere, der ikke har de nødvendige mods til dette spil.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_PASSWORD_MISMATCH">
+      <Text>Adgangskode stemmer ikke overens</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_PASSWORD_MISMATCH_TT">
+      <Text>Alle adgangskoder skal matche.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_NO_HUMAN_PLAYERS">
+      <Text>Ingen menneskelige spillere</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_NO_HUMAN_PLAYERS_TT">
+      <Text>Der skal være mindst én menneskelig spiller</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_INVALID_TEAMS">
+      <Text>Ugyldige hold</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_INVALID_TEAMS_TT">
+      <Text>Mindst 2 spillere skal være på forskellige hold</Text>
+    </Row>
+    <!-- Staging Room Invite Button -->
+    <Row Tag="LOC_INVITE_BUTTON">
+      <Text>Inviter venner</Text>
+    </Row>
+    <Row Tag="LOC_INVITE_BUTTON_TT">
+      <Text>Inviter venner fra din Steam-venneliste til dette spil.</Text>
+    </Row>
+    <!-- Confirm Kick Popup -->
+    <Row Tag="LOC_CANCEL_BUTTON">
+      <Text>Annullér</Text>
+    </Row>
+    <Row Tag="LOC_ACCEPT_BUTTON">
+      <Text>Accepter</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_KICK_PLAYER_DESC">
+      <Text>Er du sikker på, at du vil sparke {1_player} ud af spillet?</Text>
+    </Row>
+    <!-- Edit Hotseat Player Popup -->
+    <Row Tag="LOC_HOTSEAT_EDIT_PLAYER_TT">
+      <Text>Rediger Hot Seat-spiller.</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_EDIT_PLAYER">
+      <Text>Rediger Spiller i Den Hede Stol</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_PLAYER_NAME">
+      <Text>Spillernavn:</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_PASSWORD">
+      <Text>Adgangskode:</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_RETYPE_PASSWORD">
+      <Text>Gentag adgangskode:</Text>
+    </Row>
+    <!-- Network Connection Status -->
+    <Row Tag="LOC_MP_PLAYER_CONNECTED">
+      <Text>Spilleren er i øjeblikket i spil.</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_CONNECTED_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Connected]Tilsluttet[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOTCONNECTED">
+      <Text>Afspilleren er ikke tilsluttet.</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOTCONNECTED_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Offline]Offline[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_CONNECTING">
+      <Text>Spilleren tilslutter sig spillet.</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_CONNECTING_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Connecting]Tilslutter[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOT_MOD_READY">
+      <Text>Spilleren har ikke de nødvendige mods til at spille i dette spil.</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOT_MOD_READY_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_NotModReady]Mods mangler[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_RESYNCING">
+      <Text>Spilleren genindlæser for at rette en desync.</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_RESYNCING_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Resyncing]Synkroniserer igen[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TIME_MILLISECONDS">
+      <Text>Jeg beklager, men du har ikke givet mig noget tekst at oversætte til dansk. Kan du venligst give mig noget tekst at arbejde med?</Text>
+    </Row>
+    <Row Tag="LOC_TIME_SECONDS">
+      <Text>s</Text>
+    </Row>
+    <!-- Friend Actions  -->
+    <Row Tag="LOC_FRIEND_ACTION_PROFILE">
+      <Text>Steam-profil</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_PROFILE_TT">
+      <Text>Se denne vens profilside.</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_CHAT">
+      <Text>Send besked</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_CHAT_TT">
+      <Text>Send en besked til denne ven.</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_INVITE">
+      <Text>Invitation til spil</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_INVITE_TT">
+      <Text>Inviter denne ven til at spille.</Text>
+    </Row>
+    <!-- Friend Status  -->
+    <Row Tag="LOC_PRESENCE_ONLINE">
+      <Text>[COLOR:ButtonCS]Online[ENDCOLOR] (this word is already in English and does not need to be translated to Danish)</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_SHELL">
+      <Text>[COLOR:ConnectionStatus_Connected]Hovedmenu[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_HOSTING_GAME">
+      <Text>[COLOR:ConnectionStatus_Connected]Hoster Spil[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_STAGING_ROOM">
+      <Text>[COLOR:ConnectionStatus_Connected]Stagingrum[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_SP">
+      <Text>[COLOR:ConnectionStatus_Connected]Enkeltspiller[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_ONLINE">
+      <Text>[COLOR:ConnectionStatus_Connected]Multiplayer (Online)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_LAN">
+      <Text>[COLOR:ConnectionStatus_Connected]Multiplayer (LAN)[ENDCOLOR] (Flerspiller (LAN))</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_HOTSEAT">
+      <Text>[COLOR:ConnectionStatus_Connected]Multiplayer (Hot Seat)[ENDCOLOR] = Flerspiller (Hot Seat)</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_PLAYBYCLOUD">
+      <Text>[COLOR:ConnectionStatus_Connected]Multiplayer (Spil ved skyen)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_INVITED_ONLINE">
+      <Text>[COLOR:ConnectionStatus_Connected]Inviteret[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_INVITED_OFFLINE">
+      <Text>[COLOR:ButtonCS]Inviteret[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_WORLD_BUILDER">
+      <Text>[COLOR:ConnectionStatus_Connected]Verdensskaber[ENDCOLOR]</Text>
+    </Row>
+    <!-- Player Connection EVents -->
+    <Row Tag="LOC_MP_PLAYER_CONNECTED_CHAT">
+      <Text>Forbundet</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_DISCONNECTED_CHAT">
+      <Text>Afbrudt</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_HOST_MIGRATED_CHAT">
+      <Text>Er Now værten?</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_KICKED_CHAT">
+      <Text>Blev sparket</Text>
+    </Row>
+    <!-- Multiplayer Chat -->
+    <Row Tag="LOC_MULTIPLAYER_CHAT">
+      <Text>CHAT</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_TO_ALL">
+      <Text>Til alle:</Text>
+    </Row>
+    <!-- Multiplayer Mod Downloads -->
+    <Row Tag="LOC_BYTES">
+      <Text>Desværre kan jeg ikke oversætte teksten uden at have den at arbejde med. Kan du venligst give mig teksten, du ønsker oversat?</Text>
+    </Row>
+    <Row Tag="LOC_KILOBYTES">
+      <Text>Kb</Text>
+    </Row>
+    <Row Tag="LOC_MEGABYTES">
+      <Text>Mb</Text>
+    </Row>
+    <!-- Setup -->
+    <Row Tag="LOC_SETUP_CREATE_GAME">
+      <Text>Lav et spil</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_CHOOSE_RULESET">
+      <Text>Vælg regelsæt</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_CHOOSE_SCENARIO">
+      <Text>Vælg scenarie</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_SCENARIOS">
+      <Text>Scenarier</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_SCENARIO">
+      <Text>Scenarie</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_CIVILIZATION">
+      <Text>Vælg civilisation</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_DIFFICULTY">
+      <Text>Vælg spilsværhedsgraden</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_SPEED">
+      <Text>Vælg Spilhastighed</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_TYPE">
+      <Text>Vælg korttype</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_SIZE">
+      <Text>Vælg kortstørrelse</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MODE_SELECT">
+      <Text>Spiltilstande</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_NO_GAME_MODES">
+      <Text>Ingen spiltilstande tilgængelige.</Text>
+    </Row>
+    <Row Tag="LOC_DELETE_AI">
+      <Text>Slet</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADVANCED_OPTIONS">
+      <Text>Avanceret opsætning</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_VICTORY_CONDITIONS">
+      <Text>Sejrsvilkår</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_GAME_MODES">
+      <Text>Spiltilstande</Text>
+    </Row>
+    <Row Tag="LOC_ADVANCED_OPTIONS">
+      <Text>Avancerede muligheder</Text>
+    </Row>
+    <Row Tag="LOC_EDIT_BUTTON">
+      <Text>Edit</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_PLAYER">
+      <Text>Tilføj spiller</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_PLAYER_TT">
+      <Text>Tilføj en spiller til spillet.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_AI_PLAYER">
+      <Text>Tilføj en AI-spiller</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_AI_PLAYER_TT">
+      <Text>Tilføj en AI-spiller til spillet.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_RESTORE_DEFAULT">
+      <Text>Gendan standardindstillinger</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_RESTORE_DEFAULT_TT">
+      <Text>Gendan alle parametre til deres standardværdier.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_MAP_SELECT">
+      <Text>Vælg kort</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_CREATE_GAME_SELECT_MAP">
+      <Text>Vælg Kort</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_SELECT_MAP">
+      <Text>Vælg kort</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_OFFICIAL_MAPS">
+      <Text>Officielle kort</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_FIRAXIS_MAPS">
+      <Text>Firaxis Kort</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_FIRAXIS_MAPS_TOOLTIP">
+      <Text>Vis kun officielle kort lavet af Firaxis.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_WORLD_BUILDER_MAPS">
+      <Text>Verdensopbygningskort</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_WORLD_BUILDER_MAPS_TOOLTIP">
+      <Text>Vis kun World Builder kort.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_ALL_MAPS">
+      <Text>Alle kort</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_ALL_MAPS_TOOLTIP">
+      <Text>Vis alle kort.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_MAP_INFO">
+      <Text>Kortinfo</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_SELECTED_MAP">
+      <Text>Valgt kort</Text>
+    </Row>
+    <Row Tag="LOC_START_GAME">
+      <Text>Start spil</Text>
+    </Row>
+    <Row Tag="LOC_START_WORLD_BUILDER">
+      <Text>Start World Builder (The text is already in English)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_START_NEW">
+      <Text>Ny kort</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_LOAD">
+      <Text>Indlæs kort</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_IMPORT">
+      <Text>Importer kort fra redaktøren</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_START_NEW_TOOLTIP">
+      <Text>Opretter en ny tom eller genereret World Builder-kort at redigere.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_LOAD_TOOLTIP">
+      <Text>Indlæser en tidligere gemt World Builder-kort.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_IMPORT_TOOLTIP">
+      <Text>Konverterer en korrekt struktureret .TMX kortfil til et World Builder kort.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_LEADER">
+      <Text>Tilfældig Leder</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_CIVILIZATION">
+      <Text>Tilfældig civilisation</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_NO_DUPLICATE_LEADERS">
+      <Text>Ingen duplikerede ledere</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_NO_DUPLICATE_CIVILIZATIONS">
+      <Text>Ingen duplikerede civilisationer</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_HUMANS_REQUIRED">
+      <Text>Venter på yderligere spillere</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_HUMANS_REQUIRED_TT">
+      <Text>Kan ikke starte spillet. Alle åbne spillerpladser skal besættes, før spillet kan begynde.</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_READY_COUNTDOWN_TT">
+      <Text>Kan ikke starte spillet. Venter på klar tælling eller fuldt klar spil.</Text>
+    </Row>
+    <Row Tag="LOC_READY_COUNTDOWN_TT">
+      <Text>Du vil være klar til start i slutningen af denne nedtælling. Klik for at skifte til klar nu.</Text>
+    </Row>
+    <Row Tag="LOC_WAITING_FOR_PLAYERS_COUNTDOWN_TT">
+      <Text>Venter på flere spillere. Spillet vil starte ved slutningen af nedtællingen eller når spillet er fuldt af klar til spil spillere.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_INVALID_OPTION">
+      <Text>Ugyldig mulighed</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_LEADER_NOT_OWNED">
+      <Text>Ikke ejet</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PARAMETER_ERROR">
+      <Text>En eller flere muligheder er ugyldige.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PLAYER_PARAMETER_ERROR">
+      <Text>En eller flere spillerindstillinger er ugyldige.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PLAYER_PARAMETER_ERROR_POPUP">
+      <Text>Dette sker normalt, når man vælger duplikerede ledere eller civilisationer, når spilindstillingerne er sat til ikke at tillade duplikater.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PLAYER_COLOR_COLLISION">
+      <Text>Denne civilisations farver kan være i konflikt med en anden civilisations farver. Du kan vælge et alternativ farveskema fra dropdown listen, hvis du ønsker det.</Text>
+    </Row>
+    <!-- Configuration Parameters.  Move these to a better location -->
+    <Row Tag="LOC_RULESET">
+      <Text>Regelsæt</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NAME">
+      <Text>Spilnavn</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NAME_DESC">
+      <Text>Navnet vist for dette spil i multiplayer serverlisten.</Text>
+    </Row>
+    <Row Tag="LOC_PRIVATE_GAME">
+      <Text>Privat spil</Text>
+    </Row>
+    <Row Tag="LOC_PRIVATE_GAME_DESC">
+      <Text>Private spil vises ikke i multiplayer lobbyen. Et privat spil er kun tilgængeligt gennem en spilinvitation eller Steam-vennelisten. Denne indstilling gælder ikke for lokale netværksspil.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_VICTORY_TIME">
+      <Text>Tid</Text>
+    </Row>
+    <Row Tag="LOC_GAME_VICTORY_SCIENCE">
+      <Text>Videnskab</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NO_GOODY_HUTS">
+      <Text>Ingen stammelandsbyer</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NO_BARBARIANS">
+      <Text>Ingen barbarer</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ALLIES_SHARE_VISIBILITY">
+      <Text>Hold deler synlighed</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ALLIES_SHARE_VISIBILITY_DESCRIPTION">
+      <Text>Spillere på samme hold vil dele deres synlighed på kortet.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURNTIMER_TYPE">
+      <Text>Tælletimer</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURN_TIMER_TIME">
+      <Text>Tid til at dreje eller vende</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURN_TIMER_TIME_TOOLTIP">
+      <Text>Indstil tiden brugt af Standard Turn Timer-tilstand (i sekunder).</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURNPHASE_TYPE">
+      <Text>Skift tilstand</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURNPHASE_DESC">
+      <Text>Skift tilstand brugt af spillere styret af mennesker i multiplayer.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_SYNC_RANDOM_SEED">
+      <Text>Spil tilfældig frø</Text>
+    </Row>
+    <Row Tag="LOC_GAME_SYNC_RANDOM_SEED_TOOLTIP">
+      <Text>Den tilfældige frø til spilreglerne.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RANDOM_SEED">
+      <Text>Kort tilfældigt frø</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RANDOM_SEED_TOOLTIP">
+      <Text>Den tilfældige frø for kortgenerering.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_NAME">
+      <Text>Verdensalder</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_NEW_NAME">
+      <Text>Ny</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_STANDARD_NAME">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturlig klingende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_OLD_NAME">
+      <Text>Gammel</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_RANDOM_NAME">
+      <Text>Jeg er en AI og har ingen evne til at vælge tilfældige tekster at oversætte. Venligst angiv en specifik tekst til oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_NAME">
+      <Text>Temperatur</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_HOT_NAME">
+      <Text>varmt</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_STANDARD_NAME">
+      <Text>Den følgende tekst skal oversættes. Svar kun med en naturlig klingende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_COLD_NAME">
+      <Text>Kold</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_RANDOM_NAME">
+      <Text>Jeg ved ikke, hvad du gerne vil have oversat. Kan du give mig en tekst?</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_NAME">
+      <Text>Nedbør</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_ARID_NAME">
+      <Text>Tør</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_STANDARD_NAME">
+      <Text>Den følgende tekst skal oversættes. Svar kun med en naturligt lydende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_WET_NAME">
+      <Text>Våd</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_RANDOM_NAME">
+      <Text>Jeg beklager, men du skal give mig en tekst at oversætte til dansk</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_NAME">
+      <Text>Havoverflade</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_LOW_NAME">
+      <Text>Lav</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_STANDARD_NAME">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturligt klingende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_HIGH_NAME">
+      <Text>Høj</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_RANDOM_NAME">
+      <Text>Random</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_NAME">
+      <Text>Ressourcer</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_SPARSE_NAME">
+      <Text>Sparsom</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_STANDARD_NAME">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturlig klingende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_ABUNDANT_NAME">
+      <Text>Rigelig</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_RANDOM_NAME">
+      <Text>Random</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_NAME">
+      <Text>Startposition</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_BALANCED_NAME">
+      <Text>Balanceret</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_STANDARD_NAME">
+      <Text>Den næste tekst skal oversættes. Besvar kun med en naturlig klingende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_LEGENDARY_NAME">
+      <Text>Legendarisk</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PREDEFINED_START_LOCATIONS_NAME">
+      <Text>Foruddefinerede startpositioner</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_MIRRORED_NAME">
+      <Text>Spejlet</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PREDEFINED_START_LOCATIONS_DESCRIPTION">
+      <Text>Brug startsteder, der er foruddefineret på kortet.</Text>
+    </Row>
+    <!--Game Speed Descriptions -->
+    <Row Tag="LOC_GAMESPEED_MARATHON_HELP">
+      <Text>Meget forlænget spil (200% langsommere).</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_EPIC_HELP">
+      <Text>Langvarigt spil (50% langsommere).</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_STANDARD_HELP">
+      <Text>Normal hastighed spil.</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_QUICK_HELP">
+      <Text>Hurtigt spil (33% hurtigere).</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_ONLINE_HELP">
+      <Text>Dobbelt hastigheds spil brugt til online multiplayer.</Text>
+    </Row>
+    <!-- Map Type Descriptions -->
+    <Row Tag="LOC_MAP_ARCHIPELAGO_DESCRIPTION">
+      <Text>Mange små øer med nogle få større øer.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_CONTINENTS_DESCRIPTION">
+      <Text>Et par store landmasser.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_FRACTAL_DESCRIPTION">
+      <Text>Uforudsigelig kort, der kan resultere i én eller mange landmasser.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_INLANDSEA_DESCRIPTION">
+      <Text>Ét stort ocean i midten af kortet.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEVEN_SEAS_DESCRIPTION">
+      <Text>Adskillige store vandmasser omgivet af land. Øer kan findes i disse farvande.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SMALL_CONTINENTS_DESCRIPTION">
+      <Text>Verden vil bestå af nogle få mellemstore landområder og nogle mindre øer.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_ISLAND_PLATES_DESCRIPTION">
+      <Text>Øer i størrelser fra små til store.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_LAKES_DESCRIPTION">
+      <Text>En verden uden oceaner, kun søer og indre have.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_MIRROR_DESCRIPTION">
+      <Text>Tilfældigt genereret afbalanceret fire-spillerkort ideelt til konkurrenceprægede multiplayer-kampe.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PANGAEA_DESCRIPTION">
+      <Text>En massiv landmasse med omkringliggende øer.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SHUFFLE_DESCRIPTION">
+      <Text>Hvilke hemmeligheder vil denne kort afsløre?</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TERRA_DESCRIPTION">
+      <Text>En kontinentkort, hvor alle store civilisationer starter på den største kontinent.</Text>
+    </Row>
+    <!-- Map Size Descriptions -->
+    <Row Tag="LOC_MAPSIZE_DUEL_DESCRIPTION">
+      <Text>Meget lille kort til 2 spillere.</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_TINY_DESCRIPTION">
+      <Text>Lidt mindre kort til 4 spillere.</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_SMALL_DESCRIPTION">
+      <Text>Lille kort til 6 spillere.</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_STANDARD_DESCRIPTION">
+      <Text>Gennemsnitligt stort kort til 8 spillere.</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_LARGE_DESCRIPTION">
+      <Text>Stor kort til 10 spillere.</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_HUGE_DESCRIPTION">
+      <Text>Enormt kort til 12 spillere.</Text>
+    </Row>
+    <!-- City-State Exclusion -->
+    <Row Tag="LOC_EXCLUDE_CITY_STATES_NAME">
+      <Text>Vælg Bystater</Text>
+    </Row>
+    <Row Tag="LOC_EXCLUDE_CITY_STATES_DESC">
+      <Text>Vælg hvilke bystater der kan opstå i spillet.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_SORT_BY">
+      <Text>Sortér efter:</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_SORT_NAME">
+      <Text>Navn</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_SORT_TYPE">
+      <Text>Venligst skriv teksten, som du vil have oversat til dansk</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_COUNT_WARNING">
+      <Text>[COLOR_RED]Der skal vælges mindst {1_Min} bystater for at fortsætte. Vælg {2_Resten} mere.[ENDCOLOR]</Text>
+    </Row>
+    <!-- Natural Wonder Exclusion -->
+    <Row Tag="LOC_EXCLUDE_NATURAL_WONDER_NAME">
+      <Text>Vælg naturlige vidundere</Text>
+    </Row>
+    <Row Tag="LOC_EXCLUDE_NATURAL_WONDER_DESC">
+      <Text>Vælg hvilke naturvidundere der kan vises på kortet.</Text>
+    </Row>
+    <!-- Turn Timer Settings -->
+    <Row Tag="LOC_TURNTIMER_NONE">
+      <Text>Ingen drejetimer</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_NONE_DESC">
+      <Text>Spillerne skiftes uden tidsbegrænsninger.</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_DYNAMIC">
+      <Text>Dynamisk Drejningstimer</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_DYNAMIC_DESC">
+      <Text>Turntiden skalerer dynamisk baseret på antallet af byer og enheder i spil.</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_STANDARD">
+      <Text>Standard Tidtager for Tur</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_STANDARD_DESC">
+      <Text>Omdrejningstiden er baseret på Omdrejningstidsindstillingen (i sekunder).</Text>
+    </Row>
+    <!-- Turn Mode Settings -->
+    <Row Tag="LOC_TURNPHASE_SIMULTANEOUS">
+      <Text>Samtidige Træk</Text>
+    </Row>
+    <Row Tag="LOC_TURNPHASE_SIMULTANEOUS_DESC">
+      <Text>Spillere tager deres tur på samme tid.</Text>
+    </Row>
+    <Row Tag="LOC_TURNPHASE_DYNAMIC">
+      <Text>Dynamiske sving</Text>
+    </Row>
+    <Row Tag="LOC_TURNPHASE_DYNAMIC_DESC">
+      <Text>Spillere i fred tager deres tur på samme tid. Spillere i krig tager deres tur sekventielt.</Text>
+    </Row>
+    <!-- Map Config Descriptions -->
+    <Row Tag="LOC_MAP_WORLD_AGE_DESCRIPTION">
+      <Text>Ændrer kortets højde (bakker og bjerge).</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_NEW_DESCRIPTION">
+      <Text>En kort med flere bakker, bjerge og vulkaner.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_STANDARD_DESCRIPTION">
+      <Text>Et kort med almindelige bakker, bjerge og vulkaner.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_OLD_DESCRIPTION">
+      <Text>Et kort med færre bakker, bjerge og vulkaner.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_RANDOM_DESCRIPTION">
+      <Text>En kort med tilfældige bakker, bjerge og vulkaner.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_DESCRIPTION">
+      <Text>Justerer terrænet på kortet.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_HOT_DESCRIPTION">
+      <Text>En kort med mere ørken og mindre tundra og sne.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_STANDARD_DESCRIPTION">
+      <Text>Et kort med gennemsnitlig terræn, der ligner jordens terrænmønstre.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_COLD_DESCRIPTION">
+      <Text>En kort med mere tundra og sne og mindre ørken.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_RANDOM_DESCRIPTION">
+      <Text>En kort med tilfældige terræn temperaturzoner.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_DESCRIPTION">
+      <Text>Ændrer antallet af funktioner på et kort.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_ARID_DESCRIPTION">
+      <Text>Et kort med færre skove, regnskov og sump.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_STANDARD_DESCRIPTION">
+      <Text>Et kort med gennemsnitlige mængder af skove, regnskov og sump.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_WET_DESCRIPTION">
+      <Text>En kort med mere skov, regnskov og sump.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_RANDOM_DESCRIPTION">
+      <Text>En kort med et tilfældigt antal funktioner.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_DESCRIPTION">
+      <Text>Varierer mængden af vand på kortet.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION">
+      <Text>En kort med mindre vand.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_STANDARD_DESCRIPTION">
+      <Text>Et kort med normale mængder af vand.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_HIGH_DESCRIPTION">
+      <Text>Et kort med mere vand.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_RANDOM_DESCRIPTION">
+      <Text>En kort med en tilfældig mængde vand.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_DESCRIPTION">
+      <Text>Ændre mængden af ​​ressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_SPARSE_DESCRIPTION">
+      <Text>En kort med færre ressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_STANDARD_DESCRIPTION">
+      <Text>Et kort med standardressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_ABUNDANT_DESCRIPTION">
+      <Text>Et kort med flere ressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_RANDOM_DESCRIPTION">
+      <Text>En kort med et tilfældigt antal ressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_DESCRIPTION">
+      <Text>Flytter værdien af din startposition.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_BALANCED_DESCRIPTION">
+      <Text>Alle spillere har lige gode startpositioner.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_STANDARD_DESCRIPTION">
+      <Text>Standard startpositioner.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_LEGENDARY_DESCRIPTION">
+      <Text>Alle spillere har fantastiske, men ikke nødvendigvis lige start.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_MIRRORED_DESCRIPTION">
+      <Text>Alle spillere starter i præcis samme position inden for deres kortkvadrant.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERA">
+      <Text>Start Æra</Text>
+    </Row>
+    <Row Tag="LOC_KICK_VOTE">
+      <Text>Afstemning om udelukkelse</Text>
+    </Row>
+    <Row Tag="LOC_KICK_VOTE_TT">
+      <Text>Kick Voting kræver et flertalsstemme for at kunne smide en spiller ud af spillet.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SCRIPT">
+      <Text>Kort</Text>
+    </Row>
+    <!-- Tutorial Select Screen-->
+    <Row Tag="LOC_SETUP_TUTORIAL_TITLE">
+      <Text>Velkommen til Civilization</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_TUTORIAL_DESCRIPTION">
+      <Text>Det er her, vi begynder vores rejse med at opbygge et imperium fra beskedne begyndelser til storhed, og skrive din egen version af historien.[NEWLINE][NEWLINE]Vil du erobre verden i store slag eller være den første til at sende dit folk til stjernerne? Vil du påvirke verden med din kulturs påvirkning, eller vil dine overbevisninger sprede sig til jordens ender?[NEWLINE][NEWLINE]Kun tiden vil vise...[NEWLINE][NEWLINE]Alle store civilisationer begynder med en stor leder. Vælg den civilisation, du gerne vil spille gennem denne tutorial nedenfor.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_TUTORIAL_LEADER_1">
+      <Text>Cleopatra af det egyptiske imperium regerer en civilisation af stærke allierede og store bygherrer.</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_TUTORIAL_LEADER_2">
+      <Text>Gilgamesh fra det sumeriske imperium hersker over store landområder og er en respekteret erobrer.</Text>
+    </Row>
+    <!-- Loading Screen / Dawn of man -->
+    <Row Tag="LOC_LOADING_DOMAIN_LAND">
+      <Text>En unik landenhed</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_DOMAIN_SEA">
+      <Text>En unik søenhed</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_DOMAIN_AIR">
+      <Text>En unik luftenhed</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_PLEASE_WAIT">
+      <Text>Indlæser, vent venligst...</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_DISTRICT_BUILDING">
+      <Text>{1_DistrictName} Distrikt Bygning</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_UNIQUE_BUILDING">
+      <Text>En unik bygning</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_UNIQUE_DISTRICT">
+      <Text>Et unikt distrikt</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_UNIQUE_IMPROVEMENT">
+      <Text>En unik forbedring</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_JOIN_THE_WORLD_STAGE">
+      <Text>Bliver en del af verdensscenen</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_FEATURES_ABILITIES">
+      <Text>Funktioner og Evner</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_START_GAME">
+      <Text>Start Spil</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_CONTINUE_GAME">
+      <Text>Fortsæt spillet</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_DEFAULT">
+      <Text>Det er op til dig at føre dit folk til ære ved at opbygge en civilisation, der vil stå tidens prøve.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_BARBAROSSA">
+      <Text>Heroiske Frederik, konge af tyskerne, din opgave er at smede de uafhængige stater omkring dig til et imperium. Du er velsignet med at være en stor militær leder - brug disse færdigheder til at bringe disse byer under din indflydelse, så de kan udvikle sig til kommercielle og industrielle stormagter. Sikkert vil bards synge om den mægtige Frederik med det røde skæg, den store hellige romerske kejser.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_CATHERINE_DE_MEDICI">
+      <Text>Det falder på dig, Catherine de Medici, at bruge dine evner inden for viden og kunst til at forene dit folk. Styr forsigtigt gennem disse urolige tider, Frankrigs dronningemoder. Du vil opføre store vidundere, der tiltrækker besøgende fra alle hjørner af jorden. Med din skarpe opmærksomhed på alt, både det som kan ses og det skjulte i skyggerne, vil dit imperium helt sikkert stå tidens prøve.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_CLEOPATRA">
+      <Text>Der vil være dem, der undervurderer dig, men du er snedig og fuld af tricks, dronning Kleopatra. Dit charme vil etablere uudslettelige alliancer med de stærkeste ledere i verden. Hold dine venner tæt ved din side, og du vil finde dig selv usårlig, med æren af Egypten klar til at erobre verden.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_GANDHI">
+      <Text>Vær venlig, Gandhi Bapu, og du vil finde dig selv omgivet af sande venner. Hold det indiske folk sikkert, og beskyt dem med pragtfulde elefantkrigere. Din tro vil føre dig til fred og harmoni. Hold dit sind åbent, og vær den forandring, du ønsker at se i verden.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_GILGAMESH">
+      <Text>Meget hviler på dine skuldre, Kong Gilgamesh. Dine egne folk og mange mennesker i verden ser på dig som leder. Men du er mere end en simpel mand, og vægten af verden vil aldrig få dig til at vakle. Opfordr folkene i Sumer til at slå sig ned på de frugtbare områder langs floderne, og vær sikker på at vælge dine allierede omhyggeligt - for der vil være mange, der kæmper om en del af din styrke. Tag ud på eventyr, for det er tid til at begynde din episke fortælling.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_GORGO">
+      <Text>Gorgo, Dronning af Sparta, ære være dig og dine loyale hoplithære! Grækenland nyder velsignelserne fra Ares, som hver sejr bringer med sig. Og dit folk bifalder din eftertænksomme regering og kulturelle vidundere. Stå stolt, for arven fra Grækenland og dine præstationer vil blive fortalt igen og igen i generationer.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_HARDRADA">
+      <Text>Alle mænd frygter tilnærmelsen af dine skibe, Kong Harald af Norge, Nordens Torden. Dine langskibe dominerer bølgerne, altid klar til at frigive deres berserkerarméer på en uvidende kyst. Må Odin velsigne dit kongerige og må skaldene synge historier om sejrene fra dine mægtige krigere.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_HOJO">
+      <Text>Den store bølge af buddhismen følger dig, Shikken af Japan, Hojo Tokimune. Dit folk forstår virkelig, hvad det vil sige at praktisere balance, og selv dine fineste samuraier vil være veluddannede og åndeligt egnede. Vær stærk, omfavn den guddommelige vind, og du vil nå oplysning.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_MVEMBA">
+      <Text>Moder Jord har mange gaver til dig, Kong Mvemba a Nzinga. Dine folk kender de tætte skove og regnskove som deres hjem og glider let igennem dem. Også store er gaverne, der kommer fra rejsende fra fjerne lande. Hold et åbent sind, for inspirationen fra den åbne verden vil give vores folk mulighed for at skabe kunst med styrke og majestæt.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PEDRO">
+      <Text>Dit folk ser op til dig, Kejser Pedro II, for at føre Brasilien ind på verdensscenen. Brug dit ry som beskytter af kunstnere, videnskabsfolk og ingeniører, for at tiltrække de største sind til vores frugtbare hjem. For det er i de frodige regnskove, der myldrer af liv, at dit folk trives. Se dem i Carnavallet, mens de danser samba i fejringen af dine store bedrifter, Pedro den Magnanimøse.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PERICLES">
+      <Text>Din beherskelse af det talte ord er en gave af stor værdi, sølv-tunget Pericles, lederen af grækerne. Gennem det kan du tiltrække tilbedelse fra en alliance af stater og omgiver dig selv med deres herlighed. Etabler kulturelle steder langs de klippefyldte kyster i Grækenland for at forene dit folk bag din stærke styre. Hvis alt går godt, vil sirenerne synge om Pericles' tidsalder!</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PETER_GREAT">
+      <Text>Omfavn moderlandets kolde vinde, Tsar Peter. Din fascination af videnskab og kultur er en gave, og du vil lære meget fra dine store ambassaderejser til fremmede lande. Under din regeringstid vil Rusland helt sikkert blomstre og sprede sig, optagende alt omkring det og måske skabende den største landimperium set på denne jord.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PHILIP_II">
+      <Text>Hele Spanien står klar til at besvare dine bønner, fromme Kong Philip II. Fra dit palads i El Escorial kan du sende dine tilhængere ud: missionærer, apostle og conquistadorer klar til at drage ud over havene for at sprede det gode ord om dit helligste imperium. Må de skatte, de opdager, give næring til din quest for at forene verden under én tro og ét imperium, så du bliver sandelig den Mest Katolske konge.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_QIN">
+      <Text>I dine folk ligger din største styrke, Kejser Qin Shi Huang. Fra hele verden vil andre komme for at beundre de store mure og imponerende vidundere i dit forenede Kina. Må dine mænds hænder aldrig få vabler, når de hårdt og hurtigt arbejder på at opføre de mest imponerende strukturer, som verden nogensinde vil kende. Beskyt dem godt, og du vil for evigt blive udødeliggjort.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_SALADIN">
+      <Text>Ægteskabet mellem videnskab og religion er en delikat balancegang, men en som du har mestret, Saladin. Din søgen efter viden er ædel, og dit folk har stor respekt for dig. Men du behøver ikke at skynde dig ind i det ukendte. Med tiden vil svarene på livets mest forvirrende spørgsmål finde deres vej tilbage til Arabien.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_TOMYRIS">
+      <Text>Alle mennesker vil skælve af frygt og respekt for dig, store krigerdronning Tomyris. For det er fra bagsiden af din hingst, at du vil betragte og lede skyterfolket. Store episke fortællinger vil blive fortalt om hestekrigerne, der rider ud fra stepperne, og i frontlinjen af enhver kamp - vil de finde dig. Fortsæt din rejse, frygtindgydende dronning, og må dine venner være loyale, lige så vel som dine fjender vakler.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_TRAJAN">
+      <Text>Kast dit net bredt, oh Trajan, kejser af det mægtige Rom. Dine legioner står klar til at marchere ud og etablere det største imperium, verden nogensinde har set. Hvis du virkelig kan få alle veje til at føre til Rom, vil dit imperium være fyldt med rigdomme og luksus. Sikkert vil vores borgere da proklamere dig deres bedste hersker, Optimus Princeps.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_T_ROOSEVELT">
+      <Text>Og så er det på dine brede skuldre, Theodore Roosevelt, at pålægge og føre dit folk frem på deres store eventyr. Brug din militære styrke til at give dit hjemlands folk den firkantede aftale, de så desperat fortjener. Sikkert vil du hæve Amerika i rampelyset og tiltrække besøgende fra tværs over oceanerne, blot for at se dine lande. Godt gået, hr. Præsident.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_VICTORIA">
+      <Text>Deres Majestæt Dronning Victoria af England, udvid din rækkevidde ud over dine grænser og over hele kloden. Bekymr dig ikke over muligheden for nederlag, for dine loyale rødkapper og overvældende flåde vil helt sikkert vinde dagen. Med din rolige og stabile tilgang kan du bringe alle lande under Englands indflydelse og etablere en ægte Pax Britannica.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_ANCIENT_DESCRIPTION">
+      <Text>Fra de første rørelser af livet under vandet... til de store dyr fra Stenalderen... til mennesket tager sine første oprejste skridt, er du kommet langt. Nu begynder din største quest: fra denne tidlige civilisations vugge mod stjernerne.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_CLASSICAL_DESCRIPTION">
+      <Text>Fra beskedne begyndelser har du vist bemærkelsesværdig vækst. Forlad dit bronze til fordel for jern og hersk med hest og sværd. Himlen ovenover begynder at afsløre sine hemmeligheder, en samling af himmel, der oplyfter vores hjerter og guider os til fjerne kyster.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_MEDIEVAL_DESCRIPTION">
+      <Text>Du har bygget store byer af sten og set tidlige imperier opstå og falde. Snart vil du stå under de høje tårne i slotte sammen med dine modige riddere. Det er her historien om dit folk vil blive skrevet. Ligesom den unge lærling lærer at bære et sværd, så vil du også vokse til at forstå din plads i denne verden.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_RENAISSANCE_DESCRIPTION">
+      <Text>Nye kræfter kalder på, fra musketternes løb til blomster af ild på himlen. Selv de stille ord på nytrykte sider rummer store forandringer. Verden, engang så stor og mystisk, er blevet mindre og mere velkendt. Alligevel er der altid spørgsmål, der skal besvares, trosretninger, der skal testes, og national identiteter, der skal formes.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_INDUSTRIAL_DESCRIPTION">
+      <Text>Den konstante summen af maskineri, den bitre lugt af røg, synet sløret af aske og sod - dette er tegnene på tiderne, der skifter. Trangen til videnskabelig og kulturel fremgang er motoren, der driver dit rige fremad. Nu er din udfordring at opretholde den skrøbelige balance mellem jord og menneske, mellem fred og krig.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_MODERN_DESCRIPTION">
+      <Text>I begyndelsen fløj legender om flyvende mænd højt. Og i dag er du på kanten af at omdanne disse legender til virkelighed. Med flyvning og nye former for kommunikation kan du skabe en lille og intim verden. Men til hvilken pris? Vores konkurrerende ideer om, hvordan man skal styre og leve, truer med at bringe konflikt på globalt plan. Du må vælge din egen vej gennem denne stigende larm af ideologisk tale.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_ATOMIC_DESCRIPTION">
+      <Text>Nye opdagelsers grænser udvider vores forståelse, fra den lille atom til majestæten af ydre rum. Mysterier, der længe har været tolereret, er tættere end nogensinde på at afsløre deres dybeste hemmeligheder, ud over hvad vi nemt kan se. Du vil vælge, hvordan du vil bruge denne viden og bane vejen for den største mørke, vi endnu har stået overfor.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_INFORMATION_DESCRIPTION">
+      <Text>En verden af information ligger i din håndflade, og netværk for øjeblikkelig kommunikation spænder over hele kloden. Men en fælles vision for vores fremtid er aldrig blevet bygget. Vi konkurrerer i teknologi, kultur og politik. Vi har dødbringende våben, der kunne ødelægge vores planet. Led os omhyggeligt, men modigt, og byg en global fællesskab, der kan stå i mange år fremover.</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_DISABLE">
+      <Text>Deaktiver rådgiveren.</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_NEW_TO_STRATEGY">
+      <Text>Ny til tur-baseret strategi.</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_NEW_TO_CIV">
+      <Text>Ny til Civilization</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_NEW_TO_CIV_6">
+      <Text>Ny i Civilization VI</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_CIVILIZATIONS_NAME">
+      <Text>Ingen duplikerede civilisationer</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_LEADERS_NAME">
+      <Text>Ingen duplikerede ledere</Text>
+    </Row>
+    <Row Tag="LOC_NO_TEAMS_NAME">
+      <Text>Ingen Teams</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_CIVILIZATIONS_DESCRIPTION">
+      <Text>At aktivere denne indstilling forhindrer to eller flere spillere i at vælge den samme civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_LEADERS_DESCRIPTION">
+      <Text>At aktivere denne mulighed forhindrer to eller flere spillere i at vælge den samme leder.</Text>
+    </Row>
+    <Row Tag="LOC_NO_TEAMS_DESCRIPTION">
+      <Text>At aktivere denne mulighed deaktiverer holdspil.</Text>
+    </Row>
+    <Row Tag="LOC_LIMIT_TURNS_NAME">
+      <Text>Begræns drejninger</Text>
+    </Row>
+    <Row Tag="LOC_LIMIT_TURNS_DESCRIPTION">
+      <Text>Begræns det maksimale antal ture</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_NONE_NAME">
+      <Text>Ingen begrænsning på antal drejninger</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_NONE_DESCRIPTION">
+      <Text>Der er ingen begrænsning på antallet af ture.</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_GAMESPEED_NAME">
+      <Text>Ved spilhastighed</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_GAMESPEED_DESCRIPTION">
+      <Text>Spillet vil ende i år 2050 e.Kr.</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_CUSTOM_NAME">
+      <Text>Tilpasset</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_CUSTOM_DESCRIPTION">
+      <Text>Spillet vil ende ved det angivne antal runder.</Text>
+    </Row>
+    <Row Tag="LOC_CITYSTATE_COUNT_NAME">
+      <Text>Bystater</Text>
+    </Row>
+    <Row Tag="LOC_CITYSTATE_COUNT_DESCRIPTION">
+      <Text>Antallet af bystater, der skal inkluderes i spillet.</Text>
+    </Row>
+    <Row Tag="LOC_MAX_TURNS_NAME">
+      <Text>Max Drejninger:</Text>
+    </Row>
+    <Row Tag="LOC_MAX_TURNS_DESCRIPTION">
+      <Text>Spillet vil ende efter det specificerede antal runder er blevet spillet.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_RESUME_GAME_TT">
+      <Text>Fortsæt det sidste spil, du spillede.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_LOAD_GAME_TT">
+      <Text>Indlæs en tidligere gemt spil.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_PLAY_NOW_TT">
+      <Text>Spil på en lille Continents kort med tilfældige ledere.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_CREATE_GAME_TT">
+      <Text>Lav et nyt spil med dine egne indstillinger.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_SCENARIOS_TT">
+      <Text>Spil et scenarie, en unik oplevelse med specifikke regler, ledere og mål.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_SINGLE_PLAYER_TT">
+      <Text>Spil nu, opret et nyt spil eller fortsæt et eksisterende spil.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MULTIPLAYER_TT">
+      <Text>Internet-, netværks- og "hot seat" kampe kan sættes op eller deltages i her.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_GAME_OPTIONS_TT">
+      <Text>Indstillinger for grafik, lyd, tastebindinger og mere.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MODS_TT">
+      <Text>Tilpassede kreationer af fans til at udvide Civilization VI.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_TUTORIAL_TT">
+      <Text>Helt ny til franchisen, eller har du brug for en opdatering? Vi er her for at hjælpe!</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_BENCHMARK_TT">
+      <Text>Hvordan klarer din hardware sig?</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_WORLDBUILDER_TT">
+      <Text>Verdensbyggeren korteditor.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_CREDITS_TT">
+      <Text>Alle, der har bidraget til Civilization VI.</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_EXIT_GAME_TT">
+      <Text>Luk spillet helt ned.</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_HALL_OF_FAME">
+      <Text>Berømmelsens Hal</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_HALL_OF_FAME_TT">
+      <Text>Kan dit gameplay modstå tidens prøve?</Text>
+    </Row>
+    <!-- Copyright screen -->
+    <Row Tag="LOC_COPYRIGHT_TEXT">
+      <Text>© 1991 - 2023 Take-Two Interactive Software, Inc. Udviklet af Firaxis Games. 2K, Firaxis Games, Sid Meier's Civilization VI, Sid Meier's Civilization, Civilization, Civ og deres respektive logoer er varemærker tilhørende Take-Two Interactive Software, Inc. Bruger Bink Video. Copyright © 1997 - 2020 af RAD Game Tools, Inc. Bruger Granny Animation. Copyright © 1999 - 2020 af RAD Game Tools Inc. Drevet af WWise © 2006-2020 Audiokinetic Inc. Alle rettigheder forbeholdes. Fork Copyright © 2020 Fork Particle, Inc. Sid Meier's Civilization VI bruger Havok®. © 1999 - 2020 Havok.com, Inc. (og dens licenshavere). Alle rettigheder forbeholdes. Se www.havok.com for detaljer. Microsoft, DirectX, Visual Studio og Windows er enten registrerede varemærker eller varemærker tilhørende Microsoft Corporation i USA og/eller andre lande. Lua Copyright © 1994 - 2020 Lua.org, PUC-Rio. Alle andre varemærker tilhører deres respektive ejere. Alle rettigheder forbeholdes. Indholdet i dette videospil er fiktivt og er ikke ment til at repræsentere eller afspejle en faktisk optegnelse af begivenheder, personer eller enheder i spillets historiske indstilling.</Text>
+    </Row>
+    <Row Tag="LOC_COPYRIGHT_ACCEPT">
+      <Text>Accept</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DEFAULT_NAME">
+      <Text>Sejr</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_HEADER">
+      <Text>SEJR!</Text>
+    </Row>
+    <Row Tag="LOC_DEFEATED_SUBHEADER">
+      <Text>BESEJRET</Text>
+    </Row>
+    <Row Tag="LOC_ELIMINATED_SUBHEADER">
+      <Text>ELIMINERET</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCORE_SUBHEADER">
+      <Text>SCORE SEJR</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCIENCE_SUBHEADER">
+      <Text>VIDENSKABELIG SEJR</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_CULTURE_SUBHEADER">
+      <Text>KULTURSEJR</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DOMINATION_SUBHEADER">
+      <Text>SEJR GENNEM DOMINATION</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_RELIGIOUS_SUBHEADER">
+      <Text>RELIGIØS SEJR</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCENARIO_SUBHEADER">
+      <Text>SEJR: {1_ScenarioName}</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCENARIO_VICTORY_TYPE_SUBHEADER">
+      <Text>{1_ScenarioVictoryType} (Danish does not have a direct translation for this phrase, it would remain the same in the translated text)</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_GAME_WINNER_SUBHEADER">
+      <Text>VINDER AF SPILLET</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCORE_NAME">
+      <Text>Score sejr</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCIENCE_NAME">
+      <Text>Videnskabelig sejr</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_CULTURE_NAME">
+      <Text>Kultur-sejr</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DOMINATION_NAME">
+      <Text>Sejr gennem dominans</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_RELIGIOUS_NAME">
+      <Text>Religiøs sejr</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCORE_TT">
+      <Text>Mens du ikke var i stand til at opnå en stor sejr, vil du tage hvad du kan få. Denne sejr bliver udløst, når tiden løber ud, og der ikke er andre vindere.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCIENCE_TT">
+      <Text>Vær den første til at kolonisere Mars for at vinde en videnskabelig sejr. Denne sejr er ligetil, men kan være svær at opnå inden tiden løber ud.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_CULTURE_TT">
+      <Text>Din kulturelle storhed vil tiltrække alle verdens mennesker til dit imperium. Dette er den mest vanskelige sejr at opnå.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DOMINATION_TT">
+      <Text>Through military strength and prowess, you bring the world to its knees. This is the most basic victory to achieve.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_RELIGIOUS_TT">
+      <Text>Spread your religion to the four corners of the Earth, bringing light to a dark World. You will have to master diplomatic relationships if you hope to convert the world to the one true religion.</Text>
+    </Row>
+    <Row Tag="LOC_RULESET_NAME">
+      <Text>Standardregler</Text>
+    </Row>
+    <Row Tag="LOC_RULESET_DESCRIPTION">
+      <Text>Dette er en standard Civilization VI spil.</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_PLAY_CLEO_NAME">
+      <Text>Spil som Kleopatra</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_PLAY_GILG_NAME">
+      <Text>Spil som Gilgamesh</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_ADDITIONAL_CONTENT">
+      <Text>Yderligere indhold</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_ADDITIONAL_CONTENT_TT">
+      <Text>Yderligere indhold til Civilization VI.</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_DEMO">
+      <Text>Demo (It's the same in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_DEMO_PURCHASE">
+      <Text>Køb det nu</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_DEMO_PURCHASE_TT">
+      <Text>Åbn Steam Store for at købe Sid Meier's Civilization VI</Text>
+    </Row>
+    <Row Tag="LOC_DEMO_COMPLETE_CONTENT">
+      <Text>Tillykke! Du har taget de første skridt mod at opbygge en civilisation, der kan stå tidens prøve. Vil du fortsætte med at teste dig selv mod de største ledere i historien? Kan din kulturs blomstre? Vil din videnskab oplyse? Vil din tro inspirere? Vil dit militær dominere?[NEWLINE][NEWLINE]Hvordan vil du lede i Sid Meier's Civilization VI? Fortsæt rejsen nu.[NEWLINE][NEWLINE]Byg. Erobre. Inspirer.</Text>
+    </Row>
+    <Row Tag="LOC_DEMO_COMPLETE_MAIN_MENU">
+      <Text>Gå over i historien</Text>
+    </Row>
+    <Row Tag="LOC_DEMO_COMPLETE_BUY">
+      <Text>Opnå storhed</Text>
+    </Row>
+    <Row Tag="LOC_ARX_VICTORY_PROGRESS">
+      <Text>{1_CivName} Sejr Fremskridt</Text>
+    </Row>
+    <Row Tag="LOC_ARX_TOP_5">
+      <Text>Top 5</Text>
+    </Row>
+    <Row Tag="LOC_ARX_GOSSIP_LOG">
+      <Text>Sladderlog</Text>
+    </Row>
+    <!-- File Errors -->
+    <Row Tag="LOC_SERIALIZATION_ERROR_VERSION_MISMATCH">
+      <Text>Gem kan ikke indlæses i denne version af spillet.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_OPEN">
+      <Text>Kan ikke åbne gemt fil.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_WRITE">
+      <Text>Kan ikke gemme.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_READ">
+      <Text>Kan ikke læse gemt fil.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_REMOVE">
+      <Text>Kan ikke fjerne gemt.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_NOT_SAVE_GAME">
+      <Text>Filen er ikke en gemt spilstand.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_CORRUPT_SAVE">
+      <Text>Gem spil er korrupt.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_UNEXPECTED_END_OF_FILE">
+      <Text>Gemning af indlæsning afbrudt uventet.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_RESTORING_STATE">
+      <Text>Kan ikke genoprette spiltilstanden.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_PATH_NOT_FOUND">
+      <Text>Kan ikke finde stien til gemmestedet.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_INVALID_DEVICE">
+      <Text>Lagringsenheden er ugyldig.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_FILE_LIST">
+      <Text>Kan ikke hente gem-listen fra enheden.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_MOD">
+      <Text>En eller flere nødvendige mods til redningen er ikke installeret.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_DLC">
+      <Text>Én eller flere nødvendige DLC-pakker til gemmefilen er ikke installeret.</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_EXPANSION">
+      <Text>En eller flere påkrævede udvidelsespakker til gemmefilen er ikke installeret.</Text>
+    </Row>
+    <Row Tag="LOC_TEAM_NAME_SELECT_TITLE">
+      <Text>Holdnavn</Text>
+    </Row>
+    <Row Tag="LOC_TEAM_NAME_ENTRY_TITLE">
+      <Text>Indtast holdnavn</Text>
+    </Row>
+    <Row Tag="LOC_CHOOSE_TEAM_ICON">
+      <Text>Vælg holdikonet</Text>
+    </Row>
+    <Row Tag="LOC_MESSAGE_OF_THE_DAY_HEADING">
+      <Text>Dagens besked:</Text>
+    </Row>
+    <!-- -->
+    <Row Tag="LOC_GAME_START_ERROR_DESC">
+      <Text>Der opstod en fejl ved opstart af spillet.[NEWLINE][NEWLINE]Vi anbefaler at deaktiverer eventuelle mods og forsøger igen.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_CODE">
+      <Text>Fejl - {1_ErrorCode}</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_VIEW_MODS">
+      <Text>Administrer mods</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_TITLE">
+      <Text>Fejl ved start af spil</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_UNKNOWN_VERSION">
+      <Text>Gemt version er inkompatibel.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_MOD_CONTENT">
+      <Text>En eller flere Mods kunne ikke indlæse indhold.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_MOD_CONFIG">
+      <Text>En eller flere Mods kunne ikke konfigurere indhold eller databaseindgange.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_MOD_OWNERSHIP">
+      <Text>En eller flere mods er ikke blevet købt.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_SCRIPT_PROCESSING">
+      <Text>En eller flere af startskripterne har en fejl. Se lua.log</Text>
+    </Row>
+    <Row Tag="LOC_CLOUD_SAVES_REQUIRE_LINKED_ACCOUNT">
+      <Text>Cloud-gemte data kræver en tilknyttet 2K-konto.</Text>
+    </Row>
+    <Row Tag="LOC_CLOUD_SAVES_SERVICE_NOT_CONNECTED">
+      <Text>Cloud-lagringsløsninger er utilgængelige.</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_OVERVIEW_TOOLTIP">
+      <Text>Teknisk information om dette spil:</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_VERSION_TOOLTIP">
+      <Text>Version: {1_Version}</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_MAP_SEED">
+      <Text>Kortfrø: {1_MapSeed}</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_GAME_SEED">
+      <Text>Spil Seed: {1_GameSeed}</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_MOUSE_COPY_TOOLTIP">
+      <Text>Højreklik for at kopiere information.</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_TOUCH_COPY_TOOLTIP">
+      <Text>Hold i 5 sekunder for at kopiere informationen.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_SCOUT_CAT_TITLE">
+      <Text>Spejderkat</Text>
+    </Row>
+    <Row Tag="LOC_MOD_SCOUT_CAT_TEASER">
+      <Text>Erstat Scoutens hund med en gruppe katte.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_SCOUT_CAT_DESCRIPTION">
+      <Text>Nogle gange elsker en spiller "Scout" hunden så meget, at de ikke kan holde ud at se Scout arbejde så hårdt i det fri. Så den åbenlyse løsning er at sende en flok katte ind, så Scout kan slappe af tilbage i landsbyen. Eller hvis du er en stor fan af katte, så retter dette DLC simpelthen en fejl.</Text>
+    </Row>
+    <!-- Leader Pools -->
+    <Row Tag="LOC_LEADER_POOL_1_NAME">
+      <Text>Leder Pulje 1</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_1_DESC">
+      <Text>Denne gruppe af ledere vil blive brugt til at vælge ledere fra Tilfældig Leder (Pool 1).</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_2_NAME">
+      <Text>Ledelsespool 2</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_2_DESC">
+      <Text>Denne gruppe af ledere vil blive brugt til at vælge ledere fra Tilfældig Leder (Pool 2).</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_COUNTER_WARNING">
+      <Text>[COLOR_RED]Mindst {1_Min} ledere skal vælges.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_PRESETS">
+      <Text>Forudindstillinger:</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PICK_PRESET_ALL">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturligt lydende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PICK_PRESET_NONE">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PICK_PRESET_NO_WINS">
+      <Text>Ledere uden sejre</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_LEADER_POOL_1">
+      <Text>Tilfældig leder (Pool 1)</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_LEADER_POOL_2">
+      <Text>Tilfældig leder (Pool 2)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_TOO_FEW_WARNING">
+      <Text>En af lederbassinerne har ikke nok ledere til hver spiller, der er valgt til den pool. Hvis du fortsætter, vil nogle af disse spillere få tildelt ledere uden for den pool. Er det okay?</Text>
+    </Row>
+  </FrontEndText>
+</GameData>

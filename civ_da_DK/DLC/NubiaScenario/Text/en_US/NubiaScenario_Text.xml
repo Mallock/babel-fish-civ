@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- OVERRIDES-->
+    <Row Tag="LOC_UI_RELIGION_WORKING_TOWARDS_RELIGION">
+      <Text>Min religion</Text>
+    </Row>
+    <Row Tag="LOC_RELIGIONPANEL_NEXT_STEP_EARN_PROPHET">
+      <Text>Din religion starter med en pantheon tro. Tilføj en mere tro til din religion, når du fuldfører hver af disse Civics: Mumificering, Book of the Dead og Amun: Lord of All Gods.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCORE_DETAILS">
+      <Text>En [COLOR:NeutralCS]SCORE[ENDCOLOR] sejr kan ikke ske i dette scenarie. Scores bliver kun registreret for at bestemme niveauet af sejr på det øjeblik, du fuldfører 7 templer til Amun.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Culture] Kultur i hvert Hellig Sted-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_Culture] Kultur i hver Helligdoms-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Science] Videnskab i hver Helligdoms-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Yderligere +2 [ICON_Science] Videnskab i hver Helligdom-bydel.</Text>
+    </Row>
+    <!-- Beliefs-->
+    <Row Tag="LOC_BELIEF_NUN_NAME">
+      <Text>Gud af Vanddybet (Nun)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ATUM_NAME">
+      <Text>Skaberens gud (Atum)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_AMON_NAME">
+      <Text>Herre over alle guder (Amun)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ISIS_NAME">
+      <Text>Fertilitetens gudinde (Isis)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_APEDEMAK_NAME">
+      <Text>Gud for Krig (Apedemak)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ANUBIS_NAME">
+      <Text>Mumificeringens gud (Anubis)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HORUS_NAME">
+      <Text>Beskytter af faraoerne (Horus)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SEBIUMEKER_NAME">
+      <Text>Beskyttende gud (Sebiumeker)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_BES_NAME">
+      <Text>Husgud (Bes)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ASH_NAME">
+      <Text>Guden af Oaserne (Ash)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_NUN_DESCRIPTION">
+      <Text>+1 [ICON_Production] Produktion fra fiskebåde.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ATUM_DESCRIPTION">
+      <Text>Alle bygherrer kan bygge 1 ekstra forbedring.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_AMON_DESCRIPTION">
+      <Text>+30% [ICON_Production] Produktion til vidundere. [ICON_Faith] Tro købsomkostninger reduceret med 30%.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ISIS_DESCRIPTION">
+      <Text>Byvækstraten er 15% højere.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_APEDEMAK_DESCRIPTION">
+      <Text>Kampssejre giver [ICON_Science] Videnskab svarende til 50% af [ICON_Strength] Kampstyrken af den besejrede enhed.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ANUBIS_DESCRIPTION">
+      <Text>Alle hellige sted-bygninger giver +2 [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HORUS_DESCRIPTION">
+      <Text>Én ekstra Wildcard-politikplads i enhver regering.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SEBIUMEKER_DESCRIPTION">
+      <Text>Kampenheder får +10 [ICON_Strength] kampstyrke, når de befinder sig inden for grænserne af vennlige byer.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_BES_DESCRIPTION">
+      <Text>Alle venlige byer modtager +1 [ICON_Amenities] bekvemmelighed.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ASH_DESCRIPTION">
+      <Text>+3 [ICON_Culture] Kultur, +3 [ICON_Faith] Tro, og +2 [ICON_Production] Produktion på Oasis fliser.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SEBIUMEKER_DESCRIPTION">
+      <Text>+{1_Value} Tro på Værgegud (Sebiumeker)</Text>
+    </Row>
+    <!-- Buildings-->
+    <Row Tag="LOC_BUILDING_OBELISK_NAME">
+      <Text>Obelisk</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIAN_SHRINE_NAME">
+      <Text>Helligdom</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_AMUN_NAME">
+      <Text>Tempel til Amun</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NILOMETER_NAME">
+      <Text>Nilometer</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NILOMETER_DESCRIPTION">
+      <Text>+1 [ICON_Food] Føde og +1 [ICON_Production] Produktion på alle Sumpmark fliser. Kan kun bygges i en by, der er tilstødende til en Nilen flise.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_WALLS_DESCRIPTION">
+      <Text>Giver mure omkring Byens Centrum og Lejrplads-distriktet. Mure tillader [ICON_Ranged] Ranged angreb fra Byens Centrum og Lejrplads-distriktet, og skal nedkæmpes før en by kan angribes.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_GREAT_LIBRARY_DESCRIPTION">
+      <Text>Modtag forbedringer til alle teknologier fra Oldtiden og Klassisk Tid. Skal bygges på fladt land.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_GREAT_LIGHTHOUSE_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Bevægelse for alle søenheder[NEWLINE][NEWLINE]Skal bygges på kysten og ved siden af land og en Havne-distrikt med et fyrtårn.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_PYRAMIDS_DESCRIPTION">
+      <Text>Bygget før scenariet begynder ved Giza, en placering nær bystaten On. Kan erobres for at opnå en stor kilde til Tro og for at give alle nye Byggere evnen til at bygge 1 ekstra forbedring.</Text>
+    </Row>
+    <!-- City State-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ASHMUNEIN">
+      <Text>Ashmunein</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BAHARIYA">
+      <Text>Bahariya. (There is no translation needed as it is already the name of a place in Egypt and does not have a direct translation to Danish.)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BYBLOS">
+      <Text>Byblos</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DAKHLA">
+      <Text>Dakhla</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_IHNASIYA">
+      <Text>Ihnasiya (note: this is not a coherent text and does not require translation)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_IREM">
+      <Text>Beklager, jeg kan ikke oversætte teksten, da du ikke har givet mig noget at oversætte. Kan du venligst give mig en tekst, der skal oversættes til dansk?</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KHARGA">
+      <Text>Kharga</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NEKHEN">
+      <Text>Nekhen</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ON">
+      <Text>On</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PUNT">
+      <Text>Punt</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SHARUHEN">
+      <Text>Sharuhen</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SERABIT_EL_KHADIM">
+      <Text>Serabit el-Khadim</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_THINIS">
+      <Text>Thinis</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASHMUNEIN_DESCRIPTION">
+      <Text>Ashmunein bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BAHARIYA_DESCRIPTION">
+      <Text>Bahariya bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BYBLOS_DESCRIPTION">
+      <Text>Byblos bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DAKHLA_DESCRIPTION">
+      <Text>Dakhla bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_IHNASIYA_DESCRIPTION">
+      <Text>Bystaten Ihnasiya</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_IREM_DESCRIPTION">
+      <Text>Irem bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KHARGA_DESCRIPTION">
+      <Text>Kharga bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_NEKHEN_DESCRIPTION">
+      <Text>Nekhen bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ON_DESCRIPTION">
+      <Text>Om en bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PUNT_DESCRIPTION">
+      <Text>Punt bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SHARUHEN_DESCRIPTION">
+      <Text>Sharuhen bystat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SERABIT_EL_KHADIM_DESCRIPTION">
+      <Text>Bystaten Serabit el-Khadim</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THINIS_DESCRIPTION">
+      <Text>Thinis bystat</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_IREM_NAME">
+      <Text>Irem Suzerain Bonus (This is a name and doesn't need to be translated)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_BYBLOS_NAME">
+      <Text>Byblos Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_SERABIT_NAME">
+      <Text>Serabit el-Khadim Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_OASES_NAME">
+      <Text>Ørken-oase Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_PUNT_NAME">
+      <Text>Punt Suzeræn Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NONE_NAME">
+      <Text>Ingen Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NONE_DESCRIPTION">
+      <Text>Der er ingen unik bonus for at blive Suzerain af denne bystat.</Text>
+    </Row>
+    <!-- Civilizations-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HYKSOS_DESCRIPTION">
+      <Text>Hyksos-riket</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LIBYANS_DESCRIPTION">
+      <Text>Libyske Rige</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASSYRIA_DESCRIPTION">
+      <Text>Assyrisk Rige</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PERSIA_DESCRIPTION">
+      <Text>Det Persiske Imperium</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MACEDON_DESCRIPTION">
+      <Text>Makedoniske Rige</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HYKSOS_ADJECTIVE">
+      <Text>Hyksos</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LIBYANS_ADJECTIVE">
+      <Text>Libysk</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASSYRIA_ADJECTIVE">
+      <Text>Assyrian</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PERSIA_ADJECTIVE">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturlig klingende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MACEDON_ADJECTIVE">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturligt klingende oversættelse</Text>
+    </Row>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_ROYAL_DYNASTIES_NAME">
+      <Text>Kongelige dynastier</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_HIEROGLYPHICS_NAME">
+      <Text>Hieroglyffer</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MUMMIFICATION_NAME">
+      <Text>Mumificering</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCRIBES_NAME">
+      <Text>Skrivere</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOK_OF_THE_DEAD_NAME">
+      <Text>Dødebogen</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_INSTITUTION_OF_THE_MUSES_NAME">
+      <Text>Musernes institution</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SEPATS_NAME">
+      <Text>Sepats</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOARDGAMES_ATHLETICS_NAME">
+      <Text>Brætspil og Atletik</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_AMUN_LORD_OF_ALL_GODS_NAME">
+      <Text>Amun: Herre over alle guder</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_ROYAL_DYNASTIES_DESCRIPTION">
+      <Text>Modtag en gratis bosætter i din [ICON_Capital] hovedstad ved fuldførelse.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_HIEROGLYPHICS_DESCRIPTION">
+      <Text>Priser 1 [ICON_Envoy] Envoy.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MUMMIFICATION_DESCRIPTION">
+      <Text>Tillader dig at tilføje en tro til din religion.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_STATE_WORKFORCE_DESCRIPTION">
+      <Text>Modtag en gratis bosætter i din [ICON_Capital] hovedstad ved fuldførelse.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_FOREIGN_TRADE_DESCRIPTION">
+      <Text>Tillader oprettelse af en yderligere [ICON_TradeRoute] Handelsrute. Giver 1 [ICON_Envoy] Udsending.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCRIBES_DESCRIPTION">
+      <Text>Præmier 1 [ICON_Envoy] Sendebud.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOK_OF_THE_DEAD_DESCRIPTION">
+      <Text>Lader dig tilføje en tro til din religion.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_INSTITUTION_OF_THE_MUSES_DESCRIPTION">
+      <Text>Priser 1 [ICON_Envoy] Udsending.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SEPATS_DESCRIPTION">
+      <Text>Modtag en gratis bosætter i din [ICON_Capital] hovedstad ved fuldførelse.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOARDGAMES_ATHLETICS_DESCRIPTION">
+      <Text>Modtag en gratis [ICON_GreatGeneral] Stor General i din [ICON_Capital] Hovedstad ved fuldførelse. Giver flanke- og støttekampbonusser til alle kampenheder.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_AMUN_LORD_OF_ALL_GODS_DESCRIPTION">
+      <Text>Tillader dig at tilføje en overbevisning til din religion.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_FUTURE_CIVIC_DESCRIPTION">
+      <Text>Kan gennemføres flere gange.</Text>
+    </Row>
+    <!-- Districts-->
+    <Row Tag="LOC_DISTRICT_NUBIA_SCENARIO_HARBOR_DESCRIPTION">
+      <Text>En bydel til søaktivitet i din by. Fjerner også [ICON_Movement] Bevægelsesstraf for at gå om bord og fra borde til og fra dette felt. Skal bygges på kyst, Nilen flod eller sø terræn ved siden af land.[NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Handelsrute kapacitet, hvis denne by ikke har en kommerciel hub bydel endnu.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NILE_RIVER_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra den tilstødende Nilen {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NILE_RIVER_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra den tilstødende Nilen-flod {1_Num : plural 1?felt; other?felter;}.</Text>
+    </Row>
+    <!-- Governments-->
+    <Row Tag="LOC_GOVERNMENT_KANDAKE_NAME">
+      <Text>Kandake</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_PHARAOH_NAME">
+      <Text>Farao</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_KANDAKE">
+      <Text>+1 [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_PHARAOH">
+      <Text>[ICON_Capital] Hovedstaden modtager en forøgelse på +2 til alle udbytter.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATING_BONUS_KANDAKE">
+      <Text>15% rabat på køb med [ICON_Gold] Gold.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATING_BONUS_PHARAOH">
+      <Text>+2 [ICON_Housing] Boliger i enhver by med et Helligt Sted.</Text>
+    </Row>
+    <!-- Great People-->
+    <Row Tag="LOC_NUBIA_SCENARIO_DOUBLE_COMBAT_STRENGTH_AOE_LAND">
+      <Text>+10 [ICON_Strength] Kampsbonus til alle enheder inden for 2 fliser.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_DOUBLE_COMBAT_STRENGTH_AOE_LAND_MODIFIER">
+      <Text>+10 [ICON_Strength] Kampbonus fra [ICON_GreatGeneral] Stor General.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MONTUHOTEP_NAME">
+      <Text>Mentuhotep II</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PIYE_NAME">
+      <Text>Piye</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMANIRENAS_NAME">
+      <Text>Amanirenas</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHA_NABU_SHU_NAME">
+      <Text>Sha-Nabu-shu</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CAMBYSES_NAME">
+      <Text>Cambyses II</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALEXANDER_NAME">
+      <Text>Alexander</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMANISHAKETO_NAME">
+      <Text>Amanishaketo</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HOREMHEB_NAME">
+      <Text>Horemheb</Text>
+    </Row>
+    <!-- Improvements-->
+    <Row Tag="LOC_IMPROVEMENT_NUBIA_SCENARIO_SPHINX_DESCRIPTION">
+      <Text>Låser op for præstindens evne til at opføre en Sphinx, der er unik for Egypten.[NEWLINE][NEWLINE]+1 [ICON_Faith] Tro og +1 [ICON_Culture] Kultur. +1 Appel. +2 [ICON_Faith], hvis det er ved siden af en seværdighed eller helligdom. Kan ikke bygges ved siden af en anden Sphinx. Kan bygges på oversvømmelsesområder.</Text>
+    </Row>
+    <!-- Policies-->
+    <Row Tag="LOC_POLICY_ABU_SIMBEL_NAME">
+      <Text>Abu Simbel</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FRONTIER_FORTRESSES_NAME">
+      <Text>Grænseforter</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INUNDATION_CALENDAR_NAME">
+      <Text>Oversvømmelseskalender</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERCENARIES_NAME">
+      <Text>Lejesoldater</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_COMMUNICATION_NAME">
+      <Text>Militær kommunikation</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MUSAEUM_NAME">
+      <Text>Musaeum (if it's a proper noun) = Musæum (in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RECORDKEEPING_NAME">
+      <Text>Arkivering</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ROYAL_BODYGUARDS_NAME">
+      <Text>Kongelige livvagter</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCORPION_KING_NAME">
+      <Text>Skorpionkongen</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_AGREEMENT_NAME">
+      <Text>Handelsaftale</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_VALLEY_OF_THE_KINGS_NAME">
+      <Text>Kongernes Dal</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_CONSCRIPTION_DESCRIPTION">
+      <Text>+50% [ICON_Produktion] Produktion til mellem- og langdistanceenheder fra antikken og klassisk tid.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_GOD_KING_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Tro på [ICON_Capital] Hovedstaden.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_MANEUVER_DESCRIPTION">
+      <Text>+100% [ICON_Produktion] Produktion til tunge og lette kavalerienheder fra den antikke og klassiske æra.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ABU_SIMBEL_DESCRIPTION">
+      <Text>+100% [ICON_Culture] Kultur fra Helligdomsbygninger.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FRONTIER_FORTRESSES_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Guld fra alle [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INUNDATION_CALENDAR_DESCRIPTION">
+      <Text>+1 [ICON_Science] Videnskab for hver by ved siden af en vandflise</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERCENARIES_DESCRIPTION">
+      <Text>Betal halvdelen af den sædvanlige pris for at opkræve bystatsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_COMMUNICATION_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Bevægelse for alle landenheder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MUSAEUM_DESCRIPTION">
+      <Text>Fordobler [ICON_Science] videnskabsudbyttet fra alle dine byer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RECORDKEEPING_DESCRIPTION">
+      <Text>Vedligeholdelse af enheder reduceret med 1 [ICON_Gold] Guld per tur, per enhed.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ROYAL_BODYGUARDS_DESCRIPTION">
+      <Text>+2 [ICON_Culture] Kultur i [ICON_Capital] Hovedstaden.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCORPION_KING_DESCRIPTION">
+      <Text>+4 [ICON_Styrke] Kampstyrke til alle enheder.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SCORPION_KING_COMBAT_STRENGTH">
+      <Text>+{1_Value} fra Skorpion Kongen.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_AGREEMENT_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Guld fra internationale [ICON_TradeRoute] handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_VALLEY_OF_THE_KINGS_DESCRIPTION">
+      <Text>+100% bonus til tilstødende Holy Site-distrikter.</Text>
+    </Row>
+    <!-- Religions-->
+    <Row Tag="LOC_RELIGION_NUBIA_SCENARIO_NUBIA_NAME">
+      <Text>Nubiske guder</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_NUBIA_SCENARIO_EGYPT_NAME">
+      <Text>Egyptiske guder</Text>
+    </Row>
+    <!-- Resources-->
+    <Row Tag="LOC_RESOURCE_SCENARIO_GOLD_NAME">
+      <Text>Guld Erz</Text>
+    </Row>
+    <!-- Routes-->
+    <Row Tag="LOC_ROUTE_NUBIA_SCENARIO_ROAD_DESCRIPTION">
+      <Text>Kan konstrueres gennem [ICON_TradeRoute] Handelsruter. Forbedrer [ICON_Movement] Bevægelseshastigheden for enhver enhed, der bevæger sig fra én vejflise til en anden.</Text>
+    </Row>
+    <!-- Technologies-->
+    <Row Tag="LOC_TECH_FISHING_NAME">
+      <Text>Fiskeri</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MEDICINE_NAME">
+      <Text>Medicin</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FORTIFICATION_NAME">
+      <Text>Befæstning</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TOMB_BUILDING_NAME">
+      <Text>Gravbyggeri</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FISHING_DESCRIPTION">
+      <Text>Tillader bygherrer at gå om bord.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_NUBIA_SCENARIO_SAILING_DESCRIPTION">
+      <Text>Tillader alle landenheder at gå ombord.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_NUBIA_SCENARIO_MATHEMATICS_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Bevægelse for alle søenheder.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MEDICINE_DESCRIPTION">
+      <Text>Modtag 2 gratis nybyggere i din [ICON_Capital] Hovedstad ved færdiggørelse.</Text>
+    </Row>
+    <!-- Units-->
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_GREAT_GENERAL_DESCRIPTION">
+      <Text>Hver [ICON_GreatGeneral] Store General har en passiv kamp effekt på nærliggende enheder i dette scenarie.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_GREAT_PROPHET_DESCRIPTION">
+      <Text>Store [ICON_GreatProphet] profeter findes ikke i dette scenarie. Både Egypten og Nubia får automatisk en religion, så snart deres hovedstad er grundlagt.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_EGYPTIAN_CHARIOT_ARCHER_DESCRIPTION">
+      <Text>Egyptisk unik enhed fra Oldtiden, der erstatter den tunge stridsvogn. 6 [ICON_Movement] Bevægelse, når den starter på åbent terræn.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_SETTLER_DESCRIPTION">
+      <Text>Det er muligt at skabe nye byer. Nybyggere kan kun modtages i dette scenarie ved at fuldføre Civics og teknologien Medicine. De kan aldrig bygges.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HIGH_PRIESTESS_NAME">
+      <Text>Højpræstinde</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDJAY_NAME">
+      <Text>Medjay</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HIGH_PRIESTESS_DESCRIPTION">
+      <Text>En unik bygger, hvis eneste funktion er at skabe en enkelt sfinx eller Nubisk pyramide.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDJAY_DESCRIPTION">
+      <Text>Stærk nærkampsenhed med en stor kampbonus, hvis den er i venligt territorium og inden for 1 flise af et helligt sted. Må kun bygge Medjay i en by med et helligt sted, der indeholder en Shrine-bygning</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDJAY_HOLY_SITE_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Value} Kampstyrke i venligt territorium nær et Helligt Sted.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_DOUBLE_STRENGTH_NAME">
+      <Text>Nærliggende store general</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_DOUBLE_STRENGTH_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampbonus fra Stor General.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDJAY_DESCRIPTION">
+      <Text>+20 [ICON_Strength] Kampbonus, når ved siden af en Helligdoms Skrin.</Text>
+    </Row>
+    <!-- Civic Boosts-->
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_STATE_WORKFORCE">
+      <Text>Forbedre 8 fliser.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_FOREIGN_TRADE">
+      <Text>Mød 6 bystater.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SCRIBES">
+      <Text>Byg 2 forskellige specialitetsområder.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_BOOK_OF_THE_DEAD">
+      <Text>Erobre en by.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_INSTITUTION_OF_THE_MUSES">
+      <Text>Undersøg matematikteknologien.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SEPATS">
+      <Text>Byg 2 Lejr-distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_BOARDGAMES_ATHLETICS">
+      <Text>Udvid din civilisation til mindst 24 befolkning.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_AMUN_LORD_OF_ALL_GODS">
+      <Text>Byg 3 helligdomme.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_STATE_WORKFORCE">
+      <Text>Med udviklingen af ​​landet omkring vores tidlige byer kan vi finjustere vores produktionsmetoder.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_FOREIGN_TRADE">
+      <Text>Dit kontakt med andre stater har åbnet muligheder for lukrative handel.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SCRIBES">
+      <Text>Vores by vokser så hurtigt, at vi har brug for en ny klasse af arbejdere til at hjælpe os med at følge med alt.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_BOOK_OF_THE_DEAD">
+      <Text>Vi har nogle faldne helte fra vores erobring af byen. Lad os lette deres passage gennem underverdenen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_INSTITUTION_OF_THE_MUSES">
+      <Text>Vores lærd matematikere er et forbillede for stipendium. Lad os hjælpe dem ved at samle verdens viden under ét tag.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SEPATS">
+      <Text>Med en lejr er stedet at forsvare vores lande og overvåge vores grænser, kan vi nu hævde vores regionale autoritet.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_BOARDGAMES_ATHLETICS">
+      <Text>Det voksende antal borgere i dine lande har brug for mere underholdning. Skal vi spille senet eller prøve vores held med bueskydning?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_AMUN_LORD_OF_ALL_GODS">
+      <Text>Vores folk anerkender nu den eneste højeste gud, Amun. Lad os bygge store templer til at fejre denne skaber af livets stav.</Text>
+    </Row>
+    <!-- Tech Boosts-->
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SAILING">
+      <Text>Forbedr 2 havressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_IRRIGATION">
+      <Text>Byg 4 gårde.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_THE_WHEEL">
+      <Text>Byg en græsmark.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_MEDICINE">
+      <Text>Byg 2 plantager.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_FORTIFICATION">
+      <Text>Bliv målet for en krigserklæring.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_TOMB_BUILDING">
+      <Text>Få "Bogen om De Dødes By" borgerretten.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_CELESTIAL_NAVIGATION">
+      <Text>Ejendom 2 Galejer.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_MATHEMATICS">
+      <Text>Byg 3 nilometre.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_IRON_WORKING">
+      <Text>Dræb en fjendtlig sværdkæmper.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_HORSEBACK_RIDING">
+      <Text>Dræb en fjendtlig rytter.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SAILING">
+      <Text>Dine fiskere hjælper os med at lære, hvordan man bygger både til militære formål.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_IRRIGATION">
+      <Text>Dine mange gårde giver dig en forståelse af vigtigheden af at irrigere dine afgrøder.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_THE_WHEEL">
+      <Text>At tæmme dyr burde vise sig at være nyttigt. Kan vi få dem til at bære tropper i kamp?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_MEDICINE">
+      <Text>Du blander urter ind i afgrøderne på dine plantager. Har nogle af dem medicinske egenskaber?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_FORTIFICATION">
+      <Text>Konfronteret med truslen om invasion, er dit folk klar til at udvikle innovative forsvar.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_TOMB_BUILDING">
+      <Text>With all the proper prayers recorded, we can now build tombs to honor our greatest people.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_CELESTIAL_NAVIGATION">
+      <Text>Dine mandskaber i køkkenet lærer at navigere deres rejser ved at studere nattehimlen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_MATHEMATICS">
+      <Text>Dine bedste videnskabelige sind bliver ret nøjagtige med deres forudsigelser af Nilen oversvømmelser.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_IRON_WORKING">
+      <Text>Vi har besejret nok Sværdmænd, så vi snart burde være i stand til at sætte tilsvarende enheder i marken.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_HORSEBACK_RIDING">
+      <Text>Vi har besejret nok Ryttere, så snart bør vi kunne opstille lignende enheder.</Text>
+    </Row>
+    <!-- Terrain/Features-->
+    <Row Tag="LOC_FEATURE_CATARACT_NAME">
+      <Text>Grå stær</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_NILE_RIVER_NAME">
+      <Text>Nilen</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_VICTORY_NUBIA_SCENARIO_TEXT">
+      <Text>Du er blevet den første spiller til at bygge 7 templer til ære for den store gud Amun. Sikkert bør der bygges en stor pyramide for at fejre dine præstationer!</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_TEMPLE_COUNT">
+      <Text>{1_Player} - Templer til Amun bygget: {2_Num}</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_1_NAME">
+      <Text>Amuns levende billede</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_2_NAME">
+      <Text>Højt agtet af Isis</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_3_NAME">
+      <Text>Salvet af Anubis</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_4_NAME">
+      <Text>Horus' disciple (Horus' elev)</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_5_NAME">
+      <Text>Forgotten af Bes</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_6_NAME">
+      <Text>Forsaget af Ash</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_1_QUOTE">
+      <Text>Herren af alle guder ærer dig. (Lad det ikke stige dig til hovedet.)</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_2_QUOTE">
+      <Text>Hun græder tårer af glæde for din præstation.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_3_QUOTE">
+      <Text>Han forbereder særlige kanopiske krukker til dine indvolde.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_4_QUOTE">
+      <Text>For at ære hans værker, skal du aldrig støde på en sandstorm.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_5_QUOTE">
+      <Text>Måske vil han næste gang huske at advare dig om slangerne.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_6_QUOTE">
+      <Text>Du vil ikke finde nogen oase i nogen ørken - kun sand på sand på sand.</Text>
+    </Row>
+    <!-- Events-->
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_1">
+      <Text>Genopbyg Det Gamle Kongerige</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_2">
+      <Text>Nubien trækker sin bue</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_3">
+      <Text>Pítati Return To Nubia (this seems to be a proper noun and does not require translation)</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_4">
+      <Text>Vend tilbage til vores service</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_5">
+      <Text>Farao Mentuhotep II bestiger tronen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_6">
+      <Text>Farao Mentuhotep II møder Osiris</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_7">
+      <Text>Højpræstinde indvier helligt sted</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_8">
+      <Text>Kong Piye bestiger tronen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_9">
+      <Text>Kong Piye møder Osiris</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_10">
+      <Text>Dronning Amanirenas bestiger tronen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_11">
+      <Text>Dronning Amanirenas møder Osiris</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_12">
+      <Text>Hyksos invaderer</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_13">
+      <Text>Libyen invaderer</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_14">
+      <Text>Assyrien invaderer</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_15">
+      <Text>Persien invaderer</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_16">
+      <Text>Makedonien invaderer</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_17">
+      <Text>Rom invaderer</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_18">
+      <Text>Hemmelige krigselefanter</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_1">
+      <Text>Det Gamle Kongerige eksisterer ikke mere. Selvom borgerkrigen ryster landet, er din families skæbne et genforenet Egypten. Måske kan den kortsigtede hjælp fra nubiske lejetropper hjælpe dig med at erobre byerne langs Nilen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_2">
+      <Text>Din familie har kommandoen over en vital del af Nilen floden. Med dine egyptiske naboer mod nord, som lider under intern uro, befinder Landet af Buen sig på randen af at blive et imperium.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_3">
+      <Text>De nubiske lejesoldater har fuldført deres kontrakt. De vender tilbage til Bueens Land.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_4">
+      <Text>Vores lejesoldatbueskytter har gennemført deres kontrakt med Egypten. De vender hjem erfarne og velbetalt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_5">
+      <Text>Den store Mentuhotep II søger intet mindre end at genforene Øvre og Nedre Egypten. Hvis han lykkes, vil vi ære ham med titlen "Horus, der forener de to lande."</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_6">
+      <Text>Med Mentuhotep IIs død forlader hans livskraft hans krop og begynder en ny rejse ind i efterlivet. Der vil han møde dommen fra Osiris. Må hans gerninger tjene ham evigt liv.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_7">
+      <Text>En religiøs leder opstår for at fuldføre dit nye bede sted. Med hendes hjælp kan vi smede nye symboler på de guddommelige kræfter, besiddet af vores guder.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_8">
+      <Text>Den retfærdige kong Piye søger at befri det egyptiske folk fra råddenskaben i deres herskeres hjerter. Han må gøre dette selvom det betyder, at Nubisk herredømme bliver udvidet dybt ind i det egyptiske territorium.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_9">
+      <Text>Med Piyes død forlader hans livskraft hans krop og begynder en ny rejse ind i efterlivet. Der vil han møde Osiris' dom. Må hans handlinger tjene ham evigt liv.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_10">
+      <Text>Den frygtløse dronning Amanirenas frygter ikke de udenlandske indtrængere. Hvis nogen truer Nubien, vil hun personligt lede angrebet - selvom det er verdens mest magtfulde hære.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_11">
+      <Text>Med Amanirenas' død forlader hendes livskraft hendes krop og begynder en ny rejse ind i det hinsides. Der vil hun møde Osiris' dom. Må hendes handlinger tjene hende evigt liv.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_12">
+      <Text>Fremmede invaderer ankommer fra nordøst! Hyksos kommanderer en voldsom hær af krigsvogne fra Levanten. De ankommer med et krigsværktøj, som aldrig før er oplevet langs Nilen - hesten.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_13">
+      <Text>Udenlandske indtrængere ankommer fra Middelhavet! Libyerne kommer fra vest, marcherende mod Nilen langs kysten. Fra øst kommer deres mystiske allierede - Havfolket.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_14">
+      <Text>Udenlandske indtrængere ankommer fra nordøst! Assyrere ledet af Sha-Nabu-shu har allerede erobret mesopotamiske områder. Pas på denne frygtindgydende fjende!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_15">
+      <Text>Fremmede invaderer ankommer fra nord! Perserne er lige i hælene på assyrerne. Vil nogen af de østlige kongeriger få fodfæste langs Nilen?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_16">
+      <Text>Fremmede indtrængere ankommer fra nordøst! Erobringerne af Alexander III af Makedonien siges at strække sig til verdens ende. Nu søger han at tilføje nilfolkene til sit imperium.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_17">
+      <Text>Fremmede invaderer kommer fra nord! De mægtige legioner af den romerske hær kom fra vest for at erobre Nilen til sig selv. Kan nogen stoppe den mægtigste hær i tiden?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_18">
+      <Text>Til stor udgift trænede vi krigselefanter på en hemmelig træningsplads. Pas godt på dem - Vi kan opretholde deres antal, på trods af deres langsomme avl, men forvent ikke at træne flere.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_1">
+      <Text>Disse Nubiske Pítati bueskytter vil tjene i dit hær i de næste 6 ture.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_2">
+      <Text>Find en by og udforske de rige mineralforekomster i nærheden.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_3">
+      <Text>Dine Pítati Archer-enheder er blevet fjernet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_4">
+      <Text>Disse erfarne Pítati-bueskytter er nu tilgængelige i nærheden af vores [ICON_Capital] hovedstad. Vi har også fået 100 [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_5">
+      <Text>Denne [ICON_GreatGeneral] Store General vil føre vores tropper i de næste 15 ture.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_6">
+      <Text>[ICON_GreatGeneral] Den store general Mentuhotep II er blevet fjernet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_7">
+      <Text>Denne Højpriestinde kan bruges til at bygge din unikke forbedring (Sphinx eller Nubisk Pyramide), når du har forsket i Mureri-teknologien.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_8">
+      <Text>Denne [ICON_GreatGeneral] Store General vil føre vores tropper i de næste 15 ture.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_9">
+      <Text>Den [ICON_GreatGeneral] Store General Piye er blevet fjernet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_10">
+      <Text>Denne [ICON_GreatGeneral] Store General vil føre vores tropper i de næste 15 omdrejninger.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_11">
+      <Text>[ICON_GreatGeneral] Store General Amanirenas er blevet fjernet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_12">
+      <Text>Disse Hyksos-indtrængere vil forsøge at erobre byer og etablere et kongerige langs Middelhavskysten.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_13">
+      <Text>Disse libyske invadører vil forsøge at erobre byer og etablere et kongerige langs Middelhavets kyst.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_14">
+      <Text>Disse assyriske angribere vil forsøge at erobre byer og etablere et kongerige langs Middelhavskysten.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_15">
+      <Text>Disse persiske angribere vil forsøge at erobre byer og etablere et kongerige langs Middelhavskysten.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_16">
+      <Text>Disse makedonske invadører vil forsøge at erobre byer og etablere et kongerige langs Middelhavskysten.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_17">
+      <Text>Disse romerske angribere vil forsøge at erobre byer og etablere et kongerige langs Middelhavskysten.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_18">
+      <Text>Nye War Elephant enheder er nu tilgængelige. De kan ikke bygges i en by og kan kun modtages gennem denne begivenhed.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

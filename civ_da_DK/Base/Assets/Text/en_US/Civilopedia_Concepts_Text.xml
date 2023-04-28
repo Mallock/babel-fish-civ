@@ -1,0 +1,1265 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BaseGameText>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_MODES_NAME">
+      <Text>Tilstande</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_INTRO_CHAPTER_INTRO_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_INTRO_CHAPTER_INTRO_PARA_1">
+      <Text>Velkommen til Civilopedia for Sid Meier's Civilization VI! Her vil du finde detaljerede beskrivelser af alle aspekter af spillet. Ved at klikke på fanerne i toppen af skærmen vil du blive ført til de forskellige hovedsektioner i Civilopediaen. Navigationslinjen på venstre side af skærmen vil vise de forskellige emner inden for en sektion. Klik på et emne for at gå direkte dertil.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_CITIES_NAME">
+      <Text>Byer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Byer er afgørende for din civilisations succes. De tillader dig at bygge enheder, bygninger og vidundere. De tillader dig at forske i nye teknologier og samle rigdom. Du kan ikke vinde uden stærke og velplacerede byer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_2_CHAPTER_CONTENT_TITLE">
+      <Text>Hvordan man bygger byer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Byer konstrueres af Settler-enheder. Hvis Settleren er på et sted, hvor en by kan opføres, vil knappen "Grundlæg By" vises. Klik på knappen, og Settleren vil forsvinde og blive erstattet af den nye by.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_3_CHAPTER_CONTENT_TITLE">
+      <Text>Hvor man skal bygge byer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Byer bør opføres på steder med masser af [ICON_Food] Mad og [ICON_Production] Produktion og med adgang til strategiske, luksus- og bonusressourcer. Det er ofte en god idé at bygge en by på en flod eller kystnære hex, da vandkilder er meget vigtige for en voksende [ICON_Citizen] Befolkning. Byer bygget på bakker får en forsvarsbonus, hvilket gør det sværere for fjender at erobre dem.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Med en Bosætter valgt vil ideelle byplaceringer blive vist på kortet med et ikon. Derudover vil hver Bosætter efter din første vise Bosætterlinsen, som giver dig en idé om, hvor på kortet der vil give den bedste kilde til vand til din by og indikere utilgængelige fliser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_TITLE">
+      <Text>Vækst</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_PARA_1">
+      <Text>Din by vil vokse eller tilføje flere [ICON_Citizen] Borgere med overskud af [ICON_Food] mad. Enhver mængde [ICON_Food] mad udover den samlede forbrug af en bys [ICON_Citizen] borgere, 2 pr. person, betragtes som overskud og tilføjes som fremskridt mod en ny [ICON_Citizen] Borger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_PARA_2">
+      <Text>En by vil tilføje al overskud [ICON_Food] til vækst, hvis dens nuværende [ICON_Citizen] befolkning er 2 eller mere under byens [ICON_Housing] boliggrænse. Hvis byen er 1 [ICON_Citizen] befolkning under dens [ICON_Housing] boliggrænse, vil dens vækst sænkes til 50%. Når [ICON_Citizen] befolkningen er ved [ICON_Housing] boliggrænsen, vil den kun vokse med 25% af den normale hastighed. En by kan vokse til 5 [ICON_Citizen] borgere over dens [ICON_Housing] boliggrænse ved denne hastighed og vil derefter stoppe med at vokse helt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_PARA_3">
+      <Text>En by vil stagnere og ikke vokse, hvis den ikke har overskud af [ICON_Food] mad. Hvis den producerer mindre [ICON_Food] mad end dens [ICON_Citizen] borgere forbruger, vil byen sulte og langsomt miste [ICON_Citizen] befolkning, indtil den igen er i stand til at støtte sig selv.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_13_CHAPTER_CONTENT_TITLE">
+      <Text>Mad</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_13_CHAPTER_CONTENT_PARA_1">
+      <Text>En by kræver 2 [ICON_Food] Fødevarer per [ICON_Citizen] Borger (en anden betegnelse for "[ICON_Citizen] Befolkning") per tur for at undgå sult. En by får [ICON_Food] Fødevarer (samt andre udbytter) ved at tildele dens [ICON_Citizen] Borgere til at "arbejde" på landet omkring byen. Byen kan arbejde på ethvert felt inden for 3 enheder af byen, som også er inden for civilisationens grænser, forudsat at det heller ikke bliver arbejdet af en anden by. Byer kan ikke arbejde på felter besat af vidundere.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_13_CHAPTER_CONTENT_PARA_2">
+      <Text>Hvis man lader byen være til sig selv, vil den tildele så mange [ICON_Citizen] Borgere som nødvendigt for at skaffe dens [ICON_Food] Mad.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_14_CHAPTER_CONTENT_TITLE">
+      <Text>Bolig</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_14_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Housing] Boliger er en repræsentation af det maksimale antal [ICON_Citizen] Borgere eller [ICON_Citizen] Befolkning, du kan have i hver by. Den grundlæggende kilde til [ICON_Housing] Boliger er en vandkilde.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_14_CHAPTER_CONTENT_PARA_2">
+      <Text>Mange bygninger giver [ICON_Housing] Boliger. Efter at have forsket i Pottery kan hver by bygge et Kornmagasin, som tilføjer 2 [ICON_Housing] Boliger, og senere kan de bygge Kloaker, som også tilføjer 2 [ICON_Housing] Boliger. Bygninger i andre distrikter tilføjer sommetider [ICON_Housing] Boliger, som f.eks. Kasernerne i Lejr-distriktet, Universitetet i Campus, og Fyrtårnet i Havnen. Paladset i din hovedstad tilføjer også 1 [ICON_Housing] Bolig.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_14_CHAPTER_CONTENT_PARA_3">
+      <Text>Hver Bondegård, Græsgang, Plantage eller Lejr understøtter en lille mængde [ICON_Citizen] Befolkning - 1 [ICON_Housing] Bolig for hver 2 sådanne forbedringer. At understøtte en landlig [ICON_Citizen] Befolkning på denne måde vil tillade lidt større [ICON_Citizen] Befolkninger før den industrielle æra, når Kvarter-distriktet bliver tilgængeligt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_15_CHAPTER_CONTENT_TITLE">
+      <Text>Vand</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_15_CHAPTER_CONTENT_PARA_1">
+      <Text>At placere din by nær en vandkilde bør være en af dine første beslutninger i ethvert spil. Tilstedeværelsen af en god vandkilde vil øjeblikkeligt sætte den indledende [ICON_Housing] Boligniveau i en by. En by, der ikke ligger ved siden af noget vand, vil have en maksimal [ICON_Citizen] Befolkning på 2 i starten. En by ved kysten vil have en maksimal [ICON_Citizen] Befolkning på 3. Og en by ved siden af en flod, sø eller oase vil have en maksimal [ICON_Citizen] Befolkning på 5.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_15_CHAPTER_CONTENT_PARA_2">
+      <Text>Bygning af et akvæduktsfelt ved siden af byens center kan forbedre byens ferskvandsstatus. Aqueducts kan kun placeres på felter, der er tilstødende en flod, sø eller bjerg, som også er tilstødende byens center. Når akvæduktdistriktet er fuldendt, øges byens [ICON_Housing] Housing fra vand med 2 eller op til 6, alt efter hvad der er størst - så 7, hvis det er tilstødende en flod, sø eller oase, eller 6 ellers.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_TITLE">
+      <Text>Områder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_PARA_1">
+      <Text>I Civilization VI er bygninger ikke længere fanget i din bymidte, men kan sprede sig over dit territorium som en del af distrikter. Kortet er vigtigere end nogensinde før, da du står over for vigtige strategiske placeringer. Campus og Holy Site modtager hver særlige fordele fra placering tæt på bjergfliser, men Campus har også gavn af en nærliggende regnskov flise.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_PARA_2">
+      <Text>En by skal udvide sin [ICON_Citizen] befolkning, før den kan konstruere flere distrikter:[NEWLINE]• 1 [ICON_Citizen] befolkning for 1 distrikt[NEWLINE]• 4 [ICON_Citizen] befolkning for 2 distrikter[NEWLINE]• 7 [ICON_Citizen] befolkning for 3 distrikter[NEWLINE]• Hver yderligere distrikt kræver +3 [ICON_Citizen] befolkning[NEWLINE]Akvedukter, Kvarterer og Rumhavne ignorerer dette [ICON_Citizen] befolkningskrav. Distrikter, der kræver et vis antal [ICON_Citizen] befolkning, er specialdistrikter</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_PARA_3">
+      <Text>Når en by er klar til at konstruere noget, vil knappen Vælg Produktion dukke op. Hvis en bydel kan bygges, vil den vises på denne menu. Klik på bydelen for at bestille byen til at begynde konstruktionen og åbne bydelsplaceringen. Her får du en oversigt over de forskellige udbytte-resultater, der er tilgængelige på fliserne omkring dit bycenter, og du kan bedre træffe beslutning om, hvor du skal placere din bydel. Denne linse vil også vise dig, hvilke fliser der ikke er tilgængelige, da nogle bydele har meget specifikke placering krav (for eksempel kan Lejren ikke bygges ved siden af et bycenter). Desuden skal alle bydele bygges inden for 3 fliser fra et bycenter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_PARA_4">
+      <Text>Distrikter kan placeres oven på funktioner som skov eller regnskov, hvis du har teknologien til at fjerne disse funktioner, men med en længere konstruktionstid. Intet distrikt kan bygges på en oversvømmelsesplain.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_TITLE">
+      <Text>Områder og Appel</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_1">
+      <Text>Kvarterer er et specielt distrikt, der tillader en by at huse mere [ICON_Citizen] befolkning og påvirkes af appellen. Udtrykket "appel" anvendes til at beskrive en særlig form for nabobonus, der kun gælder for kvarterer og også vil påvirke Kultur-sejrens [ICON_Tourism] turismesystem gennem nationalparker og strandresorter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_2">
+      <Text>Breathtaking kvarterer tilbyder 6 [ICON_Housing] boliger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_3">
+      <Text>Charmerende nabolag giver 5 [ICON_Housing] boliger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_4">
+      <Text>Gennemsnitlige kvarterer tilbyder 4 [ICON_Housing] boliger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_5">
+      <Text>Uinviterende kvarterer giver 3 [ICON_Housing] boliger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_6">
+      <Text>Modbydelige kvarterer giver 2 [ICON_Housing] Boliger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_7">
+      <Text>Endelig påvirker Appel også muligheden for at placere Nationalparker og Kystferiesteder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_8">
+      <Text>En flises appel kan ses i dens værktøjstip og påvirkes af følgende:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_9">
+      <Text>+4: hvis flisen er på et bjerg.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_10">
+      <Text>+2: Hver tilstødende naturlig vidunder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_11">
+      <Text>+1: Hver tilstødende helligdom, teaterplads, underholdningskompleks eller vidunder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_12">
+      <Text>+1: Hver tilstødende Bjerg, Kyst, Skov eller Oase</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_13">
+      <Text>+1: Hvis flisen er på en flod eller sø</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_14">
+      <Text>Hvert Château og Sphinx.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_15">
+      <Text>Hver tilstødende industriområde, lejr, lufthavn eller rumhavn</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_16">
+      <Text>Hver tilstødende regnskov, sump eller oversvømmelsesområde</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_17">
+      <Text>-1: Hver tilstødende plyndret flise</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_18">
+      <Text>-1: Hver tilstødende Mine, Stenbrud, Oliebrønd, Offshore Olieplatform og Flyveplads</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_5_CHAPTER_CONTENT_TITLE">
+      <Text>Bygninger</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Efter dit distrikt er blevet bygget, kan du nu begynde at befolke det med bygninger. Bygninger kan opføres gennem Produktionsmenuen på samme måde, som du bygger dit distrikt. Nogle bygninger har forudsætninger, såsom andre bygninger eller teknologikrav; disse bygninger vil ikke være synlige i din Produktionsmenu. Du kan lægge mærke til, at du har nogle bygninger tilgængelige til at bygge, før du placerer nogen distrikter, såsom Monumentet. Disse bygninger befinder sig i Byens Center.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_6_CHAPTER_CONTENT_TITLE">
+      <Text>Undere</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Vidundere er en speciel type bygning, der fylder en hel sekskant og har en betydelig indvirkning på gameplayet. Når du vælger en at bygge fra produktionsmenuen, vil du komme ind i placeringlupen, præcis som når du bygger en bydel. De fleste vidundere har specifikke krav til placering, og lupen vil fremhæve, hvilke fliser der er tilgængelige. Alle vidundere skal bygges inden for 3 fliser fra en bymidte. Hvis du fuldfører en vidunder i en by, vil den by øjeblikkeligt udvide sine grænser med to fliser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_6_CHAPTER_CONTENT_PARA_2">
+      <Text>Hver vidunder er unikt. Selvom flere civilisationer kan forsøge at bygge det samme vidunder, kan kun den civilisation, som først fuldfører vidunderet, høste dets fordele. Civilisationer, der ikke formår at fuldføre et vidunder i tide, får refunderet en del af [ICON_Production] Produktion og noget [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_6_CHAPTER_CONTENT_PARA_3">
+      <Text>For mere information om hver vidunder, se Wonders and Projects-sektionen i Civilopediaen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_7_CHAPTER_CONTENT_TITLE">
+      <Text>Slottet</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_7_CHAPTER_CONTENT_PARA_1">
+      <Text>Paladset er en særlig bygning. Delvis bygning og delvis underværk, vil Paladset automatisk dukke op i den første by, du bygger, hvilket gør denne by til hovedstaden [ICON_Capital] i dit imperium. Paladset giver en lille mængde [ICON_Production] Produktion, [ICON_Science] Videnskab, [ICON_Gold] Guld og [ICON_Culture] Kultur til din civilisation. Hvis din [ICON_Capital] hovedstad bliver erobret af en anden civilisation, og du stadig har andre byer under din kontrol, vil Paladset automatisk blive overført til en anden by, som vil blive din nye [ICON_Capital] hovedstad.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_8_CHAPTER_CONTENT_TITLE">
+      <Text>Borgere</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_8_CHAPTER_CONTENT_PARA_1">
+      <Text>Cities thrive based upon the land around them. Their [ICON_Citizen] Citizens "work" the land, harvesting [ICON_Food] Food, [ICON_Gold] Gold, [ICON_Production] Production, [ICON_Science] Science, and many other yields from the tiles. [ICON_Citizen] Citizens can work tiles that are within three tiles' distance from the city and that are within your civilization's borders. As your city grows, it automatically assigns its [ICON_Citizen] Citizens to work the lands around it. It seeks to provide a balanced amount of [ICON_Food] Food, [ICON_Production] Production, and [ICON_Gold] Gold. You may order a city's [ICON_Citizen] Citizens to work other tiles – for example, if you want a certain city to concentrate on generating [ICON_Gold] Gold, or [ICON_Production] Production, select the Manage Citizens icon in the City Selection Panel to choose specific tiles for your [ICON_Citizen] Citizens to work.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_16_CHAPTER_CONTENT_TITLE">
+      <Text>Lykke</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_16_CHAPTER_CONTENT_PARA_1">
+      <Text>Lykke måler tilfredsheden hos befolkningen i en enkelt by og måles ved at se, om [ICON_Citizen] Befolkningen i den by har så mange [ICON_Amenities] Fornøjelser som forventet. Der kræves 1 [ICON_Amenities] Fornøjelse for hver 2 [ICON_Citizen] Befolkning, startende ved en [ICON_Citizen] Befolkning på 3. En tilfreds by vil ikke have nogen modifikator anvendt på den, men en lykkelig by vil have en 10% vækstforøgelse og en 5% udbytteforøgelse. Desuden vil en ekstatisk by have en vækstforøgelse på 20% og en udbytteforøgelse på 10%. På samme måde vil for få [ICON_Amenities] Fornøjelser skabe utilfredshed blandt dine [ICON_Citizen] Borgere, og væksten og udbyttet vil modtage negative modifikatorer. På niveauet af uro vil din vækst stoppe, og du kan finde oprørske partisaner i din by.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_17_CHAPTER_CONTENT_TITLE">
+      <Text>Facilitetskilder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_17_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Amenities] Fornøjelser kan komme fra en bred vifte af kilder. Hver type af luksusressourcer kan bidrage med op til 4 [ICON_Amenities] fornøjelser til dit imperium (1 per by) til de 4 byer, der har mest brug for dem. Fordelingen sker automatisk, så længe luksusressourcen er forbedret (f.eks. med en plantagebygning på krydderier). Arenaen, der er bygget i underholdningskomplekset, giver [ICON_Amenities] fornøjelser til dens lokale by. Zoo og stadion giver også [ICON_Amenities] fornøjelser, men regionalt. Nogle vidundere giver også [ICON_Amenities] fornøjelser. Derudover er der et par religiøse tro og politikker, der giver [ICON_Amenities] fornøjelser. Nogle [ICON_GreatPerson] store personer giver også [ICON_Amenities] fornøjelser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_17_CHAPTER_CONTENT_PARA_2">
+      <Text>Krigstræthed og konkurs vil sænke [ICON_Amenities] bekvemmelighederne i en by.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_TITLE">
+      <Text>Specialister</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_1">
+      <Text>Specialister er alternative opgaver for [ICON_Citizen] Borgere, som involverer at arbejde på et distriktfelt i stedet for et normalt felt. Som en generel regel er specialister en god måde at få udbytter, som ellers er svære at finde på normale felter, men byen har brug for en solid støttebase af [ICON_Food] Fødevarer for at kunne understøtte dem på lang sigt. Specialister er også særligt nyttige, når en by vokser sig stor senere i spillet, og har mere [ICON_Citizen] Befolkning end der er normale felter at arbejde på. Der er forskellige typer af specialister, hver med forskellige effekter. Alle specialisttyper undtagen den generiske [ICON_Citizen] Borger har en grænse for, hvor mange opgaver der kan være i en by. Denne grænse bestemmes af antallet af bygninger i distriktet, der er forbundet med den pågældende specialisttype. Tjek bygningens side for at se, om de tilføjer ekstra [ICON_Citizen] Borgere til distriktet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_2">
+      <Text>Forskere arbejder på Campus og giver +2 [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_3">
+      <Text>Præster arbejder i det Hellige Sted og giver +2 [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_4">
+      <Text>Kommandanter arbejder i Lejren og giver +1 [ICON_Production] Produktion og +2 [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_5">
+      <Text>Kaptajner arbejder i havnen og giver +1 [ICON_Food] mad og +2 [ICON_Gold] guld.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_6">
+      <Text>Købmænd arbejder i handelscentret og giver 4 [ICON_Gold] guld.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_7">
+      <Text>Ingeniører arbejder i Industrikvarteret og giver +2 [ICON_Production] Produktion.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_8">
+      <Text>Kunstnere arbejder på teatret og giver +2 [ICON_Culture] Kultur.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_WORLD_NAME">
+      <Text>Verdenen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_1_CHAPTER_CONTENT_TITLE">
+      <Text>Terræn og Funktioner</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_1_CHAPTER_CONTENT_PARA_1">
+      <Text>I Civilization VI er verden opdelt i sekskantede "fliser" (også kendt som sekskanter og rum). Disse fliser er af forskellige "terræn-typer" - ørken, slette, græsland, bakker osv. - og mange af dem inkluderer også "features" som skove og regnskove. Disse elementer hjælper med at bestemme flisens nyttighed for en nærliggende by samt hvor nemt eller svært det er at bevæge sig igennem flisen. En flises terræn og features kan have vigtige virkninger på enhver kamp, der finder sted der.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Hver flise i spillet tilhører en kontinent. Kontinenter er geografiske grænser og er ikke nødvendigvis knyttet til et landmasse - Pangaea-kortet er f.eks. lavet af flere kontinenter. Du kan bestemme en flis kontinent ved hjælp af flisens tooltip eller ved at se på kontinentlinsen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_TITLE">
+      <Text>Ressourcer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Ressourcer er kilder til forskellige udbytter ([ICON_Food] Mad, [ICON_Production] Produktion, osv.), og nogle giver andre specielle bonusser til en civilisation. De vises i visse felter. Nogle er synlige fra starten af spillet, mens andre kræver erhvervelse af specifikke teknologier, før du kan se dem. For at udnytte en ressource, skal den være inden for din civilisations grænser, og du skal konstruere den passende "forbedring" i det felt. Der er tre typer af ressourcer: Bonus, Luksus og Strategisk</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Bonusressourcer kan øge [ICON_Food] Mad, [ICON_Gold] Guld eller [ICON_Production] Produktion output af en hex. Bonusressourcer kan ikke handles med andre civilisationer. Disse ressourcer kan "høstes" af Byggere for at fjerne ressourcen og give en øjeblikkelig, engangs sum af [ICON_Food] Mad eller [ICON_Production] Produktion til byen, som ejer hexen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_3">
+      <Text>Luksusressourcer øger din civilisations lykke ved at give [ICON_Amenities] faciliteter og giver en lille bonus til hexens udbytte. Kun en kilde til en specifik luksusressource giver [ICON_Amenities] faciliteter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_4">
+      <Text>Strategiske ressourcer er ikke altid synlige i starten af spillet - de kan kræve viden om en bestemt teknologi, før de vises på et kort. Strategiske ressourcer giver dig mulighed for at bygge visse enheder. Når du konstruerer en forbedring på en strategisk ressource-hex, kan du bygge enheder, der kræver den ressource (dvs. Musketerer kræver salpeter) i enhver af dine byer, der har en passende bydel - en lejr for landenheder, en havn for søenheder eller en flyveplads for luftenheder. Hvis du bygger en forbedring på 2 eksemplarer af den ressource, kan du bygge eller købe de enheder i enhver by, uanset om den har den passende bydel eller ej.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_3_CHAPTER_CONTENT_TITLE">
+      <Text>Naturvidundere</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Naturvidundere er de store og fantastiske skabelser fra naturen, som imponerer og inspirerer os alle. Disse inkluderer Crater Lake og Great Barrier Reef - alle steder, der virkelig viser den store skønhed i den naturlige verden. Alle naturvidundere giver unikke fordele til din civilisation, og nogle har endda yderligere særlige effekter (for eksempel vil helbredelse ved siden af ​​Dødehavet få en enheds sundhed til at genopfylde fuldstændigt)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_4_CHAPTER_CONTENT_TITLE">
+      <Text>Floder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Traditionelt set er byer blevet bygget langs floder, og med god grund. Floder giver ferskvand til folk at drikke og til bevanding, hvilket forbedrer landbruget omkring byen. De beskytter også en by, da det er ganske svært at angribe en by på tværs af en flod.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Floder blokerer Kontrolzone for alle enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_5_CHAPTER_CONTENT_TITLE">
+      <Text>Stammelandsbyer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Tribale landsbyer er mindre civiliserede end andre civilisationer, men er stadig venlige. At besøge tribale landsbyer giver en tilfældig fordel til civilisationen af enheden, der først træder ind på deres felt. Landsbyen forsvinder, når dens gaver er blevet hentet. Gaver inkluderer overlevende, såsom byggere eller handlende, teknologi eller teknologifremme, militære enheder, [ICON_Faith] Tro, [ICON_Gold] Guld, [ICON_GreatWork_Relic] Relikvier eller borgerlige fremme.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_TITLE">
+      <Text>Barbarer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Barbarer kommer fra "udposter", som kan dukke op tilfældigt på enhver flise, der ikke kan ses af en enhed. Hver barbarisk enhed tilhører sin egen hjemme-udpost. Der er tre typer barbariske udposter: Naval, Cavalry og Melee. En civilisation vil tjene en [ICON_Gold] guldbelønning for at sprede en barbarisk udpost - ud over fordelene ved at stoppe den fra at spawne flere barbariske enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_PARA_2">
+      <Text>Barbariske marineposter langs kystlinjen kan skabe marineenheder (svarende til dem, der kan skabes af civilisationen med den mest avancerede teknologi). Disse enheder vil true din kystlinje, ødelægge maritime forbedringer og angribe uheldige landenheder, der kommer for tæt på kysten. Det er vigtigt at opretholde en flåde for at holde dem på afstand, men den bedste måde at stoppe disse angreb på er at ødelægge de kystnære poster i nærheden.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_PARA_3">
+      <Text>Kavaleri udposter, der viser sig inde i landet og nær en Hest ressource, vil spawne monterede enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_PARA_4">
+      <Text>Melee-udposter inkluderer hver anden instans af Barbarians, der spawnes.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_6_CHAPTER_CONTENT_PARA_5">
+      <Text>Hver udpost vil først generere en Spejder, der søger efter mål. Hvis du bliver opdaget af en Barbarisk Spejder, vil den vende tilbage til sin udpost og begynde at bygge enheder til en invasion eller et angreb. Pas på, for du vil være det næste mål. Hvis du ikke bevæger dig hurtigt, vil du snart se en gruppe af barbarer ved dine grænser, klar til at ødelægge dine forbedringer eller erobre din by. Dette er grunden til, at det er vigtigt at jævnligt feje landskabet omkring din civilisation, ødelægge udposter, før de bliver en trussel.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_7_CHAPTER_CONTENT_TITLE">
+      <Text>Linser</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_7_CHAPTER_CONTENT_PARA_1">
+      <Text>Linser er et værktøj, du kan bruge til at ændre dit syn på verden. Hver linse vil lægge vigtig information over, som vil hjælpe dig med at træffe strategiske beslutninger i spillet. Nogle linser aktiveres automatisk, som når du vælger at placere en bydel fra en bys produktionsmenu. Andre kan aktiveres manuelt fra Linse-knappen på mini-kortet. Her er de linser, du kan bruge i spillet, og hvad de gør:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_7_CHAPTER_CONTENT_PARA_2">
+      <Text>Appel. Viser appel niveauet for hver flise.[NEWLINE][NEWLINE]Kontinent. Viser den geografiske udstrækning af hvert kontinent.[NEWLINE][NEWLINE]Placering i distrikt. Viser gyldige placeringer for vidundere og distrikter, samt eventuelle tilstødende bonusser tilgængelige for distrikter. Dette vil kun vises, når man forsøger at bygge et distrikt eller en vidunder.[NEWLINE][NEWLINE]Regering. Viser fordelingen af regeringer på tværs af kortet.[NEWLINE][NEWLINE]Politiske. Viser ejeren af hver flise.[NEWLINE][NEWLINE]Religion. Viser flertalsreligionen og religiøs følgerfordelingen over kortet. Dette vises, når en religiøs enhed er valgt.[NEWLINE][NEWLINE]Bosætter. Viser anbefalede bypladser og tilgængeligheden af vand på hver flise.[NEWLINE][NEWLINE]Turisme. Viser antallet af [ICON_Tourism] turister en flise tiltrækker.[NEWLINE][NEWLINE]Imperium. Viser dine bygrænser og distriktplaceringer med tilstødende bonusser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_COMBAT_NAME">
+      <Text>Kamp</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Kamp opstår mellem to politiske enheder, der er i krig med hinanden. En civilisation kan være i krig med en anden civilisation eller med en bystat. Barbarer er altid i krig med alle civilisationer og bystater.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_2_CHAPTER_CONTENT_TITLE">
+      <Text>At erklære krig</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Der er flere måder at erklære krig på. Den første kræver, at du flytter en militær enhed, du kontrollerer, ind i en anden civilisations enhed. Dette vil udløse en pop-up-besked, der spørger, om du vil starte en krig. Alternativt kan krig erklæres i Diplomati-vinduet. Inden for dette vindue har du altid mulighed for at foretage en overraskelseserklæring af krig, undtagen mod dine erklærede allierede. Din civilisation vil lide under en dyr krigersk straf, hvis du foretager en overraskelseserklæring af krig. For at undgå noget af denne straf (men ikke alt), skal du fordømme den fornærmende civilisation, og snart vil muligheden for formelt at erklære krig vises i Diplomati-vinduet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_TITLE">
+      <Text>Krigstræthed</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_PARA_1">
+      <Text>At have en nation, der konstant er i krig, vil formindske produktiviteten og lykken hos dit folk. Krigstræthed vokser for hver kamp, du kæmper. Denne akkumulation er værre, når disse kampe finder sted på fremmed territorium eller når dine enheder dræbes. Det er endnu værre, hvis enhederne dræbes af en atomvåben, men at lancere en atomvåben selv er den største kilde til krigstræthed. Alt krigstræthed du akkumulerer øges afhængigt af tidsperioden og hvis du erklærede krig uden at bruge en Casus Belli.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Krigstræthed påvirker hver by du ejer som en negativ [ICON_Amenities] Fornøjelse, hvilket sænker din byvækst og produktivitet. At have for få [ICON_Amenities] Fornøjelser for længe kan føre til oprørske partisaner, der opstår i dine byer. Disse fjendtlige enheder vil angribe dine enheder og plyndre dine fliser og distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_3_CHAPTER_CONTENT_PARA_3">
+      <Text>Mens krigstræthed vil langsomt mindske, mens du stadig er i krig, mindskes den i en markant øget hastighed, når du ikke er i krig med nogen spiller.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_TITLE">
+      <Text>Krigshisseri</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_PARA_1">
+      <Text>Krigshissing er mere end blot en diplomatisk konsekvens; det kan være en mentalitet, der betragtes som mest ærefuldt fra et visst synspunkt. Det siges, at en soldat i Napoleons tidlige erobringsdage så sin generals og kejsers konstante krigshissing som en retfærdig årsag! Der er dog nogle alvorlige straffe for at starte en ikke-berettiget eller manglende Casus Belli-krig.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_PARA_2">
+      <Text>En spiller, der starter en ikke-Casus Belli krig (se afsnittet om Casus Belli under Diplomati), vil begynde at opbygge diplomatiske varmongsstraffe fra andre civilisationer, som spilleren har haft kontakt med, udover enhver krigstræthed, der allerede er lidt. At starte en overraskelseskrig, erobre modstanderens civilisation byer, ødelægge erobrede byer og bruge atomvåben øger den diplomatiske straf baseret på, hvilken æra spilleren er i</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_PARA_3">
+      <Text>Den anden tilgang er at først fordømme den modsatte civilisation og derefter formelt erklære krig. Med denne vej til krig bliver krigsliderlighederne IKKE øget, og der er mulighed for at bruge en Casus Belli for at reducere disse straffe. Men fordi du først skal fordømme din modstander, er en sådan plan "telegraferet" til målet, og du vil ikke have fordel af overraskelse.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_4_CHAPTER_CONTENT_TITLE">
+      <Text>Afslutning af en krig</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Krige kan ende voldeligt eller fredeligt. En krig slutter voldeligt, når den ene side er ødelagt. Dette sker, når den side har mistet sin sidste by. Den fredelige løsning på en krig indebærer diplomatiske forhandlinger. Du eller din modstander kan starte en Fredsaftale. Se afsnittet om Diplomati for yderligere detaljer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Barbarer vil aldrig forhandle. Krig med barbarer vil fortsætte, indtil barbarerne er ødelagt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_TITLE">
+      <Text>Enheds Kampstatistikker</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_1">
+      <Text>I Civilization VI har militære enheder fem kamporienterede statistikker: Hit Points, [ICON_Strength] Combat Strength, [ICON_Ranged] Ranged Strength, [ICON_Bombard] Bombard Strength og [ICON_Range] Range.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Alle enheder har 100 livspoint. Når en enhed tager skade, mister den livspoint. En enhed bliver ødelagt, når den mister alle sine livspoint.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_3">
+      <Text>Alle militære enheder har [ICON_Strength] Kampevne. Melée-enheder bruger deres [ICON_Strength] Kampevne når de angriber eller forsvarer. Afstands-enheder bruger deres [ICON_Strength] Kampevne når de forsvarer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_4">
+      <Text>Enhver enhed, der kan deltage i afstandsangreb, har en [ICON_Ranged] Afstandsangrebsstyrkestatistik. Dette tal sammenlignes med målets [ICON_Strength] Kampstyrke for at bestemme resultaterne af angrebet. Landenheder med en [ICON_Ranged] Afstandsangrebsstyrke kan også angribe distriktforsvar, men med reduceret effektivitet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_5">
+      <Text>[ICON_Bombard] Bombard Styrke er en enheds anti-distrikt styrke. Enheder med [ICON_Bombard] Bombard Styrke kan også angribe enheder, men med reduceret effektivitet. Landenheder kan ikke have både [ICON_Bombard] Bombard og [ICON_Ranged] Ranged Styrke, men søenheder fungerer i praksis både som [ICON_Bombard] Bombard og [ICON_Ranged] Ranged enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_6">
+      <Text>Enheden's [ICON_Range] Rækkevidde-statistik bestemmer afstanden, hvorfra en enhed kan udføre et ranged-angreb. En [ICON_Range] Rækkevidde på "2" betyder, at målet kan være på en tilstødende flise eller en flise væk. En [ICON_Range] Rækkevidde på "1" ville betyde, at målet skulle være tilstødende til angriberen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_5_CHAPTER_CONTENT_PARA_7">
+      <Text>Nogle enheder har en [ICON_AntiAir_Large] anti-luftkamp værdi. Disse enheder forsvarer automatisk mod luftangreb inden for deres anti-luftskyts rækkevidde. [ICON_AntiAir_Large] anti-luftstyrken bruges til at evaluere kampen med det angribende fly.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_6_CHAPTER_CONTENT_TITLE">
+      <Text>Synslinje</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Generelt må der ikke være nogen forhindringer, såsom et bjerg, mellem en rækkeenhed og dens mål. Enheder på bakker eller flyvende kan ofte se over hindrende terræn.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_TITLE">
+      <Text>Kampbonusser</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_1">
+      <Text>Krigsførelse er ikke kun praktiseret af de erfarne og veludstyrede. Militærhistorien har vist gang på gang, at kæmperen, der bruger overlegne taktikker, lederskab og terræn til deres fordel, kan besejre en numerisk overlegen og bedre udstyret styrke. I Civilization VI er det ikke anderledes.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_2">
+      <Text>Ved at kombinere din militære styrke med den rette kraftorganisation af kombinerede våben, lederskab og intuitiv brug af terræn kan du have magten til at ødelægge dine fjenders hære, uanset hvor store eller små, avancerede eller ej. Ved at udnytte terrænet kan du placere dine styrker på bakker, i regnskove eller skove og over floder fra din fjende for at sikre en tydelig defensiv fordel. Ved at se på fjendens bevægelser over terræn, når de nærmer sig, kan det også hjælpe dig med at forstå deres kampplan eller hvor de søger at angribe.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_3">
+      <Text>Terræn kan også være skadeligt for din kamp; sørg for at undgå kampe på oversvømmelsesområder og moser, da disse har en negativ effekt på din forsvarsevne. Hvis du befinder dig på et udefendeligt terræn og ikke føler, at du kan besejre din fjende ved angreb, kan det hjælpe at bygge et par Forte for at skubbe fjenden tilbage. Husk at angribe fjendens flanke, det er deres svageste punkt og vil også give dig fordel! Ved brug af en velafbalanceret militærstyrke med de korrekte terrænpositioner og med brug af en stor general vil sikre sejr!</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_7_CHAPTER_CONTENT_PARA_4">
+      <Text>Flanke- og støttebonusser: At omgå fjenden og sørge for, at enhederne på marken støttes af deres modparter, er vigtigt for at sikre sejr på marken. I Civilization VI simulerer vi dette med flankerings- og støttebonusserne. Når en spiller har gennemført Military Tradition-borgerretten, betragtes deres militær som avanceret nok til at drage fordel af disse bonusser.[NEWLINE][NEWLINE]Flankering: Hvis en fjendtlig melee-enhed er omgivet af 2 eller flere tilstødende venlige melee-enheder under et angreb, betragtes det som flankering, og giver en +2 kampbonus til melee-angriberen for hver yderligere flankerende melee-enhed.[NEWLINE][NEWLINE]Støtte: Når man forsvarer sig mod et fjendtligt melee-angreb, kan en forsvarsenhed opnå en +2 kampbonus for hver tilstødende venlig enhed.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_8_CHAPTER_CONTENT_TITLE">
+      <Text>Oplevelse og Promoveringer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_8_CHAPTER_CONTENT_PARA_1">
+      <Text>En enhed, der overlever kamp eller opdager en stammeby, vil få "Erfaringspoint" (XP). Når en enhed når en vis mængde XP, vil den 'level up', hvor den kan modtage en forfremmelse. Forfremmelser styrker på en eller anden måde enheden. Når du vælger en forfremmelse, heles enheden et antal Hit Points. Enheden vil ikke fortsætte med at få yderligere XP, indtil forfremmelsen er valgt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_CHAPTER_CONTENT_TITLE">
+      <Text>Bykamp</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_CHAPTER_CONTENT_PARA_1">
+      <Text>Byer kan angribes og erobres af militære enheder. Hver by har en "City Combat Strength" statistik, der bestemmer dens styrke, når den angribes af andre enheder. Jo højere byens City Combat Strength er, desto sværere er det at erobre byen. Medmindre byen er ekstremt svag eller den angribende enhed er ekstremt stærk, vil det tage flere ture at erobre en by</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_CHAPTER_CONTENT_PARA_2">
+      <Text>Mure tilføjer ekstra beskyttelse til en by eller lejr, hvilket gør det endnu sværere at erobre den. Denne beskyttelse er som rustning, der skærmer byen mod angreb. Nahkampf-enheder tilføjer kun 15% af deres normale skade på mure, og afstands-enheder tilføjer kun 50% af deres normale skade. Kun Bombard-enheder tilføjer 100% af deres normale skade på mure, hvilket gør dem nødvendige for at erobre en befæstet by. Hvis murene er beskadigede, holder de op med at være så effektive, og distriktets helbred begynder at tage en lille smule skade med hvert angreb. Mure kan kun genvinde helbred med et projekt, der findes i byens produktionskø, ligesom reparation af distriktets bygninger, der bliver tilgængelig, hvis distriktet ikke har taget skade i 3 på hinanden følgende ture. Når en by har mure, kan den lave angreb på fjendtlige enheder ved hjælp af en "City Ranged Strength" statistik. [NEWLINE] [NEWLINE] Byens kampstyrke er baseret på [ICON_Strength] Kampstyrken af den stærkeste Nahkampf-enhed bygget af din civilisation, minus 10, eller på [ICON_Strength] Kampstyrken af en kasernerede militær-enhed. [NEWLINE] [NEWLINE] Byens afstands-styrke er baseret på [ICON_Ranged] Afstands-styrken af den stærkeste afstands-enhed bygget af din civilisation. [NEWLINE] [NEWLINE] Byen får yderligere bonusser til sin City Combat Strength for hvert ikke-plyndret distrikt, den har, hvilket gør det sværere at erobre store byer, og fra terræn og et par andre kilder til modifikatorer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_9_CHAPTER_CONTENT_PARA_3">
+      <Text>Byer kan også være under belejring fra angribende enheder. Byens centrum og andre forsvarsdygtige distrikter som f.eks. Lejren betragtes som belejret, hvis alle 6 fliser omkring dem er besat af fjendtlige enheder, er under fjendtlig kontrolzone eller er ufremkommelige på grund af bjerge eller naturvidundere. Under disse omstændigheder vil distriktet ikke genvinde tabt sundhed, i stedet for at helbrede automatisk hver tur som normalt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_10_CHAPTER_CONTENT_TITLE">
+      <Text>Erobrer en by</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_10_CHAPTER_CONTENT_PARA_1">
+      <Text>Når din enhed indtager en fjendtlig by, har du to valgmuligheder: du kan ødelægge byen (hvis den ikke var en [ICON_Capital] hovedstad) eller du kan annektere den og gøre den til en del af dit imperium. Hvis den pågældende by tidligere tilhørte en anden civilisation, kan du også vælge at frigive den til dens oprindelige ejer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_12_CHAPTER_CONTENT_TITLE">
+      <Text>Formationer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_12_CHAPTER_CONTENT_PARA_1">
+      <Text>Formationer giver dig mulighed for nemt at flytte enheder sammen. Dette kan være nyttigt til at eskortere civile enheder i fjendtlige områder eller endda skabe stærkere enheder i Corps og Armies. En militær enhed kan til enhver tid oprette en formation med en støtte- eller civil enhed. Marine militære enheder kan også oprette en formation med ombordstegnede landenheder. Støtteenheder, såsom belejringseenheder, er mest effektive i kamp, når de er koblet sammen med en anden militær enhed.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_12_CHAPTER_CONTENT_PARA_2">
+      <Text>Fra og med Industrielle tidsalderen efter at have fuldført nationalisme-politikken, vil spillere være i stand til at låse op for evnen til at kombinere flere militære enheder af samme type til en enkelt stærkere enhed. To militære enheder af samme type vil kunne kombinere for at oprette en Corps, der giver dem +10 til deres base [ICON_Strength] kampstyrke. Efter at have forsket i mobilisering, kan tre enheder af samme type kombineres til en hær, hvilket giver +7 til deres base [ICON_Strength] kampstyrke. Husk på, at deres HP IKKE øges, når enheder kombineres på denne måde.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_12_CHAPTER_CONTENT_PARA_3">
+      <Text>Når en Corps eller Army er blevet dannet, kan enhederne ikke splittes op igen til individuelle enheder. Erfaringen og forfremmelserne fra den mest erfarne enhed bevares, når man danner denne type formation, så det er fordelagtigt at kombinere nye rekrutter med mere erfarne enheder. Søenheder kan også kombineres i Flåder og Armadaer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_13_CHAPTER_CONTENT_TITLE">
+      <Text>Plyndring</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_13_CHAPTER_CONTENT_PARA_1">
+      <Text>Både forbedringer og bygninger i distrikter uden garnisoner kan plyndres. Denne handling gør dem ubrugelige og belønner plyndringsenheden med en form for "bytte". Med undtagelse af helbredelse øges disse byttebelønninger i omfang, når du skrider frem i spillet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_13_CHAPTER_CONTENT_PARA_2">
+      <Text>At plyndring af et kvarter tager 3 bevægelsespoint eller al din bevægelse. Hver bygning i et kvarter skal plyndres separat og giver en form for plyndring baseret på kvarteret. Se kvarterets side for specifikke udbytter. Når en bygning er plyndret, kan den ikke plyndres igen, før dens ejer genstarter den (gøres gennem produktionsmenuen og tager 25% af [ICON_Production] produktionsomkostningerne ved den oprindelige konstruktion af den bygning)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_13_CHAPTER_CONTENT_PARA_3">
+      <Text>At plyndre en forbedring vil tage 3 Bevægelsespoint eller al din bevægelse (hvis du har [ICON_Movement] Bevægelsespoint mindre end 3). Det vil markere forbedringen på flisen som "plyndret". Når en forbedring er plyndret, kan den ikke plyndres igen, indtil dens ejer har gjort den online igen (en Builder-operation, der altid tager en tur, men ikke kræver en Builder-opladning). Se forbedringens side for specifikke udbytter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_MOVEMENT_NAME">
+      <Text>Enhedsbevægelse</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_1_CHAPTER_CONTENT_TITLE">
+      <Text>Bevægelsespoint</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Alle mobile enheder har et vis antal [ICON_Movement] bevægelsespoint, som de kan bruge på [ICON_Movement] bevægelse hver tur. Når de har brugt op deres [ICON_Movement] bevægelsespoint, kan de ikke bevæge sig mere, indtil næste tur. Enheder bruger [ICON_Movement] bevægelsespoint for at bevæge sig ind på fliser, angribe andre enheder eller plyndre forbedringer eller distrikter. Terrænet på flisen, som enheden bevæger sig ind på, afgør [ICON_Movement] bevægelsespointsprisen for bevægelsen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_2_CHAPTER_CONTENT_TITLE">
+      <Text>Veje</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Veje er en vigtig del af at bevæge sig rundt i verden. Startende fra Oldtiden bliver veje placeret af handelsenheder og starter med at reducere bevægelsesomkostningerne for et felt til 1, når man bevæger sig fra et vejfelt til et andet. Når teknologien skrider frem, vil du låse op for evnen til at bygge bedre og bedre veje, og endda broer. Moderne veje reducerer for eksempel bevægelse til et halvt bevægelsespunkt pr. felt, når man bevæger sig fra et vejfelt til et andet. Alle veje tillader enheder at ignorere bevægelsesstraffe baseret på terræn. [ICON_Movement] [ICON_Movement] [ICON_Movement]</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Veje bliver placeret af handlende, men kan også placeres manuelt af militære ingeniører.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_3_CHAPTER_CONTENT_TITLE">
+      <Text>Kontrolzone</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Mange kampenheder udøver en "Zone of Control" (ZOC) indflydelse over fliserne omkring dem. Kampenheder, der entrer en fjendes ZOC, skal stoppe, uanset eventuelle tilbageværende [ICON_Movement] Bevægelse. Enheder, der er stoppet af en fjendes ZOC, har mulighed for at angribe, hvis de har den krævede [ICON_Movement] Bevægelse til at gøre det. [NEWLINE] [NEWLINE] Ranged og Bombard class-enheder udøver ikke ZOC. Kavaleri-enheder, samt Naval Raider class-enheder har evnen til at ignorere en fjendes ZOC. [NEWLINE] [NEWLINE] Religiøse enheder udøver ZOC mod andre religiøse enheder. [ICON_Movement] [ICON_Movement] [NEWLINE] [NEWLINE] [NEWLINE] [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Floder blokerer kontrolzonen for alle enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_4_CHAPTER_CONTENT_TITLE">
+      <Text>Søfartsbevægelse</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Normalt følger flådeenheder de samme regler som landenheder, bortset fra at de bevæger sig i vand i stedet for på land. Tidlige flådeenheder er ofte begrænset til kystvande (dem der er ved siden af landfliser) og kystbyer. Til sidst vil du producere flådeenheder, der kan komme ind på dybhavsfliser og dermed udforske verden.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_5_CHAPTER_CONTENT_TITLE">
+      <Text>Påbegyndelse af enheder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_5_CHAPTER_CONTENT_PARA_1">
+      <Text>I starten af spillet kan dine landenheder ikke bevæge sig ind på vandfliser. Når du lærer Sejlads teknologien, vil Byggere kunne bevæge sig ind på kystnære vandfliser. Efter Himmel Navigation vil Handlende kunne gå ombord. Og efter Skibsbygning vil alle enheder kunne gå ombord. For at gå ombord med en enhed, skal du flytte enheden til en kystflise og derefter klikke på "Bevæg Til" handlingen. Når du er gået ombord, skal enheden bevæge sig ud på vandet.[NEWLINE]Landenheder, der går ombord, anses for at være i et transportfartøj og har ikke samme kampfærdigheder som på land. Embarkerede landenheder lider også af en reduceret kampstyrke og kan kun hele i venligt farvand, hvilket gør dem meget mere sårbare over for angreb fra fjendtlige søenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_SCIENCE_NAME">
+      <Text>Videnskab og teknologi</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Hver teknologi, du erhverver, giver din civilisation adgang til en avanceret enhed, bygning, ressource eller vidunder, eller giver dig nogle andre håndgribelige fordele, såsom evnen til at hugge træer og høste kvæg. Hver ny teknologi gør din civilisation endnu mere magtfuld. Hver tur modtager din civilisation [ICON_Science] Videnskab tilføjet til dens pulje, og når du har samlet nok [ICON_Science] Videnskab, erhverver du en ny teknologi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_2_CHAPTER_CONTENT_TITLE">
+      <Text>Indtjening af Videnskab</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Science] Videnskab kommer fra en række kilder, herunder dine [ICON_Citizen] Borgere (0,7 pr. [ICON_Citizen]), dit Palads, visse politikker, visse religiøse overbevisninger, visse ressourcer, vidundere, handel og selvfølgelig Campus-distriktet og dets bygninger. Gennemse Civilopedia for at finde kilder til [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_3_CHAPTER_CONTENT_TITLE">
+      <Text>Eureka-øjeblikke</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Eureka-øjeblikke, også kendt som "teknologiske fremskridt", giver en øjeblikkelig og betydelig fremgang i din forskning af en teknologi. Disse fremskridt vil blive optjent, mens du spiller spillet naturligt, og dine handlinger vil bestemme, hvilken slags Eureka-øjeblikke du støder på. For eksempel vil at bosætte en by på kysten booste din fremgang mod Sejlads og at skabe en indhegning vil booste din fremgang mod Hesterytteri. Teknologitræet viser fremskridt forbundet med hver teknologi, men du kan også opnå dem fra andre kilder (såsom Store Personer, Forskningsaftaler eller delt forskning i holdet).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_4_CHAPTER_CONTENT_TITLE">
+      <Text>Teknologitræet</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_4_CHAPTER_CONTENT_PARA_1">
+      <Text>For at se hvordan alt dette fungerer i spillet, kan du tjekke den fantastiske Teknologitræ. Det viser alle teknologierne og viser hvordan de er forbundet. Du kan klikke på en teknologi for at beordre din civilisation til at forske i den - hvis din civilisation ikke kender de nødvendige forudsætninger, vil den også forske i dem. Teknologitræet vil beregne den hurtigste rute til den ønskede teknologi, og du vil forske i de nødvendige forudsætninger i den rækkefølge, det viser</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_CULTURE_NAME">
+      <Text>Kultur og civiksfag</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_1_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Culture] Kultur er den måde, du avancerer gennem Civics Tree, låser op for nye politikker og regeringer. Det er også måden, du øger størrelsen af dine byers territorier. Mest vigtigt af alt kan [ICON_Culture] Kultur være en anden vej til sejr. Hver civik, du opnår, giver din civilisation adgang til politikker eller regeringer samt nogle bygninger, distrikter og diplomatiske fremskridt. Du opnår civikker ved at akkumulere [ICON_Culture] Kultur. Hver tur får din civilisation tilføjet en vis mængde [ICON_Culture] Kultur til sin pulje. Hver civik koster en vis mængde [ICON_Culture] Kultur at lære; når du har akkumuleret tilstrækkelig [ICON_Culture] Kultur, får du civikken. Når du har fået den nye civik, bliver din pulje tømt, og du begynder igen med at akkumulere, mens du sparer op til den næste civik.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_2_CHAPTER_CONTENT_TITLE">
+      <Text>Kultur med indtjening</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Culture] Kultur kan optjenes fra vidundere, politikker, leder-evner, naturvidundere, bystater, Tro, [ICON_TradeRoute] handelsruter og selvfølgelig Theater Square-distriktet. Gennemse Civilopedia for at finde kilder til [ICON_Culture] Kultur.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_3_CHAPTER_CONTENT_TITLE">
+      <Text>Inspirationsøjeblikke</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Inspirationsøjeblikke, også kendt som "borgerlige boost", giver et øjeblikkeligt og markant boost til din studie af en borgerlig. Disse boost vil blive optjent, mens du spiller spillet naturligt, og dine handlinger vil bestemme, hvilken slags Inspirationsøjeblikke du støder på. For eksempel vil opførelsen af en vidunder bygning øge din fremgang mod Drama og Poesi, og opførelsen af enhver distrikt vil øge din fremgang mod Statsarbejde. Civics-træet viser boosts, der er forbundet med hver borgerlig, men du kan få dem fra andre kilder (såsom store personer eller holddelte undersøgelser).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_4_CHAPTER_CONTENT_TITLE">
+      <Text>Civics Træet</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_4_CHAPTER_CONTENT_PARA_1">
+      <Text>For at se, hvordan alt dette fungerer i spillet, så tjek det fantastiske Civics Tree. Det viser alle civics og viser, hvordan de er forbundet. Du kan klikke på en civic for at beordre din civilisation til at studere den - hvis din civilisation ikke kender forudsætningscivic, vil den også forske i dem. Civics Tree vil plottet den hurtigste rute til den ønskede civic, og du vil studere de nødvendige forgængere i den rækkefølge, den viser</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_5_CHAPTER_CONTENT_TITLE">
+      <Text>Kultur Bomber</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_5_CHAPTER_CONTENT_PARA_1">
+      <Text>En Kultur Bombe er en handling, der tillader dig at overtage naboteglene og tilføje dem til dit eget imperium, selvom de ejes af en anden spiller. Teglene, der opnås på denne måde, skal være inden for 3 felter fra din by, der udvider sig. Teglene, der allerede indeholder en fuldført bydel eller et vidunder, skifter ikke ejerskab fra Kultur Bomber. Ufuldstændige bydelstegn eller vidunder-tegn vil skifte ejerskab, men den delvist byggede indhold af disse tegn vil blive ødelagt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Kultur-bomber er ofte begrænset til unikke evner for civilisationer såsom Australien eller Polen. Se disse indgange for mere detaljer om, hvordan man udløser kultur-bomber.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_GOLD_NAME">
+      <Text>Guld og økonomien</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_1_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Gold] Guld er en civilisations livsnerve. Det er måske sandt, at "penge ikke kan købe kærlighed", men det kan købe en ubåd bevæbnet med atommissiler, og det er ikke dårligt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_2_CHAPTER_CONTENT_TITLE">
+      <Text>At opnå guld</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Gold] Guld kommer fra en række forskellige kilder. Du vil opnå [ICON_Gold] Guld ved at arbejde med fliserne omkring dine byer, men andre kilder er også tilgængelige: terræner og forbedringer, handelsstationer, distrikter og bygninger, [ICON_TradeRoute] Handelsruter, barbar-tilholdssteder, stammebyer, bystater, plyndring af fjendtlige forbedringer, erobring af byer og diplomati med andre civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_3_CHAPTER_CONTENT_TITLE">
+      <Text>At bruge guld</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Der er mange tidspunkter, hvor du kan og vil bruge [ICON_Gold] Guld. Enheder, atombomber, distrikter og bygninger har "vedligeholdelsesomkostninger", der skal betales hver tur. Du kan også udvide din civilisations territorium ved at købe individuelle fliser, eller du kan bruge [ICON_Gold] Guld til at købe enheder og bygninger. Opgradering af forældede enheder vil også koste [ICON_Gold] Guld. [ICON_Gold] Guld kan også byttes med andre civilisationer under diplomati.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_4_CHAPTER_CONTENT_TITLE">
+      <Text>Konkurs</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLD_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Hvis din skatkiste er på nul, og du kører med et negativt budget, vil du begynde at modtage en straf på -1 til dine [ICON_Amenities] Fornøjelser for hver 10 [ICON_Gold] Guld, du falder under 0. Derudover vil du automatisk opløse en enhed ved -10 [ICON_Gold] Guld, to enheder ved -20 [ICON_Gold] Guld, og så videre.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_FAITH_NAME">
+      <Text>Tro og Religion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Dine religion valg er utroligt vigtige og kan ændre spillets gang. Med den religiøse sejr og teologisk kamp har du nye og spændende værktøjer til rådighed for at sprede dine overbevisninger til andre byer og civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_2_CHAPTER_CONTENT_TITLE">
+      <Text>At tjene tro</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Faith] Tro er valutaen i religion og kan tjenes fra vidundere, politikker, lederfærdigheder, naturlige vidundere, bystater, tro, [ICON_TradeRoute] handelsruter, og selvfølgelig det Hellige Sted kvarter og dets bygninger. Gennemse Civilopedia for at finde kilder til [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_3_CHAPTER_CONTENT_TITLE">
+      <Text>Pantheoner</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Når du har samlet nok [ICON_Faith] Tro, vil du blive bedt om at grundlægge en Pantheon, en forløber til de fuldt udviklede Religioner, der senere skal grundlægges. Valget af hvilken Pantheon du vil grundlægge, afhænger af dine kortsigtede og langsigtede mål for din civilisation. Efter at have opnået en Pantheon, er du godt på vej til at etablere din Religion. I modsætning til en fuld Religion vil den Pantheon, du vælger, være unik for din civilisation og kan ikke sprede sig uden for dine grænser eller blive erstattet</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_TITLE">
+      <Text>Store profeter</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Du kan grundlægge din religion, når du har optjent (eller købt) en [ICON_GreatProphet] stor profet. Religiøse bygninger vil akkumulere [ICON_GreatProphet] store profetpoint, der er nødvendige for at tilføje denne specielle enhed til din civilisation. Når [ICON_GreatProphet] stor profet er optjent, skal du sende enheden til din helligdom og grundlægge din religion. [ICON_GreatProphet] Store profeter kan også blive optjent fra Stonehenge.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_TITLE">
+      <Text>At grundlægge din religion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Efter at have grundlagt din Religion vil du blive bedt om at vælge et navn og ikon, der repræsenterer dine tro. Du kan vælge en historisk Religion eller skabe en helt egen! En nyoprettet Religion vil bestå af to trosretninger: en Følger tro og en af tre yderligere typer tro, der kan tilpasses din spillestil. Når din Religion er grundlagt, vil alle dine byer med Hellige Steder automatisk konvertere til Religionen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Du kan derefter bruge "Udbred tro" handlingen på Apostlene for at tilføje yderligere trosretninger til din Religion. Du kan have i alt 4 trosretninger i en Religion.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_PARA_3">
+      <Text>Følger troen giver en slags gevinst eller andre indbyggede bonusser. Dette gælder for alle byer og civilisationer, der følger den religion.[NEWLINE][NEWLINE]Stiftertroen giver en bonus, der afhænger af det antal følgere, den har. Følgere er borgere, der følger den religion i alle byer, uanset om religionen er dominerende i en by eller ej. Denne bonus anvendes kun på den civilisation, der grundlagde den religion.[NEWLINE][NEWLINE]Dyrkelsestroen giver en unik type bygning, der kan bygges i hellige steder eller købes der med [ICON_Faith] Tro. Hver Dyrkelsesbygning har forskellige fordele.[NEWLINE][NEWLINE]Forstærkertroen hjælper med at sprede religionen ved at gøre dens naturlige religiøse pres stærkere eller ved at gøre missionærer og apostle billigere.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_TITLE">
+      <Text>Religiøse enheder og pres</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Der er fire typer Religiøse enheder: Missionærer, Apostler, Guruer og Inkvisitorer. Religiøse enheder kan købes gennem din by med [ICON_Faith] Tro og vil tage den største religion i byen, hvor de er bygget. Religiøse enheders primære formål er at sprede deres religion til andre byer. For at gøre dette skal du flytte enheden ved siden af ​​en bymidte - eller inden i den, hvis byen er din - og bruge Spred Religion handlingen. Dette vil konvertere nogle af borgerne i den by til tilhængere af din religion.[NEWLINE][NEWLINE]Hvis mere end halvdelen af borgerne i byen er tilhængere af en bestemt religion, og den religion har flertallet af tilhængere i den by, vil den religion blive dominerende i den by. Byer med en dominerende religion vil lægge religiøst pres på andre byer inden for 10 felter og langsomt konvertere borgerne i disse byer til den religion.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_2">
+      <Text>Missionærer kan købes med [ICON_Faith] Tro i enhver by med en Kapel og en dominerende Religion, og har evnen til at sprede din Religion til enhver Bycenter i en tilstødende hex.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_3">
+      <Text>Apostle kan købes med [ICON_Faith] Tro i enhver by med et Tempel og en dominerende Religion, og er stærkere end Missionærer. Apostler kan vælge en unik forfremmelse, når de oprettes, hvilket gør dem mere unikke, f.eks. ved at have flere opladninger eller fjerne andre religioner fra en by.[NEWLINE][NEWLINE]Apostler har adskillige unikke handlinger til rådighed udover at sprede deres Religion. De kan Evangelisere Tro, tilføje yderligere tro til din Religion, eller Starte Inkvisition, hvilket giver mulighed for at købe Inkvisitorer. Desuden kan Apostler initiere teologisk kamp mod andre Religiøse enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_4">
+      <Text>Inquisitorer er specialenheder, der skal låses op med lanceringen af en Inkvisition på en Apostel. Du behøver kun at bruge denne handling én gang; når du har startet en Inkvisition, slutter den aldrig! Du kan derefter købe Inquisitorer med [ICON_Faith] Tro i byer, der følger religionen for den Apostel, der lancerede Inkvisitionen. Inquisitorer er ikke gode til at sprede en religion, men i stedet fjerner de alle andre religioner fra en brugerejet by. De kan også engagere sig i teologisk kamp mod andre religiøse enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_5">
+      <Text>Guruer fungerer som religiøse støtteenheder, der giver helbredelse til de religiøse enheder i nærheden. Når den bruger en helbredelsesopladning, heler Guru sig selv og alle tilstødende enheder af samme religion.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_6_CHAPTER_CONTENT_PARA_6">
+      <Text>Religion kan også sprede sig gennem [ICON_TradeRoute] handelsruter. Når der oprettes en [ICON_TradeRoute] handelsrute mellem to byer, sker der en udveksling af religion mellem disse to byer. Oprindelsesbyen har større udgående religiøst pres, men der er stadig pres, der kommer tilbage fra slutpunktbyen. Denne information vil blive vist i menuen med [ICON_TradeRoute] handelsruteudbyttet, når man vælger, hvor man skal sende en handelsmand</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_TITLE">
+      <Text>Teologisk kamp</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_PARA_1">
+      <Text>Teologisk kamp er den bedste måde at forsvare sig mod andre religioner, der prøver at sprede sig på tværs af kortet. Kun apostle og inkvisitorer kan starte teologisk kamp, og kun mod andre religiøse enheder. Du behøver ikke at være i krig med en anden civilisation for at deltage i teologisk kamp. Dette vil ikke i sig selv provokere en krig, selvom det kunne resultere i negative diplomatiske konsekvenser fra et fald i religiøst pres. Religiøse enheder udøver en zone of control mod andre religiøse enheder, der begrænser deres bevægelse, når de er tæt på.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_PARA_2">
+      <Text>Teologisk kamp fungerer på samme måde som kamp med militære enheder, blot angriber man en religiøs enhed med en anden. De vil forårsage skade på hinanden baseret på deres styrke. Religiøse enheder kan få bonusser til deres teologiske kampstyrke fra forfremmelser, politikker, flanke- og støttebonusser fra andre enheder, regeringen Theocracy, hvis de er i eller ved siden af ​​en helligdom, der følger deres religion, hvis de er i territoriet af en by, der følger deres religion, eller en stor bonus, hvis de er i territoriet af deres religions hellige by</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_PARA_3">
+      <Text>En beskadiget religiøs enhed lider en straf for styrken af dens handlinger til at sprede religion, hvilket betyder, at den vil konvertere færre tilhængere. Hvis en religiøs enhed bliver reduceret til 0 livspoint fra teologisk kamp, vil den dø. Når en religiøs enhed bliver besejret på denne måde, vil alle byer inden for 10 fliser have et fald i religiøst pres af enhedens religion svarende til styrken af en apostel i fuld sundhed og derefter en stigning i den sejrende enheds religion på samme niveau. Hvis en religiøs enhed bliver dræbt af en fjendtlig militær enhed, vil det religiøse pres falde i byer inden for 6 fliser, og det religiøse presfald vil blive halveret.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_PARA_4">
+      <Text>Religiøse enheder kan helbrede enhver skade, de har lidt, ved at være tilstødende eller i en Helligdom i spillerens territorium, uanset religionen for den pågældende Helligdom. Religiøse enheder helbreder skader svarende til 3 gange den troskabsproduktion, der kommer fra den pågældende Helligdom. Nogle forbedringer kan også virke som en alternativ kilde til helbredelse for religiøse enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_7_CHAPTER_CONTENT_PARA_5">
+      <Text>Religiøse enheder er også sårbare over for angreb fra kampenheder. Fordøm Kætter er en handling, som kampenheder kan udføre mod dem, når de befinder sig på samme felt, og virker på samme måde som plyndring af en Handelsrute.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_DIPLO_NAME">
+      <Text>Diplomati</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Du kan opnå meget gennem diplomati. Du kan få allierede og isolere dine fjender. Du kan skabe defensive og offensive aftaler. Du kan øge din teknologi gennem samarbejdsprojekter om forskning. Du kan afslutte krige, der går dårligt for dig. Du kan bluffe de lettroede og intimidere de tøvende</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_2_CHAPTER_CONTENT_TITLE">
+      <Text>Diplomati med civilisationer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_2_CHAPTER_CONTENT_PARA_1">
+      <Text>For at indlede diplomati, klik på lederen, du ønsker at kontakte, i øverste højre hjørne af skærmen. Diplomati-panelet vil dukke op, der viser alle kendte civilisationer. Klik på en leder for at tale med dem. Alternativt kan du klikke på en civilisations by-banner for at åbne kommunikation med dem</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Når du engagerer dig i diplomati med civilisationer, vil du have en række muligheder til rådighed, afhængigt af din nuværende relation. Denne skærm vil også give vigtig information om din relation samt de seneste sladder om, hvad den leder har gjort.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_2_CHAPTER_CONTENT_PARA_3">
+      <Text>Du kan vælge at erklære krig eller fordømme lederen. Du kan også forhandle en handelsaftale eller kræve ting fra en anden civilisation. Du kan også foreslå venskab, defensive pagter og sende delegationer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_12_CHAPTER_CONTENT_TITLE">
+      <Text>Diplomatiske forbindelser</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_12_CHAPTER_CONTENT_PARA_1">
+      <Text>Hver anden leder i spillet har en mening om dig. Deres mening kan være positiv eller negativ; den er i konstant flux på grund af begivenheder i spillet. Du kan se, hvad dit forhold til en anden leder er ved at se på ikonet på deres lederportræt eller ved at vælge Vores forhold til den leder på Diplomati-panelet. Følgende forholdsstatuser findes i spillet:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_12_CHAPTER_CONTENT_PARA_2">
+      <Text>Allierede. Når du er i alliance med en leder, kan du ikke erklære krig mod hinanden, I deler automatisk åbne grænser, I kan indgå aftaler om forskning og forsvarspagter, og de aftaler I indgår med hinanden vil være særdeles favorable. Territorium ejet af den anden civilisation i alliancen betragtes som 'venligtsindet' og giver samme privilegier som dit eget territorium. [NEWLINE][NEWLINE]Erklæret ven. Når du vælger at erklære venskab med en leder, kan I ikke erklære krig mod hinanden, I kan indgå aftaler om forskning og de aftaler I indgår med hinanden vil være mere favorable. Denne relation er påkrævet for at indgå en alliance. [NEWLINE][NEWLINE]Venlig. Dette betyder, at lederen tænker positivt om dig, og du har en bedre chance for at få favorable aftaler med dem. [NEWLINE][NEWLINE]Neutral. Du har ikke gjort noget for at imponere eller skuffe lederen, og dine interaktioner med dem vil være standard. [NEWLINE][NEWLINE]Uvenlig. Af en eller anden grund har du gjort noget for at skuffe denne leder, og aftaler med dem vil sandsynligvis være ugunstige for dig, eller du kan vælge at stille krav til dem. [NEWLINE][NEWLINE]Fordømt. Denne leder har ladet de andre ledere i verden vide, at du har gjort noget for at fornærme dem. Aftaler med dem vil være ugunstige, hvis de overhovedet vil indgå dem, men du kan erklære en formel krig mod dem og stille krav. [NEWLINE][NEWLINE]I krig. Åben fjendtlighed er brudt ud mellem jer, og du kan angribe eller invadere denne leder, men du vil pådrage dig straf for krigsførelse og krige træthed.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_TITLE">
+      <Text>Handle, efterspørgsel og diskuter</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_PARA_1">
+      <Text>Du kan lave handelsaftaler med andre spillere ved at vælge "Lav aftale" fra Diplomatipanelet med en leder valgt. Du vil komme ind i et forhandlingsbord med den leder.[NEWLINE][NEWLINE]På venstre side af bordet er emner, du kan handle med, og på højre side af bordet er emner, som den anden spiller har til rådighed for at handle med. Du kan handle alt fra [ICON_Gold] Guld til ressourcer til byer! Vælg emner fra den anden lederens side af bordet for at anmode om, at de handler dem til dig, og vælg emner fra din side af bordet for at tilbyde i bytte.[NEWLINE][NEWLINE]Når den anden leder finder aftalen acceptabel, vil en knap "Accepter aftale" blive vist, som vil bekræfte handlen, som er på bordet. Du vil miste alle de ting, du foreslog, og få nogen ting fra den anden leder.[NEWLINE][NEWLINE]Hvis lederen ikke kan lide aftalen, kan du vælge "Gør denne aftale mere retfærdig" knappen for at få lederen til at foreslå en aftale, de mener er fair. Du kan derefter justere deres tilbud til at passe til dine behov og se, om de accepterer. Du kan også bede lederen om noget og vælge "Hvad ville det kræve?" at se, hvad de ønsker fra dig i handel.[NEWLINE][NEWLINE]Hvis du foreslår en vare, men ikke beder om noget til gengæld, kan du vælge "Giv gave" for at give varen til lederen gratis. Hvem kan ikke lide gaver? Eller du kan vælge "Hvad ville du give mig?" for at spørge lederen, hvad de ville være villige til at betale.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_PARA_2">
+      <Text>Hvis du er uvenlig med en leder eller I har begge fordømt hinanden, vil du se muligheden "Kræv tilbid" på diplomati-panelet med den pågældende leder valgt. Denne mulighed vil tage dig til et forhandlingsbord, men din side af bordet vil være tom. I stedet vælger du genstande fra deres side af bordet at kræve som tribut! Vælg "Kræv aftale" for at se, om de vil betale dig, hvad du beder om. Lederen vil måske ikke tage venligt imod dine krav.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_PARA_3">
+      <Text>Uanset om du laver en aftale eller kræver noget, gives nogle genstande permanent, mens andre kun lånes til lederen. Summer af [ICON_Gold] Guld, Store Værker, [ICON_GreatWork_Relic] Relikvier, [ICON_GreatWork_Artifact] Artefakter og fanget spioner er alle permanente handler - når du først giver disse genstande væk, skal du handle igen for at få dem tilbage. Ressourcer og guld per tur er dog midlertidige, og når aftalen er fuldført, får du dem tilbage.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_PARA_4">
+      <Text>Afhængigt af dine interaktioner med en leder, kan du også have muligheden for at diskutere på Diplomati-panelet. Når du vælger denne mulighed, vil du se en liste over handlinger, du kan bede lederen om at love at stoppe med at gøre mod dig, men kun hvis lederen allerede har gjort denne handling mindst en gang. Du kan bede dem om at stoppe med at bosætte nye byer nær dig, stoppe med at sprede deres religion til dig, stoppe med at spionere på dig eller stoppe med at angribe en bystat, som du er Suzerain af.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_7_CHAPTER_CONTENT_PARA_5">
+      <Text>Alle aftaler, krav og løfter varer i 30 omgange, hvorefter de skal fornys.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_8_CHAPTER_CONTENT_TITLE">
+      <Text>Delegationer og Ambassader</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_8_CHAPTER_CONTENT_PARA_1">
+      <Text>Delegationer og Residerende Ambassader kan etableres mellem spillere for at forbedre relationer og opnå Diplomatisk Synlighed</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_8_CHAPTER_CONTENT_PARA_2">
+      <Text>En delegation eller ambassade skal sendes til hver leder individuelt. Delegationer koster 10 [ICON_Gold] guld og ambassader koster 25 [ICON_Gold] guld, som betales til den anden leder. Dette vil give dig en lille positiv bonus i dit forhold til den pågældende leder. Det giver også 1 niveau af diplomatisk synlighed. Se Diplomatisk synlighed og sladdersektionen i Civilopediaen for mere information om diplomatisk synlighed.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_8_CHAPTER_CONTENT_PARA_3">
+      <Text>Beboerambassader åbnes med Diplomatisk Service Civica, hvorefter de erstatter Delegationer. Effekterne af Beboerambassader og Delegationer kan ikke kombineres.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_9_CHAPTER_CONTENT_TITLE">
+      <Text>Åbne grænser</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_9_CHAPTER_CONTENT_PARA_1">
+      <Text>Åbne Grænser er en aftale med en anden leder, der tillader dem at flytte deres enheder, militære eller civile, gennem dit territorium. Uden denne aftale er det at træde ind på en anden leder territorium en krigshandling, undtagen med religiøse enheder, der kan ignorere grænser fuldstændigt. Hvis du har Åbne Grænser med en leder, vil deres grænse fremstå som en stiplet linje i stedet for en fast linje. Åbne Grænser er låst op med den tidlige Empire Civic. Før det er dine grænser åbne for alle.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_9_CHAPTER_CONTENT_PARA_2">
+      <Text>Åbne Grænser kan tilbydes som en del af en handelsaftale, hvis begge parter har forsket i tidlig imperiecivilisation, men det tilbydes individuelt af hver leder - du kan få tildelt Åbne Grænser med en leder uden at give dem Åbne Grænser i retur. Aftalen varer i 30 omgange, og så skal den fornyes.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_9_CHAPTER_CONTENT_PARA_3">
+      <Text>Hvis du er i en Alliance med en anden leder, giver I hinanden automatisk Åbne Grænser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_10_CHAPTER_CONTENT_TITLE">
+      <Text>Forskningsaftaler</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_10_CHAPTER_CONTENT_PARA_1">
+      <Text>To allierede eller erklærede venlige spillere kan indgå en Forskningsaftale for at få en teknologisk fordel for en valgt teknologi, hvis begge spillere har forsket i Videnskabsteorien. Som en del af at indgå denne aftale skal der aftales en bestemt teknologi. Antallet af ture, det vil tage at fuldføre forskningen, vil afhænge af begge brugeres nuværende forskningshastigheder. Hvis en af spillerne opnår boostet eller teknologien på en anden måde, afsluttes aftalen, og den anden spiller vil straks få boostet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_11_CHAPTER_CONTENT_TITLE">
+      <Text>Forsvarsalliance</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_11_CHAPTER_CONTENT_PARA_1">
+      <Text>En Forsvars Pagt er en aftale mellem to ledere om at komme hinanden til hjælp, når de bliver mål for en Krigserklæring. Det er låst op af Mobilisering Civic, og begge partnere skal have denne Civic for at oprette en Forsvars Pagt. Hvis en af medlemmerne i Forsvars Pagten bliver målrettet, vil det andet medlem også erklære krig mod angriberen. Forsvars Pagter er tilgængelige gennem Forhandlingsbordet for at lave aftaler. De to ledere skal være i en Alliance for at indgå aftalen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_14_CHAPTER_CONTENT_TITLE">
+      <Text>Fælles krig</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_14_CHAPTER_CONTENT_PARA_1">
+      <Text>Efter at have undersøgt det civile udenrigshandel, kan der foreslås en fælles krig mellem spillere, der har undersøgt udenrigshandel. Hvis du accepterer eller foreslår en fælles krig, vil du og en anden spiller øjeblikkeligt være i krig med målspilleren som angivet i aftaleparametrene.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_15_CHAPTER_CONTENT_TITLE">
+      <Text>Territorium</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_15_CHAPTER_CONTENT_PARA_1">
+      <Text>Diplomatisk territorium er opdelt i 3 typer:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_15_CHAPTER_CONTENT_PARA_2">
+      <Text>Venligt: Område ejet af din civilisation. Venligt territorium kan også etableres ved at blive allieret med en større civilisation eller ved at blive Suzerain for en bystat. Enheder vil hele hurtigere i territorium, der er venligt over for dem, og udnytte særlige evner og politikker, der er forbundet med venligt territorium. Enheder skal være i venligt territorium for at blive opgraderet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_15_CHAPTER_CONTENT_PARA_3">
+      <Text>Neutral: Et område som i øjeblikket ikke ejes af en civilisation eller en bystat. Dette område kan kræves af en civilisation eller en bystat gennem udvidelse af bygrænserne eller ved at grundlægge en ny by der. Med undtagelse af Fort- og Airstrip-forbedringer er det ikke tilladt for spillere at opføre genstande på neutralt territorium.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_15_CHAPTER_CONTENT_PARA_4">
+      <Text>Rival: Territorium, der ejes af en anden civilisation eller bystat. Spillere kan ikke bevæge sig ind i en rivals territorium uden først at etablere Åbne Grænser med den civilisation. Enheders helbredelse er lavest i rivalens territorium.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_TITLE">
+      <Text>Casus Belli (literal translation: krigsårsag)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Casus Belli repræsenterer årsager til at gå i krig, hvor den normale krigshungrende straf for en krigserklæring eller erobring af byer er reduceret eller elimineret. Når du når til renæssancens civile diplomatiske service, kan du opbygge Casus Belli mod andre magter. Du skal fordømme den anden magt for at bruge en Casus Belli mod dem. Se tabellen nedenfor for betingelserne for hver Casus Belli, den civile, der låser dem op, og procentdelen af den sædvanlige krigshungrende straf, der anvendes. 
+
+[NEWLINE][NEWLINE]Hellig Krig: Hvis en af dine byer konverteres til fjendens religion[NEWLINE](Diplomatisk Service, 50% krigshungrende)[NEWLINE][NEWLINE]Befrielseskrig: Hvis en ven eller allieret havde erobrede byer[NEWLINE](Diplomatisk Service, ingen krigshungrende straf, når byer, der er erobret, befries)[NEWLINE][NEWLINE]Generobringskrig: Hvis du havde byer erobret i en tidligere krig[NEWLINE](Defensive Taktikker, ingen krigshungrende straf, når du genvinder dine tidligere byer)[NEWLINE][NEWLINE]Beskyttelseskrig: Hvis en bystat, du er Suzerain af, bliver angrebet[NEWLINE](Defensive Taktikker, ingen krigshungrende straf, når en bystat mål befries)[NEWLINE][NEWLINE]Kolonikrig: Hvis målmagten er to æraer bagud dig i teknologi[NEWLINE](Nationalisme, 50% krigshungrende)[NEWLINE][NEWLINE]Territorial Udvidelseskrig: Hvis målmagten grænser op til dit land[NEWLINE](Mobilisering, 75% krigshungrende)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_13_CHAPTER_CONTENT_TITLE">
+      <Text>Dagsordener</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_13_CHAPTER_CONTENT_PARA_1">
+      <Text>Diplomatiske dagsordener er en stor drivkraft i dit forhold til andre ledere. De driver ønsker og adfærd hos disse ledere. Du kan bruge dagsordener til at vide, hvordan du kan komme på en leder god side, eller hvad du skal gøre for at undgå at gøre dem vrede.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_13_CHAPTER_CONTENT_PARA_2">
+      <Text>Ledere har en Historisk Dagsorden og en Skjult Dagsorden. Den Historiske Dagsorden er baseret på den pågældende lederes virkelige historiske personlighed og resultater. Den Skjulte Dagsorden tildeles i begyndelsen af ​​hver spil, og kan være en bred vifte af ting - måske kan de lide andre civilisationer med masser af kultur eller guld, eller måske kan de ikke lide krigsmagere. At afsløre den Skjulte Dagsorden er vigtig for at vide, hvad der glæder og misbehager en leder. Øg din Diplomatiske Synlighed med hver civilisation for at finde ud af, hvad deres ledere Skjulte Dagsordener er.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_TITLE">
+      <Text>Diplomatisk synlighed og sladder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Diplomatisk synlighed giver dig mulighed for at modtage sladder, information om en anden spillers handlinger. Du får mere detaljeret sladder baseret på dit niveau af synlighed, hvor der er 5 niveauer: Ingen, Begrænset, Åben, Hemmelig og Top Hemmelig. For eksempel, når du lige har mødt en civilisation, vil du modtage information om deres erklæringer om krig, fordømmelser, venskaber, alliancer og når de gør noget som at grundlægge en pantheon eller fuldføre et vidunder. Hvis du får Begrænset Diplomatisk Synlighed, vil du finde ud af nogle oplysninger om deres mening om dig og hvilken regering de har. På Åben niveau vil du have adgang til den civilisations diplomatiske dagsordener, deres forhold til andre civilisationer og vide, hvornår de har lanceret en inkvisition.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Du skal optjene diplomatiske synlighedsniveauer individuelt for hver civilisation. Niveauer kan opnås ved at optjene forskellige kilder til sladder, herunder:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_PARA_3">
+      <Text>Handlende. Etabler en [ICON_TradeRoute] Handelsrute til en civilisation for at øge synligheden med ét niveau. [NEWLINE] [NEWLINE] Send en Delegation. Send en Delegation til en civilisation for at øge synligheden med ét niveau. Når Ambassader er tilgængelige, vil oprettelse af en Ambassade erstatte dette. [NEWLINE] [NEWLINE] Send en spion på en Lyttepostmission. Udførelsen af Lyttepostmissionen i en anden civilisations by øger synligheden med ét niveau. [NEWLINE] [NEWLINE] Dan en Alliance. Alternativt til spionage kan du danne en alliance med en venligt indstillet civilisation. Disse to handlinger tilføjer ikke separate Diplomatisk synlighedsniveauer - det gør ingen nytte at spionere på dine allierede! [NEWLINE] [NEWLINE] Forskning i trykpresseteknologi. Dette vil øge din synlighed med ALLE civilisationer med ét niveau. [NEWLINE] [NEWLINE] Spil som Catherine de Medici. Hun giver Frankrig ét niveau af adgang over det normale til alle civilisationer, hun har mødt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_TITLE">
+      <Text>Spioner og spionage</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Fra renæssancen og fremefter vil Spioner være tilgængelige. Du kan tjene Spioner fra visse teknologier og civics. De kan bygges i enhver by, men de kan ikke købes med [ICON_Gold] Guld eller [ICON_Faith] Tro. Spioner starter på rekrutniveau og kan stige i niveau fra succesrige offensive operationer eller ved at fange en fjendtlig spion. Når de når niveau 2, kan Spioner også tjene forfremmelser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Spioner bevæger sig ikke som andre enheder. De springer fra by til by ved hjælp af luft, sø, vej eller gåtur, hver med deres egen rejsetid, men de kan ikke flytte til en allieret by. Når en Spion er etableret i en by, kan han sendes til en bestemt bydel og begynde sin mission. Missioner inkluderer at stjæle teknologiforøgelser, skabe oprørsenheder eller blot øge diplomatisk synlighed. Hver mission tager en vis tid og vil have en forskellig udfald. Din Spion kan blive dræbt eller fanget, eller måske mislykkedes hans mission, men blev ikke opdaget, eller måske blev missionen ikke opdaget, og missionen var en succes.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_3">
+      <Text>Enhver civilisation kan producere 5 spioner. Spil som Catherine for at få evnen til at producere 6.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_CITYSTATES_NAME">
+      <Text>Bystater</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Bystater er de mindre politiske enheder. De kan ikke vinde et spil - de konkurrerer ikke imod dig - men de kan i høj grad hjælpe eller hæmme din fremgang mod sejr. Du kan skabe venskab med bystaterne og opnå en række vigtige fordele, du kan ignorere dem og koncentrere dig om større og mere vigtige fjender, eller du kan erobre dem og tage deres ting. Det er op til dig</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_TITLE">
+      <Text>By-statstyper</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Der er seks forskellige "smagsvarianter" af bystater. Hver kan give dig forskellige fordele, hvis du bliver venner eller allierede med dem.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_2">
+      <Text>En handelsby-stat kan tilbyde [ICON_Gold] Guld til din civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_3">
+      <Text>En religiøs bystat kan give [ICON_Faith] Tro til din civilisation</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_4">
+      <Text>En militaristisk bystat kan bidrage med [ICON_Production] Produktion til produktion af enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_5">
+      <Text>En videnskabelig bystat kan levere [ICON_Science] videnskab til din civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_6">
+      <Text>En kulturel bystat kan hjælpe dig med at forbedre din [ICON_Culture] kultur</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_2_CHAPTER_CONTENT_PARA_7">
+      <Text>En industriel by-stat kan give [ICON_Production] Produktion til vidundere, bygninger og distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_3_CHAPTER_CONTENT_TITLE">
+      <Text>Kommunikation med bystater</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_3_CHAPTER_CONTENT_PARA_1">
+      <Text>For at kommunikere med en bystat, skal du først finde den. Når en af ​​dine enheder støder på en bystat, vil bystaten fortælle dig, hvilken type den er, og hvis du er den første til at opdage den, vil du automatisk tjene en [ICON_Envoy] udsending med den bystat. Når du har mødt, vil du kunne tage "opgaver" fra den bystat. Hvis du vil komme i kontakt med bystaten, kan du klikke på selve byen, eller du kan gå gennem Bystatpanelet</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_4_CHAPTER_CONTENT_TITLE">
+      <Text>Udsendinge</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Bonuserne, som du tjener fra en bystat, afhænger af, hvor mange [ICON_Envoy] udsendinge, du har sendt til bystaten. [ICON_Envoy] Udsendinge optjenes over tid med indflydelsespoint (som kommer fra regeringer og politikker) eller øjeblikkeligt ved at fuldføre visse civics. Når de er optjent, vil du modtage en prompt til at vælge, hvilke bystater du vil sende dem til. Hvis du har flere [ICON_Envoy] udsendinge, kan du opdele dem mellem bystater, som du ønsker.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_4_CHAPTER_CONTENT_PARA_2">
+      <Text>At erklære krig direkte mod en bystat fjerner alle [ICON_Envoy] udsendinge du havde der. Ellers bliver [ICON_Envoy] udsendinge på bystaten permanent. [ICON_Envoy] udsendinge i en bystat er synlige for alle spillere, og at placere dem kan have diplomatiske konsekvenser. De optjente bonusser er baseret på, hvor mange [ICON_Envoy] udsendinge du har til stede, uanset hvem der ellers har [ICON_Envoy] udsendinge der. Bystater af en type deler alle de samme typebonusser. De er kumulative, så når en spiller placerer flere og flere [ICON_Envoy] udsendinge på en bystat, vil de lægge sig oven på bonusserne fra før. Hver [ICON_Envoy] udsending, der placeres i en bystat, udvider dens grænser med 1 felter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_5_CHAPTER_CONTENT_TITLE">
+      <Text>Suzeræn</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Civilizationen med flest [ICON_Envoy] udsendinge på en bystat, og mindst 3 [ICON_Envoy] udsendinge, betragtes som den bystats Suzerain. Der kan maksimalt være en Suzerain; bånd er ikke tilladt. Hvis ingen har [ICON_Envoy] udsendinge på en bystat, er der ingen Suzerain. Suzerainen får flere betydningsfulde fordele:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Unik Bonus: Dette er en kraftfuld bonus tildelt Suzerainen, som ingen andre bystater vil give.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_5_CHAPTER_CONTENT_PARA_3">
+      <Text>{LOC_CITY_STATES_SUZERAIN_DIPLOMATIC_BONUS} (THIS PHRASE CANNOT BE TRANSLATED AS IT IS A GAME-SPECIFIC TERM AND SHOULD REMAIN IN ENGLISH)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_5_CHAPTER_CONTENT_PARA_5">
+      <Text>Venligt territorium: By-statens territorium anses for at være 'venligt' over for dens Suzerain, hvilket giver Suzerain mulighed for at opnå de samme privilegier, som tilbydes af dens eget territorium.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_TRADE_NAME">
+      <Text>Handel</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Handelsmandsenheden bliver låst op ved at undersøge Udenlandshandel og bygges i byerne. Handelsmandsenheder er på et separat kortlag og interagerer ikke med de fleste normale ting på et kort. De kan frit stables med enhver anden enhed, og de ignorerer kulturelle grænser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Når en Handler er i en by, som spilleren ejer, kan den starte en [ICON_TradeRoute] Handelsrute mellem den by og en anden by, der er inden for rækkevidde, så længe ingen af dine [ICON_TradeRoute] Handelsruter allerede går derhen (for eksempel, hvis jeg allerede har en [ICON_TradeRoute] Handelsrute til Athen, kan jeg ikke sende en anden derhen), og spilleren ikke har nået deres maksimale antal [ICON_TradeRoute] Handelsruter</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Når den først er oprettet, vil [ICON_TradeRoute] Handelsruten vare i mindst 20 ture på standard spilhastighed. Trader-enheden vil bevæge sig automatisk langs dens rute i løbet af ruten, men vil ikke afslutte ruten, indtil den er vendt tilbage til oprindelsesbyens felt. Når du er på en aktiv rute, vil Trader-enheden ignorere terrænbegrænsninger og flytte 1 felt hver tur og placere en Vej, mens den bevæger sig. Glem ikke at beskytte din Trader mod barbarer eller fjendtlige civilisationer, da den er sårbar over for plyndring.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_1_CHAPTER_CONTENT_PARA_4">
+      <Text>Ved afslutningen af [ICON_TradeRoute] Handelsrute's varighed, vil du have mulighed for at forny den tidligere [ICON_TradeRoute] Handelsrute, tildele en ny [ICON_TradeRoute] Handelsrute fra den nuværende by, eller genallokere handelsrejsende til en ny by.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_2_CHAPTER_CONTENT_TITLE">
+      <Text>Øgende handelsruter</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>En spiller kan kun opretholde et begrænset antal aktive [ICON_TradeRoute] Handelsruter. Denne kapacitet bestemmes primært af antallet af Handelsdistrikter og Havne, de har, men kan også øges på andre måder. Bemærk, at [ICON_TradeRoute] Handelsruter fra Handelsdistrikter og Havne ikke stables i samme by - fordelene gælder kun med den første, du bygger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_3_CHAPTER_CONTENT_TITLE">
+      <Text>Handelsområde</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_3_CHAPTER_CONTENT_PARA_1">
+      <Text>På land kan en [ICON_TradeRoute] Handelsrute nå destinationer inden for en rækkevidde på 15 felter. Når spilleren har forsket i teknologien, der tillader embarkation, kan handlere også bevæge sig over vand. På vand er rækkevidden 30 felter. Hvis du har en [ICON_TradingPost] Handelspost i byen, "tanker" handlere op til deres tilladelse for det nye rejseområde og kan bevæge sig længere. Ellers skal det stoppe ved den by.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Skift mellem land og vand kan kun ske i en City Center eller Harbor district, og tilladelsen bærer ikke over.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_4_CHAPTER_CONTENT_TITLE">
+      <Text>Handelssteder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Udvid dit handelsnetværk og gør det mere indbringende med [ICON_TradingPost] Handelsstationer. En [ICON_TradingPost] Handelsstation placeres i en by, når en [ICON_TradeRoute] Handelsrute til eller fra den by gennemføres med succes. Den tilhører den spiller, der ejede [ICON_TradeRoute] Handelsruten.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Dine [ICON_TradeRoute] Handelsruter kan "tanke op" deres [ICON_Movement] Bevægelsesområde i enhver by, der har en af dine [ICON_TradingPost] Handelsstationer, hvilket gør det muligt for dem at nå videre destinationer. Hvis byen tilhører en anden spiller, gør [ICON_TradingPost] Handelsstationen også [ICON_TradeRoute] Handelsruten mere værdifuld ved at give +1 [ICON_Gold] Guld til indkomsten.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_5_CHAPTER_CONTENT_TITLE">
+      <Text>Udbytter for handelsrute ejer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_5_CHAPTER_CONTENT_PARA_1">
+      <Text>En [ICON_TradeRoute] Handelsrute giver udbytter til dens oprindelsesby hver tur, primært baseret på hvilke kvarterer der er i dens destinationsby. For eksempel vil handel med en by med en Helligdom give [ICON_Faith] Tro, og handel med en by med en Teatersplads vil give [ICON_Culture] Kultur. Derudover kan Religion og [Icon_Tourism] Turisme sprede sig langs [Icon_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Den får også udbytter baseret på den rute, den tager. Hvis den passerer gennem en [ICON_TradingPost] Handelspost, som du ejer i en fremmed by, er den 1 [ICON_Gold] Guld ekstra værd. Lange veje, der passerer gennem flere [ICON_TradingPost] Handelsposter, er meget værdifulde.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_6_CHAPTER_CONTENT_TITLE">
+      <Text>Udbytter for Byer på Ruten</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_6_CHAPTER_CONTENT_PARA_1">
+      <Text>En by tjener 1 [ICON_Gold] Guld per tur for hver [ICON_TradeRoute] Handelsrute, der tilhører en anden spiller, som ruter gennem dens Bycenter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_GOVT_NAME">
+      <Text>Regeringer og politikker</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_1_CHAPTER_CONTENT_TITLE">
+      <Text>Regeringer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Regeringer giver dig mulighed for at tilpasse din civilisation til dit spillestil ved at tilbyde forskellige kombinationer af slots til at vælge forskellige typer af politikker samt tilbyde forskellige bonusser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Låst op gennem Civics Tree, vil de tilgængelige regeringer ændre sig, som du skrider frem gennem tiden. I begyndelsen vil du have en simpel regering med kun en håndfuld pladser. Men som du når senere tidsaldre, vil flere pladser i forskellige kombinationer blive låst op. Udover dette har regeringer deres egne særlige bonusser; Theocracy-regeringen vil f.eks. tillade dig at købe landenheder med [ICON_Faith] Tro og giver en rabat på [ICON_Faith] Tro-køb, når den er aktiv.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Endelig har alle regeringer Legacy-bonusser baseret på hvor længe regeringen var aktiv inden for dit imperium. For eksempel, selvom du måske er gået videre fra Theocracy regeringen, vil du modtage en Legacy-bonus på [ICON_Faith] Tro-rabatter baseret på hvor længe den regering var aktiv i dit imperiums historie. Du kan skifte regering når som helst. Hvis du skifter til en tidligere vedtaget regering, vil du komme ind i en tilstand af Anarki.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_2_CHAPTER_CONTENT_TITLE">
+      <Text>Politikker</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Politikker har konkrete effekter på gameplayet. Nogle øger dine byers produktivitet [ICON_Production], mens andre genererer mere rigdom, og andre igen hjælper med at skabe en mere effektiv militærstyrke. Der er ingen rigtige eller forkerte politikvalg i spillet, og én politik kan være bedre for en given situation end andre, eller bedre passe til din personlige spillestil. Prøv dem af og se</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Der er 6 typer af politikker, som hver kan placeres i en tilsvarende position i en given regering. Ved at placere disse individuelle politikker vil du opnå de beskrevne fordele og forbedre dit spil</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_3_CHAPTER_CONTENT_TITLE">
+      <Text>Politikker for erhvervelse</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Du kan vælge at vedtage politikker, når du har opnået [ICON_Culture] Kultur for at låse din første regering op. Politikker vil blive låst op, når du skrider frem gennem Civics Tree, og ved at skifte din regering vil du kunne tilpasse forskellige kombinationer af politikker bedre til din spillestil. Hver gang en ny regering eller politik låses op fra Civics Tree, vil du have mulighed for at genvalgte politikker eller skifte din regering gratis. Ellers vil der være en omkostning ved at foretage disse ændringer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_TITLE">
+      <Text>Polityper</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Der er 4 forskellige politiktyper at udforske, som hver bidrager til en forskellig stil af regeringen. Alle typer skal anvendes på en tom plads af samme type i regeringen, men en Wildcard-plads kan rumme enhver type politik.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Militær: Disse politikker er bedst for spillere, der ønsker en stærk militær til lands og til vands.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_3">
+      <Text>Økonomisk: Disse politikker kan være nyttige til at øge alle slags udbytter, enten gennem øget distriktstilskud eller reducerede omkostninger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_4">
+      <Text>Diplomatisk: Disse politikker er bedst for spillere med en stærk interesse i at opbygge relationer og kan hjælpe med at styrke båndene til bystater eller forbedre spionageoperationer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_5">
+      <Text>Wildcard: Disse politikker øger hastigheden af [ICON_GreatPerson] storperson produktion.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_5_CHAPTER_CONTENT_TITLE">
+      <Text>Anarki</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_5_CHAPTER_CONTENT_PARA_1">
+      <Text>At skifte til en tidligere vedtaget regering sætter midlertidigt din civilisation i en tilstand af anarki, som har følgende negative virkninger:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_5_CHAPTER_CONTENT_PARA_2">
+      <Text>1. Du modtager ingen [ICON_Gold] Guld, [ICON_Science] Videnskab, [ICON_Culture] Kultur eller [ICON_Faith] Tro fra nogen kilde.[NEWLINE]2. Anarki har ingen regerings speciel bonus eller arv.[NEWLINE]3. Dine politikker giver ingen fordele og kan ikke tilpasses.[NEWLINE]4. Du vil ikke være i stand til at skifte regering, før staten af anarki slutter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_5_CHAPTER_CONTENT_PARA_3">
+      <Text>Anarki varer mindst tre ture. Jo mere du tidligere har vedtaget denne form for regering, jo længere vil Anarki vare.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_GREATPEOPLE_NAME">
+      <Text>Store personligheder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_1_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_GreatPerson] Great People are the artists, merchants, engineers, scientists, generals, and admirals who can, singlehandedly, change the course of a civilization. There are nine types of [ICON_GreatPerson] Great People: [ICON_GreatArtist] Great Artists, [ICON_GreatWriter] Great Writers, [ICON_GreatMusician] Great Musicians, [ICON_GreatEngineer] Great Engineers, [ICON_GreatMerchant] Great Merchants, [ICON_GreatScientist] Great Scientists, [ICON_GreatProphet] Great Prophets, [ICON_GreatAdmiral] Great Admirals, and [ICON_GreatGeneral] Great Generals.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_2_CHAPTER_CONTENT_TITLE">
+      <Text>At tjene fantastiske mennesker</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_GreatPerson] Great People can be earned by generating enough of the right type of points. They are visible to all players, and they are visibly competed for between all players. Only major civilizations can earn [ICON_GreatPerson] Great People, not Barbarians or city-states. Each type of [ICON_GreatPerson] Great Person has its own points which are tracked separately. [ICON_GreatScientist] Great Scientist Points cannot count as [ICON_GreatArtist] Great Artist Points, and so on. The number of points needed to earn a particular [ICON_GreatPerson] Great Person depends on that [ICON_GreatPerson] Great Person’s era. A Renaissance-era [ICON_GreatScientist] Great Scientist will cost much less [ICON_GreatScientist] Great Scientist Points than a Modern-era one. The points come from a variety of sources.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Hver bydel og bygningerne inden for den giver point til dens tilknyttede [ICON_GreatPerson] Store Person-type. Dette er den langsomme men stabile kilde til point. Bydele tillader også en by at bruge [ICON_Production] Produktion mod projekter som, når de er afsluttet, bidrager med [ICON_GreatPerson] Store Person-point.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_2_CHAPTER_CONTENT_PARA_3">
+      <Text>Spillere kan også bruge [ICON_Gold] Guld eller [ICON_Faith] Tro på at være velhavende en stor person, og tjene den person øjeblikkeligt. Omkostningerne til velhavendehed er baseret på hvor mange flere [ICON_GreatPerson] Store Personpointe spilleren ville have brug for at ansætte den person normalt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_3_CHAPTER_CONTENT_TITLE">
+      <Text>Brug af store personligheder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Hver [ICON_GreatPerson] Stor Person individ har en forskellig virkning, inspireret af historien. De fleste virkninger er stærkt forbundet med en bestemt spiletid og er ikke optimale at bruge uden for denne tid. Virkningerne falder ind i to brede kategorier: Passive Virkninger og Handlingsvirkninger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_3_CHAPTER_CONTENT_PARA_2">
+      <Text>En Passiv Effekt sker så snart [ICON_GreatPerson] Stor Person spawnes på kortet. Disse findes hovedsageligt på Store Generaler og Store Admiraler.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_3_CHAPTER_CONTENT_PARA_3">
+      <Text>En handlings effekt skal aktiveres af [ICON_GreatPerson] en stor person ved at bruge en "opladning" på et bestemt sted. Antallet af opladninger, typen af ​​sted der kræves, og effekten der aktiveres, vil variere baseret på personen. De fleste individer har kun 1 opladning og kan kun aktiveres i en bydel, der matcher dens type (f.eks. har de fleste [ICON_GreatScientist] store videnskabsmænd 1 opladning og skal bruge den på et Campus). Som andre opladningsbaserede enheder vil individet forsvinde, når alle opladninger er opbrugt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_4_CHAPTER_CONTENT_TITLE">
+      <Text>Flytning af fantastiske mennesker</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GREATPEOPLE_4_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_GreatPerson] Store Personer kan bevæge sig omkring på brættet ligesom enhver anden enhed. De er ikke-kamp-enheder, hvilket betyder, at de ikke kan stables i en rude med andre ikke-kamp-enheder (Arbejdere, Bosættere), men de kan stables med en militær enhed. Hvis en fjendtlig enhed kommer ind i en [ICON_GreatPerson] Store Persons rude, trækker [ICON_GreatPerson] Den Store Person sig automatisk tilbage til en nærliggende by, hvis den er i stand til det (fjenden fanger den ikke.) Disse enheder kan også overføres til en anden by, når de er i en bymidte.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_AIRCOMBAT_NAME">
+      <Text>Luftkamp</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Der er fire hovedtyper af luftenheder: støtte til rekognoscering, støtte til forsvar, jagerfly og strategiske bombefly. Disse kan produceres i enhver by, der har bygget en Aerodrome og forsket i de nødvendige teknologier.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_2_CHAPTER_CONTENT_TITLE">
+      <Text>Flyvebaser</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Luftenheder bevæger sig ikke rundt på kortet som land- og søenheder. De skal være "stationeret" et sted. Byens Center kan altid holde en luftenhed, men opførelsen af en Lufthavn, Landingsbane eller Hangarskib kan øge dine tilgængelige pladser. Lufthavnen kan have op til 8 pladser, Landingsbanen 3, og Hangarskibet starter med 2 men kan få flere gennem forfremmelser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_3_CHAPTER_CONTENT_TITLE">
+      <Text>Patruljer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Kampfly kan deployeres til en gyldig hex inden for deres [ICON_Movement] bevægelsesområde fra en venlig luftbase. Efter at det er deployeret, vil flyet begynde at flyve i en kredsende mønster omkring dets effektive intercept rækkevidde (for tiden en hex radius). Dette bør gøre det mere klart for både angriberen og forsvareren, om status for Fighterne i Patrulje-tilstanden.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Patruljestaten fortsætter, lidt ligesom operationen 'Fortify' enheden. Når et fly er sat til Patrulje vil det blive ved indtil det bliver bedt om at gøre andet eller ødelægges. Mens det patruljerer, vil flyet fortsat afværge flere angrebere</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_3_CHAPTER_CONTENT_PARA_3">
+      <Text>På ethvert tidspunkt i spillerens tur kan Fighter-fly "Return to Base" (station på en venlig luftbase) for at helbrede. Fly stationeret på en luftbase afbryder ikke angribende fly. Fly kan helbrede i slutningen af spillets tur, når de er stationeret på en City Center, Aerodrome, Airstrip eller Aircraft Carrier, kun hvis de ikke har været involveret i kamp. Helbredelse er 'hurtigst' på et Aerodrome-distrikt og mindre på Airstrips og Carriers. Disse værdier kan øges gennem forfremmelser og / eller politikker.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_4_CHAPTER_CONTENT_TITLE">
+      <Text>Luftangreb</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Tunge bomberfly kan ikke patruljere, men bliver i stedet "stationeret" på en venlig luftbase og kan udføre angreb derfra. I modsætning til jagerfly deltager bomberfly ikke i hundekampe, men flyver direkte mod deres mål og angriber.[NEWLINE][NEWLINE]Strategisk bombardement: Bomberfly kan direkte angribe distriktsbygninger og byforbedringer, hvis der ikke er nogen landenhed, der aktuelt besætter målplaceringen. Ved succes er resultatet af denne type angreb det samme som en rovmorderhandling med en undtagelse - angrebende luftenhed får ikke det resulterende fordel fra rovmorderhandlingen. For at et bombardementsangreb skal lykkes, skal den angribende luftenhed have 50% sundhed eller mere efter at have løst eventuel skade fra forsvarerjagerfly og anti-luftunderstøttelsesenheder.[NEWLINE][NEWLINE]Prioriteret mål: Luftenheder har også evnen Prioriteret mål, som giver dem mulighed for at angribe supportenheder direkte uden først at skulle eliminere den fjendtlige kampenhed, der er placeret på samme placering.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_5_CHAPTER_CONTENT_TITLE">
+      <Text>Interceptioner</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_AIRCOMBAT_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Kampfly kan indsættes til et sted på kortet inden for rækkevidde, hvor de vil patruljere de tilstødende områder. Hvis en luftenhed forsøger et luftangreb mod et mål inden for rækkevidden af en afvisende enhed, vil interceptoren skyde mod angriberen og skade denne.[NEWLINE][NEWLINE]Hvis et angribende fly kommer ind i det defensive område af mere end én patruljerende enhed, vælges det fly med højest styrke til interception. De resterende fly virker i støtte af forsvaret ved at tilføje +5 til styrken af hoved-interceptoren.[NEWLINE][NEWLINE]Når kampen er afgjort med eventuelle anti-luft jordenheder og interceptende luftenheder, hvis den angribende bomber overlever, afgøres kampen derefter med det oprindelige mål. Hvis en fighter bliver afvist af en anden fighter på vej til et jordmål, tvinges den til kun at angribe fjendens fighter og vil ikke angribe jordmålet. Bombefly har ikke denne begrænsning og vil fortsætte til målet, hvis de overlever eventuelle forsvarere og anti-luft angreb.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_NUKES_NAME">
+      <Text>Nuklearvåben</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Typer af kernevåben</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Der er 2 kategorier af atomvåben: den Nukleare Enhed og den Termojernbane Enhed. De kan bygges som et byprojekt i enhver by og kræver begge Uranium ressourcen for at blive produceret. Der er ingen begrænsning på, hvor mange en spiller kan bygge. [NEWLINE][NEWLINE]Når en Nuklear eller Termojernbane Enhed er oprettet, bliver den tilføjet til spillerens inventar og kan derefter bruges af enhver enhed eller forbedring, der er i stand til at deployere den på kortet. Dette inkluderer bombefly, nukleare ubåde og missilsiloer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Nukleare Enheder har en eksplosionsradius på 1. Når de affyres fra et missil-silo, har de en rækkevidde på [ICON_Range] 12. De koster 14 [ICON_Gold] Guld per tur at vedligeholde.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Termonukleare enheder har en sprænghovedradius på 2. Når de udsendes fra en missilsilo, har de en [ICON_Range] rækkevidde på 15. Det koster 16 [ICON_Gold] guld pr. tur at opretholde dem.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_2_CHAPTER_CONTENT_TITLE">
+      <Text>Atomnedslag</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Når en atomvåben detoneres, sker der flere ting med alle hexer inden for blastens radius. [ICON_Citizen] Borgere "arbejder" på de berørte fliser bliver elimineret, enheder, der besætter de berørte fliser, bliver ødelagt, og alle forbedringer på fliserne plyndres. Eventuelle distrikter og bygninger på de berørte fliser bliver også plyndret og skal repareres for at kunne bruges igen. Alle berørte fliser er kontamineret med radioaktivt nedfald.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_3_CHAPTER_CONTENT_TITLE">
+      <Text>Radioaktiv forurening</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Efter en atomangreb vil nedfald forurene hver enkelt flise, der er påvirket af eksplosionen. Enhver enhed, der afslutter sin tur i en forurenet flise, tager 50 skade hver tur. [ICON_Production] Produktion kan ikke anvendes på noget i fliser, der indeholder forurening, såsom reparation af bygninger og distrikter. Fliser, der er forurenet, kan ikke arbejdes af byen, indtil forureningstimeren udløber, eller indtil flisen er "renset"</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Nuklear forurening kan "renses" fra påvirkede fliser af Bygger og Militæringeniør enheder. Rensning af en forurenet flise tager 1 byggeopgave. Builder-, Militæringeniør- og Roman Legion-enheder, der er i stand til at rense forurenede sekskanter, vil tage mindre skade, hvis de afslutter deres tur i en sådan sekskant. Alle byfliser, der ikke direkte påvirkes af den nukleare eksplosion, vil stadig fungere normalt og bidrage til byens udbytte.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_TOURISM_NAME">
+      <Text>Turisme</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_1_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Tourism] Tourism is needed in order to win a Culture Victory. You can generate [ICON_Tourism] Tourism through Great Works, wonders, Holy Cities, [ICON_GreatWork_Relic] Relics, [ICON_GreatWork_Artifact] Artifacts, Seaside Resorts and National Parks. You can boost your [ICON_Tourism] Tourism through [ICON_TradeRoute] Trade Routes, Open Borders, Great People, policies, and shared (or conflicting) late game governments.[NEWLINE][NEWLINE]Building a wonder will probably be one of the first ways you start earning [ICON_Tourism] Tourism. Each Wonder provides 2 [ICON_Tourism] Tourism per turn, plus 1 for each era you have advanced past the era in which that wonder was first available. So an ancient wonder like Stonehenge can earn you 9 [ICON_Tourism] Tourism per turn by the end of the game.[NEWLINE][NEWLINE]Tourism is divided into Religious Tourism (from creating a Holy City and from Relics) and Non-Religious Tourism. Some Civics (Enlightenment) and Wonders (Cristo Redentor) specifically affect the impact of your Religious Tourism.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_2_CHAPTER_CONTENT_TITLE">
+      <Text>Store Værker, Relikvier og Artefakter</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Store Mestre kommer i fem forskellige typer. [ICON_GreatWork_Writing] Skrivning, [ICON_GreatWork_Landscape] Kunst og [ICON_GreatWork_Music] Musik, der kan genereres gennem [ICON_GreatPerson] Store Personer, [ICON_GreatWork_Artifact] Artefakter, der hentes fra Antikvitetssteder af arkæologer og [ICON_GreatWork_Relic] Relikvier, som oprettes af apostle med martyrekspertisen, når de dør i teologisk kamp. (Relikvier kan opnås fra andre kilder såsom Tribal Villages, city-state Kandy eller Jeanne D'Arc, når hun trækker sig tilbage.) Når en Store Mestre er optjent, kan den placeres i en Great Work-slot i den passende bygning eller vidunder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_3_CHAPTER_CONTENT_TITLE">
+      <Text>Kystferiesteder</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Badebyer er en særlig forbedring, der kan bygges efter at have forsket i radio teknologi. Disse genererer [ICON_Tourism] Turisme baseret på flisens appel.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_TITLE">
+      <Text>Nationale Parker</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_1">
+      <Text>At udpege nationalparker kan markant forbedre [ICON_Tourism] turisme og [ICON_Amenities] faciliteter. Nationalparker udpeges af naturhistoriske enheder, som kan købes i din by med [ICON_Faith] tro efter at have forsket i bevarelsespolitikken.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Nationalparker kan bygges på en klynge af fire fliser, der opfylder følgende krav:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_3">
+      <Text>1. Fliserne skal være naturlige vidundere, bjerge eller en flise med en appelterrasse af charmerende eller bedre. 
+2. Alle fire fliser skal være ejet af samme by. 
+3. Fliserne skal være sammenhængende og danne en vertikal diamantform. 
+4. Ingen flise må have en forbedring eller distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_4">
+      <Text>Du kan vælge en Naturvejleder for at afsløre nogen gyldige placeringer på kortet. Ved at sende Naturvejlederen til en fremhævet flise vil Designér Nationalpark handlingen blive afsløret. Klik på denne knap for at udpege nationalparken og forbruge Naturvejlederen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_5">
+      <Text>En nationalparks [ICON_Tourism] turismeudgang er lig med den samlede appel for alle fliser, der er inkluderet i parken. Derudover modtager byen, der ejer parken, 2 [ICON_Amenities] faciliteter, og de fire nærmeste byer i din civilisation modtager 1 [ICON_Amenities] facilitet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_6_CHAPTER_CONTENT_TITLE">
+      <Text>Kulturel dominans</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_6_CHAPTER_CONTENT_PARA_1">
+      <Text>Hvis din civilisation tiltrækker flere besøgende turister fra en anden civilisation end de har indenlandske turister, er du kulturelt dominerende over den civilisation. En Kultur Sejr tildeles til den første spiller, der bliver kulturelt dominerende over alle andre civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_5_CHAPTER_CONTENT_TITLE">
+      <Text>Temaer og Tematisering</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_5_CHAPTER_CONTENT_PARA_1">
+      <Text>Nogle bygninger (såsom Kunst Museet eller Arkæologisk Museum) tillader dig at tematisere Store Værker for en betydelig boost af [ICON_Culture] Kultur og [ICON_Tourism] Turisme. For at modtage en tematiseringsbonus, skal du vise [ICON_GreatWork_Landscape] Kunst af samme type af forskellige kunstnere eller [ICON_GreatWork_Artifact] Artefakter af samme æra fra forskellige civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_VICTORY_NAME">
+      <Text>Sejr og Nederlag</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Der er flere måder at vinde og tabe et spil i Civilization VI. Det er vigtigt at holde øje med dine modstanderes fremskridt mod sejr, mens du selv udvikler din civilisation. Der er intet så irriterende som at være på randen af at erobre din sidste overlevende fjendes sidste by, kun for at se hjælpeløst til, når han eller hun fuldfører sin Mars-koloni og vinder en uventet videnskabelig sejr.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_2_CHAPTER_CONTENT_TITLE">
+      <Text>Sejr ved Dominans</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_2_CHAPTER_CONTENT_PARA_1">
+      <Text>For at vinde en Domination sejr, skal du erobre alle originale civilisations [ICON_Capital] hovedstæder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Hvis du har mistet din oprindelige [ICON_Capital] hovedstad, men stadig har andre byer, kan du stadig vinde en anden type sejr: Kultur, Videnskab, Point eller Religion. Du kan dog ikke vinde en Dominationssejr, før du har genindtaget din egen oprindelige [ICON_Capital] hovedstad</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_2_CHAPTER_CONTENT_PARA_3">
+      <Text>SEJER FOR HOLD-DOMINATION</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_2_CHAPTER_CONTENT_PARA_4">
+      <Text>For at vinde en hold-dominationssejr, skal alle holdmedlemmer kontrollere deres egne originale [ICON_Capital] hovedstæder, mens alle andre spillere ikke gør det.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_TITLE">
+      <Text>Videnskabelig sejr</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Videnskabssejren opnås af den første spiller, der etablerer en koloni på planeten Mars. Når rumkapløbet er i gang, og en spiller har lanceret deres første satellit, vil alle spillere vide, hvem der forsøger at opnå denne sejr. Spillerne modtager bonusser for at nå hvert milepæl på vejen mod sejr. Følgende trin skal fuldføres i rækkefølge:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Send en satellit ud i rummet:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_3">
+      <Text>Ligesom Sputnik i 1957 kan du bygge en satellit til at sende op i rummet efter at have undersøgt Raketteknologi og bygget en Rumhavn. Efter at have fuldført projektet med Jordsatellitten vil din satellit blive sendt op, og du vil blive tildelt synlighed af hele kortet</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_4">
+      <Text>Lande en menneske på månen:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_5">
+      <Text>Ligesom Apollo 11 missionen i 1969, vil du sende et menneske til månen. Dette er låst op efter forskning i teknologien Satellitter, og kan bygges i enhver by med en Rumhavn. Vælg at producere projektet Månelanding for at starte denne mission. Efter at raketen er blevet sendt af sted, vil du straks få en stor sum af [ICON_Culture] Kultur som belønning.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_6">
+      <Text>Etablér en koloni på Mars:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_7">
+      <Text>Science fiction for nu, måske - men nu kan du være den første til at sende dine mennesker til Mars. Efter at have forsket i robotteknologi, kernekraft og nanoteknologi kan du bygge reaktoren, beboelses- og hydroponikmodulerne i enhver by med en rumhavn. Bemærk, at mere end én rumhavn betyder parallelt produktion!</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_8">
+      <Text>Når alle brikker er sat i gang, har du vundet spillet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_9">
+      <Text>HOLDSEJER I VIDENSKAB</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_3_CHAPTER_CONTENT_PARA_10">
+      <Text>For at vinde en Team Science-sejr, skal en individuel holdmedlem fuldføre de standard Science-sejrkrav. Kravopfyldelse deles ikke. Holdkammerater opfordres til at samarbejde mod en Team Science-sejr ved hjælp af Team Shared Research. Se Teams-siden.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_4_CHAPTER_CONTENT_TITLE">
+      <Text>Kultursejr</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Hvis du har som mål at være den kulturelle epicenter i verden, så er dette sejren for dig. Den første civilisation, der har et samlet antal [ICON_Tourism] besøgende turister, der overstiger [ICON_Tourism] indenlandske turister for hver anden civilisation i spillet, vinder Kultur-sejren.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_4_CHAPTER_CONTENT_PARA_2">
+      <Text>[ICON_Tourism] Turisme genereres af [ICON_TradeRoute] Handelsruter, delte (eller konfliktende) regeringer i sen spil fase, åbne grænser, Store Værker, der er placeret i din civilisation, [ICON_GreatWork_Relic] Relikvier, der er placeret i din civilisation, Helligsteder, Nationalparker, [ICON_GreatWork_Artifact] Artefakter og vidundere.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_4_CHAPTER_CONTENT_PARA_3">
+      <Text>TEAM KULTURSEJR</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_4_CHAPTER_CONTENT_PARA_4">
+      <Text>For at vinde en Team Culture Victory, skal en enkelt holdmedlems [ICON_Tourism] Visiting Tourists overstige [ICON_Tourism] Domestic Tourists for alle ikke-holdmedlems civilisationer. [ICON_Tourism] Visiting Tourists deles ikke mellem holdmedlemmer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_5_CHAPTER_CONTENT_TITLE">
+      <Text>Religiøs sejr</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_5_CHAPTER_CONTENT_PARA_1">
+      <Text>For at opnå en Religiøs Sejr, skal du gøre din Religion til den dominerende Religion for alle andre større civilisationer i spillet. Dette betyder, at ikke alle byer i en civilisation behøver at følge din Religion, kun flertallet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_5_CHAPTER_CONTENT_PARA_2">
+      <Text>Mens din Religion vil sprede sig passivt ved simpelthen at bosætte sig nær andre spillere, er det dine Missionærer og Apostle, der tilbyder den bedste chance for sejr.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_5_CHAPTER_CONTENT_PARA_3">
+      <Text>HOLD RELIGIØS SEJR</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_5_CHAPTER_CONTENT_PARA_4">
+      <Text>For at vinde en Team Religious Victory skal religioner grundlagt af holdet være den dominerende religion i alle andre civilisationer. De dominerende religioner kan være af enhver kombination, så længe religionerne alle blev grundlagt af holdmedlemmer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_6_CHAPTER_CONTENT_TITLE">
+      <Text>Få sejr</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_6_CHAPTER_CONTENT_PARA_1">
+      <Text>I mange spil vil en af spillerne vinde spillet ved at opnå en af de mulige sejre. Hvis ingen opnår en af disse sejre inden år 2050 (eller en turnering fastsat af spilleren), afgøres vinderen ud fra den overlevende civilisations "score". Point til din score optjenes fra antallet af civics, befolkningstal, antallet af byer, antallet af teknologier, antallet af "fremtidige teknologier", antallet af vidundere, militære bedrifter, antallet af [ICON_GreatPerson] Store Personer og antallet af trosretninger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_6_CHAPTER_CONTENT_PARA_2">
+      <Text>HOLDSCORE SEJR</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_VICTORY_6_CHAPTER_CONTENT_PARA_3">
+      <Text>Når man spiller som et hold, bliver scoren beregnet som en summering af holdmedlemmernes individuelle civilisationsscore.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_TEAMS_NAME">
+      <Text>Hold</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_1_CHAPTER_CONTENT_TITLE">
+      <Text>Introduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Inden man starter et spil, kan individuelle civilisationer placeres på hold for en mere samarbejdsvillig oplevelse. Når man spiller som et hold, deler holdmedlemmerne en række spilfordele og kan vinde spillet samlet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Holdspil er i øjeblikket tilgængeligt i standard multiplayer spil og de fleste multiplayer-scenarier.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_2_CHAPTER_CONTENT_TITLE">
+      <Text>Holdet for Diplomatiske Relationer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Holdmedlemmer deler en permanent diplomatisk alliance. Alle standard alliance regler og fordele gælder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_3_CHAPTER_CONTENT_TITLE">
+      <Text>Holdet Delte Krig</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Holdmedlemmer deler krigsstatus. Hvis et holdmedlem erklærer krig, gælder de erklærede Casus Belli betingelser for alle holdmedlemmer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_4_CHAPTER_CONTENT_TITLE">
+      <Text>Team Fælles Forskning</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TEAMS_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Holdmedlemmer deler delvist forskningsfremskridt. Holdmedlemmer modtager et teknologisk boost for hver teknologi, som en holdmedlem besidder.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_DISTRICT_CITY_CENTER_DESCRIPTION">
+      <Text>Dette er byens centrum.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CAMPUS_DESCRIPTION">
+      <Text>Et distrikt i din by for videnskabelige bestræbelser.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CAMPUS_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Standard [ICON_Science] Videnskabsbonus for hver tilstødende bjerg. Mindre [ICON_Science] Videnskabsbonus for tilstødende distriktfliser og tilstødende regnskovfliser.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOLY_SITE_DESCRIPTION">
+      <Text>Et distrikt i din by for religiøs tilbedelse.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOLY_SITE_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Stor [ICON_Faith] trosbonus for tilstødende naturundere. Standard [ICON_Faith] trosbonus for hver tilstødende bjerg-flise. Mindre [ICON_Faith] trosbonus for tilstødende distriktsfliser og uforbedrede skovfliser.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ENCAMPMENT_DESCRIPTION">
+      <Text>Et område i din by til militære faciliteter.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION">
+      <Text>Et kvarter i din by dedikeret til at holde dine borgere glade ved at øge [ICON_Amenities] faciliteterne.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_THEATER_DESCRIPTION">
+      <Text>Et kvarter i din by for kulturelle steder.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_THEATER_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Standard [ICON_Culture] Kultus-bonus for hver tilstødende vidunder. Mindre [ICON_Culture] Kultus-bonus for tilstødende distrikt-felter.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HARBOR_DESCRIPTION">
+      <Text>En bydel til søaktivitet i din by. Fjerner også [ICON_Movement] bevægelsesstraf for ombordstigning og afstigning til og fra denne flise. Skal bygges på kyst eller søterræn ved siden af landet.[NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Handelsrutekapacitet, hvis denne by endnu ikke har en Commercial Hub-bydel.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HARBOR_DESCRIPTION_ADJACENCY">
+      <Text>Nærliggende: Stor [ICON_Gold] Guld bonus for hver tilstødende Bycenter. Standard [ICON_Gold] Guld bonus for hver tilstødende kystressource. Mindre [ICON_Gold] Guld bonus for tilstødende distrikt fliser.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION">
+      <Text>Et distrikt i din by, der tilbyder boliger baseret på flisens appelsinværdi: [NEWLINE]Forbløffende: +6 [ICON_Housing] Boliger.[NEWLINE]Charmerende: +5 [ICON_Housing] Boliger.[NEWLINE]Gennemsnitlig: +4 [ICON_Housing] Boliger.[NEWLINE]Uindbydende: +3 [ICON_Housing] Boliger.[NEWLINE]Modbydelig: +2 [ICON_Housing] Boliger.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION">
+      <Text>Et industriområde i din by.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Standard [ICON_Production] Produktionsbonus for hver tilstødende Mine eller Stenbrud. Mindre [ICON_Production] Produktionsbonus for tilstødende distriktstil.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMMERCIAL_HUB_DESCRIPTION">
+      <Text>En bydel i din by specialiseret i finans og handel.[NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Handelsrute kapacitet, hvis denne by endnu ikke har en Havne-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMMERCIAL_HUB_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Stor [ICON_Gold] Guld bonus for hver tilstødende Havn-distrikt eller flisekant, der indeholder en flod. Mindre [ICON_Gold] Guld bonus for tilstødende distriktsfliser.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_DESCRIPTION">
+      <Text>En bydel, der forsyner denne by med en kilde til frisk vand fra en tilstødende flod, sø, oase eller bjerg. Byer, der endnu ikke har eksisterende ferskvand, modtager op til 6 [ICON_Housing] Boliger. Byer, der allerede har eksisterende ferskvand, vil i stedet få +2 [ICON_Housing] Boliger. Skal bygges ved siden af ​​Bycentrum.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_AERODROME_DESCRIPTION">
+      <Text>Et område, der tillader dig at bygge og opbevare fly. Kan ikke bygges på bakker.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION">
+      <Text>Et distrikt, der er påkrævet for at opføre videnskabssejrsprojekterne. Dette inkluderer lancering af jord satellit, lancering af månelanding, Mars koloni beboelse, Mars koloni hydroponik og Mars koloni reaktor. Kan ikke bygges på bakker.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ACROPOLIS_DESCRIPTION">
+      <Text>Et område unikt for Grækenland for kulturelle steder. Erstatter Theater Square området og er billigere at bygge. Giver 1 [ICON_Envoy] udsending når det er færdigt. [NEWLINE][NEWLINE]+1 [ICON_Culture] Kulturbonus for tilstødende bycenter. +1 [ICON_Culture] Kulturbonus for hver tilstødende vidunder og område. Kan kun bygges på bakker.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ACROPOLIS_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Standard [ICON_Culture] Kulturbonus for tilstødende bycenter. Standard [ICON_Culture] Kulturbonus for hvert tilstødende vidunder og distrikt. Kan kun bygges på bakker.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BATH_DESCRIPTION">
+      <Text>Et distrikt unikt for Rom til byvækst. Erstatning for Akvædukt-distriktet og billigere at bygge. [NEWLINE][NEWLINE] Det giver byen en kilde til frisk vand fra en tilstødende flod, sø, oase eller bjerg. Byer, der endnu ikke har eksisterende ferskvand, modtager op til 6 [ICON_Housing] Boliger. Byer, der allerede har eksisterende ferskvand, vil i stedet få +2 [ICON_Housing] Boliger. Skal bygges ved siden af ​​byens centrum. I begge tilfælde giver Badehuset en yderligere bonus på +2 [ICON_Housing] Boliger og +1 [ICON_Amenities] Velvære. Skal bygges ved siden af ​​byens centrum.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HANSA_DESCRIPTION">
+      <Text>Et område unikt for Tyskland til industrielle aktiviteter. Erstatter Industrizone-distriktet og er billigere at bygge. [NEWLINE] [NEWLINE] +2 [ICON_Produktion] Produktionsbonus, hvis det ligger op ad et Commercial Hub-distrikt. +1 [ICON_Produktion] Produktionsbonus for hvert tilstødende ressourcefelt. +1 [ICON_Produktion] Produktionsbonus for hver anden tilstødende distrikt-tile.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HANSA_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Stor [ICON_Production] Produktionsbonus, hvis den er ved siden af en Handelshub-distrikt. Standard [ICON_Production] Produktionsbonus for hver tilstødende ressource. Mindre [ICON_Production] Produktionsbonus for tilstødende distriktpladser.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_LAVRA_DESCRIPTION">
+      <Text>Et distrikt unikt for Rusland til religiøs aktivitet. Erstatter det Hellige Site-distriktet og billigere at bygge. [NEWLINE][NEWLINE] Din bygrænse vokser med en flise hver gang en Stor Person er brugt op i denne by. Lavra giver +1 [ICON_GreatWriter] Stor Forfatter-point per tur med et Shrine, +1 [ICON_GreatArtist] Stor Kunstner-point per tur med et Tempel og +1 [ICON_GreatMusician] Stor Musiker-point per tur med et Worship-bygning.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MBANZA_DESCRIPTION">
+      <Text>En bydel unik for Kongo, som kun kan opføres i regnskov eller skov. Erstatter kvarterdistriktet, men er tilgængelig tidligere og billigere at opføre. Giver +5 [ICON_Housing] boliger, +2 [ICON_Food] fødevarer og +4 [ICON_Gold] guld, uanset appellen.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_STREET_CARNIVAL_DESCRIPTION">
+      <Text>Et distrikt, unikt for Brasilien. Erstatter Underholdningskompleks-distriktet og giver +2 [ICON_Amenities] Velvære og er billigere at bygge. Låser også op for Karnevalsprojektet, som giver en yderligere +1 [ICON_Amenities] Velvære, når det er i gang og forskellige [ICON_GreatPerson] Store Person-point, når det er færdigt.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_DESCRIPTION">
+      <Text>En bydel unik for England til søaktiviteter i din by. Erstattet af Havn-bydelen og billigere at bygge. Fjerner også bevægelsesstraffen [ICON_Movement] for på- og afskibning til og fra denne flise. Skal bygges på kyst- eller sø-terræn ved siden af land.[NEWLINE][NEWLINE]+1 [ICON_Movement] Bevægelse for alle søenheder bygget i Dokyard[NEWLINE]+2 [ICON_Gold] Guld, når det bygges på en fremmed kontinent[NEWLINE]+1 [ICON_TradeRoute] Handelsrutekapacitet.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Stor [ICON_Gold] Guld bonus for hver tilstødende Bycenter. Standard [ICON_Gold] Guld bonus for hver tilstødende kystressource. Mindre [ICON_Gold] Guld bonus for tilstødende distriktstegn.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_REQUIRE_DISTRICT_Adjacency">
+      <Text>Skal være ved siden af en eksisterende bydel eller bycenter.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_REQUIRE_NOT_ADJACENT_TO_CITY">
+      <Text>Kan ikke være ved siden af en Bycenter.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MOUNTAINS_SCIENCE1">
+      <Text>+{1_num} [ICON_Science] Videnskab fra det tilstødende bjerg {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MOUNTAINS_SCIENCE2">
+      <Text>+{1_num} [ICON_Science] Videnskab fra det tilstødende bjerg {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MOUNTAINS_SCIENCE3">
+      <Text>+{1_num} [ICON_Science] Videnskab fra det tilstødende bjerg {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MOUNTAINS_SCIENCE4">
+      <Text>+{1_num} [ICON_Science] Videnskab fra det tilstødende bjerg {1_Num : plural 1?felt; other?felter;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MOUNTAINS_SCIENCE5">
+      <Text>+{1_num} [ICON_Science] Videnskab fra det tilstødende Bjerg {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_FARM">
+      <Text>+{1_num} [ICON_Science] Videnskab fra den tilstødende gård {1_Num: plural 1?tile; other?tiles;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_PLANTATION">
+      <Text>+{1_num} [ICON_Science] Videnskab fra den tilstødende Plantage {1_Num: plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_JUNGLE_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Videnskab fra de tilstødende regnskovstegn.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_BARRIER_REEF_SCIENCE">
+      <Text>+{1_num} [ICON_SCIENCE] Videnskab fra den tilstødende naturvidunderværk Great Barrier Reef.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_JUNGLE_2_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra den tilstødende regnskov {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_JUNGLE_2_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra den tilstødende regnskov {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_JUNGLE_2_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kultur fra den tilstødende regnskov {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_JUNGLE_2_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Videnskab fra den tilstødende regnskov {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Videnskab fra de tilstødende {1_Num : plural 1?distrikt; other?distrikter;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_1_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Videnskab fra tilstødende {1_Num : plural 1?område; other?områder;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NATURALWONDER_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra de tilstødende naturlige {1_Num : plural 1?underværk; other?underværker;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MOUNTAIN_FAITH1">
+      <Text>+{1_num} [ICON_Faith] Tro fra det tilstødende bjerg {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MOUNTAIN_FAITH2">
+      <Text>+{1_num} [ICON_Faith] Tro fra det tilstødende bjerg {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MOUNTAIN_FAITH3">
+      <Text>+{1_num} [ICON_Faith] Tro fra det tilstødende bjerg {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MOUNTAIN_FAITH4">
+      <Text>+{1_num} [ICON_Faith] Tro fra det tilstødende bjerg {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MOUNTAIN_FAITH5">
+      <Text>+{1_num} [ICON_Faith] Tro fra det tilstødende bjerg {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_FOREST_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra tilstødende skovfliser.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra de tilstødende distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_1_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra nabodistriktet.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_TUNDRA_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra den tilstødende Tundra {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DESERT_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra den tilstødende ørken {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_JUNGLE_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra den tilstødende regnskov {1_Num : plural 1?flis; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_STAVE_CHURCH_FOREST_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra de tilstødende skove {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_RIVER_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra den tilstødende flod.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HARBOR_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra det tilstødende Havnedistrikt.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra det tilstødende Royal Navy Dockyard-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra de tilstødende {1_Num : plural 1?distrikt; other?distrikter;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CITY_CENTER_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra den tilstødende City Center-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_1_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra de tilstødende {1_Num : plural 1?område; other?områder;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SEARESOURCE_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra det tilstødende hav {1_Num : plural 1?ressource; other?ressourcer;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WONDER_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kultur fra det tilstødende {1_Num : plural 1?vidunder; other?vidundere;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kultur fra det tilstødende {1_Num : plural 1?område; other?områder;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_1_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kultur fra de tilstødende {1_Num : plural 1?kvarter; other?kvarterer;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_CULTURE_STANDARD">
+      <Text>+{1_num} [ICON_Culture] Kultur fra de tilstødende {1_Num : plural 1?distrikt; other?distrikter;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CULTURE_CITY_CENTER">
+      <Text>+{1_num} [ICON_Culture] Kultur fra det tilstødende bycenter.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MINE_PRODUCTION">
+      <Text>+{1_num} [ICON_Produktion] Produktion fra de tilstødende {1_Num : plural 1?miner; other?miner;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_QUARRY_PRODUCTION">
+      <Text>+{1_num} [ICON_Produktion] Produktion fra de tilstødende {1_Num : plural 1?stenbrud; other?stenbrud;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_PRODUCTION">
+      <Text>+{1_num} [ICON_Produktion] Produktion fra de tilstødende {1_Num : plural 1?distrikt; other?distrikter;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DISTRICT_1_PRODUCTION">
+      <Text>+{1_num} [ICON_Produktion] Produktion fra de tilstødende {1_Num : plural 1?distrikt; other?distrikter;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMMERCIAL_HUB_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Produktion fra den tilstødende Commercial Hub bydel.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_RESOURCE_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Produktion fra de tilstødende {1_Num : plural 1?ressource; other?ressourcer;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_APPEAL_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Videnskab fra flisens appel.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_APPEAL_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kultur fra flisens appel.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_APPEAL_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Produktion fra flisens appel.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_APPEAL_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra flisens tiltrækningskraft.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_APPEAL_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra flisens appel.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BLOCKED_IMPROVEMENT">
+      <Text>[COLOR_RED]Forbedringen vil blive fjernet, når kvarteret bygges. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BLOCKED_FEATURE_TECH">
+      <Text>[COLOR_RED]Vi har brug for {1_TechName} til at fjerne {2_FeatureName} for at kunne bygge distriktet her. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_OK_REMOVE_FEATURE">
+      <Text>[COLOR_RED]Hvis området placeres her, fjernes {1_FeatureName}. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BLOCKED_HARVEST_TECH">
+      <Text>[COLOR_RED]Vi har brug for {1_TechName} til at fjerne {2_ResourceName} for at kunne bygge distriktet her. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_OK_HARVEST_RESOURCE">
+      <Text>[COLOR_RED]Hvis du placerer distriktet her, vil {1_ResourceName} blive fjernet.[ENDCOLOR]</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

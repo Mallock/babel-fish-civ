@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_DIPLO_RENEW_ALLIANCE_AI_AGREE_TO_PLAYER_POUNDMAKER">
+      <Text>Ja! Det er bedre for vores folk at rejse side om side end for dem at gå alene.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_RENEW_ALLIANCE_AI_REFUSE_TO_PLAYER_POUNDMAKER">
+      <Text>Mens vi var tæt før, må Cree nu rejse deres egen sti.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_PROPOSE_ALLIANCE_AI_TO_PLAYER_POUNDMAKER">
+      <Text>Hele mit liv har jeg søgt efter fred mellem folk. Lad vores alliance vise andre en bedre vej.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_RENEW_ALLIANCE_PLAYER_AGREE_TO_AI_POUNDMAKER">
+      <Text>Det er meget godt!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_RENEW_ALLIANCE_PLAYER_REFUSE_TO_AI_POUNDMAKER">
+      <Text>Måske vil du en dag indse, at både vores folkegrupper var stærkere, da vi var forenet.</Text>
+    </Row>
+    <!-- Chandragupta Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Sandt nok, Indien har længe tænkt det samme om jeres folk. At erklære det offentligt er en privilegium.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Mit folk deler ikke min entusiasme for vores venskab. Men de kan måske varme op til dig en dag.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Indien har stor respekt for dit folk. Med din tilladelse vil jeg erklære vores gensidige venskab for alle.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Jeg kan respektere det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Fejlen var min. Tilgiv mig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Jeg nød at være vært for din delegation. De gav mig meget at overveje angående vores fælles fremtid.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Selvom jeg ville være henrykt over at hilse på jeres delegation, er jeg optaget et andet sted. En anden gang!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Vores delegation bringer mange gaver. Drik al den krydrede kærnemælk du ønsker! Vi kan altid sende mere.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Selvom jeg ignorerer dine grusomme ord, vil Indien huske dem i lang tid.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Du er en skam for dit folk! Du taler med to munde, og ingen af dem er behagelige. (Fordømmer dig).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Du er velkommen til at tale.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Indien ser din fremtid hverken som en rival eller som en fremtidig undersåt, men snarere som en ægte partner. Hvad siger du?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Vores folk har spildt nok blod - både dit og mit. Lad os afslutte denne krig for deres skyld.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Er det en spøg? Nej.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Det er på tide at trække vores styrker tilbage fra slagmarken. Du må se visdommen i dette.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Jeg accepterer ydmygt din anmodning. Indien har meget at vinde ved en sådan aftale.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Jeg kan ikke. For nu skal Indiens grænser forblive lukkede for dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>At åbne jeres grænser ville hjælpe med at bringe jeres folk tættere på mine. Jeg ville selvfølgelig gengælde.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Jeg tror ikke, at jeres hær havde til hensigt at true Indien. Men det er bedst, hvis de trækker sig tilbage. Med det samme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Du har lært mine egne lektioner alt for godt. Jeg instruerede dig i min egen undergang.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Nej. Indien ville ikke have gavn af det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>En klog forslag!</Text>
+    </Row>
+    <!-- Lautaro Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Verden vil vide, at vi fører to folk med en vilje.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Mapuche er ikke klar til dette venskab. Måske vil vi være det med tiden.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>En vilje; to folk. Skal vi fortælle verden, at vi står som venner?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Ja, godt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Dette efterlader en dårlig smag i min mund.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Jeg takker dig for din delegation. Mapuche byder dem velkommen som ærede gæster.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Din delegation må ikke komme ind i Mapuche byer.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Mapuche sender gaver. Stoffet er vores fineste arbejde. Charquicán er lækkert. Vær venlig at acceptere disse.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Dine handlinger afspejler din sande natur. Mapuche kan ikke lide dig!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Mapuche bruger dit navn som en forbandelse. Hvem kan stå ved din side? Dine venner vender dig ryggen. (Anklager dig).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_LAUTARO_ANY">
+      <Text>Åh, det er dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Jeg ved nu, at du er værdig. Mapuche inviterer dig til at stå sammen med os.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_LAUTARO_ANY">
+      <Text>Mapuche har ikke mere mave til denne krig</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_LAUTARO_ANY">
+      <Text>I cannot.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Denne krig binder os til en destruktiv vej. Lad os i stedet gå frit.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Du er velkommen til at krydse Mapuche-land.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Denne jord tilhører kun Mapuche. Du skal gå et andet sted hen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Mapuche ønsker at rejse gennem dine lande, præcis som du ville ønske at rejse gennem vores.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_LAUTARO_ANY">
+      <Text>Mapuche tror, at jeres hære har til hensigt at skade os. Jeg vil give dig en chance for at berolige vores sind.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Vi gjorde modstand til det sidste, men det var for sent... for sent.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Du krænker mig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Du ærer Mapuche med dette.</Text>
+    </Row>
+    <!-- Poundmaker Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Jeg er gladest, når jeg skaber fred mellem nationer. Venskab mellem vores folk bringer mig glæde.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Det er godt, at du ønsker at være venner med Cree, men mit folk er ikke klar. Ikke nu.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Cree er klar til at byde dig velkommen som venner. Jeg beder dig venligst om at ære deres tillid.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Godt, godt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Dette er ikke, hvad jeg ønskede.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Mit folk bød jeres delegation velkommen til vores rådslagning.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Nej, mit folk ønsker ikke gaver som disse.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Mit folk sender dig gaver - bøffelskind og pimihkan. Med disse vil du kunne holde vinteren ud.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Dit ord er værdiløst, dit folk farer vild, og du har ingen venner, der vil stå ved din side.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Jeg sværger at beskytte mit folk mod nogen som dig. Dine løgne forurener luften. Du lever kun for at stjæle. (Fordømmer dig).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_POUNDMAKER_ANY">
+      <Text>Du er velkommen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Længe har Cree gjort allierede af vores venner. Vil du være den næste til at slutte dig til os?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_POUNDMAKER_ANY">
+      <Text>Fra en uretfærdig krig kan der komme en hel fred mellem os.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_POUNDMAKER_ANY">
+      <Text>Nej, dette er uholdbart.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Jeg har altid ønsket fred. Kan vores folk finde en måde at gå denne vej?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Der er plads nok til jeres folk til at krydse vores lande.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Cree stoler ikke på dig. Venligst hold dig til dine egne lande.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Mit folk ønsker at krydse dine lande. Vil du tillade det?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_POUNDMAKER_ANY">
+      <Text>Hvorfor sender I så mange hære nær vores grænser? Én enkelt tankeløs handling, og fred ville blive brudt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Hvis jeg havde ønsket krig, ville jeg ikke være her nu. Du fangede mig ikke. Jeg gav mig selv op.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>En nar ville acceptere dette. Jeg er ikke en nar.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Jeg ser visdommen i dette. Enig.</Text>
+    </Row>
+    <!-- Robert The Bruce Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Hvad en glad dag! Vi vil stå sammen som én, ligesom de to arme på saltiren.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Jeg tror, ​​du er den rigtige slags, men Skotland har stadig deres forbehold omkring dig. Ikke nu.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>I en verden af sladderhoveder, må retfærdige mennesker forenes som venner.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Magnifik.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Nej, jeg forstår.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Jeg har modtaget din delegation og inviteret dem til en cèilidh. Vi dansede indtil hanen gol!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Skotland vil hellere have ærlige ord fra dig end fine gaver, så jeg har sendt din delegation tilbage.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Vær venlig at acceptere mit folks fineste tweed og haggis. Åh, og lyt til sækkepiberne! Er de ikke fantastiske?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Du stinkende mødding! Du krogede mægler af værdiløse ord! Forsvind fra mit synsfelt!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Du hjælpeløse idiot! Jeg ville slå dig i hovedet med en økse, men jeg er bange for, at din tykke skalle ville knuse den. (Fordømmer dig).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Fortsæt, tal.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Vi ligner meget hinanden, du og jeg. Tag min hånd, og lad os vise verden, at vi står sammen!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Skotland nyder at slå jeres styrker rundt, men nok er nok.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Selvfølgelig ikke!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Lad os tale klart. Ingen "gensidig tilbagetrækning, ophør af fjendtligheder, osv." Våbenhvile, eller ej?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Det er fair. Pas på ikke at slå ind i markvæggene, når du krydser dem.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Du kan ikke bare komme og vandre rundt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>En god nabo er en, der lader en mand krydse sine marker, ville du ikke være enig?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Dine tropper bør ikke paradere uden for Skotlands territorium. Det bedste ville være at flytte dem væk.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>En ensom vind blæser gennem højlandet i dag. En sørgefuld melodi for Skotland. Kan du høre den?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Hvad et skodtilbud. Nej.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Hmm. Enig.</Text>
+    </Row>
+    <!-- Seondeok Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Korea accepterer glædeligt din erklæring. Jeg var ved at spørge det samme af dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Jeg kan ikke acceptere din erklæring. Det ville skabe mere problemer for Korea end det er værd.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Jeg føler, jeg må erklære Koreas venskab med dit folk. Med din aftale, selvfølgelig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Hvor vidunderligt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Sådan skal det ikke være.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Vi er taknemmelige for at modtage jeres delegation. Vi byder de gaver, I har medbragt, velkommen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Korea er forsigtig med at modtage en gave, indtil vi kender intentionerne hos giveren.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Venligst accepter vores lækre yukpo. Sojaen holder oksekødet mørt og smagfuldt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Korea har ikke gjort noget for at fortjene dine onde fornærmelser! Men nu vil vi måske.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Du er havets affald - din stank hænger ved alt, hvad du rører ved. (Fordømmer dig).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_SEONDEOK_ANY">
+      <Text>Du må tale.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Koreas allierede er dens styrke. Vi ville begge være stærkere sammen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SEONDEOK_ANY">
+      <Text>Jeg vil forråde min lyst til at besejre dig i bytte for en varig fred. Det vil jeg ikke forråde.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SEONDEOK_ANY">
+      <Text>Udelukket.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Denne krig er blevet en distrahering for os begge. Lad os trække os tilbage og tage os af vores folk.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Jeg byder handel og udveksling af ideer velkommen, som kommer med åbne grænser.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Det er klogt at holde vores grænser lukket for dig, indtil dine intentioner er klare.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Trods forsigtighedens klogskab, kunne åbne grænser gøre det godt for at forbedre vores relationer.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SEONDEOK_ANY">
+      <Text>Korea værdsætter ikke soldaterne nær vores grænser. Træk dem tilbage øjeblikkeligt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Jeg forudså mit eget endeligt, men ikke at Korea ville dele min skæbne.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Tak, men jeg kan ikke være enig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Et tiltalende tilbud. Korea skal acceptere det.</Text>
+    </Row>
+    <!-- Genghis Khan Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Ørne svæver højt over duer og kaniner. Lad os stå i venskab, og resten kan krybe i skyggen af os.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Nej. Antag ikke, at Mongoliet beundrer dig så meget.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Accepter Mongoliets venskab! Jeg vil se verden ryste, når de lærer, at vi er forenet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Mongoliet vil sætte pris på dette.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Mongoliet vil huske det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Mine ryttere eskorterede jeres delegation til sikkerhed og distribuerede jeres gaver. De var tilstrækkelige.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Dine gaver er unødvendige. Hvis jeg ønskede de ting, ville jeg tage dem.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>I am sending you gifts—surplus horses, a youth's bow, and airag to fortify you. Drink up!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Dum og svag! Hvordan er du endnu ikke blevet erobret?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Your weakness and folly anger me. One day, perhaps soon, you will learn the danger in that. (Denounces You).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Jeg vil overveje dine ord.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Kør med Mongoliet. Du ved, at dit hjerte længes efter denne alliance.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Selvom jeg foretrækker at fortsætte denne kamp, så ønsker Mongoliet ikke det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Ikke engang hvis du tilføjede din fineste hest.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Vi ved begge, at Mongoliet vil besejre dig. Lad os suspendere denne krig. For nu.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Du må krydse vores lande. Beundre vores styrker, mens du passerer igennem.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Hvad der er vores, er vores, om det så er besætninger eller jord</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Jeg ønsker, at du tillader mine styrker at rejse gennem dit land</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GENGHIS_KHAN_ANY">
+      <Text>De hære, du har i nærheden af vores grænser, er en fristende mål. Af hensyn til deres sikkerhed bør du flytte dem.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Du har gjort mongolske klaner lamme. Min respekt for dig er næsten lige så stor som afskyen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Du kalder det en aftale. Jeg kalder det røveri.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Enig. Det bedste for os begge.</Text>
+    </Row>
+    <!-- Shaka Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Selvfølgelig! Zulu-børnene respekterer jeres folk, og I har bevist jer som en sand ven.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Du er ikke en ægte ven for Zulus børn. Med mere indsats kunne du være det, men nu? Nej.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Børnene i Zulu vil stå sammen med dig, hvis du står sammen med dem. Skal vi erklære vores venskab?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Jeg er ikke uden taknemmelighed.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Gør ikke nar af mig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Din delegation er ankommet. Zulus børn byder dine gaver velkommen, men forvent ikke at købe loyalitet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Indtil jeg kender dit niveau, kan jeg ikke acceptere nogen gave, du giver.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Jeg sendte en ceremoniel iklwa. De er opkaldt efter lyden de laver, når de trækkes ud af sår.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Dine ord er beskidte. Du har en råddenskab i dit centrum. Den eneste måde at rense det er ved at skære det ud.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>En svag krop kan træne. Et svagt sind kan lære. Men som du afslører, er der ingen kur mod en svag hjerte. (Forkaster dig).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_SHAKA_ANY">
+      <Text>Dig igen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Forskellene blandt vores folk betyder ingenting. Vil du kæmpe ved vores side? Dette er alt, hvad der betyder noget.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SHAKA_ANY">
+      <Text>Hvis du søger fred, vil børnene fra Zulu acceptere din anmodning.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SHAKA_ANY">
+      <Text>Du spilder min tid.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Denne krig ødelægger os begge. Enhver sejr ville være tom. Kom, lad os lægge vores våben ned.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Enig. Det er bedre at se sin nabos styrke end at forestille sig svaghed.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Zulus børn har ingen brug for jeres folk, der famler sig igennem vores lande.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Zulus børn har intet at skjule. Jeres folk er velkomne inden for vores lande.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SHAKA_ANY">
+      <Text>De tropper, du marcherer langs Zulu-grænserne, udgør et fristende mål for min impi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Sandt, du afsluttede min regering. Men jeg vil leve videre i dine mareridt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Gør ikke nar af mig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Ja – for nu.</Text>
+    </Row>
+    <!-- Tamar Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Jeg troede, det var en grusom spøg, men efter at have tænkt over det, bemærker jeg din oprigtighed. Georgia accepterer dit ønske.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Venskab? Georgia er mange ting, men ikke én af dem involverer at være din ven.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Du er blandt de få, som Georgia kan stole på. Hvis du er enig, vil jeg lade alle vide det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Dine handlinger er værdige til min taknemmelighed.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Du er umulig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Din delegation forårsagede ikke en hændelse. Jeg betragter det som en succes.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Georgia har presserende sager. Dette er ikke tiden til at være vært for dine købmænd.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Georgiske handlende bringer mange strenge af churchkhela. De laver en fyldig dessert.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Du er en afskyelig person. Dit folk fortjener en bedre leder end dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>At kalde dig en tankeløs krølle er en fornærmelse mod krøller. (Forkaster dig).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_TAMAR_ANY">
+      <Text>Hvorfor har du forstyrret mig?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Ved at kombinere vores styrke vil det give vores fælles fjender frygt. Går jeg ud fra, at du ser fordelene.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TAMAR_ANY">
+      <Text>Jeg er tilfreds med, at du har lært din lektie. Denne krig kan ende.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TAMAR_ANY">
+      <Text>Beklageligt. Dybt beklageligt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Denne krig må slutte. Jeg vil ikke indrømme nogen skyld i dens årsag.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Jeg antager, at det vil fremme handel mellem vores folk. Georgien vil åbne sine grænser. For nu.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Georgien har ikke brug for udenlandsk indflydelse på dets lande. I hvert fald ikke din.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Mine rådgivere anbefaler, at Georgien åbner sine grænser. Jeg ser visdom i deres ord.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TAMAR_ANY">
+      <Text>Du tester min tålmodighed med soldater langs den georgiske grænse. Fjern dem, eller også bliver de fjernet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Murene var ikke nok til at redde Georgien fra ruin. Det var jeg heller ikke.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Prøv igen. Denne gang med et rigtigt tilbud.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Det gør ondt at være enig, men jeg må.</Text>
+    </Row>
+    <!-- Wilhelmina Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Vi er meget glade for at modtage venskabets hånd. Må vores fremtid være lang og velstående!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Vi anerkender ikke din påstand om venskab med Holland.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Civilisationer med så venlige relationer som vores burde erklære dette til verden, er du ikke enig?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Wonderful.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Hvor uheldigt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Vi har budt jeres delegerede velkommen med passende æresbevisninger, og vi takker jer.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Det er upassende for os at acceptere dine gaver, som jeg er sikker på, du forstår.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Holland sender dig gaver som hilsen - træsko, oste og nogle lækre stroopwafels</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Vi giver dig fordel af vores ærlige mening: At du er uegnet til at styre og udgør en trussel mod Nederlandene.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Det er vores brændende ønske at fortælle dig, hvor forfærdelig vi finder dig, og vi ønsker, at dit styre vil være kortvarigt. (Anklager dig).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_WILHELMINA_ANY">
+      <Text>Du har vores opmærksomhed.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Du har bevist at være en pålidelig partner i vores nations sag, og vi søger at styrke dette forhold.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_WILHELMINA_ANY">
+      <Text>Ja. Vores kamp har varet længe nok. Lad os genopbygge det, vi har mistet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_WILHELMINA_ANY">
+      <Text>Simpelthen umuligt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Holland vil hellere handle varer end at slås. Vi bør straks stoppe denne krig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Nederlandene er glade for at acceptere dit forslag og vil åbne vores grænser for dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Vi kan ikke tillade dig at krydse vores lande frit.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Ville det ikke være bedst for vores interesser at åbne rejser mellem vores lande?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WILHELMINA_ANY">
+      <Text>Tror du, at vi er uvidende om dine planer? Vi kræver, at du øjeblikkeligt flytter dine tropper fra vores grænser!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Med Guds hjælp, må Holland en dag vinde sit territorium tilbage.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Vi må afvise.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Vi har ikke hørt et bedre tilbud.</Text>
+    </Row>
+    <!-- Leader Text-->
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CHANDRAGUPTA_ANY">
+      <Text>De bedste naboer er dem, der er langt væk. Lige nu er du Indiens bedste nabo.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Der er ingen afstand mellem vores lande. Mit folk er tvunget til at udholde stanken fra jeres eget.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_LAUTARO_ANY">
+      <Text>Dit folk er meget stolte af, hvor de kommer fra. Det er tydeligt, at de følger din ledelse.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_LAUTARO_ANY">
+      <Text>Hvordan leder du sådan en kedelig folk? Følger de det eksempel, du sætter?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_POUNDMAKER_ANY">
+      <Text>Jeg har stor respekt for dem, der erklærer deres venskaber for verden.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_POUNDMAKER_ANY">
+      <Text>Vælg dine venskaber klogt - men du skal vælge.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Det er klogt at holde fred med dine naboer. Blodfejder er dyre at betale.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Hold dine krige på afstand. Ellers trækker du snavset ind på dine egne landområder.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SEONDEOK_ANY">
+      <Text>Dit mesterskab af skabelsens hemmeligheder er misundelsesværdigt for mit folk.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SEONDEOK_ANY">
+      <Text>Mens andre strækker sig efter himlen, klør du i jorden.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Kavaleriet du har på marken er en skam, men heldigvis en lille en.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Du ville ikke bære en fåreblære og kalde det en hjelm. Så hvorfor påstå, at du har samlet "kavaleri"?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SHAKA_ANY">
+      <Text>De hære, du stiller op, afslører din styrke. Har du renset ud i fjolset? Det er altid klogt at rense ud i fjolset.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SHAKA_ANY">
+      <Text>Hvorfor tillade dine styrker at beholde deres identitet? De bør samles for at tjene én vilje - din.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TAMAR_ANY">
+      <Text>Jeg værdsætter de mure, du bygger for dit folk. Du har en georgisk ånd.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TAMAR_ANY">
+      <Text>Dit folk er alt for tillidsfulde. De vil lade enhver komme ind i deres byer - selv barbarer.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_WILHELMINA_ANY">
+      <Text>Holland blomstrer med hver forsendelse, du sender til os.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_WILHELMINA_ANY">
+      <Text>Dem, der afviser handel, tror ofte, at de kan tage, hvad de vil fra os. De tager fejl.</Text>
+    </Row>
+    <!-- First AI line -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Jeg er Chandragupta, Mauryan kejser af forenet Indien. Nej, det er ikke gået mig til hovedet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_LAUTARO_ANY">
+      <Text>Jeg er Lautaro, den hurtige høg. Mapuche ærer mig med respekt. Vil jeg se det samme fra dig?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_POUNDMAKER_ANY">
+      <Text>Jeg er Poundmaker, og jeg repræsenterer Cree. Må der altid være fred mellem os.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Jeg er Robert the Bruce. Skotland følger mig - være det gennem hvedemarker eller kampmarker.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SEONDEOK_ANY">
+      <Text>Jeg, Seondeok af Korea, anerkender dig. Vores møde var forudset.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Jeg er Genghis Khan. Foran mig ligger fremtidens mongolske lande. Bag mig er den eneste kavaleri, der betyder noget.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SHAKA_ANY">
+      <Text>Du står foran Shaka fra Zulu-stammen. Tør du vende ryggen til mine hære? Jeg vil ikke begå en sådan fejl.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TAMAR_ANY">
+      <Text>Jeg er Tamar fra Georgien. Sig hvad du vil og vær på vej.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_WILHELMINA_ANY">
+      <Text>Jeg er Wilhelmina, dronning af Nederlandene. Det er min store fornøjelse endelig at møde dig.</Text>
+    </Row>
+    <!-- AI invitation to visit nearby City -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Du rejser nær indisk territorium. Hvorfor ikke besøge og slappe af ved vores store stepwells?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_LAUTARO_ANY">
+      <Text>Du nærmer dig Mapuche-land. Søger du at gå blandt vores chemamull og lære om vores forfædre?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_POUNDMAKER_ANY">
+      <Text>Jeg inviterer dig til at komme som min gæst og se, hvordan Cree-folket lever.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Mens du er i nabolaget, ville du ikke ønske at se vores hovedstad?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SEONDEOK_ANY">
+      <Text>Du skal besøge vores hovedstad. Vores seowon er de fineste eksempler på videnskabelig og politisk tænkning.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Ved du, hvem's lande du nærmer dig? Se Keshik samles og vid, at det her er Mongoliet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SHAKA_ANY">
+      <Text>Du skal rejse til Zulu-hovedstaden. Der er styrke i vores ikanda - noget du selv skal se.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TAMAR_ANY">
+      <Text>Jeg vil føre dig til vores hovedstad. Se vores højt befæstede tsikhe.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WILHELMINA_ANY">
+      <Text>Holland byder dig velkommen til at lære vores hovedstad at kende og inviterer dig til at gengælde.</Text>
+    </Row>
+    <!-- AI accepts Human invitation -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Kun en tosse ville afvise det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_LAUTARO_ANY">
+      <Text>Du ærer Mapuche med dette.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_POUNDMAKER_ANY">
+      <Text>Jeg ser visdommen i dette. Enig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Kan ikke sige nej til det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SEONDEOK_ANY">
+      <Text>Et tiltalende tilbud. Korea skal acceptere.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Jeg kan acceptere dette.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SHAKA_ANY">
+      <Text>Great, here's the text to be translated:
+
+"Can you please help me find the nearest gas station?"</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TAMAR_ANY">
+      <Text>Very well.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WILHELMINA_ANY">
+      <Text>Vi udtrykker vores taknemmelighed.</Text>
+    </Row>
+    <!-- AI invitation to exchange Capital Information -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Vi bør tale om vores hovedstæder. Bestemme hvor langt vi er fra hinanden.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_LAUTARO_ANY">
+      <Text>Jeg vil fortælle dig om hovedstaden i Mapuche, hvis du vil fortælle mig om din hovedstad.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_POUNDMAKER_ANY">
+      <Text>Kom og se, hvor min familie bor, og vis os, hvor du kalder hjem.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Jeg har lyst til at tage et kig på jeres hovedstad. Og da jeg er en retfærdig mand, vil jeg tage jer med for at se Skotlands.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SEONDEOK_ANY">
+      <Text>Jeg vil give dig vejledning til vores hovedstad, hvis du vil gøre det samme for mig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Vi bør udveksle oplysninger om vores hovedstæder. En dag vil jeg måske gerne besøge dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SHAKA_ANY">
+      <Text>Jeg kan guide dig til Zulu-hovedstaden, hvis du guider mig til din. En risiko at dele, ja - men en lille en.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TAMAR_ANY">
+      <Text>Vi bør give vejledning til vores hovedstæder, så vi kan kommunikere direkte med hinanden.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WILHELMINA_ANY">
+      <Text>Vi ønsker at bytte placeringen af vores hovedstæder til gensidig og varig fordel.</Text>
+    </Row>
+    <!-- Diplomatic rationales for denouncement -->
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_BILLIONAIRE_TRADE">
+      <Text>(Du handler ikke med dem.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_CHEOMSEONGDAE_LOW_SCIENCE">
+      <Text>(Din videnskabelige produktion er elendig.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_FLOWER_OF_SCOTLAND_WAR_NEIGHBORS">
+      <Text>(Du er i konflikt med dine naboer.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_HORNS_CHEST_LOINS">
+      <Text>(Dit brug af korps/hære er pinligt.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_HORSE_LORD">
+      <Text>(Din kavaleri er for konkurrencepræget.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_IRON_CONFEDERACY_FEW_ALLIANCES">
+      <Text>(Du har ikke tilstrækkelige alliancer.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_MAURYA_EMPIRE_NEIGHBORS">
+      <Text>(Dine grænser er for tæt på ham.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_NARIKALA_FORTRESS_LOW_WALLS">
+      <Text>(Du bygger ikke nok vægge.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_SPIRIT_OF_TUCAPEL_LOSING_CITIES">
+      <Text>(Du mister byer på grund af mangel på loyalitet.)</Text>
+    </Row>
+    <!-- Human Declares War -->
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Indien frygter ikke krig. Det mest du kan gøre er at bremse vores retmæssige fremgang.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Jeg vidste, at jeg ikke kunne stole på dig! Vi har længe forberedt os til denne krig. Har du gjort det?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Du kunne have fundet en anden måde. Nu vil dine fortrydelser blive målt i blod.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Du tåbelige radger! Du vil spise dine egne tænder, før du sætter fod i Skotland!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Dit nederlag skal være hurtigt ... dit folk, glemt. Dette har jeg forudset.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Ingen flere ord. I dag går Mongoliet mod din nederlag.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Stærke ord, men de skælver på dine læber. Allerede ser jeg, at du svækkes af frygt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Georgiske hjerter vil ikke ryste foran jeres mange.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Din forræderiske aggression vil ikke lykkes. Holland modstår!</Text>
+    </Row>
+    <!-- AI Declares War -->
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Dit territorium kunne blive meget forbedret under indisk styre. Bedst jeg ser det igennem.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Det handler om krig. Mapuche skal bruge deres egne våben imod dig!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Jeg bekymrer mig ikke om at påføre dig krigens rædsler - men retfærdigheden kræver det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Krig hænger stadig i vores hjerter. Hvorfor fortsætte med en falsk fred?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Stjernerne forudser dit nederlag. Hvorfor strides med himlen?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Du står i vejen for mine hære. Snart vil du falde foran dem.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Der er for meget svaghed i dig. Frygt ikke - Zulus børn vil fjerne den.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Gud kæmper med os. Du står alene.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Nederland frygter dig ikke. Når vi besejrer dig, vil vi være stærkere end nogensinde før.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

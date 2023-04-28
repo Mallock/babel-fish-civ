@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Political Event Titles-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_1">
+      <Text>OPDAGER KLAR</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_2">
+      <Text>KOLONISKIB ANKOMMER</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_3">
+      <Text>EN NATION BLIVER FØDT</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_4">
+      <Text>FØRSTE VERDENSKRIG</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_5">
+      <Text>ANDEN VERDENSKRIG</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_6">
+      <Text>YDERLIGERE KOLONISTER</Text>
+    </Row>
+    <!-- Political Event Descriptions-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_1">
+      <Text>En eventyrlysten opdagelsesrejsende er rejst fra den britiske koloni New South Wales for at afsløre mysterierne på den australske kontinent</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_2">
+      <Text>Vi har rekrutteret et skib fyldt med modige sjæle til at starte jeres nye koloni. Vi har store forhåbninger til denne gruppe: ikke alle er straffefanger.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_3">
+      <Text>Nu hvor mange generationer har levet og døde som australske oprindelige folk, ønsker vores folk at danne vores separate stater til et forenet land. Det er tid til, at Australien føderer og danner en ny nation uafhængig af Storbritannien</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_4">
+      <Text>En stor krig plager kontinentet Europa, og vores moderland, Storbritannien, er blevet trukket ind i denne strid. Vi vil sende tropper for at yde vores støtte</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_5">
+      <Text>En anden verdenskrig er brudt ud, og denne gang er endda vores hjemland Australien i fare. Som vores premierminister John Curtin har mindet os om: "Frihedens flamme, tændt i dette land af vores første bosættere og holdt i gang af de generationer, der fulgte, kan ikke udslukkes af nogen fjende."</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_6">
+      <Text>Din borgerlige fremskridt er blevet bemærket tilbage i England. Flere kolonister er lige ankommet og ønsker at gøre din koloni til deres nye hjem.</Text>
+    </Row>
+    <!-- Political Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_1">
+      <Text>Brug denne opdagelsesrejsende for de næste fire ture til at finde det bedste sted for en ny bosættelse.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_2">
+      <Text>En gratis bosætter vil dukke op i starten af ​​næste tur på den kystnære flise tættest på din opdagelsesrejsende.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_3">
+      <Text>Når du fuldfører Føderationsborgeren, vil du være i stand til at opgradere til det stærkeste regeringssystem, statsregeringen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_4">
+      <Text>Du kan nu starte AIF-projektet i en af dine byer. Hver sådan bidrag, du giver til krigsindsatsen, vil forbedre din stats position i vores nation, og du vil tjene +10 [ICON_Gold] Guld per tur.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_5">
+      <Text>Færdiggørelsen af AIF-projektet er endnu vigtigere på dette tidspunkt og vil belønne dig med +20 [ICON_Gold] Guld per tur.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_6">
+      <Text>En fri bosætter er dukket op i din hovedstad. Fra dette tidspunkt skal nye byer bygges inden for 10 felter fra en af dine eksisterende byer.</Text>
+    </Row>
+    <!-- Danger Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_1">
+      <Text>Din {1_UnitName} har lidt {2_Damage} skade.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_2">
+      <Text>Dit {1_UnitName} er blevet dræbt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_3">
+      <Text>Din {1_UnitName} har permanent mistet 1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_4">
+      <Text>Du mister {1_Amount} [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_5">
+      <Text>Dit {1_UnitName} er vendt tilbage til den nærmeste by {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_6">
+      <Text>Dit nærliggende {1_Improvement} er blevet plyndret.</Text>
+    </Row>
+    <!-- Delay Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_1">
+      <Text>Dit {1_UnitName} har mistet {2_Movement} bevægelsespoint for denne tur.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_2">
+      <Text>Din {1_UnitName} vil ikke kunne flytte sig i denne tur.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_3">
+      <Text>Viden om noget af terrænet nær {1_UnitName} er gået tabt.</Text>
+    </Row>
+    <!-- Benefit Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_1">
+      <Text>En {1_UnitName} er ankommet til den nærmeste by {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_2">
+      <Text>En {1_UnitName} er ankommet ved siden af din {2_UnitName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_3">
+      <Text>Uudforsket område nær din {1_UnitName} er blevet afsløret.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_4">
+      <Text>Din {1_UnitName} har permanent fået +1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_5">
+      <Text>Din {1_UnitName} er blevet fuldstændig helbredt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_6">
+      <Text>Dit {1_UnitName} har fået healet {2_HitPoints} sundhedspoints.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_7">
+      <Text>Din nærliggende by {1_CityName} har fået en befolkningsstigning på 1.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_8">
+      <Text>Du får {1_Amount} [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_9">
+      <Text>Du modtager en Eureka for teknologien {1_TechName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_10">
+      <Text>Du modtager en inspiration til den civile {1_CivicName}.</Text>
+    </Row>
+    <!-- Exploration Event Titles-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_1">
+      <Text>Fanget i en strøm af trækninger</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_2">
+      <Text>Børstet mod kassemaneten</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_3">
+      <Text>Samlede en Keglesnegl</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_4">
+      <Text>Forsinket på grund af farlig tåge</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_5">
+      <Text>Forsynet af aboriginalske fiskere</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_6">
+      <Text>Lej Rock Hoppers</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_7">
+      <Text>Frodige vande beliggende</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_1">
+      <Text>Skammeligt Undervurderet Vandbehov</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_2">
+      <Text>Stampede af kameler</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_3">
+      <Text>Trådte på en Dødsadderknude</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_4">
+      <Text>Forsinket på grund af uophørlig støvstorm</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_5">
+      <Text>Oasis Spotted (Note: This phrase cannot be translated without further context. It may be a brand name, a location or a title of something.)</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_6">
+      <Text>Fandt uovervåget dingo affald</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_1">
+      <Text>Overfaldet af Bushrangers</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_2">
+      <Text>Fanget i en skovbrand</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_3">
+      <Text>Chikaneret af dingoes</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_4">
+      <Text>Spiste de forkerte bær</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_5">
+      <Text>Genopfyldt af besættere</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_6">
+      <Text>Swagmen til leje</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_1">
+      <Text>Stenskred!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_2">
+      <Text>Ekstremt kolde nætter</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_3">
+      <Text>Forsyninger faldt ned i kløften</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_4">
+      <Text>Frugtbar passage</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_5">
+      <Text>Fossiler til leje</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_6">
+      <Text>Opdaget bjergkilde</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_1">
+      <Text>Skænderi med Rød Kænguru</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_2">
+      <Text>Fortsatte tørkeforhold</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_3">
+      <Text>Spinifex-infektion</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_4">
+      <Text>Totalt tab af retning</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_5">
+      <Text>Kvægpassere til leje</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_6">
+      <Text>Led til vand af Galah Flock</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_1">
+      <Text>Malaria-problemer</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_2">
+      <Text>Udsvævet af pestgræshopper</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_3">
+      <Text>Vasket væk i en flash oversvømmelse</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_4">
+      <Text>Fast i mudderbankerne</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_5">
+      <Text>Fanget Yabbies i strømmen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_1">
+      <Text>Fortæret af saltvandskrokodille</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_2">
+      <Text>Grusomt inficerede sår</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_3">
+      <Text>Bidt af en Tragtspindel</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_4">
+      <Text>Spiste den forkerte fisk</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_5">
+      <Text>Tabt i sumpen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_6">
+      <Text>Skræmmende Bunyip-rygter</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_1">
+      <Text>Inficeret med trådorm</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_2">
+      <Text>Drukket for meget vand for hurtigt</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_3">
+      <Text>Afholdt et næsten oprør</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_4">
+      <Text>Genvundet på Billabong</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_5">
+      <Text>Fredfyldt restitution</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_1">
+      <Text>Alt her er gift</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_2">
+      <Text>Forskrækkede en kasuar</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_3">
+      <Text>Ramte af denguefeber</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_4">
+      <Text>Plaget af stikkende myresværm</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_5">
+      <Text>Afsløret videnskabeligt mysterium</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_1">
+      <Text>Ophidset østlig brun slange</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_2">
+      <Text>Brændt brænde fra eukalyptustræ</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_3">
+      <Text>Vred territoriel emu</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_4">
+      <Text>Falske rygter om Drop Bears</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_5">
+      <Text>Opdaget Emu Æg Klynge</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_1">
+      <Text>Ugunstig efterår</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_2">
+      <Text>Rammet af skørbug</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_3">
+      <Text>Konfliktende retning</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_4">
+      <Text>Glemte at binde hestene op</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_5">
+      <Text>Opdaget en genvej</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_6">
+      <Text>Forsynet af aboriginal-stammen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_7">
+      <Text>Følgte Dingo-stien</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_8">
+      <Text>Tvist med rivaliserende eventyrere</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_9">
+      <Text>Opdaget unøjagtigheder i kort</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_10">
+      <Text>Skat!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_11">
+      <Text>Aboriginale guider til leje</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_12">
+      <Text>Uforvarende fornærmet aboriginerne</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_13">
+      <Text>Startede brand ved et uheld i buskadset</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_14">
+      <Text>Aboriginernes migration</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_15">
+      <Text>Frugtbarløs Diskussion med Aboriginere</Text>
+    </Row>
+    <!-- Exploration Event Descriptions-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_1">
+      <Text>Hvad begyndte som en forfriskende dukkert i havet endte i tragedie.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_2">
+      <Text>Sådan en skrøbelig ting, fyldt med flydende smerte.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_3">
+      <Text>Et smukt ydre skjuler en lille, giftig harpun.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_4">
+      <Text>Det rullede ind fra havet, tykkere end kanonrøg.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_5">
+      <Text>De kendte de lokale farvande og fangede de lokale fisk. Vi gjorde ingen af delene.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_6">
+      <Text>Hvordan fisker de fra kystklipper uden at glide? En gåde!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_7">
+      <Text>Det var et fantastisk fund. Nok til at støtte en bosættelse.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_1">
+      <Text>Hestene var de første til at dø, deliriske af tørst.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_2">
+      <Text>Forladt af tidlige kolonister, er de siden blevet vilde.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_3">
+      <Text>Det hele blander sig sammen i det solbrændte terræn. Selv slangerne.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_4">
+      <Text>Det kom ind i alt. Dage senere kastede vi stadig af os.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_5">
+      <Text>Vi fandt en ø af liv i den ødelagte ørken.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_6">
+      <Text>Du skal forstå. Det var nødvendigt for vores overlevelse.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_1">
+      <Text>De tog mad, men efterlod os vand. De var tyve, ikke mordere.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_2">
+      <Text>Det brændte varmere end en støberi. Brynene blev afsvedet og huden svedet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_3">
+      <Text>De forfulgte os i dagevis og dræbte til sidst et vildtfarende pakdyr.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_4">
+      <Text>Smerten løb gennem vores tarme som varme kul.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_5">
+      <Text>De var i færd med at skabe sig et nyt liv ude i bushen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_6">
+      <Text>Omrejsende landmænd søgte stabilt arbejde, afhængigt af sæsonen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_1">
+      <Text>Det var vores uheld at have slået lejr i dens vej.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_2">
+      <Text>Magre tæpper kunne ikke stoppe en kølig vind fra bjergene.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_3">
+      <Text>Set i bakspejlet skulle vi have opbevaret dem længere væk fra kanten.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_4">
+      <Text>Hvad syntes at være en lovende genvej, førte til en dag med spildt indsats.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_5">
+      <Text>Mange søgte guldminer langt og bredt. Få fandt rigtige formuer.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_6">
+      <Text>En beskyttet kilde gav os al det vand, vi kunne bære.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_1">
+      <Text>I vores forsvar søgte vi at lære, hvad den bar i sin pung.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_2">
+      <Text>Gerrige planter ville have os til at dø af tørst, før de gjorde det.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_3">
+      <Text>Blade spidserne brød af i vores kød, da vi børstede mod dem.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_4">
+      <Text>I uendeligt ensformigt terræn var det ret let at miste vores vej.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_5">
+      <Text>Det var ensomt og hårdt arbejde, men de havde ikke noget imod betingelserne.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_6">
+      <Text>Vi marcherede hen til, hvor de bosatte sig. Smukke fugle. Lidt vildt smagende.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_1">
+      <Text>Der var tilstrækkeligt med myg i luften til at formørke himlen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_2">
+      <Text>De hærgede landskabet for alt, hvad der kunne opretholde os.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_3">
+      <Text>Hvis man ikke er i stand til at nå høj grund, kan man ganske enkelt forsvinde.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_4">
+      <Text>Nogle støvler og strømper gik tabt i mudderet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_5">
+      <Text>De er spiselige når de koges, undtagen skallerne.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_1">
+      <Text>Der var ingen lyd eller skrig. Bare en bølge på vandet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_2">
+      <Text>De forbandende spyfluer var helt sikkert skyldige.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_3">
+      <Text>Jo mindre skabningen er, jo mere potent er dens gift. Generelt set.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_4">
+      <Text>Ikke alle fisk er til spisning. Især ikke den der.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_5">
+      <Text>Terrænet synes at skifte i løbet af dagen. Er det et lysbedrag?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_6">
+      <Text>Der er ingen tvivl om, at en buskånd forfulgte os i den sump.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_1">
+      <Text>Selv den friskeste vand i Outbacken bærer tarmlidelser.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_2">
+      <Text>Efter at have været uden i så lang tid, fører tørsten til dårlige valg.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_3">
+      <Text>De nægtede at forlade oasen. Det kom næsten til håndgemæng.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_4">
+      <Text>Den ensomme vandhul løftede vores ånd.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_5">
+      <Text>En dejlig dag. Ville det kunne udligne alle de andre.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_1">
+      <Text>Ethvert insekt, dyr, blomst, rod eller vin kan have dræbt os.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_2">
+      <Text>At tænke på, da den først sprang og sparkede med sine fødder, grinede vi.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_3">
+      <Text>Feberen varede i en periode, inden et sår bar skæbnens segl.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_4">
+      <Text>Vi havde den enestående uheld at lægge os til at sove oven på myrebo.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_5">
+      <Text>Der er vidundere at finde i denne mærkelige skov.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_1">
+      <Text>Den afslørede sin ondskabsfulde natur, da den slog til uden nogen god grund.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_2">
+      <Text>Vi forudså ikke eksplosionen. Nogle troede, det var et kanonangreb.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_3">
+      <Text>Dens voldsomme hakken overraskede os.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_4">
+      <Text>Vi stødte aldrig på en kødædende koala. Vi var de heldige.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_5">
+      <Text>Når de spises rå, har blommen konsistensen af buskostrer.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_1">
+      <Text>Hvis nødvendigt kan du skyde en halt hest. Ikke sådan med en person.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_2">
+      <Text>Huden ville skalle af på ganen. Meget ubehageligt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_3">
+      <Text>Hårde betingelser og hidsige temperament fører ofte til skænderier.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_4">
+      <Text>En simpel fejl i byen. Mindre simpelt i Outbacken.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_5">
+      <Text>En tilsyneladende almindelig sti ville lejlighedsvis vise løfte.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_6">
+      <Text>Heldigvis er der ikke overalt i bushen mennesketomt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_7">
+      <Text>Dingoes rejste til vand og bytte. Bedst at følge de lokale.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_8">
+      <Text>Mange var ivrige efter at påstå fundene til sig selv</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_9">
+      <Text>Måske havde de ret. Perspektivet er mærkeligt i Outback.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_10">
+      <Text>Det er en skam, at det blev fundet på liget af en mislykket opdagelsesrejsende.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_11">
+      <Text>Vi kunne dele vores gruppe for at dække mere terræn.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_12">
+      <Text>Meget senere forstod vi det som en alvorlig fornærmelse mod klanen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_13">
+      <Text>På det tidspunkt havde vi ingen idé om, hvor langt det ville rejse. Alt for langt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_14">
+      <Text>Dårlige forhold førte dem til at søge deres lykke andre steder.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_15">
+      <Text>Det virker som om deres tidligere møder med udefrakommende var negative.</Text>
+    </Row>
+    <!-- Exploration Event Journal Entries-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_1">
+      <Text>Skyllet ud til havs, formodes druknet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_2">
+      <Text>Tråd på parringssting. Amputation mislykkedes.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_3">
+      <Text>Holdt konisk skal op til øret. Hørte ikke havet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_4">
+      <Text>Synlighed ikke-eksisterende. Ingen fremgang.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_5">
+      <Text>Byttet til frisk mad og vand.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_6">
+      <Text>Behagelige typer, ivrige efter arbejde.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_7">
+      <Text>Det er en sand overflod. Lokationen er registreret.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_1">
+      <Text>For at overleve, er vi afhængige af det vand, vi skaber.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_2">
+      <Text>Trampet på. Blændet af dromedar spyt. Lav moral.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_3">
+      <Text>Bidt på læggen. Lungerne lukkede snart efter.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_4">
+      <Text>Visibility nonexistent. Spittle muddy. No progress.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_5">
+      <Text>Velkommen lettelse i sigte. Placering registreret.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_6">
+      <Text>Forsyninger genopfyldt. Moral lav.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_1">
+      <Text>Mistede tænder i den første slåskamp. Mad blev også tabt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_2">
+      <Text>Kunne ikke skelne rester blandt asken. Fortsætter.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_3">
+      <Text>Endeløs hylet. Fire nætter uden søvn. Moral lav.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_4">
+      <Text>Dehydreret. Demoraliseret. For svag til at rejse.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_5">
+      <Text>Mætte og genopfyldte. Moral høj.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_6">
+      <Text>Givet kort til nærmeste bosættelse.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_1">
+      <Text>Medicinsk forsyninger tabt. Skader forbliver dårligt behandlet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_2">
+      <Text>Frostskader. Vi må fortsætte, før vi alle bliver ramt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_3">
+      <Text>Genopretningsforsøget mislykkedes. Sulten, såret, demoraliseret.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_4">
+      <Text>Pass var en blindgyde. Vendte tilbage til tidligere lejrplads.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_5">
+      <Text>Dirigerede fossilerne til nærmeste koloniminekontor.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_6">
+      <Text>Beskyttet og forsynet. God mulighed for indsamling af fødevarer. Høj moralsk.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_1">
+      <Text>Gentagne spark førte til organskader, efterfulgt af død.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_2">
+      <Text>Landet er udtørret. Ekspeditionen er også udtørret. Fremad.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_3">
+      <Text>Umuligt at undgå spinifex-klumper i dette terræn.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_4">
+      <Text>Krydsede gårsdagens vej to gange før middag. Moral er lav.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_5">
+      <Text>Den nærmeste outback station vil snart have flere kvægdrivere.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_6">
+      <Text>Vandflasker og maver fyldt til bristepunktet. Moral høj.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_1">
+      <Text>Uendelig feber. Konvalescens umulig. Moral lav.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_2">
+      <Text>Indsamling af fødevarer er ineffektiv. Bælterne strammet. Moral lav.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_3">
+      <Text>Blev fejet ud af lejren om natten, antaget død.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_4">
+      <Text>Ingen bemærkelsesværdig fremgang. Dækket af fluer. Lav moral.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_5">
+      <Text>Har fundet krebsdyr! Madforsyningen er genopfyldt. Moral høj.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_1">
+      <Text>Afgik, da vi troede det var tilfredsstillet. Fejlvurderet, en gang.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_2">
+      <Text>De ramte flygtede skrigende ind i marsken. Formodes døde.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_3">
+      <Text>Hvilke rædsler denne uvenlige land indeholder!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_4">
+      <Text>En rodet død fulgte efter fuldstændig lammelse.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_5">
+      <Text>Timer med hård rejse. Fandt lejrpladsen. Vores, fra i går.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_6">
+      <Text>Bunyips påstand er en klar undvigelse. Ingen fremskridt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_1">
+      <Text>Kløe førte til infektion. Kan ikke sove eller blive siddende.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_2">
+      <Text>Forventet at komme sig efter vandsyge. Ingen fremskridt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_3">
+      <Text>Forsigtighed foreslår, at vi forlænger vores rekonvalescensperiode.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_4">
+      <Text>Behagelige toiletbesøg. Højt humør.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_5">
+      <Text>Madvarer genopfyldt. Vandsække fyldt til bristepunktet. Moral høj.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_1">
+      <Text>Endnu en død af ukendt årsag fra en ukendt kilde.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_2">
+      <Text>Halsen skåret over af en fugl med barberbladskløer. Døden var hurtig.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_3">
+      <Text>Det er dengue. Vi ved alle, hvordan det ender. Moral er lav.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_4">
+      <Text>Soveposer ubrugelige. Brugte dagen på at ryge myrerne ud.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_5">
+      <Text>Tog omfattende noter. Navngivningsrettighederne skal være vores!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_1">
+      <Text>Gentog farene ved at drive slanger ind i en krog.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_2">
+      <Text>Heste urolige. Brandsår lindret. Øjenbryn afsvedne.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_3">
+      <Text>Øje mistet. Orbit inficeret. Emu lår tilbudt til offer.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_4">
+      <Text>Mistede en dag til fuldstændig vrøvl. Tåber omgiver mig.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_5">
+      <Text>Forsyninger genopfyldt. Moral høj.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_1">
+      <Text>Alvorlig skade på grund af terrænets luner.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_2">
+      <Text>I desperat behov for kvalitets madvarer.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_3">
+      <Text>Det kom til håndgemæng, nogle af dem alvorlige. Moral lav.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_4">
+      <Text>Svært understregede nødvendigheden af at tøjle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_5">
+      <Text>Har fundet en skjult sti for at fremskynde morgendagens rejse.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_6">
+      <Text>Handlet for frisk mad og vand. Fortsætter ufortrødent.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_7">
+      <Text>Fandt billabong, jagede dingoes væk, genopfyldte vandet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_8">
+      <Text>Endelig blev der nået en aftale om delte navnerettigheder.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_9">
+      <Text>Der kræves yderligere undersøgelse. Stedet er noteret.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_10">
+      <Text>Løftet om belønning har fået vores antal begejstrede. Moral høj.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_11">
+      <Text>Hvilken held! Vi har nu fordoblet vores formue.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_12">
+      <Text>Afrejste hurtigt fra området for at undgå yderligere provokation.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_13">
+      <Text>Lejrbålets gløder startede branden. Flygtede for vores liv.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_14">
+      <Text>Dirigerede klanen til nærmeste bosættelse. Fremad.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_15">
+      <Text>Handel afvist, til trods for forsikringer. Afgik kort efter.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

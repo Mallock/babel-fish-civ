@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Promotion Class Names -->
+    <Row Tag="LOC_PROMOTION_CLASS_RECON_NAME">
+      <Text>Rekonstruere</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_MELEE_NAME">
+      <Text>Mellemkamp/ nærkamp</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_RANGED_NAME">
+      <Text>Rækkevidde</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SIEGE_NAME">
+      <Text>Belægning</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_ANTI_CAVALRY_NAME">
+      <Text>Anti Kavaleri</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_LIGHT_CAVALRY_NAME">
+      <Text>Let kavaleri</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_HEAVY_CAVALRY_NAME">
+      <Text>Tungt kavaleri</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_AIR_FIGHTER_NAME">
+      <Text>Luftkæmper</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_AIR_BOMBER_NAME">
+      <Text>Luftbomber</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_MELEE_NAME">
+      <Text>Søslag</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_RANGED_NAME">
+      <Text>Sømilitær Langdistance</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_CARRIER_NAME">
+      <Text>Sømilitær hangarskib</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_RAIDER_NAME">
+      <Text>Søkriger</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_APOSTLE_NAME">
+      <Text>Religiøs apostel</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_INQUISITOR_NAME">
+      <Text>Religiøs inkvisitor</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SUPPORT_NAME">
+      <Text>Support</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SPY_NAME">
+      <Text>Spionage</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_MONK_NAME">
+      <Text>Kriger Munk</Text>
+    </Row>
+    <!-- Formation Class Names -->
+    <Row Tag="LOC_FORMATION_CLASS_AIR_NAME">
+      <Text>Luftkamp</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_CIVILIAN_NAME">
+      <Text>Civilist</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_LAND_COMBAT_NAME">
+      <Text>Landskamp</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_NAVAL_NAME">
+      <Text>Søslag</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_SUPPORT_NAME">
+      <Text>Support</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_FAITH_INCREASE_FLOATER">
+      <Text>+{1_Num} [ICON_Tro]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_FAITH_DECREASE_FLOATER">
+      <Text>{1_Num} [ICON_Faith] [COLOR_RED]MISTET[ENDCOLOR]</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_UNIT_DAMAGE_DECREASE_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_DAMAGE_INCREASE_FLOATER">
+      <Text>[COLOR_RED]{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <!-- Experience Message -->
+    <Row Tag="LOC_WORLD_UNIT_EXPERIENCE_INCREASE_FLOATER">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num}XP[ENDCOLOR] (Experience points)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_EXPERIENCE_INCREASE_LEVEL_FLOATER">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num} XP[NEWLINE]*KAMPAGNE TILGÆNGELIG*[ENDCOLOR]</Text>
+    </Row>
+    <!-- Production Yield Message -->
+    <Row Tag="LOC_WORLD_PRODUCTION_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_PRODUCTION]+{1_Num} [ICON_Production][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_PRODUCTION_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_PRODUCTION]{1_Num}[ICON_Production][ENDCOLOR] [COLOR_RED]MISTET[ENDCOLOR]</Text>
+    </Row>
+    <!-- Food Yield Message -->
+    <Row Tag="LOC_WORLD_FOOD_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_FOOD]+{1_Num} [ICON_Food][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_FOOD_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_FOOD]{1_Num} [ICON_Food][ENDCOLOR] [COLOR_RED]MISTET[ENDCOLOR]</Text>
+    </Row>
+    <!-- Gold Yield Message -->
+    <Row Tag="LOC_WORLD_GOLD_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_GOLD_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_GOLD]{1_Num} [ICON_Gold][ENDCOLOR] [COLOR_RED]LOST[ENDCOLOR]</Text>
+    </Row>
+    <!-- Science Yield Message -->
+    <Row Tag="LOC_WORLD_SCIENCE_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_SCIENCE]+{1_Num} [ICON_Science][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_SCIENCE_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_SCIENCE]{1_Num} [ICON_Science][ENDCOLOR] [COLOR_RED]MISTET[ENDCOLOR]</Text>
+    </Row>
+    <!-- Culture Yield Message -->
+    <Row Tag="LOC_WORLD_CULTURE_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num} [ICON_Culture][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CULTURE_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_CULTURE]{1_Num} [ICON_Culture][ENDCOLOR] [COLOR_RED]MISTET[ENDCOLOR]</Text>
+    </Row>
+    <!-- Civilian-->
+    <Row Tag="LOC_UNIT_SETTLER_DESCRIPTION">
+      <Text>Kan oprette nye byer. Reducerer [ICON_Citizen] Befolkningen i byen med 1, når den er færdig.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BUILDER_DESCRIPTION">
+      <Text>Kan skabe flise-forbedringer, fjerne elementer som skove eller regnskove, eller høste nogle ressourcer. Byggere kan bruges 3 gange. Dette kan øges gennem politikker eller vidundere som Pyramiderne.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRADER_DESCRIPTION">
+      <Text>Må oprette og vedligeholde en enkelt [ICON_TradeRoute] Handelsrute. Opretter automatisk veje, mens den rejser.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MISSIONARY_DESCRIPTION">
+      <Text>Kan konvertere [ICON_Citizen] Borgere til deres religion. Må ikke starte teologisk kamp med enheder fra andre religioner (men kan forsvare sig).</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_APOSTLE_DESCRIPTION">
+      <Text>Kan konvertere [ICON_Citizen] Borgere til deres Religion og initiere teologisk kamp med enheder af andre Religioner. Én gang per spil kan du starte en Inkvisition for at tillade køb af inkvisitorer. Én gang per spil kan du evangelisere tro for at tilføje en yderligere tro til din Religion. Disse anvendelser forbruger Apostelen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INQUISITOR_DESCRIPTION">
+      <Text>De kan eliminere tilstedeværelsen af ​​andre religioner på deres territorium og indlede teologisk kamp med enheder fra andre religioner.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GURU_DESCRIPTION">
+      <Text>Kan anvende en opladning for at helbrede sig selv og alle tilstødende venlige religiøse enheder. Må ikke starte teologisk kamp med enheder fra andre religioner (men kan forsvare sig).</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_WARRIOR_MONK_DESCRIPTION">
+      <Text>En hurtig bevægende landkampsenhed med en unik promoveringsrække.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARCHAEOLOGIST_DESCRIPTION">
+      <Text>Find og udvind [ICON_GreatWork_Artifact] Artefakter fra [ICON_RESOURCE_ANTIQUITY_SITE] Antikvitetssteder for at blive udstillet i deres hjemby's Museum.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPY_DESCRIPTION">
+      <Text>Udfører hemmelige missioner i fremmede byer og beskytter dine byer mod fjendtlige spioner.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NATURALIST_DESCRIPTION">
+      <Text>En civil person sent i spillet, som kan skabe en enkelt nationalpark for at tiltrække [ICON_Tourism] turister. Skal købes med [ICON_Faith] tro.</Text>
+    </Row>
+    <!-- Great People-->
+    <Row Tag="LOC_UNIT_GREAT_GENERAL_DESCRIPTION">
+      <Text>Hver [ICON_GreatGeneral] Store General har unikke evner, herunder en passiv effekt og en Effekt ved Pensionering. Besøg panelet Store Personer for at lære mere og spore din fremgang.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ADMIRAL_DESCRIPTION">
+      <Text>Hver [ICON_GreatAdmiral] Stor Admiral har unikke evner, herunder en passiv effekt og en pensioneringseffekt. Besøg panelet med Store Personer for at lære mere og følge din fremgang.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ENGINEER_DESCRIPTION">
+      <Text>Hver [ICON_GreatEngineer] stor ingeniør har unikke evner, når de aktiveres. Besøg panelet for Store Personer for at lære mere og følge din fremgang.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_MERCHANT_DESCRIPTION">
+      <Text>Hver [ICON_GreatMerchant] Storhandler har unikke evner når de aktiveres. Besøg panelet for Store Personligheder for at lære mere og holde styr på din fremgang.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_PROPHET_DESCRIPTION">
+      <Text>Store [ICON_GreatProphet] Profeter kan grundlægge en religion, når de aktiveres. Besøg panelet for Store Personligheder for at lære mere og følge din fremgang.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_SCIENTIST_DESCRIPTION">
+      <Text>Hver [ICON_GreatScientist] Store Videnskabsmand har unikke evner, når de aktiveres. Besøg panelet med Store Personer for at lære mere og følge din fremgang.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_WRITER_DESCRIPTION">
+      <Text>Hver [ICON_GreatWriter] Store Forfatter genererer et [ICON_GreatWork_Writing] Stort Skriftligt Værk når den aktiveres. Besøg panelet for Store Personligheder for at lære mere og følge din fremgang.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ARTIST_DESCRIPTION">
+      <Text>Hver [ICON_GreatArtist] Store Kunstner genererer et [ICON_GreatWork_Landscape] Stort Kunstværk når aktiveret. Besøg panelet for Store Personligheder for at få mere at vide og følge din fremgang.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_MUSICIAN_DESCRIPTION">
+      <Text>Hver [ICON_GreatMusician] stor musiker genererer et [ICON_GreatWork_Music] stort musikværk, når den er aktiveret. Besøg panelet for Store Personligheder for at lære mere og følge din fremgang.</Text>
+    </Row>
+    <!-- Recon-->
+    <Row Tag="LOC_UNIT_SCOUT_DESCRIPTION">
+      <Text>Hurtig bevægende rekognosceringsenhed fra oldtiden.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RANGER_DESCRIPTION">
+      <Text>Hurtigt bevægende industrielt tidsalders rekognosceringsenhed.</Text>
+    </Row>
+    <!-- Melee-->
+    <Row Tag="LOC_UNIT_WARRIOR_DESCRIPTION">
+      <Text>Svag melee enhed fra den antikke æra.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPEARMAN_DESCRIPTION">
+      <Text>Anti-kavalerienhed fra oldtiden.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SWORDSMAN_DESCRIPTION">
+      <Text>Stærk melee-enhed fra den klassiske æra.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIKEMAN_DESCRIPTION">
+      <Text>Anti-kavaleri enhed fra middelalderen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MUSKETMAN_DESCRIPTION">
+      <Text>Melee enhed fra renæssancetiden.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INFANTRY_DESCRIPTION">
+      <Text>Moderne nærkampsenhed.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MECHANIZED_INFANTRY_DESCRIPTION">
+      <Text>Informationsalderens enhed til nærkamp.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AT_CREW_DESCRIPTION">
+      <Text>Moden tids modtræk til kavaleri enheder.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MODERN_AT_DESCRIPTION">
+      <Text>Informationsalderen modsvares ikke af kavaleriklassens enheder.</Text>
+    </Row>
+    <!-- Ranged-->
+    <Row Tag="LOC_UNIT_SLINGER_DESCRIPTION">
+      <Text>Svag gammel tidsalder rækkevidde enhed. Bedre til angreb end forsvar.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARCHER_DESCRIPTION">
+      <Text>Første æra i antikken med en rækkevidde på 2 for en enhed med [ICON_Range].</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION">
+      <Text>Middelalderlig rækkevidde enhed.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION">
+      <Text>Industriel tidsalder rækkeenhed.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION">
+      <Text>Atomær æra-rækkeenhed.</Text>
+    </Row>
+    <!-- Light Cavalry-->
+    <Row Tag="LOC_UNIT_HORSEMAN_DESCRIPTION">
+      <Text>Hurtigt bevægende let kavaleri enhed fra den klassiske æra.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CAVALRY_DESCRIPTION">
+      <Text>Hurtigt bevægende let kavalerienhed fra den industrielle æra.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HELICOPTER_DESCRIPTION">
+      <Text>Hurtig bevægende let kavalerienhed fra atomalderen.</Text>
+    </Row>
+    <!-- Siege-->
+    <Row Tag="LOC_UNIT_CATAPULT_DESCRIPTION">
+      <Text>Klassisk tidsalder belejringsenhed, ideel til at angribe byer. Kan ikke bevæge sig og angribe på samme tur, medmindre de har opnået Ekspertbesætning-promoveringen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BOMBARD_DESCRIPTION">
+      <Text>Belægningsenhed fra renæssancetiden, ideel til at angribe byer. Kan ikke bevæge sig og angribe på samme tur, medmindre de har opnået ekspertbesætningsfremmelsen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARTILLERY_DESCRIPTION">
+      <Text>Moderne belejringsenhed, ideel til at angribe byer. Kan ikke bevæge sig og angribe på samme tur, medmindre de har fået Expert Crew forfremmelsen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ROCKET_ARTILLERY_DESCRIPTION">
+      <Text>Informationsalderens belejringsenhed, ideel til angreb på byer. Kan ikke flytte og angribe på samme tur medmindre de har opnået Ekspertbesætning-forfremmelsen.</Text>
+    </Row>
+    <!-- Support-->
+    <Row Tag="LOC_UNIT_BATTERING_RAM_DESCRIPTION">
+      <Text>En enhed til støtte fra oldtiden. Når den er ved siden af en by, gør angribende melee-enheder fuld skade på byens mure.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SIEGE_TOWER_DESCRIPTION">
+      <Text>Klassisk æra støtteenhed. Når den er ved siden af en by, ignorerer angribende melee-enheder murene og angriber straks byen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDIC_DESCRIPTION">
+      <Text>Industrieltids-støtteenhed. Kan helbrede tilstødende enheder.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION">
+      <Text>Moderne støtteenhed. Giver +1 [ICON_Range] rækkevidde til belejringsenheder inden for 1 hex.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MILITARY_ENGINEER_DESCRIPTION">
+      <Text>Støtteenhed fra middelalderen. Kræver et Våbenhus for at kunne produceres. Kan konstruere Veje, Forter, Flyvebaner og Missil-silo-forbedringer.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANTIAIR_GUN_DESCRIPTION">
+      <Text>Atomært tidsalder anti-luft support enhed. Giver dækning mod luftangreb op til 1 hex væk fra våbnet.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MOBILE_SAM_DESCRIPTION">
+      <Text>Enhed til anti-luft støtte i informationstidsalderen. Giver dækning mod luft- og atomangreb op til 1 felt væk fra våbnet.</Text>
+    </Row>
+    <!-- Heavy Cavalry -->
+    <Row Tag="LOC_UNIT_HEAVY_CHARIOT_DESCRIPTION">
+      <Text>Hårdtslående enhed af tung kavaleri fra oldtiden. Får en bonus på 1 [ICON_Movement] bevægelse, hvis den starter en tur på en flad flise uden skov, regnskov eller bakker.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KNIGHT_DESCRIPTION">
+      <Text>Hårdtslående, tungt kavaleri-enhed fra middelalderen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MODERN_ARMOR_DESCRIPTION">
+      <Text>En informationsalderen tung kavalerienhed, der er hurtig og stærk.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TANK_DESCRIPTION">
+      <Text>En hurtig og moderne tung kavalerienhed, der ignorerer kontrolzonen.</Text>
+    </Row>
+    <!--Naval-->
+    <Row Tag="LOC_UNIT_GALLEY_DESCRIPTION">
+      <Text>En enhed til nærkamp i den gamle æra, der kun kan operere på kystvande, indtil kartografi er blevet forsket.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_QUADRIREME_DESCRIPTION">
+      <Text>Klassisk æra havfartøj. Kan kun operere på kystnære farvande, indtil kartografi er forsket.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CARAVEL_DESCRIPTION">
+      <Text>Hurtig melee søfartsenhed fra renæssancetiden.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_IRONCLAD_DESCRIPTION">
+      <Text>Kraftfuld pansret nærkamp søenhed fra den industrielle æra.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUCLEAR_SUBMARINE_DESCRIPTION">
+      <Text>Højt avanceret informations-tidsalder rækkevidde angrebsskibsenhed, som kan udstyres med atomvåben. Kan kun ses af andre søangribere, medmindre den er ved siden af dem. Afslører søangribere inden for synsvidde.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SUBMARINE_DESCRIPTION">
+      <Text>Moderne tidsalder rækkevidde raiding søenhed. Kan kun ses af andre sørøverenheder, medmindre den er ved siden af dem. Afslører sørøvere inden for synsafstand.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRIVATEER_DESCRIPTION">
+      <Text>En søfartsenhed fra renæssancetiden med evnen til kystangreb. Kan kun ses af andre søfartsrøvere, medmindre den er ved siden af dem. Afslører søfartsrøvere inden for synsrækkevidde.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FRIGATE_DESCRIPTION">
+      <Text>Renessance-tidsalderens rækkevidde søenhed.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AIRCRAFT_CARRIER_DESCRIPTION">
+      <Text>Atomtids-melee marineenhed, der kan transportere luftenheder.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION">
+      <Text>Moderne hav-ranged enhed. Giver dækning mod luft- og atomangreb op til 1 flise væk.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION">
+      <Text>Den stærkeste rangede marineenhed, tilgængelig i informationsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_DESTROYER_DESCRIPTION">
+      <Text>Stærkeste nærkampsskibsenhed. Afslører sørøvere inden for synsvidde.</Text>
+    </Row>
+    <!--Air Units-->
+    <Row Tag="LOC_UNIT_BIPLANE_DESCRIPTION">
+      <Text>Første luftkampsenhed, tilgængelig i den moderne æra.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FIGHTER_DESCRIPTION">
+      <Text>Opgradering af biplan fra atomalderen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BOMBER_DESCRIPTION">
+      <Text>Første bombeflysenhed, tilgængelig i Atomalderen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JET_FIGHTER_DESCRIPTION">
+      <Text>Opgradering af kampfly i informationsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JET_BOMBER_DESCRIPTION">
+      <Text>Opgradering af bombefly i informationsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAN_AT_ARMS_DESCRIPTION">
+      <Text>Melee-enhed fra middelalderen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_LINE_INFANTRY_DESCRIPTION">
+      <Text>Industrieltids melee-enhed.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TREBUCHET_DESCRIPTION">
+      <Text>Middelalderlig belejringsenhed, ideel til angreb på byer. Kan ikke flytte og angribe på samme tur, medmindre de har opnået ekspert besætning forfremmelse.</Text>
+    </Row>
+    <!-- Unique Units-->
+    <Row Tag="LOC_UNIT_BARBARIAN_HORSEMAN_DESCRIPTION">
+      <Text>Primitiv hesterytterkriger fra oldtiden.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BARBARIAN_HORSE_ARCHER_DESCRIPTION">
+      <Text>Primitiv hesterytter-bueskytte fra oldtiden.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_DESCRIPTION">
+      <Text>Egyptisk enestående ranged enhed fra den gamle tidsalder, som erstatter Heavy Chariot. 4 [ICON_Movement] bevægelse, når den starter i åbent terræn.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREEK_HOPLITE_DESCRIPTION">
+      <Text>Græsk unik enhed fra den antikke æra, der kan bekæmpe kavaleri og erstatter Spydmændene. +10 [ICON_Strength] kampstyrke, hvis der er mindst en tilstødende Hoplite-enhed.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_DESCRIPTION">
+      <Text>Scythians unikke enhed fra den klassiske tid. En enhed med afstandskamp, med 4 [ICON_Movement] bevægelse og en [ICON_Range] rækkevidde på 1.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SUMERIAN_WAR_CART_DESCRIPTION">
+      <Text>Sumerisk unik enhed fra oldtiden. Stærkere end alle andre startenheder. Ingen straffe mod anti-ridderenheder. 4 [ICON_Movement] Bevægelse, hvis denne enhed starter i åbent terræn.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION">
+      <Text>Den engelske unikke enhed fra industriel æra, når Victoria er deres leder, erstatter Line Infantry. +10 [ICON_Strength] Kampstyrke, når man kæmper på en anden kontinent end din hovedstads. Ingen udskejelse omkostninger.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_ROUGH_RIDER_DESCRIPTION">
+      <Text>Amerikansk unikt Industriel tidsalder enhed, når Teddy Roosevelt er deres leder. [ICON_Culture] Kultur optjenes fra drab på deres [ICON_Capital] Hovedstads kontinent. +10 [ICON_Strength] Kampstyrke, når der kæmpes på bakker. Lavere vedligeholdelsesomkostninger.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ROMAN_LEGION_DESCRIPTION">
+      <Text>Romersk enestående melee enhed fra den klassiske æra, der erstatter Sværdmanden. Kan bygge en romersk fæstning.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION">
+      <Text>Japansk unik middelalderlig nærkampsenhed, der erstatter Mand-At-Arms. Oplever ikke kampstraf, når den er beskadiget.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION">
+      <Text>Norsk unik middelalderlig nærkampenhed, der erstatter Mand-At-Arms. 4 [ICON_Movement] Bevægelse, hvis denne enhed starter i fjendens territorium. +10 [ICON_Strength] Kampstyrke ved angreb og -5 [ICON_Strength] Kampstyrke ved forsvar mod nærkampangreb.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NORWEGIAN_LONGSHIP_DESCRIPTION">
+      <Text>Norsk unik enhed fra antikken, der erstatter Galley. Kan plyndre fjendtlige kystlande og tage civile til fange, hvis de er nærliggende, ved at bruge sin evne til kystangreb. Bevæger sig 4 [ICON_Movement] mens den er i kystfarvande.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION">
+      <Text>Kinesisk enestående enhed fra Middelalderen. En ranged enhed med en [ICON_Range] Rækkevidde på 1 og høj kampstyrke.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION">
+      <Text>Spansk unik enhed fra renæssancen, der erstatter Musketmanden. +10 [ICON_Strength] kampstyrke, når der er en religiøs enhed inden for en hex. Hvis denne enhed erobrer en by eller er ved siden af en by, når den erobres, vil byen automatisk antage Conquistador-spillerens religion som den dominerende religion.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RUSSIAN_COSSACK_DESCRIPTION">
+      <Text>Russisk unikt industrielt tidsalder enhed, som erstatter kavaleri. Stærkere end kavaleri og får +5 [ICON_Strength] Kampstyrke, når den kæmper i eller ved siden af sit hjemland. Kan flytte efter angreb, hvis der er [ICON_Movement] bevægelsespoint tilbage.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION">
+      <Text>Indisk unik tung kavalerienhed fra den klassiske æra. Nærliggende fjendtlige enheder modtager -5 [ICON_STRENGTH] kampstyrke.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KONGO_SHIELD_BEARER_DESCRIPTION">
+      <Text>Kongo unik enhed fra den klassiske æra, der erstatter Sværdmanden. +10 [ICON_Strength] Kampstyrke, når der forsvares mod fjendens afstand angreb. Kan bevæge sig og se igennem skove og regnskove.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARABIAN_MAMLUK_DESCRIPTION">
+      <Text>En unik arabisk middelalderlig enhed, der erstatter ridderen. Helbredes i slutningen af ​​hver tur, selv efter bevægelse eller angreb.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ENGLISH_SEADOG_DESCRIPTION">
+      <Text>Danish: Unik søfartsenhed fra renæssancetiden, der erstatter kaperfarten. Har en chance for at erobre besejrede fjendeskibe. Kan kun ses af andre sørøvere, medmindre de er ved siden af den. Afslører sørøvere inden for synsrækkevidde.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION">
+      <Text>Fransk unikt melee-enhed fra Industrial-æraen, der erstatter Line Infantry. +10 [ICON_Strength] Kampstyrke, når den kæmper på dit hovedstads kontinent. [ICON_GreatGeneral] Store generalpoint for at dræbe enheder.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GERMAN_UBOAT_DESCRIPTION">
+      <Text>Tysk unik moderne flådeenhed, der erstatter undervandsbåden. Billigere at producere, +1 syn, og +10 [ICON_Strength] kampstyrke, når den kæmper på oceanfliser. I stand til at afsløre andre skjulte enheder.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_P51_DESCRIPTION">
+      <Text>Amerikansk unik Atomic æra luftenhed, der erstatter Fighter. Får +5 [ICON_Strength] kampstyrke mod kampfly, har +2 flyveområde og får +50% erfaring.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_DESCRIPTION">
+      <Text>Brasiliansk unik enhed fra industriel tidsalder, der erstatter slagskibet. Stærkere end slagskibet. Låst op ved nationalisme.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UNIT_TYPE_NAME_SUFFIX">
+      <Text>({1_UnitTypeName})</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

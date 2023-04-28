@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- TEMPORARY KLUDGE: DO NOT USE ".", "'", or "-" punctuation in this file until DiplomacyActionView.lua has been updated to have a more robust string parsing algorithm! -->
+    <!-- Standard modifiers -->
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLY">
+      <Text>Ally (this is already in English, so no need for translation)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEMAND">
+      <Text>Vi stillede en efterspørgsel til dem</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_JOINT_WAR">
+      <Text>Vi kæmpede en fælles krig sammen</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_CONVERTED">
+      <Text>Vi konverterede deres religiøse by</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CULTURE_BOMBED">
+      <Text>Vi kultur bombede en af deres byer</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_OCCUPIED">
+      <Text>Vi besætter en af deres byer</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_OCCUPIED_FRIEND">
+      <Text>Vi har besat en by tilhørende deres ven eller allierede</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_LIBERATED_CITY">
+      <Text>Vi befriede en by</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_LIBERATED_MY_CITY">
+      <Text>Vi befriede en af deres byer</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_RAZED_MY_CITY">
+      <Text>Vi jævnede en af deres byer med jorden</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_SURPRISE_WAR_ON_FRIEND">
+      <Text>Erklærede en overraskelseskrig mod en ven</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_FRIEND">
+      <Text>Fordømte en ven</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_FRIENDSHIP_WITH_FRIEND">
+      <Text>Erklæret venskab med en ven</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIED_WITH_FRIEND">
+      <Text>Erklærede en alliance med en ven</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_SURPRISE_WAR_ON_ENEMY">
+      <Text>Erklærede krig overraskelsesangreb mod en fjende</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_ENEMY">
+      <Text>Fordømte en fjende</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_FRIENDSHIP_WITH_ENEMY">
+      <Text>Erklærede venskab med en fjende</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_ALLIED_WITH_ENEMY">
+      <Text>Erklærede en alliance med en fjende</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_FRIEND">
+      <Text>Erklæret ven</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEFENSIVE_PACT">
+      <Text>Forsvars Pagt</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DELEGATION">
+      <Text>Vi sendte dem en delegation</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED">
+      <Text>Vi fordømte dem</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_HAD_FRIENDLY_MEETING">
+      <Text>Venligt møde</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_NEAR_BORDER_WARNING">
+      <Text>Vi havde tropper på deres grænse</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SETTLED_NEAR_BORDER_WARNING">
+      <Text>Vi bosatte os for tæt på deres grænse</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SHARED_RELIGION">
+      <Text>De følger vores religion</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_STOP_SPYING_ON_ME_WARNING">
+      <Text>Vi blev taget i at spionere på dem</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_STOP_DIGGING_UP_ARTIFACTS_WARNING">
+      <Text>Vi blev fanget i at grave artefakter op på deres territorium</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BROKEN_PROMISE">
+      <Text>Vi brød en diplomatisk aftale, vi lavede med dem</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CLOSE_TO_VICTORY">
+      <Text>Vi vinder. De frygter os.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_KEPT_PROMISE">
+      <Text>Vi holdt et diplomatisk løfte, vi gav dem</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_NO_PROMISE">
+      <Text>Vi besluttede os for ikke at give dem en diplomatisk forsikring</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_OPEN_BORDERS">
+      <Text>Åbne grænser</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GAVE_OPEN_BORDERS">
+      <Text>Du gav åbne grænser</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_RECEIVED_OPEN_BORDERS">
+      <Text>Du har modtaget åbne grænser</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_RESIDENT_EMBASSY">
+      <Text>Vi etablerede en ambassade der</Text>
+    </Row>
+    <!-- Historical agenda modifiers -->
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLY_OF_ENKIDU_DECLARED_FRIEND">
+      <Text>Gilgamesh kan lide Deklarerede Venner</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLY_OF_ENKIDU_DENOUNCED_FRIEND">
+      <Text>Gilgamesh hader det, når du fordømmer hans venner</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BACKSTAB_AVERSE_FRIEND">
+      <Text>Tomyris kan lide erklærede ven</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BACKSTAB_AVERSE_SURPRISE_WAR">
+      <Text>Tomyris bryder sig ikke om mennesker, der erklærer overraskelseskrige</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_OBSESSED_LAGGING">
+      <Text>Pedro er tilfreds med din mangel på store personer</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_OBSESSED_LEADING">
+      <Text>Pedro er ked af, at du har flere fantastiske mennesker end ham</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WESTERNIZER_LAGGING">
+      <Text>Peter er skuffet over, at du har lidt videnskab og kultur</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WESTERNIZER_LEADING">
+      <Text>Peter er tilfreds med din videnskab og kultur</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WITH_SHIELD_OR_ON_IT">
+      <Text>Gorgo vil se dig kæmpe eller ved, at du har betalt for fred</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WITH_SHIELD_NEVER_WARRED">
+      <Text>Gorgo vil gerne se dig kæmpe</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WITH_SHIELD_PAID_FOR_PEACE">
+      <Text>Gorgo ved, at du har betalt for fred</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_OBSESSED_LAGGING">
+      <Text>Qin er tilfreds med din mangel på underværker</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_OBSESSED_LEADING">
+      <Text>Qin er ked af det, fordi du har flere vidundere end ham</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_PEACEKEEPER_NOT_WARMONGER">
+      <Text>Gandhi er tilfreds med, at du har opretholdt freden</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_PEACEKEEPER_WARMONGER">
+      <Text>Gandhi er vred over din krigsophidselse</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_COUNTER_REFORMER_SAME">
+      <Text>Philip er glad for, at du deler hans religion</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_COUNTER_REFORMER_ENCROACHING">
+      <Text>Philip er rasende over, at din religion er til stede i hans rige</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DELIAN_NOT_COMPETING">
+      <Text>Perikles er glad for, at du ikke konkurrerer om bystater</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DELIAN_COMPETING">
+      <Text>Pericles er vred over, at du rekrutterer hans bystater</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DISCIPLE_RECEIVED">
+      <Text>Mvemba er glad for, at du bragte din religion til ham</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DISCIPLE_NOT_RECEIVED">
+      <Text>Mvemba er skuffet over, at din religion ikke er i hans lande</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_IRON_CROWN_NOT_INVOLVED">
+      <Text>Barbarossa er tilfreds med, at du holder dig væk fra bystaterne</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_IRON_CROWN_INVOLVED">
+      <Text>Barbarossa er vred over, at du har kontrolleret bystater</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SUN_SETS_HOME_CONTINENT">
+      <Text>Victoria er glad for, at du deler samme hjemkontinent</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SUN_SETS_NEW_CONTINENT">
+      <Text>Victoria ønsker at udvide til en kontinent, du besætter</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BIG_STICK_CONTINENT_ATTACKED">
+      <Text>Teddy hader angreb på civile baseret på hans kontinent</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BIG_STICK_CONTINENT_PEACEFUL">
+      <Text>Teddy kan lide fredelige civilisationer på hans kontinent</Text>
+    </Row>
+    <!-- Random agendas -->
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_ADVOCATE_LAGGING">
+      <Text>De er tilfredse med din mangel på store personer</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_ADVOCATE_LEADING">
+      <Text>De er forargede over, at du har flere fantastiske mennesker</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_ADVOCATE_LAGGING">
+      <Text>De er tilfredse med din mangel på mirakler</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_ADVOCATE_LEADING">
+      <Text>De er kede af, at du har flere undere</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_STATE_NOT_COMPETING">
+      <Text>De er glade for, at du ikke konkurrerer om bystater</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_STATE_COMPETING">
+      <Text>De er vrede over, at du rekrutterer deres bystater</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CULTURE">
+      <Text>De er glade for at se en anden kultiveret civilisation</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_CULTURE">
+      <Text>De har en antipati for civilisationer med lav kultur</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_INDUSTRY">
+      <Text>De er glade for at se en anden flittig civilisation</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_INDUSTRY">
+      <Text>De misbilliger civilisationer med lav produktivitet</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_STANDING_ARMY">
+      <Text>De er glade for at se en anden civilisation med en stor hær</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_STANDING_ARMY">
+      <Text>De misbilliger civilisationer med en lille hærstyrke</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_SCIENCE">
+      <Text>De er glade for at se en anden videnskabelig civilisation</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_SCIENCE">
+      <Text>De misliker civilisationer med lav videnskab</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_HAPPINESS">
+      <Text>De er tilfredse med at se en civilisation med glade borgere</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_HAPPINESS">
+      <Text>De misbilliger civilisationer med ulykkelige mennesker</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_INCOME">
+      <Text>De er glade for at se en højindkomst-civilisation</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_INCOME">
+      <Text>De bryder sig ikke om civilisationer med lav indkomst</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_POPULATION">
+      <Text>De er glade for at se en civilisation med en høj befolkning</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_POPULATION">
+      <Text>De bryder sig ikke om civilisationer med lav befolkningstal</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ENJOYS_WAR">
+      <Text>De kan lide dem, der kæmper og vinder</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ATTACKS_BARBARIANS">
+      <Text>De er glade for at se dig rydde barbarlejre</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_IGNORES_BARBARIANS">
+      <Text>De misbilliger civilisationer, der ikke rydder barbarer</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ENVIRONMENT">
+      <Text>De overvåger din behandling af den naturlige verden</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_EXPLOITATION">
+      <Text>De overvåger din fremgang med at forbedre dit territorium</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_SAME_GOVERNMENT">
+      <Text>De er glade for at se dig styre dit folk på samme måde</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_DIFFERENT_GOVERNMENT">
+      <Text>De er ikke tilfredse med din tilgang til at regere</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_NUKE_LOVE">
+      <Text>De er enige om, at der er en tid og et sted for atomvåben</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_NUKE_LOVE">
+      <Text>De misbilliger civilisationer, der ikke formår at bygge atomvåben</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_FAITH">
+      <Text>De er glade for at se en anden from civilisation</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_FAITH">
+      <Text>De misbilliger civilisationer med lav tro</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_EXPLORATION">
+      <Text>De misbilliger civilisationer, der er bedre udforskere end dem</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_EXPLORATION">
+      <Text>De er tilfredse med, at andre overlader verdensudforskning til dem</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_AIRPOWER">
+      <Text>De er glade for at se en civilisation med en stærk luftvåben</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_AIRPOWER">
+      <Text>De misbilliger civilisationer med et svagt luftvåben</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CITY_STATE_PROTECTION">
+      <Text>De er meget glade for at se dig beskytte mange bystater</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_MED_CITY_STATE_PROTECTION">
+      <Text>De er glade for at se dig beskytte bystater</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_MED_CITY_STATE_AGGRESSION">
+      <Text>De har ikke sympati for civilisationer, der er lidt aggressive over for bystater</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CITY_STATE_AGGRESSION">
+      <Text>De kan virkelig ikke lide civilisationer, der er meget aggressive over for bystater</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_WONDERS_COMPETING">
+      <Text>De er utilfredse med, at du har flere vidundere</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_WONDERS_NOT_COMPETING">
+      <Text>De er tilfredse med dit manglende mirakler</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GREAT_PEOPLE_COMPETING">
+      <Text>De er kede af, at du har flere fantastiske mennesker</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GREAT_PEOPLE_NOT_COMPETING">
+      <Text>De er tilfredse med din mangel på store personer</Text>
+    </Row>
+    <!-- Future modifiers (not yet implemented)-->
+    <Row Tag="LOC_DIPLO_MODIFIER_THIRD_PARTY_TRADE_POSITIVE">
+      <Text>Vi handler med deres venner</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_THIRD_PARTY_TRADE_NEGATIVE">
+      <Text>Vi handler med deres fjender</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DOF_WITH_THEIR_FRIENDS">
+      <Text>Vi er venner med deres venner</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DOF_WITH_THEIR_ENEMIES">
+      <Text>Vi er venner med deres fjender</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIED_WITH_THEIR_FRIENDS">
+      <Text>Vi er allierede med deres venner</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIED_WITH_THEIR_ENEMIES">
+      <Text>Vi er allierede med deres fjender</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEFENSIVE_PACT_WITH_THEIR_FRIENDS">
+      <Text>Vi har en forsvarspagt med deres venner</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEFENSIVE_PACT_WITH_THEIR_ENEMIES">
+      <Text>Vi har en forsvarsalliance med deres fjender</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_THEIR_ENEMIES">
+      <Text>Vi har fordømt deres fjender</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_THEIR_FRIENDS">
+      <Text>Vi har fordømt deres venner</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_UNWANTED_RELIGION">
+      <Text>Vi forsøger at konvertere dem til vores religion</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIANCE_BROKEN">
+      <Text>Vi brød vores alliance</Text>
+    </Row>
+    <!-- Non-leader specific versions of modifiers (to use in scenarios, etc.) -->
+    <Row Tag="LOC_DIPLO_MODIFIER_GENERIC_BIG_STICK_CONTINENT_ATTACKED">
+      <Text>De hader angreb på civile baseret på deres kontinent</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GENERIC_BIG_STICK_CONTINENT_PEACEFUL">
+      <Text>De kan lide fredelige civilisationer på deres kontinent</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

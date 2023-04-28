@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Instance Names-->
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_INSTANCE_NAME">
+      <Text>Tog {LOC_GRAMMAR_A_AN &lt;&lt; {1_UnitName}}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_INSTANCE_NAME">
+      <Text>Construct {LOC_GRAMMAR_A_AN &lt;&lt; {1_DistrictName}}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_INSTANCE_NAME">
+      <Text>Udløs en [ICON_TechBoosted] Eureka for {1_TechName}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_INSTANCE_NAME">
+      <Text>Udløs en [ICON_CivicBoosted] inspirationsfase for {1_CivicName}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_INSTANCE_NAME">
+      <Text>Rekrutter {LOC_GRAMMAR_A_AN &lt;&lt; {1_GreatPersonClassName}}.</Text>
+    </Row>
+    <!--Descriptions-->
+    <Row Tag="LOC_QUEST_CONVERT_CAPITAL_TO_RELIGION_DESCRIPTION">
+      <Text>Konverter bystaten til din [ICON_Religion] religion.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_SEND_TRADE_ROUTE_DESCRIPTION">
+      <Text>Send en [ICON_TradeRoute] Handelsrute til bystaten.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_DESCRIPTION">
+      <Text>Ødelæg en [ICON_Barbarian] barbarisk udpost inden for 5 felter fra byen.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_DESCRIPTION">
+      <Text>Træn en tilfældigt valgt militær [ICON_Unit] enhedstype.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_DESCRIPTION">
+      <Text>Konstruer en tilfældigt valgt specialitet [ICON_District] distrikttype.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_DESCRIPTION">
+      <Text>Udløs en tilfældigt valgt [ICON_TechBoosted] Eureka-øjeblik.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_DESCRIPTION">
+      <Text>Udløs tilfældigt valgt [ICON_CivicBoosted] Inspirationsøjeblik.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_DESCRIPTION">
+      <Text>Rekrutter en tilfældigt udvalgt [ICON_GreatPerson] stor person klasse.</Text>
+    </Row>
+    <!--Instance Descriptions-->
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_INSTANCE_DESCRIPTION">
+      <Text>Træn {LOC_GRAMMAR_A_AN &lt;&lt; {1_UnitName}} militær enhed.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_INSTANCE_DESCRIPTION">
+      <Text>Opfør {LOC_GRAMMAR_A_AN &lt;&lt; {1_DistrictName}}-distriktet.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_INSTANCE_DESCRIPTION">
+      <Text>Udløs [ICON_TechBoosted] Eureka-øjeblikket for {1_TechnologyName} teknologien.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_INSTANCE_DESCRIPTION">
+      <Text>Udløs [ICON_CivicBoosted] inspirationsøjeblikket for den {1_CivicName} civic.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_INSTANCE_DESCRIPTION">
+      <Text>Rekruter en {1_IconString} {2_GreatPersonClassName}.</Text>
+    </Row>
+    <!--Rewards-->
+    <Row Tag="LOC_QUEST_REWARD_ENVOYS">
+      <Text>[ICON_Envoy] Udsendinge</Text>
+    </Row>
+    <!--Instance Rewards-->
+    <Row Tag="LOC_QUEST_REWARD_ENVOYS_NUMBER">
+      <Text>[ICON_Envoy] {1_Amount} {1_Amount : plural 1?Sendebud; other?Sendebud;}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!--Shared Districts-->
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_DESCRIPTION">
+      <Text>Et distrikt, der giver denne by en kilde til frisk vand fra en tilstødende flod, sø, oase eller bjerg. Byer, der endnu ikke har eksisterende ferskvand, modtager op til 6 [ICON_Housing] Boliger. Byer, der allerede har eksisterende ferskvand, får i stedet +2 [ICON_Housing] Boliger. Hvis det bygges ved siden af en geotermisk sprække, +1 [ICON_Amenities] Fornøjelse. Forhindrer [ICON_Food] Fødevaretab under tørke. Skal bygges ved siden af ​​byens centrum.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION">
+      <Text>Et distrikt, der giver denne by en kilde til ferskvand fra en tilstødende flod, sø, oase eller bjerg. Byer, der endnu ikke har ferskvand, modtager op til 6 [ICON_Housing] boliger. Byer, der allerede har ferskvand, får i stedet +2 [ICON_Housing] boliger. Hvis den bygges ved siden af en geotermisk kløft, får den +1 [ICON_Amenities] bekvemmelighed. Forhindrer [ICON_Food] tab under tørke. Skal bygges ved siden af ​​byens centrum. Militære ingeniører kan bruge en opladning til at afslutte 20% af et akvæduks produktion.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_NAME">
+      <Text>Kanal</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_DESCRIPTION">
+      <Text>En bydel bygget på fladt land for at forbinde to vandmasser eller en vandmasse til en bymidte. [ICON_TradeRoute] Handelsruter, der rejser gennem den, kan forøge [ICON_Gold] Guldet, de får fra bydele ved deres destination. Kanaler kan enten gå lige igennem hexen eller bøje med 60 grader. Dog er trefløjskanalkryds ikke tilladt, og kanaler skal have en fuld landflise på hver side af vandvejen, de skaber. Militære ingeniører kan bruge en opladning til at fuldføre 20% af en kanals produktion.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_NAME">
+      <Text>Dæmning</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_DESCRIPTION">
+      <Text>En bydel bygget på et oversvømmelsesområde for at forbedre komforten ved at bo langs denne flod. Forhindrer skader fra oversvømmelse af denne flod (selvom udbytter fra oversvømmelse falder med 50%). Forhindrer [ICON_Food] fødevaretab under tørke. Kun en kan bygges langs hver flods oversvømmelsesområde (den spiller, der fuldfører en først), og floden skal traversere mindst to sider af Dam-hexen. Militære ingeniører kan bruge en opladning til at fuldføre 20% af en Dams produktion.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION_XP2">
+      <Text>Et distrikt, der er påkrævet for at konstruere videnskabelige projekter til sejr. Dette inkluderer {LOC_PROJECT_LAUNCH_EARTH_SATELLITE_NAME}, {LOC_PROJECT_LAUNCH_MOON_LANDING_NAME}, {LOC_PROJECT_LAUNCH_MARS_BASE_NAME} og {LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME}. Kan ikke bygges på bakker.</Text>
+    </Row>
+    <!--Adjacency Bonuses-->
+    <Row Tag="LOC_DISTRICT_DESERT_HILLS_FAITH">
+      <Text>+{1_num} [ICON_Faith] Tro fra tilstødende ørkenhøje {1_Num: plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DESERT_FOOD">
+      <Text>+{1_num} [ICON_FOOD] Mad fra den tilstødende ørken {1_Num : plural 1?flis; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DESERT_HILLS_FOOD">
+      <Text>+{1_num} [ICON_FOOD] Mad fra de tilstødende ørkenbakker {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_GOLD">
+      <Text>+{1_num} [ICON_GOLD] Guld fra det tilstødende bjerg {1_Num : plural 1?felt; other?felter;}.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Produktion fra den tilstødende bjerg{1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kultur fra det tilstødende bjerg {1_Num : plural 1?flise; other?fliser;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GEOTHERMAL_SCIENCE">
+      <Text>+{1_num} [ICON_SCIENCE] Videnskab fra hver tilstødende geotermisk revne.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_REEF_SCIENCE">
+      <Text>+{1_num} [ICON_SCIENCE] Videnskab fra hver tilstødende Reef.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra den tilstødende Cothon bydel.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Stor [ICON_Gold] Guldbonus for hvert tilstødende Bycenter. Standard [ICON_Gold] Guldbonus for hvert tilstødende kystnært ressource. Mindre [ICON_Gold] Guldbonus for tilstødende distriktfliser.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOLY_SITE_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra den tilstødende Hellige Sted-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_LAVRA_GOLD">
+      <Text>+{1_num} [ICON_Gold] Guld fra den tilstødende Lavra-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Stor [ICON_Gold] Guldbonus for hver tilstødende Helligdom. Stor [ICON_Gold] Guldbonus fra en flise, der indeholder en flodkant. Mindre [ICON_Gold] Guldbonus for tilstødende distriktsfliser.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MINES_HALF_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Produktion fra de tilstødende miner.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_LUMBER_MILL_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Produktion fra de tilstødende savværker.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Produktion fra den tilstødende Akvædukt {1_Num : plural 2?distrikt; other?distrikter;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BATH_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Produktion fra de tilstødende Bath {1_Num : plural 2?distrikter; other?distrikter;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Produktion fra tilstødende kanal {1_Num : plural 2?distrikt; other?distrikter;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Produktion fra den tilstødende Dam {1_Num : plural 2?kvarter; other?kvarterer;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_STRATEGIC_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Produktion fra de tilstødende strategiske {1_Num : plural 1?ressource; other?ressourcer;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HANSA_DESCRIPTION_ADJACENCY">
+      <Text>Nærhed: Stor [ICON_Production] produktionsbonus hvis den er ved siden af en kommerciel hub, akvædukt, kanal og dæmningsdistrikter. Standard [ICON_Production] produktionsbonus for hver tilstødende ressource. Mindre [ICON_Production] produktionsbonus for tilstødende distriktfliser.</Text>
+    </Row>
+    <!--Projects-->
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_NAME">
+      <Text>Flyt Kapital</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_SHORT_NAME">
+      <Text>Flyt Kapital</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_DESCRIPTION">
+      <Text>Fønikisk unikt projekt tilgængeligt for enhver by med en Cothon. Når det er færdigt, flytter den Fønikiske [ICON_Capital] Hovedstad til denne by.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_NAME">
+      <Text>Kulstofopsamling</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_SHORT_NAME">
+      <Text>Kulstoffangst</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_DESCRIPTION">
+      <Text>Kan køres i enhver by med en industrizone. Når det er fuldført, reduceres den livstidskulstofudledning for denne civilisation med 50, og der tjenes 30 [ICON_FAVOR] diplomatiske fordele. Dette projekt kan endda reducere din kulstofgæld til nul og tillade dig at akkumulere reduktioner mod den globale CO2-fodaftryk.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL">
+      <Text>Konverter til kulenergi</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL_SHORT_NAME">
+      <Text>Konverter til kulenergi</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL_DESCRIPTION">
+      <Text>Afmeld den nuværende kraftværk i denne by og erstatter den med {LOC_BUILDING_COAL_POWER_PLANT_NAME}. [NEWLINE] [NEWLINE] {LOC_BUILDING_COAL_POWER_PLANT_NAME}: [NEWLINE] {LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL">
+      <Text>Konverter til oliekraft</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL_SHORT_NAME">
+      <Text>Konverter til oliekraft</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL_DESCRIPTION">
+      <Text>Afmeld den nuværende kraftværk i denne by og erstatter det med {LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME}. [NEWLINE] [NEWLINE] {LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME}: [NEWLINE] {LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM">
+      <Text>Omdan til kernekraft</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM_SHORT_NAME">
+      <Text>Konverter til kernekraft</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM_DESCRIPTION">
+      <Text>Afmeld den nuværende kraftværk i denne by og erstatter den med {LOC_BUILDING_POWER_PLANT_EXPANSION2_NAME}. [NEWLINE][NEWLINE]{LOC_BUILDING_POWER_PLANT_EXPANSION2_NAME}: [NEWLINE]{LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_NAME">
+      <Text>Lancering af Mars-koloni</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_SHORT_NAME">
+      <Text>Start Mars Koloni</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_DESCRIPTION">
+      <Text>Space Race-projektet, som etablerer en lille menneskelig base på overfladen af Mars. Markerer det tredje trin mod videnskabelig sejr.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_POPUP">
+      <Text>Du har succesfuldt etableret en koloni på Mars! Det markerer det tredje skridt imod Videnskabens Sejr.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME">
+      <Text>Start Exoplanet Ekspeditionen</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_SHORT_NAME">
+      <Text>Ekspedition til exoplaneter</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_DESCRIPTION">
+      <Text>Space Race-projektet rejser gennem dyb rum med 1 lysår pr. tur for at sprede menneskeheden til et andet stjernesystem. Vinder Science Victory, når det ankommer. Kan fremskyndes af andre projekter.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_POPUP">
+      <Text>Din frøskib er på vej til et andet stjernesystem! Vinder videnskabelig sejr, når det ankommer. Rejser 1 lysår pr. tur og kan accelereres af andre projekter.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_NAME">
+      <Text>Start Lagrange Laser Station</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME">
+      <Text>Lagrange Laser Station</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION">
+      <Text>Kræver 30 [ICON_RESOURCE_ALUMINUM] aluminium for at påbegynde konstruktionen. (på standard hastighed) Space Race projektet, der fremskynder din eksoplanet ekspedition med +1 lysår per tur, og accelererer din fremgang mod en videnskabelig sejr.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_POPUP">
+      <Text>Du etablerer en Lagrange Laser Station i kredsløb, hvilket øger hastigheden på din Exoplanet Expedition-skib med 1 lysår per tur og bringer dig tættere på en Science Victory!</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_NAME">
+      <Text>Byg Terrestrisk Laser Station</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME">
+      <Text>Jordbaseret Laserstation</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_DESCRIPTION">
+      <Text>Når dette er fuldført, stiger denne bys [ICON_Power] strømkrav med 5. Space Race-projektet, som øger din Exoplanet Expedition med +1 lysår per tur, så længe byen er [ICON_Power]-drevet, fremskynder din fremgang mod en videnskabelig sejr.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_POPUP">
+      <Text>Du etablerer en Terrestisk Laser Station i Spaceporten, hvilket fremskynder dit Exoplanet Ekspeditionsskib med 1 lysår per tur og bringer dig tættere på en Videnskabelig Sejr!</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_NAME">
+      <Text>Send hjælp</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_SHORT_NAME">
+      <Text>Send hjælp</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_DESCRIPTION">
+      <Text>Projektet handler om at optjene point til dine ansøgninger om hjælp konkurrencer.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_POPUP">
+      <Text>Din bistandspakke er blevet leveret, hvilket øger din score i Bistandsanmodnings-konkurrencen.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_NAME">
+      <Text>Træn atleter</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_SHORT_NAME">
+      <Text>Træn atleter</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_DESCRIPTION">
+      <Text>Projekt til at optjene point til World Games konkurrencen.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_POPUP">
+      <Text>Dine atleter er nu klar til spillet og øger din score i World Game konkurrencen.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_NAME">
+      <Text>Træn astronauter</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_SHORT_NAME">
+      <Text>Træn Astronauter</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_DESCRIPTION">
+      <Text>Projektet for at tjene point til konkurrencen om den internationale rumstation.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_POPUP">
+      <Text>Dine astronauter er klar til at arbejde på Den Internationale Rumstation og øge jeres score i konkurrencen om Den Internationale Rumstation.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_EXPANSION2_DESCRIPTION">
+      <Text>Distrikt-baseret projekt, som giver [ICON_Faith] Tro og +100% Religiøst Tryk hver tur. Tilskriver [ICON_GreatProphet] Store Profets point, når det er færdigt.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_EXPANSION2_DESCRIPTION">
+      <Text>Distrikt-baseret projekt, som giver denne by fuld [ICON_Power] strøm, mens det er aktivt. Det giver også [ICON_GreatEngineer] Store Ingeniørpoints, når det er færdigt.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_NAME">
+      <Text>Genindvend nuklearreaktoren</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_SHORT_NAME">
+      <Text>Genindvend atomreaktor</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_DESCRIPTION">
+      <Text>Tillader genaktivering af en atomreaktor for at øge sikkerhedsforanstaltningerne og reducere risikoen for en atomulykke. [NEWLINE] [NEWLINE]Genaktivering nulstiller reaktoraldren til 0. Jo ældre en reaktor bliver, jo større er risikoen for, at der kan ske en atomulykke.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_NAME">
+      <Text>Afmeld kul kraftværk</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_SHORT_NAME">
+      <Text>Udfas kul-kraftværket</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_DESCRIPTION">
+      <Text>Projekt for at score point i Climate Accords konkurrencen. Fjerner kul-kraftværket og alle dens effekter fra denne by.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_NAME">
+      <Text>Afskaf oliefyret kraftværk</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_SHORT_NAME">
+      <Text>Udfasning af oliekraftværk</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_DESCRIPTION">
+      <Text>Projekt til at optjene point til klimaaftalekonkurrencen. Fjerner oliekraftværket og alle dets virkninger fra denne by.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_NAME">
+      <Text>Udfasning af Atomkraftværk</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_SHORT_NAME">
+      <Text>Afmontér atomkraftværket</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_DESCRIPTION">
+      <Text>Projekt til at optjene point til klimaaftalekonkurrencen. Fjerner kernekraftværket og alle dets virkninger fra denne by.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ENTERTAINMENT_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kultur fra den tilstødende underholdningskvarter.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WATER_PARK_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kultur fra det tilstødende Vandland-kvarter.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_STREET_CARNIVAL_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kultur fra det tilstødende Street Carnival-distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COPACABANA_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kultur fra den tilstødende Copacabana-bydel.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

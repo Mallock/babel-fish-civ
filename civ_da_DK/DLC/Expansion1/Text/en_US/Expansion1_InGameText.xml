@@ -1,0 +1,1881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <!-- Combat Modifiers -->
+    <Row Tag="LOC_GOVERNOR_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Guvernør)</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Alliance)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_DIPLOMATIC_BONUS">
+      <Text>+{1_Value} Nylig diplomatisk ændring</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ESPIONAGE_BONUS">
+      <Text>+{1_Value} Intel om modstanderens bevægelser</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_CITY_COMBAT_BONUS">
+      <Text>+{1_Value} Garnisonskommandant</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ALLIANCE_MILITARY_BUFF">
+      <Text>+{1_Value} fra militæralliancen</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_EMERGENCY_MILITARY_BUFF">
+      <Text>[COLOR_RED]{1_Value: number +#;-#}[ENDCOLOR] fra nødsituationen</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ALLIANCE_RELIGIOUS_COMBAT_BUFF">
+      <Text>+{1_Value} fra Religiøs Alliance</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ANTI_AIR_DEFENSE_BONUS_DESC">
+      <Text>+{1_Value} styrkede luftforsvaret</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_RELIGIOUS_CITY_BONUS">
+      <Text>+{1_Value} Guvernør forfremmelse til Storinkvisitor</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_LESS_EFFECTIVE_VS_LAND_UNITS_DESC">
+      <Text>-{1_Value} Mindre effektiv mod landenheder</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_LESS_EFFECTIVE_VS_NAVAL_UNITS_DESC">
+      <Text>-{1_Value} Mindre effektiv over for søenheder</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GROWTH_OCCUPIED">
+      <Text>Besat</Text>
+    </Row>
+    <Row Tag="LOC_REPORTS_LOYALTY">
+      <Text>Troskab</Text>
+    </Row>
+    <Row Tag="LOC_REPORTS_GOVERNOR">
+      <Text>Guvernør</Text>
+    </Row>
+    <Row Tag="LOC_POST_COMBAT_LOYALTY_PLUS">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num} Trofasthed[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_POST_COMBAT_LOYALTY_MINUS">
+      <Text>[COLOR_RED]{1_Num} Trofasthed[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_AMENITIES_LOST_FROM_GOVERNORS">
+      <Text>Faciliteter fra guvernører:</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_OCCUPIED_LOYALITY_STATUS">
+      <Text>Optaget: {1_LoyalityStatus}</Text>
+    </Row>
+    <Row Tag="LOC_NO_GOVERNORS_TITLE_AVAILABLE">
+      <Text>Ingen guvernørstitler tilgængelige</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_TITLE">
+      <Text>GUVERNØRER</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PANEL_UNMET_CIV">
+      <Text>Uopfyldt Civilisation</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_PATRONAGE_FAITH_OFF">
+      <Text>[COLOR_RED]Brug af [ICON_Faith] Tro på beskyttelse er deaktiveret på grund af en af dine nuværende politikker.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_PATRONAGE_GOLD_OFF">
+      <Text>[COLOR_RED]Brug af [ICON_Gold] Guld på patronage er deaktiveret på grund af en af dine nuværende politikker.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATIONS_CANNOT_REPAIR_BLOCKED_BY_POLICY">
+      <Text>Kan ikke helbrede på dette område på grund af politikvalg</Text>
+    </Row>
+    <!-- Alliance Text -->
+    <Row Tag="LOC_DIPLOACTION_INVALID_REASON_YOU_HAVE_THIS_ALLIANCE">
+      <Text>Du har allerede en alliance af denne type med en anden civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_INVALID_REASON_THEY_HAVE_THIS_ALLIANCE">
+      <Text>{1_OtherCiv} har allerede en alliance af denne type med en anden civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_COLON_INPUT">
+      <Text>Alliance Niveau: {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_COLON">
+      <Text>Alliance niveau:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL">
+      <Text>Alliance niveau</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_COLON">
+      <Text>Alliancens point:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_PER_TURN">
+      <Text>+{1_PointPerTurn} (Note: "Point" in Danish is singular, even when referring to multiple points.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_NEEDED">
+      <Text>{1_PointsNeeded}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_CURRENT">
+      <Text>Nuværende alliance: {1_AllianceTypeName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_BUTTON_TOOLTIP">
+      <Text>Se vigtig information om dit Allianceniveau med denne leder, herunder hvilke Allianceforsøg du vil have adgang til.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_SCIENCE_NAME_LEVEL">
+      <Text>Forskningsalliance niveau {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_CULTURAL_NAME_LEVEL">
+      <Text>Kulturelt allianceniveau {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_ECONOMIC_NAME_LEVEL">
+      <Text>Økonomisk alliance niveau {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_MILITARY_NAME_LEVEL">
+      <Text>Militær alliance niveau {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_RELIGIOUS_NAME_LEVEL">
+      <Text>Religiøst alliance niveau {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_RESEARCH">
+      <Text>Forskningsalliance</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_CULTURAL">
+      <Text>Kulturelt Samvirke</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_MILITARY">
+      <Text>Militær alliance</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_ECONOMIC">
+      <Text>Økonomisk alliance</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_RELIGIOUS">
+      <Text>Religiøs alliance</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_RESEARCH">
+      <Text>Opret en forskningsalliance</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_CULTURAL">
+      <Text>Skab en Kulturel Alliance</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_MILITARY">
+      <Text>Opret en militær alliance</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_ECONOMIC">
+      <Text>Skab en Økonomisk Alliance</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_RELIGIOUS">
+      <Text>Opret en religiøs alliance</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_RENEW_ALLIANCE">
+      <Text>Forny Alliance</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES">
+      <Text>Alliancer</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_TT">
+      <Text>Foreslå en alliance med denne magt</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_RENEW_ALLIANCE_TT">
+      <Text>Foreslå at forlænge varigheden af din nuværende alliance med denne magt</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_CURRENT_BENEFITS_HEADER">
+      <Text>Din nuværende Alliance giver disse fordele:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_LEVEL_UP_BENEFITS_HEADER">
+      <Text>På det næste alliance niveau vil dine alliance have disse ekstra fordele:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_ALLIANCES">
+      <Text>{1_Tooltip}[NEWLINE]Samlet set steg [ICON_Tourism] turismen med +{2_Percent} fra alliancerne</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_SCIENCE_MODIFIER_FROM_ALLIANCES">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) fra Alliancerne</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_CULTURE_FROM_ALLIANCES">
+      <Text>{Value : number +#.#;-#.#}% ({ActualValue : number +#.#;-#.#}) fra Alliancerne</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAITH_FROM_ALLIANCES">
+      <Text>{Værdi: tal +#.#;-#.#} fra Religiøse Alliancer</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_SHARED_VIS_EFFECT">
+      <Text>Fælles synlighed</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_NO_CULTURE_PRESSURE_EFFECT">
+      <Text>Din allieredes byer udøver ikke loyalitetspres på dine byer, og omvendt</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_NO_RELIGIOUS_PRESSURE_EFFECT">
+      <Text>Din allieredes religion udøver ikke religiøst pres på byer, der er domineret af din religion, og omvendt</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_MILITARY_EFFECT_1">
+      <Text>+5 [ICON_Styrke] Kampstyrke mod enheder fra spillere, som er i krig med dig og din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_1">
+      <Text>+4 [ICON_GOLD] Guld fra [ICON_TradeRoute] Handelsruter til din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_2">
+      <Text>+2 [ICON_GOLD] Guld fra [ICON_TradeRoute] Handelsruter fra din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_1">
+      <Text>+2 [ICON_FAITH] Tro fra [ICON_TradeRoute] Handelsruter til din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_2">
+      <Text>+1 [ICON_FAITH] Tro fra [ICON_TradeRoute] Handelsruter fra din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_1">
+      <Text>+2 [ICON_Culture] Kultur fra [ICON_TradeRoute] Handelsruter til din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_2">
+      <Text>+1 [ICON_Culture] Kultur fra [ICON_TradeRoute] Handelsruter fra din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_1">
+      <Text>+2 [ICON_SCIENCE] Videnskab fra [ICON_TradeRoute] Handelsruter til din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_2">
+      <Text>+1 [ICON_SCIENCE] Videnskab fra [ICON_TradeRoute] Handelsruter fra din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_ECONOMIC_EFFECT_1">
+      <Text>Bonus [ICON_Envoy] Sendebuds Point for hver Bystat med din allierede som Suzerain</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_MILITARY_EFFECT_1">
+      <Text>+15% [ICON_PRODUCTION] Produktion til militære enheder, når du eller din allierede er i krig</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_RELIGIOUS_EFFECT_1">
+      <Text>+10 Religiøs Kampsstyrke mod ikke-allierede religioner</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_RESEARCH_EFFECT_1">
+      <Text>Hver 30. tur (på standard), låser du op for en [ICON_TechBoosted] Eureka til en teknologi, som din allierede har forsket i eller boostet, men du ikke har</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_CULTURAL_EFFECT_1">
+      <Text>Hver af dine [ICON_District] Distrikter giver et ekstra [ICON_GreatPerson] storpersonpoint per tur, hvis du har en [ICON_TradeRoute] Handelsrute fra den by til din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_MILITARY_EFFECT_1">
+      <Text>Enheder starter med en gratis promovering</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RELIGIOUS_EFFECT_1">
+      <Text>+1 [ICON_FAITH] Tro for hver af dine [ICON_Citizen] Borgere, der følger din allieredes religion</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RELIGIOUS_EFFECT_2">
+      <Text>Ekstra religiøst pres i byer uden tilhængere af din allieredes religion</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RESEARCH_EFFECT_1">
+      <Text>+10% [ICON_SCIENCE] Videnskab når du eller din allierede forsker en teknologi, som den anden allerede har afsluttet, eller forsker i den samme teknologi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_CULTURAL_EFFECT_1">
+      <Text>Du får +20% af din allieredes [ICON_Tourism] turisme fra byer</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_CULTURAL_EFFECT_2">
+      <Text>Du får +10% af din allieredes [ICON_Culture] kultur fra byer</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_ECONOMIC_EFFECT">
+      <Text>Del Suzerain's unikke fordele med dine allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_DEFAULT">
+      <Text>{1_Amount} point for at være allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_TRADE_ROUTES_TO_THEM">
+      <Text>[NEWLINE]{1_Amount} point fra at have en [ICON_TradeRoute] Handelsrute til din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_TRADE_ROUTES_FROM_THEM">
+      <Text>[NEWLINE]{1_Amount} point fra at have en [ICON_TradeRoute] Handelsrute fra din allierede</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_COMMON_ENEMY">
+      <Text>[NEWLINE]{1_Amount} point fra at erklære krig mod en fælles fjende</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_YOUR_MODIFIER">
+      <Text>[NEWLINE]{1_Amount} point fra dine andre kilder</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_THEIR_MODIFIER">
+      <Text>[NEWLINE]{1_Amount} Point fra din allieredes andre kilder</Text>
+    </Row>
+    <!-- New Government Text -->
+    <Row Tag="LOC_GOVT_POLICY_TYPE_DARKAGE">
+      <Text>Mørke Tidsalder Politikker</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_XP1">
+      <Text>+1 til alle udbytter for hver regeringsbygning og palads i en by.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_XP1">
+      <Text>Alle land melee, anti-cavalry og naval melee klasse enheder får +4 [ICON_Strength] Kampstyrke.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_XP1">
+      <Text>Alle byer med en bydel modtager +1 [ICON_Housing] Boliger og +1 [ICON_Amenities] Fornøjelser.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_XP1">
+      <Text>+1 [ICON_Housing] Bolig per niveau af mure.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1">
+      <Text>+5 [ICON_Religion] Religiøs Styrke i teologisk kamp.[NEWLINE]+0,5 [ICON_Faith] Tro per [ICON_Citizen] Borger i byer med [ICON_Governor] Guvernører.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_XP1">
+      <Text>+10% [ICON_GOLD] Guld i alle byer med en etableret [ICON_Governor] Guvernør.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_XP1">
+      <Text>Alle enheder får +5 [ICON_Strength] Kampstyrke. Krigstræthed reduceret med 15%.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1">
+      <Text>+0,6 [ICON_Produktion] Produktion pr. [ICON_Citizen] Borger i byer med [ICON_Governor] Guvernører.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP1">
+      <Text>+1 [ICON_Produktion] Produktion, +1 [ICON_Bolig] Bolig pr. Distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_XP1">
+      <Text>+10% Produktion mod Vidundere.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_XP1">
+      <Text>+20% Enhedserfaring.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_XP1">
+      <Text>+15% Point til Store Personer.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1">
+      <Text>+50% Indflydelsespoint.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_XP1">
+      <Text>15% rabat på køb med [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_XP1">
+      <Text>+15% Produktion til Bydele.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_XP1">
+      <Text>+50% Produktion til Enheder.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP1">
+      <Text>+15% Produktion.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_XP1">
+      <Text>25% Rabat på Køb med [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_UNLOCKS_POLICY_CARD">
+      <Text>Låser op for {1_PolicyName} politikkortet.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+4 fra oligarkisk arv</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 fra Theokratisk Arv</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 fra Fascistisk Arv</Text>
+    </Row>
+    <!-- Governors UI -->
+    <Row Tag="LOC_GOVERNORS_SCREEN_TAB_OWNED_GOVERNORS">
+      <Text>Nuværende guvernører</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_TAB_GOVERNOR_CANDIDATES">
+      <Text>Kandidater</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_APPOINT_GOVERNOR">
+      <Text>Udnævn</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_DETAILS">
+      <Text>Details</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_PROMOTE">
+      <Text>Promover</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_VIEW_PROMOTIONS">
+      <Text>Se Promotioner</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ESTABLISHED_IN">
+      <Text>Etableret i:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TRANSITIONING_TO">
+      <Text>Etablering af politisk magt i:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_NEEDS_ASSIGNMENT">
+      <Text>Kræver opgave</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_REPLACES">
+      <Text>Erstatninger:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_CONFIRM_REPLACEMENT">
+      <Text>UDSKIFT GUVERNØR? Hvis du indsætter denne guvernør, vil det erstatte guvernøren i denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_PLUS_PRESSURE">
+      <Text>{1_Pressure: number +#;-#} (Tryk: tal +#;-#)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_IS_ESTABLISHED">
+      <Text>{1_Name} ({2_Type}) er etableret i denne by</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_IS_ESTABLISHING">
+      <Text>{1_Name} ({2_Type}) etablerer sig i denne by</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_NO_GOVERNOR">
+      <Text>Ingen guvernør tildelt</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_CURRENT_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>Nuværende loyalitet per tur</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_FUTURE_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>Trofasthed pr. tur med denne Guvernør etableret</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TRANSITION_TURNS">
+      <Text>{1_NumTurns} Omgange</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TURNS_UNTIL_ESTABLISHED">
+      <Text>{1_NumTurns} omdrejninger indtil etablering</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_NAME_WITH_TURNS">
+      <Text>{1_GovernorName} ({2_Turns} {2_Turns : plural 1?tur; other?ture;})</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_NEUTRALIZED">
+      <Text>Neutraliseret</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_NEUTRALIZED_TURNS_REMAINING">
+      <Text>({1_Turns} mere {1_Turns : plural 1?tur; other?ture;})</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_CANDIDATE">
+      <Text>Guvernørkandidat</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ASSIGN_TO">
+      <Text>Tildel {1_GovernorName} til:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_BASE_ABILITY_HEADER_TEXT">
+      <Text>Grundlæggende evne:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_PROMOTIONS_HEADER_TEXT">
+      <Text>Fremme (or) Forfremmelser</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_CHANGE_ASSIGNMENT">
+      <Text>Skift tildeling af by</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_GRANT_PROMOTION">
+      <Text>Grant fremme</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_GOVERNOR_NEUTRALIZED">
+      <Text>Ude af drift</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_CANCEL_PROMOTE_PROMPT">
+      <Text>Den valgte kampagne vil ikke blive anvendt, hvis du forlader denne skærm. Ønsker du at fortsætte?</Text>
+    </Row>
+    <!-- Governors -->
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_NAME">
+      <Text>Victor</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_NAME">
+      <Text>Amani</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_NAME">
+      <Text>Moksha</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME">
+      <Text>Magnus</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_NAME">
+      <Text>Liang</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_NAME">
+      <Text>Pingala</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_NAME">
+      <Text>Reyna</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_TITLE">
+      <Text>Castellanen</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_TITLE">
+      <Text>Diplomaten</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_TITLE">
+      <Text>Kardinalen</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_TITLE">
+      <Text>Stewarden</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_TITLE">
+      <Text>Landmåleren</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_TITLE">
+      <Text>Pædagogen</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_TITLE">
+      <Text>Financieren</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_SHORT_TITLE">
+      <Text>Castellan - (Danish: Borgforvalter)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_SHORT_TITLE">
+      <Text>Diplomat</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_SHORT_TITLE">
+      <Text>Kardinal</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_SHORT_TITLE">
+      <Text>Steward (this word is the same in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_SHORT_TITLE">
+      <Text>Opmåler</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_SHORT_TITLE">
+      <Text>Pædagog</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_SHORT_TITLE">
+      <Text>Finansmand</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_DESCRIPTION">
+      <Text>Med fokus på militæret er {LOC_GOVERNOR_THE_DEFENDER_NAME} afgørende for at styrke, bevare og forsvare en by mod udenlandske trusler, når først personen er etableret i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_DESCRIPTION">
+      <Text>Dygtig til at opnå støtte for din civilisation og sprede dens indflydelse til nærliggende byer. {LOC_GOVERNOR_THE_AMBASSADOR_NAME} er den eneste guvernør, der kan tildeles en udenlandsk mission i en bystat.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_DESCRIPTION">
+      <Text>Åndelig og religiøs leder, der kan øge den [ICON_Religion] religiøse styrke i en by og de religiøse enheder, der er stationeret der. {LOC_GOVERNOR_THE_CARDINAL_NAME} er et fyrtårn for [ICON_FAITH] tro i dit imperium.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_DESCRIPTION">
+      <Text>Dygtig og initiativrig kan {LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME} skaffe værdifulde ressourcer, når det er nødvendigt. Han er også meget dygtig til at optimere den samlede [ICON_PRODUCTION] produktion i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_DESCRIPTION">
+      <Text>{LOC_GOVERNOR_THE_EDUCATOR_NAME} fokuserer på dyrkning af [ICON_SCIENCE] videnskabelige og [ICON_Culture] kulturelle bestræbelser i byen. Han er også ret dygtig til at tiltrække [ICON_GreatPerson] store personligheder til sin by.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_DESCRIPTION">
+      <Text>Klug og økonomisk vidende, {LOC_GOVERNOR_THE_MERCHANT_NAME} er i stand til at styrke en bys økonomiske magt ved at bruge finanser til at yde mere end normalt er muligt.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_DESCRIPTION">
+      <Text>En ekspert i effektivitet, {LOC_GOVERNOR_THE_BUILDER_NAME} er dygtig inden for alt, der vedrører byggeri og konstruktion. Som ekspertplanlægger kan hun også supervisere udviklingen af ​​tilpassede forbedringer i byen.</Text>
+    </Row>
+    <!-- Governor Promotions -->
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_NAME">
+      <Text>Redoubt (this word does not need to be translated as it is an English word)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION">
+      <Text>Øger byens garnison [ICON_Strength] kampstyrke med +5.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_NAME">
+      <Text>Garnisonskommandant</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION">
+      <Text>Enheder, der forsvarer inden for byens område, får +5 [ICON_Strength] Kampstyrke.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_NAME">
+      <Text>Embrasure - tandmellemrum</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION">
+      <Text>Byen får en ekstra [ICON_Ranged] Ranged Strike per tur.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_NAME">
+      <Text>Forsvarslogistik</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SECURITY_EXPERT_NAME">
+      <Text>Sikkerhedsekspert</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SECURITY_EXPERT_DESCRIPTION">
+      <Text>Fjendtlige spioner opererer 2 niveauer under normalt i denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION">
+      <Text>Byen kan ikke lægges under belejring.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_NAME">
+      <Text>Luftforsvarsinitiativ</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION">
+      <Text>+25 [ICON_Strength] Kampsstyrke til anti-luftstøtteenheder inden for byens territorium ved forsvar mod fly og ICBM'er.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_NAME">
+      <Text>Messenger</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION">
+      <Text>Kan tildeles en bystat, hvor hun fungerer som 2 [ICON_Envoy] udsendinge.</Text>
+    </Row>
+    <Row Tag="LOC_SETTLER_LOYALTY_WARNING_TOOLTIP">
+      <Text>Påvirkningen fra nærliggende byer ville give {1_LoyaltyPerTurnAmount} loyalitet per tur til en nybygget by her. Overvej at bruge en [ICON_Governor] guvernør i den nye by eller bosætte dig et andet sted.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_NAME">
+      <Text>Emissær</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION">
+      <Text>Andre byer inden for 9 fliser og ikke ejet af dig mister 2 loyalitet pr. tur.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE_NAME">
+      <Text>Prestige</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE_DESCRIPTION">
+      <Text>Dine andre byer inden for 9 fliser får +2 loyalitet per tur mod din civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_NAME">
+      <Text>Velstand</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_DESCRIPTION">
+      <Text>Mens den er etableret i en bystat, giver den en kopi af sine luksusressourcer til dig.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER_NAME">
+      <Text>Promotor</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER_DESCRIPTION">
+      <Text>+4 [ICON_Amenities] Faciliteter i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_NAME">
+      <Text>Puppetør</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_DESCRIPTION">
+      <Text>Mens du er etableret i en bystat, fordobles antallet af [ICON_Envoy] udsendinge du har der.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_NAME">
+      <Text>Biskop</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_NAME">
+      <Text>Storinkvisitor</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_NAME">
+      <Text>Guddommelig Arkitekt</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_NAME">
+      <Text>Håndspålæggelse</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_NAME">
+      <Text>Guds fæstning</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_NAME">
+      <Text>Helgenbeskytter</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION">
+      <Text>Det religiøse pres på tilstødende byer er 100% stærkere fra denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Religiøs Styrke i teologisk kamp på fliserne i denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_DESCRIPTION">
+      <Text>+20% [ICON_Production] Produktion til Helligdomsbygninger i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_DESCRIPTION">
+      <Text>[ICON_Governor] Guvernørens religiøse enheder heler fuldstændigt på en tur på fliser i denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_DESCRIPTION">
+      <Text>Byen ignorerer tryk og kamp effekter fra religioner, der ikke er grundlagt af [ICON_Governor] guvernørens spiller.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_DESCRIPTION">
+      <Text>Apostle og krigermunke trænet i byen modtager 1 ekstra forfremmelse, når de modtager deres første forfremmelse.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_NAME">
+      <Text>Pioner</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION">
+      <Text>+50% udbytte fra parcelhøst og fjernelse af funktioner i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_NAME">
+      <Text>Overskudslogistik</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION">
+      <Text>+20% [ICON_Food] Vækst i byen. Dine [ICON_TradeRoute] Handelsruter, der ender her, giver +2 [ICON_Food] Mad til deres startby.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_NAME">
+      <Text>Provision</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION">
+      <Text>+20% [ICON_Produktion] til Industrielle Zone bygninger i byen. Nybyggere trænet i byen forbruger ikke en [ICON_Citizen] Befolkning.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_NAME">
+      <Text>Industriel</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION">
+      <Text>+1 [ICON_Production] Produktion per tur fra hver strategisk ressource i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_NAME">
+      <Text>Sortbørshandler</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION">
+      <Text>Strategiske ressourcer er ikke påkrævet i byen for at bygge enheder afhængige af ressourcer.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_NAME">
+      <Text>Vertikal integration</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_DESCRIPTION">
+      <Text>Denne by modtager [ICON_Production] produktion fra alle industriområder inden for 6 felter, ikke kun det første.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_NAME">
+      <Text>Guildmester</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_DESCRIPTION">
+      <Text>Alle bygherrer uddannet i byen får +1 byggeopladning.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_INFRASTRUCTURE_NAME">
+      <Text>Infrastruktur</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_INFRASTRUCTURE_DESCRIPTION">
+      <Text>+30% [ICON_Produktion] Produktion til bymidte og regeringsplads-bygninger.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_NAME">
+      <Text>Akvakultur</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION">
+      <Text>Fiskeriet kan bygges som en unik forbedring i byen på kystnære marker. Giver 1 [ICON_Food] mad, +1 [ICON_Food] mad hvis det er ved siden af en havressource.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_NAME">
+      <Text>Parker og rekreation</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION">
+      <Text>Byparken unik forbedring kan bygges i byen. Giver 2 tiltrækning og 1 [ICON_Culture] kultur. +1 [ICON_Amenities] bekvemmelighed, hvis den ligger ved vand.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_NAME">
+      <Text>Zoneterminalbestyrelsesmedlem</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION">
+      <Text>+20% [ICON_Production] Produktion til at bygge distrikter i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ARCHITECT_NAME">
+      <Text>Underholdning</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ARCHITECT_DESCRIPTION">
+      <Text>+30% [ICON_Production] Produktion til underholdningskomplekser og vandlande i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_NAME">
+      <Text>Bibliotekar</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION">
+      <Text>15% stigning i [ICON_Science] videnskab og [ICON_Culture] kultur genereret af byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_NAME">
+      <Text>Kender af god mad eller drikkevare</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_DESCRIPTION">
+      <Text>+20% [ICON_Production] Produktion til bygninger i Theater Square i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_NAME">
+      <Text>Forsker</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_DESCRIPTION">
+      <Text>+20% [ICON_Production] Produktion til Campus-bygninger i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_NAME">
+      <Text>Tilskud</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_DESCRIPTION">
+      <Text>+100% [ICON_GreatPerson] Store Person point genereret pr. tur i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_NAME">
+      <Text>Fortaler for våbenkapløb</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION">
+      <Text>30% [ICON_Production] Produktionsøgning til alle atomvåbenprojekter i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_NAME">
+      <Text>Ruminitiativ</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_DESCRIPTION">
+      <Text>30% [ICON_Production] Produktionstigning til alle rumprogramprojekter i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_NAME">
+      <Text>Erhvervelse af jord</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION">
+      <Text>Få fat i nye fliser i byen hurtigere.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_NAME">
+      <Text>Havnemester</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION">
+      <Text>Dobbelt tilstødende bonus fra kommercielle centre og havne i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE_NAME">
+      <Text>Valutaveksling</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE_DESCRIPTION">
+      <Text>+3 [ICON_Gold] Guld per tur fra hver udenlandsk [ICON_TradeRoute] Handelsrute, der passerer gennem byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TARIFFS_NAME">
+      <Text>Toldtariffer</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TARIFFS_DESCRIPTION">
+      <Text>+3 [ICON_Gold] Guld per tur fra alle [ICON_TradeRoute] Handelsruter ind og ud af byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_NAME">
+      <Text>Skatteopkræver</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Guld per tur for hver [ICON_Citizen] borger i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_NAME">
+      <Text>Entreprenør</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_DESCRIPTION">
+      <Text>Tillader byen at købe distrikter med [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_NAME">
+      <Text>Kurator</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_DESCRIPTION">
+      <Text>+100% [ICON_Tourism] Turisme fra store kunstværker, musik og skriftligt materiale i byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ACTION_AVAILABLE">
+      <Text>Du kan forfremme eller tildele en [ICON_Governor] guvernør!</Text>
+    </Row>
+    <!-- Leader Agendas-->
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_HORN_CHEST_LOINS">
+      <Text>Kan lide civilisationer, der har mange selskaber og hære</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_HORSE_LORD">
+      <Text>Kan lide civs, der ikke konkurrerer med ham om kavaleri</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_CULTURAL_ID">
+      <Text>Kan lide civilisationer med høj loyalitet, men bryder sig ikke om dem med lav loyalitet</Text>
+    </Row>
+    <!-- Unit Abilities-->
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING_NAME">
+      <Text>Alpin træning</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING__DESCRIPTION">
+      <Text>Alpin træning: +3 [ICON_Strength] Kampstyrke, når du kæmper i Bakker, og ingen bevægelsesstraf i Bakketerræn.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING_COMBAT_HILLS_MODIFIER_DESCRIPTION">
+      <Text>+3 [ICON_Styrke] Kampstyrke, når du kæmper i bakker</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Bombard] Bombarderingsstyrke fra hjælpeenhed</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SCOTTISH_HIGHLANDER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrkebonus i bakker og skove</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MONGOLIAN_KESHIG_DESCRIPTION">
+      <Text>Kan eskortere bevægelse af civile og støtteenheder ved deres højere [ICON_Movement] bevægelseshastighed.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GEORGIAN_KHEVSURETI_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrkebonus ved kamp i bakket terræn.[NEWLINE][ICON_Bullet]Ingen [ICON_Movement] Bevægelsesstraf i bakket terræn.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAPUCHE_MALON_RAIDER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Kampstyrke bonus inden for 4 felter af venligt territorium. [NEWLINE][ICON_Bullet]Hærværk koster 1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PREVIEW_ZEVEN_PROVINCIEN_DESCRIPTION">
+      <Text>+7 [ICON_Styrke] Kampstyrke mod forsvarsdygtige distrikter</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DUTCH_ZEVEN_PROVINCIEN_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Kampstyrke ved angreb på befæstede distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CREE_OKIHTCITAW_DESCRIPTION">
+      <Text>Starter med 1 gratis promovering.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZULU_IMPI_DESCRIPTION">
+      <Text>+100% Bonus for flankeangreb.[NEWLINE][ICON_Bullet]Tjener erfaring 25% hurtigere.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_INCREASED_MOVEMENT_NAME">
+      <Text>Mongolske steppe</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_INCREASED_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% kampoplevelse fra Ordu</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_NAME">
+      <Text>Økonomisk Gyldenalder</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_DESCRIPTION">
+      <Text>Denne enheds [ICON_TradeRoute] Handelsrute kan ikke plyndres af fjendtlige enheder. Opnået som en del af en økonomisk gylden tidsalder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS_NAME">
+      <Text>Inquisition</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS_DESCRIPTION">
+      <Text>+15 Religiøs Kampstyrke i vennligt territorium.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_NAME">
+      <Text>Skumringens Værdi</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_DESCRIPTION">
+      <Text>+5 [ICON_Styrke] Kampstyrke for alle nærkampsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_MOVEMENT_BONUS_DESCRIPTION">
+      <Text>Tilskud +1 [ICON_Movement] Bevægelse til enheder, der starter deres bevægelse op til 1 hex væk.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PARADROP_DESCRIPTION">
+      <Text>Kan paradroppe fra vennligt felt til placering 7 fliser væk (12 hvis man starter fra en flyveplads eller landingsbane).</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_XP_FROM_GOVERNOR_DESCRIPTION">
+      <Text>+10% Tjent erfaring fra kamp (Toqui)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_XP_FROM_GOVERNOR_NOT_FOUNDED_DESCRIPTION">
+      <Text>+30% Optjent erfaring fra kamp (Toqui)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_COMBAT_BUFF_VS_GOLDEN_AGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Kampstyrke mod Fribyer eller civilisationer i en Gylden Tidsalder. [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TIMUR_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+25% Tjent erfaring fra kamp (Timur)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DRONE_GRANT_SIEGE_BONUS_DESCRIPTION">
+      <Text>Giver +5 [ICON_Bombard] bombarderingsstyrke til belejringenheder inden for 1 hex.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GENGHIS_KHAN_CAVALRY_BONUS_DESCRIPTION">
+      <Text>+3 [ICON_Strength] Kampstyrke (Mongolsk Horde).</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GENGHIS_KHAN_CAVALRY_CAPTURE_CAVALRY_DESCRIPTION">
+      <Text>Evnen til at fange besejrede kavaleri enheder (mongolske horder).</Text>
+    </Row>
+    <!-- Feature -->
+    <Row Tag="LOC_FEATURE_REEF_NAME">
+      <Text>Reef (same word is used in Danish)</Text>
+    </Row>
+    <!-- Cultural Identity UI-->
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_SUBSECTION">
+      <Text>Loyalitet</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_ACCUMULATED_IDENTITY_SUBSECTION">
+      <Text>Akkumuleret loyalitet</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_DISTANCE_FROM_CAPITAL">
+      <Text>Nærhed til din [ICON_Capital] hovedstad</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY">
+      <Text>[SIZE:16]{1_Loyalty} [SIZE:12]Troskab</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_OF">
+      <Text>af</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_TOTAL_LOYALTY">
+      <Text>[SIZE:16]{1_Loyalty} [SIZE:12]Muligt</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_STATUS">
+      <Text>Status:</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_LINE">
+      <Text>Loyalitet pr. tur:</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OWNERSHIP">
+      <Text>Ejerskab af denne by</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_POPULATION">
+      <Text>[ICON_Citizen] Borgere, der bor her</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_MARTIAL_LAW">
+      <Text>Besat enhed under besættelsen</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OCCUPATION">
+      <Text>Beskæftigelse</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_STARVATION">
+      <Text>Sult</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_TRADE_ROUTES">
+      <Text>[ICON_TradeRoute] Handelsruter</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_GOVERNOR">
+      <Text>[ICON_Governor] Guvernør placeret her</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_HAPPINESS">
+      <Text>Lykke niveau</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_RELIGION_MATCHING_FOUNDED">
+      <Text>Efter din grundlagte [ICON_Religion] Religion</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_RELIGION_MISMATCHING_FOUNDED">
+      <Text>Ikke at følge din grundlagte [ICON_Religion] religion</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_MODIFIERS">
+      <Text>Andre effekter</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_ORIGINAL_OWNERSHIP">
+      <Text>At være den oprindelige ejer af byen</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OWNERSHIP_BEFORE_OCCUPATION">
+      <Text>At være ejeren af ​​byen før besættelsen</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_FREE_CITIES">
+      <Text>Ønske om uafhængighed</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_ALWAYS_LOYAL">
+      <Text>Altid fuldstændig loyal</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_CITIZEN_PRESSURE">
+      <Text>Tryk fra nærliggende [ICON_Citizen] Borgere</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_OWNED_CITIES">
+      <Text>I nærheden af [ICON_Citizen] Borgere</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_FOREIGN_CITIES">
+      <Text>Nærliggende rival [ICON_Citizen] Borgere</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_OWNED_GOVERNORS">
+      <Text>Nærliggende ejede [ICON_Governor] guvernører</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_FOREIGN_GOVERNORS">
+      <Text>Nærliggende rival Diplomat [ICON_Governor] Guvernører</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_OWNERSHIP">
+      <Text>{1_IdentityPressureAmount} fra ejerskab af byen</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_POPULATION">
+      <Text>{1_IdentityPressureAmount} fra [ICON_Citizen] Byens borgere</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_AGES">
+      <Text>{1_IdentityPressureAmount} fra Guld- eller Mørkealderen</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_GOVERNOR">
+      <Text>{1_IdentityPressureAmount} fra diplomat [ICON_Governor] guvernør</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_MODIFIERS">
+      <Text>{1_IdentitetspresBeløb} fra andre virkninger</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_OWN_CITIES">
+      <Text>Dine [ICON_Citizen] Borgere inden for 9 felter</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_MARTIAL_LAW">
+      <Text>Militærlov</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_OCCUPATION">
+      <Text>[COLOR_RED]Beskæftigelse</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_TRADE_ROUTES">
+      <Text>[ICON_TradeRoute] Handelsruter</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_GOVERNOR">
+      <Text>[ICON_Governor] Bopælsesguvernør</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_BASE_DECAY">
+      <Text>Baseforfald</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_HAPPINESS">
+      <Text>Borgerlykke</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_UNHAPPINESS">
+      <Text>[COLOR_RED]Borgerutilfredshed</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_GOLDEN_AND_DARK_AGES">
+      <Text>Gyldne og Mørke Tider</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_MISC">
+      <Text>Andre ændrende led</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_INDEPENDENCE_DESIRE">
+      <Text>[COLOR_RED]Generel uro</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_FOREIGN_CITIES">
+      <Text>[COLOR_RED]Andre civilisationers [ICON_Citizen] Borgere inden for 9 felter</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_STARVATION">
+      <Text>[COLOR_RED]Byen sulter</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_ADDITIONAL">
+      <Text>Yderligere kilder</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_NO_GROWTH_PENALTY">
+      <Text>Ingen straf</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CULTURAL_IDENTITY_LENS">
+      <Text>Loyalitet</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CULTURAL_IDENTITY_LENS_TOOLTIP">
+      <Text>Vis loyaliteten i byer og de kilder til loyalitet, der påvirker den.</Text>
+    </Row>
+    <!-- Disloyal City UI -->
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_EXPLANATION">
+      <!--New version of base game text used in conquer city UI popup, to describe Liberation effect on Loyalty-->
+      <Text>At befrielse af en by vil returnere den til en af dens tidligere ejere og muligvis bringe den civilisation tilbage i spillet.[NEWLINE][NEWLINE]{1_WarmongerInfo}[NEWLINE][NEWLINE]Denne by vil være immun over for loyalitetspres fra dine byer og guvernører.</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_HEADER">
+      <Text>BYEN REVOLTERT</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_NAME_LABEL">
+      <Text>Bynavn:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_POPULATION_LABEL">
+      <Text>Befolkning:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_DISTRICTS_LABEL">
+      <Text>Antal repræsenterede distrikter:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_KEEP_BUTTON_LABEL">
+      <Text>Behold Byen</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_KEEP_EXPLANATION">
+      <Text>Behold denne by. Du kan overveje at flytte en [ICON_Governor] guvernør hertil for at øge loyaliteten hos de nye borgere, der tilslutter sig dit imperium.</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_REFUSE_BUTTON_LABEL">
+      <Text>Affaldsbyen</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_REFUSE_EXPLANATION">
+      <Text>Nægt at lade denne by slutte sig til dit kejserrige. Den vil forblive en fri by. [NEWLINE][NEWLINE]Denne by vil være immun over for loyalitetspres fra dine byer og guvernører, og vil ikke bede om at slutte sig til din civilisation igen. Den kan stadig blive vundet over af en anden civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_LOYALTY_TOOLTIP">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) fra {1_LoyaltyLevelName}</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) fra Hwarang ([ICON_Governor] Guvernør med {1} {1 : plural 1?Forfremmelse; other?Forfremmelser;})</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_3_NAME">
+      <Text>Loyal</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_2_NAME">
+      <Text>Svingende loyalitet</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_1_NAME">
+      <Text>Illoyal</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_0_NAME">
+      <Text>Uro</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_3_DESCRIPTION">
+      <Text>Borgerne er loyale over for din civilisation</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_2_DESCRIPTION">
+      <Text>Borgernes loyalitet overfor din civilisation vakler.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_1_DESCRIPTION">
+      <Text>Borgerne er illoyale overfor din civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_0_DESCRIPTION">
+      <Text>Borgerne er i en tilstand af uro.</Text>
+    </Row>
+    <Row Tag="LOC_GLORY_SCORE_BREAKDOWN">
+      <Text>{1_Icon}({2_Score}/{3_threshold})</Text>
+    </Row>
+    <!-- Resources -->
+    <Row Tag="LOC_RESOURCE_AMBER_NAME">
+      <Text>Ambra</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_OLIVES_NAME">
+      <Text>Oliven</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_TURTLES_NAME">
+      <Text>Skildpadder</Text>
+    </Row>
+    <!-- HUD -->
+    <Row Tag="LOC_HUD_CITY_POPULATION_GRAPH_TOOLTIP">
+      <Text>{1_Amount} {2_CivName} {1_Amount : plural 1?Borger; other?Borgere;}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_LOYALTY">
+      <Text>{1_LoyaltyAmount} Loyalitet ({2_LoyaltyPerTurn : number +#.#;-#.#} per tur)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_FULL_LOYALTY">
+      <Text>Fuld loyalitet</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GAINING_LOYALTY">
+      <Text>Fuldstændig loyalitet om {1_Turns} {1_Turns : plural 1?tur; other?ture;}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_LOSING_LOYALTY">
+      <Text>Rebellion i {1_Turns}</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_UNIT_PRODUCTION_MODIFIER">
+      <Text>{Value : number +#.#;-#.#}% mod enhederne</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_BUILDING_PRODUCTION_MODIFIER">
+      <Text>{Value : number +#.#;-#.#}% mod bygninger og vidundere</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_BUILDING_NON_WONDER_PRODUCTION_MODIFIER">
+      <Text>{Value : number +#.#;-#.#}% mod bygninger</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_STABLE_LOYALTY">
+      <Text>Borgerloyalitet ændrer sig ikke</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_CULTURAL_EFFECT">
+      <Text>Ingen positive eller negative virkninger</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR">
+      <Text>Guvernør</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CIVICS_TREE_AWARD_GOVERNOR">
+      <Text>Præmier 1 [Icon_Governor] Guvernør Titel</Text>
+    </Row>
+    <Row Tag="LOC_HUD_LAUNCHBAR_GOVERNOR_BUTTON">
+      <Text>Guvernører[NEWLINE][NEWLINE]Se eller administrer [Icon_Governor] Guvernører i din civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_LAUNCHBAR_HISTORIAN_BUTTON">
+      <Text>Historisk Tidslinje[NEWLINE][NEWLINE]Se tidslinjen for historiske øjeblikke opnået af din civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_CULTURE_TOOLTIP">
+      <Text>Loyalitet og Guvernører</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ESTABLISHED">
+      <Text>Etableret i byen</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ASSIGNED_SPECIFIC">
+      <Text>[ICON_Governor] Guvernør {1_GovernorName} tildelt byen</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ESTABLISHED_SPECIFIC">
+      <Text>[ICON_Governor] Guvernør {1_GovernorName} etableret i byen</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_NO_GOVERNOR">
+      <Text>Ingen tildelt [ICON_Governor] Guvernør</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_NO_GOVERNOR_EFFECT">
+      <Text>...</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_TURNS">
+      <Text>{1_num} {1_Num: ental? tur; flertal? ture;}.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GOLD_FROM_POPULATION">
+      <Text>{Value : number +#.#;-#.#} fra ekstra skatter</Text>
+    </Row>
+    <!-- Loyalty and Identity -->
+    <Row Tag="LOC_LOYALTY_STATUS_LOYAL">
+      <Text>[COLOR_GREEN]Loyal</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_STATUS_DISLOYAL">
+      <Text>[COLOR_RED]Utroværdig</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_GAINING">
+      <Text>[COLOR_GREEN][ICON_PressureUp] Stigende</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_STABLE">
+      <Text>Stabil</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_LOSING">
+      <Text>[COLOR_RED][ICON_PressureDown] Falder</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_NONE">
+      <Text>Denne by er loyal overfor dig, og der er ingen negative konsekvenser.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_DANGER_OF_REBELLION_TO_PLAYER">
+      <Text>Hvis loyaliteten falder til 0, vil byen gøre oprør og slutte sig til {1_PlayerName}, som har opbygget mest loyalitet her.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_DANGER_OF_REBELLION_TIED_PLAYERS">
+      <Text>[COLOR_RED]Hvis loyaliteten falder til 0, vil byen oprøre og slutte sig til den anden civilisation, der har akkumuleret mest loyalitet her.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_GROWTH_AND_YIELD_EFFECTS_TEXT">
+      <Text>Byvæksten er på {1_GrowthReduction}%.[NEWLINE]Byens udbytte er reduceret med {2_YieldPercentage}%</Text>
+    </Row>
+    <!-- Emergency Text Blocks -->
+    <Row Tag="LOC_EMERGENCY_PARTICIPANTS">
+      <Text>DELTAGERE:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING">
+      <Text>Afventer {1_TypeEmergency}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_ONGOING">
+      <Text>Pågående {1_TypeEmergency}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETED">
+      <Text>Færdiggjort {1_TypeEmergency}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET">
+      <Text>Mål: {1_Target}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_YOU_ARE_TARGET">
+      <Text>Du (as a personal pronoun)</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_JOIN">
+      <Text>Acceptér</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REJECT">
+      <Text>Afvis (as a translation of "reject")</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TURNS_REMAINING">
+      <Text>[ICON_Turn] {1_Turns : plural 1?{1_Turns} tur; other?{1_Turns} ture;} tilbage</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NO_TURNS_REMAINING">
+      <Text>Slutter [ICON_Turn] Denne Tur</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TURNS_OVER">
+      <Text>Nødsituationen er afsluttet</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_BUFFS_EXPLANATION">
+      <Text>I løbet af denne nødsituation:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARDS_EXPLANATION">
+      <Text>Hvis medlemmerne lykkes:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARDS_EXPLANATION">
+      <Text>Hvis medlemmerne fejler:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBERS_HAVE_WON_REWARDS">
+      <Text>På grund af medlemmernes sejr:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_HAS_WON_REWARDS">
+      <Text>På grund af Targets sejr:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_THESE_GOALS">
+      <Text>Fuldfør disse mål:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_EXPLANATION">
+      <Text>Du har en chance for at deltage i en nødsituation mod dette mål. [NEWLINE]{1_GoalsExplanation}[NEWLINE]Hvis det lykkes, vil du blive belønnet. Hvis det mislykkes, vil målet blive stærkere. Du skal acceptere eller afvise denne nødsituation.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_EXPLANATION_DEFENDER">
+      <Text>Der er erklæret en nødsituation mod dig![NEWLINE]{1_GoalsExplanation}[NEWLINE]Hvis du med succes forhindrer medlemmerne i at opnå disse mål, vil du blive belønnet. Hvis du fejler, vil medlemmerne blive stærkere.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_SHORT_DESCRIPTION">
+      <Text>AFVENTER: ACCEPTER ELLER AFVIST</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_MEMBERS_WIN">
+      <Text>Medlemmerne er sejrrige</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_TARGET_WIN">
+      <Text>Målet er sejrrigt</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_GOLD_REWARD">
+      <Text>Medlemscivilisationerne deler en pulje på {1_Amount} [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_GOLD_REWARD">
+      <Text>Målet modtager [ICON_Gold] {1_Amount} Guld pr. medlem.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_BUFF_DESCRIPTION_IDENTITY_IN_CITY">
+      <Text>Målet får +20 loyalitet pr. tur i målbyen.</Text>
+    </Row>
+    <!-- |||||||||  Goal Specific                                                   ||||||||||||| -->
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_CAPTURE_CITIES">
+      <Text>Dem, der slutter sig til nødberedskabet, skal inden for [ICON_Turn] {Turns} ture erobre specifikke byer fra {TargetName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_CAPTURE_SPECIFIC_CITY">
+      <Text>Dem, der deltager i beredskabet, skal erobre {CityName} fra {TargetName} inden for [ICON_Turn] {Turns} træk.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_CAPTURE_CITIES">
+      <Text>Medlemmerne af Beredskabet skal erobre specifikke byer fra {TargetName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_CAPTURE_SPECIFIC_CITY">
+      <Text>Medlemmerne af nødhjælpsteamet skal erobre {CityName} fra {TargetName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_CAPTURE_CITIES">
+      <Text>Indfange {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_CAPTURE_CITIES_DEFENSE">
+      <Text>Forsvar {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_CAPTURE_CITY_DEFENSE">
+      <Text>Forsvar {1_CityName} indtil slutningen af nødsituationen.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_CAPTURE_CITIES">
+      <Text>Fang {1_CityName} inden nødens ende.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_UNCONVERT_CITY">
+      <Text>Dem, der slutter sig til nødberedskabet, skal forhindre {CityName} i at følge {TargetName}s religion i de næste {HalfTurns} af de næste [ICON_Turn] {Turns} ture.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_UNCONVERT_CITY">
+      <Text>Medlemmerne af nødberedskabet skal forhindre {CityName} i at følge {TargetName}s religion i [ICON_Turn] {HalfTurns} halvrunder.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_UNCONVERT_CITY">
+      <Text>Kritiser {NewReligion}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_UNCONVERT_CITY_DEFENSE">
+      <Text>Forsvar {NewReligion}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_UNCONVERT_CITY_DEFENSE">
+      <Text>Gør {NewReligion} til den dominerende religion i {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_UNCONVERT_CITY">
+      <Text>Forhindre, at {NewReligion} bliver den dominerende religion i {1_CityName}.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_LIBERATE_CITY">
+      <Text>Dem der slutter sig til beredskabet, bliver nødt til at befri {CityName} fra {TargetName}'s kontrol indenfor [ICON_Turn] {Turns} ture.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIBERATE_CITY">
+      <Text>Medlemmerne af nødberedskabet skal befri {CityName} fra {TargetName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_LIBERATE_CITY">
+      <Text>Frigør {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_LIBERATE_CITY_DEFENSE">
+      <Text>Forsvar {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_LIBERATE_CITY_DEFENSE">
+      <Text>Forsvar {1_CityName} indtil slutningen af ​​nødsituationen.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_LIBERATE_CITY">
+      <Text>Befri {1_CityName} før nødretstilstanden er slut.</Text>
+    </Row>
+    <!-- |||||||||  Emergency Specific                                              ||||||||||||| -->
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_MILITARY">
+      <Text>Militær Nødssituation</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_MILITARY">
+      <Text>"Hvis vi ikke står sammen, vil skæbnen for denne ene by ramme os alle med tiden."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_MILITARY">
+      <Text>{TargetName}, selvom det er i front for verdens civilisationer, har erobret {OldCityName}. {TargetName}'s hastige succes er en bekymring af stor betydning.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_MILITARY">
+      <Text>Desuden vil alle medlemmer have fred, åbne grænser og fælles synlighed med hinanden. Alle medlemmer vil gå i krig med målet.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_MILITARY_MOVEMENT">
+      <Text>Medlemsenheder får +1 [ICON_Movement] Bevægelse i Målets territorium.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_MILITARY_COMBAT_STRENGTH">
+      <Text>Mål-enheder har -2 [ICON_Strength] kampstyrke, når de kæmper mod Medlems-enheder.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_MILITARY_INCREASED_HEALING">
+      <Text>Medlemsenheder får +5 helbredelse på Målets territorium.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_MILITARY_CITY_STRIKE">
+      <Text>Målet får +2 [ICON_Strength] kampstyrke, når det angriber en medlemsenhed med en by-strike.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_SETTLEMENT_MOVEMENT">
+      <Text>Medlemsenheder får +1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_BUFF_DESCRIPTION_SETTLEMENT_MOVEMENT">
+      <Text>Målenheder får +1 [ICON_Movement] Bevægelse.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SETTLEMENT_GOLD_PER_TURN">
+      <Text>Medlemmer får +1 Guld per tur.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_SETTLEMENT_GOLD_PER_TURN">
+      <Text>Mål får +1 Guld pr. tur.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_CITY_STATE">
+      <Text>Bystat nødsituation</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_CITY_STATE">
+      <Text>"Vi ærer bystaternes uafhængighed og vil ikke se passivt til denne erobring."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_CITY_STATE">
+      <Text>{TargetName} har erobret {OldCityName}. Erobringen af {OldCityName} er en stor bekymring.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_CITY_STATE">
+      <Text>Alle medlemmer vil have fred, åbne grænser og delt synlighed med hinanden. Alle medlemmer vil gå i krig med målet.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_CITY_STATE_GOLD_PER_ENVOY">
+      <Text>Medlemmer får +1 [ICON_Gold] Guld per tur for hver af deres [ICON_Envoy] udsendinge.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_CITY_STATE_GOLD_FOR_TRADE_ROUTES">
+      <Text>Mål [ICON_TradeRoute] Handelsruter til By-Stater giver +2 [ICON_Gold] Guld per tur.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_RELIGIOUS">
+      <Text>Religiøst nødstilfælde</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_RELIGIOUS">
+      <Text>"De troendes råb stiger til himlen, og på jorden bliver vi bevæget til retfærdig vrede."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_RELIGIOUS">
+      <Text>{TargetName} har konverteret {OldCityName}, den Hellige By af {OldReligion}, til {NewReligion}. Det ser ud til, at {TargetName} ikke er villig til at leve fredeligt sammen med de andre store religioner i verden.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_RELIGIOUS_RELICS">
+      <Text>Hver medlem får en relikvie.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_RELIGIOUS_PRESSURE">
+      <Text>Målets Religion udløser en bølge af tryk i alle nærliggende byer.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_SPYING">
+      <Text>Spionage-krise</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SPYING">
+      <Text>Alle spionerer, men denne fyr blev fanget! Lad os gøre noget ved det!</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SPYING">
+      <Text>Fang en målrettet spion ved at lægge en fælde i en by, hvor målet udfører en operation.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_SPYING_ACTION">
+      <Text>Medlemmer af Spies får en ny handling i Medlemsbyer: Læg Fælde. Hvis en Mål-Spy forsøger en Operation i denne By, vil de blive fanget i fælden.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SPYING_SPY_KILLER">
+      <Text>Den fanget spion bliver dræbt.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SPYING_FORTITUDE">
+      <Text>Det vil være mere vanskeligt for Target at gennemføre spionageoperationer i medlemsbyer.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_SPYING_FREE_SPY">
+      <Text>Målet får 1 ekstra spion.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_NUCLEAR">
+      <Text>Kerneenergi nødsituation</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_NUCLEAR">
+      <Text>"Grusomme kræfter, anvendt til grusomme formål. Aldrig igen!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_NUCLEAR">
+      <Text>{TargetName} har brugt verdens mest kraftfulde våben, og den nukleare ånd er sluppet ud af flasken. Er vores udryddelse nært forestående?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_NUCLEAR">
+      <Text>Desuden vil alle medlemmer have fred, åbne grænser og fælles synlighed med hinanden. Alle medlemmer vil gå i krig med målet.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_NUCLEAR_MOVEMENT">
+      <Text>Medlemsenheder får +1 [ICON_Movement] bevægelse i Målets territorium.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_NUCLEAR_COMBAT_STRENGTH">
+      <Text>Mål-enheder har -2 [ICON_Strength] kampstyrke, når de kæmper mod Medlems-enheder</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_NUCLEAR_COMBAT_STRENGTH">
+      <Text>Mål-enheder har -3 [ICON_Strength] kampstyrke, når de kæmper mod Medlems-enheder</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_NUCLEAR_CULTURE_SCARE">
+      <Text>Medlemsbyer udøver en mindre Loyalty-pres.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_BACKSTAB">
+      <Text>Forræderi nødsituation</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_BACKSTAB">
+      <Text>"Åben, ærlig krig er helt sikkert mindre hadefuld end denne bedrageriske diplomati."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_BACKSTAB">
+      <Text>{TargetName} har uddelt et forræderisk slag ved at erklære krig mod {OldPlayerName}, en langvarig ven! Det ser ud til at ingen er sikre mod {TargetName}s aggression.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_BACKSTAB">
+      <Text>Desuden vil alle medlemmer have fred, åbne grænser og delt synlighed med hinanden. Alle medlemmer vil gå i krig med målet.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_MOVEMENT">
+      <Text>Medlemsenheder får +1 [ICON_Movement] bevægelse i målets territorium.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_COMBAT_STRENGTH">
+      <Text>Mål-enheder har -3 [ICON_Strength] kampevne, når de kæmper mod Medlems-enheder</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_CANCEL_TRADE_ROUTES">
+      <Text>Alle handelsruter mellem medlemmerne og målet er aflyst.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_TRADING">
+      <Text>Alle handelsruter mellem medlemmer giver +2 [ICON_Production] Produktion.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_MILITARY_COMBAT_STRENGTH">
+      <Text>Mål-enheder har -3 [ICON_Strength] Kampsstyrke, når de kæmper mod Medlems-enheder</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_MILITARY_WAR_WEARINESS">
+      <Text>Målet vil modtage mindre krigstræthed, når de er i krig med medlemmer.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TAB_COMPLETED">
+      <Text>Completed</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!--Spy-->
+    <Row Tag="LOC_UNITOPERATION_SPY_FABRICATE_SCANDAL_DESCRIPTION">
+      <Text>Fremstil en skandale</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_FOMENT_UNREST_DESCRIPTION">
+      <Text>Skab uro</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_NEUTRALIZE_GOVERNOR_DESCRIPTION">
+      <Text>Neutraliser guvernøren</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FABRIRCATE_SCANDAL_REWARD">
+      <Text>Fjernelse af fjendtlige sendebud</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FOMENT_UNREST_REWARD">
+      <Text>Reducere loyalitet og øge vores loyalitet</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NEUTRALIZE_GOVERNOR_REWARD">
+      <Text>deaktivering af fjendens [ICON_Governor] guvernør</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_FABRICATE_SCANDAL">
+      <Text>Tvinger de øverste konkurrenter til at tabe {1_EnvoyString}</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_FOMENT_UNREST">
+      <Text>Reducer fjendens loyalitet med {1_LoyaltyString}</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_NEUTRALIZE_GOVERNOR">
+      <Text>Fjern fjendens [ICON_Governor] guvernør fra tjeneste i {1_TurnString}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FABRICATE_SCANDAL_ESTIMATE">
+      <Text>{1_Amount} [ICON_Envoy] Sendebud</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FOMENT_UNREST_ESTIMATE">
+      <Text>{1_Beløb}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NEUTRALIZE_GOVERNOR_ESTIMATE">
+      <Text>{1_Amount} drejninger</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SMEAR_CAMPAIGN_NAME">
+      <Text>Sværtekampagne</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_COVERT_ACTION_NAME">
+      <Text>Dækkoperation</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LICENSE_TO_KILL_NAME">
+      <Text>Licence til at dræbe</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SMEAR_CAMPAIGN_DESCRIPTION">
+      <Text>Fabrikere en skandale, som om du havde 2 niveauer mere erfaring.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_COVERT_ACTION_DESCRIPTION">
+      <Text>Skab uro, som om du var 2 niveauer mere erfaren.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LICENSE_TO_KILL_DESCRIPTION">
+      <Text>Neutraliser guvernøren som om du havde 2 niveauer mere erfaring.</Text>
+    </Row>
+    <!--Diplomacy modifiers-->
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_BROKEN_PLEDGE">
+      <Text>Brød en tilsagn om at flytte tropper fra deres grænse</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_KEPT_PLEDGE">
+      <Text>Holdt tilsagn om at flytte tropper fra deres grænse</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_NO_PLEDGE">
+      <Text>Besluttede ikke at afgive tilsagn om at flytte tropper</Text>
+    </Row>
+    <!--OPERATIONS AND COMMANDS TEXT-->
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_DESCRIPTION">
+      <Text>Parachutering</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_IN_ZOC">
+      <Text>I fjendens kontrolzone</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_FRIENDLY_TERRITORY">
+      <Text>Skal være på venlig territorium eller i nærheden af en flyveplads eller lufthavn.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_REQUIRES_FULL_MOVEMENT">
+      <Text>Kræver fuld bevægelse</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PROJECT_PRODUCTION_DESCRIPTION">
+      <Text>Tilføj [ICON_Production] Produktion til et projekt. Kun en gang per by per tur.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PRIORITY_TARGET_DESCRIPTION">
+      <Text>Prioritetsmål</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IDENTITY_PRESSURE">
+      <Text>Loyalitet per tur</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_DETAILS_TURNS_TO_ESTABLISH">
+      <Text>Forsøg på at etablere</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>Mængden af loyalitet per tur til din civilisation, som denne guvernør giver til byen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TRANSITION_STRENGTH">
+      <Text>Overgangsstyrke</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TRANSITION_STRENGTH_TOOLTIP">
+      <Text>Hastigheden hvormed denne Governor etablerer sig i en by.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGN_GOVERNOR_TO">
+      <Text>Tildel guvernør til...</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_SELECT_A_CITY">
+      <Text>Vælg en by...</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_NO_PREVIOUS_GOVERNOR">
+      <Text>Ingen tidligere guvernør</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TURNS_TO_ESTABLISH">
+      <Text>Antal drejninger før guvernøren bliver etableret.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_SKILL_TREE">
+      <Text>Færdighedstræ</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTE">
+      <Text>Fremme</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_ASSIGN_GOVERNOR">
+      <Text>Tildel</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_REASSIGN_GOVERNOR">
+      <Text>Omprioriter</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_ABILITIES">
+      <Text>EVNER</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ABILITIES">
+      <Text>GUVERNØRENS EVNER</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ABILITIES_SUBTEXT">
+      <Text>Brug guvernør-titler på promoveringer</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES">
+      <Text>Guvernørtitler: {1_PointsAvailable}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES_AVAILABLE">
+      <Text>TITLER TIL RÅDIGHED FOR GOVERNOR: {1_PointsAvailable}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES_SPENT">
+      <Text>BRUGT: {1_PointsSpent}</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_TIMELINE_TITLE">
+      <Text>Historien om {1_PlayerCiv}</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_NEW_MOMENT">
+      <Text>{1_PlayerCiv} Skaber Historie</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_MOMENT_EFFECTS">
+      <Text>{1_MomentDate}    \|    Tur {2_MomentTurn}    \|    {3_MomentScore} Tidsalder Score</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_MOMENT_EFFECTS_NO_SCORE">
+      <Text>{1_MomentDate}    \|    Tur {2_MomentTurn}</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_PERCENTAGE">
+      <Text>Loyalitet: {1_CurrentLoyalty}/{2_MaxLoyalty} ({3_LoyaltyIcon}{4_LoyaltyPerTurn})</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POSITIVE_PRESSURE">
+      <Text>+{1_Value}</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_GOVERNORS_PRESSURE_TOOLTIP">
+      <Text>[ICON_Governor] Guvernør placeret her</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_MY_CITIES_PRESSURE_TOOLTIP">
+      <Text>Ejerens [ICON_Citizen] Borgere inden for 9 fliser</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_THEIR_CITIES_PRESSURE_TOOLTIP">
+      <Text>Andre civilisationers [ICON_Citizen] Borgere inden for 9 felter</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_INDEPENDENCE_PRESSURE_TOOLTIP">
+      <Text>Ønske om uafhængighed</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_HAPPINESS_PRESSURE_TOOLTIP">
+      <Text>Lykke niveau</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_OTHER_PRESSURE_TOOLTIP">
+      <Text>Andre effekter her</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_CITY_STATES_PRESSURE_TOOLTIP">
+      <Text>Grundstyrke som en bystat</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_FREE_CITIES_PRESSURE_TOOLTIP">
+      <Text>Baseret styrke som en fri by</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP">
+      <Text>Pres fra nærliggende [ICON_Citizen] borgere</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP_MAJOR_CIVS">
+      <Text>Varierer fra +20 til -20, baseret på sammenligningen af trykket fra nærliggende [ICON_Citizen] Borgere, der tilhører byens ejer, og nærliggende [ICON_Citizen] Borgere, der tilhører en anden civilisation. [NEWLINE][ICON_Bullet] 1 tryk pr. [ICON_Citizen] Borger normalt [NEWLINE][ICON_BULLET] Forøges i [ICON_Capital] Hovedstaden[NEWLINE][ICON_BULLET] Kan påvirkes af Gyldne Tider, Mørke Tider og byprojektet "Brød og Cirkus"[NEWLINE][ICON_BULLET] Gælder også for andre byer inden for 9 felter, men er 10% mindre effektiv per felt</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP_MINOR_CIVS">
+      <Text>Varierer fra +20 til -20, baseret på sammenligningen af ​​tryk, der kommer fra nærliggende [ICON_Citizen] Borgere tilhørende byens ejer og nærliggende [ICON_Citizen] Borgere tilhørende en anden civilisation. [NEWLINE][ICON_Bullet]1 Tryk pr. [ICON_Citizen] Borger normalt[NEWLINE][ICON_BULLET]Øges i [ICON_Capital] Hovedstad</Text>
+    </Row>
+    <!-- Dedications-->
+    <Row Tag="LOC_TECH_BOOST_DEDICATION_NOTIFICATION">
+      <Text>Du har udløst en [ICON_TechBoosted] Eureka.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOST_DEDICATION_NOTIFICATION">
+      <Text>Du har udløst en [ICON_CivicBoosted] inspiration.</Text>
+    </Row>
+    <Row Tag="LOC_RELIGIOUS_CONVERSION_DEDICATION_NOTIFICATION">
+      <Text>Du har konverteret en by til din grundlagte religion for første gang.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMPLETION_DEDICATION_NOTIFICATION">
+      <Text>Du har konstrueret en ny bydel.</Text>
+    </Row>
+    <Row Tag="LOC_TRADE_ROUTE_DEDICATION_NOTIFICATION">
+      <Text>Du har fuldført en [ICON_TradeRoute] Handelsrute.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_DISCOVERY_DEDICATION_NOTIFICATION">
+      <Text>Du har opdaget en ny kontinent eller naturvidunder.</Text>
+    </Row>
+    <Row Tag="LOC_CORPS_KILL_DEDICATION_NOTIFICATION">
+      <Text>Du har ødelagt en krop.</Text>
+    </Row>
+    <Row Tag="LOC_ARMY_KILL_DEDICATION_NOTIFICATION">
+      <Text>Du har ødelagt en hær.</Text>
+    </Row>
+    <Row Tag="LOC_NAVAL_UNIT_KILL_DEDICATION_NOTIFICATION">
+      <Text>Du har ødelagt en ikke-barbarisk søenhet.</Text>
+    </Row>
+    <Row Tag="LOC_SCIENCE_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Du har konstrueret en bygning, der giver [ICON_Science] Videnskab som en grundlæggende udbytte.</Text>
+    </Row>
+    <Row Tag="LOC_CULTURE_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Du har konstrueret en bygning med en storværksslotsplads.</Text>
+    </Row>
+    <Row Tag="LOC_INDUSTRIAL_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Du har konstrueret en bygning fra Industrielle Revolution eller senere.</Text>
+    </Row>
+    <Row Tag="LOC_AERODROME_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Du har bygget et bygning i Aerodrome-distriktet.</Text>
+    </Row>
+    <Row Tag="LOC_SPY_MISSION_DEDICATION_NOTIFICATION">
+      <Text>Du har gennemført en vellykket offensiv spionageoperation.</Text>
+    </Row>
+    <Row Tag="LOC_ARTIFACT_EXTRACTION_DEDICATION_NOTIFICATION">
+      <Text>Du har udvundet et [ICON_GreatWork_Artifact] Artefakt.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EARNED_NOTIFICATION">
+      <Text>Du har tjent en [ICON_GreatPerson] Stor Person.</Text>
+    </Row>
+    <!-- Scoring -->
+    <Row Tag="LOC_CATEGORY_ERA_SCORE_NAME">
+      <Text>Æra-score</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP">
+      <Text>Civilizationer, der har tildelt deres Diplomat [ICON_Governor] Guvernør til denne bystat:</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP_ENTRY">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName})</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP_ENTRY_UNMET">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_CIV_AMBASSADOR_TOOLTIP">
+      <Text>{1_CivName} har tildelt en diplomat til denne bystat.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_HAS_AMBASSADOR_TOOLTIP_ENTRY_LIMITED">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName})</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_HAS_AMBASSADOR_TOOLTIP_ENTRY_FULL">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName}) - {3_EtableringsInfo}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_INHERENT_BONUS">
+      <Text>Stor bonus</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_ACCUMULATED_BONUS">
+      <Text>Lille bonus</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION">
+      <Text>+1 [ICON_Food] Forbedring af mad fra plantagen.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_NEW_FEATURES">
+      <Text>Nye funktioner</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_NEW_FEATURES_TOOLTIP">
+      <Text>Gennemgå de nye funktioner i den nuværende udvidelse.</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_NEXT">
+      <Text>Næste</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_PREVIOUS">
+      <Text>Previous</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_CONTINUE">
+      <Text>with the text that needs to be translated and I will provide the natural-sounding translation in Danish</Text>
+    </Row>
+    <Row Tag="LOC_XP_INTRO_HIDETHIS">
+      <Text>Vis ikke dette igen</Text>
+    </Row>
+    <Row Tag="LOC_END_GAME_MENU_HISTORIAN_BUTTON">
+      <Text>Se tidslinje</Text>
+    </Row>
+    <Row Tag="LOC_END_GAME_MENU_EXPORT_HISTORIAN_BUTTON">
+      <Text>Eksporter tidslinje</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_CITY_IS_LOYAL_TO_TT">
+      <Text>Byen er loyal overfor {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_CITY_WILL_FALL_TO_TT">
+      <Text>Byen vil falde til {1_CivName}, når loyaliteten når 0</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_RISING_BY_X_TT">
+      <Text>Loyaliteten overfor {1_CivName} stiger med {2_PointsPerTurn} {2_PointsPerTurn : plural 1?point; other?points;} per tur</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_DROPPING_BY_X_TT">
+      <Text>Tilhørsforholdet til {1_CivName} falder med {2_PointsPerTurn} {2_PointsPerTurn: plural 1?point; other?points;} per tur</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_NOT_CHANGING_TT">
+      <Text>Loyalitet til {1_CivName} vil ikke ændre sig næste tur</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_STATUS_TT">
+      <Text>{1_LoyaltyIcon} TROFASTHED {2_CurrentLoyalty}/{3_MaxLoyalty}[NEWLINE]Status: {4_LoyaltyStatus}</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_ALLIANCE_TT">
+      <Text>Aktivt forskning i samme teknologi som din forskningsallierede for at opretholde en per tur [ICON_Science] videnskabsboost.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_ALLIANCE_BONUS_TT">
+      <Text>Modtager Level 3 Forskningsalliance videnskabsbonus.[NEWLINE]Hvis du forsker i samme teknologi som din forskningsalliance, opretholder du en [ICON_Science] videnskabsbonus per tur.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_MAX_LOYALTY_TT">
+      <Text>Byen er fuldt loyale og øger loyaliteten per tur</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_NO_CHANGE_TT">
+      <Text>Okay, no problem</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_RISING_LOYALTY_TT">
+      <Text>Stigende {1_LoyaltyPerTurn}</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_FALLING_LOYALTY_TT">
+      <Text>Faldende {1_LoyaltyPerTurn}</Text>
+    </Row>
+    <!-- Replay DataSets -->
+    <Row Tag="LOC_REPLAYDATASET_ERASCORE_NAME">
+      <Text>Era score per tur</Text>
+    </Row>
+    <Row Tag="LOC_REPLAYDATASET_GOVERNORS_NAME">
+      <Text>Totale guvernører</Text>
+    </Row>
+    <Row Tag="LOC_REPLAYDATASET_GOVERNORTITLES_NAME">
+      <Text>Titler for total guvernører</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FILTER_DARK">
+      <Text>Mørk</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FISHERY_NAME">
+      <Text>Fiskeri</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION">
+      <Text>En [ICON_Governor] Guvernør unik forbedring, der kan bygges i en by med en Surveyor Governor med Aquaculture forfremmelse. Udbytter 1 [ICON_Food] Mad, +1 yderligere [ICON_Food] Mad, hvis den er tilstødende til en havressource. Skal bygges på en kystgrund.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_CITY_PARK_NAME">
+      <Text>Bypark</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION">
+      <Text>En [ICON_Governor] guvernør unik forbedring, der kan bygges i en by med en Surveyor-guvernør med Parks and Recreation-promovering. Giver 2 Appel og 1 [ICON_Culture] Kultur. +1 [ICON_Amenities] Behagelighed, hvis det er ved siden af vand. Kan ikke være ved siden af en anden bypark.</Text>
+    </Row>
+    <!-- MISC -->
+    <Row Tag="LOC_CIVILIZATION_NOT_ABLE_TO_DECLARE_SURPRISE_WAR">
+      <Text>Din Civilisation må ikke erklære en overraskelseskrig; dette inkluderer at erklære krig mod en Bystats.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JERUSALEM_DESCRIPTION_EXPANSION">
+      <Text>Dine byer med hellige steder udøver tryk, som om de var hellige byer (4x religionstryk på alle byer inden for 10 felter).</Text>
+    </Row>
+    <!-- Type Traits-->
+    <Row Tag="LOC_TYPE_TRAIT_GOVERNOR_POINTS">
+      <Text>{1_Amount: number +#,###.#;-#,###.#} [ICON_STAT_GOVERNOR] Guvernørpoint</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_GOVERNOR_POINTS_WITH_REQUIREMENT">
+      <Text>{1_Amount: number +#,###.#;-#,###.#} [ICON_STAT_GOVERNOR] Guvernørpoints (kræver {2_TechOrCivicName})</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_REQUIRES_GOVERNMENT_TIER">
+      <Text>Påkrævet regeringsniveau: {1_GovernmentTier}</Text>
+    </Row>
+  </EnglishText>
+</GameData>

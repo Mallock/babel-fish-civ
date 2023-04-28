@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!--REPLACEMENTS-->
+    <Delete Tag="LOC_BELIEF_INITIATION_RITES_DESCRIPTION" />
+    <Delete Tag="LOC_BOOST_TRIGGER_MILITARY_TRADITION" />
+    <Delete Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_DESCRIPTION" />
+    <Delete Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_NAME" />
+    <Delete Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_DESCRIPTION" />
+  </LocalizedText>
+  <EnglishText>
+    <!--REPLACEMENTS-->
+    <Row Tag="LOC_BELIEF_INITIATION_RITES_DESCRIPTION">
+      <Text>+50 [ICON_Faith] Tro på hver barbarisk befæstning, der spredes.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MILITARY_TRADITION">
+      <Text>Spred en barbarisk udpost.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_DESCRIPTION">
+      <Text>Når du spreder en barbarisk post ud, modtag en Tribal Village-belønning ud over den sædvanlige [ICON_Gold] Guld. Betal halvdelen af den sædvanlige omkostning for at opkræve bystatsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_NAME">
+      <Text>Spred den barbariske udpost indenfor 5 fliser</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_DESCRIPTION">
+      <Text>Spred en [ICON_Barbarian] barbarisk udpost inden for 5 fliser fra byen.</Text>
+    </Row>
+    <!--Clans-->
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_1">
+      <Text>Stille ræv</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_2">
+      <Text>Grævlingeklo</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_3">
+      <Text>Sand Slange</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_4">
+      <Text>Tigerklo</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_5">
+      <Text>Sten Drage</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_6">
+      <Text>Grå rotte</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_1">
+      <Text>Bjørne Træ</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_2">
+      <Text>Ét Øje</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_3">
+      <Text>Trebladet</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_4">
+      <Text>Fire Gren</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_5">
+      <Text>Hvid ugle</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_6">
+      <Text>Nyt sværmeangreb</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_1">
+      <Text>Nedgående sol</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_2">
+      <Text>Rock Grib</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_3">
+      <Text>Bent Tree (Same translation in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_4">
+      <Text>Split Rock (this is already in English and does not need to be translated into Danish)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_5">
+      <Text>Gul Ged</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_6">
+      <Text>Stenansigt</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_1">
+      <Text>Lilla Ravn</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_2">
+      <Text>Storm Sky</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_3">
+      <Text>Vinddrage</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_4">
+      <Text>Fem stjerner</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_5">
+      <Text>Halvmåne</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_6">
+      <Text>Morgenstjerne</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_1">
+      <Text>Gult Tand</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_2">
+      <Text>Grøn Abe</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_3">
+      <Text>Firemyre</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_4">
+      <Text>Hvid Lotus</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_5">
+      <Text>Faldende vand</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_6">
+      <Text>Kort Snabel</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_1">
+      <Text>Nat-torden</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_2">
+      <Text>Bleg hest</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_3">
+      <Text>To flag</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_4">
+      <Text>To pilepiler</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_5">
+      <Text>Halv kranie</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_6">
+      <Text>Bøjet Rør</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_1">
+      <Text>Tre sejl</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_2">
+      <Text>Grå haj</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_3">
+      <Text>Havånden</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_4">
+      <Text>Rødrev</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_5">
+      <Text>Brydende bølge</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_6">
+      <Text>Spøgelsesfisk</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_OPEN">
+      <Text>Flatland Klanen</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_FOREST">
+      <Text>Skovklanen</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_HILLS">
+      <Text>Hills Klanen</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_OPEN">
+      <Text>Rover Klanen</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_JUNGLE">
+      <Text>Jungle Klan</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_CHARIOT">
+      <Text>Chariot Klanen</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_NAVAL">
+      <Text>Søfarende klan</Text>
+    </Row>
+    <!--Unit Actions-->
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_DISPERSE_DESCRIPTION">
+      <Text>Spredt klan</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_DISPERSE_HELP">
+      <Text>Ødelæg Outposten og optjen {1_XPAmount} XP.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RAID_DESCRIPTION">
+      <Text>Raid-klanen</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RAID_HELP">
+      <Text>Tjen {1_GoldAmount} [ICON_GOLD] guld. Outpost vil forblive intakt og miste {2_ProgressAmount} point mod bystats-konvertering. Klaner kan plyndres en gang hver {3_Turns} runde.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_HIRE_DESCRIPTION">
+      <Text>Ansæt klanen</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_HIRE_HELP">
+      <Text>Brug {1_GoldAmount} [ICON_Gold] Guld på at ansætte en {4_UnitName} enhed fra denne klan. Enheden vil dukke op nær byen {5_CityName} denne tur. Klanen vil få {2_ProgressAmount} point mod Bystatskonvertering. Klaner kan ansættes en gang hver {3_Turns} ture.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RANSOM_DESCRIPTION">
+      <Text>Løsepengeenhed</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RANSOM_HELP">
+      <Text>Brug {1_GoldAmount} [ICON_Gold] Guld til at befri dine fangetagne {2_UnitName}. Klanen vil miste fremskridt i retning af bystatskonvertering.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_BRIBE_DESCRIPTION">
+      <Text>Bestikkelsesklanen</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_BRIBE_HELP">
+      <Text>Brug {1_GoldAmount} [ICON_Gold] Guld på at forhindre denne klan i at angribe dine byer i {2_Turns} omgange. Klanen vil opnå {3_ProgressAmount} point mod bystatskonvertering.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_DESCRIPTION">
+      <Text>Incite Klanen</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_HELP">
+      <Text>Brug {1_GoldAmount} [ICON_Gold] guld på at opfordre denne klan til at angribe {4_CivName}. Klanen vil miste {2_ProgressAmount} point i retning af City-State konvertering. Klaner kan opildnes en gang hver {3_Turns} tur.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_HELP_GENERIC">
+      <Text>Brug [ICON_Gold] Guld til at opfordre denne klan til at angribe en anden nærliggende civilisation eller bystat. Klanen vil miste {1_ProgressAmount} point mod bystatskonvertering. Klaner kan opildnes én gang hver {2_Turns} tur.</Text>
+    </Row>
+    <!--Unit Action Result Strings-->
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_NOT_ON_CAMP">
+      <Text>Skal være placeret på en barbarisk udpost.</Text>
+    </Row>
+    <Row Tag="LOC_OPERATION_FAILURE_NOT_ENOUGH_GOLD">
+      <Text>Ikke nok [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_GOLD_COST">
+      <Text>Denne handling kræver {1_GoldCost} [ICON_GOLD] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_RAIDED">
+      <Text>Denne klan kan ikke ransages igen i {1_Turns} {1_Turns: plural 1?turn; other?turns;}.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_HIRED">
+      <Text>Denne klan kan ikke hyres igen i {1_Turns} {1_Turns: plural 1?tur; other?ture;}.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_INCITED">
+      <Text>Denne klan kan ikke opildnes igen i {1_Turns}.</Text>
+    </Row>
+    <Row Tag="LOC_OPERATION_FAILURE_HAS_NOT_MET_INCITE_TARGET">
+      <Text>Vi har ikke mødt andre civilisationer kendt af denne klan.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_ACTIVE_BRIBE">
+      <Text>Denne klan er allerede bestukket i {1_Turns}.</Text>
+    </Row>
+    <!--UI-->
+    <Row Tag="LOC_TOOLTIP_BARBARIAN_CLAN_NAME">
+      <Text>{1_ClanName} Klan</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_STATUS_BRIBED">
+      <Text>Du bestak denne enhed. ({1_turnsRemaining} [ICON_Turn] {1_turnsRemaining : plural 1?Tur; other?Ture;} tilbage)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_STATUS_INCITED_BY_YOU">
+      <Text>Du opildnede denne klan imod {1_playerName}.</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_STATUS_INCITED_AGAINST_YOU">
+      <Text>Dette klan blev opildnet imod dig af {1_playerName}.</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_STATUS_INCITED_AGAINST_YOU_UNKNOWN">
+      <Text>Denne klan blev ophidset imod dig af en ukendt civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_PERCENT">
+      <Text>Konverteringsproces: {1_percent}%</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_TIP_TURNS">
+      <Text>By-Omregnelse af Bystat: {1_Turns}+ Ture</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_TIP_IMMINENT">
+      <Text>Bystat Konvertering: Forestående</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_TIP_DISABLED">
+      <Text>Konvertering af bystat deaktiveret</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_TIP_DISABLED_NO_CANDIDATES">
+      <Text>By-stats-omdannelse deaktiveret: Ingen bystater tilgængelige</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_TIP_DISABLED_INVALID_LOCATION">
+      <Text>Bystat omdannelse deaktiveret: For tæt på eksisterende byer</Text>
+    </Row>
+    <!--Notifications-->
+    <Row Tag="LOC_NOTIFICATION_CLAN_CONVERTED_TO_CITY_STATE_MESSAGE">
+      <Text>Klan etableret bystat</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_CONVERTED_TO_CITY_STATE_SUMMARY">
+      <Text>Den barbariske {1_ClanName} klan har bosat sig i en ny bystat! De er nu kendt som {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_HIRED_MESSAGE">
+      <Text>Barbarer ansat</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_HIRED_SUMMARY">
+      <Text>{1_PlayerName} har hyret militære enheder fra den barbariske {2_ClanName}-klan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_UNIT_RANSOMED_MESSAGE">
+      <Text>Barbarernes løsesum betalt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_UNIT_RANSOMED_SUMMARY">
+      <Text>{1_PlayerName} har betalt en løsesum til Barbarian {2_ClanName} Klanen for at få deres {3_UnitName} tilbage.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_BRIBED_MESSAGE">
+      <Text>Barbarer Bestukket</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_BRIBED_SUMMARY">
+      <Text>Vores byer er beskyttet mod den barbariske {1_ClanName} klan i {2_NumTurns} ture.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_BRIBE_EXPIRED_MESSAGE">
+      <Text>Barbarer Bestikker Udløbet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_BRIBE_EXPIRED_SUMMARY">
+      <Text>Vores bestikkelse for beskyttelse mod Barbarian {1_ClanName} Klanen er udløbet!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_INCITED_MESSAGE">
+      <Text>Barbarer Ophidsede</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_INCITED_AGAINST_CIV_SUMMARY">
+      <Text>Vi har opildnet den barbariske {1_ClanName} klan mod {2_CivName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_INCITED_BY_UNKNOWN_SUMMARY">
+      <Text>En ukendt civilisation har opildnet Barbarian {1_ClanName} Klanen imod os!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_INCITED_BY_CIV_SUMMARY">
+      <Text>{1_CivName} har opildnet den barbariske {2_ClanName} klan mod os!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_MOVED_MESSAGE">
+      <Text>Enhed Flygtede Hævn</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_MOVED_SUMMARY">
+      <Text>Vores {1_UnitName} blev tvunget til at flygte efter en hævntørstig angreb, efter vores overfald på barbariske {2_ClanName}-klanen.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_KILLED_MESSAGE">
+      <Text>Enhed dræbt som hævnaktion</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_KILLED_SUMMARY">
+      <Text>Vores {1_UnitName} blev fanget og dræbt i en hævndræb efter vores raid på Barbariske {2_ClanName} Klan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_DISPERSED_MESSAGE">
+      <Text>Klan Spredt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_DISPERSED_SUMMARY">
+      <Text>{1_ClanName} Klanen er blevet ødelagt!</Text>
+    </Row>
+    <!--Treat With Tribe Text-->
+    <Row Tag="LOC_TRIBE_BANNER_TREAT_WITH_TRIBE_TT">
+      <Text>Klik for at behandle med {1_ClanName} Klanen.</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_POPUP_TITLE">
+      <Text>Forkæl med stammen</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_NAMED_CLAN">
+      <Text>Forkæl dig selv med {1_ClanName} Klanen</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_OPTION_HIRE">
+      <Text>Ansæt</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_OPTION_BRIBE">
+      <Text>Bestikkelse</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_OPTION_RANSOM">
+      <Text>Løsesum</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_OPTION_INCITE">
+      <Text>Ophidse</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_INCITE_COST">
+      <Text>Pris: [ICON_GOLD] {1_cost}</Text>
+    </Row>
+    <!--Barbarian Unit Status Text-->
+  </EnglishText>
+</GameData>

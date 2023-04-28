@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_ERAS_TURNS_TILL_NEXT_ERA">
+      <Text>ANTAL TURE TIL NÆSTE ÆRA:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_SCORE">
+      <Text>NUVÆRENDE SCORE:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_AGE">
+      <Text>NUVÆRENDE ALDER:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_HEROIC">
+      <Text>HELTEMODIG</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_GOLDEN">
+      <Text>GULDEN</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_NORMAL">
+      <Text>DEN FØLGENDE TEKST SKAL OVERSÆTTES. SVAR KUN MED EN NATURLIG KLINGENDE OVERSÆTTELSE</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_DARK">
+      <Text>MØRK</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_AGE_BY_CIV">
+      <Text>NUVÆRENDE ALDER EFTER CIVILISATION:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_TO_EARN_AGE_NEXT_ERA">
+      <Text>AT TJENE EN NY TID NÆSTE ÆRA:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_ERA_REQUIREMENTS_REDUCED">
+      <Text>Era Score kravene er blevet reduceret</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_ERA_REQUIREMENTS_INCREASED">
+      <Text>Era Score-kravene er blevet øget</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TITLE">
+      <Text>Era Fremskridt</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_NEW_ERA_THRESHOLD">
+      <Text>TÆRSKLER FOR NÆSTE ÆRA</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ERA_TYPE_EFFECTS">
+      <Text>{1_EraName} Effekter</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_THE_ERA">
+      <Text>TIDEN {1_EraName : upper}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TIME_TO_NEXT_ERA">
+      <Text>Tid til næste æra:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TIME_TO_NEXT_ERA_VALUE">
+      <Text>{1_MinTurns} - {2_MaxTurns} Drejninger</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_SPECIFIC_TURNS_TO_NEXT_ERA">
+      <Text>{1_Turns} {1_Turns : ental 1?Tur; andet?Ture;}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_CHANGE_TITLE">
+      <Text>VERDEN TRÆDER IND I:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_HEROIC_AGE">
+      <Text>Heltealderen</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_GOLDEN_AGE">
+      <Text>Den Gyldne Tidsalder</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_DARK_AGE">
+      <Text>Mørke Tid</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_NORMAL_AGE">
+      <Text>Normal alder</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ACTIVE_BONUSES">
+      <Text>Aktive bonusser:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ERA_SCORE">
+      <Text>Tidsalder Score:</Text>
+    </Row>
+    <Row Tag="LOC_PARTIALSCREEN_ERA_PROGRESS_TOOLTIP">
+      <Text>Tidsalder Fremskridt[NEWLINE][NEWLINE]Se den aktuelle Tidsalder Score og Dedikationer.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_GOLDEN_THRESHOLD">
+      <Text>Tærskel for Gylden Tidsalder:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_DARK_THRESHOLD">
+      <Text>Tærskel for Mørke Tid:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_TITLE">
+      <Text>Æra fuldført: {1_EraName}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DESCRIPTION">
+      <Text>Du har opnået meget, store leder! Hvilke af dine triumfer skal vores skrivere nedfælde i historien?</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DEDICATION">
+      <Text>Hengivenhed</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DEDICATION_SUBHEADER">
+      <Text>Lav din Hengivenhedserklæring til {1_EraName}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_CONFIRM">
+      <Text>Bekræft {1_NumSelected}/{2_NeededSelected}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_TITLE">
+      <Text>VERDEN ER TRÅDT IND I {1_EraName}EN</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE">
+      <Text>Du er i en Heroisk Tidsalder!</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE">
+      <Text>Du er i en gylden tidsalder!</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE">
+      <Text>Du er i en mørketid!</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE">
+      <Text>Du er i en normal alder.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_LABEL">
+      <Text>[ICON_GLORY_SUPER_GOLDEN_AGE] HEROISK ALDER</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_LABEL">
+      <Text>[ICON_GLORY_GOLDEN_AGE] GULDALDER</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_LABEL">
+      <Text>[ICON_GLORY_DARK_AGE] MØRKE TIDALDER</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_LABEL">
+      <Text>[ICON_GLORY_NORMAL_AGE] NORMAL ALDER</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET]Du kan lave 3 hengivelser, hver vil give en kraftfuld gameplay bonus i løbet af tidsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET]Du kan foretage en hengivelse, som vil give en kraftfuld gameplay bonus i løbet af tidsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_DARK_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET]Du kan foretage en hengivelse, som vil give en ekstra kilde til Æra Score i løbet af tidsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET]Du kan foretage en hengivenhed, som vil give en ekstra kilde til tidsalderscore i løbet af tidsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT">
+      <Text>Du er i en [ICON_GLORY_SUPER_GOLDEN_AGE] Heroic Age i løbet af denne spil-æra![NEWLINE][NEWLINE][ICON_BULLET]Hver af dine [ICON_Citizen] Borgere udøver 1,5 Loyalty tryk i deres by. Dette tryk påvirker også andre byer inden for 9 felter, men er 10% mindre effektivt per felt. Det vil være nemmere at opretholde loyaltet i dine byer og udfordre loyalteten af nærliggende fremmede byer.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT">
+      <Text>Du er i en [ICON_GLORY_GOLDEN_AGE] Gylden Tidsalder i denne spilæra![NEWLINE][NEWLINE][ICON_BULLET]Hvert af dine [ICON_Citizen] Borgere udøver 1,5 loyaltitetspres i deres by. Dette pres påvirker også andre byer inden for 9 fliser, men er 10% mindre effektivt per flise. Det vil være lettere at opretholde loyalitet i dine byer og udfordre loyaliteten af ​​nærliggende udenlandske byer.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT">
+      <Text>Du er i en [ICON_GLORY_DARK_AGE] Mørk Tidsalder under denne spil æra.[NEWLINE][NEWLINE][ICON_BULLET] Hver af dine [ICON_Citizen] Borgere udøver 0,5 loyalitetspres i deres by. Dette pres påvirker også andre byer inden for 9 fliser, men er 10% mindre effektivt per flise. Det vil være sværere at opretholde loyalitet i dine byer og mere vanskeligt at påvirke loyaliteten af nærliggende fremmede byer.[NEWLINE][NEWLINE][ICON_BULLET] Du kan vedtage magtfulde mørke politikker i din regering, men det kan have en høj pris.[NEWLINE][NEWLINE][ICON_BULLET] Hvis du ikke er i den sidste æra og optjener tilstrækkeligt med ære point til en gylden tidsalder i den næste spilæra, vil du i stedet optjene en heroisk tidsalder og kunne lave flere hengivelser for flere kraftfulde bonusser.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT">
+      <Text>Du er i en [ICON_GLORY_NORMAL_AGE] Normal Alder i denne spil-æra.[NEWLINE][NEWLINE][ICON_BULLET]Hver af dine [ICON_Citizen] Borgere udøver den normale mængde på 1 Loyalitets-tryk i deres by. Dette tryk påvirker også andre byer inden for 9 fliser, men er 10% mindre effektivt per flise.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Du kan lave 3 Hengivelser, hver af dem vil give en kraftig spilbonus i løbet af tiden.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Du kan lave en Hengivelse, som vil give en kraftig gameplay bonus i løbet af Tidsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_DARK_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Du kan foretage en Hengivelse, som vil give en yderligere kilde til Tidsalderpoint i løbet af Tidsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Du kan foretage en hengivelse, som vil give en yderligere kilde til tidsalder point i løbet af tidsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT_PARAM">
+      <Text>Du er i en [ICON_GLORY_SUPER_GOLDEN_AGE] Heroisk Tidsalder i løbet af dette spil-æra![NEWLINE][NEWLINE][ICON_BULLET]Hver af dine [ICON_Citizen] Borgere udøver {Amount} loyalitetspres i deres by. Dette pres påvirker også andre byer inden for 9 fliser, men er 10% mindre effektivt pr. flise. Det vil være lettere at opretholde loyalitet i dine byer og udfordre loyaliteten af nærliggende fremmede byer.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT_PARAM">
+      <Text>Du er i en [ICON_GLORY_GOLDEN_AGE] gylden tidsalder i denne spil-æra![NEWLINE][NEWLINE][ICON_BULLET]Hver af dine [ICON_Citizen] Borgere udøver {Amount} loyalitetspres i deres by. Dette pres påvirker også andre byer inden for en radius af 9 felter, men er 10% mindre effektivt per felt. Det vil være lettere at opretholde loyalitet i dine byer og udfordre loyaliteten i nærliggende fremmede byer.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT_PARAM">
+      <Text>Du er i en [ICON_GLORY_DARK_AGE] Mørk Tidsalder i løbet af dette spilæra.[NEWLINE][NEWLINE][ICON_BULLET]Hver af dine [ICON_Citizen] Borgere udøver {Amount} Loyalitetspres i deres by. Dette pres påvirker også andre byer inden for 9 fliser, men er 10% mindre effektivt pr. flise. Det vil være sværere at opretholde Loyalitet i dine byer og mere vanskeligt at påvirke Loyaliteten i nærliggende fremmede byer.[NEWLINE][NEWLINE][ICON_BULLET]Du kan vedtage kraftfulde Mørke Politikker i dit Regeringssystem, som kan have en høj pris.[NEWLINE][NEWLINE][ICON_BULLET]Hvis du ikke er i den sidste Æra og tjener nok Æra Score til en Gylden Tidsalder i næste spilæra, vil du i stedet tjene en Heltemodig Tidsalder, der er i stand til at foretage flere Dedikationer for flere kraftfulde bonusser.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT_PARAM">
+      <Text>Du befinder dig i en [ICON_GLORY_NORMAL_AGE] Normal Tidsalder under dette spilæra. [NEWLINE][NEWLINE][ICON_BULLET] Hver af dine [ICON_Citizen] Borgere udøver {Amount} loyalitetspres i deres by. Dette pres påvirker også andre byer inden for 9 fliser, men er 10% mindre effektivt pr. flise.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_PRIDE_MOMENTS">
+      <Text>Historiske øjeblikke (+1 til +6 hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_NEW_ERA_THRESHOLDS">
+      <Text>NYE TÆRSKLER AF EN NY ÆRA</Text>
+    </Row>
+    <Row Tag="LOC_GLORY_HUD_ERA_ENDS_IN">
+      <Text>Omgange indtil tidsalderen slutter: {1_Omgange}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_AGE_EFFECTS">
+      <Text>ALDERSPÅVIRKNINGER</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_TECH_BOOSTS">
+      <Text>Hengivenhedsbonus: Udløste Eurekas (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CIVIC_BOOSTS">
+      <Text>Hengivenhed Bonus: Udløste inspirationer (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CITY_RELIGION_CONVERSIONS">
+      <Text>Hengivenhedsbonus: Byer, der er konverteret til din religion (+{1_ScoreIncrement} point pr. konvertering)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_DISTRICT_CONSTRUCTIONS">
+      <Text>Dedikationsbonus: Opførte distrikter (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CORPS_KILLS">
+      <Text>Hengivelsesbonus: Corps dræbt (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_ARMY_KILLS">
+      <Text>Hengivenhedsbonus: Dræbte hære (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_TRADE_ROUTE_COMPLETIONS">
+      <Text>Dedikationsbonus: Afsluttede Handelsruter (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_MAP_DISCOVERIES">
+      <Text>Dedikationsbonus: Nye vartegn opdaget (+{1_ContinentScoreIncrement} for kontinenter, +{2_NaturalWonderScoreIncrement} for naturlige vidundere)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_NON_BARBARIAN_UNIT_SEA_KILLS">
+      <Text>Indsatsbonus: Dræbte non-barbariske søenheder (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_SCIENCE_BUILDING_CONSTRUCTIONS">
+      <Text>Til Hengivenhedsbonus: Bygninger konstrueret, der giver Videnskab som baseudbytte. (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CULTURE_BUILDING_CONSTRUCTIONS">
+      <Text>Hengivenhedsbonus: Bygninger med en slot til et stort værk, der er konstrueret (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_AERODROME_BUILDING_CONSTRUCTIONS">
+      <Text>Troskabsbonus: Bygninger konstrueret fra Aerodrome-distriktet (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_INDUSTRIAL_BUILDING_CONSTRUCTIONS">
+      <Text>Hengivenhedsbonus: Industriel bygning eller bygning opført efter en bestemt tid (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_SPY_MISSIONS">
+      <Text>Hengivenhedsbonus: Hver vellykket offensiv Spion-operation (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_ARTIFACT_EXTRACTIONS">
+      <Text>Hengivelsesbonus: Hver udvundet artefakt (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_GREAT_PEOPLE_EARNED">
+      <Text>Hengivenhedsbonus: Hver Store Person tjent (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CURRENT_TECH_COMPLETIONS">
+      <Text>Teknologier fuldført fra den nuværende æra eller senere (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CURRENT_CIVIC_COMPLETIONS">
+      <Text>Statskundskab afsluttet fra den nuværende æra eller senere (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_UNIT_PROMOTIONS_EARNED">
+      <Text>Enhedsfremme optjent udover den første (+{1_ScoreIncrement} hver)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_UNKNOWN_SOURCE">
+      <Text>Andre kilder</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_BASELINE">
+      <Text>Resultatet da Era begyndte</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_BASE_GOLDEN_AGE">
+      <Text>Grundlæggende tærskel for Gylden Tidsalder</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_BASE_DARK_AGE">
+      <Text>Grundlag for Mørkealderen tærskel</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_CITIES">
+      <Text>Byer ved starten af Eraen ({1_ScoreIncrement} per by)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_UNHAPPY_CITIES">
+      <Text>Ulykkelige byer ({1_ScoreIncrement} per manglende [ICON_Amenities] Facilitet)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_GOVERNMENT">
+      <Text>Regering (INAKTIV)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_TECH">
+      <Text>Ufuldendte teknologier fra denne æra (INAKTIVE)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_CIVIC">
+      <Text>Ufuldstændig statskundskab fra denne æra (INAKTIV)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_OLD_TECH">
+      <Text>Ufuldendte teknologier fra ældre æraer (INAKTIVE)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_OLD_CIVIC">
+      <Text>Ufuldstændige samfundsstudier fra ældre tidsepoker (INAKTIV)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_PAST_GOLDEN_AGES">
+      <Text>Gyldne tidsaldre, der nogensinde er optjent ({1_ScoreIncrement} pr. tidsalder)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_PAST_DARK_AGES">
+      <Text>Mørke tider tjente altid ({1_ScoreIncrement} per tidsalder)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_ANARCHY">
+      <Text>Regeringsanarki i denne æra ({1_ScoreIncrement} per anarki)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_UNKNOWN_SOURCE">
+      <Text>Andre kilder</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_HEADER">
+      <Text>Din Tidsalder Score:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_SOURCE">
+      <Text>{1_EraScoreNumber} fra {2_EraScoreSourceType}</Text>
+    </Row>
+    <Row Tag="LOC_GOLDEN_AGE_THRESHOLD_TEXT">
+      <Text>[NEWLINE]Grænseværdi for at tjene en [ICON_GLORY_GOLDEN_AGE] Gylden Tidsalder i næste æra: {1_thresh} eller derover</Text>
+    </Row>
+    <Row Tag="LOC_DARK_AGE_THRESHOLD_TEXT">
+      <Text>[NEWLINE]Tærsklen for at undgå en [ICON_GLORY_DARK_AGE] Mørk Tidsalder i næste æra er: {1_thresh} eller derover</Text>
+    </Row>
+    <Row Tag="LOC_ERA_STABILITY_HEADER">
+      <Text>Din Stabilitetsscore:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_LEADERBOARD_TITLE">
+      <Text>Ære Point</Text>
+    </Row>
+    <Row Tag="LOC_ERA_STABILITY_LEADERBOARD_TITLE">
+      <Text>Stabilitetsscore</Text>
+    </Row>
+    <!-- Golden/Dark Ages -->
+    <Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN">
+      <Text>{2_EraName} ender om {1_TurnsRemaining} {1_TurnsRemaining : plural 1?tur; other?ture;}</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_ENTERED_NEW_ERA">
+      <Text>Verden træder ind i {1_EraName}.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_YOU_ENTERED_GOLDEN_AGE">
+      <Text>Din civilisation blomstrede i den sidste æra, hvilket førte dem ind i en Gylden Tidsalder for denne æra!</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_YOU_ENTERED_DARK_AGE">
+      <Text>Din civilisation vaklede sidste tidsalder og medførte en mørk tidsalder for denne æra.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_GOLDEN_AGE_DESCRIPTION">
+      <Text>Guldaldre opnås ved at udløse Historiske Øjeblikke og giver stærke bonusser. [NEWLINE] Disse spillere har opnået en Guldalder for denne æra:</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_DARK_AGE_DESCRIPTION">
+      <Text>Mørke tidsaldre er mulige begyndelser i middelalderen og udgør udfordringer for store eller underudviklede civilisationer. -1 [ICON_Amenities] Behageligheder og -50% vækst i alle byer. Hvis en spiller får en mørk tidsalder igen i den næste æra, vil halvdelen af deres byer falde i ruiner og blive barbariske lejre. [NEWLINE] Disse spillere er gået ind i en mørk tidsalder for denne æra:</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_NO_MET_PLAYERS">
+      <Text>(Ingen spillere, du har mødt)</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_HEROIC_AGE_ACHIEVED">
+      <Text>Fordi du har opnået en heroisk alder, kan du foretage tre hengivelser.</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_GOLDEN_AGE_ACHIEVED">
+      <Text>Fordi du har optjent en Guldalder, kan du foretage én Dedikation.</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_DARK_AGE_ACHIEVED">
+      <Text>Fordi du har tjent en Mørk Tidsalder, kan du lave en Dedikation.</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_NORMAL_AGE_ACHIEVED">
+      <Text>Fordi du har opnået en Normal Alder, kan du foretage én Hengivelse.</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_PREVIOUS_ERA_TOTAL_SCORE">
+      <Text>Samlet score fra tidligere perioder</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_EFFECTS_ACTIVE_THIS_AGE">
+      <Text>EFFEKTER AKTIVE I DENNE ALDER:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_YOU_WILL_EARN_BLANK_AGE_NEXT_ERA">
+      <Text>Du vil tjene en {1_AgeName} i næste tidsalder</Text>
+    </Row>
+  </EnglishText>
+</GameData>

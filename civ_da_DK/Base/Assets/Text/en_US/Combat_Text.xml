@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_CITY_MAKE_RANGED_ATTACK">
+      <Text>Angrib med din by!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT">
+      <Text>Mens i forsvar, dræbte din {2_UnitName} ({5_Num} skade) {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT_DEFENDING_CITY">
+      <Text>Mens du forsvarede, dræbte din by {2_CityName} ({5_Num} skade) {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_CITY_WAS_CAPTURED">
+      <Text>Din by {1_CityName} blev erobret af en fjendtlig {2_UnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_CAPTURED_ENEMY_CITY">
+      <Text>Dit {1_UnitName} ({2_Num} skade) erobrede fjendens by {3_CityName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_CAPTURED_ENEMY_UNIT">
+      <Text>Dit {1_UnitName} har fanget en fjendtlig {2_UnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_CAPTURED_BY_ENEMY_UNIT">
+      <Text>Din {1_UnitName} blev taget til fange af en fjendtlig {2_UnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DESTROYED_ENEMY">
+      <Text>Dit {1_UnitName} ({2_Num} skade) ødelagde en fjendtlig {3_UnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_ANTI_AIR">
+      <Text>Din angribende {1_UnitName} døde af fjendens {2_EnUName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_INTERCEPTED">
+      <Text>Din angribende {1_UnitName} døde af fjendens {2_EnUName} ({3_Num} skade) interception!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING">
+      <Text>Din {1_UnitName} døde i angrebet på en fjendtlig {2_EnUName} ({3_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_CITY">
+      <Text>Dit {1_UnitName} døde under angreb på fjendens by {2_EnUName} ({3_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_ANTI_AIR">
+      <Text>Dit angribende {2_UnitName} ({3_Num} skade) blev beskadiget af {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName}!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_INTERCEPTED">
+      <Text>Dit angrebende {2_UnitName} ({3_Num} skade) blev afværgede af {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} ({6_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW">
+      <Text>Din {1_UnitName} ({2_Num} skade) angreb en fjendtlig {3_EnUName} ({4_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_CITY">
+      <Text>Dit {1_UnitName} ({2_Num} skade) angreb fjendens by {3_CityName} ({4_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_FRIENDLY_UNIT_WITHDREW">
+      <Text>Vores {1_UnitName} har trukket sig tilbage fra fjendens nærkampangreb.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_UNIT_WITHDREW">
+      <Text>Din {1_UnitName} ({2_Num} skade) blev angrebet af en fjendtlig {3_EnUName} ({4_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_UNIT_WITHDREW_INTERCEPTING">
+      <Text>Dit {1_UnitName} ({2_Num} skade) afbrød en fjendtlig {3_EnUName} ({4_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_INTERCEPTING">
+      <Text>Mens du var i færd med at intercepere, blev dit {2_UnitName} ødelagt af {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} ({6_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_DEFENDING">
+      <Text>Mens du forsvarede, blev din {2_UnitName} ødelagt af {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName} ({5_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_STRAFED_ENEMY">
+      <Text>Dit {1_UnitName} strafede en fjendtlig {2_EnUName} og forårsagede {3_Num} skade!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_BOMBED_ENEMY">
+      <Text>Dit {1_UnitName} bombede en fjendtlig {2_EnUName} og forårsagede {3_Num} skade!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_STRAFED_BY_ENEMY">
+      <Text>Dit {1_UnitName} blev beskudt af en fjendtlig {2_EnUName} og tog {3_Num} skade!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DAMAGED_ENEMY">
+      <Text>Dit {1_UnitName} beskadigede en fjendtlig {2_EnUName} ({3_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_BOMBARDED_ENEMY">
+      <Text>Dit {1_UnitName} bombarderede en fjendtlig {2_EnUName}, hvilket forårsagede {3_Num} skade!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_BOMBARDED_BY_ENEMY">
+      <Text>Din {1_UnitName} blev bombarderet af en fjendtlig {2_EnUName} og tog {3_Num} skade!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_WMD_SUCCEEDED">
+      <Text>Dit {1_UnitName} WMD-angreb lykkedes!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_WMD_FAILED_HIGH_DAMAGE">
+      <Text>Dit {1_UnitName} masseødelæggelsesvåben angreb mislykkedes på grund af stor skade.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_WMD_SUCCEEDED">
+      <Text>Du fejlede i at stoppe {LOC_GRAMMAR_A_AN &lt;&lt; {1_EnemyAdjective}} {2_EnemyUnitName} WMD-angreb!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_WMD_FAILED_HIGH_DAMAGE">
+      <Text>Du stoppede succesfuldt et {1_EnemyAdjective} {2_EnemyUnitName} masseødelæggelsesangreb ved at forårsage {3_Num} skade!</Text>
+    </Row>
+    <Row Tag="LOC_MISC_YOUR_UNIT_DIED_BY_UNKNOWN">
+      <Text>Mens du forsvarede, blev din {1_UnitName} ødelagt af en forklædt {2_EnUName} ({3_Num} skade)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_ATTACKED_ENEMY_DISTRICT">
+      <Text>Dit {1_UnitName} angreb en fjendtlig {2_Name} og forårsagede {3_Num} skade!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_WAS_ATTACKED_BY_ENEMY">
+      <Text>Din {1_Name} blev angrebet af en fjendtlig {2_EnUName} og tog {3_Num} skade!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_ATTACKED_ENEMY_DISTRICT_DEFENSES">
+      <Text>Dit {1_UnitName} angreb en fjende {2_Name} ({3_Num} {2_Name} skade, {4_Num} forsvarsskade)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_DEFENSE_WAS_ATTACKED_BY_ENEMY">
+      <Text>Din {1_Name} blev angrebet af en fjendtlig {2_EnUName} ({3_Num} skade på {2_Name}, {4_Num} forsvarsskade)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_DESTROYED_ENEMY">
+      <Text>{1_Name} bombarderede en fjendtlig {2_EnUName}! ({3_Damage} skade)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_BOMBARDED_ENEMY">
+      <Text>{1_Name} bombarderede en fjendtlig {2_EnUName}! ({3_Damage} skade)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_BOMBARDED_BY_ENEMY_DISTRICT">
+      <Text>Dit {1_Name} blev bombarderet af en fjendtlig {2_EnUName} og tog {3_Num} skade!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ICBM_DESTROYED">
+      <Text>ICBM blev afværget og ødelagt.</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_UNIT_HEALED">
+      <Text>Byttet fra dine plyndringer har helbredt din {1_Name}.</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_CULTURE">
+      <Text>Du har modtaget {1_Num} [ICON_Culture] Kultur ved plyndring af dine byttegods.</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_FAITH">
+      <Text>Du modtog {1_Num} [ICON_Faith] Tro fra dit plyndrende togt.</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_GOLD">
+      <Text>Du modtog {1_Num} [ICON_Gold] Guld i plyndring fra din hærgen.</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_SCIENCE">
+      <Text>Du modtog {1_Num} [ICON_Science] Videnskab i plyndring fra din hærgen.</Text>
+    </Row>
+    <Row Tag="LOC_KILL_CULTURE">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num} [ICON_Culture][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_FAITH">
+      <Text>[COLOR_FLOAT_FAITH]+{1_Num} [ICON_Faith][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_FAITH_PLUS">
+      <Text>[COLOR_FLOAT_FAITH]+{1_Num} {2_Religion}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_FAITH_MINUS">
+      <Text>[COLOR_RED]-{1_Num} {2_Religion}[ENDCOLOR] (This is already in English and does not need to be translated)</Text>
+    </Row>
+    <Row Tag="LOC_KILL_GOLD">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_SCIENCE">
+      <Text>[COLOR_FLOAT_SCIENCE]+{1_Num} [ICON_Science][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_GREATPERSON_BONUS">
+      <Text>[COLOR_FLOAT_FOOD]+{1_Num} {2_GreatPerson}-point[ENDCOLOR]</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_DISTRICT_GARRISON_DAMAGE_DECREASE_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR] Sundhed</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_DISTRICT_GARRISON_DAMAGE_INCREASE_FLOATER">
+      <Text>[COLOR_RED]{1_Num}[ENDCOLOR] Sundhed</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_DISTRICT_DEFENSE_DAMAGE_DECREASE_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR] Forsvar</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_DISTRICT_DEFENSE_DAMAGE_INCREASE_FLOATER">
+      <Text>[COLOR_RED]{1_Num}[ENDCOLOR] Forsvar</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_HEADER">
+      <Text>BYEN EROBRET</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_TRADED">
+      <Text>BYEN MODTAGET</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_NAME_LABEL">
+      <Text>Bynavn:</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_POPULATION_LABEL">
+      <Text>Befolkning:</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_DISTRICTS_LABEL">
+      <Text>Antal distrikter til stede:</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_EXPLANATION">
+      <Text>At befrielsen af en by vil give den tilbage til en af dens tidligere ejere og bringe den civilisation tilbage i spillet.[NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_WARMONGER_EXPLANATION">
+      <Text>At befrielse af en by giver en [COLOR_MEDIUM_GREEN]ALVORLIG REDUKTION[ENDCOLOR] af tidligere opnåede varmager straffe.</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_EXPLANATION">
+      <Text>Behold denne by i dit imperium for nu. Det vil være en mindre produktiv, besat by, indtil dens ejerskab efter krigen bliver diskuteret ved fredsbordet. {1_WarmongerInfo}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_EXPLANATION_TRADED">
+      <Text>Behold denne by i dit imperium.</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_WARMONGER_EXPLANATION">
+      <Text>Straffen for at beholde denne by som krigsherre er nu: {1_WarmongerLevel}[NEWLINE][NEWLINE]Straffen vil enten blive refunderet eller fordoblet ved krigens afslutning, afhængigt af om du beholder byen eller ej.</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_LAST_CITY_EXPLANATION">
+      <Text>Straffen for at beholde en spiller's sidste by er baseret på overraskelseskrig straffen for denne tidsalder. Denne værdi [COLOR_RED]FORDOBLES[ENDCOLOR], hvis erobringen af denne by eliminerer en stor civilisation (ikke en bystat).</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_EXPLANATION">
+      <Text>Udslet byen Raze og fjern alle dens distrikter og bygninger fra kortet. Denne mulighed skal vælges den tur, hvor byen er erobret. [NEWLINE][NEWLINE] {1_WarmongerInfo}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_WARMONGER_EXPLANATION">
+      <Text>[COLOR_RED]At ødelægge en by kan give dig en alvorlig Warmonger-straf![ENDCOLOR] [NEWLINE][NEWLINE]Warmonger-straffen for at ødelægge denne by er nu: {1_WarmongerLevel}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_LAST_CITY_EXPLANATION">
+      <Text>Hvis du ødelægger en spiller sidste by, vil straffen for krig være [COLOR_RED]TRE GANGE[ENDCOLOR] så stor som straffen for formel krig i denne tidsalder.</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_DISABLED_EXPLANATION">
+      <Text>Du kan ikke ødelægge en stor civilisations oprindelige hovedstad eller en by, som du eller en allieret grundlagde eller ejede i starten af denne krig.</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_FOUNDER_BUTTON_LABEL">
+      <Text>Frigør til Stifter ({1_CivName})</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_PREWAR_OWNER_BUTTON_LABEL">
+      <Text>Frigør til Pre-War-ejer ({1_CivName})</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_BUTTON_LABEL">
+      <Text>Behold Byen</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_BUTTON_LABEL">
+      <Text>Raze City</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

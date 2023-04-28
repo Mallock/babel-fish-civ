@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Turn-Blocking Notifications -->
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_ARTIFACT_PLAYER_MESSAGE">
+      <Text>Vælg artefakt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_ARTIFACT_PLAYER_SUMMARY">
+      <Text>Du har udgravet et antikke sted. Vælg nu en genstand at bringe tilbage til dit museum.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_TECH_MESSAGE">
+      <Text>Vælg en teknologi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_TECH_SUMMARY">
+      <Text>Vælg en ny teknologi at begynde forskning på.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CITY_PRODUCTION_MESSAGE">
+      <Text>Vælg Produktion</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CITY_PRODUCTION_SUMMARY">
+      <Text>Produktionen er afsluttet i denne by. Vælg hvad vi skal producere næste gang.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CIVIC_MESSAGE">
+      <Text>Vælg en Civic</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CIVIC_SUMMARY">
+      <Text>Vælg en ny bybil at begynde udviklingen af.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMAND_UNITS_MESSAGE">
+      <Text>Kommandoenheder</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMAND_UNITS_SUMMARY">
+      <Text>Flyt en enhed eller få den til at udføre en operation.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGE_ATTACK_MESSAGE">
+      <Text>By Angrebsrækkevidde i Byen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGE_ATTACK_SUMMARY">
+      <Text>Din by kan udføre en rækkevidde angreb.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_GOVERNMENT_CHANGE_MESSAGE">
+      <Text>Overvej at skifte regering</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_GOVERNMENT_CHANGE_SUMMARY">
+      <Text>Du har afsluttet en borgeropgave, som åbnede op for en ny regeringsform. Du bør overveje at skifte til den regeringsform.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_RAZE_CITY_MESSAGE">
+      <Text>Ødelæg eller Bevar Byen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_RAZE_CITY_SUMMARY">
+      <Text>Du erobrede en by i denne tur. Beslut, om du vil befri, udrydde eller beholde den.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FILL_CIVIC_SLOT_MESSAGE">
+      <Text>Udfyld politikfeltet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FILL_CIVIC_SLOT_SUMMARY">
+      <Text>Der skal tilføjes en politik til vores regering.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_PANTHEON_MESSAGE">
+      <Text>Vælg Pantheon</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_RELIGION_MESSAGE">
+      <Text>Vælg religion</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_BELIEF_MESSAGE">
+      <Text>Vælg Tro</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAIM_GREAT_PERSON_MESSAGE">
+      <Text>Kræv Stor Person</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAIM_GREAT_PERSON_SUMMARY">
+      <Text>Du har tjent en stor person og skal vælge om du vil acceptere dem eller afvise dem.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GIVE_INFLUENCE_TOKEN_MESSAGE">
+      <Text>Sende</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GIVE_INFLUENCE_TOKEN_SUMMARY">
+      <Text>Du har optjent en [ICON_Envoy] Udsending, og kan sende den til en bystat for at opnå bonusser.</Text>
+    </Row>
+    <!-- Unit Notifications -->
+    <Row Tag="LOC_NOTIFICATION_UNIT_DIED">
+      <Text>Enheden dræbt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_DISBANDED_MESSAGE">
+      <Text>Enheden opløst</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_DISBANDED_SUMMARY">
+      <Text>Din [ICON_Gold] Gold balance er negativ. Dit {1_UnitName} er blevet opløst.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_PROMOTION_AVAILABLE_MESSAGE">
+      <Text>Enhed tilgængelig til promovering</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_PROMOTION_AVAILABLE_SUMMARY">
+      <Text>{1_UnitName} enheden er tilgængelig til en kampagne.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_MESSAGE">
+      <Text>Besejret!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_SUMMARY">
+      <Text>{1_leader} er blevet besejret.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_BY_SUMMARY">
+      <Text>{2_leader} har besejret {1_leader}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_PLAYER_DEFEATED_MESSAGE">
+      <Text>Besejret!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_PLAYER_DEFEATED_SUMMARY">
+      <Text>En uopfyldt spiller er blevet besejret.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_CITY_STATE_DEFEATED_SUMMARY">
+      <Text>En uopfyldt bystat er blevet besejret.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_OCCUPATION">
+      <Text>Du har mistet en {1_UnitName} på grund af fjendtlig besættelse.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_RETREAT_FROM_OCCUPATION">
+      <Text>En fjendtlig besættelse har tvunget din {1_UnitName} til at trække sig tilbage.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING">
+      <Text>Du har mistet en {1_UnitName} på grund af strålingsforgiftning.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_WATER_DAMAGE">
+      <Text>Du har mistet en {1_UnitName} på grund af vandforgiftning.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_LIFESPAN_EXPIRED_MESSAGE">
+      <Text>Enheden er udløbet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_LIFESPAN_EXPIRED_SUMMARY">
+      <Text>{1_UnitName} har nået slutningen af deres [ICON_Lifespan] levetid.</Text>
+    </Row>
+    <!-- Diplomacy Notifications-->
+    <Row Tag="LOC_NOTIFICATION_DECLARE_WAR_MESSAGE">
+      <Text>Krigserklæring</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DECLARE_WAR_SUMMARY">
+      <Text>{1_leader} har erklæret krig mod {2_leader}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MAKE_PEACE_MESSAGE">
+      <Text>Forhandlet fred</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MAKE_PEACE_SUMMARY">
+      <Text>{1_leader: plural 1?Har; other?Har;} indgået fred med {2_leader}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_MESSAGE_CIV">
+      <Text>Du har mødt en ny civilisation</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_MESSAGE_CITY_STATE">
+      <Text>Du har mødt en ny bystat</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_SUMMARY">
+      <Text>Du har mødt {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}} af {LOC_GRAMMAR_CIVDESC &lt;&lt; {2_CivDesc}}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BORDERS_NOW_ENFORCED_MESSAGE">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} håndhæver grænser</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BORDERS_NOW_ENFORCED_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?er; other?er nu;} ved at håndhæve deres grænser. Dine enheder inde i deres imperium er blevet fordrevet til en flise lige uden for deres område.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_FRIENDSHIP_EXPIRED_MESSAGE">
+      <Text>Venskab udløbet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_FRIENDSHIP_EXPIRED_SUMMARY">
+      <Text>Dit venskab med {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}} er løbet tør og vil skulle fornyes.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_ALLIANCE_EXPIRED_MESSAGE">
+      <Text>Alliance udløbet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_ALLIANCE_EXPIRED_SUMMARY">
+      <Text>Dit alliance med {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}} er udløbet og skal fornyes.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_GAINED_MESSAGE">
+      <Text>Casus Belli opnået</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_GAINED_SUMMARY">
+      <Text>Du har fået en Casus Belli til at erklære krig af typen {1_WarType} mod {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_COLONIAL">
+      <Text>Kolonikrig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_HOLY">
+      <Text>Hellig Krig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_LIBERATION">
+      <Text>Befrielseskrig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_PROTECTORATE">
+      <Text>"Protectoratekrigen"</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_RECONQUEST">
+      <Text>Genindtagelseskrigen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_TERRITORIAL_EXPANSION">
+      <Text>Krig om territorial ekspansion</Text>
+    </Row>
+    <!-- Espionage Notifications -->
+    <Row Tag="LOC_NOTIFICATION_SPY_CHOOSE_ESCAPE_ROUTE_MESSAGE">
+      <Text>Vælg flugtrute</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CHOOSE_DRAGNET_PRIORITY_MESSAGE">
+      <Text>Vælg forfølgelsesprioritet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_HEIST_GREAT_WORK_SUMMARY">
+      <Text>Din agent {1_unitName} i {2_CityName} lykkedes med at stjæle det store Kunstværk "{3_Work}".</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_HEIST_GREAT_WORK_MESSAGE">
+      <Text>Succes ved at stjæle andres arbejde</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_HEIST_GREAT_WORK_SUMMARY">
+      <Text>En fjendtlig spion i {1_CityName} lykkedes med at stjæle det store værk "{2_Work}".</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_HEIST_GREAT_WORK_MESSAGE">
+      <Text>Fjenden stjal et stort arbejde</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SABOTAGED_PRODUCTION_SUMMARY">
+      <Text>Din agent {1_unitName} lykkedes med at sabotere Industriområdet i byen {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SABOTAGED_PRODUCTION_MESSAGE">
+      <Text>Succesful sabotering af produktionen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SABOTAGED_PRODUCTION_SUMMARY">
+      <Text>En fjendtlig spion lykkedes med at sabotere Industriområdet i byen {1_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SABOTAGED_PRODUCTION_MESSAGE">
+      <Text>Fjende spion saboterede produktionen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SIPHONED_FUNDS_SUMMARY">
+      <Text>Din agent {1_unitName} lykkedes med at overføre {2_Amount} [ICON_Gold] Guld fra byen {3_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SIPHONED_FUNDS_MESSAGE">
+      <Text>Succesfuldt udvinding af guld</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SIPHONED_FUNDS_SUMMARY">
+      <Text>En fjendtlig spion lykkedes med at suge {1_Amount} [ICON_Gold] guld fra byen {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SIPHONED_FUNDS_MESSAGE">
+      <Text>Fjendtlig spion siphonerer guld</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_STOLE_TECH_BOOST_SUMMARY">
+      <Text>Din agent {1_unitName} i {2_CityName} lykkedes med at stjæle boostet til {3_Tech}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_STOLE_TECH_BOOST_MESSAGE">
+      <Text>Teknologi-boost stjæler succes</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_STOLE_TECH_BOOST_SUMMARY">
+      <Text>En fjendtlig spion i {1_CityName} lykkedes med at stjæle boostet til {2_Tech}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_STOLE_TECH_BOOST_MESSAGE">
+      <Text>Fjende stjal teknologisk fremskridt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_RECRUITED_PARTISANS_SUMMARY">
+      <Text>Din agent {1_unitName} i {2_CityName} lykkedes med at rekruttere partisanstyrker, der ønsker at erobre deres by tilbage.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_RECRUITED_PARTISANS_MESSAGE">
+      <Text>Succesful rekruttering af partisaner</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_RECRUITED_PARTISANS_SUMMARY">
+      <Text>En fjendtlig spion i {1_CityName} lykkedes med at rekruttere partisanstyrker, som nu truer din by.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_RECRUITED_PARTISANS_MESSAGE">
+      <Text>Fjenden rekrutterede partisaner</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_DISRUPTED_ROCKETRY_SUMMARY">
+      <Text>Din agent {1_unitName} lykkedes med at plyndre Rumhavnen i byen {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_DISRUPTED_ROCKETRY_MESSAGE">
+      <Text>Succesful disruption af raketvidenskab</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_DISRUPTED_ROCKETRY_SUMMARY">
+      <Text>En fjendtlig spion lykkedes med at plyndre rumhavnen i byen {1_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_DISRUPTED_ROCKETRY_MESSAGE">
+      <Text>Fjendtlig spion forstyrrede raketteknologi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CITY_SOURCES_GAINED_SUMMARY">
+      <Text>Din agent {1_unitName} har skaffet kilder, der er vidende om indre arbejdsgange i {2_CityName}. Dine spioner i den by vil operere på {3_Levels} niveauer højere i {4_Turns} ture.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CITY_SOURCES_GAINED_MESSAGE">
+      <Text>Kilder Optjent</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_LISTENING_POST_SUMMARY">
+      <Text>Din agent {1_unitName} har afsluttet deres tid på en lyttepost i {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_LISTENING_POST_MESSAGE">
+      <Text>Lytteposten er færdig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_SUMMARY">
+      <Text>Din agent {1_unitName} er flygtet fra byen {2_CityName}, da der er et nyt imperium ved magten der.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_MESSAGE">
+      <Text>Spion flygter fra byen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_ALLIANCE_SUMMARY">
+      <Text>Din agent {1_unitName} har forladt byen {2_CityName} for at overholde betingelserne i din nye alliance med byens ejer.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_ALLIANCE_MESSAGE">
+      <Text>Spion forlader byen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_FAILED_SUMMARY">
+      <Text>Din agent {1_unitName} mislykkedes i {2_mission} missionen i byen {3_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_FAILED_MESSAGE">
+      <Text>Spionen mislykkedes</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CAPTURED_SUMMARY">
+      <Text>Din agent {1_unitName} blev fanget under en {2_mission} mission i byen {3_cityName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CAPTURED_MESSAGE">
+      <Text>Spion fanget</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_CAPTURED_SUMMARY">
+      <Text>En spion fra {1_civName} blev fanget under en {2_mission} mission i byen {3_cityName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_CAPTURED_MESSAGE">
+      <Text>Fjende spion taget til fange</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_KILLED_SUMMARY">
+      <Text>Din agent {1_unitName} blev dræbt under {2_mission} missionen i byen {3_cityName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_KILLED_MESSAGE">
+      <Text>Spion dræbt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_KILLED_SUMMARY">
+      <Text>En spion fra {1_civName} blev dræbt under {2_mission} missionen i byen {3_cityName}. {4_CounterspyAssist}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_KILLED_MESSAGE">
+      <Text>Fiendtlig spion dræbt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_TO_CAPITAL">
+      <Text>Din spion {1_unitName} har afbrudt deres rejse, da målbyen skiftede hænder. Du kan finde dem i din hovedstad.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_SUMMARY">
+      <Text>Din agent {1_unitName} afbrød missionen {2_mission} i byen {3_cityName}. Målets mission er ikke længere gyldigt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_MESSAGE">
+      <Text>Spionopgave afbrudt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_PROMOTED_SUMMARY">
+      <Text>For den rolle, der blev spillet i at stoppe fjendens {1_mission} mission i byen {2_cityName}, er din spion {3_unitName} blevet forfremmet!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_PROMOTED_MESSAGE">
+      <Text>Moderspion Forfremmet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_ASSIST">
+      <Text>Din kontraspion {1_unitName} var afgørende for denne sejr til vores sikkerhedsstyrker.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ESCAPED_CAPTURE_SUMMARY">
+      <Text>Din spion {1_unitName} er undsluppet at blive fanget og vil vende tilbage til din [ICON_Capital] hovedstad om {2_turns} tur.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ESCAPED_CAPTURE_MESSAGE">
+      <Text>Spion undslap</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_ESCAPED_CAPTURE_SUMMARY">
+      <Text>En fjendtlig spion fra en ukendt civilisation har undgået at blive fanget og er undsluppet din by {1_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_ESCAPED_CAPTURE_MESSAGE">
+      <Text>Fjendtlig spion undslap</Text>
+    </Row>
+    <!-- City-State Notifications -->
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_GIVEN_MESSAGE">
+      <Text>Ny bystat-quest</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_GIVEN_SUMMARY">
+      <Text>{1_CityStateName} har givet dig en ny opgave: {2_QuestName}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_COMPLETED_MESSAGE">
+      <Text>Bystat-quest fuldført</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_COMPLETED_SUMMARY">
+      <Text>Du fuldførte en opgave for {1_CityStateName} og tjente en belønning: {2_RewardText}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_MET_FIRST_MESSAGE">
+      <Text>Bymødebonus</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_MET_FIRST_SUMMARY">
+      <Text>Som den første store civilisation til at møde {1_CityStateName}, har du optjent {2_NumEnvoys} [ICON_Envoy] {2_NumEnvoys : plural 1?Sendebud; other?Sendebud;} der.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_USURPED_MESSAGE">
+      <Text>Mistet suzeræn status</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_USURPED_SUMMARY">
+      <Text>Efter en ændring i [ICON_Envoy] Fortrop, er du ikke længere Suzerain af {1_CityStateName}.</Text>
+    </Row>
+    <!-- Trade Route Notifications -->
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_MESSAGE">
+      <Text>Handelsrute plyndret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_SUMMARY_NO_ROUTE">
+      <Text>{1_PlayerName} har plyndret dit Handelsenhed.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_SUMMARY_ACTIVE_ROUTE">
+      <Text>{1_PlayerName} har plyndret din Trader-enhed. Din [ICON_TradeRoute] Handelsrute fra {2_OriginCityName} til {3_DestinationCityName} er ikke længere aktiv.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADING_POST_CREATED_MESSAGE">
+      <Text>Handelsplads Oprettet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADING_POST_CREATED_SUMMARY">
+      <Text>At fuldføre en [ICON_TradeRoute] Handelsrute har skabt en [ICON_TradingPost] Handelsstation til dig i byen {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_CAPACITY_INCREASED_MESSAGE">
+      <Text>Øget handelsrute kapacitet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_CAPACITY_INCREASED_SUMMARY">
+      <Text>Du kan nu oprette og opretholde flere [ICON_TradeRoute] Handelsruter end tidligere.</Text>
+    </Row>
+    <!-- Economic Notifications -->
+    <Row Tag="LOC_NOTIFICATION_REBELLION_MESSAGE">
+      <Text>Oprør!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_REBELLION_SUMMARY">
+      <Text>Manglen på [ICON_Amenities] bekvemmeligheder i {1_CityName} har fået folk til at tage våben i hænderne mod os, og der er nu {2_NumUnits} fjendtlige enheder.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOW_AMENITIES_MESSAGE">
+      <Text>Har brug for flere faciliteter</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOW_AMENITIES_SUMMARY">
+      <Text>{1_CityName} har brug for flere [ICON_Amenities] faciliteter for at opretholde produktiviteten. Hvis dette bliver værre, kan folk oprøre sig imod os!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOUSING_PREVENTING_GROWTH_MESSAGE">
+      <Text>Vi har brug for mere boliger</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOUSING_PREVENTING_GROWTH_SUMMARY">
+      <Text>{1_CityName} har brug for flere [ICON_Housing] Boliger for at kunne fortsætte med at vokse. Hvis dette fortsætter, vil vi have svært ved at få nye [ICON_Citizen] Borgere.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_STARVING_MESSAGE">
+      <Text>Byen sulter!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_STARVING_SUMMARY">
+      <Text>{1_CityName} leverer ikke tilstrækkeligt med [ICON_Food] mad til sine indbyggere. Hvis dette fortsætter, vil det miste [ICON_Citizen] borgere!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_FOOD_FOCUS_MESSAGE">
+      <Text>Byen har brug for mad</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_FOOD_FOCUS_SUMMARY">
+      <Text>{1_CityName} giver ikke nok [ICON_Food] mad til sine indbyggere til at vokse. Overvej at fokusere din by på [ICON_Food] mad.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURY_BANKRUPT_MESSAGE">
+      <Text>Skatkammeret er konkurs!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURY_BANKRUPT_SUMMARY">
+      <Text>Vi har ingen [ICON_Gold] Guld tilbage, og vores omkostninger er højere end vores indtægter. Hvis dette fortsætter, vil vores byer miste [ICON_Amenities] Faciliteter og vores enheder vil forlade os!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAN_PURCHASE_WITH_FAITH_MESSAGE">
+      <Text>Kan købes med tillid</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAN_PURCHASE_WITH_FAITH_SUMMARY">
+      <Text>Du har samlet nok [ICON_Faith] Tro til at købe {LOC_GRAMMAR_A_AN &lt;&lt; {1_ItemName}}.</Text>
+    </Row>
+    <!-- Multiplayer Notifications -->
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTING">
+      <Text>{1_playerName} Tilslutter sig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTING_TT">
+      <Text>{1_playerName} deltager i spillet. Denne proces kan tage et par minutter.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTED">
+      <Text>{1_playerName} tilsluttede sig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTED_TT">
+      <Text>{1_playerName} har fuldført tilslutningen til spillet.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DISCONNECT">
+      <Text>{1_playerName} Afbrudt forbindelse</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DISCONNECT_TT">
+      <Text>{1_playerName} har afbrudt forbindelsen til spillet.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_KICKED">
+      <Text>{1_playerName} sparkede</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_KICKED_TT">
+      <Text>{1_playerName} er blevet sparket ud af spillet.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MOD_STATUS">
+      <Text>{1_playerName} downloader mods</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MOD_STATUS_TT">
+      <Text>{1_playerName} downloader de nødvendige mods for at spille dette spil. ({2 : number} af {3 : number} i alt)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_MIGRATION">
+      <Text>Vært Migration</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_MIGRATION_TT">
+      <Text>Spillet flytter til en ny spilserver. Spillet vil genoptages snart.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_CHANGED">
+      <Text>Vært migreret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_CHANGED_TT">
+      <Text>{1_playerName} er den nye spilvært.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_YOURTURN">
+      <Text>Din Tur i Spil På Cloud</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_YOURTURN_TT">
+      <Text>Det er din tur i et Play By Cloud-spil. ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_GAMEREADY">
+      <Text>Klar til spil via cloud</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_GAMEREADY_TT">
+      <Text>En af dine Spil-efter-tur spil er klar til at starte. ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_UNSEENCOMPLETE">
+      <Text>Spil efter skyen spil fuldført</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_UNSEENCOMPLETE_TT">
+      <Text>En af dine Play By Cloud-spil er for nylig afsluttet. ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WRONG_PHASE_TT">
+      <Text>[color:Civ6Red]Forkert fase[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SIMULTANEOUS_TURNS">
+      <Text>Samtidige tur</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SIMULTANEOUS_TURNS_TT">
+      <Text>Din krig med en menneskelig spiller er slut. Dine ture vil blive spillet samtidig med alle ikke-krigende civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SEQUENTIAL_TURNS">
+      <Text>Sekventielle ture</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SEQUENTIAL_TURNS_TT">
+      <Text>Du er i krig med en menneskelig spiller. Dine ture vil blive spillet sekventielt med alle krigsførende civilisationer, indtil konflikten er ovre.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DESYNCED">
+      <Text>{1_playerName} mistede synkroniseringen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DESYNCED_TT">
+      <Text>{1_playerName}s spil har afvejet fra værtens. De genindlæser for at rette problemet.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESYNC_COMPLETE">
+      <Text>{1_playerName} resynkronisering fuldført</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESYNC_COMPLETE_TT">
+      <Text>{1_playerName} har fuldført indlæsningen.</Text>
+    </Row>
+    <!-- Multiplayer deferred popup notifications -->
+    <Row Tag="LOC_NOTIFICATION_TECH_BOOST_MESSAGE">
+      <Text>Teknologiøgning</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_BOOST_SUMMARY">
+      <Text>Teknologi Boostet: {1_Name}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_BOOST_MESSAGE">
+      <Text>Civic Boost</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_BOOST_SUMMARY">
+      <Text>Civic Boosted: {1_Name}! (in Danish: Civic Boostet: {1_Name}!)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_DISCOVERED_MESSAGE">
+      <Text>Opdaget {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_DISCOVERED_SUMMARY">
+      <Text>Du har opdaget {1_Name}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_DISCOVERED_MESSAGE">
+      <Text>Opdaget {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_DISCOVERED_SUMMARY">
+      <Text>Du har opdaget {1_Name}!</Text>
+    </Row>
+    <!-- Great Work Notifications -->
+    <Row Tag="LOC_NOTIFICATION_RELIC_CREATED_MESSAGE">
+      <Text>Relikvie Skabt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RELIC_CREATED_SUMMARY">
+      <Text>Den [ICON_GreatWork_Relic] Hellige Relikvie {1_RelicName} er blevet placeret i {2_BuildingName} i {3_CityName}.</Text>
+    </Row>
+    <!-- Discovery Notifications -->
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_CONTINENT_MESSAGE">
+      <Text>Nyt kontinent opdaget</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_CONTINENT_SUMMARY">
+      <Text>Vi har opdaget en ny kontinent. Vores opdagelsesrejsende navngiver den {1_ContinentName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_MESSAGE">
+      <Text>Stamme landsby opdaget</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_SUMMARY">
+      <Text>Du har fundet en landsby beboet af en venlig stamme.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_NATURAL_WONDER_MESSAGE">
+      <Text>Naturligt Vidunder Opdaget</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_NATURAL_WONDER_SUMMARY">
+      <Text>Dine opdagelsesrejsende har opdaget naturvidunderet {1_NaturalWonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_RESOURCE_MESSAGE">
+      <Text>Ressource opdaget</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_RESOURCE_SUMMARY">
+      <Text>Vi har opdaget en ny kilde til {1_ResourceName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_MESSAGE">
+      <Text>Barbarer nærmer sig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_SUMMARY">
+      <Text>Vi har spottet barbarer, der nærmer sig vores by {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_MESSAGE">
+      <Text>Nyt Barbarkvarter</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_SUMMARY">
+      <Text>Vi har modtaget rygter om, at en ny stamme af barbarer er flyttet ind i en nærliggende region.</Text>
+    </Row>
+    <!-- Victory Notifications -->
+    <Row Tag="LOC_NOTIFICATION_MY_DOMINANT_CULTURE_MESSAGE">
+      <Text>Din Kulturdominans</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_DOMINANT_CULTURE_SUMMARY">
+      <Text>Du har tiltrukket tilstrækkeligt mange [ICON_Tourism] turister til at gøre din kultur dominerende over {1_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_DOMINANT_CULTURE_MESSAGE">
+      <Text>Dominerende udenlandsk kultur</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_DOMINANT_CULTURE_SUMMARY">
+      <Text>{1_CivName} har tiltrukket tilstrækkeligt med [ICON_Tourism] turister til at gøre deres kultur dominerende over din.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_CULTURE_VICTORY_SOON_MESSAGE">
+      <Text>Din kulturelle sejr er uundgåelig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_CULTURE_VICTORY_SOON_SUMMARY">
+      <Text>Din kultur er blevet dominerende over alle, undtagen én fremmed civilisation. En Kultur-sejr er inden for rækkevidde.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_CULTURE_VICTORY_SOON_MESSAGE">
+      <Text>Udenlandsk kultursejr forestående</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_CULTURE_VICTORY_SOON_SUMMARY">
+      <Text>{1_CivName} har brug for, at deres kultur bliver dominerende over en mere spiller for at opnå en Kultur sejr.</Text>
+    </Row>
+    <!--Future Notifications (not yet implemented)-->
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_AVAILABLE_MESSAGE">
+      <Text>Ny Casus Belli tilgængelig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_AVAILABLE_SUMMARY">
+      <Text>Vi har nu retfærdiggørelse for at erklære krig af typen {1_WarType} mod {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGED_ATTACK_MESSAGE">
+      <Text>Byområdeangreb</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGED_ATTACK_SUMMARY">
+      <Text>Byen {1_CityName} kan slå til mod fjendtlige styrker.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENCAMPMENT_RANGED_ATTACK_MESSAGE">
+      <Text>Træfning på Lejrsletten</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENCAMPMENT_RANGED_ATTACK_SUMMARY">
+      <Text>Lejren uden for byen {1_CityName} kan angribe fjendtlige styrker.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUKE_DROPPED_MESSAGE">
+      <Text>Kerneanordning Detonerede</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUKE_DROPPED_SUMMARY">
+      <Text>En kernevåben er blevet detonated af {1_CivName} nær byen {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_THERMONUKE_DROPPED_MESSAGE">
+      <Text>Termonukleært apparat detoneret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_THERMONUKE_DROPPED_SUMMARY">
+      <Text>En ødelæggende termonuklear enhed er blevet detoneret af {1_CivName} nær byen {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEW_AGENT_MESSAGE">
+      <Text>Kan Tog Spion</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEW_AGENT_SUMMARY">
+      <Text>Du kan nu træne endnu en spion.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_CAPTURED_MESSAGE">
+      <Text>Enhed fanget</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_CAPTURED_SUMMARY">
+      <Text>Din {1_UnitType} blev fanget af en {2_EnemyUnitType} fra {3_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_ATTACKED_MESSAGE">
+      <Text>Enhed angrebet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_ATTACKED_SUMMARY">
+      <Text>Dit {1_UnitType} blev angrebet af {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_MESSAGE">
+      <Text>Undren fuldført</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_SUMMARY">
+      <Text>{1_CivName} har færdiggjort byggeriet af verdensvidunderet {2_WonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_HOTSEAT_CURRENT_PLAYER_SUMMARY">
+      <Text>Du har færdiggjort konstruktionen af verdensunderværket {1_WonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_UNMET_PLAYER_SUMMARY">
+      <Text>En spiller, der ikke er mødt, har færdiggjort opførelsen af verdensvidunderet {1_WonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_FAILED_MESSAGE">
+      <Text>Produktion genoprettet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_FAILED_SUMMARY">
+      <Text>Du var ikke i stand til at fuldføre verdensunderværket {1_WonderName} i tide. Men {2_Production} [ICON_Production] produktion er blevet reddet fra forsøget og tildelt til byen {3_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOST_MESSAGE">
+      <Text>Byen erobret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOST_SUMMARY">
+      <Text>Byen {1_CityName} er blevet erobret af {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_WALLS_BREACHED_MESSAGE">
+      <Text>Bymurene brudt ned</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_WALLS_BREACHED_SUMMARY">
+      <Text>Bymurene i {1_CityName} er blevet brudt af styrker fra {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_LOST_MESSAGE">
+      <Text>Hovedstaden Erobreret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_LOST_SUMMARY">
+      <Text>Hovedstaden [ICON_Capital] af {1_CivName} er blevet erobret af {2_CivName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_RECLAIMED_MESSAGE">
+      <Text>Kapital Genindvundet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_RECLAIMED_SUMMARY">
+      <Text>{1_CivName} har genindtaget deres hovedstad.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENEMY_IN_TERRITORY_MESSAGE">
+      <Text>Fjende indenfor grænserne</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENEMY_IN_TERRITORY_SUMMARY">
+      <Text>Fjendtlige tropper er blevet spottet inden for vores grænser nær byen {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_ANTIQUITY_SITE_MESSAGE">
+      <Text>Antikvitetessted opdaget</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_ANTIQUITY_SITE_SUMMARY">
+      <Text>Du har opdaget en ny antik gravplads. Send en arkæolog til at udvinde artefakten.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_SHIPWRECK_MESSAGE">
+      <Text>Skibsvrag fundet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_SHIPWRECK_SUMMARY">
+      <Text>Du har fundet stedet for en gammel skibsvrag. Når du har opnået "Kulturelt Arvegods" samfund, så send en arkæolog til at hæve det sunkne artefakt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_COUNTERDEAL_RECEIVED_MESSAGE">
+      <Text>Modbud modtaget</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_COUNTERDEAL_RECEIVED_SUMMARY">
+      <Text>{1_CivName} har sendt et modforslag til dit tilbud om aftale.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_RECEIVED_MESSAGE">
+      <Text>Aftale foreslået</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_RECEIVED_SUMMARY">
+      <Text>Du har modtaget et tilbudsforløb fra {1_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_AI_EXPIRED_MESSAGE">
+      <Text>Anmeldelse af Udløbet Dig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_AI_EXPIRED_SUMMARY">
+      <Text>Anmeldelsen af dig af {1_CivName} er udløbet. De bliver nødt til at udstede den igen, hvis de vil erklære krig formelt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_HUMAN_EXPIRED_MESSAGE">
+      <Text>Din anmeldelse er udløbet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_HUMAN_EXPIRED_SUMMARY">
+      <Text>Din fordømmelse af {1_CivName} er udløbet, og du bliver nødt til at genudstede den, hvis du vil erklære krig formelt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_KEPT_MESSAGE">
+      <Text>Løfte opfyldt til dig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_KEPT_SUMMARY">
+      <Text>Løftet, som {1_CivName} gav til dig om at {2_PromiseType}, er blevet opfyldt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_KEPT_MESSAGE">
+      <Text>Din løfte opfyldt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_KEPT_SUMMARY">
+      <Text>Din {2_PromiseType}-lovnad til {1_CivName} er blevet opfyldt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_BROKEN_MESSAGE">
+      <Text>Løfte brudt til dig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_BROKEN_SUMMARY">
+      <Text>Løftet, som {1_CivName} har givet til dig om at {2_PromiseType}, er blevet brudt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_BROKEN_MESSAGE">
+      <Text>Dit løfte brudt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_BROKEN_SUMMARY">
+      <Text>Dit løfte til {1_CivNavn} om at {2_LøfteType} er blevet brudt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_ARTIFACTS">
+      <Text>Stop med at udgrave artefakter</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_ON_BORDER">
+      <Text>Flyt tropperne på grænsen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_RELIGIOUS">
+      <Text>Stop med at konvertere byer</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_SETTLING">
+      <Text>Hold op med at bosætte dig i nærheden</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_SPYING">
+      <Text>Stop med at spionere</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_EXPIRED_MESSAGE">
+      <Text>Aftalen udløbet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_EXPIRED_SUMMARY">
+      <Text>En aftale, du indgik med {1_CivName}, er udløbet.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISTRICT_PILLAGED_MESSAGE">
+      <Text>Området plyndret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISTRICT_PILLAGED_SUMMARY">
+      <Text>Dit {1_DistrictName} i {2_CityName} er blevet plyndret af {3_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_IMPROVEMENT_PILLAGED_MESSAGE">
+      <Text>Forbedring plyndret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_IMPROVEMENT_PILLAGED_SUMMARY">
+      <Text>Dit {1_ImprovementName} i {2_CityName} er blevet plyndret af {3_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_MESSAGE">
+      <Text>Bygning plyndret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_SUMMARY">
+      <Text>Dit {1_BuildingName} i {2_CityName} er blevet plyndret af {3_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROUTE_PILLAGED_MESSAGE">
+      <Text>Vejen plyndret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROUTE_PILLAGED_SUMMARY">
+      <Text>En flise af {1_RoadName} nær {2_CityName} er blevet plyndret af {3_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESURRECTED_MESSAGE">
+      <Text>Spiller Genoplivet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESURRECTED_SUMMARY">
+      <Text>{1_civName} har genindtaget en by og er igen i live.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_ELIMINATED_MESSAGE">
+      <Text>Spiller elimineret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_ELIMINATED_SUMMARY">
+      <Text>{1_civName} er blevet elimineret.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROADS_UPGRADED_MESSAGE">
+      <Text>Veje opgraderet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROADS_UPGRADED_SUMMARY">
+      <Text>{1_RoadName} er låst op, og opgraderer alle veje i dit territorium ({2_MovementCost} [ICON_Movement] Bevægelse {2_MovementCost : plural 1?pont; other?point;}, uanset terræn).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_RELIGIOUS_UNIT_MESSAGE">
+      <Text>Første religiøse enhed</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_RELIGIOUS_UNIT_SUMMARY">
+      <Text>På grund af iveren, der griber dit folk ved grundlæggelsen af en ny religion, har du modtaget din første {1_UnitName} gratis. Brug [ICON_Faith] Tro til at købe flere i fremtiden.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_ESPIONAGE_UNIT_MESSAGE">
+      <Text>Første spion</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_ESPIONAGE_UNIT_SUMMARY">
+      <Text>På grund af spændingen over dit nye spionnetværk har du modtaget din første {1_UnitName} gratis. Når du låser op for evnen til at konstruere flere, så træn dem i dine byer.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BESIEGED_BY_OTHER_PLAYER_MESSAGE">
+      <Text>Byen belejret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BESIEGED_BY_OTHER_PLAYER_SUMMARY">
+      <Text>{1_CityName} er under belejring. Indtil modstanderens enheder ikke har kontrolzone over alle felterne omkring din by, vil den ikke hele.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TILE_LOST_CULTURE_BOMB_MESSAGE">
+      <Text>Tabt Territorium</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TILE_LOST_CULTURE_BOMB_SUMMARY">
+      <Text>Vi har mistet territorium til en Kultur Bombe, der blev udløst af {1_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_FORCED_REBASE_MESSAGE">
+      <Text>Flyvning tvunget til omplacering</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_FORCED_REBASE_SUMMARY">
+      <Text>{1_AirUnit}-placeringen er blevet kompromitteret og er blevet tvunget til at genbaseres.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_BASE_OVERRUN_MESSAGE">
+      <Text>Flybase erobret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_BASE_OVERRUN_SUMMARY">
+      <Text>{1_AirUnit} var ude af stand til at genbaseres og er blevet ødelagt.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

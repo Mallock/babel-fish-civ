@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_NOTIFICATION_GAIN_DIPLO_POINTS_MESSAGE">
+      <Text>Diplomatiske sejrspoint</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GAIN_DIPLO_POINTS_SUMMARY">
+      <Text>Verdenskongressen har tildelt dig {1_Value} Diplomatiske Sejrspoint.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ACTIVE_MESSAGE">
+      <Text>Vulkan bliver aktiv</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ACTIVE_SUMMARY">
+      <Text>{1_VolcanoName} er nu aktiv. Det kan bryde ud når som helst.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_INACTIVE_MESSAGE">
+      <Text>Vulkan bliver inaktiv</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_INACTIVE_SUMMARY">
+      <Text>{1_VolcanoName} er nu inaktiv. Der er ikke længere nogen fare for, at den vil bryde ud.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV0_MESSAGE">
+      <Text>Blid vulkansk udbrud</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV0_SUMMARY">
+      <Text>{1_VolcanoName} er brudt ud. Heldigvis ser det ud til, at skaden er begrænset ({2_Tiles} {2_Tiles: plural 1?tile; other?tiles;} beskadiget, {3_Pop} [ICON_CITIZEN] befolkning mistet, {4_Units} {4_Units: plural 1?unit; other?units;} dræbt, {5_Yields} {5_Yields: plural 1?tile; other?tiles;} er blevet mere frugtbare).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV1_MESSAGE">
+      <Text>Katastrofal vulkanudbrud</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV1_SUMMARY">
+      <Text>{1_VolcanoName} er brudt ud. Skaderne i området er alvorlige ({2_Tiles} {2_Tiles: plural 1?tile; other?tiles;} beskadiget, {3_Pop} [ICON_CITIZEN] befolkning tabt, {4_Units} {4_Units: plural 1?unit; other?units;} dræbt, {5_Yields} {5_Yields: plural 1?tile; other?tiles;} har fået øget frugtbarhed).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV2_MESSAGE">
+      <Text>Megakolossal vulkanudbrud!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV2_SUMMARY">
+      <Text>{1_VolcanoName} er brudt ud i en af de dødeligste eksplosioner, der er kendt af menneskeheden ({2_Tiles} {2_Tiles: plural 1?flise; other?fliser;} beskadiget, {3_Pop} [ICON_CITIZEN] befolkning mistet, {4_Units} {4_Units: plural 1?enhed; other?enheder;} dræbt, {5_Yields} {5_Yields: plural 1?flise; other?fliser;} vundet frugtbarhed).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV0_MESSAGE">
+      <Text>Flod i floder</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV0_SUMMARY">
+      <Text>Floden {1_RiverName} er steget over sine bredder. Heldigvis ser det ud til, at skaderne er minimale ({2_Tiles} {2_Tiles: plural 1?flise; other?fliser;} beskadiget, {3_Pop} [ICON_CITIZEN] indbyggere mistet, {4_Units} {4_Units: plural 1?enhed; other?enheder;} dræbt, {5_Yields} {5_Yields: plural 1?flise; other?fliser;} er blevet mere frugtbare).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV1_MESSAGE">
+      <Text>Store flodoversvømmelser i floderne</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV1_SUMMARY">
+      <Text>{1_RiverName} er oversvømmet. Skaderne i området er alvorlige ({2_Tiles} {2_Tiles: plural 1?tile; other?tiles;} beskadiget, {3_Pop} [ICON_CITIZEN] befolkning gået tabt, {4_Units} {4_Units: plural 1?unit; other?units;} dræbt, {5_Yields} {5_Yields: plural 1?tile; other?tiles;} øget frugtbarhed).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV2_MESSAGE">
+      <Text>Rekordstor flod tilstand</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV2_SUMMARY">
+      <Text>{1_RiverName} er oversvømmet og har ødelagt området som aldrig set før ({2_Tiles} {2_Tiles: plural 1?flise; other?fliser;} beskadiget, {3_Pop} [ICON_CITIZEN] befolkning gået tabt, {4_Units} {4_Units: plural 1?enhed; other?enheder;} dræbt, {5_Yields} {5_Yields: plural 1?flise; other?fliser;} fået øget frugtbarhed).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOOD_MITIGATED_MESSAGE">
+      <Text>Flod i floden forhindret</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOOD_MITIGATED_SUMMARY">
+      <Text>De kraftige regnskyl langs {1_RiverName} kunne have været et stort problem. Heldigvis var {LOC_GRAMMAR_A_AN &lt;&lt; {2_BuildingOrDistrict}} på plads for at kontrollere de stigende vande. ({3_Yields} {3_Yields: plural 1?flise; other?fliser;} opnåede frugtbarhed)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_ARRIVED_MESSAGE">
+      <Text>Voldsomt uvejr!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_ARRIVED_SUMMARY">
+      <Text>En {1_StormType} ved navn {2_StormName} er blevet dannet og er på vej mod {3_Direction}. Stormen vil forårsage ødelæggelse i de næste to ture. (Ved dens ankomst blev der beskadiget {4_Tiles} {4_Tiles: plural 1?flise; other?fliser;}, {5_Pop} [ICON_CITIZEN] befolkning tabt, {6_Units} {6_Units: plural 1?enhed; other?enheder;} dræbt, {7_Yields} {7_Yields: plural 1?flise; other?fliser;} har fået frugtbarhed)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_ARRIVED_LOSSES_SUMMARY">
+      <Text>En {1_StormType} ved navn {2_StormName} er opstået og bevæger sig mod {3_Direction}. Stormen vil forårsage ødelæggelse i de næste to ture. (Ved dens ankomst blev der beskadiget {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;}, og {5_Pop} [ICON_CITIZEN] befolkning gik tabt, {6_Units} {6_Units: plural 1?unit; other?units;} blev dræbt, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} mistede deres frugtbarhed)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_MOVED_MESSAGE">
+      <Text>Stormen raser videre</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_MOVED_SUMMARY">
+      <Text>{1_StormType} ved navn {2_StormName} fortsætter sin bevægelse og er nu på vej mod {3_Direction}. (I denne tur var der {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} beskadiget, {5_Pop} [ICON_CITIZEN] befolkning tabt, {6_Units} {6_Units: plural 1?unit; other?units;} dræbt, {7_Yields} {7_Yields: plural 1?tile; other?tiles;} opnået frugtbarhed)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_MOVED_LOSSES_SUMMARY">
+      <Text>{1_StormType} ved navn {2_StormName} fortsætter sin bevægelse og er nu på vej mod {3_Direction}. (I løbet af dette træk var der {4_Tiles} {4_Tiles: plural 1?flise; other?fliser;} beskadiget, {5_Pop} [ICON_CITIZEN] befolkning mistet, {6_Units} {6_Units: plural 1?enhed; other?enheder;} dræbt, {7_Yields} {7_Yields: plural 1?flise; other?fliser;} mistede sin frugtbarhed)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_DISSIPATED_MESSAGE">
+      <Text>Stormen aftager</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_DISSIPATED_SUMMARY">
+      <Text>{1_StormType} ved navn {2_StormName}, som nu er svagere, har taget sit sidste træk på tværs af kortet. (I løbet af dette træk blev der beskadiget {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;}, {4_Pop} [ICON_CITIZEN] population tabt, {5_Units} {5_Units: plural 1?unit; other?units;} dræbt, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} opnået frugtbarhed)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_DISSIPATED_LOSSES_SUMMARY">
+      <Text>{1_StormType} ved navn {2_StormName}, nu svagere, har gjort sit sidste træk på tværs af kortet. (I løbet af denne tur blev der beskadiget {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;}, {4_Pop} [ICON_CITIZEN] befolkning tabt, {5_Units} {5_Units: plural 1?unit; other?units;} dræbt, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} mistet frugtbarhed)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DROUGHT_ARRIVED_MESSAGE">
+      <Text>Tørke!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DROUGHT_ARRIVED_SUMMARY">
+      <Text>En {1_DroughtType} har ramt. Navngivet {2_DroughtName}-tørken kan denne alvorlige mangel på nedbør skade forbedringer og vil hæmme [ICON_Food] Fødevareproduktionen i de næste {3_Duration} ture. ({4_Tiles} {4_Tiles: plural 1?flise; other?fliser;} beskadiget)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DROUGHT_ARRIVED_LOSSES_SUMMARY">
+      <Text>En {1_DroughtType} er ramt. Navngivet den {2_DroughtName} Tørke, kan dette alvorlige mangel på nedbør skade forbedringer og vil dæmpe [ICON_Food] Mad produktionen for de næste {3_Duration} ture. ({4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} beskadiget, {5_Yields} {5_Yields: plural 1?tile; other?tiles;} mistet frugtbarhed)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DROUGHT_CLEARED_MESSAGE">
+      <Text>Velkommen regnvejr</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DROUGHT_CLEARED_SUMMARY">
+      <Text>Endelig er regnen kommet for at lindre lidelserne fra {1_DroughtType}. Allerede er vores afgrøder ved at komme sig, og {2_DroughtName}-tørken er nu en fodnote i historiebøgerne.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EVENT_AVOIDED_MESSAGE">
+      <Text>Krise afværget</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EVENT_AVOIDED_SUMMARY">
+      <Text>{2_civName} undgik {1_RandomEvent}, hvilket forhindrede skade på deres civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RISING_SEA_LEVEL_FLOODED_MESSAGE">
+      <Text>Permanent kystoversvømmelse</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RISING_SEA_LEVEL_FLOODED_SUMMARY">
+      <Text>Havets overflade er steget. Alle kystnære lave fliser, markeret som '{1_Name}', er blevet permanent oversvømmet.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RISING_SEA_LEVEL_SUBMERGED_MESSAGE">
+      <Text>Tabte Kystfliser</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RISING_SEA_LEVEL_SUBMERGED_SUMMARY">
+      <Text>Havets vandstand er steget yderligere. Alle kystnære lavtliggende fliser markeret som '{1_Name}' er blevet oversvømmet og tabt til havet.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RISING_SEA_LEVEL_SUMMARY_TEMPLATE">
+      <Text>{1_Summary}[NEWLINE][NEWLINE]{2_LongDescription}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_UNPOWERED_MESSAGE">
+      <Text>Byen uden strøm</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_UNPOWERED_SUMMARY">
+      <Text>Bygninger eller projekter i {1_CityName} kan forbedres med {2_PowerRequired} [ICON_Power] kraft, men byen har kun {3_PowerAvailable}. De vil være mindre effektive, indtil [ICON_Power]kraften er genoprettet.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_DISARMAMENT_MESSAGE">
+      <Text>Nuklear nedrustning</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_DISARMAMENT_SUMMARY">
+      <Text>På grund af handlingerne fra Verdenskongressen er du blevet tvunget til at afvikle dit atomvåbenarsenal.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_POSITIVE_ADJUSTMENT_MESSAGE">
+      <Text>Ligestilling af kernevåben</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_POSITIVE_ADJUSTMENT_SUMMARY">
+      <Text>På grund af handlingerne fra Verdenskongressen er dit atomvåbenarsenal blevet øget for at matche andre civilisationers.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_NEGATIVE_ADJUSTMENT_MESSAGE">
+      <Text>Nedrustning af våben</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_NEGATIVE_ADJUSTMENT_SUMMARY">
+      <Text>På grund af World Congress' handlinger er du blevet tvunget til at reducere din arsenal af atomvåben til at matche dem af andre civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_BREACH_DAM_MESSAGE">
+      <Text>Success med at bryde dæmningen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_BREACH_DAM_SUMMARY">
+      <Text>Din agent {1_unitName} lykkedes med at bryde gennem dæmningen i byen {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_BREACH_DAM_MESSAGE">
+      <Text>Fjendtlig spion brød igennem dæmningen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_BREACH_DAM_SUMMARY">
+      <Text>En fjendtlig spion lykkedes med at bryde igennem dæmningen i byen {1_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV0_MESSAGE">
+      <Text>Radioaktiv dampudslip!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV0_SUMMARY">
+      <Text>Et atomkraftværk i {1_CityName} har oplevet en funktionsfejl og var tvunget til at udsende en lille mængde radioaktiv damp for at undgå en større katastrofe. (I løbet af denne tur var der {2_Tiles} {2_Tiles: plural 1?tile; other?tiles;} påvirket, {3_Pop} [ICON_CITIZEN] befolkning tabt, og {4_Units} {4_Units: plural 1?unit; other?units;} dræbt.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV1_MESSAGE">
+      <Text>Strålingslækage!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV1_SUMMARY">
+      <Text>Et atomkraftværk i {1_CityName} har lidt en stor fejl, der har forårsaget en revne i reaktoren. En stor mængde radioaktivitet er blevet frigivet i det omkringliggende område. (I løbet af denne tur blev {2_Tiles} {2_Tiles: plural 1?flise; other?fliser;} påvirket, {3_Pop} [ICON_CITIZEN] befolkning mistede, og {4_Units} {4_Units: plural 1?enhed; other?enheder;} blev dræbt.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV2_MESSAGE">
+      <Text>Kerneudsmeltning!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV2_SUMMARY">
+      <Text>Et atomkraftværk i {1_CityName} har lidt en katastrofal fejl, der har forårsaget en total reaktormeltdown. En dødelig mængde radioaktivitet er blevet frigivet i det omkringliggende område. (I løbet af denne tur blev {2_Tiles} {2_Tiles: plural 1?tile; other?tiles;} påvirket, {3_Pop} [ICON_CITIZEN] befolkning gik tabt, og {4_Units} {4_Units: plural 1?unit; other?units;} blev dræbt.)</Text>
+    </Row>
+    <!--DIPLOMACY-->
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_BROKEN_SUMMARY">
+      <Text>Løftet, som {1_CivName} gav dig om at {2_PromiseType}, er blevet brudt (100 [ICON_STAT_GRIEVANCE] Gnidninger er blevet genereret).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_BROKEN_SUMMARY">
+      <Text>Dit løfte til {1_CivName} om at {2_PromiseType} er blevet brudt (100 [ICON_STAT_GRIEVANCE] Grievers er blevet genereret).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_NO_PROMISE_FROM_BUT_REPEATED_MESSAGE">
+      <Text>Yderligere klager mod modstanderen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_NO_PROMISE_FROM_BUT_REPEATED_SUMMARY">
+      <Text>Du bad om en tilsagn fra {1_CivName} om at {2_PromiseType}, men de afslog. Faktisk har de fortsat med at gøre dette og tilføjet 25 yderligere [ICON_STAT_GRIEVANCE] Grievenaces mod dem.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_NO_PROMISE_TO_BUT_REPEATED_MESSAGE">
+      <Text>Yderligere klager imod dig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_NO_PROMISE_TO_BUT_REPEATED_SUMMARY">
+      <Text>{1_CivName} bad dig om en tilsagn om at {2_PromiseType}, men du afslog. Faktisk har du fortsat med at gøre dette og tilføjet 25 yderligere [ICON_STAT_GRIEVANCE] Grierancer mod dig.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_BLOCKING_MESSAGE">
+      <Text>Verdenskongressen er ved at mødes</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_BLOCKING_SUMMARY">
+      <Text>Nogen har kaldt til en Særlig Session af Verdenskongressen. Vælg venligst, hvad du ønsker at diskutere (hvis noget) på denne session. Den vil begynde ved afslutningen af denne tur.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_NON_BLOCKING_MESSAGE">
+      <Text>Verdenskongressen er ved at mødes</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_NON_BLOCKING_SUMMARY">
+      <Text>Nogen har indkaldt til en særlig session af Verdenskongressen. Det vil begynde ved afslutningen af denne tur.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_CAN_BE_CALLED_MESSAGE">
+      <Text>Diskussioner tilgængelige for forslag</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_CAN_BE_CALLED_SUMMARY">
+      <Text>Det er nu muligt for dig at indkalde til et særligt møde i World Congress.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_EMERGENCY_CAN_BE_CALLED_MESSAGE">
+      <Text>Ny diskussion tilgængelig for forslag</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_EMERGENCY_CAN_BE_CALLED_SUMMARY">
+      <Text>På grund af nylige verdensbegivenheder har du nu nye bekymringer, som skal bringes til World Congress' opmærksomhed i en særlig session.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GRIEVANCES_AGAINST_YOU_MESSAGE">
+      <Text>Klager mod dig</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GRIEVANCES_AGAINST_YOU_SUMMARY">
+      <Text>{1_DeclaringCivName} har erklæret krig mod {2_TargetCivName}, en af dine venner eller allierede. Du har nu {3_NumGrievances} nye [ICON_STAT_GRIEVANCE] Grief mod dem.</Text>
+    </Row>
+    <!--SPECULATIVE NOTIFICATION TEXT (ADDED AT TEXT-LOCK, MOVE UP IF ACTUALLY MAKE IT INTO GAME)-->
+    <Row Tag="LOC_NOTIFICATION_CITY_LIBERATED_TO_YOU_MESSAGE">
+      <Text>Din by er befriet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LIBERATED_TO_YOU_SUMMARY">
+      <Text>Dine borgere i {1_CityName} glæder sig over deres befrielse. De genforenes med dit imperium takket være denne velgørende handling, som {2_LiberatingLeader} har stået for.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SCORED_COMPETITION_BEGUN_MESSAGE">
+      <Text>Konkurrencen er begyndt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SCORED_COMPETITION_BEGUN_SUMMARY">
+      <Text>Ifølge beslutningen fra verdenskongressen er en {1_CompetitionName} Scored-konkurrence begyndt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_REQUEST_FOR_AID_BEGUN_SUMMARY">
+      <Text>For at hjælpe {1_CivName} i deres tid med behov, er en konkurrence om hjælpeanmodninger blevet indledt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SCORED_COMPETITION_OVER_MESSAGE">
+      <Text>Konkurrence med score er afsluttet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SCORED_COMPETITION_OVER_SUMMARY">
+      <Text>{1_CompetitionName} Scored Konkurrencen er afsluttet. Belønninger er blevet tildelt til dem, der deltog.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RECEIVED_AID_MESSAGE">
+      <Text>Modtaget hjælp</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RECEIVED_AID_SUMMARY">
+      <Text>{1_PlayerName} har sendt dig {2_Amount} [ICON_Gold] Guld som hjælp.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROCK_BANDS_PROHIBITED_MESSAGE">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} censurerer rockmusik</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROCK_BANDS_PROHIBITED_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?forbyder; other?forbyder;} nu rockkoncerter. Dine rockbands inden for deres imperium er blevet fordrevet til en flise lige uden for deres områder.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_VISIBILITY_NONE_NAME">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_VISIBILITY_LIMITED_NAME">
+      <Text>Begrænset</Text>
+    </Row>
+    <Row Tag="LOC_VISIBILITY_FULL_NAME">
+      <Text>Åben</Text>
+    </Row>
+    <Row Tag="LOC_VISIBILITY_SECRET_NAME">
+      <Text>Hemmelighed</Text>
+    </Row>
+    <Row Tag="LOC_VISIBILITY_TOP_SECRET_NAME">
+      <Text>Top hemmeligt</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_FULL_STRING">
+      <Text>{1_SourceText} {2GossipText}</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_ALLIED">
+      <Text>Alliancer</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_CHANGE_GOVERNMENT">
+      <Text>Regeringsændringer</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_CONQUER_CITY">
+      <Text>By erobringen af byer</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_CONSTRUCT_DISTRICT">
+      <Text>Områder Konstrueret</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_CULTURVATE_CIVIC">
+      <Text>Statsborgerskab Færdiggjort</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_CITY_STATE_INFLUENCE">
+      <Text>Byer-Stater påvirket</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_DENOUNCED">
+      <Text>Anklager/Anmeldelser</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_FOUND_CITY">
+      <Text>Byer grundlagt</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_FOUND_RELIGION">
+      <Text>Religioner Grundlagt</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_GREATPERSON_CREATED">
+      <Text>Fantastiske mennesker blev rekrutteret</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_MAKE_DOW">
+      <Text>Krigserklæringer</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_POLICY_ENACTED">
+      <Text>Skjulte dagsordener afsløret</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_RESEARCH_TECH">
+      <Text>Teknologier undersøgt</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_TRADE_DEAL">
+      <Text>Handelsaftaler indført</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_TRADE_RENEGE">
+      <Text>Handelsaftaler brudt</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_TRAIN_SETTLER">
+      <Text>Uddannede nybyggere</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_WMD_BUILT">
+      <Text>Masseødelæggelsesvåben bygget</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_WMD_STRIKE">
+      <Text>Masseødelæggelsesvåben rammer</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_WONDER_STARTED">
+      <Text>Undere startede</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_ATTACK_LAUNCHED">
+      <Text>Angreb lanceret</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_PROJECT_STARTED">
+      <Text>Projekter startet</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_SPACE_RACE_PROJECT_COMPLETED">
+      <Text>Afsluttede projekter i rumkapløbet</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_VICTORY_STRATEGY_CHANGED">
+      <Text>Sejrsstrategien ændret</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_WAR_PREPARATION">
+      <Text>Krigsforberedelser</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_AGENDA_KUDOS">
+      <Text>{1_LeaderName} og deres {1_CivName : plural 1?har; other?har;} takkede {2_LeaderName} for at samarbejde med dagsordenen: {3_AgendaName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_AGENDA_WARNING">
+      <Text>{1_LeaderName} og {1_CivName : plural 1?har; other?har;} advaret {2_LeaderName} om at blande sig i dagsordenen: {3_AgendaName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_ALLIED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} har lige dannet en alliance med {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_ANARCHY_BEGINS">
+      <Text>Der har været et kup i {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} som har fjernet {2_Government} regimet. Anarki er begyndt.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_ARTIFACT_EXTRACTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} udgravet et nyt arkæologisk fund: {2_GreatWork}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_BARBARIAN_INVASION_STARTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} er i gang med en barbarisk invasion ved {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_BARBARIAN_RAID_STARTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?er; other?er;} i møde med en barbarisk razzia ved {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_BEACH_RESORT_CREATED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} hørt, at solbadning er fantastisk på det nye badeferiested udenfor {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CHANGE_GOVERNMENT">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} skiftet regering til {2_Government}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CITY_BESIEGED">
+      <Text>{1_CityName} er under belejring.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CITY_LIBERATED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}}} {1_CivName : plural 1?har; other?har;} netop befriet {2_CityName} og givet det tilbage til {LOC_GRAMMAR_CIVNAME &lt;&lt; {3_CivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CITY_RAZED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} har lige jævnet en by med jorden, som de havde erobret fra {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}. {1_CivName : plural 1?Har; other?Har;}</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CLEAR_CAMP">
+      <Text>{1_CivName} har brugt {LOC_GRAMMAR_A_AN &lt;&lt; {2_UnitName}} til at fjerne {LOC_GRAMMAR_A_AN &lt;&lt; {3_ImprovementName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CITY_STATE_INFLUENCE">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} sendt en Sendebud til {2_CityState}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CONQUER_CITY">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} erobret {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CONQUER_CAPITAL_CITY">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} har erobret den oprindelige {2_CivAdjective} hovedstad {3_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CONSTRUCT_BUILDING">
+      <Text>{1_CivName} har bygget {LOC_GRAMMAR_A_AN &lt;&lt; {2_BuildingName}} i {3_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CONSTRUCT_DISTRICT">
+      <Text>{1_CivName} har bygget {LOC_GRAMMAR_A_AN &lt;&lt; {2_DistrictName}} i {3_CityName}. {1_CivName : plural 1?Har; other?Har;} bygget {LOC_GRAMMAR_A_AN &lt;&lt; {2_DistrictName}} i {3_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CREATE_PANTHEON">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?dyrker; other?dyrker;} en Pantheon af guder fokuseret på troen på {2_BeliefName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CULTURVATE_CIVIC">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} har færdiggjort udviklingen af {2_CivicName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_DECLARED_FRIENDSHIP">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} har erklæret deres venskab med {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_DELEGATION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} har netop modtaget en udenlandsk delegation. Det ser ud til, at de kommer fra {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_DENOUNCED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} har fordømt de onde gerninger fra {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_EMBASSY">
+      <Text>Der er opstået en ny bygning i hovedstaden i {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}}: en permanent ambassade fra {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_ERA_CHANGED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} bevæget sig fra {2_OldEra} til {3_NewEra}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_FIND_NATURAL_WONDER">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} netop opdaget {2_NWName} naturvidunderet.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_FOUND_CITY">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName: plural 1?er; other?er;} i ekspansion og tilføjer den nye bosættelse: {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_FOUND_RELIGION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} grundlagt en ny religion: {2_ReligionName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_GREATPERSON_CREATED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} tjent {2_unit} {3_GreatPerson}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_LAUNCHING_ATTACK">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} er begyndt en militær angreb på {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_WAR_PREPARATION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} er ved at overveje en krig mod {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_INQUISITION_LAUNCHED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} har startet en inkvisition for at udrydde kættere, der er imod {2_ReligionName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_LAND_UNIT_LEVEL">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} en {2_UnitName} som lige har opnået {3_PromotionName} forfremmelse.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_MAKE_DOW">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} lige erklæret krig mod {2_OtherPlayer}!</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_NATIONAL_PARK_CREATED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} netop skabt {2_NationalParkName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_NAVAL_UNIT_LEVEL">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} en {2_UnitName}, som lige har fået {3_PromotionName} forfremmelse.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_NEW_RELIGIOUS_MAJORITY">
+      <Text>Et flertal af byerne i {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} følger nu religionen: {2_ReligionName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_PILLAGE">
+      <Text>{1_CivName} har plyndret en fjendtlig {2_TargetName} med {LOC_GRAMMAR_A_AN &lt;&lt; {3_UnitName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_POLICY_ENACTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} vedtog politikken {3_PolicyName} i {2_SlotName} slotet.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_RECEIVE_DOW">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} været mål for en krigserklæring fra {2_OtherPlayer}!</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_RELIC_RECEIVED">
+      <Text>Pilgrims fra {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} strømmer nu til for at se den hellige relikvie: {2_RelicName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_RESEARCH_AGREEMENT">
+      <Text>Forskere fra {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} og {2_CivName} har dannet et videnskabeligt partnerskab.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_RESEARCH_TECH">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} har færdiggjort forskning i {2_TechName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_CAPTURED">
+      <Text>{3_SpyPlayer}s spion blev taget til fange af {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} i {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_DISRUPT_ROCKETRY_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} havde deres rumhavn i {2_CityName} sabotaget af en spion fra {3_SpyPlayer}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_DISRUPT_ROCKETRY_UNDETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} havde deres rumhavn i {2_CityName} sabotaged af en ukendt spion.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_GREAT_WORK_HEIST_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} havde et stort værk i {2_CityName} stjålet af en spion fra {3_SpyPlayer}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_GREAT_WORK_HEIST_UNDETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} havde en Stor Kunstgenstand i {2_CityName} stjålet af en ukendt spion.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_RECRUIT_PARTISANS_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} forsøger at nedkæmpe partisaner i {2_CityName}, som blev rekrutteret af {3_SpyPlayer}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_RECRUIT_PARTISANS_UNDETECTED">
+      <Text>{1_CivName} forsøger at nedkæmpe partisans i {2_CityName}, som blev rekrutteret af en ukendt spion.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_SABOTAGE_PRODUCTION_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} havde deres Industrielle Zone i {2_CityName} sabotaget af en spion fra {3_SpyPlayer}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_SABOTAGE_PRODUCTION_UNDETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} havde deres Industrielle Zone i {2_CityName} sabotaged af en ukendt spion.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_SIPHON_FUNDS_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} havde midler stjålet i {2_CityName} af en spion fra {3_SpyPlayer}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_SIPHON_FUNDS_UNDETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} havde midler stjålet i {2_CityName} af en ukendt spion.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_STEAL_TECH_BOOST_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} havde teknologi-planer stjålet i {2_CityName} af en spion fra {3_SpyPlayer}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_STEAL_TECH_BOOST_UNDETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} havde teknologi-planer stjålet i {2_CityName} af en ukendt spion.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_TRADE_DEAL">
+      <Text>{1_CivName} handler med {2_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_TRADE_RENEGE">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} har brudt en aftale med {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_TRAIN_SETTLER">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?ønsker; other?ønsker;} at grundlægge en by med deres nyligt trænede {2_UnitName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_TRAIN_UNIT">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} lige færdiggjort træningen af verdens første {2_UnitName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_TRAIN_UNIQUE_UNIT">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} trænet en unik enhed, {2_UnitName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_PROJECT_STARTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} startet {2_ProjectType}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPACE_RACE_PROJECT_COMPLETED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} fuldført rumkapløbet projekt {2_ProjectType}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_START_VICTORY_STRATEGY">
+      <Text>{1_CivName} søger {LOC_GRAMMAR_A_AN &lt;&lt; {2_VictoryName}}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_STOP_VICTORY_STRATEGY">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?er ikke længere; other?er ikke længere;} på jagt efter en {2_VictoryType}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_WMD_BUILT">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} lige bygget {2_WMDCount} masseødelæggelsesvåben.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_WMD_STRIKE">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} lige udløst et masseødelæggelsesvåben! En {2_UnitName}! Bøj og dæk!</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_WONDER_STARTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?har; other?har;} ryddet jord i {2_CityName} til {3_BuildingName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_RUMOR">
+      <Text>Rygtet går, at</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_TECH">
+      <Text>En nylig nyhedsartikel afslørede, at</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_TRADER">
+      <Text>Din trader, {1_Name}, overhørte at</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_DELEGATE">
+      <Text>Din repræsentant, {1_Name}, lærte at</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_TRAIT">
+      <Text>Deres hofdame, {1_Navn}, hørte ved hoffesten, at</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_ALLY">
+      <Text>En allieret ven rapporterer, at</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_SPY">
+      <Text>Din spion, {1_Name}, opdagede nyheder, at</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_GREAT_PERSON_JOURNALISM">
+      <Text>Din frygtløse reporter, {1_Name}, opdagede at</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_LOST_CITY">
+      <Text>en "tabt" by</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_TECH">
+      <Text>Trykteknologi undersøgt</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_TRADER">
+      <Text>Handelsrute etableret</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_DELEGATE">
+      <Text>Delegeret eller ambassade sendt</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_TRAIT">
+      <Text>Catherines Flyvende Eskadron</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ALLY">
+      <Text>Alliance på plads</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_SPY">
+      <Text>Spion på plads</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_GREAT_PERSON_JOURNALISM">
+      <Text>Mary Katherine Goddards store handelseffekt</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_TECH">
+      <Text>Undersøg trykteknologi.</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_TRADER">
+      <Text>Etabler en handelsrute.</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_DELEGATE">
+      <Text>Send en delegation eller etabler en ambassade.</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_TRAIT">
+      <Text>Spil som Catherine de Medici.</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_ALLY">
+      <Text>Bliv allierede (kræver Civil Service).</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_SPY">
+      <Text>Send en spion på en lyttepost mission.</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_GREAT_PERSON_JOURNALISM">
+      <Text>Brug Mary Katherine Goddards Store Købmand-evne.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

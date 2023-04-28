@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_EXPANSION2_NAME">
+      <Text>Ekspansion: Samlende Storm</Text>
+    </Row>
+    <Row Tag="LOC_EXPANSION2_DESCRIPTION">
+      <Text>Dette er et spil ved brug af Gathering Storm Expansion, som inkluderer World Congress, miljøeffekter og katastrofer, magt og mere. Kan du håndtere uforudsigeligheden af en skiftende verden for at skabe en civilisation, der vil stå tidens prøve?</Text>
+    </Row>
+    <!-- Setup Parameters -->
+    <Row Tag="LOC_GAME_REALISM">
+      <Text>Katastrofeintensitet</Text>
+    </Row>
+    <Row Tag="LOC_GAME_REALISM_DESCRIPTION">
+      <Text>Indstil intensiteten for naturkatastrofer. Vælg mellem indstillingen 0 (mindre hyppige og intense naturkatastrofer) til 4 (hyppige og intense naturkatastrofer). Bemærk, at ved indstillingerne 3 og 4 kan alvorlige vulkanudbrud skade fliser to hexes væk.</Text>
+    </Row>
+    <!-- Front End-->
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_NAME">
+      <Text>Diplomatisk Sejr</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_TT">
+      <Text>Du viser verden, at samarbejde mellem nationer er den eneste vej til en varig og retfærdig fred. Fortjen denne sejr gennem respekt og Verdenskongressen.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_TEXT">
+      <Text>Harmoni og fred erstatter krig og vold. Forskellene og uenighederne mellem mennesker kan altid løses gennem velvilje. Med konflikter bag os, hvilke herligheder vil vores fælles fremtid så bringe?</Text>
+    </Row>
+    <!-- Natural Wonders-->
+    <Row Tag="LOC_FEATURE_CHOCOLATEHILLS_NAME">
+      <Text>Chokoladebjergene</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_CHOCOLATEHILLS_DESCRIPTION">
+      <Text>Fire felter naturligt vidunder. Det giver +1 [ICON_Food] Mad, +2 [ICON_Production] Produktion og +1 [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_DEVILSTOWER_NAME">
+      <Text>Mato Tipila (also known as Devil's Tower)</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_DEVILSTOWER_DESCRIPTION">
+      <Text>En flise uoverstigelig naturvidunder. Giver +1 [ICON_FAITH] Tro og +1 [ICON_Production] Produktion til tilstødende fliser.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_GOBUSTAN_NAME">
+      <Text>Gobustan</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_GOBUSTAN_DESCRIPTION">
+      <Text>Tre flise naturvidunder. Det giver +3 [ICON_CULTURE] kultur og +1 [ICON_Production] produktion.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_IKKIL_NAME">
+      <Text>Ik-Kil</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_IKKIL_DESCRIPTION">
+      <Text>En flise ufremkommelig naturligt vidunder. +50% [ICON_Produktion] Produktion, når du producerer vidundere og kvarterer på tilstødende fliser. Den giver frisk vand.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_PAMUKKALE_NAME">
+      <Text>Pamukkale</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_PAMUKKALE_DESCRIPTION">
+      <Text>To fliser uigennemtrængeligt naturligt vidunder. +1 [ICON_AMENITIES] Velvære. Det giver en ekstra [ICON_AMENITIES] Velvære, hvis det er ved siden af en underholdningskompleks. Stor tilstødende bonus til Theater Square, Campus og Commercial Hub distrikter. Standard tilstødende bonus til det hellige område distrikt. Det giver ferskvand.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_VESUVIUS_NAME">
+      <Text>Mount Vesuvius (Bjerget Vesuv)</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_VESUVIUS_DESCRIPTION">
+      <Text>En flise uigennemtrængelig naturlig vidunder. Det ser ud som en vulkan og giver +1 [ICON_Production] Produktion til tilstødende fliser. Ved udbrud giver den høje udbytter til tilstødende fliser, men stor [ICON_Citizen] Befolkningstab. Den er altid aktiv.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_WHITEDESERT_NAME">
+      <Text>Sahara el Beyda</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_WHITEDESERT_DESCRIPTION">
+      <Text>Fire felter naturligt vidunder. Det giver +1 [ICON_SCIENCE] Videnskab, +1 [ICON_Culture] Kultur og +4 [ICON_GOLD] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION">
+      <Text>To flise uigennemtrængelig naturvidunder. Det ser ud som en vulkan og giver +1 [ICON_Culture] Kultur og +1 [ICON_Food] Mad. Ved udbrud giver det medium udbytte og har størst sandsynlighed for at beskadige bygninger og distrikter. Udbrud sker sjældent, men det er altid aktivt.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_KILIMANJARO_XP2_DESCRIPTION">
+      <Text>Én flise er en uoverstigelig naturvidunder. Det fremstår som en vulkan og giver +2 [ICON_Food] Føde til tilstødende fliser. Ved udbrud giver det lave afkast og er mest sandsynligt at beskadige forbedringer og bygninger. Udbrud sker sjældent, men det er altid aktivt.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_CLIFFS_DOVER_XP2_DESCRIPTION">
+      <Text>To flise naturvidunder. Det vises med klipper ved siden af vand og giver +3 [ICON_Culture] kultur, +2 [ICON_Food] mad og +3 [ICON_Gold] guld. Giver +4 appel i stedet for den standard +2 appel af Naturvidundere, til tilstødende fliser. Forbedringer kan ikke placeres på den.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_YOSEMITE_XP2_DESCRIPTION">
+      <Text>To flise uoverkommelig naturlig vidunder. Giver +1 [ICON_Gold] Guld, +1 [ICON_Food] Mad og +1 [ICON_Science] Videnskab til tilstødende fliser.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_EYE_OF_THE_SAHARA_XP2_DESCRIPTION">
+      <Text>Tre-tilede naturlige vidundere. Giver +2 [ICON_PRODUCTION] Produktion og +1 [ICON_SCIENCE] Videnskab. Efter spillet når Atombalderen, giver den yderligere +1 [ICON_PRODUCTION] Produktion og +3 [ICON_SCIENCE] Videnskab.</Text>
+    </Row>
+    <!-- New Maps  -->
+    <Row Tag="LOC_MAP_CONTINENTS_ISLANDS_NAME">
+      <Text>Kontinenter og øer</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PRIMORDIAL_NAME">
+      <Text>Ur- eller oprindelig</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SPLINTERED_FRACTAL_NAME">
+      <Text>Splintret Fraktal</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TILTED_AXIS_NAME">
+      <Text>Vippet Akse</Text>
+    </Row>
+    <Row Tag="LOC_MAP_CONTINENTS_ISLANDS_DESCRIPTION">
+      <Text>Nogle få store landområder omgivet af øer.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PRIMORDIAL_DESCRIPTION">
+      <Text>En tidligere tiders kort med uforudsigelige kontinenter og øer. Der er mere ustabilt vejr med ekstra kystnære lavlande og vulkaner.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SPLINTERED_FRACTAL_DESCRIPTION">
+      <Text>En højt tilfældig kort, der ofte vil danne tynde, slangeragtige kontinenter og øer.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TILTED_AXIS_DESCRIPTION">
+      <Text>En kortholder med kontinenterne centreret omkring polerne.</Text>
+    </Row>
+    <!--America-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION">
+      <Text>Alle diplomatiske politik-slots i den nuværende regering bliver konverteret til Wildcard-slots. +1 [ICON_FAVOR] Diplomatisk Favor per tur for hvert Wildcard-slot i deres regering.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION">
+      <Text>En bygning, der er unik for Amerika. +100% [ICON_Tourism] Turistpres fra denne by mod andre civilisationer, når spillet går ind i den moderne æra.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_ROUGH_RIDER_EXPANSION2_DESCRIPTION">
+      <Text>Amerikansk unikt industrielt tidsalder enhed, når Teddy Roosevelt er deres leder, der erstatter Cuirassiers. [ICON_Culture] Kultur optjenes fra drab på deres [ICON_Capital] Hovedstadens kontinent. +10 [ICON_Strength] Kampstyrke når du kæmper på bakker. Lavere vedligeholdelsesomkostninger.</Text>
+    </Row>
+    <!--Canada-->
+    <Row Tag="LOC_CIVILIZATION_CANADA_NAME">
+      <Text>Canada</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CANADA_ADJECTIVE">
+      <Text>Canadisk</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CANADA_DESCRIPTION">
+      <Text>Canadisk rige</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_LAURIER_NAME">
+      <Text>Wilfrid Laurier</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_NAME">
+      <Text>Ishockeybane</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_DESCRIPTION">
+      <Text>Låser op for Bygger-egenskaben til at konstruere en ishockeybane, unikt for Canada. [NEWLINE][NEWLINE]+1 [ICON_AMENITIES] Fornøjelse. +1 [ICON_CULTURE] Kultur for hver tilstødende Tundra, Tundra Hills, Sne og Snow Hills flise. Giver [ICON_Tourism] Turisme fra Kultur, når Flyvning er låst op. +2 [ICON_FOOD] Mad og [ICON_PRODUCTION] Produktion, når det professionelle sportsborgerskab er låst op. +4 [ICON_CULTURE] Kultur, hvis det er tilstødende en Stadium-bygning. Kan bygges på Tundra, Tundra Hills, Sne og Snow Hills. Én pr. By. +2 Appel.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_NAME">
+      <Text>Fire ansigter af fred</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_DESCRIPTION">
+      <Text>Det er ikke muligt at erklære krig mod By-Stater eller udføre overraskelsesangreb. Overraskelsesangreb kan ikke udføres mod Canada. For hver 100 [ICON_TOURISM] Turisme per tur optjenes 1 [ICON_Favor] Diplomatisk Favor per tur. Modtag +100% [ICON_Favor] Diplomatisk Favor for at fuldføre en Nødsituation eller Scoret Konkurrence med succes.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_LAST_BEST_WEST_NAME">
+      <Text>Det Sidste Bedste Vesten</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_LAST_BEST_WEST_DESCRIPTION">
+      <Text>Tillader opførelse af gårde på Tundra-terræn. Efter Civil Engineering er låst op, kan gårde bygges på Tundra Hills. På Sne-, Tundra-, Sne Højder- og Tundra Højder-terræner giver alle miner +2 [ICON_PRODUCTION] Produktion, Savværker giver +2 [ICON_PRODUCTION] Produktion, Lejre giver +2 [ICON_FOOD] Fødevarer, gårde giver +2 [ICON_FOOD] Fødevarer, og frekvensen af strategiske ressourcer øges med 100%. Reducerer købsprisen på fliser i disse terræntyper med 50%.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CANADA_MOUNTIE_NAME">
+      <Text>Mountie (This word is already in English and does not require translation in Danish as it refers to a member of the Royal Canadian Mounted Police.)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CANADA_MOUNTIE_DESCRIPTION">
+      <Text>Canadisk unik enhed fra den moderne tid. Kan oprette 2 nationalparker. +5 [ICON_Strength] Kampstyrke, når man kæmper inden for 2 fliser af en nationalpark. Yderligere +5 [ICON_Strength] Kampstyrke, når man kæmper inden for 2 fliser af en nationalpark, som man ejer.</Text>
+    </Row>
+    <!--England-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_NAME">
+      <Text>Verdens værksted</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_DESCRIPTION">
+      <Text>Jern- og kulminer akkumulerer 2 flere ressourcer per tur. +100% [ICON_PRODUCTION] Produktion til militære ingeniører. Militære ingeniører modtager +2 opladninger. Bygninger, der giver yderligere udbytter, når [ICON_POWER] drevet modtager +4 af det udbytte. +20% [ICON_PRODUCTION] Produktion til industrielle zonebygninger. Havnbygninger øger strategiske ressourcebeholdninger med +10 (på standardhastighed).</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PAX_BRITANNICA_EXPANSION2_DESCRIPTION">
+      <Text>Hver gang du finder din første by på en anden kontinent end dit hjemmekontinent, modtager du en gratis melee-enhed og en [ICON_TradeRoute] handelsrutekapacitet. Konstruktion af en Royal Navy Dockyard giver dig en kopi af den stærkeste marineenhed, du kan bygge. Få den unikke enhed Redcoat, når teknologien Military Science er forsket.</Text>
+    </Row>
+    <!--Egypt-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ITERU_EXPANSION2_DESCRIPTION">
+      <Text>+15% [ICON_Production] Produktion til distrikter og vidundere, hvis det er placeret ved siden af en flod. Modtager ikke skade fra oversvømmelser.</Text>
+    </Row>
+    <!--Eleanor-->
+    <Row Tag="LOC_LEADER_ELEANOR_NAME">
+      <Text>Eleanor af Aquitaine (England)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_ELEANOR_FRANCE_NAME">
+      <Text>Eleanor af Aquitaine (Frankrig)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_NAME">
+      <Text>Kærlighedsdomstol</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION">
+      <Text>Store Værker i Eleanors byer forårsager hver -1 loyalitet per tur i fremmede byer inden for 9 felter. En by, der forlader en anden civilisation på grund af tab af loyalitet og i øjeblikket modtager den mest loyalitet per tur fra Eleanors civilisation, springer trinnet med Gratis By over og bliver en del af denne civilisation.</Text>
+    </Row>
+    <!--Georgia-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_EXPANSION2_DESCRIPTION">
+      <Text>Når du laver Hyldester i starten af en Gylden Tidsalder eller Heltealder, modtager du den normale Alders-bonus til at forbedre Tidsalderpoint sammen med den anden bonus. +50% [ICON_Production] Produktion til defensive bygninger.</Text>
+    </Row>
+    <!--Hungary-->
+    <Row Tag="LOC_CIVILIZATION_HUNGARY_NAME">
+      <Text>Ungarn</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HUNGARY_ADJECTIVE">
+      <Text>Den næste tekst skal oversættes. Svar kun med en naturlig klingende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HUNGARY_DESCRIPTION">
+      <Text>Det Ungarske Rige</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MATTHIAS_CORVINUS_NAME">
+      <Text>Matthias Corvinus</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_THERMAL_BATH_NAME">
+      <Text>Termisk bad</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION">
+      <Text>En bygning unik for Ungarn. +2 [ICON_AMENITIES] Faciliteter og +2 [ICON_PRODUCTION] Produktion udvides til hvert bycentrum inden for 6 fliser. Disse bonusser gælder én gang for en by, og flere kopier af denne bygning inden for 6 fliser af et bycentrum giver ikke yderligere bonusser.[NEWLINE][NEWLINE]Denne by modtager +3 [ICON_TOURISM] Turisme og +2 yderligere [ICON_AMENITIES] Faciliteter, hvis der er mindst én geotermisk revne i denne bys grænser.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_NAME">
+      <Text>Donauens perle</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_DESCRIPTION">
+      <Text>+50% [ICON_PRODUCTION] Produktion til Distrikter og Bygninger, der er konstrueret på den anden side af en flod fra en Bycenter.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RAVEN_KING_NAME">
+      <Text>Ravn Konge</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RAVEN_KING_DESCRIPTION">
+      <Text>Indkaldte enheder får en evne, der giver dem +2 [ICON_Movement] bevægelse og +5 [ICON_Strength] kampstyrke. Det koster 75% mindre [ICON_GOLD] guld og ressourcer at opgradere indkaldte enheder. Hvis du indkalder tropper fra en bystat, modtager du 2 [ICON_ENVOY] udsendinge med den bystat. Få den unikke enhed Sort hær, når teknologien Borge er forsket.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_BLACK_ARMY_NAME">
+      <Text>Sort Hær</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_BLACK_ARMY_DESCRIPTION">
+      <Text>Ungarsk unik enhed fra middelalderen, der erstatter Courser. +3 [ICON_Strength] kampstyrke for hver tilstødende levied enhed.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_HUSZAR_NAME">
+      <Text>Huszár (it is a proper noun and does not have a natural Danish translation)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_HUSZAR_DESCRIPTION">
+      <Text>Ungarsk unik industrielt æra enhed, der erstatter Kavaleri. +3 [ICON_Strength] Kampstyrke for hver aktiv Alliance.</Text>
+    </Row>
+    <!--Inca-->
+    <Row Tag="LOC_CIVILIZATION_INCA_NAME">
+      <Text>Inka</Text>
+      <Gender>Masculine:the</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_INCA_ADJECTIVE">
+      <Text>Inka</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_INCA_DESCRIPTION">
+      <Text>Inkariget</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_NAME">
+      <Text>Jeg er ked af det, men "Mit'a" giver ikke nogen mening på dansk. Kan du give mig mere kontekst eller information, så jeg kan hjælpe dig?</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_DESCRIPTION">
+      <Text>Borgere kan arbejde på bjerg-fliser. Bjerg-fliser giver +2 [ICON_PRODUCTION] produktion og yderligere +1 [Icon_production] produktion når spillet når industri-tiden. +1 [ICON_FOOD] mad til bjerg-fliser for hver tilstødende terrassefarm.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PACHACUTI_NAME">
+      <Text>Pachacuti. (This word is already in Spanish which is also an official language in Denmark.)</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_TERRACE_FARM_NAME">
+      <Text>Terrassefarm</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION">
+      <Text>Låser op for Builder-evnen til at konstruere et Terrasse Landbrug, som er unikt for Inkaerne.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Føde. Giver +1 [ICON_Housing] Bolig. +1 [ICON_FOOD] Føde for hver tilstødende bjergflise. Få +2 [ICON_PRODUCTION] Produktion for hver tilstødende Akvædukt-distrikt. Modtag +1 [ICON_PRODUCTION] Produktion, hvis den er tilstødende ferskvand og ikke er en Akvædukt. Yderligere [ICON_FOOD] Føde når du bevæger dig gennem Kultur- og Teknologitræet for tilstødende Terrasse Landbrug. Kan placeres på Græslandsk Højland, Slettehøjland og Ørkenhøjland.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INCA_WARAKAQ_NAME">
+      <Text>Warak’aq</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INCA_WARAKAQ_DESCRIPTION">
+      <Text>Inkas unikke enhed fra middelalderen, der erstatter Skirmisher. Stærkere i afstandskamp end Skirmisher og +1 ekstra angreb pr. tur.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_NAME">
+      <Text>Qhapaq Ñan. (Note: This is a proper noun and does not need to be translated as it is the name of an ancient Incan road system.)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_DESCRIPTION">
+      <Text>Indenlandske [ICON_TradeRoute] Handelsruter får +1 [ICON_Food] Mad for hver bjergflise i oprindelsesbyen. Få forbedringen Qhapaq Ñan, når civiltypen Udenlandsk Handel bliver opdaget.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME">
+      <Text>Qhapaq Ñan (også kendt som Inka Trail) betyder "Stor vej" på quechua og refererer til et netværk af stier og veje, der blev brugt af Inkaerne i Sydamerika</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION">
+      <Text>Låser op for Byggerens evne til at konstruere en Qhapaq Ñan, unik for Pachacuti. [NEWLINE][NEWLINE]Fungerer som en bevægelsesportal på et bjergområde, der tillader enheder at bevæge sig ind i den og træde ud fra en anden portal med en omkostning på 2 [ICON_Movement] Bevægelse. [ICON_TradeRoute] Handelsruter, der rejser gennem den, kan multiplicere [ICON_Gold] Guld, de får fra distrikterne på deres destination. Kan kun bygges på en tilstødende bjergflise. Kan ikke plyndres eller fjernes.</Text>
+    </Row>
+    <!--Mali-->
+    <Row Tag="LOC_CIVILIZATION_MALI_NAME">
+      <Text>Mali</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MALI_ADJECTIVE">
+      <Text>Den næste tekst skal oversættes til dansk. Svar kun med en naturlig klingende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MALI_DESCRIPTION">
+      <Text>Mali-imperiet</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_NAME">
+      <Text>Jelienes sange</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_DESCRIPTION">
+      <Text>Bycentre får +1 [ICON_FAITH] Tro og +1 [ICON_FOOD] Mad for hver tilstødende ørken- og Ørkenbjerg-felt. Miner får -1 [ICON_PRODUCTION] Produktion og +4 [ICON_GOLD] Guld. Kan købe handelskvarter-distriktbygninger med [ICON_Faith] Tro. -30% [ICON_PRODUCTION] Produktion til opførelse af bygninger eller træning af enheder.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MANSA_MUSA_NAME">
+      <Text>Mansa Musa</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_NAME">
+      <Text>Sahel Købmænd</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_DESCRIPTION">
+      <Text>Internationale [ICON_TradeRoute] Handelsruter får +1 [ICON_GOLD] Guld for hver flad Ørkenflise i oprindelsesbyen. Modtag +1 [ICON_TradeRoute] Handelskapacitet hver gang du går ind i en Gylden Tidsalder.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SUGUBA_NAME">
+      <Text>Suguba</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION">
+      <Text>Et distrikt unikt for Mali, der specialiserer sig i finans og handel, som erstatter Handelsdistriktet. Enheder, bygninger og distrikter er 20% billigere at købe med [ICON_GOLD] Guld og [ICON_FAITH] Tro i denne by. [NEWLINE] [NEWLINE] +2 [ICON_Gold] Guld bonus for hvert tilstødende Helligdom. +2 [ICON_Gold] Guld bonus fra en flise, der indeholder en flodbred. +1 [ICON_Gold] Guld bonus for hver to tilstødende distriktfliser.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MALI_MANDEKALU_CAVALRY_NAME">
+      <Text>Mandekavaleri</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MALI_MANDEKALU_CAVALRY_DESCRIPTION">
+      <Text>Mandekalu Cavalry er en unik enhed fra middelalderen i Mali, som erstatter Riddere. Handelsenheder er immune over for plyndring, hvis de er inden for 4 felter af en Mandekalu Cavalry og på et landfelt. Sejre i kampe tilføjer [ICON_GOLD] Guld svarende til 100% af enhedens base [ICON_Strength] Kampestyrke (på Standard Hastighed).</Text>
+    </Row>
+    <!--Maori-->
+    <Row Tag="LOC_CIVILIZATION_MAORI_NAME">
+      <Text>Māori (This is already in Maori language, no translation needed)</Text>
+      <Gender>Masculine:the</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MAORI_ADJECTIVE">
+      <Text>Māori</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MAORI_DESCRIPTION">
+      <Text>Māori-kejserdømmet</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MAORI_MANA_NAME">
+      <Text>Mana</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MAORI_MANA_DESCRIPTION">
+      <Text>Start spillet med teknologierne Sejlads og Skibsværftet låst op og evnen til at bevæge sig på Oceanfliser. Embarked enheder får +2 [ICON_Movement] Bevægelse. Uforbedrede Skove og Regnskove giver +1 [ICON_PRODUCTION] Produktion. Yderligere +1 [ICON_PRODUCTION] Produktion fra Mercantilism og +2 [ICON_PRODUCTION] Produktion fra Conservation. Fiskebåde giver +1 [ICON_FOOD] Mad og en Kulturbombe til tilstødende fliser. Ressourcer kan ikke høstes. [ICON_GreatWriter] Store forfattere kan ikke optjenes.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_KUPE_NAME">
+      <Text>Kupe</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KUPES_VOYAGE_NAME">
+      <Text>Kupes rejse</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KUPES_VOYAGE_DESCRIPTION">
+      <Text>Begynd spillet på en ocean flise. Få en gratis Bygherre og +1 [ICON_Citizen] Befolkning, når du bosætter din første by. Paladset modtager +3 [ICON_HOUSING] Boliger og +1 [ICON_AMENITIES] Fornøjelse. +2 [ICON_SCIENCE] Videnskab og +2 [ICON_CULTURE] Kultur per tur, før du bosætter din første by.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MARAE_NAME">
+      <Text>Marae (a traditional meeting ground of Maori people)</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MARAE_DESCRIPTION">
+      <Text>En bygning, der er unik for Māori-folket. +1 [ICON_CULTURE] Kultur og [ICON_FAITH] Tro til alle fliser i denne by med en pasabel funktion eller naturskønhed. Efter Flyvning er forsket, modtag +1 [ICON_TOURISM] Turisme til alle fliser i denne by med en funktion eller naturskønhed. Kræver ingen vedligeholdelse. Har ingen pladser til Store Værker.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAORI_TOA_NAME">
+      <Text>Toa</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAORI_TOA_DESCRIPTION">
+      <Text>Māori unikke nærkampsenhed fra klassisk tidsalder. Nærliggende fjendtlige enheder modtager -5 [ICON_STRENGTH] kampstyrke. Kan bygge den unikke Pā-forbedring.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MAORI_PA_NAME">
+      <Text>Pā</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MAORI_PA_DESCRIPTION">
+      <Text>Låser op for Toa-evnen til at konstruere en Pā, unik for Māori.[NEWLINE][NEWLINE]Besættelsesenheden modtager +4 [ICON_Strength] Forsvarsstyrke og får automatisk 2 ture med befæstning. En Māori-enhed, der besætter en Pā, helbreder selvom de lige har bevæget sig eller angrebet. Skal bygges på en bakketile.</Text>
+    </Row>
+    <!--Netherlands-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GROTE_RIVIEREN_EXPANSION2_DESCRIPTION">
+      <Text>Stor tilstødende bonus for Campus, Theater Square og Industrial Zone, hvis de er ved siden af en flod. Kultur Bomb tilstødende fliser, når en Harbor er færdigbygget. +50% [ICON_Production] Produktion mod Dam-distriktet og Flood Barrier-bygningen.</Text>
+    </Row>
+    <!--Ottomans-->
+    <Row Tag="LOC_CIVILIZATION_OTTOMAN_NAME">
+      <Text>Osmanere</Text>
+      <Gender>Masculine:the</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_OTTOMAN_ADJECTIVE">
+      <Text>Osmanisk</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_OTTOMAN_DESCRIPTION">
+      <Text>Det Osmanniske Rige</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_NAME">
+      <Text>Stor Tyrkisk Kanon</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til belejringsenheder. Alle belejringsenheder får +5 [ICON_Strength] Kampstyrke mod districts forsvar. Erobrede byer mister ikke [ICON_Citizen] Befolkning. Byer, som ikke er grundlagt af osmannerne, får +1 [ICON_AMENITIES] Velvære og +4 loyalitet per tur.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_SULEIMAN_NAME">
+      <Text>Suleiman</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GRAND_BAZAAR_NAME">
+      <Text>Storbasar</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION">
+      <Text>En bygning unik for osmannerne. Akkumuler 1 ekstra strategisk ressource for hver forskellig type strategisk ressource, denne by har forbedret. Modtag 1 [ICON_AMENITIES] bekvemmelighed for hver luksusressource, denne by har forbedret.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_NAME">
+      <Text>Barbary-korsar</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_DESCRIPTION">
+      <Text>Osmannisk unik middelalderlig søenhed, der erstatter Kaperen. Det koster ingen [ICON_Movement] bevægelse at angribe kystområder. Kan kun ses af andre søhærgaster, medmindre den er ved siden af. Afslører søhærgaster inden for synsvidde.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SULEIMAN_JANISSARY_NAME">
+      <Text>Janitsjar</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SULEIMAN_JANISSARY_DESCRIPTION">
+      <Text>Janitsjar er en unik enhed fra renæssancen i det osmanniske imperium, der erstatter Musketman. Starter med en gratis promotion. Stærkere og billigere end Musketman. For at træne en Janitsjar skal en by have en befolkning på mindst 2. Hvis en by grundlægges af osmannerne og træner en Janitsjar, mister den en befolkning.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_NAME">
+      <Text>Storvesir</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_DESCRIPTION">
+      <Text>Eksklusiv unik Guvernør med militære og diplomatiske evner. Få den unikke enhed Janitsjar og en [Icon_Governor] Guvernørtitel når Krudt-teknologien er forsket.</Text>
+    </Row>
+    <!--Phoenicia-->
+    <Row Tag="LOC_CIVILIZATION_PHOENICIA_NAME">
+      <Text>Phoenicia (Phønicia)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PHOENICIA_ADJECTIVE">
+      <Text>Fønikisk</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PHOENICIA_DESCRIPTION">
+      <Text>Fønikisk imperium</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_NAME">
+      <Text>Middelhavs kolonier</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_DESCRIPTION">
+      <Text>Start spillet med skriveteknologi [ICON_TechBoosted] Eureka. Kystbyer, der er grundlagt af Fønikien og beliggende på samme kontinent som Fønikiens [ICON_Capital] hovedstad, er 100% loyale. Bosættere får +2 [ICON_Movement] bevægelse og +2 synsrækkevidde, mens de er på vandet. Bosættere ignorerer yderligere [ICON_Movement] bevægelsesomkostninger ved at tage ombord og gå i land.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_DIDO_NAME">
+      <Text>Dido</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_NAME">
+      <Text>Stifteren af Karthago</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION">
+      <Text>Kan flytte deres originale [ICON_Capital] hovedstad til enhver by med en Cothon, de har grundlagt ved at fuldføre et unikt projekt i den pågældende by. +1 [ICON_TradeRoute] handelsrutekapacitet for hver regeringspladsbygning og regeringspladsdistrikt. +50% [ICON_Production] produktion til distrikter i byen med regeringspladsen.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_NAME">
+      <Text>Cothon</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_DESCRIPTION">
+      <Text>En bydel unik til Fønikien for søaktiviteter i din by. Erstatter Havnen og er billigere at bygge. Skal bygges på kyst eller søterritorium ved siden af land. [NEWLINE] [NEWLINE] +50% [ICON_PRODUCTION] Produktion mod søenheder og nybyggere i denne by. Alle sårede søenheder i denne bys grænser heler +100 HP hver tur. [ICON_PRODUCTION]</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PHOENICIA_BIREME_NAME">
+      <Text>Bireme (Bireme)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PHOENICIA_BIREME_DESCRIPTION">
+      <Text>Fønikisk unik enhed fra Oldtiden, som erstatter Galley. Forøget [ICON_Strength] kampstyrke og [ICON_Movement] bevægelse. Handelsenheder er immune over for plyndring, hvis de er inden for 4 felter af en Bireme og på en vandflise.</Text>
+    </Row>
+    <!--India-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DHARMA_EXPANSION2_DESCRIPTION">
+      <Text>Modtager Follower Tro bonusser i en by fra hver Religion, der har mindst 1 Follower. Byer får en [ICON_Amenities] Annehmehed for hver Religion med mindst 1 Follower. Missionærer har +2 spredninger. +100% Religiøst tryk fra dine [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_STEPWELL_EXPANSION2_DESCRIPTION">
+      <Text>Unlocks the Builder ability to construct a Stepwell, unique to India.[NEWLINE][NEWLINE]+1 [ICON_Food] Food and +1 [ICON_Housing] Housing. +1 [ICON_Faith] Faith if adjacent to a Holy Site district. +1 [ICON_Food] Food if adjacent to a Farm. Additional [ICON_Housing] Housing, [ICON_Faith] Faith, and [ICON_Food] Food as you advance through the Technology and Civics Tree. Prevents [ICON_Food] Food loss during Drought. Cannot be built on Hills or adjacent to another Stepwell.</Text>
+    </Row>
+    <!--Japan-->
+    <Row Tag="LOC_TRAIT_LEADER_DIVINE_WIND_EXPANSION2_DESCRIPTION">
+      <Text>Landenheder modtager +5 [ICON_Strength] Kampstyrke på landfliser ved siden af kysten; søenheder modtager +5 [ICON_Strength] Kampstyrke i grunde farvande. Opfører Befæstning, Helligdom og Teaterplads kvarterer på halvdelen af tiden. Enheder tager ikke skade fra orkaner. Civilisationer, der er i krig med Japan, modtager +100% enhedsskade fra orkaner i japansk territorium.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SATYAGRAHA_EXPANSION2_DESCRIPTION">
+      <Text>+5 [ICON_Faith] Tro på og +1 [ICON_Favor] Diplomatisk Favor per tur for hver civilisation (inklusiv Indien), de har mødt, som har grundlagt en religion og ikke er i krig. Modstående civilisationer modtager dobbelt så meget krigsudmattelse for at kæmpe mod Gandhi.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION">
+      <Text>En bygning unik for Japan. Giver +4 [ICON_Culture] kultur til denne by efter forskning af Elektricitetsteknologien. Dens [ICON_Production] produktionsbonus udvides til alle bycentre inden for 6 felter, som ikke allerede har en bonus fra denne bygningstype.</Text>
+    </Row>
+    <!--Qin-->
+    <Row Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION">
+      <Text>Når du bygger Ældgamle og Klassiske vidundere, kan du bruge Bygningsarbejder-opladninger til at fuldføre 15% af den oprindelige vidunders omkostninger. Bygningsarbejdere modtager en ekstra opladning. Kanaler er låst op med "Masonry" teknologien.</Text>
+    </Row>
+    <!--Rome-->
+    <Row Tag="LOC_DISTRICT_BATH_EXPANSION2_DESCRIPTION">
+      <Text>Et distrikt unikt til Rom for byvækst. Erstatte Aqueduct-distriktet og billigere at bygge.[NEWLINE][NEWLINE]Det giver denne by en kilde til frisk vand fra en tilstødende flod, sø, oase eller bjerg. Byer, der endnu ikke har eksisterende ferskvand, modtager op til 6 [ICON_Housing] boliger. Byer, der allerede har eksisterende ferskvand, vil i stedet få +2 [ICON_Housing] boliger. Hvis der bygges ved siden af en geotermisk kløft, +1 [ICON_Amenities] behageligheder. I alle tilfælde giver badehuset en ekstra bonus på +2 [ICON_Housing] boliger og +1 [ICON_Amenities] behageligheder. Forhindrer [ICON_Food] fødevaretab under tørke. Skal bygges ved siden af byens centrum.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BATH_EXPANSION2_ALT_DESCRIPTION">
+      <Text>Et distrikt unikt for Rom til byvækst. Erstatter Aqueduct-distriktet og billigere at bygge. [NEWLINE][NEWLINE] Det giver byen en kilde til ferskvand fra en tilstødende flod, sø, oase eller bjerg. Byer, der endnu ikke har eksisterende ferskvand, modtager op til 6 [ICON_Housing] Boliger. Byer, der allerede har eksisterende ferskvand, får i stedet +2 [ICON_Housing] Boliger. Hvis den bygges ved siden af en geotermisk kløft, +1 [ICON_Amenities] Fornøjelser. I alle tilfælde giver Badehuset en ekstra bonus på +2 [ICON_Housing] Boliger og +1 [ICON_Amenities] Fornøjelser. Forhindrer [ICON_Food] Fødevaretab under tørke. Skal bygges ved siden af byens center. Militære ingeniører kan bruge et oplad til at færdiggøre 20% af produktionen af et Badehus.</Text>
+    </Row>
+    <!--Russia-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_EXPANSION2_DESCRIPTION">
+      <Text>Ekstra territorium ved grundlæggelse af byer. +1 [ICON_Faith] Tro og +1 [ICON_Production] Produktion fra Tundra. Enheder modtager ikke skade fra snestorme. Civilisationer, der er i krig med Rusland, modtager +100% enhedsskade fra snestorme på russisk territorium.</Text>
+    </Row>
+    <!--Sweden-->
+    <Row Tag="LOC_CIVILIZATION_SWEDEN_NAME">
+      <Text>Sverige</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SWEDEN_ADJECTIVE">
+      <Text>Den næste tekst skal oversættes til dansk. Svar kun med en naturlig lydende oversættelse</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SWEDEN_DESCRIPTION">
+      <Text>Det Svenske Rige</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_NAME">
+      <Text>Nobelprisen</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION">
+      <Text>Sverige får 50 [ICON_Favor] Diplomatisk Favor, når de får en stor person (på standard hastighed). Sverige modtager +1 [ICON_GreatEngineer] stor ingeniør point fra fabrikker og +1 [ICON_GreatScientist] stor videnskabsmand point fra universiteter. At have Sverige i spillet tilføjer tre unikke Verdenskongres konkurrencer, som starter i den industrielle æra.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_KRISTINA_NAME">
+      <Text>Kristina</Text>
+    </Row>.
+		<Row Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_NAME"><Text>Minerva af Nordjylland</Text></Row><Row Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION"><Text>Bygninger med mindst tre store arbejdspladser og vidundere med mindst to store arbejdspladser er automatisk tematiseret, når de har alle deres pladser fyldt. Hun kan konstruere Dronningens Bibliotek i regeringspladsen.</Text></Row><Row Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME"><Text>Frilandsmuseet</Text></Row><Row Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION"><Text>Låser op for Bygger evnen til at konstruere et Friluftsmuseum, unikt for Sverige.[NEWLINE][NEWLINE]Giver +2 Trofasthed per tur i denne by. +2 [ICON_Culture] Kultur og +2 [ICON_Tourism] Turisme for hver type terræn (Sne, Tundra, Ørken, Sletter eller Græsland), hvor mindst en svensk by er grundlagt. Ét pr. by. Fliser med Friluftsmuseer kan ikke udskiftes.</Text></Row><Row Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_NAME"><Text>Dronningens Bibliotek</Text></Row><Row Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_DESCRIPTION"><Text>En bygning unik for Sverige. Denne bygning giver 2 pladser til [ICON_GreatWork_WRITING] Skrivning, [ICON_GreatWork_MUSIC] Musik og enhver type [ICON_GreatWork_Landscape] Kunst. [NEWLINE]Tildeler +1 [Icon_Governor] Guvernør Titel.</Text></Row><Row Tag="LOC_UNIT_SWEDEN_CAROLEAN_NAME"><Text>Carolean</Text></Row><Row Tag="LOC_UNIT_SWEDEN_CAROLEAN_DESCRIPTION"><Text>En unik svensk enhed fra renæssancetiden, der erstatter Pike and Shot. Hurtigere end Pike and Shot. +3 [ICON_Strength] Kampstyrke pr. ubrugt [ICON_Movement] bevægelse.</Text></Row><Row Tag="LOC_ERA_FUTURE_NAME"><Text>Fremtidens æra</Text></Row><Row Tag="LOC_ERA_FUTURE_DESCRIPTION"><Text>Verden indeholder vidundere, der overgår drømmene fra gamle profeter, og rædsler, der er mere frygtindgydende end nogen apokalypse. Maskiner søger efter mening, og ny materie væver drømmelignende former. Valg truffet for længe siden har alvorlige konsekvenser i denne tidsalder og kræver faste svar. Gå nu og opnå din vision for fremtiden for civilisationen.</Text></Row><Row Tag="LOC_VICTORY_SCIENCE_TT_XP2"><Text>Vær den første til at fuldføre Exoplanet Ekspeditionen til et andet stjernesystem for at vinde en Videnskab sejr. Denne sejr er ligetil, men kan være svær at opnå før tiden løber ud.</Text></Row><!-- Configuration Changes that are Shared between XP1 and XP2. --><!-- District Config Text --><Row Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_NAME"><Text>Copacabana (It is a proper noun and doesn't need to be translated)</Text></Row><Row Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_DESCRIPTION"><Text>En bydel, der er unik for Brasilien. Erstatter vandlandbydelen og giver +2 [ICON_Amenities] Velvære. Låser også op for karnevalsprojektet, som giver en yderligere +1 [ICON_Amenities] Velvære, når det er i gang, og en række [ICON_GreatPerson] store persons point, når det er fuldført. Kan ikke bygges i en by med en gadefest. Kan ikke bygges på reven.</Text></Row><Row Tag="LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION"><Text>Et distrikt unikt for Brasilien. Erstatter underholdningskompleks-distriktet og giver +2 [ICON_Amenities] Velvære. Åbner også for Karnevalsprojektet, som giver en yderligere +1 [ICON_Amenities] Velvære, når det er undervejs, og forskellige [ICON_GreatPerson] Store personpoint, når det er færdiggjort. Kan ikke bygges i en by med en Copacabana.</Text></Row><!-- China --><Row Tag="LOC_IMPROVEMENT_GREAT_WALL_EXPANSION2_DESCRIPTION"><Text>Åbner muligheden for Byggeren at konstruere den store mur, som er unik for Kina.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Guld. Giver en øget [ICON_Strength] Forsvar. Bonus til [ICON_Gold] Guld hvis den er tilstødende til andre segmenter. Yderligere [ICON_Culture] Kultur og [ICON_Tourism] Turisme når du bevæger dig gennem Teknologi Træet for tilstødende segmenter. Skal bygges i en linje langs grænserne af dit imperium. Kan kun plyndres (aldrig ødelagt) af naturkatastrofer.</Text></Row><Row Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION"><Text>[ICON_TechBoosted] Eureka'er og [ICON_CivicBoosted] Inspirationer giver 50% af civics og teknologier i stedet for 40%. Når du fuldfører et vidunder, modtager du en tilfældig [ICON_TechBoosted] Eureka og [ICON_CivicBoosted] Inspiration fra vidunderets tidsalder, hvis den er tilgængelig.</Text></Row><!-- Cleopatra --><Row Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_EXPANSION2_DESCRIPTION"><Text>Dine [ICON_TradeRoute] Handelsruter til andre civilisationer giver +4 [ICON_Gold] Guld til Egypten. Andre civilisationers [ICON_TradeRoute] Handelsruter til Egypten giver +2 [ICON_Food] Fødevarer til dem og +2 [ICON_Gold] Guld til Egypten. Handel med allierede giver dobbelt så mange bonus Alliance Points.</Text></Row><Row Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION"><Text>Låser op for Bygger evnen til at konstruere en Sphinx, unik for Egypten. [NEWLINE] [NEWLINE] +1 [ICON_Faith] Tro og +1 [ICON_Culture] Kultur. +2 Appel. +2 [ICON_Faith] Tro, hvis ved siden af et vidunder. +1 [ICON_CULTURE] Kultur, hvis det bygges på oversvømmelsesområder. Yderligere [ICON_CULTURE] Kultur, når Naturhistorie opdages. Giver [ICON_TOURISM] Turisme efter at have forsket i Flyvning. Kan ikke bygges ved siden af en anden Sphinx. Kan ikke bygges på sne eller snebakker.</Text></Row><Row Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_EXPANSION2_DESCRIPTION"><Text>Egyptisk unik enhed fra oldtiden med rækkevidde. 4 [ICON_Movement] Bevægelse ved start i åbent terræn.</Text></Row><!-- England --><Row Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION"><Text>Et distrikt unikt for England til søaktivitet i din by. Erstatter Havn-distriktet. Fjerner også [ICON_Movement] bevægelsesstraf for at gå ombord og i land fra denne flise. Skal bygges på Kyst eller Sø-terræn ved siden af land. [NEWLINE] [NEWLINE] +1 [ICON_Movement] Bevægelse for alle marineenheder bygget i Dockyard [NEWLINE] +2 [ICON_Gold] Guld og +4 loyalitet per tur, når det er bygget på en fremmed kontinent. Kan ikke bygges på Reef</Text></Row><!-- France --><Row Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION"><Text>Låser op for Bygger- evnen til at bygge et Château, unikt for Frankrig. [NEWLINE][NEWLINE]+2 [ICON_Culture] Kultur og +1 [ICON_Gold] Guld. +1 Tiltrækningskraft. +1 [ICON_Culture] Kultur for hver tilstødende vidunder (bliver +2 efter forskning i Flyvning). +2 [ICON_Gold] Guld, hvis den er på en flodbred. Giver [ICON_TOURISM] Turisme fra [ICON_CULTURE] Kultur efter forskning i Flyvning. Skal placeres ved siden af en Bonus- eller Luksusressource. Kan ikke bygges ved siden af et andet Château.</Text></Row><!-- Gilgamesh--><Row Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION2_DESCRIPTION"><Text>Når man er i krig med en fælles fjende, deler de og deres allierede plyndringsbelønninger og deler kampoplevelsesgevinster, hvis de er inden for 5 fliser. Deres alliancer får allianzpoint for at være i krig med en fælles fjende. +5 [ICON_Strength] Kampstyrke mod enheder af spillere, der er i krig med dig og din allierede.</Text></Row><!-- Mongolia --><Row Tag="LOC_BUILDING_ORDU_EXPANSION2_DESCRIPTION"><Text>En bygning unik for Mongoliet. Giver en evne, der giver +1 [ICON_MOVEMENT] bevægelse til tung og let kavaleri trænet i denne by. +25% kampoplevelse for alle kavaleri og belejringenheder trænet i denne by. [NEWLINE] Strategiske ressource beholdninger øges med +10 (på standard hastighed). [NEWLINE] [NEWLINE] Må ikke bygges i et lejr distrikt, der allerede har en Kaserner.</Text></Row><!-- Norway --><Row Tag="LOC_TRAIT_LEADER_THUNDERBOLT_EXPANSION2_DESCRIPTION"><Text>Tillader kystplageri for alle søkrigsenheder og +50% [ICON_PRODUCTION] produktion mod alle søkrigsenheder. Få [ICON_SCIENCE] videnskab fra plyndring og kystplageri af miner udover [ICON_GOLD] guld. Plyndring eller kystplageri af stenbrud, græsgange, plantager og lejre giver [ICON_CULTURE] kultur udover [ICON_FAITH] troskab. Få den unikke enhed Viking Langskib med Sejlads.</Text></Row><!-- Spain --><Row Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_EXPANSION2_DESCRIPTION"><Text>Kan danne Flåder og Armadaer med Mercantilism, i stedet for Nationalisme og Mobilmachere. [ICON_TradeRoute] Handelsruter modtager +3 [ICON_Gold] Guld, +2 [ICON_Faith] Tro og +1 [ICON_Production] Produktion. [ICON_TradeRoute] Handelsruter mellem flere kontinenter modtager tredobbelt disse tal. Byer, der ikke er på din oprindelige hovedstads kontinent, modtager +25% [ICON_Production] Produktion til distrikter og en bygger, når de grundlægges.</Text></Row><Row Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_EXPANSION2_DESCRIPTION"><Text>Inquisitorer kan fjerne kætteri én ekstra gang. Inquisitorer eliminerer 100% tilstedeværelsen af andre religioner. Kamp- og religiøse enheder har en bonus på +5 [ICON_Strength] kampstyrke mod spillere, der følger andre religioner.</Text></Row><Row Tag="LOC_IMPROVEMENT_MISSION_EXPANSION2_DESCRIPTION"><Text>Låser op for Byggerens evne til at konstruere en Mission, unik for Spanien. [NEWLINE] [NEWLINE] +2 [ICON_Faith] Tro. +2 [ICON_Faith] Tro, +1 [ICON_PRODUCTION] Produktion og +1 [ICON_FOod] Mad hvis på en anden kontinent end din [ICON_Capital] Hovedstad. +1 [ICON_Science] Videnskab for hver tilstødende Campus- og Helligdoms-distrikt. Yderligere [ICON_SCIENCE] Videnskab, når Kulturarv er opdaget. +2 loyalitet per tur for byer med en Mission-forbedring tilstødende Byens Center og ikke på din oprindelige [ICON_Capital] Hovedstads kontinent.</Text></Row><!-- Germany--><Row Tag="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION"><Text>Et område unikt for Tyskland til industriaktivitet. Erstatter Industrizone-distriktet og billigere at bygge. [NEWLINE] [NEWLINE] +2 [ICON_Production] Produktionsbonus for hvert tilstødende kommercielt område, akvædukt, kanal og dæmningsdistrikt. +1 [ICON_Production] Produktionsbonus for hvert tilstødende ressource. +1 [ICON_Production] Produktionsbonus for hver anden tilstødende distriktflise.</Text></Row><!-- Scotland--><Row Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION"><Text>Låser op for Builder-evnen til at konstruere en Golfbane, unik for Skotland.[NEWLINE][NEWLINE]+2 [ICON_AMENITIES] Fornøjelser og +2 [ICON_GOLD] Guld. +1 [ICON_CULTURE] Kultur, hvis tilstødende til et Bycenter-distrikt, og +1 [ICON_CULTURE] Kultur, hvis tilstødende til et Underholdningskompleks-distrikt. Yderligere [ICON_TOURISM] Turisme og [ICON_HOUSING] Boliger, når du avancerer gennem Civics og Technology Tree. Kan ikke placeres på ørken eller ørkenbakker. Én pr. by. Fliser med Golfbaner kan ikke byttes ud. +1 Appel.</Text></Row><!-- Greece--><Row Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION"><Text>Et distrikt unikt for Grækenland, der er fyldt med kulturelle steder. Erstatter Theater Square-distriktet og er billigere at bygge. Giver 1 [ICON_Envoy] udsending, når det er færdigt. [NEWLINE][NEWLINE] +1 [ICON_Culture] Kulturbonus for hvert tilstødende distrikt og en yderligere +1 [ICON_Culture] Kulturbonus for tilstødende bycenter. +2 [ICON_Culture] Kulturbonus for hvert tilstødende vidunder, underholdningskompleks og vandpark. Kan kun bygges på bakker.</Text></Row></EnglishText>
+</GameData>

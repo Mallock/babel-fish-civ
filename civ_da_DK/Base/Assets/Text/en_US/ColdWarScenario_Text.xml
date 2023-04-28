@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BaseGameText>
+    <!-- Victories -->
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_TITLE">
+      <Text>Proxykrig</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_DESC">
+      <Text>Erobr tre bystater.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_BLURB">
+      <Text>Her er min strategi om Den Kolde Krig: vi vinder, de taber. - Ronald Reagan</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_TITLE">
+      <Text>Herre over Armageddon</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_DESC">
+      <Text>Hvis et bycentrum bliver udsat for en atombombe, så udsæt flest muligt bycentre for en atombombe inden tidsgrænsen.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_BLURB">
+      <Text>Den eneste måde at vinde er at lade være med at spille.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_TITLE">
+      <Text>Bank overvejende</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_DESC">
+      <Text>Hvis ingen bycentre bliver bombet, så hav flest tanke inden tidsfristen.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_BLURB">
+      <Text>Du har flest tanke ved slutningen af spillet! Du vinder!</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_RULESET_TITLE">
+      <Text>Global Termo-nuklear Krig</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_RULESET_DESCRIPTION">
+      <!-- Keep in sync with LOC_COLDWAR_MOD_DESCRIPTION -->
+      <Text>The Cold War runs hot in this combat-based scenario set in the Atomic Era. Lasts 50 Turns.[NEWLINE]Victory Conditions[NEWLINE][ICON_Bullet]Lord of the Armageddon: If any city center is nuked, nuke the most city centers by the turn limit.[NEWLINE][ICON_Bullet]Tank Banker: If no city centers are nuked, have the most tanks by the turn limit.[NEWLINE][ICON_Bullet]Proxy War: Capture 3 city-states.[NEWLINE]Gameplay Changes[NEWLINE][ICON_Bullet]Units and nuclear devices are cheaper to build and maintain. They don't require strategic resources.[NEWLINE][ICON_Bullet]Extended ranges for WMD Strikes and Bombers.[NEWLINE][ICON_Bullet]Builders have more charges for faster city development.[NEWLINE][ICON_Bullet]The map starts revealed.[NEWLINE][ICON_Bullet]No Tribal Villages.[NEWLINE][ICON_Bullet]No Barbarians.[NEWLINE][ICON_Bullet]War Weariness is disabled.</Text>
+    </Row>
+    <!-- Mod Package Text -->
+    <Row Tag="LOC_COLDWAR_MOD_TITLE">
+      <Text>Multiplayer scenarie: Global termisk krig</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_MOD_TEASER">
+      <Text>Den Kolde Krig bliver varm i dette kamp-baserede scenarie, der foregår i Atomalderen. Varer i 50 ture.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_MOD_DESCRIPTION">
+      <!-- Keep in sync with LOC_COLDWAR_RULESET_DESCRIPTION -->
+      <Text>The Cold War runs hot in this combat-based scenario set in the Atomic Era. Lasts 50 Turns.[NEWLINE]Victory Conditions[NEWLINE][ICON_Bullet]Lord of the Armageddon: If any city center is nuked, nuke the most city centers by the turn limit.[NEWLINE][ICON_Bullet]Tank Banker: If no city centers are nuked, have the most tanks by the turn limit.[NEWLINE][ICON_Bullet]Proxy War: Capture 3 city-states.[NEWLINE]Gameplay Changes[NEWLINE][ICON_Bullet]Units and nuclear devices are cheaper to build and maintain. They don't require strategic resources.[NEWLINE][ICON_Bullet]Extended ranges for WMD Strikes and Bombers.[NEWLINE][ICON_Bullet]Builders have more charges for faster city development.[NEWLINE][ICON_Bullet]The map starts revealed.[NEWLINE][ICON_Bullet]No Tribal Villages.[NEWLINE][ICON_Bullet]No Barbarians.[NEWLINE][ICON_Bullet]War Weariness is disabled.</Text>
+    </Row>
+    <Row Tag="LOC_CW_GAME_TURN_LIMIT_REACHED_PROGRESS">
+      <Text>Turgrænse {ElapsedTurns}/{MinGameTurn} {StatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_PROXYWAR_VICTORY_CAPTURE_CITY_STATES_PROGRESS">
+      <Text>Byerobligatorier indtaget {CurrentConquered}/{CityStatesConquered} {StatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_ARMAGEDDON_VICTORY_REQUIRES_PLAYER_HAS_MOST_WMD_DIRECT_CITY_HITS_PROGRESS">
+      <Text>Bycentre Sprængt i luften {NukedCityCenters} {NukeCountStatusIcon}[NEWLINE]Enhver Bycenter Sprængt i luften {NukeWarStatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_TANKBANKER_REQUIRES_PLAYER_HAS_MOST_TANKS_PROGRESS">
+      <Text>Tanks i besiddelse {NumPromotionClass} {PromotionStatusIcon}[NEWLINE]Ingen Bycentre Bombet med Atomvåben {NoNukeWarStatusIcon}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

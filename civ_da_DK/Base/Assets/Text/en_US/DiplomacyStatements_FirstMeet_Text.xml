@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- First AI line -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MVEMBA_ANY">
+      <Text>Jeg er Mvemba a Nzinga og hilser dig som en ven. Jeg kan se, at du er velsignet af Gud. Er du her for at dele din oplysning?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CATHERINE_DE_MEDICI_ANY">
+      <Text>Jeg er Catherine, Frankrigs dronningemor, og jeg byder dig velkommen til riget. Jeg ser virkelig frem til at lære alt, hvad der er at vide om dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CLEOPATRA_ANY">
+      <Text>Jeg er Isis genfødt, jeg er den levende Nilen. Jeg er Cleopatra og en allieret, hvis du er værdig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_BARBAROSSA_ANY">
+      <Text>Hilsen. Jeg er den Hellige Romerske Kejser Frederik, konge af Tyskland, Italien, Burgund og mange andre. Jeg stoler på, at du vil regere dine lande, som jeg gør: gennem magt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_GANDHI_ANY">
+      <Text>Hej, jeg er Mohandas Gandhi. Mit folk kalder mig Bapu, men du må gerne kalde mig ven.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_GILGAMESH_ANY">
+      <Text>Jeg er Gilgamesh fra Sumerien og konge af Uruk. Vær ikke bange... Jeg er god ved mine venner.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_GORGO_ANY">
+      <Text>Jeg er Gorgo, Dronning af Sparta og leder af grækerne. Hvem er du? Hvilke sejre kan du tale om?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HARDRADA_ANY">
+      <Text>Harald Sigurdsson står foran dig: en viking ulig nogen, havene og landene nogensinde har kendt. Hah, er du bange?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HOJO_ANY">
+      <Text>Hej, jeg er Hojo Tokimune fra Japan, en ydmyg discipel af Bushido.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_PEDRO_ANY">
+      <Text>God dag. Det er en ære at møde dig personligt. Det ser ud til, at store sind virkelig tiltrækker hinanden.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_PERICLES_ANY">
+      <Text>Hej, jeg er Perikles fra Athen, og jeg hilser dig velkommen på vegne af demokratiet. Jeg stoler på, at du vil lade mig ordne mine anliggender med disse neutrale parter?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_PETER_GREAT_ANY">
+      <Text>Hej, jeg er Tsar Peter. Sådan en kultiveret leder som dig selv må nyde de finere ting i livet. Holder du også af kunst?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_PHILIP_II_ANY">
+      <Text>Jeg er kongen af Spanien, Portugal, Sardinien og Sicilien, Napoli, Hertug af Milano osv., men vigtigst af alt er jeg en hengiven tilhænger af den ene, sande religion. Jeg håber for din skyld, at du også er det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_QIN_ANY">
+      <Text>Hvorfor kommer du foran den udødelige himmelske søn, den store Qin Shi Huang?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SALADIN_ANY">
+      <Text>Ved nåde af den ene Gud, den mægtige, den sejrende, den evige af hvis rige der ikke er nogen ende, hilser jeg dig, min oprigtige ven.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_T_ROOSEVELT_ANY">
+      <Text>Velkommen til De Forenede Stater af Amerika. Hvis du opfører dig godt, kan du betragte os som venner.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TOMYRIS_ANY">
+      <Text>Lad det være kendt mellem os: Jeg vil betale forræderi med blod! Men hvis du er en sand ven, vil vi have fred.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TRAJAN_ANY">
+      <Text>Hail, fremmede. Jeg er Imperator Caesar Trajan af det vidtstrakte Rom. Hvem er du, og hvilke lande kan du påberåbe dig som dine egne?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_VICTORIA_ANY">
+      <Text>Hilsner. Vi er ved Guds nåde, Victoria, dronning af Det Forenede Kongerige Storbritannien og Irland. Og snart, tør jeg sige, imperiet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_ANY_ANY">
+      <Text>Velkommen rejsende. Du bør vide, at du står i nærværet af storhed!</Text>
+    </Row>
+    <!-- Human Responses -->
+    <Row Tag="LOC_DIPLO_CHOICE_FIRST_MEET_NEAR_RECIPIENT_POSITIVE">
+      <Text>Det er en ære at møde dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_FIRST_MEET_NEAR_RECIPIENT_BUSY">
+      <Text>Godt mødt fremmed, men jeg er bange for at vi er for travlt optaget til at blive og sludre.</Text>
+    </Row>
+    <!-- AI invitation to visit nearby City -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MVEMBA_ANY">
+      <Text>Før vi fortsætter, kom og tilbed med mig i vores nærliggende by. Så kan vi nyde et måltid af kylling moambé.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CATHERINE_DE_MEDICI_ANY">
+      <Text>Du har ikke levet, før du har smagt vores delikatesser af mad og drikke. Og jeg kan vise dig, hvordan man bruger en gaffel, hvis du ønsker det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CLEOPATRA_ANY">
+      <Text>Vi har en by i nærheden. Vil du gerne besøge den? Jeg vil gerne introducere dig til vores brætspil, Senet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_BARBAROSSA_ANY">
+      <Text>Som den Hellige Romerske Kejser, byder jeg dig velkommen til vores land. Hvis du ønsker det, kan du se noget af dets herlighed i den nærmeste by. Medmindre de selvfølgelig er i oprør igen</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GANDHI_ANY">
+      <Text>Kom til vores nærmeste by. Vi kan lytte til visdommen i Vedic-poetryen og måske lære noget.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GILGAMESH_ANY">
+      <Text>Du kan se Sumerens herlighed, hvis du ønsker det: en gammel tradition for kunst og videnskab, Ziggurater for store til at beskue!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GORGO_ANY">
+      <Text>Vi har en by i nærheden. Vil du gerne besøge den og smage vores kraftige sorte suppe?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HARDRADA_ANY">
+      <Text>Fortæl mig, ven: vil du besøge vores nærliggende by? Det er ikke Bilskirnir, men det er dejligt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HOJO_ANY">
+      <Text>Jeg ville blive beæret, hvis du ville slutte dig til mig til ōban i vores nærliggende by. Kan du lide jellyfish aemono?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_PEDRO_ANY">
+      <Text>Kom til Brasilien! Ved du hvordan man danser samba? Det gør ikke noget, du vil stadig nyde Carnavallet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_PERICLES_ANY">
+      <Text>Vil du besøge vores nærliggende metropol? Vi kunne debattere politik, inden vi nyder teateret.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_PETER_GREAT_ANY">
+      <Text>Kom, lad mig vise dig min nærliggende by. Bagefter kan vi deltage i en bal på en smuk dacha på landet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_PHILIP_II_ANY">
+      <Text>Vil du gerne se en tyrefægtning? Der er intet spektakel som det. Kom til min nærliggende by og se det selv.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_QIN_ANY">
+      <Text>Vi har en by i nærheden. Vil du besøge den? Vores skulptører bliver ret gode til at arbejde i terracotta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SALADIN_ANY">
+      <Text>Jeg er beæret over at tilbyde dig gæstfrihed i vores byer: de fineste kunstværker, de mest lækre fester og den melodiske adhan, der kan høres overalt. Har du lyst til at besøge?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_T_ROOSEVELT_ANY">
+      <Text>Vi har en by i nærheden. Vil du besøge den? Jeg kunne vise dig de udstoppede bjørne, der nu er så populære.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TOMYRIS_ANY">
+      <Text>Vi har en by i nærheden. Vil du besøge den? Vi kunne passe dig til en af vores spidse hatte.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TRAJAN_ANY">
+      <Text>Kejserdømmet har selvfølgelig en by i nærheden. Vil du komme, se og lade dig erobre af dens skønhed?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_VICTORIA_ANY">
+      <Text>Det er vores store privilegium at invitere dig til at besøge riget, hvilket jeg forestiller mig er ret simpelt på grund af vores mange kolonier, selvfølgelig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_ANY_ANY">
+      <Text>Vi har en by i nærheden. Vil du besøge den? Du kan deltage i vores kommende festligheder.</Text>
+    </Row>
+    <!-- Human Responses -->
+    <Row Tag="LOC_DIPLO_CHOICE_FIRST_MEET_VISIT">
+      <Text>Vi vil elske at prøve din gæstfrihed.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_FIRST_MEET_DECLINE_VISIT">
+      <Text>Beklager, men ikke på nuværende tidspunkt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_FIRST_MEET_NEAR_INITIATOR_POSITIVE">
+      <Text>Vil du besøge vores nærliggende by og prøve vores gæstfrihed?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_FIRST_MEET_NEAR_INITIATOR_NO_HOSPITALITY">
+      <Text>Tak for introduktionen, men vi har ikke tid til yderligere høfligheder.</Text>
+    </Row>
+    <!-- AI accepts Human invitation -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_ANY_ANY">
+      <Text>Absolut. Det vil være en fornøjelse at se din voksende by på tæt hold.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MVEMBA_ANY">
+      <Text>Ja, ja. Dette er godt for os.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CATHERINE_DE_MEDICI_ANY">
+      <Text>Helt sikkert. Det vil være en fornøjelse at se din voksende by på nært hold.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CLEOPATRA_ANY">
+      <Text>Very well.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_BARBAROSSA_ANY">
+      <Text>Tak, ven.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GANDHI_ANY">
+      <Text>Tak, ven.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GILGAMESH_ANY">
+      <Text>Ja, vi accepterer.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GORGO_ANY">
+      <Text>Very well.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HARDRADA_ANY">
+      <Text>Tak skal du have, min ven.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HOJO_ANY">
+      <Text>Tak, ven.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_PEDRO_ANY">
+      <Text>Ja. Du har min taknemmelighed.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_PERICLES_ANY">
+      <Text>På vegne af folket, ja.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_PETER_GREAT_ANY">
+      <Text>Ja, godt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_PHILIP_II_ANY">
+      <Text>Må Herren velsigne dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_QIN_ANY">
+      <Text>Dette er acceptabelt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SALADIN_ANY">
+      <Text>Et frugtbart tilbud. Må Allah velsigne dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_T_ROOSEVELT_ANY">
+      <Text>Jeg kan ikke sige nej til det.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TOMYRIS_ANY">
+      <Text>Meget godt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TRAJAN_ANY">
+      <Text>Det er acceptabelt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_VICTORIA_ANY">
+      <Text>Vi finder dette enigt.</Text>
+    </Row>
+    <!-- Human responses -->
+    <Row Tag="LOC_DIPLO_CHOICE_NO_MANS_POSITIVE">
+      <Text>Det er en ære at møde dig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_NO_MANS_NO_EXCHANGE">
+      <Text>Goddag fremmed, men jeg er bange for, at vi er for travle til at blive og snakke.</Text>
+    </Row>
+    <!-- AI invitation to exchange Capital Information -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_ANY_ANY">
+      <Text>Ingen af ​​os stammer fra nærheden, men måske skulle vi markere vores hjemlande på hinandens kort?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MVEMBA_ANY">
+      <Text>Lad os udveksle information, som vi udveksler visdom. Fortæl mig om din hovedstad. Er det en hellig by?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CATHERINE_DE_MEDICI_ANY">
+      <Text>Jeg er betaget af arkitektur. Fortæl mig, har jeres hovedstad nogen sejrende buer eller store metal tårne?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CLEOPATRA_ANY">
+      <Text>Alexandria er hjemstedet for faraoer, mit hjem. Jeg kan fortælle dig mere, hvis du fortæller mig om din hovedstad.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_BARBAROSSA_ANY">
+      <Text>Jeg vil vise dig vores fantastiske hovedstad, hvis du fortæller mig, hvordan din kan måske sammenlignes med Tysklands magtsæde.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GANDHI_ANY">
+      <Text>Jeg nyder at rejse, måske vil jeg en dag besøge din hovedstad. Er den langt væk? Vil du fortælle mig om den?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GILGAMESH_ANY">
+      <Text>Ingen må passere murene i Uruk uden min tilladelse, men jeg vil fortælle dig om det, hvis du fortæller mig om din hovedstad.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GORGO_ANY">
+      <Text>Hvordan er din hovedstad? Fortæl mig det, og jeg vil fortælle dig om Sparta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HARDRADA_ANY">
+      <Text>Jeg har rejst langt og bredt, men jeg har aldrig set jeres hovedstad. Fortæl mig om den.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HOJO_ANY">
+      <Text>Jeg vil gerne udveksle information om vores hovedstæder. Vores er som det rene land. Hvordan er jeres?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_PEDRO_ANY">
+      <Text>Lad os udveksle diplomatisk høflighed. Fortæl mig om din hovedstad, og jeg vil fortælle dig om min.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_PERICLES_ANY">
+      <Text>Athen er en storslået metropol. Hvordan er din hovedstad? Lad os udveksle information.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_PETER_GREAT_ANY">
+      <Text>Vil du gerne udveksle information om vores hovedstæder? Min er en lyskilde for fremskridt, men jeg kender ikke din.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_PHILIP_II_ANY">
+      <Text>Vil du høre om min hovedstad? Madrid er den smukkeste af byer. Er din hovedstad også smuk?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_QIN_ANY">
+      <Text>Du har set noget af vores pragt. Er din hovedstad bare halvt så storslået som vores?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SALADIN_ANY">
+      <Text>Kom, lad os udveksle information om vores hovedstæder. Jeg inviterer dig til at fortælle mig om dit folk, og jeg er glad for at fortælle dig om mit.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_T_ROOSEVELT_ANY">
+      <Text>Jeg vil gerne udveksle information om vores hovedstæder; fremme fri handel mellem vores nationer og alt det der.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TOMYRIS_ANY">
+      <Text>Ja, mit folk er nomadisk, men vi har stadig en fantastisk hovedstad. Og du?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TRAJAN_ANY">
+      <Text>Fortæl mig om jeres hovedstad. Var den grundlagt af tabte trojanere? Eller af børn opfostret af ulve?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_VICTORIA_ANY">
+      <Text>Af hensyn til vores politiske forhold, vil vi gerne vide mere om jeres hovedstad... i bytte for information om vores, selvfølgelig.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_FIRST_MEET_EXCHANGE_INFO">
+      <Text>At udveksle information om vores hovedstæder er en god idé. Det bør hjælpe med at fremme handel.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_FIRST_MEET_DECLINE_INFO">
+      <Text>Beklager, vi kan ikke give den information væk lige nu.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

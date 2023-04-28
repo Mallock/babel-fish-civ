@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- UI -->
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_DEFAULT">
+      <Text>Aktiveret effekt</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_CREATE_GREAT_WORK">
+      <Text>Skab Storartet Arbejde</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_FOUND_RELIGION">
+      <Text>Fandt Religion</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_RETIRE">
+      <Text>Pensionere</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_CHARGES">
+      <Text>{1_ChargeAmount} {1_ChargeAmount : plural 1?opladning; other?opladninger;}</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_FOUND_RELIGION">
+      <Text>Aktiver ved et Hellig Sted distrikt eller Stonehenge.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CREATE_GREAT_WORK">
+      <Text>Aktiver på et distrikt eller vidunder med en tilgængelig storværk-plads.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNOWNED_TILE">
+      <Text>Aktiver på en flise, som ingen spiller ejer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ENEMY_TERRITORY">
+      <Text>Aktiver i en fjendtlig territorium.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_NONHOSTILE_TERRITORY">
+      <Text>Aktiver i en ikke-fjendtlig udenlandsk magts territorium.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CITY_STATE_TERRITORY">
+      <Text>Aktivér på territoriet i en bystat.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_SUZERAIN_TERRITORY">
+      <Text>Aktiver i territoriet af en bystat, som du er suzerain af.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_DOES_NOT_NEED_OWNED_TILE">
+      <Text>Kan aktiveres selv på fliser, du ikke ejer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OWNED_TILE">
+      <Text>Aktiver på en flise, du ejer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_BARBARIAN_UNIT">
+      <Text>Aktiver ved siden af Barbarian enheder.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_MOUNTAIN">
+      <Text>Aktiver ved siden af et bjerg.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_TO_OWNED_TILE">
+      <Text>Aktiver ved siden af en flise, du ejer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CITY_GREAT_WORK_OBJECT">
+      <Text>Aktiver i en by med {LOC_GRAMMAR_A_AN_WITH_ICON &lt;&lt; {1_GreatWorkObjectTypeName} &lt;&lt; {2_IconString}} storslået værk.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_COMPLETED_DISTRICT">
+      <Text>Aktiver i en {1_DistrictName}-bydel.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_INCOMPLETE_SPACE_RACE_PROJECT">
+      <Text>Aktivér et Space Race-projekt, der er under opførelse.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_INCOMPLETE_WONDER">
+      <Text>Aktiver på et underværk, der er ved at blive konstrueret.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT">
+      <Text>Aktivér på en militær landenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_SEA_UNIT">
+      <Text>Aktiver på en militær flådeenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_AIR_UNIT">
+      <Text>Aktivér på en militær luftenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_NO_MILITARY_UNIT">
+      <Text>Aktiver på en flise uden militære enheder.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT_WITHIN_RANGE">
+      <Text>Aktivér på en militær landenhed inden for {1_Distance} felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OR_ADJACENT_TO_FEATURE">
+      <Text>Aktiver på eller ved siden af en flise med {1_FeatureName}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OR_ADJACENT_TO_NATURAL_WONDER">
+      <Text>Aktiver på eller ved siden af et naturligt vidunder.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_STANDARD_MILITARY_FORMATION">
+      <Text>Aktiver på en militær enhed, der ikke er en Korps eller en Hær.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_CORPS_MILITARY_FORMATION">
+      <Text>Aktiver på en militær enhed i hæren.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_ARMY_MILITARY_FORMATION">
+      <Text>Aktivér på en hær militær enhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_STANDARD_MILITARY_FORMATION_SEA">
+      <Text>Aktiver på en militær enhed, der ikke er en flåde eller en armada.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_CORPS_MILITARY_FORMATION_SEA">
+      <Text>Aktivér på en flåde militære enhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_ARMY_MILITARY_FORMATION_SEA">
+      <Text>Aktiver på en flåde militær enhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_LUXURY_RESOURCE">
+      <Text>Aktivér på en luksusressource.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ANYWHERE">
+      <Text>Aktiver på enhver brik.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_OPEN_PLAYER_RELIC_SLOT">
+      <Text>Skal have en åben [ICON_GreatWork_Relic] Relikvie storværk-slot i en af dine byer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MISSING_BUILDING">
+      <Text>Byen må ikke allerede have {1_BuildingName} bygningen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_GOLD_COST">
+      <Text>Handlingen koster {1_GoldAmount} [ICON_Gold] guld.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_EFFECT_FOUND_RELIGION">
+      <Text>Grundlægger en religion og etablerer denne by som en hellig by.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_EFFECT_GREAT_WORK_OBJECT">
+      <Text>{1_GreatWorkName} ({2_GreatWorkObjectIconString} {3_GreatWorkObjectName}).</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_PASSIVE_NAME_DEFAULT">
+      <Text>Passiv Effekt</Text>
+    </Row>
+    <!-- Shared by Multiple Classes -->
+    <Row Tag="LOC_GREATPERSON_GOLD">
+      <Text>Få øjeblikkeligt en gevinst på {Amount} {YieldType}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMPUTERSTECHBOOST">
+      <Text>Udløser [ICON_TechBoosted] det store øjeblik af opdagelse for computer teknologien.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MODERNTECHBOOST">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for {Amount} tilfældige {Amount : plural 1?teknologi; other?teknologier;} fra den moderne æra.</Text>
+    </Row>
+    <!-- Generals -->
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_LAND_MODIFIER">
+      <Text>+5 [ICON_Strength] Kampbonus fra Stor General.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_SEA_MODIFIER">
+      <Text>+5 [ICON_Strength] Kampbonus fra Stor Admiral.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse fra Stor General.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_ADMIRAL_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Bevægelse fra Stor Admiral.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til landenheder fra den klassiske og middelalderlige æra inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til landenheder fra Middelalderen og Renæssancen i en radius af 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til landenheder fra Renæssance- og Industrielle perioder inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til landenheder fra den industrielle og moderne æra inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til landenheder fra moderne og atomalderen inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til landenheder fra Atomalderen og Informationsalderen inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til landenheder fra Informationsalderen inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_BOUDICA_ACTIVE">
+      <Text>Konverterer tilstødende Barbarian enheder til din kontrol.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HANNIBAL_BARCA_ACTIVE">
+      <Text>Giver 1 forfremmelsesniveau til en militær landenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE">
+      <Text>Skaber øjeblikkeligt en ridder-enhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EL_CID_ACTIVE">
+      <Text>Danner en korpset ud af en militær landenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GENGHIS_KHAN_ACTIVE">
+      <Text>Giver 1 forfremmelsesniveau og +25% kamp erfaring til en militær land enhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE">
+      <Text>Øjeblikkeligt skaber en Bombard-enhed med 1 forfremmelsesniveau.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOAN_OF_ARC_ACTIVE">
+      <Text>Skaber en [ICON_GreatWork_Relic] relikvie.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ANA_NZINGA_ACTIVE">
+      <Text>Få {Amount} [ICON_Envoy] {Amount : plural 1?Udsending; other?Udsendinge;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE">
+      <Text>Danner en hær ud af en militær landenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RANI_LAKSHMIBAI_ACTIVE">
+      <Text>Opretter øjeblikkeligt en Kavaleri-enhed med 1 forfremmelsesniveau.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE">
+      <Text>Få {Amount} [ICON_Envoy] {Amount : plural 1?Udsending; other?Udsendinge;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE">
+      <Text>Giver én forfremmelsesniveau og +75% kamp erfaring til en militær landenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MARINA_RASKOVA_ACTIVE">
+      <Text>Distriktet på denne flise får +1 luftenhedspladser.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SAMORI_TURE_ACTIVE">
+      <Text>Opretter øjeblikkeligt en infanterienhed med 1 forfremmelsesniveau.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE">
+      <Text>+5% [ICON_Produktion] Produktion til militære enheder.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE">
+      <Text>+50% bonus for flankeangreb for alle landenheder.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SUDIRMAN_ACTIVE">
+      <Text>Giver 1 forfremmelsesniveau og +100% kampoplevelse til en militær landenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE">
+      <Text>Oprettet øjeblikkeligt en Tank-enhed med 1 forfremmelsesniveau.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE">
+      <Text>Øjeblikkeligt skaber en moderne Anti-Tank enhed med 1 forfremmelsesniveau.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE">
+      <Text>Giver 1 forfremmelsesniveau og +100% kampoplevelse til en militær landenhed.</Text>
+    </Row>
+    <!-- Admirals -->
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til søenheder fra den klassiske og middelalderlige æra inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til søenheder fra Middelalderen og Renæssancen inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til søenheder fra renæssancen og industriel æra inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til industrielle og moderne tidsalderens søenheder inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til moderne og atomalderens søenheder inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til atom- og informationstidsperiodens søenheder inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA">
+      <Text>+5 [ICON_Strength] Kampstyrke og +1 [ICON_Movement] Bevægelse til søenheder fra Informationsalderen inden for 2 felter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ARTEMISIA_ACTIVE">
+      <Text>Giver 1 forfremmelsesniveau til en militær flådeenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GAIUS_DUILIUS_ACTIVE">
+      <Text>Danner en flåde ud af en militær flådeenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_THEMISTOCLES_ACTIVE">
+      <Text>Skaber øjeblikkeligt en Quadrireme-enhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LEIF_ERIKSON_ACTIVE">
+      <Text>Tillader alle flådenheder at bevæge sig over havfliser uden normal teknologisk krav.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RAJENDRA_CHOLA_ACTIVE">
+      <Text>Få 50 [ICON_Gold] Guld (på standard hastighed). Militære enheder får +40% belønning for at plyndre hav [ICON_TradeRoute] handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ZHENG_HE_ACTIVE">
+      <Text>Få {Amount} [ICON_Envoy] {Amount : plural 1?Udsending; other?Udsendinge;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FRANCIS_DRAKE_ACTIVE">
+      <Text>Få 75 [ICON_Gold] Guld (på standard hastighed). Militære enheder får +50% belønninger for plyndring af hav [ICON_TradeRoute] handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SANTA_CRUZ_ACTIVE">
+      <Text>Danner en armada ud af en militær flådeenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_YI_SUN_SIN_ACTIVE">
+      <Text>Skaber øjeblikkeligt en Ironclad enhed med 1 forfremmelsesniveau.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHING_SHIH_ACTIVE">
+      <Text>Få 100 [ICON_Gold] Guld (på standard hastighed). Militære enheder får +60% belønninger for at plyndre hav [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HORATIO_NELSON_ACTIVE">
+      <Text>+50% bonus til flankeangreb for alle søenheder.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE">
+      <Text>Giver en forfremmelsesniveau og +50% kampoplevelse til en militær flådeenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FRANZ_VON_HIPPER_ACTIVE">
+      <Text>Opretter øjeblikkeligt en krigsskibs-enhed med 1 forfremmelsesniveau.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE">
+      <Text>Akumuler 25% mindre krigstræthed end normalt.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE">
+      <Text>Giver 1 forfremmelsesniveau og +75% kampoplevelse til en militær søenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHESTER_NIMITZ_ACTIVE">
+      <Text>+20% [ICON_Produktion] Produktion til enheder i Naval Raider-promoveringsklassen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRACE_HOPPER_ACTIVE">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for {Amount} tilfældige {Amount : plural 1?teknologi; other?teknologier;} fra Atom- eller Informationsæraen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SERGEY_GORSHKOV_ACTIVE">
+      <Text>Giver 1 forfremmelsesniveau og +100% kampoplevelse til en militær søenhed.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CLANCY_FERNANDO_ACTIVE">
+      <Text>Giver 1 forfremmelsesniveau og +200% kampoplevelse til en militær flådeenhed.</Text>
+    </Row>
+    <!-- Engineers -->
+    <Row Tag="LOC_GREATPERSON_EXTRA_DISTRICT_CAPACITY">
+      <Text>Lad denne by opføre en mere bydel end det [ICON_Citizen] indbyggergrænsen tillader.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_PRINTINGTECHBOOST">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for trykteknologien.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL">
+      <Text>Tilskud {Amount} [ICON_Production] Produktion til opførelse af vidundere.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE_ACTIVE">
+      <Text>Bygger øjeblikkeligt ældgamle og middelalderlige mure i denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_RENAISSANCE">
+      <Text>Bevillinger på {Amount} [ICON_Production] Produktion til vidundere byggeri.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_WORKSHOP_CULTURE">
+      <Text>Workshops giver +{Amount} [ICON_Culture] Kultur.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_HOUSING_SMALL">
+      <Text>+{Beløb} [ICON_Housing] Boliger til denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_AMENITIES_SMALL">
+      <Text>+{Amount} [ICON_Amenities] {Amount : plural 1?Facilitet; other?Faciliteter;} til denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL">
+      <Text>Tilskud på {Amount} [ICON_Production] Produktion til vidunderværkskonstruktion.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE">
+      <Text>Bygger øjeblikkeligt en fabrik og værksted i dette distrikt. Fabrikker giver +2 [ICON_Production] Produktion.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_APPEAL_SMALL">
+      <Text>Denne by giver +{Amount} appel til enhver flise, den ejer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE">
+      <Text>Dette distrikts regionale bygninger når {Amount} {Amount : plural 1?flise; other?fliser;} længere.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_PRODUCTION">
+      <Text>Dette districts regionale bygninger giver +{Amount} [ICON_Production] Produktion.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SPACE_RACE_PRODUCTION_RATE_SMALL">
+      <Text>+{Beløb}% [ICON_Production] Produktion til Space Race-projekter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for Raketteknologien.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_HOUSING_MEDIUM">
+      <Text>+{Amount} [ICON_Housing] Boliger til denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_HOUSING_LARGE">
+      <Text>+{Amount} [ICON_Housing] Boliger til denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_AMENITIES_LARGE">
+      <Text>+{Amount} [ICON_Amenities] {Amount : plural 1?Facilitet; other?Faciliteter;} til denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_EARLY_SPACE_RACE">
+      <Text>Bevillinger {Amount} [ICON_Production] Produktion til konstruktion af Space Race-projektet.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_APPEAL_LARGE">
+      <Text>Denne by giver +{Amount} appel til enhver flise, den ejer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_ENTERTAINMENT">
+      <Text>Denne bydels regionale bygninger tilbyder +{Amount} [ICON_Amenities] {Amount : plural 1?facilitet; other?faciliteter;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_INFORMATION">
+      <Text>Tilskud på {Amount} [ICON_Production] Produktion til vidunderværkskonstruktion.</Text>
+    </Row>
+    <!-- Merchants -->
+    <Row Tag="LOC_GREATPERSON_GRANT_PLOT_RESOURCE">
+      <Text>Tildeler [ICON_Capital] {Amount} gratis {Amount : plural 1?kopi; other?kopier;} af den luksuriøse ressource på denne flise til din hovedstad.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FAITH_SMALL">
+      <Text>Få {Amount} [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PLOT">
+      <Text>Din nærmeste by annekterer dette fliseområde til sit territorium.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_TINY">
+      <Text>Tjen {Amount : number #} [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE">
+      <Text>Øger [ICON_TradeRoute] handelsrute kapaciteten med 1. Udenlandske [ICON_TradeRoute] handelsruter til denne by giver +2 [ICON_Gold] Guld til begge byer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MARCO_POLO_ACTIVE">
+      <Text>Giver en gratis handelsmandsenhed i denne by og øger [ICON_TradeRoute] handelsrute kapaciteten med 1. Udenlandske [ICON_TradeRoute] handelsruter til denne by giver +2 [ICON_Gold] Guld til begge byer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_TO_INCOMING_FOREIGN_ROUTES">
+      <Text>Denne by giver +{Amount} [ICON_Gold] Guld til udenlandske [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_FROM_INCOMING_FOREIGN_ROUTES">
+      <Text>Denne by modtager +{Amount} [ICON_Gold] Guld fra udenlandske [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FREE_TRADER_UNIT">
+      <Text>Få en gratis Trader-enhed i denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_TRADE_ROUTE_CAPACITY">
+      <Text>Øger [ICON_TradeRoute] handelsrute kapacitet med {Amount}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_SMALL">
+      <Text>Få {Amount : number #} [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_INFLUENCE_TOKENS_SMALL">
+      <Text>Få {Amount} [ICON_Envoy] {Amount : plural 1?Sendebud; other?Sendebude;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GIOVANNI_DE_MEDICI_ACTIVE">
+      <Text>Bygger øjeblikkeligt en bank og et marked i dette distrikt. Banken får 2 store værk pladser, som kan indeholde hvad som helst.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MARKET">
+      <Text>Opretter øjeblikkeligt et marked i dette distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_BANK">
+      <Text>Bygger øjeblikkeligt en bank i dette område.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_BANK_GREAT_WORK_SLOTS">
+      <Text>Denne bank får {Amount} store værkslots til at holde alt undtagen [ICON_GreatWork_Relic] Relikvier.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_MEDIUM">
+      <Text>Få {Amount : number #} [ICON_Gold] guld.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_INFLUENCE_TOKENS_MEDIUM">
+      <Text>Få {Amount} [ICON_Envoy] {Amount : plural 1?Sendebud; other?Sendebud;}.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til dine egne byer får +{Amount} [ICON_Gold] Guld for hvert specialområde på destinationen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ECONOMIC_POLICY_SLOT">
+      <Text>+1 Økonomisk politikkens plads i enhver regering.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_JEANS">
+      <Text>Tilskud på {Amount} [ICON_RESOURCE_JEANS] Jeans, en unikt fremstillet luksusressource, som giver +4 [ICON_Amenities] Velvære.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_LARGE">
+      <Text>Få {Amount : number #} [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PERFUME">
+      <Text>Giver {Amount} [ICON_RESOURCE_PERFUME] Parfume, en unikt fremstillet luksusressource, som giver +6 [ICON_Amenities] Fornøjelser.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOHN_ROCKEFELLER_ACTIVE">
+      <Text>Giver 1 [ICON_RESOURCE_OIL] olie, en strategisk ressource. Dine [ICON_TradeRoute] handelsruter får +2 [ICON_Gold] guld for hver strategisk ressource i destination byen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_OIL">
+      <Text>Giver {Amount} [ICON_RESOURCE_OIL] Olie, en strategisk ressource.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_STRATEGIC">
+      <Text>Dine [ICON_TradeRoute] Handelsruter får +{Amount} [ICON_Gold] Guld for hver strategiske ressource, der er forbedret af destinationsbyen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_TRADE_ROUTE_TOURISM_MODIFIER">
+      <Text>+{Amount}% [ICON_Tourism] Turistrate mod andre civilisationer, som du har en [ICON_TradeRoute] Handelsrute til.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_COSMETICS">
+      <Text>Tildeler {Amount} [ICON_RESOURCE_COSMETICS] Kosmetik, en unikt fremstillet luksusressource, som giver +4 [ICON_Amenities] Behageligheder.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DIPLO_VISIBILITY">
+      <Text>+{Amount} {Amount : plural 1?niveau; other?niveauer;} diplomatisk synlighed med alle andre civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_TOYS">
+      <Text>Tildeler {Amount} [ICON_RESOURCE_TOYS] Legetøj, en unikt fremstillet luksusressource, som giver +4 [ICON_Amenities] Fornøjelser.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_INDUSTRIAL_ZONE_TOURISM">
+      <Text>Industriområder giver +{Amount} [ICON_Tourism] turisme.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CAMPUS_TOURISM">
+      <Text>Campusområder tilbyder +{Amount} [ICON_Tourism] turisme.</Text>
+    </Row>
+    <!-- Scientists -->
+    <Row Tag="LOC_GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for {Amount} tilfældige {Amount : plural 1?teknologi; other?teknologier;} fra den klassiske eller middelalderlige æra.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EUCLID_ACTIVE">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for Matematik og 1 tilfældig teknologi fra middelalderen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MEDIEVALTECHBOOST">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for {Amount} tilfældige {Amount : plural 1?teknologi; other?teknologier;} fra middelalderen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MATHTECHBOOST">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for matematikteknologien.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LIBRARY">
+      <Text>Bygger øjeblikkeligt et bibliotek i dette område.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LIBRARY_FREE_MAINTENANCE">
+      <Text>+{Amount} [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITY">
+      <Text>Bygger øjeblikkeligt et universitet i dette distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITY_FREE_MAINTENANCE">
+      <Text>+{Amount} [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for {Amount} tilfældige {Amount : plural 1?teknologi; other?teknologier;} fra middelalderen eller renæssancen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE">
+      <Text>Denne Holy Site-distrikts [ICON_Faith] tro nærhedsbonus giver også [ICON_Science] videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FAITH">
+      <Text>Få {Amount} [ICON_Faith] Tro.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for 2 tilfældige teknologier og [ICON_CivicBoosted] inspiration-momentet for 1 tilfældig samfundsvidenskab fra middelalderen eller renæssancen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for {Amount} tilfældige {Amount : plural 1?teknologi; other?teknologier;} fra middelalderen eller renæssancen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST">
+      <Text>Udløser [ICON_CivicBoosted] Inspirationsøjeblikket for {Amount} tilfældige {Amount : plural 1?civic; other?civics;} fra middelalderen eller renæssancen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GALILEO_GALILEI_ACTIVE">
+      <Text>Få 250 [ICON_Science] Videnskab (på Standard hastighed) for hver tilstødende Bjerg-flise.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RESEARCH_LAB">
+      <Text>Bygger øjeblikkeligt et forskningslaboratorium i dette distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RESEARCHLABS_BIG_SCIENCE">
+      <Text>Forskningslaboratorier giver +{Amount} [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RESEARCH_LAB_FREE_MAINTENANCE">
+      <Text>+{Beløb} [ICON_Gold] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ISAAC_NEWTON_ACTIVE">
+      <Text>Bygger øjeblikkeligt et universitet og en bibliotek i dette distrikt. Universiteter bidrager med +2 [ICON_Science] videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS">
+      <Text>Udløser [ICON_TechBoosted] et Eureka-øjeblik for {Amount} tilfældige {Amount : plural 1?teknologi; other?teknologier;} fra renæssancen eller industrielle tidsalder.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GREAT_PERSON_FREE_POINTS">
+      <Text>Gælder {Amount} gratis [ICON_GreatPerson] Store Personer-point til rekruttering af alle nuværende og fremtidige Store Personer.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHARLES_DARWIN_ACTIVE">
+      <Text>Få 500 [ICON_Science] Videnskab (på standard hastighed) for hver naturskat-flise her eller ved siden af.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DMITRI_MENDELEEV_ACTIVE">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for Kemi og 1 tilfældig teknologi fra den Industrielle æra.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ALAN_TURING_ACTIVE">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for Computere og 1 tilfældig teknologi fra den Moderne tidsalder.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1INDUSTRIALTECHBOOST">
+      <Text>Udløser [ICON_TechBoosted] "Eureka!" øjeblikket for {Amount} tilfældige {Amount : plural 1?teknologi; other?teknologier;} fra den industrielle æra.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHEMISTRYTECHBOOST">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for kemi-teknologien.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LIBRARIES_SCIENCE">
+      <Text>Biblioteker tilbyder +{Amount} [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITIES_SMALL_SCIENCE">
+      <Text>Universiteter tilbyder +{Amount} [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITIES_BIG_SCIENCE">
+      <Text>Universiteter tilbyder +{Amount} [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MODERNATOMICTECHBOOST">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for {Amount} tilfældige {Amount: plural 1?teknologi; other?teknologier;} fra den moderne eller atomære æra.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_REVEAL_OIL">
+      <Text>Afslører [ICON_RESOURCE_OIL] olie uden normal teknologisk krav.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for {Amount} tilfældige {Amount : plural 1?teknologi; other?teknologier;} fra den industrielle eller moderne æra.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ADJACENT_RAINFOREST_SCIENCE">
+      <Text>Få {Amount} [ICON_Science] Videnskab for hver regnskov flise her eller ved siden af.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ARTIFACT_TOURISM_MODIFIER">
+      <Text>[ICON_GreatWork_Artifact] Kunstarterfakter i alle dine byer genererer {ScalingFactor}% af deres normale [ICON_Tourism] Turisme.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ARTIFACT_SCIENCE">
+      <Text>Få {Amount} [ICON_Science] Videnskab for hver [ICON_GreatWork_Artifact] Artefakt i denne by.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for {Amount} tilfældige {Amount : plural 1?teknologi; other?teknologier;} fra ATOM- eller INFORMATION-æraen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS">
+      <Text>Udløser [ICON_TechBoosted] Eureka-øjeblikket for alle teknologier fra informationstiden.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE">
+      <Text>Tilskud {Amount} [ICON_Production] Produktion til opførelse af Space Race-projekt.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SPACE_RACE_PRODUCTION_RATE_LARGE">
+      <Text>+{Amount}% [ICON_Production] Produktion til Space Race projekter.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE">
+      <Text>Sårede landenheder kan hele +5 HP hver tur.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <!-- Sections -->
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_LEADERS_TITLE">
+      <Text>Civilisationer/Ledere</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNORS_TITLE">
+      <Text>Guvernører</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_MOMENTS_TITLE">
+      <Text>Historiske øjeblikke</Text>
+    </Row>
+    <!-- Page Groups -->
+    <Row Tag="LOC_PEDIA_PAGEGROUP_CIVILIZATIONS_NAME">
+      <Text>Civilisationer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGEGROUP_LEADERS_NAME">
+      <Text>Ledere</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNORS_PAGEGROUP_GOVERNORS_NAME">
+      <Text>Guvernører</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNORS_PAGEGROUP_PROMOTIONS_NAME">
+      <Text>{1_GovernorShortTitle} Titler</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_MOMENTS_PAGEGROUP_MAJOR_NAME">
+      <Text>Store øjeblikke</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_MOMENTS_PAGEGROUP_MINOR_NAME">
+      <Text>Små øjeblikke</Text>
+    </Row>
+    <!-- Traits -->
+    <Row Tag="LOC_UI_PEDIA_TITLES">
+      <Text>Titler:</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_ERA_SCORE">
+      <Text>Æra score: {1_Amount}</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_INTEREST_LEVEL">
+      <Text>Interesse-niveau: {1_Amount}</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_MIN_ERA">
+      <Text>Min Era: {1_Name} (This sentence is already in Danish)</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_MAX_ERA">
+      <Text>Max Era: {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_REQUIRES_DARK_AGE">
+      <Text>Mørke Tid</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_PROMOTION_BASE">
+      <Text>Niveau: Basis</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_PROMOTION_LEVEL">
+      <Text>Niveau: {1_Level}</Text>
+    </Row>
+    <!-- Progression -->
+    <Row Tag="LOC_UI_PEDIA_LEADS_TO_GOVERNOR_PROMOTIONS">
+      <Text>Fører til titler</Text>
+    </Row>
+    <!-- Concepts -->
+    <!-- Updated Concepts from base game -->
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Du skal optjene diplomatisk synlighed for hver civilisation individuelt. Du vil modtage en kampbonus, hvis du har en højere synlighedsgrad hos din modstander end de har hos dig. Niveauer kan opnås ved at optjene forskellige kilder til sladder, herunder:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Når en bosætter er valgt, vises ideelle byplaceringer på kortet med et ikon. Derudover vil hver bosætter efter din første vise bosætterlinsen, der giver dig en ide om, hvor på kortet der vil være den bedste kilde til vand for din by og indikere utilgængelige fliser. Vær opmærksom på placeringer, der har en negativ loyalitetsmarkør, da disse placeringer er loyale over for andre civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_7_CHAPTER_CONTENT_PARA_2">
+      <Text>Appel. Viser appelniveauet for hver flise.[NEWLINE][NEWLINE]Kontinent. Viser den geografiske udstrækning af hvert kontinent.[NEWLINE][NEWLINE]Distriktplacering. Viser lovlige placeringer for vidundere og distrikter samt eventuelle tilstødende bonusser, der er tilgængelige for distrikter. Dette vil kun vises, når der forsøges at bygge et distrikt eller vidunder.[NEWLINE][NEWLINE]Regering. Viser fordelingen af ​​regeringer på tværs af kortet.[NEWLINE][NEWLINE]Politisk. Viser ejeren af hver flise.[NEWLINE][NEWLINE]Religion. Viser flertalsreligionen og religiøse tilhængeres fordeling på tværs af kortet. Dette vises, når en religiøs enhed er valgt.[NEWLINE][NEWLINE]Bosætter. Viser anbefalede bypladser og vandtilgængelighed samt eventuelle loyalitetsstraffe på hver flise.[NEWLINE][NEWLINE]Turisme. Viser antallet af [ICON_Tourism] turister, en flise tiltrækker.[NEWLINE][NEWLINE]Rige. Viser dine bygrænser og distriktplaceringer med tilstødende bonusser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Du vil også erklære krig mod målet for en militær nødsituation, bystatsnødsituation, atomnødsituation og forræderinødsituation, hvis du deltager i den pågældende nødsituation.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_10">
+      <Text>+2: Hver tilstødende Naturlig Vidunder og By Park</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_14">
+      <Text>Hver tilstødende golfbane, château og sfinx.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_4">
+      <Text>Bygningen af Efterretningstjenesten, der er opført på Regeringspladsen, vil også tilføje en yderligere kapacitet til spionage og spioner.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_4_CHAPTER_CONTENT_PARA_3">
+      <Text>At fuldføre spionagemissionen Skab Skandale vil fjerne en rival's [ICON_ENVOY] Gesandter fra den målrettede bystat.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_11_CHAPTER_CONTENT_PARA_1">
+      <Text>En Forsvars Pagt er en aftale mellem to ledere om at komme hinanden til undsætning, når de er mål for en Krigserklæring. Hvis enten medlem af Forsvars Pagten er mål, vil det andet medlem også erklære krig mod angriberen. Hvis to ledere er i en Alliance, vil de automatisk have en Forsvars Pagt mellem dem. Forsvars Pagter er ikke længere tilgængelige som linjeelementer i diplomatiske aftaler.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_11_CHAPTER_CONTENT_PARA_2">
+      <Text>Der er nogle tilfælde, hvor en Forsvars Pagt ikke automatisk fører til, at en leder bliver trukket ind i en krig som følge af at være i en Forsvars Pagt. For eksempel har Gilgamesh og Cleopatra en Forsvars Pagt, og Pedro og Peter har en Forsvars Pagt. Gilgamesh erklærer krig mod Pedro, og på grund af Forsvars Pagten erklærer Peter krig mod Gilgamesh. Men Cleopatra erklærer ikke automatisk krig mod hverken Pedro eller Peter. Nødsituationer udløser heller ikke Forsvars Pagter. Brug af vores tidligere eksempel, hvis der var en Nødsituation mod Pedro, og Gilgamesh går i krig mod Pedro, så erklærer Peter ikke automatisk krig mod Gilgamesh.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_12_CHAPTER_CONTENT_PARA_2">
+      <Text>Allierede. Alliancer har deres egen sektion i Civilopediaen, hvor de beskrives detaljeret. Disse kan kun oprettes mellem Erklærede Venner og giver Åbne Grænser og en Forsvars Pagt mellem partnerne ud over Alliancens fordele. Civilisationer i en Alliance kan ikke erklære krig mod hinanden. Du skal have Civic'en Civil Service for at oprette en Alliance. [NEWLINE][NEWLINE]Erklæret Ven. Når du vælger at erklære din venskab med en leder, kan du ikke erklære krig på hinanden, og aftaler, du laver med hinanden, vil være mere favorable. Denne relationsstatus er påkrævet for at oprette en Alliance. [NEWLINE][NEWLINE]Venlig. Dette betyder, at lederen tænker positivt om dig, og du har bedre muligheder for at få favorable aftaler med dem. [NEWLINE][NEWLINE]Neutral. Du har gjort ingenting for at forstyrre eller imponere lederen, og dine interaktioner med dem vil være standard. [NEWLINE][NEWLINE]Uvenlig. Af en eller anden grund har du gjort noget for at forstyrre denne leder, og aftaler med dem vil sandsynligvis være ugunstige for dig, eller du kan vælge at stille krav til dem. [NEWLINE][NEWLINE]Forkastet. Denne leder har ladet de andre ledere i verden vide, at du har gjort noget for at fornærme dem. Dine aftaler med dem vil være ugunstige, hvis de overhovedet vil lave dem, men du kan erklære en Formel Krig mod dem og stille krav. [NEWLINE][NEWLINE]I Krig. Åben fjendtligheder er brudt ud mellem dig, og du kan angribe eller invadere denne leder, men du vil opnå varmongs- og krigstræthedsstraffe.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_7_CHAPTER_CONTENT_PARA_3">
+      <Text>Loyalitet. Viser loyaliteten i byer og kilderne til loyalitet, som påvirker den.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_5_CHAPTER_CONTENT_PARA_2">
+      <Text>1. Du modtager ingen [ICON_Gold] Guld, [ICON_Science] Videnskab, [ICON_Culture] Kultur eller [ICON_Faith] Tro fra nogen kilde.[NEWLINE]2. Anarki har ingen regerings specielle bonus eller arv.[NEWLINE]3. Dine politikker giver ingen fordele og kan ikke indsættes.[NEWLINE]4. Du vil ikke være i stand til at ændre regeringer, indtil tilstanden af Anarki ender.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Låst op via Civics-træet vil de tilgængelige regeringsformer ændre sig, når du skrider frem gennem tiden. I begyndelsen vil du have en simpel regeringsform med kun en håndfuld slots. Men når du når senere tidsaldre, vil flere slots i forskellige kombinationer blive låst op. Udover dette har regeringsformer deres egne særlige bonusser; Theocracy-regeringsformen vil for eksempel tilføje religiøs [ICON_Strength] Styrke i teologisk kamp, [ICON_Faith] Tro per borger i byer med [ICON_GOVERNOR] guvernører og lade dig købe landenheder med [ICON_Faith] Tro og tilbyder en rabat på [ICON_Faith] Tro køb, når den er aktiv.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>En spiller kan kun opretholde et begrænset antal aktive [ICON_TradeRoute] Handelsruter. Kapaciteten bestemmes primært af antallet af Markeder og Fyrtårne, de har, men kan også øges på andre måder. Bemærk, at [ICON_TradeRoute] Handelsruter fra Markeder og Fyrtårne ikke stables i samme by – fordelene gælder kun for den første, du bygger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1">
+      <Text>Der er 6 forskellige politiktyper og 4 policyslots. Alle typer skal anvendes i en tom slot af samme type i regeringen, men en Wildcard-slot kan rumme enhver type politik</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_5">
+      <Text>Wildcard: Disse politikker fremskynder produktionen af [ICON_GreatPerson] Store Personer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_6">
+      <Text>Regering: Disse politikker giver stærke arvede bonusser for forskellige regeringstyper. De låses op, når du opfører en regeringsplads-distrikt og en af bygningerne, der svarer til en regerings tiers. For eksempel, hvis du vedtager den klassiske republik-regering og derefter konstruerer en krigsherrethrone, en forfædrehal eller et publikumskammer, vil du låse Republican Legacy Policy op.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_7">
+      <Text>Mørkealder: Hvis du kommer ind i en Mørkealder, kan du få adgang til særlige politikker, der kun gælder, mens du er i en Mørkealder. Valget af Mørkealderpolitikker vil ændre sig, når tidsaldrene forløber. Disse politikker kan give dig en særlig fordel, der måske kan hjælpe dig, men har en omkostning, der kan begrænse dig på andre måder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_1">
+      <Text>Casus Belli er den latinske udtryk for "en sag for krig". I juraen er disse juridisk anerkendte årsager til, at nationer går i krig med hinanden. I Civilization VI er det dine erklærede årsager til at gå i krig med en anden civilisation, og de påvirker andre civilisationers attitude over for dig, som afspejles af krigsforbryderstraffen i diplomati (se også Krigsførelse-sektionen i kampen).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Casus Belli repræsenterer grunde til at gå i krig, hvor den normale krigsophidselsesstraf for en krigserklæring eller erobring af byer reduceres eller elimineres. Den første Casus Belli bliver tilgængelig, efter du har forsket i Tidligt Imperium, og andre bliver tilgængelige, når du forsker i andre samfund. Du skal fordømme den anden magt for at kunne bruge en Casus Belli mod dem. Hver af disse er beskrevet nedenfor sammen med detaljerne om deres krigsophidselsesstraf.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_3">
+      <Text>Formel krig: Du kan erklære en formel krig efter at have fordømt en fjende og ventet i 5 omgange, hvorefter Formel Krig muligheden vil være tilgængelig for dig i diplomati-skærmen med dit mål. Formel krig bærer den nuværende æras standard diplomatiske straf for at erklære krig eller erobre fjendtlige byer (husk at denne diplomatisk straf øges i løbet af spillet.) Nedrivning af en fjendtlig by bærer tre gange straffen fra blot at erobre byen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_4">
+      <Text>Overraskelseskrig: Du kan erklære en overraskelseskrig næsten når som helst, men det medfører alvorlige krigsførelsesstraffe, typisk en ekstra 50% af krigsførelsesstraffen for en formel krig i den nuværende tidsalder. At erobre byer har ligeledes en ekstra straf på 50%, og at ødelægge en fjendtlig by under en overraskelseskrig er særlig ondskabsfuldt - det medfører en krigsførelsesstraf på 450% for tidsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_5">
+      <Text>Hellig Krig: Du kan erklære en Hellig Krig, hvis din religion adskiller sig fra din målgruppe, du har forsket i Diplomatisk Service Civic, og du har fordømt din målgruppe og ventet i 5 ture. Under en Hellig Krig, gælder kun 50% af den nuværende tidsalders krigsforbryderstraf for erklæring af krig, erobring af byer eller nedrivning af byer. Hvis du ønsker at rive fjendtlige byer ned, er en Hellig Krig en af de mindst diplomatiske omkostningsfulde måder at gøre det på.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_6">
+      <Text>Fælles Krig: Du kan erklære en Fælles Krig med en anden civilisation mod en målsætning. Begge partnere i Fælles Krigen skal have forsket i Udenrigshandel Civic. Fælles Krigen aftalen varer i 30 runder og medfører samme krigsførelse straf som en Formel Krig i æraen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_7">
+      <Text>Genindvindelseskrig: Du kan erklære en Genindvindelseskrig, hvis en anden civilisation har erobret en by, som du har grundlagt, og du har forsket i Defensiv Taktikker Civic. Du skal fordømme dit mål og vente i 5 ture, før du erklærer krig. Denne Casus Belli er unik, fordi den ikke medfører en krigshornpenalitet. Du kan også vælge at jævne din genindvindelsesmål ned uden straf, hvis du succesfuldt indfanger det. Måske kan du ikke bære synet af din tagne by? Du er den umulige tyrant; gør hvad du vil.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_8">
+      <Text>Protectoratekrig: Du kan erklære en Protectoratekrig, hvis en af dine allierede bystater er mål for krig af en større civilisation, og hvis du har forsket i Defensive Tactics Civic. Du skal fordømme dit mål og vente 5 omgange, før du erklærer krig. Der er ingen varmagerstraf for at erklære krig mod dit mål, men du vil lide af tidsalderens varmagerstraf, der er lig med en formel krig, hvis du erobrer en fjendtlig by. At ødelægge en fjendtlig by under en Protectoratekrig bærer tre gange tidsalderens varmagerstraf. Du kan ikke bruge en anden civs aggression mod en tredjepart som begrundelse for et landgrab.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_9">
+      <Text>Befrielseskrig: Du kan erklære en befrielseskrig, hvis en ven eller allieret har haft erobrede byer, og hvis du har forsket i Civic Diplomatic Service. Du skal fordømme dit mål og vente i 5 omgange, før du erklærer krig. Der er ingen krigsliderlighedstraf for at erklære krig mod dit mål. Du vil lide af epokens krigsliderlighedstraf svarende til en formel krig, hvis du erobrer en anden, forskellig fjendtlig by, og hvis du ødelægger en fjendtlig by, vil du lide af 600% af epokens krigsliderlighedstraf! Dette er den mest diplomatiske og dyre krigsliderlighedstraf, da det at brænde byer i frihedens navn er særligt forfærdeligt for civilisationerne i verden.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_10">
+      <Text>Kolonialkrig: Du kan erklære en kolonialkrig mod en civilisation, der ligger 2 teknologier bag dig, og du har forsket i Nationalisme Civic. Du skal fordømme dit mål og vente 5 ture, før du erklærer krig. Dette Casus Belli har kun 50% af straffen for krigsforbrydelse for tidsalderen i at erklære krig og erobre byer. Hvis du ødelægger en by, vil du modtage den fulde straf for krigsforbrydelse som en Formel Krig for tidsalderen, da verden ikke længere køber dine undskyldninger om at "bring oplysning" til dit mål.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_11">
+      <Text>Territorial War: Du kan erklære en Territorial Krig mod en civilisation, hvis du har forsket Mobilization Civic. Målet skal have 2 byer inden for 10 felter af 2 af dine byer. Du skal fordømme dit mål og vente 5 runder. Denne Casus Belli reducerer eraens Formelle Krig krigsherrestraf med 25% for at erklære krig og erobre byer. Hvis du ødelægger byer, bærer det en straf på 50% af krigsherrestrafene for at gøre det under en Formel Krig. Denne Casus Belli er nyttig, hvis du ønsker at eliminere fjendtlige byer, der er beliggende i områder, hvor du ønsker at udvide</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_12">
+      <Text>Gyldenalderkrig: Du kan erklære en Gyldenalderkrig, hvis du har valgt dedikationen "To Arms!" og fordømt dit mål. Du behøver ikke vente efter at have fordømt dit mål for at have adgang til denne Casus Belli. I løbet af denne tid er dine krigsforbrydelsespenge og byfangelsesbøder kun 25% af krigsforbrydelsesstraffen for tidsalderen, hvilket gør dette til en af ​​de mindst diplomatiske måder at få territorium fra dine rivaler. Krigsforbrydelsesstraffen for at nedbrænde en by er den samme som i en formel krig - 300% af den normale krigsforbrydelsesstraf for tidsalderen. At have en Gyldenalder giver dig ret til respekt fra andre nationer, men ikke tilladelse til at handle med straffrihed.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_13">
+      <Text>Krig for Hævn: Du kan erklære en Krig for Hævn, hvis du har forsket i tidlig kejserlig Civilisation, og en anden civilisation har brudt et løfte, de har givet dig inden for de sidste 30 runder. Du skal fordømme dit mål og vente 5 runder, før du erklærer krig. Under en Krig for Hævn har du en 50% reduktion af de officielle krigs-aggressionsstraffe for den nuværende æra for at erklære krig og erobre byer, men at ødelægge byer vil give dig en 200% straf for den nuværende æras krigs-aggressionsstraf. Selvom en fjende måske har brudt sit løfte til dig, giver dette dig ikke ret til at brænde hans byer ned som hævn</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_14">
+      <Text>Ideologisk krig: Du kan erklære en ideologisk krig, hvis du forsker i Ideologi Civics, og har en forskellig Tier 3-regering fra dit mål. Du skal fordømme dit mål og vente 5 ture. Under en ideologisk krig har du en reduktion på 50% i de krigsforbrydelsesstraffe for tiden for at erklære krig, erobre byer og ødelægge byer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_T_ROOSEVELT_CHAPTER_DETAILED_BODY">
+      <Text>Tidligt i spillet er den eneste amerikanske fordel +5 [ICON_Strength] Kampstyrke på deres hjemmecontinent. De vil gerne ekspandere hurtigt over deres kontinent og bevæge sig for at få støtte fra de nærliggende bystater. Med diplomatiske politik slots, der bliver til wildcard slots, er deres valg af regering vigtig, selvom Classical Republic og Merchant Republic er de mest nyttige med Amerikas præference: en Kultur-sejr. De bør også overveje at bygge mod National History Museum i deres Government Plaza. Med deres Film Studio, National Park bonus og to post-Industrial unikke enheder skinner de fra det 20. århundrede og fremefter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_PARA_1">
+      <Text>At erklære krig mod en anden civilisation vil give dig en straf i forhold til at håndtere andre civilisationer i spillet, kaldet warmonger straf. Dette afspejler andre lederes mistillid eller frygt for dine handlinger. Den mest almindelige måde at erklære krig på, og den metode, hvormed alle warmonger straffe beregnes, er den Formelle Krig. I dette først fordømmer en civilisation en målcivilisation og derefter erklærer en formel krig</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_PARA_2">
+      <Text>Strafpointene for krigslystne øges for hvert tidsalder, da krig bliver en mindre acceptabel løsning på uoverensstemmelser mellem verdens civilisationer. Strafpointene påvirkes også af den type krig, du erklærer. I de fleste tilfælde vil erklæring af krig og erobring af en fjendtlig by give dig strafpoint for den pågældende tidsalder, og udplyndring af en by vil give dig tre gange strafpointene for den pågældende tidsalder. Visse Casus Belli (se afsnittet om Casus Belli under Diplomati) kan ændre disse strafpoint, reducere dem for visse handlinger eller gøre dem dyrere. Andre handlinger, som brug af atomvåben, vil også ændre dine strafpoint for krigslystne</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_13_CHAPTER_CONTENT_PARA_2">
+      <Text>At plyndring af et distrikt kræver 3 bevægelsespoint eller hele din bevægelse. Hver bygning i et distrikt skal plyndres separat og giver en form for bytte baseret på distriktet. Se distriktets side for specifikke udbytter. Når en bygning er plyndret, kan den ikke plyndres igen, før dens ejer har genaktiveret den (udføres gennem produktionsmenuen og tager 25% af [ICON_Production] produktionsomkostningerne for den oprindelige konstruktion af den bygning.)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Science] Videnskab kommer fra en række kilder, inklusiv dine [ICON_Citizen] Borgere (0,5 pr. [ICON_Citizen]), dit Palads, nogle Politikker, nogle Religiøse Troer, nogle ressourcer, vidundere, handel, og selvfølgelig Campus-distriktet og dets bygninger. Gennemse Civilopedia for at finde kilder til [ICON_Science] Videnskab.</Text>
+    </Row>
+    <!-- New Concepts -->
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_EXPANSION_NAME">
+      <Text>Stigning og fald</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_PRIDE_MOMENTS_1_CHAPTER_CONTENT_TITLE">
+      <Text>Historiske øjeblikke</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_PRIDE_MOMENTS_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Historiske øjeblikke er betydningsfulde begivenheder, der finder sted gennem spillets historie, der spænder fra at være den første til at vælge en ny form for regering, til at bygge en unik enhed eller opdage naturvidundere. Der er dusinvis af disse historiske øjeblikke gennem spillet, der repræsenterer verdens første og spilleres første præstationer. Disse øjeblikke adskiller sig gennem tidsaldrene. For eksempel er det en vigtig milepæl at rydde en barbarlejr i den gamle æra, men at rydde en i den moderne æra vil ikke engang blive bemærket. Du kan se dine historiske øjeblikke når som helst i spillet ved at klikke på historieoversigten i øverste venstre værktøjslinje. [NEWLINE][NEWLINE]Hvert historisk øjeblik bidrager til din tidsalderscore, som er målet for, om du vil stige til en gylden alder eller synke ned i en mørk alder i den næste tidsalder. Hvis du opnår mange historiske øjeblikke i en æra, betyder det, at du sandsynligvis vil gå ind i en gylden alder i den næste tidsalder. Hvis du er den første spiller i verden til at få et historisk øjeblik, vil du tjene flere tidsscorepoint</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Golden and Dark Ages</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>As the game progresses from era to era your civilization can enter a Golden Age or a Dark Age. If you're doing better than the other civilizations or completing many Historic Moments, then there is a good chance you will enter a Golden Age in the next era. If you start falling behind, you might fall into a Dark Age. [NEWLINE][NEWLINE]A Golden Age is a time of great prosperity for your people. Your Loyalty decays at a lower rate than normal. Not only are your cities more likely to stay in your civilization, but you might even convert nearby cities into your civilization as well. In addition, you can choose a Dedication for the next era. Dedications are powerful bonuses that apply to a specific part of your civilization. But be aware that earning a Golden Age makes it harder to earn the next Golden Age, and easier to fall into a Dark Age.[NEWLINE][NEWLINE]Dark Ages are difficult periods of time for your people. Your Loyalty decays faster than normal, which may lead to the cities at the edge of your civilization leaving and becoming independent cities, or being conquered by other players and integrated into their civilization. You can help prevent this by using your [ICON_GOVERNOR] Governors, or by strategically choosing to lose cities (and maybe hope to reconquer them later.)[NEWLINE][NEWLINE]Don't worry or be too upset if you fall into a Dark Age because you have the chance to enter a Heroic Age. Your threshold for entering a Golden Age will be lower if you're in a Dark Age, and if you pass that Golden Age threshold, you will enter a Heroic Age. A Heroic Age lets you choose three Dedications in the next era! This may actually set you ahead of a player who goes from Golden Age to Golden Age, if you're able to take advantage of your abilities.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Hvis du overskrider Era Score tærsklen for en Dark Age, men ikke har en høj nok score til at komme ind i en Golden Age, så kommer du ind i en Normal Age. Under en Normal Age kan du stadig vælge en Dedication for den alder, men du får ikke nogen andre bonusser eller straffe.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Dark Ages giver også adgang til specielle Dark Age-politikker. Disse wildcard-politikker kan give dig muligheder for at komme ud af en Dark Age, men har en omkostning. For eksempel giver Isolationism Policy bonusser til interne [ICON_TradeRoute] handelsruter, men forhindrer dig i at bygge eller købe bosættere eller bosætte nye byer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_PARA_4">
+      <Text>Du kan fuldføre hengivelser under en normal og mørk tidsalder for at øge din tidsalder-score, hvilket giver dig en bedre chance for at opnå en gylden tidsalder i fremtiden</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LOYALTY_1_CHAPTER_CONTENT_TITLE">
+      <Text>Loyalitet</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LOYALTY_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Loyalitet er en bys målestok for dens troskab til din civilisation. Hver by har en Loyalitetsværdi fra 0 til 100, som afspejler, hvor meget [ICON_Citizen] byens borgere ønsker at blive som en del af din civilisation. Når Loyaliteten falder under 75, bliver byens udbytte og vækst straffet med 25%. Når Loyaliteten falder under 25, bliver byens udbytte straffet med 50% og væksten straffet med 75%. Når Loyaliteten når 0, gør byen oprør mod sin ejer og bliver til en Fri By. Fri Byer tilhører ingen civilisation og vil søge at forsvare sig mod militær indtrængen. Hvis en Fri Bys Loyalitet falder til 0, mislykkes deres eksperiment med uafhængighed, og de søger at slutte sig til en civilisation. Hvilken civilisation de anmoder om at tilslutte sig, afhænger af, hvem der udøvede mest pres på den frie by under deres uafhængighed. På denne måde kan en Fri By fredeligt føres ind i din civilisation (eller føres tilbage til din civilisation).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LOYALTY_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Loyalitet ændres hver tur baseret på mange faktorer, men den vigtigste faktor er presset fra [ICON_Citizen] borgere, der bor i eller nær byen. Hvis presset fra dine egne [ICON_Citizen] borgere vejer tungere end presset fra andre civilisationer, vil byens loyalitet stige (op til +20 pr. tur). Hvis presset fra andre civilisationer er stærkere, vil byens loyalitet falde (ned til -20 pr. tur). Hver [ICON_Citizen] borger udøver et grundtryk på 1, men det kan ændres. For eksempel udøver [ICON_Citizen] borgere i en hovedstad en ekstra tryk på 1. Gyldne og heroiske tidsaldre tilføjer 0,5 for alle [ICON_Citizen] borgere, mens mørke tidsaldre trækker 0,5 fra. Dette [ICON_Citizen] borgertryk påvirker byer inden for 9 felter, men er 10% mindre effektivt pr. feltafstand.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LOYALTY_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Byens [ICON_GOVERNOR] guvernør og lykke niveau er andre vigtige faktorer, der påvirker en bys loyalitet per tur. Derudover vil byer erobret med militær magt modtage loyalitetsstraf, men disse kan mindskes ved at holde en garnison af militære enheder i byen. Brug loyalitetslinsen for at få en oversigt over de faktorer, der påvirker loyaliteten, inklusiv kilderne til pres fra andre nærliggende byer. En fuldstændig opdeling af faktorer, der påvirker en bys loyalitet, kan ses i afsnittet om loyalitet og guvernører i Bydetaljer panelet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LOYALTY_1_CHAPTER_CONTENT_PARA_4">
+      <Text>For spillere, der grundlagde en Religion, får byer +3 loyalitet for at følge denne Religion, men -3 loyalitet per tur, hvis de følger en anden spillers Religion.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_TITLE">
+      <Text>Guvernører</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Guvernører [ICON_GOVERNOR] giver spillerne mulighed for at styre byer i deres civilisation på følgende måder: [NEWLINE][ICON_BULLET] At udnævne guvernører med unikke styrker og evner til at tjene i deres civilisation. [NEWLINE][ICON_BULLET] At forfremme udnævnte guvernører for at låse nye evner og effekter op. [NEWLINE][ICON_BULLET] At tildele en udnævnt guvernør til en bestemt by inden for deres civilisation. [NEWLINE][ICON_BULLET] At bruge udnævnte guvernørers særlige evner til at opnå forskellige unikke effekter i den by. [NEWLINE][ICON_BULLET] At bruge udnævnte guvernører til at øge processen med at etablere en stærkere loyalitet i byen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Der er 7 forskellige guvernører, der kan rekrutteres og forfremmes:[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_AMBASSADOR_NAME}  '{LOC_GOVERNOR_THE_AMBASSADOR_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_BUILDER_NAME}  '{LOC_GOVERNOR_THE_BUILDER_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME}  '{LOC_GOVERNOR_THE_RESOURCE_MANAGER_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_CARDINAL_NAME}  '{LOC_GOVERNOR_THE_CARDINAL_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_EDUCATOR_NAME}  '{LOC_GOVERNOR_THE_EDUCATOR_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_MERCHANT_NAME}  '{LOC_GOVERNOR_THE_MERCHANT_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_DEFENDER_NAME}  '{LOC_GOVERNOR_THE_DEFENDER_TITLE}'</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_3">
+      <Text>At udpege en guvernør:[NEWLINE] Guvernører og deres forfremmelser opnås ved brug af Guvernør Titler. Guvernør Titler bliver låst op i løbet af spillet, primært gennem Civic-træet, men også gennem opførelsen af Government Plaza-distriktet og dets bygninger samt opførelsen af Casa de Contratación-vidunderet. Når en guvernør er udpeget, kan de tildeles en by for at udføre deres opgaver. Spillere kan kun have én guvernør af hver type i deres civilisation, og kun én guvernør kan tildeles en by ad gangen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_4">
+      <Text>At forfremme en guvernør:[NEWLINE]Spillere kan også bruge guvernør titler til at forfremme guvernører, som de tidligere har udnævnt. Hver guvernørtype har et unikt forfremmelsesskema. Ved at vælge en forfremmelse låser man en ny evne op, som guvernøren kan implementere, når de er etableret i den by, de er blevet tildelt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_5">
+      <Text>Gouvernøreffekter:[NEWLINE]Der er forskellige måder, hvorpå guvernører kan påvirke en by, som de er tildelt:[NEWLINE][ICON_BULLET] Opnå identitet i byen mod deres civilisation, hvilket øger loyaliteten hos dens [ICON_Citizen] Borgere.[NEWLINE][ICON_BULLET] Anvende guvernørens særlige evner i den by ved at etablere sig der.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_6">
+      <Text>At blive etableret:[NEWLINE]Når en Guvernør først placeres i en by, er der en vis tid, før de får magt i den by. Denne tidsperiode repræsenterer den tid, det ville tage en Guvernør at skabe politikker og love, foreslå ændringer og etablere deres magt og indflydelse på den by. Mængden af overgangstid afhænger af Guvernøren. Når en bestemt Guvernør har etableret sig i en by og derefter forlader den, vil deres etablerede tid der starte med at aftage over tid. Efter den nødvendige tid træder Guvernørens specielle evner i kraft. Dette inkluderer deres grundevne samt eventuelle forfremmelser, de har fået. Disse evner er passive, i den forstand at de ikke kræver, at spilleren aktiverer dem, og de er heller ikke engangs-effekter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_7">
+      <Text>Ændring af guvernør tildelinger:[NEWLINE]Nogle gange under gameplay er det nødvendigt at ændre placeringen, hvor dine guvernører er tildelt. Guvernører kan tildeles til en anden by når som helst, men det skal huskes at det tager tid for dem at etablere sig der. Hvis en guvernør er tildelt til en by, der allerede har en guvernør, vil den eksisterende guvernør blive taget ud af byen og blive sat tilbage i din guvernør-pool, klar til at blive tildelt til en ny placering.[NEWLINE][NEWLINE]Guvernører kan kun tildeles byer inden for deres civilisation, med en undtagelse. Guvernøren 'Diplomat' er unik, fordi hun kan tildeles til en bystat samt til nogen af byerne inden for hendes civilisation. 'Diplomat' kan ikke tildeles til en bystat, som spilleren er i krig med.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_ALLIANCES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Alliancer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_ALLIANCES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Alliancer er et forhold mellem to forskellige civilisationer, en gensidig aftale om at arbejde sammen på en eller anden måde. For at indgå i en alliance skal du først erklære dig som ven med civilisationen, og begge civilisationer skal have forsket i borgerlig tjeneste.[NEWLINE][NEWLINE]Der er flere typer alliancer, og hver enkelt giver forskellige gensidige fordele i henhold til dens type. Effekterne af disse niveauer er kumulative, så hvis du er i en Level 3 Alliance, får du også Level 1 og Level 2 effekterne. Når du er i en alliance med en anden spiller, får du Alliance Points hver tur. Når du har samlet nok, øger du din Alliance Level, hvilket resulterer i flere fordele fra dine alliancer. Du kan øge hastigheden, hvormed du får Alliance Points, ved at handle med din allierede.[NEWLINE][NEWLINE]Enhver alliance, uanset dens type, giver åbne grænser og en defensiv pagt til begge parter. Medlemmer af en alliance kan ikke erklære krig mod hinanden.[NEWLINE][NEWLINE]Du kan kun have én slags alliance med en anden civilisation, og når du har oprettet den alliance, kan du ikke have den med en anden civilisation, selvom du måske har en anden slags alliance med dem. For eksempel kan du have en forskningsalliance med Korea, så du kan ikke lave en ny forskningsalliance med Cree. Du kan dog oprette en militær, kulturel, religiøs eller økonomisk alliance med Cree.Bemærk, at du kun kan have fem Alliancer i et spil. [NEWLINE][NEWLINE]Forskningsalliance[NEWLINE][ICON_BULLET]Niveau 1: [ICON_TradeRoute] Handelsruter mellem allierede giver ekstra [ICON_Science] Videnskab.[NEWLINE][ICON_BULLET]Niveau 2: Allierede deler 1 Teknologi-Boost hver 30. tur (på standard hastighed).[NEWLINE][ICON_BULLET]Niveau 3: Giver bonus [ICON_Science] Videnskab, når du studerer samme teknologi som din allierede eller en, som din allierede har fuldført, og mens din allierede forsker i en teknologi, som du har fuldført.[NEWLINE][NEWLINE]Kulturel alliance[NEWLINE][ICON_BULLET]Niveau 1: Allierede udøver ikke loyalitetspres på hinanden, og [ICON_TradeRoute] Handelsruter mellem allierede giver ekstra [ICON_CULTURE] Kultur.[NEWLINE][ICON_BULLET]Niveau 2: Når dine byer har [ICON_TradeRoute] Handelsruter med din allierede, får du ekstra [ICON_GreatPerson] Store Person-point i oprindelsesbyerne baseret på distrikterne i disse byer.[NEWLINE][ICON_BULLET]Niveau 3: Du får en del af din allieredes [ICON_Tourism] Turisme og [ICON_CULTURE] Kultur fra byer.[NEWLINE][NEWLINE]Militær alliance[NEWLINE][ICON_BULLET]Niveau 1: Allierede får bonus [ICON_Strength] Kampstyrke mod civilisationer, som begge allierede har erklæret krig mod.[NEWLINE][ICON_BULLET]Niveau 2: Allierede deler synlighed og får bonus [ICON_Production] Produktion til militære enheder, når enten allierede er i krig.[NEWLINE][ICON_BULLET]Niveau 3: Enheder starter med en bonusfremme.[NEWLINE][NEWLINE]Religiøs alliance[NEWLINE][ICON_BULLET]Niveau 1: Allierede byer udøver ikke religiøst pres på hinanden, og [ICON_TradeRoute] Handelsruter mellem allierede giver ekstra [ICON_Faith] Tro.[NEWLINE][ICON_BULLET]Niveau 2: Allierede får [ICON_Religion] religiøs kampstyrke mod religioner, som ikke er grundlagt af nogen af allierede.[NEWLINE][ICON_BULLET]Niveau 3: Du får Tro baseret på antallet af dine [ICON_Citizen] Borgere, der følger din allieredes religion, og bonusreligiøst pres i byer uden tilhængere af din allieredes religion.[NEWLINE][NEWLINE]Økonomisk alliance[NEWLINE][ICON_BULLET]Niveau 1: [ICON_TradeRoute] Handelsruter mellem allierede giver ekstra [ICON_Gold] Guld.[NEWLINE][ICON_BULLET]Niveau 2: Få et [ICON_ENVOY] Sendebudspunkt for hver Bystat med din allierede som Suzerain.[NEWLINE][ICON_BULLET]Niveau 3: Allierede deler Suzerain-bonusen for alle bystater, som de er Suzerain for.</</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_EMERGENCY_ALLIANCES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Nødsituationer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_EMERGENCY_ALLIANCES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Nødsituationer udløses som reaktion på en alvorlig handling fra en civilisation, såsom at erobre en bystat, konvertere en hellig by eller lancere et atomangreb. De andre civilisationer i spillet vil have mulighed for at slutte sig sammen imod spilleren, der udløste Nødsituationen. Civilisationer, der erklærer sig som venner eller allierede med målcivilisationen, inviteres kun til at deltage i Nødberedskabsaktioner mod svig.[NEWLINE][NEWLINE]De tilsluttede civs vil arbejde hen imod et specifikt mål, der skal opnås inden for en tidsbegrænsning. Der kan også være bonusser til medlemmer af gruppen for at hjælpe dem mod målet. Hvis målet opnås, vil alle medlemmer, der deltog i Nødsituationen, modtage en særlig belønning og en klumpsum af [ICON_Gold] Guld, men hvis tiden løber ud først, vil der blive tildelt en straf, og målcivilisationen vil i stedet modtage [ICON_Gold] Guld.</Text>
+    </Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_EMERGENCY_ALLIANCES_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Her er nødsituationerne i spillet: [NEWLINE][NEWLINE][ICON_BULLET] Militær nødsituation: En civilisation, der fører i en sejrtype, har netop erobret en anden civilisations by. Medlemmerne skal erobre byer fra målet. Medlemmerne modtager en bonus til [ICON_Movement] bevægelse i målets territorium og har fred, åbne grænser og delt synlighed med hinanden. Alle medlemmer vil gå i krig med målet, og målets [ICON_Strength] styrke reduceres, når de kæmper mod dem. Hvis de lykkes, modtager de bonus helbredelse i målets territorium i fremtiden. Hvis medlemmerne ikke kan erobre nok byer inden nødsituationens afslutning, vinder målet og modtager en permanent bonus til [ICON_Strength] styrken af deres bys rækkeviddeangreb. [NEWLINE][NEWLINE][ICON_BULLET] Bystatsnødsituation: En civilisation har erobret og besætter en bystat. Medlemmerne skal befri bystaten. Alle medlemmer vil gå i krig med målet og have fred, åbne grænser og delt synlighed med hinanden. Hvis medlemmerne befrier bystaten, modtager de [ICON_GOLD] guld per tur for hver af deres [ICON_ENVOY] udsendinge der. Hvis målet bevarer kontrollen over bystaten, vinder han og modtager bonus [ICON_GOLD] guld per tur for hver af hans [ICON_TradeRoute] handelsruter der. [NEWLINE][NEWLINE][ICON_BULLET] Religiøs nødsituation: En civilisation har konverteret en anden religions hellige by gennem en religiøs spredningsaktion. Med nødalliancer kan civilisationer samarbejde om at tackle kriser og true fjender. Der er tre typer nødalliancer, og hver af dem kræver, at medlemmerne arbejder sammen for at opnå et fælles mål. Men pas på, hvis I ikke lykkes, kan det få alvorlige konsekvenser![NEWLINE][NEWLINE][ICON_BULLET]Religionsskifte-nød: En civilisation har skiftet til en ny religion, og det er op til medlemmerne at få den hellige by tilbage til den gamle religion. Hvis det lykkes, får alle medlemmerne en relikvie. Men hvis det ikke lykkes, vil den nye religion sprede sig endnu mere.[NEWLINE][NEWLINE][ICON_BULLET]Atomkrigs-nød: En civilisation har brugt en atombombe mod en by. Medlemmerne skal erobre byer fra fjenden og får bonus til bevægelse i fjendens territorium. Hvis det lykkes, vil fjendens militær enheder få en permanent svækkelse i styrke, når de kæmper mod medlemmerne. Men hvis det ikke lykkes, vil medlemmernes byer miste loyalitet. [NEWLINE][NEWLINE][ICON_BULLET]Forræderi-nød: En civilisation har erklæret krig mod en anden civilisation, som de tidligere havde en høj alliance med. Medlemmerne skal erobre byer fra fjenden og får bonus til bevægelse i fjendens territorium. Hvis det lykkes, vil fjendens militær enheder få en permanent svækkelse i styrke, når de kæmper mod medlemmerne. Men hvis det ikke lykkes, vil handelsruter mellem medlemmerne og fjenden blive aflyst, og fjenden vil få en permanent reduktion i krigstræthed, når de kæmper mod medlemmerne.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_EMERGENCY_ALLIANCES_1_CHAPTER_CONTENT_PARA_3">
+      <Text>En civilisations evne til at deltage i en nødsituation bestemmes af deres diplomatiske relationer til andre civilisationer og bystater i spillet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FREE_CITIES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Fribyer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FREE_CITIES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>En fri by er en by, der har forladt sin oprindelige civilisation på grund af en tab af loyalitet. Disse er ikke bystater, da de sandsynligvis vil se mod at genoptage forbindelsen med en af spillets større civilisationer. En fri by har stadig en loyalitet at opretholde, og accepterer loyalitetspres fra andre civilisationer. Hvis dens loyalitet når 0, vil den slutte sig til den civilisation, der har udøvet mest loyalitetspres på den, siden den frie by blev uafhængig. Det betyder, at der er en konkurrence mod andre civilisationer, når man forsøger at tiltrække en fri by til ens egen civilisation. At maksimere ens loyalitetspres vil øge chancerne for, at man vil samle mest loyalitet og få byen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FREE_CITIES_1_CHAPTER_CONTENT_PARA_2">
+      <Text>En Fri By vil reparere plyndrede forbedringer og frembringe enheder til at forsvare sig selv, og kan bygge mure til at forsvare sig selv. Hvis den angribes af en civilisation, vil den frie by forsøge at hævne sig mod en af civilisationens byer. Ellers vil dens borgere forfølge deres egne aktiviteter og vente på at se, hvilken civilisation i verden der vil være mest attraktiv for dem.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_TITLE">
+      <Text>Dedikationer</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_1">
+      <Text>Dedikationer er en måde at fokusere væksten af din civilisation i starten af hver tidsalder, begyndende i den klassiske æra. Listen over tilgængelige dedikationer i starten af en æra ændres over spillets gang, og nogle dedikationer er tilgængelige gennem flere æraer. Under en mørk tidsalder er dedikationer en pålidelig måde at øge din æra score, mens du arbejder hen imod en heroisk tidsalder. Når du går ind i en gylden tidsalder, bliver disse dedikationer mere magtfulde, idet de ikke længere giver æra score, men nu giver væsentlige bonusser til din civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2">
+      <Text>Pen, Pensel og Stemme: Få +1 Æra Score hver gang du udløser en [ICON_CivicBoosted] Inspiration. Få +1 Æra Score for at konstruere en bygning med en storværksplads. Hvis valgt i starten af en Gylden Tidsalder, giver [ICON_CivicBoosted] Inspirationer yderligere 10% af civile omkostninger. Hver by modtager +1 [ICON_Culture] Kultur for hver specialdistrikt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_3">
+      <Text>Reform af Valutaen: Få +1 Tidsalder Point hver gang du succesfuldt fuldfører en [ICON_TradeRoute] Handelsrute. Hvis valgt i starten af en Gylden Tidsalder, kan dine Handelsmænd ikke plyndres. Internationale [ICON_TradeRoute] Handelsruter giver +3 [ICON_Gold] Guld per specialdistrikt i den udenlandske by.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_4">
+      <Text>Hic Sunt Dracones: Få +3 Era Score hver gang du opdager en ny kontinent eller naturlig vidunder. Få +1 Era Score hver gang du dræber en ikke-barbarisk søenhed i kamp. Hvis du vælger det i starten af en Guldalder, får du +3 start [ICON_Citizen] Befolkning for byer, der er bosat på en anden kontinent end din første by. +2 [ICON_Movement] Bevægelse for sø- og indskibningsenheder. +2 loyalitet per tur for byer, der ikke er på din oprindelige [ICON_Capital] Hovedstads kontinent.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_5">
+      <Text>Damplokomotivets hjerteslag: Få +2 Era Score for hver industribygning eller senere, der er konstrueret. Hvis valgt i starten af en gylden tidsalder, får du +10% [ICON_Production] produktion mod industrielle tidsalder og senere underværker. Campus-distriktets [ICON_SCIENCE] videnskabs-tilstødende bonus giver også [ICON_PRODUCTION] produktion.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_6">
+      <Text>Monumentalitet: Få +1 Era Score hver gang du konstruerer en ny specialdistrikt. Hvis du vælger dette ved begyndelsen af en gylden tidsalder, får alle Byggere +2 [ICON_Movement] Bevægelse. Du kan købe civile enheder med [ICON_Faith] Tro. Byggere og Bosættere er 30% billigere at købe med [ICON_FAITH] Tro og [ICON_GOLD] Guld.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_7">
+      <Text>Til våben!: Optjen +1 tidsalderscore hver gang du dræber en ikke-barbarisk korps i kamp og +2 tidsalderscore hver gang du dræber en ikke-barbarisk hær i kamp. Hvis valgt i starten af en gylden tidsalder, låser det op for en speciel Casus Belli, som giver 75% mindre krigsforbryderstraffe end formel krig, og som kan bruges straks efter at have fordømt målet. +15% [ICON_Production] Produktion til militære enheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_8">
+      <Text>Evangelisternes Exodus: Få +2 Era Score hver gang du konverterer en by til din grundlagte religion for første gang. Hvis valgt i starten af en Gylden Tidsalder, +2 [ICON_Movement] bevægelse for alle missionærer, apostle og inkvisitorer. Derudover får nyuddannede +2 opladninger. +4 [ICON_GreatProphet] Store profet-point per tur.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_9">
+      <Text>Fri undersøgelse: Få +1 Era Score hver gang du udløser en [ICON_TechBoosted] Eureka. +1 Era Score for at konstruere en bygning, der giver videnskab som en grund-ydelse. Hvis du vælger den i starten af en Gylden Tidsalder, giver [ICON_TechBoosted] Eurekas yderligere 10% af teknologiomkostningerne. Commercial Hub- og Harbor-distrikternes [ICON_GOLD] Guldadgangsbonus giver også [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_10">
+      <Text>Himmel og stjerner: Få +1 Tidsalderpoint for hver opført lufthavn. Få +1 Tidsalderpoint hver gang en [ICON_GreatPerson] stor person bliver tjent eller købt. Hvis det vælges i starten af en gylden tidsalder, låser det [ICON_TechBoosted] Eureka'er til Avanceret flyvning, Nuklear Fission og Raketvidenskab op, hvis man er i Atomalderen. Hvis man er i Informationsalderen, låser Eureka'erne for Satellitter, Robotik, Nuklear Fusion og Nanoteknologi op. +100% erfaring tjent for alle luftenheder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_11">
+      <Text>Løgnerens livvagt: Få +1 Era Score for hver vellykket offensiv spionageoperation. Hvis valgt i starten af en Gylden Tidsalder, tager spioner ingen tid at etablere tilstedeværelse i en fjendtlig by. Tid til at fuldføre alle offensive missioner reduceres med 25%.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_12">
+      <Text>Ønsker Du Var Her: Få +1 Era Score for hver udvundet Artefakt. Hvis valgt i starten af en Gylden Tidsalder, vil byer med [ICON_Governor] Guvernører modtage +50% [ICON_Tourism] Turisme fra Verdensvidundere. +100% [ICON_Tourism] Turisme til alle Nationalparker.</Text>
+    </Row>
+    <!-- Features -->
+    <Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_REEF_CHAPTER_HISTORY_PARA_1">
+      <Text>Revet dannes under overfladen af åbent vand og fungerer som fartbump for skibe. Selvom nogle er sammensat af uorganisk materiale såsom sand, sten eller akkumulerede skibsvrag på rev dannet af sand og sten, er de mest levende koralrev fundet i tropiske farvande.</Text>
+    </Row>
+    <!-- Resources -->
+    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TURTLES_CHAPTER_HISTORY_PARA_1">
+      <Text>På grund af vanskelighederne ved at fange skildpadder og forberede deres kød, har de historisk været forbundet med samfundets elite, hvilket har ført til overjagt. I de senere år er der imidlertid blevet indført lovbeskyttelse af vilde skildpadder og oprettet avlsoperationer for at bevare disse dyr.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_OLIVES_CHAPTER_HISTORY_PARA_1">
+      <Text>Olien og frugten af oliven har været vigtige for mennesker i hjemmet siden Bronzealderen. Dog ville romerne sprede deres brug og dyrkning mellem det første og tredje århundrede e.Kr., så langt som at kræve olivenolie som en del af deres skatteindsamling.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_AMBER_CHAPTER_HISTORY_PARA_1">
+      <Text>Bernstein har været eftertragtet for sin dekorative værdi siden neolitikum, og har også spillet en fremtrædende rolle i religiøse praksisser. Ikke kun skinnende sten, duften af ​​bernstain gjorde det også handelbart af europæiske katolikker under reformationsperioden, som anså det for en velsignelse fra Gud.</Text>
+    </Row>
+    <!-- Districts -->
+    <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GOVERNMENT_CHAPTER_HISTORY_PARA_1">
+      <Text>Mens en regering måske eksisterer i hjertet og sindet og samtykket fra folket, kræver den faktiske udførelse af regeringen skriveborde at arbejde på, arkiver til at opbevare optegnelser og mødelokaler til at diskutere statens anliggender. Det hjælper, hvis regeringen kan afsætte et sted til dedikerede skribenter, embedsmænd, sinekurshavere og politikere til at arbejde effektivt, så statens anliggender kan blive behandlet rettidigt. Gennem historien har mange civilisationer konsolideret deres bureaukratier i centrale områder og skabt regeringspladser med samlede kontorer til styring. Westminster i London, Kreml i Moskva eller Eixo Monumental i Brasilien kan alle betragtes som eksempler på regeringspladsen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_WATER_STREET_CARNIVAL_CHAPTER_HISTORY_PARA_1">
+      <Text>Berettiget en af de mest berømte strandkvarterer i verden (og interessant, navngivet efter et sted i højlandet i Bolivia) fylder Copacabana meget i brasiliansk identitet både nationalt og internationalt. Officielt placeret mellem Fort Copacabana i syd og Fort Duque de Caxias i nord, var det et luksuriøst kvarter for eliten i Rio de Janeiro for størstedelen af sin historie, med Copacabana Palace Hotel som sit største vartegn. I 1970'erne blev den smalle strand udvidet, og området blev til en populær destination for solbadere og turister af alle samfundsklasser. Det har fungeret som en stor venue til koncerter, nytårsfejringer og endda en pave Messe.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_CHAPTER_HISTORY_PARA_1">
+      <Text>Gennem historien har en af de mest populære aktiviteter i en by været at forlade den, når sommeren bliver varm. Da offentlig transport tilbød køligere muligheder til en bredere vifte af mennesker under Industrialiseringen, oplevede strandbyer et boom i deres popularitet og udvidede deres udvalg af tilbud til at omfatte faciliteter som forlystelsesparker og strandpromenader udover stranden (eller søen eller floden eller hvad som helst lokalt vandfunktion... fungerede) og bådture. Hvad der engang kun var de rige og magtfuldes domæne, er nu tilgængeligt for millioner, og når solen står op, åbner vandlandet for at underholde og køle folk mod sommersolen.</Text>
+    </Row>
+    <!-- Buildings -->
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FOOD_MARKET_CHAPTER_HISTORY_PARA_1">
+      <Text>Langt fra de fluorescerende kommercielle madproduktionscentre i dag var tidlige udendørs markeder et sted for landmænd at aflæsse overskydende afgrøder og husdyr. Kunderne kunne i gengæld inspicere maden for (relativ) renlighed.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FOOD_MARKET_CHAPTER_HISTORY_PARA_2">
+      <Text>Fødevaremarkeder ville blive en nødvendig funktion af byer, der bevægede sig længere væk fra områder med fødevareproduktion - dels handel og dels borgerligt initiativ for at holde befolkningen mætte. Nogle markeder blev bygget ved siden af byerne, hvor de blev grundlagt; for eksempel har handlende solgt ost og kød på Suq Bab al-Lūq i Cairo siden 969 CE.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_TALL_CHAPTER_HISTORY_PARA_1">
+      <Text>Med udviklingen af monarkiske og hersker-centrerede styresystemer kom ritualiseringen af herskerens adfærd i statens anliggender. Dette blev afspejlet i arkitekturen, da der var mange konkrete fordele ved at skabe særlige rum, hvor herskeren kunne se og blive set i deres rolle som statsoverhoved. Først og fremmest kunne man gøre stedet iøjnefaldende overdådigt eller højst dekorativt og imponere enhver, der trådte ind i det, endda før de begyndte at bede om ting</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_TALL_CHAPTER_HISTORY_PARA_2">
+      <Text>Et publikumsrum er en plads specifikt designet til adgang til en hersker i hans rolle som hersker. Det kan inkludere en trone (og kendt som en tronsal), eller den kan mangle en trone (selvom den normalt har en måde at gøre det klart, hvem der har magten), eller herskeren kan være så vigtig, at han simpelthen sender tjenere ud på hans eller hendes vegne, mens han sidder i den faktiske tronsal, og dermed viser, at han er alt for travlt optaget til at møde nogen lige nu.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_WIDE_CHAPTER_HISTORY_PARA_1">
+      <Text>Den Ancestrale Hal er en bygning, der er forbundet med dyrkelse af forfædre, og de bedste eksempler på disse kommer til os fra Kina (selvom varianter af konceptet er blevet bygget andre steder gennem historien). De eksisterer for at tjene som et sted, hvor de levende kan demonstrere deres respekt og ære for tidligere generationer i deres slægt, og for at afholde vigtige familiære ceremonier, såsom bryllupper og begravelser</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_WIDE_CHAPTER_HISTORY_PARA_2">
+      <Text>Som sæde for en slægtning er de en vigtig placering i identiteten for en familie. Uanset hvor langt en familie flytter, ved de, at de kan vende tilbage til deres anelov og genforbinde på en vigtig måde til deres oprindelsessted. Denne forankring af identitet er en kilde til styrke for disse mennesker, idet de føler sig som en del af en ubrudt kæde af menneskelig indsats og præstation.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CONQUEST_CHAPTER_HISTORY_PARA_1">
+      <Text>Det engelske ord "Warlord" er af relativt moderne oprindelse (det dukkede først op i 1850'erne), men konceptet med den militære leder af en civilisation med en ublu magt er en ældgammel idé. Analogiske termer som "Dux Bellorum" på latin (oprindelsen af den noble titel "hertug"), eller junfa på kinesisk i det 20. århundrede, er opstået uafhængigt flere gange i historien, uundgåeligt knyttet til ideen om en militær leder, hvis faktiske magt overstiger den af hans nominelle herskere. Selvom kongen må regere, styrer warlorden ofte.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CONQUEST_CHAPTER_HISTORY_PARA_2">
+      <Text>En succesfuld krigsherre er en, der kan omsætte succes på slagmarken til politisk kapital, og således kan mange succesfulde krigsherrer gennem historien findes opførende monumenter til deres ære (såsom Trajans Søjle), ændrende eksisterende monumenter (såsom Kleopatras Nål, hvis historie er lige så interessant som dens navn er misvisende), medbringe hagiografer (såsom dem med Alexander den Store) eller omgive sig med deres egne kredse af tilhængere (såsom Cao Cao, grundlæggeren af Wei-riket). Nogle gange betyder det at skabe en bygning, hvor krigsherren kan planlægge både militære og politiske kampagner og rådføre sig med deres betroede rådgivere - kun for statens bedste, naturligvis.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_FAITH_CHAPTER_HISTORY_PARA_1">
+      <Text>Selvom det er sjældent, er religiøse militære ordrer et interessant krydsfelt mellem det åndelige og det jordiske. De bedste har været elite soldater og har haft en plads i den kulturelle fantasi, der rækker ud over deres historiske påvirkning. I vesten var der korsfarerordener som Knights Templar, Knights Hospitalier og Teutonic Order. Japan producerede sohei, en orden af militære buddhistiske munke</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_FAITH_CHAPTER_HISTORY_PARA_2">
+      <Text>I Vesten kaldes lederen af en religiøs militærorden normalt for Stormesteren, og han kombinerede åndelig og militær ledelse i sin person og rolle. En Stormester forventedes at være et forbillede for idealerne for hans tilhængere, men blev også givet visse privilegier og beføjelser. Dette kunne inkludere retten til en privat helligdom til tilbedelse og bøn, hvor han kunne trække sig tilbage til eftertanke og få den styrke, der var nødvendig for at bringe sejr til himlens kræfter på jorden.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CITYSTATES_CHAPTER_HISTORY_PARA_1">
+      <Text>Forhold mellem civilisationer og nationer er længe blevet defineret af formalitet, da god opførsel hjælper med at berolige misforståelser og forhindre krig i at bryde ud. Dette fører naturligt til, at civilisationer rekrutterer folk til at fungere som diplomater, og for andre civilisationer at modtage disse diplomater, og når tingene bliver mere og mere komplekse, tilføjes en hel klasse af mennesker til det civile system, som er ansvarlige for at engagere sig med diplomaterne på regeringens vegne</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CITYSTATES_CHAPTER_HISTORY_PARA_2">
+      <Text>Udenrigsministeriet håndterer alle anliggender vedrørende diplomater, ambassadører, godkendelse og anerkendelse af andre regeringer og deres ministre. Det bliver ofte betragtet som en af, hvis ikke den vigtigste, kontorer for statsoverhovedet, da det fungerer som agenturet, der repræsenterer nationen eller civilisationen på verdensscenen. Ministre og udenrigsofficerer er normalt grundigt testet og screenet, fordi betydningen af gode relationer mellem folk i dag er lige så vigtig som den var, da Egypten og Babylon udvekslede diplomatiske hilsener i antikken.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SPIES_CHAPTER_HISTORY_PARA_1">
+      <Text>Der er mange statsanliggender, som skal håndteres diskret. Der er sager, hvor de praktiske løsninger er imod statens og ledelsens ønskede offentlige image. Af denne grund har herskere tendens til at stole på en lille gruppe af professionelle, som besidder diskretion og evnen til at håndtere statens hemmelige anliggender.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SPIES_CHAPTER_HISTORY_PARA_2">
+      <Text>Der er utallige og berømte eksempler gennem historien. Fortællinger om spioner kan findes i Det Gamle Testamente. Skrifter om bedste praksis for spionage, bedrag og misretning blev skrevet i klassisk Indien og Kina. Sun Tzus Kunst of War har et helt kapitel med titlen "Intelligence and Espionage", og Arthashastra har et om spionage, modspionage og informationskrig. Kong David IV af Georgien havde mstovaris, der holdt ham informeret om forskellige komplotter i hele hans område</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SPIES_CHAPTER_HISTORY_PARA_3">
+      <Text>Men den moderne efterretningstjeneste kan spores tilbage til det arbejde, der blev udført af Francis Walsingham, den frygtløse spionmester og loyale tjener for dronning Elizabeth I. Til ham og hans personale kan vi spore systematiske metoder til kodning og afkodning, overvågning af feltagenter og læsning af andres post. Vi kan hverken bekræfte eller afkræfte, om han havde et helt hold, der lavede smarte gadgets til deres spioner, som laserpenne og sportsvogne med udkastsæder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_MILITARY_CHAPTER_HISTORY_PARA_1">
+      <Text>Krigsministeriet (eller dets eufemistisk-navngivne modstykke Forsvarsministeriet) kæmper om titlen som "hovedstatens vigtigste kontor" med Udenrigsministeriet. Det er resultatet af en række kræfter: Den stigende kompleksitet af regeringsførelse, stigningen af den professionelle militær og stabsofficer korpset, og erkendelsen af, at at sætte en ukontrolleret, karismatisk krigsherredømme i spidsen for militæret kan føre til dårlige konsekvenser for regeringens langsigtede overlevelse. For en studerende af militærhistorie er det bemærkelsesværdigt, hvordan den engang kontroversielle ide om civilt kontrol med militæret nu effektivt er kodificeret på tværs af de større nationer i verden.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_MILITARY_CHAPTER_HISTORY_PARA_2">
+      <Text>I dag er USA's forsvarsministerium det største af disse krigsministerier. Med hovedsæde i den kæmpestore Pentagon-bygning i udkanten af Washington D.C. er det verdens største arbejdsgiver, overvåger verdens største militær og bruger verdens største militære budget af nogen nation (mere end det næste dusin militærer tilsammen)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CULTURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Når en nation begynder at udvikle sin identitet, søger den måder at fejre denne identitet og bevare historiske elementer, der bidrager til dette, og dermed bliver Nationalhistorisk Museum født. Dets formål er at fortælle historien om nationen og dens folk gennem indsamling og bevarelse af betydningsfulde artefakter og dokumenter og derefter tolke og vise dem til borgere og besøgende ens.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CULTURE_CHAPTER_HISTORY_PARA_2">
+      <Text>Det Nationale Historiske Museum, i sin bedste form, fejrer nationens historiske og kulturelle præstationer og alle dens sammensætningsgrupper. I den moderne tid, hvor anerkendelse af mindretals etniske og kulturelle grupper er blevet vigtigere, bliver historierne om disse grupper fortalt hyppigere og med bedre detaljer. Mens dette har haft resultatet af at udfordre bekvemme nationale myter, giver dedikationen til sandheden og genopdagelsen af glemte bidragsydere et mere nøjagtigt billede af nationens fortid, og, vi håber, klarhed over visionen for, hvordan man går frem til en bedre fremtid.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SCIENCE_CHAPTER_HISTORY_PARA_1">
+      <Text>En oplyst hersker er en, der er opmærksom på begrænsningerne af sin eller hendes viden. En særligt opmærksom hersker vil fortsætte med at holde en gruppe af lærde og filosoffer på hånden for at hjælpe med at rette disse mangler, og som fra tid til anden måske kan indledes til at arbejde på videnskabelige spørgsmål, der giver praktiske fordele for kongeriget eller staten</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SCIENCE_CHAPTER_HISTORY_PARA_2">
+      <Text>Den oprindelige Royal Society blev grundlagt i England under et charter af Kong Charles II, der ville mødes fra tid til anden og udføre eksperimenter inden for naturfilosofi eller fysiologi. Det skete, da den tidlige moderne periode var ved at begynde, og gigantiske navne som Isaac Newton og Robert Hooke var i live, og resultatet var en af de mest produktive florescenser af videnskab, der nogensinde er opstået. Vi nyder stadig godt af Royal Societys arbejde i dag.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SCIENCE_CHAPTER_HISTORY_PARA_3">
+      <Text>Siden den første Royal Society er blevet oprettet, er der blevet skabt flere nationale videnskabsorganisationer rundt omkring i verden, bestående af de bedste forskere inden for alle fagområder, der undersøger mysterierne i naturen og universet i en ånd af fri undersøgelse. Men alle af dem overholder den oprindelige Royal Society motto "Nullius in verba" - Tag ikke nogens ubestridte ord</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SHOPPING_MALL_CHAPTER_HISTORY_PARA_1">
+      <Text>Det moderne shoppingcenter er en forlængelse af antikkens offentlige markeder - dog med bedre adgang til friskbagte pretzel-hunde.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SHOPPING_MALL_CHAPTER_HISTORY_PARA_2">
+      <Text>Malls, eller indkøbsarkader, er centraliserede samlinger af butikker på én placering. Nogle, som Al-Hamidiyah Souq i Damaskus i det 19. århundrede, var i bund og grund overdækkede markeder, mens St. Petersborgs Great Gostiny Dvor ville tilbyde en tidligere 'traditionel' mall-oplevelse i 1785.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SHOPPING_MALL_CHAPTER_HISTORY_PARA_3">
+      <Text>I midten af det 20. århundrede ville det indkapslede shoppingkompleks, som vi kender det, ankomme i 1955 med Valley Fair Shopping Center i Appleton, Wisconsin og indkøbscentret i Lulea, Sverige, designet af Ralph Erskine. Frossen yoghurtstande ville følge kort tid efter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FERRIS_WHEEL_CHAPTER_HISTORY_PARA_1">
+      <Text>Krævende opgave, der krævede opfindsomheden af en broingeniør, et par 1000-horsepower motorer og en smule dynamit, gjorde den første Ferris Wheel til en af de største bedrifter ved World's Columbian Exposition i Chicago i 1893.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FERRIS_WHEEL_CHAPTER_HISTORY_PARA_2">
+      <Text>Nu en funktion i moderne messer, karnevaler og forlystelsesparker, var den første Ferris Wheel hjernebarnet af Chicago ingeniør George Washington Gale Ferris Jr. som et svar på Eiffeltårnet (en fremtrædende funktion på Verdensudstillingen i 1889).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FERRIS_WHEEL_CHAPTER_HISTORY_PARA_3">
+      <Text>I det tyvende århundrede ville midways og messer låne Ferris' design (sammen med andre forlystelser), og udvide disse fritidsaktiviteter ud over de øvre klasser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUARIUM_CHAPTER_HISTORY_PARA_1">
+      <Text>Det moderne akvarium bringer fornøjelsen ved at se de store dyr fra dybet uden at sætte ens lemmer i fare. De ville skabe en bro mellem spektakel og uddannelse.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUARIUM_CHAPTER_HISTORY_PARA_2">
+      <Text>Romerne ville starte med fisketank-spillet med deres tidlige marmorakvarier med en enkelt glasrude omkring 50 e.Kr. Men det første offentlige akvarium ville først dukke op i 1853 med opførelsen af London Zoo's 'Fish House.'</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUARIUM_CHAPTER_HISTORY_PARA_3">
+      <Text>I dag har Atlanta, Georgia verdens største akvarium, der har en imponerende hajtank på 24 millioner gallon.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUATICS_CENTER_CHAPTER_HISTORY_PARA_1">
+      <Text>Der er noget at sige om den fælles oplevelse af at nyde vandaktiviteter uden de farer, der kan opstå med vilde hav- og sødyr, der afbryder sjovet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUATICS_CENTER_CHAPTER_HISTORY_PARA_2">
+      <Text>Svømmebassiner og akvatiske centre har været en del af byer i noget tid; tag f.eks. Pakistans 'Great Bath', en af de tidligst kendte pools. Bygget engang i 3000 f.Kr., var det sandsynligvis et stykke religiøs konstruktion (som indikeret af manglen på rutsjebaner og vipper).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUATICS_CENTER_CHAPTER_HISTORY_PARA_3">
+      <Text>Sammenlign den beskedne 11,88 x 7,01 meter konstruktion med den massive, 40 meter dybe Y-40-pool i Italien (åbnet i 2014), og du kan se bredden og dybden af ​​svømmeoplevelsen.</Text>
+    </Row>
+    <!-- Units -->
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRONE_CHAPTER_HISTORY_PARA_1">
+      <Text>Da det 20. århundrede gled over i det 21., ændrede ansigtet af moderne krigsførelse og spionage sig. Droner (også kaldet "ubemandede luftfartøjer" eller "UAV'er") tillader en hær at overvåge og angribe en fjende uden at sætte deres egne soldater i fare. Selvom ingen person fysisk flyver droner, kræver de piloter - enten ved forprogrammerede flyvemønstre eller menneskelige piloter der formidler kommandoer via satellit. De kan fungere som "øjne på himlen" for farlige områder, uanset om det er krigszoner eller naturkatastrofeområder, og kan endda udføre de mest banale opgaver - pizza- og pakkelevering.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRONE_CHAPTER_HISTORY_PARA_2">
+      <Text>Overraskende er disse våben ikke en ny opfindelse - selvom den praktiske anvendelse og kamp effektivitet af tidligere forsøg var tvivlsom, i bedste fald. (Planen om "bombebærende flagermus", foreslået af en amerikansk tandlæge under Anden Verdenskrig, fungerede aldrig rigtig som et effektivt våben for de allierede.)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PIKE_AND_SHOT_CHAPTER_HISTORY_PARA_1">
+      <Text>De spanske hære udviklede en velafbalanceret forsvarstaktik efter deres katastrofale oplevelse ved Slaget ved Seminara. Enheden bestod af pikenerer og arkebusierer (infanteri med tidlige skydevåben), som bevægede sig som en samlet enhed: Pikenerer i midten med grupper af arkebusierer omkring dem. Arkebusierne kunne ramme fjender inden for rækkevidde og derefter trække sig tilbage bag den "tæppevæg" af pikenerer, når de blev truet af fjendtlig infanteri eller kavaleri. Det fungerede godt for de spanske arkebusierer, som kunne indlæse deres berygtet komplicerede våben med minimal frygt for hestetrampling.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUPPLY_CONVOY_CHAPTER_HISTORY_PARA_1">
+      <Text>Med fremkomsten af mekaniseret infanteri voksede logistikken støt. En motoriseret hær kan kun rejse så langt som dens brændstof tillader, hvorfor støttekonvojer blev livsnerven i moderne krigsførelse. Motoriserede transporter kunne bære mad, brændstof og medicinsk udstyr med mere pålidelighed og effektivitet end vogne trukket af læssetyr. De tillod også hurtigere flytning af mobile felthospitaler eller brændstofdepoter, når de opererede nær en mere flydende front.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SPEC_OPS_CHAPTER_HISTORY_PARA_1">
+      <Text>Nogle militære problemer indebærer alvorlige risici for mislykkede resultater, hvis de løses med rent militære løsninger - følsomme politiske følgevirkninger, ekstreme vejrforhold/ miljøfarer eller en vred og modstandsdygtig lokalbefolkning. Specialoperationer (kort sagt "special operations") er soldater, der er særligt trænet til at håndtere disse vanskelige situationer, der spænder fra kamp og rekognoscering til politiske eller civile anliggender. De er afhængige af overlegen færdighed, taktik og udstyr for at fuldføre opgaver, som ellers ville være umulige for større enheder, og træner i fremmede sprog og skikke i deres operative teatre. Deres styrke ligger i deres kreative tilgang til at engagere en fjende og deres evne til at handle uden tøven, uanset hvor utraditionelt eller farligt en situation kan være.</Text>
+    </Row>
+    <!-- City States -->
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_1">
+      <Text>Digteren Joseph Brodsky beskriver Venedig som "evigheden selv." Ligeledes beskrev den toscanske digter Petrarch i det 14. århundrede Venedig som "mundus alter" - "en anden verden." De er ikke alene om deres rosende ord. Forfattere, filmskabere og digtere som Lord Byron, Thomas Mann, William Shakespeare, Daphne du Maurier og mange andre har fundet inspiration i den gamle by, der klamrer sig til havets side. Byens hjerte er bygget på en ø midt i en lagune, og som sådan er Venedig en by, der lever intimt med vand. Givet dens handelshistorie er det en by, der altid har gjort dette. Faktisk ville Venedigs Doge (en term afledt af det latinske ord for "hertug", ikke "doge" som i internetmeme) symbolisk "gifte" sig med havet til særlige lejligheder. Den korrekte term for en stat som Venedig er en thalassokrati - en maritim republik. Et havland.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_2">
+      <Text>Venedigs oprindelse stammer fra de germanske og hunniske invasioner i slutningen af ​​det romerske imperium. Da romersk styre i Italien faldt fra hinanden, flyttede velhavende romerske familier til øen for at holde fast i deres formue og undgå at overføre den til snart velstående hunniske familier. Med Italien i ruiner allierede Venedig sig med resterne af Rom - Bysantinerne - men brød til sidst væk og blev en selvstændig bystat. Som Byzantium mistede magten og især efter at Konstantinopel blev plyndret af korstogsriddere i 1204, var Venedig i stand til at dominere markedet for handel med de nyankomne arabiske magter i Middelhavet</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_3">
+      <Text>I denne periode var Venedig på sit højdepunkt af magt. Venetiansk kunst var ekstremt indflydelsesrig. Venetianske kunstnere inkluderede Bellini-familien, der lagde vægt på et fokus på samspillet mellem maleri og tilgængeligt lys. Andre kunstnere inkluderede Titian, Giorgione og Veronese, alle kunstnere, der eksperimenterede med tekstur og sensualitet, lys og landskab. Den venetianske karneval med sine udsmykkede masker og kostumer forbliver et populært billede af overskud og sensualitet, og venetiansk glasblæsning er stadig en meget dygtig kunst.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_4">
+      <Text>Venedigs imperium var et handelsimperium. Men handel kommer med sårbarheder. Pesten og efterfølgende plager, som blev båret på rotters skind og skjulte sig i skibes lastrum, ødelagde byen igen og igen. I det 15. århundrede modtog Venedig to store slag - et fra øst og et fra vest. I øst støttede Venedig sin gamle allierede Byzans, da det holdt stand mod de osmanniske tyrkere, hvilket den osmanniske sultan ikke tilgav eller glemte, og Venedig så sine skibe plyndret og havne afskåret, da osmannerne fik magt over det østlige Middelhav. Yderligere skar portugisiske sømænd behovet for at handle med Middelhavet (og venetianske skibe) helt over med langdistance søhandel til Østasien.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_5">
+      <Text>Venedig mistede sin uafhængighed, da Napoleon erobrede den under krigen i begyndelsen af det 19. århundrede, som bærer den franske diktators navn. I Venedig var Napoleons erobring, selvom den endte byens uafhængighed, ikke helt dårlig. Napoleon fjernede portene til Ghettoen - området i byen, hvor Venedigs jødiske befolkning var tvunget til at bo - og tillod byens jøder at bosætte sig, hvor de ønskede, og gjorde ham til en slags helt for nogle venetianere. Efter Napoleons nederlag vendte Venedig ikke tilbage til sin uafhængighed, men blev overdraget til Østrig og senere til det nyoprettede Kongedømme Italien. Det forbliver i dag italiensk.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_6">
+      <Text>Byen er nu en af de mest kendte turistmål i verden. Den synker også ned i Adriaterhavet. Klimaændringer og stigning i havniveauet udgør en alvorlig trussel mod byen, da dens tidligere fordelagtige position på en sumpet ø i en saltvandslagune er blevet dens mest farlige funktion: for eksempel blev 80 procent af byen oversvømmet i 2019. Ægteskabet med havet, ser det ud til, er blevet mere intimt end Dogen ville have ønsket. Wow. Meget vand.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BABYLON_CHAPTER_HISTORY_PARA_1">
+      <Text>Elamitisk kunst involverede kombinationer af menneskelige og dyreformer på en måde, der kunne være slående følsom og smuk. For eksempel er proto-Elamitisk "Knælende tyr med kar", nu på New Yorks Metropolitan Museum of Art, en sølvskulptur af en blød, kødfuld menneskelig form med en tyrhoved og hove, der holder en kop op. Det er på én gang feminint og maskulint, dyrisk og menneskeligt. I modsætning til "Knælende tyr" er "Guennol Lioness" kalkstensskulpturen en kraftfuld muskuløs ogrogynøs menneskelig form med kløer, hale og et løvindes hoved - der udstråler magt, men samtidig er androgyn. Elamitiske segl - runde cylindre, der lavede et billede, når de blev rullet i våd ler - var særligt udførlige og, mens statuer og andre billeder måske havde religiøs betydning, blev segl brugt til personlig identifikation i handel</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BABYLON_CHAPTER_HISTORY_PARA_2">
+      <Text>Civilisationer stiger og falder, men Anshan forblev betydningsfuld. I 2700 f.Kr. blev Anshan erobret af sumererne i en periode, og andre gange faldt den under indflydelse af nærliggende grupper fra det nuværende Iran, men den skulle ikke falde i lang tid. Over tusind år senere, i 1500, skulle Anshan være centrum for et nyt imperium, som kæmpede mod Babylon og endda plyndrede den store by og tog statuen af den babyloniske gud-konge Marduk som en trofæ. Elamitisk dominans skulle imidlertid ikke vare ved, og byen begyndte at gå tilbage i 500-tallet f.Kr. Den bibelske profet Ezekiel beskriver Elam i tilbagegang på denne måde:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BABYLON_CHAPTER_HISTORY_PARA_3">
+      <Text>"Der er Elam og hele hendes mangfoldighed, omkring hendes grav, alle af dem dræbt, faldet af sværdet, som er gået ned ucirkumciserede til jordens nedre dele, som forårsagede deres terror i de levendes land; Nu bærer de deres skam sammen med dem, der går ned til Pit "(Ezekiel 32:24).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BABYLON_CHAPTER_HISTORY_PARA_4">
+      <Text>Over tid flyttede persere ind i Anshan og ændrede regionens karakter og genskabte byen. I en periode blev Anshan hovedstaden i Persien, og den legendariske Cyrus den Store blev født der. Selvom vi måske tænker på Cyrus som stammende fra fjerne antikken - han regerede trods alt i 550'erne f.Kr. - blev han født i en by, der allerede var 2.500 år gammel. Det vil sige, at Anshan var lige så gammel, da Cyrus regerede der, som Cyrus ville være i dag. Hvis han var i live. Hvilket han ikke er.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BABYLON_CHAPTER_HISTORY_PARA_5">
+      <Text>Den persiske opmærksomhed flyttede sig imidlertid et andet sted hen, og mens imperiet byggede en ny hovedstad i Persepolis, blev Anshan bare en anden landsby. Og så blev den til en ruin</Text>
+    </Row>
+    <!-- Improvements -->
+    <Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_FISHERY_CHAPTER_HISTORY_PARA_1">
+      <Text>Kulturer, der er afhængige af fiskeri for at trives, må på et tidspunkt tage kampen op mod truslen om overfiskeri. Jo flere fisk der trækkes op af havet, jo færre er der til at skabe flere fisk.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_FISHERY_CHAPTER_HISTORY_PARA_2">
+      <Text>En afprøvet og vellykket løsning er den ydmyge fiskeriindustri, som opdrætter fisk under kontrol for at producere en forudsigelig mængde fisk. Kulturer har praktiseret denne "bæredygtige akvakultur" i årtusinder, fra Kina's karpefiskeri til moderne kystnære lakseopdræt. Sådanne praksisser fungerer godt for alle involverede - undtagen selvfølgelig for fiskene.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CITY_PARK_CHAPTER_HISTORY_PARA_1">
+      <Text>Bymiljøer tilbyder en række fordele for menneskelig aktivitet, men bymiljøet kan også være stressende for beboere over tid. I denne sammenhæng giver offentligt etablerede og vedligeholdte rum en mulighed for at bringe mere naturlige elementer ind i byen. Romantiske forestillinger om naturen og progressive holdninger til offentlige rekreative områder i det 19. og 20. århundrede påvirkede både skabelsen af nogle af de mest berømte parker (såsom Central Park i New York) og åbningen af tidligere begrænsede parker (som Regent's Park i London eller Casa de Campo i Madrid)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CITY_PARK_CHAPTER_HISTORY_PARA_2">
+      <Text>Byparken vil blive set positivt af byens borgere, fordi den giver mange ting: En oase af natur, en plads til borgermøder og engagement, og sommetider som et sted for optrædener. Her, under træerne, kan folk tage et øjeblik til at være mennesker og ikke kun den rolle, de spiller i deres daglige arbejde.</Text>
+    </Row>
+    <!-- Great People -->
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_TIMUR_CHAPTER_HISTORY_PARA_1">
+      <Text>Timur (ofte kendt som "Timur den Lamme" eller "Tamerlane" i Vesten) var en tyrkisk mongolsk krigsherre fra det 12. århundrede, en frygtindgydende og brutale hersker, der steg fra ydmyge begyndelser for at etablere en dynasti i Iran og Centralasien inden sin død, hvilket førte til en æra af blomstrende kultur bagefter</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_TIMUR_CHAPTER_HISTORY_PARA_2">
+      <Text>Han blev født i 1336 nær Samarkand. Det var en urolig del af verdenen, i en urolig æra. Mindre end et århundrede tidligere havde Genghis Khan og Mongolriget fejet gennem Centralasien og opdelt regionen i efterfølgerkongeriger. Timur blev født ind i Chagatai Khanate, nedstammet fra en mongolsk gruppe, der havde bosat sig i området, som er Uzbekistan i dag. Timur startede som en leder af en lille nomadisk gruppe, og ved hjælp af den samme blanding af ikke-konventionel krigsførelse, politisk intriger, diplomatiske forhandlinger og en skræmmende rygte som Genghis Khan, steg han til at styre hele Transoxania, før han fyldte 40 år. Han tilbragte resten af sit liv i krig</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_TIMUR_CHAPTER_HISTORY_PARA_3">
+      <Text>Timur påstod at være genopretteren af Mongoliet, og hans liste over erobringer og succesfulde kampagner er imponerende. Han startede med Persien, og fortsatte derefter med erobringer i det nordlige Indien, Rusland, Georgien, Mesopotamien, Syrien og Egypten, før han døde i begyndelsen af sin kampagne mod Kina i 1405. Men han var ingen nådig erobrer; Timurs kampagner er berømte for brutalitet og blodbad. Han gjorde alle håndværkerne i byen Aleppo til slaver og trak dem i kæder tilbage til sin hovedstad Samarkand. Han efterlod byerne Delhi og Baghdad som ruiner. Samtidige forfattere beskylder ham for at have skabt tårne og pyramider ud af sine fjenders kranier, hvilket ikke virker umuligt</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_TIMUR_CHAPTER_HISTORY_PARA_4">
+      <Text>Han havde brugt masser af penge på sin hovedstad Samarkand, selvom han tilbragte meget lidt tid der. Efter hans død blev byen et center for kunst og kultur, med bidrag fra Seljuk-turkerne (som arkitektur) og Persien (som kunst og litteratur) samt dens lange tradition for handel og erhvervsliv. Hans efterkommere beholdt det territorium, han erobrede, i størstedelen af et århundrede, indtil Timurid-imperiet kollapsede på grund af intern uro og fratricid.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_TIMUR_CHAPTER_HISTORY_PARA_5">
+      <Text>I Nasreddins visdomshistorier optræder Timur nogle gange som den grusomme og magtfulde modspiller til Nasreddins enkle, folkelige visdom. Det anbefales, at interesserede læser dem.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN_CHAPTER_HISTORY_PARA_1">
+      <Text>En dygtig portugisisk kaptajn og navigator i spansk tjeneste, Magellan er berømt for at lede den første ekspedition til at sejle hele vejen rundt om planeten, selvom han selv kom en voldelig ende før rejsens afslutning.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN_CHAPTER_HISTORY_PARA_2">
+      <Text>Født i 1480 i en fornem portugisisk familie, tjente han kort som hofsiden. Han sejlede til Indien som en del af en kontingent, der installerede den portugisiske vicekonge, og boede der i næsten et årti, før han blev afskediget fra portugisisk tjeneste for at have drevet en uautoriseret handelsvirksomhed. Traktaten i Tordesillas havde for nylig delt verden mellem Spanien og Portugal og gav den driftige Magellan muligheder for at tjene som opdagelsesrejsende i spansk tjeneste. I marts 1518 gav Charles I af Spanien Magellan en betydelig bevilling for at finde en rute til Spice Islands ved at rejse vestpå, og i september 1519 afrejste Magellan med fem skibe og 270 mænd.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN_CHAPTER_HISTORY_PARA_3">
+      <Text>Ekspeditionen var en anstrengende affære. At krydse Atlanterhavet tog længere tid end forventet og næsten førte til en mutiny. En skib gik tabt, da de ledte efter en havvej gennem Patagonien, og en anden opgav simpelthen ekspeditionen. Da en strait gennem spidsen af ​​Sydamerika blev opdaget og kortlagt, og ekspeditionen indtrådte Stillehavet, antog Magellan, at Spice Islands kun var nogle få dages sejlads væk, og undervurderede fuldstændig størrelsen af ​​Stillehavet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN_CHAPTER_HISTORY_PARA_4">
+      <Text>Magellan blev dræbt i en mindre konflikt på øen Mactan på Filippinerne, efter at have indblandet sig i en lokal krig mellem stammer. Kun 18 overlevende besætningsmedlemmer og ét skib (det mindste i den oprindelige flåde) vendte tilbage til Spanien den 6. september 1522. De overlevende fik aldrig deres fulde løn udbetalt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN_CHAPTER_HISTORY_PARA_5">
+      <Text>Ekspeditionen resulterede i en række videnskabelige opdagelser (herunder bekræftelse af den korrekte størrelse af planeten), men vigtigere beviste den muligheden for at sejle rundt om planeten. Den europæiske opdagelsestid var nu i fuld flor.</Text>
+    </Row>
+    <!-- Governors -->
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_CARDINAL_CHAPTER_HISTORY_PARA_1">
+      <Text>En kardinal er en af ​​de højeste rang af præster i den romersk-katolske kirke, selvom lignende kirkelige rang findes i mange andre religioner, såsom visse metropolitiske af ortodokse kirker eller lamaen i Vajrayana-buddhisme. Embedet kan indebære tilsyn med store dele af ejendom eller store grupper, der er ansvarlige for vigtige aspekter af troen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_AMBASSADOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Diplomater er repræsentanter for deres folk i andre dele af verden og er en af de ældste og mest respekterede roller i tjeneste for staten. Diplomater tildeles traditionelt privilegier og respekt, og i gengæld viser diplomaten både politesse og høflighed over for sin vært.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_DEFENDER_CHAPTER_HISTORY_PARA_1">
+      <Text>En Castellan er en militær officer ansvarlig for at lede de daglige anliggender på en borg eller fæstning og det område, der straks omgiver den. Da borge var massive investeringer af skatte og vigtige punkter for militær magt, skulle castellanen både være kompetent og politisk pålidelig. I krigstider kunne en kompetent castellan bestemme kampagnens skæbne og dermed også den historiske udgang</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_RESOURCE_MANAGER_CHAPTER_HISTORY_PARA_1">
+      <Text>Titlen "steward" stammer fra Middelalderen og gives til repræsentanten for en herre på et godser, som kan handle på deres vegne i deres fravær. Det er en position af stor tillid og betydning, og en god steward arbejder for at forbedre godsets rigdom.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_BUILDER_CHAPTER_HISTORY_PARA_1">
+      <Text>Der er en gammel joke, der siger: "Investér i jord; de holder op med at lave det." Sandheden er, at effektiv brug af jord er en vigtig opgave, og effektiv brug af plads begynder med at forstå, hvad du har gennem opmåling og kortlægning. Opmåling er endnu en fag, der går tilbage til antikken og som nød betydelig støtte fra dem, der forstår værdien af jord.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_EDUCATOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Undervisere er mere end lærere - de er vogtere af videnskaben gennem tiderne, og dedikerer deres liv til at bevare og sprede information. Da uddannelse er blevet mere udbredt og omfattende, er underviserens rolle også vokset i at finde nye og effektive måder at formidle den samlede visdom fra tiderne til deres elever.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_MERCHANT_CHAPTER_HISTORY_PARA_1">
+      <Text>En finansmand er en embedsmand, der er ansvarlig for at løse budget- og finansielle spørgsmål, hvilket kræver en skarp forståelse af økonomi og markedspsykologi. At jonglere med statens penge er ikke noget for sarte sjæle.</Text>
+    </Row>
+    <!-- Espionage -->
+    <Row Tag="LOC_PEDIA_ESPIONAGE_FABRICATE_SCANDAL_CHAPTER_HISTORY_PARA_1">
+      <Text>En politisk leder uden følgere udgør ingen trussel, og en af de bedste måder at fjerne disse følgere på er at gøre lederen uspiselig for offentligheden. En god skandale gør som regel arbejdet, og at afsløre eller opdigte skandaler er en del af den kompetente efterretningstjenestes standardværktøj. Selv i tilfælde, hvor den underliggende skandale er helt opdigtet, skal målet stadig bruge værdifuld politisk kapital på at afvise påstanden. Der er en rig lexikon af termer involveret i denne praksis, såsom kompromat, honningfælde og modstandsundersøgelser. En succesfuld kampagne af skandale kan ikke kun vælte en leder, men diskreditere hele deres parti og fjerne dem fra magten.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_ESPIONAGE_FOMENT_UNREST_CHAPTER_HISTORY_PARA_1">
+      <Text>Der er altid forskellige synspunkter på spørgsmål om regeringsførelse. Nogle gange repræsenterer disse dissenser virkelig marginale meninger fra randgrupper, men udøver en stor vægt i den politiske diskussion. Og nogle gange skyldes det, at disse grupper får lidt hjælp udefra. Efterretningsofficerer er ofte trænet til at lede efter dissidenter, der søger støtte, tage kontakt og hjælpe disse grupper med at blive mere effektive end de ville have været med deres egne ressourcer. Dette sker normalt med henblik på at distrahere eller underminere målene og praksisserne for den målrettede regering. Der er endda en betegnelse for en efterretningsofficer, der er dygtig i denne praksis: Agent provokatør</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_ESPIONAGE_NEUTRALIZE_GOVERNOR_CHAPTER_HISTORY_PARA_1">
+      <Text>En af de mest beklagelige former for spionage involverer at eliminere nøglepersoner - eufemistisk kaldet "neutralisering" - og denne beklagelige praksis er gammel nok til at være kodificeret i den indiske statsmandshåndbog Arthashastra i det 2. eller 3. århundrede f.Kr. Adskillige ledere i Civilization VI var mål for forsøg på neutralisering. Mange ledere har lidt en for tidlig afslutning på deres karriere på grund af neutralisering.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_ESPIONAGE_NEUTRALIZE_GOVERNOR_CHAPTER_HISTORY_PARA_2">
+      <Text>Ikke desto mindre er neutraliseringen i dette spil aldrig endegyldig for Guvernøren, som enten bliver skudt med en bedøvelsespil og tager en lur i en periode, eller oplever en skræk og må bruge noget tid på at berolige sine nerver med en god kop te.</Text>
+    </Row>
+    <!-- Spy Promotions -->
+    <Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_SPY_LICENSE_TO_KILL_CHAPTER_HISTORY_PARA_1">
+      <Text>I spionagelitteratur findes der et trope om "licens til at dræbe" - sanktion til at begå ekstrajudicielle henrettelser i statens navn. I disse historier gives det kun til de mest eliteagenter for de farligste missioner. I virkeligheden er der betydelig tilsyn med ekstrajudicielle henrettelser og brugen af dødbringende magt, da denne magt kunne misbruges af de involverede agenturer. I det mindste er det sådan, det skal fungere.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_SPY_SMEAR_CAMPAIGN_CHAPTER_HISTORY_PARA_1">
+      <Text>En smædekampagne er en koordineret indsats for at sænke status eller popularitet af en person eller organisation ved at fremføre ukarakteristisk information om dem. Det hjælper, hvis materialet er faktisk sandt (og skandalerøst), men ud-af-sammenhængs citater eller glemt information fra ofrets fortid kan også bruges. Nogle gange er materiale fabrikeret og passede ud som sandt, da ofrets benægtelse ofte kun tjener til at bringe mere opmærksomhed på smærekampagner.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_SPY_COVERT_ACTION_CHAPTER_HISTORY_PARA_1">
+      <Text>En dækket handling er en politisk handling, som ikke påstås af en stat eller som ville blive taget afstand fra, hvis beviser for den blev afsløret. Dette omfatter størstedelen af aktive spionagemissioner og kontraspionage-operationer såvel som en hel række andre aktiviteter. Kun et lille antal personer er informerede om, planlægger eller udfører missionen for at minimere muligheden for, at den dækkede handling vil lække ud i almen bevidsthed</Text>
+    </Row>
+    <!-- Governor Titles -->
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_CHAPTER_HISTORY_PARA_1">
+      <Text>Stigningen af strategisk bombing af byer i det 20. århundrede førte til oprettelsen af systemer til luftforsvar for bycentre. Den egentlige boom i byens luftforsvar begyndte under 1. verdenskrig med søgelygter og artilleri og fortsatte godt ind i den tidlige kolde krig med radar netværk og missilaffyringsramper. Til sidst blev atomvåben og interkontinentale ballistiske missiler så kraftfulde, at hele ideen om luftforsvar blev noget quixotic, og interessen for civil luftforsvar aftog.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_CHAPTER_HISTORY_PARA_1">
+      <Text>Velstand er kvaliteten af rigelig rigdom, som normalt defineres som tilstrækkelig rigdom, så ejeren ikke længere behøver at bekymre sig om overlevelse og kan bruge deres penge på fritidsaktiviteter. Penge kan måske ikke købe lykke, men pæne ting kan gøre sorger lidt lettere at bære</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_CHAPTER_HISTORY_PARA_1">
+      <Text>En sendebud er en repræsentant sendt på en specifik diplomatisk eller politisk mission. Ofte har de en bestemt mandat, såsom at sikre en fredsaftale eller at være vidne til efterfølgelse. Det er en rolle, der kræver diplomati og takt. En sendebud kan ikke være sikret immunitet, som gives til diplomater.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_CHAPTER_HISTORY_PARA_1">
+      <Text>En officielt sanktioneret budbringer er en person, der kan bære eller præsentere en besked på vegne af statens herskere. Selvom dette virker ligetil, er det stadig værd at overveje, at budbringerens rolle var så vigtig, at mange religioner indarbejdede en budbringer-gud i deres pantheon</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Prestige er respekt og indflydelse, der opstår som følge af succes. Prestige skal tjenes gennem gerninger og tildeles ikke automatisk. Det er almindeligt at bruge diplomater til at forbedre deres nations prestige på verdensscenen, hvilket kan føre til politisk fordel i fremtidige forhandlinger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER_CHAPTER_HISTORY_PARA_1">
+      <Text>En promotor skaber opmærksomhed omkring et arrangement eller et sted for at tiltrække mennesker dertil. Der er en kunst i at promovere, da promotoren skal gøre deres sag så attraktiv, at folk vil overvinde deres naturlige træghed og komme for at se dette, som de har hørt så meget om</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_CHAPTER_HISTORY_PARA_1">
+      <Text>Dukkemageren manipulerer mennesker som redskaber for at opnå deres ønskede mål, men på en måde så deres egen rolle kan fornægtes (eller i det mindste ikke er åbenlys for offentligheden). Dukkemageren skal være en mesterlig politiker eller besidde tilstrækkeligt med beskidt vasketøj på deres emner for at tvinge deres deltagelse og tavshed.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AQUACULTURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Fra nogle af de tidligste jæger-samler kulturer, har kystboende mennesker høstet naturlige fiskebestande til deres fordel ved at konstruere spærrer og fiskebassiner. Mens landbaseret landbrug er blevet dyrere og naturlige fiskebestande trues, søger akvakulturbevægelsen måder at skabe bæredygtige, forvaltede populationer af skaldyr på. Akvakultur-opdrættet skaldyr udgør i dag en voksende procentdel af verdens skaldyrsproduktion</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_ARCHITECT_CHAPTER_HISTORY_PARA_1">
+      <Text>Offentlige former for rekreation og fornøjelse er en almindelig måde for en leder at opnå popularitet hos deres befolkning. Evnen til at organisere og styre succesfulde offentlige underholdninger har været meget eftertragtet siden mindst Roms tid</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_CHAPTER_HISTORY_PARA_1">
+      <Text>Mesteren er lederen af et håndværkergilde. En mester er ansvarlig for at opretholde gildets betydning i byens politiske og økonomiske liv og sikre en gnidningsfri overførsel af gildets hemmeligheder og praksisser fra mestre til lærlinge. De fleste mestre vælges af deres kolleger, så det er en stilling af stor prestige og samfundsmæssig betydning.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_BISHOP_CHAPTER_HISTORY_PARA_1">
+      <Text>Titlen "Biskop" bliver mest almindeligvis brugt af kristne ledere, som er ansvarlige for kirkelige anliggender i et geografisk område kaldet en stift. De fleste stifter er centreret i byer, en proces der begyndte i Romerriget. Historisk set har biskopper erhvervet betydelig sekulær politisk magt udover deres åndelige autoritet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_CHAPTER_HISTORY_PARA_1">
+      <Text>Et fysisk slot kan fyldes med åndelig betydning, hvis konflikten, som det er bygget i, omfatter en religiøs dimension. Mont Saint-Michel er et fremragende eksempel på, hvad der kunne betragtes som en "Guds fæstning", ligesom befæstningen i Masyaf, berømt hjemsted for assassinerne.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_CHAPTER_HISTORY_PARA_1">
+      <Text>Der er traditioner for guddommeligt-inspireret arkitektonisk design og planlægning rundt om i verden. For eksempel bliver Himalayas dzongs (en slags massivt befæstet klosterkompleks) traditionelt bygget uden brug af arkitektoniske planer, hvor lamaen giver en guddommeligt-inspireret vision, og hans arbejdere bringer det til virkelighed.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_CHAPTER_HISTORY_PARA_1">
+      <Text>En storinkvisitor er en religiøs inkvisitor af særligt høj rang eller en, der fungerer som en slags appeldomstol for inkvisitorernes domme. De kan håndtere forhandlinger mellem verdslige og religiøse organer om jurisdiktion over forbrydelser med en religiøs komponent. Det er svært at forestille sig, at nogen udtrykker glæde over at blive indkaldt foran en storinkvisitor</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_CHAPTER_HISTORY_PARA_1">
+      <Text>At lægge hænderne på er en gammel religiøs gestus, der repræsenterer velsignelse, salvelse af særlig hellighed eller mirakuløs helbredelse. Former for at lægge hænderne på praktiseres af mange store religioner og er kodificeret i større eller mindre grad i disse religioner</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_CHAPTER_HISTORY_PARA_1">
+      <Text>Mange religioner lovpriser hellige personer og knytter deres liv til steder og praksis. Helgenen kan derefter fungere som mellemmand for folk fra det sted eller den profession. Der er et overvældende antal og bredde af skytshelgener, såsom Guan Yu (som hævdes af både gangstere og politi i Hong Kong), Saint Denis, skytshelgen for Paris (afbildet med sit eget afskårne hoved), eller Saint Gertrude af Nivelles, skytshelgen for katte.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_CHAPTER_HISTORY_PARA_1">
+      <Text>Der er en gammel militær talemåde: "Amatører studerer strategi; eksperter studerer logistik." En hær kan ikke kæmpe, hvis den ikke har kugler eller brød, så den konstante forsyning af disse ting tager en betydelig del af en generals tid. Gjort godt kan endda en lille styrke sejre. Gjort dårligt, og krigen er slut, før den er begyndt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_CHAPTER_HISTORY_PARA_1">
+      <Text>En våbenkapløb ses normalt som en dyr, uønsket og farlig sag for stater at engagere sig i, da det hurtigt kan overvælde statskassen og potentielt forårsage utilsigtede krige. Men der er nogle politiske filosoffer, der påpeger, at den sidste nation tilbage i et våbenkapløb kommer ud som vinderen, og hvis man kan ruinere sin modstander undervejs, så meget desto bedre. Dette har ført til ting som panserskibskapløbet før Første Verdenskrig og Den Strategiske Forsvarsinitiativ under Den Kolde Krig, som i retrospekt virker som om, de ikke var den klogeste brug af alles skattekroner</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_CHAPTER_HISTORY_PARA_1">
+      <Text>En kender er en person, som værdsætter subtile nuancer og forskelle i kvaliteten af en ting, såsom mad, vin eller kunst. Evnen til at skelne og udtrykke kvaliteten af fornøjelser er prisværdig i hedonistiske filosofier som epicurisme. Gnavne naysayers og uuddannede er mere tilbøjelige til at gøre nar af kenderens vaner og eksklusive smag. Hvor uforskammet!</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_CHAPTER_HISTORY_PARA_1">
+      <Text>En bevilling er en gave af offentlige midler til et forskningsprojekt. Regeringer sponsorerer primær forskning i håbet om, at dette vil give anledning til anvendelse af forskningen, og dermed føre til forbedringer af livskvaliteten eller nye produkter og tjenester. Internettet er et vidunderligt eksempel på et bevillingsfinansieret forskningsprojekt, der fortsatte med at have en dybtgående indflydelse på historien.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_CHAPTER_HISTORY_PARA_1">
+      <Text>En bibliotekar er ansvarlig for at vedligeholde bøgerne på et bibliotek samt erhverve nye, der opfylder bibliotekets standarder. Dette er en relativt gammel profession, som krævede sjælden ekspertise i at læse og evaluere tekster. Bibliotekarer fungerer også som arkivarer og bevarende af værdifuld viden for kommende generationer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_CHAPTER_HISTORY_PARA_1">
+      <Text>"Research" kommer fra det franske ord "rechecher", som betyder "at gå omkring og søge," og er motiveret af en ønske om at fremme menneskelig viden. Forskning er skabelsen af ny viden ved observation eller ny analyse. Titlen og rollen som forsker har ændret sig over tid og på tværs af kulturer, men historien er fyldt med eksempler på mennesker, der var engageret i at søge viden og åbent dele deres opdagelser. Vi skylder meget til disse mennesker.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_CHAPTER_HISTORY_PARA_1">
+      <Text>Rumprogrammer er ofte utroligt populære i nationen, og denne offentlige støtte er vigtig med tanke på omkostningerne og risiciene forbundet med dem. En god ruminitiativ formidler til offentligheden den potentielle og faktiske gevinst fra det videnskabelige program og sikrer den populære opbakning. Og selv i de seneste år har det opfordret borgere og studerende-videnskabsfolk til at bidrage på meningsfulde måder til det igangværende forskningsprogram.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EMBRASURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Teknisk set er en embrasure en åbning eller sprække i en befæstning for at tillade skydevåben at ramme, samtidig med at beskytte deres brugere. Det kan også generelt anvendes på placeringen af skydeområder som en del af et forsvarssystem, ofte dygtigt overlappende, hvilket gør tingene meget farlige for angribere</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_GARRISON_COMMANDER_CHAPTER_HISTORY_PARA_1">
+      <Text>En garnison er en fast styrke af soldater tildelt en befæstning. Garnisonskommandøren fører disse tropper, og er ansvarlig for at opretholde befæstningerne også. I fredstid kan dette være en meget kedelig opgave. Men i krigstid kan garnisonskommandøren have en meget forstørret styrke og håndtere de militære operationer i det nærliggende område.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_INFRASTRUCTURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Infrastruktur er den materielle overflade, som livet bygger på: Veje, broer, havne og så videre. Selv om det måske ikke er særlig spændende, spiller infrastruktur en afgørende rolle for samfundets sundhedstilstand. God infrastruktur sænker omkostningerne ved at transportere materialer til markederne, hvilket forbedrer markedseffektiviteten og sænker priserne over hele linjen. Civilisationer med god infrastruktur kan hurtigt gå til grunde, når infrastrukturen begynder at smuldre</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Regeringer udsteder ofte kontrakter til den offentlige sektor for at håndtere sager, i håbet om at den offentlige sektor kan håndtere detaljerne effektivt og omkostningseffektivt. Denne proces har uundgåeligt ført til specialisering af offentlige tjenestemænd, der kan udforme og overvåge disse kontrakter, følge op med entreprenørerne om opdateringer og indsende endeløse statusrapporter om, hvordan kontrakterne udfolder sig.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_CURATOR_CHAPTER_HISTORY_PARA_1">
+      <Text>En kurator er en person, der specialiserer sig i fortolkningen af kunst og artefakter og præsenterer dem for offentligheden på en måde, der letter læring og forståelse. Dette er en vigtig og givende stilling og kan føre til at tænde den næste generations fantasi af forskere og kuration i en felt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Siden oprettelsen af møntfoden har der været en aftale om, at ikke alle mønter værdisættes ens. Fra dette opstod valutaveksling, som tillod handlende at få lokal-accepteret valuta i bytte for den mønt, de ankom med, og som normalt tillod veksleren at beholde en procentdel af transaktionen. Det engelske ord "bank" stammer fra det italienske "banca", som var navnet på disken, hvor middelalderlige pengefolk udførte valutaveksling.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_CHAPTER_HISTORY_PARA_1">
+      <Text>Havnemesteren har ansvar for den daglige drift af havnen, registrerer indgående skibe og deres last og opkræver de afgifter, der skyldes. De skal sikre en glat og regelmæssig drift af deres havn, for at undgå at miste sin gode rygte og forhindre, at den værdifulde handel søger andre, mere venlige havne.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_CHAPTER_HISTORY_PARA_1">
+      <Text>Staten har brug for jord, og staten vil erhverve jord. Metoder til at erhverve jord til staten er gamle, og de fleste moderne stater har en tilsvarende juridisk koncept kaldet " eminent domain", hvor privat ejet jord kan tvinges fra enkeltpersoner til brug for staten, til gengæld for den retfærdige markedsværdi af den pågældende jord</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_CHAPTER_HISTORY_PARA_1">
+      <Text>En af kun to uundgåeligheder i den menneskelige tilstand, skatteopkrævere er nogle af statens vigtigste og mindst populære medarbejdere. Uden indtægter til at finansiere statslige operationer ville mange offentlige goder ikke være mulige. Metoder til at indsamle skatter gennem historien har spændt fra relativt harmløse til skandaløse. Forestil dig, at din guvernør med denne evne formår at gøre det uden at vække folkelig vrede.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_PARKS_RECREATION_CHAPTER_HISTORY_PARA_1">
+      <Text>Udvidelse af opmærksomheden omkring vigtigheden af offentlig jord og offentlig rekreation (især omkring den Progressive Era i det 20. århundrede) førte til dannelse af regeringsorganer til at overvåge effektiv brug af disse offentlige goder. Synet af en travl offentlig park på en behagelig dag er beregnet til at hæve humøret - ikke kun for Parks and Recreation Commission, men for enhver samfundsmindet borger.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_REDOUBT_CHAPTER_HISTORY_PARA_1">
+      <Text>En redoute er en lille fæstning, et lokalt defensivt fokuspunkt i et større system af forsvar. Forsøg på at erobre (eller holde) en redoute har vist sig afgørende ved mange lejligheder i militærhistorien og har fungeret som scenarier for handlinger af usædvanlig tapperhed</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_CHAPTER_HISTORY_PARA_1">
+      <Text>En "sort marked" er en markedsplads, hvor ulovlige eller ikke-licenserede varer købes og sælges. Nogle regeringer tolererer visse sorte markeder, især hvis de mener, at de varer, der sælges, ikke er sandsynlige til at vælte staten. Faktisk kan det være til fordel for en regering at have adgang til nogle af disse varer, hvis de skal erhverves på en ikke-afviselig måde</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_CHAPTER_HISTORY_PARA_1">
+      <Text>Provisionering er at forsyne noget med de grundlæggende værktøjer og materialer, der fører til succes. Selvom det oprindeligt henviste til mad, betyder det nu grundlæggende forsyninger på en mere generel måde. Effektiv provisionering fører til større chancer for succes for nye virksomheder i deres sårbare vækstfaser.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_CHAPTER_HISTORY_PARA_1">
+      <Text>"At tage første spadestik" er starten på konstruktionen af en bygning og kan også bruges mere generelt til at betyde starten på ethvert projekt. Det er det tidspunkt, hvor en plan går fra at være teoretisk til at blive til fysisk eksistens, og som sådan har det en betydelig ceremoniel betydning.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_CHAPTER_HISTORY_PARA_1">
+      <Text>En industrimand har tilsyn med oprettelsen eller udvidelsen af en industri ved at bygge fabrikker og ansætte arbejdere i stor stil. Dygtige industrimænd ser muligheder, når markedsmuligheder begynder at opstå, og arbejder på at opfylde (eller skabe!) behov for deres varer.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_CHAPTER_HISTORY_PARA_1">
+      <Text>For meget af en god ting kan være spild af ting. At få dine ekstra gode ting til steder, hvor gode ting er knappe, er hjælpsomt, men det kræver en masse arbejde med at organisere og transportere tingene til de steder, hvor de er mest nødvendige. Heldigvis er der mennesker, som har en naturlig evne til denne slags ting. Og det er en god ting.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_CHAPTER_HISTORY_PARA_1">
+      <Text>I forretningsverdenen er vertikal integration processen med at kontrollere produktionen og distributionen af et produkt på mange punkter i dets forsyningskæde. Det klassiske eksempel er et bilfirma, der ejer stålværker for at levere stålet, der bruges til at bygge deres biler. Denne praksis har den fordel at give en pålidelig kilde til materialer til at producere et produkt. Men taget til yderligheder skaber vertikal integration monopolier</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECURITY_EXPERT_CHAPTER_HISTORY_PARA_1">
+      <Text>At holde vigtige personer og kritisk viden beskyttet mod fjendtlige aktører er en vigtig opgave, som kræver overvejelse af usandsynlige farer og risici og at behandle dem, som om de var uundgåelige. Succesfulde sikkerhedseksperter forudser fjendtlige handlinger og forebygger dem, eliminerer svagheder og fører ondskabsfulde personer ind i snedige fælder.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_CHAPTER_HISTORY_PARA_1">
+      <Text>Zoning er processen med at bestemme, hvordan jord bliver brugt for at undgå uønskede situationer som mennesker, der bor ved siden af farlige eller skadelige industrier eller virksomheder. Kommissæren er personen, der afgør zonelovene, og har som sådan betydelig magt over, hvor specifikke aktiviteter kan udføres. Kommissæren skal evaluere alle de mulige anvendelser af jord og tænke på fremtidige behov i deres samfund i balance med de nuværende behov.</Text>
+    </Row>
+    <!-- Policies -->
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LIMITANEI_CHAPTER_HISTORY_PARA_1">
+      <Text>Limitanei var grænsegarrisonstropperne i det sene Vestromerske Rige og tidlige Byzantinske Rige, deres navn stammer fra samme rod som ordet for "militært grænseområde" - limes. Med tiden udviklede disse tropper sig til en lokalt rekrutteret milits under våben for romerne og mistede noget af prestige og professionalisme i forhold til de andre styrker i imperiet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_AFTER_ACTION_REPORTS_CHAPTER_HISTORY_PARA_1">
+      <Text>Soldater har historisk reflekteret over deres succeser, og der kan findes talrige eksempler på militære historier skrevet af deltagerne gennem historien og på tværs af kulturer. Men den moderne Efter-Handling Rapport er et produkt af den stigende professionalisme hos stabsofficeren. EHR er en formel affære, baseret på en analytisk undersøgelse af mål og objektiver, resultaterne og anbefalingerne til fremtidige handlinger. Efter-Handling Rapporter er en vigtig del af den moderne officers læseplan</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SECOND_STRIKE_CAPABILITY_CHAPTER_HISTORY_PARA_1">
+      <Text>Den første angreb i en atomudveksling er den indledende salve. Et andet angreb er evnen til at ødelægge en atomangriber med et hævntog, selvom det første angreb (den første salve) resulterer i ødelæggelsen af den anden angriber. Det er i alt en måde at angribe udover graven. I den kolde, umenneskelige, rationelle beregning af atomafskrækkelsesteorien sikrer en anden angrebskapacitet, at nationen ikke vil blive ødelagt af en overvældende første angreb</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_WISSELBANKEN_CHAPTER_HISTORY_PARA_1">
+      <Text>Da hollandske byer blev centre for bankvirksomhed i den tidlige moderne æra, udviklede behovet for at håndtere vekseler blandt handlende sig også. Wisselbank fungerede som en form for kommerciel långiver og mægler, der tilbød sine egne vekseler for at lette transaktioner mellem handlende med sin egen beholdning af værdifulde metaller. Bankgeld-sedler er nogle af de tidligste eksempler på fiat-valuta i Europa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PRAETORIUM_CHAPTER_HISTORY_PARA_1">
+      <Text>Oprindeligt var en Praetors telt i en Legion-lejr, udtrykket "Praetorium" blev mere bredt brugt til at henvise til bygningen, hvor Romersk retspraksis fandt sted. Det blev et sted, hvor både juridiske procedurer og administrativ ledelse ville finde sted, og havde sine egne ritualer og traditioner til at gennemføre loven.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COMMUNICATIONS_OFFICE_CHAPTER_HISTORY_PARA_1">
+      <Text>Når moderne diplomati støder på massemedier, kommer kommunikationsafdelingen i spil. Dag eller nat arbejder afdelingen for at forme den offentlige stemning, afværge kritik, nedtone negative begivenheder og få den moderne diplomat til at fremstå vis og urokkelig til enhver tid. Disse hold af professionelle håndterer beskederne ved enhver begivenhed.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CIVIL_PRESTIGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Privat sponsorship af offentlige værker er en måde at øge individets prestige, og blev almindeligt praktiseret i Rom under den sene republik og tidlige kejserdømme. Det var en måde at vinde folket's støtte gennem endowment af offentlige faciliteter, såsom bade, basilikaer og akvædukter, således at når patronen stillede op til valg til en højere stilling, kunne han sikre en pålidelig støttebase</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGEGROUP_DARKAGE_POLICIES_NAME">
+      <Text>Politikker i Mørkealderen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MONASTICISM_CHAPTER_HISTORY_PARA_1">
+      <Text>Munke, der lever afskærmet fra den sekulære verden, har sommetider fungeret som opbevarere af viden, der ellers ville være gået tabt i en periode med social uro. Under den europæiske mørke tidsalder efter faldet af det vestlige romerske imperium kopierede og opbevarede klostre i mange områder tekster, som var gået tabt i sekulære biblioteker eller private samlinger. Disse tekster kunne måske ikke blive bredt cirkuleret i denne periode, men bestræbelserne fra disse religiøse samfund kunne forhindre, at denne viden helt gik tabt. Med det sagt, ville det have været rart at have en overlevende kopi af Aristoteles' anden bog af "Poetikken"</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_TWILIGHT_VALOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Det siges, at intet skærper opmærksomheden og inspirerer det heroiske så godt som forestående, visse død. Den sidste stand for dømt styrker er emnet for utallige episke digte, triste sange og andre litterære værker, fra Rokugo-opstanden, til Alamo, til Masada. Måske køber de dømte soldater tid for at redde deres kammerater, måske har de kun deres pligt og deres våbenbrødre som trøst. Måske bliver de, hvis de er heldige, husket i de tider, der kommer efter.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_INQUISITION_CHAPTER_HISTORY_PARA_1">
+      <Text>En kraftig modreformation i jagten på forræderiske kætterier kan kræve, at religiøse myndigheder samarbejder med verdslige myndigheder for at forfølge kættere som kriminelle og dømme kriminelle, der begår religiøst farvede forbrydelser, af inkvisitorer. Inkvisitionen i Spanien er den mest berømte (berygtede ville nok være mere præcist), men lignende inkvisitioner blev oprettet i hele Europa og den Nye Verden under reformationen. Inkvisitionsprocessen var generelt ufordelagtig for den anklagede. Dette havde undertrykkende virkninger på fri undersøgelse mere bredt som følge heraf i lande, hvor inkvisitioner var mest aktive.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_ISOLATIONISM_CHAPTER_HISTORY_PARA_1">
+      <Text>Når handel bliver betragtet som et nul-sumsspil, der favoriserer parter uden for nationen, og dette er kombineret med en negativ økonomisk udvikling, bliver økonomisk isolation særligt tiltalende som en politisk løsning. Tokugawa-shogunatets lukning af Japan er et af historiens mest berømte eksempler på isolationisme og varede i omkring 250 år. Men manglen på udenrigshandel kan føre til stagnation og mangel på vækst og i sidste ende et chok, når økonomien genintegreres i verden.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LETTERS_OF_MARQUE_CHAPTER_HISTORY_PARA_1">
+      <Text>En "Letter of Marque and Reprisal" er et dokument, udstedt på vegne af en regering, som giver indehaveren ret til at tage skibe fra en modstander nation under krigstid. Dem der bærer disse breve er privateers, adskilt fra pirater (fordi pirateri uden en nation som støtte er ulovligt). Breve af Marque var et ekstremt populært værktøj for militær politik i slutningen af det 18. og begyndelsen af det 19. århundrede og kunne være en lukrativ investering for støtter af en succesfuld privateer. Værdien af en erobret præmie blev delt mellem privateerens støtte og besætning, og kunne være en enorm sum, som tiltrak erfarne sømænd, der blev tiltrukket af udsigten til at tjene en årsindkomst på en lys og solrig eftermiddag</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LETTERS_OF_MARQUE_CHAPTER_HISTORY_PARA_2">
+      <Text>Under Krigen i 1812 lykkedes det den frække amerikanske besætning på briggen "Chasseur" at erobre britiske præmier i Den Engelske Kanal og endda offentligt erklære sig en-ship blokade af øen - som ikke havde nogen reel praktisk kraft, men vrede Royal Navy, skræmte London-købmændene og glædede borgerne i Baltimore. Indirekte førte deres handlinger også til, at Det Hvide Hus blev brændt ned, men vi vil lade det ligge for øjeblikket og beundre handlingens chutzpah</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_ELITE_FORCES_CHAPTER_HISTORY_PARA_1">
+      <Text>Det siges, at Josef Stalin har opfundet udtrykket "Mængde har en kvalitet i sig selv", men det har ikke stoppet militære styrker gennem tiden fra at forsøge at få fat i de bedste kvalitetsvåben og træning, de kan. Begyndende med den egyptiske vognbue skytte i antikken, krævede de mest effektive troppers udstyr og træning ofte dyre udstyr og lang træning for at opnå deres effekter. Den franske ridder fra højmiddelalderen er et andet eksempel på resultatet af overlegen udstyr og lang træning. Kom til nutidens små hold af specialoperationsstyrker i marken, bakket op af højteknologi af luftangreb, droner og slagmarkovervågning. Nogle gange er kvaliteten af udstyr og træning forskellen mellem sejr og nederlag.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COLLECTIVISM_CHAPTER_HISTORY_PARA_1">
+      <Text>Traditionelt er det modsatte politisk-filosofiske pol fra individualisme, kollektivisme, der fokuserer på fælles arbejde og ejendom og identitet med en indgruppe. Det kan være hierarkisk (hvor enkeltpersoner roses ud fra deres evne til at passe ind i hierarkiet) eller mere lateral (hvor lighed mellem enkeltpersoner i gruppen er i fokus). Forskellige kollektivistiske økonomiske og sociale eksperimenter er blevet udført gennem tiden med varierende succes. Tvungen kollektivisering af sovjetiske gårde i 1920'erne var en ubetinget katastrofe. Ubuntu-teologibevegelsen i Sydafrika informerede landets Truth and Reconciliation Committee og afviklingen af apartheid-systemet. Fordelene og farerne ved kollektiv handling er stadig genstand for varm debat, og det vil sandsynligvis være tilfældet i lang tid fremover.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_ROGUE_STATE_CHAPTER_HISTORY_PARA_1">
+      <Text>Ligesom individer følger nationer visse politiske normer for at opretholde glat og regelmæssig funktion mellem hinanden. En nation kan vælge at ignorere disse normer for at opnå en fordel, og når dette gentages eller gøres flagrant, bliver nationen betegnet som en "rogue state". Dette resulterer ofte i politisk isolation for regimet, men det kan tillade den renegate nation at få sin vilje, da omkostningerne ved at straffe rogue-staten kan være højere end hvad nationens fællesskab er villig til at betale. Rogue-stater kan være fuldstændige politiske pariaer eller have en lille håndfuld støttenationer, der er villige til at støtte dem (nogle gange er en mislykket rogue stat farligere end en stabil rogue stat). Resten af verden finder dem irriterende i bedste fald og en ubehagelig påmindelse om, hvor skrøbelige diplomatiske normer er</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_ROBBER_BARONS_CHAPTER_HISTORY_PARA_1">
+      <Text>Det frie markedsøkonomi giver somme tider plads til individer, som gennem bestemthed, grusomhed, list, magt, indsigt, held og ofte mindre hæderlige metoder kommer til at udøve en uforholdsmæssig stor magt inden for forretning og industri. Betegnelsen "røverbaron" blev tidligere anvendt om adelsmænd i det hellige romerske rige, som brugte deres områder som en base for rovpraksis, og blev senere anvendt om mænd som Carnegies, Rockefellers, Stanfords, Cookes og Dukes i det Gilded Age forretningsverden. Til sidst tvang folkelig fordømmelse regeringerne til at bremse deres praksis, og mange af disse baroner brugte dele af deres enorme formuer til at rehabilitere deres image med filantropiske værker</Text>
+    </Row>
+  </EnglishText>
+</GameData>

@@ -1,0 +1,854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION">
+      <Text>Tillader oprettelse af [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MILITARY_TRADITION_DESCRIPTION">
+      <Text>Giver flankerings- og støttekampbonusser til alle kampenheder.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_EARLY_EMPIRE_DESCRIPTION">
+      <Text>Åbner muligheden for at håndhæve grænser og give Åbne Grænser til andre civilisationer.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MYSTICISM_DESCRIPTION">
+      <Text>Priser 1 [ICON_Envoy] Ambassadør.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MILITARY_TRAINING_DESCRIPTION">
+      <Text>Priser 1 [ICON_Envoy] Udsending.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_THEOLOGY_DESCRIPTION">
+      <Text>Priser 1 [ICON_Envoy] Udsending.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NAVAL_TRADITION_DESCRIPTION">
+      <Text>Priser 1 [ICON_Envoy] Envoy.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_FEUDALISM_DESCRIPTION">
+      <Text>Gårdforbedringer giver nu +1 [ICON_Food] Mad fra hver 2 tilstødende gårdforbedring.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION">
+      <Text>Tillader alliancer.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MERCENARIES_DESCRIPTION">
+      <Text>Priser 1 [ICON_Envoy] Envoy.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_EXPLORATION_DESCRIPTION">
+      <Text>Graesareal-forbedringer modtager +1 [ICON_Food] Mad.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_DIPLOMATIC_SERVICE_DESCRIPTION">
+      <Text>Giver mulighed for at konstruere en spion.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION">
+      <Text>Lejrforbedringer modtager +1 [ICON_Produktion] Produktion og +1 [ICON_Fødevarer] Fødevarer</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_THE_ENLIGHTENMENT_DESCRIPTION">
+      <Text>Religiøse [ICON_Tourism] påvirkninger er halveret i forhold til din civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_COLONIALISM_DESCRIPTION">
+      <Text>Tildeler 2 [ICON_Envoy] udsendinge priser.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION">
+      <Text>Kan bygge gårde på Græslande Høje og Slette Høje.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NATIONALISM_DESCRIPTION">
+      <Text>Giver mulighed for at konstruere en ekstra Spion. Tillader dannelse af to identiske enheder til en Korps eller Flåde. Giver en ny Casus Belli, som kan bruges til at retfærdiggøre krig: Kolonikrig.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_OPERA_BALLET_DESCRIPTION">
+      <Text>Tildeler 2 [ICON_Envoy] Sendebud priser.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION">
+      <Text>Afslører [ICON_RESOURCE_ANTIQUITY_SITE] oldsagssteder. Tillader opførelse af arkæologer. Giver 2 [ICON_Envoy] udsendinge.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCORCHED_EARTH_DESCRIPTION">
+      <Text>Tildeler 2 [ICON_Envoy] Udsendinge priser.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION">
+      <Text>Tildeler 3 [ICON_Envoy] Udsendingepriser. Tillader opførelse af nationale parker og køb af naturforskere med [ICON_Faith] Tro. Giver bygherrer mulighed for at plante træer (anden vækst). Træer i dit territorium, der aldrig er blevet fjernet (gammel vækst), får +1 Appel. Modtager [ICON_TOURISM] Turisme fra Mure.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MOBILIZATION_DESCRIPTION">
+      <Text>Tillader dannelse af Defensive Pagter. Tillader dannelse af tre identiske enheder til en Hær eller Armada. Tillader én ny Casus Belli, der kan bruges til at retfærdiggøre krige: Territorial Ekspansionskrig.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_IDEOLOGY_DESCRIPTION">
+      <Text>Giver mulighed for at konstruere en ekstra spion.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_COLD_WAR_DESCRIPTION">
+      <Text>Giver mulighed for at konstruere endnu en spion.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_CULTURAL_HERITAGE_DESCRIPTION">
+      <Text>Afslører [ICON_RESOURCE_SHIPWRECK] Skibsvrag og tillader arkæologer at udvinde [ICON_GreatWork_Artifact] Artefakter fra dem. Giver 3 [ICON_Envoy] Udsendinge</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RAPID_DEPLOYMENT_DESCRIPTION">
+      <Text>Tillader transport af landenheder mellem Aerodrome-distrikter, der indeholder lufthavne.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_GLOBALIZATION_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Guld til Plantagerne.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_FUTURE_CIVIC_DESCRIPTION">
+      <Text>Kan gennemføres flere gange, hvilket øger dine point mod Scoresejren.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_ENVOY_AWARDED_TOOLTIP">
+      <Text>Priser {1_NumOfEnvoys} [ICON_Envoy] {1_NumOfEnvoys : plural 1?Envoy; other?Envoys;}</Text>
+    </Row>
+    <!-- Civic Boosts-->
+    <Row Tag="LOC_BOOST_TRIGGER_CRAFTSMANSHIP">
+      <Text>Forbedr 3 fliser.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_FOREIGN_TRADE">
+      <Text>Opdag en anden kontinent.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MILITARY_TRADITION">
+      <Text>Ryd en barbarisk udpost.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_STATE_WORKFORCE">
+      <Text>Byg enhver specialdistrikt.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_EARLY_EMPIRE">
+      <Text>Vokse din civilisation til mindst 6 befolkning.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MYSTICISM">
+      <Text>Har fundet et pantheon.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_GAMES_RECREATION">
+      <Text>Undersøg byggeteknologi.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_POLITICAL_PHILOSOPHY">
+      <Text>Mød 3 bystater.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_DRAMA_POETRY">
+      <Text>Byg et vidunder.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MILITARY_TRAINING">
+      <Text>Byg en lejr.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_DEFENSIVE_TACTICS">
+      <Text>Bliv målet for en krigserklæring.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_RECORDED_HISTORY">
+      <Text>Byg 2 campusområder.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_THEOLOGY">
+      <Text>Har fundet en religion.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_NAVAL_TRADITION">
+      <Text>Dræb en enhed med en Quadrireme.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_FEUDALISM">
+      <Text>Byg 6 gårde.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CIVIL_SERVICE">
+      <Text>Få en by til at vokse til en befolkning på 10.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MERCENARIES">
+      <Text>Have 8 landkampenheder i din militærstyrke.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MEDIEVAL_FAIRES">
+      <Text>Oprethold 4 handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_GUILDS">
+      <Text>Byg 2 markeder.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_DIVINE_RIGHT">
+      <Text>Byg 2 templer.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_EXPLORATION">
+      <Text>Byg 2 karaveller.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_HUMANISM">
+      <Text>Bliv en stor kunstner.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_DIPLOMATIC_SERVICE">
+      <Text>Allier dig med en anden civilisation.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_REFORMED_CHURCH">
+      <Text>Få 6 byer til at følge din religion.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MERCANTILISM">
+      <Text>Tjen en stor købmand.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_THE_ENLIGHTENMENT">
+      <Text>Tjen 3 Store Personer.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CIVIL_ENGINEERING">
+      <Text>Byg 7 forskellige specialdistrikter.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_NATIONALISM">
+      <Text>Erklær krig ved hjælp af en Casus Belli.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_OPERA_BALLET">
+      <Text>Byg et kunstmuseum.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_COLONIALISM">
+      <Text>Forskning i astronomiteknologi.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_NATURAL_HISTORY">
+      <Text>Byg et Arkæologisk Museum.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_URBANIZATION">
+      <Text>Få en by til at vokse til en befolkning på 15.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCORCHED_EARTH">
+      <Text>Byg 2 feltskytskanoner.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CONSERVATION">
+      <Text>Har en kvarter med betagende appel.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MOBILIZATION">
+      <Text>Har 3 korps i din militærstyrke.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MASS_MEDIA">
+      <Text>Forskningsradio.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CAPITALISM">
+      <Text>Byg 3 Børser.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_NUCLEAR_PROGRAM">
+      <Text>Byg et forskningslaboratorium.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SUFFRAGE">
+      <Text>Byg 4 kloakker.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_TOTALITARIANISM">
+      <Text>Byg 3 militærakademier.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CLASS_STRUGGLE">
+      <Text>Byg 3 fabrikker.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_COLD_WAR">
+      <Text>Undersøg kernefissions teknologien.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_PROFESSIONAL_SPORTS">
+      <Text>Byg 4 underholdningskomplekskvarterer.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CULTURAL_HERITAGE">
+      <Text>Skab en bygning med et tema.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_RAPID_DEPLOYMENT">
+      <Text>Byg en flyveplads eller landingsbane på en fremmed kontinent.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SPACE_RACE">
+      <Text>Byg en rumhavnskvarter.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_GLOBALIZATION">
+      <Text>Byg 3 lufthavne.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SOCIAL_MEDIA">
+      <Text>Undersøg Telekommunikationsteknologi.</Text>
+    </Row>
+    <!-- Civic Boosts Long Descriptions-->
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CRAFTSMANSHIP">
+      <Text>Med udviklingen af ​​landet omkring vores første by kan vi finjustere vores produktionsmetoder.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_FOREIGN_TRADE">
+      <Text>Efter at have opdaget en anden kontinent, indser vi, at der er et bredt spektrum af handelsmuligheder.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_TRADITION">
+      <Text>Dine soldater håber, at din sejr over en barbarisk udpost er begyndelsen på en lang række af militære succeser.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_STATE_WORKFORCE">
+      <Text>At bringe vores første distrikt online har bevist værdien af at indkalde arbejdere til statsprojekter.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_EARLY_EMPIRE">
+      <Text>Det stigende antal borgere i dine lande drømmer om at have et imperium.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MYSTICISM">
+      <Text>Dyrkelsen af din pantheon af guder har rejst yderligere spørgsmål om åndelige kræfter i vores verden.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GAMES_RECREATION">
+      <Text>Dine nye færdigheder inden for byggeri vil helt sikkert hjælpe med at skabe steder til spil og underholdning.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_POLITICAL_PHILOSOPHY">
+      <Text>Your contact with other states has crystallized your ideas on governing your own people.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_DRAMA_POETRY">
+      <Text>At fuldføre et vidunder har givet energi til dit folk. De skriver værker for at mindes denne store begivenhed.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_TRAINING">
+      <Text>Nu hvor der er et lejrsted på plads, kan vi formalisere vores militære træning.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_DEFENSIVE_TACTICS">
+      <Text>Konfronteret med truslen om invadering, er dit folk klar til at opfinde innovative forsvar.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_RECORDED_HISTORY">
+      <Text>Med planer om at huse mange ruller i bibliotekerne på jeres campusser, begynder jeres folk at optage historien om jeres imperium.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_THEOLOGY">
+      <Text>Dannelsen af en religion af jeres store profet inspirerer til dybere tanker om den guddommelige natur.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NAVAL_TRADITION">
+      <Text>Din sejr til søs inspirerer dit folk til at stræbe efter at blive en sømagt.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_FEUDALISM">
+      <Text>Et system af herrer og vasaller dannes for at håndtere alle landbrugene i dit imperium.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CIVIL_SERVICE">
+      <Text>Dit store bycenter vil snart kræve en gruppe af bureaukrater.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MERCENARIES">
+      <Text>Med en så stor hær kan det være en idé at overveje at tilføje lejesoldater, hvis din hær skal udvides yderligere.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MEDIEVAL_FAIRES">
+      <Text>Stigningen i handel gennem dine lande vil snart tiltrække en handelsmesse.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GUILDS">
+      <Text>Succesen af dine kommercielle kvarterer har fremmet væksten af handelslaug.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_DIVINE_RIGHT">
+      <Text>Dine fromme mennesker tror stærkt på, at din regel er en velsignelse fra det guddommelige.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_EXPLORATION">
+      <Text>De lektioner, du har lært fra Caravel-udforskning, har ført til en ny måde at styre dit folk på.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_HUMANISM">
+      <Text>Inspirationen fra jeres nyerhvervede Store Kunstner vækker vores folk til individets magt.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_DIPLOMATIC_SERVICE">
+      <Text>Forberedelsen til at opbygge en alliance har trænet dit første korps af diplomater.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_REFORMED_CHURCH">
+      <Text>Væksten af din religion kommer med risikoen for skisma. Reformering af korrupte kirkelige praksisser bør ske snarest muligt!</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MERCANTILISM">
+      <Text>Din nye store købmand deler ideer om, hvordan vi kan få en fordel over vores økonomiske konkurrenter.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_THE_ENLIGHTENMENT">
+      <Text>Ideerne fra jeres store personligheder har inspireret intellektuel diskussion i hele landet.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_COLONIALISM">
+      <Text>Din nye viden om himlen hjælper din flåde med at navigere og etablere et globalt imperium.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CIVIL_ENGINEERING">
+      <Text>Efter at have konstrueret så mange typer af distrikter, er jeres ingeniører blevet dygtige til byggeri af byer.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NATIONALISM">
+      <Text>Dit folk tror på den retfærdige karakter af denne krig. Det er blevet en sag af national stolthed for os!</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_OPERA_BALLET">
+      <Text>Afsløringen af et nyt museum tiltrækker folk til kunsten. Måske er dans og opera næste skridt?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NATURAL_HISTORY">
+      <Text>Med et museum klar til at holde dine fund, er det tid til at se, hvad du kan opdage i den naturlige verden.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_URBANIZATION">
+      <Text>Din store by bliver overbefolket. Det er tid til at begynde at planlægge for nogle forstæder.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCORCHED_EARTH">
+      <Text>Moderne krigsførelse er tydeligvis en brutal affære. Jeres militære doktrin begynder at afspejle nogle af disse principper om total krig.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSERVATION">
+      <Text>Beboerne i dit fantastiske nye kvarter kræver en plan for at bevare alle verdens naturskatte.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MASS_MEDIA">
+      <Text>Indførelsen af radioen bebuder begyndelsen på en ny æra af kommunikation.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MOBILIZATION">
+      <Text>Dit militær er bedre organiseret. Nu er det tid til at tage din styrke til verdensscenen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CAPITALISM">
+      <Text>Med børser, der springer op i flere byer, er investeringskapitalen rigelig, og en markedsøkonomi er klar til at opstå.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_PROGRAM">
+      <Text>Med et dedikeret forskningslaboratorium på plads kan din initiativ til at rekruttere forskere til et nukleært forskningsprogram begynde.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE">
+      <Text>Kvinderne i dit imperium har krævet ordentlig sanitet. Efter at have vundet den kamp, har de nu brug for retten til at stemme.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_TOTALITARIANISM">
+      <Text>Disciplinen, som er indgydt af jeres militærakademier, er nu en naturlig del af jeres borgere.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CLASS_STRUGGLE">
+      <Text>Dine fabriksarbejdere kræver bedre arbejdsforhold. Det er tid til, at verdens arbejdere forenes!</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_COLD_WAR">
+      <Text>Indførelsen af atomvåben vil helt sikkert ændre karakteren af væbnet konflikt på tværs af kloden.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS">
+      <Text>Dine 2 byer med underholdningskomplekser ønsker at konkurrere i en ny professionel sportsliga.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CULTURAL_HERITAGE">
+      <Text>Med et perfekt kurateret museum er jeres folks stærke kulturarv udstillet for alle at se.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_RAPID_DEPLOYMENT">
+      <Text>Med flyvebaser spredt ud over hele kloden er vores militær klar til at blive udsendt til ethvert sted i verden med øjeblikkelig varsel.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SPACE_RACE">
+      <Text>Afsløringen af jeres nye rumhavn har givet jeres folk energi til at udforske rummet.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GLOBALIZATION">
+      <Text>Med så mange lufthavne på plads bliver verden virkelig en mindre plads.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SOCIAL_MEDIA">
+      <Text>Dine fremskridt inden for kommunikationsteknologi gør det muligt for folk at samles online.</Text>
+    </Row>
+    <!-- Governments -->
+    <Row Tag="LOC_GOVERNMENT_OF">
+      <Text>Regeringen i {1_civ}</Text>
+    </Row>
+    <Row Tag="LOC_CHANGE_GOVERNMENT">
+      <Text>Skift regeringen</Text>
+    </Row>
+    <Row Tag="LOC_MY_GOVERNMENT">
+      <Text>Mit regering</Text>
+    </Row>
+    <Row Tag="LOC_policIES">
+      <Text>politikker</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENTS">
+      <Text>Regeringer</Text>
+    </Row>
+    <Row Tag="LOC_CULTURE_PER_TURN">
+      <Text>Kultur Per Tur: +{1_Culture}</Text>
+    </Row>
+    <Row Tag="LOC_MILITARY">
+      <Text>Militær</Text>
+    </Row>
+    <Row Tag="LOC_ECONOMIC">
+      <Text>Økonomisk</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMATIC">
+      <Text>Diplomatisk</Text>
+    </Row>
+    <Row Tag="LOC_WILDCARD">
+      <Text>Wildcard (this term is used in both English and Danish)</Text>
+    </Row>
+    <Row Tag="LOC_EMPTY_POLICY_SLOT">
+      <Text>Tom {1_policyType} politikplads</Text>
+    </Row>
+    <Row Tag="LOC_NO_AVAIL_policIES">
+      <Text>Ingen tilgængelige politikker</Text>
+    </Row>
+    <Row Tag="LOC_VIEW_LOCKED_policIES">
+      <Text>Se låste politikker</Text>
+    </Row>
+    <!-- Government Effects-->
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_CHIEFDOM">
+      <Text>Ingen bonus.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY">
+      <Text>Hovedstaden modtager en +1 bonus til alle udbytter.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY">
+      <Text>Alle landbaserede nærkampsenheder får +4 [ICON_Strength] kampstyrke.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP">
+      <Text>Alle byer med et kvarter modtager +1 [ICON_Amenities] Velvære.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY">
+      <Text>+50% [ICON_Produktion] Produktion til defensive bygninger. +1 [ICON_Housing] Boliger for hver niveau af mur.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY">
+      <Text>Kan købe landbaserede enheder med Tro. Alle enheder får +5 [ICON_Religion] Religiøs Styrke i teologisk kamp.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP">
+      <Text>+2 [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_FASCISM">
+      <Text>Alle kampenheder får +5 [ICON_Strength] Kampstyrke.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM">
+      <Text>Lande-enheder får +4 [ICON_Strength] Forsvarsstyrke.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY">
+      <Text>Beskyttelse af Store Personer koster 50% mindre Guld.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CHIEFDOM">
+      <Text>Ingen bonus.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY">
+      <Text>Bonus på vidunderproduktion.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY">
+      <Text>Erfaring for kampenheder.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP">
+      <Text>Bonuspoint til store personligheder.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY">
+      <Text>Bonus Indflydelsespunkter.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY">
+      <Text>Rabat på Faith-køb.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP">
+      <Text>Rabat på køb af guld.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM">
+      <Text>Bonus på enhedsproduktion.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM">
+      <Text>Bonus til al produktion.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY">
+      <Text>Bonusafkast fra distriktsprojekter.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_CHIEFDOM">
+      <Text>Ingen bonus.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_AUTOCRACY">
+      <Text>Bonus til produktion [ICON_Production] (10%, plus 1% for hver 20 runder på Standard hastighed).</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_OLIGARCHY">
+      <Text>Bonus kamp-oplevelse til enheder (20%, plus 1% for hver 5. tur på standard hastighed).</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_CLASSREP">
+      <Text>Bonus [ICON_GreatPerson] Store Person-point (15%, plus 1% for hver 15. tur på Standard hastighed).</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_MONARCHY">
+      <Text>Bonus Indflydelsespoint til [ICON_Envoy] Gesandter (20%, plus 1% for hver 10. tur på standard hastighed).</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_THEOCRACY">
+      <Text>Rabat på [ICON_Faith] Tro-køb (15%, plus 1% for hver 15. tur på standardhastighed).</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_MERCHREP">
+      <Text>Rabat på [ICON_Gold] Guld-køb (15%, plus 1% for hver 15. tur på Standard hastighed).</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_FASCISM">
+      <Text>Bonus til enheden [ICON_Production] Produktion (20%, plus 1% for hver 10. tur på Standard hastighed).</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_COMMUNISM">
+      <Text>Bonus til al [ICON_Production] Produktion (10%, plus 1% for hver 20. tur på standard hastighed).</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_DEMOCRACY">
+      <Text>Bonusafkast fra distriktsprojekter (30%, plus 1% for hver 10. tur på standardhastighed).</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICIES_NO_REMAINING_PLACED">
+      <Text>Ingen flere {1_policyName} kan oprettes for denne regering.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICIES_NO_TOTAL_PLACED">
+      <Text>Ingen {1_policyName} kan fastsættes under denne regering.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICIES_REMAINING_PLACED">
+      <Text>Der kan placeres {1_Num: number #} flere {1_Num : plural 1?police; other?police;} i {2_policyName}-området.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICIES_TOTAL_PLACED">
+      <Text>{1_Num: number #} {1_Num: plural 1?politik; other?politikker;} kan indstilles i {2_policyName}-området.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INFLUENCE_POINTS_TOWARDS_ENVOYS">
+      <Text>Få {1_InfluencePointRate} Indflydelse {1_InfluencePointRate : plural 1?point; other?points;} per [ICON_Turn] tur. Ved {2_InfluencePointThreshold} {2_InfluencePointThreshold : plural 1?point; other?points;} optjenes {3_EnvoysPerThreshold} [ICON_Envoy] {3_EnvoysPerThreshold : plural 1?Envoy; other?Envoys;}.</Text>
+    </Row>
+    <!-- Policy Descriptions-->
+    <Row Tag="LOC_POLICY_PLACEHOLDER_DESC">
+      <Text>Placeholder. (This text doesn't need to be translated.)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_AESTHETICS_DESCRIPTION">
+      <Text>+100% tilknytningsbonus for Theater Square-distriktet.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_AGOGE_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til melee, anti-kavaleri og ranged enheder fra den ældre og klassiske tidsalder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ARSENAL_OF_DEMOCRACY_DESCRIPTION">
+      <Text>Dine [ICON_TradeRoute] Handelsruter til en allieret by giver +2 [ICON_Food] Fødevarer og +2 [ICON_Production] Produktion til begge byer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_BASTIONS_DESCRIPTION">
+      <Text>+6 By [ICON_Strength] Forsvarsstyrke for byen. +5 By [ICON_Ranged] Rækkeviddestyrke.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Guld fra alle [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CHARISMATIC_LEADER_DESCRIPTION">
+      <Text>+2 Indflydelsespoint pr. tur mod optjening af bystats [ICON_Envoy] udsendinge.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CHIVALRY_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til tunge og lette kavalerienheder fra industrielle tidsalder og tidligere.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLLECTIVE_ACTIVISM_DESCRIPTION">
+      <Text>+5% [ICON_Culture] Kultur per bystat, som du er Suzerain for.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLLECTIVIZATION_DESCRIPTION">
+      <Text>+4 [ICON_Food] Mad fra indenlandske [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLONIAL_OFFICES_DESCRIPTION">
+      <Text>+15% hurtigere vækst for byer, der ikke er på din oprindelige [ICON_Capital] hovedstads kontinent.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLONIAL_TAXES_DESCRIPTION">
+      <Text>+25% [ICON_Gold] Guld i byer, der ikke er på din oprindelige [ICON_Capital] hovedstads kontinent.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLONIZATION_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til bosættere.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CONSCRIPTION_DESCRIPTION">
+      <Text>Enhedsvedligeholdelse reduceret med 1 [ICON_Gold] Guld per tur, per enhed.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CONTAINMENT_DESCRIPTION">
+      <Text>Hver [ICON_Envoy] udsendelse til en bystat tæller som to, hvis dens suzeræn har en anden regering end dig.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CORVEE_DESCRIPTION">
+      <Text>+15% [ICON_Production] Produktion mod antikke og klassiske vidundere.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CRAFTSMEN_DESCRIPTION">
+      <Text>100% Industriområdet tilstødende bonusser.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CRYPTOGRAPHY_DESCRIPTION">
+      <Text>Fjendtlig Spion niveau reduceret med 2 i dine områder. Dit Spion niveau øges med 1 til offensive operationer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_DEFENSE_OF_MOTHERLAND_DESCRIPTION">
+      <Text>Ingen krigstræthed fra kampe på dit territorium.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_DIPLOMATIC_LEAGUE_DESCRIPTION">
+      <Text>Den første [ICON_Envoy] udsending, du sender til hver bystat, tæller som to [ICON_Envoy] udsendinger.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Enhedskampstyrke, når man kæmper mod barbarer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ECOMMERCE_DESCRIPTION">
+      <Text>+5 [ICON_Production] Produktion og +10 [ICON_Gold] Guld fra internationale [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ECONOMIC_UNION_DESCRIPTION">
+      <Text>+100% Handelscenter og Havne-distrikt tilstødende bonusser.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til bosættere. Købsomkostninger for parceller reduceret med 20%.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION">
+      <Text>+50% [ICON_Production] Production toward Ancient, Classical, Medieval, and Renaissance era melee, anti-cavalry, and ranged units.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FINEST_HOUR_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til moderne og atomare luftenheder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FIVE_YEAR_PLAN_DESCRIPTION">
+      <Text>+100% bonus for tilstødende Campus og Industriområde distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION">
+      <Text>+100% [ICON_Gold] Guldudbytte fra bygninger i Erhvervskvarter-distriktet.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FRESCOES_DESCRIPTION">
+      <Text>+2 [ICON_GreatArtist] Store Kunstner-point per tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GOD_KING_DESCRIPTION">
+      <Text>+1 [ICON_Faith] Tro og +1 [ICON_Gold] Guld i [ICON_Capital] Hovedstaden.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GOTHIC_ARCHITECTURE_DESCRIPTION">
+      <Text>+15% [ICON_Production] Produktion til renæssance-, middelalder-, klassiske og antikke vidundere.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GRANDE_ARMEE_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til enheder fra Førindustriel tid og tidligere, der er melee, anti-kavaleri og ranged.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION">
+      <Text>+100% [ICON_Culture] Kulturudbytte fra bygninger i Theater Square-distriktet.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GUNBOAT_DIPLOMACY_DESCRIPTION">
+      <Text>Åbne grænser med alle bystater og +4 indflydelsespoint per tur mod at tjene [ICON_Envoy] udsendinge.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_HERITAGE_TOURISM_DESCRIPTION">
+      <Text>+100% [ICON_Tourism] Turisme fra [ICON_GreatWork_Landscape] Store Kunstværker og [ICON_GreatWork_Artifact] Artefakter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ILKUM_DESCRIPTION">
+      <Text>+30% [ICON_Production] Produktion til Bygningsarbejdere.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INSPIRATION_DESCRIPTION">
+      <Text>+2 [ICON_GreatScientist] Store Videnskabsmand point per tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INSULAE_DESCRIPTION">
+      <Text>+1 [ICON_Housing] Boliger i alle byer med mindst 2 specialdistrikter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INTEGRATED_SPACE_CELL_DESCRIPTION">
+      <Text>+15% [ICON_Production] Produktion til Space Race-projekter, hvis en by har enten en Militærakademi eller en Havnebygning.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INTERNATIONAL_SPACE_AGENCY_DESCRIPTION">
+      <Text>+5% [ICON_Science] Videnskab per bystats som du er Suzerain for.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INTERNATIONAL_WATERS_DESCRIPTION">
+      <Text>+100% [ICON_Production] Produktion til alle søenheder, undtagen Hangarskibe.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INVENTION_DESCRIPTION">
+      <Text>+2 [ICON_GreatEngineer] Store Ingeniør point per tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LAISSEZ_FAIRE_DESCRIPTION">
+      <Text>+4 [ICON_GreatMerchant] Handelsmandspoint hver tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION">
+      <Text>Reducerer omkostningerne ved at købe en flise med 20%.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LEVEE_EN_MASSE_DESCRIPTION">
+      <Text>Enhedens vedligeholdelsesomkostninger er reduceret med 2 [ICON_Gold] Guld pr. tur, pr. enhed.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LIBERALISM_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Velgørenhed til alle byer med mindst 2 specialdistrikter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LIGHTNING_WARFARE_DESCRIPTION">
+      <Text>+50% [ICON_Produktion] Produktion for alle tunge og lette kavalerienheder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LIMES_DESCRIPTION">
+      <Text>+100% [ICON_Produktion] Produktion til defensive bygninger.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LITERARY_TRADITION_DESCRIPTION">
+      <Text>+2 [ICON_GreatWriter] Store Forfatter point per tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LOGISTICS_DESCRIPTION">
+      <Text>+1 Bevægelse, hvis startende tur i venligt territorium.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MACHIAVELLIANISM_DESCRIPTION">
+      <Text>+50% [ICON_Production] produktion mod Spioner. Spionageoperationer tager 25% mindre tid.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MANEUVER_DESCRIPTION">
+      <Text>+50% [ICON_Produktion] Produktion mod tunge og lette kavalerienheder fra antikken og den klassiske æra.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MARITIME_INDUSTRIES_DESCRIPTION">
+      <Text>+100% [ICON_Production] Produktion af marineenheder fra den antikke og klassiske æra.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION">
+      <Text>Dine internationale [ICON_TradeRoute] Handelsruter giver +1 [ICON_Gold] Guld per Luksus- og Strategisk ressource forbedret på destinationen, samt +2 [ICON_Culture] Kultur og +2 [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MARTIAL_LAW_DESCRIPTION">
+      <Text>Akkumulere 25% mindre krigstræthed end normalt.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION">
+      <Text>+2 [ICON_Housing] Boliger i alle byer med mindst 3 specialdistrikter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERCHANT_CONFEDERATION_DESCRIPTION">
+      <Text>+1 [ICON_Gold] Guld fra hver af dine [ICON_Envoy] Udsendinge hos bystater.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERITOCRACY_DESCRIPTION">
+      <Text>Hver by modtager +1 [ICON_Culture] Kultur for hver specialdistrikt, den konstruerer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_FIRST_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til alle nærkamps-, anti-kavaleri- og afstandsangrebsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_ORGANIZATION_DESCRIPTION">
+      <Text>+4 [ICON_GreatGeneral] Store General points per tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_RESEARCH_DESCRIPTION">
+      <Text>Militærakademier og havnebyer genererer +1 [ICON_Science] Videnskab.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NATIONAL_IDENTITY_DESCRIPTION">
+      <Text>Enheder har 50% mindre [ICON_Strength] reduceret kampstyrke fra at være såret.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NATIVE_CONQUEST_DESCRIPTION">
+      <Text>Kampsejre over enheder fra tidligere æra giver [ICON_Gold] Guld svarende til 50% af den [ICON_Strength] Kampestyrke af den besejrede enhed. (på Normal Hastighed)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NATURAL_PHILOSOPHY_DESCRIPTION">
+      <Text>+100% bonus for at være i nærheden af campusområdet.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NAVAL_INFRASTRUCTURE_DESCRIPTION">
+      <Text>+100% Bonus for at være tæt på havneområdet.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NAVIGATION_DESCRIPTION">
+      <Text>+2 [ICON_GreatAdmiral] Store Admiral point per tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NEW_DEAL_DESCRIPTION">
+      <Text>+4 [ICON_Housing] Boliger, +2 [ICON_Amenities] Fornødenheder, -8 [ICON_Gold] Guld til alle byer med mindst 3 special-distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NOBEL_PRIZE_DESCRIPTION">
+      <Text>+4 [ICON_GreatScientist] Videnskabsmand point pr. tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUCLEAR_ESPIONAGE_DESCRIPTION">
+      <Text>Spioner, som stjæler en teknologisk fordel uden at blive opdaget, får en ekstra fordel.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ONLINE_COMMUNITIES_DESCRIPTION">
+      <Text>+50% [ICON_Tourism] Turismeudgang til civilisationer, som du har en [ICON_TradeRoute] Handelsrute til.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION">
+      <Text>+100% [ICON_Production] Produktion for støtteenheder i de moderne, atomare og informationsalderen.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POLICE_STATE_DESCRIPTION">
+      <Text>Fjendtlige spioners niveau er reduceret med 2 i dine områder. Dog lider alle byer under -1 [ICON_Amenities] velvære.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PRESS_GANGS_DESCRIPTION">
+      <Text>100% [ICON_Production] Produktion mod Industrielalderen og tidligere søenheder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION">
+      <Text>50% rabat på alle enhedsopgraderinger.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PROPAGANDA_DESCRIPTION">
+      <Text>Akumuler 25% mindre krigstræthed end normalt.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_TRANSPORT_DESCRIPTION">
+      <Text>Modtag 50 [ICON_Gold] guld per anke af flise, når en Farm erstattes med en Neighborhood distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_WORKS_DESCRIPTION">
+      <Text>+30% [ICON_Production] Produktion mod Bygningsarbejdere, og nyligt trænede Bygningsarbejdere får 2 ekstra bygningsaktioner.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RAJ_DESCRIPTION">
+      <Text>+2 [ICON_Science] Videnskab, [ICON_Culture] Kultur, [ICON_Faith] Tro og [ICON_Gold] Guld fra hver bystat, du er Suzerain af.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RAID_DESCRIPTION">
+      <Text>Udbyttet fra plyndring fordobles for at plyndre forbedringer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RATIONALISM_DESCRIPTION">
+      <Text>+100% [ICON_Science] Videnskab fra Campus distriktets bygninger.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIGIOUS_ORDERS_DESCRIPTION">
+      <Text>Alle religiøse enheder får +5 [ICON_Religion] religiøs styrke i teologisk kamp.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RESOURCE_MANAGEMENT_DESCRIPTION">
+      <Text>1 eksemplar af en strategisk ressource giver dig mulighed for at producere og købe enheder, der kræver den, i enhver by.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RETAINERS_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Facilitet for byer med en bemandet enhed.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_REVELATION_DESCRIPTION">
+      <Text>+2 [ICON_GreatProphet] Store Profet point pr. tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SACK_DESCRIPTION">
+      <Text>Udbyttet, som opnås ved plyndring, fordobles for plyndring af distrikter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SATELLITE_BROADCASTS_DESCRIPTION">
+      <Text>+200% [ICON_Tourism] Turisme fra [ICON_GreatWork_Music] Store Musikværker.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCRIPTURE_DESCRIPTION">
+      <Text>+100% bonus for at tilgrænsende hellige steder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SERFDOM_DESCRIPTION">
+      <Text>Nyligt uddannede Byggere får 2 ekstra byggehandlinger.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION">
+      <Text>Fordobler [ICON_Faith] trosudbytte fra bygninger i Helligdom-distriktet.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SKYSCRAPERS_DESCRIPTION">
+      <Text>+15% [ICON_Production] Produktion til alle vidundere.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION">
+      <Text>+100% bonus for naboområde ved Teaterpladsen, og Stadioner genererer +1 [ICON_Amenities] Velvære.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION">
+      <Text>+50% [ICON_Production] Produktion til alle luftenheder og mod hangarskibe.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STRATEGOS_DESCRIPTION">
+      <Text>+2 [ICON_GreatGeneral] Store General point pr. tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SURVEY_DESCRIPTION">
+      <Text>Dobbelt erfaring for rekognosceringsenheder.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SYMPHONIES_DESCRIPTION">
+      <Text>+4 [ICON_GreatMusician] Store musiker-point per tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Guld fra hvert Forskningslaboratorium, Militærakademi og Kraftværk.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TOTAL_WAR_DESCRIPTION">
+      <Text>Udbyttet fra plyndring fordobles.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TOWN_CHARTERS_DESCRIPTION">
+      <Text>+100% Handelskvarter distriktsnærhedsbonusser.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION">
+      <Text>+1 [ICON_Culture] Kultur og +1 [ICON_Science] Videnskab fra internationale [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRAVELING_MERCHANTS_DESCRIPTION">
+      <Text>+2 [ICON_GreatMerchant] Store Købmand point per tur.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRIANGULAR_TRADE_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Guld og +1 [ICON_Faith] Tro fra alle [ICON_TradeRoute] Handelsruter.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_URBAN_PLANNING_DESCRIPTION">
+      <Text>+1 [ICON_Production] Produktion i alle byer.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_VETERANCY_DESCRIPTION">
+      <Text>+30% [ICON_Production] Produktion til Befæstningsområder og bygninger til dette distrikt.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_WARS_OF_RELIGION_DESCRIPTION">
+      <Text>+4 [ICON_Strength] Kampstyrke, når en ikke-religiøs enhed kæmper mod en civilisation, der følger en anden religion.</Text>
+    </Row>
+    <!-- Preview Text -->
+    <Row Tag="LOC_GOVT_OLIGARCHY_COMBAT_BONUS_DESCRIPTION">
+      <Text>+4 oligarki bonus</Text>
+    </Row>
+    <!-- Temporary UI -->
+    <Row Tag="LOC_CIVIC_STARTED">
+      <Text>Fremskridt er begyndt mod Civic: {1_CivicName}</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_COMPLETE">
+      <Text>Civic komplett: {1_CivicName}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>
