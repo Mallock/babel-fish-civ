@@ -1,0 +1,2235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OCCUPATION_XP2">
+      <Text>Ammatti ([ICON_GRIEVANCE] Valituksia kaupungin perustajasta)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_REPORTS_FILTER_CLIMATE">
+      <Text>[ICON_GOSSIP_CLIMATE] Ilmasto</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_Grievances_XP2">
+      <Text>Kaupungin perustajan kanssa esiintyvät epäkohdat</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_POWERED_CITY">
+      <Text>{1_PowerRequired} [ICON_Power] Voimaa voidaan käyttää tämän kaupungin parantamiseen, ja se on täysin voimalla käyttövalmis.[NEWLINE][ICON_Bullet]{2_PowerFromFreeSources} [ICON_Power] Voimaa saadaan paikallisista uusiutuvista lähteistä[NEWLINE][ICON_Bullet]{3_PowerFromResources} [ICON_Power] Voimaa saadaan tämän kierroksen aikana kulutetuista resursseista</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_UNPOWERED_CITY">
+      <Text>{1_PowerRequired} [ICON_Power] Voimaa voidaan käyttää tämän kaupungin tehostamiseen, mutta se ei ole täysin käytössä. Rakennukset tai projektit, joilla on [ICON_Power] Voiman kuormitus ovat tilapäisesti vähemmän tehokkaita. [NEWLINE][ICON_Bullet] {2_PowerFromFreeSources} [ICON_Power] Voimaa paikallisista uusiutuvista lähteistä. [NEWLINE][ICON_Bullet] {3_PowerFromResources} [ICON_Power] Voimaa tällä vuorolla kulutetuista resursseista</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_POWERED_CITY_FROM_ACTIVE_PROJECT">
+      <Text>[ICON_Bullet] Täysi [ICON_Power] teho kaupungin aktiivisesta projektista</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_POWER_TOOLTIP">
+      <Text>Voima</Text>
+    </Row>
+    <Row Tag="LOC_HUD_RIBBON_FAVOR">
+      <Text>Diplomaattisen suosion tasapaino</Text>
+    </Row>
+    <Row Tag="LOC_POWER_REQUIREMENT_MISC">
+      <Text>{LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_TEMPORARY_ACTIVE_PROJECT_SOURCE_ENTRY">
+      <Text>{LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_TEMPORARY_SOURCE_ENTRY">
+      <Text>[ICON_{2_ResourceTypeName}] {3_FromCityName} [ICON_PowerRight] {1_ThisCityName}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_GENERATED_SOURCE_ENTRY">
+      <Text>[ICON_{2_ResourceTypeName}] {1_ThisCityName} [ICON_PowerRight] {3_ToCityName}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_FREE_SOURCE_ENTRY">
+      <Text>{1_FreePowerSourceName}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_NO_POWER_NEEDED_NAME">
+      <Text>Seuraava teksti tulee kääntää suomeksi. Vastaa luonnollisella kuulostavalla käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_NO_POWER_NEEDED_DESCRIPTION">
+      <Text>Tämä kaupunki ei tarvitse mitään [ICON_Power] Virtaa.</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_POWERED_NAME">
+      <Text>[ICON_Power] Toimii sähköllä</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_POWERED_DESCRIPTION">
+      <Text>Rakennukset tai projektit, jotka vaativat [ICON_Power] virtaa, ovat täysin tehokkaita.</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_UNPOWERED_NAME">
+      <Text>[ICON_PowerInsufficient] Kytkemätön</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_UNPOWERED_DESCRIPTION">
+      <Text>Rakennukset tai projektit, jotka tarvitsevat [ICON_Power] energian, ovat tilapäisesti vähemmän tehokkaita.</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_GEOTHERMAL">
+      <Text>Geoterminen</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_SOLAR">
+      <Text>Aurinko</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_WATER">
+      <Text>Vesivoima</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_WIND">
+      <Text>Tuuli</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_MISC">
+      <Text>Muu</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_POWER_SOURCE">
+      <Text>Virtalähde</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_FULLY_POWERED">
+      <Text>Täysin voimakas</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_UNDERPOWERED">
+      <Text>Alitehoinen</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_POWER_RANGE">
+      <Text>Tehoalue</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_WORLD_CONGRESS_SPECIAL_SESSION">
+      <Text>Harkitse ehdotuksia</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_WORLD_CONGRESS_SPECIAL_SESSION_TOOLTIP">
+      <Text>Viimeinen kutsu esittää käytettävissä olevia ehdotuksia kongressille ennen erityisistunnon alkamista.</Text>
+    </Row>
+    <Row Tag="LOC_FLOAT_RESOURCE_CONVERTED_TO_POWER">
+      <Text>{2_Resurssikuvake}{1_NumConverted} [ICON_PowerRight]{3_NumPower}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_GENERATED_SOURCE_ON_PLOT">
+      <Text>{2_ResurssiKuvake}{1_NumConverted} [ICON_PowerRight]{3_NumPower}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_FREE_SOURCE_ON_PLOT">
+      <Text>[ICON_Power]{1_NumPower}</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POWER_REQUIRED">
+      <Text>Tarvittava teho: {1_PowerRequired} [ICON_Power] Teho</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POWER_IN_CITY_NEEDED_FOR_EFFECTS">
+      <Text>Kun tämä kaupunki on täydessä [ICON_Power] energiassa, se tarjoaa myös:</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_POWERED">
+      <Text>{1_Amount: number +#,###;-#,###} {2_Icon} {3_Name} ([ICON_Power] Käyttövoimalla)</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_UNPOWERED">
+      <Text>{1_Amount: number +#,###;-#,###} {2_Icon} {3_Name} ([ICON_PowerInsufficient] Virta pois päältä)</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_POWER_ENHANCEMENT">
+      <Text>{1_Amount: number +#,###;-#,###} {2_Icon} {3_Name} lisäksi kun käytössä [ICON_Power]</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_AMENITY_ENTERTAINMENT_POWER_ENHANCEMENT">
+      <Text>{1_Amount: number +#,###;-#,###} [ICON_Amenities] {1_Amount : plural 1?palvelu; other?palvelua;} viihdettä lisäksi, kun [ICON_Power] käytössä</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_CONSUMED">
+      <Text>[SIZE:16]{1_PowerAmount} [SIZE:12]Käytettävissä</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_OF">
+      <Text>of</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_REQUIRED">
+      <Text>[SIZE:16]{1_PowerAmount} [SIZE:12]Vaaditaan</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_STATUS">
+      <Text>Tila:</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_REQUIRED_POWER">
+      <Text>Vaadittu teho</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_CONSUMED_POWER">
+      <Text>Käyttökelpoinen teho</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_GENERATED_POWER">
+      <Text>Voimalaitoksen tuotanto</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_TITLE">
+      <Text>NYKYINEN VALITUSTEN TASAPAINO:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_AGAINST_YOU">
+      <Text>Valitukset, joita heillä on sinua vastaan:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_AGAINST_THEM">
+      <Text>Valitukset, joita sinulla on heitä vastaan:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_HISTORY">
+      <Text>Valitus historia:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS">
+      <Text>Maailma suosii tällä hetkellä {1_Favored}!</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS_YOU">
+      <Text>Maailma suosii sinua juuri nyt!</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS_NONE">
+      <Text>Maailmalla ei tällä hetkellä ole suosikkia.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_US_SIMPLE">
+      <Text>{1_Valitukset} [ICON_STAT_GRIEVANCE] Valitukset meitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_THEM_SIMPLE">
+      <Text>{1_Valitukset} [ICON_STAT_GRIEVANCE] Valituksia heitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_NONE_SIMPLE">
+      <Text>Ei valituksia.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE">
+      <Text>{1_Target} kärsimystesi todistamisen jälkeen maailman johtajat kääntävät sokean silmän seuraaviin [ICON_GRIEVANCE] {2_Grievances} valituksiin, jotka teet {1_Target}:ia vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_NEGATIVE">
+      <Text>Nähtyään kärsimyksen, jonka aiheutit {1_Target} kautta, maailman johtajat ummistavat silmänsä seuraaville [ICON_GRIEVANCE] {2_Grievances} valituksillesi {1_Target} tekemiä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_DEFAULT">
+      <Text>Maailman johtajat seuraavat tarkasti suhdettasi {1_Target} kanssa. Tällä hetkellä {2_Grievances} [ICON_GRIEVANCE] valitusta on merkitty ylös.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_GRIEVANCES">
+      <Text>Valitukset meitä vastaan</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_DIPLOMACY_CONGRESS_BUTTON">
+      <Text>Diplomatia</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_CONGRESS_CONGRESS_BUTTON">
+      <Text>Maailmankongressi</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_THIRD_PARTY_WARMONGER">
+      <Text>Valitukset muilta pelaajilta meitä vastaan</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_RESUME_CONGRESS">
+      <Text>Paluu maailmankongressiin</Text>
+    </Row>
+    <Row Tag="LOC_RESUME_CONGRESS">
+      <Text>Jatketaan kongressia</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_FLOODS">
+      <Text>{Arvo: numero +#.#;-#.#} Tulvista</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_POWER">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) [ICON_Power] tehosta</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_BASE">
+      <Text>{Arvo: numero +#.#;-#.#} diplomaattinen suosio perusta</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_EXTRA">
+      <Text>{Value : numero +#.#;-#.#} ylimääräistä diplomaattista suosiota</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_SUZERAIN">
+      <Text>{Value: numero +#.#;-#.#} Suzerainilta</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_TOURISM">
+      <Text>{Arvo : numerona +#.#;-#.#} Matkailusta</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_POLICIES">
+      <Text>{Arvo: numero +#.#;-#.#} politiikoista</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_BUILDINGS">
+      <Text>{Arvo : numero +#.#;-#.#} Rakennuksista</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_CO2">
+      <Text>{Value : number +#.#;-#.#} hiilidioksidipäästösakosta</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_GRIEVANCES">
+      <Text>{Arvo: numero +#.#;-#.#} ylimääräisistä valituksista peritty sakko</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ORIGINAL_CAPITALS">
+      <Text>{Arvo: numero +#.#;-#.#} miehitetyistä alkuperäisistä pääkaupungeista rangaistuksena</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_GOVERNMENT">
+      <Text>{Value : luku +#.#;-#.#} hallitukselta</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_TRADE_PARTNERS">
+      <Text>{Arvo: numero +#.#;-#.#} Kauppakumppaneilta</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ALLIANCES">
+      <Text>{Value : numero +#.#;-#.#} Alliansseista</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ALLIANCES_BENEFIT">
+      <Text>+{1_Amount} [ICON_Favor] Suosioa joka vuoro sinulle ja liittolaisellesi</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAITH_FROM_UNUSED_GREAT_PEOPLE_POINTS">
+      <Text>{Value : number +#.#;-#.#} ylimääräisistä [ICON_GREATPERSON] Suuren Henkilön pisteistä</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_ERA_DEFINED">
+      <Text>{1_EraName} (Aikakausi nimi)</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ITEM_IN_STOCKPILE">
+      <Text>varastossa</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ITEM_IN_RESERVE">
+      <Text>Varattu tuotantoa varten</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_REPORTS_ITEM_IN_RESERVE">
+      <Text>Varattu tuotantoa varten</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN">
+      <Text>Kertyy: +{1_Amount} per vuoro.</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_EXTRACTED">
+      <Text>[ICON_Bullet]{1_Amount} Parannuksilta</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_TRADED">
+      <Text>[ICON_Bullet]{1_Amount} kaupankäynnistä</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_FROM_CITY_STATES">
+      <Text>[ICON_Bullet]{1_Amount} kaupunkivaltioista</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_REPORTS_CITY_STATES">
+      <Text>Kaupunkivaltion bonus</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_FROM_BONUS_SOURCES">
+      <Text>[ICON_Bullet]{1_Amount} bonuksen lähteistä</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_CONSUMPTION">
+      <Text>Kulutus: -{1_Amount} vuorossa.</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_UNIT_CONSUMPTION_PER_TURN">
+      <Text>[COLOR_RED][ICON_Bullet]-{1_Amount} yksiköille[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_POWER_CONSUMPTION_PER_TURN">
+      <Text>[COLOR_RED][ICON_Bullet]-{1_Amount} sähkövoimalle[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_WHEN_IMPROVED">
+      <Text>Tuottaa +{1_Amount} {2_Icon} {3_ResourceName} kierrosta kohti, kun sitä parannetaan.</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_BUILD_IMPROVEMENT">
+      <Text>+{1_Amount} {2_Icon} {3_ResourceName} per vuoro</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_EXISTING_IMPROVEMENT">
+      <Text>{1_Määrä} {2_Kuvake} {3_ResurssinNimi} vuorossa</Text>
+    </Row>
+    <Row Tag="LOC_CIVICS_TREE_UNREVEALED_CIVIC">
+      <!--Deprecated-->
+      <Text>Paljastamaton</Text>
+    </Row>
+    <Row Tag="LOC_CIVICS_TREE_UNREVEALED_TOOLTIP">
+      <!--Deprecated-->
+      <Text>Tutki aiempia kansalaisuustaitoja paljastaaksesi tämän kansalaisen ja sen avaukset.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_UNREVEALED_TECH">
+      <!--Deprecated-->
+      <Text>Paljastamaton</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_UNREVEALED_TOOLTIP">
+      <!--Deprecated-->
+      <Text>Tutki aiempia tekniikoita paljastaaksesi tämän tekniikan ja sen avaamat ominaisuudet.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MOVE_JUMP_DESCRIPTION">
+      <Text>Hyppää</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_CONDEMN_HERETIC_BANNED_WORLD_CONGRESS">
+      <Text>Tämän ruudun uskonnollinen yksikkö on immuuni herjaamiselta harhaoppisena Maailmankongressin dekreetillä.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Riittämättömät resurssit. Tämä rakennus vaatii {1_Amount} {3_ResourceIcon} {2_Resource} tuottaakseen.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Riittämättömät resurssit. Tämä rakennus vaatii {1_Amount} lisää {3_ResourceIcon} {2_Resource} tuottaakseen.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ADVANCE_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Riittämättömät resurssit. Tämä projekti vaatii {1_Amount} {3_ResourceIcon} {2_Resource} tuotantoa varten.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ADVANCE_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Riittämättömät voimavarat. Tämä projekti vaatii {1_Amount} lisää {3_ResourceIcon} {2_Resource} tuottamiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRAIN_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Resurssit eivät riitä. Tämä yksikkö vaatii {1_Amount} {3_ResourceIcon} {2_Resource} tuottamiseen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRAIN_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Riittämättömät resurssit. Tämä yksikkö vaatii {1_Amount} lisää {3_ResourceIcon} {2_Resource} tuotantoon.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UPGRADE_REQUIRES_RESOURCE_AMOUNT">
+      <Text>Resurssit eivät riitä. Päivittämiseen tarvitaan {1_Amount} {2_ResourceIcon} {3_Resource} tämän tyyppisellä yksiköllä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UPGRADE_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>Ei riittävästi resursseja. Tarvitaan {1_Amount} lisää {2_ResourceIcon} {3_Resource} tämän yksikön päivittämiseen.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_INSUFFICIENT_FUEL_DESC">
+      <Text>[COLOR_RED]-{1_Value}[ENDCOLOR] Riittämätön {2_ResourceName}-resurssi</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SIEGE_CANNON_UPGRADE">
+      <Text>Piirityskanuuna: Täysi voima vs linnoitukset</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_LOW_FUEL_WARNING_FLOATER">
+      <Text>[COLOR_RED]ALHAINEN {1_Resource}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRODUCTION_FUEL_CONSUMPTION">
+      <Text>Kuluttaa: {1_Amount} {2_Icon} {3_FuelName} vuoron aikana.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMATIC_FAVOR_NAME">
+      <Text>Diplomaattinen suosionosoitus</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CIVICS_TREE_AWARD_FAVOR">
+      <Text>Palkinnot {1_FavorAmount} [ICON_Favor] Diplomaattinen suosio.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_BY_TYPE">
+      <Text>Rakenna reitti: {1_RouteTypeName}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_BUILD_CHARGES">
+      <Text>[ICON_Bullet] Käyttää {1_Amount} Rakennus {1_Amount : plural 1?maksu; other?maksut;}.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_RESOURCE_AMOUNT_MET">
+      <Text>[ICON_Bullet] Vaatii {1_Amount} {2_ResourceName} rakentaakseen.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_RESOURCE_AMOUNT_UNMET">
+      <Text>[ICON_Bullet] Riittämättömät resurssit. Vaatii {1_Amount} {2_ResourceName} rakentamiseen.</Text>
+    </Row>
+    <Row Tag="LOC_TOURISM_LENS_FEATURE_APPEAL_TOOLTIP">
+      <Text>Ekoturistit nauttivat tästä koskemattomasta luonnosta. Generoidaan +{1_CurrentTourists} [ICON_Tourism] Matkailu</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_FAVOR_REWARD">
+      <Text>Jäsenkansat saavat kunkin {1_Amount} [ICON_Favor] diplomaattista suosiota.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_FAVOR_REWARD">
+      <Text>Kohde saa {1_Amount} [ICON_Favor] diplomaattista suosiota.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETING_PARTICIPANTS">
+      <Text>Jäsenet:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETITION_COMPLETE">
+      <Text>Kilpailu on päättynyt!</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETITION_BUFFS_EXPLANATION">
+      <Text>Kilpailun aikana:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_FAVOR_INFO">
+      <Text>[NEWLINE][SIZE_12]Kustannukset {1_Cost} [ICON_Favor] Diplomaattinen suosio</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_PARK_CHARGES">
+      <Text>Kansallispuiston maksut</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_ROCK_BAND_ALBUM_SALES">
+      <Text>Albumimyynti</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_ROCK_BAND_LEVEL">
+      <Text>Rock Band -taso</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_BAND_FLOAT_ON">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num}[ICON_TOURISM] Matkailu [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_REPAIR_LOCATION_FLOODED">
+      <Text>Ei voida korjata, paikka tulvii.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_AGE">
+      <Text>Reaktorin ikä: {1_Age}</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT1_POSSIBLE">
+      <Text>[COLOR_RED]Mahdollinen radioaktiivinen höyryvuoto[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT2_POSSIBLE">
+      <Text>[COLOR_RED]Säteilyvuoto mahdollinen[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT3_POSSIBLE">
+      <Text>[COLOR_RED]Ydinvoimalan sulaminen mahdollinen[ENDCOLOR]</Text>
+    </Row>
+    <!--Lenses-->
+    <Row Tag="LOC_HUD_TOGGLE_DESERT_LABELS">
+      <Text>Hiekkamerkit</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_DESERT_LABELS_TOOLTIP">
+      <Text>Vaihda Autiomaan Nimikkeet</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_MOUNTAIN_RANGE_LABELS">
+      <Text>Vuoristojen nimilaput</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_MOUNTAIN_RANGE_LABELS_TOOLTIP">
+      <Text>Vaihda vuoristojen nimikylttien tilaa</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_LAKE_LABELS">
+      <Text>Järvien nimikyltit</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_LAKE_LABELS_TOOLTIP">
+      <Text>Vaihda Järvien Etiketit-painiketta</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_OCEAN_LABELS">
+      <Text>Merkit valtamerelle</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_OCEAN_LABELS_TOOLTIP">
+      <Text>Näytä/Muokkaa meren etikettejä</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_SEA_LABELS">
+      <Text>Merkit merellä</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_SEA_LABELS_TOOLTIP">
+      <Text>Vaihda merkintöjen näkyvyys meressä</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATIONAL_PARK_LABELS">
+      <Text>Kansallispuiston tunnukset</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATIONAL_PARK_LABELS_TOOLTIP">
+      <Text>Vaihda Kansallispuisto-tunnusten tilaa</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATURAL_WONDER_LABELS">
+      <Text>Luonnon ihmeiden etiketit</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATURAL_WONDER_LABELS_TOOLTIP">
+      <Text>Vaihda Luonnonihmeiden Tunnisteiden Näkyvyys</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_RIVER_LABELS">
+      <Text>Jokilaitteet</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_RIVER_LABELS_TOOLTIP">
+      <Text>Vaihda joen nimet</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_VOLCANO_LABELS">
+      <Text>Tulivuoren etiketit</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_VOLCANO_LABELS_TOOLTIP">
+      <Text>Vaihda tulivuorien nimikylttejä</Text>
+    </Row>
+    <!-- Map Search Terms -->
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_ERUPTING">
+      <Text>purkautuva</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_ACTIVE">
+      <Text>Active</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_COASTAL_LOWLAND">
+      <Text>Rannikkotasanko</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_SUBMERGED">
+      <Text>Upotettu</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_FLOODED">
+      <Text>Tulva</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_STORM">
+      <Text>Myrsky</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_DROUGHT">
+      <Text>Kuivuus</Text>
+    </Row>
+    <!--Agendas-->
+    <Row Tag="LOC_DIPLOMACY_HIDDEN_AGENDAS_TT">
+      <Text>Saavuta Pääsy Taso [ICON_VisOpen] OPEN nähdäksesi ensimmäisen piilotetun agendan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_HIDDEN_AGENDAS_TT_LATE">
+      <Text>Saavuta pääsy taso [ICON_VisSecret] SALAINEN nähdäksesi myöhäispelin piilotetun agendan.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ANGEVIN_EMPIRE">
+      <Text>Pitää naapurimaista, joissa on suurkaupunkeja</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_CANADIAN_EXPEDITIONARY">
+      <Text>Pitää niistä, jotka myös osallistuvat hätätilanteisiin</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_KAITIAKITANGA">
+      <Text>Pitää kaupungeista, jotka kunnioittavat ympäristöä</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_LAWGIVER">
+      <Text>Pitää kansalaisiaan tyytyväisinä ja uskollisina kansalaisena</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_LORD_OF_MINES">
+      <Text>Pitää sivuista, joilla on korkea kulta per kierros -tulo</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_PATRON_OF_ARTS">
+      <Text>Tykkää siviilisaatioista, jotka eivät kilpaile hänen kanssaan suurteoksista</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_RAVEN_BANNER">
+      <Text>Pitää kaupunkivaltioiden joukkoja käyttävistä sivilisaatioista</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_FLAT_EARTHER">
+      <Text>Pitää sivistyksistä, jotka välttävät maailman ympäri kiertämistä tai Avaruusasemien rakentamista</Text>
+    </Row>
+    <!-- Climate Screen -->
+    <Row Tag="LOC_LAUNCHBAR_CLIMATE_PROGRESS_TOOLTIP">
+      <Text>Maailman ilmasto[NEWLINE][NEWLINE]Katsele maailman ilmasto- ja säätilaa.</Text>
+    </Row>
+    <Row Tag="LOC_PARTIALSCREEN_CLIMATE_PROGRESS_TOOLTIP">
+      <Text>Maailman ilmasto[NEWLINE][NEWLINE]Katsele maailman ilmastoa ja säätä.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TITLE">
+      <Text>Ilmasto maailmassa</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CLIMATE_CHANGE_PHASE_0">
+      <Text>Ilmastonmuutos - Ei mitään</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_NORTHEAST">
+      <Text>OTSIKKO NE</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_EAST">
+      <Text>OTSIKKO E</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_SOUTHEAST">
+      <Text>OSIO SE</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_SOUTHWEST">
+      <Text>OTANTAPÄÄLLIKÖN SW</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_WEST">
+      <Text>OTSIKKO W</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_NORTHWEST">
+      <Text>SUUNTAUTUMASSA LUOTEESTA</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_WATER">
+      <Text>Vesi</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_GLOBAL">
+      <Text>Globaali</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_LOCATION">
+      <Text>( {1_Sijainti} )</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_LOCATION_DIRECTION">
+      <Text>( {1_Sijainti}, {2_Suunta} )</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_MINIMAL_NAME">
+      <Text>Minimaalinen</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_LIGHT_NAME">
+      <Text>Valo</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_MODERATE_NAME">
+      <Text>Kohtalainen</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_HEAVY_NAME">
+      <Text>Painava</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_HYPERREAL_NAME">
+      <Text>Hyperrealistinen</Text>
+    </Row>
+    <Row Tag="LOC_DROUGHT_TOOLTIP_STRING">
+      <Text>{1_DroughtName} ({2_Turns} kierrosta jäljellä)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_OVERVIEW">
+      <Text>Yleiskatsaus</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_LEVELS">
+      <Text>CO2-pitoisuudet</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_EVENT_HISTORY">
+      <Text>Tapahtumien historia</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_BY_CIVILIZATION">
+      <Text>Hiilidioksidi sivilisaation toimesta</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_BY_RESOURCE">
+      <Text>CO2 resurssin mukaan</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_DEFORESTATION">
+      <Text>Metsien hävittäminen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CONTRIBUTING_TO_CLIMATE_CHANGE">
+      <Text>Vaikuttaminen ilmastonmuutokseen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FORECAST">
+      <Text>Ennuste</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CO2_LEVELS">
+      <Text>Hiilidioksiditasot</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_GLOBAL_TEMPERATURE">
+      <Text>Maailmanlämpötila</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_WORLD_SETTINGS">
+      <Text>Maailman asetukset</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TODO">
+      <Text>[WIP] ???</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE">
+      <Text>+{1_TEMP}°</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE_SUBTEXT">
+      <Text>(muutos celsiusasteissa muinaisajasta)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE_TOOLTIP">
+      <Text>Metsien hävittämisaste: {1_Level}[NEWLINE][NEWLINE]{2_Description}[NEWLINE][NEWLINE]Tämän metsien hävittämisasteen seurauksena globaalin lämpötilan nousuvauhti CO2-päästöjen vuoksi on muuttunut {3_CO2Mod}%.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_WORLD_AGE">
+      <Text>Maailman ikä: {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_REALISM">
+      <Text>Katastrofin voimakkuus: {1_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SHOW_ON_MAP">
+      <Text>Näytä kartalla</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_AMOUNT_FROM_CLIMATE_CHANGE">
+      <Text>({1_Amount}% ilmastonmuutoksesta)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_STORMS">
+      <Text>Myrskyt</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_RIVER_FLOOD">
+      <Text>Jokien tulviminen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANIC_ACTIVITY">
+      <Text>Tulivuorenpurkaus</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DROUGHTS">
+      <Text>Kuivuus</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_VOLATILE">
+      <Text>Haihtuva</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_INACTIVE">
+      <Text>Ei aktiivinen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ACTIVE">
+      <Text>Aktiivinen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ERUPTED">
+      <Text>purkautunut</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_VOLATILE_NUM">
+      <Text>{1_Num} Haihtuva</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_INACTIVE_NUM">
+      <Text>{1_Num} Passiivinen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ACTIVE_NUM">
+      <Text>{1_Num} Aktiivinen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ERUPTED_NUM">
+      <Text>{1_Num} Purkautui</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE">
+      <Text>Polaarijää</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LOST">
+      <Text>{1_Amount}% menetetty</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL">
+      <Text>Merenpinta-ala</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COASTAL_TILES_FLOODED_NUM">
+      <Text>Rannikkolaatat tulvivat: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COASTAL_TILES_SUBMERGED_NUM">
+      <Text>Upotettu: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CLIMATE_CHANGE_POINTS_TOOLTIP">
+      <Text>Ilmastonmuutos pisteet {1_Current}/{2_Required}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FROM_WORLD_REALISM_NUM_TOOLTIP">
+      <Text>[ICON_Bullet]{1_Num} Katastrofin voimakkuudesta</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FROM_GLOBAL_TEMPERATURE_NUM_TOOLTIP">
+      <Text>[ICON_Bullet]{1_Num} Maailmanlaajuisesta lämpötilasta</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_EFFECTS_ADDED_THIS_PHASE_TOOLTIP">
+      <Text>Vaiheeseen lisätty efektejä</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_STORMS_TOOLTIP">
+      <Text>Mahdollisuus ukkosmyrskyille</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_RIVER_FLOODING_TOOLTIP">
+      <Text>Joenveden tulvimisriski</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_INCREASE_NUM_TOOLTIP">
+      <Text>Kasvaa +{1_Num}%</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE">
+      <Text>+{1_Num} metriä</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISES_NUM_TOOLTIP">
+      <Text>Meriveden taso nousee +{1_Num} metriä</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TILES_AT_OR_BELOW_FLOOD_TOOLTIP">
+      <Text>[NEWLINE]Matalan maan laatoitus tulvii seuraavilla vesimäärillä tai alle niiden:[NEWLINE] {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TILES_AT_OR_BELOW_SUBMERGE_TOOLTIP">
+      <Text>[NEWLINE]Alankomaiden laattoja upotetaan tasolle tai alle:[NEWLINE] {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_TOOLTIP">
+      <Text>Polaarijään sulaminen {1_Num}%</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_PERCENT_CHANCE">
+      <Text>{1_Num}% Mahdollisuus</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_STORM_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>MYRSKY TAPAHTUMA[NEWLINE][NEWLINE]Kun tapahtuma ilmenee:[NEWLINE]- Yksi neljästä mahdollisesta myrskystä (lumimyrsky, pölymyrsky, hurrikaani tai tornado) ilmestyy sen mukaan, millainen maasto on myrskyn lähtöpaikalla.[NEWLINE]- Myrskyt liikkuvat sen jälkeen kahden vuoron ajan yli kartan aiheuttaen vahinkoa rakennuksille ja parannuksille sekä mahdollisesti lisäämällä hedelmällisyyttä vaikutusalueen ruutuihin.[NEWLINE][NEWLINE]Kun kasvihuonekaasujen määrä ilmakehässä kasvaa, maapallon lämpötilan noustessa myös myrskyn todennäköisyys kasvaa. Puhtaista energialähteistä käyttö vähentää kasvihuonekaasujen määrää ilmakehässä, joka puolestaan vähentää myrskyjen todennäköisyyttä.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RIVER_FLOOD_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>JOEN TULVATAPAHTUMA[NEWLINE][NEWLINE]Kun tapahtuma ilmenee:[NEWLINE]- Tulvatasangon kivet pitkin vaikutetun joen tulvii, mahdollisesti lisäten hedelmällisyyttä.[NEWLINE]- Tulvivilla kivillä olevat rakennukset ja parannukset saattavat joutua ryöstetyiksi tai tuhoutua.[NEWLINE][NEWLINE]Estä tulvavahinko rakentamalla pato tai Great Bath -ihme vaikutetun joen varrella.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>TULIVUORITAPAHTUMA[NEWLINE][NEWLINE]Kun tapahtuma tapahtuu:[NEWLINE]- Purkauksen vieressä olevat ei-vuoristolaatat saavat tuliperäisen maaperän ominaisuuden, mikä voi lisätä hedelmällisyyttä.[NEWLINE]- Niillä laatoilla olevat rakennukset ja parannukset voivat joutua ryöstetyiksi tai tuhoutua.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DROUGHT_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>DROUGHT EVENT[NEWLINE][NEWLINE]When event occurs:[NEWLINE]- Farm, Camp, Plantation, and Pasture improvements, as well as Mekewap, Outback Station, and Cahokia Mound improvements are pillaged.[NEWLINE]- These improvements cannot be rebuilt until the Drought ends.[NEWLINE]- All tiles affected by the Drought yield 1 less [Icon_Food] Food than usual.[NEWLINE][NEWLINE]Build an Aqueduct, Dam, or Stepwell in your city to prevent the [Icon_Food] Food loss from Drought.  Drought targets areas that are devoid of all Features. Keep some Woods, Rainforest, or Marsh near your cities to lessen the chance that Drought will strike.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_DESCRIPTION_TOOLTIP">
+      <Text>POLAARIJÄÄN SULAMINEN[NEWLINE][NEWLINE]Ilmastonmuutos vaikuttaa menetettyjen polaariluiskien määrään.[NEWLINE][NEWLINE]Sulanut polaariluiski voi avata edullisia meriteitse kulkevia reittejä, mutta se myös vaikuttaa merenpinnan nousuun.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_ALERT_TOOLTIP">
+      <Text>Polaaristen jäämassojen sulaminen on hiljattain päivitetty ilmastonmuutoksen vuoksi.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_DESCRIPTION_TOOLTIP">
+      <Text>MERENPINTA NOUSU[NEWLINE][NEWLINE]Merenpinta on noussut {1_Num} metriä ilmastonmuutoksen seurauksena.[NEWLINE][NEWLINE]Nousevat merenpinnat aiheuttavat yhä enemmän laattoja alttiiksi rannikkotulville.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_ALERT_TOOLTIP">
+      <Text>Meriveden taso on äskettäin noussut ilmastonmuutoksen vuoksi.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_GLOBAL_CONTRIBUTIONS">
+      <Text>Maailmanlaajuiset panokset</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_YOUR_CO2_CONTRIBUTION">
+      <Text>Sinun hiilidioksidipäästösi</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMPTION_NUM_NAME">
+      <Text>kuluttaen {1_Amount} {2_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_NO_ONE">
+      <Text>Ei kukaan</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_YOU">
+      <Text>{1_CivName} (Sinä)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOTAL_NUM">
+      <Text>Yhteensä: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOTAL_NUM_W_MOD">
+      <Text>Yhteensä: {1_Num} ({2_Modifier}%)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_EVENT_HISTORY">
+      <Text>Tapahtumahistoria</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOP_CONTRIBUTOR_NUM">
+      <Text>Kärkikäyttäjä: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_MY_CONTRIBUTION_NUM">
+      <Text>Minun panokseni: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_EVENT">
+      <Text>Tapahtuma</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_NAME">
+      <Text>Nimi</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_SEVERITY_LEVEL">
+      <Text>Vakavuustaso</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_LOCATION">
+      <Text>Sijainti</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_TRAITS">
+      <Text>Piirteet</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_EFFECT">
+      <Text>Vaikutus</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_AREA_EFFECTED">
+      <Text>Vaikutusalue</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_OCCURENCE">
+      <Text>Esiintyminen</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_DATE">
+      <Text>Päivämäärä</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_ENTRY_SEVERITY">
+      <Text>{1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_ENTRY_DATE">
+      <Text>VUORO {1_Turn}[NEWLINE]{2_Date}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LOST_FERTILIZED_TILES">
+      <Text>Laattojen hedelmällisyys heikkenee</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FERTILIZED_TILES">
+      <Text>Lannoitettu laatta</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DAMAGED_TILES">
+      <Text>Vaurioituneet laatat</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_UNITS_LOST">
+      <Text>Yksiköt menetetty</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POP_LOST">
+      <Text>Väestön menetys</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_X_TURNS">
+      <Text>Seuraava merenpinnan muutos odotetaan tapahtuvan {1_Turns} käännöksen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_X_TURNS">
+      <Text>Seuraava napajäätikön sulaminen odotetaan tapahtuvan {1_Turns} kierroksen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CO2_TOTAL_TOOLTIP">
+      <Text>Kokonais-CO2-päästöt sopeutuvat {1_Modifier} prosentilla maapallon metsäkadon mukaan.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LAUNCHBAR_BANG_TOOLTIP">
+      <Text>Ilmastonmuutos on voimistunut ja saavuttanut seuraavan vaiheen.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_MITIGATED">
+      <Text>( Lievennetty )</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMED_LAST_TURN">
+      <Text>Imperiumisi käytti edellisellä vuorolla {1_Number} {2_Resource}, lisäten {3_CO2Number : plural 1?{3_CO2Number} yksikön; other?{3_CO2Number} yksikköä;} hiilidioksidia ilmakehään.</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMED_LAST_TURN_GLOBAL">
+      <Text>Maailmanlaajuisesti käytettiin {1_Number} {2_Resource} viime vuosikierroksella, mikä lisäsi {3_CO2Number : plural 1?{3_CO2Number} yksikön; other?{3_CO2Number} yksikön;} CO2:ta ilmakehään.</Text>
+    </Row>
+    <!-- Rock Band Results Screen -->
+    <Row Tag="LOC_ROCK_CONCERT_HEADER">
+      <Text>Rock-konsertti</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_PERFORMANCE_BY">
+      <Text>Esitys (by:)</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULTS">
+      <Text>Tulokset suorituskyvystä:</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_LEGENDS_OF_ROCK_TIER">
+      <Text>Huippuluokan suorituskyky</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_LEGENDS_OF_ROCK_DESCRIPTION">
+      <Text>Sinun täytyi olla siellä! Se oli uskomatonta! He sulattivat täysin kasvoni! Mikään ei voi koskaan ylittää sitä! Aion ehdottomasti ostaa jokaisen albumin, jonka he tekevät jatkossa ja käydä jokaisessa heidän konsertissaan.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_HEADLINERS_TIER">
+      <Text>2. tason suorituskyky</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_HEADLINERS_DESCRIPTION">
+      <Text>Viimeisen voitokkaan laulun viimeinen sävel kaikuu yhteen huutojen ja kannustushuutojen kanssa. Kaikki lähtevät kotiin onnellisina, hyräillen bändin parhaita sävelmiä.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_RISING_STARS_TIER">
+      <Text>3. tason suorituskyky</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_RISING_STARS_DESCRIPTION">
+      <Text>Paras osa tämän illan esityksessä on kuusi kuukautta myöhemmin, kun kaikki sanovat olevansa faneja, ja minä voin sanoa: "Joo, mutta itse tykkäsin heistä jo ennen kuin he tulivat suosituiksi."</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_OPENING_ACT_TIER">
+      <Text>4. tason suorituskyky</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_OPENING_ACT_DESCRIPTION">
+      <Text>Me menimme pääbändin takia, mutta lämppäribändi oli paljon parempi kuin odotin. Ostinkin paidan ja levyn. Sinun pitäisi kuunnella sitä.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_CREATIVE_DIFFERENCES_TIER">
+      <Text>5. tason suorituskyky</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_CREATIVE_DIFFERENCES_DESCRIPTION">
+      <Text>Se oli mestarillinen ja sydämellinen esitys, mutta bändille katkera hetki. Jäsenet suunnittelevat jo uusia erillisiä projekteja.</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_AGING_ROCKERS_TIER">
+      <Text>Alimman tason suorituskyky</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_AGING_ROCKERS_DESCRIPTION">
+      <Text>Elämä kiertueella on rankkaa, eikä yleisö ole enää niin suurta tai innokasta kuin ennen. Mutta pahinta oli ihmiset, jotka nauttivat esityksestä ironisesti. On aika lopettaa.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_TOURISM">
+      <Text>Matkailu tuottaa</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_TOURISM_TOOLTIP">
+      <Text>Tämä [ICON_Tourism] Konsertin avulla syntyvä matkailu on vaikuttanut pelaajaan, joka omistaa tämän konserttipaikan.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_ALBUMS">
+      <Text>Myytyjen albumien määrä</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_ALBUMS_TOOLTIP">
+      <Text>Albumimyyntien kasvu kasvattaa perustasoa, [ICON_Tourism] jonka tämä bändi tulee tienaamaan tulevista konserteista.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_PROMOTION">
+      <Text>Kampanja saatavilla!</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_PROMOTION_TOOLTIP">
+      <Text>Bändi voi valita satunnaisesti tarjotuista kampanjoista parannuksia kykyihinsä ennen seuraavaa esitystään.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_LEVEL_UP">
+      <Text>Tasoa nostettu!</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_LEVEL_UP_TOOLTIP">
+      <Text>Tason nostaminen lisää tämän bändin mahdollisuutta suotuisaan tulokseen tulevissa konserteissa.</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_UNIT_LOST">
+      <Text>Yksikkö menetetty</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_UNIT_LOST_TOOLTIP">
+      <Text>Voi harmi!</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_NEARBY_GREAT_WORKS">
+      <Text>Lähellä suuria teoksia</Text>
+    </Row>
+    <!--Unit Operations -->
+    <Row Tag="LOC_UNITOPERATION_TOURISM_BOMB_DESCRIPTION">
+      <Text>Järjestä rock-konsertti</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_REQUIRES_NAME">
+      <Text>Bändisi tarvitsee nimen ennen kuin se voi nousta lavalle.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_BUILD_IMPROVEMENT_ADJACENT_DESCRIPTION">
+      <Text>Rakennusparannus viereiselle alueelle</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_UPGRADE_RESOURCE_INFO">
+      <Text>Vaaditaan: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BASE_RESOURCE_COST">
+      <Text>Perusresurssien kustannus: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRODUCTION_RESOURCE_COST">
+      <Text>Edellyttää: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UI_FEATURE_NATURAL_DISASTER_DISCOVERY">
+      <Text>Luonnonmullistus tapahtuu</Text>
+    </Row>
+    <Row Tag="LOC_UI_FEATURE_NUCLEAR_DISASTER_DISCOVERY">
+      <Text>Ydinonnettomuus tapahtumassa</Text>
+    </Row>
+    <!--Unit Commands -->
+    <Row Tag="LOC_UNITCOMMAND_BUILDING_PRODUCTION_DESCRIPTION">
+      <Text>Lisää [ICON_Production] tuotanto rakennukseen.</Text>
+    </Row>
+    <!--Emergencies-->
+    <Row Tag="LOC_EMERGENCY_TARGETING_UNMET_PLAYER">
+      <Text>Tämä hätätilanne kohdistuu kohteeseen, jolle ei ole vastaavaa pelaajaa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_CITY">
+      <Text>KOHDEKAUPUNKI: {1_Target}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_KILL_ENEMY_MILITARY_DESC">
+      <Text>Tappamalla Kohde-yksiköitä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ATTACK_CITY_DESC">
+      <Text>Hyökkäämällä kohdekaupunkeihin</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_MILITARY_IN_LAND_DESC">
+      <Text>Pitämällä yksiköitä Kohteen alueella</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_RELIGION_IN_LAND_DESC">
+      <Text>Pitämällä uskonnollisia yksiköitä kohdekaupungin alueella</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GPP_DESC">
+      <Text>Generoimassa [ICON_GREATPERSON] Suurmiehen pisteitä vuoron aikana</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_MILITARY_TARGET_NAME">
+      <Text>Sotilaallinen hätätilanne</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_CITY_STATE_TARGET_NAME">
+      <Text>Kaupunkivaltion hätätilanne</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_RELIGIOUS_TARGET_NAME">
+      <Text>Uskonnollinen hätätilanne</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NUCLEAR_TARGET_NAME">
+      <Text>Ydinonnettomuus</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_BACKSTAB_TARGET_NAME">
+      <Text>Petos hätätilanne</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_AID_REQUEST_TARGET_NAME">
+      <Text>Avunpyyntö</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_NOBEL_PRIZE_LITERATURE_NAME">
+      <Text>Nobelin kirjallisuuspalkinto</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NOBEL_PRIZE_PHYSICS_NAME">
+      <Text>Nobelin fysiikanpalkinto</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NOBEL_PRIZE_PEACE_NAME">
+      <Text>Nobel rauhanpalkinto</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_SCORE_COMPETITION_CULTURAL">
+      <Text>"Osoitetaan, mikä kansakunta on todellinen paras ja kirkkain!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SCORE_COMPETITION_CULTURAL">
+      <Text>Loisteliaat [ICON_GREATPERSON] Suurmiehemme johtavat tietä. Kuka meistä voi osoittaa suurinta tukea omille valovoimaisille henkilöillemme?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_SPACE_STATION">
+      <Text>"Avaruus on seuraava suuri seikkailu. Tehdään hyppy yhdessä!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SPACE_STATION">
+      <Text>Meidän on aloitettava projekti kansainvälisen Avaruusaseman rakentamiseksi yhdistäen kaikkien kansojen tiede- ja insinöörialan parhaat ponnistelut.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_WORLD_GAMES">
+      <Text>"Meidän ei tarvitse kilpailla aseilla. Katsotaan sen sijaan, kuka voittaa parhaiten kisoissa."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_WORLD_GAMES">
+      <Text>Parhaat urheilijamme kilpailevat maailman parhaiden kanssa. Mikä maa voittaa kultaa?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_CLIMATE_ACCORDS">
+      <Text>"Me jaamme kaikki tämän planeetan. Lastemme ja heidän lastensa takia meidän täytyy suojella sitä."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_CLIMATE_ACCORDS">
+      <Text>Meidän kaikkien on tehtävä osuutemme vähentääksemme ihmiskunnan hiilijalanjälkeä. Ne, jotka tekevät parhaiten, tullaan kiittämään tulevien sukupolvien toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_WORLDS_FAIR_NAME">
+      <Text>Maailmannäyttely</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SPACE_STATION_NAME">
+      <Text>Kansainvälinen avaruusasema</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_CLIMATE_ACCORDS_NAME">
+      <Text>Ilmastosopimukset</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_WORLD_GAMES_NAME">
+      <Text>Maailman pelit</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PRIZE_LITERATURE_NAME">
+      <Text>Nobel-palkinto kirjallisuudessa</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SPACEPORTS_DESC">
+      <Text>Avaruussatama-alueiden ylläpito</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_CAMPUSES_DESC">
+      <Text>Ylläpitää kampusalueita</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ASTRONAUT_PROJECT_DESC">
+      <Text>Täydentämällä koulutus astronautit -projekti</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_CO2_FOOTPRINT_DESC">
+      <Text>Tuottaen paljon vähemmän CO2-päästöjä kuin suurin CO2-saastuttaja</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_COAL_POWER_PLANT_DESC">
+      <Text>Valmiiksi saattamalla hiilivoimalan poistaminen käytöstä -projekti</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_OIL_POWER_PLANT_DESC">
+      <Text>Valmistamme Öljyvoimalaitoksen poistamishankkeen</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_NUCLEAR_POWER_PLANT_DESC">
+      <Text>Suoritetaan Ydinvoimalan poistamisprojekti loppuun</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ATHLETE_PROJECT_DESC">
+      <Text>Suoritetaan urheilijoiden koulutusprojekti loppuun</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_STADIUMS_DESC">
+      <Text>Stadionien ylläpito</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_AQUATIC_CENTERS_DESC">
+      <Text>Ylläpitää vesikeskuksia</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_GREAT_ARTISTS">
+      <Text>"Taide ylittää kansallisuuden, siunaten meitä kaikkia. Kunnioittakaamme niitä, jotka antavat meille vilahduksia taivaasta ja helvetistä."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_GREAT_ARTISTS">
+      <Text>Ruotsi myöntää Nobelin kirjallisuuspalkinnon. Näytetään olevamme taidokkaimpia ja voitetaan tämä arvostettu palkinto.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GREAT_ARTISTS_DESC">
+      <Text>Generoimassa [ICON_GreatWriter] Suuren kirjailijan, [ICON_GreatArtist] taiteilijan ja [ICON_GreatMusician] muusikon pisteitä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_GREAT_ARTISTS">
+      <Text>[ICON_Tourism] Matkailu Great Worksista on kasvanut +200%.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PHYSICS_NAME">
+      <Text>Nobelin fysiikan palkinto</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_GREAT_STEMS">
+      <Text>"Opiskelu vie ihmiskunnan tulevaisuuteen. Kunnioittakaamme niitä jättiläisiä, joiden harteilla seisomme."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_GREAT_STEMS">
+      <Text>Ruotsi myöntää Nobelin fysiikan palkinnon. Näytetään, että olemme tieteellisesti suuntautunein kansa voittamalla tämä arvostettu palkinto.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GREAT_STEMS_DESC">
+      <Text>Generoidaan [ICON_GreatEngineer] Suuri insinööri-, [ICON_GreatScientist] tiedemies- ja [ICON_GreatMerchant] kauppiaspisteitä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_GREAT_STEMS">
+      <Text>+2 Satunnaista [ICON_TechBoosted] Eurekaa ja +50% alueen tuotantoon.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PRIZE_PEACE_NAME">
+      <Text>Nobelin rauhanpalkinto</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_FAVOR">
+      <Text>"Ei ole mitään niin kunnioitettavaa kuin huomattava pyrkimys rauhaan."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_FAVOR">
+      <Text>Ruotsi myöntää rauhan Nobel-palkinnon. Näytetään olevamme kaikkein rauhallisin ja voitetaan tämä arvostettu palkinto.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_FAVOR_DESC">
+      <Text>Luodaan [ICON_Favor] diplomaattista suosiota.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_FAVOR">
+      <Text>Voittaja saa 2 ilmaista [ICON_GreatPerson] suurta henkilöä.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_SWEDEN_GAINS_FAVOR_DESCRIPTION">
+      <Text>Ruotsi saa +50 [ICON_FAVOR] diplomaattista hyväksyntää.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REQUEST_AID_NAME">
+      <Text>Apuapupyynnön</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_REQUEST_AID">
+      <Text>"Emme voi antaa muiden sivilisaatioiden sortua luonnon hyökkäykselle. Yksi kaikkien ja kaikki yhden puolesta."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_REQUEST_AID">
+      <Text>{TargetName} kärsi äskettäin luonnonkatastrofista. Avullamme heidän toipumisensa edistäminen antaa meille arvostusta Maailmankongressin silmissä.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_GOLD_DESC">
+      <Text>Lähetetään lahjoja [ICON_Gold] kultaa Kohteelle.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_CO2_DESC">
+      <Text>CO2:n tuottaminen vähentää pistemäärääsi.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_WAR_DESC">
+      <Text>Olla sotatilassa kohteen kanssa pienentää pistemäärääsi.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_PROJECT_DESC">
+      <Text>Loppuunsaattaminen Lähetä apua -projektissa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REQUEST_MILITARY_AID_NAME">
+      <Text>Pyyntö sotilasavusta</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_REQUEST_MILITARY_AID">
+      <Text>"Meidän täytyy auttaa niitä, jotka ovat kohteena hillittömästä aggression."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_REQUEST_MILITARY_AID">
+      <Text>{TargetName} on epäoikeudenmukaisen sodan kohteena voimaa vastaan, jonka kanssa heillä on paljon valituksia. Avullamme voimme auttaa palauttamaan rauhan.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_POSITION_AND_HOW_TO">
+      <Text>Olet {1_Position} paikassa. Kerää pisteitä seuraavilla tavoilla:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_HOW_TO">
+      <Text>Saat pisteitä seuraavasti:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_SEND_AID_PROJECT">
+      <Text>Jäsenillä on pääsy Lähetä Apua-projektiin.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ATHLETES_PROJECT">
+      <Text>Jäsenillä on pääsy Train Athletes -projektiin.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ASTRONAUTS_PROJECT">
+      <Text>Jäsenillä on pääsy Train Astronauts -projektiin.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_DECOMMISSION_POWER_PLANT_PROJECTS">
+      <Text>Jäsenillä on mahdollisuus saada pääsy projekteihin, jotka koskevat voimaloiden purkamista heidän kaupungeissaan.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_COMPETE_WITH_OTHERS">
+      <Text>Jäsenet kilpailevat nähdäkseen kuka saa korkeimman pistemäärän [ICON_Turn] kierroksen aikana.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_COMPETE_WITH_OTHERS">
+      <Text>Jäsenet kilpailevat siitä, kuka saa korkeimman pistemäärän.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_COMPETE_WITH_OTHERS">
+      <Text>Kilpaile korkeimmasta pistemäärästä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_COMPETE_WITH_OTHERS">
+      <Text>Saa korkea pistemäärä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_TARGET_RECEIVE_AID">
+      <Text>Vastaanota apua</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARDS_HOSTILE_EXPLANATION">
+      <Text>Jos jäsenet suorittavat kaikki tavoitteet ennen ajan loppumista:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NON_HOSTILE_DESCRIPTION">
+      <Text>Kun aika loppuu, jäseniä palkitaan heidän saamiensa pistemäärien perusteella:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_FIRST_PLACE_DESCRIPTION">
+      <Text>Ainoastaan jäsen, jolla on korkein pistemäärä, saa:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_TOP_TIER_DESCRIPTION">
+      <Text>Jäsenet, joiden pisteet ovat top 25 prosentissa, saavat:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_BOTTOM_TIER_DESCRIPTION">
+      <Text>Seuraavat 25%:n parhaat jäsenet saavat:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NO_TIER_DESCRIPTION">
+      <Text>Jäsenet, joilla ei ole pistemäärää tai jotka ovat alimman 50%: n joukossa pistemäärissä, eivät saa mitään.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NO_SCORE_DESCRIPTION">
+      <Text>Jäsenet, joilla ei ole pistemäärää, eivät saa palkintoja.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_EXTRA_EFFECTS_DESCRIPTION">
+      <Text>Lisäksi:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_SINGLE_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>1 diplomaattinen voittopiste</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>2 diplomaattista voittopistettä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>100 diplomaattista suosiota [ICON_Favor]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_BOTTOM_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] diplomaattista suosiota</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_FIRST_PLACE_GREAT_PERSON_POINTS_DESCRIPTION">
+      <Text>100 [ICON_GREATPERSON] Suurmiehen pistettä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] diplomaattista suosiota</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_TOP_TIER_CULTURE_DESCRIPTION">
+      <Text>2 kaupunkia ylentävää edistystä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_BOTTOM_TIER_CULTURE_DESCRIPTION">
+      <Text>1. Kansalaisen boosti</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_FIRST_PLACE_CAMPUS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] Matkailua jokaisella kampuksella</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] Diplomatiaetua</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_STADIUMS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] Matkailu jokaiselle stadionille</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_AQUATIC_CENTERS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] Matkailua jokaiselle vesipuistolle</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_BOTTOM_TIER_STADIUMS_TOURISM_DESCRIPTION">
+      <Text>1 [ICON_Tourism] Matkailu jokaiselle stadionille</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_BOTTOM_TIER_AQUATIC_CENTERS_TOURISM_DESCRIPTION">
+      <Text>1 [ICON_Tourism] Matkailu jokaisessa Vesipuistossa</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_FIRST_PLACE_SPACESHIP_SPEED_DESCRIPTION">
+      <Text>+3 valovuotta kierroksella heidän eksoplaneetta-aluksellaan</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] diplomaattista kannatusta</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_TOP_TIER_SPACE_RACE_PRODUCTION_DESCRIPTION">
+      <Text>+40% [ICON_Production] Tuotanto kohti avaruuskilpailuprojekteja</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_BOTTOM_TIER_SPACE_RACE_PRODUCTION_DESCRIPTION">
+      <Text>+20% [ICON_Production] Tuotanto avaruuskilpailuprojekteihin</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>1 diplomaattinen voittopiste</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>100 [ICON_Favor] diplomaattista suosiota</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_BOTTOM_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] diplomatiaetua</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_FIRST_PLACE_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>+50 albumimyyntiä rock-bändeille</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_FIRST_PLACE_ROCK_BAND_CHEAPER_DESCRIPTION">
+      <Text>Rock-bändit ovat 20% halvempia ostaa</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_TOP_TIER_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>+75 albumimyyntiä rock-yhtyeille</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_BOTTOM_TIER_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>+25 albumimyyntiä rock-bändeille</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_FIRST_PLACE_TECH_BOOST_DESCRIPTION">
+      <Text>1. Teknologian vauhdittaminen</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_FIRST_PLACE_UNIVERSITY_RESOURCES_DESCRIPTION">
+      <Text>Lisää yliopistokaupunkien resurssien kertymistä yhdellä.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_TOP_TIER_TECH_BOOST_DESCRIPTION">
+      <Text>1. Teknologian lisäys</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_TOP_TIER_UNIVERSITY_RESOURCES_DESCRIPTION">
+      <Text>Lisää resurssien kertymistä kaupungeissa, joissa on tutkimuslaboratorio, yhdellä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_BOTTOM_TIER_TECH_BOOST_DESCRIPTION">
+      <Text>1. Teknologian kiihdytys</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_FIRST_PLACE_GREAT_MUSICIAN_DESCRIPTION">
+      <Text>1 [ICON_GreatMusician] Suuri Muusikko</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_FIRST_PLACE_GREAT_SCIENTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatScientist] Suuri tiedemies</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_TOP_TIER_GREAT_ENGINEER_DESCRIPTION">
+      <Text>1 [ICON_GreatEngineer]Mahtava insinööri</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_TOP_TIER_GREAT_ARTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatArtist] Suuri taiteilija</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_BOTTOM_TIER_GREAT_ARTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatArtist] Suuri taiteilija</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_MEMBERS_GAIN_FAVOR_DESCRIPTION">
+      <Text>Jäsenet saavat 100 [ICON_Favor] diplomaattista suosiota</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_TARGET_GAINS_FAVOR_DESCRIPTION">
+      <Text>Kohde saa 200 [ICON_Favor] diplomaattista suosiota</Text>
+    </Row>
+    <!--Governors-->
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_NAME">
+      <Text>Ibrahim</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_TITLE">
+      <Text>Suurvisiiri</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_SHORT_TITLE">
+      <Text>Suurvisiiri</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_DESCRIPTION">
+      <Text>Suleimanin visiiri {LOC_GOVERNOR_IBRAHIM_NAME} on sotilaallisiin ja diplomaattisiin asioihin keskittyvä kuvernööri. Hänellä on ainutlaatuinen ylennyspuu ja hän on ainoa kuvernööri, joka voidaan määrätä toisen sivilisaation pääkaupunkiin sekä mihin tahansa kotikaupunkiin. Hän sopii hyvin vaikuttamaan sotilastoimintoihin, mutta on myös taitava diplomaatti, joka vahvistaa suhteita ystävällisiin sivilisaatioihin ja helpottaa jännitteitä kilpailijoiden kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PASHA_NAME">
+      <Text>Pasha</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PASHA_DESCRIPTION">
+      <Text>+20% [ICON_Production] Tuotanto kaikille sotilasyksiköille kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_NAME">
+      <Text>Päälintulenkitsijä</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_DESCRIPTION">
+      <Text>Kaikki ystävällismieliset yksiköt, jotka taistelevat kaupungin alueella, saavat +5 [ICON_Strength] taisteluvoimaa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SERASKER_NAME">
+      <Text>Serasker. (This is already a Finnish word and does not require translation.)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SERASKER_DESCRIPTION">
+      <Text>Antaa kaikille yksiköille, jotka ovat 10 tiilen päässä kaupungin keskuksesta, +10 [ICON_Strength] taisteluvoimaa, kun hyökätään puolustuskelpoisiin kaupunginosiin.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_CITY_GOVERNOR_ATTACK_DISTRICT_COMBAT_BONUS">
+      <Text>+{1_Määrä} Serasker</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_NAME">
+      <Text>Khass-Oda-Bashi</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_DESCRIPTION">
+      <Text>Kun perustat liittokuntasi liittolaisten ulkomaiseen [ICON_Capital] pääkaupunkiin, saat omistajan kanssa liittoutumispisteitä 0.5 enemmän joka vuoro.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_NAME">
+      <Text>Capou Agha</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_DESCRIPTION">
+      <Text>Kun perustat itsesi ulkomaisen [ICON_Capital] pääkaupunkiin, [ICON_STAT_GRIEVANCE] kaupungin omistajan sinua vastaan tekemät valitukset vähenevät yhdellä lisää joka vuoro.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GRAND_VISIER_NAME">
+      <Text>Suurvisiiri</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GRAND_VISIER_DESCRIPTION">
+      <Text>Kun perustat kaupungin vieraiden [ICON_Capital] pääkaupungeissa, omistajan kaupungit eivät aiheuta lojaalisuuspainetta sinun kaupungeillesi.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_NAME">
+      <Text>Uusiutuvan energian tukija</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION">
+      <Text>Kaikki tältä kaupungilta löytyvät merituulipuistot, aurinkovoimalat, tuulivoimalat, geotermiset voimalaitokset ja vesivoimalaitokset saavat +2 [ICON_POWER] voimaa ja +2 [ICON_Gold] kultaa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_NAME">
+      <Text>Metsänhoito</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION">
+      <Text>Tämä kaupunki saa jokaisesta parantamattomasta kohteesta +2 [ICON_Gold] kultaa. Kaupungissa parantamattomien kohteiden vieressä olevat tiilet saavat +1 vetovoimaa.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_DESCRIPTION">
+      <Text>Saavuttaaksesi [COLOR:DiplomaticLabelCS]DIPLOMAATTISEN[ENDCOLOR] voiton, sinun tulee olla ensimmäinen, joka saavuttaa tavoitellun määrän diplomaattipisteitä. Aina kun äänestät tavoitteen ja vaihtoehdon yhdistelmän puolesta, joka hyväksytään Maailmankongressin päätöslauselmaksi, saat yhden diplomaattipisteen. Voit ansaita lisäpisteitä Maailmankongressin Diplomaattisen Voiton Ehdotuksella, saamalla korkeimman pistemäärän Aputyöpyyntöjen käsittelyssä tai suorittamalla Seasteads-teknologian, Ilmastonmuutoksen Torjunnan Kansalaisoikeuden tai Vapaudenpatsaan, Mahabodhi-temppelin tai Potalan Palatsin ihmeet.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_BLURB">
+      <Text>Sinun muinaisesta ja ikuista sitoutumisestasi yhteiseen rauhaan tulee huomisen maailman perusta.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_REQUIREMENT">
+      <Text>Diplomatia pisteet: {1_NumDiplomaticPoints}/{2_TotalDiplomaticPoints}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_DIPLOMATIC_POINTS_TT">
+      <Text>Diplomaattipisteet: {1_NumDiplomaticPoints}/{2_TotalDiplomaticPoints}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_NAME">
+      <Text>Paikalliset informaattorit</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_NAME">
+      <Text>Ulkomaisiin sijoittaja</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_DESCRIPTION">
+      <Text>Kun olet perustanut kaupunkivaltion, kerää sen strategiset resurssit. Kun olet suzerain, saat kaksinkertaisen määrän kerätyistä strategisista resursseista.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_DESCRIPTION">
+      <Text>Vihollisvakoojat toimivat kolme tasoa normaalia alempana tässä kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_NAME">
+      <Text>Vahvistetut materiaalit</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_DESCRIPTION">
+      <Text>Tämän kaupungin parannuksia, rakennuksia ja alueita ei voi vahingoittaa ympäristövaikutukset.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_NAME">
+      <Text>Vesihuolto</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION">
+      <Text>+2 [ICON_HOUSING] Asuntoa jokaiselle naapurustolle ja vesijohdolle tässä kaupungissa. +1 [ICON_AMENITIES] Vapaa-ajanviettopaikka jokaiselle kanavalle ja padolle tässä kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_CANNOT_ASSIGN_TO_UNREVEALED_CITY">
+      <Text>[COLOR_RED]Tämän kaupungin sijainti ei ole vielä tiedossa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_AT_WAR_WITH_CIVILIZATION">
+      <Text>[COLOR_RED]Olet sodassa tämän sivilisaation kanssa.</Text>
+    </Row>
+    <!--Diplomacy UI-->
+    <Row Tag="LOC_DIPLO_CHOICE_DENOUNCE_NO_GRIEVANCE">
+      <Text>Ilmiantaa</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DENOUNCE">
+      <Text>[SIZE_16]Ilmiantaa[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_US">
+      <Text>Diplomaattinen tilamme,[NEWLINE][COLOR_RED]{2_Grievances} [ICON_STAT_GRIEVANCE] Meitä vastaan esitetyt kaunat.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_THEM">
+      <Text>Suhdetila,[NEWLINE][COLOR_GREEN]{2_Grievances} [ICON_STAT_GRIEVANCE] Valituksia heitä vastaan.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_NONE">
+      <Text>{1_DiploState},[NEWLINE]Ei valituksia.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_FREE_CITY_EXPLANATION">
+      <Text>Tuhoa kaupunki ja kaikki sen alueet ja rakennukset kartalta. Tämä vaihtoehto on valittava kaupungin valloituksen yhteydessä.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_FREE_CITY_EXPLANATION">
+      <Text>Pitämällä tämän Vapaan Kaupungin, muut pelaajat eivät koe [ICON_STAT_GRIEVANCE] Valituksia.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_LIBERATE_WARMONGER_EXPLANATION">
+      <Text>Tämän kaupungin vapauttaminen ansaitsee sinulle {1_Favor} [ICON_Favor] diplomaattisen suosion.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_WARMONGER_EXPLANATION">
+      <Text>Pitämällä tämän kaupungin vastustajamme saavat {1_Grievances} [ICON_STAT_GRIEVANCE] valitettavaa meitä vastaan.[NEWLINE][NEWLINE][ICON_STAT_GRIEVANCE] Valitettavat asiat joko hyvitetään tai tuplataan sodan lopussa riippuen siitä, pidämmekö kaupungin vai emme.</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_LAST_CITY_EXPLANATION">
+      <Text>Pitämällä tämän vastustajan viimeisen kaupungin antaa kaikille suurvalloille {1_Grievances} [ICON_STAT_GRIEVANCE] valitettavat meitä vastaan (vaikka nämä vähenevät muille valloille, jotka ovat sodassa tämän eliminoituneen vihollisen kanssa).</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_WARMONGER_EXPLANATION">
+      <Text>Tämän kaupungin tuhoaminen antaa tälle vastustajalle {1_Grievances} [ICON_STAT_GRIEVANCE] valituksia meitä vastaan!</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_LAST_CITY_EXPLANATION">
+      <Text>Tämän vastustajan viimeisen kaupungin tuhoaminen antaa kaikille suurvalloille {1_Grievances} [ICON_STAT_GRIEVANCE] kaunaa meitä vastaan (vaikka nämä vähenevät muille tämän kukistetun vihollisen kanssa sodassa oleville).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_CHOICE_NEGATIVE">
+      <Text>Kansani asettuu minne haluaa![NEWLINE][SIZE_12]Aiheuttaa [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] Kaunaa[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_CHOICE_POSITIVE">
+      <Text>Pahoittelen, etsin jatkossa muualta.[NEWLINE][SIZE_12]Saat 30 [ICON_Favor] diplomaattista kannatusta[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_CHOICE_NEGATIVE">
+      <Text>En voi luvata sitä.[NEWLINE][SIZE_12]Aiheuttaa [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] kantelua[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_CHOICE_POSITIVE">
+      <Text>I apologize, I will cease these operations at once.[NEWLINE][SIZE_12]Gain 30 [ICON_Favor] Diplomatic Favor[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_CHOICE_NEGATIVE">
+      <Text>Et voi omia historiaa. Kaivan missä haluan.[NEWLINE][SIZE_12]Aiheuttaa [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] kaunaa[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_CHOICE_POSITIVE">
+      <Text>Pahoitteluni, siirrän arkeologini muualle.[NEWLINE][SIZE_12]Saat 30 [ICON_Favor] diplomaattista suosiota.[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_CHOICE_NEGATIVE">
+      <Text>Jos Jumalan tahto on, että teidän kansanne uskoo meidän tapoihimme, ken minä olen sitä estämään?[NEWLINE][SIZE_12]Aiheuttaa [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] Valitusta[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_CHOICE_POSITIVE">
+      <Text>Olen pahoillani, luulin että kansani olisi tervetullut. Olin väärässä.[NEWLINE][SIZE_12]Saat 30 [ICON_Favor] diplomaattista suosiota[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_LIBERATION_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](Ei [ICON_STAT_GRIEVANCE] valituksia ystävällisten kaupunkien valloituksen yhteydessä)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_RECONQUEST_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](Ei [ICON_STAT_GRIEVANCE] tyytymättömyyttä syntynyt kun kaupunkisi vallattiin takaisin)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_PROTECTORATE_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](Ei [ICON_STAT_GRIEVANCE] valituksia, kun puolustetaan liittoutuneita kaupunkivaltioita)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_INSUFFICIENT_FAVOR">
+      <Text>Toiminto ei onnistu.[NEWLINE][COLOR_RED]Tarvitset {2_FavorRequirement} [ICON_Favor] diplomaattista suosiota.[ENDCOLOR]</Text>
+    </Row>
+    <!--Grievance Log-->
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED">
+      <Text>Sota on julistettu välillemme</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_WAR_DECLARED">
+      <Text>Sota julistettu kaupunkivaltiota vastaan: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED_ALLY">
+      <Text>Sota julistettu liittolaiselle: {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED_FRIEND">
+      <Text>Sota julistettu ystävälle: {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_OCCUPIED">
+      <Text>Kaupunki miehitetty: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_LAST_CITY_OCCUPIED">
+      <Text>Viimeinen kaupunki vallattu: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_RAZED">
+      <Text>Kaupunki tuhottu: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_CEDED">
+      <Text>Kaupunki luovutettu: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_RETURNED">
+      <Text>Kaupunki palautettu: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_LIBERATED">
+      <Text>Vapautettu kaupunki: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_CONQUERED">
+      <Text>Kaupunkivaltio valloitettu: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_RAZED">
+      <Text>Kaupunki-valtio hävitettiin: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_REFUSED">
+      <Text>Kieltäytyi lupaamasta</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_BROKEN">
+      <Text>Lupaus rikottu</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY_DOUBLED">
+      <Text>[NEWLINE]{1_Amount} kaksinkertaisena tavalliseen verrattuna aikakauden {2_Era} rappeutumisessa</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_BEHAVIOR_CONTINUED">
+      <Text>Lupaus torjuttiin ja käytös jatkui</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_DENOUNCED">
+      <Text>Tuomittu (or Ilmoitettu, depending on the context)</Text>
+    </Row>
+    <!--Grievance Diplo Tooltip -->
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_HEADER">
+      <Text>{1_Vaatimukset} [ICON_STAT_GRIEVANCE] Vaatimukset ovat kertyneet {2_Sivilisaatio}ta vastaan</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_AT_WAR">
+      <Text>SODASSA [ICON_STAT_GRIEVANCE] Kaunat eivät vähene ennen kuin sota päättyy.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DISABLED">
+      <Text>VAHVISTETTU [ICON_STAT_GRIEVANCE] Tyytymättömyys ei vähenny politiikkasi takia.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_GAINING">
+      <Text>SAAVUTETAAN [ICON_STAT_GRIEVANCE] Kansalaisvalituksia kierroksessa:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_LOSING">
+      <Text>MENETYS [ICON_STAT_GRIEVANCE] Tyytymättömyyspisteitä per vuoro:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_UNCHANGED">
+      <Text>VAKIO [ICON_STAT_GRIEVANCE] Valitukset kääntävää kohden eivät muutu:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY">
+      <Text>[NEWLINE]{1_Amount} per käänne hajoamisesta {2_Era} aikakaudessa</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} ulkomaalaista kuvernööriä lieventämässä jännitteitä [ICON_Capital]-pääkaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_POSSESS_CAPITAL">
+      <Text>[NEWLINE]{1_Amount} vastineeksi vastustajan alkuperäisen [ICON_Capital] pääkaupungin valtaamisesta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_POSSESS_NON_CAPITAL">
+      <Text>[NEWLINE]{1_Amount} vastineeksi vastustajan kaupungin valtaamisesta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY_MODIFIER">
+      <Text>[NEWLINE][NEWLINE]Tämän johtajan myötä hajoamisnopeus kasvaa +{1_Amount}%.</Text>
+    </Row>
+    <!--World Rankings UI-->
+    <Row Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_REDUCTION_MODIFIER">
+      <Text>{1_Tooltip}[NEWLINE]Kokonaisuudessaan [ICON_Tourism] Matkailu Vähentyi {2_Percent}% muista vaikutuksista johtuen</Text>
+    </Row>
+    <!--Government UI-->
+    <Row Tag="LOC_GOVERNMENT_FAVOR_BONUS">
+      <Text>Suosion saavuttaminen</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FAVOR_PER_TURN">
+      <Text>Saat {1_FavorPerTurn} [ICON_FAVOR] diplomaattista suosiota jokaisella [ICON_Turn] vuorolla.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POLICY_REQUIRES_GOVERNMENT">
+      <Text>{1_NumGovernments : plural 1?VAATII HALLITUSTA; other?VAATII HALLITUSTA (Mikä tahansa);}</Text>
+    </Row>
+    <!--City-State Panel UI-->
+    <Row Tag="LOC_CITY_STATE_PANEL_UNIQUE_SUZERAIN_BONUS_DISABLED">
+      <Text>(Vammautunut maailmankongressin toimesta)</Text>
+    </Row>
+    <!--Alliance-->
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_YOUR_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} pistettä kuvernööriltäsi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_THEIR_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} pistettä liittolaisesi kuvernööriltä</Text>
+    </Row>
+    <!-- World Congress -->
+    <Row Tag="LOC_WORLD_CONGRESS_TOP_PANEL_FAVOR_TOOLTIP">
+      <Text>Tämä on Diplomaattinen Suosio, valuutta äänien ostamiseen.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_TITLE">
+      <Text>TERVETULOA MAAILMAN KONGRESSIIN</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_TITLE">
+      <Text>MAAILMAN KONGRESSIN ERIKOISISTUNTO</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_IS_CURRENTLY_IN_SESSION">
+      <Text>Maailmankongressi on tällä hetkellä käynnissä.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_IS_CURRENTLY_IN_A_SPECIAL_SESSION">
+      <Text>Maailmankongressi on tällä hetkellä erityisistunnossa.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_BODY_1">
+      <Text>Maailmankongressi on nyt käynnissä! Jokaisen Maailmanjohtajan on äänestettävä tällä hetkellä käsiteltävistä ehdotuksista.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_BODY_2">
+      <Text>Kun kaikkien äänet on annettu, voittavat ehdotukset pannaan täytäntöön seuraavaan Maailmankongressin kokoukseen saakka.</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_BODY_1">
+      <Text>Maailmankongressi on kutsuttu erityisistuntoon keskustelujen käsittelemiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_BODY_2">
+      <Text>Kun kaikkien äänet on annettu, hyväksytyt keskustelut toteutetaan, mikä käynnistää niihin liittyvät hätätilanteet.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TITLE">
+      <Text>MAAILMAN KONGRESSI: KOKOONTUU</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_END">
+      <Text>MAAILMAN KONGRESSI: ISTUNTO VALMIS!</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOT_IN_SESSION">
+      <Text>MAAILMAN KONGRESSI: EI ISTUNTOA</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_VOTE_NORMAL_SESSION_DESCRIPTION">
+      <Text>Sinun täytyy päättää, miten hyödynnät parhaiten sinulle tarjolla olevat mahdollisuudet Maailmankongressissa. Käytä kertynyttä [ICON_FAVOR] Diplomatiaedustusta äänestääksesi ehdotuksista, jotka ovat tärkeitä sinulle ja kansallesi.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_VOTE_SPECIAL_SESSION_DESCRIPTION">
+      <Text>Viimeaikaiset tapahtumat vaativat Maailmankongressin huomiota. Käytä keräämääsi [ICON_FAVOR] Diplomatiaedunvalvontaa äänestääksesi keskusteluista, jotka ovat tärkeitä sinulle ja kansallesi.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMIT_PROPOSALS_CONFIRM">
+      <Text>Oletko varma, että haluat lähettää nämä ehdotukset?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_TITLE">
+      <Text>MAAILMAN KONGRESSI: ERIKOISISTUNTO</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_END">
+      <Text>MAAILMAN KONGRESSI: ERIKOISTILAISUUS VALMIS!</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_INSTRUCTIONS">
+      <Text>Käytä [ICON_FAVOR] Diplomatiaetuisuutta äänestääksesi näissä keskusteluissa.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_CONFIRM">
+      <Text>Oletko varma, että haluat lähettää nämä ehdotukset?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOOSE_TITLE">
+      <Text>MAAILMAN KONGRESSI: ISTUNNOSSA</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_TITLE">
+      <Text>MAAILMAN KONGRESSI: TULOKSET</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_DESCRIPTION">
+      <Text>Tarkasta viimeisimmän Maailmankongressin tulos.[NEWLINE]Kongressi kokoontuu uudelleen {1_Turns} kierroksen jälkeen tai erityisistunnolla, jos sitä pyydetään.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_EFFECTS_DESCRIPTION">
+      <Text>Nämä ehdotukset (kaikista aiemmista maailmankongressin istunnoista) ovat tällä hetkellä voimassa:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AVAILABLE_PROPOSALS_DESCRIPTION">
+      <Text>Täällä voit pyytää erityistä istuntoa Maailmankongressista, jos sinulla on tarpeeksi [ICON_FAVOR] diplomaattista suosionosoitusta.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_ACCEPT">
+      <Text>Aloita äänestys</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_GRIEVANCE_VALUE">
+      <Text>[ICON_GRIEVANCE] {1_Valitukset}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_GRIEVANCE_DEFINITION">
+      <Text>Sinulla on [ICON_GRIEVANCE_TT] {1_Grievances} valituksia tästä johtajasta</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NEXT">
+      <Text>Seuraava</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREV">
+      <Text>Previous</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMIT">
+      <Text>Lähetä</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMITTING">
+      <Text>Lähettäminen</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RETURN">
+      <Text>Palaa peliin</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_FAVOR">
+      <Text>[ICON_FAVOR] {1_Favor}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CATEGORY_FAVOR">
+      <Text>Hinta: [ICON_FAVOR] {1_Favor}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_FAVOR_TITLE">
+      <Text>[ICON_FAVOR_LARGE] {1_Favor} (No need to translate)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_TITLE">
+      <Text>Odottamassa muita pelaajia</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_TITLE_YOU">
+      <Text>Odottelen sinua</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_WAITING">
+      <Text>Odottamassa ehdotuksia</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_SUBMITTED">
+      <Text>Ehdotus lähetetty</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_READY">
+      <Text>Kaikki ehdotukset on lähetetty</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_DESCRIPTION">
+      <Text>Maailmankongressi kokoontuu uudelleen, kun loput pelaajat ovat jättäneet ehdotuksensa harkittavaksi.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_HUD_BAR_TIME_UNTIL_NEXT_SESSION">
+      <Text>Aika seuraavaan kierrokseen: {1_Turns : plural 1? {1_Turns} vuoro; other? {1_Turns} vuoroa;}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MEMBERS">
+      <Text>Kongressin jäsenet</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_PROPOSALS_ENACTED">
+      <Text>Ehdotukset hyväksytty: ({1_Ehdotukset})</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_WORLD_EVENT_RESOLUTIONS">
+      <Text>Päätökset</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_DELIBERATION_PROPOSED_TARGET">
+      <Text>Valitse tavoite tälle päätöslauselmalle:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_SUBMISSION_WORLD_EVENT_RESOLUTIONS">
+      <Text>Päätökset</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSED_BY">
+      <Text>Ehdotettu {1_Senders} toimesta</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_PASSED">
+      <Text>[COLOR:Civ6Green]HYVÄKSYTTY[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_PASSED_TIE">
+      <Text>[COLOR:Civ6Green]RATKAISTU TASAPELITILANTEESSA[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_FAILED">
+      <Text>- [COLOR:Civ6Red]EPÄONNISTUI[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_FAILED_TIE">
+      <Text>[COLOR:Civ6Red]EPÄONNISTUI TASAPELIRIKKOMUKSEN VUOKSI[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_LEADER_FAVOR">
+      <Text>Tällä johtajalla on [ICON_FAVOR] {1_Num} diplomaattista suosiota.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLAYER_FAVOR">
+      <Text>Sinulla on [ICON_FAVOR] {1_Num} diplomaattista suosiota.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLAYER_FAVOR_TO_SPEND">
+      <Text>Sinulla on tätä paljon [ICON_FAVOR] diplomaattista suosiota käytettävissä.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_RESOLUTIONS_FAVOR_COST_WITH_REFUND">
+      <Text>Käytät [ICON_FAVOR] {1_Num} Diplomatiaedusta päätöslauselmien hyväksi. Mikäli Maailmankongressi ei hyväksy valintojasi, osa edustasi palautetaan.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_DISCUSIONS_FAVOR_COST_WITH_REFUND">
+      <Text>Käytät [ICON_FAVOR] {1_Num} diplomaattista suosiota näissä keskusteluissa. Mikäli Maailmankongressi ei hyväksy äänestystuloksiasi, osa suosiostasi palautetaan.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_DISCUSIONS_FAVOR_COST_NO_REFUND">
+      <Text>Käytät [ICON_FAVOR] {1_Num} diplomaattista hyväksyntää ehdottaaksesi näitä keskusteluja.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_INSUFFICIENT_FAVOR_COST">
+      <Text>Riittämätön [ICON_FAVOR] diplomaattinen suosio. Tarvitset vähintään [ICON_FAVOR] {1_Num} diplomaattista suosiota.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NO_VOTING_DOWN">
+      <Text>Äänestä kohdetta, johon haluat tämän päätöslauselman vaikuttavan ja mitä vaikutusta tulisi toteuttaa. Ensimmäinen äänesi on ilmainen.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_AGAINST_TARGET">
+      <Text>Äänestä vastaan tätä keskustelua. Jos keskustelu hyväksytään, sinut kohdistetaan tähän hätätilaan. Ensimmäinen äänesi on ilma ilman kustannuksia.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_AGAINST">
+      <Text>Äänestä tätä keskustelua vastaan. Vaikka keskustelu hyväksyttäisiin, et osallistu sen seurauksena syntyvään pistekilpailuun. Ensimmäinen äänesi on ilmainen.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_FOR">
+      <Text>Äänestä tätä keskustelua. Jos keskustelu menee läpi, sinut liitetään lopputuloksena syntyvään pistekilpailuun. Ensimmäinen äänesi on ilmainen.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_TIE_EXPLANATION">
+      <Text>Tasatilanteessa voittaja on se sivilisaatio, joka käytti eniten [ICON_Favor] diplomaattisia suosionosoituksiaan äänestäessään.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SELECT_ONE">
+      <Text>Sinun täytyy lähettää vähintään yksi ehdotus.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SELECT_ALL">
+      <Text>Sinun täytyy äänestää kaikissa esitetyissä ehdotuksissa.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_GAME_PAUSED">
+      <Text>Et voi edetä, kun peli on pysäytetty.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SUBMITTING">
+      <Text>Äänestystäsi lähetetään...</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PROPOSAL_COST">
+      <Text>Tämän keskustelun hinta on {1_Num} [ICON_FAVOR] diplomaattista suosiota.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_CATEGORY_COST">
+      <Text>Kaikkien tämän kategorian keskustelujen hinta on {1_Num} [ICON_FAVOR] Diplomatiaedullisuutta.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PROPOSAL_REFUND">
+      <Text>Poista tämä keskustelu ja palauta {1_Num} [ICON_FAVOR] diplomaattinen hyväntahtoisuus.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_UP">
+      <Text>Lisää ääni {1_Num} [ICON_FAVOR] diplomaattiselle suosiolle.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_DOWN">
+      <Text>Poista yksi ääni ja palauta {1_Num} [ICON_FAVOR] Diplomaattinen suosio.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_UP_SUMMARY">
+      <Text>Olet lähettämässä {1_Votes} {1_Votes : plural 1:ää ääntä; other:ää ääntä;}, jotka ovat tämän keskustelun puolesta.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_DOWN_SUMMARY">
+      <Text>Olet juuri lähettämässä {1_Votes} {1_Votes : yksi ääni; monet äänet;} tätä keskustelua vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_COST">
+      <Text>{1_Icon} {2_Ääntä} {2_Ääntä : plural 1?Ääni; other?Äänet;} maksaa {3_Kustannus} [ICON_FAVOR] Diplomatiaedun.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NEW_RESOLUTION">
+      <Text>Tämä päätöslauselma hyväksyttiin viimeisimmässä Maailmankongressin istunnossa.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NEW_PROPOSAL">
+      <Text>Tämä keskustelu käytiin viimeisessä Maailmankongressin istunnossa.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_MAX_ONE_PROPOSAL">
+      <Text>Voit ehdottaa vain yhtä ratkaisua per pelaaja.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES">
+      <Text>A:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES_TT">
+      <Text>Seuraavat pelaajat valitsivat tuloksen A:[NEWLINE][NEWLINE]{1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREFERRED_VOTES_TT">
+      <Text>Seuraavat pelaajat suosivat tätä lopputulosta:[NEWLINE][NEWLINE]{1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES_TT_SUMMARY">
+      <Text>Olet lähettämässä {1_Amount} {1_Amount : plural 1:äänestys; other:äänestystä;} tuloksesta A.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES">
+      <Text>B:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES_TT">
+      <Text>Seuraavat pelaajat valitsivat lopputulokseksi B:[NEWLINE][NEWLINE]{1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES_TT_SUMMARY">
+      <Text>Olet lähettämässä {1_Amount} {1_Amount : plural 1:ään ääni; other:ään ääntä;} tuloksen B puolesta.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SELECT_TARGET">
+      <Text>Valitse kohde</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_LAST_SESSION_RESULTS">
+      <Text>Viimeisimmät istuntopalautteet</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ACTIVE_EFFECTS">
+      <Text>Aktiiviset vaikutukset</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AVAILABLE_PROPOSALS">
+      <Text>Saatavilla olevat ehdotukset</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CONFIRM_SUBMIT_PROPOSALS">
+      <Text>Valittujen keskustelujen lähettäminen maksaa [ICON_FAVOR] {1_NumFavor} Diplomatia-suosiota ja käynnistää Maailmankongressin erikoisistunnon seuraavalla vuorolla.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_TARGET">
+      <Text>Valittu kohde:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_OUTCOME">
+      <Text>Valittu tulos: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREVIEW_PROPOSAL_TARGET">
+      <Text>Valittu kohde:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREVIEW_PROPOSAL_OUTCOME">
+      <Text>Valittu tulos: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_REJECTED_OUTCOME">
+      <Text>Hylätty tulos: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_VOTER_TARGET">
+      <Text>Valitse kohde:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_VOTER_OUTCOME">
+      <Text>Valitse tulos: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NO_AVAILABLE_PROPOSALS_TT">
+      <Text>Sinulla ei ole ehdotuksia, joita voit lähettää maailmankongressille.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TURNS_LEFT_TT">
+      <Text>Tämä Maailmankongressin vaikutus päättyy [ICON_TURN] {1_Turns} {1_Turns : plural 1?vuoro; other?vuoroa;}.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TARGET_RESOLUTION_TT">
+      <Text>Onko tämän päätöslauselman tavoite</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TARGET_PROPOSAL_TT">
+      <Text>Mikä on tämän kilpailun tavoite?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_A_VOTES_TT">
+      <Text>{1_Ääni} {1_Ääni : plural 1_ääni oli; other_äänestä ääniä oli;} annettiin kannattamaan tulosta A.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_B_VOTES_TT">
+      <Text>{1_Ääniä} {1_Ääniä : monikko 1?ääni oli; muut?ääntä olivat;} annettu kannatuksena tulokselle B.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_UP_VOTES_TT">
+      <Text>{1_Votes} {1_Votes : plural 1_äänestys; other_äänestystä;} annettiin tämän kilpailun puolesta.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_DOWN_VOTES_TT">
+      <Text>Tähän kilpailuun {1_Votes} {1_Votes : 1_äänestä; other:äänestyksestä;} jätettiin.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_A_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} ilmoitti {2_Votes} {2_Votes : plural 1:ään ääneen; other:ään ääntä;} kannattavan lopputulosta A.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_B_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} äänesti {2_Votes} {2_Votes : plural 1:äänestys; other:äänestystä;} lopputuloksen B puolesta.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_UP_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} antoi tukensa tälle kilpailulle {2_Votes} {2_Votes : plural 1:ään ääneen; other:aan ääneen;}.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_DOWN_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} jätti {2_Votes} {2_Votes : plural 1:ää ääntä; other:a ääntä;} tätä kilpailua vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_EMPTY">
+      <Text>Maailmankongressin istunto alkaa {1_Turns} {1_Turns : plural 1?kierros; other?kierrosta;}.[NEWLINE][NEWLINE]Kongressi voidaan kutsua myös erikoisistuntoon valitsemalla käytettävissä olevista ehdotuksista. Maailmanlaajuisten kriisien sattuessa uudet ehdotukset tulevat saataville.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_OR">
+      <Text>OR</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOICE_A">
+      <Text>A</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOICE_B">
+      <Text>B</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PASS">
+      <Text>Pass</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ADD_PROPOSALS">
+      <Text>Lisää ehdotuksia</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CITY_STATE_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} on vallannut {OldCityName}. Meidän täytyy palauttaa sen itsenäisyys."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RELIGIOUS_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} on kääntänyt {OldCityName} {NewReligion}-uskoon. Meidän täytyy kitkeä tämä uusi usko."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETRAYAL_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} on pettänyt {OldPlayerName}. Meidän täytyy rankaista heidän petollisuuttaan."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MILITARY_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} on vallannut {OldCityName}. Meidän on vastustettava heidän aggressiotaan."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NUCLEAR_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} on käyttänyt ydinasetta. Meidän täytyy rangaista tätä inhoittavaa tekoa."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AID_REQUEST_SUMMARY">
+      <Text>"{TargetName} on raunioitunut luonnononnettomuuden vuoksi. Meidän tulisi auttaa heitä toipumaan."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MILITARY_AID_REQUEST_SUMMARY">
+      <Text>"{TargetName} on kohteena aggressiivisen vihollisen hyökkäykselle. Meidän tulisi rahoittaa heidän puolustustaan."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CLIMATE_ACCORD_SUMMARY">
+      <Text>"Me jaamme kaikki tämän planeetan. Lastemme ja heidän lastensa vuoksi meidän täytyy suojella sitä."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_WORLD_GAMES_SUMMARY">
+      <Text>"Urheilullisuutta ei tarvitse todistaa taisteluissa. Näytetään kuka on vahvin urheilun kautta."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_WORLDS_FAIR_SUMMARY">
+      <Text>"Mikä kansakunta omaa parhaat luovat ja keksijä-kyvyt? Katsotaanpa, kuka omistaa kirkkaimmat mielikuvitukset."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ISS_SUMMARY">
+      <Text>"Avaruus on liian suuri yhdellekään sivilisaatiolle. Työskennellään yhdessä tutkiaksemme tätä tuntematonta rajaa."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_PEACE_SUMMARY">
+      <Text>"Ruotsi haluaa tunnustaa rauhallisimman kansakunnan. Näemme kuka meistä se on."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_LITERATURE_SUMMARY">
+      <Text>"Ruotsi haluaa tunnustaa erinomaisen käsialan. Näemme, kuka tuottaa parasta kirjallisuutta."</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_SCIENCE_SUMMARY">
+      <Text>"Ruotsi haluaa tunnustaa tieteellisen johtajuuden. Näemme, kuka parhaiten edistää tiedettä."</Text>
+    </Row>
+    <!-- Scored Competitions -->
+    <Row Tag="LOC_SCORED_COMPETITION_EMERGENCY_COMPLETED">
+      <Text>{1_Name} VALMIS</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_EMERGENCY_ONGOING">
+      <Text>JATKUVA {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_COMPLETED">
+      <Text>KILPAILU ON PÄÄTTYNYT</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_ONGOING">
+      <Text>JATKUVA KILPAILU</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_WIN">
+      <Text>VOITIT!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_LEADER_WINS">
+      <Text>{1_Name} VOITTAA!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_WIN">
+      <Text>JÄSENET VOITTAVAT!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_TARGET_WINS">
+      <Text>TARGET VOITTAA!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_BRONZE">
+      <Text>Olet ansainnut [ICON_Reward_Bronze] pronssitason palkinnot</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_SILVER">
+      <Text>Olet ansainnut [ICON_Reward_Silver] HOPEA-tason palkinnot</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_GOLD">
+      <Text>Olet ansainnut [ICON_Reward_Gold] KULTATASON Palkinnot</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_NONE">
+      <Text>Olet ansainnut [ICON_Reward_None] Ei palkintoja</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_TARGET">
+      <Text>Ansaitset [ICON_Reward_Target] Kohdepalkinnot</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_MEMBER">
+      <Text>Olet ansainnut [ICON_Reward_Member] jäsenpalkinnot</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_GOLD_TIER">
+      <Text>[ICON_Reward_Gold] KULTA-taso</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER">
+      <Text>[ICON_Reward_Silver] HOPEA-taso</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_BRONZE_TIER">
+      <Text>[ICON_Reward_Bronze] Pronssitaso</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_TIME_SUCCESS">
+      <Text>Jäsenet saavuttivat tavoitteensa ajoissa.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_TIME_FAIL">
+      <Text>Jäsenet eivät saavuttaneet tavoitettaan ajoissa.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_AID_REQUEST_SUCCESS">
+      <Text>Jäsenet ovat lähettäneet kaiken avunsa annetussa ajassa. Yksi filantrooppi erottuu joukosta.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_SUCCESS">
+      <Text>Tämä maailman suurvaltojen rauhanomainen kilpailu on päättynyt. Yksi sivilisaatio erottuu joukosta.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_LITERATURE_SUCCESS">
+      <Text>Ruotsi on myöntänyt arvostetun Nobelin kirjallisuuspalkinnon taitavimmalle sivilisaatiolle.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_PEACE_SUCCESS">
+      <Text>Ruotsi on myöntänyt arvostetun Nobel-palkinnon rauhanomaisimmalle sivilisaatiolle.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_SCIENCE_SUCCESS">
+      <Text>Ruotsi on myöntänyt arvostetun Nobel-fysiikanpalkinnon tieteellisesti suuntautuneimmalle Civilizationille.</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER_CHILD">
+      <Text>Kaikki Hopea-tason palkinnot</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_GOLD_TIER_TITLE">
+      <Text>[ICON_Reward_Gold] Kultatason palkinnot (korkeimmalle pistemäärälle):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER_TITLE">
+      <Text>[ICON_Reward_Silver] Hopeatasotason palkinnot (top 25%:lle pistemäärille):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_BRONZE_TIER_TITLE">
+      <Text>[ICON_Reward_Bronze] Pronssikerrostason palkinnot (seuraaville 25%:lle pistemäärille):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_TARGET_TIER_TITLE">
+      <Text>[ICON_Reward_Target] Kohde-palkinnot (jos aika loppuu):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBER_TIER_TITLE">
+      <Text>[ICON_Reward_Member] Jäsenpalkinnot (tavoitteiden saavuttamisesta ajoissa):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NO_TIER_TITLE_BOTTOM">
+      <Text>[ICON_Reward_None] Pelaajat, jotka eivät sijoitu minkään tason palkintosijoille, eivät saa mitään palkintoja</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NO_TIER_TITLE_NONE">
+      <Text>[ICON_Reward_None] Jäsenet, joilla ei ole pistemäärää, eivät saa palkintoja</Text>
+    </Row>
+    <!-- Rock band -->
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_DESCRIPTION">
+      <Text>Sinun esimiehesi odottaa saavansa [ICON_TOURISM] matkailua tästä tapahtumapaikasta. [NEWLINE][NEWLINE] On {2_Death}% mahdollisuus, että nämä muusikot tekevät tästä viimeisen keikkansa ja jäävät eläkkeelle sen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_DIFFERENT_OWNER">
+      <Text>Tämän täytyy olla laattalla, joka kuuluu eri pääsivilisaatiolle kuin sinä.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_LOCATION">
+      <Text>Vaaditaan kelvollinen kohdepaikka. Mahdollisia kohteita ovat ihmeet, kaupunginosat, joissa on yksi tarvittavista rakennuksista, tai erityiskohde, joka on sallittu yhtyeen edistämisen kautta.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_NOTPLAYED">
+      <Text>Samaa laattaa ei saa pelata useampaan kertaan.</Text>
+    </Row>
+    <!-- Drought -->
+    <Row Tag="LOC_UNITOPERATION_REPAIR_BLOCKED_BY_DROUGHT">
+      <Text>Tätä parannusta ei voida korjata kuivuuden ollessa käynnissä.</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_IMPROVEMENT_BLOCKED_BY_DROUGHT">
+      <Text>Tätä parannusta ei voida toteuttaa kuivuuden aikana.</Text>
+    </Row>
+    <!-- Espionage -->
+    <Row Tag="LOC_VIZSOURCE_HIGHLEVEL_SPY">
+      <Text>Vakoilu on salainen agentti tai parempi</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_HIGHLEVEL_SPY">
+      <Text>(lisä näkyvyyttä, jos salainen agentti tai mestari vakooja)</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_LISTENING_POST">
+      <Text>Lisää [ICON_VisLimited] diplomaattista näkyvyyttä yhdellä tasolla (kaksi, jos salainen agentti tai korkeampi)</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_BREACH_DAM_DESCRIPTION">
+      <Text>Padon rikkoutuminen</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_BREACH_DAM_REWARD">
+      <Text>ryöstää patojen vettä tulvittaakseen joen laakson</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_BREACH_DAM">
+      <Text>Tulviminen patoa sisältävään joen laaksoon</Text>
+    </Row>
+    <!-- updated base game and dlc strings -->
+    <Row Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION">
+      <Text>Parannus, joka avautuu kivenhakkuulla ja tulee rakentaa autiomaahan, hiekkakukkuloille tai autiomaan tulvatasangoille. +2 [ICON_Faith] uskoa ja +2 [ICON_Food] ruokaa. Saavuttaa lisää saantoja viereisiltä kaupunginosilta. +1 [ICON_Food] ruokaa, jos vieressä on keskustan kaupunginosa. Kaikille muille kaupunginosille, jotka antavat liitännäissaantoja: +1 kyseistä saantoa, jos se on vieressä.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION">
+      <Text>Antaa ilmaisen rakentajan. Kaikki rakentajat voivat rakentaa yhden ylimääräisen parannuksen. Tämä tulee rakentaa aavikolle (mukaan lukien tulvatasangot), joissa ei ole kukkuloita.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PETRA_DESCRIPTION">
+      <Text>Tämä kaupunki saa +2 [ICON_Food] ruokaa, +2 [ICON_Gold] kultaa ja +1 [ICON_Production] tuotantoa kaikilta aavikkolaatoilta (ei tulvatasangoilta). Rakennuksen on oltava aavikolla tai tulvatasangolla ilman kukkuloita.</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_VIEW_ENABLED_TT">
+      <Text>[NEWLINE]Klikkaa nähdäksesi kaupungin tiedot</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_VIEW_DISABLED_TT">
+      <Text>[NEWLINE][COLOR_RED]Lisää käyttöoikeustasoa nähdäksesi tämän kaupungin tiedot[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATES_SUZERAIN_DIPLOMATIC_BONUS">
+      <Text>Suzerain Diplomacy Bonus:[NEWLINE][ICON_Bolt]You gain a base of +1 [ICON_FAVOR] Diplomatic Favor every turn.[NEWLINE][ICON_Bolt]The city-state follows you into war and peace with other players.[NEWLINE][ICON_Bolt]City-state lands become friendly territory. Your units can move there, heal there, and upgrade there.[NEWLINE][ICON_Bolt]Your Builder units may improve city-state tiles.[NEWLINE][ICON_Bolt]See 3 tiles around the city-state.[NEWLINE][ICON_Bolt]Can pay [ICON_Gold] Gold to temporarily take control of the city-state's military.[NEWLINE][ICON_Bolt]Gain ownership of all the city-state's resources.</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_ADDITIONAL_FERTILITY">
+      <Text>Voi saada lisätuottoja ympäristövaikutuksista.</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_MAY_ERUPT">
+      <Text>Saattaa purkautua</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_DETAILS_EXP2">
+      <Text>Saavuttaaksesi [COLOR:ResScienceLabelCS]TIEDE[ENDCOLOR]-voiton, sinun on saavutettava neljä tärkeää virstanpylvästä:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_NO_LAUNCH">
+      <Text>Exoplanet Expeditionia ei ole vielä käynnistynyt.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_HAS_MOVED">
+      <Text>Exoplanet Expedition on matkannut {1_LightYearsTraveled} / {2_LightYearsTotalNeeded} valovuotta {2_LightYearsTotalNeeded : plural 1?vuosi; other?vuotta;}.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_IS_MOVING">
+      <Text>Exoplanet Expedition matkustaa {1_LightYearsPerTurn} valovuoden {1_LightYearsPerTurn : plural 1?vuosi; other?vuotta;} kerrallaan.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_LIGHT_YEARS">
+      <Text>valovuodet.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_LIGHT_YEARS_PER_TURN">
+      <Text>valovuosia kierrosta kohti.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_4">
+      <Text>Käynnistä eksoplaneettaretki.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_FINAL">
+      <Text>Auttakaa Exoplanet-expeditiota matkustamaan {1_NumLightYears} valovuoden päähän.</Text>
+    </Row>
+    <Row Tag="LOC_ROUTECHOOSER_YIELD_SOURCE_TRADING_POSTS">
+      <Text>[ICON_TradingPost] Kauppapaikkasi lisäävät {1_YieldAmount} {2_YieldIconString} {3_YieldName} kauppareitin varrella olevista maamerkeistä (vesitiilet, rautatiet, kanavat, vuoristotunnelit ja sinun [ICON_TradingPost] kauppapaikat).</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_POINT_DETAILS">
+      <Text>Tämä kierros ansaitsi {1_PointsPerTurn} {2_IconString} {3_GreatPersonClassName} {1_PointsPerTurn : plural 1?pisteestä; other?pisteestä;}. [NEWLINE][NEWLINE] Pisteet tulevat pääasiassa kaupunginosista ja rakennuksista, mutta voivat myös tulla maailman ihmeistä, politiikoista ja kaupunkiprojekteista.</Text>
+    </Row>
+    <!--Dan Quayle Screen-->
+    <Row Tag="LOC_UI_ENDGAME_RANKING_LEADER_12_NAME">
+      <Text>Louis XV</Text>
+    </Row>
+    <Row Tag="LOC_UI_ENDGAME_RANKING_LEADER_12_QUOTE">
+      <Text>Minun jälkeeni vedenpaisumus.</Text>
+    </Row>
+    <!--Power Panel of City Details screen-->
+    <Row Tag="LOC_CITY_PANEL_POWER_HEADER">
+      <Text>Voima</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_CURRENT_POWER">
+      <Text>Luotu</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_REQUIRED_POWER">
+      <Text>Vaaditaan</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_FULLY_POWERED_STATUS">
+      <Text>Tämä kaupunki on täysin virtalähteellä. Kaikki kaupungin rakennukset, jotka käyttävät [ICON_Power] virtaa, toimivat täydellä teholla.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_UNPOWERED_STATUS">
+      <Text>Tämä kaupunki ei ole täysin sähköistetty. Kaikki kaupungin rakennukset, jotka käyttävät [ICON_Power] sähköä, ovat vähemmän tehokkaita.</Text>
+    </Row>
+    <!--Cultural Dominance effects-->
+    <Row Tag="LOC_CULTURAL_DOMINANCE_TRADE_GOLD_SUMMARY">
+      <Text>[ICON_TradeRoute] Kulttuurillisesti hallitsemiisi ulkomaisiin kaupunkeihin suuntautuvat kauppamatkat tarjoavat +4 [ICON_GOLD] Kultaa</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_DOMINANCE_ESPIONAGE_MISSION_LENGTH_SUMMARY">
+      <Text>Vakoilutehtävät ulkomaisissa kaupungeissa, joita hallitset kulttuurisesti, suoritetaan 50% nopeammin</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_DOMINANCE_CITIZEN_LOYALTY_PRESSURE_SUMMARY">
+      <Text>Sinun [ICON_Citizen] kansalaiset vaikuttavat 25% enemmän lojaalisuuspaineella ulkomaisiin kaupunkeihin, joita kulttuurisesti hallitset</Text>
+    </Row>
+  </EnglishText>
+</GameData>

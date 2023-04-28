@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Buildings-->
+    <Row Tag="LOC_BUILDING_SCENARIO_PALACE_NAME">
+      <Text>Hallitustalo</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_SHIPYARD_DESCRIPTION">
+      <Text>Bonus [ICON_Production] Tuotanto, joka vastaa Satama-kaupunginosan vierusbonusta.</Text>
+    </Row>
+    <!-- City-Names-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_WARWICK">
+      <Text>Warwick</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GYMPIE">
+      <Text>Gympie</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TOODYAY">
+      <Text>Toodyay</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ALBANY">
+      <Text>Albany</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GERALDTON">
+      <Text>Geraldton</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BUNBURY">
+      <Text>Bunbury</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GUILDFORD">
+      <Text>Guildford</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CASTLEMAINE">
+      <Text>Castlemaine</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BEECHWORTH">
+      <Text>Beechworth</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PORT_FAIRY">
+      <Text>Port Fairy</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MOUNT_GAMBIER">
+      <Text>Mount Gambier</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MOONTA">
+      <Text>Moonta</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_WALLAROO">
+      <Text>Wallaroo</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PORT_AUGUSTA">
+      <Text>Port Augusta</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NARACOORTE">
+      <Text>Naracoorte</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GAWLER">
+      <Text>Gawler</Text>
+    </Row>
+    <!-- City State-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SYDNEY_NAME">
+      <Text>Uusi Etelä-Wales</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SYDNEY_DESCRIPTION">
+      <Text>Uuden Etelä-Walesin osavaltio</Text>
+    </Row>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_SCENARIO_PENAL_COLONY_NAME">
+      <Text>Vankileiri</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_GOLD_RUSH_NAME">
+      <Text>Kultaryntäys</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_CROWN_COLONY_NAME">
+      <Text>Kruunun siirtomaa</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_SHEEP_REARING_NAME">
+      <Text>Lampaiden kasvatus</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_PASTORAL_LEASES_NAME">
+      <Text>Karjanhoitovuokrasopimukset</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_FEDERATION_NAME">
+      <Text>Liitto</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_GREAT_WAR_NAME">
+      <Text>Suuri sota</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_AERIAL_SERVICES_NAME">
+      <Text>Ilmapalvelut</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_WORLD_WAR_II_NAME">
+      <Text>Toinen maailmansota</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_CRUISE_LINES_NAME">
+      <Text>Matkustajalentokoneet</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_PENAL_COLONY_DESCRIPTION">
+      <Text>Saat ilmaisen Siirtolaisen pääkaupunkiisi valmistumisen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_GOLD_RUSH_DESCRIPTION">
+      <Text>Saat kaksi ilmaista settleriä pääkaupunkiisi valmistumisen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_CROWN_COLONY_DESCRIPTION">
+      <Text>Saat ilmaisen siirtolaisen pääkaupunkiisi täydennyksen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_PASTORAL_LEASES_DESCRIPTION">
+      <Text>Saat ilmaisen siirtolaisen pääkaupunkiisi valmistumisen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_FEDERATION_DESCRIPTION">
+      <Text>Saat ilmaisen Settlerin pääkaupunkiisi valmistumisen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_CONSERVATION_DESCRIPTION">
+      <Text>Sallii kansallispuistojen rakentamisen. Sallii yksiköiden istuttaa metsiä (toisen kasvun). Alueellasi olevat metsät, joita ei ole koskaan poistettu (vanhat kasvut), saavat +1 Vetovoima.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_GREAT_WAR_DESCRIPTION">
+      <Text>Saat ilmaisen uudisasukkaan pääkaupunkiisi valmistumisen yhteydessä.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_WORLD_WAR_II_DESCRIPTION">
+      <Text>Palkintoimitus AIF-projektin suorittamisesta on kasvanut 10 kultaa kierrosta kohden [+20 ICON_Gold] kultaan kierrosta kohden.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_AERIAL_SERVICES_DESCRIPTION">
+      <Text>Outback-asemat saavat +1 [ICON_Food] ruokaa jokaisesta kahdesta vierekkäisestä Outback-asemasta.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_FUTURE_CIVIC_DESCRIPTION">
+      <Text>Voidaan suorittaa useita kertoja, mutta tässä tilanteessa se EI lisää pisteitä kohti Pistevoittoa.</Text>
+    </Row>
+    <!-- Civilizations-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ALL_DISTRICTS_CULTURE_BOMB_NAME">
+      <Text>Outbackin liittäminen</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ALL_DISTRICTS_CULTURE_BOMB_DESCRIPTION">
+      <Text>Kun alue on täysin hallinnassa, tapahtuu kulttuuripommi.</Text>
+    </Row>
+    <!-- Continent Names -->
+    <Row Tag="LOC_CONTINENT_SCENARIO_NEW_HOLLAND_DESCRIPTION">
+      <Text>Uusi Hollanti</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_NEW_SOUTH_WALES_DESCRIPTION">
+      <Text>Uusi Etelä-Wales</Text>
+    </Row>
+    <!-- Government Names -->
+    <Row Tag="LOC_GOVERNMENT_PENAL_SETTLEMENT_NAME">
+      <Text>Rangaistussiirtola</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_COLONIAL_GOVERNMENT_NAME">
+      <Text>Siirtomaahallitus</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_STATE_GOVERNMENT_NAME">
+      <Text>Osavaltion hallitus</Text>
+    </Row>
+    <!-- Districts-->
+    <Row Tag="LOC_DISTRICT_SCENARIO_AERODROME_DESCRIPTION">
+      <Text>Ei voida rakentaa kukkuloille.</Text>
+    </Row>
+    <!-- Improvements-->
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_MINE_DESCRIPTION">
+      <Text>Avaa Etsijäkyvyn kaivosten rakentamiseen.[NEWLINE][NEWLINE]+1 [ICON_Production] tuotantoa. +2 [ICON_Gold] kultaa. -1 viehätys. Voidaan rakentaa vain kukkuloille tai tietyille resursseille.[NEWLINE][NEWLINE]Jos rakennettu ylellisyys- tai strategiselle resurssille, kaupunki saa käyttää kyseistä resurssia.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_PASTURE_DESCRIPTION">
+      <Text>Avaa Paimenen kyvyn rakentaa laitumia.[NEWLINE][NEWLINE]+1 [ICON_Production] tuotanto. +1 [ICON_Gold] kulta. Voidaan rakentaa vain [ICON_RESOURCE_CATTLE] karja-, [ICON_RESOURCE_SHEEP] lammas- tai [ICON_RESOURCE_HORSES] hevosresurssien päälle.[NEWLINE][NEWLINE]Jos rakennetaan [ICON_RESOURCE_HORSES] hevosresurssin päälle, kaupunki saa käyttöönsä sen resurssin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_OUTBACK_STATION_DESCRIPTION">
+      <Text>Avaa Grazier-kyvyn rakentaa Outback-asema.[NEWLINE][NEWLINE]+1 [ICON_FOOD] ruokaa, +1 [ICON_Gold] kultaa ja +1 [ICON_PRODUCTION] tuotantoa. +1 [ICON_Food] ruokaa jokaiselle viereiselle laitumelle. Lisää [ICON_FOOD] ruokaa ja [ICON_PRODUCTION] tuotantoa kun edistyt teknologia- ja kansalaispuussa viereisten Outback-asemien ja laitumien kanssa. Voidaan rakentaa vain autiomaassa, autiomäessä, ruohomaalla ja tasangoilla.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_BEACH_RESORT_DESCRIPTION">
+      <Text>Avaa Naturalist-kyvyn rakentaa Rannikkokeskuksia.[NEWLINE][NEWLINE]Antaa [ICON_Gold] Kultaa, joka vastaa laatan Vetovoimaa. Voidaan rakentaa vain rannikon aavikkolaatoille, rannikon lakeilla tai rannikon ruohikoilla. Minimivetovoima on henkeäsalpaava.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_PLANTATION_DESCRIPTION">
+      <Text>Unlocks the Farmer ability to construct Plantations.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold. Can only be built on [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_TEA] Tea, or [ICON_RESOURCE_WINE] Wine resources.[NEWLINE][NEWLINE]If built on a Luxury resource, the city will gain use of that resource.</Text>
+    </Row>
+    <!-- Natural Wonders -->
+    <Row Tag="LOC_FEATURE_KAKADU_NAME">
+      <Text>Kakadu</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_PINNACLES_NAME">
+      <Text>Pinnacles (English) -&gt; Huiput (Finnish)</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_SCENARIO_ULURU_DESCRIPTION">
+      <Text>Yksi laatta läpäisemätöntä luonnonihmettä. Antaa +2 [ICON_CULTURE] kulttuuria ja +2 [ICON_Gold] kultaa viereisille laatoille. Antaa viereisille laatoille +4 vetovoimaa tavallisen +2 sijaan.</Text>
+    </Row>
+    <!--Resources-->
+    <Row Tag="LOC_RESOURCE_SCENARIO_GOLD_NAME">
+      <Text>Kultamalmi</Text>
+    </Row>
+    <!--Policies-->
+    <Row Tag="LOC_POLICY_LAND_GRANTS_NAME">
+      <Text>Maan luovutukset</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FIRST_FLEET_NAME">
+      <Text>Ensimmäinen laivasto</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_REWARDS_OFFERED_NAME">
+      <Text>Palkinnot tarjolla</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TERRA_NULLIUS_NAME">
+      <Text>Terra Nullius (Latin term meaning "nobody's land" or "empty land")</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLONIAL_ARCHITECTS_NAME">
+      <Text>Koloniaaliarkkitehdit</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PARRAMATTA_ROAD_NAME">
+      <Text>Parramatta Road</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TICKET_OF_LEAVE_NAME">
+      <Text>Vapautuskirja</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MOUNTED_STOCKMEN_NAME">
+      <Text>Ratsastavat karjapaimenet</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRANS_AUSTRALIAN_RAILWAY_NAME">
+      <Text>Trans-Australian-rata</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEED_THE_TROOPS_NAME">
+      <Text>Laivakorppu</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GALLIPOLLI_NAME">
+      <Text>Gallipoli</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCHOOL_OF_THE_AIR_NAME">
+      <Text>Ilmakoulukoulu</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FLYING_DOCTORS_NAME">
+      <Text>Lentävät lääkärit</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_MATERIEL_NAME">
+      <Text>Sotatarvikkeet</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INVASION_THREAT_NAME">
+      <Text>Uhka invaasiosta</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SEAFOOD_PRESERVATION_NAME">
+      <Text>Katkarapukauppa</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PARK_RANGERS_NAME">
+      <Text>Puistonvartijat</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LAND_GRANTS_DESCRIPTION">
+      <Text>+30% [ICON_Production] Tuotanto kohti maanviljelijöitä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FIRST_FLEET_DESCRIPTION">
+      <Text>+30% [ICON_Production] Tuotanto kohti kalastajia.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_REWARDS_OFFERED_DESCRIPTION">
+      <Text>+30% [ICON_Production] Tuotantoa suhteessa kaivostyöläisiin.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TERRA_NULLIUS_DESCRIPTION">
+      <Text>Vastavalmistuneet maanviljelijät saavat 2 ylimääräistä rakennustoimintoa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLONIAL_ARCHITECTS_DESCRIPTION">
+      <Text>+1 [ICON_Production] Tuotanto kaikissa kaupungeissa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PARRAMATTA_ROAD_DESCRIPTION">
+      <Text>+1 [ICON_Food] Ruoka ja +1 [ICON_Production] Tuotanto kotimaisilta [ICON_TradeRoute] kauppareiteiltä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TICKET_OF_LEAVE_DESCRIPTION">
+      <Text>+30% [ICON_Production] Tuotanto karjankasvattajille.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MOUNTED_STOCKMEN_DESCRIPTION">
+      <Text>Vasta koulutetut laiduntajat saavat 2 ylimääräistä rakennustoimintoa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRANS_AUSTRALIAN_RAILWAY_DESCRIPTION">
+      <Text>+6 [ICON_Gold] Kultaa kansainvälisistä [ICON_TradeRoute] kauppareiteistä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEED_THE_TROOPS_DESCRIPTION">
+      <Text>+1 [ICON_Gold] Kulta maatilan ja kasvimaan parannuksista.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GALLIPOLLI_DESCRIPTION">
+      <Text>+50% [ICON_Production] Tuotanto AIF-projekteihin.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCHOOL_OF_THE_AIR_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Kultaa kaikista louhoksista ja kaivosten parannuksista ylellisyysresursseilla.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FLYING_DOCTORS_DESCRIPTION">
+      <Text>+1 [ICON_Gold] Kulta laidunmaiden ja periferian tilojen parannuksista.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_MATERIEL_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Kultaa kaivoksen parannuksista strategisilla resursseilla.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INVASION_THREAT_DESCRIPTION">
+      <Text>+100% [ICON_Production] Tuotanto AIF-hankkeisiin.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SEAFOOD_PRESERVATION_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Kultaa kalastusaluksen parannuksista.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PARK_RANGERS_DESCRIPTION">
+      <Text>Kaikki laatat sivilisaatiossasi saavat +2 vetovoimaa. -1 [ICON_GOLD] kulta kaivosteollisuuden parannuksista.</Text>
+    </Row>
+    <!-- Technologies-->
+    <Row Tag="LOC_TECH_IRRIGATION_SCENARIO_DESCRIPTION">
+      <Text>Maatilan parannukset tuottavat nyt +1 [ICON_Food] ruokaa jokaisesta vierekkäisestä maatilan parannuksesta, kun kolme maatilan parannusta on vierekkäin.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_CARTOGRAPHY_SCENARIO_DESCRIPTION">
+      <Text>Sallii puun ja sademetsän kaatamisen. Yksikkösi saavat paremman mahdollisuuden selviytyä Outbackissa ja kartottavat enemmän aluetta, jos he saavat hyödyllisiä tapahtumia Outbackissa.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_CARTOGRAPHY_SCENARIO_ABILITY_DESCRIPTION">
+      <Text>Yksikkösi saavat paremmat mahdollisuudet selviytyä Outbackissa ja kartoittaa enemmän aluetta, jos ne saavat Outbackissa hyödyllisiä tapahtumia.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MINING_SCENARIO_DESCRIPTION">
+      <Text>Mahdollistaa [ICON_RESOURCE_STONE] kiven keräämisen.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCIENTIFIC_THEORY_SCENARIO_DESCRIPTION">
+      <Text>Parannukset Maatilan parannukset Mekanisoituun maatalouteen. +1 [ICON_Food] ruoka-rajapintapalkkio jokaisesta Maatilan parannuksesta, joka on viereinen.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FLIGHT_SCENARIO_DESCRIPTION">
+      <Text>Outbackin asemat saavat +1 [ICON_PRODUCTION] tuotannon jokaisesta kahdesta vierekkäisestä Outback-asemasta. Niityt saavat +1 [ICON_PRODUCTION] tuotannon jokaisesta viereisestä Outback-asemasta.</Text>
+    </Row>
+    <!-- Units-->
+    <Row Tag="LOC_UNIT_EXPLORER_NAME">
+      <Text>Tutkimusmatkailija</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PROSPECTOR_NAME">
+      <Text>Etsijä</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GRAZIER_NAME">
+      <Text>Grazier</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FARMER_NAME">
+      <Text>Maanviljelijä</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FISHER_NAME">
+      <Text>Fisher</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_EXPLORER_DESCRIPTION">
+      <Text>Nopeasti liikkuva tiedusteluyksikkö. Siviiliyksikkö, joka ei voi hyökätä tässä skenaariossa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PROSPECTOR_DESCRIPTION">
+      <Text>Voit luoda kaivoksia, louhoksia, öljynporauslauttoja ja lentokenttiä. Prospektorit voidaan käyttää kolme kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GRAZIER_DESCRIPTION">
+      <Text>Saat luoda Pasture ja Outback Station -laajennukset. Paimenet voivat käyttää niitä kolme kertaa. Tätä voi lisätä Mounted Stockmen -politiikalla.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FARMER_DESCRIPTION">
+      <Text>Voi luoda tilan, istutuksen ja sahanparannuksia. Maanviljelijöitä voidaan käyttää kolme kertaa. Tämä voidaan lisätä Terra Nullius -politiikalla.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FISHER_DESCRIPTION">
+      <Text>Voit luoda kalastusvene-laattoja. Kalastajia voidaan käyttää 3 kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_SETTLER_DESCRIPTION">
+      <Text>Saattaa luoda uusia kaupunkeja. Uudisasukkaat voivat saapua vain suorittamalla valtiotiedettä. Niitä ei koskaan voi rakentaa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_NATURALIST_DESCRIPTION">
+      <Text>Myöhäispelin siviilihenkilö, joka voi luoda joko yhden Rantalomakohteen tai yhden Kansallispuiston lisätäkseen [ICON_Gold] kultaa per [ICON_Turn] vuoro. Poistetaan pelistä Rantalomakohteen tai Kansallispuiston luomisen jälkeen.</Text>
+    </Row>
+    <!-- Civic Boosts-->
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_GOLD_RUSH">
+      <Text>Paljasta 1 [ICON_RESOURCE_GOLD] kultaesivaraa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_CROWN_COLONY">
+      <Text>Saat [ICON_GOLD] Kultaa joka [ICON_Turn] vuoro 15 vuoron ajan.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_SHEEP_REARING">
+      <Text>Paljasta 3 [ICON_RESOURCE_SHEEP] lammasresurssia.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_DRAMA_POETRY">
+      <Text>Kasvata sivilisaatiotasi vähintään 12 [ICON_Citizen] asukkaan väestöön.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_PASTORAL_LEASES">
+      <Text>Rakenna 3 laidunta.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_FEDERATION">
+      <Text>Saat [ICON_GOLD] Kulta per [ICON_Turn] Kierros 30:stä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_URBANIZATION">
+      <Text>Kasvata kaupunki 10 [ICON_Citizen] asukkaan kokoiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_CONSERVATION">
+      <Text>Etsi luonnonihme.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_GREAT_WAR">
+      <Text>Edistys kohti [ICON_Turn] Käänne 45:ttä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_AERIAL_SERVICES">
+      <Text>Rakenna lentokenttä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_WORLD_WAR_II">
+      <Text>Edistyminen kohti [ICON_Turn] Kierros 53.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_CRUISE_LINES">
+      <Text>Perusta kansallispuisto.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_GOLD_RUSH">
+      <Text>Kultakuume on meillä päällä! Onnenonkijat jokaiselta mantereelta rientävät Australiaan yrittämään rikastumista.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_CROWN_COLONY">
+      <Text>Voitot alkavat kasvaa. Kuningatar pian vahvistaa maasi oikeaksi kruunukolonialaiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_SHEEP_REARING">
+      <Text>Tämän maan avoimen tilan vuoksi lammasten kasvattaminen kuulostaa voittavalta ehdotukselta.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_DRAMA_POETRY">
+      <Text>Niin monilla kansalaisilla, jotkut löytävät aikaa tutkia taiteita.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_PASTORAL_LEASES">
+      <Text>Menestyksekkäät laidunalueesi herättävät hallituksen mielenkiinnon. He saattavat pian vuokrata kruununmaata.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_FEDERATION">
+      <Text>Kun menestyksesi kasvaa, Australiassa syntyneet ihmiset vaativat omaa kansakuntaa, joka on riippumaton Britanniasta.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_URBANIZATION">
+      <Text>Iso kaupunkinne on käymässä liian ahtaaksi. On aika aloittaa esikaupunkien suunnittelu.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_CONSERVATION">
+      <Text>Tämän maan luonnonkauneus on vertaansa vailla ja sitä on säilytettävä tuleville sukupolville.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_GREAT_WAR">
+      <Text>Suuret voimat on vedetty mukaan veriseen konfliktiin. On aika koota joukot äitimaan puolustamiseksi!</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_AERIAL_SERVICES">
+      <Text>Lentokoneet ovat saapuneet Australiaan. Eivätkö ne olisi juuri sopivia palvelemaan laajaa takamaata?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_WORLD_WAR_II">
+      <Text>Fasistiset voimat ovat nousseet Saksassa ja Japanissa. Olisiko jopa Australia itse vaarassa?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_CRUISE_LINES">
+      <Text>Uusi kansallispuistonne voisi tulla suureksi kohteeksi uusille, merimatkoja tekeville matkustajalaivoille</Text>
+    </Row>
+    <!-- Tech Boosts-->
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_EDUCATION">
+      <Text>Kasvata kaupunki 6 [ICON_Citizen] asukkaan väestöön.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_BANKING">
+      <Text>Ylläpidä 2 [ICON_TradeRoute] kauppareittiä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_INDUSTRIALIZATION">
+      <Text>Rakenna 3 kaivosta.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_ENGINEERING">
+      <Text>Rakenna 2 louhosta.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_SCIENTIFIC_THEORY">
+      <Text>Rakenna kaksi kirjastoa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_ECONOMICS">
+      <Text>Rakenna 2 markkina-aluetta.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_ELECTRICITY">
+      <Text>Rakenna 2 työpajaa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_FLIGHT">
+      <Text>Hanki Suuri sota -kaupunkikansalaisuus.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_COMBUSTION">
+      <Text>Omista toisen maailmansodan kansalaisvelvollisuus.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_RADIO">
+      <Text>Rakenna tutkimuslaboratorio.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_ADVANCED_FLIGHT">
+      <Text>Rakenna hangaari</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_EDUCATION">
+      <Text>Uusi kaupunkikeskuksesi on erinomainen paikka oppimiskeskukselle, johon kuuluvat kirjasto ja yliopisto.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_BANKING">
+      <Text>Teidän tuottoisa kauppaverkostonne on antanut meille ylimääräistä pääomaa. Pankkien perustaminen voisi edistää lisäinvestointeja.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_INDUSTRIALIZATION">
+      <Text>Monien kaivosten ollessa aktiivisia, edistyksen materiaalit ovat käsillä. Onko teollinen vallankumous alkamassa?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_ENGINEERING">
+      <Text>Teidän louhoksistanne peräisin oleva kivi antaa nyt perustan suurille insinööritöille.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_SCIENTIFIC_THEORY">
+      <Text>Kahden kirjaston ollessa aktiivisena, tieteellinen yhteisösi on käynnistynyt.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_ECONOMICS">
+      <Text>Teidän kaupalliset menestyksenne ovat rohkaisseet monia sijoittamaan maanne talouteen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_ELECTRICITY">
+      <Text>Teollisuustuotantonne on vaikuttavaa, mutta voisi edistyä vielä enemmän sähkövoiman käyttöönotolla.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_FLIGHT">
+      <Text>Australialaiset lentäjät ovat palanneet sodasta tarinoineen lennoistaan Euroopan juoksuhaudoilla.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_COMBUSTION">
+      <Text>Japanin imperiumin laajentuessa kilpailu Tyynenmeren öljyvaroista käy kiivaaksi.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_RADIO">
+      <Text>Viimeistelemällä modernin tutkimuslaitoksen pysyt ajan tasalla viimeisimmistä edistysaskeleista viestinnässä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_ADVANCED_FLIGHT">
+      <Text>Aerodromin ja hangaarit ovat valmiina, joten voit aloittaa työn modernin lentokentän rakentamiseksi.</Text>
+    </Row>
+    <!-- Projects-->
+    <Row Tag="LOC_PROJECT_AIF_SCENARIO_DESCRIPTION">
+      <Text>Australian Imperial Force (AIF) -projekti rekrytoi sotilaita ulkomaankomennuksille maailmansotien aikana. Sen suorittaminen kaupungissa antaa kaupungin [ICON_Gold] Kulta per [ICON_Turn] Kierros -tulokseen +10 boostin.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_AIF_SCENARIO_NAME">
+      <Text>AIF-koulutus</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_AIF_SCENARIO_SHORT_NAME">
+      <Text>AIF-koulutus</Text>
+    </Row>
+    <!-- Scoring-->
+    <Row Tag="LOC_CATEGORY_INCOME_NAME">
+      <Text>Tulot ([ICON_Gold] Kultaa per [ICON_Turn] Vuoro)</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_DIFFICULTY">
+      <Text>Vaikeustaso: {1_DifficultyName}</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_CURRENT_GAME_DIFFICULTY">
+      <Text>Nykyinen peli: {1_Difficulty}</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_SINGLE_PLAYER_SCORE">
+      <Text>Voiton vaatima pistemäärä: {1_Score}</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_OUTBACK_TITLE">
+      <Text>AUSTRALIALAINEN ERÄMAA</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_OUTBACK_EFFECTS">
+      <Text>Kaikki mantereiset laatat, joita pelaaja ei kontrolloi, katsotaan osaksi Australian Outbackia, vaarallista ympäristöä, joka on täynnä myrkyllisiä kasveja ja eläimiä ja jossa on yksi maailman ankarimmista ilmastoista. Mikä tahansa yksikkö, joka päättää vuoronsa Outbackin laatalla, voi kokea erityisen Outbackin kohtaamisen. Vaikka monet näistä tapahtumista aiheuttavat vahinkoa tai viivästyksiä, on valittu muutama, joka auttaa tutkivaa yksikköä saamaan ainutlaatuisia bonuksia. Yleisesti ottaen haluat rajoittaa aikaa, jonka yksikkösi viettävät tällaisessa villissä erämaassa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_OUTBACK_TOOLTIP">
+      <Text>Outback (this is already the natural sounding translation, as "Outback" is a proper noun and does not have a direct translation in Finnish)</Text>
+    </Row>
+  </EnglishText>
+</GameData>

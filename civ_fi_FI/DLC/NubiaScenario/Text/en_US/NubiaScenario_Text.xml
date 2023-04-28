@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- OVERRIDES-->
+    <Row Tag="LOC_UI_RELIGION_WORKING_TOWARDS_RELIGION">
+      <Text>Minun uskontoni</Text>
+    </Row>
+    <Row Tag="LOC_RELIGIONPANEL_NEXT_STEP_EARN_PROPHET">
+      <Text>Uskontosi alkaa pantheon-uskomuksella. Lisää yksi uskomus uskontoon, kun suoritat seuraavat kaupunkikehitykset: Muumioiminen, Kuolleiden Kirja ja Amun: Kaikkien Jumalien Herra.</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCORE_DETAILS">
+      <Text>Tässä skenaariossa [COLOR:NeutralCS]PISTEET[ENDCOLOR] voitto ei ole mahdollinen. Pisteitä seurataan vain tason määrittämiseksi sillä hetkellä, kun suoritat seitsemän temppeliä Amunille.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Culture] Kulttuuria jokaisessa Pyhä paikka kaupunginosassa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Lisäksi jokaisessa Pyhän paikan kaupunginosassa on +2 [ICON_Culture] kulttuuria.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Science] Tiede jokaisessa pyhäkkökaupunginosassa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Lisäksi jokaisessa Pyhäkkö kaupunginosassa on +2 [ICON_Science] tiedettä.</Text>
+    </Row>
+    <!-- Beliefs-->
+    <Row Tag="LOC_BELIEF_NUN_NAME">
+      <Text>Veden syvyyksien jumala (Nun)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ATUM_NAME">
+      <Text>Luomisen jumala (Atum)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_AMON_NAME">
+      <Text>Kaikkien jumalien herra (Amun)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ISIS_NAME">
+      <Text>Kasvun jumalatar (Isis)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_APEDEMAK_NAME">
+      <Text>Sodan jumala (Apedemak)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ANUBIS_NAME">
+      <Text>Mummioiden jumala (Anubis)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HORUS_NAME">
+      <Text>Faraoiden suojelija (Horus)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SEBIUMEKER_NAME">
+      <Text>Suojelusjumala (Sebiumeker)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_BES_NAME">
+      <Text>Talojumala (Bes)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ASH_NAME">
+      <Text>Keidasherra (Ash)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_NUN_DESCRIPTION">
+      <Text>+1 [ICON_Production] Tuotanto kalastusaluksista.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ATUM_DESCRIPTION">
+      <Text>Kaikki rakentajat voivat rakentaa yhden ylimääräisen parannuksen.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_AMON_DESCRIPTION">
+      <Text>+30% [ICON_Production] Tuotanto ihmeiden rakentamiseen. [ICON_Faith] Uskonnon osto hintoja alennettu 30%.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ISIS_DESCRIPTION">
+      <Text>Kaupungin kasvuvauhti on 15% korkeampi.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_APEDEMAK_DESCRIPTION">
+      <Text>Taisteluvoitot tarjoavat [ICON_Science] tieteellisiä pisteitä, jotka vastaavat 50% voitetun yksikön [ICON_Strength] taisteluvoimasta.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ANUBIS_DESCRIPTION">
+      <Text>Kaikki pyhät paikka rakennukset antavat +2 [ICON_Faith] uskoa.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HORUS_DESCRIPTION">
+      <Text>Yksi ylimääräinen Villikortti-politiikkapaikka missä tahansa hallituksessa.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SEBIUMEKER_DESCRIPTION">
+      <Text>Taisteluyksiköt saavat +10 [ICON_Strength] taisteluvoimaa ollessaan ystävällisten kaupunkien rajojen sisällä.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_BES_DESCRIPTION">
+      <Text>Kaikki ystävälliset kaupungit saavat +1 [ICON_Amenities] mukavuus.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ASH_DESCRIPTION">
+      <Text>+3 [ICON_Culture] Kulttuuria, +3 [ICON_Faith] Uskoa ja +2 [ICON_Production] Tuotantoa keitaan laatoilla.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SEBIUMEKER_DESCRIPTION">
+      <Text>+{1_Value} Suojelija Jumala (Sebiumeker) Usko</Text>
+    </Row>
+    <!-- Buildings-->
+    <Row Tag="LOC_BUILDING_OBELISK_NAME">
+      <Text>Obeliskki</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIAN_SHRINE_NAME">
+      <Text>Pyhäkkö</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_AMUN_NAME">
+      <Text>Temppeli Amunille</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NILOMETER_NAME">
+      <Text>Nilometri</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NILOMETER_DESCRIPTION">
+      <Text>+1 [ICON_Food] Ravinto ja +1 [ICON_Production] Tuotanto kaikilla Tulvatasankoilla. Voidaan rakentaa vain kaupungin vieressä olevalle Niilin Joen laatalle.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_WALLS_DESCRIPTION">
+      <Text>Tarjoaa muureja kaupungin keskustan ja leiri-alueen ympärille. Muurit mahdollistavat [ICON_Ranged] etähyökkäyksiä kaupungin keskustasta ja leiri-alueelta, ja ne on voitettava ennen kuin kaupunkia voidaan hyökätä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_GREAT_LIBRARY_DESCRIPTION">
+      <Text>Saat lisäpotkua kaikille antiikin ja klassisen aikakauden teknologioille. Tämä täytyy rakentaa tasaiselle maalle.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_GREAT_LIGHTHOUSE_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Liikkuminen kaikille meriyksiköille[NEWLINE][NEWLINE]Täytyy rakentaa rannalle ja olla vierekkäin maan sekä sataman kanssa, jossa on majakka.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_PYRAMIDS_DESCRIPTION">
+      <Text>Ennen skenaarion alkua Gizassa sijaitseva rakennus, joka voidaan vallata saadakseen merkittävän määrän Uskoa sekä antamaan kaikille uusille Rakentajille kyvyn rakentaa yksi ylimääräinen parannus.</Text>
+    </Row>
+    <!-- City State-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ASHMUNEIN">
+      <Text>Ashmunein</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BAHARIYA">
+      <Text>Bahariya</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BYBLOS">
+      <Text>Byblos</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DAKHLA">
+      <Text>Dakhla</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_IHNASIYA">
+      <Text>Ihnasiya</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_IREM">
+      <Text>Irem (no translation needed as it is a name)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KHARGA">
+      <Text>Kharga</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NEKHEN">
+      <Text>Nekhen</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ON">
+      <Text>Menee</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PUNT">
+      <Text>Punt</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SHARUHEN">
+      <Text>Sharuhen</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SERABIT_EL_KHADIM">
+      <Text>Serabit el-Khadim</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_THINIS">
+      <Text>Thinis</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASHMUNEIN_DESCRIPTION">
+      <Text>Ashmunein kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BAHARIYA_DESCRIPTION">
+      <Text>Bahariya kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BYBLOS_DESCRIPTION">
+      <Text>Byblosin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DAKHLA_DESCRIPTION">
+      <Text>Dakhlan kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_IHNASIYA_DESCRIPTION">
+      <Text>Ihnasiyan kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_IREM_DESCRIPTION">
+      <Text>Iremin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KHARGA_DESCRIPTION">
+      <Text>Khargan kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_NEKHEN_DESCRIPTION">
+      <Text>Nekhenin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ON_DESCRIPTION">
+      <Text>Kaupunkivaltiosta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PUNT_DESCRIPTION">
+      <Text>Puntin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SHARUHEN_DESCRIPTION">
+      <Text>Sharuhen kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SERABIT_EL_KHADIM_DESCRIPTION">
+      <Text>Serabit el-Khadimin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THINIS_DESCRIPTION">
+      <Text>Thinin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_IREM_NAME">
+      <Text>Irem Suzerain Bonus. (This is already in English and does not require translation)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_BYBLOS_NAME">
+      <Text>Byblosin suvereeni bonus</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_SERABIT_NAME">
+      <Text>Serabit el-Khadim Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_OASES_NAME">
+      <Text>Aavikkokeitaan suvereeni bonus</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_PUNT_NAME">
+      <Text>Puntin suvereeni bonus</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NONE_NAME">
+      <Text>Ei suvereenia bonusta</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NONE_DESCRIPTION">
+      <Text>Tämän kaupunkivaltion suurherraksi tulemisesta ei ole ainutlaatuista bonusta.</Text>
+    </Row>
+    <!-- Civilizations-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HYKSOS_DESCRIPTION">
+      <Text>Hyksos-valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LIBYANS_DESCRIPTION">
+      <Text>Libyan imperiumi</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASSYRIA_DESCRIPTION">
+      <Text>Assyyrian valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PERSIA_DESCRIPTION">
+      <Text>Persianian valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MACEDON_DESCRIPTION">
+      <Text>Makedonian valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HYKSOS_ADJECTIVE">
+      <Text>Hyksosit</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LIBYANS_ADJECTIVE">
+      <Text>Libyalainen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASSYRIA_ADJECTIVE">
+      <Text>Assyrialainen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PERSIA_ADJECTIVE">
+      <Text>Seuraava teksti tulee kääntää suomeksi. Vastaa vain luonnollisella käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MACEDON_ADJECTIVE">
+      <Text>Seuraava teksti tarvitsee käännöksen. Vastaa vain luonnollisella kuuloisella käännöksellä</Text>
+    </Row>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_ROYAL_DYNASTIES_NAME">
+      <Text>Kuninkaalliset dynastiat</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_HIEROGLYPHICS_NAME">
+      <Text>Hieroglyfit</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MUMMIFICATION_NAME">
+      <Text>Mumifikaatio</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCRIBES_NAME">
+      <Text>Kirjoittajat</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOK_OF_THE_DEAD_NAME">
+      <Text>Kuolleiden kirja</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_INSTITUTION_OF_THE_MUSES_NAME">
+      <Text>Museoiden laitos</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SEPATS_NAME">
+      <Text>Sepats</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOARDGAMES_ATHLETICS_NAME">
+      <Text>Lautapelit ja yleisurheilu</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_AMUN_LORD_OF_ALL_GODS_NAME">
+      <Text>Amun: Kaikkien jumalien hallitsija</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_ROYAL_DYNASTIES_DESCRIPTION">
+      <Text>Saat ilmaisen asuttajan [ICON_Capital] pääkaupunkiisi sen valmistuttua.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_HIEROGLYPHICS_DESCRIPTION">
+      <Text>Palkinnot 1 [ICON_Envoy] Lähettiläs.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MUMMIFICATION_DESCRIPTION">
+      <Text>Mahdollistaa uskosi lisäämisen.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_STATE_WORKFORCE_DESCRIPTION">
+      <Text>Saat ilmaisen Siirtolaisen [ICON_Capital] pääkaupungissasi suorituksen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_FOREIGN_TRADE_DESCRIPTION">
+      <Text>Mahdollistaa yhden lisäkauppareitin [ICON_TradeRoute] luonnin. Palkitsee yhden [ICON_Envoy] Lähettilään.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCRIBES_DESCRIPTION">
+      <Text>Palkinto 1 [ICON_Envoy] Lähettiläs.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOK_OF_THE_DEAD_DESCRIPTION">
+      <Text>Mahdollistaa uskomuksen lisäämisen uskontoosi.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_INSTITUTION_OF_THE_MUSES_DESCRIPTION">
+      <Text>Palkinnot 1 [ICON_Envoy] Lähettiläs.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SEPATS_DESCRIPTION">
+      <Text>Saat ilmaiseksi uuden siirtolaisen [ICON_Capital] pääkaupunkiisi, kunhan työ valmistuu.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOARDGAMES_ATHLETICS_DESCRIPTION">
+      <Text>Saat ilmaisen [ICON_GreatGeneral] suurkenraalin [ICON_Capital] pääkaupunkiisi suorituksen jälkeen. Myöntää sivustatukea ja tukitukea taistelubonuksia kaikille taisteluyksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_AMUN_LORD_OF_ALL_GODS_DESCRIPTION">
+      <Text>Mahdollistaa uskosi lisäämisen.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_FUTURE_CIVIC_DESCRIPTION">
+      <Text>Voidaan suorittaa useita kertoja.</Text>
+    </Row>
+    <!-- Districts-->
+    <Row Tag="LOC_DISTRICT_NUBIA_SCENARIO_HARBOR_DESCRIPTION">
+      <Text>Kaupunkiisi merellistä toimintaa varten tarkoitettu kaupunginosa. Poistaa myös [ICON_Movement] liikkumisrangaistuksen maihin noususta ja maihin laskusta tältä ruudulta. Tämä on rakennettava rannalle, Niilin joelle tai järvelle viereiselle maalle. [NEWLINE] [NEWLINE] +1 [ICON_TradeRoute] kauppareittikapasiteettia, jos tätä kaupunkia ei ole vielä varustettu kaupallinen keskus -kaupunginosalla.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NILE_RIVER_FAITH">
+      <Text>+{1_num} [ICON_Faith] Uskontoa viereisestä Niiljoesta {1_Num : plural 1?tuottaa; other?tuottavat;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NILE_RIVER_GOLD">
+      <Text>+{1_num} [ICON_Gold] Kultaa vieressä virtaavasta Niilijokesta {1_Num : plural 1?laatta; other?laattaa;}.</Text>
+    </Row>
+    <!-- Governments-->
+    <Row Tag="LOC_GOVERNMENT_KANDAKE_NAME">
+      <Text>Kandake. (Note: "Kandake" is a title used by the queen mothers of the Kingdom of Kush, an ancient African kingdom.)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_PHARAOH_NAME">
+      <Text>Faraon</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_KANDAKE">
+      <Text>+1 [ICON_TradeRoute] Kauppareitit.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_PHARAOH">
+      <Text>[ICON_Capital] Pääkaupunki saa +2 lisäbonuksen kaikkiin tuottoihin.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATING_BONUS_KANDAKE">
+      <Text>15% alennus ostoksista [ICON_Gold] Gold -jäsenille.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATING_BONUS_PHARAOH">
+      <Text>+2 [ICON_Housing] Asuntoja missä tahansa kaupungissa, jossa on pyhäkkö.</Text>
+    </Row>
+    <!-- Great People-->
+    <Row Tag="LOC_NUBIA_SCENARIO_DOUBLE_COMBAT_STRENGTH_AOE_LAND">
+      <Text>+10 [ICON_Strength] Taistelubonus kaikille yksiköille 2 tiilen säteellä.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_DOUBLE_COMBAT_STRENGTH_AOE_LAND_MODIFIER">
+      <Text>+10 [ICON_Voima] Taistelubonus [ICON_SuuriKenraali] Suurelta kenraalilta.</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MONTUHOTEP_NAME">
+      <Text>Mentuhotep II</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PIYE_NAME">
+      <Text>Piye</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMANIRENAS_NAME">
+      <Text>Amanirenas</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHA_NABU_SHU_NAME">
+      <Text>Sha-Nabu-shu</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CAMBYSES_NAME">
+      <Text>Cambyses II</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALEXANDER_NAME">
+      <Text>Alexander</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMANISHAKETO_NAME">
+      <Text>Amanishaketo</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HOREMHEB_NAME">
+      <Text>Horemheb</Text>
+    </Row>
+    <!-- Improvements-->
+    <Row Tag="LOC_IMPROVEMENT_NUBIA_SCENARIO_SPHINX_DESCRIPTION">
+      <Text>Avaa Ylipapittaren kyvyn rakentaa sfinksi, joka on ainutlaatuinen Egyptille. [NEWLINE] [NEWLINE] +1 [ICON_Faith] Usko ja +1 [ICON_Culture] Kulttuuri. +1 Vetoisuus. +2 [ICON_Faith] Uskoa, jos vieressä on ihme tai pyhä paikka. Ei voi rakentaa toisen sfinksin viereen. Voidaan rakentaa tulvatasangoille.</Text>
+    </Row>
+    <!-- Policies-->
+    <Row Tag="LOC_POLICY_ABU_SIMBEL_NAME">
+      <Text>Abu Simbel</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FRONTIER_FORTRESSES_NAME">
+      <Text>Rajalinnoitukset</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INUNDATION_CALENDAR_NAME">
+      <Text>Tulvien kalenteri</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERCENARIES_NAME">
+      <Text>Palkkasoturit</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_COMMUNICATION_NAME">
+      <Text>Sotilasviestintä</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MUSAEUM_NAME">
+      <Text>Musaeum</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RECORDKEEPING_NAME">
+      <Text>Tietojen tallentaminen</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ROYAL_BODYGUARDS_NAME">
+      <Text>Kuninkaalliset henkivartijat</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCORPION_KING_NAME">
+      <Text>Skorpionikuningas</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_AGREEMENT_NAME">
+      <Text>Kauppasopimus</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_VALLEY_OF_THE_KINGS_NAME">
+      <Text>Kuninkaiden laakso</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_CONSCRIPTION_DESCRIPTION">
+      <Text>+50% [ICON_Production] Tuotanto antiikin ja klassisen aikakauden lähitaistelu- ja kaukotaistelu yksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_GOD_KING_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Usko [ICON_Capital] Pääkaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_MANEUVER_DESCRIPTION">
+      <Text>+100% [ICON_Production] Tuotanto kohti Antiikin ja Klassisen ajan raskaita ja kevyitä ratsuväkiyksiköitä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ABU_SIMBEL_DESCRIPTION">
+      <Text>+100% [ICON_Culture] Kulttuuria Pyhän Paikan rakennuksista.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FRONTIER_FORTRESSES_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Kultaa kaikista [ICON_TradeRoute] kauppareiteistä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INUNDATION_CALENDAR_DESCRIPTION">
+      <Text>+1 [ICON_Science] Tiedettä jokaiselle kaupungille, joka sijaitsee veden vieressä</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERCENARIES_DESCRIPTION">
+      <Text>Maksa puolet tavallisesta hinnasta kerätäksesi kaupunkivaltion yksiköitä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_COMMUNICATION_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Liikkuminen kaikille maajoukoille.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MUSAEUM_DESCRIPTION">
+      <Text>Kaksinkertaistaa kaikkien kaupunkiesi [ICON_Science] tieteen tuottavuuden.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RECORDKEEPING_DESCRIPTION">
+      <Text>Yksikköjen ylläpito vähentynyt 1 [ICON_Gold] kulta per vuoro, per yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ROYAL_BODYGUARDS_DESCRIPTION">
+      <Text>+2 [ICON_Culture] Kulttuuria pääkaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCORPION_KING_DESCRIPTION">
+      <Text>+4 [ICON_Strength] Taisteluvoimaa kaikille yksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SCORPION_KING_COMBAT_STRENGTH">
+      <Text>+{1_Value} Skorpionikuninkaalta.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_AGREEMENT_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Kultaa kansainvälisiltä [ICON_TradeRoute] kauppareiteiltä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_VALLEY_OF_THE_KINGS_DESCRIPTION">
+      <Text>+100% Pyhä paikka kaupunginosan viereisyysbonukset.</Text>
+    </Row>
+    <!-- Religions-->
+    <Row Tag="LOC_RELIGION_NUBIA_SCENARIO_NUBIA_NAME">
+      <Text>Nubialaiset jumalat</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_NUBIA_SCENARIO_EGYPT_NAME">
+      <Text>Egyptiläiset jumalat</Text>
+    </Row>
+    <!-- Resources-->
+    <Row Tag="LOC_RESOURCE_SCENARIO_GOLD_NAME">
+      <Text>Kultamalmi</Text>
+    </Row>
+    <!-- Routes-->
+    <Row Tag="LOC_ROUTE_NUBIA_SCENARIO_ROAD_DESCRIPTION">
+      <Text>Voidaan rakentaa [ICON_TradeRoute] kauppareittien kautta. Parantaa [ICON_Movement] liikkumisnopeutta kaikilla yksiköillä, jotka liikkuvat yhdestä tiiliroadilta toiselle.</Text>
+    </Row>
+    <!-- Technologies-->
+    <Row Tag="LOC_TECH_FISHING_NAME">
+      <Text>Kalastus</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MEDICINE_NAME">
+      <Text>Lääketiede</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FORTIFICATION_NAME">
+      <Text>Linnoitus</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TOMB_BUILDING_NAME">
+      <Text>Hautarakentaminen</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FISHING_DESCRIPTION">
+      <Text>Antaa rakentajien aloittaa.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_NUBIA_SCENARIO_SAILING_DESCRIPTION">
+      <Text>Sallii kaikkien maajoukkojen siirtyä meriteitse.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_NUBIA_SCENARIO_MATHEMATICS_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Liikkuminen kaikille meriyksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MEDICINE_DESCRIPTION">
+      <Text>Saat kaksi ilmaista siirtolaista [ICON_Capital] pääkaupungissasi valmistumisen jälkeen.</Text>
+    </Row>
+    <!-- Units-->
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_GREAT_GENERAL_DESCRIPTION">
+      <Text>Jokaisella [ICON_GreatGeneral] Suurmarsalkalla on passiivinen taistelutehokkuus läheisiin yksiköihin tässä skenaariossa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_GREAT_PROPHET_DESCRIPTION">
+      <Text>Suuria [ICON_GreatProphet] profeettoja ei löydy tässä skenaariossa. Sekä Egypti että Nubia saavat uskonnon automaattisesti heti kun heidän pääkaupunkinsa on perustettu.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_EGYPTIAN_CHARIOT_ARCHER_DESCRIPTION">
+      <Text>Egyptiläinen ainutlaatuinen muinaisajan kauko-yksikkö, joka korvaa raskaan vaunun. 6 [ICON_Movement] Liikkuminen avoimella maastolla aloittaessa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_SETTLER_DESCRIPTION">
+      <Text>Saattaa luoda uusia kaupunkeja. Siirtolaisia vastaanotetaan vain tässä tapauksessa suorittamalla sivistys- ja lääketieteellinen teknologia. Niitä ei koskaan voi rakentaa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HIGH_PRIESTESS_NAME">
+      <Text>Korkein papitar</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDJAY_NAME">
+      <Text>Medjay</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HIGH_PRIESTESS_DESCRIPTION">
+      <Text>Uniikki rakentaja, jonka ainoa tehtävä on luoda yksi ainoa sfinksi tai nubialainen pyramidi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDJAY_DESCRIPTION">
+      <Text>Vahva lähitaisteluun erikoistunut yksikkö, jolla on suuri taistelubonus ystävällisellä alueella ja Pyhäkkö-rakennuksen sisältävän Pyhäkön yhden ruudun etäisyydellä. Medjayta voidaan rakentaa vain kaupungissa, jossa on Pyhäkkö, joka sisältää Shrine-rakennuksen</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDJAY_HOLY_SITE_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Value} Taisteluvoimaa ystävällismielisellä alueella Pyhän Paikan läheisyydessä.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_DOUBLE_STRENGTH_NAME">
+      <Text>Lähellä Suurta Kenraalia</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_DOUBLE_STRENGTH_DESCRIPTION">
+      <Text>+10 [ICON_Voima] Taistelubonus Suurelta Kenraalilta.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDJAY_DESCRIPTION">
+      <Text>+20 [ICON_Strength] taistelu bonus, kun vieressä on pyhäkkö.</Text>
+    </Row>
+    <!-- Civic Boosts-->
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_STATE_WORKFORCE">
+      <Text>Paranna 8 laattaa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_FOREIGN_TRADE">
+      <Text>Tutustu 6 kaupunkivaltioon.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SCRIBES">
+      <Text>Rakenna kaksi erilaista erikoisaluetta.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_BOOK_OF_THE_DEAD">
+      <Text>Valloita kaupunki.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_INSTITUTION_OF_THE_MUSES">
+      <Text>Tutki matematiikan teknologiaa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SEPATS">
+      <Text>Rakenna 2 Leiriyhteisö-korttelia.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_BOARDGAMES_ATHLETICS">
+      <Text>Kasvata sivilisaatiosi vähintään 24 asukkaan kokoiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_AMUN_LORD_OF_ALL_GODS">
+      <Text>Rakenna 3 pyhättöä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_STATE_WORKFORCE">
+      <Text>Kun maat ympärillämme kehittyvät aikaisempien kaupunkien ympärillä, voimme hienosäätää tuotantomenetelmiämme.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_FOREIGN_TRADE">
+      <Text>Sinun yhteytesi muihin valtioihin ovat avanneet mahdollisuuksia kannattavaan kauppaan.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SCRIBES">
+      <Text>Kaupunkimme kasvaa niin nopeasti, että tarvitsemme uuden työntekijäluokan auttamaan meitä seuraamaan kaikkea.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_BOOK_OF_THE_DEAD">
+      <Text>Meillä on joitain kaatuneita sankareita kaupunkivalloituksestamme. Autetaan heidän siirtymistään alamaailman halki.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_INSTITUTION_OF_THE_MUSES">
+      <Text>Oppineet matemaatikkomme ovat esimerkki oppineisuudesta. Autetaan heitä keräämällä maailman tiedot yhden katon alle.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SEPATS">
+      <Text>Encampment paikkana suojella maitamme ja valvoa rajojamme, voimme nyt vahvistaa alueellista valtaamme.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_BOARDGAMES_ATHLETICS">
+      <Text>Kansalaisten määrän kasvaessa maassasi tarvitaan enemmän viihdettä. Pelataanko senetiä vai kokeillaanko taitojamme jousiammunnassa?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_AMUN_LORD_OF_ALL_GODS">
+      <Text>Kansamme tunnustaa nyt yhden ylivertaisen jumalan, Amunin. Rakentakaamme suuria temppeleitä juhlistaaksemme tämän elämän sauvan luojaa.</Text>
+    </Row>
+    <!-- Tech Boosts-->
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SAILING">
+      <Text>Paranna 2 meri resurssia.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_IRRIGATION">
+      <Text>Rakenna 4 maatilaa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_THE_WHEEL">
+      <Text>Rakenna laitumelle.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_MEDICINE">
+      <Text>Rakenna 2 viljelmää.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_FORTIFICATION">
+      <Text>Ole sodanjulistuksen kohteena.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_TOMB_BUILDING">
+      <Text>Hanki Kuolleiden kirja kansalaisoikeus.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_CELESTIAL_NAVIGATION">
+      <Text>Omistan 2 galleriaa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_MATHEMATICS">
+      <Text>Rakenna 3 nilometriä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_IRON_WORKING">
+      <Text>Tappaa vihollisen Miekkamiehen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_HORSEBACK_RIDING">
+      <Text>Tappaa vihollisen Ratsumiehen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SAILING">
+      <Text>Teidän kalastajanne auttavat meitä oppimaan, miten rakennetaan sotilastarkoituksiin tarkoitettuja veneitä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_IRRIGATION">
+      <Text>Sinun lukuisat maatilasi antavat sinulle arvostusta sadon kastelun tärkeyttä kohtaan.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_THE_WHEEL">
+      <Text>Kotieläinten kesyttämisestä voisi olla hyötyä. Saammeko niitä kuljettamaan joukkoja taisteluun?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_MEDICINE">
+      <Text>Sekoitat yrttejä viljelyksissäsi. Onko joillain niistä lääkinnällisiä käyttötarkoituksia?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_FORTIFICATION">
+      <Text>Kohdatessa hyökkäyksen uhka, kansanne on valmis keksimään innovatiivisia puolustuskeinoja.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_TOMB_BUILDING">
+      <Text>Kaikkien asianmukaisten rukousten tallentamisen jälkeen voimme nyt rakentaa hautakammioita kunnioittaaksemme suurimpia henkilöitämme.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_CELESTIAL_NAVIGATION">
+      <Text>Teidän keittiöhenkilökuntanne opettelee ohjaamaan matkojaan tutkimalla yötaivasta.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_MATHEMATICS">
+      <Text>Parhaat tieteelliset mieli ovat varsin tarkkoja ennustaessaan Nilin tulvia.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_IRON_WORKING">
+      <Text>Olemme voittaneet tarpeeksi miekkamiesten joukkoja, jotta voimme pian saada vastaavanlaisia yksiköitä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_HORSEBACK_RIDING">
+      <Text>Olemme voittaneet tarpeeksi ratsuväen sotureita, jotta pian pystymme itsekin käyttämään vastaavia yksiköitä.</Text>
+    </Row>
+    <!-- Terrain/Features-->
+    <Row Tag="LOC_FEATURE_CATARACT_NAME">
+      <Text>Kaihi</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_NILE_RIVER_NAME">
+      <Text>Niili-joki</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_VICTORY_NUBIA_SCENARIO_TEXT">
+      <Text>Olet tullut ensimmäiseksi pelaajaksi, joka on rakentanut seitsemän temppeliä suuren jumala Amunin kunniaksi. Varmasti suuri pyramidi tulisi rakentaa juhlistamaan saavutuksiasi!</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_TEMPLE_COUNT">
+      <Text>{1_Player} - Amunin temppelit rakennettu: {2_Num}</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_1_NAME">
+      <Text>Amunin elävä kuva</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_2_NAME">
+      <Text>Kunnioitettu Isisin toimesta</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_3_NAME">
+      <Text>Voideltu Anubiksen toimesta</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_4_NAME">
+      <Text>Horusin seuraaja</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_5_NAME">
+      <Text>Unohdettu Besin toimesta</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_6_NAME">
+      <Text>Hyljeksitty Ashin toimesta</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_1_QUOTE">
+      <Text>Kaikkien jumalien hallitsija kunnioittaa sinua. (Älä anna sen nousta päähän.)</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_2_QUOTE">
+      <Text>Hän itkee ilon kyyneliä saavutuksestasi.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_3_QUOTE">
+      <Text>Hän valmistaa erityisiä kanopikorkeja sisäelimillesi.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_4_QUOTE">
+      <Text>Kunnioittaaksesi hänen teoksiaan, et koskaan kohtaa hiekkamyrskyä.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_5_QUOTE">
+      <Text>Ehkä ensi kerralla hän muistaa varoittaa sinua käärmeistä.</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_6_QUOTE">
+      <Text>Et löydä mitään keidasta missään autiomaassa - vain hiekkaa toisensa perään.</Text>
+    </Row>
+    <!-- Events-->
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_1">
+      <Text>Rakentakaa uudelleen Vanha kuningaskunta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_2">
+      <Text>Nubia vetää jousensa</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_3">
+      <Text>Pítati Paluu Nubiaan</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_4">
+      <Text>Palata takaisin palveluumme</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_5">
+      <Text>Faarao Mentuhotep II nousee valtaistuimelle</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_6">
+      <Text>Faarao Mentuhotep II tapaa Osiriksen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_7">
+      <Text>Korkein Papitar Pyhitää Pyhä Paikan</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_8">
+      <Text>Kuningas Piye nousee valtaistuimelle</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_9">
+      <Text>Kuningas Piye tapaa Osiriksen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_10">
+      <Text>Kuningatar Amanirenas nousee valtaistuimelle</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_11">
+      <Text>Kuningatar Amanirenas tapaa Osiriksen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_12">
+      <Text>Hyksosit hyökkäävät</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_13">
+      <Text>Libya hyökkää</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_14">
+      <Text>Assyria hyökkää</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_15">
+      <Text>Persia hyökkää</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_16">
+      <Text>Makedonia hyökkää</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_17">
+      <Text>Rooma hyökkää</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_18">
+      <Text>Salaiset sota-elefantit</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_1">
+      <Text>Vanha kuningaskunta on mennyt. Vaikka sisällissota ravistelee maata, perheesi kohtalo on yhdistynyt Egypti. Ehkä nubialaisia palkkasotureita voidaan lyhyellä aikavälillä käyttää avuksi, kun yrität ottaa takaisin kaupunkeja Niilin varrelta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_2">
+      <Text>Sinun perheelläsi on tärkeä osa Niilin jokea hallinnassaan. Egyptin naapurisi pohjoisessa ovat sisäisen levottomuuden vaivaamia, ja Jousimaiden valtakunta löytää itsensä keisarikunnan partaalla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_3">
+      <Text>Nubiilaiset palkkasoturit suorittivat sopimuksensa. He palaavat Jousimaahan.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_4">
+      <Text>Meidän palkkasoturi jousimiehemme suorittivat sopimuksensa Egyptin kanssa. He palaavat kotiin kokeneina ja hyvin palkattuina.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_5">
+      <Text>Suuri Mentuhotep II tavoittelee ei mitään vähempää kuin Ylä- ja Ala-Egyptin yhdistämistä. Mikäli hän onnistuu, me kunnioitamme häntä tittelin "Horus, joka yhdistää kaksi maata" kanssa</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_6">
+      <Text>Mentuhotep II:n kuoleman myötä hänen elinvoimansa lähtee hänen ruumiistaan ja alkaa uusi matka tuonpuoleiseen. Siellä hän kohtaa Osiriksen tuomion. Olkoon hänen teoillaan ansaittu ikuinen elämä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_7">
+      <Text>Uskonnollinen johtaja ilmestyy täydentämään uutta jumalanpalveluspaikkaamme. Hänen avullaan voimme luoda uusia merkkejä jumalallisista voimista, joita jumalamme hallitsevat.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_8">
+      <Text>Oikeamielinen kuningas Piye pyrkii vapauttamaan egyptiläiset rotan syömästä sydämestään heidän herransa alaisuudessa. Hänen on tehtävä niin, vaikka tämä laajentaisi nubialaista valtaa syvemmälle Egyptin alueelle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_9">
+      <Text>Piye'n kuollessa hänen elinvoimansa lähtee hänen ruumiistaan ja aloittaa uuden matkan tuonpuoleiseen. Siellä hän kohtaa Osiriksen tuomion. Toivottavasti hänen tekojensa ansiosta hän saavuttaa iankaikkisen elämän.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_10">
+      <Text>Kova kuningatar Amanirenas ei pelkää ulkomaisia hyökkääjiä. Jos joku uhkaa Nubiaa, hän johtaa henkilökohtaisesti hyökkäystä - vaikka he olisivat maailman voimakkaimpia armeijoita.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_11">
+      <Text>Amanirenaksen kuoltua hänen elämänvoimansa lähtee hänen ruumiistaan ja aloittaa uuden matkan tuonpuoleiseen. Siellä hän kohtaa Osiriksen tuomion. Toivottavasti hänen teot ansaitsevat hänelle ikuisen elämän.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_12">
+      <Text>Ulkomaalaiset valloittajat saapuvat koillisesta! Hyksosit hallitsevat pelottavaa vaunupohjaista armeijaa Levantista. He saapuvat mukanaan sota-ase, jota ei koskaan aiemmin ole koettu Niilin varrella - hevonen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_13">
+      <Text>Ulkomaalaiset valloittajat saapuvat Välimereltä! Libyaanit tulevat lännestä ja marssivat Niiliä kohti rannikkoa pitkin. Idästä tulevat heidän salaperäiset liittolaisensa - Meren kansa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_14">
+      <Text>Ulkomaalaiset hyökkääjät saapuvat koillisesta! Assyyrialaiset, jotka ovat johdossa Sha-Nabu-shua, ovat jo valloittaneet Mesopotamian maat. Varokaa tätä pelottavaa vihollista!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_15">
+      <Text>Ulkomaalaiset hyökkääjät saapuvat pohjoisesta! Persialaiset ovat lähellä Assyrialaisia. Saavuttaako jokin itäisistä valtakunnista jalansijan Niilin varrella?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_16">
+      <Text>Ulkomaalaiset valloittajat saapuvat koillisesta! Aleksanteri III:n Macedonian valloitukset sanotaan ulottuvan maailman ääriin. Nyt hän pyrkii lisäämään Niilin kansan valtakuntaansa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_17">
+      <Text>Ulkomaalaiset valloittajat saapuvat pohjoisesta! Rooman armeijan mahtavat legioonat saapuivat lännestä vaatimaan Niiliä itselleen. Voiko kukaan pysäyttää aikakauden mahtavimman armeijan?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_18">
+      <Text>Suurella kustannuksella koulutimme sota-elefantteja salaisella koulutusalueella. Vahtikaa niitä tarkasti – voimme ylläpitää niiden määrää hitaan lisääntymisen huolimatta, mutta älkää odottako kouluttavanne enempää.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_1">
+      <Text>Nämä nubialaiset Pítati-jousimiehet palvelevat armeijassasi seuraavat 6 vuoroa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_2">
+      <Text>Löysin kaupungin ja tutkin sen lähistöllä olevia rikkaita mineraaliesiintymiä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_3">
+      <Text>Sinun Pítati-jousimiehesi yksiköt on poistettu.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_4">
+      <Text>Näitä kokeneita Pítati-jousimiehiä on nyt saatavilla lähellä meidän [ICON_Capital] pääkaupunkia. Olemme myös saaneet 100 [ICON_Gold] kultaa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_5">
+      <Text>Tämä [ICON_GreatGeneral] Suurkenraali johtaa joukkojamme seuraavat 15 vuoroa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_6">
+      <Text>[ICON_GreatGeneral] Suuri kenraali Mentuhotep II on poistettu.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_7">
+      <Text>Tämä Ylipapitar voidaan käyttää rakentamaan ainutlaatuinen parannus (Sfinksi tai Nubialainen pyramidi), kun olet tutkinut Muurarintaidon.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_8">
+      <Text>Tämä [ICON_GreatGeneral] Suuri kenraali johtaa joukkojamme seuraavat 15 vuoroa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_9">
+      <Text>[ICON_GreatGeneral] Suuri kenraali Piye on poistettu.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_10">
+      <Text>Tämä [ICON_GreatGeneral] Suuri Kenraali johtaa joukkojamme seuraavat 15 vuoroa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_11">
+      <Text>[ICON_GreatGeneral] Suuri kenraali Amanirenas on poistettu.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_12">
+      <Text>Nämä hyksosin valloittajat yrittävät valloittaa kaupunkeja ja perustaa kuningaskunnan Välimeren rannikolle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_13">
+      <Text>Nämä libyalaiset valloittajat yrittävät valloittaa kaupunkeja ja perustaa kuningaskunnan Välimeren rannikolle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_14">
+      <Text>Nämä assyrialaiset valloittajat yrittävät valloittaa kaupunkeja ja perustaa kuningaskunnan Välimeren rannikolle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_15">
+      <Text>Nämä persialaiset hyökkääjät yrittävät valloittaa kaupunkeja ja perustaa valtakunnan Välimeren rannikolle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_16">
+      <Text>Nämä makedonialaiset valloittajat yrittävät valloittaa kaupunkeja ja perustaa kuningaskunnan Välimeren rannikolle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_17">
+      <Text>Nämä roomalaiset valloittajat yrittävät valloittaa kaupunkeja ja perustaa kuningaskunnan Välimeren rannikolle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_18">
+      <Text>Uudet Sotanorsut yksiköt ovat nyt saatavilla. Niitä ei voi rakentaa kaupungissa ja ne voi saada vain tämän tapahtuman kautta.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

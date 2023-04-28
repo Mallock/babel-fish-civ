@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!--Shared Districts-->
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_DESCRIPTION">
+      <Text>Alue, joka tarjoaa kaupungille raikkaan veden lähteen läheisestä joesta, järvistä, keitaista tai vuorista. Kaupungit, joilla ei ole vielä raikasta vettä, saavat jopa 6 [ICON_Housing] asuntoa. Kaupungit, joilla on jo raikas vesi, saavat sen sijaan +2 [ICON_Housing] asuntoa. Jos rakennetaan viereen geotermisen halkeaman, saa +1 [ICON_Amenities] viihtyvyyttä. Estää [ICON_Food] ruoan menetyksen kuivuuden aikana. On rakennettava viereen kaupungin keskustaan.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION">
+      <Text>Kaupunginosassa on lähde, joka tarjoaa kaupungille raikasta vettä vieressä olevasta joesta, järvestä, keitaasta tai vuoresta. Kaupungit, joilla ei vielä ole raikasta vettä, saavat jopa 6 [ICON_Housing] Asuntoa. Kaupungit, joilla on jo raikas vesi, saavat sen sijaan +2 [ICON_Housing] Asuntoa. Jos se rakennetaan vieressä olevan geotermisen halkeaman vieressä +1 [ICON_Amenities] Viihtyvyyttä. Estää [ICON_Food] Ruokahukka kuivuuden aikana. On rakennettava vieressä kaupungin keskustaan. Sotilaalliset insinöörit voivat käyttää latauksen Aqueductin tuotannon 20% valmiiksi saattamiseen.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_NAME">
+      <Text>Kanava</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_DESCRIPTION">
+      <Text>Kaupunkialue, joka on rakennettu tasaiselle maalle yhdistääkseen kaksi vesialuetta tai vesialueen kaupungin keskustaan. [ICON_TradeRoute] Kauppareitit, jotka kulkevat sen läpi, voivat moninkertaistaa [ICON_Gold] kultamäärän, jonka ne saavat määränpään kaupunginosista. Kanavat voivat kulkea joko suoraan heksagonin läpi tai kääntyä 60 astetta. Kuitenkin kolmen tien kanavajärjestelyt eivät ole sallittuja ja kanavilla on oltava täysin maalla oleva laatta kummallakin puolella vesiväylää, jonka ne luovat. Sotilaalliset insinöörit voivat käyttää varauksen kanavan 20%:n tuotannon valmistumiseen. [ICON_Gold]</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_NAME">
+      <Text>Pato</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_DESCRIPTION">
+      <Text>Alue, joka on rakennettu tulvatasangolle parantamaan elämän mukavuutta joen varrella. Estää vahingot joen tulvista (vaikka tulvasta saatavat saannot laskevat 50%). Estää [ICON_Food] Ruokahävikin kuivuudessa. Vain yksi voidaan rakentaa kullekin joen tulvatasangolle (kuka tahansa pelaaja, joka saa sen valmiiksi ensin) ja joen on kuljettava vähintään kahden Dam-hexin sivun läpi. Sotilasinsinöörit voivat käyttää latauksen valmiiksi 20%:sta padon tuotannosta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION_XP2">
+      <Text>Alue, jolla vaaditaan rakentamaan Tieteellisen Voiton projektit. Tähän kuuluvat {LOC_PROJECT_LAUNCH_EARTH_SATELLITE_NAME}, {LOC_PROJECT_LAUNCH_MOON_LANDING_NAME}, {LOC_PROJECT_LAUNCH_MARS_BASE_NAME} ja {LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME}. Ei voida rakentaa kukkuloille.</Text>
+    </Row>
+    <!--Adjacency Bonuses-->
+    <Row Tag="LOC_DISTRICT_DESERT_HILLS_FAITH">
+      <Text>+{1_num} [ICON_Faith] Uskoa viereisistä aavikon kukkuloista {1_Num : plural 1?tiili; other?tiiliä;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DESERT_FOOD">
+      <Text>+{1_num} [ICON_FOOD] Ruokaa viereisestä aavikosta {1_Num : plural 1?laatta; other?laattaa;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DESERT_HILLS_FOOD">
+      <Text>+{1_num} [ICON_FOOD] Ruokaa viereisiltä aavikkokukkuloilta {1_Num : plural 1?laatta; other?laattaa;}.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_GOLD">
+      <Text>+{1_num} [ICON_GOLD] Kultaa viereisestä vuorista {1_Num : plural 1?laatta; other?laattoja;}.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Tuotanto viereisestä vuoresta {1_Num : plural 1?laatta; other?laatoista;}.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kulttuuria viereisestä vuoristosta {1_Num : plural 1?laatta; other?laattaa;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GEOTHERMAL_SCIENCE">
+      <Text>+{1_num} [ICON_SCIENCE] Tiede jokaisesta vierekkäisestä geotermisestä halkeamasta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_REEF_SCIENCE">
+      <Text>+{1_num} [ICON_SCIENCE] Tiedonanto jokaiselta viereiseltä riutalta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_GOLD">
+      <Text>+{1_num} [ICON_Gold] Kultaa viereisestä Cothon-kaupunginosasta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_DESCRIPTION_ADJACENCY">
+      <Text>Vierekkäisyys: Pääasiallinen [ICON_Gold] Kultabonus jokaisesta vierekkäisestä kaupungintalosta. Normaali [ICON_Gold] Kultabonus jokaisesta vierekkäisestä rannikkoresurssista. Pieni [ICON_Gold] Kultabonus vierekkäisistä kaupunginosien laatoista.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOLY_SITE_GOLD">
+      <Text>+{1_num} [ICON_Gold] Kultaa viereisestä Pyhä paikka kaupunginosasta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_LAVRA_GOLD">
+      <Text>+{1_num} [ICON_Gold] Kultaa vieressä sijaitsevasta Lavra-kaupunginosasta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION_ADJACENCY">
+      <Text>Vierekkäisyys: Suuri [ICON_Gold] Kulta bonus jokaisesta vierekkäisestä pyhäkköalueesta. Suuri [ICON_Gold] Kulta bonus joen reunustamalta alueelta. Pieni [ICON_Gold] Kulta bonus vierekkäisiltä kaupunginosilta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MINES_HALF_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Tuotanto viereisistä kaivoksista.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_LUMBER_MILL_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] Tuotanto viereisistä sahoilta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Tuotanto viereisestä akveduktista {1_Num : plural 2?alueella; other?alueilla;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BATH_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Tuotanto vieressä olevista Bathin {1_Num : plural 2?alueesta; other?alueista;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Tuotanto viereisestä kanavasta {1_Num : plural 2?piirissä; other?piireissä;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Tuotanto viereisestä padosta {1_Num : plural 2?piirissä; other?piireissä;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_STRATEGIC_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] Tuotanto viereisiltä strategisilta {1_Num : plural 1?resurssi; other?resursseilta;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HANSA_DESCRIPTION_ADJACENCY">
+      <Text>Viereisyys: Merkittävä [ICON_Production] tuotantobonus, jos vieressä on kauppakeskus-, akvedukti-, kanava- tai patodistriktejä. Vakio [ICON_Production] tuotantobonus jokaisesta viereisestä resurssista. Pieni [ICON_Production] tuotantobonus viereisten distriktin ruutujen osalta.</Text>
+    </Row>
+    <!--Projects-->
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_NAME">
+      <Text>Siirrä pääoma</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_SHORT_NAME">
+      <Text>Siirrä pääoma</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_DESCRIPTION">
+      <Text>Foinikialainen ainutlaatuinen projekti saatavilla mille tahansa kaupungille, jossa on Cothon. Kun projekti on valmis, Foinikian [ICON_Capital] pääkaupunki siirtyy tähän kaupunkiin.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_NAME">
+      <Text>Hiilidioksidin talteenotto</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_SHORT_NAME">
+      <Text>Hiilen talteenotto</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_DESCRIPTION">
+      <Text>Tämä voidaan suorittaa missä tahansa kaupungissa, jossa on teollisuusalue. Kun se on valmis, tämän sivilisaation elinkaaren hiilipäästöt vähenevät 50:llä ja ansaitaan 30 [ICON_FAVOR] diplomatialla. Tämä projekti voi jopa vähentää hiilivelkaasi nollaan ja sallia sinun kerätä vähennyksiä globaalisesta CO2-jalanjäljestä.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL">
+      <Text>Muunna kivihiilikäyttöiseksi voimalaitokseksi</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL_SHORT_NAME">
+      <Text>Muunna hiilivoimaan</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL_DESCRIPTION">
+      <Text>Purkaa nykyisen voimalan tässä kaupungissa ja korvata se {LOC_BUILDING_COAL_POWER_PLANT_NAME}:lla.[NEWLINE][NEWLINE]{LOC_BUILDING_COAL_POWER_PLANT_NAME}:[NEWLINE]{LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL">
+      <Text>Muunna öljyvoimaan</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL_SHORT_NAME">
+      <Text>Muunna öljyvoimaan</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL_DESCRIPTION">
+      <Text>Purkaa nykyinen voimalaitos tässä kaupungissa ja korvaa se {LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME}-nimisellä voimalaitoksella. [NEWLINE] [NEWLINE]{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME}: [NEWLINE]{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM">
+      <Text>Siirtyä ydinvoimaan</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM_SHORT_NAME">
+      <Text>Muunna ydinvoimaan</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM_DESCRIPTION">
+      <Text>Purkaa nykyisen voimalaitoksen tässä kaupungissa ja korvata se {LOC_BUILDING_POWER_PLANT_EXPANSION2_NAME}:lla. [NEWLINE][NEWLINE]{LOC_BUILDING_POWER_PLANT_EXPANSION2_NAME}:[NEWLINE]{LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_NAME">
+      <Text>Käynnistä Marsin siirtokunta</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_SHORT_NAME">
+      <Text>Käynnistä Marsin siirtokunta</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_DESCRIPTION">
+      <Text>"Space Race" -projekti, joka perustaa pienen ihmispohjan Marsin pinnalle. Se merkitsee kolmatta askelta kohti Tieteen voittoa.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_POPUP">
+      <Text>Olet onnistuneesti perustanut siirtokunnan Marsiin! Tämä on kolmas askel kohti Tiede-voittoa.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME">
+      <Text>Käynnistä Exoplanet Expedition</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_SHORT_NAME">
+      <Text>Exoplaneetta-retki</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_DESCRIPTION">
+      <Text>Avaruuskilpailuprojekti, joka matkaa syvän avaruuden halki yhden valovuoden vuorossa levittääkseen ihmiskunnan toiseen tähtijärjestelmään. Voittaa Tieteen voiton kerran saavutettuaan määränpäänsä. Nopeutuu muiden projektien avulla.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_POPUP">
+      <Text>Sinun siemenlaivasi on matkalla toiseen tähtijärjestelmään! Voitat Tieteellisen Voiton kun se saapuu perille. Se matkustaa yhden valovuoden per kierros ja sitä voidaan nopeuttaa muilla projekteilla.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_NAME">
+      <Text>Käynnistä Lagrange-laserasema</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME">
+      <Text>Lagrange Laser -asema</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION">
+      <Text>Vaaditaan 30 [ICON_RESOURCE_ALUMINUM] alumiinia rakentamisen aloittamiseksi. (Standard nopeudella) Avaruuskilpailuprojekti, joka kiihdyttää Exoplaneettaretkesi +1 valovuosi kierrosta kohti, kiihdyttäen edistymistäsi kohti tieteellistä voittoa.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_POPUP">
+      <Text>Sinä perustat Lagrange-laseraseman kiertoradalle, joka nopeuttaa Exoplanet Expedition -alusasi yhden valovuoden per kierros ja vie sinut lähemmäksi tiedevoittoa!</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_NAME">
+      <Text>Rakenna maanpäällinen laserasema</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME">
+      <Text>Maanpäällinen lasersatelliitti</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_DESCRIPTION">
+      <Text>Kun valmis, tämän kaupungin [ICON_Power] energiavaatimukset kasvavat 5:llä. Avaruuskilpailuprojekti, joka nopeuttaa Exoplanet-lähetystyötäsi yhdellä valovuodella per kierros niin kauan kuin kaupunki on [ICON_Power] sähköistetty, kiihdyttää edistymistäsi kohti tieteellistä voittoa.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_POPUP">
+      <Text>Perustat Maan laseraseman Avaruussatamaan, kiihdyttäen eksoplaneettaluotaintasi yhdellä valovuodella per kierros ja tuoden sinut lähemmäs Tiedevoittoa!</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_NAME">
+      <Text>Lähetä apua</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_SHORT_NAME">
+      <Text>Lähetä apua</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_DESCRIPTION">
+      <Text>Projekti, jonka avulla voit kerätä pisteitä avustuspyyntökilpailuissa.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_POPUP">
+      <Text>Apu pakettisi on toimitettu, mikä lisää pisteitäsi Apupyynnön kilpailussa.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_NAME">
+      <Text>Kouluttaa urheilijoita</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_SHORT_NAME">
+      <Text>Kouluta urheilijoita</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_DESCRIPTION">
+      <Text>Projekti ansaitakseen pisteitä World Games kilpailuun.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_POPUP">
+      <Text>Teidän urheilijanne ovat nyt valmiina peleihin, lisäten pisteitä teidän sijoitukseenne Maailman pelien kilpailussa.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_NAME">
+      <Text>Kouluttaa astronautteja</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_SHORT_NAME">
+      <Text>Kouluttaa astronautteja junassa</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_DESCRIPTION">
+      <Text>Projekti, jolla kerätään pisteitä kansainvälisen avaruusaseman kilpailussa.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_POPUP">
+      <Text>Teidän astronauttinne ovat valmiita työskentelemään Kansainvälisellä avaruusasemalla, kasvattaen pistemääräänne Kansainvälisessä avaruusasemakilpailussa.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_EXPANSION2_DESCRIPTION">
+      <Text>Piirikuntapohjainen projekti, joka tarjoaa [ICON_Faith] uskoa ja +100% uskonnollista painetta joka vuoro. Palkitsee [ICON_GreatProphet] suuren profeetan pisteillä heti valmistuttuaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_EXPANSION2_DESCRIPTION">
+      <Text>Aluepohjainen projekti, joka tarjoaa tälle kaupungille täyden [ICON_Power] sähköntuotannon toimiessaan. Valmistuttuaan se myös tarjoaa [ICON_GreatEngineer] Suuri insinööri -pisteitä.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_NAME">
+      <Text>Uudelleenkäynnistäydä ydinreaktori</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_SHORT_NAME">
+      <Text>Käynnistä ydinreaktori uudelleen</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_DESCRIPTION">
+      <Text>Mahdollistaa ydinreaktorin uudelleenkäyttöönoton turvallisuustoimenpiteiden lisäämiseksi ja ydinonnettomuusriskin pienentämiseksi.[NEWLINE][NEWLINE]Uudelleenkäyttöönotto nollaa reaktorin iän 0:aan. Mitä vanhempi reaktori on, sitä suurempi on ydinonnettomuuden riski.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_NAME">
+      <Text>Pura hiilivoimala</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_SHORT_NAME">
+      <Text>Poista käytöstä hiilivoimala</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_DESCRIPTION">
+      <Text>Projekti ansaitakseen pisteitä Ilmastosopimus-kilpailussa. Poistaa Hiilivoimalan ja sen vaikutukset tästä kaupungista.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_NAME">
+      <Text>Poista käytöstä öljyvoimala</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_SHORT_NAME">
+      <Text>Pura öljyvoimala</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_DESCRIPTION">
+      <Text>Projekti ansaitakseen pisteitä ilmastosopimuksen kilpailuun. Poistaa öljyvoimalan ja kaikki sen vaikutukset tästä kaupungista.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_NAME">
+      <Text>Poista ydinvoimala käytöstä</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_SHORT_NAME">
+      <Text>Poista ydinvoimalaitos käytöstä</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_DESCRIPTION">
+      <Text>Projekti ansaita pisteitä ilmastosopimuskilpailussa. Poistaa ydinvoimalan ja kaikki sen vaikutukset tästä kaupungista.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ENTERTAINMENT_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kulttuuri viereisestä Viihdekeskus-kaupunginosasta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WATER_PARK_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kulttuuri vieressä sijaitsevalta Vesipuisto-alueelta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_STREET_CARNIVAL_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kulttuuria naapuruston Street Carnival -alueelta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COPACABANA_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kulttuuria viereisestä Copacabanan kaupunginosasta.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

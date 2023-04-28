@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BaseGameText>
+    <!-- Ruleset -->
+    <Row Tag="LOC_ANCIENT_RIVALS_RULESET_TITLE">
+      <Text>Ikivanhat kilpakumppanit</Text>
+    </Row>
+    <Row Tag="LOC_ANCIENT_RIVALS_RULESET_TEASER">
+      <Text>Laajenna horisonttiasi ja sivisty tällä tutkimus- ja kulttuuripainotteisella skenaariolla, joka sijoittuu Antiikin aikaan. Kestää 50 vuoroa.[NEWLINE]Voittoehdot[NEWLINE]Vuoron loppuessa voitto myönnetään pelaajalle, jolla on eniten seuraavista ehdoista. Tasatilanteessa ratkaisee pisteet.[NEWLINE][ICON_Bullet]Sivistynyt - Tutki eniten sivistystä.[NEWLINE][ICON_Bullet]Tutkimusmatkailija - Paljasta kartalta eniten kuusikulmioita.[NEWLINE][ICON_Bullet]Antiikin ryöväri - Ryösti eniten kuusikulmioita.[NEWLINE][ICON_Bullet]Muinaisen maailman ihme - Omista eniten ihmeitä.</Text>
+    </Row>
+    <!-- Victories  -->
+    <Row Tag="LOC_ANCIENT_RIVALS_VICTORY_TITLE">
+      <Text>Muinaiset kilpailijat</Text>
+    </Row>
+    <Row Tag="LOC_ANCIENT_RIVALS_VICTORY_DESC">
+      <Text>At the turn limit, victory is awarded to the player with the most of the following conditions. Ties are resolved based on score.[NEWLINE][ICON_Bullet]Cultured - Research the most civics.[NEWLINE][ICON_Bullet]Explorer - Reveal the most hexes on the map.[NEWLINE][ICON_Bullet]Ancient Raider - Pillage the most hexes.[NEWLINE][ICON_Bullet]Wonder of the Ancient World - Possess the most wonders.[NEWLINE]</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_ANCIENT_RIVALS_VICTORY_WIN_BLURB">
+      <Text>Anna minulle tarpeeksi pitkä vipuvarsi ja piste, johon sen asettaa, niin minä liikutan maailman. - Arkimedes</Text>
+    </Row>
+    <!-- Scenario Package -->
+    <Row Tag="LOC_ANCIENT_RIVALS_MOD_TITLE">
+      <Text>Moninpelitilanne: Muinaiset kilpailijat</Text>
+    </Row>
+    <Row Tag="LOC_ANCIENT_RIVALS_MOD_TEASER">
+      <Text>Laajenna näköpiiriäsi ja sivisty siinä tutkimus- ja kulttuuriperusteisessa skenaariossa, joka on asetettu Antiikin aikaan. Kestää 50 vuoroa.</Text>
+    </Row>
+    <Row Tag="LOC_ANCIENT_RIVALS_MOD_DESCRIPTION">
+      <Text>Voittoperusteet[NEWLINE]Kierrosrajan saavutettua voitto myönnetään pelaajalle, jolla on eniten seuraavista ominaisuuksista. Tasatilanteen ratkaisee pistemäärä.[NEWLINE]Sivistynyt - Tutki eniten sivistystekniikoita.[NEWLINE]Tutkimusmatkailija - Paljasta eniten kartalla olevia alueita.[NEWLINE]Muinaisryöstäjä - Ryösti eniten alueita.[NEWLINE]Muinaisen maailman ihme - Omista eniten ihmeitä. [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_AR_GAME_TURN_LIMIT_REACHED_PROGRESS">
+      <Text>Vuoron raja {ElapsedTurns}/{MinGameTurn} {StatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_ANCIENT_RIVALS_PLAYER_HAS_MOST_ANCIENT_RIVALS_POINTS_PROGRESS">
+      <Text>Voittopisteet {VictoryPoints} {VictoryStatusIcon}[NEWLINE]Tutkittuja kuusikulmioita {HexesExplored} {ExploredStatusIcon}[NEWLINE]Ryöstettyjä laattoja {TilesPillaged} {PillagedStatusIcon}[NEWLINE]Valmiiksi suoritettuja siviilitaitoja {CivicsCompleted} {CivicsStatusIcon}[NEWLINE]Hallussa olevia ihmeitä {WondersPossessed} {WondersStatusIcon}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,893 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Turn-Blocking Notifications -->
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_ARTIFACT_PLAYER_MESSAGE">
+      <Text>Valitse artefakti</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_ARTIFACT_PLAYER_SUMMARY">
+      <Text>Olet kaivanut esiin antiikkikohteen. Valitse nyt esine palautettavaksi museoosi.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_TECH_MESSAGE">
+      <Text>Valitse teknologia</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_TECH_SUMMARY">
+      <Text>Valitse uusi teknologia aloittaaksesi tutkimuksen.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CITY_PRODUCTION_MESSAGE">
+      <Text>Valitse tuotanto</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CITY_PRODUCTION_SUMMARY">
+      <Text>Tuotanto on saatu päätökseen tässä kaupungissa. Valitse mitä me tuotamme seuraavaksi.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CIVIC_MESSAGE">
+      <Text>Valitse Civic</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CIVIC_SUMMARY">
+      <Text>Valitse uusi kansalainen aloittaaksesi kehittämisen.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMAND_UNITS_MESSAGE">
+      <Text>Komentoyksiköt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMAND_UNITS_SUMMARY">
+      <Text>Siirrä yksikkö tai suorita sille toiminto.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGE_ATTACK_MESSAGE">
+      <Text>Kaupunkialueen hyökkäys</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGE_ATTACK_SUMMARY">
+      <Text>Sinun kaupunkisi voi suorittaa kauko-iskun.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_GOVERNMENT_CHANGE_MESSAGE">
+      <Text>Harkitse hallituksen vaihtamista</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_GOVERNMENT_CHANGE_SUMMARY">
+      <Text>Suoritit kansalaisvelvollisuuden, joka avasi uuden hallinnon. Sinun kannattaa harkita siirtymistä kyseiseen hallintomuotoon.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_RAZE_CITY_MESSAGE">
+      <Text>Tuhoa tai säilytä kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_RAZE_CITY_SUMMARY">
+      <Text>Valtasit kaupungin tällä kierroksella. Päätä, vapautatko, hävitätkö vai säilytätkö sen.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FILL_CIVIC_SLOT_MESSAGE">
+      <Text>Täytä politiikkakenttä</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FILL_CIVIC_SLOT_SUMMARY">
+      <Text>Hallituksellemme tarvitaan lisää politiikkaa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_PANTHEON_MESSAGE">
+      <Text>Valitse Pantheon</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_RELIGION_MESSAGE">
+      <Text>Valitse uskonto</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_BELIEF_MESSAGE">
+      <Text>Valitse usko</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAIM_GREAT_PERSON_MESSAGE">
+      <Text>Suuri henkilöväite</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAIM_GREAT_PERSON_SUMMARY">
+      <Text>Olet ansainnut suuren henkilön ja sinun täytyy päättää, hyväksytkö hänet vai et.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GIVE_INFLUENCE_TOKEN_MESSAGE">
+      <Text>Lähetä lähettiläs</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GIVE_INFLUENCE_TOKEN_SUMMARY">
+      <Text>Olet ansainnut [ICON_Envoy] Lähettilään ja voit lähettää sen kaupunkivaltioon bonusten saamiseksi.</Text>
+    </Row>
+    <!-- Unit Notifications -->
+    <Row Tag="LOC_NOTIFICATION_UNIT_DIED">
+      <Text>Yksikkö tapettiin</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_DISBANDED_MESSAGE">
+      <Text>Yksikkö hajotettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_DISBANDED_SUMMARY">
+      <Text>Sinun [ICON_Gold] Kulta saldosi on negatiivinen. Sinun {1_UnitName} on hajotettu.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_PROMOTION_AVAILABLE_MESSAGE">
+      <Text>Yksikkö saatavilla edistämistä varten</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_PROMOTION_AVAILABLE_SUMMARY">
+      <Text>{1_UnitName} yksikkö on saatavilla kampanjatarjouksena.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_MESSAGE">
+      <Text>Voitettu!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_SUMMARY">
+      <Text>{1_leader} on voitettu.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_BY_SUMMARY">
+      <Text>{1_leader} on voitettu {2_leader} toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_PLAYER_DEFEATED_MESSAGE">
+      <Text>Voitettu!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_PLAYER_DEFEATED_SUMMARY">
+      <Text>Voittamaton pelaaja on voitettu.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_CITY_STATE_DEFEATED_SUMMARY">
+      <Text>Kohtaamatonta kaupunkivaltiota on voitettu.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_OCCUPATION">
+      <Text>Olet menettänyt yhden {1_UnitName} vihollisvaltauksen takia.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_RETREAT_FROM_OCCUPATION">
+      <Text>Vihollisen miehitys on pakottanut {1_UnitName} vetäytymään.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING">
+      <Text>Olet menettänyt yhden {1_UnitName} säteilymyrkytyksen vuoksi.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_WATER_DAMAGE">
+      <Text>Olet menettänyt yhden {1_UnitName} vesimyrkytyksen takia.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_LIFESPAN_EXPIRED_MESSAGE">
+      <Text>Yksikkö on vanhentunut</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_LIFESPAN_EXPIRED_SUMMARY">
+      <Text>{1_UnitName} on saavuttanut elinkaarensa [ICON_Lifespan] lopun.</Text>
+    </Row>
+    <!-- Diplomacy Notifications-->
+    <Row Tag="LOC_NOTIFICATION_DECLARE_WAR_MESSAGE">
+      <Text>Sodanjulistus</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DECLARE_WAR_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?on julistanut; other?ovat julistaneet;} sodan {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}} vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MAKE_PEACE_MESSAGE">
+      <Text>Neuvoteltu rauha</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MAKE_PEACE_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?on; other?ovat;} sopineet rauhasta {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}} kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_MESSAGE_CIV">
+      <Text>Olet tavannut uuden sivilisaation</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_MESSAGE_CITY_STATE">
+      <Text>Olet tavannut uuden kaupunkivaltion</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_SUMMARY">
+      <Text>Olet tavannut {LOC_GRAMMAR_CIVDESC &lt;&lt; {2_CivDesc}}n johtajan {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BORDERS_NOW_ENFORCED_MESSAGE">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} valvoo rajoja</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BORDERS_NOW_ENFORCED_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} ovat nyt vahvistaneet rajojaan. Yksikkösi heidän valtakunnassaan on siirretty laatan ulkopuolelle heidän mailleen.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_FRIENDSHIP_EXPIRED_MESSAGE">
+      <Text>Ystävyyden viimeinen käyttöpäivä</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_FRIENDSHIP_EXPIRED_SUMMARY">
+      <Text>Ystävyytesi {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader} kanssa on tullut päätökseensä ja se tulee uusia.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_ALLIANCE_EXPIRED_MESSAGE">
+      <Text>Liittoumaa vanhentunut</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_ALLIANCE_EXPIRED_SUMMARY">
+      <Text>Liittonne {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}} kanssa on tullut päätökseensä ja se on uusittava.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_GAINED_MESSAGE">
+      <Text>Casus Belli saavutettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_GAINED_SUMMARY">
+      <Text>Olet saanut Casus Bellin julistaaksesi sodan {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}}:lle {1_WarType}-tyyppisesti.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_COLONIAL">
+      <Text>Koloniaalisota</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_HOLY">
+      <Text>Pyhä sota</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_LIBERATION">
+      <Text>Vapautussota</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_PROTECTORATE">
+      <Text>Suojelusalue Sota</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_RECONQUEST">
+      <Text>Uudelleenvallankumoussota</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_TERRITORIAL_EXPANSION">
+      <Text>Aluelaa­jen laajentumisen sota</Text>
+    </Row>
+    <!-- Espionage Notifications -->
+    <Row Tag="LOC_NOTIFICATION_SPY_CHOOSE_ESCAPE_ROUTE_MESSAGE">
+      <Text>Valitse pakoreitti</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CHOOSE_DRAGNET_PRIORITY_MESSAGE">
+      <Text>Valitse jäljityksen prioriteetti</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_HEIST_GREAT_WORK_SUMMARY">
+      <Text>Asiakkaanne {1_unitName} kaupungissa {2_CityName} onnistui varastamaan suuren teoksen "{3_Work}".</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_HEIST_GREAT_WORK_MESSAGE">
+      <Text>Onnistunut varastaminen hienosta työstä</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_HEIST_GREAT_WORK_SUMMARY">
+      <Text>Vihollisen vakooja onnistui varastamaan Suuren Työn "{2_Work}" {1_CityName}:ssa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_HEIST_GREAT_WORK_MESSAGE">
+      <Text>Vihollinen varasti suuren työn</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SABOTAGED_PRODUCTION_SUMMARY">
+      <Text>Agenttisi {1_unitName} onnistui sabotoida teollisuusalueen kaupungissa {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SABOTAGED_PRODUCTION_MESSAGE">
+      <Text>Tuotannon sabotointi menestyksekkäästi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SABOTAGED_PRODUCTION_SUMMARY">
+      <Text>Vihollisen vakoilijan onnistui sabotoida teollisuusalue {1_cityName} kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SABOTAGED_PRODUCTION_MESSAGE">
+      <Text>Vihollisvakooja sabotoi tuotantoa</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SIPHONED_FUNDS_SUMMARY">
+      <Text>Agenttisi {1_unitName} onnistui kaivertamaan {2_Amount} [ICON_Gold] kultaa kaupungista {3_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SIPHONED_FUNDS_MESSAGE">
+      <Text>Onnistunut kulta-imu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SIPHONED_FUNDS_SUMMARY">
+      <Text>Vihollisvakooja onnistui imemään {1_Amount} [ICON_Gold] kultaa kaupungista {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SIPHONED_FUNDS_MESSAGE">
+      <Text>Vihollisvakooja imuroi kultaa</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_STOLE_TECH_BOOST_SUMMARY">
+      <Text>Asiakkaasi agentti {1_unitName} onnistui varastamaan {3_Tech}:n tehostuksen {2_CityName}:ssa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_STOLE_TECH_BOOST_MESSAGE">
+      <Text>Menestys varastaa teknologian kohottamisen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_STOLE_TECH_BOOST_SUMMARY">
+      <Text>Vihollisen vakooja {1_CityName} onnistui varastamaan lisävoiman {2_Tech}:lle.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_STOLE_TECH_BOOST_MESSAGE">
+      <Text>Vihollinen varasti teknologian lisäyksen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_RECRUITED_PARTISANS_SUMMARY">
+      <Text>Teidän edustajanne {1_unitName} onnistui värväämään puolisotilaallisia voimia {2_CityName}-kaupunkiin, jotka haluavat takaisin kaupunkinsa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_RECRUITED_PARTISANS_MESSAGE">
+      <Text>Onnistunut partisaanien rekrytointi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_RECRUITED_PARTISANS_SUMMARY">
+      <Text>Vihollisvakooja onnistui rekrytoimaan partisanijoukkoja {1_CityName}issa, jotka nyt uhkaavat kaupunkiasi.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_RECRUITED_PARTISANS_MESSAGE">
+      <Text>Vihollinen rekrytoi partisanita</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_DISRUPTED_ROCKETRY_SUMMARY">
+      <Text>Agenttisi {1_unitName} onnistui ryöstämään Avaruussataman kaupungissa {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_DISRUPTED_ROCKETRY_MESSAGE">
+      <Text>Menestyksekäs Turhaan Varastaminen Rakettitekniikasta</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_DISRUPTED_ROCKETRY_SUMMARY">
+      <Text>Vihollinen vakooja onnistui ryöstämään avaruussataman {1_cityName} kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_DISRUPTED_ROCKETRY_MESSAGE">
+      <Text>Vihollisvakooja häiritsi rakettitekniikkaa</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CITY_SOURCES_GAINED_SUMMARY">
+      <Text>Agenttisi {1_unitName} on hankkinut lähteitä, jotka tuntevat {2_CityName} sisäpiirit. Vakoojasi kyseisessä kaupungissa toimivat {3_Levels} tasoa korkeammalla seuraavat {4_Turns} vuoroa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CITY_SOURCES_GAINED_MESSAGE">
+      <Text>Lähteitä saatiin</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_LISTENING_POST_SUMMARY">
+      <Text>Asiakkaanne agentti {1_unitName} on päättänyt työskentelynsä kuuntelupisteessä {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_LISTENING_POST_MESSAGE">
+      <Text>Valvontaposteja tarkistettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_SUMMARY">
+      <Text>Asiakkaanne edustaja {1_unitName} on paennut kaupungista {2_CityName}, koska uusi imperiumi on ottanut vallan siellä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_MESSAGE">
+      <Text>Vakooja pakenee kaupungista</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_ALLIANCE_SUMMARY">
+      <Text>Asiakkaanne {1_unitName} on poistunut kaupungista {2_CityName} uuden liittoutumisen ehtojen kunnioittamiseksi sen omistajan kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_ALLIANCE_MESSAGE">
+      <Text>Vakoilu poistuu kaupungista</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_FAILED_SUMMARY">
+      <Text>Agenttisi {1_unitName} epäonnistui {2_mission} tehtävässä kaupungissa {3_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_FAILED_MESSAGE">
+      <Text>Vakoilu epäonnistui</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CAPTURED_SUMMARY">
+      <Text>Agenttisi {1_unitName} on saatu kiinni tehtävän {2_mission} aikana kaupungissa {3_cityName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CAPTURED_MESSAGE">
+      <Text>Vakooja on saatu kiinni</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_CAPTURED_SUMMARY">
+      <Text>Vakoilija {1_civName}ista jäi kiinni {2_mission} tehtävän aikana {3_cityName}in kaupungissa!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_CAPTURED_MESSAGE">
+      <Text>Vihollisvakooja on saatu kiinni</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_KILLED_SUMMARY">
+      <Text>Agenttisi {1_unitName} kuoli {2_mission} tehtävän aikana kaupungissa {3_cityName}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_KILLED_MESSAGE">
+      <Text>Vakooja tapettiin</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_KILLED_SUMMARY">
+      <Text>Vakoiluoperaatiossa kaupungissa {3_cityName} {1_civName} vakooja kuoli {2_mission} tehtävän aikana. {4_CounterspyAssist}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_KILLED_MESSAGE">
+      <Text>Vihollisen vakooja tapettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_TO_CAPITAL">
+      <Text>Vakoilijasi {1_unitName} on keskeyttänyt matkansa, koska kohdekaupunki vaihtoi omistajaa. Voit löytää heidät pääkaupungistasi.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_SUMMARY">
+      <Text>Agenttisi {1_unitName} keskeytti {2_mission} tehtävän kaupungissa {3_cityName}. Tehtävän kohde ei enää ole voimassa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_MESSAGE">
+      <Text>Vakoilutehtävä keskeytetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_PROMOTED_SUMMARY">
+      <Text>Tehtävässä {1_mission} kaupungissa {2_cityName} vihollisen pysäyttämisessä suoritettu roolisi ansiosta vakoilijasi {3_unitName} on ylennetty!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_PROMOTED_MESSAGE">
+      <Text>Vastavakoilu ylennetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_ASSIST">
+      <Text>Teidän vastavakoiluyksikkönne {1_unitName} oli ratkaisevan tärkeä voiton saavuttamisessa turvallisuusjoukkojemme puolesta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ESCAPED_CAPTURE_SUMMARY">
+      <Text>Teidän vakoojanne {1_unitName} on välttänyt kiinnijäämisen ja palaa [ICON_Capital] pääkaupunkiinne {2_turns} kierroksen kuluttua.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ESCAPED_CAPTURE_MESSAGE">
+      <Text>Vakoilu karkasi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_ESCAPED_CAPTURE_SUMMARY">
+      <Text>Tuntemattomasta sivistyksestä vihollinen vakooja on onnistunut välttämään kiinnioton ja paennut kaupungistanne {1_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_ESCAPED_CAPTURE_MESSAGE">
+      <Text>Vihollisvakooja pakeni</Text>
+    </Row>
+    <!-- City-State Notifications -->
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_GIVEN_MESSAGE">
+      <Text>Uusi kaupunkivaltio-tehtävä</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_GIVEN_SUMMARY">
+      <Text>{1_CityStateName} on antanut sinulle uuden tehtävän: {2_QuestName}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_COMPLETED_MESSAGE">
+      <Text>Kaupunkivaltio-tehtävä suoritettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_COMPLETED_SUMMARY">
+      <Text>Olet suorittanut tehtävän {1_CityStateName} puolesta ja ansainnut palkinnon: {2_RewardText}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_MET_FIRST_MESSAGE">
+      <Text>Kaupunki-valtion kokousbonus</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_MET_FIRST_SUMMARY">
+      <Text>Koska olette ensimmäinen suuri sivilisaatio, joka kohtaa {1_CityStateName}, olette ansainneet {2_NumEnvoys} [ICON_Envoy] {2_NumEnvoys : plural 1?lähettilään; other?lähettilää.} siellä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_USURPED_MESSAGE">
+      <Text>Suzeraanin asema menetetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_USURPED_SUMMARY">
+      <Text>[ICON_Envoy] Lähettiläiden vaihdoksen jälkeen et enää ole {1_CityStateName}:n suurherra.</Text>
+    </Row>
+    <!-- Trade Route Notifications -->
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_MESSAGE">
+      <Text>Kauppareitti ryövättiin</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_SUMMARY_NO_ROUTE">
+      <Text>{1_PlayerName} otti saaliikseen sinun kauppiaasi.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_SUMMARY_ACTIVE_ROUTE">
+      <Text>{1_PlayerName} ryösti kauppiaasi. [ICON_TradeRoute] Kauppasi reitti kaupungista {2_OriginCityName} kaupunkiin {3_DestinationCityName} ei ole enää aktiivinen.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADING_POST_CREATED_MESSAGE">
+      <Text>Kauppapaikka luotu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADING_POST_CREATED_SUMMARY">
+      <Text>[ICON_TradeRoute] Kauppareitin suorittaminen loi [ICON_TradingPost] kauppapaikan sinulle kaupunkiin {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_CAPACITY_INCREASED_MESSAGE">
+      <Text>Lisääntynyt kauppareitin kapasiteetti</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_CAPACITY_INCREASED_SUMMARY">
+      <Text>Nyt voit luoda ja ylläpitää enemmän [ICON_TradeRoute] kauppareittejä kuin aiemmin.</Text>
+    </Row>
+    <!-- Economic Notifications -->
+    <Row Tag="LOC_NOTIFICATION_REBELLION_MESSAGE">
+      <Text>Kapina!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_REBELLION_SUMMARY">
+      <Text>[ICON_Amenities] Palveluiden puute {1_CityName} kaupungissa on saanut ihmiset ryhtymään aseelliseen vastarintaan meitä vastaan, synnyttäen {2_NumUnits} vihamielistä yksikköä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOW_AMENITIES_MESSAGE">
+      <Text>Tarvitaan lisää mukavuuksia</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOW_AMENITIES_SUMMARY">
+      <Text>{1_CityName} tarvitsee enemmän [ICON_Amenities] palveluita pysyäkseen tuottavana. Jos tilanne pahenee, ihmiset saattavat nousta kapinaan meitä vastaan!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOUSING_PREVENTING_GROWTH_MESSAGE">
+      <Text>Tarvitaan lisää asuntoja</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOUSING_PREVENTING_GROWTH_SUMMARY">
+      <Text>{1_CityName} tarvitsee lisää [ICON_Housing] asuntoja kasvaakseen. Jos tämä jatkuu, meillä tulee olemaan vaikeuksia saada uusia [ICON_Citizen] kansalaisia.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_STARVING_MESSAGE">
+      <Text>Kaupunki näkee nälkää!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_STARVING_SUMMARY">
+      <Text>{1_CityName} ei tarjoa tarpeeksi [ICON_Food] ruokaa kansansa syötäväksi. Jos tämä jatkuu, se menettää [ICON_Citizen] kansalaista!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_FOOD_FOCUS_MESSAGE">
+      <Text>Kaupunki tarvitsee ruokaa</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_FOOD_FOCUS_SUMMARY">
+      <Text>{1_CityName} ei tarjoa tarpeeksi [ICON_Food] ruokaa sen asukkaille kasvamiseen. Harkitse kaupunkisi keskittämistä [ICON_Food] ruokaan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURY_BANKRUPT_MESSAGE">
+      <Text>Talousarvio Konkurssissa!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURY_BANKRUPT_SUMMARY">
+      <Text>Meillä ei ole enää [ICON_Gold] Kultaa, ja kulumme ovat korkeammat kuin tulomme. Jos tämä jatkuu, kaupunkimme menettävät [ICON_Amenities] Palveluja ja yksikkömme hylkäävät meidät!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAN_PURCHASE_WITH_FAITH_MESSAGE">
+      <Text>Voi ostaa uskolla</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAN_PURCHASE_WITH_FAITH_SUMMARY">
+      <Text>Olet kerännyt tarpeeksi [ICON_Faith] uskoa ostamaan {LOC_GRAMMAR_A_AN &lt;&lt; {1_ItemName}}.</Text>
+    </Row>
+    <!-- Multiplayer Notifications -->
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTING">
+      <Text>{1_playerName} liittyy mukaan</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTING_TT">
+      <Text>{1_playerName} liittyy peliin. Tämä prosessi saattaa kestää muutaman minuutin.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTED">
+      <Text>{1_playerName} liittyi mukaan</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTED_TT">
+      <Text>{1_playerName} on liittynyt peliin valmiiksi.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DISCONNECT">
+      <Text>{1_playerName} katkaisi yhteyden</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DISCONNECT_TT">
+      <Text>{1_playerName} on katkaissut yhteyden pelistä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_KICKED">
+      <Text>{1_playerName} Potkaisi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_KICKED_TT">
+      <Text>{1_playerName} on potkittu pelistä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MOD_STATUS">
+      <Text>{1_playerName} lataa modeja</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MOD_STATUS_TT">
+      <Text>{1_playerName} lataa modaustiedostoja, jotka vaaditaan tämän pelin pelaamiseen. ({2 : number}/{3 : number} yhteensä)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_MIGRATION">
+      <Text>Isäntäsiirto</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_MIGRATION_TT">
+      <Text>Peli siirtyy uudelle pelipalvelimelle. Peli jatkuu pian.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_CHANGED">
+      <Text>Isäntä siirretty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_CHANGED_TT">
+      <Text>{1_playerName} on uusi pelin isäntä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_YOURTURN">
+      <Text>Sinun vuorosi - pelaa pilvessä</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_YOURTURN_TT">
+      <Text>On sinun vuorosi Pilvipeleissä. ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_GAMEREADY">
+      <Text>Valmis peli pilvipelaamiseen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_GAMEREADY_TT">
+      <Text>Yksi Play By Cloud -peleistäsi on valmis aloitettavaksi. ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_UNSEENCOMPLETE">
+      <Text>Pilvessä pelattu peli valmis</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_UNSEENCOMPLETE_TT">
+      <Text>Yksi Play By Cloud -peleistäsi on äskettäin päättynyt. ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WRONG_PHASE_TT">
+      <Text>[color:Civ6Red]Väärä vaihe[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SIMULTANEOUS_TURNS">
+      <Text>Samanaikaiset vuorot</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SIMULTANEOUS_TURNS_TT">
+      <Text>Sinun taistelusi ihmispelaajan kanssa on päättynyt. Kääntesi pelataan samanaikaisesti kaikkien sotimattomien sivilisaatioiden kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SEQUENTIAL_TURNS">
+      <Text>Peräkkäiset vuorot</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SEQUENTIAL_TURNS_TT">
+      <Text>Olet sotatilassa ihmispelaajan kanssa. Sinun vuorosi pelataan peräkkäin kaikkien sotivien sivilisaatioiden kanssa, kunnes konflikti on ohi.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DESYNCED">
+      <Text>{1_playerName} menetti synkronoinnin</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DESYNCED_TT">
+      <Text>{1_playerName}:n peli on poikennut isännän pelistä. He lataavat uudelleen korjatakseen ongelman.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESYNC_COMPLETE">
+      <Text>{1_playerName} Synkronointi valmis</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESYNC_COMPLETE_TT">
+      <Text>{1_playerName} on valmis lataamaan.</Text>
+    </Row>
+    <!-- Multiplayer deferred popup notifications -->
+    <Row Tag="LOC_NOTIFICATION_TECH_BOOST_MESSAGE">
+      <Text>Teknologia-avanssi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_BOOST_SUMMARY">
+      <Text>Tech Boosted: {1_Name}! 
+
+(Tech Boostattu: {1_Name}!)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_BOOST_MESSAGE">
+      <Text>Kansalaisen tukeminen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_BOOST_SUMMARY">
+      <Text>Civic Boosted: {1_Name}! 
+
+Civic Boosted: {1_Nimi}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_DISCOVERED_MESSAGE">
+      <Text>Löysin {1_Name}in</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_DISCOVERED_SUMMARY">
+      <Text>Olet löytänyt {1_Name}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_DISCOVERED_MESSAGE">
+      <Text>Löydetty {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_DISCOVERED_SUMMARY">
+      <Text>Olet löytänyt {1_Name}!</Text>
+    </Row>
+    <!-- Great Work Notifications -->
+    <Row Tag="LOC_NOTIFICATION_RELIC_CREATED_MESSAGE">
+      <Text>Esine luotu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RELIC_CREATED_SUMMARY">
+      <Text>[ICON_GreatWork_Relic] Pyhä reliikki {1_RelicName} on sijoitettu {2_BuildingName} rakennukseen {3_CityName} kaupungissa.</Text>
+    </Row>
+    <!-- Discovery Notifications -->
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_CONTINENT_MESSAGE">
+      <Text>Uusi maanosa löydetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_CONTINENT_SUMMARY">
+      <Text>Olemme löytäneet uuden mantereen. Tutkimusmatkailijamme nimittää sen {1_ContinentName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_MESSAGE">
+      <Text>Heimojen kylä löydetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_SUMMARY">
+      <Text>Olet löytänyt kylän, jota asuttaa ystävällinen heimo.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_NATURAL_WONDER_MESSAGE">
+      <Text>Luonnonihme löydetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_NATURAL_WONDER_SUMMARY">
+      <Text>Teidän tutkimusmatkailijanne ovat löytäneet luonnonihmeen {1_NaturalWonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_RESOURCE_MESSAGE">
+      <Text>Löydetty resurssi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_RESOURCE_SUMMARY">
+      <Text>Olemme löytäneet uuden {1_ResourceName} lähteen.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_MESSAGE">
+      <Text>Barbaarit lähestyvät</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_SUMMARY">
+      <Text>Olemme havainneet barbaarien lähestyvän kaupunkiamme {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_MESSAGE">
+      <Text>Uusi barbaarileiri</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_SUMMARY">
+      <Text>Olemme saaneet huhuja, että uusi heimo barbaareja on muuttanut läheiselle alueelle.</Text>
+    </Row>
+    <!-- Victory Notifications -->
+    <Row Tag="LOC_NOTIFICATION_MY_DOMINANT_CULTURE_MESSAGE">
+      <Text>Kulttuurisi vallitseva</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_DOMINANT_CULTURE_SUMMARY">
+      <Text>Olet houkutellut tarpeeksi [ICON_Tourism] turisteja saadaksesi kulttuurisi vallitsemaan yli {1_CivName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_DOMINANT_CULTURE_MESSAGE">
+      <Text>Ulkomainen kulttuuri hallitseva</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_DOMINANT_CULTURE_SUMMARY">
+      <Text>{1_CivName} on houkutellut tarpeeksi [ICON_Tourism] turisteja, jotta heidän kulttuurinsa on hallitseva sinun kulttuurisi yli.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_CULTURE_VICTORY_SOON_MESSAGE">
+      <Text>Kulttuurivoittosi on lähellä</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_CULTURE_VICTORY_SOON_SUMMARY">
+      <Text>Sinun kulttuurisi on tullut hallitsevaksi kaikkien paitsi yhden ulkomaisen sivilisaation yli. Kulttuurivoitto on saavutettavissa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_CULTURE_VICTORY_SOON_MESSAGE">
+      <Text>Vieraskulttuurin voitto on lähellä</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_CULTURE_VICTORY_SOON_SUMMARY">
+      <Text>{1_CivName} tarvitsee vain kulttuurinsa vallitsevuutta yhden pelaajan yli saavuttaakseen Kulttuurivoiton.</Text>
+    </Row>
+    <!--Future Notifications (not yet implemented)-->
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_AVAILABLE_MESSAGE">
+      <Text>Uusi Casus Belli saatavilla</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_AVAILABLE_SUMMARY">
+      <Text>Meillä on nyt perustelu julistaa {1_WarType} {2_CivName} vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGED_ATTACK_MESSAGE">
+      <Text>Kaupunkialueen hyökkäys</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGED_ATTACK_SUMMARY">
+      <Text>{1_CityName}in kaupunki voi iskeä vihollisjoukkoja vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENCAMPMENT_RANGED_ATTACK_MESSAGE">
+      <Text>Leirintäaluealueen hyökkäys</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENCAMPMENT_RANGED_ATTACK_SUMMARY">
+      <Text>{1_CityName}in ulkopuolinen leiri voi iskeä vihollisvoimiin.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUKE_DROPPED_MESSAGE">
+      <Text>Ydinlaitteen räjäytys</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUKE_DROPPED_SUMMARY">
+      <Text>Ydinlaite on räjäytetty {1_CivName} toimesta {2_CityName} kaupungin lähellä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_THERMONUKE_DROPPED_MESSAGE">
+      <Text>Termonukleaarinen laite räjäytetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_THERMONUKE_DROPPED_SUMMARY">
+      <Text>{1_CivName} on räjäyttänyt hävittävän termoydinlaitteen {2_CityName} kaupungin lähellä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEW_AGENT_MESSAGE">
+      <Text>Voiko junassa vakoilla?</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEW_AGENT_SUMMARY">
+      <Text>Voit nyt kouluttaa yhden lisävakoojan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_CAPTURED_MESSAGE">
+      <Text>Yksikkö vangittu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_CAPTURED_SUMMARY">
+      <Text>Sinun {1_UnitType} vangittiin {3_CivName} {2_EnemyUnitType}:n toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_ATTACKED_MESSAGE">
+      <Text>Yksikkö hyökkäsi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_ATTACKED_SUMMARY">
+      <Text>Sinun {1_UnitType}ia hyökättiin {2_CivName}:n toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_MESSAGE">
+      <Text>Ihme Valmis</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_SUMMARY">
+      <Text>{1_CivName} on valmistanut maailman ihmeen {2_WonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_HOTSEAT_CURRENT_PLAYER_SUMMARY">
+      <Text>Olet saattanut valmiiksi maailman ihmeen {1_WonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_UNMET_PLAYER_SUMMARY">
+      <Text>Kohtaamaton pelaaja on valmistunut rakentamaan maailman ihmeen {1_WonderName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_FAILED_MESSAGE">
+      <Text>Tuotanto pelastettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_FAILED_SUMMARY">
+      <Text>Et onnistunut valmistamaan maailman ihmettä {1_WonderName} ajoissa. Kuitenkin {2_Production} [ICON_Production] tuotanto on pelastettu yrityksestä ja myönnetty kaupungille {3_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOST_MESSAGE">
+      <Text>Kaupunki vangittiin</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOST_SUMMARY">
+      <Text>{1_CityName}in kaupunki on vallattu {2_CivName} toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_WALLS_BREACHED_MESSAGE">
+      <Text>Kaupungin muurit murrettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_WALLS_BREACHED_SUMMARY">
+      <Text>{1_CityName} kaupungin muurit on murrettu {2_CivName} voimien toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_LOST_MESSAGE">
+      <Text>Pääkaupunki vangittiin</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_LOST_SUMMARY">
+      <Text>{2_CivName} on vallannut {1_CivName} [ICON_Capital] pääkaupungin!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_RECLAIMED_MESSAGE">
+      <Text>Pääoma palautettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_RECLAIMED_SUMMARY">
+      <Text>{1_CivName} on ottanut pääkaupunkinsa takaisin.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENEMY_IN_TERRITORY_MESSAGE">
+      <Text>Vihollinen rajojen sisällä</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENEMY_IN_TERRITORY_SUMMARY">
+      <Text>Vihollisjoukkoja on havaittu meidän rajojen sisällä lähellä kaupunkia {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_ANTIQUITY_SITE_MESSAGE">
+      <Text>Antiikin aikainen paikka löydetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_ANTIQUITY_SITE_SUMMARY">
+      <Text>Olet löytänyt uuden antiikin kohteen. Lähetä arkeologi noutamaan esine.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_SHIPWRECK_MESSAGE">
+      <Text>Laivaonnettomuus löydetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_SHIPWRECK_SUMMARY">
+      <Text>Olet löytänyt muinaisen laivanhylkyjen paikan. Kun olet saavuttanut Kulttuuriperintö-kansalaisuuden, lähetä arkeologi nostamaan uponnut artefakti.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_COUNTERDEAL_RECEIVED_MESSAGE">
+      <Text>Vastaehdotus vastaanotettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_COUNTERDEAL_RECEIVED_SUMMARY">
+      <Text>{1_CivName} on lähettänyt vastatarjouksen kauppaneuvotteluihin.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_RECEIVED_MESSAGE">
+      <Text>Ehdotus tarjolla</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_RECEIVED_SUMMARY">
+      <Text>Olet vastaanottanut tarjouksen {1_CivName}-nimeltä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_AI_EXPIRED_MESSAGE">
+      <Text>Sinun vanhentumisesi ilmoitetaan</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_AI_EXPIRED_SUMMARY">
+      <Text>{1_CivName}:n tekemä syytös sinua vastaan on vanhentunut. Heidän täytyy antaa se uudelleen, mikäli he haluavat julistaa sinulle virallisesti sodan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_HUMAN_EXPIRED_MESSAGE">
+      <Text>Ilmoituksesi on vanhentunut</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_HUMAN_EXPIRED_SUMMARY">
+      <Text>Sinun tuomitsemisesi {1_CivName} on vanhentunut ja se tulee uusia, mikäli haluat virallisesti julistaa sodan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_KEPT_MESSAGE">
+      <Text>Lupaus täytetty sinulle</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_KEPT_SUMMARY">
+      <Text>Lupaus, jonka {1_CivName} antoi sinulle {2_PromiseType} on täytetty.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_KEPT_MESSAGE">
+      <Text>Lupauksesi täytetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_KEPT_SUMMARY">
+      <Text>Lupauksesi {1_CivName}-heimolle {2_PromiseType}-asi on täytetty.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_BROKEN_MESSAGE">
+      <Text>Lupaus rikottu sinulle</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_BROKEN_SUMMARY">
+      <Text>{1_CivName} tekemä lupaus {2_PromiseType} on rikottu.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_BROKEN_MESSAGE">
+      <Text>Lupauksesi petetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_BROKEN_SUMMARY">
+      <Text>Lupauksesi {1_CivName}-kansalle {2_PromiseType} on rikottu.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_ARTIFACTS">
+      <Text>Lopeta esi-isiemme esineiden kaivaminen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_ON_BORDER">
+      <Text>Siirrä joukot rajalle</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_RELIGIOUS">
+      <Text>Lopeta kaupunkien muuttaminen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_SETTLING">
+      <Text>Lopeta asettuminen läheisyyteen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_SPYING">
+      <Text>Lopeta vakoilu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_EXPIRED_MESSAGE">
+      <Text>Tarjous vanhentunut</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_EXPIRED_SUMMARY">
+      <Text>Sopimus, jonka teit {1_CivName} kanssa, on vanhentunut.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISTRICT_PILLAGED_MESSAGE">
+      <Text>Alue ryöstetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISTRICT_PILLAGED_SUMMARY">
+      <Text>Sinun {1_DistrictName} sijaitseva kaupunginosasi {2_CityName} on ryöstetty {3_CivName}:n toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_IMPROVEMENT_PILLAGED_MESSAGE">
+      <Text>Parannus ryöstetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_IMPROVEMENT_PILLAGED_SUMMARY">
+      <Text>Sinun {1_ImprovementName} {2_CityName} on ryöstetty {3_CivName}:n toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_MESSAGE">
+      <Text>Rakennus ryöstetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_SUMMARY">
+      <Text>Teidän {1_BuildingName} sijaitseva {2_CityName} on ryöstetty {3_CivName} toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROUTE_PILLAGED_MESSAGE">
+      <Text>Tie ryöstetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROUTE_PILLAGED_SUMMARY">
+      <Text>{3_CivName} on ryöstänyt tiilen {1_RoadName} lähellä {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESURRECTED_MESSAGE">
+      <Text>Pelaaja herätetty henkiin</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESURRECTED_SUMMARY">
+      <Text>{1_civName} on saanut kaupunkinsa takaisin ja on jälleen elossa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_ELIMINATED_MESSAGE">
+      <Text>Pelaaja poistettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_ELIMINATED_SUMMARY">
+      <Text>{1_civName} on eliminoinut.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROADS_UPGRADED_MESSAGE">
+      <Text>Tiet päivitetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROADS_UPGRADED_SUMMARY">
+      <Text>{1_RoadName} on avattu, mikä päivittää kaikki tiet alueellasi ({2_MovementCost} [ICON_Movement] liikkumiskustannus {2_MovementCost: plural 1?piste; other?pistettä;}) riippumatta maastosta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_RELIGIOUS_UNIT_MESSAGE">
+      <Text>Ensimmäinen uskonnollinen yksikkö</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_RELIGIOUS_UNIT_SUMMARY">
+      <Text>Johtuen kansasi innostuksesta uuden uskonnon perustamisessa, olet saanut ensimmäisen {1_UnitName} ilmaiseksi. Käytä [ICON_Faith] Uskoa ostamaan tulevia yksiköitä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_ESPIONAGE_UNIT_MESSAGE">
+      <Text>Ensimmäinen vakooja</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_ESPIONAGE_UNIT_SUMMARY">
+      <Text>Johtuen uudesta vakoiluverkostasi, olet saanut ensimmäisen {1_UnitName} ilmaiseksi. Kun saat kyvyn rakentaa lisää, kouluta niitä kaupungeissasi.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BESIEGED_BY_OTHER_PLAYER_MESSAGE">
+      <Text>Kaupunki piiritetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BESIEGED_BY_OTHER_PLAYER_SUMMARY">
+      <Text>{1_CityName} on piiritetty. Siihen asti kun vastustajien yksiköt eivät hallitse kaikkia kaupunkisi ympärillä olevia heksejä, se ei parane.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TILE_LOST_CULTURE_BOMB_MESSAGE">
+      <Text>Menetetty alue</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TILE_LOST_CULTURE_BOMB_SUMMARY">
+      <Text>Olemme menettäneet aluetta, jonka {1_CivName} aiheutti kulttuuripommilla.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_FORCED_REBASE_MESSAGE">
+      <Text>Lentokoneen pakollinen uudelleensijoitus</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_FORCED_REBASE_SUMMARY">
+      <Text>{1_AirUnit} sijainti on paljastunut ja se on joutunut uudelleensijoittamaan tukikohdan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_BASE_OVERRUN_MESSAGE">
+      <Text>Tukikohta valloitettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_BASE_OVERRUN_SUMMARY">
+      <Text>{1_AirUnit} ei kyennyt siirtymään uudelle tukikohdalle ja se on tuhoutunut.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

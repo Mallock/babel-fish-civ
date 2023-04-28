@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <BaseGameText>
+    <!-- Mods Section -->
+    <Row Tag="LOC_MODS_TITLE">
+      <Text>LISÄSISÄLTÖ</Text>
+    </Row>
+    <Row Tag="LOC_MODS_INSTALLED">
+      <Text>ASENNETTU</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SUBSCRIPTIONS">
+      <Text>TILAAJUUDET</Text>
+    </Row>
+    <Row Tag="LOC_MODS_BROWSE_WORKSHOP">
+      <Text>SELAA TYÖPAJAA</Text>
+    </Row>
+    <Row Tag="LOC_MODS_WORLD_BUILDER">
+      <Text>MAAILMANRAKENTAJA</Text>
+    </Row>
+    <Row Tag="LOC_MODS_NONE_INSTALLED">
+      <Text>Ei ole asennettu yhtään modeja.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_NONE_SELECTED">
+      <Text>Valitse vasemmalla olevasta modista nähdäksesi yksityiskohdat.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_NO_SUBSCRIPTIONS">
+      <Text>Ei ole tilauksia.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SUBSCRIPTION_DOWNLOAD_INSTALLED">
+      <Text>Asennettu</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SUBSCRIPTION_DOWNLOAD_PENDING">
+      <Text>Lataus odottaa...</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SUBSCRIPTION_SUBSCRIBED">
+      <Text>Tilattu (mutta ei ladattu)</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SUBSCRIPTION_DOWNLOADING">
+      <Text>Ladataan... ({1 : number}/{2 : number} kokonaismäärä)</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ENABLE_MOD">
+      <Text>Ota Mod käyttöön</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DOWNLOADING">
+      <Text>Ladataan kohdetta...</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SUBSCRIPTION_NAME_PENDING">
+      <Text>Haetaan tilauksen nimeä...</Text>
+    </Row>
+    <Row Tag="LOC_MODS_UPDATE">
+      <Text>Päivitys</Text>
+    </Row>
+    <Row Tag="LOC_MODS_VIEW">
+      <Text>Näkymä</Text>
+    </Row>
+    <Row Tag="LOC_MODS_UNSUBSCRIBE">
+      <Text>Peruuta tilaus</Text>
+    </Row>
+    <Row Tag="LOC_MODS_GROUP_DEFAULT_NAME">
+      <Text>Oletus</Text>
+    </Row>
+    <Row Tag="LOC_MODS_GROUP_ADD_NAME">
+      <Text>+</Text>
+    </Row>
+    <Row Tag="LOC_MODS_GROUP_ADD_DESCRIPTION">
+      <Text>Luo uusi Modit-ryhmä. Ryhmiä voidaan käyttää nopeasti vaihtamaan käytössä olevia moderaattoreita.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_GROUP_DELETE_NAME">
+      <Text>-</Text>
+    </Row>
+    <Row Tag="LOC_MODS_GROUP_ENTER_NAME">
+      <Text>Syötä uuden modiryhmän nimi.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_GROUP_DELETE_DESCRIPTION">
+      <Text>Poista parhaillaan valittu Mod-ryhmä. Tämä ei poista modeja, vain ryhmän. Oletusryhmää ei voi poistaa.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SEARCH_NAME">
+      <Text>Hae...</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SEARCH_DESCRIPTION">
+      <Text>Etsi sisältöä otsikon ja tiiserin perusteella.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SORTBY">
+      <Text>Lajittele:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SORTBY_NAME">
+      <Text>Lajittele nimen mukaan</Text>
+    </Row>
+    <Row Tag="LOC_MODS_SORTBY_ENABLED">
+      <Text>Lajittele: Käytössä</Text>
+    </Row>
+    <Row Tag="LOC_MODS_LAST_UPDATED">
+      <Text>Viimeksi päivitetty: {1_Time: datetime}</Text>
+    </Row>
+    <Row Tag="LOC_MODS_FILTER">
+      <Text>Suodatin</Text>
+    </Row>
+    <Row Tag="LOC_MODS_FIRAXIAN_CONTENT">
+      <Text>Virallinen sisältö</Text>
+    </Row>
+    <Row Tag="LOC_MODS_USER_CONTENT">
+      <Text>Yhteisön luoma sisältö</Text>
+    </Row>
+    <Row Tag="LOC_MODS_WORLDBUILDER_CONTENT">
+      <Text>WorldBuilder Kartta</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ENABLE_ALL">
+      <Text>Ota kaikki käyttöön</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DISABLE_ALL">
+      <Text>Poista käytöstä kaikki</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ENABLE">
+      <Text>Ota käyttöön</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ENABLED">
+      <Text>Ovat käytössä</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ENABLE_INCLUDE">
+      <Text>Tämän käyttöönotto mahdollistaa myös seuraavan:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ENABLE_ERROR">
+      <Text>Ei voi aktivoida seuraavien syiden takia:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DISABLE">
+      <Text>Poista käytöstä</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DISABLED">
+      <Text>Vammainen</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DISABLE_ERROR">
+      <Text>Ei voi poistaa seuraavasta syystä:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DISABLE_ERROR_DEPENDS">
+      <Text>Ei voida poistaa, koska seuraavat modit riippuvat tästä:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_YES">
+      <Text>Kyllä</Text>
+    </Row>
+    <Row Tag="LOC_MODS_NO">
+      <Text>Okay</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_VERSION">
+      <Text>Versio:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_AUTHOR">
+      <Text>Tekijä(t):</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_SPECIAL_THANKS">
+      <Text>Erityiskiitokset:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_DLC_STORE">
+      <Text>Klikkaa tästä vieraillaksesi kauppasivulla.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_SINGLEPLAYER">
+      <Text>Yksinpeli?</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_MULTIPLAYER">
+      <Text>Moninpeli?</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_CREATED">
+      <Text>Luotu:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_AFFECTS_SAVED_GAMES">
+      <Text>Vaikuttaa tallennettuihin peleihin:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_OWNERSHIP">
+      <Text>Omistus:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_TAGS">
+      <Text>Avainsanat:</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_OWNERSHIP_YES">
+      <Text>Omistettu</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_OWNERSHIP_NO">
+      <Text>Ei omistettu</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_COMPATIBLE_NOT">
+      <Text>Ei yhteensopiva</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_DESCRIPTION">
+      <Text>Kuvaus</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_REFERENCES">
+      <Text>Viitteet</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_REFERENCES_DEPENDENCY">
+      <Text>Riippuu tilanteesta</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_REFERENCES_REFERENCE">
+      <Text>Viittaukset</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_REFERENCES_BLOCK">
+      <Text>Lohkot</Text>
+    </Row>
+    <Row Tag="LOC_MODS_EXCLUSIVE">
+      <Text>Tämä on eksklusiivinen muokkaus.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_PARTIALLY_EXCLUSIVE">
+      <Text>Tämä on osittain yksinoikeudella oleva mod.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ERROR_SAVE_INCOMPATIBLE_MODS">
+      <Text>Tällä hetkellä käytössä olevat modit eivät ole yhteensopivia tämän tallennetun pelin kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ERROR_SAVE_MISSING_MODS">
+      <Text>Kaikkia tarvittavia modeja ei ole asennettu.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ERROR_MOD_VERSION_ALREADY_ENABLED">
+      <Text>Toinen versio tästä modista on jo käytössä.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ERROR_MOD_BLOCKED_BY_OTHER_MOD">
+      <Text>Moderaattori on estetty toisen moderaattorin toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ERROR_MOD_MISSING_DEPENDENCIES">
+      <Text>Modilla puuttuu tarvittavat riippuvuudet.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ERROR_MOD_HAS_EXCLUSIVITY_CONFLICTS">
+      <Text>Moderaattori on estetty yksinoikeuden vuoksi.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ERROR_BAD_GAMEVERSION">
+      <Text>Tämä pelin versio ei ole yhteensopiva tämän modin kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_AUTHORS_FIRAXIS">
+      <Text>Firaxis</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ENABLE_WARNING_NOT_COMPATIBLE">
+      <Text>This mod has not been marked as compatible with this game version.  Would you like to continue?</Text>
+    </Row>
+    <Row Tag="LOC_MODS_ENABLE_WARNING_NOT_COMPATIBLE_MANY">
+      <Text>Yksi tai useampi modi ei ole merkitty yhteensopivaksi tämän peliversion kanssa. Haluatko jatkaa?</Text>
+    </Row>
+    <Row Tag="LOC_MODS_WARNING_WHITELIST">
+      <Text>Ohita tämä varoitus tämän modin kohdalla.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_WARNING_WHITELIST_MANY">
+      <Text>Ohita tämä varoitus näille modeille.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_COMPATIBILITY_WHITELIST_PROMPT">
+      <Text>Älä välitä yhteensopivuusvaroituksista tämän modin kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_MODS_DETAILS_NOT_COMPATIBLE_WARNING">
+      <Text>[COLOR_RED]Tämä modi ei ole merkinnyt itseään yhteensopivaksi nykyisen peliversioon kanssa.[ENDCOLOR]</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

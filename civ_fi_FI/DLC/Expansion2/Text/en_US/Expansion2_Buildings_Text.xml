@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!--New for XP2-->
+    <Row Tag="LOC_BUILDING_FLOOD_BARRIER_NAME">
+      <Text>Tulvaportti</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FLOOD_BARRIER_DESCRIPTION">
+      <Text>Suojaa tämän kaupungin rannikkotasankoja tulvilta. Alkuperäinen rakennuskustannus ja ylläpitokulut vaihtelevat sen mukaan, kuinka monta rannikkotasankoa kaupungissa on ja mikä on nykyinen meren taso. Jos rakennus on rakennettu sen jälkeen, kun osa kaupungin laatoista on jo tulvinut, nämä laatat voidaan korjata täysin. Upotetut laatat eivät kuitenkaan ole koskaan palautettavissa.[NEWLINE][NEWLINE]On rakennettava kaupunkiin, jossa on yksi tai useampi rannikkotasanko. Sitä ei hävitetä, jos kaupunki vangitaan.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FLOOD_BARRIER_ALT_DESCRIPTION">
+      <Text>Suojaa tämän kaupungin rannikon matalia maita tulvilta. Alustava rakennuskustannus ja ylläpitokustannus ovat muuttuvia, ja ne perustuvat kaupungin rannikon matalien alueiden määrään ja nykyiseen merenpinnan tasoon. Jos rakennus toteutetaan sen jälkeen, kun kaupungin joitakin alueita on jo tulvinnut, nuo alueet voidaan korjata täysin. Upotetut alueet eivät kuitenkaan ole palautettavissa.[NEWLINE][NEWLINE]On rakennettava kaupunkiin, jossa on yksi tai useampi rannikon matala alue. Rakennus ei tuhoudukaan, vaikka kaupunki vallattaisiin. Sotilasinsinöörit voivat käyttää yhden latauksen, jotta tulvavalli rakentuu 20% nopeammin.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HYDROELECTRIC_DAM_NAME">
+      <Text>Vesivoimalaitos</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION">
+      <Text>Tarjoaa kaupungille +6 [ICON_Power] Tehoa uusiutuvista vesilähteistä.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_COAL_POWER_PLANT_NAME">
+      <Text>Hiilivoimala</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION">
+      <Text>Muuntaa automaattisesti minkä tahansa määrän [ICON_RESOURCE_COAL] hiiltä [ICON_Power] voimaksi kaupungeille kuuden ruudun säteellä, jotka tarvitsevat sitä joka vuoro, seuraavalla tavalla: [NEWLINE] [ICON_Bullet] 1 [ICON_RESOURCE_COAL] hiili [ICON_PowerRight] 4 [ICON_Power] voimaa [NEWLINE] [ICON_Bullet] Raskas CO2 ilmakehään</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME">
+      <Text>Öljyvoimala</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION">
+      <Text>Automatically converts any amount of [ICON_RESOURCE_OIL] Oil into [ICON_Power] Power for cities within 6 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_OIL] Oil [ICON_PowerRight] 4 [ICON_Power] Power[NEWLINE][ICON_Bullet]Moderate CO2 into the atmosphere[NEWLINE]Its [ICON_Production] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from a Power Plant building.</Text>
+    </Row>
+    <!--Wonders-->
+    <Row Tag="LOC_BUILDING_GREAT_BATH_NAME">
+      <Text>Suuri kylpylä</Text>
+      <Gender>Masculine:the</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION">
+      <Text>Joenuomien tulvatasangot, joilla Suuri Kylpy sijaitsee, ovat nyt immuuneja tulvavahingoille (vaikka tulvasta saadut [ICON_FOOD] ruoka- ja [ICON_PRODUCTION] tuotantobonukset vähenevät 50 %). Tämän kaupungin tulvatasangot saavat +1 [ICON_FAITH] uskoa jokaisesta kerrasta, kun tulvavaurioita lievennetään. [NEWLINE] [NEWLINE] On rakennettava tulvatasangolle.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MEENAKSHI_TEMPLE_NAME">
+      <Text>Meenakshi-temppeli</Text>
+      <Gender>Masculine:the</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_MEENAKSHI_TEMPLE_DESCRIPTION">
+      <Text>Antaa 2 Gurua. Gurujen ostohinta on 30 % edullisempi. Uskonnolliset yksiköt, jotka ovat vierekkäin Gurujen kanssa, saavat +5 [ICON_Religion] Uskonnollista voimaa teologisessa taistelussa ja +1 [ICON_Movement] Liikkumista. Pitää rakentaa Pyhän paikan viereen ja sinun täytyy perustaa uskonto.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_UNIVERSITY_SANKORE_NAME">
+      <Text>Sankoren yliopisto</Text>
+      <Gender>Masculine:the</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION">
+      <Text>Other Civilizations' [ICON_TradeRoute] Trade Routes to this city provide +1 [ICON_SCIENCE] Science and +1 [ICON_GOLD] Gold for them. +2 [ICON_SCIENCE] Science for every [ICON_TradeRoute] Trade Route to this city. Domestic [ICON_TradeRoute] Trade Routes give an additional +1 [ICON_FAITH] Faith to this city.[NEWLINE][NEWLINE]Must be built on the Desert or Desert Hills, and adjacent to a Campus district with a University.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_NAME">
+      <Text>Machu Picchu</Text>
+      <Gender>Masculine:no_article</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_DESCRIPTION">
+      <Text>Vuorilaatat tarjoavat standardin viereisyysbonuksen kauppa-alueelle, teatteriaukiolle ja teollisuusalueelle kaikissa kaupungeissa. [NEWLINE] [NEWLINE] On rakennettava vuorilaatalle, joka ei sisällä tulivuorta.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ORSZAGHAZ_NAME">
+      <Text>Parlamenttitalo</Text>
+      <Gender>Masculine:no_article</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION">
+      <Text>+100% [ICON_Favor] Diplomatiaedullisuutta vuorossa aloittamisesta kaupunkivaltion suvereenina. [NEWLINE][NEWLINE]On rakennettava joen varrelle.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PANAMA_CANAL_NAME">
+      <Text>Panaman kanava</Text>
+      <Gender>Masculine:the</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_PANAMA_CANAL_DESCRIPTION">
+      <Text>Suoritettuasi Panama-kanavan rakentamisen, automaattisesti rakennetaan yksi tai kaksi vierekkäistä kanalialuetta. Kanava-ihmeen kohdalta voivat nyt kulkea meriyksiköt. [ICON_TradeRoute] Reitit, jotka kulkevat sen läpi, voivat moninkertaistaa saamansa kultamäärän kohteen kaupunginosista saadusta [ICON_Gold] kullasta. [NEWLINE][NEWLINE]Kanava tulee rakentaa tasaiselle maanlaatuiselle laatalle, jossa on kaksi suoraan toisiaan vastapäätä olevaa vierekkäistä laattaa. Toisen viereisen laat an tulee olla yhdistettyyn kanava-alueeseen yhdistettävissä oleva laatta, kun taas toisen tulee olla joko kaupunki, vesilaatta tai toinen, joka voi yhdistää kanavan.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_NAME">
+      <Text>Kultaportin silta</Text>
+      <Gender>Masculine:the</Gender>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_DESCRIPTION">
+      <Text>Maayksiköt voivat ylittää sillan ilman tarvetta nousta laivoihin. Toimii modernina tienä ja luo modernit tiet (jos niitä ei ole) molemmille maapaloille sillan päissä. Kaupunki saa +3 [ICON_Amenities] hyvinvointipistettä. Kaikki kaupungin laattojen vetovoimaa lisätään +4. Parannuksista ja kansallispuistoista saa tässä kaupungissa +100% [ICON_Tourism] matkailua. [ICON_TradeRoute] Kauppareitit, jotka kulkevat sillan läpi, voivat moninkertaistaa [ICON_Gold] kultaa, jonka he saavat kohteena olevista kaupunginosista. [NEWLINE][NEWLINE] Sillan on oltava rakennettu rannalle. Sillan on kuljettava suoraan maapalan yli kahden maapalan välissä. Vasemmalla ja oikealla puolella sillaa on oltava vähintään yksi vesilaatta.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_JEBEL_BARKAL_EXPANSION2_DESCRIPTION">
+      <Text>Antaa 6 [ICON_RESOURCE_IRON] rautaa vuorossa. Antaa +4 [ICON_Faith] uskoa kaupungeillesi, jotka ovat 6 laatan säteellä. [NEWLINE][NEWLINE] Täytyy rakentaa autiomaan (vuoriston) maastolle.</Text>
+    </Row>
+    <!-- Other balance changes -->
+    <Row Tag="LOC_BUILDING_BIG_BEN_DESCRIPTION">
+      <Text>+1 Talouspolitiikan paikka. +50% [ICON_Gold] Kulta. [NEWLINE][NEWLINE]On rakennettava joen vieressä olevan Kauppakeskuksen kaupunginosan viereen, jossa on Pankki.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MAHABODHI_TEMPLE_EXPANSION2_DESCRIPTION">
+      <Text>+2 diplomaattista voittopistettä ja myöntää 2 apostolia rakennettaessa.[NEWLINE][NEWLINE]On rakennettava metsän viereen Pyhäkön kaupunginosassa, jossa on temppeli, ja sinun on perustettava uskonto.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_STATUE_LIBERTY_EXPANSION2_DESCRIPTION">
+      <Text>+4 diplomaattista voittopistettä rakennettaessa. Kaikki kaupunkisi 6 ruudun sisällä ovat aina 100% uskollisia. [NEWLINE][NEWLINE]On rakennettava rannikolle, maan vieressä ja satamakaupunginosan vieressä.</Text>
+    </Row>
+<Row Tag="LOC_BUILDING_POTALA_PALACE_EXPANSION2_DESCRIPTION">
+    <Text>+1 diplomaattinen politiikkapaikka. +1 diplomaattinen voittopiste. [NEWLINE][NEWLINE]Tämä rakennus on rakennettava kukkulalle, joka sijaitsee vuoren vieressä. Rakennus on myös erittäin hyvä paikka meditoida maailmanrauhan puolesta.</Text>
+</Row>
+    <Row Tag="LOC_BUILDING_AIRPORT_DESCRIPTION">
+      <Text>+50% taistelukokemus ilmayksiköille, jotka on koulutettu tässä kaupungissa. +1 ilma-aluksen paikka Aerodrome-kaupunginosassa. Mahdollistaa maajoukkojen siirtämisen Aerodrome-alueiden välillä lentokenttien avulla Rapid Deployment -kansalaisoikeuden jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HANGAR_DESCRIPTION">
+      <Text>+25% taistelukokemusta ilmayksiköille, jotka on koulutettu tässä kaupungissa. Aerodromialueella yksi lisäpaikka ilmayksikölle.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_NAME">
+      <Text>Ydinvoimalaitos</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION">
+      <Text>Automatically converts any amount of [ICON_RESOURCE_URANIUM] Uranium into [ICON_Power] Power for cities within 6 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_URANIUM] Uranium [ICON_PowerRight] 16 [ICON_Power] Power[NEWLINE][ICON_Bullet]Miniscule CO2 into the atmosphere[NEWLINE]Once built, as a Nuclear Power Plant ages, there is an increased chance for a Nuclear Accident to occur. Its [ICON_Production] Production and [ICON_Science] Science bonus is extended to all City Centers within 6 tiles that do not already have a bonus from a Power Plant building.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_BIG_BEN_EXPANSION2_DESCRIPTION">
+      <Text>+1 Talouspolitiikan paikka[NEWLINE][NEWLINE]Rakentamisen jälkeen [ICON_GOLD] Kultaa valtionkassassa lisätään 50%. Tämä tulee rakentaa joen vieressä, kaupallisen keskuksen kaupunginosassa, jossa on pankki.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_BARRACKS_EXPANSION2_DESCRIPTION">
+      <Text>+25% taistelukokemuskaikille tässä kaupungissa koulutetuille jalka- ja kaukoaseyksiköille.[NEWLINE]Strategisten resurssivarantojen varasto kasvaa +10:llä (tavallisella nopeudella).[NEWLINE][NEWLINE]Ei voi rakentaa leirintäalueen kaupunginosaan, joka jo sisältää tallirakennuksen.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_STABLE_EXPANSION2_DESCRIPTION">
+      <Text>+25% taistelukokemusta kaikille ratsuväki- ja piiritysyksiköille, jotka on koulutettu tässä kaupungissa.[NEWLINE]Strategisten resurssivarastojen määrä on lisätty +10 (normaalilla nopeudella).[NEWLINE][NEWLINE]Ei saa rakentaa leiri-kaupunginosassa, jossa on jo kasarmi.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ARMORY_EXPANSION2_DESCRIPTION">
+      <Text>+25% taistelukokemus kaikille tässä kaupungissa koulutetuille maajoukoille.[NEWLINE]Strategisten resurssivarantojen varastot kasvavat +10:llä (Standardinopeudella).</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MILITARY_ACADEMY_EXPANSION2_DESCRIPTION">
+      <Text>+25% taistelukokemus kaikille maajoukoille, jotka on koulutettu tässä kaupungissa.[NEWLINE]Strategisten resurssivarastojen määrä kasvaa 10:llä (Standard Speedillä).[NEWLINE]Antaa mahdollisuuden kouluttaa suurjoukkoja suoraan. Suurjoukkojen koulutuskustannuksia alennetaan 25%.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION">
+      <Text>Sen [ICON_Production] tuotantobonus laajenee kaikkiin kaupunkikeskuksiin 6 ruudun säteellä, joilla ei ole vielä bonus tältä rakennustyypiltä.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CASTLE_EXPANSION2_DESCRIPTION">
+      <Text>Lisää ulkokaitsevoimia. Antaa 2 [ICON_TOURISM] matkailua edistyksen jälkeen luonnonsuojelun kulttuurissa. Tämä kaupunki ei ole vaikuttava piiritysmurskaajilla.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_STAR_FORT_EXPANSION2_DESCRIPTION">
+      <Text>Nostaa ulkoisen puolustuksen voimakkuuden korkeimmalle mahdolliselle tasolle. Antaa 3 [ICON_TOURISM] matkailua, kun edetään konservaatiosiviiliin. Tämä kaupunki ei ole vaikuttanut piiritystorneihin tai piiritysmurskaimiin.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION">
+      <Text>+25% taistelukokemusta kaikille tässä kaupungissa koulutetuille meriyksiköille. +1 [ICON_FOOD] Ruokaa kaikilta rannikon laatoilta tälle kaupungille. +2 [ICON_HOUSING] Asuntoa, jos tämä kaupunki on rannikon vieressä. +1 [ICON_TradeRoute] Kauppareittikapasiteettia, jos tällä kaupungilla ei ole vielä markkinarakennusta.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION">
+      <Text>+25% taistelukokemus kaikille tässä kaupungissa koulutetuille meriyksiköille. Bonus [ICON_Production] tuotantoon, joka vastaa satamakaupunginosan vierekkäisyysbonusta. +1 [ICON_PRODUCTION] tuotantoon kaikille tämän kaupungin rannikolla ja järvenrannalla oleville käsittelemättömille maastoille</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION">
+      <Text>+1 [ICON_Favor] diplomaattista suosiota vuosittain.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_DAR_E_MEHR_EXPANSION2_DESCRIPTION">
+      <Text>+1 lisä [ICON_FAITH] uskoa jokaiselle aikakaudelle, joka on rakennettu tai viimeksi korjattu. Ei voida ryöstää luonnonkatastrofien toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION">
+      <Text>+3 [ICON_Favor] Diplomatiaedut. Kaupunkivaltioiden hyödyntäminen maksaa puolet [ICON_Gold] Kullasta.[NEWLINE]Kaupunkivaltioiden yksiköt saavat +4 [ICON_Strength] Taisteluvoimaa, jos olet kaupunkivaltion suvereeni (mukaan lukien hyödynnetyt yksiköt).[NEWLINE]Palkitsee +1 [Icon_Governor] Kuvernöörin tittelistä.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

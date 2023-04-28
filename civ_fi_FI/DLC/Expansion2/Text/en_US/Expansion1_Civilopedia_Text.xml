@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <!-- Sections -->
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_LEADERS_TITLE">
+      <Text>Sivilisaatiot/Johtajat</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNORS_TITLE">
+      <Text>Kuvernöörit</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_MOMENTS_TITLE">
+      <Text>Historialliset hetket</Text>
+    </Row>
+    <!-- Page Groups -->
+    <Row Tag="LOC_PEDIA_PAGEGROUP_CIVILIZATIONS_NAME">
+      <Text>Sivilisaatiot</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGEGROUP_LEADERS_NAME">
+      <Text>Johtajat</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNORS_PAGEGROUP_GOVERNORS_NAME">
+      <Text>Kuvernöörit</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNORS_PAGEGROUP_PROMOTIONS_NAME">
+      <Text>{1_KuvernööriLyhytTitteli} Tittelit</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_MOMENTS_PAGEGROUP_MAJOR_NAME">
+      <Text>Tärkeät hetket</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_MOMENTS_PAGEGROUP_MINOR_NAME">
+      <Text>Pienet hetket</Text>
+    </Row>
+    <!-- Traits -->
+    <Row Tag="LOC_UI_PEDIA_TITLES">
+      <Text>Otsikot:</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_ERA_SCORE">
+      <Text>Aikakauden pisteet: {1_Amount}</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_INTEREST_LEVEL">
+      <Text>Kiinnostuksen taso: {1_Amount}</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_MIN_ERA">
+      <Text>Min aikakauteni: {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_MAX_ERA">
+      <Text>Max Aikakausi: {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_REQUIRES_DARK_AGE">
+      <Text>Pimeä aika</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_PROMOTION_BASE">
+      <Text>Taso: Perus</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_PROMOTION_LEVEL">
+      <Text>Taso: {1_Level}</Text>
+    </Row>
+    <!-- Progression -->
+    <Row Tag="LOC_UI_PEDIA_LEADS_TO_GOVERNOR_PROMOTIONS">
+      <Text>Johtaa otsikoihin</Text>
+    </Row>
+    <!-- Concepts -->
+    <!-- Updated Concepts from base game -->
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_4_CHAPTER_CONTENT_PARA_2">
+      <Text>Sinun täytyy kerätä diplomaattisen näkyvyyden tasot yksilöllisesti jokaiselle sivilisaatiolle. Saat taistelubonusta, jos sinulla on vastustajaasi korkeampi näkyvyystaso kuin heillä on sinua kohtaan. Tasoja voi saada keräämällä erilaisia huhulähteitä, mukaan lukien:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_3_CHAPTER_CONTENT_PARA_2">
+      <Text>Kun asuttaja on valittuna, ihanteelliset kaupunkipaikat näkyvät kartalla kuvakkeen avulla. Lisäksi jokainen ensimmäisen jälkeinen asuttaja näyttää asuttajalinssin, joka antaa sinulle käsityksen siitä, missä kartalla on paras vesilähde kaupungillesi ja osoittaa käyttökelvottomat laatat. Ole varovainen paikkojen suhteen, joilla on negatiivinen uskollisuusmerkki, sillä nämä paikat ovat uskollisia muille sivilisaatioille.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_7_CHAPTER_CONTENT_PARA_2">
+      <Text>Appeal. Shows the appeal level of each tile.[NEWLINE][NEWLINE]Continent. Shows the geographic extent of each continent.[NEWLINE][NEWLINE]District Placement. Shows valid placement locations for wonders and districts, as well as any adjacency bonuses available for districts. This will only appear when attempting to build a district or wonder.[NEWLINE][NEWLINE]Government. Shows the distribution of governments across the map.[NEWLINE][NEWLINE]Political. Shows the owner of each tile.[NEWLINE][NEWLINE]Religion. Shows the majority religion and religious follower distribution across the map. This appears whenever a Religious unit is selected.[NEWLINE][NEWLINE]Settler. Shows recommended city sites and water availability, in addition to any Loyalty penalties on each tile.[NEWLINE][NEWLINE]Tourism. Shows the number of [ICON_Tourism] Tourists a tile is attracting.[NEWLINE][NEWLINE]Empire. Shows your city borders and district locations with adjacency bonuses.[NEWLINE][NEWLINE]Power. Shows power sources in your cities along with the regional power range.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_2_CHAPTER_CONTENT_PARA_2">
+      <Text>Sinun tulee myös julistaa sota Military Emergencyn, City-State Emergencyn, Nuclear Emergencyn ja Betrayal Emergencyn kohteelle, mikäli liityt kyseiseen hätätilaan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_9">
+      <Text>+2: Kukin vierekkäinen luonnonihme ja kaupunkipuisto</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_13">
+      <Text>+1: Kukin vierekkäinen golfkenttä, linna ja sfinksi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_5_CHAPTER_CONTENT_PARA_4">
+      <Text>Vakoilulaitoksen rakennus, joka on rakennettu Hallitustorille, lisää myös yhden vakoilun ja vakoilukapasiteetin.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITYSTATES_4_CHAPTER_CONTENT_PARA_3">
+      <Text>Onnistunut vakoilutehtävä "Tehosta skandaalia" poistaa kilpailijan [ICON_ENVOY] lähettiläät kohdekaupungin valtioista.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_11_CHAPTER_CONTENT_PARA_1">
+      <Text>Puolustussopimus on sopimus kahden johtajan välillä, jossa he sitoutuvat auttamaan toisiaan, jos heitä vastaan tehdään sodanjulistus. Jos jompikumpi puolustussopimuksen jäsenistä joutuu hyökkäyksen kohteeksi, toinen jäsen julistaa myös sodan hyökkääjää vastaan. Jos kaksi johtajaa ovat liittoutuneet, heillä on automaattisesti puolustussopimus keskenään. Puolustussopimuksia ei enää ole saatavilla erillisinä osina diplomaattisissa sopimuksissa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_11_CHAPTER_CONTENT_PARA_2">
+      <Text>On joitain tapauksia, joissa puolustussopimus ei johda automaattisesti johtajan joutumiseen sotaan puolustussopimuksen seurauksena. Esimerkiksi Gilgameshilla ja Kleopatralla on puolustussopimus, ja Pedrolla ja Peterillä on puolustussopimus. Gilgamesh julistaa sodan Pedrolle, ja puolustussopimuksen vuoksi Peter julistaa sodan Gilgameshille. Kleopatra ei kuitenkaan automaattisesti julista sotaa Pedrolle tai Peterille. Hätätilanteet eivät myöskään laukaise puolustussopimuksia. Käyttämällä aiempaa esimerkkiämme, jos olisi hätätilanne Pedron suhteen ja Gilgamesh aloittaisi sodan Pedron kanssa, Peter ei automaattisesti julistaisi sotaa Gilgameshille.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_12_CHAPTER_CONTENT_PARA_2">
+      <Text>Allies. Alliances have their own section in the Civilopedia where they are described in detail. These can only be created between Declared Friends, and provide Open Borders and a Defensive Pact between the partners in addition to Alliance's benefits. Civilizations in an Alliance cannot declare war on each other. You must have the Civil Service Civic to create an Alliance. [NEWLINE][NEWLINE]Declared Friend. When you choose to declare your friendship with a leader, you may not declare a formal war on each other, and deals you make with each other will be more favorable. This relationship state is required to make an Alliance.[NEWLINE][NEWLINE]Friendly. This means the leader thinks positively of you and you have a better chance of getting favorable deals with them.[NEWLINE][NEWLINE]Neutral. You have done nothing to upset or impress the leader, and your interactions with them will be standard.[NEWLINE][NEWLINE]Unfriendly. For some reason, you have done something to upset this leader, and deals with them will likely be unfavorable for you, or you can choose to make demands of them. [NEWLINE][NEWLINE]Denounced. This leader has let the other leaders in the world know that you have done something to offend them. Your deals with them will be unfavorable if they will make them at all, but you can declare a Formal War against them and make demands.[NEWLINE][NEWLINE]At War. Open hostilities have broken out between you, and you can attack or invade this leader but you will accrue warmongering and war weariness penalties.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_7_CHAPTER_CONTENT_PARA_3">
+      <Text>Uskollisuus. Näyttää kaupunkien uskollisuuden ja sen vaikuttavat lähteet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_5_CHAPTER_CONTENT_PARA_2">
+      <Text>1. Et saa [ICON_Gold] Kultaa, [ICON_Science] Tiedettä, [ICON_Culture] Kulttuuria tai [ICON_Faith] Uskoa mistään lähteestä.[NEWLINE]2. Anarkialla ei ole hallituksen erityisbonusta tai Perintöä.[NEWLINE]3. Politiikkasi eivät tarjoa etuja eikä niitä voida asettaa.[NEWLINE]4. Et voi vaihtaa hallitusta ennen kuin anarkian tila päättyy.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Lukittuna sivistyspuuhun, käytettävissä olevat hallitukset muuttuvat ajan kuluessa. Alussa sinulla on yksinkertainen hallitus vain muutamalla paikalla. Mutta kun saavut myöhempään aikaan, enemmän paikkoja eri yhdistelminä avataan. Lisäksi hallituksilla on omat erityiset bonuksensa; teokraattinen hallitus esimerkiksi lisää uskonnollista [ICON_Strength] vahvuutta teologisessa taistelussa, [ICON_Faith] uskoa asukasta kohti kaupungeissa joissa on [ICON_GOVERNOR] kuvernööri ja mahdollistaa maajoukkojen ostamisen [ICON_Faith] uskolla sekä tarjoaa alennuksen [ICON_Faith] uskonnonostoista ollessaan aktiivisena.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_TRADE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>Pelaaja voi ylläpitää vain rajoitetun määrän aktiivisia [ICON_TradeRoute] kauppareittejä. Kapasiteetti määräytyy pääasiassa pelaajan Markkinoiden ja Majakan rakennusten määrän perusteella, mutta sitä voi kasvattaa myös muilla keinoilla. Huomaa, että [ICON_TradeRoute] kauppareitit Markkinoista ja Majakoista eivät pinoudu samassa kaupungissa - hyöty koskee vain ensimmäistä rakennettua reittiä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1">
+      <Text>On olemassa 6 erilaista politiikkatyyppiä ja 4 politiikkapaikkaa. Kaikki tyypit on sovellettava hallituksen tyhjään paikkaan, joka on saman tyyppinen, mutta Wildcard-paikka voi sisältää minkä tahansa politiikan tyypin</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_5">
+      <Text>Jokeri: Nämä politiikat vaikuttavat vaihtelevasti ja voimakkaasti, mutta niitä voidaan käyttää vain Jokeri-politiikan paikalla.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_6">
+      <Text>Hallitus: Nämä politiikat tarjoavat voimakkaita perintöbonuksia erilaisille hallitustyypeille. Ne avataan, kun rakennat hallituksen aukion kaupunginosaan ja yhden rakennuksen vastaavan hallitustason tasolle. Esimerkiksi, jos otat käyttöön klassisen tasavallan hallituksen ja rakennat sotahepensä, esi-isien hallin tai audienssikamarin, avaat tasavallan perintöpolitiikan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_7">
+      <Text>Pimeä aika: Jos astut pimeään aikaan, voit saada pääsyn erikoispolitiikoihin, jotka ovat voimassa vain pimeän ajan keston ajan. Politiikkojen valikoima muuttuu aikakausien edetessä. Nämä politiikat voivat antaa sinulle erityisedun, joka saattaa auttaa sinua, mutta niillä on myös kustannus, joka saattaa rajoittaa sinua muilla tavoilla.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_T_ROOSEVELT_CHAPTER_DETAILED_BODY">
+      <Text>Aloittaessaan peliä ainoa amerikkalaisten etu on +5 [ICON_Strength] taisteluvoimaa heidän kotimantereellaan. He haluavat laajentua nopeasti mantereensa yli ja liikkua saadakseen lähistöllä olevien kaupunkivaltioiden tuen. Diplomatian politiikkapaikat muuttuvat jokeripaikoiksi, joten heidän hallitusvalintansa on tärkeä, vaikka Klassinen tasavalta ja Kauppiaiden tasavalta ovatkin Amerikan mieltymyksen mukaan hyödyllisimmät kulttuurivoiton kannalta. Heidän tulisi myös harkita rakentavansa kohti kansallishistorian museota hallintokeskuksessaan. He loistavat 20. vuosisadasta lähtien omalla elokuvastudiolla, kansallispuistobonuksellaan ja kahdella jälkiteollisen aikakauden ainutlaatuisella yksiköllään.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_PARA_1">
+      <Text>Toisen sivilisaation julistaminen sodaksi antaa sinulle rangaistuksen toisten sivilisaatioiden kanssa toimimisessa pelissä, jota kutsutaan sotahullun rangaistukseksi. Tämä heijastaa muiden johtajien epäluottamusta tai pelkoa toimistasi. Yleisin tapa julistaa sota ja tapa, jolla kaikki sotahullun rangaistukset lasketaan, on virallinen sota. Tässä sivilisaatio ensin julistaa kohteen sivilisaation ja sitten julistaa virallisen sodan</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_11_CHAPTER_CONTENT_PARA_2">
+      <Text>Sotahaukasakko kasvaa jokaisella aikakaudella, kun sota muuttuu vähemmän hyväksyttäväksi ratkaisuksi erimielisyyksiä kohtaan maailman sivilisaatioiden välillä. Sotahaukasakkoa muokataan myös sen mukaan, millaista sotaa julistat. Useimmissa tapauksissa sotaa julistamalla ja viholliskaupungin valtaamalla saat kyseisen aikakauden sotahaukasakon, ja kaupungin tuhoaminen antaa sinulle kolminkertaisen sotahaukasakon. Tietyt Casus Belli (ks. Diplomatialuokan Casus Belli -osio) saattavat muokata näitä sotahaukasakkoja, vähentää niitä tietyistä toimista tai tehdä niistä kalliimpia. Muut toimet, kuten ydinaseiden käyttö, muokkaavat myös sotahaukasakkoasi</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_COMBAT_13_CHAPTER_CONTENT_PARA_2">
+      <Text>Alueen ryöstäminen vie 3 liikuntapistettä tai kaiken liikkumiskapasiteetin. Jokainen alueen rakennus on ryöstettävä erikseen, ja se antaa jonkinlaisen saaliin alueen perusteella. Katso alueen sivua tarkkojen tuottojen saamiseksi. Kun rakennus on ryöstetty, sitä ei voi ryöstää uudelleen, ennen kuin sen omistaja palauttaa sen käyttöön (tämä tehdään tuotantomenu kautta ja se maksaa 25% alkuperäisen rakentamisen [ICON_Production] tuotantokustannuksista)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_SCIENCE_2_CHAPTER_CONTENT_PARA_1">
+      <Text>[ICON_Science] Tiede saa alkunsa erilaisista lähteistä, mukaan lukien [ICON_Citizen] kansalaisistasi (0,5 per [ICON_Citizen]), palatsistasi, joistain politiikoista, joistain uskonnollisista uskomuksista, joistain resursseista, ihmeistä, kaupankäynnistä ja tietysti kampusalueesta ja sen rakennuksista. Etsi tietolähteitä [ICON_Science] tieteen löytämiseksi Sivistyspediasta.</Text>
+    </Row>
+    <!-- New Concepts -->
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_EXPANSION_NAME">
+      <Text>Nousu ja lasku</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_PRIDE_MOMENTS_1_CHAPTER_CONTENT_TITLE">
+      <Text>Historialliset hetket</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_PRIDE_MOMENTS_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Historialliset hetket ovat merkittäviä tapahtumia, jotka tapahtuvat pelin historiassa. Näitä voivat olla esimerkiksi uuden hallintotavan valitseminen ensimmäisenä, uniikin yksikön rakentaminen tai luonnonihmeen löytäminen. Pelin aikana on kymmeniä tällaisia historiallisia hetkiä, jotka edustavat maailman ensimmäisiä ja pelaajien ensimmäisiä saavutuksia. Nämä hetket eroavat aikakausittain. Esimerkiksi barbaarien leirin valtaaminen muinaisessa aikakaudessa on tärkeä virstanpylväs, mutta nykyaikana sen valtaaminen ei edes saa huomiota. Voit katsella omia historiallisia hetkiäsi pelin historiakaaviossa, joka löytyy ylävasemmalla olevasta työkalupalkista. [NEWLINE][NEWLINE]Jokainen historiallinen hetki lisää pisteitä aikakauden pistemäärään, joka määrittää, nousetko kultaiselle aikakaudelle vai vajoatko synkkään aikakauteen seuraavassa kaudessa. Jos saat paljon historiallisia hetkiä aikakauden aikana, todennäköisesti nousee kultaiselle aikakaudelle seuraavassa kaudessa. Jos olet ensimmäinen pelaaja, joka saavuttaa historiallisen hetken, saat enemmän aikakauden pisteitä</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Kultaiset ja tummat ajat</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Pelin edetessä aikakausilta toisille, sivilisaatiosi voi kokea Kultakauden tai Synkän ajan. Mikäli menestyt paremmin kuin muut sivilisaatiot tai saavutat monta Historiallista Hetkeä, on suuri mahdollisuus, että kokee Kultakauden seuraavalla aikakaudella. Mikäli taas jää jälkeen kehityksessä, saatat kokea Synkän ajan. [NEWLINE][NEWLINE] Kultakausi on aikaa suurelle vauraudelle kansalaisillesi. Uskollisuutesi alenee hitaammin kuin normaalisti. Kaupunkisi pysyvät todennäköisemmin omaan sivilisaatioosi kuuluvina ja saatat jopa kääntää lähellä sijaitsevia kaupunkeja omaan sivilisaatioosi. Lisäksi voit valita omistautumisen seuraavalle aikakaudelle. Omistautumiset ovat voimakkaita bonuksia, jotka koskevat tiettyä osa-aluetta sivilisaatiossasi. Tiedosta kuitenkin, että Kultakauden saavuttaminen vaikeuttaa seuraavan Kultakauden saavuttamista ja helpottaa Synkän ajan kokeilemista. [NEWLINE][NEWLINE] Synkät ajat ovat vaikeita aikoja kansalaisillesi. Uskollisuutesi alenee nopeammin kuin normaalisti, mikä voi johtaa kaupunkien itsenäistymiseen tai valloitukseen muun pelaajan toimesta. Tämän voi estää käyttämällä [ICON_GOVERNOR] kuvernööreitä tai valitsemalla taktisesti kaupunkien menetyksen (ja ehkä toivoen niiden myöhempiä takaisinvaltauksia.) [NEWLINE][NEWLINE] Älä huoli tai ole liian murheissasi, jos koet Synkän ajan, sillä sinulla on mahdollisuus kokea sankarillinen aika. Kultakauden kynnys on matalampi, mikäli koet Synkän ajan, ja ylitettyäsi Kultakauden kynnyksen siirryt sankarilliseen aikaan. Sankarillinen aika antaa sinulle mahdollisuuden valita kolme omistautumista seuraavalle aikakaudelle! Tämä voi jopa asettaa sinut edelle pelaajasta, joka siirtyy Kultakaudesta toiseen, jos pystyt hyödyntämään kykyjäsi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Jos ylität Aikakauden Pisteiden kynnyksen synkälle ajalle, mutta sinulla ei ole tarpeeksi korkeaa pistemäärää päästäksesi kultaiseen aikaan, siirryt normaaliin aikaan. Normaalin aikakauden aikana voit edelleen valita omistautumisen sille ajalle, mutta et saa muita bonuksia tai sanktioita.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Pimeä aika antaa sinulle myös pääsyn erikoisiin pimeän ajan politiikoihin. Nämä yleiskäyttöiset politiikat voivat tarjota sinulle vaihtoehtoja pimeän ajan selviytymiseen, mutta niillä on hintansa. Esimerkiksi eristäytyminen-politiikka antaa bonuksia sisäisille [ICON_TradeRoute] kauppareiteille, mutta estää sinua rakentamasta tai ostamasta uudisasukkaita tai asettumasta uusiin kaupunkeihin</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_PARA_4">
+      <Text>Voit tehdä Omistautumisia Normaaliaikoina ja Synkkiä aikakausia kohden nostamaan Aikakauden pistemäärääsi, mikä antaa sinulle paremman mahdollisuuden saada Kultainen aikakausi tulevaisuudessa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LOYALTY_1_CHAPTER_CONTENT_TITLE">
+      <Text>Uskollisuus</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LOYALTY_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Uskollisuus on kaupungin mittari sen omistautumisesta sinun sivilisaatiollesi. Jokaisella kaupungilla on uskollisuusarvo 0-100 välillä, joka heijastaa kuinka paljon kaupungin [ICON_Citizen] kansalaiset haluavat pysyä osana sinun sivilisaatiotasi. Kun uskollisuus laskee alle 75:n, kaupungin tuottoja ja kasvua rankaistaan 25 %. Kun uskollisuus laskee alle 25:n, kaupungin tuottoja rankaistaan 50 % ja kasvua 75 %. Kun uskollisuus saavuttaa 0:n, kaupunki kapinoi omistajaansa vastaan ja muuttuu Vapaaksi Kaupungiksi. Vapaat kaupungit eivät kuulu mihinkään sivilisaatioon ja pyrkivät puolustamaan itseään sotilaalliselta tunkeutumiselta. Jos Vapaan Kaupungin uskollisuus putoaa 0:aan, sen itsenäisyyden kokeilu epäonnistuu ja he haluavat liittyä sivilisaatioon. Mihin sivilisaatioon he haluavat liittyä riippuu siitä, kuka on tehnyt eniten painostusta Vapaaseen Kaupunkiin sen itsenäisyyden aikana. Tällä tavalla Vapaa Kaupunki voidaan tuoda rauhanomaisesti osaksi sinun sivilisaatiotasi (tai tuoda takaisin sinun sivilisaatioosi).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LOYALTY_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Loyalty changes each turn based on many factors, but the most important factor is the pressure of [ICON_Citizen] Citizens who live in or near the city. If pressure from your own [ICON_Citizen] Citizens outweighs pressure from other civilizations, the city’s Loyalty will increase (up to +20 per turn). If other civilizations’ pressure is stronger, the city’s Loyalty will decrease (down to -20 per turn). Each [ICON_Citizen] Citizen exerts a base pressure of 1, but it can be modified. For example, [ICON_Citizen] Citizens in a Capital city exert an additional 1 pressure. Golden and Heroic Ages add 0.5 for all [ICON_Citizen] Citizens, while Dark Ages subtract 0.5. This [ICON_Citizen] Citizen pressure affects cities within 9 tiles, but is 10% less effective per tile distant.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LOYALTY_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Kaupungin [ICON_GOVERNOR] kuvernööri ja onnellisuustaso ovat muita vahvoja tekijöitä, jotka vaikuttavat kaupungin uskollisuuteen vuorossa. Lisäksi sotilaallisin voimin vallatut kaupungit saavat uskollisuusseuraamuksia valloittajan aiheuttamien kaupungin alkuperäistä omistajaa kohtaan tunnettujen loukkausten perusteella, mutta niitä voidaan lieventää pitämällä kaupungissa sijoitettuna sotilasyksikköä. Käytä uskollisuuslinssiä saadaksesi käsityksen uskollisuuteen vaikuttavista tekijöistä, mukaan lukien paineen lähteet muista lähellä sijaitsevista kaupungeista. Kaupungin yksityiskohtien paneelin Uskollisuus- ja Kuvernööri-osiosta löytyy täydellinen erittely tekijöistä, jotka vaikuttavat kaupungin uskollisuuteen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LOYALTY_1_CHAPTER_CONTENT_PARA_4">
+      <Text>Pelaajille, jotka ovat perustaneet uskonnon, kaupungeille annetaan +3 lojaalisuutta, jos ne seuraavat kyseistä uskontoa, mutta -3 lojaalisuutta kääntyessään toisen pelaajan uskonnon seuraajaksi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_TITLE">
+      <Text>Kuvernöörit</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Governors [ICON_GOVERNOR] allow players to manage cities in their civilization in the following ways:[NEWLINE][ICON_BULLET] Appointing Governors with unique strengths and abilities to serve in their civilization.[NEWLINE][ICON_BULLET] Promoting appointed Governors to unlock new abilities and effects.[NEWLINE][ICON_BULLET] Assigning an appointed Governor to a specific city within their civilization.[NEWLINE][ICON_BULLET] Using assigned Governors special abilities to gain various unique effects in that city.[NEWLINE][ICON_BULLET] Using assigned Governors to increase the process of establishing a stronger Loyalty in the city.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_2">
+      <Text>On mahdollista rekrytoida ja ylentää kahdeksan erilaista kuvernööriä:[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_AMBASSADOR_NAME} '{LOC_GOVERNOR_THE_AMBASSADOR_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_BUILDER_NAME} '{LOC_GOVERNOR_THE_BUILDER_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME} '{LOC_GOVERNOR_THE_RESOURCE_MANAGER_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_CARDINAL_NAME} '{LOC_GOVERNOR_THE_CARDINAL_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_EDUCATOR_NAME} '{LOC_GOVERNOR_THE_EDUCATOR_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_MERCHANT_NAME} '{LOC_GOVERNOR_THE_MERCHANT_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_THE_DEFENDER_NAME} '{LOC_GOVERNOR_THE_DEFENDER_TITLE}'[NEWLINE][ICON_BULLET] {LOC_GOVERNOR_IBRAHIM_NAME} '{LOC_GOVERNOR_IBRAHIM_TITLE}' (Suleimanin ainutlaatuinen kuvernööri)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Kuvernöörin nimeäminen:[NEWLINE] Kuvernöörit ja heidän ylennyksensä saadaan käyttämällä Kuvernöörititteleitä. Kuvernöörititteleitä avataan pelin edetessä, pääasiassa Siviilipuun kautta, mutta myös rakentamalla Hallinnollisen Keskusalueen kaupunginosaa ja sen rakennuksia sekä rakentamalla Casa de Contratación -ihmettä. Kun kuvernööri on nimitetty, hänet voidaan määrätä hoitamaan tehtäviään kaupungissa. Pelaajalla voi olla vain yksi kutakin tyyppiä oleva kuvernööri sivilisaatiossaan, ja vain yksi kuvernööri voidaan nimittää kaupunkiin kerrallaan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_4">
+      <Text>Kuvernöörin ylentäminen:[NEWLINE]Pelaajat voivat myös käyttää Kuvernöörititteleitä ylentääkseen aikaisemmin nimittämiään kuvernöörejä. Jokaisella kuvernöörityypillä on oma ylennyspuunsa. Ylennyksen valitseminen avaa uuden kyvyn, jonka kuvernööri voi toteuttaa, kun hän on vakiinnuttanut asemansa hänen määräämässään kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_5">
+      <Text>Kuvernöörin vaikutukset:[NEWLINE]Kuvernöörit voivat vaikuttaa kaupunkiin, johon he on nimetty, monin eri tavoin:[NEWLINE][ICON_BULLET] He voivat saada kaupungin kansalaisilta identiteetin, mikä lisää heidän uskollisuuttaan [ICON_Citizen]kaupungissa.[NEWLINE][ICON_BULLET] Kuvernööri voi soveltaa erikoiskykyjään kyseisessä kaupungissa asettumalla sinne.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_6">
+      <Text>Vakiinnuttaminen:[NEWLINE]Kun kuvernööri sijoitetaan ensimmäistä kertaa kaupunkiin, kestää jonkin aikaa ennen kuin he saavat valtaa kaupungissa. Tämä ajanjakso edustaa sitä aikaa, jonka kuvernööri tarvitsisi politiikkojen ja lakien luomiseen, muutosten ehdottamiseen sekä heidän vallan ja vaikutusvallan luomiseen kaupungissa. Siirtymisaika riippuu kyseisestä kuvernööristä. Kun tietty kuvernööri on vakiinnuttanut asemansa kaupungissa ja lähtee sitten, heidän vakiintunut aikansa kaupungissa alkaa heikentyä ajan myötä. Vaaditun ajan kuluttua kuvernöörin erityiskyvyt tulevat käyttöön. Tämä sisältää heidän peruskykynsä sekä kaikki heille annetut ylennykset. Nämä kyvyt ovat passiivisia, eli pelaajan ei tarvitse aktivoida niitä eikä ne ole yksittäiskäyttöisiä vaikutuksia.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVERNORS_1_CHAPTER_CONTENT_PARA_7">
+      <Text>Kuvernöörien tehtävien vaihtaminen:[NEWLINE]Joskus pelin aikana on tarpeen vaihtaa kuvernöörien sijoituspaikkaa. Kuvernööri voidaan sijoittaa toiseen kaupunkiin milloin tahansa, mutta pidä mielessä, että kun kuvernööri sijoitetaan uuteen kaupunkiin, hänen on ensin sopeuduttava uuteen kaupunkiin. Jos kaupunkiin on jo sijoitettu kuvernööri, hänet poistetaan kaupungista ja hän palaa kuvernöörien varastoon, josta hänet voidaan sijoittaa uuteen paikkaan. [NEWLINE][NEWLINE]Kuvernööri voidaan sijoittaa vain oman sivilisaation kaupunkeihin kahden poikkeuksen kera. 'Diplomaatti' -kuvernööri on ainutlaatuinen siinä, että hän voidaan sijoittaa kaupunkivaltioon sekä mihin tahansa hänen sivilisaationsa kaupungista. Osmanien johtajalla Suleimanilla on ainutlaatuinen 'Suuri visiiri' -kuvernööri, joka voidaan sijoittaa minkä tahansa toisen suuren sivilisaation pääkaupunkiin sekä mihin tahansa kotimaiseen kaupunkiin. Sekä 'Diplomaatti' että 'Suuri visiiri' eivät voida sijoittaa kaupunkiin, jossa pelaaja on tällä hetkellä sodassa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_ALLIANCES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Liittoutumat</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_ALLIANCES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>SAllianssit ovat suhteita kahden eri sivilisaation välillä, yhteinen sopimus työskennellä yhdessä jollain tavalla. Allianssiin liittyäksesi sinun täytyy ensin olla julistettu ystäväksi sivilisaation kanssa ja molempien sivilisaatioiden täytyy olla tutkinut kansalaispalvelun.[NEWLINE][NEWLINE]On olemassa useita allianssityyppejä, joista jokainen tarjoaa erilaisia ​​vastavuoroisia etuja. Näiden tasojen vaikutukset ovat kumulatiivisia, joten jos olet tasolla 3 allianssissa, saat myös tason 1 ja tason 2 vaikutukset. Kun olet allianssissa toisen pelaajan kanssa, saat allianssipisteitä joka vuoro. Tarpeeksi kerättyäsi allianssitason nousee, mikä johtaa enemmän etuihin alliansseistasi. Voit lisätä allianssipisteiden keräämisen nopeutta kaupankäynnillä liittolaisesi kanssa.[NEWLINE][NEWLINE]Jokainen allianssi, riippumatta sen tyypistä, tarjoaa avoimet rajat ja puolustussopimuksen molemmille osapuolille. Allianssin jäsenet eivät voi julistaa sotaa toisilleen.[NEWLINE][NEWLINE]Voit olla vain yhden tyyppisessä allianssissa toisen sivilisaation kanssa, ja kun olet luonut sen allianssin, et voi luoda sitä toisen sivilisaation kanssa, vaikka sinulla voisi olla toisenlainen allianssi heidän kanssaan. Esimerkiksi voit olla tutkimusallianssissa Korean kanssa, joten et voi tehdä uutta tutkimusallianssia Cree: n kanssa. Voit kuitenkin luoda sotilaallisen, kulttuurisen, uskonnollisen tai taloudellisen allianssin Cree: n kanssa. Huomaa, että tämä rajoittaa sinua viiteen kokonaisallianssiin pelissä.[NEWLINE][NEWLINE]Tutkimusallianssi[NEWLINE][ICON_BULLET]Taso 1: [ICON_TradeRoute] Kauppareitit liittolaisten välillä antavat lisää [ICON_Science] tiedettä.[NEWLINE][ICON_BULLET]2: Liittolaiset jakavat yhden teknologian boostin joka 30. kierros (standardinopeudella).[NEWLINE][ICON_BULLET]Taso 3: Antaa bonus [ICON_Science] tieteestä, kun opiskelet samaa teknologiaa kuin liittolaisesi tai sellaista, jonka liittolaisesi on jo suorittanut, ja kun liittolaisesi tutkii teknologiaa, jonka olet jo suorittanut.[NEWLINE][NEWLINE]Kulttuuriliitto[NEWLINE][ICON_BULLET]Taso 1: Liittolaiset eivät aiheuta lojaalisuuspainetta toisilleen, ja [ICON_TradeRoute] kauppareitit liittolaisten välillä antavat lisää [ICON_CULTURE] kulttuuria.[NEWLINE][ICON_BULLET]Taso 2: Kun kaupungeillasi on [ICON_TradeRoute] kauppareittejä liittolaisesi kanssa, saat lisää [ICON_GreatPerson] suurmiehen pisteitä alkuperäiskaupungeissasi sen mukaan, mitä kaupunginosia niissä on.[NEWLINE][ICON_BULLET]Taso 3: Saat osan liittolaisesi [ICON_Tourism] matkailusta ja [ICON_CULTURE] kulttuurista kaupungeista.[NEWLINE][NEWLINE]Sotilasliitto[NEWLINE][ICON_BULLET]Taso 1: Liittolaiset saavat bonusta [ICON_Strength] taisteluvoimaan sivilisaatioita vastaan, joihin molemmat liittolaiset ovat julistaneet sodan.[NEWLINE][ICON_BULLET]Taso 2: Liittolaiset jakavat näkyvyyden ja saavat bonusta [ICON_Production] tuotantoon sotilasyksiköille, kun jompikumpi liittolaisista on sodassa.[NEWLINE][ICON_BULLET]Taso 3: Yksiköt aloittavat bonuksella.[NEWLINE][NEWLINE]Uskonnollinen liitto[NEWLINE][ICON_BULLET]Taso 1: Liittolaisten kaupungit eivät aiheuta uskonnollista painetta toisilleen, ja [ICON_TradeRoute] kauppareitit liittolaisten välillä antavat lisää [ICON_Faith] uskoa.[NEWLINE][ICON_BULLET]Taso 2: Liittolaiset saavat [ICON_Religion] uskonnollista taisteluvoimaa uskontoja vastaan, joita kumpikaan liittolaisista ei ole perustanut.[NEWLINE][ICON_BULLET]Taso 3: Saat uskoa sen mukaan, kuinka monta [ICON_Citizen] kansalaista seuraa liittolaisesi uskontoa, ja bonusta uskonnolliselle paineelle kaupungeissa, joissa ei ole liittolaisesi uskonnon seuraajia.[NEWLINE][NEWLINE]Talousliitto[NEWLINE][ICON_BULLET]Taso 1: [ICON_TradeRoute] kauppareitit liittolaisten välillä antavat lisää [ICON_Gold] kultaa.[NEWLINE][ICON_BULLET]Taso 2: Saat [ICON_ENVOY] lähettiläspisteen jokaisesta kaupunkivaltiosta, jossa liittolaisesi on suvereeni.[NEWLINE][ICON_BULLET]Taso 3: Liittolaiset jakavat kaikkien kaupunkivaltioiden suvereenibonuksen, joissa he ovat suvereeni.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_EMERGENCY_ALLIANCES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Hätätilanteet</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_EMERGENCY_ALLIANCES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Hätätilanteet käynnistyvät vakavan toimenpiteen seurauksena sivilisaation toimesta, kuten kaupunkivaltion valloittamisesta, pyhän kaupungin kääntämisestä tai ydinhyökkäyksen aloittamisesta. Pelin muut sivilisaatiot saavat tilaisuuden liittyä yhteen pelaajaa vastaan, joka aloitti hätätilanteen. Sivilisaatiot, jotka ovat julistaneet ystävyyden tai liittoutuneet kohteen kanssa, kutsutaan vain liittymään petoksen hätätilanteisiin. [NEWLINE][NEWLINE]Liittyneet sivilisaatiot työskentelevät yhteisen tavoitteen hyväksi, joka on saavutettava tietyssä ajassa. Ryhmän jäsenille voi myös olla bonuksia, joita avustetaan tavoitetta kohti. Jos tavoite saavutetaan, kaikki hätätilanteeseen osallistuneet jäsenet saavat erityispalkinnon, mutta jos aika loppuu ensin, seurauksena on rangaistus ja kohteen sivilisaatio saa palkinnot.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_EMERGENCY_ALLIANCES_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Tässä pelissä on kolme erilaista hätätilannetta:[NEWLINE][NEWLINE][ICON_BULLET]Sotilaallinen hätätilanne: Sivilisaatio, joka johtaa jossain voittotyypissä, on juuri vallannut toisen sivilisaation kaupungin. Liittolaisjäsenet joutuvat vallottamaan kaupunkeja kohteelta. Liittolaisjäsenet saavat bonuksen [ICON_Movement] liikkumiseen kohteen alueella ja heillä on rauha, avoimet rajat ja jaettu näkyvyys toistensa kanssa. Kaikki jäsenet menevät sotaan kohteen kanssa ja kohteen [ICON_Strength] voima heikkenee taistellessaan heitä vastaan. Jos onnistuvat, he saavat tulevaisuudessa bonuksen paranemiseen kohteen alueella. Jos jäsenet eivät pysty vallottamaan tarpeeksi kaupunkeja hätätilanteen loppuun mennessä, voittaa kohde ja saa pysyvän bonuksen kaupunkinsa kaukokantaman [ICON_Strength] voimaan. [NEWLINE][NEWLINE][ICON_BULLET]Kaupunkivaltio hätätilanne: Sivilisaatio on vallannut ja miehittää kaupunkivaltion. Liittolaisjäsenet joutuvat vapauttamaan kaupunkivaltion. Kaikki jäsenet menevät sotaan kohteen kanssa ja heillä on rauha, avoimet rajat ja jaettu näkyvyys toistensa kanssa. Jos jäsenet vapauttavat kaupunkivaltion, he saavat [ICON_GOLD] kultaa jokaisesta heidän [ICON_ENVOY] lähettiläästään siellä. Jos kohde säilyttää hallinnan kaupunkivaltiosta, hän voittaa ja saa bonuksen [ICON_GOLD] kultaa jokaisesta hänen [ICON_TradeRoute] kauppareitistään siellä. [NEWLINE][NEWLINE][ICON_BULLET]Uskonnollinen hätätilanne: Sivilisaatio on kääntänyt toisen uskonnon pyhän kaupungin uskonnollisella levitystoiminnolla. Liittolaisjäsenet joutuvat kääntämään pyhän kaupungin pois sen uudesta uskonnosta, tietyn ajan kuluessa, ennen hätätilanteen päättymistä. Jos onnistutaan, jokainen jäsen saa Relikin. Kohde voittaa, jos jäsenet eivät pysty pitämään sitä käännytettynä uudesta uskonnosta tarvittavan määrän kierroksia ennen hätätilan loppua. Tällöin uusi uskonto saa voimakkaan paineen. [NEWLINE][NEWLINE][ICON_BULLET]Ydinhätätila: Sivilisaatio on käyttänyt ydinpommia kaupungissa. Jäsenten on vallattava kaupunkeja kohteelta. Jäsenet saavat bonuksen [ICON_Movement] liikkumiseen kohteen alueella ja heillä on rauha, avoimet rajat ja jaettu näkyvyys toistensa kanssa. Kaikki jäsenet menevät sotaan kohteen kanssa ja kohteen [ICON_Strength] voima heikkenee taistellessaan heitä vastaan. Jos jäsenet onnistuvat, kohteen sotilasyksiköt kärsivät vielä suuremman ja pysyvän rangaistuksen [ICON_Strength] voimassa, kun taistelevat jäseniä vastaan. Jos he epäonnistuvat, kaikkien jäsenkaupunkien uskollisuus kärsii. [NEWLINE][NEWLINE][ICON_BULLET]Petos-hätätila: Sivilisaatio on julistanut sodan toiselle sivilisaatiolle, jonka kanssa heillä oli korkean tason liittouma. Jäsenten on vallattava kaupunkeja kohteelta. Jäsenet saavat bonuksen [ICON_Movement] liikkumiseen kohteen alueella ja heillä on rauha, avoimet rajat ja jaettu näkyvyys toistensa kanssa. Kaikki jäsenet menevät sotaan kohteen kanssa ja kohteen [ICON_Strength] voima heikkenee taistellessaan heitä vastaan. [ICON_TradeRoute] Kauppareitit jäsenten ja kohteiden välillä peruutetaan, ja [ICON_TradeRoute] kauppareitit jäsenten välillä tarjoavat [ICON_PRODUCTION] tuotantoa. Jos jäsenet voittavat, kohteen sotilasyksiköt kärsivät pysyvän rangaistuksen [ICON_Strength] voimassa jäseniä vastaan. Jos jäsenet eivät pysty vallata tarpeeksi kaupunkeja hätätilan loppuun mennessä, kohde voittaa ja saa pysyvän vähennyksen sodan uuvuttavuudessa taistellessaan jäseniä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_EMERGENCY_ALLIANCES_1_CHAPTER_CONTENT_PARA_3">
+      <Text>Yhden sivilisaation kyky osallistua hätätilanteisiin määräytyy sen diplomaattisen suhteen perusteella muihin sivilisaatioihin ja kaupunkivaltioihin pelissä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FREE_CITIES_1_CHAPTER_CONTENT_TITLE">
+      <Text>Vapaat kaupungit</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FREE_CITIES_1_CHAPTER_CONTENT_PARA_1">
+      <Text>Vapaa kaupunki on kaupunki, joka on jättänyt alkuperäisen sivilisaationsa uskollisuuden menetyksen vuoksi. Nämä eivät ole kaupunkivaltioita, koska ne todennäköisesti pyrkivät palaamaan yhteen pelin suurimmista sivilisaatioista. Vapaalla kaupungilla on yhtälailla uskollisuus ylläpidettävänä kuin normaalilla kaupungilla, ja se hyväksyy uskollisuuspainetta muilta sivilisaatioilta. Jos sen uskollisuus laskee nollaan, se liittyy sivilisaatioon, joka on käyttänyt eniten uskollisuuspainetta vapaakaupunkiin sen itsenäistymisestä lähtien. Tämä tarkoittaa kilpajuoksua muiden sivilisaatioiden kanssa, kun pyritään houkuttelemaan vapaa kaupunki sivilisaatioon. Uskollisuuspaineen maksimointi lisää mahdollisuuksia kerätä eniten uskollisuutta ja saada kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FREE_CITIES_1_CHAPTER_CONTENT_PARA_2">
+      <Text>Vapaa kaupunki korjaa ryöstetyt parannukset ja luo yksiköitä puolustautuakseen, ja se voi rakentaa muureja puolustautuakseen. Jos sivilisaatio hyökkää sitä vastaan, vapaa kaupunki yrittää kostaa yhdelle sivilisaation kaupungeista. Muutoin sen kansalaiset harjoittavat omia aktiviteettejaan odottaen, kumpi maailman sivilisaatioista on houkuttelevin heille.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_TITLE">
+      <Text>Omistukset</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_1">
+      <Text>Omistautumiset ovat tapa keskittyä sivilisaatiosi kasvuun jokaisen aikakauden alussa, aloittaen klassisesta ajasta. Omistautumisten lista, joka on saatavilla jokaisen aikakauden alussa, muuttuu pelin edetessä, ja joitain omistautumisia on saatavilla useissa aikakausissa. Synkän ajanjakson aikana omistautumiset ovat luotettava tapa lisätä ajanjakson pistemäärääsi, kun työskentelet kohti sankarillista aikakautta. Kultaisen ajanjakson alkaessa nämä omistautumiset muuttuvat voimakkaammiksi, eivätkä enää myönnä ajanjakson pistemäärää, vaan tarjoavat merkittäviä bonuksia sivilisaatiollesi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2">
+      <Text>Vapaa tutkimus: Saat +1 aikakausipisteen joka kerta, kun laukaiset [ICON_TechBoosted] Eurekan. +1 aikakausipiste rakennettaessa rakennusta, joka antaa tieteen perustuottona. Jos valitaan Kultaisen aikakauden alussa, [ICON_TechBoosted] Eureka tarjoaa lisäksi 10% teknologian kustannuksista. Kauppakeskus- ja Satamakaupunginosien [ICON_GOLD] kultaista reunaehtoa täydentää [ICON_Science] tiede. Klassinen ja keskiaika.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_3">
+      <Text>Kynä, sivellin ja ääni: Saat +1 Aikakausipistettä joka kerta, kun käynnistät [ICON_CivicBoosted] innostuksen. Saat +1 Aikakausipistettä rakentaessasi rakennuksen, jossa on suuren työn paikka. Jos valittiin Kultaisen aikakauden alussa, [ICON_CivicBoosted] innostukset tarjoavat ylimääräiset 10% siviilikustannuksista. Jokainen kaupunki saa +1 [ICON_Culture] kulttuuria jokaisesta erikoisaluetta kohti. Klassinen ja keskiaikainen aikakausi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_4">
+      <Text>Evankelistojen exodus: Saat +2 aikakauden pistettä joka kerta, kun käännytät kaupungin perustamasi uskonnon kannattajaksi ensimmäistä kertaa. Jos valittuna kultaisen aikakauden alussa, kaikki lähettiläät, apostolit ja inkvisitiorit saavat +2 [ICON_Movement] liikkumispistettä. Lisäksi uudet koulutetut saavat +2 latausta. +4 [ICON_GreatProphet] Suurprofeetta-pistettä per vuoro. Klassinen - renessanssikausi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_5">
+      <Text>Monumentalisuus: Saat +1 aikakauden pisteen joka kerta, kun rakennat uuden erikoispiirin. Jos valitset tämän kultaisen ajan alussa, kaikki rakentajat saavat +2 [ICON_Movement] liikkumispistettä. Voit ostaa siviiliyksiköitä käyttämällä [ICON_Faith] uskoa. Rakentajat ja siirtolaiset ovat 30% halvempia ostaa käyttäen [ICON_FAITH] uskoa ja [ICON_GOLD] kultaa. Klassinen- ja renessanssikaudet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_6">
+      <Text>Hic Sunt Dracones: Saat +3 Aikakauden Pisteitä joka kerta, kun löydät uuden mantereen tai luonnonihmeen. Saat +1 Aikakauden Pisteitä joka kerta, kun tapat ei-barbaarin merivoimien yksikön taistelussa. Jos valittu Kultaisen Aikakauden alussa, kaupungeilla, jotka on perustettu eri mantereelle kuin ensimmäinen kaupunkisi, on +3 alkuasukkaita. Lisäksi merivoimat ja maihinnousuyksiköt saavat +2 [ICON_Movement] Liikkumista. Kaupungit, jotka eivät sijaitse alkuperäisellä [ICON_Capital] Pääkaupungin mantereella, saavat +2 Uskollisuutta per kierros. Renessanssista nykyaikaan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_7">
+      <Text>Uudista kolikkojärjestelmää: Saat +1 aikakausipisteen joka kerta, kun suoritat onnistuneesti [ICON_TradeRoute] kauppareitin. Jos valitset tämän kultaisen aikakauden alkaessa, kauppiaasi eivät voi joutua ryöstetyiksi. Kansainväliset [ICON_TradeRoute] kauppareitit tuottavat +3 [ICON_Gold] kultaa jokaista erikoisaluetta kohden ulkomaisessa kaupungissa. Renessanssiajasta nykyaikaan asti.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_8">
+      <Text>Höyryn syke: Saat +2 aikakauden pistettä jokaisesta teollisuus- tai myöhemmin rakennetusta rakennuksesta. Jos valitaan kultaisen aikakauden alussa, saat +10% [ICON_Production] tuotantoa teollisuuskauden ja myöhempien ihmeiden rakentamiseen. Kampuspiirin [ICON_SCIENCE] tiede-lisäbonuksen avulla saat myös [ICON_PRODUCTION] tuotantoa. Teollisuuskaudesta atomikauteen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_9">
+      <Text>Aseisiin!: Saat +1 Aikakauden Piste jokaisesta ei-barbaarisen joukon tappamisesta taistelussa ja +2 Aikakauden Piste jokaisesta ei-barbaarisen armeijan tappamisesta taistelussa. Jos valitset tämän kullan aikakauden alussa, saat erikois Casus Bellin, joka antaa 75% vähemmän sotakurinpidätyksiä kuin virallinen sota ja sen voi käyttää heti sen jälkeen kun on kieltänyt kohteen. +15% [ICON_Production] tuotanto sotilasyksiköille. Teollisuusajasta atomiaikaan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_10">
+      <Text>Valepukuinen henkivartija: Saat +1 aikakausipisteen jokaisesta onnistuneesta hyökkäävästä vakoiluoperaatiosta. Jos valitaan Kultaisen Aikakauden alussa, vakoojat eivät vie aikaa vihollisen kaupungissa läsnäolon vahvistamiseen. Aika kaikkien hyökkäävien operaatioiden suorittamiseen vähenee 25%. Atomikaudella ja myöhemmin.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_11">
+      <Text>Toivoisimme sinun olevan täällä: Saat +1 aikakausipisteen jokaisesta kaivetuista artefaktista. Jos valittu kultaisen aikakauden alussa, kaupungit, joissa on [ICON_Governor] kuvernööri, saavat +50% [ICON_Tourism] matkailua maailman ihmeistä. +100% [ICON_Tourism] matkailua kaikille kansallispuistoille. Atomiaika ja myöhemmät ajat.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_12">
+      <Text>Taivas ja tähdet: Saat +1 aikakausipisteen jokaisesta rakennetusta lentokentästä. Saat +1 aikakausipisteen jokaisesta hankitusta tai ostetusta [ICON_GreatPerson] suurmiehestä. Jos valittu Kultaisen aikakauden alussa, avaa [ICON_TechBoosted] Eureka-analyysit Satelliiteille, Ydinfuusiolle ja Nanoteknologialle, jos olet Informaatioaikakaudella. Kun valittu Tulevaisuusaikakaudella, avaa [ICON_TechBoosted] Eureka-analyysit Älykkäille materiaaleille, Ennakoiville järjestelmille ja Avaruuslennolle. Kaikki ilmayksiköt saavat +100% kokemuspisteitä. Alumiinikaivokset kerryttävät 2 lisäresurssia vuorossa. Informaatio- ja tulevaisuusaikakaudet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_13">
+      <Text>Automaattisota: Saat +1 aikakauden pisteen joka kerta, kun tapat ei-barbaariyksikön jättiläiskuolemanrobotilla. Jos valittu Kultaisen Aikakauden alussa, saat jättiläiskuolemanrobotin pääkaupunkiisi. Saat 3 [ICON_Resource_Uranium] uraania kierroksessa. [ICON_Resource_Uranium] Uraanikaivokset kerryttävät yhden resurssin enemmän kierroksessa. Tiedon ja tulevaisuuden aikakaudet.</Text>
+    </Row>
+    <!-- Features -->
+    <Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_REEF_CHAPTER_HISTORY_PARA_1">
+      <Text>Riutat muodostuvat avoimen veden pinnan alapuolella ja toimivat nopeusrajoituksena aluksille. Vaikka jotkut ovat koostuneet ei-elollisesta materiaalista, kuten hiekasta, kivestä tai haaksirikkoutuneista laivoista riutoilla, jotka on tehty hiekasta ja kivestä, eläväisimmät ovat trooppisissa vesissä sijaitsevat koralliriutat.</Text>
+    </Row>
+    <!-- Resources -->
+    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TURTLES_CHAPTER_HISTORY_PARA_1">
+      <Text>Johtuen kilpikonnien pyytämisen ja lihan valmistuksen vaikeudesta, niitä on historiallisesti yhdistetty yhteiskuntien eliitteihin, mikä on johtanut ylikalastukseen. Kuitenkin viime vuosina villien kilpikonnien laillinen suojeleminen ja viljelytoiminnot ovat astuneet voimaan näiden eläinten säilyttämiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_OLIVES_CHAPTER_HISTORY_PARA_1">
+      <Text>Oliiviöljyn ja hedelmien käyttö on ollut tärkeää ihmisten kotitaloudessa pronssikaudelta lähtien. Roomalaiset levittivät niiden käyttöä ja viljelyä ensimmäisen ja kolmannen vuosisadan välillä vaatiessaan jopa oliiviöljyn käyttöä veronkantojen yhteydessä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_AMBER_CHAPTER_HISTORY_PARA_1">
+      <Text>Meripihkaa on arvostettu sen koristeellisen arvon vuoksi jo neoliittiselta ajalta lähtien ja sitä on käytetty laajalti myös uskonnollisissa käytännöissä. Meripihan tuoksu teki siitä kaupallisesti arvokkaan eurooppalaisille katolilaisille reformaation aikana, jotka pitivät sitä Jumalan siunauksena.</Text>
+    </Row>
+    <!-- Districts -->
+    <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GOVERNMENT_CHAPTER_HISTORY_PARA_1">
+      <Text>Vaikka hallitus saattaa olemassa kansalaisten sydämissä ja mielissä sekä hallitun suostumuksella, hallituksen toteuttaminen vaatii työpöytiä, arkistoja tallentamaan dokumentit ja kokoushuoneita keskustelemaan valtion asioista. On hyödyllistä, jos hallitus voi varata tilaa jossakin omistautuneiden kirjurien, virkamiesten, virkanimitysten haltijoiden ja poliitikkojen tehtävien suorittamiseen, jotta valtion asiat voidaan hoitaa ajallaan. Historian aikana monet sivilisaatiot ovat konsolidoineet byrokraattinsa keskitettyihin alueisiin, luoden hallintoon omistautuneita toimistoja hallintokeskuksiksi. Lontoon Westminster, Moskovan Kreml tai Brasilian Eixo Monumental ovat kaikki esimerkkejä hallintokeskuksesta</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_WATER_STREET_CARNIVAL_CHAPTER_HISTORY_PARA_1">
+      <Text>Oikeutetusti yksi maailman kuuluisimmista ranta-alueista (ja kiinnostavasti nimetty Bolivian korkeilla seuduilla sijaitsevan paikan mukaan) Copacabana on suuri osa Brasilian identiteettiä sekä kotimaassa että maailmanlaajuisesti. Virallisesti sijaiten Fort Copacabanan eteläpäässä ja Fort Duque de Caxiasin pohjoispäässä, se oli suurimmaksi osaksi Rio de Janeiron eliitin ylellinen naapurusto, jossa Copacabana Palace Hotel oli suurin maamerkki. 1970-luvulla kapea ranta laajeni ja alueesta tuli suosittu matkakohde auringonpalvojille ja turisteille kaikista sosiaaliluokista. Siellä on järjestetty massiivisia konsertteja, uudenvuoden juhlia ja jopa paavin messu.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_CHAPTER_HISTORY_PARA_1">
+      <Text>Läpi historian yksi suosituimmista aktiviteeteista kaupungeissa on ollut lähteä pois sieltä, kun kesä alkaa kuumeta. Julkisen liikenteen tarjotessa viileämpiä vaihtoehtoja laajemmalle ihmisjoukolle teollisen vallankumouksen aikana, rantalomakohteet näkivät suuren suosion kasvun ja laajensivat palveluitaan sisältämään mukavuuksia, kuten kävelykatuja ja huvipuistolaitteita rannan (tai järven, tai ison joen, tai minkä tahansa paikallisen vesimuodon...) ja veneilyn lisäksi. Mitä ennen oli vain rikkaiden ja voimakkaiden aluetta, on nyt saatavilla miljoonille, ja auringon noustessa, vesipuisto avaa ovensa pitääkseen ihmiset viihdytettyinä ja viileinä kesän auringolta.</Text>
+    </Row>
+    <!-- Buildings -->
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FOOD_MARKET_CHAPTER_HISTORY_PARA_1">
+      <Text>Kaukana nykypäivän fluoresoivasti valaistuista kaupallisista elintarviketuotantokeskuksista, aikaiset ulkoilmamarkkinat olivat paikka, jossa maanviljelijät pääsivät eroon ylimääräisistä saannoistaan ja karjastaan. Asiakkaat puolestaan pystyivät tarkistamaan ruoan suhteellisen puhtauden.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FOOD_MARKET_CHAPTER_HISTORY_PARA_2">
+      <Text>Ruokamarkkinoista tulisi kaupunkien välttämätön piirre, kun ne siirtyvät kauemmaksi ruoantuotantoalueista - osittain kauppaa, osittain kansalaistoimintaa, jolla pidetään väestö ruokittuna. Joitakin markkinoita rakennettiin kaupunkien rinnalle, joissa ne perustettiin; esimerkiksi kauppiaat ovat myyneet juustoa ja lihaa Suq Bab al-Lūqissa Kairossa vuodesta 969 CE.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_TALL_CHAPTER_HISTORY_PARA_1">
+      <Text>Monarkkisia ja hallitsijakeskeisiä hallintorakenteita kehitettäessä hallitsijan toimien seremonialistaminen valtion asioissa tuli yleiseksi. Tämä näkyi arkkitehtuurissa, sillä oli monia konkreettisia etuja luoda erityisiä tiloja, joissa hallitsija voisi nähdä ja näkyä valtionpäämiehenä. Aluksi voitiin tehdä paikasta huomattavan loistelias tai erittäin koristeellinen, ja pelotella ketä tahansa, joka astui sisään, jo ennen kuin hän aloitti pyytämistäsi asioista</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_TALL_CHAPTER_HISTORY_PARA_2">
+      <Text>Kuulijasali on tila, joka on suunniteltu erityisesti pääsyn antamiseksi hallitsijalle hänen roolissaan hallitsijana. Sali saattaa sisältää valtaistuimen (ja olla tunnettu valtaistuinsalina), tai siinä saattaa olla jokin muu tapa osoittaa kuka on vastuussa, tai hallitsija saattaa olla niin tärkeä, että hän lähettää palvelijoita edustamaan itseään, kun istuu itse valtaistuinsalissa osoittaakseen, että hänellä on liian kiire tavata ketään juuri nyt.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_WIDE_CHAPTER_HISTORY_PARA_1">
+      <Text>Esivanhempien halli on rakennus, joka liittyy esi-isien kunnioittamiseen, ja parhaat esimerkit näistä tulevat meille Kiinasta (vaikka konseptin variaatioita on rakennettu muuallakin historian aikana). Ne ovat olemassa paikkana, jossa elävä sukupolvi voi osoittaa kunnioitusta ja kunniaa aiemmille sukupolville heidän sukuhaaroissaan, ja suorittaa tärkeitä perhejuhlia, kuten häitä ja hautajaisia</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_WIDE_CHAPTER_HISTORY_PARA_2">
+      <Text>Kuten suvun tukikohta, he toimivat tärkeänä keskuksena perheen identiteetissä. Riippumatta siitä, kuinka kauas perhe saattaa muuttaa, he tietävät voivansa palata esi-isiensä saliin ja yhdistyä tärkeällä tavalla alkuperäpaikkaansa. Tämä identiteetin maadoitus on näille ihmisille voimavarana ja saa heidät tuntemaan kuuluvansa katkeamattomaan ihmisen ponnistusten ja saavutusten ketjuun.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CONQUEST_CHAPTER_HISTORY_PARA_1">
+      <Text>Englanninkielinen sana "Warlord" on suhteellisen moderni käsite (se ilmestyi ensimmäisen kerran 1850-luvulla), mutta sotilaallisen johtajan käsite sivilisaatiossa, jolla on ylimitoitettu valta, on muinainen. Analogiset termit kuten "Dux Bellorum" latinaksi (joka on aatelisarvon "herttua" alkuperä), tai junfa kiinaksi 1900-luvulla, ovat ilmestyneet itsenäisesti useita kertoja historian aikana, väistämättä liittyen ajatukseen sotilaallisesta johtajasta, jonka todellinen valta ylittää hänen nimellisten hallitsijoidensa valtaa. Vaikka kuningas voi hallita, sotapäällikkö usein hallitsee.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CONQUEST_CHAPTER_HISTORY_PARA_2">
+      <Text>Onnistunut sotapäällikkö on se, joka pystyy kääntämään taistelukentällä saavutetun menestyksen poliittiseksi pääomaksi, ja siksi monet historiassa menestyneet sotapäälliköt ovatkin rakentaneet monumentteja kunniansa osoitukseksi (kuten Trajanuksen pylväs), muokanneet olemassa olevia monumentteja (kuten Kleopatran neula, jonka historia on yhtä mielenkiintoinen kuin sen harhaanjohtava nimi), kuljettaneet mukanaan pyhimyskirjoittajia (kuten Aleksanteri Suurella), tai ympäröineet itsensä seuraajiensa hovilla (kuten Wei-kauden valtakunnan perustajalla Cao Caolla). Joskus tämä tarkoittaa rakennuksen luomista, jossa sotapäällikkö voi suunnitella sekä sotilas- että poliittisia kampanjoita ja neuvotella luotettujen neuvonantajiensa kanssa - tietysti vain valtion parhaaksi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_FAITH_CHAPTER_HISTORY_PARA_1">
+      <Text>Vaikka harvinaisia, uskonnolliset sotilasjärjestöt ovat mielenkiintoinen risteys henkisen ja maallisen välillä. Parhaimmat ovat olleet eliittisotilaita ja ovat saavuttaneet paikan kulttuurisessa mielikuvituksessa paljon suuremman vaikutuksen kuin mitä heidän historiallinen merkityksensä olisi. Lännessä oli ristiretkeläisjärjestöjä kuten Temppeliherrat, Johanniittain ritarikunta ja Saksalainen ritarikunta. Japanissa tuotettiin sohei, sotilaallinen buddhalainen munkkijärjestö</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_FAITH_CHAPTER_HISTORY_PARA_2">
+      <Text>Lännessä uskonnollisen sotilasjärjestyksen johtajaa kutsutaan yleensä suurmestariksi, ja hän yhdistää henkisen ja sotilaallisen johtajuuden henkilöön ja rooliin. Suurmestarin odotettiin toimivan ihanteiden esimerkkinä seuraajilleen, mutta hänelle annettiin myös tiettyjä etuoikeuksia ja oikeuksia. Tämä saattoi sisältää yksityisen rukous- ja palvontapaikan, johon hän saattoi vetäytyä mietiskelemään ja saamaan voimaa taivaan voimien voittamiseksi maan päällä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CITYSTATES_CHAPTER_HISTORY_PARA_1">
+      <Text>Sivilisaatioiden ja kansojen väliset suhteet ovat pitkään perustuneet muodollisuuteen, sillä hyvät tavat auttavat lieventämään väärinkäsityksiä ja estämään sotien syttymistä. Tämä johtaa luonnollisesti siihen, että sivilisaatiot palkkaavat ihmisiä toimimaan diplomaatteina ja muiden sivilisaatioiden vastaanottamaan nämä diplomaatit, ja kun asiat muuttuvat yhä monimutkaisemmiksi, lisätään kokonainen luokka ihmisiä siviilijärjestelmään, jotka vastaavat hallituksen puolesta diplomatian hoitamisesta</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CITYSTATES_CHAPTER_HISTORY_PARA_2">
+      <Text>Ulkoministeriö hoitaa kaikki diplomaatteihin, suurlähettiläisiin, akkreditointiin ja muiden hallitusten ja niiden ministerien tunnustamiseen liittyvät asiat. Sitä pidetään usein yhtenä, jos ei jopa tärkeimpänä, valtionpään virastoista, koska se edustaa kansakuntaa tai sivilisaatiota maailman näyttämöllä. Ministerit ja ulkoasiainviranomaiset testataan yleensä tarkasti ja heidät seulotaan, koska hyvien suhteiden tärkeys kansojen välillä on yhtä tärkeää tänään kuin muinoin, kun Egypti ja Babylon vaihtoivat diplomaattisia tervehdyksiä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SPIES_CHAPTER_HISTORY_PARA_1">
+      <Text>On olemassa monia valtion asioita, jotka on käsiteltävä huomaamattomasti. On asioita, joiden käytännön ratkaisut ovat ristiriidassa valtion ja sen johtajuuden tarkoitetun julkisuuskuvan kanssa. Tämän vuoksi hallitsijat ovat taipuvaisia luottamaan pienelle joukolle ammattilaisia, jotka omaavat hienotunteisuutta ja mahahaavan valtion salaisissa asioissa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SPIES_CHAPTER_HISTORY_PARA_2">
+      <Text>Historian aikana on lukuisia ja kuuluisia esimerkkejä. Vakoilutarinoita löytyy Vanhasta Testamentista. Vakoojien parhaista käytännöistä, petoksesta ja harhautuksesta kirjoitettiin klassisessa Intiassa ja Kiinassa. Sun Tzun teoksessa "Sodankäynnin taito" on kokonainen luku nimeltä "Tiedustelu ja vakoilu", ja Arthashastrassa on luku vakoilusta, vastavakoilusta ja tiedustelusodankäynnistä. Georgian kuningas David IV:llä oli mstovaris, jotka pitivät hänet ajan tasalla erilaisista juonista hänen alueellaan</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SPIES_CHAPTER_HISTORY_PARA_3">
+      <Text>Kuitenkin moderni tiedustelupalvelu voidaan jäljittää Francis Walsinghamin tekemään työhön, joka oli peloton salaisen tiedustelun mestari ja kuningatar Elisabet I:n uskollinen palvelija. Hänen ja hänen henkilöstönsä ansiosta voimme jäljittää menetelmälliset koodaus- ja koodinmurtamiskäytännöt, kenttäagenttien valvonnan ja toisten ihmisten postin lukemisen. Emme voi vahvistaa tai kieltää sitä, että hänellä oli koko tiimi kekseliäitä laitteita heidän vakoojilleen, kuten laserkyniä ja urheiluautoja, joissa oli putoamissiivekkeet.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_MILITARY_CHAPTER_HISTORY_PARA_1">
+      <Text>Sotaministeriö (tai sen eufemistisesti nimetty vastine puolustusministeriö) kilpailee ulkoministeriön kanssa pääkonttorin "tärkeimmän toimiston" tittelistä. Se on seurausta useiden voimien yhtymisestä: hallinnon kasvavasta monimutkaisuudesta, ammattimaisen sotilas- ja esikuntaupseerin noususta ja siitä tiedosta, että hallitsematon, karismaattinen sotapäällikkö sotilaiden johdossa voi johtaa huonoihin seurauksiin hallituksen pitkäaikaisen selviytymisen kannalta. Sotahistorian opiskelijalle on huomattavaa, kuinka kerran kiistanalainen siviilien valvonta sotilasjohtoon on nyt tehokkaasti kodifioitu maailman suurimpien kansakuntien keskuudessa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_MILITARY_CHAPTER_HISTORY_PARA_2">
+      <Text>Nykyään Yhdysvaltojen puolustusministeriö on näistä Sotaministeriöistä suurin. Se sijaitsee Washington D.C:n laitamilla sijaitsevassa valtavassa Pentagon-rakennuksessa, on maailman suurin työnantaja, valvoo maailman suurinta armeijaa ja käyttää suurinta sotilasbudjettia verrattuna mihin tahansa muuhun kansakuntaan (yli kymmenen seuraavan suurimman armeijan yhteensä)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CULTURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kun kansakunta alkaa kehittää identiteettiään, se etsii tapoja juhlistaa tätä identiteettiä ja säilyttää historiallisia elementtejä, jotka siihen vaikuttavat, ja näin syntyy Kansallishistorian museo. Sen tarkoituksena on kertoa kansakunnan ja sen ihmisten tarina keräämällä ja säilyttämällä merkittäviä esineitä ja asiakirjoja, ja sitten tulkita ja esitellä ne kansalaisille ja vierailijoille.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_CULTURE_CHAPTER_HISTORY_PARA_2">
+      <Text>Kansallinen historia museo juhlistaa parhaimmassa muodossaan kansakunnan ja sen eri ryhmien historiallisia ja kulttuurisia saavutuksia. Nykyaikana vähemmistöjen etnisten ja kulttuuristen ryhmien tunnustaminen on tullut tärkeämmäksi, ja näiden ryhmien tarinoita kerrotaan yhä useammin ja yksityiskohtaisemmin. Vaikka tämä haastaa mukavia kansallisia myyttejä, omistautuminen totuudelle ja unohdettujen tekijöiden uudelleen löytäminen antaa tarkemman kuvan kansakunnan menneisyydestä ja toivottavasti selkeyttä näkymälle parempaan tulevaisuuteen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SCIENCE_CHAPTER_HISTORY_PARA_1">
+      <Text>Valaistunut hallitsija on sellainen, joka on tietoinen tietämyksensä rajoituksista. Erityisen ovela hallitsija pitää mukanaan ryhmän oppineita ja filosofeja, jotka auttavat korjaamaan näitä puutteita ja jotka saattavat aika ajoin saada aikaan tieteellisiä innovaatioita, joista on käytännön hyötyä valtakunnalle tai valtiolle</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SCIENCE_CHAPTER_HISTORY_PARA_2">
+      <Text>Alkuperäinen Royal Society perustettiin Englannissa, kuningas Charles II:n antaman peruskirjan alaisena. He kokoontuivat aika ajoin ja suorittivat kokeita luonnontieteissä tai fysiologiassa. Tämä tapahtui juuri varhaisen modernin aikakauden käynnistyessä ja Isaac Newtonin ja Robert Hooken kaltaiset jättiläiset olivat elossa, jonka seurauksena kehittyi yksi tuotteliaimmista tieteellisistä kukinnoista, jota on koskaan kehitetty. Keräämme edelleen Royal Societyn työn hedelmät tänä päivänä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOV_SCIENCE_CHAPTER_HISTORY_PARA_3">
+      <Text>Siitä ensimmäisestä Royal Societysta lähtien ympäri maailmaa on perustettu useita kansallisia tiedeseuroja, jotka koostuvat jokaisen tieteenalan parhaista tutkijoista ja jotka tutkivat luonnon ja universumin mysteerejä vapaan tiedonhankinnan hengessä. Mutta kaikki ne noudattavat alkuperäistä Royal Societyn mottoa "Nullius in verba" - Älä hyväksy kenenkään kyseenalaamatonta sanaa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SHOPPING_MALL_CHAPTER_HISTORY_PARA_1">
+      <Text>Nykyajan ostoskeskus on jatkoa antiikin Rooman julkisille markkinoille - tosin paremmalla pääsyllä tuoreisiin leivottuihin suolapaloihin.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SHOPPING_MALL_CHAPTER_HISTORY_PARA_2">
+      <Text>Kauppakeskukset, tai ostoskaaret, ovat keskitettyjä kauppakeskittymiä yhdessä paikassa. Jotkut, kuten Damaskoksen Al-Hamidiyah Souq 1800-luvulla, olivat käytännössä katettuja markkinoita, kun taas Pietarin Great Gostiny Dvor tarjosi aikaisemman "perinteisen" kauppakeskuskokemuksen vuonna 1785.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SHOPPING_MALL_CHAPTER_HISTORY_PARA_3">
+      <Text>Keski-Twentieth Centuryyn mennessä suljettu ostoskompleksi, kuten tunnemme sen, saapuisi vuonna 1955 Appletonin Valley Fair -ostoskeskuksessa Wisconsinissa ja Ralph Erskinen suunnittelemassa ostoskeskuksessa Ruotsin Luleassa. Jäätelöannostelupisteitä seuraisi pian sen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FERRIS_WHEEL_CHAPTER_HISTORY_PARA_1">
+      <Text>Vaatiessaan siltojen insinöörien luovuutta, paria 1000 hevosvoimaisia moottoreita ja ripausta dynamiittia, ensimmäinen maailmanpyörä olisi yksi vuoden 1893 Chicagon Columbian maailmannäyttelyn suurimmista saavutuksista.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FERRIS_WHEEL_CHAPTER_HISTORY_PARA_2">
+      <Text>Nyt huvipuistoissa, karnevaaleilla ja messuilla tavallinen nähtävyys, ensimmäinen maailmanpyörä oli Chicagon insinööri George Washington Gale Ferris Jr:n keksintö vastauksena Eiffel-tornille (joka oli merkittävä osa vuoden 1889 maailmannäyttelyä).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FERRIS_WHEEL_CHAPTER_HISTORY_PARA_3">
+      <Text>1900-luvulla markkinat ja messut ottivat Ferrisin suunnittelun käyttöön (yhdessä muiden ajeluiden kanssa), laajentaen nämä vapaa-ajan aktiviteetit yläluokan ulkopuolelle.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUARIUM_CHAPTER_HISTORY_PARA_1">
+      <Text>Nykyajan akvaario tarjoaa mahdollisuuden nähdä suuria meren petoja ilman raajojen vaaraa. Ne toisivat silmiemme eteen yhdistelmän nähtävyyttä ja oppimista.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUARIUM_CHAPTER_HISTORY_PARA_2">
+      <Text>Roomalaiset aloittivat kalojen kasvatuksen marmorisissa akvaarioissaan noin 50 jKr yhdellä lasipaneelilla. Kuitenkin ensimmäinen julkinen akvaario avattiin vasta vuonna 1853 Lontoon eläintarhan "Kala-talolla"</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUARIUM_CHAPTER_HISTORY_PARA_3">
+      <Text>Tänään Atlanta, Georgia ylpeilee maailman suurimmalla akvaariolla, jossa on valtava 24 miljoonan gallonan haitankki.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUATICS_CENTER_CHAPTER_HISTORY_PARA_1">
+      <Text>On sanottava jotakin yhteisestä kokemuksesta nauttia vesitoiminnoista ilman villien meri- ja järviolentojen vaaroja, jotka keskeyttävät hauskanpidon.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUATICS_CENTER_CHAPTER_HISTORY_PARA_2">
+      <Text>Uima-altaat ja vesikeskukset ovat olleet kaupunkien piirteitä jo jonkin aikaa; ota esimerkiksi Pakistanin "Great Bath", yksi varhaisimmista tunnetuista uima-altaista. Rakennettu joskus 3000 eaa., se oli todennäköisesti uskonnollinen rakennus (mikä ilmenee liukumäkien ja hyppytornien puuttumisesta).</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AQUATICS_CENTER_CHAPTER_HISTORY_PARA_3">
+      <Text>Vertaa tuota vaatimattomampaa 11,88 x 7,01 metrin rakennelmaa massiiviseen, 40 metrin syvyyteen ulottuvaan Y-40 allas Italiaan (avattu vuonna 2014) ja voit nähdä uimakokemuksen laajuuden ja syvyyden.</Text>
+    </Row>
+    <!-- Units -->
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRONE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kun 20. vuosisadan vaihtuminen 21. vuosisadaksi tapahtui, modernin sodankäynnin ja tiedustelun kasvot muuttuivat. Droonit (joita kutsutaan myös "miehittämättömiksi ilma-aluksiksi" tai "UAViksi") mahdollistavat armeijalle vihollisen tarkkailun ja hyökkäyksen vaarantamatta omia sotilaita. Vaikka drooneja ei fyysisesti lennätä kukaan, ne vaativat lentäjiä - olivatpa ne esiohjelmoituja lennon kuvioita tai ihmislentäjiä, jotka välittävät komentoja satelliitin kautta. Ne voivat toimia "taivaan silminä" vaarallisilla alueilla, olipa kyse sitten taistelukentistä tai luonnonkatastrofialueilta, ja voivat jopa suorittaa kaikkein banaaleimpia tehtäviä, kuten pizzan ja pakettien kuljetusta.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRONE_CHAPTER_HISTORY_PARA_2">
+      <Text>Yllättäen nämä aseet eivät ole uusi keksintö - vaikka aiempien yritysten käytännöllinen käyttö ja taisteluteho oli kyseenalainen, parhaimmillaan. ("Pommikantavat lepakot" -suunnitelma, jonka eräs amerikkalainen hammaslääkäri ehdotti toisen maailmansodan aikana, ei koskaan todella toiminut tehokkaana aseena liittoutuneille.)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PIKE_AND_SHOT_CHAPTER_HISTORY_PARA_1">
+      <Text>Espanjalaiset armeijat kehittivät monipuolisen puolustustaktiikan katastrofaalisen kokemuksensa jälkeen Seminaran taistelussa. Yksikkö koostui piikkimiehistä ja jousimiehistä (infanteria aikaisilla tuliasaseilla), jotka liikkuivat yhtenäisenä lohkona: piikkimiehet keskellä, jousimiesryhmät heidän ympärillään. Jousimiehet voivat iskeä vihollisia kantaman päässä ja vetäytyä sitten piikkimiesten "verhon" taakse, kun vihollisen infanteria tai ratsuväki uhkasi. Se toimi hyvin espanjalaisille jousimiehille, jotka voivat ladata tunnetusti monimutkaiset aseensa minimaalisella pelolla hevosen tallomisesta.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUPPLY_CONVOY_CHAPTER_HISTORY_PARA_1">
+      <Text>Mekanisoidun jalkaväen myötä logistiikka kasvoi entistä monimutkaisemmaksi. Moottoroitu armeija voi liikkua vain niin kauan kuin sen polttoaine riittää, minkä vuoksi tukikuljetukset tulivat modernin sodankäynnin tärkeimmiksi osiksi. Moottorikuljetukset pystyivät kuljettamaan ruokaa, polttoainetta ja lääkintätarvikkeita luotettavammin ja tehokkaammin kuin kuormia vetävät eläimet. Ne myös mahdollistivat nopeamman siirtymisen liikkuvien kenttäsairaaloiden tai polttoainevarastojen lähelle operoidessaan enemmän liikkuvalla rintamalla.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SPEC_OPS_CHAPTER_HISTORY_PARA_1">
+      <Text>Jotkut sotilaalliset ongelmat kantavat vakavia epäonnistumisen riskejä, jos ne ratkaistaan pelkästään sotilaallisilla ratkaisuilla - herkkä poliittinen jälkipyykki, äärimmäiset sääolosuhteet/ympäristöhaitat tai suuttunut ja vastustava paikallinen väestö. Erikoisjoukot (lyhyesti "erikoisjoukot") ovat sotilaita, jotka on koulutettu käsittelemään näitä vaikeita tilanteita, jotka vaihtelevat taistelusta ja tiedustelusta poliittisiin tai siviiliasioihin. He luottavat ylivertaiseen taitoon, taktiikkaan ja varusteisiin suorittaakseen tehtäviä, joita muuten olisi mahdotonta suorittaa suuremmilla yksiköillä, kouluttaen vieraan kielen ja tapojen mukaan toiminta-alueillaan. Heidän vahvuutensa piilee luovassa lähestymistavassa viholliseen ja heidän kyvyssään toimia epäröimättä, riippumatta siitä, kuinka epätavanomaista tai vaarallista tilanne voi olla.</Text>
+    </Row>
+    <!-- City States -->
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_1">
+      <Text>Runoilija Joseph Brodsky kuvailee Venetsiaa "ikuiseksi". Samoin toskanalainen runoilija Petrarch kuvaili Venetsiaa 1300-luvulla "mundus alter" - "toiseksi maailmaksi". He eivät ole yksin ylistyksessään. Kirjailijat, elokuvantekijät ja runoilijat, kuten Lord Byron, Thomas Mann, William Shakespeare, Daphne du Maurier ja monet muut, ovat löytäneet inspiraatiota vanhasta kaupungista, joka roikkuu meren rannalla. Kaupungin sydän on rakennettu saarelle keskelle laguunia, joten Venetsia on kaupunki, joka elää läheisesti veden kanssa. Sen kaupankäynnin historia huomioiden se on kaupunki, joka on aina tehnyt niin. Itse asiassa Venetsian doge (termi, joka on peräisin latinan sanasta "herttua", ei "doge" kuten Internet-memessä) symbolisesti "nai" meren erityistilaisuuksissa. Oikea termi valtiolle, kuten Venetsialle, on "thalassocracy" - meren tasavalta. Meren maa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_2">
+      <Text>Venetsian juuret juontavat juurensa germaanisiin ja hunnien hyökkäyksiin Rooman valtakunnan lopussa. Roomalainen hallinto Italiassa hajosi, ja varakkaat roomalaiset perheet muuttivat saarelle säilyttääkseen omaisuutensa ja estääkseen sen siirtymisen vapautuville hunniperheille. Italian ollessa kaaoksessa Venetsia liittoutui Rooman jäännösten - bysanttien - kanssa, mutta lopulta irtaantui ja tuli itsenäiseksi kaupunkivaltioksi. Bysantin vähentyessä voimastaan ​​ja erityisesti sen jälkeen kun ristiretkeläiset ryöstivät Konstantinopolin 1204, Venetsia pystyi hallitsemaan kauppaa Välimeren uudenaikaisten arabivaltojen kanssa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_3">
+      <Text>Tänä aikana Venetsia oli valtansa huipulla. Venetsialainen taide oli erittäin vaikutusvaltaista. Venetsialaisia taiteilijoita olivat Bellinin perhe, joka korosti maalauksen ja saatavilla olevan valon vuorovaikutusta. Muita taiteilijoita olivat Tiziano, Giorgione ja Veronese, kaikki taiteilijat, jotka kokeilivat tekstuuria ja aistillisuutta, valoa ja maisemaa. Venetsialainen karnevaali, jossa on monimutkaisia ​​naamioita ja pukuja, on edelleen suosittu kuva yltäkylläisyydestä ja aistillisuudesta, ja venetsialainen lasinpuhallus on edelleen erittäin taitava taide.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_4">
+      <Text>Venice’s empire was one of trade. But trade comes with vulnerabilities. The Black Death and subsequent plagues, carried as they were on the hides of rats which in turn hid in ships’ holds, devastated the city again and again. Further, in the 15th century, Venice received two major blows – one from the east, and one from the west. In the east, Venice supported its old ally Byzantium as it held out against the Ottoman Turks, a thing that the Ottoman Sultan did not forgive or forget, and Venice saw its ships plundered and ports cut off as the Ottomans gained power across the eastern Mediterranean. Further, to the west, Portuguese sailors perfected long-distance seaborne trade to East Asia, thereby cutting off the need to deal with the Mediterranean (and Venetian ships) at all.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_5">
+      <Text>Venetsia menetti itsenäisyytensä, kun Napoleon valloitti sen nimikkosotien aikana varhaisella 1800-luvulla. Venetsiassa Napoleonin valloitus, vaikka se päätti kaupungin itsenäisyyden, ei ollut aivan huono asia. Napoleon poisti Ghetton portit - kaupungin alueen, jossa Venetsian juutalaisväestön oli pakko asua - ja salli kaupungin juutalaisten asettua minne tahansa, mikä teki hänestä jonkinlaisen sankarin joillekin venetsialaisille. Napoleonin tappion jälkeen Venetsia ei palannut itsenäisyyteensä, vaan se annettiin Itävallalle ja myöhemmin nousevalle Italian kuningaskunnalle. Se on edelleen tänäänkin italialainen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ANTIOCH_CHAPTER_HISTORY_PARA_6">
+      <Text>Kaupunki on nyt yksi maailman kuuluisimmista turistikohteista. Se on myös uppoamassa Adrianmereen. Ilmastonmuutos ja merenpinnan nousu muodostavat vakavan uhan kaupungille, sillä sen aiemmin edullinen sijainti suolaisen laguunin mutaisella saarella on muuttunut sen vaarallisimmaksi ominaisuudeksi: esimerkiksi vuonna 2019 kaupungin 80 prosenttia tulvi. Näyttää siltä, että avioliitto meren kanssa on muuttunut intiimimmäksi kuin Doge olisi halunnut. Vau. Paljon vettä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BABYLON_CHAPTER_HISTORY_PARA_1">
+      <Text>Elamilaista taidetta olivat yhdistelmät ihmisen ja eläimen muodoista tavalla, jotka voivat olla vaikuttavan herkkiä ja kauniita. Esimerkiksi proto-elamilainen "polvistuva härkä astialla", joka on nyt New Yorkin Metropolitan-taidekokoelmassa, on hopeinen veistos pehmeästä, lihaisasta ihmishahmosta, jolla on härän pää ja kaviot, jotka pitävät kupista kiinni. Se on yhtä aikaa feminiininen ja maskuliininen, eläin ja ihminen. "Polvistuvan härän" vastakohtana "Guennol-leijonanaaras" kalkkikiviveistos on voimakkaasti lihaksikas ja androgyyninen ihmishahmo, jolla on kynnet, häntä ja leijonan pää - säteilevällä voimalla, mutta samalla androgyynisellä. Elamilaiset sinetit - pyöreät sylinterit, jotka tekivät kuvan, kun niitä kierrettiin kosteaan saveen - olivat erityisen monimutkaisia, ja vaikka patsailla ja muilla kuvilla saattoi olla uskonnollista merkitystä, sinettejä käytettiin henkilökohtaiseen tunnistamiseen kaupassa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BABYLON_CHAPTER_HISTORY_PARA_2">
+      <Text>Sivilisaatiot nousevat ja kaatuvat, mutta Anshan pysyi merkittävänä. Vuonna 2700 eaa. Sumerilaiset valloittivat Anshanin hetkeksi ja toisinaan se joutui lähialueiden ryhmien vaikutusvaltaan siitä, mikä on nykyään Iran, mutta se ei ollut lopullinen kaatuminen. Yli tuhat vuotta myöhemmin vuonna 1500 eaa. Anshanista tuli uuden imperiumin keskus, joka taisteli Babylon vastaan ja jopa ryösti suuren kaupungin, tuoden takaisin Babylonian jumala-kuninkaan Mardukin patsaan saaliina. Elamilainen hallitsevuus ei kuitenkaan kestänyt, ja kaupunki alkoi laskea 500-luvulla eaa. Raamatullinen profeetta Hesekiel kuvasi Elamia laskussa tällä tavalla:</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BABYLON_CHAPTER_HISTORY_PARA_3">
+      <Text>"On Elamin ja hänen kansansa paljonluvussa kaikki hänen hautansa ympärillä, kaikki heidät tapettiin miekalla, he lankesivat maahan ympärileikkaamattomina ja vaipuivat alas maan syvyyteen. He herättivät pelkoa elävien maassa; nyt he kantavat häpeäänsä niiden kanssa, jotka vaipuvat hautaan." (Hesekiel 32:24)</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BABYLON_CHAPTER_HISTORY_PARA_4">
+      <Text>Ajan myötä persialaiset siirtyivät Anshaniin muuttaen alueen luonnetta ja elvyttäen kaupunkia. Jonkin aikaa Anshan oli Persian pääkaupunki ja legendaarinen Kyros Suuri syntyi siellä. Vaikka saattaisimme ajatella Kyrosta kaukaisesta antiikista - hän hallitsi 550-luvulla eKr, hän syntyi kaupungissa, joka oli jo 2 500 vuotta vanha. Toisin sanoen, Anshan oli yhtä vanha, kun Kyros hallitsi siellä kuin Kyros olisi tänään. Jos hän olisi elossa. Mikä hän ei ole.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BABYLON_CHAPTER_HISTORY_PARA_5">
+      <Text>Persian huomio siirtyi kuitenkin muualle, ja kun valtakunta rakensi uuden pääkaupungin Persepoliissa, Anshanista tuli vain toinen kylä. Sitten siitä tuli raunio</Text>
+    </Row>
+    <!-- Improvements -->
+    <Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_FISHERY_CHAPTER_HISTORY_PARA_1">
+      <Text>Kulttuurit, joiden toimeentulo perustuu kalastukseen, joutuvat lopulta kamppailemaan ylikalastuksen uhkan kanssa. Mitä enemmän kalaa vedetään merestä, sitä vähemmän on mahdollista luoda uutta kalaa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_FISHERY_CHAPTER_HISTORY_PARA_2">
+      <Text>Yksi kokeiltu ja toimiva ratkaisu on vaatimaton kalankasvatus, jossa kalat kasvatetaan suljetussa tilassa tuottaen melko ennustettavan määrän kalaa. Kulttuurit ovat harjoittaneet tätä "kestävää vesiviljelyä" jo tuhansia vuosia, muinaisesta Kiinan karpin kasvatuksesta moderneihin rannikkolohi-aitauksiin. Tällainen käytäntö toimii hyvin kaikille osapuolille - paitsi tietysti kalalle.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CITY_PARK_CHAPTER_HISTORY_PARA_1">
+      <Text>Kaupunkiympäristö tarjoaa monia etuja ihmistoiminnalle, mutta kaupunkiympäristö voi myös osoittautua stressaavaksi asukkaille ajan myötä. Tässä mielessä julkisesti perustetut ja ylläpidetyt tilat tarjoavat mahdollisuuden tuoda enemmän luonnollisia elementtejä kaupunkiin. Romanttiset aistit luontoa kohtaan ja edistykselliset asenteet julkisista virkistysalueista 1900-luvulla vaikuttivat sekä joitakin kuuluisimpia puistoja perustamiseen (kuten Central Park New Yorkissa) että aiemmin rajoitettujen puistojen (kuten Regent's Park Lontoossa tai Casa de Campo Madridissa) avaamiseen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CITY_PARK_CHAPTER_HISTORY_PARA_2">
+      <Text>Kaupunginpuisto nähdään kaupunkilaisten keskuudessa lämpimästi, sillä se tarjoaa monia asioita: luonnon keitaan, tilan kansalaiskokouksille ja osallistumiselle sekä joskus esittävien taiteiden näyttämön. Täällä puiden alla ihmiset voivat ottaa hetken ollakseen ihmisiä eivätkä vain rooliaan päivittäisessä liiketoiminnassaan.</Text>
+    </Row>
+    <!-- Great People -->
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_TIMUR_CHAPTER_HISTORY_PARA_1">
+      <Text>Timur (joka tunnetaan usein nimellä "Timur Nysä" tai "Tamerlane" länsimaissa) oli 12. vuosisadan turkkilais-mongolilainen sotapäällikkö, pelottava ja armoton hallitsija, joka nousi vaatimattomista oloista luodakseen dynastian Iranissa ja Keski-Aasiassa kuolemansa aikana, mikä johti kukoistavaan kulttuurikauteen sen jälkeen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_TIMUR_CHAPTER_HISTORY_PARA_2">
+      <Text>Hän syntyi vuonna 1336 lähellä Samarkandia. Se oli levoton osa maailmaa, levottomana aikana. Alle vuosisata aikaisemmin Genghis Khan ja Mongolin valtakunta olivat pyyhkäisseet Keski-Aasian ja jakanut alueen seuraajavaltioiksi. Timur syntyi Chagatai Khanatessa, joka polveutui mongoliryhmästä, joka oli asettunut alueelle, joka on nykyään Uzbekistan. Timur aloitti johtajana pienessä nomadiryhmässä, ja käyttämällä samaa epätavallista ratsuväkisotaa, poliittista juonittelua, diplomaattista neuvottelua ja pelottavaa mainetta kuin Genghis Khan, hän kohosi hallitsemaan koko Transoxania ennen kuin täytti 40 vuotta. Hän vietti loppuelämänsä sodassa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_TIMUR_CHAPTER_HISTORY_PARA_3">
+      <Text>Timur väitti olevansa Mongolivaltakunnan uudelleenrakentaja ja hänen valloitustensa ja onnistuneiden kampanjoidensa lista on vaikuttava. Hän aloitti Persiaa vastaan, jatkoi sitten valloituksia Pohjois-Intiassa, Venäjällä, Georgiassa, Mesopotamiassa, Syyriassa ja Egyptissä, ennen kuin kuoli aloittaessaan kampanjansa Kiinaa vastaan vuonna 1405. Mutta hän ei ollut armollinen valloittaja; Timurin kampanjat ovat kuuluisia brutaaliudesta ja verenvuodatuksesta. Hän orjuutti kaikki Aleppon kaupungin käsityöläiset ja kuljetti heidät kahleissa takaisin pääkaupunkiinsa Samarkandiin. Hän jätti Delhin ja Baghdadin kaupungit raunioiksi. Hänen aikalaiskirjoittajansa syyttivät häntä vihollistensa kallonpäistä rakennettujen tornien ja pyramidien luomisesta, mikä ei vaikuta mahdottomalta</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_TIMUR_CHAPTER_HISTORY_PARA_4">
+      <Text>Hän oli tuhlannut pääomansa Samarkandin kaupungissa elinaikanaan, vaikka vietti siellä hyvin vähän aikaa. Hänen kuolemansa jälkeen kaupungista tuli taiteen ja kulttuurin keskus, joka oli rikastettu Seljuk Turkien (kuten arkkitehtuurin) ja Persian (kuten taiteen ja kirjallisuuden) vaikutuksilla sekä sen pitkällä kauppa- ja kaupankäyntiperinteellä. Hänen jälkeläisensä hallitsivat valloittamiaan alueita suurimman osan vuosisadasta, ennen kuin Timuridin valtakunta romahti veljesvihojen ja sisäisten levottomuuksien takia.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_TIMUR_CHAPTER_HISTORY_PARA_5">
+      <Text>Nasreddin viisastarinoissa Timur esiintyy joskus julmana ja voimakkaana vastakohtana Nasreddinin yksinkertaiselle ja kansanomaiselle viisaudelle. Kiinnostuneita kehotetaan lukemaan ne.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN_CHAPTER_HISTORY_PARA_1">
+      <Text>Taitava portugalilainen kapteeni ja navigaattori espanjalaisessa palveluksessa, Magellan on kuuluisa siitä, että hän johti ensimmäistä retkikuntaa kiertämään maapallon, vaikka hän itse kohtasi väkivaltaisen lopun ennen matkan loppua.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN_CHAPTER_HISTORY_PARA_2">
+      <Text>Syntynyt vuonna 1480 Portugalin aatelisperheeseen, hän palveli lyhyesti hovipoikana. Hän purjehti Intiaan Portugalin varakuninkaan osana ja asui siellä lähes vuosikymmenen ennen kuin hänet erotettiin Portugalin palveluksesta, koska hän pyöritti luvatonta sivuliiketoimintaa. Tordesillan sopimus oli äskettäin jakanut maailman Espanjan ja Portugalin välillä, ja tarjosi yritteliäälle Magellanille mahdollisuuksia toimia tutkimusmatkailijana Espanjan palveluksessa. Maaliskuussa 1518 Espanjan Kaarle I myönsi Magellanille huomattavan apurahan mausteiden saarten löytämiseksi länteen matkustamalla, ja syyskuussa 1519 Magellan lähti viiden laivan ja 270 miehen kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN_CHAPTER_HISTORY_PARA_3">
+      <Text>Retkikunta oli hankala tapahtuma. Atlantin ylittäminen kesti odotettua pidempään ja melkein johti kapinaan. Yksi laiva menetettiin etsiessään merireittiä Patagonian läpi, ja toinen hylkäsi yksinkertaisesti retkikunnan. Kun Magellan oli löytänyt ja kartoittanut salmen Etelä-Amerikan kärjen kautta ja retkikunta oli saapunut Tyynelle valtamerelle, Magellan oletti, että mauste-saaret olivat vain muutaman päivän purjehduksen päässä, onnistumatta täysin ennakoimaan Tyynen valtameren kokoa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN_CHAPTER_HISTORY_PARA_4">
+      <Text>Magellan kuoli kahakassa Mactanin saarella Filippiineillä, joutuen paikallisten heimojen väliseen sotaan. Vain 18 eloonjäänyttä miehistön jäsentä palasi Espanjaan syyskuun 6. päivänä 1522, yhdellä laivalla (pienimmällä alkuperäisistä laivueesta). Selviytyneille ei maksettu täyttä palkkaansa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN_CHAPTER_HISTORY_PARA_5">
+      <Text>Retkikunta tuotti useita tieteellisiä löytöjä (mukaan lukien planeetan oikean koon varmistaminen), mutta ennen kaikkea se todisti mahdollisuuden kiertää koko planeetta. Euroopan löytöretkiaika oli nyt täydessä kukoistuksessaan.</Text>
+    </Row>
+    <!-- Governors -->
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_CARDINAL_CHAPTER_HISTORY_PARA_1">
+      <Text>Kardinaali on yksi korkeimmista papeista roomalais-katolisessa kirkossa, vaikka vastaavia kirkollisia arvoja esiintyy monissa muissa uskonnoissa, kuten tiettyjen ortodoksikirkkojen metropoliitoilla tai lamalla vajrayana-buddhalaisuudessa. Toimisto voi sisältää suuren omaisuuden tai suurten ryhmien valvonnan, jotka ovat vastuussa uskonnon tärkeistä näkökohdista</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_AMBASSADOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Diplomaatit ovat edustajiaan muiden maiden maailmassa ja ovat yksi vanhimmista ja arvostetuimmista palvelutehtävistä valtiolle. Diplomaateille myönnetään perinteisesti etuoikeuksia ja kunnioitusta, ja vastineeksi diplomaatti osoittaa sekä kohteliaisuutta että huomaavaisuutta isäntäänsä kohtaan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_DEFENDER_CHAPTER_HISTORY_PARA_1">
+      <Text>Kastellaani on sotilasviranomainen, joka vastaa linnan tai linnoituksen päivittäisestä johtamisesta ja sen välittömästä ympäristöstä. Koska linna oli valtavaan määrään aarteita investoitu sotilasvoiman tärkeä kohta, kastellaanin tuli olla sekä pätevä että poliittisesti luotettava. Sodan aikana pätevä kastellaani saattoi ratkaista kampanjoiden kohtalon ja siten historiallisen lopputuloksen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_RESOURCE_MANAGER_CHAPTER_HISTORY_PARA_1">
+      <Text>"Stewardin" titteli juontaa juurensa pimeisiin aikoihin ja annetaan kartanon herran edustajalle, joka voi toimia heidän puolestaan heidän poissa ollessaan. Se on suuri luottamuksen ja merkityksen asema, ja hyvä steward toimii parantaakseen omaisuuden rikkautta.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_BUILDER_CHAPTER_HISTORY_PARA_1">
+      <Text>On vanha vitsi, joka sanoo: "Sijoita maahan; niitä ei enää tehdä." Totuus on, että maan tehokas käyttö on tärkeä työ, ja tilan tehokas käyttö alkaa ymmärtämällä, mitä sinulla on kartoituksen ja kartografian avulla. Maanmittaus on yksi ammatti, joka juontaa juurensa antiikin ajoilta, ja joka on nauttinut merkittävästä tuesta niiltä, jotka ymmärtävät maan arvon.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_EDUCATOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Kasvattajat ovat enemmän kuin opettajia - he ovat menneiden aikojen tiedon vartijoita, jotka omistavat elämänsä tiedon säilyttämiselle ja levittämiselle. Koska koulutus on tullut yhä laajemmaksi ja kattavammaksi, kasvattajan rooli on myös kasvanut uusien ja tehokkaiden tapojen löytämisessä kerätyn viisauden välittämiseksi oppilailleen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_THE_MERCHANT_CHAPTER_HISTORY_PARA_1">
+      <Text>Rahoittaja on virallinen henkilö, joka vastaa budjetti- ja talousasioista, ja hänen työssään tarvitaan tarkkaa ymmärrystä taloudesta ja markkinoiden psykologiasta. Valtion rahan kanssa leikkiminen ei ole herkkähermoisille.</Text>
+    </Row>
+    <!-- Espionage -->
+    <Row Tag="LOC_PEDIA_ESPIONAGE_FABRICATE_SCANDAL_CHAPTER_HISTORY_PARA_1">
+      <Text>Politiikan johtaja ilman seuraajia ei ole uhka, ja yksi parhaista tavoista poistaa seuraajat on tehdä johtajasta epäsuositettava kansalle. Hyvä skandaali yleensä tekee tehtävänsä, ja skandaalin paljastaminen tai keksiminen on osa pätevän tiedusteluviranomaisen työkalupakkia. Jopa tapauksissa, joissa skandaali on täysin keksitty, kohteiden on silti tuhlattava arvokasta poliittista pääomaa väittääkseen vastaan. Tässä käytännössä on rikas sanasto, kuten kompromatti, hunajapyydys ja vastustajan tutkimus. Onnistunut skandaalikampanja voi tuoda alas johtajan, mutta myös leimata koko puolueen ja poistaa sen vallasta.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_ESPIONAGE_FOMENT_UNREST_CHAPTER_HISTORY_PARA_1">
+      <Text>Hallinnon asioista on aina eriäviä näkemyksiä. Joskus nämä eriävät näkemykset edustavat todella marginaalisia mielipiteitä reunaryhmiltä, mutta ne painavat paljon poliittisessa keskustelussa. Ja joskus tämä johtuu siitä, että nämä ryhmät saavat hieman apua ulkopuolisilta. Tiedusteluagentit on usein koulutettu etsimään erimielisiä tukijoita, ottamaan yhteyttä ja auttamaan näitä ryhmiä tulemaan tehokkaammiksi kuin he olisivat olleet omilla resursseillaan. Tämä on yleensä tarkoituksena häiritä tai alentaa kohteen hallituksen politiikkoja ja käytäntöjä. Tämän käytännön sujuvasti hallitsevalle tiedusteluupseerille on jopa oma taiteellinen nimityksensä: agent provocateur</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_ESPIONAGE_NEUTRALIZE_GOVERNOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Yksi valitettavimmista vakoilun muodoista liittyy avainhenkilöiden poistamiseen - eufemistisesti "neutraloimiseen" - ja tämä surullinen käytäntö on tarpeeksi vanha sisällytettäväksi intialaisen valtiotaidon käsikirjaan Arthashastraan 2. tai 3. vuosisadalla eaa. Useat Civilization VI:n johtajat olivat neutraloimisyritysten kohteena. Monet johtajat ovat joutuneet ennenaikaisen uran loppuun neutraloinnin vuoksi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_ESPIONAGE_NEUTRALIZE_GOVERNOR_CHAPTER_HISTORY_PARA_2">
+      <Text>Kuitenkin tässä pelissä yritys neutraloida kuvernööri ei koskaan ole lopullinen, sillä hän joko ammutaan rauhoittavalla tikarilla ja nukkuu tietyn ajan, tai hän saa pelästyksen ja joutuu viettämään aikaa rauhoittaen hermojaan mukavan kupin teen kanssa.</Text>
+    </Row>
+    <!-- Spy Promotions -->
+    <Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_SPY_LICENSE_TO_KILL_CHAPTER_HISTORY_PARA_1">
+      <Text>Vakoilukirjallisuudessa käytetään usein klisheistä käsitettä "lupa tappaa" - oikeutusta toimia oikeusvaltioperiaatteiden vastaisesti tapettaessa henkilöitä valtion nimissä. Näissä tarinoissa lupa annetaan vain kaikkein eliittimpien agenttien ja vaarallisimpien tehtävien suorittamiseen. Todellisuudessa ylimääräistäoikeudellista teloitusta ja tappamiseen käytettyä voimaa valvotaan ankarasti, sillä valtuuksien väärinkäyttö voisi olla suuri riski asianomaisten virastojen toiminnalle. Näin ainakin asian kuuluisi toimia.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_SPY_SMEAR_CAMPAIGN_CHAPTER_HISTORY_PARA_1">
+      <Text>Sotakampanja on koordinoitu pyrkimys laskea henkilön tai organisaation arvoa tai suosiota esittämällä epäedullista tietoa heistä. On hyödyllistä, jos materiaali on faktuaalisesti totta (ja skandaalimainen), mutta myös uhrin menneisyydestä saattaa käyttää kontekstista irrotettuja lainauksia tai unohdettua tietoa. Joskus materiaali on väärennetty ja esitetty totuutena, koska uhrin kiistot usein vain lisäävät huomiota sotakampanjalle.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_SPY_COVERT_ACTION_CHAPTER_HISTORY_PARA_1">
+      <Text>Salainen operaatio on poliittinen toimenpide, jota valtio ei tunnusta omakseen tai jonka se kiistää, jos siitä tulee julki todisteita. Tähän sisältyy suurin osa aktiivisista vakoilutehtävistä ja vastavakoiluoperaatioista sekä monia muita toimintoja. Vain pieni määrä henkilöitä tietää, suunnittelee tai toteuttaa tehtävän, jotta salaisen operaation vuoto yleiseen tietoisuuteen minimoituu</Text>
+    </Row>
+    <!-- Governor Titles -->
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kaupunkien strategisen pommituksen nousu 1900-luvulla johti kaupunkien ilmapuolustusjärjestelmien luomiseen. Todellinen kaupunkien ilmapuolustuksen nousu alkoi ensimmäisen maailmansodan aikana hakuvaloilla ja tykistöllä ja jatkui aina kylmän sodan alkupuolelle asti tutka- ja ohjusverkostoilla. Lopulta ydinaseet ja ballistiset ohjukset tulivat niin voimakkaiksi, että koko ajatus ilmapuolustuksesta muuttui jonkin verran quijotistiseksi ja kiinnostus siviili-ilmapuolustukseen hiipui.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_CHAPTER_HISTORY_PARA_1">
+      <Text>Varakkuus on runsaan vaurauden laatu, joka yleensä määritellään riittäväksi varallisuudeksi, joka ei enää vaadi omistajaltaan huolta selviytymisestä, ja joka mahdollistaa rahan käyttämisen vapaa-ajan harrastuksiin. Raha ei ehkä voi ostaa onnea, mutta hyvät asiat voivat helpottaa surua hieman</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_CHAPTER_HISTORY_PARA_1">
+      <Text>Lähettiläs on edustaja, joka lähetetään tiettyyn diplomaattiseen tai poliittiseen tehtävään. Usein heillä on tarkka toimeksianto, kuten rauhansopimuksen turvaaminen tai todistajan tehtävä perimyksessä. Se on rooli, joka vaatii diplomaattisuutta ja taktiikkaa. Lähettiläs ei välttämättä nauti diplomaateille annettavaa koskemattomuutta.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_CHAPTER_HISTORY_PARA_1">
+      <Text>Virallisesti valtuutettu sanansaattaja on henkilö, joka voi kuljettaa tai esittää viestin valtion hallitsijoiden puolesta. Vaikka tämä saattaakin vaikuttaa yksinkertaiselta, on kuitenkin syytä huomata, että sanansaattajan rooli nähtiin niin tärkeänä, että monet uskonnot sisällyttivät sanansaattaja-jumalan omaan jumalten sarjaansa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Prestiiži on kunnioitusta ja vaikutusvaltaa menestyksestä johtuva asema. Prestiiži on ansaittava teoilla, eikä sitä myönnetä suoraan. On yleistä käyttää diplomaatteja yrittämään kohentaa heidän maansa prestiižiä maailman näyttämöllä, mikä voi johtaa poliittiseen etuun tulevissa neuvotteluissa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER_CHAPTER_HISTORY_PARA_1">
+      <Text>Promotoija herättää huomiota tapahtumaan tai paikkaan houkutellakseen ihmisiä sinne. Promootiossa on taito, sillä promotoijan täytyy tehdä syystään niin houkutteleva, että ihmiset voittavat luonnollisen innoituksen ja tulevat katsomaan tätä asiaa, josta he ovat kuulleet niin paljon</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_CHAPTER_HISTORY_PARA_1">
+      <Text>Nukketeatterin ohjaaja manipuloi ihmisiä välineinä haluttuun lopputulokseen, mutta niin että oma rooli voidaan kieltää (tai ainakin se ei ole selvästi näkyvissä julkisuudessa). Nukketeatterin ohjaajan on oltava mestaripoliitikko tai omattava tarpeeksi tietoja kohteistaan pakottaakseen heidät osallistumaan ja vaikenemaan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_AQUACULTURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Joistakin varhaisimmista metsästäjä-keräilijöiden kulttuureista lähtien rannikkoseudulla asuvat ihmiset ovat hyödyntäneet luonnonkalakantoja rakentamalla kalastuspadot ja -laitumet. Maanviljelyksen tullessa yhä kalliimmaksi ja luonnonkantojen kärsiessä uhkista, akvakulttuuriliike etsii keinoja luoda kestäviä, hallittuja mereneläväpopulaatioita. Akvakulttuurilla kasvatettu kala ja äyriäiset muodostavat tänä päivänä kasvavan osan maailman merenelävistä</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_ARCHITECT_CHAPTER_HISTORY_PARA_1">
+      <Text>Julkinen virkistystoiminta ja nautinto ovat yleinen tapa saada johtajan suosio kansan keskuudessa. Kyky järjestää ja hallita onnistuneita yleisötapahtumia on ollut korkealle arvostettu ainakin Rooman ajoista lähtien</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_CHAPTER_HISTORY_PARA_1">
+      <Text>Kiltojen mestari on käsityöläiskiltojen johtaja. Kiltojen mestari vastaa kiltojen merkittävyyden ylläpitämisestä kaupungin poliittisessa ja taloudellisessa elämässä sekä varmistaa kiltojen salaisuuksien ja käytäntöjen sujuvan siirtymisen mestareilta oppipojille. Useimmat kiltojen mestarit valitaan vertaisäänestysten kautta, joten kyseessä on suuri arvovalta- ja yhteiskunnallinen asema.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_BISHOP_CHAPTER_HISTORY_PARA_1">
+      <Text>"Biskoppi" -titteliä käytetään yleisimmin kristillisten johtajien kohdalla, jotka ovat vastuussa kirkollisista asioista dioseesiksi kutsutulla maantieteellisellä alueella. Useimmat dioseesit ovat keskittyneet kaupunkeihin, mikä käynnistyi Rooman valtakunnan aikaan. Biskopit ovat historiallisesti hankkineet merkittävää maallista poliittista valtaa lisäksi henkiselle auktoriteetilleen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_CHAPTER_HISTORY_PARA_1">
+      <Text>Fyysinen linna voi saada hengellistä merkitystä, jos sen rakentamiseen liittyy uskonnollinen ulottuvuus. Mont Saint-Michel on erinomainen esimerkki siitä, mitä voitaisiin pitää "Jumalan linnakkeena", kuten myös Masyafin linnoitus, kuuluisa assassiinien koti.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_CHAPTER_HISTORY_PARA_1">
+      <Text>Ympäri maailmaa on perinteitä jumalallisesti-inspiroituneesta arkkitehtuurisuunnittelusta ja suunnittelusta. Esimerkiksi Himalajan dzongit (massiivinen, linnoitettu luostarikompleksi) rakennetaan perinteisesti ilman arkkitehtuurisuunnitelmia, laman tarjotessa jumalallisesti-inspiroituneen vision ja hänen työntekijänsä toteuttavat sen käytännössä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Grand Inquisitor on uskonnollinen inkvisitioviranomainen, joka on erityisen korkeassa asemassa tai toimii jonkinlaisena valitustuomioistuimena inkvisiittoreiden tuomioiden suhteen. He voivat hoitaa neuvotteluja maallisten ja uskonnollisten viranomaisten välillä, joilla on yhteys uskonnollisiin rikoksiin. On vaikea kuvitella, että kukaan ilahtuisi siitä, että hänet kutsutaan grand inquisitorin eteen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_CHAPTER_HISTORY_PARA_1">
+      <Text>Kättä päällepaneminen on ikivanha uskonnollinen ele, joka edustaa siunaamista, erityisen pyhittämisen voitelua tai ihmettä tekevää parantamista. Kättä päällepanemisen muotoja harjoitetaan monissa suurissa uskonnoissa ja ne on kodifioitu suuremmassa tai pienemmässä määrin kyseisissä uskonnoissa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_CHAPTER_HISTORY_PARA_1">
+      <Text>Monet uskonnoista ylistää pyhiä henkilöitä ja yhdistää heidän elämänsä paikkoihin ja käytäntöihin. Pyhimys voi toimia välittäjänä kyseisen paikan tai ammatin ihmisten välillä. On hämmästyttävä määrä ja laajuus suojeluspyhimyksiä, kuten Guan Yu (jota sekä gangsterit että poliisit Hongkongissa väittävät omakseen), Pariisin suojeluspyhimys Saint Denis (joka on kuvattu kantamassa omaa katkaistua päätään) tai kissan suojeluspyhimys Saint Gertrude of Nivelles.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_CHAPTER_HISTORY_PARA_1">
+      <Text>On vanha sotilaallinen sanonta: "Amatöörit tutkivat strategiaa; asiantuntijat tutkivat logistiikkaa." Armeija ei voi taistella, jos sillä ei ole ammuksia tai leipää, joten näiden asioiden jatkuva saatavuus vie merkittävän osan kenraalin ajasta. Tehtynä hyvin, jopa pieni joukko voi voittaa. Tehtynä huonosti, sota on ohi ennen kuin se alkaa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_CHAPTER_HISTORY_PARA_1">
+      <Text>Asevarustelua pidetään yleisesti kalliina, epätoivottavana ja vaarallisena asiana valtioiden osallistua, koska se voi nopeasti tyhjentää valtion kassan ja mahdollisesti aiheuttaa vahingossa syntyviä sotia. Mutta on olemassa muutamia poliittisia filosofeja, jotka huomauttavat, että asevarustelukilpailun viimeisenä jäljellä oleva kansakunta voittaa, ja jos samalla voit ajaa vastustajasi vararikkoon, niin sitä parempi. Tämä on johtanut aselaivakilpailuihin ennen ensimmäistä maailmansotaa ja kylmän sodan strategiseen puolustusaloitteeseen, jotka jälkikäteen tarkasteltuna eivät vaikuta viisaimmalta käytöltä kaikkien verorahoille</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_CHAPTER_HISTORY_PARA_1">
+      <Text>Hienostelija on henkilö, joka arvostaa hienovaraisia asteita ja eroja kohteen laadussa, kuten ruoassa, viinissä tai taiteessa. Kyky erottaa ja ilmaista ilon laadullisuus saavutuksena hedonistisissa filosofioissa, kuten epikurolaisuudessa. Myrkylliset vastustajat ja kouluttamattomat ovat todennäköisemmin pilkkaavat hienostelijan tapoja ja herkullisia makuja. Kuinka moukkamaista!</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_CHAPTER_HISTORY_PARA_1">
+      <Text>Apuraha on julkinen rahalahja tutkimushankkeeseen. Hallitukset rahoittavat perustutkimusta toivoen, että tämä kannustaisi tutkimuksen soveltamiseen ja johtaisi sitä kautta elämänlaadun parantumiseen tai uusien tuotteiden ja palveluiden syntymiseen. Internet on loistava esimerkki apurahoin rahoitetusta tutkimushankkeesta, joka vaikutti syvästi historiaan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_CHAPTER_HISTORY_PARA_1">
+      <Text>Kirjastonhoitaja vastaa kirjaston kirjojen ylläpidosta sekä uusien kirjojen hankinnasta, jotka vastaavat kirjaston standardeja. Tämä on melko vanha ammatti, joka vaati harvinaista asiantuntemusta tekstien lukemisesta ja arvioinnista. Kirjastonhoitajat toimivat myös arkkivisteinä ja arvokkaan tiedon säilyttäjinä tuleville sukupolville.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_CHAPTER_HISTORY_PARA_1">
+      <Text>"Sellaisenaan" tarkoitetun tekstin käännös: "Tutkimus" tulee ranskankielisestä sanasta "rechecher", joka tarkoittaa "etsiä", ja sitä motivoi halu edistää ihmistietoa. Tutkimus on uuden tiedon luomista havainnon tai uuden analyysin avulla. Tutkijan nimi ja rooli ovat vaihtuneet ajan ja kulttuurin mukaan, mutta historia on täynnä esimerkkejä ihmisistä, jotka ovat sitoutuneet etsimään tietoa ja jakamaan avoimesti löydöksensä. Olemme paljon velkaa näille ihmisille.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_CHAPTER_HISTORY_PARA_1">
+      <Text>Avaruusohjelmat ovat usein erittäin suosittuja kansan keskuudessa, ja tämä kansalaistuki on tärkeää ottaen huomioon niihin liittyvät kustannukset ja riskit. Hyvä avaruusaloite välittää yleisölle tieteellisen ohjelman mahdolliset ja todelliset hyödyt, ja varmistaa kansan tuen. Viime aikoina se on myös pyytänyt kansalais- ja opiskelijatutkijoita osallistumaan merkityksellisillä tavoilla jatkuvan tutkimusohjelman kehittämiseen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_EMBRASURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Teknisesti ottaen ampuma-aukko on aukko tai aukko linnoituksessa, joka mahdollistaa pitkän kantaman aseiden käytön suojaamalla samalla aseiden käyttäjiä. Sitä voidaan soveltaa yleisesti osana puolustusjärjestelmää olevien pitkän kantaman tulialueiden sijoittamiseen, usein taitavasti limittyen ja tehdäkseen hyökkääjille asiat erittäin vaarallisiksi</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_GARRISON_COMMANDER_CHAPTER_HISTORY_PARA_1">
+      <Text>Garnisoni on pysyvä sotilasvoima, joka on sijoitettu linnoitukseen. Garnisonin komentaja johtaa näitä joukkoja ja vastaa myös linnoitusten ylläpidosta. Rauhan aikana tämä voi olla hyvin tylsä tehtävä. Mutta sodan aikana garnisonin komentajalla voi olla paljon suurempi joukko ja hän hoitaa lähiseudun sotilastoimintoja.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_INFRASTRUCTURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Infrastruktuuri on se materiaalipinta, jolle elämä rakennetaan: tiet, sillat, satamat ja niin edelleen. Vaikka se ei ehkä olekaan kovin jännittävää, infrastruktuuri on tärkeässä roolissa yhteiskunnan terveyden kannalta. Hyvä infrastruktuuri alentaa raaka-aineiden kuljetuskustannuksia markkinoille, mikä parantaa markkinoiden tehokkuutta ja alentaa hintoja yleisesti. Sivistykset, joilla on hyvä infrastruktuuri, voivat nopeasti rapistua, kun infrastruktuuri alkaa rappeutua</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Hallitukset antavat usein sopimuksia julkiselle sektorille hoidettavaksi toivoen, että julkinen sektori voi käsitellä yksityiskohtia tehokkaasti ja kustannustehokkaasti. Tämä prosessi on väistämättä johtanut julkisten virkamiesten erikoistumiseen, jotka voivat laatia ja valvoa näitä sopimuksia, pyytää päivityksiä urakoitsijoilta ja tehdä loputtomia tilanneraportteja sopimusten edistymisestä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_CURATOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Kuraattori on henkilö, joka erikoistuu taiteen ja esineiden tulkintaan ja esittelee niitä yleisölle oppimisen ja ymmärryksen helpottamiseksi. Tämä on tärkeä ja palkitseva tehtävä, joka voi johtaa seuraavan sukupolven tutkijoiden ja kuraattoreiden mielikuvitusta herättävään työhön alalla.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kolikon keksimisestä lähtien on sovittu, että kaikkien kolikot eivät ole yhtä arvokkaita. Tästä syntyi valuutanvaihto, joka mahdollisti kauppiaille paikallisesti hyväksytyn valuutan saamisen vaihdossa mukanaan tuomaansa kolikkoa vastaan, usein sallien vaihtajan pitää prosenttiosuuden tapahtumasta. Englannin sana "pankki" juontuu italialaisesta "banca"-sanasta, joka oli keskiajan rahanvaihtajien pöytien nimi.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_CHAPTER_HISTORY_PARA_1">
+      <Text>Satamamestari valvoo sataman päivittäistä toimintaa, kirjaa saapuvat alukset ja niiden lastit sekä kerää tullimaksut. Heidän on varmistettava sataman sujuva ja säännöllinen toiminta, jotta se ei menetä mainettaan ja aiheuta arvokkaan kaupan siirtymistä toisiin, ystävällisempiin satamiin.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_CHAPTER_HISTORY_PARA_1">
+      <Text>Valtio tarvitsee maata, ja valtio hankkii maata. Menetelmät valtion maan hankkimiseksi ovat ikivanhoja, ja useimmat modernit valtiot käyttävät oikeudellista käsitettä "yleinen tarve", jossa yksityisomistuksessa oleva maa voidaan pakottaa yksilöiltä valtion käyttöön, korvauksena maan reilusta markkina-arvosta</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Yksi vain kahdesta välttämättömyydestä ihmisen tilassa, veronkerääjät ovat osa valtion tärkeimpiä ja vähiten suosittuja työntekijöitä. Ilman verotuloja valtion toiminta ei olisi mahdollista monille julkisille hyödykkeille. Veronkantojen menetelmät historian aikana ovat vaihdelleet suhteellisen vaarattomasta pöyristyttävään. Oletetaan, että guvernöörisi hallitsee tätä taitoa nostamatta kansan suuttumusta.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_PARKS_RECREATION_CHAPTER_HISTORY_PARA_1">
+      <Text>Tietoisuuden lisääntyminen julkisen maan ja julkisen vapaa-ajan tärkeydestä (erityisesti Progressiivisen aikakauden aikana 1900-luvulla) johti hallitusvirastojen perustamiseen näiden julkisten hyödykkeiden tehokkaan käytön valvomiseksi. Vilkkaita julkisia puistoja kauniina päivänä on laskettu nostavan mielialaa - ei vain Puisto- ja vapaa-aikakomission jäsenten, vaan myös jokaisen yhteiskunnallisesti aktiivisen kansalaisen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_REDOUBT_CHAPTER_HISTORY_PARA_1">
+      <Text>Redutti on pieni linnoitus, paikallinen puolustuspiste suuremmassa puolustusjärjestelmässä. Yritykset vallata (tai pitää hallussa) redutti ovat olleet ratkaisevia useissa sotahistorian tapahtumissa, toimien näyttämönä epätavalliselle urhoollisuudelle</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_CHAPTER_HISTORY_PARA_1">
+      <Text>”Musta pörssi” on markkinapaikka, jossa laittomia tai luvattomia tavaroita ostetaan ja myydään. Joitakin hallituksia suvaitsee tiettyjä mustia markkinoita, erityisesti jos myytävät tavarat eivät uhkaa valtiota. Itse asiassa hallitukselle voi olla hyödyllistä, että sillä on saatavilla joitakin näistä tavaroista, jos niitä tarvitaan hankkia kiistettävällä tavalla</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_CHAPTER_HISTORY_PARA_1">
+      <Text>Provisioning tarkoittaa tarvittavien välineiden ja materiaalien toimittamista menestyksen saavuttamiseksi. Vaikka alun perin viittasi ruokaan, nykyään se tarkoittaa yleisemmällä tavalla perustarvikkeita. Tehokas provisioning johtaa parempiin mahdollisuuksiin menestyä uusille yrityksille, erityisesti niiden haavoittuvissa kasvuvaiheissa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_CHAPTER_HISTORY_PARA_1">
+      <Text>"Maanrakennus" on rakennusprojektin aloitus, ja sitä voidaan käyttää yleisesti minkä tahansa projektin alkamisesta puhuttaessa. Se on se hetki, jolloin suunnitelmat muuttuvat teoreettisesta fyysiseksi olemassaoloksi, ja sillä on sen vuoksi huomattava seremoniallinen merkitys.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_CHAPTER_HISTORY_PARA_1">
+      <Text>Teollisuusjohtaja valvoo teollisuuden luomista tai laajentamista rakentamalla tehtaita ja palkkaamalla työntekijöitä joukoittain. Älykkäät teollisuusjohtajat näkevät mahdollisuuksia, kun markkinamahdollisuudet alkavat ilmaantua, ja pyrkivät täyttämään (tai luomaan!) tarpeita tuotteilleen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_CHAPTER_HISTORY_PARA_1">
+      <Text>Liikaa hyvää voi olla hukkaa. Kun saa ylimääräiset hyvät asiat sinne, missä niitä on vähän, se auttaa, mutta se vaatii paljon työtä järjestää ja kuljettaa asiat sinne, missä niitä tarvitaan eniten. Onneksi on ihmisiä, joilla on taito tällaiseen. Ja se on hyvä asia.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_CHAPTER_HISTORY_PARA_1">
+      <Text>Liiketoiminnassa pystysuuntainen integraatio on prosessi, jolla hallitaan tuotteen tuotantoa ja jakelua useilla pisteillä sen toimitusketjussa. Tyypillinen esimerkki on autotehtaan omistus terästehtaista, jotta valmistettaisiin terästä, joka käytetään autojen rakentamiseen. Tämä käytäntö antaa etua, että tuotteen valmistukseen on luotettava materiaalilähde. Mutta pystysuuntainen integraatio äärimmilleen vietynä luo monopolin</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECURITY_EXPERT_CHAPTER_HISTORY_PARA_1">
+      <Text>Tärkeä tehtävä on pitää avainhenkilöt ja kriittinen tieto turvassa vihamielisiltä toimijoilta. Se sisältää epätodennäköisten vaarojen ja epätodennäköisten riskien harkitsemista ja kohtelemista kuin ne olisivat väistämättömiä. Onnistuneet turvallisuusasiantuntijat ennakoivat vihollisen toimia, estävät niitä, poistavat heikkoudet ja johtavat pahantekijöitä kieroiksi ansaksiin.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_CHAPTER_HISTORY_PARA_1">
+      <Text>Kaavoitus on prosessi, jossa määritellään maankäyttöä välttääkseen epätoivottuja tilanteita, kuten ihmisten asumista vaarallisten tai haitallisten teollisuus- tai yritystoimintojen vieressä. Komissaari on henkilö, joka käsittelee kaavoitussäädöksiä ja hänellä on siten huomattava valta siihen, missä tiettyjä toimintoja voidaan tehdä. Komissaarin on arvioitava kaikki mahdolliset maankäytön käyttötarkoitukset ja ajateltava yhteisönsä tulevaisuuden tarpeita tasapainossa nykyisten tarpeiden kanssa.</Text>
+    </Row>
+    <!-- Policies -->
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LIMITANEI_CHAPTER_HISTORY_PARA_1">
+      <Text>Limitaneit olivat myöhäisroomalaisen ja varhaisbyzanttilaisen keisarikunnan rajavartioston joukot. Nimensä he ovat saaneet samalta juurelta kuin sana "sotilasrajapiiri" - limes. Ajan kuluessa nämä joukot muuttuivat paikallisesti rekrytoiduksi sotilasmilitsiaksi, joka oli aseistautunut roomalaisille ja menetti osan keisarikunnan muiden joukkojen maineesta ja ammattitaidosta.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_AFTER_ACTION_REPORTS_CHAPTER_HISTORY_PARA_1">
+      <Text>Sotilaat ovat historiallisesti pohtineet menestyksiään, ja lukuisia sotahistorioita kirjoitettu osallistujien toimesta löytyy historiankirjoista ja eri kulttuureista. Mutta moderni Toimintaraportti on henkilökunnan ammattimaisuuden kasvun tulos. Toimintaraportti on virallinen tilaisuus, joka perustuu analyysiin tavoitteista, tuloksista ja suosituksista tulevaa toimintaa varten. Toimintaraportit ovat kriittinen osa modernin upseerin opetussuunnitelmaa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SECOND_STRIKE_CAPABILITY_CHAPTER_HISTORY_PARA_1">
+      <Text>Ydinhyökkäyksessä ensimmäinen isku on alkusalvaus. Toinen isku on kyky tuhota ydinhyökkääjä vastaiskulla, vaikka ensimmäinen isku (ensimmäinen isku) johtaisi toisen iskun tuhoutumiseen. Se on yhteenvetona tapa iskeä haudan takaa. Ydinpelote-teorian kylmässä, epäinhimillisessä, rationaalisessa laskennassa toinen iskukyky varmistaa, että kansakunta ei tuhoudu ylivoimaisen ensimmäisen iskun seurauksena</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_WISSELBANKEN_CHAPTER_HISTORY_PARA_1">
+      <Text>Kun alankomaalaiset kaupungit tulivat pankkikeskuksiksi varhaisella modernin ajan kaudella, kehittyi myös tarve käsitellä vaihtolaskuja kauppiaiden kesken vakavaraisella ja luotettavalla tavalla. Wisselbank toimi jonkinlaisena kaupallisena lainaajana ja välittäjänä, tarjoten omia laskujaan helpottaakseen kaupankäyntiä kauppiaiden välillä. Pankin omalla varannolla arvokkaita metalleja. Bankgeld-laskut ovat joitain varhaisimmista esimerkeistä fiat-valuutasta Euroopassa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PRAETORIUM_CHAPTER_HISTORY_PARA_1">
+      <Text>Alun perin Rooman praetorin teltta Legionan leirissä, termi "Praetorium" alkoi yleistyä viitattaessa rakennukseen, jossa Rooman tuomioistuin sijaitsi. Siitä tuli paikka, jossa sekä oikeudelliset prosessit että toimeenpano tapahtuivat, ja siinä oli omat rituaalinsa ja perinteensä lain toimeenpanossa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COMMUNICATIONS_OFFICE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kun moderni diplomatialainen kohtaa massamedian, viestintätoimisto astuu peliin. Päivällä tai yöllä toimisto työskentelee muokatakseen julkista mielipidettä, torjuakseen kritiikkiä, vähentääkseen negatiivisten tapahtumien vaikutusta ja saadakseen modernin diplomaatin näyttämään viisaalta ja tyyneltä kaikkina aikoina. Nämä ammattilaistiimit luovat viestin jokaisesta ajankohtaisesta tapahtumasta.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CIVIL_PRESTIGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Yksityinen tukeminen julkisissa töissä on tapa nostaa yksilön arvovaltaa, ja sitä harjoitettiin yleisesti Roomassa myöhäisellä tasavallan ja varhaisen keisarikauden aikana. Se oli tapa saada kansan tuki lahjoittamalla julkisia palveluja, kuten kylpylöitä, basilikoita ja vesijohtoja, jotta kun tukija asettui ehdolle korkeampaan virkaan, hän voisi varmistaa luotettavan tukijoukon</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGEGROUP_DARKAGE_POLICIES_NAME">
+      <Text>Pimeän aikakauden politiikat</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MONASTICISM_CHAPTER_HISTORY_PARA_1">
+      <Text>Munkit, jotka ovat eristäytyneet maallisen maailman ulkopuolelle, ovat joskus auttaneet säilyttämään tietoa, joka muuten olisi saattanut kadota yhteiskunnallisen levottomuuden aikana. Esimerkiksi Länsi-Rooman valtakunnan kukistumisen jälkeen koetun Euroopan synkkänä aikana luostareissa monilla alueilla kopioitiin ja säilytettiin tekstejä, jotka olivat kadonneet maallisten kirjastojen tai yksityiskokoelmien joukosta. Nämä tekstit eivät ehkä levinneet laajalle tässä ajassa, mutta näiden uskonnollisten yhteisöjen ponnistelut voivat estää tietojen täydellisen häviämisen. Sanottakoon kuitenkin, että olisi ollut mukavaa, jos Aristoteleen "Runouden teoksen" toisesta kirjasta olisi säilynyt kappale</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_TWILIGHT_VALOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Sanotaan, että mikään ei terävöitä huomiota ja inspiroi sankarillisuutta yhtä hyvin kuin välitön, varma kuolema. Tuomitun joukon viimeinen taistelu on aiheena lukemattomissa eeppisissä runoissa, surullisissa lauluissa ja muissa kirjallisissa teoksissa, Rokugon kapinasta Alamon ja Masadan kautta. Ehkä tuomitut sotilaat ostavat aikaa pelastaakseen toverinsa; ehkä heillä on vain velvollisuutensa ja aseveljiensä lohdutus. Ehkä, jos he ovat onnekkaita, heitä muistetaan tulevina aikoina.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_INQUISITION_CHAPTER_HISTORY_PARA_1">
+      <Text>Voimakas vastareformaatio petollisten harhaoppien jäljittämiseksi voi edellyttää, että uskonnolliset viranomaiset tekevät yhteistyötä maallisten viranomaisten kanssa harhauttajien vainoamiseksi rikollisina ja tuomitsevat uskonnollisia rikoksia tekevät rikolliset inkvisitoreiden toimesta. Espanjan inkvisitio on kuuluisin (tai pikemminkin "pahamaineisin"), mutta vastaavia inkvisitioprosesseja perustettiin ympäri Eurooppaa ja Uutta Maailmaa protestanttisen reformaation aikana. Inkvisitioprosessi oli yleisesti ottaen epäsuotuisa syytetyille, mikä vaikutti tukahduttavasti vapaaseen tutkimukseen laajemmin niissä maissa, joissa inkvisitio oli aktiivisin.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_ISOLATIONISM_CHAPTER_HISTORY_PARA_1">
+      <Text>Kun kauppaa tarkastellaan nollasummapelinä, joka suosii kansainvälisiä osapuolia, ja kun tähän liittyy negatiivinen taloudellinen suuntaus, taloudellinen eristyneisyys muuttuu erityisen houkuttelevaksi poliittiseksi ratkaisuksi. Tokugawa-shogunaatin sulkeminen Japanissa on yksi historian tunnetuimmista eristyneisyyden esimerkeistä, kestäen noin 250 vuotta. Mutta ulkomaankaupan puuttuminen voi johtaa stagnaatioon ja kasvun puutteeseen, ja lopulta shokkiin, kun talous integroituu uudelleen maailmaan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LETTERS_OF_MARQUE_CHAPTER_HISTORY_PARA_1">
+      <Text>Markeeraus- ja kostokirje on hallituksen puolesta myönnetty asiakirja, joka antaa haltijalle oikeuden ottaa vastapuolen kaupallisia aluksia sodan aikana. Niitä, jotka kantavat näitä kirjeitä, kutsutaan yksityislaivastoon kuuluviksi, ei merirosvoiksi (koska merirosvous ilman valtion tukea on laitonta). Markeerauskirjeet olivat erittäin suosittu sotilaspoliittinen työkalu 1800-luvun lopulla ja 1900-luvun alussa, ja ne saattoivat olla tuottoisa investointi onnistuneen yksityislaivaston tukijoille. Vangitun saaliin arvo jaettiin yksityislaivaston tukijan ja miehistön kesken, ja se saattoi olla melko valtava summa, joka houkutteli kokeneita merimiehiä, jotka olivat innostuneita mahdollisuudesta tehdä vuoden palkka kirkkaassa ja aurinkoisessa iltapäivässä</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LETTERS_OF_MARQUE_CHAPTER_HISTORY_PARA_2">
+      <Text>Vuonna 1812 käydyn sodan aikana rohkea amerikkalaismiehistö sai kiinni brittilaivoja Englannin kanaalissa ja julisti julkisesti yhden laivan saartoa saarelle - mikä ei käytännössä ollut todellinen voima, mutta raivostutti kuninkaallisen laivaston, pelotti Lontoon kauppiaita ja ilahdutti Baltimoren kansalaisia. Epäsuorasti heidän toimensa johtivat myös Valkoisen talon polttamiseen, mutta jätetään se nyt hetkeksi huomioimatta ja ihaillaan teon rohkeutta</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_ELITE_FORCES_CHAPTER_HISTORY_PARA_1">
+      <Text>Josef Stalinin sanotaan keksineen fraasin "Määrällä on oma laadullinen merkityksensä", mutta se ei ole estänyt sotavoimia vuosisatojen ajan pyrkimästä saamaan käsiinsä parasta mahdollista sotavarustusta ja koulutusta. Antiikin Egyptin sotavaunukaarneista lähtien aikakausien tehokkaimmat joukot vaativat usein kallista varustusta ja pitkää koulutusta saavuttaakseen tavoitteensa. Korkean keskiajan ranskalainen ritari on toinen esimerkki, joka oli seurausta paremmasta varustuksesta ja pitkästä koulutuksesta. Tule nykypäivään ja kentällä toimivat pienet erikoisoperaatioryhmät, joita tuetaan ilmaiskuilla, droneilla ja taistelukentän valvonnalla. Joskus varustuksen ja koulutuksen laatu tekee eron voiton ja tappion välillä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COLLECTIVISM_CHAPTER_HISTORY_PARA_1">
+      <Text>Perinteisesti individualismin vastakohtana oleva poliittis-filosofinen suuntaus, kollektivismi korostaa yhteistä työtä, omaisuutta ja identiteettiä tietyssä ryhmässä. Se voi olla hierarkkinen (jossa yksilöiden kyky sopeutua hierarkiaan on ylistetty) tai lateraalinen (jossa korostetaan yksilöiden välistä tasa-arvoa ryhmässä). Eri kollektiivisia taloudellisia ja sosiaalisia kokeiluja on tehty vuosisatojen aikana, vaihtelevalla menestyksellä. Neuvostoliiton pakkokollektivisointi 1920-luvulla oli täydellinen katastrofi. Etelä-Afrikan ubuntu-teologinen liike vaikutti maan Totuus- ja sovintokomissioon sekä apartheid-järjestelmän purkamiseen. Kollektiivisen toiminnan edut ja vaarat ovat edelleen kiistakysymyksiä, ja todennäköisesti niitä tullaan kiistelemään vielä pitkään.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_ROGUE_STATE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kuten yksilöt, kansakunnat noudattavat tiettyjä poliittisia normeja ylläpitääkseen sujuvaa ja säännöllistä toimintaa toistensa välillä. Kansakunta voi valita olla huomioimatta näitä normeja saadakseen jonkin edun, ja kun tätä tehdään toistuvasti tai räikeästi, kansakuntaa kutsutaan "villiksi valtioksi". Tämä johtaa usein poliittiseen eristäytymiseen politiikan vuoksi, mutta se voi antaa kapinalliselle kansakunnalle mahdollisuuden saada haluamansa, koska villin valtion rankaisemisen kustannukset voivat olla korkeammat kuin kansojen yhteisö on halukas maksamaan. Villit valtiot voivat olla täydellisiä poliittisia pariaatteja, tai niillä voi olla vain muutama suojelija valmis tukemaan niitä (joskus epäonnistunut villi valtio on vakavampi kuin vakaa villi valtio). Loput maailmasta pitää heitä turhauttavina parhaimmillaan ja epämiellyttävänä muistutuksena diplomaattisten normien hauraudelle</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_ROBBER_BARONS_CHAPTER_HISTORY_PARA_1">
+      <Text>Vapaan markkinatalouden järjestelmä synnyttää joskus yksilöitä, jotka päättäväisyytensä, armottomuutensa, viekkaudensa, voimansa, oivallustensa, tuurinsa ja usein vähemmän tunnollisten menetelmiensä kautta saavat hallintaansa liiketoiminnan ja teollisuuden ylisuuria voimia. Alunperin nimellä "rosvoaateliset" tunnetut Pyhän saksalais-roomalaisen keisarikunnan aateliset käyttivät maansa saalistavaan toimintaan, ja sitä alettiin soveltaa miehiin, kuten Carnegies, Rockefellereihin, Stanfordsiin, Cookesiin ja Dukesiin, joiden liiketoimintamaailmassa ansaittu kokemus oli kullanhohtoinen. Lopulta julkisesta vastustuksesta johtuen hallitukset pakotettiin rajoittamaan heidän toimintaansa, ja monet näistä baroneista käyttivät osan valtavista omaisuuksistaan ​​rehabilitoidakseen kuvansa hyväntekeväisyydellään</Text>
+    </Row>
+  </EnglishText>
+</GameData>

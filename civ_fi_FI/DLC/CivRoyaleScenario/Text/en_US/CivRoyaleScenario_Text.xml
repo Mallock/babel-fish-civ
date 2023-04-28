@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData>
+  <EnglishText>
+    <!-- Loading Screen -->
+    <Row Tag="LOC_LOADING_INFO_CIVROYALE_SCENARIO">
+      <Text>{LOC_CIV_ROYALE_MOD_DESCRIPTION_TUTORIAL}</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_CIV_ROYALE_VICTORY_WIN_BLURB">
+      <Text>He kaikki nauroivat meille. He sanoivat meidän olevan liian heikkoja ja liian vähän päästäksemme laskeutujalle. No, kuka nauraa nyt? Kuka on viimeinen fraktio tästä typerästä, lahosta planeetasta? Kuka saa yksisuuntaisen lipun kiiltävään uuteen avaruusalukseen, juo puhdasta vettä ja hengittää ilmaa, jossa ei ole myrkyllistä pölyä? Me![NEWLINE][NEWLINE]Me ollaan täältä pois! Varokaa, universumi!</Text>
+    </Row>
+    <!-- Goody Huts -->
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_WARRIOR_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Erillisyksikkö on liittynyt sinun ryhmittymääsi.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ARCHER_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Konekiväärijoukkue on liittynyt ryhmääsi.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_AT_TEAM_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Panssarintorjuntayksikkö on liittynyt joukkoihisi.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_SETTLER_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Siviilit, jotka etsivät suojaa raunioissa, ovat liittyneet sinun ryhmittymääsi.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_GUNSHIP_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Olet löytänyt toimivan helikopterin.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_TANK_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Olet löytänyt toimivan panssarivaunun.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ARTILLERY_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Erillisyksikkö on liittynyt osaksi sinun ryhmittymääsi.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_NUKE_STRIKE_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Olet löytänyt toimivan termojärjestelmän laitteen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ZOMBIES_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Teidän zombinne vaativat jälleen yhden uhrin.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ZOMBIES_DESCRIPTION_B">
+      <Text>[COLOR_FLOAT_MILITARY]Lisää ruumiita hordeille.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ZOMBIES_DESCRIPTION_C">
+      <Text>[COLOR_FLOAT_MILITARY]Olet löytänyt zombilauman.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_IMPROVISED_TRAP_GOODIES">
+      <Text>Astuit ansaan!</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_GRIEVING_GIFT_GOODIES">
+      <Text>Se oli ansa!</Text>
+    </Row>
+    <!-- HUD UI -->
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS">
+      <Text>Käännä kunnes turvavyöhyke kutistuu.</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_B">
+      <Text>{1_Kierrokset} Kierroksia ennen kuin turvavyöhyke kutistuu.</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_MIN_SIZE">
+      <Text>Turvavyöhyke on vähimmäiskokoluokassa.</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_MIN_SIZE_B">
+      <Text>Turva-alue on vakautettu. [COLOR_RED]Evakuointi on estynyt muiden selviytyvien ryhmittymien toimesta.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_MIN_SIZE_C">
+      <Text>Turva-alue on vakiintunut. [COLOR_RED]Etämaahantuoja signaalia häiritään edelleen muista ryhmittymistä![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_STORM_STRENGTH">
+      <Text>Fallout: Kategoria {1_safeZonePhase} (Vahinko {2_dangerZoneDamage})</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_CATEGORY">
+      <Text>Kategoria</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_CATEGORY_TOOLTIP">
+      <Text>Yksikkö saa {1_Damage} vahinkoa renkaasta tulevasta säteilystä.[NEWLINE]Tähän mennessä turvavyöhyke on sulkeutunut {2_RingCount} kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_DAMAGE">
+      <Text>Vahinko</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_DAMAGE_TOOLTIP">
+      <Text>Määrä vahinkoa, jonka selviytyjäsi kohtaavat Punaisessa Kuolemassa.</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS">
+      <Text>{1_Turns : monikko 1?vuoro; muut?vuoroa;}</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_TOOLTIP">
+      <Text>Kuinka monta kierrosta kestää, ennen kuin Punainen Kuolema saavuttaa Turvavyöhykkeen?</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_CIVILIAN_WARNING">
+      <Text>Sinun siviilisi on säteilyalueella!</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_PLAYER_NAME_LABEL">
+      <Text>Pelaajan nimi:</Text>
+    </Row>
+    <!--Global Ability Tracker-->
+    <Row Tag="LOC_CIV_ROYALE_GLOBAL_ABILITY_AVAILABLE">
+      <Text>Kyky saatavilla!</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_GLOBAL_ABILITY_CHARGES">
+      <Text>Kulut: {1_CurrentCharges} / {2_Max_Charges}</Text>
+    </Row>
+    <!-- Notifications -->
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SUPPLY_DROP_MESSAGE">
+    <Text>Supplies incoming! 📦</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_SUPPLY_DROP_SUMMARY">
+    <Text>Uusi toimitus on saapunut! 🎉</Text>
+</Row>
+<Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_MESSAGE">
+    <Text>Salainen aarre löydetty! 💰</Text>
+</Row>
+<Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_SUMMARY">
+    <Text>Olet löytänyt kaivatun aarteen kaupunkirauniosta. 🏺</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_APPEARED_MESSAGE">
+    <Text>Turvavyöhyke perustettu! 🛡️</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_APPEARED_SUMMARY">
+    <Text>Punainen kuolema lähestyy, mutta sinulle on merkitty turvavyöhyke karttaan. 🗺️</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_CHANGED_MESSAGE">
+    <Text>Turvavyöhyke kutistui! 😱</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_CHANGED_SUMMARY">
+    <Text>Punainen kuolema voimistuu ja turvavyöhyke on kutistunut. Ole varovainen! 🚨</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_NEW_TREASURE_MAP_MESSAGE">
+    <Text>Uusi aarrekartta löydetty! 🗺️</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_NEW_TREASURE_MAP_SUMMARY">
+    <Text>Olet löytänyt uuden kätketyn aarteen kartan. Onnea etsintään! 🔍</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_HAIL_MARY_READY_MESSAGE">
+    <Text>Hail Mary valmiina! 🚀</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_HAIL_MARY_READY_SUMMARY">
+    <Text>Hail Mary on valmiina käyttöön. Aika näyttää, tarvitsetko sen. 🤞</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_ZOMBIE_DECAYED_MESSAGE">
+    <Text>Zombilauma tuhoutunut! 💀</Text>
+</Row>
+<Row Tag="LOC_CIVROYALE_NOTIFICATION_ZOMBIE_DECAYED_SUMMARY">
+    <Text>Zombilaumasi on tuhoutunut luonnollisesti tapahtuneen hajoamisen vuoksi. 🤢</Text>
+</Row>
+
+    <!-- Supply Drop Improvement -->
+<Row Tag="LOC_IMPROVEMENT_SUPPLY_DROP_NAME">
+    <Text>Tarvikepudotus</Text>
+</Row>
+
+<!-- Goody Hut Improvements -->
+<Row Tag="LOC_CIV_ROYALE_IMPROVEMENT_GOODY_HUT_NAME">
+    <Text>Kaupungin rauniot</Text>
+</Row>
+<Row Tag="LOC_IMPROVEMENT_POPPED_GOODY_NAME">
+    <Text>Tutkittu kaupungin rauniot</Text>
+</Row>
+
+<!--Improvised Trap Improvement-->
+<Row Tag="LOC_IMPROVEMENT_IMPROVISED_TRAP">
+    <Text>Itse tehty ansa</Text>
+</Row>
+
+<!-- Destroyed City Feature -->
+<Row Tag="LOC_FEATURE_DESTROYED_CITY_NAME">
+    <Text>Tuhottu kaupunki</Text>
+</Row>
+
+    <!-- MiniMap -->
+    <Row Tag="LOC_MINIMAP_RED_DEATH_TOOLTIP">
+      <Text>Punainen kuolema</Text>
+    </Row>
+    <Row Tag="LOC_MINIMAP_SAFE_ZONE_TOOLTIP">
+      <Text>Turvavyöhyke</Text>
+    </Row>
+    <!-- Promotions -->
+    <Row Tag="LOC_PROMOTION_SCOUTING_REGIMENT_NAME">
+      <Text>Partio-osasto</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUTING_REGIMENT_DESCRIPTION">
+      <Text>Yksikkö ja sen muodostus ei huomioi [ICON_Movement] liikkeen rajoituksia metsissä, sademetsissä ja kukkuloilla.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_CAPARISON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Taisteluvoimaa AT-miehistöjä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_COURSERS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Taisteluvoimaa hyökätessä konekiväärejä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_ARMOR_PIERCING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa muita tankkeja vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_REACTIVE_ARMOR_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa puolustettaessa Tankkeja ja AT-ryhmiä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_ECHELON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Taisteluvoima vastaan ​​tanks ja helikopterit.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_HOLD_THE_LINE_DESCRIPTION">
+      <Text>Vierekkäiset yksiköt eri luokista saavat +10 [ICON_Strength] taisteluvoimaa taistelussa tankkeja ja helikoptereita vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_CHOKE_POINTS_DESCRIPTION">
+      <Text>+7 [ICON_Voima] Taisteluvoimaa puolustettaessa metsässä, viidakossa, kumpareilla tai suolla.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_RANGE_NAME">
+      <Text>Vaihda käynnistysputket</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_RANGE_DESC">
+      <Text>+1 [ICON_Range] Hyökkäyskantama</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_MOVE_NAME">
+      <Text>Vaihda jalkojen aktuaattorit</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_MOVE_DESC">
+      <Text>+2 [ICON_Movement] Liikkuminen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_LIMITED_HEAL_NAME">
+      <Text>Täytä Korjaus Nanorobotit</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_LIMITED_HEAL_DESC">
+      <Text>+10 paranemisnopeus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_1_NAME">
+      <Text>Vaihda kiväärintukki</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_1_DESC">
+      <Text>+8 [ICON_Strength] Taisteluvoima</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_2_NAME">
+      <Text>Vaihda Kohdistus Tietokone</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_2_DESC">
+      <Text>+8 [ICON_Voima] Taisteluvoimaa</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_3_NAME">
+      <Text>Tuore ammus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_3_DESC">
+      <Text>+8 [ICON_Strength] Taisteluvoima</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_1_NAME">
+      <Text>Aivot!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_1_DESC">
+      <Text>+5 [ICON_Voima] Taisteluvoimaa</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_2_NAME">
+      <Text>Aivot!!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_2_DESC">
+      <Text>+5 [ICON_Voima] Taisteluvoimaa</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_3_NAME">
+      <Text>Aivot!!!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_3_DESC">
+      <Text>+5 [ICON_Voima] Taisteluvoimaa</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_LESS_DECAY_NAME">
+      <Text>Voi ei!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_LESS_DECAY_DESC">
+      <Text>Ei lahoamisvaurioita</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_1_NAME">
+      <Text>Grah! (There is no need to translate this as it is an exclamation and not a word with a clear meaning or context.)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_1_DESC">
+      <Text>+1 [ICON_Movement] Liike</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_2_NAME">
+      <Text>Grah!! (This is an expression of frustration and does not require translation.)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_2_DESC">
+      <Text>+1 [ICON_Movement] Liike</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_3_NAME">
+      <Text>Grah!!! (This is an expression of frustration or anger which does not require translation.)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_3_DESC">
+      <Text>+1 [ICON_Movement] Liike</Text>
+    </Row>
+    <!-- Unit Abilities -->
+    <Row Tag="LOC_ABILITY_TANK_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Liikkuminen, jos aloitat autiomaassa.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_HEAL_MOVE_NAME">
+      <Text>Xenologinen uudelleenkasvatus</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_HEAL_MOVE_DESCRIPTION">
+      <Text>Yksikkö paranee joka vuoro veden tai säteilysateen ulkopuolella. Parantuu 50% hitaammin kuin normaalisti.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_HEAL_MOVE_UNITPANEL_DESCRIPTION">
+      <Text>Parantaa jokaisella vuorolla vedestä tai säteilystä poissa ollessa. Parantaa puolet normaalista nopeudesta.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_XENO_STEALTH_NAME">
+      <Text>Xenologinen kamouflaasi</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_XENO_STEALTH_DESCRIPTION">
+      <Text>Näkymätön vihollisyksiköille, ellei vieressä.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CULTISTS_UNIT_SIGHT_NAME">
+      <Text>Tarkkailemalla loppua</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CULTISTS_UNIT_SIGHT_DESCRIPTION">
+      <Text>+3 näkökykyä.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNIT_BASE_WMD_RESISTANCE_NAME">
+      <Text>Tottunut katastrofeihin</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNIT_BASE_WMD_RESISTANCE_DESCRIPTION">
+      <Text>Menettää 50 HP:ta sen sijaan, että kuolee välittömästi joukkotuhoaseisiin.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ABILITY_WMD_STRIKE_NAME">
+      <Text>Kyvykäs käynnistämään joukkotuhoaseita</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WMD_STRIKE_DESCRIPTION">
+      <Text>Voi käynnistää joukkotuhoaseet.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PIRATES_IGNORE_EMBARK_DISEMBARK_COST_DESCRIPTION">
+      <Text>Sivuuttaa lisääntyneen [ICON_Movement] liikkumiskulun laivaan nousemisen ja laivasta poistumisen yhteydessä.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAD_SCIENTISTS_UNIT_SHIELD_NAME">
+      <Text>Puolustava inertiakilpi</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAD_SCIENTISTS_UNIT_SHIELD_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa puolustaessa. Täysin immuuni veden, Punaisen kuoleman ja joukkotuhoaseiden vahingoille.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CRIPPLED_GDR_NO_HEAL_NAME">
+      <Text>Ei varaosia</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CRIPPLED_GDR_NO_HEAL_DESCRIPTION">
+      <Text>Yksikkö ei parane vuoron aikana.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_NO_HEAL_NAME">
+      <Text>Zombien mätäneminen</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_NO_HEAL_DESCRIPTION">
+      <Text>Saa mätänemisvahinkoa kierroksittain ja paranee vain ylennyksistä tai tappaessaan ei-zombiyksiköitä.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_COMBAT_SPAWN_NAME">
+      <Text>Zombietaistelusyntyminen</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_COMBAT_SPAWN_DESCRIPTION">
+      <Text>Synnyttää zombilauman, kun tappaa ei-zombi-yksikön.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_RANGED_RESISTANCE_NAME">
+      <Text>Ei kipua</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_RANGED_RESISTANCE_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Taisteluvoimaa, kun puolustautuu kaukohyökkäyksiä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_SPREAD_FALLOUT_IMMUNE_NAME">
+      <Text>Mutanttien leviäminen ja säteilyjälki immuniteetti</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_SPREAD_FALLOUT_IMMUNE_DESCRIPTION">
+      <Text>Immuuni vahingoilta, joita mutanttitaudin leviäminen aiheuttaa.</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_SPEED_NAME">
+      <Text>Radioaktiivinen liike</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_SPEED_DESCRIPTION">
+      <Text>+3 [ICON_Movement] Liikkuminen Punaisessa Kuolemassa.</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_RESISTANCE_NAME">
+      <Text>Radioaktiivinen vastustuskyky</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_RESISTANCE_DESCRIPTION">
+      <Text>-50% Punaisen Kuoleman vahinkoa.</Text>
+    </Row>
+    <Row Tag="LOC_MAD_SCIENTISTS_UNIT_SHIELD_MODIFIER">
+      <Text>+{1_Amount} Inertial Shielding
++{1_Määrä} Inertiaalisuojausta</Text>
+    </Row>
+    <Row Tag="LOC_BORDERLORD_EDGENESS_COMBAT_BONUS_MODIFIER">
+      <Text>+{1_Amount} Terävyyttä</Text>
+    </Row>
+    <Row Tag="LOC_ZOMBIES_DEFENSE_BONUS_VS_RANGED_COMBAT_MODIFIER">
+      <Text>+{1_Määrä} zombietaistelualueen vastustuskykyä</Text>
+    </Row>
+    <Row Tag="LOC_SHIELDS_DEPLETED">
+      <Text>Kilvet tyhjentyneet</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_TT">
+      <Text>Puolustava inertiakilpi[NEWLINE][NEWLINE]Aktivoi puolustava inertiakilpi, joka antaa +10 [ICON_Strength] taisteluvoimaa puolustuksessa. Kilpi suojaa myös täysin vedeltä, Punaisen kuoleman taudilta ja joukkotuhoaseiden räjähdyksiltä. Puolustava inertiakilpi kestää 4 vuoroa ja sen latautuminen kestää 6 vuoroa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_ACTIVE_TT">
+      <Text>Kilpi on aktiivinen. Kierroksia jäljellä: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_ACTIVE_WORLDTEXT">
+      <Text>Kilvet ylös!</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_RECHARGING_TT">
+      <Text>Kilpi latautuu. Kierroksia jäljellä: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_NAME">
+      <Text>Tievisio</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_TT">
+      <Text>Tie Näkemys[NEWLINE][NEWLINE]Paljastaa kaiken aiemmin tutkitun alueen.</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_ACTIVE_TT">
+      <Text>Tievisio on aktiivinen. Käännöksiä jäljellä: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_ACTIVE_WORLDTEXT">
+      <Text>Muistan sen!</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_RECHARGING_TT">
+      <Text>Tienäkyvyys latautuu. Kierroksia jäljellä: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_PLACE_TRAP_TT">
+      <Text>Rakenna improvisoitun ansan[NEWLINE][NEWLINE]Aseta improvisoitun ansa nykyiselle heksalle.</Text>
+    </Row>
+    <Row Tag="LOC_PLACE_TRAP_OUT_OF_TRAPS_TT">
+      <Text>Ansasta ulos.</Text>
+    </Row>
+    <Row Tag="LOC_PLACE_TRAP_FAILED_WORLDTEXT">
+      <Text>Ei voi asettaa loukkua tähän</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PANEL_TRAPS">
+      <Text>Ansoja</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_NAME">
+      <Text>Lähetä suruviesti</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_TT">
+      <Text>Lähetä surun lahja[NEWLINE][NEWLINE]Valitse heksa, jolle asettaa loukutettu surun lahja seuraavalla vuorolla. Muille pelaajille surun lahja näyttää normaalilta tarjonta-alukselta. Voit varastoida enintään kaksi surun lahjaa ja niiden latautumiseen tarvitaan 5 vuoroa.</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_ACTIVE_WORLDTEXT">
+      <Text>Lahjaa ei voida sijoittaa tähän</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_COUNT_TT">
+      <Text>Valmiit lahjat: {1_giftCount}</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_RECHARGING_TT">
+      <Text>Käärimme uusia lahjoja. Vuoroja jäljellä: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_EMPTY_TT">
+      <Text>Lahjoja surun keskellä ei ole enää saatavilla.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CLOAK_TT">
+      <Text>Xenologinen kameleontti[NEWLINE][NEWLINE] Tule pääosin näkymättömäksi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CLOAK_ACTIVE_TT">
+      <Text>Päällysvaate on aktivoitu. Kierroksia jäljellä: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CLOAK_RECHARGING_TT">
+      <Text>Viitta latautuu. Jäljellä olevat kierrokset: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_NAME">
+      <Text>Polta aarrekartta</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_TT">
+      <Text>Polta aarrekartta[NEWLINE][NEWLINE]Polttaa hautautunut aarrekarttasi ja saat uuden.[NEWLINE]"He eivät koskaan löydä aarteeni nyt!"</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_ACTIVE_WORLDTEXT">
+      <Text>Se palaa!</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_RECHARGING_TT">
+      <Text>Aarrekartan polttolaite latautuu. Kierroksia jäljellä: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_TT">
+      <Text>Uhraa yksikkö[NEWLINE][NEWLINE]Uhrataan tämä yksikkö, jotta kuolemattomalle Silmälle voidaan myöntää ylennys.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_TT_B">
+      <Text>Uhraa yksikkö[NEWLINE][NEWLINE]Uhraa tämä yksikkö myöntääksesi ylennyksen {1_UnitName}:lle.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_TT_C">
+      <Text>Kävele laudan yli[NEWLINE][NEWLINE]Tuhoa tämä yksikkö viihdyttääksesi GDRRRrrrr:n miehistöä ja myöntääksesi sille ylennyksen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_WORLDTEXT">
+      <Text>Kuolen palvellakseni!</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_WORLDTEXT_PIRATE">
+      <Text>Arr! Syvänteiden jumalille lahja!</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_NOT_ADJACENT_TT">
+      <Text>Kuolematon silmä hyväksyy uhraukset vain viereisistä hekseleistä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_NOT_ADJACENT_TT_B">
+      <Text>{1_UnitName} hyväksyy uhrauksia vain viereisiltä heksagonialueilta.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_NOT_ADJACENT_TT_C">
+      <Text>Voit heittää yksiköitä kannelta vain, kun ne ovat vierekkäin GDRRRrrrr:n kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_MAX_PROMOTIONS_TT">
+      <Text>Kuolematon silmä on täysin ilmennyt eikä enää vaadi uhreja.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_MAX_PROMOTIONS_TT_B">
+      <Text>{1_UnitName} on täysin ilmentynyt eikä enää vaadi uhreja.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_MAX_PROMOTIONS_TT_C">
+      <Text>GDRRRrrrr:n miehistö kyllästyy katsomaan yksiköiden kävelyä laudalta.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RAD_SPREAD_TT">
+      <Text>Vaihda Loistavat Persoonallisuudet[NEWLINE][NEWLINE]Vaihda tämän yksikön kyky levittää Punaisen Kuoleman säteilyä liikkuessaan.</Text>
+    </Row>
+    <!-- Terrain Replacements -->
+    <Row Tag="LOC_CIVROYALE_TERRAIN_WASTELAND_NAME">
+      <Text>Autiomaa</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME">
+      <Text>Aavikko (mäet)</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME">
+      <Text>Autiomaa (Vuori)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_DESERT_NAME">
+      <Text>JÄTE MAA</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_DESERT_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_DESERT_MOUNTAIN_NAME">
+      <Text>Autiomaa (Vuori)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_GRASS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_GRASS_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_GRASS_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME} (IN ENGLISH: WASTELAND MOUNTAIN)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_OCEAN_NAME">
+      <Text>Myrkytetty valtameri</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_LAKE">
+      <Text>Myrkytetty järvi</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_COAST">
+      <Text>Myrkytetty rannikko</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_PLAINS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME} (WASTELAND)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_PLAINS_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_PLAINS_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_SNOW_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_SNOW_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_SNOW_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_TUNDRA_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_TUNDRA_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_TUNDRA_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_ICE_NAME">
+      <Text>Suuri Lahovuus (Kielletty)</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_MARSH_NAME">
+      <Text>Suomennus: Suo</Text>
+    </Row>
+    <!-- Unit Replacements -->
+    <Row Tag="LOC_UNIT_SETTLER_NAME">
+      <Text>Siviili</Text>
+    </Row>
+    <!-- Barbarian Replacements -->
+    <Row Tag="LOC_IMPROVEMENT_BARBARIAN_CAMP_NAME">
+      <Text>Ryöstäjien etappipaikka</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BARBARIAN_NAME">
+      <Text>Raiders</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BARBARIAN_DESCRIPTION">
+      <Text>Ryöstäjät</Text>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_MESSAGE">
+      <Text>Uusi Raiderin ulkotukikohta</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_SUMMARY">
+      <Text>Olemme saaneet huhuja, että uusi ryöstäjäjoukko on muuttanut läheiselle alueelle.</Text>
+    </Row>
+    <!-- Overlays -->
+    <Row Tag="LOC_EDGELORD_COMBAT_BONUS_OVERLAY_TT">
+      <Text>Edgelord Taistelu Bonusalue</Text>
+    </Row>
+    <!-- Zombie Combat Unit -->
+    <Row Tag="LOC_UNIT_ZOMBIE_NAME">
+      <Text>Zombilauma</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ZOMBIE_DESCRIPTION">
+      <Text>Vaivoin aseistettu zombilauma</Text>
+    </Row>
+    <!-- Crippled GDR -->
+    <Row Tag="LOC_UNIT_CRIPPLED_GDR_NAME">
+      <Text>Vammautunut DDR</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CRIPPLED_GDR_DESCRIPTION">
+      <Text>Tämä jättimäinen kuolemanrobotti on nähnyt parempiakin päiviä. Se ei koskaan ole enää sama, mutta se on edelleen voimakas vastustaja.</Text>
+    </Row>
+    <!-- Faction Specific Unit Naming -->
+    <Row Tag="LOC_UNIT_UNDYING_EYE_NAME">
+      <Text>Kuolemattomat silmät</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATE_TREASURE_TANK_NAME">
+      <Text>Aarre Tankki</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATE_TREASURE_CRIPPLED_GDR_NAME">
+      <Text>GDRRRrrrr</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATE_TREASURE_INFANTRY_NAME">
+      <Text>Maa-ihminen</Text>
+    </Row>
+    <!-- Combat Modifier Strings -->
+    <Row Tag="LOC_TRAIT_JOCKS_COMBAT_BONUS_DESC">
+      <Text>+{1_Amount} Todistajaa täydellisyydelle</Text>
+    </Row>
+    <!-- WMDs -->
+    <Row Tag="LOC_WMD_HAIL_MARY_NAME">
+      <Text>Terve Maria</Text>
+    </Row>
+    <Row Tag="LOC_WMD_HAIL_MARY_DISABLED_COOLDOWN">
+      <Text>[COLOR:Red]{1_turns} kierrosta seuraavaan Hail Mary -sotaanjohtopäähän.[ENDCOLOR]</Text>
+    </Row>
+    <!-- Treasure Locations -->
+    <Row Tag="LOC_TREASURE_UNIT_INFANTRY_RECRUITED">
+      <Text>Löysimme joitakin uusia rekrytoitavia!</Text>
+    </Row>
+    <Row Tag="LOC_TREASURE_UNIT_TANK_RECRUITED">
+      <Text>Se on panssarivaunu!</Text>
+    </Row>
+    <Row Tag="LOC_TREASURE_UNIT_CRIPPLED_GDR_RECRUITED">
+      <Text>GDRRRRrrrr!</Text>
+    </Row>
+    <!-- UFO Unit Names -->
+    <Row Tag="LOC_UFO_UNIT_NAME1">
+      <Text>"Suomaa kaasu"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME2">
+      <Text>"Harvinaiset pilvet"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME3">
+      <Text>"Humalainen todistaja"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME4">
+      <Text>"Unilääkkeet"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME5">
+      <Text>"Jäljitämätön meteoriitti"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME6">
+      <Text>"Salaisen Aseen Testi"</Text>
+    </Row>
+  </EnglishText>
+</GameData>

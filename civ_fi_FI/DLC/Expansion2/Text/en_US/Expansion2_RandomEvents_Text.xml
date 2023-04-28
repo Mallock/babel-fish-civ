@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!--River Flooding-->
+    <Row Tag="LOC_RANDOM_EVENT_FLOOD_MODERATE_NAME">
+      <Text>Kohtalainen tulva</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_FLOOD_MODERATE_DESCRIPTION">
+      <Text>Nousevat vedet tulvivat joen rantojen yli ja valuvat maalle sen takana.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_FLOOD_MAJOR_NAME">
+      <Text>Suuri tulva</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_FLOOD_MAJOR_DESCRIPTION">
+      <Text>Nouseva, samea vesi vyöryy ympäröivään maastoon joen voimakkaan tulvan aikana.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_FLOOD_1000_YEAR_NAME">
+      <Text>1000 vuoden tulva</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_FLOOD_1000_YEAR_DESCRIPTION">
+      <Text>Joki tulvii yli äyräidensä ja nouseva vesi peittää maan mailien päähän. Ei tuhanteen vuoteen joki ole tulvinut näin paljon!</Text>
+    </Row>
+    <!--Eruptions-->
+    <Row Tag="LOC_RANDOM_EVENT_KILIMANJARO_GENTLE_NAME">
+      <Text>Hellä purkaus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_KILIMANJARO_GENTLE_DESCRIPTION]">
+      <Text>Ihmiset ja eläimet näkevät Kilimanjaron nousevan tuhkapatsaan mailien päästä ja ihmettelevät Maan raivoa.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_KILIMANJARO_CATASTROPHIC_NAME">
+      <Text>Katastrofaalinen purkaus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_KILIMANJARO_CATASTROPHIC_DESCRIPTION">
+      <Text>Kilimanjaro jyrähtää ja savu- ja tuhkapilvi kohoaa taivaisiin, kun ihmiset ja eläimet pakenevat kauhun vallassa!</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_EYJAFJALLAJOKULL_CATASTROPHIC_NAME">
+      <Text>Katastrofaalinen purkaus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_EYJAFJALLAJOKULL_CATASTROPHIC_DESCRIPTION">
+      <Text>Ihmiset joutuvat kulkemaan kauas välttääkseen Eyjafjallajökullin valtavan tuhkapilven.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_EYJAFJALLAJOKULL_MEGACOLOSSAL_NAME">
+      <Text>Megakolossaalinen purkaus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_EYJAFJALLAJOKULL_MEGACOLOSSAL_DESCRIPTION">
+      <Text>Eyjafjallajökull repii aukon maahan, ikään kuin jumalatar Hel itse olisi pakenemassa alamaailmasta!</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL_NAME">
+      <Text>Megakolossaalinen purkaus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL_DESCRIPTION">
+      <Text>Kansalaiset huutavat kauhusta ja pakenevat turvaan, kun pyroklastinen aalto vyöryy Vesuviuksen rinteitä alas!</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_VOLCANO_GENTLE_NAME">
+      <Text>Hellä purkaus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_VOLCANO_GENTLE_DESCRIPTION">
+      <Text>Ihmiset katsovat huolestuneina taivaalle, katsellen savua nousevan kerran hiljaisesta tulivuoresta.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_VOLCANO_CATASTROPHIC_NAME">
+      <Text>Katastrofaalinen purkaus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_VOLCANO_CATASTROPHIC_DESCRIPTION">
+      <Text>Ihmiset, jotka asuvat lähellä tulivuorta, paennevat kun laava ja tuhka peittävät ympäröivän maan.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_VOLCANO_MEGACOLOSSAL_NAME">
+      <Text>Megakolossaalinen purkaus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_VOLCANO_MEGACOLOSSAL_DESCRIPTION">
+      <Text>Ihmiset pakenevat kauhun vallassa, kun pyroklastiset virrat pieksevät tulivuoren rinteitä ja savupatsaat syöksyvät taivaalle!</Text>
+    </Row>
+    <!--Rising Sea Levels Flooding-->
+    <Row Tag="LOC_COASTAL_LOWLAND_1M_NAME">
+      <Text>Rannikkotasanko: 1 metri</Text>
+    </Row>
+    <Row Tag="LOC_COASTAL_LOWLAND_1M_DESCRIPTION">
+      <Text>Tämä on ensimmäinen maa, joka tulvii, kun meren pinnat nousevat.</Text>
+    </Row>
+    <Row Tag="LOC_COASTAL_LOWLAND_2M_NAME">
+      <Text>Rannikkoniitty: 2 metriä</Text>
+    </Row>
+    <Row Tag="LOC_COASTAL_LOWLAND_2M_DESCRIPTION">
+      <Text>Tämä maa tulvii, kun merenpinnat nousevat toisen kerran.</Text>
+    </Row>
+    <Row Tag="LOC_COASTAL_LOWLAND_3M_NAME">
+      <Text>Rannikkoalue: 3 metriä</Text>
+    </Row>
+    <Row Tag="LOC_COASTAL_LOWLAND_3M_DESCRIPTION">
+      <Text>Tämä on viimeinen maa, joka kärsii nousevan merenpinnan vaikutuksista.</Text>
+    </Row>
+    <Row Tag="LOC_COASTAL_LOWLAND_FLOODED">
+      <Text>(Tulva)</Text>
+    </Row>
+    <Row Tag="LOC_COASTAL_LOWLAND_SUBMERGED">
+      <Text>(Syvässä vedessä)</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE1_NAME">
+      <Text>Ilmastonmuutos vaihe I</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE2_NAME">
+      <Text>Ilmastonmuutos vaihe II</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE3_NAME">
+      <Text>Ilmastonmuutos Vaihe III</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE4_NAME">
+      <Text>Ilmastonmuutosvaihe IV</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE5_NAME">
+      <Text>Ilmastonmuutos vaihe V</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE6_NAME">
+      <Text>Ilmastonmuutoksen vaihe VI</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE7_NAME">
+      <Text>Ilmastonmuutos vaihe VII</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE1_DESCRIPTION">
+      <Text>0.5</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE2_DESCRIPTION">
+      <Text>1.0</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE3_DESCRIPTION">
+      <Text>1.5</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE4_DESCRIPTION">
+      <Text>2.0</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE5_DESCRIPTION">
+      <Text>2.5</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE6_DESCRIPTION">
+      <Text>3.0</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE7_DESCRIPTION">
+      <Text>3.5</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE4_LONG_DESCRIPTION">
+      <Text>Myrskyt ja tulvat eivät enää paranna hedelmällisyyttä.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE5_LONG_DESCRIPTION">
+      <Text>Myrskyt ja kuivuus, jotka kulkevat tiilen yli, alkavat poistaa pelin varhaisemmassa vaiheessa lisättyä bonus hedelmällisyyttä.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE6_LONG_DESCRIPTION">
+      <Text>Myrskyt ja kuivuudet, jotka kulkevat pelilaudan yli säännöllisesti, poistavat bonuksen hedelmällisyydestä, joka on lisätty aiemmin pelissä.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_SEA_LEVEL_RISE7_LONG_DESCRIPTION">
+      <Text>Myrskyt ja kuivuus kulkevat tiilen yli melko usein poistaen aikaisemmin peliin lisätyn bonuksen hedelmällisyydestä.</Text>
+    </Row>
+    <!--Storms-->
+    <Row Tag="LOC_RANDOM_EVENT_BLIZZARD_SIGNIFICANT_NAME">
+      <Text>Merkittävä lumimyrsky</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_BLIZZARD_SIGNIFICANT_DESCRIPTION">
+      <Text>Jääkylmä tuuli pyyhkii lumipeitettä yli maiseman, kun elävät olennot kerääntyvät pesiinsä.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_BLIZZARD_CRIPPLING_NAME">
+      <Text>Lamaannuttava lumimyrsky</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_BLIZZARD_CRIPPLING_DESCRIPTION">
+      <Text>Ulvova tuuli ja pieksevä lumipyry muuttavat taivaan ja maan valkoiseksi. Tutut muodot katoavat jäätyneiden kinosten alle.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_DUST_STORM_GRADIENT_NAME">
+      <Text>Gradient Pölymyrsky</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_DUST_STORM_GRADIENT_DESCRIPTION">
+      <Text>Aurinko on vihainen oranssi kiekko sumuisessa taivaassa kun ihmiset kiirehtivät askareissaan, kankaat kiedottuna nenien ja suun ympärille.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_DUST_STORM_HABOOB_NAME">
+      <Text>Haboob-pölymyrsky</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_DUST_STORM_HABOOB_DESCRIPTION">
+      <Text>Kaukaa ihmiset näkevät lähestyvän hiekkamuurin ja hajaantuvat etsimään turvaa ennen kuin raivoava tuuli hioo kaiken!</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_TORNADO_FAMILY_NAME">
+      <Text>Tornado-perhe</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_TORNADO_FAMILY_DESCRIPTION">
+      <Text>Tornado hitaasti laskeutuu kesäsateesta, ja ihmiset etsivät suojaa.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_TORNADO_OUTBREAK_NAME">
+      <Text>Tornadotulva</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_TORNADO_OUTBREAK_DESCRIPTION">
+      <Text>Nopeasti liikkuva myrskyrintama kiitää tummuvalla kesätaivaalla, jossa tornadoja synnyttävät pilvet uhkaavasti muodostuvat</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_HURRICANE_CAT_4_NAME">
+      <Text>Luokan 4 hurrikaani</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_HURRICANE_CAT_4_DESCRIPTION">
+      <Text>Raeskuva sade ja ulvova myrsky merkitsevät mahtavan hurrikaanin saapumista.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_HURRICANE_CAT_5_NAME">
+      <Text>Luokan 5 hurrikaani</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_HURRICANE_CAT_5_DESCRIPTION">
+      <Text>Tuuli huutaa, rankkasateiden virrat syöksyvät alas ja aallot ajavat armottomasti rantaan. Vähän mikään kestää, missä tämä hurrikaani kulkee!</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_DROUGHT_MAJOR_NAME">
+      <Text>Vakava kuivuus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_DROUGHT_MAJOR_DESCRIPTION">
+      <Text>Heinäsirkat surisevat ja pöly pöllyää kuumassa tuulessa. Maa on kuivuudesta rutikuiva.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_DROUGHT_EXTREME_NAME">
+      <Text>Kuihtuva kuivuus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_DROUGHT_EXTREME_DESCRIPTION">
+      <Text>Armoton aurinko porottaa kuivasta ja kuihtuneesta maasta. Ei ole satanut sadetta, eikä taivas lupaa helpotusta.</Text>
+    </Row>
+    <!--Random Event Effect Strings-->
+    <Row Tag="LOC_RANDOM_EVENT_PROP_DAMAGE_FERTILITY">
+      <Text>+ Saattaa lisätä hedelmällisyyttä niille tiilille, joiden yli se kulkee[NEWLINE]- Saattaa vahingoittaa parannuksia tai kaupunginosia</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY">
+      <Text>+ Saattaa lisätä hedelmällisyyttä laattoihin, joita se kulkee yli[NEWLINE]- Saattaa vahingoittaa parannuksia tai kaupunginosia[NEWLINE]- Saattaa vahingoittaa yksiköitä tai vähentää kaupungin väestöä</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_PROP_DAMAGE_NO_FERTILITY">
+      <Text>Voi vahingoittaa parannuksia tai kaupunginosia</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_ALL_DAMAGE_NO_FERTILITY">
+      <Text>- Saattaa vahingoittaa parannuksia tai kaupunginosia[NEWLINE]- Saattaa vahingoittaa yksiköitä tai vähentää kaupungin väestöä</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_PROP_NAVAL_DAMAGE_FERTILITY">
+      <Text>+ Saattaa lisätä hedelmällisyyttä laattoihin, joita se ylittää[NEWLINE]- Saattaa vahingoittaa parannuksia tai kaupunginosia[NEWLINE]- Saattaa vahingoittaa meriyksiköitä</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_DROUGHT_DAMAGE">
+      <Text>- Laskee [ICON_Food] ruuan määrää yhdellä laatasta, jos kaupungissa ei ole akveduktia, patoa tai kaivoa.[NEWLINE]- Saattaa tuhota tai ryöstää maatiloja, leirejä, laitumia ja plantaaseja.</Text>
+    </Row>
+    <!--Deforestation-->
+    <Row Tag="LOC_DEFORESTATION_LIGHT_NAME">
+      <Text>Valo</Text>
+    </Row>
+    <Row Tag="LOC_DEFORESTATION_EXPECTED_NAME">
+      <Text>Odottavissa</Text>
+    </Row>
+    <Row Tag="LOC_DEFORESTATION_HEAVY_NAME">
+      <Text>Raskas</Text>
+    </Row>
+    <Row Tag="LOC_DEFORESTATION_EXTREME_NAME">
+      <Text>Äärimmäinen</Text>
+    </Row>
+    <Row Tag="LOC_DEFORESTATION_LIGHT_DESCRIPTION">
+      <Text>Toistaiseksi suoluontoa, metsiä ja sademetsiä ei ole poistettu paljoa planeetalta.</Text>
+    </Row>
+    <Row Tag="LOC_DEFORESTATION_EXPECTED_DESCRIPTION">
+      <Text>Suon, metsien ja sademetsän ominaisuuksien poisto planeetalta on edennyt odotetulla tahdilla.</Text>
+    </Row>
+    <Row Tag="LOC_DEFORESTATION_HEAVY_DESCRIPTION">
+      <Text>Suolla, metsillä ja sademetsillä varustettujen alueiden poistaminen planeetalta on ollut merkittävää tähän asti.</Text>
+    </Row>
+    <Row Tag="LOC_DEFORESTATION_EXTREME_DESCRIPTION">
+      <Text>Soistumien, metsien ja sademetsien poistaminen planeetalta on ollut laajaa.</Text>
+    </Row>
+    <!--Nuclear Accidents-->
+    <Row Tag="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR_NAME">
+      <Text>Radioaktiivinen höyrypurkaus</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR_NAME">
+      <Text>Vakava säteilyvuoto</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC_NAME">
+      <Text>Ydinvoimalan sulaminen</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR_DESCRIPTION">
+      <Text>Ydinkraftwerkissa insinöörit työskentelevät kuumeisesti hallitakseen leviävää vuotoa. He ovat jo estäneet pahemman lopputuloksen, mutta tilanne on edelleen vakava.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR_DESCRIPTION">
+      <Text>Hälytykset soivat ydinvoimalaitoksella! Höyrypatsaat nousevat reaktorin halkeamista ja annosmittarit napsuvat ja hurisevat, kun säteily peittää alueen.</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC_DESCRIPTION">
+      <Text>Uhkaava räjähdys jyrähtää ja synkkä savupatsas nousee ydinvoimalan yllä. Yksi kerrallaan, hälytysäänten valitus muuttuu kirkuvaksi kuoroksi, koska helvetilliset palavat polttoaineen möykyt alkavat sataa alas</Text>
+    </Row>
+  </EnglishText>
+</GameData>

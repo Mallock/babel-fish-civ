@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <!-- Shell -->
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_NAME">
+      <Text>Musta surma</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_BLACKDEATH_SCENARIO">
+      <Text>Musta Surma raivosi Euroopassa ja Länsi-Aasiassa 1300-luvun keskivaiheilla, tappaen suuremman osan väestöstä kuin mikään muu tapahtuma maailman historiassa. Pandemia tappoi miljoonia, tuhosi talouksia, kaatoi poliittisia dynastioita ja muutti länsimaailman kasvot. [NEWLINE][NEWLINE] Tehtäväsi on johtaa kansaasi katastrofin läpi: pidä väestösi hengissä, taloutesi vahvana ja uskosi horjumattomana maailmassa, jossa vallitsee kauhu ja epätoivo.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_HOF_PLAGUE_DEATHS">
+      <Text>Rutto kuolemat</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_HOF_CITY_PLAGUE_DEATHS">
+      <Text>Kaupunkien rutto-kuolemat</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_HOF_CITY_MOST_PLAGUE_DEATHS">
+      <Text>Korkeimmat kaupunkikuolleisuuslukemat</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_HOF_CITY_MOST_PLAGUE_DEATHS_ANNOTATION">
+      <Text>{Amount: plural 1?{Amount} kuolema; other?{Amount} kuolemat;}</Text>
+    </Row>
+    <!-- Misc -->
+    <Row Tag="LOC_VICTORY_BLACKDEATH_SCENARIO_NAME">
+      <Text>Musta Surman Voitto</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_BLACKDEATH_SCENARIO_TEXT">
+      <Text>Olet selvinnyt ruton synkistä päivistä ja noussut vahvemmaksi sekä valistuneemmaksi. Teknologinen ja sivistyksellinen edistys, jonka olet saavuttanut, tulee valaisemaan Euroopan vaurautta vuosisadoiksi eteenpäin!</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_BLACKDEATH_SCENARIO_TT">
+      <Text>Voitat tämän voiton, jos pystyt avaamaan Keksintöteknologian tai Keskiluokan Kansalaisen ennen skenaarion päättymistä.</Text>
+    </Row>
+    <!-- Map -->
+    <Row Tag="LOC_MAPSIZE_BLACKDEATH_SCENARIO_NAME">
+      <Text>Keski-aikainen Eurooppa</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_BLACKDEATH_SCENARIO_DESCRIPTION">
+      <Text>Pieni kartta, joka kuvaa Länsi-Eurooppaa sellaisena kuin se saattoi näyttää 1300-luvun puolivälissä.</Text>
+    </Row>
+    <!-- Units -->
+    <Row Tag="LOC_UNIT_TEUTONIC_KNIGHT_NAME">
+      <Text>Teutoninen ritari</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TEUTONIC_KNIGHT_DESCRIPTION">
+      <Text>Pyhän saksalais-roomalaisen keisarikunnan uniikki yksikkö, joka korvaa Miekkamiehen. Ei [ICON_Gold] kultahuoltoa. +8 [ICON_Strength] taisteluvoimaa, kun taistelee vihollisen alueella</Text>
+    </Row>
+    <!-- France -->
+    <Row Tag="LOC_LEADER_BLACKDEATH_SCENARIO_FRANCE_NAME">
+      <Text>Kuningas Filip VI</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_FRANCE_NAME">
+      <Text>Ranska</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_FRANCE_DESCRIPTION">
+      <Text>Ranskan kuningaskunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_FRANCE_ADJECTIVE">
+      <Text>Seuraava teksti on käännettävä suomeksi. Vastaa vain luonnolliselta kuulostavalla käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_FRANCE_ABILITY_NAME">
+      <Text>Paavillinen johtajuus</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_FRANCE_ABILITY_DESCRIPTION">
+      <Text>Ranskan hallitus saa erityisen "Paavillisen politiikan" villin korttipaikan. Tämä paikka on valinnainen, mutta se kuluttaa [ICON_Faith] uskoa käänteistä kohti, jos sitä käytetään.</Text>
+    </Row>
+    <!-- England -->
+    <Row Tag="LOC_LEADER_BLACKDEATH_SCENARIO_ENGLAND_NAME">
+      <Text>Kuningas Edward III</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ENGLAND_NAME">
+      <Text>Englanti</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ENGLAND_DESCRIPTION">
+      <Text>Englannin kuningaskunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ENGLAND_ADJECTIVE">
+      <Text>Finnish:</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ENGLAND_ABILITY_NAME">
+      <Text>Työvoiman pakottaminen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ENGLAND_ABILITY_DESCRIPTION">
+      <Text>Kaikki englantilaiskaupungit saavat 'Pakottaa' käskyn: käytä [ICON_Gold] Kultaa, jotta ruttoon sairastunut laatta voi työskennellä, parantua tai rakentaa 10 kierroksen ajan.</Text>
+    </Row>
+    <!-- Holy Roman Empire -->
+    <Row Tag="LOC_LEADER_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_NAME">
+      <Text>Keisari Ludvig IV</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_NAME">
+      <Text>Pyhä saksalais-roomalainen keisarikunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_DESCRIPTION">
+      <Text>Pyhä saksalais-roomalainen keisarikunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_ADJECTIVE">
+      <Text>Imperiaalinen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_ABILITY_NAME">
+      <Text>Teutoninen ritarikunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_ABILITY_DESCRIPTION">
+      <Text>Teutoninen ritari -uniikki yksikkö korvaa Miekat. Teutoniset ritarit eivät tarvitse [ICON_Gold] kultaa ylläpitokustannuksiin ja niillä on +8 [ICON_Strength] taisteluvoimaa taisteltaessa vihollisen alueella.</Text>
+    </Row>
+    <!-- Castile -->
+    <Row Tag="LOC_LEADER_BLACKDEATH_SCENARIO_CASTILE_NAME">
+      <Text>Alfonso XI</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_CASTILE_NAME">
+      <Text>Kastilia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_CASTILE_DESCRIPTION">
+      <Text>Kastilian kuningaskunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_CASTILE_ADJECTIVE">
+      <Text>Se necesita traducir el siguiente texto al finlandés. Responder solo con la traducción natural y sonora</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_CASTILE_ABILITY_NAME">
+      <Text>Uskon miekka</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_CASTILE_ABILITY_DESCRIPTION">
+      <Text>Kaikki kastilialaiset yksiköt saavat 'Pyhä kiihko' yksikkökäskyn: kerran vuorossa yksikkö voi käyttää [ICON_Faith] uskontoa palauttaakseen liikkeensä ja hyökkäyksensä.</Text>
+    </Row>
+    <!-- City-States -->
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_BRAGA_NAME">
+      <Text>Braga</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_BRAGA_DESCRIPTION">
+      <Text>Bragan kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_LISBON_NAME">
+      <Text>Lissabon</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_LISBON_DESCRIPTION">
+      <Text>Lissabonin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_FARO_NAME">
+      <Text>Faro</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_FARO_DESCRIPTION">
+      <Text>Faron kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_PAMPLONA_NAME">
+      <Text>Pamplona</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_PAMPLONA_DESCRIPTION">
+      <Text>Pamplonan kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_VALENCIA_NAME">
+      <Text>Valencia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_VALENCIA_DESCRIPTION">
+      <Text>Valencian kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_BARCELONA_NAME">
+      <Text>Barcelona</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_BARCELONA_DESCRIPTION">
+      <Text>Barcelonan kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_GRENADA_NAME">
+      <Text>Granada</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_GRENADA_DESCRIPTION">
+      <Text>Grenadan kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_PALMA_NAME">
+      <Text>Palma</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_CORK_NAME">
+      <Text>Korkki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ABERDEEN_NAME">
+      <Text>Aberdeen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_EDINBURGH_NAME">
+      <Text>Edinburgh</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_MARSEILLES_NAME">
+      <Text>Marseille</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_GENEVA_NAME">
+      <Text>Geneve</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_MILAN_NAME">
+      <Text>Milano</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_GENOA_NAME">
+      <Text>Genoa</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_VENICE_NAME">
+      <Text>Venetsia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_PISA_NAME">
+      <Text>Pisa</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ROME_NAME">
+      <Text>Rooma</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_NAPLES_NAME">
+      <Text>Napoli</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_COPENHAGEN_NAME">
+      <Text>Kööpenhamina</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ALBORG_NAME">
+      <Text>Alborg</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_STOCKHOLM_NAME">
+      <Text>Tukholma</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_KALMAR_NAME">
+      <Text>Kalmar</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_OSLO_NAME">
+      <Text>Oslo</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_STAVANGER_NAME">
+      <Text>Stavanger</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_SPLIT_NAME">
+      <Text>Jakaa</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_DUBROVNIK_NAME">
+      <Text>Dubrovnik</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ZAGREB_NAME">
+      <Text>Zagreb</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_PRAGUE_NAME">
+      <Text>Praha</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_VIENNA_NAME">
+      <Text>Wien</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_SZCZECIN_NAME">
+      <Text>Szczecin</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_GDANSK_NAME">
+      <Text>Gdansk</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_PALMA_DESCRIPTION">
+      <Text>Palman kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_CORK_DESCRIPTION">
+      <Text>Korkin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ABERDEEN_DESCRIPTION">
+      <Text>Aberdeenin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_EDINBURGH_DESCRIPTION">
+      <Text>Edinburghin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_MARSEILLES_DESCRIPTION">
+      <Text>Marseillen kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_GENEVA_DESCRIPTION">
+      <Text>Geneven kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_MILAN_DESCRIPTION">
+      <Text>Milanon kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_GENOA_DESCRIPTION">
+      <Text>Genovan kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_VENICE_DESCRIPTION">
+      <Text>Venetsian kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_PISA_DESCRIPTION">
+      <Text>Pisan kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ROME_DESCRIPTION">
+      <Text>Rooman kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_NAPLES_DESCRIPTION">
+      <Text>Napolin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_COPENHAGEN_DESCRIPTION">
+      <Text>Kööpenhaminan kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ALBORG_DESCRIPTION">
+      <Text>Alborgin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_STOCKHOLM_DESCRIPTION">
+      <Text>Tukholman kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_KALMAR_DESCRIPTION">
+      <Text>Kalmarin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_OSLO_DESCRIPTION">
+      <Text>Oslo'n kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_STAVANGER_DESCRIPTION">
+      <Text>Stavangerin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_SPLIT_DESCRIPTION">
+      <Text>Splitin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_DUBROVNIK_DESCRIPTION">
+      <Text>Dubrovnikin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_ZAGREB_DESCRIPTION">
+      <Text>Zagrebin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_PRAGUE_DESCRIPTION">
+      <Text>Prahan kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_VIENNA_DESCRIPTION">
+      <Text>Wienin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_SZCZECIN_DESCRIPTION">
+      <Text>Szczecinin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_GDANSK_DESCRIPTION">
+      <Text>Gdanskin kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BLACKDEATH_SCENARIO_CITY_STATE_NAME">
+      <Text>Kaupunkivaltion johtaja</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_PLAGUE">
+      <Text>Rutto</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_PLAGUE_HELP">
+      <Text>Kytkee Rutto-objektiivin päälle.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

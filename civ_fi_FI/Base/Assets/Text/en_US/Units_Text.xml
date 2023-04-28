@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Promotion Class Names -->
+    <Row Tag="LOC_PROMOTION_CLASS_RECON_NAME">
+      <Text>Rekognosointi</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_MELEE_NAME">
+      <Text>Lähitaistelu</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_RANGED_NAME">
+      <Text>Alueellinen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SIEGE_NAME">
+      <Text>Piiritys</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_ANTI_CAVALRY_NAME">
+      <Text>Vastustushevoset</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_LIGHT_CAVALRY_NAME">
+      <Text>Kevyt ratsuväki</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_HEAVY_CAVALRY_NAME">
+      <Text>Raskas ratsuväki</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_AIR_FIGHTER_NAME">
+      <Text>Ilmataistelija</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_AIR_BOMBER_NAME">
+      <Text>Ilmaiskuuppi</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_MELEE_NAME">
+      <Text>Meritaistelu</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_RANGED_NAME">
+      <Text>Meriampumasijoitus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_CARRIER_NAME">
+      <Text>Laivaston lentotukialus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_RAIDER_NAME">
+      <Text>Merisissi</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_APOSTLE_NAME">
+      <Text>Uskonnollinen apostoli</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_INQUISITOR_NAME">
+      <Text>Uskonnollinen inkvisitio</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SUPPORT_NAME">
+      <Text>Tuki</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SPY_NAME">
+      <Text>Vakoilu</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_MONK_NAME">
+      <Text>Soturi-Munkki</Text>
+    </Row>
+    <!-- Formation Class Names -->
+    <Row Tag="LOC_FORMATION_CLASS_AIR_NAME">
+      <Text>Ilmataistelu</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_CIVILIAN_NAME">
+      <Text>Siviili</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_LAND_COMBAT_NAME">
+      <Text>Maataistelu</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_NAVAL_NAME">
+      <Text>Meritaistelu</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_SUPPORT_NAME">
+      <Text>Tuki</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_FAITH_INCREASE_FLOATER">
+      <Text>+{1_Num} [ICON_Faith]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_FAITH_DECREASE_FLOATER">
+      <Text>{1_Num} [ICON_Faith] [COLOR_RED]KADONNUT[ENDCOLOR]</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_UNIT_DAMAGE_DECREASE_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_DAMAGE_INCREASE_FLOATER">
+      <Text>[COLOR_RED]{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <!-- Experience Message -->
+    <Row Tag="LOC_WORLD_UNIT_EXPERIENCE_INCREASE_FLOATER">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num}XP[ENDCOLOR] = [COLOR_LIGHTBLUE]+{1_Num} kokemuspistettä[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_EXPERIENCE_INCREASE_LEVEL_FLOATER">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num}XP[NEWLINE]*TARJOUS SAATAVILLA*[ENDCOLOR]</Text>
+    </Row>
+    <!-- Production Yield Message -->
+    <Row Tag="LOC_WORLD_PRODUCTION_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_PRODUCTION]+{1_Num} [ICON_Production][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_PRODUCTION_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_PRODUCTION]{1_Num}[ICON_Production][ENDCOLOR] [COLOR_RED]KADONNUT[ENDCOLOR]</Text>
+    </Row>
+    <!-- Food Yield Message -->
+    <Row Tag="LOC_WORLD_FOOD_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_FOOD]+{1_Num} [ICON_Food][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_FOOD_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_FOOD]{1_Num} [ICON_Food][ENDCOLOR] [COLOR_RED]KADONNUT[ENDCOLOR]</Text>
+    </Row>
+    <!-- Gold Yield Message -->
+    <Row Tag="LOC_WORLD_GOLD_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_GOLD_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_GOLD]{1_Num} [ICON_Gold][ENDCOLOR] [COLOR_RED]KADONNUT[ENDCOLOR]</Text>
+    </Row>
+    <!-- Science Yield Message -->
+    <Row Tag="LOC_WORLD_SCIENCE_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_SCIENCE]+{1_Num} [ICON_Science][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_SCIENCE_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_SCIENCE]{1_Num} [ICON_Science][ENDCOLOR] [COLOR_RED]KADONNUT[ENDCOLOR]</Text>
+    </Row>
+    <!-- Culture Yield Message -->
+    <Row Tag="LOC_WORLD_CULTURE_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num} [ICON_Culture][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CULTURE_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_CULTURE]{1_Num} [ICON_Culture][ENDCOLOR] [COLOR_RED]KADONNUT[ENDCOLOR]</Text>
+    </Row>
+    <!-- Civilian-->
+    <Row Tag="LOC_UNIT_SETTLER_DESCRIPTION">
+      <Text>Saattaa luoda uusia kaupunkeja. Vähentää kaupungin [ICON_Citizen] väestöä yhdellä valmistuttuaan.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BUILDER_DESCRIPTION">
+      <Text>Voit luoda laattojen parannuksia, poistaa ominaisuuksia kuten metsiä tai sademetsiä tai korjata joitain resursseja. Rakentajia voidaan käyttää 3 kertaa. Tätä voidaan lisätä politiikkojen tai ihmeiden, kuten pyramidien, avulla.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRADER_DESCRIPTION">
+      <Text>Voit luoda ja ylläpitää yhden [ICON_TradeRoute] kauppareitin. Reitti luo automaattisesti tiet matkustaessaan.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MISSIONARY_DESCRIPTION">
+      <Text>Voi kääntää [ICON_Citizen] kansalaiset heidän uskontoonsa. Ei voi aloittaa teologista taistelua muiden uskontojen yksiköitä vastaan (mutta voi puolustaa).</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_APOSTLE_DESCRIPTION">
+      <Text>Apostoli voi kääntää [ICON_Citizen] Kansalaisia heidän uskontoonsa ja aloittaa teologisen taistelun muiden uskontojen yksiköitä vastaan. Kerran pelissä voi käynnistää inkvisitio-operaation, joka mahdollistaa inkvisitorien ostamisen. Kerran pelissä voi julistaa uskonnon levittämistä, joka lisää yhden uskonnon lisäuskomuksen. Nämä käytöt kuluttavat apostolin.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INQUISITOR_DESCRIPTION">
+      <Text>He saattavat poistaa muiden uskontojen läsnäolon omalta alueeltaan ja aloittaa teologisen taistelun muiden uskontojen yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GURU_DESCRIPTION">
+      <Text>Saattaa käyttää latausta parantaakseen itsensä ja kaikki viereiset ystävälliset uskonnolliset yksiköt. Ei saa aloittaa teologista taistelua muiden uskontojen yksiköitä vastaan (mutta voi puolustaa).</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_WARRIOR_MONK_DESCRIPTION">
+      <Text>Nopeasti liikkuva maataisteluyksikkö, jolla on ainutlaatuinen ylennyspuu.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARCHAEOLOGIST_DESCRIPTION">
+      <Text>Etsi ja kerää [ICON_GreatWork_Artifact] Artefakteja [ICON_RESOURCE_ANTIQUITY_SITE] Antiikkisivustoilta ja näytä ne kotikaupungin museossa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPY_DESCRIPTION">
+      <Text>Suorittaa salaisia tehtäviä ulkomaisissa kaupungeissa ja suojaa omia kaupunkejasi vihollisen vakoojilta.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NATURALIST_DESCRIPTION">
+      <Text>Myöhäispelin siviili, joka voi luoda yhden kansallispuiston houkutellakseen [ICON_Tourism] turisteja. Täytyy ostaa [ICON_Faith] uskolla.</Text>
+    </Row>
+    <!-- Great People-->
+    <Row Tag="LOC_UNIT_GREAT_GENERAL_DESCRIPTION">
+      <Text>Jokaisella [ICON_GreatGeneral] Suurmarsalkalla on ainutlaatuiset kyvyt, mukaan lukien passiivinen vaikutus ja Eläköitymisen vaikutus. Vieraile Suurten Henkilöiden paneelissa oppiaksesi lisää ja seurataksesi edistymistäsi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ADMIRAL_DESCRIPTION">
+      <Text>Jokaisella [ICON_GreatAdmiral] suurmestarilla on ainutlaatuiset kyvyt, mukaan lukien passiivinen vaikutus ja Eläköitymiseen vaikuttava kyky. Käy Suurten henkilöiden paneelissa oppiaksesi lisää ja seurataksesi edistymistäsi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ENGINEER_DESCRIPTION">
+      <Text>Jokaisella [ICON_GreatEngineer] suurella insinöörillä on ainutlaatuiset kyvyt aktivoituna. Vieraile Suuret henkilöt -paneelissa oppiaksesi lisää ja seurataksesi edistymistäsi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_MERCHANT_DESCRIPTION">
+      <Text>Jokaisella [ICON_GreatMerchant] Suurkauppiaalla on ainutlaatuiset kyvyt niitä aktivoidessa. Vieraile Suurten ihmisten -paneelissa oppiaksesi lisää ja seurataksesi edistymistäsi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_PROPHET_DESCRIPTION">
+      <Text>Suuret [ICON_GreatProphet] Profeetat voivat perustaa uskonnon aktivoidessaan. Vieraile Suuri Ihmiset -paneelissa oppiaksesi lisää ja seurataksesi edistymistäsi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_SCIENTIST_DESCRIPTION">
+      <Text>Jokaisella [ICON_GreatScientist] suurella tieteilijällä on ainutlaatuiset kyvyt aktivoidessaan ne. Vieraile Suurten Ihmisten paneelissa oppiaksesi lisää ja seurataksesi edistymistäsi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_WRITER_DESCRIPTION">
+      <Text>Jokainen [ICON_GreatWriter] Suuri Kirjailija generoi [ICON_GreatWork_Writing] Suuren Kirjoitustyön aktivointinsa jälkeen. Vieraile Suurten Henkilöiden paneelissa oppiaksesi lisää ja seurataksesi edistymistäsi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ARTIST_DESCRIPTION">
+      <Text>Jokainen [ICON_GreatArtist] suuri taiteilija tuottaa yhden [ICON_GreatWork_Landscape] suuren taideteoksen aktivointia kohti. Käy Suurten Henkilöiden paneelissa oppiaksesi lisää ja seurataksesi edistymistäsi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_MUSICIAN_DESCRIPTION">
+      <Text>Jokainen [ICON_GreatMusician] suuri muusikko luo yhden [ICON_GreatWork_Music] suuren musiikin mestariteoksen aktivoidessaan. Vieraile Suurten Henkilöiden paneelissa saadaksesi lisätietoa ja seurataksesi edistymistäsi.</Text>
+    </Row>
+    <!-- Recon-->
+    <Row Tag="LOC_UNIT_SCOUT_DESCRIPTION">
+      <Text>Nopeasti liikkuva antiikin ajan tiedusteluyksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RANGER_DESCRIPTION">
+      <Text>Nopeasti liikkuva teollisuuden ajan tiedusteluyksikkö.</Text>
+    </Row>
+    <!-- Melee-->
+    <Row Tag="LOC_UNIT_WARRIOR_DESCRIPTION">
+      <Text>Heikko antiikin ajan lähitaisteluyksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPEARMAN_DESCRIPTION">
+      <Text>Anti-ratsuväki yksikkö muinaisella aikakaudella.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SWORDSMAN_DESCRIPTION">
+      <Text>Vahva klassisen aikakauden lähitaistelu yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIKEMAN_DESCRIPTION">
+      <Text>Keskiaikainen ratsuväen vastainen yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MUSKETMAN_DESCRIPTION">
+      <Text>Renessanssin aikakauden lähitaisteluun yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INFANTRY_DESCRIPTION">
+      <Text>Nykyajan lähitaisteluun erikoistunut yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MECHANIZED_INFANTRY_DESCRIPTION">
+      <Text>Tiedon aikakauden lähitaistelu-yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AT_CREW_DESCRIPTION">
+      <Text>Nykyajan vastaisku ratsuväen yksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MODERN_AT_DESCRIPTION">
+      <Text>Tietoisku vastaan ratsuväen yksiköt.</Text>
+    </Row>
+    <!-- Ranged-->
+    <Row Tag="LOC_UNIT_SLINGER_DESCRIPTION">
+      <Text>Heikko antiikin aikainen kaukotaisteluyksikkö. Parempi hyökkäyksessä kuin puolustuksessa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARCHER_DESCRIPTION">
+      <Text>Ensimmäinen muinaisaikainen kaukotaisteluyksikkö, jonka [ICON_Range] kantama on 2.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION">
+      <Text>Keskiaikainen kaukotaisteluyksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION">
+      <Text>Teollisuusajan alueyksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION">
+      <Text>Yksikkö atomi-aikakaudella, jolla on kantama.</Text>
+    </Row>
+    <!-- Light Cavalry-->
+    <Row Tag="LOC_UNIT_HORSEMAN_DESCRIPTION">
+      <Text>Nopeasti liikkuva klassisen ajan kevyt ratsuväkiyksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CAVALRY_DESCRIPTION">
+      <Text>Nopeasti liikkuva teollisuusajan kevyt ratsuväkiyksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HELICOPTER_DESCRIPTION">
+      <Text>Nopeasti liikkuva Atomiajan kevyt ratsuväkiyksikkö.</Text>
+    </Row>
+    <!-- Siege-->
+    <Row Tag="LOC_UNIT_CATAPULT_DESCRIPTION">
+      <Text>Klassisen ajan piiritysyksikkö, ihanteellinen kaupunkien hyökkäykseen. Ei voi liikkua ja hyökätä samalla vuorolla, ellei se ole ansainnut asiantuntijamiehistön edistystä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BOMBARD_DESCRIPTION">
+      <Text>Renessanssiajan piiritysyksikkö, ihanteellinen kaupunkien hyökkäämiseen. Ei voi liikkua ja hyökätä samalla vuorolla, ellei heille ole myönnetty "Expert Crew" -edistystä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARTILLERY_DESCRIPTION">
+      <Text>Modernin ajan piiritysyksikkö, ihanteellinen kaupunkien hyökkäämiseen. Ei voi liikkua ja hyökätä samalla vuorolla, ellei se ole ansainnut Expert Crew -edistymistä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ROCKET_ARTILLERY_DESCRIPTION">
+      <Text>Tietoajan piiritysyksikkö, ihanteellinen kaupunkien hyökkäyksiin. Eivät voi liikkua ja hyökätä samana vuorona, elleivät ole saaneet Asiantuntijatiimi ylennyksen.</Text>
+    </Row>
+    <!-- Support-->
+    <Row Tag="LOC_UNIT_BATTERING_RAM_DESCRIPTION">
+      <Text>Antiikin ajan tukiyksikkö. Kun se on vierekkäin kaupungin kanssa, hyökkäävät lähitaisteluyksiköt tekevät täyden vahingon kaupungin muureihin.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SIEGE_TOWER_DESCRIPTION">
+      <Text>Klassisen aikakauden tukiyksikkö. Kun viereisessä kaupungissa, hyökkäävät lähitaisteluyksiköt ohittavat kaupungin muurit ja hyökkäävät välittömästi kaupunkiin.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDIC_DESCRIPTION">
+      <Text>Industrial era support unit. Can heal adjacent units.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION">
+      <Text>Nykyajan tukiyksikkö. Antaa piiritysluokan yksiköille +1 [ICON_Range] kantaman yhden heksan säteellä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MILITARY_ENGINEER_DESCRIPTION">
+      <Text>Keskiaikaisen aikakauden tukiyksikkö. Vaatii työpajan tuotantoon. Pystyy rakentamaan teitä, linnoituksia, lentokenttiä ja ohjusten laukaisualustoja.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANTIAIR_GUN_DESCRIPTION">
+      <Text>Atomiaikainen ilmatorjuntayksikkö. Tarjoaa suojaa ilmasta tapahtuvilta hyökkäyksiltä jopa 1 ruudun etäisyydelle aseesta.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MOBILE_SAM_DESCRIPTION">
+      <Text>Tiedon aikakauden ilmatorjuntayksikkö. Tarjoaa suojaa ilmasta tulevilta ja ydinpommeilta jopa yhden heksan päässä aseesta.</Text>
+    </Row>
+    <!-- Heavy Cavalry -->
+    <Row Tag="LOC_UNIT_HEAVY_CHARIOT_DESCRIPTION">
+      <Text>Kova iskuinen, antiikin aikainen raskas ratsuväkiyksikkö. Saavuttaa 1 bonuksen [ICON_Movement] liikkumiselle, jos se aloittaa vuoron tasaisella laataalla, jossa ei ole metsää, sademetsää tai kukkuloita.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KNIGHT_DESCRIPTION">
+      <Text>Vahva, keskiaikainen raskaan ratsuväen yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MODERN_ARMOR_DESCRIPTION">
+      <Text>Tiedon aikakauden raskas ratsuväkiyksikkö, joka on nopea ja vahva.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TANK_DESCRIPTION">
+      <Text>Nopeasti liikkuva raskaan ratsuväen yksikkö, joka sivuuttaa hallintavyöhykkeen.</Text>
+    </Row>
+    <!--Naval-->
+    <Row Tag="LOC_UNIT_GALLEY_DESCRIPTION">
+      <Text>Muinaisen aikakauden lähitaisteluun erikoistunut meriyksikkö. Voi toimia vain rannikkovesillä, kunnes kartografia on tutkittu.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_QUADRIREME_DESCRIPTION">
+      <Text>Klassinen aikakausi alueellinen merivoimien yksikkö. Se voi toimia vain rannikkovesillä, kunnes kartografia on tutkittu.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CARAVEL_DESCRIPTION">
+      <Text>Nopea renessanssiajan tutkimusmelee-laivayksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_IRONCLAD_DESCRIPTION">
+      <Text>Voimakas teollisuusaikainen panssaroitu lähitaisteluun erikoistunut meriyksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUCLEAR_SUBMARINE_DESCRIPTION">
+      <Text>Erittäin kehittynyt tiedostoaikakauden rantojen valtaus meriyksikkö, joka voidaan varustaa ydinaseilla. Näkyy vain muille merirosvoille, ellei se ole vieressä. Paljastaa näköetäisyydellä olevat merirosvot.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SUBMARINE_DESCRIPTION">
+      <Text>Modernin aikakauden pitkän kantaman hyökkäyslaiva. Näkyy vain muille merirosvolaivoille, ellei se ole vieressä. Paljastaa näkösäteen sisällä olevat merirosvolaivat.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRIVATEER_DESCRIPTION">
+      <Text>Renessanssikauden rannikkorosvojen yksikkö, joka pystyy tekemään rannikkohyökkäyksiä. Näkyy vain muille merirosvoille, ellei se ole vieressä. Paljastaa näköetäisyydellä olevat merirosvot.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FRIGATE_DESCRIPTION">
+      <Text>Renessanssiajan merivoimien yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AIRCRAFT_CARRIER_DESCRIPTION">
+      <Text>Atomiaikainen lähitaisteluun erikoistunut meriyksikkö, joka voi kuljettaa ilmayksiköitä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION">
+      <Text>Nykyajan merivoimien etäyksikkö. Antaa suojaa ilmahyökkäyksiltä ja ydinpommituksilta 1 ruudun säteellä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION">
+      <Text>Vahvin kauko-merivoimayksikkö saatavilla Tieto aikakaudella.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_DESTROYER_DESCRIPTION">
+      <Text>Vahvin lähitaisteluun erikoistunut meriyksikkö. Paljastaa näköetäisyydellä olevat merirosvojen hyökkäykset.</Text>
+    </Row>
+    <!--Air Units-->
+    <Row Tag="LOC_UNIT_BIPLANE_DESCRIPTION">
+      <Text>Ensimmäinen ilmataisteluyksikkö, saatavilla nykyaikaisella aikakaudella.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FIGHTER_DESCRIPTION">
+      <Text>Atomiaikainen kaksitasopäivitys.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BOMBER_DESCRIPTION">
+      <Text>Ensimmäinen pommittaja-yksikkö, saatavilla ydinaikakaudella.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JET_FIGHTER_DESCRIPTION">
+      <Text>Tietoajan hävittäjän päivitys.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JET_BOMBER_DESCRIPTION">
+      <Text>Tietoajan pommittajan päivitys.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAN_AT_ARMS_DESCRIPTION">
+      <Text>Keskiaikainen lähitaisteluyksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_LINE_INFANTRY_DESCRIPTION">
+      <Text>Teollisuusajan lähitaistelu yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TREBUCHET_DESCRIPTION">
+      <Text>Keskaikaisen ajan piiritysyksikkö, ihanteellinen kaupunkien hyökkäämiseen. Ei voi liikkua ja hyökätä samalla vuorolla, ellei ole saanut asiantunteva miehistö - ylennystä.</Text>
+    </Row>
+    <!-- Unique Units-->
+    <Row Tag="LOC_UNIT_BARBARIAN_HORSEMAN_DESCRIPTION">
+      <Text>Muinaisen ajan alkeellinen ratsastava soturi.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BARBARIAN_HORSE_ARCHER_DESCRIPTION">
+      <Text>Antiikin aikainen primitiivinen ratsastava jousimies.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_DESCRIPTION">
+      <Text>Egyptiläinen ainutlaatuinen kaukotaisteluyksikkö muinaisella kaudella, joka korvaa raskaan vaunun. 4 [ICON_Movement] Liikkuminen, kun aloitetaan avoimessa maastossa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREEK_HOPLITE_DESCRIPTION">
+      <Text>Kreikkalainen ainutlaatuinen anti-ratsuväki yksikkö antiikin aikakaudella, joka korvaa keihäsmiehen. +10 [ICON_Strength] Taisteluvoimaa, jos ainakin yksi viereinen Hopliitti yksikkö on läsnä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_DESCRIPTION">
+      <Text>Skytiläinen ainutlaatuinen klassisen ajan yksikkö. Kaukotaisteluyksikkö, jolla on 4 [ICON_Movement] liikkumispistettä ja [ICON_Range] kantama 1.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SUMERIAN_WAR_CART_DESCRIPTION">
+      <Text>Sumerian ainutlaatuinen muinaisajan yksikkö. Vahvempi kuin kaikki muut aloitusyksiköt. Ei rangaistuksia anti-ratsuväkiyksiköitä vastaan. 4 [ICON_Movement] Liikkuminen, jos tämä yksikkö aloittaa avoimella maastolla.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION">
+      <Text>Yksilöllinen teollisuusajan yksikkö, kun Victoria on heidän johtajansa, joka korvaa linjajalkaväen. +10 [ICON_Strength] taistelukyky, kun taistelet mantereella, joka ei ole pääkaupunkisi. Ei maihinnousukustannuksia.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_ROUGH_RIDER_DESCRIPTION">
+      <Text>Amerikkalainen ainutlaatuinen teollisuuskauden yksikkö, kun heidän johtajanaan on Teddy Roosevelt. [ICON_Culture] Kulttuuri ansaitaan tappamalla vihollisia heidän [ICON_Capital] pääkaupunkinsa mantereella. +10 [ICON_Strength] Taisteluvoima taisteltaessa kukkuloilla. Alhaisemmat ylläpitokustannukset.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ROMAN_LEGION_DESCRIPTION">
+      <Text>Rooman ainutlaatuinen klassisen ajan lähitaisteluun erikoistunut yksikkö, joka korvaa Miekkamiehen. Pystyy rakentamaan Roomalaisen linnakkeen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION">
+      <Text>Japanilainen ainutlaatuinen keskiaikainen lähitaisteluun erikoistunut yksikkö, joka korvaa miekkamiehet. Ei kärsi taistelurangaistuksia vahingoittuessaan.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION">
+      <Text>Norjalainen ainutlaatuinen keskiaikainen lähitaistelu yksikkö, joka korvaa Man-At-Arms yksikön. 4 [ICON_Movement] Liikettä, jos tämä yksikkö aloittaa vihollisen alueella. +10 [ICON_Strength] Hyökkäysvoima hyökätessä ja -5 [ICON_Strength] Puolustusvoima lähitaistelun hyökkäyksissä puolustettaessa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NORWEGIAN_LONGSHIP_DESCRIPTION">
+      <Text>Norjalainen ainutlaatuinen muinainen meriyksikkö, joka korvaa Galley-yksikön. Pystyy ryöstämään vihollisen rannikkoalueita ja vangitsemaan siviilejä vieressä olevan rannikkoraidan kyvyn avulla. 4 [ICON_Movement] Liikkumista rannikkovesillä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION">
+      <Text>Kiinalainen ainutlaatuinen keskiaikaisen aikakauden yksikkö. Jousimiesyksikkö, jonka kantomatka on [ICON_Range] 1 ja jolla on korkea taisteluvoima.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION">
+      <Text>Espanjalainen ainutlaatuinen renessanssiaikakauden yksikkö, joka korvaa Musketinmiehen. +10 [ICON_Strength] taisteluvoimaa, kun uskonnollinen yksikkö on yhden heksan päässä. Jos tämä yksikkö valtaa kaupungin tai on vieressä kaupunkia vallatessa, kaupunki omaksuu automaattisesti Konkistadorin pelaajan uskonnon vallitsevana uskontona.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RUSSIAN_COSSACK_DESCRIPTION">
+      <Text>Venäjän ainutlaatuinen teollisuusaikakauden yksikkö, joka korvaa ratsuväen. Vahvempi kuin ratsuväki, ja saa +5 [ICON_Strength] hyökkäysvoimaa taisteltaessa kotimaansa alueella tai sen vieressä. Voi liikkua hyökkäyksen jälkeen, jos jäljellä on [ICON_Movement] liikepisteitä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION">
+      <Text>Intialainen ainutlaatuinen klassinen aikakauden raskas ratsuväkiyksikkö. Vieressä olevat vihollisyksiköt saavat -5 [ICON_STRENGTH] taisteluvoimaa.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KONGO_SHIELD_BEARER_DESCRIPTION">
+      <Text>Kongon ainutlaatuinen klassisen aikakauden yksikkö, joka korvaa Miekkamiehen. +10 [ICON_Strength] Taistelukyky, kun puolustetaan kaukohyökkäyksiä vastaan. Pystyy liikkumaan ja näkemään metsissä ja sademetsissä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARABIAN_MAMLUK_DESCRIPTION">
+      <Text>Arabian ainutlaatuinen keskiaikainen yksikkö, joka korvaa ritarin. Parantuu jokaisen vuoron lopussa, jopa liikkumisen tai hyökkäämisen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ENGLISH_SEADOG_DESCRIPTION">
+      <Text>Suomen ainutlaatuinen renessanssin aikainen merivoimien yksikkö, joka korvaa merirosvoaluksen. On mahdollisuus vangita lyödyt vihollislaivat. Näkyy vain muille merirosvoille, ellei se ole vieressä. Paljastaa näkösäteen alueella olevat merirosvoaluksen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION">
+      <Text>Ranskalainen ainutlaatuinen teollisuusaikainen jalkaväkijoukko, joka korvaa linjajalkaväen. +10 [ICON_Strength] taisteluvoimaa taisteltaessa pääkaupungin mantereella. [ICON_GreatGeneral] Suuren kenraalin pisteitä yksiköiden tappamisesta.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GERMAN_UBOAT_DESCRIPTION">
+      <Text>Saksalainen ainutlaatuinen nykyajan meriyksikkö, joka korvaa sukellusveneen. Halvempi tuottaa, +1 näkökenttä ja +10 [ICON_Strength] taisteluvoima taisteltaessa merilaatoilla. Pystyy paljastamaan muita varjoisia yksiköitä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_P51_DESCRIPTION">
+      <Text>Amerikkalainen Atomic aikakauden ainutlaatuinen ilma-alusyksikkö, joka korvaa Fighterin. Saavuttaa +5 [ICON_Strength] taisteluvoimaa taisteltaessa taistelulentokoneita vastaan, sillä on +2 lennon kantamaa, ja se saavuttaa +50% kokemusta.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_DESCRIPTION">
+      <Text>Brasilialainen ainutlaatuinen teollisuuskauden yksikkö, joka korvaa taistelulaivan. Vahvempi kuin taistelulaiva. Lukittu Kansallisuus-teknologialla.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UNIT_TYPE_NAME_SUFFIX">
+      <Text>({1_UnitTypeName})</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

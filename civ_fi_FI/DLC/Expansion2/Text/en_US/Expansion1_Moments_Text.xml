@@ -1,0 +1,1476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <!--Moments-->
+    <Row Tag="LOC_MOMENT_ARTIFACT_EXTRACTED">
+      <Text>Esine nostettu/kaivettu esiin</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_ARTIFACT_EXTRACTED_DESCRIPTION">
+      <Text>Esine on löydetty, antaen meille näkymän menneisyyteen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_ARTIFACT_EXTRACTED_INSTANCE_DESCRIPTION">
+      <Text>Kun lika pyyhitään pois, {GreatWorkName} näkee auringonvalon monen vuoden jälkeen. Se koristaa {ActingPlayerCivName} museoita vuosien ajan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_ARTIFACT_EXTRACTED_SHIPWRECK_FIRST">
+      <Text>Ensimmäinen haaksirikko kaivettiin esiin</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_ARTIFACT_EXTRACTED_SHIPWRECK_FIRST_DESCRIPTION">
+      <Text>Teidän arkeologinne ovat kaivaneet ensimmäisen hylkyaluksen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_ARTIFACT_EXTRACTED_SHIPWRECK_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Rantalimalla koristeltu, mutta silti tunnistettava, {GreatWorkName} todistaa, että meriarkeologia voi yhdistää meidät menneeseen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_ARTIFACT_EXTRACTED_SHIPWRECK_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen hylyntutkimus kaivettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_ARTIFACT_EXTRACTED_SHIPWRECK_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Teidän arkeologinne ovat suorittaneet maailman ensimmäisen laivanhylyn kaivauksen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_ARTIFACT_EXTRACTED_SHIPWRECK_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Maailman ensimmäinen meriarkeologinen tutkimusretki tuottaa {GreatWorkName}:n ja osoittaa, että meri ei voi enää pitää historiallisia salaisuuksia piilossa!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED">
+      <Text>Barbaarien leiri tuhoutunut</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_DESCRIPTION">
+      <Text>Vihollismielinen barbaarileiri tasattiin maan tasalle yksikön toimesta, levittäen rauhaa alueelle.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_INSTANCE_DESCRIPTION">
+      <Text>Meidän joukot raivaavat barbaarien leirin, ja uhka kasvavalle sivilisaatiollemme on kukistettu.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_NEAR_YOUR_CITY">
+      <Text>Uhkaava leiri tuhottu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_NEAR_YOUR_CITY_DESCRIPTION">
+      <Text>Vihollinen barbaarien leiri, joka oli kuuden ruudun päässä yhdestä kaupungeistasi, tuhoutui yksikön toimesta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_NEAR_YOUR_CITY_INSTANCE_DESCRIPTION">
+      <Text>Vaara, joka oli {CityName} kynnyksellä, on voitettu! Barbaarit on ajettu pois.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BATTLE_FOUGHT">
+      <Text>Taistelu käyty</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BATTLE_FOUGHT_DESCRIPTION">
+      <Text>Taistelu käytiin vastakkainasettelijoiden välillä. Sitä käytetään arkeologian järjestelmässä mahdollisesti generoimaan [ICON_RESOURCE_ANTIQUITY_SITE] muinaisjäännösresursseja.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BELIEF_ADDED_MAX_BELIEFS_REACHED">
+      <Text>Uskonto omaksuu kaikki uskomukset</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BELIEF_ADDED_MAX_BELIEFS_REACHED_DESCRIPTION">
+      <Text>Uskontosi on lisännyt viimeisen uskomuksensa ja on nyt valmis.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BELIEF_ADDED_MAX_BELIEFS_REACHED_INSTANCE_DESCRIPTION">
+      <Text>Teologit selventävät {ReligionName}-uskon periaatteita ja uskomuksia.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BELIEF_ADDED_MAX_BELIEFS_REACHED_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen uskonto, joka hyväksyy kaikki uskomukset</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BELIEF_ADDED_MAX_BELIEFS_REACHED_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Sinun uskontosi on ensimmäinen maailmassa, joka on lisännyt lopullisen uskonkappaleen ja tullut täydelliseksi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BELIEF_ADDED_MAX_BELIEFS_REACHED_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{ReligionName}-teologien argumentit täyttävät suuria kirjoja, ja se on ensimmäinen uskonto, joka selkeyttää uskomuksiaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FIRST_UNIQUE">
+      <Text>Uniikki rakennus rakennettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FIRST_UNIQUE_DESCRIPTION">
+      <Text>Olet saanut valmiiksi tämän ainutlaatuisen rakennuksen ensimmäistä kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FIRST_UNIQUE_INSTANCE_DESCRIPTION">
+      <Text>Ihmisemme ovat ylpeitä {BuildingType}:stä, joka heijastelee arvojamme ja prioriteettejamme.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_AERODROME_FIRST">
+      <Text>Ensimmäinen täysin kehitetty lentokenttä</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_AERODROME_FIRST_DESCRIPTION">
+      <Text>Olet rakentanut ensimmäistä kertaa kaikki rakennukset lentokenttäalueella.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_AERODROME_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Lentäjät pitävät laskeutumista {CityName}n lentokentälle läpikäymisenä. Vanhimmat muistavat ajan, jolloin kenttä oli vain pelto ja muutama väliaikainen hangaari.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_ENCAMPMENT_FIRST">
+      <Text>Ensimmäinen leiripaikka täysin kehitetty</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_ENCAMPMENT_FIRST_DESCRIPTION">
+      <Text>Olet valmistunut jokaisen rakennuksen Encampment-kaupunginosassa ensimmäistä kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_ENCAMPMENT_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Sotilaat marssivat muodostelmassa laulaen: En tiedä mutta olen kuullut/Elämä {CityName}-kaupungissa muuttuu todella tylsäksi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_ENTERTAINMENT_COMPLEX_FIRST">
+      <Text>Ensimmäinen viihdekeskus täysin kehitetty</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_ENTERTAINMENT_COMPLEX_FIRST_DESCRIPTION">
+      <Text>Olet ensimmäistä kertaa valmistunut kaikki rakennukset Viihdekeskus-kaupunginosassa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_ENTERTAINMENT_COMPLEX_FIRST_INSTANCE_DESCRIPTION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}}, ilmaisu "viettää iltapäivä {CityName}ssa" tarkoittaa "viihtyä hyvin"</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_WATER_ENTERTAINMENT_COMPLEX_FIRST">
+      <Text>Ensimmäinen täysin kehitetty vesipuisto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_WATER_ENTERTAINMENT_COMPLEX_FIRST_DESCRIPTION">
+      <Text>Olet ensimmäistä kertaa valmistellut jokaisen rakennuksen Vesipuisto-kaupunginosassa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_WATER_ENTERTAINMENT_COMPLEX_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Sanotaan, että paras tapa vierailla {CityName}issa on kesäpäivänä, kun aurinko laskee ja Vesipuiston valot syttyvät, katsellen väkijoukkoa rantakävelyllä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_GAME_ERA_WONDER">
+      <Text>Maailman ihme valmistui</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_GAME_ERA_WONDER_DESCRIPTION">
+      <Text>Maailman ihme on valmistunut, osoittaen suuruutemme muiden sivilisaatioiden yli.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_GAME_ERA_WONDER_INSTANCE_DESCRIPTION">
+      <Text>Seisoessaan {BuildingType}-rakennuksen sisällä, {CityName}-kaupungin asukkaat ovat täynnä kunnioitusta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_PAST_ERA_WONDER">
+      <Text>Vanha maailman ihme valmistui</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_PAST_ERA_WONDER_DESCRIPTION">
+      <Text>Maailman ihme on valmistunut. Vaikka se kuuluu menneeseen aikaan, se silti osoittaa mahtavuutemme muihin sivilisaatioihin verrattuna.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_PAST_ERA_WONDER_INSTANCE_DESCRIPTION">
+      <Text>Seisoessaan {BuildingType}-rakennuksessa, {CityName}-kaupungin kansalaiset muistavat loisteliaan menneisyytensä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_BECAME_LARGEST_CIV_BY_MARGIN">
+      <Text>Maailman suurin sivilisaatio</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_BECAME_LARGEST_CIV_BY_MARGIN_DESCRIPTION">
+      <Text>Teidän sivilisaationne on tullut maailman suurimmaksi, vähintään kolmella kaupungilla enemmän kuin sen seuraavalla suurimmalla kilpailijalla.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_BECAME_LARGEST_CIV_BY_MARGIN_INSTANCE_DESCRIPTION">
+      <Text>{CityName} on viimeisin kaupunkimme laajassa imperiumissa, ja muut sivilisaatiot katsovat sitä ihmetellen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_NEAR_NATURAL_WONDER">
+      <Text>Ihmeiden kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_NEAR_NATURAL_WONDER_DESCRIPTION">
+      <Text>Kaupunki sijoitetaan kahden laatan etäisyydelle luonnonihmeestä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_NEAR_NATURAL_WONDER_INSTANCE_DESCRIPTION">
+      <Text>{FeatureType} inspiroi uutta {CityName} kaupunkiamme ja täyttää sen asukkaat ilolla.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_NEAR_OTHER_CIV_CITY">
+      <Text>Aggressiivinen kaupunkien sijoittaminen</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_NEAR_OTHER_CIV_CITY_DESCRIPTION">
+      <Text>Kaupunki sijaitsee viiden ruudun päässä toisen sivilisaation kaupungista.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_NEAR_OTHER_CIV_CITY_INSTANCE_DESCRIPTION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {TargetPlayerCivName}} byrokraatit ovat närkästyneitä rohkeudestamme perustaa {CityName} niin lähelle heidän omaa kaupunkiaan {OtherCityName}.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_NEW_CONTINENT">
+      <Text>Kaupunki uudella mantereella</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_NEW_CONTINENT_DESCRIPTION">
+      <Text>Kaupunki sijaitsee mantereella, jolla et ole vielä asettunut.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_NEW_CONTINENT_INSTANCE_DESCRIPTION">
+      <Text>{CityName}ista tulee ensimmäinen asutuskeskus {ContinentName}lla!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_ON_DESERT">
+      <Text>Autiomaakaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_ON_DESERT_DESCRIPTION">
+      <Text>Kaupunki perustetaan vaikealle aavikkomaastolle, laajentaen vaikutuspiiriäsi villiin luontoon.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_ON_DESERT_INSTANCE_DESCRIPTION">
+      <Text>Vierailijat valittavat {CityName}in kuumuudesta, mutta ainakin se on kuivaa kuumuutta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_ON_SNOW">
+      <Text>Lumikaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_ON_SNOW_DESCRIPTION">
+      <Text>Kaupunki perustetaan haastavalle lumiselle alueelle, laajentaen vaikutuspiiriäsi erämaihin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_ON_SNOW_INSTANCE_DESCRIPTION">
+      <Text>{CityName}in asukkailla on sata eri sanaa "lumelle"</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_ON_TUNDRA">
+      <Text>Tundra kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_ON_TUNDRA_DESCRIPTION">
+      <Text>Kaupunki perustetaan vaikealle Tundra-maastolle, laajentaen vaikutuspiiriäsi villiin erämaahan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_BUILT_ON_TUNDRA_INSTANCE_DESCRIPTION">
+      <Text>{CityName}:n asukkaat ovat ylpeitä maan karusta kauneudesta ja omasta sitkeydestään.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_CHANGED_RELIGION_ENEMY_CITY_DURING_WAR">
+      <Text>Viholliskaupunki omaksuu uskontomme</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_CHANGED_RELIGION_ENEMY_CITY_DURING_WAR_DESCRIPTION">
+      <Text>Viholliskaupunki, joka on sodassa, on nähnyt valon ja omaksunut uskontomme.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_CHANGED_RELIGION_ENEMY_CITY_DURING_WAR_INSTANCE_DESCRIPTION">
+      <Text>Taivas avaa {CityName} kansan silmät, ja he liittyvät uskollisiksi {ReligionName} seuraajiksi, vaikka ovatkin sodassa {ActingPlayerCivName} kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_CHANGED_RELIGION_OTHER_HOLY_CITY">
+      <Text>Kilpaileva pyhä kaupunki käännytetty</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_CHANGED_RELIGION_OTHER_HOLY_CITY_DESCRIPTION">
+      <Text>Toisen uskonnon Pyhä kaupunki on kääntynyt meidän uskonnoksemme.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_CHANGED_RELIGION_OTHER_HOLY_CITY_INSTANCE_DESCRIPTION">
+      <Text>{CityName} oli kerran {OldReligionName} kehto, mutta nyt uskovaiset kerääntyvät {ReligionName} temppelien äärelle.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_EXTRA_LARGE_FIRST">
+      <Text>Ensimmäinen valtava kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_EXTRA_LARGE_FIRST_DESCRIPTION">
+      <Text>Kaupunki on saavuttanut ensimmäistä kertaa 25 [ICON_Citizen] väestön sinun sivilisaatiossasi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_EXTRA_LARGE_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Aina torneistaan tenementteihin, {CityName}:n kansalaiset ovat yhteydessä toisiinsa kaupunkimme yhteisellä ylpeydellä</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_EXTRA_LARGE_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen jättiläiskaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_EXTRA_LARGE_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Kaupunki on saavuttanut 25 [ICON_Citizen] asukkaan väestömäärän ensimmäistä kertaa maailmassa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_EXTRA_LARGE_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Kiireinen ja kosmopoliittinen, {CityName} ei koskaan nuku, mutta sen asukkaiden tarinat kietoutuvat yhteen mahtavaksi yhteiseksi valveunta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_LARGE_FIRST">
+      <Text>Ensimmäinen valtava kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_LARGE_FIRST_DESCRIPTION">
+      <Text>Kaupunkisi saavutti ensimmäistä kertaa 20 [ICON_Citizen] asukkaan väestön sivilisaatiossasi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_LARGE_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Paradoksaalisesti {CityName} asukkaat ovat ylpeitä kaupungin koosta, mutta valittavat jatkuvasti siitä, kuinka tungoksesta on tullut ongelma.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_LARGE_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen valtava kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_LARGE_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Kaupunki on saavuttanut maailman ensimmäisenä 20 [ICON_Citizen] asukkaan väestön.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_LARGE_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Sanotaan, ettet ole elänyt ennen kuin olet nähnyt väkijoukot {CityName}in bulevardeilla ja aukioilla ja ihmetellyt ihmiskunnan suurimman kaupungin näkyä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_MEDIUM_FIRST">
+      <Text>Ensimmäinen suuri kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_MEDIUM_FIRST_DESCRIPTION">
+      <Text>Kaupunki on saavuttanut ensimmäistä kertaa 15 [ICON_Citizen] asukkaan väestön sinun sivilisaatiossasi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_MEDIUM_FIRST_INSTANCE_DESCRIPTION">
+      <Text>{CityName} laajenee entisestään ja tulee kansamme suurimmaksi kaupungiksi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_MEDIUM_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen suuri kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_MEDIUM_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Kaupunki on saavuttanut maailmassa ensimmäistä kertaa 15 [ICON_Citizen] asukkaan väkiluvun.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_MEDIUM_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{CityName}:n asukkaat kehuvat asuvansa maailman suurimmassa ja kehittyneimmässä kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_SMALL_FIRST">
+      <Text>Ensimmäinen vilkas kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_SMALL_FIRST_DESCRIPTION">
+      <Text>Kaupunki on saavuttanut ensimmäistä kertaa 10 [ICON_Citizen] asukkaan väestön sinun sivilisaatiossasi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_SMALL_FIRST_INSTANCE_DESCRIPTION">
+      <Text>{CityName} kasvaa ja sen asukkaat ovat ylpeitä kukoistavasta kaupunkielämästä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_SMALL_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen vilkas kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_SMALL_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Kaupunki on saavuttanut maailman ensimmäisenä 10 [ICON_Citizen] asukkaan väestön.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_SIZE_SMALL_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{CityName}, maailman suurin kaupunki, herättää vierailijoissa kunnioitusta. Miten niin moni ihminen voi elää rauhanomaisesti yhdessä?</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_DISLOYAL_FOREIGN_CITY">
+      <Text>Ulkomainen kaupunki liittyy mukaan</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_DISLOYAL_FOREIGN_CITY_DESCRIPTION">
+      <Text>Uusi kaupunki on päättänyt vannoa uskollisuutta meidän valtakunnallemme ja liittyä siihen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_DISLOYAL_FOREIGN_CITY_INSTANCE_DESCRIPTION">
+      <Text>{CityName} asukkaat eivät enää koe kuuluvansa {TargetPlayerCivName} sivilisaatioon ja suostuvat liittymään meidän sivilisaatioomme.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_DISLOYAL_FREE_CITY">
+      <Text>Vapaakaupunki liittyy mukaan</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_DISLOYAL_FREE_CITY_DESCRIPTION">
+      <Text>Vapaa kaupunki on päättänyt uskollisuudenvalansa meille ja liittyy imperiumimme jäseneksi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_DISLOYAL_FREE_CITY_INSTANCE_DESCRIPTION">
+      <Text>{CityName}in asukkaat tuntevat yhteenkuuluvuutta kanssamme ja astuvat mielellään sivilisaatiomme pariin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_FOREIGN_CAPITAL">
+      <Text>Ulkomainen pääoma otettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_FOREIGN_CAPITAL_DESCRIPTION">
+      <Text>Olet ottanut haltuun ulkomaisen vallan alkuperäisen pääkaupungin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_FOREIGN_CAPITAL_INSTANCE_DESCRIPTION">
+      <Text>{CityName}, entinen pääkaupunki {LOC_GRAMMAR_CIVNAME &lt;&lt; {TargetPlayerCivName}}, on nyt osa sivilisaatiotamme!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_PLAYER_DEFEATED">
+      <Text>Viimeinen ulkomainen kaupunki otettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_PLAYER_DEFEATED_DESCRIPTION">
+      <Text>Olet ottanut haltuun yhden sivilisaation viimeisistä kaupungeista.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_PLAYER_DEFEATED_INSTANCE_DESCRIPTION">
+      <Text>{LOC_GRAMMAR_CIVNAME_UPPER &lt;&lt; {TargetPlayerCivName}} ei kestä ajan testiä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_TO_ORIGINAL_OWNER">
+      <Text>Kaupunki palautuu alkuperäiselle omistajalle</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_TO_ORIGINAL_OWNER_DESCRIPTION">
+      <Text>Kaupunki on palannut alkuperäiselle omistajalleen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CITY_TRANSFERRED_TO_ORIGINAL_OWNER_INSTANCE_DESCRIPTION">
+      <Text>{CityName} palaa jälleen {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} hallintaan!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CIVIC_CULTURVATED_IN_ERA_FIRST">
+      <Text>Ensimmäinen uuden aikakauden Civic</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CIVIC_CULTURVATED_IN_ERA_FIRST_DESCRIPTION">
+      <Text>Olet suorittanut sivilisaatiosi ensimmäisen kansalaisen uudesta löytöretkien aikakaudesta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CIVIC_CULTURVATED_IN_ERA_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Anna muiden puhua mitä haluavat, mutta {PlayerEraType} kulttuurin todellinen kukoistus alkoi löydön myötä {CivicType}, jonka {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} teki.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CIVIC_CULTURVATED_IN_ERA_FIRST_IN_WORLD">
+      <Text>Uuden aikakauden ensimmäinen kansalaisauto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CIVIC_CULTURVATED_IN_ERA_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Olet suorittanut maailman ensimmäisen kansalaisen uuden löytöjen aikakauden aikakirjasta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CIVIC_CULTURVATED_IN_ERA_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Meidän {CivicType} ilmaisumme määrittelee ihmiskunnan tulevaisuuden {PlayerEraType}!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_FIRST_UNIQUE">
+      <Text>Uniikki kaupunginosa valmistunut</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_FIRST_UNIQUE_DESCRIPTION">
+      <Text>Olet suorittanut tämän ainutlaatuisen kaupunginosan ensimmäistä kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_FIRST_UNIQUE_INSTANCE_DESCRIPTION">
+      <Text>{Tilatyypin} valinta ei ollut sattumaa, vaan se oli ainutlaatuisen kansamme nerokkaan ajattelun tulos.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_CAMPUS">
+      <Text>Loistokas kampus valmistunut</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_CAMPUS_DESCRIPTION">
+      <Text>Olet saanut valmiiksi ensimmäisen kampuksen sivilisaatiosi alkuasetuksella, joka antaa 3 [ICON_Science] tieteen aloitusbonuksen tai korkeamman.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_CAMPUS_INSTANCE_DESCRIPTION">
+      <Text>Kävellessäsi kampuksen quadien ympärillä ja viipyessäsi luokkahuoneiden ulkopuolella {CityName} lähellä, voit kuulla oppineiden väittelevän ideoista, jotka muuttavat maailmaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_COMMERCIAL_HUB">
+      <Text>Komea kauppakeskus valmistunut</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_COMMERCIAL_HUB_DESCRIPTION">
+      <Text>Olet rakentanut sivilisaatiosi ensimmäisen kauppakeskuksen, jonka lähtökohtainen vierekkäisyyden bonus on 4 [ICON_Gold] kultaa tai enemmän.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_COMMERCIAL_HUB_INSTANCE_DESCRIPTION">
+      <Text>Sanotaan, että ihmiset hakeutuvat {CityName}in kauppakeskustaan vain markkinoiden ostamisen ja myymisen jännityksen vuoksi. Mutta raha on myös melko hyvä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_HARBOR">
+      <Text>Komea satama valmistunut</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_HARBOR_DESCRIPTION">
+      <Text>Olet rakentanut sivilisaatiosi ensimmäisen sataman, jonka alkuetuna on 4 [ICON_Gold] kultaa tai enemmän.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_HARBOR_INSTANCE_DESCRIPTION">
+      <Text>Merimiehet ja laivatyöntekijät huutavat ja laulavat shantyja vilkkailla satamalaitureilla {CityName} satamassa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_HOLY_SITE">
+      <Text>Loistava pyhä paikka valmistunut</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_HOLY_SITE_DESCRIPTION">
+      <Text>Olet rakentanut sivilisaatiosi ensimmäisen pyhäkköalueen aloitusliitännäisetuna, joka on 3 [ICON_Faith] uskoa tai korkeampi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_HOLY_SITE_INSTANCE_DESCRIPTION">
+      <Text>Kellonsoittoa ja laulua, suitsukkeen tuoksua ja pyhän kuvan läsnäoloa - {CityName}:n Pyhä Paikka tuo palvojat ja pyhiinvaeltajat pohdiskelemaan korkeampia kysymyksiä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_INDUSTRIAL_ZONE">
+      <Text>Loistava teollisuusalue valmistunut</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_INDUSTRIAL_ZONE_DESCRIPTION">
+      <Text>Olet rakentanut ensimmäisen teollisuusalueesi sivilisaatiosi kanssa aloitusvieruskertoimella 4 [ICON_Production] tuotantoa tai enemmän.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_INDUSTRIAL_ZONE_INSTANCE_DESCRIPTION">
+      <Text>Vihellykset ilmaisevat uuden vuoron alkamisen ja työntekijät {CityName}ista virtaavat teollisuusalueelle valmiina tekemään hyvän päivän työn.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_THEATER_SQUARE">
+      <Text>Loistava Teatteriaukio valmistunut</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_THEATER_SQUARE_DESCRIPTION">
+      <Text>Olet rakentanut sivistyksesi ensimmäisen teatteritorin, jonka aloitusviereisyysbonus on vähintään 3 [ICON_Culture] kulttuuria.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_THEATER_SQUARE_INSTANCE_DESCRIPTION">
+      <Text>Ihana lauluja, inspiroivia sanoja. {CityName} taiteilijat, runoilijat ja näytelmäkirjailijat kävelevät kaikki Teatteritorillamme.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_NEIGHBORHOOD_FIRST">
+      <Text>Ensimmäinen naapurusto valmistunut</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_NEIGHBORHOOD_FIRST_DESCRIPTION">
+      <Text>Olet saanut valmiiksi siviilisaatiosi ensimmäisen naapuruston kaupunginosan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_NEIGHBORHOOD_FIRST_INSTANCE_DESCRIPTION">
+      <Text>{CityName}in asukkaat ovat ensimmäisinä huomanneet, että ainoa asia, joka on parempaa kuin asuminen {CityName}issa, on asuminen hieman siistimmässä paikassa sen ulkopuolella.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_NEIGHBORHOOD_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen naapurusto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_NEIGHBORHOOD_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Olet saanut valmiiksi maailman ensimmäisen naapuruston kaupunginosan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DISTRICT_CONSTRUCTED_NEIGHBORHOOD_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{CityName}in asukkaat ovat ensimmäisiä maailmassa, jotka ovat huomanneet, että ainoa asia parempi kuin asuminen {CityName}issa, on asuminen hieman siistimmässä paikassa sen ulkopuolella.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_EMERGENCY_WON_AS_MEMBER">
+      <Text>Hätätilanne onnistuneesti suoritettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_EMERGENCY_WON_AS_MEMBER_DESCRIPTION">
+      <Text>Jäsenenä olet onnistunut hätätilanteessa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_EMERGENCY_WON_AS_MEMBER_INSTANCE_DESCRIPTION">
+      <Text>{EmergencyType} {LOC_GRAMMAR_CIVNAME &lt;&lt; {TargetPlayerCivName}} on päättynyt ja selvisimme voittajina. Mutta mitä tulevaisuus pitää sisällään?</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_EMERGENCY_WON_AS_TARGET">
+      <Text>Hätätilanne onnistuneesti puolustettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_EMERGENCY_WON_AS_TARGET_DESCRIPTION">
+      <Text>Tavoitteenasi onnistuit torjumaan hätätilanteen, joka kohdistui sinuun.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_EMERGENCY_WON_AS_TARGET_INSTANCE_DESCRIPTION">
+      <Text>Kadehtivien sivilisaatioiden armeijat eivät pysty pysäyttämään kansaamme! {EmergencyType} hajoaa syyttelyyn ja moittimiseen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FIND_NATURAL_WONDER">
+      <Text>Luonnon ihmeen löytö</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FIND_NATURAL_WONDER_DESCRIPTION">
+      <Text>Teidän sivilisaationne löytää tämän luonnonihmeen ensimmäistä kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FIND_NATURAL_WONDER_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerCivName} tutkimusretkeilijät löytävät {FeatureType} majesteettisuuden.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FIND_NATURAL_WONDER_FIRST_IN_WORLD">
+      <Text>Ensimmäinen löytö luonnonihmeestä</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FIND_NATURAL_WONDER_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Sivilisaatiomme tutkimusmatkailijat ovat ensimmäiset maailmassa, jotka näkevät tämän luonnonihmeen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FIND_NATURAL_WONDER_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerCivNamein} tutkimusmatkailijat ovat ensimmäisiä suuresta sivilisaatiosta, jotka ovat nähneet {FeatureType}!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FIND_NEW_CONTINENT_FIRST_IN_WORLD">
+      <Text>Ensimmäinen löytö uudesta mantereesta</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FIND_NEW_CONTINENT_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Sivilisaatiomme tutkimusmatkailijat ovat ensimmäiset maailmassa löytämään tämän mantereen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FIND_NEW_CONTINENT_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerCivName}in tutkimusmatkailijat ovat ensimmäisenä suuresta sivilisaatiosta asettaneet jalkansa {ContinentName}-mantereelle!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMADA_FIRST">
+      <Text>Ensimmäinen laivasto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMADA_FIRST_DESCRIPTION">
+      <Text>Teidän sivilisaation ensimmäinen armada on muodostettu.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMADA_FIRST_INSTANCE_DESCRIPTION">
+      <Text>{UnitType}:n kannelta voi nähdä ensimmäisen laivaston laivojen ulottuvan kaukaisuuteen, joista jokainen liehuu sivilisaatiomme lippua.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMADA_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen armada</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMADA_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Maailman ensimmäinen Armada muodostetaan sinun komennossasi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMADA_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Maailman ensimmäisen Amiraalin valtava voima on valmiina lähtemään korkeille merille meidän käskystämme!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMY_FIRST">
+      <Text>Ensimmäinen armeija</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMY_FIRST_DESCRIPTION">
+      <Text>Teidän sivilisaation ensimmäinen armeija on muodostettu.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMY_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Ensimmäisen armeijamme joukot marssivat ohitse loputtomalta vaikuttavassa kulkueessa!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMY_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen armeija</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMY_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Maailman ensimmäinen armeija muodostetaan sinun komennossasi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_ARMY_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Maailma ei ole koskaan nähnyt armeijaa, kuten meidän {UnitType}! Voimamme on vertaansa vailla.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_CORPS_FIRST">
+      <Text>Ensimmäinen prikaati</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_CORPS_FIRST_DESCRIPTION">
+      <Text>Sinun sivilisaatiosi ensimmäinen joukko on muodostettu.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_CORPS_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Vahvempi kuin yksittäinen yksikkö, ensimmäinen armeijakuntamme on valmiina suojelemaan sivilisaatiota.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_CORPS_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen korpus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_CORPS_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Maailman ensimmäinen Korpssi on muodostettu, komentoosi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_CORPS_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Henkilökuntamme upseerit raportoivat, että maailman ensimmäinen prikaati on valmis toimintaan!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_FLEET_FIRST">
+      <Text>Ensimmäinen laivasto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_FLEET_FIRST_DESCRIPTION">
+      <Text>Teidän sivilisaationne ensimmäinen laivasto on muodostettu.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_FLEET_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Kaikki kohottavat kätensä tervehdykseen lipun noustessa, kun ensimmäinen laivasto kokoontuu!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_FLEET_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen laivasto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_FLEET_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Maailman ensimmäinen laivasto muodostetaan sinun johdollasi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_FORMATION_FLEET_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Koolla olevat kapteenit ilmoittavat kaikkien alustensa olevan valmiita nostamaan ankkurin, sillä maailman ensimmäinen laivasto on valmis toimintaan!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_DARK_AGE">
+      <Text>Pimeä aika alkaa</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_DARK_AGE_DESCRIPTION">
+      <Text>Peli astuu uudelle aikakaudelle, ja sinun sivilisaatiollasi on pimeän ajan haasteita voitettavana.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_DARK_AGE_INSTANCE_DESCRIPTION">
+      <Text>Peli siirtyy {PlayerEraType}:iin, ja sinun sivilisaatiollasi on pimeän ajan haasteet voitettavanaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_GOLDEN_AGE">
+      <Text>Kultainen aikakausi alkaa</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_GOLDEN_AGE_DESCRIPTION">
+      <Text>Peli astuu uuteen aikakauteen, ja sivilisaatiosi on ansainnut Kultaisen aikakauden.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_GOLDEN_AGE_INSTANCE_DESCRIPTION">
+      <Text>Peli siirtyy {PlayerEraType} aikakauteen, ja sivilisaatiosi on ansainnut Kultaisen aikakauden.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_HEROIC_AGE">
+      <Text>Sankarin aikakausi alkaa</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_HEROIC_AGE_DESCRIPTION">
+      <Text>Peli astuu uuteen aikakauteen, ja sivilisaatiosi on saavuttanut sankarillisen aikakauden ylitettyään aiemmat haasteet.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_HEROIC_AGE_INSTANCE_DESCRIPTION">
+      <Text>Peli siirtyy {PlayerEraType} aikakauteen, ja sivilisaatiosi on ansainnut sankarillisen aikakauden voitettuaan menneisyyden haasteet.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_NORMAL_AGE">
+      <Text>Normaali ikä alkaa</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_NORMAL_AGE_DESCRIPTION">
+      <Text>Peli astuu uuteen aikakauteen, ja olet välttänyt pimeän ajan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GAME_ERA_STARTED_WITH_NORMAL_AGE_INSTANCE_DESCRIPTION">
+      <Text>Peli siirtyy {PlayerEraType}-aikaan ja olet välttänyt synkän aikakauden.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOODY_HUT_TRIGGERED">
+      <Text>Heimo-kylä otettiin yhteyttä</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOODY_HUT_TRIGGERED_DESCRIPTION">
+      <Text>Heimokylään otettiin yhteyttä, mikä vahvisti kehittyviä kaupunkejamme.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOODY_HUT_TRIGGERED_INSTANCE_DESCRIPTION">
+      <Text>Kyläläiset tuovat lahjoja liittyessään sivilisaatioomme.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST">
+      <Text>Ensimmäinen hallituksen Tier 1-kategoria</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_DESCRIPTION">
+      <Text>Sinun sivilisaatiosi ottaa käyttöön ensimmäisen taso 1 hallituksensa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_INSTANCE_DESCRIPTION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} omaksuu hallintomuodon {GovernmentType}, mikä johtaa uuden poliittisen aikakauden alkamiseen kansalaisille.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_IN_WORLD">
+      <Text>Ensimmäinen maailman hallitus tason 1</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Sinun sivilisaatiosi on ensimmäinen maailmassa, joka on omaksunut Tier 1 -hallituksen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerCivName} kansa ottaa käyttöön {GovernmentType}-hallituksen, joka on heidän poliittisen filosofiansa suuri synteesi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST">
+      <Text>Ensimmäinen Tason 2 hallitus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_DESCRIPTION">
+      <Text>Teidän sivilisaationne siirtyy ensimmäiseen Tason 2 hallitusmuotoon.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Ikivanhat hallintaperinteet kehittyvät ja {ActingPlayerLeaderName} valitsee {GovernmentType} uudeksi hallintotavakseen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen Taso 2 hallitus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Teidän sivilisaationne on maailman ensimmäinen, joka on ottanut käyttöön Tier 2 -hallinnon.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Vanhemmat tavat olivat hyviä, mutta aika on osoittanut niiden heikkouden. {ActingPlayerCivName} kansan {LOC_GRAMMAR_CIVNAME &lt;&lt; {GovernmentType}} omaksuminen antaa uutta voimaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST">
+      <Text>Ensimmäinen kolmannen tason hallitus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_DESCRIPTION">
+      <Text>Sinun sivilisaatiosi ottaa käyttöön ensimmäisen kolmannen tason hallituksensa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Kunnioitettavat menneisyyden perinteet muodostavat edelleen osan {ActingPlayerCivName} valitseman uuden {GovernmentType}-hallituksen toimintaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen kolmannen tason hallitus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Teidän sivilisaationne on ensimmäinen maailmassa, joka on ottanut käyttöön Kolmannen tason hallituksen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Vuosisatoja poliittista filosofiaa huipentuu uuteen ilmaisuun nykyaikana, kun {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} valitsee {GovernmentType} uudeksi hallituksekseen tulevaisuutta varten.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_CLASSICAL_REPUBLIC_INSTANCE_DESCRIPTION">
+      <Text>Julkinen tori on täynnä kansalaiskeskusteluja, sillä {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} valitsee hallitusmuodokseen klassisen tasavallan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_CLASSICAL_REPUBLIC_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerCivName}in kansalaiset riemuitsevat, kun he heittävät kuninkaiden vallan syrjään ja hallitsevat itseään klassisen tasavallan voimin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_AUTOCRACY_INSTANCE_DESCRIPTION">
+      <Text>Hovimiehet kumartavat {ActingPlayerLeaderName}:n edessä, kun he astuvat Autokraatin valtaistuimelle {ActingPlayerCivName}:ssa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_AUTOCRACY_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerLeaderName} julistaa maailmalle, että hän yksin puhuu {ActingPlayerCivName} puolesta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_OLIGARCHY_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerCivName}in hallitseminen tehdään vain parhaimpien ihmisten toimesta, kuten oli oligarkian tapoihin sopivaa</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST_OLIGARCHY_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Filosofi julistaa, että Oligarkia on paras hallitusmuoto, ja {ActingPlayerCivName} kansa on samaa mieltä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_THEOCRACY_INSTANCE_DESCRIPTION">
+      <Text>On taivaan tahto, että {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} muuttuisi teokratiaksi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_THEOCRACY_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} teokratia peilaa tapaa, jolla taivas hallitsee maata jumalallisen johdatuksen alla, jota {ActingPlayerLeaderName} edustaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_MONARCHY_INSTANCE_DESCRIPTION">
+      <Text>Kellot kumahtavat ja kuorot laulavat, kun {ActingPlayerLeaderName} päässä kruunataan {ActingPlayerCivName} kruunu.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_MONARCHY_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerLeaderName} on {ActingPlayerCivName}in hallitsija, kaiken vallan lähde, jonka taivaallinen valta on heille antanut.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_MERCHANT_REPUBLIC_INSTANCE_DESCRIPTION">
+      <Text>The great trading families of {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} unite to spread their wealth and influence to the ends of the world.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST_MERCHANT_REPUBLIC_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Missä tahansa {ActingPlayerLeaderName}-kolikoita käydään kauppaa, löydät kauppiaiden tasavallan {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_DEMOCRACY_INSTANCE_DESCRIPTION">
+      <Text>Jokainen vaalipäivä {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} on juhlapäivä. Liput liehuvat, bändit soittavat ja {ActingPlayerLeaderName} pitää saman vanhan kampanjapuheen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_DEMOCRACY_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Luottamus kanssakansalaisiin ja optimismi tulevaisuutta kohtaan johtivat {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} kansan valitsemaan demokratian.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_COMMUNISM_INSTANCE_DESCRIPTION">
+      <Text>Toverit! Edistetään historiaa ja kommunismia Ensimmäisen Kansalaisen {ActingPlayerLeaderName} johdolla!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_COMMUNISM_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Maailman työläiset! {ActingPlayerCivName}:n proletariat on kaatanut vanhan järjestyksen! Todistakaa uuden kommunismin nousua!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_FASCISM_INSTANCE_DESCRIPTION">
+      <Text>Kaikki kunnia {ActingPlayerLeaderName}:lle! Teidän kansanne lupaa ikuista uskollisuuttaan {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}}:lle!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST_FASCISM_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Salit täyttyvät {ActingPlayerCivName} kansan ja kaikuu heidän laulunsa: {ActingPlayerLeaderName}! {ActingPlayerLeaderName}!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNOR_ALL_APPOINTED_FIRST">
+      <Text>Kaikki kuvernöörit on nimitetty</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNOR_ALL_APPOINTED_FIRST_DESCRIPTION">
+      <Text>Olet nimittänyt kaikki saatavilla olevat [ICON_Governor] kuvernöörit, turvaten monien kaupunkien vaurauden.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNOR_ALL_APPOINTED_FIRST_INSTANCE_DESCRIPTION">
+      <Text>{GovernorName}, {GovernorShortTitle}, astuu palvelukseesi ja täydentää pätevien neuvonantajiesi joukon.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNOR_FULLY_PROMOTED_FIRST">
+      <Text>Kuvernööri täysin ylennetty</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNOR_FULLY_PROMOTED_FIRST_DESCRIPTION">
+      <Text>Olet ylentänyt [ICON_Governor] kuvernöörin täyteen arvoonsa ensimmäistä kertaa, avaten voimakkaita kykyjä auttamaan kaupunkia.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GOVERNOR_FULLY_PROMOTED_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Hallitsemisen taito saavuttaa lopullisen ilmaisunsa {GovernorName}, {GovernorShortTitle} johtajana.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_GAME_ERA">
+      <Text>Mahtava henkilö rekrytoitu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_GAME_ERA_DESCRIPTION">
+      <Text>Erinomainen henkilö [ICON_GreatPerson] on matkustanut maihimme jakamaan uniikkeja kykyjään.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_GAME_ERA_INSTANCE_DESCRIPTION">
+      <Text>Harkinnan jälkeen {GreatPersonIndividualName} valitsee tuovansa lahjakkuutensa {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}}:lle.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_PAST_ERA">
+      <Text>Vanha suuri henkilö rekrytoitu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_PAST_ERA_DESCRIPTION">
+      <Text>[ICON_GreatPerson] Suuri henkilö on matkustanut maihimme. Vaikka he olisivatkin paremmin sopineet menneeseen aikaan, he tuovat silti suuria asioita sivilisaatiollemme.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_PAST_ERA_INSTANCE_DESCRIPTION">
+      <Text>Harkinnan jälkeen {GreatPersonIndividualName} valitsee tuovansa lahjakkuutensa {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}}.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_PATRONAGE_FAITH_OVER_HALF">
+      <Text>Suuri henkilö houkuteltu uskolla</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_PATRONAGE_FAITH_OVER_HALF_DESCRIPTION">
+      <Text>Erinomainen [ICON_GreatPerson] Suuri Henkilö on matkustanut maihimme jakamaan ainutlaatuisia kykyjään, kiitos [ICON_Faith] Uskon käytön, joka kattaa yli puolet heidän rekrytointikustannuksistaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_PATRONAGE_FAITH_OVER_HALF_INSTANCE_DESCRIPTION">
+      <Text>Uskovaisten rukoukset ovat kuultu! {GreatPersonIndividualName} ilmestyy muuttamaan {ActingPlayerCivName}:n kohtaloa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_PATRONAGE_GOLD_OVER_HALF">
+      <Text>Suuri henkilö houkuteltu kullalla</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_PATRONAGE_GOLD_OVER_HALF_DESCRIPTION">
+      <Text>[ICON_GreatPerson] Suuri Henkilö on matkustanut maihimme jakamaan ainutlaatuisia taitojaan, kiitos anteliaan [ICON_Gold] kulta-stipendimme.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_GREAT_PERSON_CREATED_PATRONAGE_GOLD_OVER_HALF_INSTANCE_DESCRIPTION">
+      <Text>Ei kustannuksia säästetty tuodessa {GreatPersonIndividualName} {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}}:een, missä he aloittavat työnsä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_IMPROVEMENT_CONSTRUCTED_FIRST_UNIQUE">
+      <Text>Uniikki laatoitusparannus rakennettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_IMPROVEMENT_CONSTRUCTED_FIRST_UNIQUE_DESCRIPTION">
+      <Text>Olet suorittanut tämän uniikin laatanparannuksen ensimmäistä kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_IMPROVEMENT_CONSTRUCTED_FIRST_UNIQUE_INSTANCE_DESCRIPTION">
+      <Text>Todella, tämä {ImprovementType} edustaa sivilisaatiomme henkeä ja määrittää imperiumimme maiseman.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_IMPROVEMENT_CONSTRUCTED_SEASIDE_RESORT_FIRST">
+      <Text>Ensimmäinen rantalomakohde</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_IMPROVEMENT_CONSTRUCTED_SEASIDE_RESORT_FIRST_DESCRIPTION">
+      <Text>Olet suorittanut ensimmäisen rantalomakeskuksen laattojen parannuksen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_IMPROVEMENT_CONSTRUCTED_SEASIDE_RESORT_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Ensimmäinen Merenrantakurssimme avataan {CityName}ssa, iloksi kaikille ihmisillemme, paitsi yhdelle pienelle lapselle, jonka välipala on vienyt lokki.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_IMPROVEMENT_CONSTRUCTED_SEASIDE_RESORT_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen rantalomakohde</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_IMPROVEMENT_CONSTRUCTED_SEASIDE_RESORT_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Olet saanut valmiiksi maailman ensimmäisen Rantalomakeskus-laattojen parannuksen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_IMPROVEMENT_CONSTRUCTED_SEASIDE_RESORT_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Perheiden nauru ja rakastavaisten huokaukset täyttävät ilman, kun maailman ensimmäinen rantalomakohde avataan {ActingPlayerCivName}-nimisessä kaupungissa nimeltä {CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_INQUISITION_LAUNCHED">
+      <Text>Inkvisitio alkaa</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_INQUISITION_LAUNCHED_DESCRIPTION">
+      <Text>Sinun uskontosi aloittaa inkvisitio.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_INQUISITION_LAUNCHED_INSTANCE_DESCRIPTION">
+      <Text>Taivaat iloitsevat, kun oikeamielinen inkvisitio alkaa korjata niitä, jotka eivät usko {ReligionName}-uskontoon.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_INQUISITION_LAUNCHED_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen inkvisitio</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_INQUISITION_LAUNCHED_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Uskonne käynnistää maailman ensimmäisen inkvisitio-oikeudenkäynnin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_INQUISITION_LAUNCHED_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{ReligionName} on ensimmäinen uskonto aloittamaan inkvisitioita harhaoppisten juurien kitkemiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_NATIONAL_PARK_CREATED">
+      <Text>Kansallispuisto Perustettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_NATIONAL_PARK_CREATED_DESCRIPTION">
+      <Text>Olet perustanut kansallispuiston.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_NATIONAL_PARK_CREATED_INSTANCE_DESCRIPTION">
+      <Text>Sivistyksemme kansalaiset virtaavat uusimpaan kansallispuistoon ja yhdistyvät luonnon maailmaan uudelleen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_NATIONAL_PARK_CREATED_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen kansallispuisto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_NATIONAL_PARK_CREATED_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Olet perustanut maailman ensimmäisen kansallispuiston.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_NATIONAL_PARK_CREATED_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Maailman ensimmäinen kansallispuisto todistaa, mitä muutamat kaukonäköiset luonnonsuojelijat tiesivät todeksi: meidän täytyy suojella {ActingPlayerCivName} luonnonkauneutta tuleville sukupolville.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PANTHEON_FOUNDED">
+      <Text>Pantheonin perustaminen</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PANTHEON_FOUNDED_DESCRIPTION">
+      <Text>Teidän kansanne omaksuu uskon Pantheoniin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PANTHEON_FOUNDED_INSTANCE_DESCRIPTION">
+      <Text>Voisiko tämä pyhä hetki olla sitä, mistä ne muut profeetat puhuivat?</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PANTHEON_FOUNDED_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen Pantheon</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PANTHEON_FOUNDED_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Teidän kansanne on ensimmäinen maailmassa, joka on omaksunut uskon polyteismiin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PANTHEON_FOUNDED_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Ensimmäinen profeetta saa äkillisen oivalluksen tähtitaivaan alla ja kumartuu kiittämään näkymättömiä jumalia.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_GAVE_ENVOY_BECAME_SUZERAIN_FIRST_IN_WORLD">
+      <Text>Kaupunkivaltion ensimmäinen suvereeni</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_GAVE_ENVOY_BECAME_SUZERAIN_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Olet tullut tämän kaupunkivaltion ensimmäiseksi suurherraksi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_GAVE_ENVOY_BECAME_SUZERAIN_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{CityStatePlayerCivName} hallitsijat kumartavat {ActingPlayerCivName}-nimeä, joka on tullut ensimmäiseksi suvereeniksi maailmassa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_GAVE_ENVOY_CANCELED_LEVY">
+      <Text>Mobilisoitu armeija perääntyy</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_GAVE_ENVOY_CANCELED_LEVY_DESCRIPTION">
+      <Text>[ICON_Envoy] Lähettiläiden käyttö on saanut tämän kaupunkivaltion kutsutun armeijan perääntymään.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_GAVE_ENVOY_CANCELED_LEVY_INSTANCE_DESCRIPTION">
+      <Text>{LOC_GRAMMAR_CIVNAME_UPPER &lt;&lt; {TargetPlayerCivName}} oppii, että politiikka on myös taistelutanner, kun {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} kumoaa heidän suzeraintyksensä {CityStatePlayerCivName}.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_GAVE_ENVOY_CANCELED_SUZERAIN_DURING_WAR">
+      <Text>Vihollinen kaupunkivaltio rauhoitettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_GAVE_ENVOY_CANCELED_SUZERAIN_DURING_WAR_DESCRIPTION">
+      <Text>[ICON_Envoy] Lähettiläidesi käyttö on kaatanut vihamielisen kaupunkivaltion suzerainin, vakuuttaen sen lopettamaan vihamielisyydet sinua kohtaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_GAVE_ENVOY_CANCELED_SUZERAIN_DURING_WAR_INSTANCE_DESCRIPTION">
+      <Text>Aiemmat palkkasoturisopimukset ovat neuvoteltavissa uudelleen, kun {ActingPlayerCivName} kumoaa {CityStatePlayerCivName} vanhan suzerainin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_LEVIED_MILITARY">
+      <Text>Kaupunkivaltion armeija palkattiin</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_LEVIED_MILITARY_DESCRIPTION">
+      <Text>Olette koonneet kaupunkivaltion sotavoimat.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_LEVIED_MILITARY_INSTANCE_DESCRIPTION">
+      <Text>{CityStatePlayerCivName} armeijan hallinta siirtyy vaikuttavassa sotilasparaatissa {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}}:lle.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_LEVIED_MILITARY_NEAR_ENEMY_CITY">
+      <Text>Kaupunkivaltion armeija kerättiin lähelle vihollista</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_LEVIED_MILITARY_NEAR_ENEMY_CITY_DESCRIPTION">
+      <Text>Olet mobilisoinut kaupunkivaltion sotavoimat lyöntietäisyydellä vihollissivilisaatiosta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_LEVIED_MILITARY_NEAR_ENEMY_CITY_INSTANCE_DESCRIPTION">
+      <Text>Uusi rintama aukeaa {LOC_GRAMMAR_CIVNAME &lt;&lt; {TargetPlayerCivName}} ja {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} välillä, kun {CityStatePlayerCivName} hallinta vaihtuu rajoilla.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_MET_ALL_MAJORS">
+      <Text>Tapahtui kaikkia sivilisaatioita</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_MET_ALL_MAJORS_DESCRIPTION">
+      <Text>Olet tavannut kaikki elävät sivilisaatiot maailmassa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_MET_ALL_MAJORS_INSTANCE_DESCRIPTION">
+      <Text>Lopulta tavattuamme {LOC_GRAMMAR_CIVNAME &lt;&lt; {TargetPlayerCivName}} kansan, meillä on hassu tunne, että siellä ei ole enää jäljellä muita sivilisaatioita.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_MET_ALL_MAJORS_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen, joka kohtaa kaikki sivilisaatiot</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_MET_ALL_MAJORS_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Olet ensimmäinen henkilö, joka kohtaa kaikki maailman elävät sivilisaatiot.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_MET_ALL_MAJORS_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Tapasimme {LOC_GRAMMAR_CIVNAME &lt;&lt; {TargetPlayerCivName}} kansan ja tulimme ensimmäisinä tapaamaan kaikkia maailman sivilisaatioita.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_MET_MAJOR">
+      <Text>Tapasin uuden sivilisaation</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_MET_MAJOR_DESCRIPTION">
+      <Text>Olet ottanut yhteyttä uuteen sivilisaatioon.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_MET_MAJOR_INSTANCE_DESCRIPTION">
+      <Text>Varovaiset tervehdykset ja uteliaat katseet merkitsevät hetkeä, jolloin tapaamme {LOC_GRAMMAR_CIVNAME &lt;&lt; {TargetPlayerCivName}} kansan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_OVERCAME_DARK_AGE">
+      <Text>Voitti pimeän ajan</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_OVERCAME_DARK_AGE_DESCRIPTION">
+      <Text>Sinun sivilisaatiosi on ansainnut tarpeeksi Aikakausipisteitä voittaakseen Pimeän Aikansa aikaisin ja noustakseen Normaaliin Aikaan! Seuraava Kultainen Aikasi on erityisen voimakas.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PLAYER_OVERCAME_DARK_AGE_INSTANCE_DESCRIPTION">
+      <Text>Niin kuin tuli puhdistaa kultaa, niin meidän sivilisaatiomme on puhdistettu pimeän aikamme koettelemusten kautta. Nyt kaikki ihmetelkää uudistunutta loistoamme!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MANHATTEN">
+      <Text>Manhattan-projekti valmistui</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MANHATTEN_DESCRIPTION">
+      <Text>Teidän tiedemiehenne saivat valmiiksi Manhattan-projektin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MANHATTEN_INSTANCE_DESCRIPTION">
+      <Text>Atomivoiman kauhea voima on nyt meidän hallinnassamme, kun olemme saattaneet Manhattan-projektin päätökseen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MARS">
+      <Text>Mars-komponentti on käynnistetty</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MARS_DESCRIPTION">
+      <Text>Olet käynnistänyt sivilisaatiosi ensimmäisen osan Mars-aluksen rakentamisessa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MARS_INSTANCE_DESCRIPTION">
+      <Text>Tottahan {ProjectShortName} voidaan rakentaa kuka tahansa. Mutta sen asettaminen kiertoradalle ei ole ihan keneltä tahansanistä homma onnistu.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MARS_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen Marsin osakomponentti laukaistiin</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MARS_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Olet ensimmäinen maailmassa, joka lanseeraa osan Marsin avaruusalukselle.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MARS_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Insinööri katselee rakettia, joka jyrähtää lähtötelineeltä, kuljettaen {ProjectShortName}. "Tämä tapahtuu todella", hän sanoo. "Menemme Marsiin."</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MOON_LANDING">
+      <Text>Laskeuduttu Kuuhun</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MOON_LANDING_DESCRIPTION">
+      <Text>Lähetät onnistuneen tehtävän laskeutumaan kuuhun.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MOON_LANDING_INSTANCE_DESCRIPTION">
+      <Text>Teidän tiedemiehenne vahvistavat sen, mitä muut ovat raportoineet: Kuu on hyvin pölyinen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MOON_LANDING_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen laskeutuminen Kuuhun</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MOON_LANDING_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Olet ensimmäinen maailmassa, joka on laskeutunut kuuhun.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_MOON_LANDING_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Tämä on yksi pieni askel ihmiselle, mutta valtava harppaus ihmisrodulle - kaikki kiitos sivilisaatiollemme.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_OPERATION_IVY">
+      <Text>Operaatio Ivy on saatu päätökseen</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_OPERATION_IVY_DESCRIPTION">
+      <Text>Tieteilijänne ovat saattaneet Operaatio Ivy loppuun.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_OPERATION_IVY_INSTANCE_DESCRIPTION">
+      <Text>Epämääräinen kansio sisältää Operaatio Ivyn onnistumisen raportin. Mutta mitä sisältää uusien aseidemme voima?</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_SATELLITE_LAUNCH">
+      <Text>Satelliitti laukaistiin kiertoradalle</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_SATELLITE_LAUNCH_DESCRIPTION">
+      <Text>Sinä laitoit sivilisaatiosi ensimmäisen satelliitin kiertoradalle.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_SATELLITE_LAUNCH_INSTANCE_DESCRIPTION">
+      <Text>Illalla kansalaisemme osoittavat uutta tähteä, joka seuraa taivaalla - ensimmäinen satelliittimme!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_SATELLITE_LAUNCH_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen satelliitti kiertoradalla</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_SATELLITE_LAUNCH_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Sinä laitoit maailman ensimmäisen satelliitin kiertoradalle.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_PROJECT_FOUNDED_SATELLITE_LAUNCH_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Piip...piip...piip...piip...</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_RELIGION_FOUNDED">
+      <Text>Uskonto Perustettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_RELIGION_FOUNDED_DESCRIPTION">
+      <Text>Suuri Profeetta perustaa uskonnon, tuoden valoa kansallesi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_RELIGION_FOUNDED_INSTANCE_DESCRIPTION">
+      <Text>{ReligionName} on totuuden tie pelastukseen! Älä huomioi kaikkia muita!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_RELIGION_FOUNDED_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen uskonto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_RELIGION_FOUNDED_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Teidän kansanne on ensimmäinen muodostamaan uskonnon, joka tuo valoa koko maailmalle!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_RELIGION_FOUNDED_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Sanotaan, että kun {GreatPersonIndividualName} perusti {ReligionName}-uskonnon, maailman ensimmäisen uskonnon, aurinko pilkisti pilvien takaa ja makea tuoksu täytti ilman.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_SHIP_SUNK">
+      <Text>Laiva upposi</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_SHIP_SUNK_DESCRIPTION">
+      <Text>Eräs merijoukon yksikkö upposi taistelussa. Sitä voidaan käyttää arkeologian järjestelmän avulla mahdollisesti luomaan [ICON_RESOURCE_SHIPWRECK] hyödykkeitä haaksirikkopaikalta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_SPY_MAX_LEVEL">
+      <Text>Päävakoilu ansaitsi</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_SPY_MAX_LEVEL_DESCRIPTION">
+      <Text>Yksi vakoojistasi on saavuttanut maksimipromootiotasonsa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_SPY_MAX_LEVEL_INSTANCE_DESCRIPTION">
+      <Text>Sanotaan, että {UnitCitizenName}lla on yhteyksiä jokaisessa maailman kaupungissa, moitteeton makutaju vaatteissa ja auto, joka muuntautuu moottoriveneeksi.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_SPY_MAX_LEVEL_FIRST">
+      <Text>Ensimmäinen mestarivakoilija ansaitsi</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_SPY_MAX_LEVEL_FIRST_DESCRIPTION">
+      <Text>Ensimmäistä kertaa yksi vakoilijoistasi on saavuttanut maksimipromootiotasonsa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_SPY_MAX_LEVEL_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Salaisessa maanalaisessa huoneessa kiität {UnitCitizenName}:a menestyksekkäästä urasta palveluksessa ennen seuraavan tehtävän alkua.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TECH_RESEARCHED_IN_ERA_FIRST">
+      <Text>Uuden ajan ensimmäinen teknologia</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TECH_RESEARCHED_IN_ERA_FIRST_DESCRIPTION">
+      <Text>Olet saanut valmiiksi sivilisaatiosi ensimmäisen teknologian uudelta löytöjen aikakaudelta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TECH_RESEARCHED_IN_ERA_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Monet kiistelevät {PlayerEraType} todellisesta alkamisajankohdasta, mutta tiedät sen tapahtuneen, kun {ActingPlayerCivName} löysi {TechnologyType}.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TECH_RESEARCHED_IN_ERA_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen uuden aikakauden teknologia</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TECH_RESEARCHED_IN_ERA_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Olet saanut valmiiksi maailman ensimmäisen teknologian uudesta löytöjen aikakaudesta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TECH_RESEARCHED_IN_ERA_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerCivName}in löytämä {TechnologyType} avaa maailman lavan tulevia löytöjä varten {PlayerEraType} aikakaudella!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TRADING_POST_CONSTRUCTED_IN_OTHER_CIV">
+      <Text>Kauppapaikka perustettu uudessa sivilisaatiossa</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TRADING_POST_CONSTRUCTED_IN_OTHER_CIV_DESCRIPTION">
+      <Text>Olet perustanut ensimmäisen [ICON_TradingPost] kauppapaikkasi tässä sivilisaatiossa ja avannut pääsyn uusille markkinoille.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TRADING_POST_CONSTRUCTED_IN_OTHER_CIV_INSTANCE_DESCRIPTION">
+      <Text>Pölyisinä ja väsyneinä mutta kaupanteosta innoissaan, kauppiaat avaavat ensimmäisen kauppapaikkamme {LOC_GRAMMAR_CIVNAME &lt;&lt; {TargetPlayerCivName}} mailla.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TRADING_POST_CONSTRUCTED_IN_EVERY_CIV">
+      <Text>Kauppapaikat kaikissa sivilisaatioissa</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TRADING_POST_CONSTRUCTED_IN_EVERY_CIV_DESCRIPTION">
+      <Text>Olet perustanut [ICON_TradingPost] kauppapaikan kaikissa sivilisaatioissa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TRADING_POST_CONSTRUCTED_IN_EVERY_CIV_INSTANCE_DESCRIPTION">
+      <Text>Liiketoimintaverkostomme ulottuu maailmanlaajuisesti {CityName}:ssä sijaitsevan kauppapaikan avaamisen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TRADING_POST_CONSTRUCTED_IN_EVERY_CIV_FIRST_IN_WORLD">
+      <Text>Ensimmäiset kauppapaikat kaikissa sivilisaatioissa</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TRADING_POST_CONSTRUCTED_IN_EVERY_CIV_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Olet ensimmäinen maailmassa, joka on perustanut [ICON_TradingPost] kauppapaikan kaikissa sivilisaatioissa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_TRADING_POST_CONSTRUCTED_IN_EVERY_CIV_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Kauppiaat ja pankkiirit juhlivat kun avaamme kauppapaikkamme {CityName}:ssa. Olemme ensimmäisiä kaupankäynnin harjoittajia jokaisessa maailman sivilisaatiossa!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_AIR">
+      <Text>Lennon lähdössä</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_AIR_DESCRIPTION">
+      <Text>Omistat ensimmäisen lentävän yksikkösi. Ihmiset iloitsevat uusista mahdollisuuksista, joita tämä tuo mukanaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_AIR_INSTANCE_DESCRIPTION">
+      <Text>{UnitType} {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} nousi ilmassa ja pysyi siellä hetken suuren riemun vallitessa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_AIR_IN_WORLD">
+      <Text>Maailman ensimmäinen lento</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_AIR_IN_WORLD_DESCRIPTION">
+      <Text>Omistat maailman ensimmäisen lentävän yksikön! Ihmiset riemuitsevat uusista mahdollisuuksista, joita tämä tuo mukanaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_AIR_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Ihmiset toteuttivat lentämisen unelmansa ensimmäistä kertaa, kun {ActingPlayerCivName} {UnitType} nousivat taivaalle.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_SEA">
+      <Text>Aalloilla</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_SEA_DESCRIPTION">
+      <Text>Omistat ensimmäisen merenkulkuyksikkösi. Maailma täynnä mahdollisuuksia odottaa horisontissa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_SEA_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerCivName}:n {UnitType}-ryhmän miehistö keksii merimiehen tarinan ensimmäisen merimatkan jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_SEA_IN_WORLD">
+      <Text>Maailman ensimmäinen merimatka</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_SEA_IN_WORLD_DESCRIPTION">
+      <Text>Omistat maailman ensimmäisen merenkulkuun tarkoitetun yksikön! Mahdollisuudet ovat rajattomat horisontissa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_DOMAIN_SEA_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Kaipaillen uusista seikkailuista, {UnitType} {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}}:sta on ensimmäinen maailmassa, joka vaelteli meriä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_REQUIRING_STRATEGIC">
+      <Text>Strategisen resurssipotentiaalin vapautuminen</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_REQUIRING_STRATEGIC_DESCRIPTION">
+      <Text>Omistat ensimmäisen yksikkösi, joka käyttää tätä strategista resurssia.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_REQUIRING_STRATEGIC_INSTANCE_DESCRIPTION">
+      <Text>Skeptikot voivat kysyä: "Mitä hyötyä {ResourceType} {ResourceType : plural 1?on; other?ovat}?" Mutta me tiedämme nyt, että {ResourceType : plural 1?se on; other?ne ovat} pelottava ase meidän {UnitType}.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_REQUIRING_STRATEGIC_IN_WORLD">
+      <Text>Maailman ensimmäinen strateginen resurssipotentiaali vapautettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_REQUIRING_STRATEGIC_IN_WORLD_DESCRIPTION">
+      <Text>Olette maailman ensimmäinen sivilisaatio, jolla on yksikkö, joka käyttää tätä strategista resurssia.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_REQUIRING_STRATEGIC_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>Aiemmin {ResourceType} oli vain oppineiden mielenkiinnon kohde. Nyt meidän {UnitType} käyttää {ResourceType : plural 1:sitä; other:niitä;} ensimmäistä kertaa maailmassa aseena.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_UNIQUE">
+      <Text>"Uniikki yksikkö marssii."</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_UNIQUE_DESCRIPTION">
+      <Text>Olet kouluttanut tämän ainutlaatuisen yksikön ensimmäistä kertaa, antaen sinulle edun taistelukentällä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_CREATED_FIRST_UNIQUE_INSTANCE_DESCRIPTION">
+      <Text>Kuka muu kuin {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} voisi luoda {UnitType}? Ja kuka voisi vastustaa sitä?</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_HIGH_LEVEL">
+      <Text>Yksikkö edistyi erinomaisesti</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_HIGH_LEVEL_DESCRIPTION">
+      <Text>Yksi yksiköistäsi saavuttaa neljännen ylennystasonsa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_HIGH_LEVEL_INSTANCE_DESCRIPTION">
+      <Text>Kansalaiset kokoontuvat joukolla juhlistamaan uusinta voittoa {UnitType}-yksikkömme puolesta!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_HIGH_LEVEL_FIRST">
+      <Text>Ensimmäinen yksikkö on ylennetty erinomaisesti</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_HIGH_LEVEL_FIRST_DESCRIPTION">
+      <Text>Ensimmäistä kertaa yksi yksiköistäsi saavuttaa neljännen ylennystasonsa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_HIGH_LEVEL_FIRST_INSTANCE_DESCRIPTION">
+      <Text>Kaikista sotavoimistamme tämä {UnitType} on kaikkein kuuluisin. Ei ole vielä yksikään saavuttanut niin monta voittoa sodassa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_ASSISTED_BY_ADMIRAL">
+      <Text>Admirali voittaa vihollisen</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_ASSISTED_BY_ADMIRAL_DESCRIPTION">
+      <Text>Yksi [ICON_GreatAdmiral] suuramiraaleistasi on johtanut ensimmäisen voitokkaan hyökkäyksen vihollisen yksikköä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_ASSISTED_BY_ADMIRAL_INSTANCE_DESCRIPTION">
+      <Text>{GreatPersonIndividualName} seisoo kannella kiikari silmällä, kun vihollislaivat uppoavat valtameren syvyyksiin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_ASSISTED_BY_GENERAL">
+      <Text>Yleinen voittaa vihollisen</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_ASSISTED_BY_GENERAL_DESCRIPTION">
+      <Text>Yksi teidän [ICON_GreatGeneral] Suurkenraaleistanne on johtanut ensimmäisen voitokkaan hyökkäyksen vihollisjoukkoa vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_ASSISTED_BY_GENERAL_INSTANCE_DESCRIPTION">
+      <Text>{GreatPersonIndividualName} johtaa joukkoja paraatissa upean voiton jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_UNDERDOG_MILITARY_FORMATION">
+      <Text>Vihollisjoukko lyöty</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_UNDERDOG_MILITARY_FORMATION_DESCRIPTION">
+      <Text>Yksi yksikköistänne voitti vihollisyksikön ylivoimaisella sotilasmuodostelmalla.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_UNDERDOG_MILITARY_FORMATION_INSTANCE_DESCRIPTION">
+      <Text>Vaikka meidän {UnitType} oli selvästi vähemmistössä, olemme voittaneet päivän!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_UNDERDOG_PROMOTIONS">
+      <Text>Vihollisveteraani voitettu</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_UNDERDOG_PROMOTIONS_DESCRIPTION">
+      <Text>Yksi yksiköistäsi voitti vihollisyksikön, jolla oli vähintään kaksi ylennystä enemmän.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_UNIT_KILLED_UNDERDOG_PROMOTIONS_INSTANCE_DESCRIPTION">
+      <Text>Yksikkömme on vanginnut kokeneen vihollisen taisteluliput!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_WAR_DECLARED_USING_CASUS_BELLI">
+      <Text>Sotaan johtava syy</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_WAR_DECLARED_USING_CASUS_BELLI_DESCRIPTION">
+      <Text>Olet käyttänyt Casus Belliä aloittaaksesi sodan toista sivilisaatiota vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_WAR_DECLARED_USING_CASUS_BELLI_INSTANCE_DESCRIPTION">
+      <Text>Maailma on sitä mieltä, että {WarType}-sotamme {TargetPlayerCivName}-nimistä siviiliyhteisöä vastaan on perusteltua.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_WORLD_CIRCUMNAVIGATED">
+      <Text>Maailma kierretty ympäri</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_WORLD_CIRCUMNAVIGATED_DESCRIPTION">
+      <Text>Sinun sivilisaatiosi on paljastanut yhden ruudun jokaisessa pystysuorassa linjassa kartassa. Tämä muodostaa polun ympäri maailmaa, vaikka polku ei päättyisikään siellä missä se alkoikaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_WORLD_CIRCUMNAVIGATED_INSTANCE_DESCRIPTION">
+      <Text>Seuraten harvojen jalanjälkiä, {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} kiertää maailman ympäri.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_WORLD_CIRCUMNAVIGATED_FIRST_IN_WORLD">
+      <Text>Maailman ensimmäinen kiertomatka</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_WORLD_CIRCUMNAVIGATED_FIRST_IN_WORLD_DESCRIPTION">
+      <Text>Teidän sivilisaationne on ensimmäinen, joka paljastaa yhden ruudun jokaisella pystysuoralla linjalla kartalla. Tämä muodostaa polun ympäri maailman, vaikka polku ei päättyisikään siihen missä se alkoikin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_WORLD_CIRCUMNAVIGATED_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} onnistui ensimmäisen maailmanympärimatkan suorittamisessa!</Text>
+    </Row>
+    <!--Moment Data-->
+    <Row Tag="LOC_MOMENT_DATA_BELIEF">
+      <Text>Usko</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_BUILDING">
+      <Text>Rakennus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_CITY_STATE_PLAYER">
+      <Text>Kaupunkivaltion pelaaja</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_CIVIC">
+      <Text>Kansalaisuus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_CONTINENT">
+      <Text>Maanosa</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_DISTRICT">
+      <Text>Alue</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_EMERGENCY">
+      <Text>Hätätilanne</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_FEATURE">
+      <Text>Ominaisuus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_GOVERNMENT">
+      <Text>Hallitus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_GOVERNOR">
+      <Text>Kuvernööri</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_GREAT_PERSON_INDIVIDUAL">
+      <Text>Suuri henkilö Yksilö</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_GREAT_WORK">
+      <Text>Hienoa työtä</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_IMPROVEMENT">
+      <Text>Parannus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_OLD_RELIGION">
+      <Text>Vanha uskonto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_PLAYER_ERA">
+      <Text>Pelaaja-aikakausi</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_PROJECT">
+      <Text>Projekti</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_RELIGION">
+      <Text>Uskonto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_RESOURCE">
+      <Text>Resurssi</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_TARGET_PLAYER">
+      <Text>Kohde pelaaja</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_TARGET_PLAYER_ERA">
+      <Text>Kohderyhmä: Pelaajien aikakausi</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_TECHNOLOGY">
+      <Text>Teknologia</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_UNIT">
+      <Text>Yksikkö</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR">
+      <Text>Sota</Text>
+    </Row>
+    <!-- Types of war (so we can specify in moment text) -->
+    <Row Tag="LOC_MOMENT_DATA_WAR_SURPRISE_WAR">
+      <Text>Yllätys sota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_FORMAL_WAR">
+      <Text>Virallinen sota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_HOLY_WAR">
+      <Text>Pyhä sota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_RECONQUEST_WAR">
+      <Text>Uudelleenvallankaappaus sota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_LIBERATION_WAR">
+      <Text>Vapautussota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_DEFENSIVE_PACT">
+      <Text>Puolustusliitto</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_JOINT_WAR">
+      <Text>Yhteinen sota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_SUZERAIN_WAR">
+      <Text>Suzeraanisota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_PROTECTORATE_WAR">
+      <Text>Suojeluskuntien sota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_COLONIAL_WAR">
+      <Text>Siirtomaasota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_TERRITORIAL_WAR">
+      <Text>Aluevaan laajentumisen sota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_GOLDEN_AGE_WAR">
+      <Text>Kultaisen ajan sota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_EMERGENCY_WAR">
+      <Text>Hätäsota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_WAR_OF_RETRIBUTION">
+      <Text>Kosto- sota</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_DATA_WAR_IDEOLOGICAL_WAR">
+      <Text>Ideologinen sota</Text>
+    </Row>
+    <!--Moment Categories and Bonuses-->
+    <Row Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL">
+      <Text>Taivas ja tähdet</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE">
+      <Text>Taivaan ja tähtien kultakausi:[NEWLINE]Avaa [ICON_TechBoosted] Eurekat edistyneelle lentotekniikalle, ydinfissiolle ja raketit, jos ollaan atomikaudella. Jos ollaan informaatioajassa, avataan satelliittien, robotiikan, ydinfuusion ja nanotekniikan Eurekat. Kaikki ilma-alusten ansaitsema kokemus kasvaa 100%.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_NORMAL_AGE">
+      <Text>Taivaan ja tähtien omistautumisbonus: [NEWLINE] Saat +1 aikakauden pistettä jokaisesta rakennetusta lentokentästä. Saat +1 aikakauden pistettä jokaisesta ansaitusta tai ostetusta [ICON_GreatPerson] Suurmiehestä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_DARK_AGE">
+      <Text>Taivaan ja tähtien omistautumisbonus:[NEWLINE]Saat +1 aikakauden pisteen jokaisesta lentoasemarakennuksesta. Saat +1 aikakauden pisteen joka kerta, kun [ICON_GreatPerson] suurmies ansaitaan tai ostetaan.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_CULTURAL">
+      <Text>Kynä, sivellin ja ääni</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE">
+      <Text>Kynä, sivellin ja ääni Kultakausi: [NEWLINE][ICON_CivicBoosted] Innoitukset lisäävät 10% kaupunkien kustannuksista. Jokainen kaupunki saa +1 [ICON_Culture] kulttuuria jokaisesta erikoisaluedistriktistä</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE">
+      <Text>Kynä, sivellin ja ääni -omistautumispalkkio:[NEWLINE]Saat +1 aikakauden pistettä joka kerta kun laukaiset [ICON_CivicBoosted] innoituksen. +1 aikakauden pistettä rakentaessasi rakennuksen, jossa on suuren mestariteoksen paikka.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE">
+      <Text>Kynä, sivellin ja ääni -omistautumispalkkio:[NEWLINE]Saat +1 aikakauden pisteen joka kerta, kun laukaiset [ICON_CivicBoosted] innoituksen. +1 aikakauden pisteen rakentaessasi rakennuksen, jossa on suuren taideteoksen paikka.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_ECONOMIC">
+      <Text>Uudista kolikkojärjestelmä</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE">
+      <Text>Uudista rahajärjestelmää Kultakausi:[NEWLINE]Kauppiaasi eivät voi joutua saaliiksi. Kansainväliset [ICON_TradeRoute] kauppareitit tarjoavat +3 [ICON_Gold] kultaa erikoisalueelta jokaisessa vieraassa kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE">
+      <Text>Uudista rahapajan omistautumisbonus:[NEWLINE]Saat +1 aikakauden pistettä joka kerta, kun onnistuneesti suoritat [ICON_TradeRoute] kauppareitin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_DARK_AGE">
+      <Text>Uudista Rahapajan Omistautumisbonus:[NEWLINE]Saat +1 Aikakauden Piste joka kerta, kun suoritat [ICON_TradeRoute] kauppareitin onnistuneesti.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_ESPIONAGE">
+      <Text>Valheiden henkivartija</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE">
+      <Text>Valepukujen Vartijat Kultakausi:[NEWLINE]Vakoojat eivät vie aikaa vakiinnuttaessaan läsnäoloaan toisen sivilisaation kaupungissa. Aika kaikkien hyökkäysoperaatioiden toteuttamiseen vähentynyt 25%.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_NORMAL_AGE">
+      <Text>Valepukuisen suojelijan Omistautuminen Bonus:[NEWLINE]Saat +1 aikakauden pisteen jokaisesta onnistuneesta hyökkäävästä vakoojaoperaatiosta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_DARK_AGE">
+      <Text>Bodyguard of Lies omistuskirjoitusbonus:[NEWLINE]Saat +1 aikakauden pisteen jokaisesta onnistuneesta hyökkäävästä vakoojaoperaatiosta.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_EXPLORATION">
+      <Text>Täällä ovat lohikäärmeet</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE">
+      <Text>Hic Sunt Dracones Kultainen Aika: [NEWLINE]+3 alkavaa [ICON_Citizen] kansalaista kaupunkeihin, jotka on asutettu eri mantereelle kuin ensimmäinen kaupunkisi. +2 [ICON_Movement] liikkumista meri- ja maihinnousuyksiköille. +2 uskollisuutta vuorossa niille kaupungeille, jotka eivät ole alkuperäisen [ICON_Capital] pääkaupungin mantereella.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_NORMAL_AGE">
+      <Text>Hic Sunt Dracones -omistuskirjoitus bonus:[NEWLINE]Saat +3 aikakauden pistettä joka kerta, kun löydät uuden mantereen tai luonnonihmeen. Saat +1 aikakauden pisteen joka kerta, kun tuhoat ei-barbaari meriyksikön taistelussa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_DARK_AGE">
+      <Text>Hic Sunt Dracones Omistuskirjoitus bonus:[NEWLINE]Saat +3 Aikakausipistettä joka kerta, kun löydät uuden mantereen tai luonnonihmeen. Saat +1 Aikakausipisteen joka kerta, kun tapat ei-barbaari meriyksikön taistelussa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL">
+      <Text>Höyryn syke</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE">
+      <Text>Höyryn Kultakauden syke:[NEWLINE]+10% [ICON_PRODUCTION] Tuotanto Industriaali-ajan ja myöhempiin ihmeisiin. Kampuskorttelin [ICON_SCIENCE] Tiede-viereisyysbonus tuottaa myös [ICON_PRODUCTION] Tuotantoa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE">
+      <Text>Höyryn syke omistautumispalkinto:[NEWLINE]Saat +1 kausipiste jokaisesta teollisuus- tai myöhemmästä rakennuksesta, jonka rakennat.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_DARK_AGE">
+      <Text>Steamin sykkeen omistautumispalkkio:[NEWLINE]Saat +1 aikakausipisteen jokaisesta teollisuuden tai myöhemmän rakennuksen rakentamisesta</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE">
+      <Text>Monumentaalisuus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE">
+      <Text>Monumentalisuuden Kultainen Aikakausi:[NEWLINE]+2 [ICON_Movement] liikkumispisteitä kaikille rakentajille. Siviiliyksiköitä voi ostaa [ICON_Faith] uskonnolla. Rakentajat ja uudisasukkaat ovat 30% halvempia ostaa [ICON_FAITH] uskonnolla ja [ICON_GOLD] kullalla.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE">
+      <Text>Monumentaalinen omistautumisbonus:[NEWLINE]Saat +1 aikakauden pistettä joka kerta, kun rakennat uuden erikoisalueen kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_DARK_AGE">
+      <Text>Monumentalisuuden omistautumispalkkio:[NEWLINE]Saat +1 aikakauden pisteen joka kerta, kun rakennat uuden erikoisaluedistriktin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_MILITARY">
+      <Text>Aseisiin!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE">
+      <Text>Aseisiin! Kultainen aikakausi:[NEWLINE]Avaa erityinen Casus Belli, joka generoi 75% vähemmän [ICON_STAT_GRIEVANCE] tyytymättömyyttä kuin virallinen sota ja jota voidaan käyttää heti kohteen tuomitsemisen jälkeen. +15% [ICON_Production] tuotanto sotilasyksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_NORMAL_AGE">
+      <Text>Aseisiin! Omistautumispalkkio:[NEWLINE]Saat +1 aikakauden pisteen joka kerta kun tapat ei-barbaari armeijan ryhmän taistelussa ja +2 aikakauden pistettä joka kerta kun tapat ei-barbaari armeijan taistelussa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_DARK_AGE">
+      <Text>Aseisiin! Omistautumispalkinto:[NEWLINE]Saat +1 aikakauden pisteen joka kerta, kun tapat ei-pakanallisen joukon taistelussa ja +2 aikakauden pistettä joka kerta, kun tapat ei-pakanallisen armeijan taistelussa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_RELIGIOUS">
+      <Text>Evankelistojen lähtö</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE">
+      <Text>Evankelistojen Kultaisen aikakauden Exodus:[NEWLINE]+2 [ICON_Movement] Liikkumispisteitä kaikille lähetyssaarnaajille, apostoleille ja inkvisitoreille. Lisäksi vastikään koulutetut saavat +2 latausta. +4 [ICON_GreatProphet] Suurprofeetta-pistettä per vuoro.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_NORMAL_AGE">
+      <Text>Evankelistojen maastamuutto Omistuskirjoitus Bonus:[NEWLINE]Saat +2 Aikakauden pistettä joka kerta, kun käännytät kaupungin perustamaasi uskontoon ensimmäistä kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_DARK_AGE">
+      <Text>Evankelistojen lähtö Bonus:[NEWLINE]Saat +2 aikakausipistettä joka kerta, kun käännytät kaupungin omaan perustamaasi uskontoon ensimmäistä kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC">
+      <Text>Vapaa tutkimus</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE">
+      <Text>Vapaa tutkimus Kultainen aikakausi:[NEWLINE][ICON_TechBoosted] Eurekalla saa 10% lisää teknologiakustannuksista. Kauppakeskus ja satamakortteli antavat [ICON_GOLD] Kultaista vierekkäisbonusta, joka antaa [ICON_Science] Tiedettä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE">
+      <Text>Vapaa tutkimus -omistautumispalkkio:[NEWLINE]Saat +1 aikakauden pisteen joka kerta kun laukaiset [ICON_TechBoosted] Eureka -tapahtuman. +1 aikakauden pisteen rakentaessasi rakennuksen, joka tarjoaa tieteen perustuottona.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_DARK_AGE">
+      <Text>Vapaa tutkimus - Omistautumispalkkio:[NEWLINE]Saat +1 aikakauden piste joka kerta, kun laukaiset [ICON_TechBoosted] Eureka efektin. +1 aikakauden piste rakentaessasi rakennuksen, joka tarjoaa Tiedettä perustuottona.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_TOURISM">
+      <Text>Toivoisin, että olisit täällä</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE">
+      <Text>Toivoisimme sinun olevan täällä Kultaisella Aikakaudella:[NEWLINE]Kaupungit, joissa on [ICON_Governor] kuvernöörejä, saavat +50% [ICON_Tourism] matkailua maailman ihmeistä. +100% [ICON_Tourism] matkailua kaikkiin kansallispuistoihin.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_NORMAL_AGE">
+      <Text>Wish You Were Here -omistautumispalkinto:[NEWLINE]Saat +1 aikakauden pisteen jokaisesta kaivetuista artefaktista.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_DARK_AGE">
+      <Text>Toivomme sinun olevan täällä -omistautumisbonus:[NEWLINE]Saat +1 aikakauden pisteen jokaisesta kaivetuista esineestä.</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_NO_MOMENTS_TO_SHOW">
+      <Text>Teidän sivilisaationne ei ole kokenut mitään historiallisia hetkiä.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

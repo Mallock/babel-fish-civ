@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_EXPANSION2_NAME">
+      <Text>Laajennus: Gathering Storm</Text>
+    </Row>
+    <Row Tag="LOC_EXPANSION2_DESCRIPTION">
+      <Text>Tämä on peli, joka käyttää Gathering Storm -laajennusta, joka sisältää Maailmankongressin, ympäristövaikutukset ja -katastrofit, voiman ja paljon muuta. Pystytkö käsittelemään muuttuvan maailman arvaamattomuutta ja luomaan sivilisaation, joka kestää ajan testin?</Text>
+    </Row>
+    <!-- Setup Parameters -->
+    <Row Tag="LOC_GAME_REALISM">
+      <Text>Katastrofin voimakkuus</Text>
+    </Row>
+    <Row Tag="LOC_GAME_REALISM_DESCRIPTION">
+      <Text>Aseta luonnonkatastrofien voimakkuus. Valitse asetus 0 (harvinaisemmat ja vähemmän voimakkaat luonnonkatastrofit) ja 4 (usein tapahtuvat ja voimakkaimmat luonnonkatastrofit). Huomioi, että asetuksilla 3 ja 4, vakavat tulivuorenpurkaukset saattavat vahingoittaa laattoja kahden ruudun päässä.</Text>
+    </Row>
+    <!-- Front End-->
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_NAME">
+      <Text>Diplomaattinen voitto</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_TT">
+      <Text>Näytät maailmalle, että maiden välinen yhteistyö on ainoa keino kestävään ja oikeudenmukaiseen rauhaan. Ansaitse tämä voitto kunnioituksen ja Maailmankongressin kautta.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_TEXT">
+      <Text>Sopusointi ja rauha korvaavat sodan ja väkivallan. Ihmisten väliset erot ja erimielisyydet voidaan aina ratkaista hyvän tahdon avulla. Konfliktien ollessa takanamme, mitä loistoja yhteinen tulevaisuutemme pitää sisällään?</Text>
+    </Row>
+    <!-- Natural Wonders-->
+    <Row Tag="LOC_FEATURE_CHOCOLATEHILLS_NAME">
+      <Text>Suklaakukkulat</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_CHOCOLATEHILLS_DESCRIPTION">
+      <Text>Neljän laatan luonnonihme. Se tarjoaa +1 [ICON_Food] Ruokaa, +2 [ICON_Production] Tuotantoa ja +1 [ICON_Science] Tiedettä.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_DEVILSTOWER_NAME">
+      <Text>Mato Tipila</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_DEVILSTOWER_DESCRIPTION">
+      <Text>Yksi laatta on luonnonihmeenä kulkukelvoton. Antaa +1 [ICON_FAITH] uskoa ja +1 [ICON_Production] tuotantoa viereisille laatoille.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_GOBUSTAN_NAME">
+      <Text>Gobustan</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_GOBUSTAN_DESCRIPTION">
+      <Text>Kolme laattaa luonnonihmettä. Se tarjoaa +3 [ICON_CULTURE] kulttuuripistettä ja +1 [ICON_Production] tuotantopistettä.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_IKKIL_NAME">
+      <Text>Ik-Kil</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_IKKIL_DESCRIPTION">
+      <Text>Yksi laatta läpäisemätön luonnollinen ihme. +50% [ICON_Production] tuotantoa, kun ihmeitä ja kaupunginosia tuotetaan viereisillä laatoilla. Se tarjoaa makean veden.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_PAMUKKALE_NAME">
+      <Text>Pamukkale</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_PAMUKKALE_DESCRIPTION">
+      <Text>Kaksi laattaa, joita ei voi ylittää luonnonihmettä. +1 [ICON_AMENITIES] Viihtyvyyttä. Se tarjoaa lisäksi [ICON_AMENITIES] Viihtyvyyttä, jos se on viereinen Viihdekeskukseen. Suuri viereisyyshyöty Teatteritorille, Kampukselle ja Kauppakeskuksen piireille. Normaali viereisyyshyöty Pyhän paikan piirille. Se tarjoaa makean veden.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_VESUVIUS_NAME">
+      <Text>Vesuvius-vuori</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_VESUVIUS_DESCRIPTION">
+      <Text>Yksi laatta kulkematon luonnonihme. Se näyttäytyy tulivuorena ja antaa +1 [ICON_Production] tuotannon viereisille laatoille. Purkautuessaan se antaa runsaat saannot viereisille laatoille, mutta suuren [ICON_Citizen] asukaskadon. Se on aina aktiivinen.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_WHITEDESERT_NAME">
+      <Text>Sahara el Beyda = Valkoinen Sahara</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_WHITEDESERT_DESCRIPTION">
+      <Text>Neljän laatan luonnonihme. Se tarjoaa +1 [ICON_SCIENCE] tiedettä, +1 [ICON_Culture] kulttuuria ja +4 [ICON_GOLD] kultaa.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION">
+      <Text>Kaksi laattaa läpäisemätöntä luonnonihmettä. Se näyttää tulivuorelta ja antaa +1 [ICON_Culture] kulttuuria ja +1 [ICON_Food] ruokaa. Purkauksessa se antaa keskitason saannon ja on todennäköisesti vahingoittaa rakennuksia ja kaupunginosia. Purkautuu harvoin, mutta on aina aktiivinen.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_KILIMANJARO_XP2_DESCRIPTION">
+      <Text>Yksi laatta läpipääsemätön luonnonihme. Se näyttää tulivuorelta ja antaa +2 [ICON_Food] ruokaa viereisille laatoille. Purkautuessaan se antaa vähän tuottoa ja todennäköisesti vahingoittaa parannuksia ja rakennuksia. Purkautuu harvoin, mutta on aina aktiivinen.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_CLIFFS_DOVER_XP2_DESCRIPTION">
+      <Text>Kahden tiilen luonnonihme. Se ilmestyy vesirajan vieressä olevien kallioiden kanssa ja tarjoaa +3 [ICON_Culture] kulttuuria, +2 [ICON_Food] ruokaa ja +3 [ICON_Gold] kultaa. Tarjoaa +4 vetovoimaa, sen sijaan että tarjoaisi tavallista +2 vetovoimaa luonnonihmeille, viereisille tiilille. Parannuksia ei voi sijoittaa sille.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_YOSEMITE_XP2_DESCRIPTION">
+      <Text>Kaksi laatan kulkemattomia luonnon ihmettä. Antaa +1 [ICON_Gold] Kultaa, +1 [ICON_Food] Ruokaa ja +1 [ICON_Science] Tiedettä viereisille laatoille.</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_EYE_OF_THE_SAHARA_XP2_DESCRIPTION">
+      <Text>Kolmen ruudun luonnonihme. Antaa +2 [ICON_PRODUCTION] tuotantoa ja +1 [ICON_SCIENCE] tiedettä. Pelin saavuttaessa atomiajan, se antaa lisäksi +1 [ICON_PRODUCTION] tuotantoa ja +3 [ICON_SCIENCE] tiedettä.</Text>
+    </Row>
+    <!-- New Maps  -->
+    <Row Tag="LOC_MAP_CONTINENTS_ISLANDS_NAME">
+      <Text>Maanosat ja saaret</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PRIMORDIAL_NAME">
+      <Text>Alkukantainen</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SPLINTERED_FRACTAL_NAME">
+      <Text>Halkaistu fraktaali</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TILTED_AXIS_NAME">
+      <Text>Kallistunut akseli</Text>
+    </Row>
+    <Row Tag="LOC_MAP_CONTINENTS_ISLANDS_DESCRIPTION">
+      <Text>Muutama suuri manner ympäröitynä saarilla.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PRIMORDIAL_DESCRIPTION">
+      <Text>Kartta varhaiselta ajalta, jossa mantereet ja saaret ovat ennustamattomia. Olosuhteet ovat epävakaisempia, ja rannikolla on enemmän matalia alueita ja tulivuoria.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SPLINTERED_FRACTAL_DESCRIPTION">
+      <Text>Erittäin satunnainen kartta, joka muodostaa usein ohuita, käärmeenkaltaisia ​​mantereita ja saaria.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TILTED_AXIS_DESCRIPTION">
+      <Text>Maailmankartta, jossa napojen lähellä olevat mantereet ovat keskiössä.</Text>
+    </Row>
+    <!--America-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION">
+      <Text>Kaikki nykyisen hallituksen diplomaattiset politiikkalokerot muutetaan villikorttipaikoiksi. +1 [ICON_FAVOR] Diplomatiaedu jokaisesta villikorttipaikasta heidän hallituksessaan.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION">
+      <Text>Rakennus, joka on ainutlaatuinen Amerikassa. +100% [ICON_Tourism] Matkailupaine tältä kaupungilta kohti muita sivilisaatioita, kun peli siirtyy Moderniin aikakauteen.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_ROUGH_RIDER_EXPANSION2_DESCRIPTION">
+      <Text>Amerikkalainen yksilöllinen teollisuuskauden yksikkö, kun heidän johtajanaan on Teddy Roosevelt, korvaa Cuirassiers-yksikön. [ICON_Culture] Kulttuuripisteitä ansaitaan tappamalla vihollisia heidän [ICON_Capital] pääkaupunkinsa mantereella. +10 [ICON_Strength] Taisteluvoimaa taisteltaessa mäkisessä maastossa. Alhaisemmat ylläpitokustannukset.</Text>
+    </Row>
+    <!--Canada-->
+    <Row Tag="LOC_CIVILIZATION_CANADA_NAME">
+      <Text>Kanada</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CANADA_ADJECTIVE">
+      <Text>Kanadalainen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CANADA_DESCRIPTION">
+      <Text>Kanadan keisarikunta</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_LAURIER_NAME">
+      <Text>Wilfrid Laurier</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_NAME">
+      <Text>Jääkiekkokaukalo</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_DESCRIPTION">
+      <Text>Avaa rakentajalle kyvyn rakentaa jääkiekkokaukalo, joka on Kanadaan ainutlaatuinen. [NEWLINE][NEWLINE] +1 [ICON_AMENITIES] Viihtyvyys. +1 [ICON_CULTURE] Kulttuuri jokaiselta viereiseltä tundralta, tundran mäeltä, lumelta ja lumimäeltä. Antaa [ICON_Tourism] Matkailu kulttuurista, kun Lento on avattu. +2 [ICON_FOOD] Ruoka ja [ICON_PRODUCTION] Tuotanto, kun Ammattilaisurheilu kansalaisoppi on avattu. +4 [ICON_CULTURE] Kulttuuri, jos viereinen rakennus on Stadion. Voidaan rakentaa tundralle, tundran mäelle, lumelle ja lumimäelle. Yksi kaupunkia kohden. +2 Hinta.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_NAME">
+      <Text>Neljä rauhan kasvoa</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_DESCRIPTION">
+      <Text>Ei voi julistaa sotaa Kaupunkivaltioille tai yllätys hyökkäyksiä. Yllätys hyökkäyksiä ei voi julistaa Kanadaa vastaan. Jokaisesta 100 [ICON_TOURISM] matkailusta saat 1 [ICON_Favor] diplomaattista suosiota per kierros. Saat +100% [ICON_Favor] diplomaattista suosiota onnistuneesta hätätilanteen tai kilpailun suorittamisesta.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_LAST_BEST_WEST_NAME">
+      <Text>Viimeinen paras länsi</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_LAST_BEST_WEST_DESCRIPTION">
+      <Text>Sallii maatilojen rakentamisen tundralle. Kun siviili-insinööritaito on avattu, maatiloja voidaan rakentaa tundran kukkuloille. Lumisella alueella, tundralla, lumisilla kukkuloilla ja tundran kukkuloilla kaivokset tarjoavat +2 [ICON_PRODUCTION] tuotantoa, sahalaitokset tarjoavat +2 [ICON_PRODUCTION] tuotantoa, leirintäalueet tarjoavat +2 [ICON_FOOD] ruokaa, maatilat tarjoavat +2 [ICON_FOOD] ruokaa ja strategisen resurssin kertymänopeus on +100%. Vähentää kaupan kustannuksia näillä alueilla 50%.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CANADA_MOUNTIE_NAME">
+      <Text>Mountie (This word is already in English and does not require translation to Finnish)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CANADA_MOUNTIE_DESCRIPTION">
+      <Text>Kanadalainen uniikki nykyaikainen yksikkö. Pystyy luomaan 2 kansallispuistoa. +5 [ICON_Strength] taisteluvoima, kun taistelee 2 tiilen säteellä kansallispuistosta. Lisäksi +5 [ICON_Strength] taisteluvoima, kun taistelee 2 tiilen säteellä omaa kansallispuistoa vastaan.</Text>
+    </Row>
+    <!--England-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_NAME">
+      <Text>Maailman työpaja</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_DESCRIPTION">
+      <Text>Rauta- ja hiilikaivokset keräävät 2 lisäresurssia kierroksella. +100% [ICON_PRODUCTION] tuotanto sotilasinsinööreille. Sotilasinsinöörit saavat +2 latausta. Rakennukset, jotka tarjoavat lisäsaantoja [ICON_POWER] sähköistettynä saavat +4 kyseistä saantoa. +20% [ICON_PRODUCTION] tuotanto teollisuusalueen rakennuksille. Satamarakennukset kasvattavat strategisten resurssivarastojen määrää +10:llä (standardinopeudella).</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PAX_BRITANNICA_EXPANSION2_DESCRIPTION">
+      <Text>Joka kerta, kun löydät ensimmäisen kaupunkisi mantereelta, joka ei ole kotimanner, saat ilmaisen lähitaistelu-yksikön ja yhden [ICON_TradeRoute] kauppareitityskapasiteetin. Kun rakennat Kuninkaallisen laivastolaiturin, saat kopion vahvimmasta meriyksiköstä, jonka voit rakentaa. Saat Punatakkien ainutlaatuisen yksikön, kun sotilastieteen teknologia on tutkittu.</Text>
+    </Row>
+    <!--Egypt-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ITERU_EXPANSION2_DESCRIPTION">
+      <Text>+15% [ICON_Produktion] tuotantoa piirikunnille ja ihmeille, jos ne sijoitetaan joen vierelle. Ei vahingoitu tulvissa.</Text>
+    </Row>
+    <!--Eleanor-->
+    <Row Tag="LOC_LEADER_ELEANOR_NAME">
+      <Text>Eleanor of Aquitaine (Englanti)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_ELEANOR_FRANCE_NAME">
+      <Text>Eleanor of Aquitaine (Ranska)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_NAME">
+      <Text>Rakkauden tuomioistuin</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION">
+      <Text>Suuret teokset Eleanorin kaupungeissa aiheuttavat jokaisella kierroksella -1 Lojaalisuuden vieraissa kaupungeissa, jotka ovat 9 ruudun säteellä. Kaupunki, joka poistuu toisesta sivilisaatiosta Lojaalisuuden menetyksen vuoksi ja joka saa tällä hetkellä eniten Lojaalisuutta Eleanorin sivilisaatiolta, ohittaa Vapaakaupunkivaiheen liittyäkseen tähän sivilisaatioon.</Text>
+    </Row>
+    <!--Georgia-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_EXPANSION2_DESCRIPTION">
+      <Text>Kun teet omistuskirjoituksia Kultaisen Ajan tai Heroisen Ajan alussa, saat normaalin aikabonuksen lisäksi bonuksen aikakauden pisteen parantamiseen. +50% [ICON_Production] tuotantoa puolustus rakennuksia kohti.</Text>
+    </Row>
+    <!--Hungary-->
+    <Row Tag="LOC_CIVILIZATION_HUNGARY_NAME">
+      <Text>Unkari</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HUNGARY_ADJECTIVE">
+      <Text>Seuraava teksti pitää kääntää suomeksi. Vastaa vain luonnollisella kuulostavalla käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HUNGARY_DESCRIPTION">
+      <Text>Unkarin keisarikunta</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MATTHIAS_CORVINUS_NAME">
+      <Text>Matthias Corvinus</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_THERMAL_BATH_NAME">
+      <Text>Termiset kylpylä</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION">
+      <Text>Rakennus, joka on ainutlaatuinen Unkarissa. +2 [ICON_AMENITIES] mukavuutta ja +2 [ICON_PRODUCTION] tuotantoa ulottuu jokaiseen kaupungin keskustaan 6 kivennäisaineen päähän. Nämä bonukset pätevät kerran kaupunkiin, eikä useammat kopiot tästä rakennuksesta 6 kivennäisaineen päässä kaupungin keskuksesta anna lisäbonuksia. [NEWLINE][NEWLINE] Tämä kaupunki saa +3 [ICON_TOURISM] matkailua ja +2 ylimääräistä [ICON_AMENITIES] mukavuutta, jos tämän kaupungin rajoilla on vähintään yksi geoterminen halkeama.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_NAME">
+      <Text>Tonavan helmi</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_DESCRIPTION">
+      <Text>+50% [ICON_PRODUCTION] tuotanto kaupungin keskustasta toisen puolen rakennetuille kaupunginosille ja rakennuksille.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RAVEN_KING_NAME">
+      <Text>Korppikuningas</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RAVEN_KING_DESCRIPTION">
+      <Text>Kerätyt yksiköt saavat kyvyn, joka antaa heille +2 [ICON_Movement] liikkumisnopeutta ja +5 [ICON_Strength] taisteluvoimaa. Kerättyjen yksiköiden päivittäminen maksaa 75% vähemmän [ICON_GOLD] kultaa ja resursseja. Jos keräät joukkoja kaupunkivaltiosta, saat 2 [ICON_ENVOY] lähettilästä kyseisen kaupunkivaltion kanssa. Kun linnoitusteknologia on tutkittu, saat käyttöösi Black Army -erikoisyksikön.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_BLACK_ARMY_NAME">
+      <Text>Musta armeija</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_BLACK_ARMY_DESCRIPTION">
+      <Text>Unkariin kuuluva keskiaikainen yksikkö, joka korvaa Courserin. +3 [ICON_Strength] taisteluvoimaa jokaisesta viereisestä verotetusta yksiköstä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_HUSZAR_NAME">
+      <Text>Huszár</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_HUSZAR_DESCRIPTION">
+      <Text>Unkarilainen ainutlaatuinen teollisuuskauden yksikkö, joka korvaa ratsuväen. +3 [ICON_Strength] taisteluvoimaa jokaisesta aktiivisesta liittoumasta.</Text>
+    </Row>
+    <!--Inca-->
+    <Row Tag="LOC_CIVILIZATION_INCA_NAME">
+      <Text>Inka</Text>
+      <Gender>Masculine:the</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_INCA_ADJECTIVE">
+      <Text>Inkat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_INCA_DESCRIPTION">
+      <Text>Inkavaltio</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_NAME">
+      <Text>seuraavassa tekstissä sanotaan? Vastaa vain luonnollisesti kuulostavalla käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_DESCRIPTION">
+      <Text>Kansalaiset voivat työskennellä vuoristolaatoilla. Vuoristolaatat tarjoavat +2 [ICON_PRODUCTION] tuotantoa ja lisäksi +1 [Icon_production] tuotantoa, kun peli saavuttaa teollisen aikakauden. +1 [ICON_FOOD] Ruokaa vuoristolaatoille jokaisesta viereisestä terassiviljelmästä.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PACHACUTI_NAME">
+      <Text>Pachacuti</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_TERRACE_FARM_NAME">
+      <Text>Terassiviljely</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION">
+      <Text>Unlocks the Builder ability to construct a Terrace Farm, unique to the Inca.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food. Provides +1 [ICON_Housing] Housing. +1 [ICON_FOOD] Food for each adjacent Mountain Tile. Gain +2 [ICON_PRODUCTION] Production for each adjacent Aqueduct district. Receive +1 [ICON_PRODUCTION] Production if adjacent to Fresh Water and not an Aqueduct district. Additional [ICON_FOOD] Food as you advance through the Civics and Technology Tree for adjacency with other Terrace Farms. Can be placed on Grassland Hills, Plains Hills, and Desert Hills.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INCA_WARAKAQ_NAME">
+      <Text>Warak’aq</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INCA_WARAKAQ_DESCRIPTION">
+      <Text>Inkalaisten ainutlaatuinen keskiaikaisen ajan yksikkö, joka korvaa Skirmisherin. Vahvempi kaukotaisteluissa kuin Skirmisher ja +1 lisähyökkäys vuorossa.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_NAME">
+      <Text>Qhapaq Ñan</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_DESCRIPTION">
+      <Text>Kotimaiset [ICON_TradeRoute] kauppareitit saavat +1 [ICON_Food] ruokaa jokaisesta vuoristolaatasta alkuperäiskaupungissa. Saat Qhapaq Ñan -parannuksen, kun Ulkomaankaupan kansalaisuus on löydetty.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME">
+      <Text>Qhapaq Ñan</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION">
+      <Text>Avaa rakentajalle kyvyn rakentaa Qhapaq Ñan, joka on ainutlaatuinen Pachacutille.[NEWLINE][NEWLINE]Toimii liikkumisportaalina vuoristossa, mahdollistaen yksiköiden siirtyä portaalista toiseen 2 [ICON_Movement] liikkeen kustannuksella. [ICON_TradeRoute] Kauppareitit jotka kulkevat sen läpi voivat moninkertaistaa [ICON_Gold] kultamäärän, jonka ne saavat kohteen kaupunginosilta. Vain viereiselle vuoristolaatalle rakennettavissa. Ei voi olla ryöstetty tai poistettu.</Text>
+    </Row>
+    <!--Mali-->
+    <Row Tag="LOC_CIVILIZATION_MALI_NAME">
+      <Text>Mali</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MALI_ADJECTIVE">
+      <Text>Malian</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MALI_DESCRIPTION">
+      <Text>Malin valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_NAME">
+      <Text>Jelien laulut</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_DESCRIPTION">
+      <Text>Kaupunkikeskukset saavat +1 [ICON_FAITH] uskoa ja +1 [ICON_FOOD] ruokaa jokaisesta vierekkäisestä autiomaasta ja autiomaa kukkuloista. Kaivokset saavat -1 [ICON_PRODUCTION] tuotannon ja +4 [ICON_GOLD] kultaa. Voit ostaa kaupallisia keskuksia uskolla [ICON_Faith]. -30% [ICON_PRODUCTION] tuotantoa rakennusten tai yksiköiden kouluttamiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MANSA_MUSA_NAME">
+      <Text>Mansa Musa</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_NAME">
+      <Text>Sahelin kauppiaat</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_DESCRIPTION">
+      <Text>Kansainväliset [ICON_TradeRoute]-kauppareitit saavat +1 [ICON_GOLD] kultaa jokaisesta tasaisesta autiomaalaatasta alkuperäiskaupungissa. Saat +1 [ICON_TradeRoute]-kaupankäyntikapasiteettia joka kerta, kun astut Kultaisen ajan aikakaudelle.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SUGUBA_NAME">
+      <Text>Suguba</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION">
+      <Text>Maliin erikoistunut kaupunginosa, joka korvaa kauppakeskuksen. Yksiköt, rakennukset ja kaupunginosat ovat 20% halvempia ostaa [ICON_GOLD] kullalla ja [ICON_FAITH] uskonnolla tässä kaupungissa. [NEWLINE][NEWLINE]+2 [ICON_Gold] kultabonusta jokaisesta vierekkäisestä pyhäkkö-kaupunginosasta. +2 [ICON_Gold] kultabonusta, jos reunustalla on joki. +1 [ICON_Gold] kultabonusta jokaisesta kahdesta vierekkäisestä kaupunginosien kaupunginosasta.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MALI_MANDEKALU_CAVALRY_NAME">
+      <Text>Mandekalu-ratsuväki</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MALI_MANDEKALU_CAVALRY_DESCRIPTION">
+      <Text>Mandekalu Cavalry on Mali ainutlaatuinen keskiaikaisen aikakauden yksikkö, joka korvaa Ritarin. Kauppiaiden yksiköt ovat saavuttamattomia ryöstöltä, jos ne ovat 4 ruudun etäisyydellä Mandekalu-ratsuväestä ja maalla. Taisteluvoitot tuottavat [ICON_GOLD] Kultaa, joka vastaa 100% yksikön perus [ICON_Strength] Taisteluvoimaa (Standardinopeudella).</Text>
+    </Row>
+    <!--Maori-->
+    <Row Tag="LOC_CIVILIZATION_MAORI_NAME">
+      <Text>Māori (There is no specific translation needed as "Māori" is the same in Finnish as in English.)</Text>
+      <Gender>Masculine:the</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MAORI_ADJECTIVE">
+      <Text>Māori</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MAORI_DESCRIPTION">
+      <Text>Māorien keisarikunta</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MAORI_MANA_NAME">
+      <Text>Mana</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MAORI_MANA_DESCRIPTION">
+      <Text>Aloita peli Avomeri- ja Laivanrakennus -teknologioilla avattuina ja kykynä liikkua valtamerilaattojen yli. Maalle noussevat yksiköt saavat +2 [ICON_Movement] liikkumispistettä. Parantamattomat metsät ja sademetsät antavat +1 [ICON_PRODUCTION] tuotantopisteen. Lisäksi saat +1 [ICON_PRODUCTION] tuotantopisteen Mercantilismista ja +2 [ICON_PRODUCTION] tuotantopistettä Conservationista. Kalastusalukset antavat +1 [ICON_FOOD] ruokapisteen ja kulttuuripommin viereisille tiilille. Resursseja ei voi kerätä. [ICON_GreatWriter] Suuria kirjailijoita ei voi ansaita.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_KUPE_NAME">
+      <Text>Kupe</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KUPES_VOYAGE_NAME">
+      <Text>Kupen matka</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KUPES_VOYAGE_DESCRIPTION">
+      <Text>Aloita peli meri-laattojen alueella. Saat ilmaisen Rakentajan ja +1 [ICON_Citizen] Asukkaan väestön, kun asutat ensimmäisen kaupunkisi. Palatsi saa +3 [ICON_HOUSING] Asuntoa ja +1 [ICON_AMENITIES] Viihtyvyyttä. +2 [ICON_SCIENCE] Tiedettä ja +2 [ICON_CULTURE] Kulttuuria joka vuoro ennen kuin asutat ensimmäisen kaupunkisi.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MARAE_NAME">
+      <Text>Marae</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MARAE_DESCRIPTION">
+      <Text>Rakennus, joka on ainutlaatuinen Māori-kulttuurille. Kaikki tämän kaupungin laatoitukset, joissa on kuljettava piirre tai luonnonihme, saavat +1 [ICON_CULTURE] kulttuuria ja [ICON_FAITH] uskoa. Kun Lento on tutkittu, kaikki tämän kaupungin laatoitukset, joissa on piirre tai luonnonihme, saavat +1 [ICON_TOURISM] matkailua. Ei vaadi ylläpitoa eikä sillä ole Suuren teoksen paikkoja.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAORI_TOA_NAME">
+      <Text>Toa</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAORI_TOA_DESCRIPTION">
+      <Text>Māori on ainutlaatuinen klassisen ajan lähitaisteluun erikoistunut yksikkö. Viereiset vihollisyksiköt saavat -5 [ICON_STRENGTH] taisteluvoimaa. He voivat rakentaa ainutlaatuisen Pā-parannuksen.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MAORI_PA_NAME">
+      <Text>Pā</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MAORI_PA_DESCRIPTION">
+      <Text>Avaimeen Toa-kyvyn rakentaa Pā, joka on ainutlaatuinen Māorille.[NEWLINE][NEWLINE]Okupoidun yksikön puolustusvoima vahvistuu 4 [ICON_Strength], ja se saa automaattisesti 2 vuoroa varustamiseen. Māori-yksikkö, joka okupoi Pā:n, parantuu, vaikka se olisi juuri liikkunut tai hyökännyt. Täytyy rakentaa kukkulalle.</Text>
+    </Row>
+    <!--Netherlands-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GROTE_RIVIEREN_EXPANSION2_DESCRIPTION">
+      <Text>Suuret läheisyysbonukset kampuksille, teatteraukioille ja teollisuusalueille, jos ne sijaitsevat joen vieressä. Kulttuuripommi viereisille laatoille sataman valmistuttua. +50% [ICON_Production] tuotanto padon kaupunginosalle ja tulvaportin rakennukselle.</Text>
+    </Row>
+    <!--Ottomans-->
+    <Row Tag="LOC_CIVILIZATION_OTTOMAN_NAME">
+      <Text>Ottomaanit</Text>
+      <Gender>Masculine:the</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_OTTOMAN_ADJECTIVE">
+      <Text>Ottomaani</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_OTTOMAN_DESCRIPTION">
+      <Text>Ottomaanien valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_NAME">
+      <Text>Mahtava turkkilainen tykki</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_DESCRIPTION">
+      <Text>+50% [ICON_Production] Tuotanto piirityslaitteisiin. Kaikki piirityslaitteet saavat +5 [ICON_Strength] Sotilasvoimaa kaupunginosien puolustuksia vastaan. Valloitetut kaupungit eivät menetä [ICON_Citizen] asukkaita. Ottomaanien perustamat kaupungit saavat +1 [ICON_AMENITIES] Viihtyisyyttä ja +4 uskollisuutta per vuoro.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_SULEIMAN_NAME">
+      <Text>Suleiman</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GRAND_BAZAAR_NAME">
+      <Text>Suuri basaari</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION">
+      <Text>Rakennus, joka on ainutlaatuinen osmaneille. Kerää yksi ylimääräinen strateginen resurssi jokaisesta eri tyyppisestä strategisesta resurssista, jota tämä kaupunki on parantanut. Saat yhden [ICON_AMENITIES] mukavuuden jokaisesta ylellisyysresurssista, jota tämä kaupunki on parantanut.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_NAME">
+      <Text>Barbaryn merirosvo</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_DESCRIPTION">
+      <Text>Osmanien ainutlaatuinen keskiaikainen meriyksikkö, joka korvaa merirosvoaluksen. Sillä ei ole kustannuksia rannikon ryöstöretkille [ICON_Movement] Movement. Sitä voivat nähdä vain muut merirosvoaluksilla varustetut yksiköt, elleivät ne ole vieressä. Paljastaa näköetäisyydellä olevat merirosvoaluksilla varustetut yksiköt.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SULEIMAN_JANISSARY_NAME">
+      <Text>Janitsaari</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SULEIMAN_JANISSARY_DESCRIPTION">
+      <Text>Osmanien ainutlaatuinen Renessanssin aikakauden yksikkö, joka korvaa muskettimiehen. Aloittaa ilmaisella ylennyksellä. Vahvempi ja halvempi kuin muskettimies. Janitsaarin kouluttamiseksi kaupungin on oltava vähintään väestöltään 2. Jos kaupunki perustetaan osmanien toimesta ja kouluttaa Janitsaarin, se menettää väestöä.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_NAME">
+      <Text>Suurvisiiri</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_DESCRIPTION">
+      <Text>Yksinoikeudellinen ainutlaatuinen kuvernööri, jolla on sotilaallisia ja diplomaattisia taitoja. Saat Janitsaari-yksikön ja [Icon_Governor] kuvernööritittelin, kun Ruuti-tekniikka on tutkittu.</Text>
+    </Row>
+    <!--Phoenicia-->
+    <Row Tag="LOC_CIVILIZATION_PHOENICIA_NAME">
+      <Text>Foinikia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PHOENICIA_ADJECTIVE">
+      <Text>Foinikialainen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PHOENICIA_DESCRIPTION">
+      <Text>Foinikian valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_NAME">
+      <Text>Välimeren siirtokunnat</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_DESCRIPTION">
+      <Text>Aloita peli Kirjoitusteknologia [ICON_TechBoosted] Eureka-keksinnöllä. Foinikian rannikkokaupungit, jotka sijaitsevat samalla mantereella kuin foinikialainen [ICON_Capital] pääkaupunki, ovat 100% uskollisia. Uudisasukkaat saavat +2 [ICON_Movement] liikkumispistettä ja +2 näkökentän laajuutta ollessaan merellä. Uudisasukkaat jättävät huomiotta lisäkustannukset [ICON_Movement], jotka liittyvät maihinnousuun ja maihinnoususta poistumiseen.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_DIDO_NAME">
+      <Text>Dido</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_NAME">
+      <Text>Karthagon perustaja</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION">
+      <Text>He voivat siirtää alkuperäisen [ICON_Capital] pääkaupunkinsa mihin tahansa kaupunkiin, jossa on Cothon, jonka he ovat perustaneet suorittamalla ainutlaatuisen projektin kyseisessä kaupungissa. +1 [ICON_TradeRoute] kauppareittien kapasiteetti jokaisesta hallintorakennuksesta ja hallintopiiristä. +50% [ICON_Production] tuotanto kaupungissa, jossa on hallintopiiri.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_NAME">
+      <Text>Cothon</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_DESCRIPTION">
+      <Text>Kaupungissasi on ainutlaatuinen Phoenician alue merelliseen toimintaan. Korvaa satama-alueen ja on halvempi rakentaa. On rakennettava rannalle tai järvelle maan vieressä.[NEWLINE][NEWLINE]+50% [ICON_PRODUCTION] tuotantoa meriyksiköille ja uudisasukkaille tässä kaupungissa. Kaikki haavoittuneet meriyksiköt tämän kaupungin rajojen sisällä parantuvat +100 HP joka vuoro.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PHOENICIA_BIREME_NAME">
+      <Text>Bireemi</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PHOENICIA_BIREME_DESCRIPTION">
+      <Text>Foinikialainen ainutlaatuinen antiikin aikainen yksikkö, joka korvaa Galeerin. Kasvanut [ICON_Strength] taisteluvoima ja [ICON_Movement] liikkuvuus. Kauppayksiköt ovat immuuneja ryöstöltä, jos ne ovat 4 ruudun säteellä Biremestä ja vesilaatalla.</Text>
+    </Row>
+    <!--India-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DHARMA_EXPANSION2_DESCRIPTION">
+      <Text>Saat seuraajauskonnon bonukset kaupungissa jokaiselta uskonnolta, jolla on vähintään 1 seuraaja. Kaupungit saavat [ICON_Amenities] Hyvinvoinnin jokaisesta uskonnosta, jolla on vähintään 1 seuraaja. Lähettiläillä on +2 leviämistä. [ICON_TradeRoute] Kauppamatkojesi uskonnollinen paine kasvaa 100 %.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_STEPWELL_EXPANSION2_DESCRIPTION">
+      <Text>Avaa rakentamismahdollisuuden rakentaa Askellus, joka on ainutlaatuinen Intialle. [NEWLINE] [NEWLINE] +1 [ICON_Food] ruokaa ja +1 [ICON_Housing] asumista. +1 [ICON_Faith] uskoa, jos viereinen piispanistuindistricti. +1 [ICON_Food] ruokaa, jos viereinen maatila. Lisäasumista, uskoa ja ruokaa, kun edistyt teknologia- ja sivistyspuussa. Estää [ICON_Food] ruokahävikin kuivuuden aikana. Ei voi rakentaa kukkuloille tai viereen toiselle Askellukselle.</Text>
+    </Row>
+    <!--Japan-->
+    <Row Tag="LOC_TRAIT_LEADER_DIVINE_WIND_EXPANSION2_DESCRIPTION">
+      <Text>Maa-yksiköt saavat +5 [ICON_Strength] taisteluvoimaa rannikon vieressä olevilla maanlaatoilla; meriyksiköt saavat +5 [ICON_Strength] taisteluvoimaa matalassa vedessä olevilla laatoilla. Rakentaa leirintäalueen, pyhäkön ja teatterin korttelin puolessa ajassa. Yksiköt eivät saa vahinkoa hurrikaaneilta. Sivistykset, jotka ovat sodassa Japania vastaan, saavat +100% yksikkövahingot hurrikaaneilta Japanin alueella.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SATYAGRAHA_EXPANSION2_DESCRIPTION">
+      <Text>+5 [ICON_Faith] Uskoa ja +1 [ICON_Favor] Diplomaattista suosiota vuosittain jokaisesta sivilisaatiosta (mukaan lukien Intia), jonka he ovat tavanneet, joka on perustanut uskonnon eikä ole tällä hetkellä sodassa. Vastakkaiset sivilisaatiot saavat kaksinkertaisen sotaväsymyksen taistellessaan Gandhi vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION">
+      <Text>Japanille ainutlaatuinen rakennus. Antaa kaupungille +4 [ICON_Culture] kulttuuria, kun Sähkötekniikka-teknologia on tutkittu. Sen [ICON_Production] tuotantobonukset ulottuvat kaikkiin kaupungin keskuksiin 6 laatan sisällä, jotka eivät vielä ole saaneet bonusta tästä rakennustyypistä.</Text>
+    </Row>
+    <!--Qin-->
+    <Row Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION">
+      <Text>Kun rakennat muinaisia ja klassisia ihmeitä, voit käyttää rakentajien latauksia 15% alkuperäisen ihmeen kustannuksen suorittamiseen. Rakentajat saavat ylimääräisen latauksen. Kanavat avataan masonria-teknologian avulla.</Text>
+    </Row>
+    <!--Rome-->
+    <Row Tag="LOC_DISTRICT_BATH_EXPANSION2_DESCRIPTION">
+      <Text>A district unique to Rome for city growth. Replaces the Aqueduct district and cheaper to build.[NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. If built adjacent to a Geothermal Fissure +1 [ICON_Amenities] Amenity. In all cases the Bath provides an additional bonus of +2 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity. Prevents [ICON_Food] Food loss during Drought. Must be built adjacent to the City Center.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BATH_EXPANSION2_ALT_DESCRIPTION">
+      <Text>A district unique to Rome for city growth. Replaces the Aqueduct district and cheaper to build.[NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. If built adjacent to a Geothermal Fissure +1 [ICON_Amenities] Amenity. In all cases the Bath provides an additional bonus of +2 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity. Prevents [ICON_Food] Food loss during Drought. Must be built adjacent to the City Center. Military Engineers can spend a charge to complete 20% of a Bath's production.</Text>
+    </Row>
+    <!--Russia-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_EXPANSION2_DESCRIPTION">
+      <Text>Lisäalue perustettaessa kaupunkeja. +1 [ICON_Faith] Usko ja +1 [ICON_Production] Tuotanto Tundralta. Yksiköt eivät saa vahinkoa lumimyrskyistä. Sodassa olevat sivilisaatiot kärsivät +100% yksikkövahinkoa lumimyrskyissä Venäjän alueella.</Text>
+    </Row>
+    <!--Sweden-->
+    <Row Tag="LOC_CIVILIZATION_SWEDEN_NAME">
+      <Text>Ruotsi</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SWEDEN_ADJECTIVE">
+      <Text>Seuraava teksti on käännettävä suomeksi. Vastaa vain luonnollisella kuulostavalla käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SWEDEN_DESCRIPTION">
+      <Text>Ruotsin imperiumi</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_NAME">
+      <Text>Nobelin palkinto</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION">
+      <Text>Ruotsi saa 50 [ICON_Favor] diplomaattista suosiota saadessaan Suuren Henkilön (Standardinopeudella). Ruotsi saa +1 [ICON_GreatEngineer] Suuri Insiinööri -pisteen tehtailta ja +1 [ICON_GreatScientist] Suuri Tutkija -pisteen yliopistoista. Ruotsin läsnäolo pelissä lisää kolme ainutlaatuista Maailmankongressin kilpailua, jotka alkavat Teollisuusajalla.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_KRISTINA_NAME">
+      <Text>Kristina</Text>
+    </Row>.
+		<Row Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_NAME"><Text>Pohjolan Minerva</Text></Row><Row Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION"><Text>Rakennukset, joissa on vähintään kolme Suuren Taideteoksen paikkaa, ja ihmeet, joissa on vähintään kaksi Suuren Taideteoksen paikkaa, teemaavat automaattisesti, kun kaikki niiden paikat on täytetty. Hän voi rakentaa Kuningattaren Kirjaston Hallintokeskukseen.</Text></Row><Row Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME"><Text>Ulkoilmamuseo</Text></Row><Row Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION"><Text>Avaa rakentajalle kyvyn rakentaa ulkoilmamuseo, joka on ainutlaatuinen Ruotsille. [NEWLINE][NEWLINE] Tarjoaa +2 uskollisuutta vuorossa tässä kaupungissa. +2 [ICON_Culture]-kulttuuria ja +2 [ICON_Tourism]-matkailua jokaisesta maastotyypistä (lumi, tundra, aavikko, tasanko tai ruohikko), jossa vähintään yksi ruotsalainen kaupunki on perustettu. Yksi per kaupunki. Ulkoilmamuseota sisältäviä laattoja ei voi vaihtaa. [ICON_Culture] [ICON_Tourism]</Text></Row><Row Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_NAME"><Text>Queenin kirjasto</Text></Row><Row Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_DESCRIPTION"><Text>Rakennus, joka on ainutlaatuinen Ruotsille. Tämä rakennus tarjoaa 2 paikkaa [ICON_GreatWork_WRITING] kirjoitukselle, [ICON_GreatWork_MUSIC] musiikille ja mille tahansa [ICON_GreatWork_Landscape] maisemataiteelle.[NEWLINE]Palkitsee +1 [Icon_Governor] kuvernöörin tittelin.</Text></Row><Row Tag="LOC_UNIT_SWEDEN_CAROLEAN_NAME"><Text>Carolean. (This is already the Finnish translation, as it is a proper noun and does not require translation.)</Text></Row><Row Tag="LOC_UNIT_SWEDEN_CAROLEAN_DESCRIPTION"><Text>Ruotsalainen ainutlaatuinen Renessanssikauden yksikkö, joka korvaa Piken ja Musketin. Nopeampi kuin Piken ja Musketin. +3 [ICON_Strength] Hyökkäysvoimaa käyttämättömiä [ICON_Movement] liikkumispisteitä kohti.</Text></Row><Row Tag="LOC_ERA_FUTURE_NAME"><Text>Tulevaisuuden aikakausi</Text></Row><Row Tag="LOC_ERA_FUTURE_DESCRIPTION"><Text>Maailma sisältää ihmeitä, joita muinaiset profeetat eivät osanneet kuvitellakaan, ja pelottavampia kauhuja kuin mikään apokalypsi. Koneet etsivät merkitystä, ja uusi aine kutoo unenomaisia muotoja. Kauan sitten tehdyt valinnat kantavat vakavia seurauksia tälle ajalle ja vaativat määrätietoisia vastauksia. Mene nyt ja saavuta visiosi tulevaisuuden sivilisaatiosta.</Text></Row><Row Tag="LOC_VICTORY_SCIENCE_TT_XP2"><Text>Ole ensimmäinen, joka suorittaa eksoplaneettojen tutkimusmatkan toiseen tähtijärjestelmään ja voita Tiede-voitto. Tämä voitto on suoraviivainen, mutta sen saavuttaminen ajoissa voi olla vaikeaa.</Text></Row><!-- Configuration Changes that are Shared between XP1 and XP2. --><!-- District Config Text --><Row Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_NAME"><Text>Copacabana</Text></Row><Row Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_DESCRIPTION"><Text>Brasilia on erityiseen piirikuntaan Brasiliassa. Korvaa Vesipuistopiirikunnan ja tarjoaa +2 [ICON_Amenities] Viihtyvyyttä. Se myös avaa Karnevaali-projektin, joka myöntää lisäksi +1 [ICON_Amenities] Viihtyvyyttä käynnissä ollessaan ja erilaisia [ICON_GreatPerson] Suuren henkilön pisteitä suoritettaessa. Sitä ei voi rakentaa kaupungissa, jossa on katukarnevaali. Ei voida rakentaa riutalle.</Text></Row><Row Tag="LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION"><Text>Brasilialle uniikki kaupunginosa. Korvaa Viihdetalo-kaupunginosan ja tarjoaa +2 [ICON_Amenities] Viihtyvyyttä. Myös avaa Carneval-projektin, joka myöntää lisäksi +1 [ICON_Amenities] Viihtyvyyttä ollessaan käynnissä ja erilaisia [ICON_GreatPerson] Suuren henkilön pisteitä projektin valmistuttua. Ei voi rakentaa kaupunkiin, jossa on Copacabana.</Text></Row><!-- China --><Row Tag="LOC_IMPROVEMENT_GREAT_WALL_EXPANSION2_DESCRIPTION"><Text>Avaa rakentajan kyvyn rakentaa Kiinan ainutlaatuinen Suuri muuri.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Kultaa. Antaa lisää [ICON_Strength] Puolustusta. Bonus [ICON_Gold] Kultaa, jos vieressä on muita muurin osia. Lisää [ICON_Culture] Kulttuuria ja [ICON_Tourism] Matkailua kun edistyt teknologiapuussa vierekkäisten osien kanssa. Täytyy rakentaa linjana sinun valtasi rajoille. Sitä voi ryöstää, mutta ei koskaan tuhota luonnonkatastrofeissa.</Text></Row><Row Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION"><Text>[ICON_TechBoosted] Eurekat ja [ICON_CivicBoosted] Inspirations tarjoavat 50% siviileistä ja teknologioista, ei 40%. Kun ihme on valmis, saat satunnaisen [ICON_TechBoosted] Eurekan ja [ICON_CivicBoosted] Inspiration kyseiseltä aikakaudelta, jos sellainen on saatavilla.</Text></Row><!-- Cleopatra --><Row Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_EXPANSION2_DESCRIPTION"><Text>Egyptin [ICON_TradeRoute] kauppareitit muihin sivilisaatioihin antavat +4 [ICON_Gold] Kultaa. Muiden sivilisaatioiden [ICON_TradeRoute] kauppareitit Egyptiin antavat heille +2 [ICON_Food] Ruokaa ja Egyptille +2 [ICON_Gold] Kultaa. Kaupankäynti liittolaisten kanssa ansaitsee kaksi kertaa enemmän bonusliittolaispisteitä.</Text></Row><Row Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION"><Text>Avaa rakentajan kyvyn rakentaa sfinksi, joka on ainutlaatuinen Egyptille.[NEWLINE][NEWLINE]+1 [ICON_Faith] Usko ja +1 [ICON_Culture] Kulttuuri. +2 vetoisuutta. +2 [ICON_Faith] Uskoa, jos vieressä on ihme. +1 [ICON_CULTURE] Kulttuuria, jos rakennetaan tulvatasangoille. Lisäksi saadaan [ICON_CULTURE] kulttuuria, kun Luonnonhistoria on löydetty. Tuottaa [ICON_TOURISM] Matkailua lennon tutkimisen jälkeen. Ei voi rakentaa vieressä toista sfinksiä. Ei voi rakentaa lumelle tai lumipeitteiselle kukkulalle.</Text></Row><Row Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_EXPANSION2_DESCRIPTION"><Text>Egyptiläinen ainutlaatuinen antiikin ajan kaukotaisteluyksikkö. 4 [ICON_Movement] Liikettä kun aloitetaan avoimella maastolla.</Text></Row><!-- England --><Row Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION"><Text>Kaupungissasi on Englannille ainutlaatuinen kaupunginosa, joka on omistettu merivoimien toiminnalle. Korvaa Satama-kaupunginosan. Poistaa myös [ICON_Movement] liikkumisrangaistuksen, kun noustaan maihin tai lähdetään laivasta tälle ruudulle. Täytyy rakentaa rannikolle tai järven vierustalle. [NEWLINE] [NEWLINE] +1 [ICON_Movement] liikkumisbonus kaikille telakalla rakennetuille meriyksiköille. [NEWLINE] +2 [ICON_Gold] kultaa ja +4 lojaliteettipistettä vuosittain, kun rakennetaan vieraalle mantereelle. Ei voi rakentaa Riutalle</Text></Row><!-- France --><Row Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION"><Text>Avaa rakentajan kyvyn rakentaa Château, joka on ainutlaatuinen Ranskalle.[NEWLINE][NEWLINE]+2 [ICON_Culture] kulttuuria ja +1 [ICON_Gold] kultaa. +1 vetovoimaa. +1 [ICON_Culture] kulttuuria jokaisesta viereisestä ihmeestä (tulee +2 lentoteknologian tutkimisen jälkeen). +2 [ICON_Gold] kultaa, jos se on tiilen reunalla, joka sisältää joen. Tarjoaa [ICON_TOURISM] matkailua [ICON_CULTURE] kulttuurista lentoteknologian tutkimisen jälkeen. On sijoitettava viereen bonukseen tai luksusresurssiin. Ei voi olla rakennettu viereen toisen Château:n kanssa.</Text></Row><!-- Gilgamesh--><Row Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION2_DESCRIPTION"><Text>Kun olet yhteisessä sodassa vihollista vastaan, sinä ja liittolaisesi jaatte ryöstösaaliin palkinnot ja saamanne taistelukokemukset, jos olette 5 ruudun sisällä toisistanne. Liittoumanne saavat liittopisteitä, kun olette yhteisessä sodassa vihollista vastaan. +5 [ICON_Strength] Taisteluvoimaa pelaajien yksiköitä vastaan, jotka ovat sodassa sinua ja liittolaistasi vastaan.</Text></Row><!-- Mongolia --><Row Tag="LOC_BUILDING_ORDU_EXPANSION2_DESCRIPTION"><Text>Mongolian rakennus, joka antaa kyvyn, joka antaa +1 [ICON_MOVEMENT] liikettä raskaalle ja kevyelle ratsuväelle, jotka on koulutettu tässä kaupungissa. +25% taistelukokemus kaikille ratsu- ja piiritysyksiköille, jotka on koulutettu tässä kaupungissa.[NEWLINE]Strategisten resurssivarantojen varastot kasvavat +10 (Standardinopeudella).[NEWLINE][NEWLINE]Ei voida rakentaa leiri-alueeseen, jossa on jo varuskunta.</Text></Row><!-- Norway --><Row Tag="LOC_TRAIT_LEADER_THUNDERBOLT_EXPANSION2_DESCRIPTION"><Text>Sallii rannikkoraidauksen kaikille merellisille jalkaväkimorsoille ja +50% [ICON_PRODUCTION] tuotannon kaikille merellisille jalkaväkimorsoille. Saat [ICON_SCIENCE] tiedettä ryöstäessäsi ja tehdessäsi rannikkoraidauksia kaivoksilta lisäksi [ICON_GOLD] kultaa. Raunioittaminen tai rannikkoraidaus kivistä tarjoavat [ICON_CULTURE] kulttuuria lisäksi [ICON_FAITH] uskoa karjalaumasta, laitumilta, plantaaseilta ja leireiltä. Saa Viking Longship -erikoisyksikkö purjehduksen myötä.</Text></Row><!-- Spain --><Row Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_EXPANSION2_DESCRIPTION"><Text>Mercantilismin avulla voi muodostaa laivastot ja armeijat, sen sijaan että käyttäisi nationalismia tai mobilisaatiota. [ICON_TradeRoute] Kauppareitit saavat +3 [ICON_Gold] kultaa, +2 [ICON_Faith] uskontoa ja +1 [ICON_Production] tuotantoa. [ICON_TradeRoute] Kauppareitit mantereiden välillä saavat kolminkertaiset määrät näitä etuja. Kaupungit, jotka eivät sijaitse alkuperäisen pääkaupungin mantereella, saavat +25% [ICON_Production] tuotantoa kaavoja kohti ja rakentajan, kun ne perustetaan.</Text></Row><Row Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_EXPANSION2_DESCRIPTION"><Text>Inkvisitoreilla on mahdollisuus poistaa harhaoppisuus yhden kerran lisää. Inkvisitoreiden avulla voidaan poistaa 100% muiden uskontojen läsnäolosta. Taistelu- ja uskonnollisilla yksiköillä on +5 [ICON_Strength] taisteluvoimaa bonus pelaajia vastaan, jotka seuraavat muita uskontoja.</Text></Row><Row Tag="LOC_IMPROVEMENT_MISSION_EXPANSION2_DESCRIPTION"><Text>Avaa rakentajan kyvyn rakentaa tehtävän, joka on ainutlaatuinen Espanjalle.[NEWLINE][NEWLINE]+2 [ICON_Faith] uskoa. +2 [ICON_Faith] uskoa, +1 [ICON_PRODUCTION] tuotantoa ja +1 [ICON_FOod] ruokaa, jos eri mantereella kuin sinun [ICON_Capital] pääkaupunki. +1 [ICON_Science] tiedettä jokaisesta vierekkäisestä kampuksesta ja pyhäkköalueesta. Lisäksi [ICON_SCIENCE] tiedettä, kun kulttuuriperintö löydetään. +2 lojaalisuutta per kierros kaupungeille, joissa on tehtävän parannus kaupungin keskustan vieressä, eivätkä ole sinun alkuperäisen [ICON_Capital] pääkaupungin mantereella.</Text></Row><!-- Germany--><Row Tag="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION"><Text>Alue Saksassa, joka on ainutlaatuinen teollisuustoiminnalle. Korvaa Teollisuusalueen kaupunginosan ja on halvempi rakentaa.[NEWLINE][NEWLINE]+ 2[ICON_Production] ylimääräistä tuotantoa jokaiselta viereiseltä Kauppakeskus-, Akvedukti-, Kanava- ja Padotusallas-kaupunginosilta. +1 [ICON_Production] ylimääräistä tuotantoa jokaiselta viereiseltä resurssilta. +1 [ICON_Production] ylimääräistä tuotantoa jokaiselta kahdelta viereiseltä kaupunginosan laatasta.</Text></Row><!-- Scotland--><Row Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION"><Text>Avaa rakentajan kyvyt rakentaa Skotlannille ainutlaatuinen Golf-kenttä.[NEWLINE][NEWLINE]+2 [ICON_AMENITIES] Viihtyvyyttä ja +2 [ICON_GOLD] Kultaa. +1 [ICON_CULTURE] Kulttuuria jos vieressä on kaupungin keskusta kaupungin hallintoalueella ja +1 [ICON_CULTURE] Kulttuuria jos vieressä on viihdekeskus kaupungin hallintoalueella. Lisää [ICON_TOURISM] Matkailua ja [ICON_HOUSING] Asuntoja edistyessäsi sivistys- ja teknologiapuussa. Ei voi sijoittaa autiomaahan tai autiomäille. Yksi per kaupunki. Golf-kenttien kenttiä ei voi vaihtaa. +1 Vetovoimaa.</Text></Row><!-- Greece--><Row Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION"><Text>Alue Kreikan ainutlaatuisille kulttuurikohteille. Korvaa Teatteriaukio-alueen ja on halvempi rakentaa. Antaa 1 [ICON_Envoy] lähettilästä valmiina ollessaan. [NEWLINE][NEWLINE]+1 [ICON_Culture] kulttuuribonus jokaisesta viereisestä alueesta ja lisäksi +1 [ICON_Culture] kulttuuribonus viereisestä kaupungin keskustasta. +2 [ICON_Culture] kulttuuribonus jokaisesta viereisestä ihmeestä, viihdekeskuksesta ja vesipuistosta. Voidaan rakentaa vain kukkuloille.</Text></Row></EnglishText>
+</GameData>

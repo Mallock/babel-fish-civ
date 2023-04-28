@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Instance Names-->
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_INSTANCE_NAME">
+      <Text>Juna {1_UnitName}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_INSTANCE_NAME">
+      <Text>Rakentaa {LOC_GRAMMAR_A_AN &lt;&lt; {1_DistrictName}}.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_INSTANCE_NAME">
+      <Text>Laukaise [ICON_TechBoosted] Eureka {1_TechName}ille.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_INSTANCE_NAME">
+      <Text>Laukaise [ICON_CivicBoosted] inspiraatio {1_CivicName}ille.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_INSTANCE_NAME">
+      <Text>Rekrytoi {LOC_GRAMMAR_A_AN &lt;&lt; {1_GreatPersonClassName}}.</Text>
+    </Row>
+    <!--Descriptions-->
+    <Row Tag="LOC_QUEST_CONVERT_CAPITAL_TO_RELIGION_DESCRIPTION">
+      <Text>Käännytä kaupunkivaltio [ICON_Religion] uskontoon.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_SEND_TRADE_ROUTE_DESCRIPTION">
+      <Text>Lähetä [ICON_TradeRoute] kauppareitti kaupunkivaltioon.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_DESCRIPTION">
+      <Text>Tuhoa yksi [ICON_Barbarian] barbarian ulkotukikohta kaupungin 5 ruudun säteellä.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_DESCRIPTION">
+      <Text>Kouluta satunnaisesti valittu sotilas [ICON_Unit] yksikkötyypistä.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_DESCRIPTION">
+      <Text>Luo satunnaisesti valittu erikoisuus [ICON_District] kaupunginosatyyppi.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_DESCRIPTION">
+      <Text>Laukaise satunnaisesti valittu [ICON_TechBoosted] Eureka-hetki.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_DESCRIPTION">
+      <Text>Luo satunnaisesti valittu [ICON_CivicBoosted] Inspiraation hetki.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_DESCRIPTION">
+      <Text>Rekrytoi satunnaisesti valittu [ICON_GreatPerson] Suurmies-luokka.</Text>
+    </Row>
+    <!--Instance Descriptions-->
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_INSTANCE_DESCRIPTION">
+      <Text>Kouluta {LOC_GRAMMAR_A_AN &lt;&lt; {1_UnitName}} sotilasyksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_INSTANCE_DESCRIPTION">
+      <Text>Rakentakaa {LOC_GRAMMAR_A_AN &lt;&lt; {1_DistrictName}} kaupunginosa.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_INSTANCE_DESCRIPTION">
+      <Text>Laukaise [ICON_TechBoosted] Eureka-hetki {1_TechnologyName} -teknologialle.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_INSTANCE_DESCRIPTION">
+      <Text>Aseta käynnistys [ICON_CivicBoosted] Inspiraaation hetkelle {1_CivicName} kaupunginosassa.</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_INSTANCE_DESCRIPTION">
+      <Text>Palkkaa yksi {1_IconString} {2_GreatPersonClassName}.</Text>
+    </Row>
+    <!--Rewards-->
+    <Row Tag="LOC_QUEST_REWARD_ENVOYS">
+      <Text>[ICON_Envoy] Lähettiläät</Text>
+    </Row>
+    <!--Instance Rewards-->
+    <Row Tag="LOC_QUEST_REWARD_ENVOYS_NUMBER">
+      <Text>[ICON_Envoy] {1_Amount} {1_Amount : plural 1?Lähettiläs; other?Lähettiläät;}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

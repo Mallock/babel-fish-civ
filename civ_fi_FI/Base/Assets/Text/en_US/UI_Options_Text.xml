@@ -1,0 +1,1661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <FrontEndText>
+    <Row Tag="LOC_OPTIONS_TITLE">
+      <Text>VAIHTOEHDOT</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_TEXT">
+      <Text>Tämä palauttaa KAIKKI asetukset niiden oletusarvoihin.[NEWLINE][NEWLINE][COLOR_RED]Jotkut muutokset voivat tulla voimaan vasta kun käynnistät sovelluksen uudelleen.[ENDCOLOR][NEWLINE][NEWLINE]Palauta asetukset?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHANGES_REQUIRE_APP_RESTART">
+      <Text>Jotkin muutokset eivät ehkä astu voimaan ennen kuin sovellus käynnistetään uudelleen.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHANGES_REQUIRE_GAME_RESTART">
+      <Text>Jotkut muutokset saattavat vaatia nykyisen pelin uudelleenkäynnistyksen.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESOLUTION_OK">
+      <Text>Haluatko säilyttää nykyiset resoluution asetukset?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_OK">
+      <Text>MIKÄ ON SEURAAVA TEKSTI, JOKA PITÄÄ KÄÄNTÄÄ? VASTAA LUONNOLLISELLA KÄÄNNÖKSELLÄ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_YES">
+      <Text>Yes</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_NO">
+      <Text>Translation: Ei</Text>
+    </Row>
+    <!-- Option Enums -->
+    <Row Tag="LOC_OPTIONS_ENABLED">
+      <Text>Päällä/Aktivoitu</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_DISABLED">
+      <Text>Vammainen</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MINIMUM">
+      <Text>Pienin mahdollinen</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LOW">
+      <Text>Matala</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MEDIUM">
+      <Text>Medium</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HIGH">
+      <Text>Korkea</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ULTRA">
+      <Text>Ultra</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CUSTOM">
+      <Text>Räätälöity</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_NONE">
+      <Text>There is no text provided to translate</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_REAL_LIFE">
+      <Text>Sovita paikallinen aika</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_X_TURNS">
+      <Text>Jokainen {1_num} käännös</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_10_TURNS">
+      <Text>Joka 10. kierros</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_ERA_PROGRESSION">
+      <Text>Aikakausien edetessä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NEVER">
+      <Text>Koskaan</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ALWAYS">
+      <Text>Aina</Text>
+    </Row>
+    <!-- Gameplay Panel -->
+    <Row Tag="LOC_OPTIONS_TUTORIAL_EXPERIENCED_PLAYER">
+      <Text>Kokenut pelaaja</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_NEW_TO_XP2">
+      <Text>Uusi Civilization VI - Gathering Storm -peliin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_NEW_TO_XP1">
+      <Text>Uusi Civilization VI - Rise and Fall -peliin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_FAMILIAR_CIVILIZATION">
+      <Text>Uusi Civilization VI:ssa</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_FAMILIAR_STRATEGY">
+      <Text>Uusi Civilizationiin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_NEWBIE">
+      <Text>Uusi vuoropohjaisen strategian pelaaja</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TIME_OF_DAY_TEXT">
+      <Text>Animaatio vuorokaudenajasta:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HISTORIC_MOMENT_ANIMATION">
+      <Text>Historiallinen hetki paljastava animaatio:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOUCH_ENABLED">
+      <Text>Kosketusohjaus otettu käyttöön</Text>
+    </Row>
+    <!-- Graphics Panel - Option Enums -->
+    <Row Tag="LOC_OPTIONS_TICK_INTERVAL_30_FPS">
+      <Text>30 RUUTUA SEKUNNISSA</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TICK_INTERVAL_20_FPS">
+      <Text>20 RUUTUA SEKUNNISSA</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TICK_INTERVAL_60_FPS">
+      <Text>60 RUUTUA SEKUNNISSA</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WINDOW_MODE_WINDOWED">
+      <Text>Ikkunallinen</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WINDOW_MODE_FULLSCREEN">
+      <Text>Koko näyttö</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WINDOW_MODE_BORDERLESS">
+      <Text>Rajaton ikkuna</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_2X">
+      <Text>MSAA 2X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_4X">
+      <Text>MSAA 4X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_8X">
+      <Text>MSAA 8X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_16X">
+      <Text>MSAA 16X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_32X">
+      <Text>MSAA 32X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_FULL">
+      <Text>MSAA täysi</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_2X">
+      <Text>CSAA 2X / 4X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_4X">
+      <Text>CSAA 4X / 8X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_8X">
+      <Text>CSAA 8X / 16X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_16X">
+      <Text>CSAA 16X / 32X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_32X">
+      <Text>CSAA 32X / 64X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_FULL">
+      <Text>CSAA Full</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_2X">
+      <Text>EQAA 2X / 4X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_4X">
+      <Text>EQAA 4X / 8X = EQAA 4-KERTAINEN / 8-KERTAINEN</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_8X">
+      <Text>EQAA 8X / 16X: EQAA 8X / 16X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_16X">
+      <Text>EQAA 16X / 32X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_32X">
+      <Text>EQAA 32X / 64X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_FULL">
+      <Text>EQAA Täysi</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LOW_MEMORY_OPTIMIZED">
+      <Text>Matala (Muistin optimoitu)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LOW_PERFORMANCE_OPTIMIZED">
+      <Text>Alhainen (suorituskykyoptimointi)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MEDIUM_MEMORY_OPTIMIZED">
+      <Text>Keskikokoinen (muistioptimoitu)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MEDIUM_PERFORMANCE_OPTIMIZED">
+      <Text>Keskitaso (Suorituskyky-Optimoitu)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_1PASS">
+      <Text>1 Pass</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_2PASSES">
+      <Text>2 kulunvalvontapassia (or 2 pääsylippua, depending on the context)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_3PASSES">
+      <Text>3 kertaa</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_4PASSES">
+      <Text>4 läpikulkua</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADERS_STATIC">
+      <Text>Staattinen (Ei ääntä)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_100_PERCENT">
+      <Text>100%</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_150_PERCENT">
+      <Text>SATA VIISIKYMMENTÄ PROSENTTIA</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_200_PERCENT">
+      <Text>KAKSISATAA PROSENTTIA</Text>
+    </Row>
+    <!-- Graphics Panel - Main -->
+    <Row Tag="LOC_OPTIONS_VIDEO_ADAPTER_TEXT">
+      <Text>GPU-valinta:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_ADAPTER_TOOLTIP">
+      <Text>Kertoo pelille, mitä grafiikkakorttia käyttää.[NEWLINE][NEWLINE][COLOR_RED]Vaatii sovelluksen uudelleenkäynnistyksen![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MULTI_GPU_TEXT">
+      <Text>Jakamattoman näytön moniGPU</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MULTI_GPU_TOOLTIP">
+      <Text>Vain saatavilla DX12 moni-GPU asetuksilla.[NEWLINE][NEWLINE][COLOR_RED]Vaatii sovelluksen käynnistämisen uudelleen![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_RESOLUTION_TEXT">
+      <Text>Päätös:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_RESOLUTION_TOOLTIP">
+      <Text>Asettaa pelin renderöinnin resoluution.[NEWLINE][NEWLINE]Pienemmät arvot [COLOR_Civ6DarkRed]parantavat suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_UI_UPSCALE_TEXT">
+      <Text>Käyttöliittymän skaalaus:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_UI_UPSCALE_TOOLTIP">
+      <Text>Kasvattaa käyttöliittymän kokoa.[NEWLINE](Saatavilla vain tietyissä resoluutioissa.)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_WINDOW_MODE_TEXT">
+      <Text>Ikkunatila:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_WINDOW_MODE_TOOLTIP">
+      <Text>Muokkaa pelin ikkunan näyttöä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_PERFORMANCE_TEXT">
+      <Text>Suorituskyvyn vaikutus:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_PERFORMANCE_TOOLTIP">
+      <Text>Muuttaa edistyneitä asetuksia halutun suorituskykyvaikutuksen mukaisiksi.[NEWLINE][NEWLINE]Pienemmät arvot vähentävät visuaalista tarkkuutta, mutta [COLOR_Civ6DarkRed]lisäävät suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MEMORY_TEXT">
+      <Text>Muistin vaikutus:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MEMORY_TOOLTIP">
+      <Text>Muuttaa kehittyneitä asetuksia vastaamaan haluttua muistivaikutusta.[NEWLINE][NEWLINE]Alemmat arvot vähentävät visuaalista tarkkuutta, mutta [COLOR_Blue]vähentävät muistin käyttöä[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Advanced -->
+    <Row Tag="LOC_OPTIONS_SHOW_ADVANCED_GRAPHICS">
+      <Text>Näytä edistyneet asetukset</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HIDE_ADVANCED_GRAPHICS">
+      <Text>Piilota Lisäasetukset</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ADVANCED_GRAPHICS">
+      <Text>Edistyneet grafiikka-asetukset</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VSYNC_ENABLED_TEXT">
+      <Text>Pystysynkronointi</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VSYNC_ENABLED_TOOLTIP">
+      <Text>Prevents visual tearing.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PERFORMANCE_TICK_INTERVAL_TEXT">
+      <Text>Kuvanopeuden rajoitin:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PERFORMANCE_TICK_INTERVAL_TOOLTIP">
+      <Text>Rajoittaa pelin renderöinnin nopeutta.[NEWLINE][NEWLINE]Saatetaan lisätä kannettavien laitteiden akun kestoa, kun kytketty päälle.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MSAA_TEXT">
+      <Text>Vastaväriajoitus:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MSAA_TOOLTIP">
+      <Text>Tasoittaa karkeita reunoja.[NEWLINE][NEWLINE]Pienemmät arvot [COLOR_Civ6DarkRed]parantavat suorituskykyä[ENDCOLOR] ja [COLOR_Blue]vähentävät muistin käyttöä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_HIGH_RESOLUTION_ASSET_TEXTURES_TEXT">
+      <Text>Korkean resoluution omaisuus tekstuurit</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_HIGH_RESOLUTION_ASSET_TEXTURES_TOOLTIP">
+      <Text>Käyttää korkean tarkkuuden tekstuuria pelin resursseissa.[NEWLINE][NEWLINE]Poistaminen [COLOR_Blue]vähentää muistin käyttöä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VFX_DETAIL_LEVEL_TEXT">
+      <Text>Korkealaatuiset visuaaliset efektit:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VFX_DETAIL_LEVEL_TOOLTIP">
+      <Text>Luo enemmän hiukkasefektejä.[NEWLINE][NEWLINE]Pois päältä laittaminen [COLOR_Civ6DarkRed]parantaa suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Lighting -->
+    <Row Tag="LOC_OPTIONS_LIGHTING">
+      <Text>Valaistus</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_ENABLED_TEXT">
+      <Text>Ympäristön varjostus</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_ENABLED_TOOLTIP">
+      <Text>Pimenee alueilla, jotka ovat vähemmän alttiina ympäristön valolle.[NEWLINE][NEWLINE]Poistaminen [COLOR_Civ6DarkRed]parantaa suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_DEPTH_RESOLUTION_TEXT">
+      <Text>Ympäristön varjoisuuden syvyysresoluutio:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_DEPTH_RESOLUTION_TOOLTIP">
+      <Text>Muuttaa ympäristön varjostustarkkuutta.[NEWLINE][NEWLINE]Alhaisemmat arvot [COLOR_Blue]vähentävät muistin käyttöä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_RENDER_RESOLUTION_TEXT">
+      <Text>Ambient Occlusion Renderin tarkkuus:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_RENDER_RESOLUTION_TOOLTIP">
+      <Text>Muuttaa ympäröivän varjostuksen laatua.[NEWLINE][NEWLINE]Matalammat arvot [COLOR_Blue]vähentävät muistin käyttöä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_BLOOM_ENABLED_TEXT">
+      <Text>Kukinta</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_BLOOM_ENABLED_TOOLTIP">
+      <Text>Lisää hehkua kirkkaissa valoissa ja heijastuksissa.[NEWLINE][NEWLINE]Poistaminen [COLOR_Civ6DarkRed]lisää suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_DYNAMIC_LIGHTING_ENABLED_TEXT">
+      <Text>Dynaaminen valaistus</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_DYNAMIC_LIGHTING_ENABLED_TOOLTIP">
+      <Text>Lisää valonlähteitä kuin aurinko.[NEWLINE][NEWLINE]Poistaminen [COLOR_Civ6DarkRed]parantaa suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Shadows -->
+    <Row Tag="LOC_OPTIONS_SHADOWS">
+      <Text>Varjot</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_ENABLED_TEXT">
+      <Text>Varjot</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_ENABLED_TOOLTIP">
+      <Text>Lisää tummia alueita, joissa valo estyy esineen takia.[NEWLINE][NEWLINE]Poistaminen [COLOR_Civ6DarkRed]parantaa suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_RESOLUTION_TEXT">
+      <Text>Varjotarkkuus:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_RESOLUTION_TOOLTIP">
+      <Text>Muuttaa varjojen terävyyttä ja yksityiskohtia.[NEWLINE][NEWLINE]Pienemmät arvot [COLOR_Blue]vähentävät muistin käyttöä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CLOUD_SHADOWS_ENABLED_TEXT">
+      <Text>Pilvivarjot</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CLOUD_SHADOWS_ENABLED_TOOLTIP">
+      <Text>Lisää tummia alueita, joissa valo on estynyt pilvistä.[NEWLINE][NEWLINE]Poistaminen [COLOR_Civ6DarkRed]lisää suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Overlay -->
+    <Row Tag="LOC_OPTIONS_OVERLAY">
+      <Text>Päällekkäisyyskerros</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SSOVERLAY_ENABLED_TEXT">
+      <Text>Näyttötilan päällekkäisyys</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SSOVERLAY_ENABLED_TOOLTIP">
+      <Text>Piirtää päällekkäisyyskerrokset kaiken päälle, ei pelkästään maaston päälle.[NEWLINE][NEWLINE][COLOR_Civ6DarkRed]Poistaminen parantaa suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Terrain -->
+    <Row Tag="LOC_OPTIONS_TERRAIN">
+      <Text>Maasto</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_QUALITY_TEXT">
+      <Text>Laatu</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_QUALITY_TOOLTIP">
+      <Text>Muuttaa maaston yksityiskohtia.[NEWLINE][NEWLINE]Pienemmät arvot [COLOR_Civ6DarkRed]parantavat suorituskykyä[ENDCOLOR] ja/tai [COLOR_Blue]vähentävät muistin käyttöä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXT">
+      <Text>Korkean resoluution geometria</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TOOLTIP">
+      <Text>Maaston geometria muuttuu terävämmäksi ja yksityiskohtaisemmaksi.[NEWLINE][NEWLINE][COLOR_Civ6DarkRed]Poistaminen parantaa suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXTURES_TEXT">
+      <Text>Korkean resoluution tekstuurit</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXTURES_TOOLTIP">
+      <Text>Maaston tekstuurit muuttuvat terävämmiksi ja yksityiskohtaisemmiksi.[NEWLINE][NEWLINE]Poistaminen [COLOR_Blue]vähentää muistinkäyttöä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_QUALITY_SHADER_TEXT">
+      <Text>Korkealaatuinen shaderi</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_QUALITY_SHADER_TOOLTIP">
+      <Text>Muuttaa maaston valaistusta.[NEWLINE][NEWLINE]Poiskytkeminen [COLOR_Civ6DarkRed]lisää suorituskykyä[ENDCOLOR] ja [COLOR_Blue]vähentää muistin käyttöä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_DETAIL_CLUTTER_TEXT">
+      <Text>Korkean tarkkuuden sotku</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_DETAIL_CLUTTER_TOOLTIP">
+      <Text>Lisää puiden ja jäälohkareiden määrää.[NEWLINE][NEWLINE][COLOR_Civ6DarkRed]Poistaminen parantaa suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Water -->
+    <Row Tag="LOC_OPTIONS_WATER">
+      <Text>Vesi</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_RESOLUTION_TEXT">
+      <Text>Korkean resoluution vesi</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_RESOLUTION_TOOLTIP">
+      <Text>Vesi aallot ja kohokohdat tulevat terävämmiksi ja yksityiskohtaisemmiksi.[NEWLINE][NEWLINE]Poistaminen [COLOR_Blue]vähentää muistin käyttöä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_QUALITY_SHADER_TEXT">
+      <Text>Korkealaatuinen shaderi</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_QUALITY_SHADER_TOOLTIP">
+      <Text>Muuttaa veden valaistusta.[NEWLINE][NEWLINE] Poistaminen [COLOR_Civ6DarkRed]lisää suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_REFLECTION_PASSES_TEXT">
+      <Text>Pohdintoja:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_REFLECTION_PASSES_TOOLTIP">
+      <Text>Hallitse veden heijastusten laatua.[NEWLINE][NEWLINE]Poistaminen [COLOR_Civ6DarkRed]lisää suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <!-- Graphics Panel - Reflections -->
+    <Row Tag="LOC_OPTIONS_REFLECTIONS">
+      <Text>Pohdintoja</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTIONS_ENABLED_TEXT">
+      <Text>Pohdintoja</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTIONS_ENABLED_TOOLTIP">
+      <Text>Lisää heijastuksia maastoon ja veteen.[NEWLINE][NEWLINE][COLOR_Civ6DarkRed]Poistaminen parantaa suorituskykyä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_PASSES_TEXT">
+      <Text>Heijastuksen laatu:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_PASSES_TOOLTIP">
+      <Text>Hallitse heijastusten laatua. Vähemmän kierroksia käyttäminen tai poistaminen [COLOR_Civ6DarkRed]parantaa suorituskykyä.[ENDCOLOR]</Text>
+    </Row>
+    <!-- Graphics Panel - Leaders -->
+    <Row Tag="LOC_OPTIONS_LEADERS">
+      <Text>Animaatiossa olevat johtajat</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_QUALITY_TEXT">
+      <Text>Laatu:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_QUALITY_TOOLTIP">
+      <Text>Muuttaa johtajien audiovisuaalista laatua.[NEWLINE][NEWLINE]Poistaminen [COLOR_Civ6DarkRed]parantaa suorituskykyä[ENDCOLOR] ja matalammat arvot [COLOR_Blue]vähentävät muistinkäyttöä[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_MOTIONBLUR_TEXT">
+      <Text>Liikkeen sumennus</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_MOTIONBLUR_TOOLTIP">
+      <Text>Ota liike-epäterävyys käyttöön johtajille.</Text>
+    </Row>
+    <!-- Application Panel -->
+    <Row Tag="LOC_OPTIONS_APP_SHOW_MOVIE">
+      <Text>Näytä aloitusvideo:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_APP_WARN_MOD_COMPATIBILITY">
+      <Text>Varoita modien yhteensopivuudesta</Text>
+    </Row>
+    <!-- Interface Panel -->
+    <Row Tag="LOC_OPTIONS_INTERFACE_GRAB_MOUSE">
+      <Text>Lukitse hiiri ikkunaan:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_EDGE_SCROLL">
+      <Text>Selaa kun hiiri on reunan läheisyydessä:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_OPEN_TO_PROD_QUEUE">
+      <Text>Aina avoin tuotantolista:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_FORCE_CLICK_TO_DRAG">
+      <Text>Korvaa Pidä-vetoa Klikkauksilla:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_FORCE_CLICK_TO_DRAG_TT">
+      <Text>Tämä vaihtoehto korvaa vedettävien käyttöliittymäelementtien "pidä ja vedä" -toiminnan yksinkertaisilla napsautuksilla niiden poimimiseksi ja pudottamiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_CLOCK_FORMAT">
+      <Text>Kellon formaatti:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_12HOUR">
+      <Text>12-tuntiinen</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_24HOUR">
+      <Text>24-tuntia</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_TIME_OF_DAY">
+      <Text>Päivänajan käyttäytyminen:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_UNIT_CYCLING">
+      <Text>Auton yksikkökierto:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHAT_TEXT_SIZE">
+      <Text>Tekstin koko keskusteluun:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHAT_TEXT_SIZE_VALUE">
+      <Text>{1_Value : numero #.##}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_MINIMAP_SIZE">
+      <Text>Minimarkan koko:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY">
+      <Text>Juonen vinkin viive:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY_VALUE">
+      <Text>{1_Value : numero #.##} sekuntia</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_SPEED">
+      <Text>Hiiren pyörän nopeus:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_SPEED_VALUE">
+      <Text>{1_Value : numero #.##}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_TEXT_SPEED">
+      <Text>Tekstin vierityksen nopeus:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_TEXT_SPEED_VALUE">
+      <Text>{1_Value : numero #.##}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_LABEL">
+      <Text>Näytä tuotot HUD-nauhassa:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_ALWAYS_HIDE">
+      <Text>Aina piilota (pois päältä)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_MOUSE_OVER">
+      <Text>Näytä hiiren kohdistimen päällä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_ALWAYS_SHOW">
+      <Text>Näytä aina</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_PLAYBYCLOUD_END_TURN_BEHAVIOR">
+      <Text>Peli pilvessä -toiminnossa loppukierroksen käytös:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_END_TURN_BEHAVIOR_ASK_ME">
+      <Text>Kysy minulta</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_END_TURN_BEHAVIOR_DO_NOTHING">
+      <Text>Älä tee mitään</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_END_TURN_BEHAVIOR_EXIT_TO_MAINMENU">
+      <Text>Poistu päävalikkoon</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_PLAYBYCLOUD_READY_BEHAVIOR">
+      <Text>Valmis toiminto pilvessä pelaamista varten:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_READY_BEHAVIOR_ASK_ME">
+      <Text>Kysy minulta</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_READY_BEHAVIOR_DO_NOTHING">
+      <Text>Älä tee mitään</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_READY_BEHAVIOR_EXIT_TO_LOBBY">
+      <Text>Uloskirjautuminen aulaan</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR">
+      <Text>Valmius Play By Cloud -asiakkaalle</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR_ASK_ME">
+      <Text>Kysy minulta</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR_DO_NOTHING">
+      <Text>Älä tee mitään</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR_EXIT_TO_LOBBY">
+      <Text>Uloskirjautuminen aulaan</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_COLOR_BLINDNESS_ADAPTATION">
+      <Text>Värisokeuden saavutettavuus:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_DO_NOTHING">
+      <Text>Oletusvärit</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_PROTANOPIA">
+      <Text>Punavärisokeus Protanopia</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_DEUTERANOPIA">
+      <Text>Vihervärisokeus, deuteranopia</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_TRITANOPIA">
+      <Text>Sinisokea Tritanopia</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_LIGHTING">
+      <Text>Käytä yhteensopivaa RGB-valaistuslaitteistoa</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_LIGHTING_TOOLTIP">
+      <Text>Sallii Civilization VI:n hallita valaistusta tietokoneilla ja oheislaitteilla, jotka ovat yhteensopivia Logitech Gaming Softwaren tai Alienware AlienFX:n kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SWITCH_UI_LAYOUT">
+      <Text>Vaihda käyttöliittymän asettelua</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LAYOUT_PC">
+      <Text>Tietokone / Näppäimistö ja Hiiri</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LAYOUT_CONSOLE">
+      <Text>Konsoli / Peliohjain</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_DISPLAY">
+      <Text>Tuotantojono:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_HIDE">
+      <Text>Piilota</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_SHOW_FILLED">
+      <Text>Näytä täytettynä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_ALWAYS_SHOW">
+      <Text>Näytä aina kaupunkijono</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_ALWAYS_SHOW_MANGER">
+      <Text>Näytä aina jononhallinta</Text>
+    </Row>
+    <!-- Hotkeys Panel -->
+    <!-- Expansion 2 - Additional Hotkeys-->
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UI_XP2">
+      <Text>Käyttöliittymä (Gathering Storm):</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_WORLDCLIMATE">
+      <Text>Vaihda ilmastomaailman ponnahdusikkunan tilaa</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_WORLDCLIMATE_HELP">
+      <Text>Vaihtaa Maailman ilmastosivun näkyvyyden</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POWER">
+      <Text>Voima</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POWER_HELP">
+      <Text>Kytkee virtaobjektiivin päälle.</Text>
+    </Row>
+    <!-- Expansion 1 - Additional Hotkeys-->
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOVERNORS">
+      <Text>Vaihda kuvernöörien ponnahdusikkuna</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOVERNORS_HELP">
+      <Text>Vaihtaa kuvernöörien näytön näkyvyyttä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TIMELINE">
+      <Text>Vaihda aikajanan ponnahdusikkuna</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TIMELINE_HELP">
+      <Text>Vaihtaa Historiallisen aikajanan näytön näkyvyyttä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ERA_PROGRESS">
+      <Text>Vaihda aikakauden edistyspaneelia</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ERA_PROGRESS_HELP">
+      <Text>Kytkin, joka näyttää tai piilottaa aikakauden etenemispaneelin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_CAPITALCITY">
+      <Text>Pääkaupunki</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_CAPITALCITY_HELP">
+      <Text>Siirtyy pääkaupunkiin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UI_XP1">
+      <Text>Käyttöliittymä (nousu ja tuho):</Text>
+    </Row>
+    <!-- Base Game Hot Keys-->
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UI">
+      <Text>Käyttöliittymä:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TECH">
+      <Text>Vaihda tekniikka puuta</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVICS">
+      <Text>Vaihda kansalaisuuden puuta</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOV">
+      <Text>Vaihda hallituksen näyttö</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RELIGION">
+      <Text>Vaihda uskonto-näyttö</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GPEOPLE">
+      <Text>Vaihda Suuret henkilöt -näyttöön</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GWORKS">
+      <Text>Avaa suurihankkeiden näyttö</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RANKINGS">
+      <Text>Vaihda sijoitusnäyttö</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CITYSTATES">
+      <Text>Vaihda Kaupunkivaltiot-näyttöön</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ESPIONAGE">
+      <Text>Vaihda Vakoilunäyttö</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TRADEROUTES">
+      <Text>Vaihda kauppateiden näkymää</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVILOPEDIA">
+      <Text>Avaa Civilopedia</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVBACK">
+      <Text>Civilopedian historia taaksepäin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVFWD">
+      <Text>Civilopedian historia eteenpäin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_FSMAP">
+      <Text>Vaihda koko näytön karttaan</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TECH_HELP">
+      <Text>Vaihtaa teknologiapuun näkyvyyden</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVICS_HELP">
+      <Text>Vaihtaa näkyvyyden kansalaisuuspuuhun</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOV_HELP">
+      <Text>Vaihtaa hallituskatsauksen näkyvyyden</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RELIGION_HELP">
+      <Text>Vaihtaa uskontoruudun näkyvyyttä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GPEOPLE_HELP">
+      <Text>Vaihtaa Suurten Henkilöiden näytön näkyvyyden</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GWORKS_HELP">
+      <Text>Vaihtaa Suuret teokset -näytön näkyvyyttä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RANKINGS_HELP">
+      <Text>Vaihtaa näkyvyyttä sijoitusten näytössä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CITYSTATES_HELP">
+      <Text>Vaihtaa kaupunkivaltioiden näytön näkyvyyttä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ESPIONAGE_HELP">
+      <Text>Vaihtaa Vakoiluruudun näkyvyyttä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TRADEROUTES_HELP">
+      <Text>Vaihtoehto kytkee kauppareittinäytön näkyvyyden päälle tai pois</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVILOPEDIA_HELP">
+      <Text>Avaa Civilopedian</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVBACK_HELP">
+      <Text>Siirtyy takaisin sivuhistoriassa, kun Civilopedia on avoinna</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVFWD_HELP">
+      <Text>Siirtyy eteenpäin sivuhistoriassa, kun Civilopedia on avoinna</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_FSMAP_HELP">
+      <Text>Vaihtaa koko näytön kartan näkyvyyden</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UNIT">
+      <Text>Yksikkötoiminnot:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FOUNDCITY">
+      <Text>Löydetty kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_MOVETO">
+      <Text>Siirry kohteeseen</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY">
+      <Text>Vahvista</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY_HEAL">
+      <Text>Vahvistettu parannus</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_DELETE">
+      <Text>Poista yksikkö</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ATTACK">
+      <Text>Hyökkäys</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_RANGED">
+      <Text>Kauko-isku</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_AUTOEXP">
+      <Text>Automaattinen tutkimus</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SKIPTURN">
+      <Text>Ohita vuoro</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SLEEP">
+      <Text>Nuku</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ALERT">
+      <Text>Hälytys</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ALL_AUTOSAVES">
+      <Text>Kaikki</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FOUNDCITY_HELP">
+      <Text>Suorittaa "Löydetty kaupunki" toiminnon, jos valittu yksikkö on siirtolainen.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_MOVETO_HELP">
+      <Text>Suorittaa "Siirry" toiminnon valitulla yksiköllä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY_HELP">
+      <Text>Vahvistaa valittua yksikköä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY_HEAL_HELP">
+      <Text>Vahvistaa valitun yksikön, kunnes se on täysin parantunut.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_DELETE_HELP">
+      <Text>Poistaa valitun yksikön.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ATTACK_HELP">
+      <Text>Suorittaa hyökkäys-toiminnon valitulla yksiköllä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_RANGED_HELP">
+      <Text>Suorittaa kauko-isku toiminnon valitulla yksiköllä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_AUTOEXP_HELP">
+      <Text>Mahdollistaa automaattisen tutkimisen valitulla yksiköllä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SKIPTURN_HELP">
+      <Text>Valittu yksikkö jättää tämän vuoron väliin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SLEEP_HELP">
+      <Text>Toteuttaa unitoiminnon valitulla yksiköllä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ALERT_HELP">
+      <Text>Suorittaa hälytys-toiminnon valitulla yksiköllä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_GLOBAL">
+      <Text>Maailmanlaajuiset toimet:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ENDTURN">
+      <Text>Seuraava toimenpide</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEGRID">
+      <Text>Vaihda ruudukko päälle/pois</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PAUSEMENU">
+      <Text>Pelin valikko</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKSAVE">
+      <Text>Pikatallennus</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKLOAD">
+      <Text>Pikakuorma</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTUNIT">
+      <Text>Seuraava valmis yksikkö</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVUNIT">
+      <Text>Aikaisempi Valmis Yksikkö</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEYIELD">
+      <Text>Vaihda tuottokuvakkeita</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANUP">
+      <Text>Nosta kameraa ylöspäin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANDOWN">
+      <Text>Siirrä kameraa alaspäin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANLEFT">
+      <Text>Siirrä kameraa vasemmalle</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANRIGHT">
+      <Text>Käännä oikealle</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ZOOMIN">
+      <Text>Lähennä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ZOOMOUT">
+      <Text>Zoomaa ulos</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTCITY">
+      <Text>Seuraava kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVCITY">
+      <Text>Edellinen kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLERESOURCES">
+      <Text>Vaihda resurssikuvakkeet</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLE2DVIEW">
+      <Text>Vaihda strateginen näkymä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ENDTURN_HELP">
+      <Text>Päättyy pelaajan vuoro, mikäli mahdollista.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEGRID_HELP">
+      <Text>Kytkentäruudukko päälle maastoon.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PAUSEMENU_HELP">
+      <Text>Avaa pelivalikon.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKSAVE_HELP">
+      <Text>Tallentaa nopeasti.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKLOAD_HELP">
+      <Text>Lataa viimeisimmän pikalatauksen, jos sellainen on olemassa.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTUNIT_HELP">
+      <Text>Siirry seuraavaan käyttövalmiiseen yksikköön.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVUNIT_HELP">
+      <Text>Siirtyy edelliseen valmiuteen yksikköön.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEYIELD_HELP">
+      <Text>Vaihtaa saantoikoneiden kuvakkeiden näkyvyyttä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANUP_HELP">
+      <Text>Liikuta kartanäkymää ylöspäin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANDOWN_HELP">
+      <Text>Siirrä karttanäkymää alaspäin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANLEFT_HELP">
+      <Text>Panoroi kartanäkymää vasemmalle</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANRIGHT_HELP">
+      <Text>Panoroi kartanäkymä oikealle</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTCITY_HELP">
+      <Text>Vaihtaa seuraavaan kaupunkiin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVCITY_HELP">
+      <Text>Vaihtaa edelliseen kaupunkiin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLERESOURCES_HELP">
+      <Text>Vaihtaa resurssikuvakkeiden näkyvyyden.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLE2DVIEW_HELP">
+      <Text>Vaihtaa pelin standardi- ja strategisen (2D) näkymän välillä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_ONLINE">
+      <Text>Verkkotoiminnot:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_ONLINE_PAUSE">
+      <Text>Verkkotauko</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_ONLINE_PAUSE_HELP">
+      <Text>Keskeyttää nettipelin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_LENSES">
+      <Text>Linssit:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_RELIGION">
+      <Text>Uskonto</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_CONTINENT">
+      <Text>Maanosa</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_APPEAL">
+      <Text>Vetoaminen</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_SETTLER">
+      <Text>Pioneeri</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_GOVERNMENT">
+      <Text>Hallitus</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POLITICAL">
+      <Text>Politiikka</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_TOURISM">
+      <Text>Matkailu</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_LOYALTY">
+      <Text>Asiakasuskollisuus</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_EMPIRE">
+      <Text>Valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_MOVE_CURSOR">
+      <Text>Siirrä kursoria</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LEFT_CLICK_CURSOR">
+      <Text>Vasen napsautuskursori</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_UP">
+      <Text>Kamera kääntyy ylöspäin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_DOWN">
+      <Text>Kamera liikuta alaspäin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_LEFT">
+      <Text>Kamera liikuta vasemmalle</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_RIGHT">
+      <Text>Liikuta kameraa oikealle</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_RELIGION_HELP">
+      <Text>Vaihtaa uskonnollisen linssin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_CONTINENT_HELP">
+      <Text>Vaihtaa maanosan linssin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_APPEAL_HELP">
+      <Text>Vaihtaa Charmi-linssin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_SETTLER_HELP">
+      <Text>Vaihtaa siirtolaislinssin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_GOVERNMENT_HELP">
+      <Text>Vaihtaa hallituksen linssin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POLITICAL_HELP">
+      <Text>Vaihtaa Poliittisen linssin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_TOURISM_HELP">
+      <Text>Vaihtaa Matkailulinssin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_LOYALTY_HELP">
+      <Text>Vaihtaa uskollisuuslinssin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_EMPIRE_HELP">
+      <Text>Kytkee Imperiumin linssin päälle.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_MOVE_CURSOR_HELP">
+      <Text>Matkii kursorin liikettä analogisilla tikuilla.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LEFT_CLICK_CURSOR_HELP">
+      <Text>Jäljittele hiiren vasemman napin klikkausta.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_UP_HELP">
+      <Text>Käännä pelikamera ylöspäin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_DOWN_HELP">
+      <Text>Käännä pelikamera alaspäin.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_LEFT_HELP">
+      <Text>Siirrä pelikamera vasemmalle.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_RIGHT_HELP">
+      <Text>Käännä pelikamera oikealle.</Text>
+    </Row>
+    <!-- Console Actions -->
+    <Row Tag="LOC_OPTIONS_FOCUS_NEXT">
+      <Text>Keskity seuraavaan</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_FOCUS_NEXT_HELP">
+      <Text>Siirrä huomio seuraavaan vaihtoehtoon oikealla.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_FOCUS_PREV">
+      <Text>Keskitä aiempi</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_FOCUS_PREV_HELP">
+      <Text>Vaihda fokus edelliseen vasemmalla olevaan vaihtoehtoon.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT">
+      <Text>Valitse</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT_HELP">
+      <Text>Valitsee nykyisen vaihtoehdon tai korostetun juonen.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BACK">
+      <Text>Takaisin</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BACK_HELP">
+      <Text>Sulkee nykyisen valikon tai poistaa nykyisen valinnan.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NEXT_ACTION">
+      <Text>Seuraava toimenpide</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NEXT_ACTION_HELP">
+      <Text>Valitsee seuraavan käännyksen estämistoimenpiteen, joka on tehtävä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NOTIFICATIONS">
+      <Text>Ilmoitukset</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NOTIFICATIONS_HELP">
+      <Text>Avaa ilmoitusvalikko.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOGGLE_TOOLTIPS">
+      <Text>Vaihda työkaluvihjeitä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOGGLE_TOOLTIPS_HELP">
+      <Text>Ota valitussa valikossa työkaluvihjeet käyttöön/pois käytöstä.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INGAME_MENU">
+      <Text>Pelinvalikko</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INGAME_MENU_HELP">
+      <Text>Avaa pelin sisävalikon.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NAVIGATE_MAP">
+      <Text>Navigoi karttaa</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NAVIGATE_MAP_HELP">
+      <Text>Hallitsee juonen valintaa kartalla.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN">
+      <Text>Panoraamakamera</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_HELP">
+      <Text>Liikuta kameraa, kun kartta on valittuna.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT_CENTER_PLOT">
+      <Text>Valitse keskimmäinen alue</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT_CENTER_PLOT_HELP">
+      <Text>Valitse juuri nyt kameran keskipisteenä oleva juoni.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_IN">
+      <Text>Lähennä</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_IN_HELP">
+      <Text>Lähennä karttakameraa.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_OUT">
+      <Text>Zoomaa ulos</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_OUT_HELP">
+      <Text>Loitonna kartan kameraa.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_UP">
+      <Text>Valikko ylös</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_UP_HELP">
+      <Text>Valitse valikosta nykyisen valinnan yläpuolella oleva kohta.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_DOWN">
+      <Text>Valikko alas</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_DOWN_HELP">
+      <Text>Valitse nykyisen valinnan alapuolella oleva valikko.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_LEFT">
+      <Text>Valikko Vasemmalla</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_LEFT_HELP">
+      <Text>Valitse nykyistä valintaa vasemmalla olevasta valikosta.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_RIGHT">
+      <Text>Valikko vasemmalla</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_RIGHT_HELP">
+      <Text>Valitse nykyisen valinnan oikealla puolella oleva valikkokohta.</Text>
+    </Row>
+    <!-- End Console Actions -->
+ 		<Row Tag="LOC_OPTIONS_KEY_UNDERSCORE">
+			<Text>_</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_A">
+			<Text>A</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_B">
+			<Text>B</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_C">
+			<Text>C</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_D">
+			<Text>D</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_E">
+			<Text>E</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F">
+			<Text>F</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_G">
+			<Text>G</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_H">
+			<Text>H</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_I">
+			<Text>I</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_J">
+			<Text>J</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_K">
+			<Text>K</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_L">
+			<Text>L</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_M">
+			<Text>M</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_N">
+			<Text>N</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_O">
+			<Text>O</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_P">
+			<Text>P</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_Q">
+			<Text>Q</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_R">
+			<Text>R</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_S">
+			<Text>S</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_T">
+			<Text>T</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_U">
+			<Text>U</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_V">
+			<Text>V</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_W">
+			<Text>W</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_X">
+			<Text>X</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_Y">
+			<Text>Y</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_Z">
+			<Text>Z</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_0">
+			<Text>0</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_1">
+			<Text>1</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_2">
+			<Text>2</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_3">
+			<Text>3</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_4">
+			<Text>4</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_5">
+			<Text>5</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_6">
+			<Text>6</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_7">
+			<Text>7</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_8">
+			<Text>8</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_9">
+			<Text>9</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_0">
+			<Text>0 (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_1">
+			<Text>1 (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_2">
+			<Text>2 (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_3">
+			<Text>3 (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_4">
+			<Text>4 (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_5">
+			<Text>5 (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_6">
+			<Text>6 (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_7">
+			<Text>7 (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_8">
+			<Text>8 (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_9">
+			<Text>9 (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_MULTIPLY">
+			<Text>* (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_PLUS">
+			<Text>+ (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_MINUS">
+			<Text>- (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_DECIMAL">
+			<Text>. (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_DIVIDE">
+			<Text>/ (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NP_CENTER">
+			<Text>Center (Number Pad)</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F1">
+			<Text>F1</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F2">
+			<Text>F2</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F3">
+			<Text>F3</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F4">
+			<Text>F4</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F5">
+			<Text>F5</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F6">
+			<Text>F6</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F7">
+			<Text>F7</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F8">
+			<Text>F8</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F9">
+			<Text>F9</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F10">
+			<Text>F10</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F11">
+			<Text>F11</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F12">
+			<Text>F12</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F13">
+			<Text>F13</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F14">
+			<Text>F14</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F15">
+			<Text>F15</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F16">
+			<Text>F16</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F17">
+			<Text>F17</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F18">
+			<Text>F18</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F19">
+			<Text>F19</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F20">
+			<Text>F20</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F21">
+			<Text>F21</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F22">
+			<Text>F22</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F23">
+			<Text>F23</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_F24">
+			<Text>F24</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_INSERT">
+			<Text>Insert</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_HOME">
+			<Text>Home</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_PAGEUP">
+			<Text>Page Up</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_DELETE">
+			<Text>Delete</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_END">
+			<Text>End</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_PAGEDOWN">
+			<Text>Page Down</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_LEFT">
+			<Text>Left Arrow</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_UP">
+			<Text>Up Arrow</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_RIGHT">
+			<Text>Right Arrow</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_DOWN">
+			<Text>Down Arrow</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_SEMICOLON">
+			<Text>;</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_PLUS">
+			<Text>=</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_COMMA">
+			<Text>,</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_MINUS">
+			<Text>-</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_PERIOD">
+			<Text>.</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_SLASH">
+			<Text>/</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_TILDE">
+			<Text>~</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_LBRACKET">
+			<Text>[</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_BACKSLASH">
+			<Text>\</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_RBRACKET">
+			<Text>]</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_QUOTE">
+			<Text>"</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_PRINTSCREEN">
+			<Text>Print Scrn</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_PAUSE">
+			<Text>Pause</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_SPACE">
+			<Text>Space</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_TAB">
+			<Text>Tab</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_RETURN">
+			<Text>Return</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_ESCAPE">
+			<Text>Esc</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_BACKSPACE">
+			<Text>Backspace</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_CANCEL">
+			<Text>Cancel</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_SHIFT">
+			<Text>Shift</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_CONTROL">
+			<Text>Control</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_ALT">
+			<Text>Alt</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_LSHIFT">
+			<Text>Left Shift</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_LCONTROL">
+			<Text>Left Control</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_LALT">
+			<Text>Left Alt</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_RSHIFT">
+			<Text>Right Shift</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_RCONTROL">
+			<Text>Right Control</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_RALT">
+			<Text>Right Alt</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_LBUTTON">
+			<Text>Left Mouse Button</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_RBUTTON">
+			<Text>Right Mouse Button</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_MBUTTON">
+			<Text>Middle Mouse Button</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_CAPSLOCK">
+			<Text>Caps Lock</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_NUMLOCK">
+			<Text>Num Lock</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_SCROLLLOCK">
+			<Text>Scroll Lock</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_LWIN">
+			<Text>Left Win</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_RWIN">
+			<Text>Right Win</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_APPS">
+			<Text>Apps</Text>
+		</Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_L">
+      <Text>Left Mouse</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_R">
+      <Text>Right Mouse</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_M">
+      <Text>Middle Mouse</Text>
+    </Row>
+		<Row Tag="LOC_OPTIONS_MOUSE_X">
+			<Text>Mouse {1_ButtonIndex}</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_MOUSE_X1">
+			<Text>Mouse X1</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_MOUSE_X2">
+			<Text>Mouse X2</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_A">
+			<Text>Pad A</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_B">
+			<Text>Pad B</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_X">
+			<Text>Pad X</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_Y">
+			<Text>Pad Y</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_RSHOULDER">
+			<Text>Pad RB</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_LSHOULDER">
+			<Text>Pad LB</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_LTRIGGER">
+			<Text>Pad LT</Text>
+		</Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTRIGGER_CLICK">
+      <Text>Pad LT Click</Text>
+    </Row>
+		<Row Tag="LOC_OPTIONS_PAD_RTRIGGER">
+			<Text>Pad RT</Text>
+		</Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTRIGGER_CLICK">
+      <Text>Pad RT Click</Text>
+    </Row>
+		<Row Tag="LOC_OPTIONS_PAD_DPAD_UP">
+			<Text>Pad Dpad Up</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_DPAD_DOWN">
+			<Text>Pad Dpad Down</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_DPAD_LEFT">
+			<Text>Pad Dpad Left</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_DPAD_RIGHT">
+			<Text>Pad Dpad Right</Text>
+		</Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_UP">
+      <Text>Pad Right Dpad Up</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_DOWN">
+      <Text>Pad Right Dpad Down</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_LEFT">
+      <Text>Pad Right Dpad Left</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_RIGHT">
+      <Text>Pad Right Dpad Right</Text>
+    </Row>
+		<Row Tag="LOC_OPTIONS_PAD_START">
+			<Text>Pad Start</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_PAD_BACK">
+			<Text>Pad Back</Text>
+		</Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTHUMB_PRESS">
+      <Text>Pad LStick Press</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTHUMB_PRESS">
+      <Text>Pad RStick Press</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTHUMB_AXIS">
+      <Text>Pad Left Stick</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTHUMB_AXIS">
+      <Text>Pad Right Stick</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_GRIP">
+      <Text>Pad Left Grip</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_GRIP">
+      <Text>Pad Right Grip</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_TOUCHPAD_TOUCH">
+      <Text>Left Touchpad Touch</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_TOUCHPAD_SWIPE">
+      <Text>Left Touchpad Swipe</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_TOUCHPAD_CLICK">
+      <Text>Left Touchpad Click</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_MIDDLE_TOUCHPAD_TOUCH">
+      <Text>Middle Touchpad Touch</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_MIDDLE_TOUCHPAD_SWIPE">
+      <Text>Middle Touchpad Swipe</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_MIDDLE_TOUCHPAD_CLICK">
+      <Text>Middle Touchpad Click</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_TOUCHPAD_TOUCH">
+      <Text>Right Touchpad Touch</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_TOUCHPAD_SWIPE">
+      <Text>Right Touchpad Swipe</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_TOUCHPAD_CLICK">
+      <Text>Right Touchpad Click</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_MOVE">
+      <Text>Pad Gyro Move</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_PITCH">
+      <Text>Pad Gyro Pitch</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_YAW">
+      <Text>Pad Gyro Yaw</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_ROLL">
+      <Text>Pad Gyro Roll</Text>
+    </Row>
+		<Row Tag="LOC_OPTIONS_KEY_VOLUME_MUTE">
+			<Text>Mute</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_VOLUME_DOWN">
+			<Text>Vol. Down</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_VOLUME_UP">
+			<Text>Vol. Up</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_MEDIA_NEXT_TRACK">
+			<Text>Next Track</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_MEDIA_PREV_TRACK">
+			<Text>Prev Track</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_MEDIA_STOP">
+			<Text>Stop</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_KEY_MEDIA_PLAY_PAUSE">
+			<Text>Play / Pause</Text>
+		</Row>
+    <Row Tag="LOC_OPTIONS_PAD_TOOLTIP_REFRESH">
+      <Text>Tooltip Refresh</Text>
+    </Row>
+		<Row Tag="LOC_OPTIONS_KEY_NUM_KEYS">
+			<Text>Num Keys</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_SUBTITLES">
+			<Text>Cinematic Subtitles:</Text>
+		</Row>
+	</FrontEndText>
+</GameData>
+

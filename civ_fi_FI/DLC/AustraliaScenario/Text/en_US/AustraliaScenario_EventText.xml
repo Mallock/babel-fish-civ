@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Political Event Titles-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_1">
+      <Text>SEIKKAILIJA VALMIS</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_2">
+      <Text>KOLONIAALIALUS SAAPUU</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_3">
+      <Text>MAA SYNTYY</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_4">
+      <Text>ENSIMMÄINEN MAAILMANSOTA</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_5">
+      <Text>TOINEN MAAILMANSOTA</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_6">
+      <Text>LISÄÄ ASUKKAITA</Text>
+    </Row>
+    <!-- Political Event Descriptions-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_1">
+      <Text>Seikkailunhaluinen tutkimusmatkailija on lähtenyt Brittiläisestä Uudesta Etelä-Walesista paljastamaan Australian mantereen mysteereitä</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_2">
+      <Text>Olemme värvänneet laivan täynnä kestäviä sieluja aloittamaan uuden siirtokunnan. Meillä on suuret odotukset tälle joukolle: kaikki eivät ole vankeja.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_3">
+      <Text>Nyt kun monet sukupolvet ovat eläneet ja kuolleet alkuperäisinä australialaisina, meidän kansamme haluaa muodostaa erilliset valtiomme yhdeksi yhdistyneeksi maaksi. On aika, että Australia liittyy yhteen muodostaen uuden valtion, joka on riippumaton Britanniasta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_4">
+      <Text>Suuri sota vaivaa Euroopan mannerta ja äitimaamme Britannia on heitetty siihen. Lähetämme joukkoja antamaan tukemme</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_5">
+      <Text>Toinen maailmansota on syttynyt ja tällä kertaa jopa kotimaamme Australia on vaarassa. Kuten pääministerimme John Curtin on muistuttanut meitä: "Vapauden liekki, jonka ensimmäiset asuttajamme sytyttivät tähän maahan ja jota sukupolvesta toiseen on pidetty palavana, ei ole sammumaton minkään vihollisen edessä."</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_6">
+      <Text>Sinun yhteiskunnallinen edistyksesi on huomattu Englannissa. Lisää siirtolaisia on juuri saapunut toivoen tehdäkseen siirtokuntasi uudeksi kodikseen.</Text>
+    </Row>
+    <!-- Political Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_1">
+      <Text>Käytä tätä tutkijaa seuraavat neljä vuoroa löytääksesi parhaan paikan uudelle siirtokunnalle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_2">
+      <Text>Ilmainen siirtolainen ilmestyy seuraavan vuoron alussa rannikkoalueelle, joka on lähimpänä tutkijaa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_3">
+      <Text>Kun olet suorittanut liittovaltion kansalaisen tehtävän, voit päivittää vahvimpaan hallintosysteemiin, valtionhallintoon.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_4">
+      <Text>Voit nyt aloittaa AIF-projektin missä tahansa kaupungeissasi. Jokainen tällainen panoksesi sotaponnistuksiin parantaa osavaltiosi asemaa kansakunnassamme ja ansaitsee sinulle +10 [ICON_Gold] kultaa kierrosta kohden.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_5">
+      <Text>AIF-projektin saattaminen loppuun on tällä hetkellä entistäkin tärkeämpää ja siitä palkitaan sinut 20 [ICON_Gold] kultaa joka vuoro.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_6">
+      <Text>Ilmainen uudisasukas on ilmestynyt pääkaupunkiisi. Tästä eteenpäin uusien kaupunkien on oltava rakennettuina korkeintaan 10 ruudun päässä jo olemassa olevasta kaupungista.</Text>
+    </Row>
+    <!-- Danger Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_1">
+      <Text>Sinun {1_UnitName} yksikkösi on kärsinyt {2_Damage} vahinkoa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_2">
+      <Text>Sinun {1_UnitName} on tapettu.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_3">
+      <Text>Sinun {1_UnitName} on menettänyt pysyvästi 1 [ICON_Movement] liikkumispisteen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_4">
+      <Text>Menetät {1_Amount} [ICON_Gold] kultaa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_5">
+      <Text>Teidän {1_UnitName} on palannut lähimpään kaupunkiin {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_6">
+      <Text>Läheisesi {1_Improvement} on ryöstetty.</Text>
+    </Row>
+    <!-- Delay Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_1">
+      <Text>Sinun {1_UnitName} on menettänyt {2_Movement} liikepistettä tältä vuorolta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_2">
+      <Text>Sinun {1_UnitName} ei pysty liikkumaan tällä vuorolla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_3">
+      <Text>Osa alueen lähellä olevasta maastosta {1_UnitName} on kadonnut.</Text>
+    </Row>
+    <!-- Benefit Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_1">
+      <Text>{1_UnitName} on saapunut lähimpään kaupunkiin {2_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_2">
+      <Text>{1_UnitName} on saapunut vierelle {2_UnitName}si.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_3">
+      <Text>Tutkimaton alue lähellä {1_UnitName} on paljastunut.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_4">
+      <Text>Sinun {1_UnitName} on pysyvästi saanut +1 [ICON_Movement] liikkumispistettä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_5">
+      <Text>Sinun {1_UnitName} on täysin parantunut.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_6">
+      <Text>Sinun {1_UnitName}:si on paranneltu {2_HitPoints} elinvoimapistettä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_7">
+      <Text>Lähistöllä sijaitseva kaupunki {1_CityName} on saanut 1 asukkaan lisää.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_8">
+      <Text>Saat {1_Amount} [ICON_Gold] kultaa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_9">
+      <Text>Saat Eurekan teknologiasta {1_TechName}.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_10">
+      <Text>Saat inspiraation kansalaisvelvollisuuden {1_CivicName} suorittamiseen.</Text>
+    </Row>
+    <!-- Exploration Event Titles-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_1">
+      <Text>Joutunut voimakkaan virtauksen valtaan</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_2">
+      <Text>Harhautunut laatikkomedusaan</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_3">
+      <Text>Keräsin kärsäkallioisen simpukan</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_4">
+      <Text>Viivästynyt vaarallisen sumun vuoksi</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_5">
+      <Text>Toimitettu uudelleen aboriginaalikalastajien toimesta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_6">
+      <Text>Vuokrattavissa Rock Hoppers</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_7">
+      <Text>Runsaat vedet sijaitsevat</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_1">
+      <Text>Surullisen aliarvioitu vesitarve</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_2">
+      <Text>Pakenevat kamelit</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_3">
+      <Text>Astuin kuoleman adderin päälle</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_4">
+      <Text>Viivästyi loputtomien pölymyrskyjen takia</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_5">
+      <Text>Oasis havaittu</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_6">
+      <Text>Löysin vartioimattoman dingo-pentueen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_1">
+      <Text>Pysäytetty bushrangerien toimesta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_2">
+      <Text>Loukussa maastopalon keskellä</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_3">
+      <Text>Ahdisteltu dingojen toimesta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_4">
+      <Text>Söi vääriä marjoja</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_5">
+      <Text>Ravitsemus Squattersin toimesta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_6">
+      <Text>Swagmen palkattavissa</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_1">
+      <Text>Kivivyöry!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_2">
+      <Text>Poikkeuksellisen pakkasia öitä</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_3">
+      <Text>Tarvikkeet putosivat rotkoon</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_4">
+      <Text>Hedelmätön salmi</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_5">
+      <Text>Kultaetsijät vuokrattavana</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_6">
+      <Text>Löydetty vuoristolähde</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_1">
+      <Text>Kahakka punaisen kengurun kanssa</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_2">
+      <Text>Jatkuvat kuivuusolosuhteet</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_3">
+      <Text>Spinifex-infektio</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_4">
+      <Text>Täydellinen suunnan hukkaaminen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_5">
+      <Text>Karjankasvattajat vuokrattavissa</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_6">
+      <Text>"Led to Water" - Galah Flock</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_1">
+      <Text>Malarian vaivat</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_2">
+      <Text>Nälkiintynyt ruttoheinäsirkkojen takia</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_3">
+      <Text>Pestyvä tulva pyyhkäisi pois</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_4">
+      <Text>Juuttunut mutahetteikköön</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_5">
+      <Text>Nappasin yabbieita joessa</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_1">
+      <Text>Syöty suolavedenkrokotiilin toimesta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_2">
+      <Text>Kauhistuttavasti saastuneet haavat</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_3">
+      <Text>Purettu Trattahämähäkistä</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_4">
+      <Text>Söi väärän kalan</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_5">
+      <Text>Kadonnut suolla</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_6">
+      <Text>Pelottavat Bunyip-huhut</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_1">
+      <Text>Tarttunut Kihomatoja</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_2">
+      <Text>Joi liikaa vettä liian nopeasti</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_3">
+      <Text>Vältettiin lähellä ollut kapina</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_4">
+      <Text>Palautunut Billabongilla</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_5">
+      <Text>Rauhallinen toipuminen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_1">
+      <Text>Kaikki täällä on myrkkyä</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_2">
+      <Text>Säikähdytti kassowarin</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_3">
+      <Text>Kärsii denguekuumeesta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_4">
+      <Text>Vaivattuna pistävistä muurahaiskeoista</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_5">
+      <Text>Paljastettu tieteellinen mysteeri</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_1">
+      <Text>Kiihtynyt itäbraunokäärme</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_2">
+      <Text>Palanutta eukalyptuspuusta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_3">
+      <Text>Vihoitettu alueellinen emu</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_4">
+      <Text>Väärät huhut pudotuskarhuista</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_5">
+      <Text>Löydetty Emu-munan pesue</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_1">
+      <Text>Epäsuotuisa syksy</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_2">
+      <Text>Kärsivä skorbukselta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_3">
+      <Text>Ristiriitainen suunta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_4">
+      <Text>Unohdin sitoa hevoset kiinni</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_5">
+      <Text>Löysin pikakuvakkeen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_6">
+      <Text>Toimitettu uudelleen aboriginaalien heimolta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_7">
+      <Text>Seurattiin Dingo Polkua</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_8">
+      <Text>Kiista kilpailevien tutkijoiden kanssa</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_9">
+      <Text>Löydetyt epätarkkuudet kartoissa</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_10">
+      <Text>Aarre!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_11">
+      <Text>Aboriginaaliohjaajat vuokrattavissa</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_12">
+      <Text>Vahingossa loukattu aborginaaleja</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_13">
+      <Text>Vahingossa syttyi maastopalo</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_14">
+      <Text>Aboriginaalien muuttoliike</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_15">
+      <Text>Hedelmätön keskustelu aboriginaalien kanssa</Text>
+    </Row>
+    <!-- Exploration Event Descriptions-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_1">
+      <Text>Mikä alkoi virkistävänä kastautumisena meressä, päättyi tragediaan.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_2">
+      <Text>Niin hauras asia, täynnä nestemäistä kipua.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_3">
+      <Text>Kaunis ulkokuori piilottaa pienen, myrkyllisen harpun.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_4">
+      <Text>Se seurasi mereltä, paksumpana kuin tykkisavu.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_5">
+      <Text>He tunsivat paikalliset vedet ja saivat paikallisia kaloja. Me emme tehneet kumpaakaan.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_6">
+      <Text>Kuinka he kalastavat rantakiviltä liukastumatta? Arvoitus!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_7">
+      <Text>Se oli ihana löytö. Tarpeeksi tukemaan asutusta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_1">
+      <Text>Hevoset olivat ensimmäiset kuolemaan, houraillen janosta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_2">
+      <Text>Hylättyinä varhaisen siirtolaisten toimesta, ne ovat sittemmin villiintyneet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_3">
+      <Text>Kaikki sulautuu yhteen aurinkoisella maaperällä. Jopa käärmeet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_4">
+      <Text>Se meni kaikkialle. Päiviä myöhemmin me vieläkin irrotamme sitä jälkeemme.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_5">
+      <Text>Löysimme elämän saaren tuossa räjähtäneessä erämaassa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_6">
+      <Text>Sinun täytyy ymmärtää. Se oli välttämätöntä selviytymisemme kannalta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_1">
+      <Text>He ottivat ruokaa, mutta jättivät meidän veden. He olivat varkaita, eivät murhaajia.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_2">
+      <Text>Se paloi kuumemmin kuin valimo. Kulmakarvat palaneet ja iho käristynyt.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_3">
+      <Text>He seurasivat meitä päiväkausia ja lopulta tappoivat hylätyn lauman eläimen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_4">
+      <Text>Kipu kulki suolistossamme kuin kuumat hiilet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_5">
+      <Text>He olivat luomassa uutta elämää itselleen, erämaassa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_6">
+      <Text>Kiertolaismaanviljelijät etsivät vakituista työtä kauden mukaan.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_1">
+      <Text>Oli meidän epäonneksemme leiriytyä sen polulle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_2">
+      <Text>Laiminlaiset peitteet eivät voineet estää kylmää tuulta vuorilta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_3">
+      <Text>Jälkikäteen ajatellen meidän olisi pitänyt säilyttää ne kauempana reunasta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_4">
+      <Text>Mikä näytti lupaavalta lyhenteeltä, johti hukkaan menneeseen päivään.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_5">
+      <Text>Monet etsivät kultamaata kaukaa ja läheltä. Harvat löysivät todellisia omaisuuksia.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_6">
+      <Text>Suojaisa lähde antoi meille kaiken veden, mitä pystyimme kantamaan.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_1">
+      <Text>Puolustuksessamme pyrimme oppimaan, mitä sillä oli pussissaan.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_2">
+      <Text>Ahneet kasvit antaisivat meidän kuolla janoon ennen kuin he tekisivät niin.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_3">
+      <Text>Lehtien kärjet murtuivat lihassamme, kun sivuutimme niitä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_4">
+      <Text>Loputtoman samankaltaisessa maastossa oli melko helppo eksyä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_5">
+      <Text>Se oli yksinäistä ja raskasta työtä, mutta he eivät välittäneet olosuhteista.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_6">
+      <Text>Marssimme heidän asuinpaikalleen. Kauniita lintuja. Vähän pelimakua.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_1">
+      <Text>Ilmassa oli tarpeeksi hyttysiä pimentääkseen taivaan.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_2">
+      <Text>He heinäsivät kaiken, mikä voisi meitä elättää.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_3">
+      <Text>Jos korkeammalle maalle ei pääse, yksinkertaisesti voi kadota.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_4">
+      <Text>Joitakin saappaita ja sukkia katosi mutaan.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_5">
+      <Text>Ne ovat syötäviä keitettynä, kuoria lukuun ottamatta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_1">
+      <Text>Ei ollut ääntä tai huutoa. Vain aaltoilua vedessä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_2">
+      <Text>Nuuskamuikkusia ne surisevat kärpäset varmasti olivat syyllisiä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_3">
+      <Text>Mitä pienempi eläin, sitä voimakkaampi sen myrkky on. Yleisesti.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_4">
+      <Text>Kaikki kalat eivät ole syötäviä. Erityisesti tuo ei ole.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_5">
+      <Text>Maasto vaikuttaa vaihtelevan päivän aikana. Onko se valon harhaa?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_6">
+      <Text>Ei ole epäilystäkään siitä, että pensashenki seurasi meitä tuolla suolla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_1">
+      <Text>Jopa Outbackin tuorein vesi kantaa suolistollisia vaaroja.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_2">
+      <Text>Pitkän ajanjakson jälkeen ilman olo voi johtaa huonoihin valintoihin janon takia.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_3">
+      <Text>He eivät suostuneet lähtemään oasikselta. Tilanne oli melkein käymässä käsirysyksi.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_4">
+      <Text>Yksinäinen vesilätäkkö kohotti mielialamme.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_5">
+      <Text>Ihana päivä. Toivoisin, että se voisi tasapainottaa kaikkia muita.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_1">
+      <Text>Jokainen hyönteinen, eläin, kukka, juuri tai köynnös olisi voinut tappaa meidät.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_2">
+      <Text>Ajatella, kun se ensimmäisen kerran hyppäsi ja potkaisi jaloillaan, nauroimme.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_3">
+      <Text>Kuume kesti jonkin aikaa, ennen kuin haavaan painettiin kohtalon sinetti.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_4">
+      <Text>Meillä oli yksittäinen epäonnea nukkua muurahaisten pesien päällä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_5">
+      <Text>Tästä oudosta metsästä löytyy ihmeitä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_1">
+      <Text>Se paljasti pahantahtoisuutensa iskiessään ilman hyvää syytä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_2">
+      <Text>Emme ennustaneet räjähdystä. Jotkut ajattelivat sen olevan tykistöhyökkäys.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_3">
+      <Text>Sen raivokas nokkiminen yllätti meidät.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_4">
+      <Text>Emme koskaan törmänneet lihansyöjä-koalaan. Olimme onnekkaita.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_5">
+      <Text>Kun syödään raakana, keltuainen on rakenteeltaan kuin puskuusterit.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_1">
+      <Text>Tarvittaessa voit ampua ontuvan ratsun. Näin ei ole henkilön kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_2">
+      <Text>Ihon hilseily katosta suussa. Aika epämiellyttävää.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_3">
+      <Text>Ankarat olosuhteet ja repaleiset hermot johtavat usein kinasteluun.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_4">
+      <Text>Yksinkertainen virhe kaupungissa. Vähemmän yksinkertainen autiomaassa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_5">
+      <Text>Näennäisesti huomaamaton polku näyttäisi lupaavalta ajoittain.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_6">
+      <Text>Onneksemme ei kaikkialla pensaikossa ole ihmisten elämää vailla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_7">
+      <Text>Dingot matkustivat veden ja saaliin perässä. On parasta seurata paikallisia.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_8">
+      <Text>Monet olivat innokkaita väittämään löydöksiä omikseen</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_9">
+      <Text>Ehkä he olivat oikeassa. Perspektiivi on outo Outbackissa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_10">
+      <Text>Häpeällistä, että se löytyi epäonnistuneen tutkimusmatkailijan ruumiilta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_11">
+      <Text>Pystyimme jakamaan ryhmämme kattamaan enemmän aluetta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_12">
+      <Text>Paljon myöhemmin ymmärsimme sen olevan vakava loukkaus klaania kohtaan.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_13">
+      <Text>Silloin meillä ei ollut aavistustakaan, kuinka kauas se matkustaisi. Liian kauas.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_14">
+      <Text>Huonot olosuhteet johtivat heidät etsimään onneaan muualta.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_15">
+      <Text>Heidän aiemmat kohtaamisensa ulkopuolisten kanssa olivat negatiivisia.</Text>
+    </Row>
+    <!-- Exploration Event Journal Entries-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_1">
+      <Text>Huuhtoutunut mereen, oletettu hukkuneeksi.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_2">
+      <Text>Astui parittelevien pistinten päälle. Amputaatio epäonnistui.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_3">
+      <Text>Pidin kämmenellä simpukkaa korvani vieressä. En kuullut meren ääntä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_4">
+      <Text>Näkyvyys olematon. Ei edistystä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_5">
+      <Text>Vaihdettu tuoreeseen ruokaan ja veteen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_6">
+      <Text>Mukavia tyyppejä, halukkaita tekemään töitä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_7">
+      <Text>Se on todellinen runsaudensarvi. Sijainti tallennettu.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_1">
+      <Text>Selvitäksemme, luotamme veteen, jonka teemme.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_2">
+      <Text>Poljettu. Sokeutunut dromedaarin syljen takia. Moraali alhaalla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_3">
+      <Text>Purettu pohkeeseen. Keuhkot sulkeutuivat pian sen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_4">
+      <Text>Näkyvyys olematon. Sylki sameaa. Ei edistystä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_5">
+      <Text>Helpotus on luvassa. Sijainti tallennettu.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_6">
+      <Text>Ruokavarastot täydennetty. Moraali alhainen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_1">
+      <Text>Menetti hampaat alkuperäisessä tappelussa. Ruoka menetettiin myös.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_2">
+      <Text>En kyennyt erottamaan jäänteitä tuhkan keskeltä. Jatketaan eteenpäin.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_3">
+      <Text>Loputon ulvonta. Neljä yötä ilman unta. Moraali matalalla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_4">
+      <Text>Kuivunut. Demoralisoitunut. Liian heikko matkustamaan.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_5">
+      <Text>Ravittu ja täydennetty. Moraali korkealla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_6">
+      <Text>Toimitettu kartta lähimpään asutukseen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_1">
+      <Text>Lääkintätarvikkeet kadonneet. Vammat ovat edelleen huonosti hoidettuja.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_2">
+      <Text>Paleltuma. Meidän täytyy jatkaa eteenpäin ennen kuin olemme kaikki sairastuneita.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_3">
+      <Text>Toipumisyritys epäonnistui. Nälkäisiä, haavoittuneita ja demoralisoituneita.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_4">
+      <Text>Polku päättyi umpikujaan. Palattiin takaisin edelliselle leiripaikalle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_5">
+      <Text>Ohjasi kultankaivajia lähimpään siirtomaa-kaivosvirastoon.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_6">
+      <Text>Suojassa ja täydennetty. Hyvät mahdollisuudet ruokailuun. Korkea moraali.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_1">
+      <Text>Toistuvat potkut johtivat elinten vaurioitumiseen, mikä seurasi kuolema.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_2">
+      <Text>Maa kuivunut. Retkikunta myös kuivunut. Jatketaan eteenpäin.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_3">
+      <Text>Tässä maastossa on mahdotonta välttää spinifex-rykelmiä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_4">
+      <Text>Ylitin eilisen polun kahdesti ennen puoltapäivää. Morale alhaalla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_5">
+      <Text>Lähin outback-asema saa pian lisää karjapaimenia.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_6">
+      <Text>Vesiastioita ja vatsat täynnä äärimmilleen. Moraali korkealla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_1">
+      <Text>Päättymätön kuume. Toipuminen mahdotonta. Moraali alhaalla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_2">
+      <Text>Etsintä tehotonta. Vyöt kiristetty. Morale alhaalla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_3">
+      <Text>Häädetty leiristä yöllä, oletettavasti kuollut.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_4">
+      <Text>Ei merkittävää edistystä. Kärpästen peittämä. Moraali matala.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_5">
+      <Text>Löysimme äyriäisiä! Ruokavarastot täytetty. Moraali korkealla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_1">
+      <Text>Lähti kun luulimme sen tyydyttäneen. Kertaalleen arvosteltu väärin.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_2">
+      <Text>Kärsivät pakenivat kirkuen suoalueelle. Oletettu kuolleiksi.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_3">
+      <Text>Minkälaisia kauhuja tämä epävieraanvarainen maa sisältää!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_4">
+      <Text>Epäsiisti kuolema seurasi täydellistä halvaantumista.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_5">
+      <Text>Tuntien raskas matka. Löysimme leirin. Meidän, eilisestä asti.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_6">
+      <Text>Bunyipin vaatimukset ovat selvä yritys välttää vastuuta. Ei edistystä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_1">
+      <Text>Kutina johti infektioon. En voi nukkua enkä pysyä istumassa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_2">
+      <Text>Odotettiin toipumista vesitaudista. Ei edistystä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_3">
+      <Text>Harkinnan mukaan meidän tulisi jatkaa toipumisaikaamme.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_4">
+      <Text>Nautinnolliset peseytymiset. Morale on korkealla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_5">
+      <Text>Ruokavarat täydennetty. Vesipullot pullollaan. Moraali korkealla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_1">
+      <Text>Toinen kuollut tuntemattomasta syystä tuntemattomasta lähteestä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_2">
+      <Text>Kurkku katkaistiin linnun terävillä kynsillä. Kuolema oli nopea.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_3">
+      <Text>Se on dengue. Kaikki tietävät, miten tämä päättyy. Morale on alhaalla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_4">
+      <Text>Makuupussit käyttökelvottomia. Päivä meni muurahaisten savustamiseen.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_5">
+      <Text>Tein runsaan määrän muistiinpanoja. Nimeämisoikeudet tulevat olemaan meidän!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_1">
+      <Text>Toistin käärmeiden nurkkaamisen vaarallisuuden.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_2">
+      <Text>Hevoset levottomia. Palovammoja hoidettu. Kulmakarvat kärsineet.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_3">
+      <Text>Silmä kadonnut. Orbita infektoitunut. Emun reittä tarjottu uhrille.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_4">
+      <Text>Menetin päivän surkeaan hölynpölyyn. Hullut ympäröivät minut.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_5">
+      <Text>Ruokavarat täydennetty. Morale korkealla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_1">
+      <Text>Vakava vamma maaston oikuilujen seurauksena.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_2">
+      <Text>Hätäinen tarve laadukkaalle ravinnolle.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_3">
+      <Text>Tuli tappeluja, joista osa vakavia. Moraali matalalla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_4">
+      <Text>Korosti voimakkaasti tarpeen sitoa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_5">
+      <Text>Löysin piilotetun polun nopeuttaakseni huomisen matkaa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_6">
+      <Text>Vaihdettiin tuoreesta ruoasta ja vedestä. Aina eteenpäin.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_7">
+      <Text>Löysimme billabongin, karkotimme dingot ja täytimme vesivarannot.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_8">
+      <Text>Lopulta päästiin sopimukseen yhteisistä nimioikeuksista.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_9">
+      <Text>Tarvitaan lisää tutkimusta. Sijainti huomioitu.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_10">
+      <Text>Lupaus palkinnosta on innostanut joukkojamme. Moraali on korkealla.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_11">
+      <Text>Kuinka onnekasta! Olemme nyt kaksinkertaistaneet varallisuutemme.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_12">
+      <Text>Lähti kiireesti alueelta välttääkseen lisää vastakkainasettelua.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_13">
+      <Text>Leirin hiillos sytytti tulipalon. Pakenimme hengen edestä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_14">
+      <Text>Ohjaa klaani lähimpään asutukseen. Eteenpäin.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_15">
+      <Text>Kauppaa ei hyväksytty, huolimatta vakuutteluista. Lähti pian sen jälkeen.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

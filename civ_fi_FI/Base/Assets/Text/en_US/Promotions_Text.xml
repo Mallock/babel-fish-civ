@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!---->
+    <!-- PROMOTION NAME TEXT -->
+    <!---->
+    <!--Recon-->
+    <Row Tag="LOC_PROMOTION_RANGER_NAME">
+      <Text>Rangeri</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ALPINE_NAME">
+      <Text>Alppi-</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SENTRY_NAME">
+      <Text>Sentry</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPYGLASS_NAME">
+      <Text>Kaukoputki</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GUERRILLA_NAME">
+      <Text>Guerrilla</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMBUSH_NAME">
+      <Text>Väijytys</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAMOUFLAGE_NAME">
+      <Text>Kamouflageeraus</Text>
+    </Row>
+    <!--Melee-->
+    <Row Tag="LOC_PROMOTION_BATTLECRY_NAME">
+      <Text>Taisteluhuuto</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORTOISE_NAME">
+      <Text>Kilpikonna</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMMANDO_NAME">
+      <Text>Kommando</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMPHIBIOUS_NAME">
+      <Text>Kaksijalkainen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZWEIHANDER_NAME">
+      <Text>Zweihander (No translation needed, it is a German word and is used as it is in Finnish language.)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_URBAN_WARFARE_NAME">
+      <Text>Kaupunkisota</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ELITE_GUARD_NAME">
+      <Text>Elitkaarti</Text>
+    </Row>
+    <!--Ranged-->
+    <Row Tag="LOC_PROMOTION_VOLLEY_NAME">
+      <Text>Volley</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GARRISON_NAME">
+      <Text>Garnisoni</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARROW_STORM_NAME">
+      <Text>Nuolisade</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INCENDIARIES_NAME">
+      <Text>Polttorovot</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPRESSION_NAME">
+      <Text>Tukahduttaminen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EMPLACEMENT_NAME">
+      <Text>Sijainti</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_MARKSMAN_NAME">
+      <Text>Tarkkuusampuja</Text>
+    </Row>
+    <!--Siege-->
+    <Row Tag="LOC_PROMOTION_GRAPE_SHOT_NAME">
+      <Text>Rypälelaukaus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREW_WEAPONS_NAME">
+      <Text>Miehistön aseet</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHELLS_NAME">
+      <Text>Kuoret</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHRAPNEL_NAME">
+      <Text>Kranaattiromu</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEAVY_PROJECTILES_2">
+      <Text>Raskaat Projektiilit 2</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_RANGEFINDING_NAME">
+      <Text>Edistynyt etäisyysmittaus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_CREW_NAME">
+      <Text>Asiantuntijatiimi</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FORWARD_OBSERVERS_NAME">
+      <Text>Eteenpäin havainnoijat</Text>
+    </Row>
+    <!--Anti-Cavalry-->
+    <Row Tag="LOC_PROMOTION_ECHELON_NAME">
+      <Text>Echelon</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_THRUST_NAME">
+      <Text>Työntövoima</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SQUARE_NAME">
+      <Text>Neliö</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCHILTRON_NAME">
+      <Text>Schiltron</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REDEPLOY_NAME">
+      <Text>Uudelleensijoittaa</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHOKE_POINTS_NAME">
+      <Text>Kuristuskohdat</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOLD_THE_LINE_NAME">
+      <Text>Pitäkää linja</Text>
+    </Row>
+    <!--Light Cavalry-->
+    <Row Tag="LOC_PROMOTION_ESCORT_MOBILITY_NAME">
+      <Text>Escort Mobility</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAPARISON_NAME">
+      <Text>Caparison</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COURSERS_NAME">
+      <Text>Kurssit</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEPREDATION_NAME">
+      <Text>Ryöstely</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DOUBLE_ENVELOPMENT_NAME">
+      <Text>Kaksinkertainen ympäröinti</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPIKING_THE_GUNS_NAME">
+      <Text>Aseiden hiljentäminen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PURSUIT_NAME">
+      <Text>Ajo</Text>
+    </Row>
+    <!--Heavy Cavalry-->
+    <Row Tag="LOC_PROMOTION_BREAKTHROUGH_NAME">
+      <Text>Läpimurto</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHARGE_NAME">
+      <Text>Velottaa</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BARDING_NAME">
+      <Text>Barding (ei tarvitse kääntää, sillä se on englanninkielinen termi, joka tarkoittaa hevosen panssarointia)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARAUDING_NAME">
+      <Text>Ryöstely</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROUT_NAME">
+      <Text>Rout</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARMOR_PIERCING_NAME">
+      <Text>Panssariparantava</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REACTIVE_ARMOR_NAME">
+      <Text>Reaktiivinen panssari</Text>
+    </Row>
+    <!--Aircraft Fighter-->
+    <Row Tag="LOC_PROMOTION_DOGFIGHTING_NAME">
+      <Text>Koiratappelut</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INTERCEPTOR_NAME">
+      <Text>Interseptori</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_STRAFE_NAME">
+      <Text>Kuritus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GROUND_CREWS_NAME">
+      <Text>Maahenkilökunta</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COCKPIT_ARMOR_NAME">
+      <Text>Ohjaamon panssari</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TANK_BUSTER_NAME">
+      <Text>Panssarintuhooja</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DROP_TANKS_NAME">
+      <Text>Pudotustankit</Text>
+    </Row>
+    <!--Aircraft Bomber-->
+    <Row Tag="LOC_PROMOTION_BOX_FORMATION_NAME">
+      <Text>Laatikkomuodostus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EVASIVE_MANEUVERS_NAME">
+      <Text>Välttelyliikkeet</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORPEDO_BOMBER_NAME">
+      <Text>Torpedolentokone</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLOSE_AIR_SUPPORT_NAME">
+      <Text>Lähituen ilmatuki</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TACTICAL_MAINTENANCE_NAME">
+      <Text>Taktinen ylläpito</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LONG_RANGE_NAME">
+      <Text>Kaukotoiminto</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPERFORTRESS_NAME">
+      <Text>Superfortress - Ylivaltias</Text>
+    </Row>
+    <!--Naval Melee-->
+    <Row Tag="LOC_PROMOTION_EMBOLON_NAME">
+      <Text>Embolon</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REINFORCED_HULL_NAME">
+      <Text>Vahvistettu runko</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HELMSMAN_NAME">
+      <Text>Perämies</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AUXILIARY_SHIPS_NAME">
+      <Text>Apu-alukset</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_RUTTER_NAME">
+      <Text>Rutter</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CONVOY_NAME">
+      <Text>Konvoi</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREEPING_ATTACK_NAME">
+      <Text>Hiipivä hyökkäys</Text>
+    </Row>
+    <!--Naval Ranged-->
+    <Row Tag="LOC_PROMOTION_LINE_OF_BATTLE_NAME">
+      <Text>Taistelulinja</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOMBARDMENT_NAME">
+      <Text>Pommitus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PREPARATORY_FIRE_NAME">
+      <Text>Valmistava tulipalo</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROLLING_BARRAGE_NAME">
+      <Text>Pyörivä tulitus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROXIMITY_FUSES_NAME">
+      <Text>Läheisyysräjähteet</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COINCIDENCE_RANGEFINDING_NAME">
+      <Text>Sattumanvarainen etäisyydenmittaus</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPLY_FLEET_NAME">
+      <Text>Toimituslaivasto</Text>
+    </Row>
+    <!--Naval Carrier-->
+    <Row Tag="LOC_PROMOTION_FLIGHT_DECK_NAME">
+      <Text>Lennonjohto</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HANGAR_DECK_NAME">
+      <Text>Hangaarikansi</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FOLDING_WINGS_NAME">
+      <Text>Taittuvat siivet</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUT_PLANES_NAME">
+      <Text>Partiolentokoneet</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_ENGINES_NAME">
+      <Text>Edistyneet moottorit</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DECK_CREWS_NAME">
+      <Text>Kannen henkilökunta</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPER_CARRIER_NAME">
+      <Text>Supercarrieri</Text>
+    </Row>
+    <!--Naval Raider-->
+    <Row Tag="LOC_PROMOTION_LOOT_NAME">
+      <Text>Saalis</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOARDING_NAME">
+      <Text>Lautalle nousu</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SWIFT_KEEL_NAME">
+      <Text>Pikajuova</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_OBSERVATION_NAME">
+      <Text>Havainnointi</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SILENT_RUNNING_NAME">
+      <Text>Äänetön juoksu</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOMING_TORPEDOES_NAME">
+      <Text>Kotiinpalaavat torpedot</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_WOLFPACK_NAME">
+      <Text>Suden lauma</Text>
+    </Row>
+    <!--Apostles-->
+    <Row Tag="LOC_PROMOTION_ORATOR_NAME">
+      <Text>Puhuja</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROSELYTIZER_NAME">
+      <Text>Uskonnollinen käännynnäinen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TRANSLATOR_NAME">
+      <Text>Kääntäjä</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PILGRIM_NAME">
+      <Text>Pilgrimi</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INDULGENCE_VENDOR_NAME">
+      <Text>Indulgence Vendor</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEATHEN_CONVERSION_NAME">
+      <Text>Pakanakäänne</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEBATER_NAME">
+      <Text>Keskustelija</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARTYR_NAME">
+      <Text>Marttyyri</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHAPLAIN_NAME">
+      <Text>Sotilaspappi</Text>
+    </Row>
+    <!--Warrior Monk-->
+    <Row Tag="LOC_PROMOTION_MONK_SHADOW_STRIKE_NAME">
+      <Text>Varjoisku</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_TWILIGHT_VEIL_NAME">
+      <Text>Hämärän verho</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_EXPLODING_PALMS_NAME">
+      <Text>Räjähtävät kämmenet</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DISCIPLES_NAME">
+      <Text>Opetuslapset</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_SWEEPING_WIND_NAME">
+      <Text>Puhaltava tuuli</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DANCING_CRANE_NAME">
+      <Text>Tanssiva kurki</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_COBRA_STRIKE_NAME">
+      <Text>Kobraisku</Text>
+    </Row>
+    <!--Spy-->
+    <Row Tag="LOC_PROMOTION_SPY_TECHNOLOGIST_NAME">
+      <Text>Teknologi</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CAT_BURGLAR_NAME">
+      <Text>Kissavarkaatija</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DEMOLITIONS_NAME">
+      <Text>Purkutyöt</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CON_ARTIST_NAME">
+      <Text>Huijari</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_GUERILLA_LEADER_NAME">
+      <Text>Sissijohtaja</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ROCKET_SCIENTIST_NAME">
+      <Text>Rakettitieteilijä</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SEDUCTION_NAME">
+      <Text>Viehätys</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DISGUISE_NAME">
+      <Text>Pukeutuminen (or) Naamioituminen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LINGUIST_NAME">
+      <Text>Kielitieteilijä</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_QUARTERMASTER_NAME">
+      <Text>Materiaalipäällikkö</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ACE_DRIVER_NAME">
+      <Text>Ässäkuljettaja</Text>
+    </Row>
+    <!---->
+    <!-- PROMOTION DESCRIPTION TEXT -->
+    <!---->
+    <Row Tag="LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Promootio)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Politiikka)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Hallitus)</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Suuri henkilö)</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Uskonto)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Kyky)</Text>
+    </Row>
+    <Row Tag="LOC_WONDER_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Ihmetellä)</Text>
+    </Row>
+    <!--Recon-->
+    <Row Tag="LOC_PROMOTION_RANGER_DESCRIPTION">
+      <Text>Nopeampi [ICON_Movement] liikkuminen metsä- ja sademetsämaastossa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ALPINE_DESCRIPTION">
+      <Text>Nopeampi [ICON_Movement] liikkuminen mäkisessä maastossa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SENTRY_DESCRIPTION">
+      <Text>Voin nähdä läpi metsien ja viidakoiden.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPYGLASS_DESCRIPTION">
+      <Text>+1 näköetäisyys.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GUERRILLA_DESCRIPTION">
+      <Text>Voi liikkua hyökkäyksen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMMANDO_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Liikkuvuus. Pystyy kiipeämään kallioseinämien yli.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
+      <Text>+20 [ICON_Strength] Taisteluvoimaa kaikissa tilanteissa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAMOUFLAGE_DESCRIPTION">
+      <Text>Vain viereiset vihollisjoukot voivat paljastaa tämän yksikön.</Text>
+    </Row>
+    <!--Melee-->
+    <Row Tag="LOC_PROMOTION_BATTLECRY_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa lähitaistelu- ja kaukotaistelu yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORTOISE_DESCRIPTION">
+      <Text>+10 [ICON_Voima] Taisteluvoimaa, kun puolustaudutaan kauko-iskuja vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMPHIBIOUS_DESCRIPTION">
+      <Text>Ei [ICON_Strength] taisteluvoimaan ja [ICON_Movement] liikkumisrangaistukseen, kun hyökätään mereltä tai joesta.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZWEIHANDER_DESCRIPTION">
+      <Text>+7 [ICON_Voima] Taisteluvoimaa anti-ratsuväkiyksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_URBAN_WARFARE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa taisteltaessa kaupunginosassa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ELITE_GUARD_DESCRIPTION">
+      <Text>+1 lisähyökkäys per kierros, jos [ICON_Movement] liikkuminen sen sallii. Voi liikkua hyökkäämisen jälkeen.</Text>
+    </Row>
+    <!--Ranged-->
+    <Row Tag="LOC_PROMOTION_VOLLEY_DESCRIPTION">
+      <Text>+5 [ICON_Ranged] Ranged Strength maajoukkoja vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GARRISON_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa kun miehittää joko parannuksen, joka antaa [ICON_Strength] Puolustusvoimaa tai kaupunginosan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARROW_STORM_DESCRIPTION">
+      <Text>+7 [ICON_Ranged] Etäisyyden vahvuus maalla ja merellä olevia yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INCENDIARIES_DESCRIPTION">
+      <Text>+7 [ICON_Ranged] Etäisyyshyökkäyksen voima alueen puolustuksia vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPRESSION_DESCRIPTION">
+      <Text>Harjoitus hallintavyöhykkeestä.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EMPLACEMENT_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa, kun puolustaudutaan kaupunkihyökkäyksiä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_MARKSMAN_DESCRIPTION">
+      <Text>+1 lisähyökkäys per kierros, jos yksikkö ei ole liikkunut.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_CREW_DESCRIPTION">
+      <Text>Voi hyökätä liikkumisen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FORWARD_OBSERVERS_DESCRIPTION">
+      <Text>+1 [ICON_Range] Alue.</Text>
+    </Row>
+    <!--Anti-Cavalry-->
+    <Row Tag="LOC_PROMOTION_ECHELON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Taisteluvoimaa ratsuväen yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_THRUST_DESCRIPTION">
+      <Text>+5 [ICON_Voima] Taisteluvoimaa lähitaisteluun verrattuna.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SQUARE_DESCRIPTION">
+      <Text>Kaksinkertainen tukibonus.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCHILTRON_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa, kun puolustaudutaan lähitaisteluyksiköiden hyökkäyksiä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REDEPLOY_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Liike.</Text>
+    </Row>
+    <!--Siege-->
+    <Row Tag="LOC_PROMOTION_CREW_WEAPONS_DESCRIPTION">
+      <Text>+7 [ICON_Voima] Taisteluvoimaa puolustettaessa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GRAPE_SHOT_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa maajoukkoja vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHRAPNEL_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa maajoukkoja vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHELLS_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa kaupunginosien puolustusta vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_RANGEFINDING_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa meriyksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHOKE_POINTS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa kun puolustetaan metsissä, viidakossa, kukkuloilla tai suolla.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOLD_THE_LINE_DESCRIPTION">
+      <Text>Viereiset yksiköt eri luokasta saavat +10 [ICON_Strength] taisteluvoimaa ratsuväkeä vastaan.</Text>
+    </Row>
+    <!--Light Cavalry-->
+    <Row Tag="LOC_PROMOTION_ESCORT_MOBILITY_DESCRIPTION">
+      <Text>Kokoonpano-yksiköt perivät saattueen [ICON_Movement] liikkumisnopeuden.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAPARISON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Hyökkäysvoima anti-ratsuväkeä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COURSERS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Taisteluvoimaa kun hyökätään kauko- ja piiritysyksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEPREDATION_DESCRIPTION">
+      <Text>Ryöstäminen maksaa vain 1 [ICON_Movement] liikkumispisteen.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DOUBLE_ENVELOPMENT_DESCRIPTION">
+      <Text>2-kertainen sivustahyökkäysbonus.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPIKING_THE_GUNS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa piiritysyksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PURSUIT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Liike.</Text>
+    </Row>
+    <!--Heavy Cavalry-->
+    <Row Tag="LOC_PROMOTION_CHARGE_DESCRIPTION">
+      <Text>+10 [ICON_Voima] Taisteluvoimaa vahvistettua puolustajaa vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BARDING_DESCRIPTION">
+      <Text>+7 [ICON_Voima] Taisteluvoimaa puolustettaessa kauko-iskuilta.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARAUDING_DESCRIPTION">
+      <Text>+7 [ICON_Voima] Taisteluvoimaa kaupunginosissa olevia yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROUT_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Taisteluvoimaa vaurioituneita yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARMOR_PIERCING_DESCRIPTION">
+      <Text>+7 [ICON_Voima] Taisteluvoimaa raskaita ratsuväkiyksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REACTIVE_ARMOR_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa puolustettaessa raskasta ratsuväkeä ja anti-ratsuväkeä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BREAKTHROUGH_DESCRIPTION">
+      <Text>+1 lisähyökkäys per vuoro, jos [ICON_Movement] liikkuminen sen sallii.</Text>
+    </Row>
+    <!--Aircraft Fighter-->
+    <Row Tag="LOC_PROMOTION_DOGFIGHTING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa taistelijaluokan yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COCKPIT_ARMOR_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa puolustettaessa ilmatorjuntaa vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INTERCEPTOR_DESCRIPTION">
+      <Text>+7 [ICON_Voima] Taisteluvoimaa pommitusluokan yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_STRAFE_DESCRIPTION">
+      <Text>+17 [ICON_Voima] Taisteluvoimaa ei-ratsastajayksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GROUND_CREWS_DESCRIPTION">
+      <Text>Paranna samalla, kun partioit tai olet sijoitettuna.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TANK_BUSTER_DESCRIPTION">
+      <Text>+17 [ICON_Strength] Taisteluvoimaa ratsuväen yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DROP_TANKS_DESCRIPTION">
+      <Text>+2 [ICON_Range] Kantomatkaa.</Text>
+    </Row>
+    <!--Aircraft Bomber-->
+    <Row Tag="LOC_PROMOTION_BOX_FORMATION_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa puolustettaessa taistelijaluokan yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EVASIVE_MANEUVERS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa puolustettaessa ilmatorjuntaa vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORPEDO_BOMBER_DESCRIPTION">
+      <Text>+17 [ICON_Strength] Taisteluvoimaa meriyksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLOSE_AIR_SUPPORT_DESCRIPTION">
+      <Text>+12 [ICON_Strength] Taisteluvoimaa maajoukkoja vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TACTICAL_MAINTENANCE_DESCRIPTION">
+      <Text>Voi parantua hyökkäyksen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LONG_RANGE_DESCRIPTION">
+      <Text>+2 [ICON_Range] Kantama.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPERFORTRESS_DESCRIPTION">
+      <Text>Ei ole vähimmäisterveydellisiä vaatimuksia ilmapiratismiin.</Text>
+    </Row>
+    <!--Naval Melee-->
+    <Row Tag="LOC_PROMOTION_EMBOLON_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa meriyksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REINFORCED_HULL_DESCRIPTION">
+      <Text>+10 [ICON_Voima] Taisteluvoimaa puolustettaessa kaukaa-ampuvia hyökkäyksiä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_RUTTER_DESCRIPTION">
+      <Text>+1 näköetäisyys.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HELMSMAN_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Liike.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AUXILIARY_SHIPS_DESCRIPTION">
+      <Text>Paranna itsesi ystävällisellä alueella.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CONVOY_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa, kun olet muodostelmissa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREEPING_ATTACK_DESCRIPTION">
+      <Text>+14 [ICON_Voima] Taisteluvoimaa merirosvoja vastaan.</Text>
+    </Row>
+    <!--Naval Ranged-->
+    <Row Tag="LOC_PROMOTION_SUPPLY_FLEET_DESCRIPTION">
+      <Text>Paranna itsesi ystävällisen alueen ulkopuolella.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LINE_OF_BATTLE_DESCRIPTION">
+      <Text>+7 [ICON_Voima] Taisteluvoimaa meriyksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOMBARDMENT_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa alueen puolustuksia vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PREPARATORY_FIRE_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa maajoukkoja vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROLLING_BARRAGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa kaupunginosien puolustuksia vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROXIMITY_FUSES_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoima, kun puolustaudutaan ilmahyökkäyksiä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COINCIDENCE_RANGEFINDING_DESCRIPTION">
+      <Text>+1 [ICON_Range] Etäisyys.</Text>
+    </Row>
+    <!--Naval Carrier-->
+    <Row Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION">
+      <Text>+1 lisäilmailupaikka.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HANGAR_DECK_DESCRIPTION">
+      <Text>+1 lisäpaikka lentokoneelle.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION">
+      <Text>+1 lisä lentokoneslotti.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUT_PLANES_DESCRIPTION">
+      <Text>+1 näkökentän kantama.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_ENGINES_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Liike.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DECK_CREWS_DESCRIPTION">
+      <Text>Voi parantua hyökkäyksen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPER_CARRIER_DESCRIPTION">
+      <Text>Paranna itsesi ystävällisen alueen ulkopuolella.</Text>
+    </Row>
+    <!--Naval Raider-->
+    <Row Tag="LOC_PROMOTION_LOOT_DESCRIPTION">
+      <Text>+50 [ICON_Gold] Kultaa rannikkoraidoilta. (Standard-nopeudella)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOARDING_DESCRIPTION">
+      <Text>Hanki [ICON_Gold] kultaa merivoittojen avulla.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SWIFT_KEEL_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Liike.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_OBSERVATION_DESCRIPTION">
+      <Text>+1 näkökenttä.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOMING_TORPEDOES_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa meriyksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SILENT_RUNNING_DESCRIPTION">
+      <Text>Voi liikkua hyökkäyksen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_WOLFPACK_DESCRIPTION">
+      <Text>+1 lisähyökkäys per vuoro.</Text>
+    </Row>
+    <!--Apostle-->
+    <Row Tag="LOC_PROMOTION_ORATOR_DESCRIPTION">
+      <Text>Voi levittää uskontoa 2 kertaa enemmän.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROSELYTIZER_DESCRIPTION">
+      <Text>Uskonnon leviäminen poistaa 75% olemassa olevasta paineesta muista uskonnoista kohdekaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TRANSLATOR_DESCRIPTION">
+      <Text>Uskonnollinen leviäminen on kolminkertainen voimakkuus muiden sivilisaatioiden kaupungeissa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PILGRIM_DESCRIPTION">
+      <Text>Saat kolme ylimääräistä levitystä liikkuessasi ensimmäistä kertaa luonnonihmeen vieressä.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INDULGENCE_VENDOR_DESCRIPTION">
+      <Text>Saat [ICON_Gold] 100 kultaa, jos tämä yksikkö kääntää kaupungin uskontoosi ensimmäistä kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEATHEN_CONVERSION_DESCRIPTION">
+      <Text>Voit kääntää kaikki vierekkäiset barbaarit puolellesi uskonnollisella hyökkäyksellä.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEBATER_DESCRIPTION">
+      <Text>+20 [ICON_Religion] Uskonnollinen voima teologisessa taistelussa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARTYR_DESCRIPTION">
+      <Text>Relikviaksi muodostuu, mikäli tämä apostoli kuolee teologisessa taistelussa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHAPLAIN_DESCRIPTION">
+      <Text>Apostoli toimii parantajana ja antaa lisäparannusta yksiköille, jotka ovat yhden ruudun päässä hänestä.</Text>
+    </Row>
+    <!--Warrior Monk-->
+    <Row Tag="LOC_PROMOTION_MONK_SHADOW_STRIKE_DESCRIPTION">
+      <Text>2x sivustahyökkäysbonus.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_TWILIGHT_VEIL_DESCRIPTION">
+      <Text>Vain vierekkäiset vihollisyksiköt voivat paljastaa tämän yksikön.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_EXPLODING_PALMS_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoima kaikissa tilanteissa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DISCIPLES_DESCRIPTION">
+      <Text>Tämä yksikkö levittää uskontoaan lähellä oleviin kaupunkeihin, kun se voittaa vihollisyksikön.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_SWEEPING_WIND_DESCRIPTION">
+      <Text>+1 lisähyökkäys kierroksessa, mikäli [ICON_Movement] liike sen sallii.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DANCING_CRANE_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Liike.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_COBRA_STRIKE_DESCRIPTION">
+      <Text>+15 [ICON_Strength] Taisteluvoimaa kaikissa tilanteissa.</Text>
+    </Row>
+    <!--Spy-->
+    <Row Tag="LOC_PROMOTION_SPY_TECHNOLOGIST_DESCRIPTION">
+      <Text>Varasta teknologia kuin olisit kaksi tasoa kokeneempi.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CAT_BURGLAR_DESCRIPTION">
+      <Text>Varasta suuret teokset kuin kaksi tasoa kokeneempi.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DEMOLITIONS_DESCRIPTION">
+      <Text>Sabotage tuotantoa kuin olisit 2 tasoa kokeneempi.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CON_ARTIST_DESCRIPTION">
+      <Text>Vedä varoja kuin kaksi tasoa kokeneempi.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_GUERILLA_LEADER_DESCRIPTION">
+      <Text>Rekrytoi partisanit kuin he olisivat kaksi tasoa kokeneempia.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ROCKET_SCIENTIST_DESCRIPTION">
+      <Text>Uudista raketit kuin olisit kahden tason verran kokeneempi.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SEDUCTION_DESCRIPTION">
+      <Text>Kääpiövakoilijana kuin kaksi tasoa kokeneempi.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DISGUISE_DESCRIPTION">
+      <Text>Viholliskaupungissa läsnäolon luominen ei vie aikaa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LINGUIST_DESCRIPTION">
+      <Text>Kaikkien tehtävien suoritusaikaa on lyhennetty 25%.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_QUARTERMASTER_DESCRIPTION">
+      <Text>Jos tämä Vakooja on kotialueella, kaikki sinun Vakoilijasi toimivat +1 tasolla.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ACE_DRIVER_DESCRIPTION">
+      <Text>Jos jää kiinni tehtävällä, on paljon suurempi mahdollisuus paeta (+4 tasoa).</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_NOTIFICATION_GAIN_DIPLO_POINTS_MESSAGE">
+      <Text>Diplomaattiset voittopisteet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GAIN_DIPLO_POINTS_SUMMARY">
+      <Text>Maailmankongressi on myöntänyt sinulle {1_Value} diplomaattista voittopistettä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ACTIVE_MESSAGE">
+      <Text>Tulivuori tulee aktiiviseksi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ACTIVE_SUMMARY">
+      <Text>{1_VolcanoName} on nyt aktiivinen. Se voisi purkautua milloin tahansa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_INACTIVE_MESSAGE">
+      <Text>Tulivuori muuttuu uinuvaksi</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_INACTIVE_SUMMARY">
+      <Text>{1_VolcanoName} on nyt uinuva. Siitä ei ole enää vaaraa purkautumisesta.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV0_MESSAGE">
+      <Text>Hellävarainen tulivuorenpurkaus</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV0_SUMMARY">
+      <Text>{1_VolcanoName} on purkautunut. Onneksi vahingot vaikuttavat lieviltä ({2_Tiles} {2_Tiles: plural 1?laatta; other?laattaa;} vahingoittunut, {3_Pop} [ICON_CITIZEN] väestöstä menetetty, {4_Units} {4_Units: plural 1?yksikkö; other?yksikköä;} kuollut, {5_Yields} {5_Yields: plural 1?laatta; other?laattaa;} saaneet hedelmällisyyttä).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV1_MESSAGE">
+      <Text>Katastrofaalinen tulivuorenpurkaus</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV1_SUMMARY">
+      <Text>{1_VolcanoName} on purkautunut. Vahinko alueella on merkittävä ({2_Tiles} {2_Tiles: plural 1?laatta; other?laattaa;} vaurioitunut, {3_Pop} [ICON_CITIZEN] väestö menetetty, {4_Units} {4_Units: plural 1?yksikkö; other?yksikköä;} kuollut, {5_Yields} {5_Yields: plural 1?laatta; other?laattaa;} saanut hedelmällisyyttä).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV2_MESSAGE">
+      <Text>Megakolossaalinen tulivuorenpurkaus tapahtuu!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_VOLCANO_ERUPTS_SEV2_SUMMARY">
+      <Text>{1_VolcanoName} on purkautunut yhdessä historian tuhoisimmista räjähdyksistä ({2_Tiles} {2_Tiles: monikko 1?laatta; other?laattaa;} vaurioitui, {3_Pop} [ICON_CITIZEN] asukasta menetti henkensä, {4_Units} {4_Units: monikko 1?yksikkö; other?yksikköä;} sai surmansa, {5_Yields} {5_Yields: monikko 1?laatta; other?laattaa;} saivat lisää hedelmällisyyttä).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV0_MESSAGE">
+      <Text>Jokien tulvat</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV0_SUMMARY">
+      <Text>Joki {1_RiverName} on tulvinut. Onneksi tuho vaikuttaa vähäiseltä ({2_Tiles} {2_Tiles: plural 1?laatta; other?laattaa;} vahingoittunut, {3_Pop} [ICON_CITIZEN] kansalaista menetetty, {4_Units} {4_Units: plural 1?yksikkö; other?yksikköä;} tapettu, {5_Yields} {5_Yields: plural 1?laatta; other?laattaa;} saanut lisää hedelmällisyyttä).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV1_MESSAGE">
+      <Text>Suuri jokitulva</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV1_SUMMARY">
+      <Text>{1_RiverName} on tulvinut. Alueella on vakavia vahinkoja ({2_Tiles} {2_Tiles: monikko 1?tiili; muu?tiiltä;} vahingoittunut, {3_Pop} [ICON_CITIZEN] asukasta menetetty, {4_Units} {4_Units: monikko 1?yksikkö; muu?yksikköä;} tapettu, {5_Yields} {5_Yields: monikko 1?tiili; muu?tiiltä;} saanut lisää hedelmällisyyttä).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV2_MESSAGE">
+      <Text>Ennätysmäiset tulvat joella</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOODS_SEV2_SUMMARY">
+      <Text>{1_RiverName} on tulvinut ja tuhonnut alueen ennennäkemättömällä tavalla ({2_Tiles} {2_Tiles: plural 1?laatta; other?laattaa;} vaurioitunut, {3_Pop} [ICON_CITIZEN] asukasta menetetty, {4_Units} {4_Units: plural 1?yksikkö; other?yksikköä;} kuollut, {5_Yields} {5_Yields: plural 1?laatta; other?laattaa;} saanut lisää ravintoa).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOOD_MITIGATED_MESSAGE">
+      <Text>Jokitulvien estäminen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RIVER_FLOOD_MITIGATED_SUMMARY">
+      <Text>Voimakkaat sateet {1_RiverName} varrella olisivat voineet olla suuri ongelma. Onneksi {LOC_GRAMMAR_A_AN &lt;&lt; {2_BuildingOrDistrict}} {2_BuildingOrDistrict: plural 1?oli; other?olivat;} paikoillaan nousevien vesien hallitsemiseksi. ({3_Yields} {3_Yields: plural 1?laatta; other?laatat;} saivat lisää hedelmällisyyttä)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_ARRIVED_MESSAGE">
+      <Text>Voimakas myrsky!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_ARRIVED_SUMMARY">
+      <Text>Nimeltään {2_StormName} oleva {1_StormType} on muodostunut ja suuntaa kohti {3_Direction}. Myrsky aiheuttaa tuhoa seuraavien kahden vuoron aikana. (Myrskyn saapuessa {4_Tiles} {4_Tiles: vaurioitunut 1?laatta; vaurioituneet muut?laattaa;}, {5_Pop} [ICON_CITIZEN] kansalaista menetetty, {6_Units} {6_Units: tapettu 1?yksikkö; tapetut muut?yksikköä;}, {7_Yields} {7_Yields: saanut lisää 1?laatta; saaneet lisää muut?laattaa;} hedelmällisyyttä)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_ARRIVED_LOSSES_SUMMARY">
+      <Text>Myrsky nimeltään {2_StormName}, jonka tyyppi on {1_StormType}, on kehittynyt ja on matkalla {3_Direction}. Myrsky aiheuttaa tuhoa seuraavien kahden kierroksen aikana. (Saapuessaan se vahingoitti {4_Tiles} {4_Tiles:lla;lla} aluetta, {5_Pop} [ICON_CITIZEN] ihmistä menetti henkensä, {6_Units} {6_Units:ta;ea} kuoli ja {7_Yields} {7_Yields:lla;lla} menetettiin hedelmällisyys.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_MOVED_MESSAGE">
+      <Text>Myrsky jatkuu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_MOVED_SUMMARY">
+      <Text>{1_StormType} nimeltään {2_StormName} jatkaa liikettään ja suuntaa nyt kohti {3_Direction}. (Tällä kierroksella {4_Tiles} {4_Tiles: plural 1?tile; other?tiles;} vaurioitui, {5_Pop} [ICON_CITIZEN] asukasta menetettiin, {6_Units} {6_Units: plural 1?unit; other?units;} kuoli ja {7_Yields} {7_Yields: plural 1?tile; other?tiles;} saavutti hedelmällisyyttä)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_MOVED_LOSSES_SUMMARY">
+      <Text>{1_StormType} nimeltä {2_StormName} jatkaa liikettään ja suuntaa nyt kohti {3_Direction}. (Tämän kierroksen aikana {4_Tiles} {4_Tiles: plurale tantum} vaurioitui, {5_Pop} [ICON_CITIZEN] kansalaista menetettiin, {6_Units} {6_Units: plurale tantum} kuoli ja {7_Yields} {7_Yields: plurale tantum} menetti hedelmällisyytensä.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_DISSIPATED_MESSAGE">
+      <Text>Myrsky laantuu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_DISSIPATED_SUMMARY">
+      <Text>{1_StormType} nimeltään {2_StormName} on nyt heikompi, ja se teki viimeisen liikkeensä kartan yli. (Tämän kierroksen aikana {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} vahingoittui, {4_Pop} [ICON_CITIZEN] asukasta menetettiin, {5_Units} {5_Units: plural 1?unit; other?units;} kuoli ja {6_Yields} {6_Yields: plural 1?tile; other?tiles;} saivat hedelmällisyyttä.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_STORM_DISSIPATED_LOSSES_SUMMARY">
+      <Text>{1_StormType} nimeltään {2_StormName} on nyt heikentynyt ja tehnyt viimeisen siirtonsa kartalla. (Tämän kierroksen aikana {3_Tiles} {3_Tiles: plural 1?tile; other?tiles;} vahingoittui, {4_Pop} [ICON_CITIZEN] asukasta menetettiin, {5_Units} {5_Units: plural 1?unit; other?units;} kuoli, {6_Yields} {6_Yields: plural 1?tile; other?tiles;} menetti hedelmällisyytensä)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DROUGHT_ARRIVED_MESSAGE">
+      <Text>Kuivuus!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DROUGHT_ARRIVED_SUMMARY">
+      <Text>[ICON_Food] {1_DroughtType} on iskenyt. Nimeltään {2_DroughtName} kuivuus, tämä vakava sademäärän puute voi vahingoittaa parannuksia ja rajoittaa [ICON_Food] ruoan tuotantoa seuraavat {3_Duration} vuoroa. ({4_Tiles} {4_Tiles: plural 1?ruutu on; other?ruutua on;} vahingoittunut)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DROUGHT_ARRIVED_LOSSES_SUMMARY">
+      <Text>{1_KuivuusTyyppi} on iskenyt. Nimetty {2_KuivuusNimi} kuivuudeksi, tämä vakava sademäärän puute voi vahingoittaa parannuksia ja hillitä [ICON_Food] ruoantuotantoa seuraavat {3_Kesto} vuoroa. ({4_Laadut} {4_Laadut: other?laatoissa;} vahingoittunut, {5_Sadot} {5_Sadot: other?sadon;} menettänyt hedelmällisyyttään)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DROUGHT_CLEARED_MESSAGE">
+      <Text>Tervetuloa sateet</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DROUGHT_CLEARED_SUMMARY">
+      <Text>Viimein sade on saapunut helpottamaan kärsimystä {1_DroughtType}:ssa. Jo nyt viljamme ovat toipumassa ja {2_DroughtName}-kuivuus on nyt vain jalanjälki historiallisessa merkinnässä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EVENT_AVOIDED_MESSAGE">
+      <Text>Kriisi vältetty</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EVENT_AVOIDED_SUMMARY">
+      <Text>{2_civName} vältti {1_RandomEvent}-tapahtuman, mikä esti vahingot heidän sivilisaatiolleen.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RISING_SEA_LEVEL_FLOODED_MESSAGE">
+      <Text>Pysyvä rannikon tulviminen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RISING_SEA_LEVEL_FLOODED_SUMMARY">
+      <Text>Meriveden pinta on noussut. Kaikki rannikon matalat alueet, jotka on merkitty nimellä '{1_Name}', ovat jääneet pysyvästi tulvaveden alle.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RISING_SEA_LEVEL_SUBMERGED_MESSAGE">
+      <Text>Rannikon laattoja kadonnut</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RISING_SEA_LEVEL_SUBMERGED_SUMMARY">
+      <Text>Meriveden taso on noussut entisestään. Kaikki rannikon alavat alueet, jotka on merkitty nimellä '{1_Name}', ovat vajonneet veden alle ja kadonneet merelle.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RISING_SEA_LEVEL_SUMMARY_TEMPLATE">
+      <Text>{1_Yhteenveto}[NEWLINE][NEWLINE]{2_PitkäKuvaus}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_UNPOWERED_MESSAGE">
+      <Text>Kaupunki ilman sähköä</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_UNPOWERED_SUMMARY">
+      <Text>Rakennukset tai projektit {1_CityName}issa voivat parantua {2_PowerRequired} [ICON_Power] tehoilla, mutta kaupungilla on käytettävissä vain {3_PowerAvailable} [ICON_Power]. Ne ovat vähemmän tehokkaita, kunnes [ICON_Power] tehot palautuvat.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_DISARMAMENT_MESSAGE">
+      <Text>Ydinaseriensaariistaminen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_DISARMAMENT_SUMMARY">
+      <Text>Maailmankongressin toimien seurauksena sinut on pakotettu poistamaan ydinasearsenaalisi käytöstä.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_POSITIVE_ADJUSTMENT_MESSAGE">
+      <Text>Ydinaseiden tasa-arvoistaminen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_POSITIVE_ADJUSTMENT_SUMMARY">
+      <Text>Maailmankongressin toimien seurauksena ydinasearsenaalisi on kasvanut vastaamaan muiden sivilisaatioiden arsenaalia.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_NEGATIVE_ADJUSTMENT_MESSAGE">
+      <Text>Aseiden vähentäminen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_WMD_NEGATIVE_ADJUSTMENT_SUMMARY">
+      <Text>Maailmankongressin toimien takia sinun on jouduttu vähentämään ydinasemonarsenaaliasi vastaamaan muiden sivilisaatioiden tasoa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_BREACH_DAM_MESSAGE">
+      <Text>Onnistunut padon murtuminen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_BREACH_DAM_SUMMARY">
+      <Text>Asiamiehesi {1_unitName} onnistui murtautumaan padolle kaupungissa {2_cityName}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_BREACH_DAM_MESSAGE">
+      <Text>Vihollisvakooja tunkeutui padolle</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_BREACH_DAM_SUMMARY">
+      <Text>Vihollisvakooja onnistui tunkeutumaan padolle {1_cityName} kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV0_MESSAGE">
+      <Text>Radioaktiivinen höyry purkautuu!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV0_SUMMARY">
+      <Text>Ydinvoimalaitos {1_CityName} on kärsinyt toimintahäiriöstä ja joutui päästämään ilmakehään pienen määrän radioaktiivista höyryä suuren katastrofin välttämiseksi. (Tämän vuoron aikana {2_Tiles} {2_Tiles: plural 1?tile; other?tiles;} kärsi, {3_Pop} [ICON_CITIZEN] asukasta menetettiin, ja {4_Units} {4_Units: plural 1?unit; other?units;} kuoli.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV1_MESSAGE">
+      <Text>Säteilyvuoto!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV1_SUMMARY">
+      <Text>Ydinvoimalaitos {1_CityName} on kärsinyt päävian, joka on aiheuttanut halkeaman reaktorissa. Suuri määrä radioaktiivisuutta on levinnyt ympäröivälle alueelle. (Tällä vuorolla {2_Tiles} {2_Tiles: plural 1?tile; other?tiles;} on vaurioitunut, {3_Pop} [ICON_CITIZEN] asukasta on menetetty ja {4_Units} {4_Units: plural 1?unit; other?units;} on kuollut.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV2_MESSAGE">
+      <Text>Ydinvoimalaitoksen sulaminen!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUCLEAR_ACCIDENT_SEV2_SUMMARY">
+      <Text>Ydinkraftwerkki {1_CityName} on kärsinyt katastrofaalisen vian, mikä on johtanut täydelliseen reaktorin sulamiseen. Tappava määrä radioaktiivisuutta on vapautunut ympäröivälle alueelle. (Tämän vuoron aikana {2_Tiles} {2_Tiles: plural 1?tile; other?tiles;} vaikutti, {3_Pop} [ICON_CITIZEN] väestö menetettiin ja {4_Units} {4_Units: plural 1?unit; other?units;} kuoli.)</Text>
+    </Row>
+    <!--DIPLOMACY-->
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_BROKEN_SUMMARY">
+      <Text>Sinulle annettu lupaus {1_CivName} toimesta {2_PromiseType} on rikottu (100 [ICON_STAT_GRIEVANCE] Kantaansaattamista aiheutettu).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_BROKEN_SUMMARY">
+      <Text>Lupauksesi {1_CivName}lle {2_PromiseType} on rikottu (100 [ICON_STAT_GRIEVANCE] Kansalaismielipidettä syntynyt).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_NO_PROMISE_FROM_BUT_REPEATED_MESSAGE">
+      <Text>Lisävalitukset vastaan vastustajaa</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_NO_PROMISE_FROM_BUT_REPEATED_SUMMARY">
+      <Text>Pyydit lupausta {1_CivName}ltä {2_PromiseType} ja he kieltäytyivät. Itse asiassa he ovat jatkaneet tätä ja lisänneet 25 lisättyä [ICON_STAT_GRIEVANCE] Kanteita heitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_NO_PROMISE_TO_BUT_REPEATED_MESSAGE">
+      <Text>Lisävalitukset sinua vastaan</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_NO_PROMISE_TO_BUT_REPEATED_SUMMARY">
+      <Text>{1_CivName} pyysi sinulta lupausta {2_PromiseType}, mutta kieltäydyit. Itse asiassa olet jatkanut tätä, lisäten 25 lisää [ICON_STAT_GRIEVANCE] Klaamusta vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_BLOCKING_MESSAGE">
+      <Text>Maailmankongressi on pian koolla</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_BLOCKING_SUMMARY">
+      <Text>Joku on kutsunut erikoisistuntoon Maailmankongressissa. Valitse, mitä haluat keskustella (jos haluat) tällä istunnolla. Istunto alkaa tämän kierroksen lopussa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_NON_BLOCKING_MESSAGE">
+      <Text>Maailman kongressi on pian kokoontumassa</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_NON_BLOCKING_SUMMARY">
+      <Text>Joku on kutsunut erityisistuntoon Maailmankongressissa. Se alkaa tämän vuoron lopussa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_CAN_BE_CALLED_MESSAGE">
+      <Text>Keskusteluja saatavilla ehdotukseen</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_SPECIAL_SESSION_CAN_BE_CALLED_SUMMARY">
+      <Text>On nyt mahdollista kutsua koolle Maailmankongressin erikoisistunto.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_EMERGENCY_CAN_BE_CALLED_MESSAGE">
+      <Text>Uusi keskustelu saatavilla ehdotusta varten</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WORLD_CONGRESS_EMERGENCY_CAN_BE_CALLED_SUMMARY">
+      <Text>Viimeaikaisten maailmantapahtumien vuoksi sinulla on nyt uusia huolenaiheita, jotka haluat tuoda esille Maailmankongressin erityisistunnossa.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GRIEVANCES_AGAINST_YOU_MESSAGE">
+      <Text>Valitukset sinua vastaan</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GRIEVANCES_AGAINST_YOU_SUMMARY">
+      <Text>{1_DeclaringCivName} on julistanut sodan {2_TargetCivName} vastaan, yhtä ystävistäsi tai liittolaisistasi vastaan. Sinulla on nyt {3_NumGrievances} uutta [ICON_STAT_GRIEVANCE] kaunaa heitä vastaan.</Text>
+    </Row>
+    <!--SPECULATIVE NOTIFICATION TEXT (ADDED AT TEXT-LOCK, MOVE UP IF ACTUALLY MAKE IT INTO GAME)-->
+    <Row Tag="LOC_NOTIFICATION_CITY_LIBERATED_TO_YOU_MESSAGE">
+      <Text>Kaupunkisi vapautettu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LIBERATED_TO_YOU_SUMMARY">
+      <Text>Sinun kansalaisesi {1_CityName} iloitsevat vapautumisestaan. He liittyvät uudelleen valtakuntaasi tämän jalomielisen teon ansiosta, kiitos {2_LiberatingLeader}.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SCORED_COMPETITION_BEGUN_MESSAGE">
+      <Text>Kilpailu on alkanut</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SCORED_COMPETITION_BEGUN_SUMMARY">
+      <Text>Maailmankongressin päätöksen mukaisesti {1_CompetitionName} -pisteiden kilpailu on alkanut.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_REQUEST_FOR_AID_BEGUN_SUMMARY">
+      <Text>Auttaaksemme {1_CivName} heidän tarpeessaan, avunpyyntökilpailu on käynnistynyt.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SCORED_COMPETITION_OVER_MESSAGE">
+      <Text>Kilpailu on päättynyt</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SCORED_COMPETITION_OVER_SUMMARY">
+      <Text>{1_CompetitionName} pisteiden keräyskilpailu on päättynyt. Palkinnot on jaettu osallistujille.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RECEIVED_AID_MESSAGE">
+      <Text>Saatu apu</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RECEIVED_AID_SUMMARY">
+      <Text>{1_PlayerName} on lähettänyt sinulle {2_Amount} [ICON_Gold] kultaa avustuksena.</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROCK_BANDS_PROHIBITED_MESSAGE">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} sensuroi rock-musiikkia</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROCK_BANDS_PROHIBITED_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?kieltää; other?kieltävät;} nyt rock-konsertit. Teidän rock-yhtyeet heidän valtakunnassaan on siirretty laatalle juuri heidän maittensa ulkopuolelle.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

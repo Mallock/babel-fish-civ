@@ -1,0 +1,914 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_UNITNAME_BASE_TEMPLATE">
+      <Text>{1_Ei käytettävissä} {2_Suffix}</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_RANDOMIZE_BUTTON_TEXT">
+      <Text>Satunnaisvalinta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_CHOOSE_NAME">
+      <Text>Valitse otsikko tälle yksikölle:</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_CONFIRM">
+      <Text>Vahvista nimi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_RANDOM_FIRST">
+      <Text>Satunnainen etunimi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_RANDOM_SECOND">
+      <Text>Arvoita toinen nimi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_1ST">
+      <Text>Ensimmäinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_2ND">
+      <Text>toinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_3RD">
+      <Text>Kolmas</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_4TH">
+      <Text>Neljäs</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_AIMED">
+      <Text>Tavoitettu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ALPHA">
+      <Text>Alfa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ALPINE">
+      <Text>Alppi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ANGEL">
+      <Text>Enkeli</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ARMORED">
+      <Text>Panssaroitu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BIG_RED">
+      <Text>Punainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BLACK">
+      <Text>Musta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BLOOD">
+      <Text>Veri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BLOODY">
+      <Text>Verinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BRAVE">
+      <Text>Rohkea</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BULL">
+      <Text>Härkä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_CELESTIAL">
+      <Text>Taivaallinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_COLONIAL">
+      <Text>Kolonialinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_CRAZY">
+      <Text>Hullu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DEAD_CENTER">
+      <Text>Keskusta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DEADLY">
+      <Text>The Deadly = Kuolemaa aiheuttava</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DEATHS">
+      <Text>Kuoleman</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DELTA">
+      <Text>Delta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DESERT">
+      <Text>Autiomaa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DIRTY">
+      <Text>Likainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DRAGON">
+      <Text>Lohikäärme</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DRAWN">
+      <Text>Piirretty</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ELITE">
+      <Text>Elitti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_FIGHTING">
+      <Text>Taistelu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_FLYING">
+      <Text>Lentäminen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GALLOPING">
+      <Text>Laukkaava</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GHOST">
+      <Text>Haamu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GLORY">
+      <Text>Kunnia</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GOLDEN">
+      <Text>Kultainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GREAT">
+      <Text>Suuri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GREEN">
+      <Text>Vihreä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GRIM">
+      <Text>The Grim - Kuolemanvakava</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HADES">
+      <Text>Hades</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HELLISH">
+      <Text>Helvetillinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HELLS">
+      <Text>Helvetti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HOLY">
+      <Text>Pyhä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_INVINCIBLE">
+      <Text>Voittamaton</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_IRON">
+      <Text>Rauta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_JUNGLE">
+      <Text>Viidakko</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_KINGS">
+      <Text>Kuninkaan</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_LAVA">
+      <Text>Lava</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_LIGHT">
+      <Text>Valo</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_LIGHTNING">
+      <Text>Salama</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_LION">
+      <Text>Leijona</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_LONG">
+      <Text>The Long</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_MAGNIFICENT">
+      <Text>Mahtava</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_MOUNTAIN">
+      <Text>Vuori</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_MOUNTED">
+      <Text>Ratsastajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_NOMADIC">
+      <Text>Kulkuri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_OLD">
+      <Text>Vanha</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ORPHAN">
+      <Text>Orpo</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_PARTISAN">
+      <Text>Partisaani</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_PRESIDENTS">
+      <Text>Presidentin</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_QUEENS">
+      <Text>Kuningattaren</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_RAGGED">
+      <Text>Rikkonainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_RAINING">
+      <Text>Sataa vettä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_REVOLUTIONARY">
+      <Text>Vallankumouksellinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_RIVER">
+      <Text>Joki</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ROCK">
+      <Text>Kallio</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ROYAL">
+      <Text>Kuninkaallinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SACRED">
+      <Text>Pyhä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SALTY">
+      <Text>Suolainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SCREAMING">
+      <Text>Huuto</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SEA">
+      <Text>Meri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SHARP">
+      <Text>Terävä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SILENT">
+      <Text>Hiljainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SOARING">
+      <Text>Kohoava</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_STONE">
+      <Text>Kivi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_STONEWALL">
+      <Text>Stonewall</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_STORM">
+      <Text>Myrsky</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TALL">
+      <Text>Torni</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TEN">
+      <Text>Kymmenen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TERRIBLE">
+      <Text>Kauhea</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_THUNDERING">
+      <Text>Jylinä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TIMBER">
+      <Text>Puutavara</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TROPIC">
+      <Text>Trooppinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TUNDRA">
+      <Text>Tundra</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WALKING">
+      <Text>Kävelevä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WAR">
+      <Text>Sota</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WHITE">
+      <Text>Valkoinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WILD">
+      <Text>Erämaa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WINDING">
+      <Text>Mutkaileva</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ARTISTS">
+      <Text>Taiteilijat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BANNER">
+      <Text>Banneri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BASTARDS">
+      <Text>Paskiaiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BATTALION">
+      <Text>Pataljoona</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BERETS">
+      <Text>Beretit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BODYGUARDS">
+      <Text>Henkivartijat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BOOTS">
+      <Text>Saappaat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BOYS">
+      <Text>Pojat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BRAVES">
+      <Text>Urheat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BRIGADE">
+      <Text>Prikaati</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BROTHERS">
+      <Text>Veljet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BUTCHERS">
+      <Text>Teurastajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CAPS">
+      <Text>Korkit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CHAMPIONS">
+      <Text>Mestarit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CIRCUS">
+      <Text>Sirkus</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_COMPANY">
+      <Text>Yritys</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_COMRADES">
+      <Text>Toverit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CROSSES">
+      <Text>Ristit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CROWS">
+      <Text>Korppit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DEAD">
+      <Text>Kuollut</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DEMONS">
+      <Text>Paholaiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DEVILS">
+      <Text>Paholaiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DOGS">
+      <Text>Koirat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DOZEN">
+      <Text>Dutzendi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DRAGONS">
+      <Text>Lohikäärmeet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_EAGLES">
+      <Text>Kotkat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_EXCELLERS">
+      <Text>Excellers</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FORCE">
+      <Text>Voima</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FUSILIERS">
+      <Text>Fusiljeerit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GAMBLERS">
+      <Text>Pelaajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GANG">
+      <Text>Jengi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GARDE">
+      <Text>Garde</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GIANTS">
+      <Text>Jättiläiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GOONS">
+      <Text>Goons</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GRENADIERS">
+      <Text>Grenadiirit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GUARD">
+      <Text>Vahti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GUARDIANS">
+      <Text>Huoltajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HATS">
+      <Text>Hatut</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HELMETS">
+      <Text>Kypärät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HORDE">
+      <Text>Horde - Heimo</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HOUNDS">
+      <Text>Metsästyskoirat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HUNTERS">
+      <Text>Metsästäjät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_IMMORTALS">
+      <Text>Kuolemattomat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_INFANTRY">
+      <Text>Jalkaväki</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_IRONS">
+      <Text>Silitysraudat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KILLERS">
+      <Text>Murhaajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KINGS">
+      <Text>Kuninkaat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LADS">
+      <Text>Kaverit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LAMBS">
+      <Text>Karitsat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LEGION">
+      <Text>Legioona</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LIBERATORS">
+      <Text>Vapauttajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LINE">
+      <Text>Rivi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LIONS">
+      <Text>Leijonat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MARTYRS">
+      <Text>Marttyyrejä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ONE">
+      <Text>Ones</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_OWN">
+      <Text>Oma</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PANTHERS">
+      <Text>Pantterit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PEACEMAKERS">
+      <Text>Rauhanvälittäjät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PHANTOMS">
+      <Text>Aaveet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PROFESSIONALS">
+      <Text>Ammattilaiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RAIDERS">
+      <Text>Raiders</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RAMPAGERS">
+      <Text>Rampagers</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_REDS">
+      <Text>Punaiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_REGIMENT">
+      <Text>Prikaati</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RELIABLES">
+      <Text>Luotettavat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SAINTS">
+      <Text>Pyhimykset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SAVAGES">
+      <Text>Savages</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SEEKERS">
+      <Text>Etsijät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SHIELDS">
+      <Text>Kilvet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SHIRTS">
+      <Text>Paidat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SONS">
+      <Text>Pojat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TIGERS">
+      <Text>Tiikerit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TIMBERWOLVES">
+      <Text>Puunkaatajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TOUGHS">
+      <Text>Ajatukset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TROOP">
+      <Text>Joukko (or Sotilasjoukko)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_VOLUNTEERS">
+      <Text>Vapaaehtoiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WARLORDS">
+      <Text>Sotapäälliköt</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WATCH">
+      <Text>Katso</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WIDOWMAKERS">
+      <Text>Leskentekijät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WOLFHOUNDS">
+      <Text>Susikoira</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WOLVES">
+      <Text>Sudet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_APES">
+      <Text>Apinat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BLADES">
+      <Text>Terät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_COMMANDOS">
+      <Text>Komentajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_EYES">
+      <Text>Silmät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_JACKETS">
+      <Text>Takit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KNIVES">
+      <Text>Veitset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MARAUDERS">
+      <Text>Ryövärit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_NOMADS">
+      <Text>Kulkijat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_OUTLAWS">
+      <Text>Lainsuojattomat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PATHFINDERS">
+      <Text>Polunetsijät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RANGERS">
+      <Text>Rangers</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RECON">
+      <Text>Tiedustelu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RUNNERS">
+      <Text>Juoksijat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SCOUTS">
+      <Text>Partiolaiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SNAKES">
+      <Text>Käärmeet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WANDERERS">
+      <Text>Vaeltajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ARROWS">
+      <Text>Nuolia</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ARTILLERY">
+      <Text>Tykistö</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BATTERY">
+      <Text>Akku</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BLAZERS">
+      <Text>Puvuntakit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BOMBARDIERS">
+      <Text>Pommittajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BOWS">
+      <Text>Jouset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DEATH">
+      <Text>Kuolema</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FIRE_BREATHERS">
+      <Text>Hengittäjät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GUNNERS">
+      <Text>Tykkimiehet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KNOCKERS">
+      <Text>Kolkuttajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MARKSMEN">
+      <Text>Tarkka-ampujat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RAIN">
+      <Text>Sade</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SHARPS">
+      <Text>Sharps = Bemolit (musiikissa)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SHARPSHOOTERS">
+      <Text>Tarkka-ampujat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SLINGERS">
+      <Text>Slingers</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SNIPERS">
+      <Text>Tarkka-ampujat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_STRIKERS">
+      <Text>Hyökkääjät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DRAGOONS">
+      <Text>Rakuunat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FEATHERS">
+      <Text>Sulat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FOXES">
+      <Text>Ketut</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HAMMER">
+      <Text>Vasara</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HORSE">
+      <Text>Hevonen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HORSEMEN">
+      <Text>Ratsastajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HUSSARS">
+      <Text>Hussarit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KNIGHTS">
+      <Text>Ritarit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KORPS">
+      <Text>Korps</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LANCERS">
+      <Text>Lanssit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PONIES">
+      <Text>Ponit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RIDERS">
+      <Text>Ratsastajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_STEEDS">
+      <Text>Hevoset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_VANGUARD">
+      <Text>Vanguard</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WARHORSES">
+      <Text>Sotaratsut</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ARMADA">
+      <Text>Armada</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BOUNTY">
+      <Text>Palkkio</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BUCCANEERS">
+      <Text>Merirosvojoukkue</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CONQUEROR">
+      <Text>Valloittaja</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DREADNOUGHT">
+      <Text>Dreadnought</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_EEL">
+      <Text>Ankerias</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ENDEAVOR">
+      <Text>Pyrkimys</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FLAGSHIP">
+      <Text>Lippulaiva</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FLOTILLA">
+      <Text>Laivasto</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_INTREPID">
+      <Text>Intrepid (this is already in English and does not need translation)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_INVINCIBLE">
+      <Text>Voittamaton</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_IRONSIDES">
+      <Text>Ironsides (no translation required as it is a proper name)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_NARWHAL">
+      <Text>Mursu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ORCA">
+      <Text>Killer whale (literal translation: tappajavalas)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_REDOUBTABLE">
+      <Text>Pelottava</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RESOLUTION">
+      <Text>Päätöslauselma</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_REVENGE">
+      <Text>Kosto</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SEAWOLVES">
+      <Text>Merisudet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SHARK">
+      <Text>Hai</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_STRIKE_GROUP">
+      <Text>Ryhmä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TRIDENT">
+      <Text>Tridentti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_VICTORY">
+      <Text>Voitto</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WHALE">
+      <Text>Valas</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ACES">
+      <Text>Ässät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_AIRMEN">
+      <Text>Ilmavoimien miehet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ANGELS">
+      <Text>Enkelit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BIRDS">
+      <Text>Linnut</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FALCONS">
+      <Text>Haukat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FLYERS">
+      <Text>Lentolehtiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GUNFIGHTERS">
+      <Text>Aseita käyttävät taistelijat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GUNS">
+      <Text>Aseet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HAWKS">
+      <Text>Haukat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HORNETS">
+      <Text>Hornetit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_INTERCEPTORS">
+      <Text>Interseptorit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_INTRUDERS">
+      <Text>Erottajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_NIGHTSTALKERS">
+      <Text>Yölliset saalistajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SQUADRON">
+      <Text>Laivue</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_THUNDERBOLTS">
+      <Text>Ukkosjohdot</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_VAMPIRES">
+      <Text>Vampyyrit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WARHAWKS">
+      <Text>Sotahaukat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WING">
+      <Text>Siipi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HEAVENLY">
+      <Text>Taivaallinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BRIGHT">
+      <Text>Valoisa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HIDDEN">
+      <Text>Piilotettu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_JADE">
+      <Text>Jade</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_CRIMSON">
+      <Text>Punainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SPIRIT">
+      <Text>Henki</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ETERNAL">
+      <Text>Ikuisuus</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_NORTHERN">
+      <Text>Pohjoinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SOUTHERN">
+      <Text>Eteläinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_EASTERN">
+      <Text>Itäinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WESTERN">
+      <Text>Länsi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_EARTHEN">
+      <Text>Maanpinta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GALE">
+      <Text>The Gale = Myrsky</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_FIRE">
+      <Text>Tuli</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_METAL">
+      <Text>Metalli</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WATER">
+      <Text>Vesi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BOXING">
+      <Text>Nyrkkeily</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_OPEN">
+      <Text>The Open - Avoin</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_RAGING">
+      <Text>Raivoava</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_CALM">
+      <Text>Rauha</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SLEEPING">
+      <Text>Unet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FLAMES">
+      <Text>Liekkiä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WINDS">
+      <Text>Tuulet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FLOODS">
+      <Text>Tulvat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MONKEYS">
+      <Text>Apinat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CRANES">
+      <Text>Nosturit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MANTIS">
+      <Text>Mantisi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PANDAS">
+      <Text>Pandat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ORDER">
+      <Text>Tilaus</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HAND">
+      <Text>Käsi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FIST">
+      <Text>Nyrkki</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CLAW">
+      <Text>Kynsi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_STARS">
+      <Text>Tähdet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PALM">
+      <Text>Palmu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MENDICANTS">
+      <Text>Kerjäläiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PILGRIMS">
+      <Text>Pyhiinvaeltajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TEACHERS">
+      <Text>Opettajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MASTERS">
+      <Text>Maisterit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SWEEPERS">
+      <Text>Lakaisukoneet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FOOT">
+      <Text>Jalka</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GRASSHOPPERS">
+      <Text>Heinäsirkat</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

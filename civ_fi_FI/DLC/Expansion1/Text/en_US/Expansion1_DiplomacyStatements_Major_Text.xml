@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_DIPLO_RENEW_ALLIANCE_AI_AGREE_TO_PLAYER_POUNDMAKER">
+      <Text>Kyllä! On parempi, että ihmisemme matkustavat rinnakkain kuin kävelevät yksin.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_RENEW_ALLIANCE_AI_REFUSE_TO_PLAYER_POUNDMAKER">
+      <Text>Vaikka olimme lähellä aiemmin, Cree-kansan täytyy nyt kulkea omaa polkuaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_PROPOSE_ALLIANCE_AI_TO_PLAYER_POUNDMAKER">
+      <Text>Koko elämäni ajan olen etsinyt rauhaa kansojen välille. Olkoon liittoutumamme esimerkkinä paremmalle tielle muille.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_RENEW_ALLIANCE_PLAYER_AGREE_TO_AI_POUNDMAKER">
+      <Text>Tämä on erittäin hyvää!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_RENEW_ALLIANCE_PLAYER_REFUSE_TO_AI_POUNDMAKER">
+      <Text>Kenties jonakin päivänä tajuat, että sekä meidän että teidän kansamme olivat vahvempia, kun olimme yhtenäisiä.</Text>
+    </Row>
+    <!-- Chandragupta Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Todella, Intia on pitkään ajatellut samoin teidän kansastanne. Julkisesti ilmoittaa niin on etuoikeus.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Ihmiseni eivät jaa intoani ystävyydestämme. Mutta he voivat lämmetä sinulle jonain päivänä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Intia arvostaa teidän kansaanne korkealle. Luvallanne ilmoitan ystävyydestämme kaikille.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Voin kunnioittaa sitä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>The fault was mine. Forgive me.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Nautin suuresti vierailuanne isännöimisestä. He saivat minut pohtimaan paljon yhteistä tulevaisuuttamme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Vaikka olisin iloinen toivottamaan delegaationne tervetulleeksi, olen muualla kiireinen. Toisella kertaa!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Delegaatiomme tuo mukanaan paljon lahjoja. Juo niin paljon maustettua piimää kuin haluat! Voimme aina lähettää lisää.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Vaikka jätän huomiotta julmat sanasi, Intia muistaa ne pitkään.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Olet häpeäksi kansallesi! Puhut kahdella suulla, kumpikaan niistä ei ole miellyttävä. (Tuomitsee sinut).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Sinua on tervetullut puhumaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Intia näkee tulevaisuutesi ei kilpailijana tai tulevana vasallina, vaan todellisena kumppanina. Mitä sanot siihen?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Meidän kansamme on vuodattanut tarpeeksi verta - sekä sinun että minun. Päätetään tämä sota heidän vuokseen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Onko tämä vitsi? Ei.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>On aika vetää joukkomme pois taistelukentiltä. Sinun täytyy nähdä tämän viisauden.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Hyväksyn nöyrästi pyyntösi. Intialle on paljon hyötyä tällaisesta järjestelystä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>En voi. Tällä hetkellä Intian rajat on pidettävä sinulta suljettuina.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Rajojesi avaaminen auttaisi tuomaan kansasi lähemmäksi minun kansaani. Vastaisin tietysti samalla mitalla.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CHANDRAGUPTA_ANY">
+      <Text>En usko, että armeijanne tarkoitus oli uhkailla Intiaa. Silti olisi parasta, että ne vetäytyisivät. Välittömästi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Olet oppinut omat opetukseni liian hyvin. Olen opastanut sinua kohti omaa tuhoani.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Ei. Intia ei hyötyisi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Viisas ehdotus!</Text>
+    </Row>
+    <!-- Lautaro Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Maailma tietää, että johdamme kahta kansaa yhdellä tahdolla.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Mapuche eivät ole valmiita tähän ystävyyteen. Ehkä ajan kanssa me tulemme olemaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Yksi tahto; kaksi kansaa. Pitäisikö meidän kertoa maailmalle, että seisomme ystävinä?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Kyllä, hyvä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Tämä jättää pahan maun suuhuni.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Kiitän teitä valtuuskunnastanne. Mapuche toivottaa teidät tervetulleeksi kunnioitettuina vieraina.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Teidän valtuuskuntaanne ei saa mennä Mapuche-kaupunkeihin.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Mapuche lähettävät lahjoja. Kankaamme on hienointa työtämme. Charquicán on herkullista. Olkaa hyvä ja hyväksykää nämä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Teot heijastavat todellista luonnettasi. Mapuche eivät voi sietää sinua!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Mapuche käyttävät nimeäsi kirouksena. Kuka voi seisoa kanssasi? Ystäväsi kääntävät selkänsä sinulle. (Syyttävät sinua).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_LAUTARO_ANY">
+      <Text>Ah, se olet sinä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Tiedän nyt, että olet arvokas. Mapuchet kutsuvat sinua seisomaan kanssamme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_LAUTARO_ANY">
+      <Text>Mapucheilla ei ole enää vatsaa tälle sodalle</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_LAUTARO_ANY">
+      <Text>En pysty.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Tämä sota sitoo meidät tuhoisalle tielle. Kävelkäämme sen sijaan vapaasti.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Sinua on tervetullut ylittämään Mapuchen maata.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Tämä maa on vain Mapucheille. Sinun täytyy mennä muualle.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Mapuche haluavat matkustaa maillenne, aivan kuten te haluaisitte matkustaa meidän maillemme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_LAUTARO_ANY">
+      <Text>Mapuche uskovat, että armeijanne aikovat vahingoittaa meitä. Annan teille mahdollisuuden rauhoittaa mieliamme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Vastustimme viimeiseen asti, mutta se oli liian myöhäistä...liian myöhäistä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Loukkaat minua.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Te kunnioitatte Mapuche-kansaa tällä tavalla.</Text>
+    </Row>
+    <!-- Poundmaker Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Olen onnellisin sovittaessani kansojen välisiä riitoja. Ystävyys kansojemme välillä tuo minulle iloa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>On hyvä, että haluat olla ystävä Cree-heimojen kanssa, mutta oma kansani ei ole vielä valmis siihen. Ei nyt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Cree ovat valmiita ottamaan sinut vastaan ystävinä. Pyydän, että kunnioitat heidän luottamustaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Hyvä, hyvä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Tämä ei ole sitä mitä halusin.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Kansani tervehti delegaatiotanne neuvostotulillamme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Ei, minun kansani ei halua tällaisia lahjoja.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Kansani lähettää sinulle lahjoja - biisoninahkoja ja pimihkania. Näillä selviät talven yli.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Sinun sanasi ovat arvottomia, kansasi harhautuu, eikä sinulla ole ystäviä, jotka seisovat rinnallasi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Vannon suojella kansaani sinun kaltaisiltasi. Sinun valheesi saastuttavat ilman. Elät vain varastaaksesi. (Tuomitsee sinut).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_POUNDMAKER_ANY">
+      <Text>Ole hyvä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Kauan ovat Cree-heimot tehneet ystävyyssopimuksia ystäviemme kanssa. Haluatko liittyä seuraavaksi joukkoomme?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_POUNDMAKER_ANY">
+      <Text>Epäoikeudenmukaisesta sodasta voi syntyä koko rauha meidän välillemme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_POUNDMAKER_ANY">
+      <Text>Ei, tämä ei ole kestävää.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Olen aina halunnut rauhaa. Voivatko kansamme löytää tavan kulkea tätä polkua?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Meidän maillamme on tarpeeksi tilaa teidän kansanne kulkea.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Cree eivät luota sinuun. Pysy omissa maissasi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Kansani haluaa kulkea läpi maasi. Sallitko sen?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_POUNDMAKER_ANY">
+      <Text>Miksi lähetät niin monta armeijaa lähelle rajojamme? Yksi hätäinen teko, ja rauha olisi rikottu.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Jos olisin halunnut sotaa, en olisi täällä nyt. Et saanut minua kiinni. Antauduin itse.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Hölmö hyväksyisi tämän. En ole hölmö.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>Ymmärrän tämän viisauden. Sovitaan niin.</Text>
+    </Row>
+    <!-- Robert The Bruce Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Mikä onnellinen päivä! Me seisomme yhdessä yhtenä, kuin saltiren kaksi haaraa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Mielestäni olet sopiva tyyppi, mutta Skotlannilla on edelleen epäilyksensä sinua kohtaan. Ei nyt.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Seesteisten juoruilijoiden maailmassa oikeudenmukaisten ihmisten täytyy yhdistää voimansa ystävinä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Loistava.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Ei, ymmärrän.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Olen vastaanottanut valtuuskuntanne ja järjestin heille cèilidhin. Tanssimme aamuun asti!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Skotlanti haluaa mieluummin totuudenmukaisia sanoja sinulta kuin kauniita lahjoja, joten lähetin lähetystösi takaisin.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Olkaa hyvä ja ottakaa vastaan kansani hienoimmat tweedit ja haggikset. Ja kuunnelkaa doedelipillien soittoa! Eivätkö ne olekin mahtavia?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Sinä haiseva loka! Sinä käyrä välittäjä arvottomista sanoista! Häivy näkyvistäni!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Sinä kelvoton idiootti! Iskisin sinua kirveellä päähän, mutta pelkään sen särkyvän paksun kallosi takia. (Paheksuu sinua).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Jatka, puhu.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Me ja sinä olemme hyvin samanlaisia. Ota käteni ja näytetään maailmalle, että seisomme liittoutuneina!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Skotlanti nauttii voimiesi lyömisestä, mutta riittää jo.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Totta kai ei!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Puhutaan selvää suomea. Ei mitään "keskinäistä vetäytymistä, taistelujen lopettamista jne." Aselepo, vai ei?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Se on reilua. Huomaathan, ettet törmää laidunaitoihin ylittäessäsi niitä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Et voi vain tulla ja haahuilla ympäriinsä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Hyvä naapuri on sellainen, joka antaa miehen kulkea hänen peltojensa läpi, eikö totta?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Sinun joukkojesi ei tulisi marssia Skotlannin alueen ulkopuolella. Paras siirtää ne pois.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Yksinäinen tuuli puhaltaa tänään yli ylängöiden. Surulaulu Skotlannille. Kuuletko sen?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Mikä nuhjuinen tarjous. Ei.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Hmm. Sovitaan niin.</Text>
+    </Row>
+    <!-- Seondeok Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Korea hyväksyy ilmoituksesi mielellään. Olin juuri kysymässä sinulta samaa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>En voi hyväksyä julistustasi. Jos tekisin niin, se aiheuttaisi Korealle enemmän vaivaa kuin se olisi sen arvoista.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Tunnen tarpeelliseksi julistaa Korean ystävyyden teidän kanssanne. Teidän suostumuksellanne, tietysti.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Kuinka ihanaa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Ei sittenkään.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Olemme kiitollisia saadessamme teidän valtuuskuntanne. Tervetuloa lahjojenne kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Korea on varuillaan vastaanottaessaan lahjaa, kunnes tiedämme lahjoittajan aikeet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Olkaa hyvä ja ottakaa vastaan herkullinen yukpo-annoksemme. Soija pitää naudanlihan mureana ja maukkaana.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Korea ei ole ansainnut sinun ilkeää loukkausta! Mutta nyt ehkä meidän pitäisi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Olet meren roskaväki - hajusi tarttuu kaikkeen, mihin kosket. (Tuomitsen sinut).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_SEONDEOK_ANY">
+      <Text>Sinä saat puhua.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Korean liittolaiset ovat sen vahvuus. Olisimme yhdessä vahvempia.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SEONDEOK_ANY">
+      <Text>Minä petän haluni voittaa sinut, jotta saavutettaisiin kestävä rauha. Sitä en tule pettämään.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SEONDEOK_ANY">
+      <Text>Ulkona kysymyksestä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Tämä sota on muodostunut häiriötekijäksi meille molemmille. Pysähtykäämme ja huolehtikaamme omista kansoistamme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Toivotan tervetulleeksi avointen rajojen kaupankäynnin ja ideoidenvaihdon.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>On järkevää pitää rajamme suljettuina sinulle, kunnes tarkoituksesi ovat selvät.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Varovaisuudesta huolimatta avoimet rajat voivat parantaa suhteitamme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SEONDEOK_ANY">
+      <Text>Korea ei arvosta sotilaita lähellä rajojamme. Vetäkää ne välittömästi pois.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Ennustin oman loppuni, mutta en sitä, että Korea jakaisi kohtaloni.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Kiitos, mutta en voi olla samaa mieltä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Viehättävä tarjous. Korea suostuu.</Text>
+    </Row>
+    <!-- Genghis Khan Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Kotkat kohoavat kyyhkysten ja kaneiden yllä. Seisokaamme ystävyydessä, ja muut voivat kyyristellä varjossamme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Ei. Älä oleta, että Mongolia ihailee sinua niin paljon.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Hyväksy Mongolian ystävyyden! Haluan nähdä maailman vavahtavan, kun he saavat kuulla meidän olevan yhtenäisiä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Mongolia arvostaa tätä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Mongolia muistaa tämän.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Ratsastajani saattelivat delegaationne turvallisesti ja jakoivat lahjanne. He olivat riittäviä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Lahjasi ovat tarpeettomia. Jos haluaisin ne asiat, ottaisin ne itse.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Lähetän sinulle lahjoja - ylimääräisiä hevosia, nuorukaisen jousen ja airagia vahvistamaan sinua. Juo!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Hölmö ja heikko! Miten et ole vielä valloitettu?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Sinun heikkoutesi ja hulluutesi suututtavat minut. Joku päivä, ehkä pian, opit vaaran siinä. (Tuomitsee sinut).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Minä punnitsen sanasi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Matkusta Mongolian kanssa. Tiedät, että sydämesi kaipaa tätä liittoa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Vaikka mieluummin jatkaisin tätä taistelua, Mongolia ei halua sitä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Ei vaikka lisäisit parhaan hevosesi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Me molemmat tiedämme, että Mongolia voittaa sinut. Keskeytetään tämä sota. Toistaiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Voit kulkea alueitamme läpi. Ihastele voimiamme matkasi aikana.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Mikä on meidän, on meidän, oli se sitten karjaa tai maita</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Haluan, että annat joukkojeni matkustaa maasi läpi</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Armeijat, jotka teillä on lähellä rajojamme, ovat houkutteleva kohde. Niiden turvallisuuden vuoksi teidän tulisi siirtää ne.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Olet rampauttanut mongoliklaanit. Kunnioitukseni sinua kohtaan on melkein yhtä suuri kuin inho.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Sinä kutsut sitä diiliksi. Minä kutsun sitä ryöstöksi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Sovittu. Paras meille molemmille.</Text>
+    </Row>
+    <!-- Shaka Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Totta kai! Zulun lapset kunnioittavat teidän kansaanne, ja olette osoittanut olevanne todellinen ystävä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Et ole todellinen ystävä zululaisille lapsille. Enemmällä vaivalla voisit olla, mutta nyt? Ei.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Zulun lapset seisovat kanssasi, jos seisot heidän kanssaan. Julistammeko ystävyytemme?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>En ole kiitollisuuden yläpuolella.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Älä pilkkaa minua.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Teidän valtuuskunta on saapunut. Zulun lapset ovat tyytyväisiä lahjoihinne, mutta älkää luulko voivanne ostaa lojaaliutta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Ennen kuin tiedän sinun mittasi, en voi hyväksyä mitään lahjaa, jonka tarjoat.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Lähetin seremoniallisen iklwan. Ne on nimetty sen mukaan, minkä äänen ne tekevät ulosvetäessä haavasta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Sanasi ovat likaisia. Sinulla on mätä keskelläsi. Ainoa tapa puhdistaa se on leikata se pois.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Heikko keho voi treenata. Heikko mieli voi oppia. Mutta kuten paljastat, heikolle sydämelle ei ole parannuskeinoa. (Tuomitsen sinut).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_SHAKA_ANY">
+      <Text>Sinä taas.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Eroavaisuudet ihmistemme välillä eivät merkitse mitään. Taisteletko rinnallamme? Tämä on kaikki, mikä merkitsee.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SHAKA_ANY">
+      <Text>Jos etsit rauhaa, Zulun lapset hyväksyvät pyyntösi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SHAKA_ANY">
+      <Text>Sinä tuhlaat aikaani.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Tämä sota tuhoaa meidät molemmat. Mikään voitto ei olisi merkityksellinen. Tule, pysähtykäämme käyttämästä aseitamme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Sovittu. On parempi nähdä naapurin vahvuudet kuin kuvitella heikkouksia.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Zulun lapset eivät tarvitse teidän kansojenne törmäilyä maillemme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Zulun lapset eivät salaa mitään. Teidän kansanne on tervetullut maillemme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SHAKA_ANY">
+      <Text>Joukkosi, joita marssitte Zulun rajoilla, ovat houkutteleva kohde minun impilleni.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Totta, sinä päättit hallitusaikani. Mutta minä elän edelleen painajaisissasi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Älä pilkkaa minua.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Kyllä - ainakin toistaiseksi.</Text>
+    </Row>
+    <!-- Tamar Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Luulin tätä julmaksi pilaksi, mutta pohdittuani asiaa huomaan sinun olevan vilpitön. Georgia suostuu pyyntöösi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Ystävyys? Georgia on monia asioita, mutta ystävyyteen se ei sisälly.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Sinä kuulut harvojen joukkoon, joihin Georgia voi luottaa. Jos suostut, ilmoitan sen kaikille.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Sinun toimintasi on arvokasta kiitollisuuteni ansaitsevaa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Olet mahdoton.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Teidän delegaationne ei aiheuttanut tapahtumaa. Pidän sitä onnistumisena.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Georgialla on kiireellisiä asioita. Tämä ei ole aika isännöidä kauppiaitasi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Georgialaiset kauppiaat tuovat monia kirkkhelan köysiä. Ne tekevät täyttävän jälkiruoan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Olet inhottava henkilö. Teidän kansanne ansaitsee paremman johtajan kuin sinä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Kutsua sinua ajattelemattomaksi koiraksi on loukkaus koirillekin. (Tuomitsee sinut).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_TAMAR_ANY">
+      <Text>Miksi olet häirinnyt minua?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Yhdistämällä voimamme saamme yhteiset vihollisemme miettimään kahdesti. Olettaen, että näet hyödyn siinä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TAMAR_ANY">
+      <Text>Olen tyytyväinen, että opit läksysi. Tämä sota saattaa päättyä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TAMAR_ANY">
+      <Text>Valitettavaa. Syvästi valitettavaa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Tämä sota on lopetettava. En myönnä syyllisyyttä sen syihin.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Oletan, että se kannustaa kauppaa kansojemme välillä. Georgia avaa rajansa. Toistaiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Georgia ei tarvitse ulkomaista vaikutusta maillaan. Ainakaan sinun ei tarvitse.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Neuvonantajani suosittelevat Georgian rajojen avaamista. Näen viisautta heidän sanoissaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TAMAR_ANY">
+      <Text>Kokeilet kärsivällisyyttäni sotilaiden kanssa Georgian rajoilla. Poistakaa heidät tai heidät poistetaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Muurit eivät olleet tarpeeksi pelastamaan Georgiaa tuholta. En ollut minäkään.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Yritä uudelleen. Tällä kertaa oikealla tarjouksella.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Sattuu myöntää, mutta niin täytyy tehdä.</Text>
+    </Row>
+    <!-- Wilhelmina Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Olemme erittäin iloisia ottaessamme ystävyyden käden. Olkoon tulevaisuutemme pitkä ja menestyksekäs!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Emme tunnusta väitettäsi ystävyydestä Alankomaiden kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Sivilisaatioiden, joilla on niin ystävälliset suhteet kuin meidän, tulisi julistaa tämä maailmalle, etkö ole samaa mieltä?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Mahtavaa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Kuinka ikävää.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Olemme toivottaneet edustajasi tervetulleiksi asianmukaisilla kunnianosoituksilla ja kiitämme sinua.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>On sopimatonta meidän vastaanottaa lahjojasi, kuten varmasti ymmärrät.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Alankomaat lähettävät sinulle tervehdyksinä lahjoja - puukenkiä, juustoja ja muutamia herkullisia stroopwafeleita</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Annamme sinulle rehellisen mielipiteemme: Sinä et ole sopiva hallitsemaan ja uhka Alankomaille.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>On kiihkeä toiveemme kertoa sinulle, kuinka kamalana pidämme sinua, ja toivomme hallintosi olevan lyhyt. (Tuomitsee sinut).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_WILHELMINA_ANY">
+      <Text>Teillä on meidän huomio.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Olette todistanut olevanne luotettava kumppani kansamme asialle, ja pyrimme syventämään tätä suhdetta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_WILHELMINA_ANY">
+      <Text>Kyllä. Taistelumme on kestänyt tarpeeksi kauan. Annetaan meidän rakentaa uudelleen se, mitä olemme menettäneet.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_WILHELMINA_ANY">
+      <Text>Yksinkertaisesti mahdotonta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Alankomaat haluaisivat mieluummin käydä kauppaa kuin lyödä. Meidän pitäisi lopettaa tämä sota välittömästi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Alankomaat on iloinen hyväksyessään ehdotuksesi ja avaa rajamme sinulle.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Emme voi sallia sinun kulkevan vapaasti alueidemme läpi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Eikö etumme olisi parhaiten palvellut avaamalla matkailu maiden välillä?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WILHELMINA_ANY">
+      <Text>Luuletko meidän olevan tietämättömiä suunnitelmistasi? Vaadimme sinua siirtämään joukkosi rajoiltamme välittömästi!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Jumalan avulla, olkoon Alankomailla jonain päivänä takaisin alueensa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Meidän täytyy kieltäytyä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Emme ole kuulleet parempaa tarjousta.</Text>
+    </Row>
+    <!-- Leader Text-->
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Parhaat naapurit ovat etäisiä. Tällä hetkellä olet Intian paras naapuri.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Ei ole välimatkaa maiden välillä. Kansani on pakotettu kestämään oman maasi löyhkää.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_LAUTARO_ANY">
+      <Text>Teidän ihmiset ovat erittäin ylpeitä siitä, mistä he tulevat. On selvää, että he seuraavat teidän johtoanne.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_LAUTARO_ANY">
+      <Text>Kuinka johdat tällaista tylsää ihmisjoukkoa? Seuraavatko he esimerkkiäsi?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_POUNDMAKER_ANY">
+      <Text>Minulla on suuri kunnioitus niitä kohtaan, jotka julistavat ystävyytensä maailmalle.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_POUNDMAKER_ANY">
+      <Text>Valitse ystäväsi viisaasti - mutta sinun täytyy valita.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Viisasta pitää rauhaa naapureiden kanssa. Verikostot maksetaan suurella kustannuksella.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Pitäkää sotanne kaukana. Muuten saatte kuraa omille maillenne.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SEONDEOK_ANY">
+      <Text>Sinun taitosi hallita luomakunnan salaisuuksia herättää kateutta kansassani.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SEONDEOK_ANY">
+      <Text>Kun toiset yltävät taivaisiin, sinä kaivat kynsilläsi maata.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Kentauriyksikkösi on häpeällinen, mutta onneksi pieni sellainen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Et käyttäisi lampaan rakkoa ja kutsuisi sitä kypäräksi. Miksi siis väittäisit keränneesi "ratsuväkeä"?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SHAKA_ANY">
+      <Text>Armeijat, joita kentälle saattaa, paljastavat voimasi. Oletko puhdistanut roskaväen? On aina viisasta puhdistaa roskaväki.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SHAKA_ANY">
+      <Text>Miksi antaisit joukoillesi säilyttää oman identiteettinsä? Heidän tulisi yhtyä palvelemaan yhtä tahtoa - sinun.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TAMAR_ANY">
+      <Text>Arvostan niitä seinämiä, joita rakennat kansalaisillesi. Sinulla on georgialainen henki.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TAMAR_ANY">
+      <Text>Teidän kansanne on liian luottavainen. He päästävät kaikki kaupunkeihinsa - jopa barbaarit.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_WILHELMINA_ANY">
+      <Text>Alankomaat kukoistaa jokaisella lähetyksellä, jonka lähetät meille.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_WILHELMINA_ANY">
+      <Text>Ne, jotka kieltäytyvät kaupasta, ajattelevat usein voivansa ottaa haluamansa meiltä. He ovat pahasti väärässä.</Text>
+    </Row>
+    <!-- First AI line -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Olen Chandragupta, yhdistyneen Intian Mauryan-keisari. Ei, se ei ole noussut päähäni.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_LAUTARO_ANY">
+      <Text>Minä olen Lautaro, Nopea Haukka. Mapuche kunnioittaa minua kunnioituksella. Näenkö saman sinulta?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_POUNDMAKER_ANY">
+      <Text>Olen Poundmaker ja edustan cree-kansaa. Toivon, että välillämme on aina rauha.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Minä olen Robert the Bruce. Skotlanti seuraa minua, olipa kyse sitten vehnäpelloista tai taistelukentistä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SEONDEOK_ANY">
+      <Text>Minä, Korean Seondeok, tunnustan sinut. Kohtaamisemme oli ennalta nähty.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Minä olen Genghis Khan. Edessäni ovat tulevat mongolialaiset maat. Takanani on ainoa hevosväki, jolla on merkitystä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SHAKA_ANY">
+      <Text>Seisot Zulun Shakan edessä. Uskallatko kääntää selkäsi armeijoilleni? En tee sellaista virhettä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TAMAR_ANY">
+      <Text>Olen Tamar Georgiasta. Sano mitä sanottavaa sinulla on ja jatka matkaasi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_WILHELMINA_ANY">
+      <Text>Minä olen Wilhelmina, Alankomaiden kuningatar. On suuri ilo vihdoin tavata teidät.</Text>
+    </Row>
+    <!-- AI invitation to visit nearby City -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Matkustat lähellä intiaanialuetta. Miksi et vieraile ja rentoudu suurissa kaivoissamme?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_LAUTARO_ANY">
+      <Text>Lähestyt Mapuche-maata. Tavoitteletko kävelemistä keskuudessamme chemamullin äärellä ja oppimaan esi-isistämme?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_POUNDMAKER_ANY">
+      <Text>Kutsun sinut tulemaan vieraakseni ja näkemään, miten Cree-heimon jäsenet elävät.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Kun olet naapurustossa, etkö haluaisi nähdä pääkaupunkiamme?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SEONDEOK_ANY">
+      <Text>Sinun täytyy vierailla pääkaupungissamme. Seowonimme ovat parhaita esimerkkejä tieteellisestä ja poliittisesta ajattelusta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Tiedätkö, kenen maille lähestyt? Katso Keshikin kokoontuvan ja tiedä, että tämä on Mongolia.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SHAKA_ANY">
+      <Text>Sinun täytyy matkustaa Zulun pääkaupunkiin. Siellä on voimaa meidän ikandassa - jota sinun pitäisi nähdä itse.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TAMAR_ANY">
+      <Text>Ohjaan teidät pääkaupunkiimme. Katsokaa meidän erittäin puolustuskelpoista tsikheä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WILHELMINA_ANY">
+      <Text>Alankomaat toivottaa sinut tervetulleeksi oppimaan pääkaupungistamme ja kutsuu sinut vastavierailulle.</Text>
+    </Row>
+    <!-- AI accepts Human invitation -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Vain hölmö kieltäytyisi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_LAUTARO_ANY">
+      <Text>Kunnioitat Mapuche-kansaa tällä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_POUNDMAKER_ANY">
+      <Text>Ymmärrän tämän viisauden. Sovitaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>En voi kieltäytyä siitä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SEONDEOK_ANY">
+      <Text>Houkutteleva tarjous. Korea suostuu.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Voin hyväksyä tämän.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SHAKA_ANY">
+      <Text>Hyväksyttävää.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TAMAR_ANY">
+      <Text>Kiitos.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WILHELMINA_ANY">
+      <Text>Esitämme kiitoksemme.</Text>
+    </Row>
+    <!-- AI invitation to exchange Capital Information -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Meidän pitäisi puhua pääkaupungeistamme. Määrittää vain kuinka kaukana olemme toisistamme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_LAUTARO_ANY">
+      <Text>Kerron sinulle Mapuchen pääkaupungista, jos kerrot minulle oman pääkaupunkisi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_POUNDMAKER_ANY">
+      <Text>Tule katsomaan, missä kansani asuu, ja näytä meille, missä sinä kutsut kotia.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Minulla on mielessäni käydä katsomassa pääkaupunkianne. Ja koska olen oikeudenmukainen mies, tuon teidät katsomaan Skotlannin pääkaupunkia.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SEONDEOK_ANY">
+      <Text>Minä annan ohjeet pääkaupunkiimme, jos sinä vastavuoroisesti annat ohjeet sinun pääkaupunkiisi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Meidän pitäisi vaihtaa tietoa pääkaupungeistamme. Joku päivä saatan haluta käydä sinun luonasi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SHAKA_ANY">
+      <Text>Voin ohjata sinut zulun pääkaupunkiin, jos ohjaat minut sinun pääkaupunkiisi. Riski jaettavana, kyllä - mutta pieni.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TAMAR_ANY">
+      <Text>Meidän tulisi antaa suuntaviivat pääkaupungeillemme, jotta voimme käsitellä asioita suoraan keskenämme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WILHELMINA_ANY">
+      <Text>Toivomme vaihtavamme pääkaupunkiemme sijainnit, molempien osapuolten hyväksi ja kestäväksi edustaen.</Text>
+    </Row>
+    <!-- Diplomatic rationales for denouncement -->
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_BILLIONAIRE_TRADE">
+      <Text>Et käy kauppaa heidän kanssaan</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_CHEOMSEONGDAE_LOW_SCIENCE">
+      <Text>(Tieteen tuotoksesi on surkeaa.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_FLOWER_OF_SCOTLAND_WAR_NEIGHBORS">
+      <Text>(Taistelet naapureittesi kanssa.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_HORNS_CHEST_LOINS">
+      <Text>(Sinun käyttösi joukoista on surkeaa.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_HORSE_LORD">
+      <Text>(Hevosväkesi on liian kilpailuhenkinen.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_IRON_CONFEDERACY_FEW_ALLIANCES">
+      <Text>(Sinulla ei ole tarpeeksi liittolaisia.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_MAURYA_EMPIRE_NEIGHBORS">
+      <Text>(Sinun rajasi ovat liian lähellä häntä.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_NARIKALA_FORTRESS_LOW_WALLS">
+      <Text>(Sinä et rakenna tarpeeksi seiniä.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_SPIRIT_OF_TUCAPEL_LOSING_CITIES">
+      <Text>Menetät kaupunkeja lojaliteetin puutteen vuoksi</Text>
+    </Row>
+    <!-- Human Declares War -->
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Intia ei pelkää sotaa. Parhaimmillaankin voitte hidastaa oikeutettua etenemistämme.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_LAUTARO_ANY">
+      <Text>Tiesin ettet ollut luotettava! Olemme pitkään valmistautuneet tähän sotaan. Oletko sinä?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_POUNDMAKER_ANY">
+      <Text>Sinun olisi voinut löytää toisen tavan. Nyt, katumuksesi mitataan verellä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Sinä hölmö radger! Syöt omat hampaasi ennen kuin astut Skotlantiin!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SEONDEOK_ANY">
+      <Text>Teidän tappionne tulee olemaan nopea... teidän kansanne, unohdettu. Tämän olen ennustanut.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Ei enää sanoja. Tänään Mongolia rientää kohti tappiotasi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SHAKA_ANY">
+      <Text>Voimakkaat sanat, mutta ne värisyttävät huulillasi. Jo näen sinun heikkenevän pelosta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TAMAR_ANY">
+      <Text>Georgianien sydämet eivät vapise sinun lukumääräsi edessä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WILHELMINA_ANY">
+      <Text>Sinun petollinen aggressiosi ei tule onnistumaan. Alankomaat vastustaa!</Text>
+    </Row>
+    <!-- AI Declares War -->
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CHANDRAGUPTA_ANY">
+      <Text>Sinun alueesi voisi parantua paljon Intian hallinnon alla. Parasta nähdä se läpi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_LAUTARO_ANY">
+      <Text>Sota on tulossa. Mapuche käyttää omia aseitaan sinua vastaan!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_POUNDMAKER_ANY">
+      <Text>En välitä aiheuttaa sotakauhuja sinulle, mutta oikeus vaatii sitä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ROBERT_THE_BRUCE_ANY">
+      <Text>Sota jää kytemään sydämiimme. Miksi jatkaa väärällä rauhan tilalla?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SEONDEOK_ANY">
+      <Text>Tähtien mukaan sinut on tuomittu tappioon. Miksi kiistellä taivaallisten voimien kanssa?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GENGHIS_KHAN_ANY">
+      <Text>Sinä seisot armeijoideni tiellä. Pian sinä kaadut niiden edessä.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SHAKA_ANY">
+      <Text>Sinussa on liikaa heikkoutta. Älä pelkää - Zulun lapset poistavat sen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TAMAR_ANY">
+      <Text>Jumala taistelee kanssamme. Sinä seisot yksin.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WILHELMINA_ANY">
+      <Text>Alankomaat ei pelkää sinua. Kun voitamme sinut, olemme vahvempia kuin koskaan.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by matthew beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- City-State Empire Names-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_APUOLE_DESCRIPTION">
+      <Text>Apuolėn kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ARLES_DESCRIPTION">
+      <Text>Arlesin kuningaskunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASILAH_DESCRIPTION">
+      <Text>Asilah kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BALARM_DESCRIPTION">
+      <Text>Sisilian emiirikunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DUMBARTON_DESCRIPTION">
+      <Text>Alt Clut</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GIJON_DESCRIPTION">
+      <Text>Regnum Asturorum = Astuurien Kuningaskunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KAIROUAN_DESCRIPTION">
+      <Text>Zirid-dynastia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PAMPLONA_DESCRIPTION">
+      <Text>Kingdom of Navarre</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PISA_DESCRIPTION">
+      <Text>Pisan tasavalta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PRESLAV_DESCRIPTION">
+      <Text>Bulgaarikhaanius</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ROME_DESCRIPTION">
+      <Text>Status Pontificius (vapaasti suomennettuna: paavin asema tai valta)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TAMWORTH_DESCRIPTION">
+      <Text>Miercna rīce</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THETFORD_DESCRIPTION">
+      <Text>Itä-Englannin kuningaskunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TMUTARAKAN_DESCRIPTION">
+      <Text>Tmutarakan kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_VENICE_DESCRIPTION">
+      <Text>Venetsian tasavalta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WINCHESTER_DESCRIPTION">
+      <Text>Länsisaksien kuningaskunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WOLIN_DESCRIPTION">
+      <Text>Wòlin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_YORK_DESCRIPTION">
+      <Text>Pohjoisumbrialainen kuningaskunta</Text>
+    </Row>
+    <!--Traits-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_ALCAZAR_NAME">
+      <Text>Andalusian ainutlaatuinen parannus: Alcázar</Text>
+    </Row>
+    <Row Tag="TRAIT_CIVILIZATION_UNIT_MOORISH_FARFANES_NAME">
+      <Text>Andalusialainen erikoisjoukko: Farfanes</Text>
+    </Row>
+    <Row Tag="TRAIT_CIVILIZATION_IMPROVEMENT_MONASTERY_NAME">
+      <Text>Uniikki parannus: Luostari</Text>
+    </Row>
+    <Row Tag="TRAIT_CIVILIZATION_UNIT_QUADRIREME_NAME">
+      <Text>Bysanttilainen uniikki yksikkö: Quadrireme</Text>
+    </Row>
+    <Row Tag="TRAIT_CIVILIZATION_UNIT_FRANKISH_CABALLARII_NAME">
+      <Text>Frankkien ainutlaatuinen yksikkö: Caballarii</Text>
+    </Row>
+    <!--Denmark City Names-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ODENSE">
+      <Text>Odense</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_RIBE">
+      <Text>Ribe</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ROSKILDE">
+      <Text>Roskilde</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CAEN">
+      <Text>Caen</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LUND">
+      <Text>Lund</Text>
+    </Row>
+    <!--Sweden-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KOPINGSVIK">
+      <Text>Köpingsvik</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BIRKA">
+      <Text>Birka</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LADOGA">
+      <Text>Ladoga</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KIEV">
+      <Text>Kiova</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GNEZDOVO">
+      <Text>Gnezdovo</Text>
+    </Row>
+    <!--Byzantium-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CONSTANTINOPLE">
+      <Text>Konstantinopoli</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ATTALEIA">
+      <Text>Attalea</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DYRRACHIUM">
+      <Text>Dyrrhachium</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PHILIPPOPOLIS">
+      <Text>Philippopolis</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TREBIZOND">
+      <Text>Trebizond</Text>
+    </Row>
+    <!--Al-Andalus-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SEVILLE">
+      <Text>Išbiliya</Text>
+    </Row>
+    <!--Francia-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_AACHEN">
+      <Text>Aix-la-Chapelle</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NARBONNE">
+      <Text>Narbonne</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_POITIERS">
+      <Text>Poitiers</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_RUSTRINGEN">
+      <Text>Rüstringen</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_UTRECHT">
+      <Text>Utrecht</Text>
+    </Row>
+    <!--City-States-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_APUOLE">
+      <Text>Apuolė</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ARLES">
+      <Text>Arles</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ASILAH">
+      <Text>Asilah</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BALARM">
+      <Text>Balarm</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DUMBARTON">
+      <Text>Dùn Breatann = Lontoo (in English)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GIJON">
+      <Text>Xixón (This is actually the name of a city in Spain, so it doesn't really need a translation)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KAIROUAN">
+      <Text>Al-Qayrawan</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PAMPLONA">
+      <Text>Iruñea</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PISA">
+      <Text>Pisa</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ROME">
+      <Text>Roma</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TAMWORTH">
+      <Text>Tamworth</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_THETFORD">
+      <Text>Thetford</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TMUTARAKAN">
+      <Text>Tmutarakan</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VENICE">
+      <Text>Venetsia</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_WINCHESTER">
+      <Text>Wintanceaster</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_WOLIN">
+      <Text>Wòlin</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_YORK">
+      <Text>Eoforwic</Text>
+    </Row>
+    <!--City-States-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_APUOLE_NAME">
+      <Text>Apuolė</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ARLES_NAME">
+      <Text>Arles</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASILAH_NAME">
+      <Text>Asilah</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BALARM_NAME">
+      <Text>Sisilia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DUMBARTON_NAME">
+      <Text>Dùn Breatann - Britain</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GIJON_NAME">
+      <Text>Asturias</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KAIROUAN_NAME">
+      <Text>Zirid</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PAMPLONA_NAME">
+      <Text>Nafarroa</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PISA_NAME">
+      <Text>Pisa</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PRESLAV_NAME">
+      <Text>Bulgaria</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ROME_NAME">
+      <Text>Roma</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TAMWORTH_NAME">
+      <Text>Mercia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THETFORD_NAME">
+      <Text>Itä-Anglia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TMUTARAKAN_NAME">
+      <Text>Tmutarakan</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_VENICE_NAME">
+      <Text>Venèxia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WINCHESTER_NAME">
+      <Text>Wessex</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WOLIN_NAME">
+      <Text>Wòlin</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_YORK_NAME">
+      <Text>Northumbria</Text>
+    </Row>
+    <!-- Civilizations Adj-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DENMARK_ADJECTIVE">
+      <Text>Seuraava teksti pitää kääntää suomeksi. Vastaa vain luonnollisella kuulostavalla käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SWEDEN_ADJECTIVE">
+      <Text>Seuraava teksti on käännettävä. Vastaa vain luonnollisella kuulostavalla käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_AL_ANDALUS_ADJECTIVE">
+      <Text>Andalusialainen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BYZANTIUM_ADJECTIVE">
+      <Text>Bysanttilainen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_FRANCIA_ADJECTIVE">
+      <Text>Frankish</Text>
+    </Row>
+    <!--City-States Adj-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_APUOLE_ADJECTIVE">
+      <Text>Kuurinmaa</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ARLES_ADJECTIVE">
+      <Text>Arles</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASILAH_ADJECTIVE">
+      <Text>Asilah</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BALARM_ADJECTIVE">
+      <Text>Valitettavasti en ymmärrä, mitä tarkoitat pyynnölläsi. Voitko antaa lisätietoja tai toisen pyynnön?</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DUMBARTON_ADJECTIVE">
+      <Text>Dùn Breatann -&gt; Britannian linnoitus</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GIJON_ADJECTIVE">
+      <Text>Asturia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KAIROUAN_ADJECTIVE">
+      <Text>Zirid</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PAMPLONA_ADJECTIVE">
+      <Text>Iruñeassa</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PISA_ADJECTIVE">
+      <Text>Pisan</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ROME_ADJECTIVE">
+      <Text>Roman</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PRESLAV_ADJECTIVE">
+      <Text>Seuraava teksti pitää kääntää suomeksi. Vastaa vain luonnolliselta kuulostavalla käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TAMWORTH_ADJECTIVE">
+      <Text>Mercian</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THETFORD_ADJECTIVE">
+      <Text>Itä-Anglia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TMUTARAKAN_ADJECTIVE">
+      <Text>Tmutarakan</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_VENICE_ADJECTIVE">
+      <Text>Venetsialainen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WINCHESTER_ADJECTIVE">
+      <Text>Wessexiläinen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_WOLIN_ADJECTIVE">
+      <Text>Wòlin</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_YORK_ADJECTIVE">
+      <Text>Northumbrian = pohjoisumbrialainen</Text>
+    </Row>
+    <!--Denmark-->
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_MALE_1">
+      <Text>Magnus</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_MALE_2">
+      <Text>Bjørk</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_MALE_3">
+      <Text>Hrólfr</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_MALE_4">
+      <Text>Gorm</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_MALE_5">
+      <Text>Fróði</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_FEMALE_1">
+      <Text>Helga</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_FEMALE_2">
+      <Text>Tófa</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_FEMALE_3">
+      <Text>Wealhþeow</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_FEMALE_4">
+      <Text>Aslaug</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_DENMARK_SCENARIO_FEMALE_5">
+      <Text>Thyra</Text>
+    </Row>
+    <!--Sweden-->
+    <Row Tag="LOC_CITIZEN_SWEDEN_MALE_1">
+      <Text>Eric</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_MALE_2">
+      <Text>Håkan</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_MALE_3">
+      <Text>Anund</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_MALE_4">
+      <Text>Sven</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_MALE_5">
+      <Text>Alf</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_FEMALE_1">
+      <Text>Astrid</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_FEMALE_2">
+      <Text>Gunnhildr</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_FEMALE_3">
+      <Text>Ingeborg</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_FEMALE_4">
+      <Text>Þóra</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SWEDEN_SCENARIO_FEMALE_5">
+      <Text>Christina</Text>
+    </Row>
+    <!--Great Admirals-->
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_BJARNI_NAME">
+      <Text>Bjarni Herjolfsson</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_ERIK_NAME">
+      <Text>Erik Punainen</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_INGVAR_NAME">
+      <Text>Yngvarr víðförli. (This is already in Finnish. It is a name and doesn't need translation.)</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_FREYDIS_NAME">
+      <Text>Freydís Eiríksdóttir</Text>
+    </Row>
+    <!--Great Generals  -->
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_HALFDAN_NAME">
+      <Text>Hálfdan Ragnarsson</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_RORIK_NAME">
+      <Text>Rorik Dorestadin herttua</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_SVIATOSLAV_NAME">
+      <Text>Sviatoslav rohkea</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_OLAF_NAME">
+      <Text>Olaf Tryggvason</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_WILLIAM_NAME">
+      <Text>William Valloittaja</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_THORFIN_NAME">
+      <Text>Thorfinn Mahtava</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCENARIO_ROGER_NAME">
+      <Text>Roger I Sisiliasta</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ADJACENT_PIOPIOTAHI_GOLD">
+      <Text>Kun vierekkäin Vinlandin kanssa ansaitse +500 [ICON_Gold] kultaa ja voittopisteitä aktivoimisjärjestyksestä riippuen.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HALFDAN_ACTIVE">
+      <Text>Anna yksi Berserker-yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_OLAF_ACTIVE">
+      <Text>Myönnä 1 lähetysyksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_WILLIAM_ACTIVE">
+      <Text>+1 [ICON_TradeRoute] Kauppareitin kapasiteetti. Myöntää kauppiaan yksikön.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ROGER_ACTIVE">
+      <Text>Anna yksi Katapultti-yksikkö, jolla on yksi ylennystaso.</Text>
+    </Row>
+    <!--Technologies Name-->
+    <Row Tag="LOC_TECH_SCENARIO_LONGSHIPS_NAME">
+      <Text>Pitkät laivat</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_MEAD_HALLS_NAME">
+      <Text>Käymisetalot</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_PORTAGE_NAME">
+      <Text>Kantaminen</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_SHIELDWALL_NAME">
+      <Text>Kilpiseinä</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_KNARRS_NAME">
+      <Text>Knarrs</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_LANCES_NAME">
+      <Text>Lances</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_GREAT_HEATHEN_ARMY_NAME">
+      <Text>Suuri heimotarina-armeija</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_HACKSILVER_NAME">
+      <Text>Hakasilva</Text>
+    </Row>
+    <!--Technologies Description-->
+    <Row Tag="LOC_TECH_SCENARIO_SAILING_DESCRIPTION">
+      <Text>+1 liike kaikille meriyksiköille ja mahdollistaa kaikkien maajoukkojen nousun aluksiin.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_PORTAGE_DESCRIPTION">
+      <Text>Jokien ylittäminen ei maksa enemmän liikettä.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_KNARRS_DESCRIPTION">
+      <Text>Kaikki yksiköt voivat liikkua merelle.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_HACKSILVER_DESCRIPTION">
+      <Text>Kauppakeskukset ja satamat lisäävät kauppareittien määrää yhdellä.</Text>
+    </Row>
+    <!--Technologies Boost-->
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_PORTAGE">
+      <Text>Minulla on kaksi jousimiestä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_STIRRIPS">
+      <Text>Ryöstä laatta.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_SHIELDWALL">
+      <Text>Ota Settler-yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_KNARRS">
+      <Text>Ota käyttöön "Naval Empire" kansalaisuus.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_ENGINEERING">
+      <Text>Ole 5 kaupunkia.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LANCES">
+      <Text>Tappaa Ritari-yksikkö.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_GREAT_HEATHEN_ARMY">
+      <Text>On 3 pitkälaivayksikköä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_HACKSILVER">
+      <Text>Luo 4 kauppareittiä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MACHINERY">
+      <Text>Rakenna kaksi tallia.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MILITARY_TACTICS">
+      <Text>Minulla on kaksi ritariyksikköä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_SHIPBUILDING">
+      <Text>Ansaitse suuri amiraali.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MEDIEVAL_FAIRES">
+      <Text>On kaupunki, jossa on 12 asukasta.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MILITARY_ENGINEERING">
+      <Text>Valtaa kaupunki.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_CASTLES">
+      <Text>On kaksi jousimiestä.</Text>
+    </Row>
+    <!--Technologies Boost Description-->
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_PORTAGE">
+      <Text>Arkkien rakentamisen jälkeen suurempana armeijana toivomme näkevämme, mitä joen toisella puolella on.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_STIRRIPS">
+      <Text>Kentauri-yksiköt voisivat auttaa ryöstämään enemmän ruutuja?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_SHIELDWALL">
+      <Text>Uudet kaupungit luovat uuden yksikön puolustautuakseen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_KNARRS">
+      <Text>Voisivatko he laajentua valtamerelle suuremmalla laivastolla?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_ENGINEERING">
+      <Text>Teidän insinöörit kehittävät parempaa putkistoa lukuisille kaupungeille.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_LANCES">
+      <Text>Nyt kun olet surmannut ritarin, ehkä viikinkisi voisivat valloittaa yhden?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_GREAT_HEATHEN_ARMY">
+      <Text>Kolmella pitkällä laivalla armeijasi voi hyökätä mihin tahansa kaupunkiin.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_HACKSILVER">
+      <Text>Nyt kun olet luonut neljä kauppareittiä, miten kauppaimperiumisi laajenee?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MILITARY_TACTICS">
+      <Text>Teidän armeijassa on enemmän ratsuväkeä nyt, ehkä teidän pitäisi lisätä jalkaväkeä?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_SHIPBUILDING">
+      <Text>Suuri amiraali on inspiroinut kansaasi kehittämään uusia tapoja laivojen rakentamiseen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MEDIEVAL_FAIRES">
+      <Text>Mahdollisesti enemmän kansalaisia haluaisi viihdettä?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MILITARY_ENGINEERING">
+      <Text>Innoittavan kaupungin vallan jälkeen, kansasi on innoittunut keksimään vieläkin tehokkaampia piiritysideoita.</Text>
+    </Row>
+    <!--Civics Name-->
+    <Row Tag="LOC_CIVIC_SCENARIO_NAVAL_EMPIRE_NAME">
+      <Text>Laivastoimperiumi</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_MONOTHEISM_NAME">
+      <Text>Monoteismi</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_VIKING_NAME">
+      <Text>Viikinki</Text>
+    </Row>
+    <!--Civics Description-->
+    <Row Tag="LOC_CIVIC_SCENARIO_VIKING_DESCRIPTION">
+      <Text>Antaa läheisyydestä kamppailuun ja tukemiseen liittyviä bonuksia kaikille lähitaisteluun kykeneville yksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_FEUDALISM_DESCRIPTION">
+      <Text>Maatilat saavat nyt [ICON_Food] ruokaetuja, kun 3 maatilaa on vierekkäin.</Text>
+    </Row>
+    <!--Civics Boost-->
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_NAVAL_TRADITION">
+      <Text>Rakenna 3 satamaa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MILITARY_TRADITION">
+      <Text>Tappaa yksikkö Berserker-yksiköllä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_NAVAL_EMPIRE">
+      <Text>Voita taistelu viikinkilaivalla.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MILITARY_TRAINING">
+      <Text>Minulla on 6 maajoukkoa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MONOTHEISM">
+      <Text>Olla enemmistöuskonto.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_VIKING">
+      <Text>Ole kaksi Huscarlia</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_FEUDALISM">
+      <Text>Minulla on kuusi maatilaa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_THEOLOGY">
+      <Text>On kaksi pyhää paikkaa</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MERCENARIES">
+      <Text>Ole hyvä ja kerro, että sinulla on 10 maajoukkoa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_RECORDED_HISTORY">
+      <Text>Tutkimuslaitteet</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_GUILDS">
+      <Text>Rakenna 4 markkinapaikkaa</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_DIVINE_RIGHT">
+      <Text>Ole neljän paikan hallitus.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_EXPLORATION">
+      <Text>Etsi luonnonihme.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_REFORMED_CHURCH">
+      <Text>On kaksi lähetystyöntekijää.</Text>
+    </Row>
+    <!--Civics Boost Description-->
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MILITARY_TRADITION">
+      <Text>Nyt kun olet tappanut berserkerin, voitko kasvattaa armeijaasi?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_NAVAL_TRADITION">
+      <Text>Satamien rakentamisen jälkeen laivastosi on laajentunut.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MILITARY_TRAINING">
+      <Text>Suuren sotilasmääränne armeija haluaa monipuolistua.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_MONOTHEISM">
+      <Text>Ihmiset ovat alkaneet siirtyä pois pakanallisista ideoistaan. He aloittavat nyt puisien kirkkojen rakentamisen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_VIKING">
+      <Text>Nyt kun armeijasi on suurempi, on aika lähteä viikinkiretkelle!</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_THEOLOGY">
+      <Text>Pyhien paikkojen lisääntyessä teologianne ovat alkaneet levitä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_RECORDED_HISTORY">
+      <Text>Löytösi koneista saattaa olla ristiriidassa kadonneiden kirkon asiakirjojen kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_EXPLORATION">
+      <Text>Nyt kun olette löytäneet Vinlandin, miten hallituksenne tulee muuttumaan?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_REFORMED_CHURCH">
+      <Text>Teologeja rekrytoituasi kansasi on aloittamassa uusien uskonnollisten käytäntöjen muodostamisen.</Text>
+    </Row>
+    <!--Scoring-->
+    <Row Tag="LOC_CATEGORY_SCENARIO_VINLAND_NAME">
+      <Text>Vinlanti</Text>
+    </Row>
+    <Row Tag="LOC_LINE_ITEM_PLUNDER_NAME">
+      <Text>Ryöstää</Text>
+    </Row>
+    <Row Tag="LOC_LINE_ITEM_TRADE_NAME">
+      <Text>Kauppa</Text>
+    </Row>
+    <Row Tag="LOC_LINE_ITEM_VINLAND_NAME">
+      <Text>Vinlandi</Text>
+    </Row>
+    <Row Tag="LOC_VIKING_SCENARIO_RELIGION_DESCRIPTION">
+      <Text>Saat [ICON_Faith] uskoa skenaariossa pääasiassa pyhäkköjen, Alcázarsin, luostareiden ja plantaasien ryöstämisellä. Joka kerta kun saat [ICON_Faith] uskoa, kaupunkisi saavat enemmän painetta omaksua katolilaisuus.</Text>
+    </Row>
+    <Row Tag="LOC_VIKING_SCENARIO_SCORING_DESCRIPTION1">
+      <Text>Kaupunkeja ei voi hävittää. Kauppiaita ja amiraaleja ei voi siirtää kaupunkien välillä. Voitto pisteitä ansaitaan seuraavasti: [NEWLINE] [ICON_Bullet] Imperiumi: {1_CityVP} VP per kaupunki. {2_PopVP} VP per asukas. [NEWLINE] [ICON_Bullet] Prestiisi: {3_GPVP} VP jokaisesta ansaitusta [ICON_GreatPerson] Suurmiehestä. [NEWLINE] [ICON_Bullet] Kauppa: {4_TradeVP} VP per [ICON_TradeRoute] kauppapolun kapasiteetti. [NEWLINE] [ICON_Bullet] Ryöstö: {5_PillageVP} VP per ryöstetty laatta.</Text>
+    </Row>
+    <Row Tag="LOC_VIKING_SCENARIO_SCORING_DESCRIPTION2">
+      <Text>[NEWLINE][ICON_Bullet]Vinland: {1_VinlandA} VP jos olet ensimmäinen, joka aktivoi [ICON_GreatAdmiral] suuramiraalin Vinlandin vieressä, {2_VinlandB} toisena, {3_VinlandC} kolmantena, {4_VinlandD} sen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_VIKING_SCENARIO_SCORING_DESCRIPTION3">
+      <Text>[NEWLINE][ICON_Bullet]Uskonto: {1_PillageEarly} VP per [ICON_Faith] ryöstetyltä laatalta saatua uskoa, kun alle puolet kaupungeistasi on saman uskonnon alla. {2_PopLate} VP per lisätty väestö, kun puolet tai enemmän kaupungeistasi on saman uskonnon alla.[NEWLINE][ICON_Bullet]Bonus: Viimeisellä vuorolla {3_GoldEnd} VP jokaisesta {4_GoldPer} [ICON_Gold] kullasta, joka on viikinkipelaajan aarrearkussa, sekä {5_FaithEnd} VP jokaisesta {6_FaithPer} [ICON_Faith] uskosta, joka on viikinkipelaajalla tällä hetkellä.</Text>
+    </Row>
+    <!--Features-->
+    <Row Tag="LOC_FEATURE_SCENARIO_VINLAND_NAME">
+      <Text>Vinland</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_SCENARIO_VINLAND_DESCRIPTION">
+      <Text>VP-pisteet: 1000 ensimmäiselle, 500 toiselle, 300 kolmannelle, 100 neljännelle ja 100 viidennelle.</Text>
+    </Row>
+    <!--Policies-->
+    <Row Tag="LOC_POLICY_SCENARIO_LEIDANGR_NAME">
+      <Text>Leiðangr</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_VOLLEY_NAME">
+      <Text>Volley (volleyball)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_THING_NAME">
+      <Text>Asia</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_TRAVELING_MONKS_NAME">
+      <Text>Matkustavat munkit</Text>
+    </Row>
+    <!--Policies Descriptions-->
+    <Row Tag="LOC_POLICY_SCENARIO_CARAVANSERIES_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Kultaa kansainvälisistä [ICON_TradeRoute] Kauppateistä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CHIVALRY_DESCRIPTION">
+      <Text>+100% [ICON_Production] Tuotanto ratsuväkeä kohti.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_FEUDAL_CONTRACT_DESCRIPTION">
+      <Text>+50% [ICON_Production] tuotanto lähitaisteluun erikoistuneisiin yksiköihin.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MARITIME_INDUSTRIES_DESCRIPTION">
+      <Text>+100% [ICON_Production] Tuotantoa meriyksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MERITOCRACY_DESCRIPTION">
+      <Text>Jokainen kaupunki saa +1 [ICON_Faith] uskoa jokaisesta erikoisaluettaan rakentamastaan kaupunginosasta.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_NATURAL_PHILOSOPHY_DESCRIPTION">
+      <Text>+100% Leiri [ICON_Science] tiede.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_SIEGE_TACTICS_DESCRIPTION">
+      <Text>+100% [ICON_Production] Tuotanto piiritys- ja tukiyksiköitä kohti.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_TRADE_CONFEDERATION_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Kultaa kansainvälisistä [ICON_TradeRoute] kauppareiteistä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_TRAVELING_MONKS_DESCRIPTION">
+      <Text>Kotimaiset [ICON_TradeRoute] kauppareitit +2 [ICON_Faith] uskoa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_VOLLEY_DESCRIPTION">
+      <Text>+100% [ICON_Production] Tuotanto kaukotaisteluyksiköille.</Text>
+    </Row>
+    <!--Units Name-->
+    <Row Tag="LOC_UNIT_SCENARIO_HUSCARL_NAME">
+      <Text>Huscarl</Text>
+    </Row>
+    <!--Units Description-->
+    <Row Tag="LOC_UNIT_SCENARIO_HUSCARL_DESCRIPTION">
+      <Text>Lähitaisteluun erikoistunut yksikkö, joka on vahva kaukotaistelua vastaan. Alhainen [ICON_Production] tuotantokustannus.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_MISSIONARY_DESCRIPTION">
+      <Text>Viikinkien ainutlaatuinen yksikkö, joka voi kääntää [ICON_Citizen] kansalaisia heidän uskontoonsa.</Text>
+    </Row>
+    <!--Unit Abilities-->
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_POINTS_DESCRIPTION">
+      <Text>+10 suurta yleispistettä jokaisesta tapetusta yksiköstä.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_ADMIRAL_POINTS_DESCRIPTION">
+      <Text>+10 Suuren amiraalin pistettä jokaisesta tapetusta yksiköstä.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RANGED_DEFENSE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] Taisteluvoimaa kun puolustaudutaan kauko-iskuja vastaan.</Text>
+    </Row>
+    <!--Continent Descriptions-->
+    <Row Tag="LOC_CONTINENT_SCENARIO_BRITAIN_DESCRIPTION">
+      <Text>Iso-Britannia</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_FAROE_DESCRIPTION">
+      <Text>Färsaaret</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_GREENLAND_DESCRIPTION">
+      <Text>Grönlanti</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_HEBRIDES_DESCRIPTION">
+      <Text>Hebridit</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_ICELAND_DESCRIPTION">
+      <Text>Islanti</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_IRELAND_DESCRIPTION">
+      <Text>Irlanti</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_NORTHERN_ISLES_DESCRIPTION">
+      <Text>Pohjoissaaret</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_SCANDINAVIA_DESCRIPTION">
+      <Text>Skandinavia</Text>
+    </Row>
+    <Row Tag="LOC_CONTINENT_SCENARIO_VINLAND_DESCRIPTION">
+      <Text>Vinlandia</Text>
+    </Row>
+    <!--Continent Cities-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TORSHAVN">
+      <Text>Tórshavn</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_FUNNINGUR">
+      <Text>Funningur</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LEIRVIK">
+      <Text>Leirvik</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BRATTAHLID">
+      <Text>Brattahlíð</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_HVALSEY">
+      <Text>Hvalsey</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SANDNAES">
+      <Text>Sandnæs</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GARDAR">
+      <Text>Garðar</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_HERJOLFSNES">
+      <Text>Herjolfsnes</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SKID">
+      <Text>Skíð</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MYL">
+      <Text>Myl</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BARR_OY">
+      <Text>Bjarnar-øy</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_REYKJAVIK">
+      <Text>Reykjavík</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_HUSAVIK">
+      <Text>Húsavík</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_AKRANES">
+      <Text>Akranes</Text>
+    </Row>
+		<Row Tag="LOC_CITY_NAME_SCENARIO_SKALHOLT">
+			<Text>Skálaholt</Text>
+		</Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DYFLIN">
+      <Text>Dyflin</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_INIS_SIBHTONN">
+      <Text>Inis Sibhtonn</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VEDRAFJORDR">
+      <Text>Veðrafjörður</Text>
+    </Row>
+		<Row Tag="LOC_CITY_NAME_SCENARIO_VEISAFJORDR">
+			<Text>Veisafjǫrðr</Text>
+		</Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KIRKJUVAGR">
+      <Text>Kirkjuvagr</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SKALAVAGR">
+      <Text>Skálavágr</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BIRGISHERD">
+      <Text>Birgisherað</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_EID">
+      <Text>Eið</Text>
+    </Row>
+    <!--Religion-->
+    <Row Tag="LOC_BELIEF_ODIN_NAME">
+      <Text>Odin</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ODIN_DESCRIPTION">
+      <Text>+100 [ICON_Gold] kultaa, kun ryöstät laatan etkä omista hallitsevaa uskontoa.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_POPULATION_GROWTH_NAME">
+      <Text>Väestönkasvu</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_POPULATION_GROWTH_DESCRIPTION">
+      <Text>Kaksinkertaiset voittopisteet väestöstä, jos tämä uskonto on hallitseva uskonto.</Text>
+    </Row>
+    <!--Buildings-->
+    <Row Tag="LOC_BUILDING_SCENARIO_HAGIA_SOPHIA_DESCRIPTION">
+      <Text>Yksilöllinen ihme Bysantille.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_ALHAMBRA_DESCRIPTION">
+      <Text>Uniikki ihme Al-Andalukselle.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_MONT_ST_MICHEL_DESCRIPTION">
+      <Text>Uniikki ihme Ranskalle.</Text>
+    </Row>
+    <!--Float-->
+    <Row Tag="LOC_PILLAGE_GOLD_DESCRIPTION">
+      <Text>+100 [COLOR_FLOAT_GOLD]Kultaa[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_VINLAND_GOLD_DESCRIPTION">
+      <Text>+500 [COLOR_FLOAT_GOLD]Kultaa[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_POINTS_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num} pistettä[ENDCOLOR]</Text>
+    </Row>
+    <!--District-->
+    <Row Tag="LOC_DISTRICT_SCENARIO_ENCAMPMENT_DESCRIPTION">
+      <Text>Alue kaupungissasi sotilaslaitoksille. Tarjoaa myös tiedettä.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_HOLY_SITE_DESCRIPTION">
+      <Text>Alue kaupungissasi uskonnolliseen palvontaan. Tarjoaa myös kulttuuria.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

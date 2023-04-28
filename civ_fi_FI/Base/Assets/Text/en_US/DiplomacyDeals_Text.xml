@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GOLD_PER_TURN">
+      <Text>KULTAA PER KIERROS</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GOLD_PER_TURN_WITH_TURNS">
+      <Text>KULTAA PER KIERROS[newline]{1_number} KIERROSTA</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_FOR_TURNS">
+      <Text>{1_number} KIERROSTA</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_FOR_30_TURNS">
+      <Text>30 KIERROKSEN AJAN</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ONE_TIME">
+      <Text>YHDEN KERRAN TARJOUKSET</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_LUXURY_RESOURCES">
+      <Text>LUKSIKKAAT RESURSSIT</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_STRATEGIC_RESOURCES">
+      <Text>STRATEGISET RESURSSIT</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_AGREEMENTS">
+      <Text>SOPIMUKSET</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CITIES">
+      <Text>KAUPUNGIT</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_OTHER_PLAYERS">
+      <Text>MUUT PELAAJAT</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CAPTIVES">
+      <Text>VANKIEN</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GREAT_WORKS">
+      <Text>MAHTAVAA TYÖTÄ</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_TECHNOLOGIES">
+      <Text>TEKNOLOGIAT</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_PLAYER_PANEL_TITLE">
+      <Text>{1_LeaderName}[NEWLINE]{2_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ACCEPT_DEAL">
+      <Text>Hyväksy tarjous</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_REFUSE_DEAL">
+      <Text>Kieltäydy tarjouksesta</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_PROPOSE_DEAL">
+      <Text>Ehdota diiliä</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_DEMAND_DEAL">
+      <Text>Kysyntädiili</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ACCEPT_DEMAND">
+      <Text>Hyväksy vaatimus</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_REFUSE_DEMAND">
+      <Text>Kieltäydy pyynnöstä</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_ACCEPT_GIFT">
+      <Text>Hyväksy lahja</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_REFUSE_GIFT">
+      <Text>Kieltäydy lahjasta</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_GIFT_DEAL">
+      <Text>Anna lahja</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_EXIT_DEAL">
+      <Text>Ei se mitään</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CANCEL_DEAL">
+      <Text>Peruuta diili</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CANCEL_DEMAND">
+      <Text>Peruuta pyyntö</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_RESUME_GAME">
+      <Text>Ansioluettelo</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_YOUR_ITEMS">
+      <Text>Sinun tavarasi</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_THEIR_ITEMS">
+      <Text>Heidän tavaransa</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_WHAT_WOULD_YOU_GIVE_ME">
+      <Text>Mitä sinä antaisit minulle?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_WHAT_WOULD_IT_TAKE">
+      <Text>Mitä se vaatisi?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CLICK_TO_CHANGE_DEAL_PARAMETER">
+      <Text>Sopimus yksityiskohdat asetettu...</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_DEAL_PARAMETER">
+      <Text>Määrittele sopimuksen yksityiskohdat...</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_PARAMETER_WITH_TURNS">
+      <Text>{1_DisplayName} ({2_Turns} vuoroa)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_OTHER_PLAYER_SAYS">
+      <Text>{1_LeaderName} sanoo:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_RETURN_CITY">
+      <Text>{1_Name}, palaa takaisin.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_RETURN_CITY_TOOLTIP">
+      <Text>Palauta {1_Name} {1_LeaderName}:lle</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CEDE_CITY">
+      <Text>{1_Name}, luovuta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_CEDE_CITY_TOOLTIP">
+      <Text>Luovuta {1_Name} {1_LeaderName}:lle</Text>
+    </Row>
+    <!--Deal Error Messages-->
+    <Row Tag="LOC_DEAL_CITY_NOT_FOUND">
+      <Text>Kaupunkia ei löytynyt</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_DUPLICATE">
+      <Text>Toisella tarjoustuotteella on sama kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_GOLD_NOT_ENOUGH_IN_TREASURY">
+      <Text>Ei tarpeeksi kultaa</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_GOLD_NOT_ENOUGH_YIELD">
+      <Text>Ei tarpeeksi kultaa</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_GREAT_WORK_NOT_FOUND">
+      <Text>Loistavaa työtä ei löytynyt</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_INVALID_PLAYER">
+      <Text>Virheellinen pelaaja</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_NO_SLOT_TO_RECEIVE_WORK">
+      <Text>Ei paikkaa, johon laittaa työ</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_RESOURCES_NOT_ENOUGH">
+      <Text>Tästä resurssista ei ole tarpeeksi</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_SPY_NOT_FOUND">
+      <Text>Vakoojaa ei löytynyt</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_POPULATION_TOOLTIP">
+      <Text>Väestö: {1_number}</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_DISTRICTS_TOOLTIP">
+      <Text>Alueet:</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_RESOURCES_TOOLTIP">
+      <Text>Resurssit:</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_CITY_GREAT_WORKS_TOOLTIP">
+      <Text>Suuret teokset</Text>
+    </Row>
+    <Row Tag="LOC_DEAL_ITEM_TRANSFERRED_WITH_CITY_TOOLTIP">
+      <Text>Siirretty {1_CityName}:ssa</Text>
+    </Row>
+    <!-- Diplomactic Actions -->
+    <Row Tag="LOC_DIPLOACTION_RESIDENT_EMBASSY_NAME">
+      <Text>Asukasmaan Lähetystö</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEMAND_TRIBUTE_NAME">
+      <Text>Vaadi kunnioitusta</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_OPEN_BORDERS_NAME">
+      <Text>Avoin rajat</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_REQUEST_ASSISTANCE_NAME">
+      <Text>Pyydä apua</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DENOUNCE_NAME">
+      <Text>Ilmoittaa / tuomita</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_SURPRISE_WAR_NAME">
+      <Text>Yllätys sota</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_MAKE_PEACE_NAME">
+      <Text>Tee rauhaa</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DIPLOMATIC_DELEGATION_NAME">
+      <Text>Lähetä valtuuskunta</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_ALLIANCE_NAME">
+      <Text>Liitto / Allianssi</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FRIENDSHIP_NAME">
+      <Text>Julista ystävyys</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_GRANT_INFLUENCE_TOKEN_NAME">
+      <Text>Myönnä vaikutustoken</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_GIFT_UNIT_NAME">
+      <Text>Lahja yksikkö</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_MILITARY_REQUEST_NAME">
+      <Text>Sotilaspyyntö</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_WAR_MINOR_CIV_NAME">
+      <Text>Julista sota vähemmistövaltioille</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FORMAL_WAR_NAME">
+      <Text>Julista sota</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_HOLY_WAR_NAME">
+      <Text>Julista pyhä sota</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_NAME">
+      <Text>Julista Vapautussota</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_RECONQUEST_WAR_NAME">
+      <Text>Julista takaisinvaltaussota</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_PROTECTORATE_WAR_NAME">
+      <Text>Julista suojelualueen sota</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_COLONIAL_WAR_NAME">
+      <Text>Julista siirtomaa sota</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_NAME">
+      <Text>Julista sotaa alueellisen laajentumisen puolesta</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEFENSIVE_PACT_NAME">
+      <Text>Puolustussopimus</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_JOINT_WAR_NAME">
+      <Text>Yhteinen sotatoimi</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_RESEARCH_AGREEMENT_NAME">
+      <Text>Tutkimussopimus</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_SPY_NAME">
+      <Text>Lupaa, ettet vakoile</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_CONVERT_NAME">
+      <Text>Lupaa olla kääntämättä kaupunkeja</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_DIG_ARTIFACTS_NAME">
+      <Text>Lupaa olla kaivamatta esiin arkeologisia löytöjä</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_KEEP_PROMISE_DONT_SETTLE_TOO_NEAR_NAME">
+      <Text>Lupaa, ettet asetu liian lähelle</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_INVALID">
+      <Text>En tee tätä diiliä millään ehdolla.</Text>
+    </Row>
+    <!-- Diplomactic Action Tooltips-->
+    <Row Tag="LOC_DIPLOACTION_RESEARCH_AGREEMENT_DESCRIPTION">
+      <Text>Solmi tutkimussopimus ilmoitetun ystävän tai liittolaisjäsenen kanssa. Tutkimussopimukset mahdollistavat kahden osapuolen yhteisen tutkimuksen kohteena olevasta teknologiasta. Mitä kalliimpi teknologia on kyseessä, sitä pidempi sopimuksen kesto on. Sopimuksen keston aikana kumpikin osapuoli ansaitsee Boostin kyseiseen teknologiaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_JOINT_WAR_DESCRIPTION">
+      <Text>Perusta yhteinen sota kohti kohde-sivilisaatiota.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEFENSIVE_PACT_DESCRIPTION">
+      <Text>Perustakaa puolustussopimus. Kun liittoutuman jäsentä hyökätään vastaan, kaikki jäsenet julistavat automaattisesti sodan hyökkääjälle.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_ALLIANCE_DESCRIPTION">
+      <Text>Solmi liitto julistetun ystäväsi kanssa. Liittolaiset eivät saa aloittaa sotaa keskenään, heillä on automaattisesti avoimet rajat ja kummallakin on casus belli (sotaperuste) aggressiivista sivistystä vastaan, jos jompikumpi heidän liittolaisistaan menettää kaupungin.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_RESIDENT_EMBASSY_DESCRIPTION">
+      <Text>Perusta pysyvä suurlähetystö tähän valtaan. Jos se hyväksytään, vastaanottaja on hieman ystävällisempi, saat tason Pääsy ja vastaanottajan [ICON_Capital] Pääkaupunki paljastetaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DEMAND_TRIBUTE_DESCRIPTION">
+      <Text>Vaadi diplomaattista lahjaa tästä vallasta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_OPEN_BORDERS_DESCRIPTION">
+      <Text>Pyydä tältä vallalta lupaa, jotta yksikkösi voivat matkustaa heidän hallitsemansa alueen läpi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_REQUEST_ASSISTANCE_DESCRIPTION">
+      <Text>Pyydä tältä voimalta diplomaattista lahjaa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DENOUNCE_DESCRIPTION">
+      <Text>Käytettiin aiemmin muodollisesti ilmaisemaan tyytymättömyyttä tähän voimaan. Muodollinen sodanjulistus (Casus Belliä käyttäen tai ilman) voi seurata vasta kun 5 lisäkierrosta on kulunut.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_SURPRISE_WAR_DESCRIPTION">
+      <Text>Aikaisemmin aloitti välittömästi sodan. Normaalit rangaistukset sotahalukkuudesta kasvoivat 50%.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_MAKE_PEACE_DESCRIPTION">
+      <Text>Neuvottele sopimus nykyisen sodan päättämiseksi tämän vallan kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DIPLOMATIC_DELEGATION_DESCRIPTION">
+      <Text>Lähetä delegaatio lahjana [ICON_Gold] kultaa tälle vallalle. Jos se hyväksytään, vastaanottaja on hieman ystävällisempi ja saat tason pääsyn. Kestää kunnes saat Diplomatian Palvelu -kansalaisuuden</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FRIENDSHIP_DESCRIPTION">
+      <Text>Ilmoita virallisesti aikomuksesi ylläpitää ystävällisiä suhteita tämän voiman kanssa. Ystävänä sinulla on mahdollisuus liittyä liittoon, mutta et voi julistaa virallista sotaa tätä voimaa vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_FORMAL_WAR_DESCRIPTION">
+      <Text>Käytetään julistamaan sota pelaajaa vastaan, joka on kritisoinut sinua tai jota olet kritisoinut vähintään 5 vuoroa sitten. Ei rajoituksia, minkä kaupunkien voit valloittaa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_HOLY_WAR_DESCRIPTION">
+      <Text>Käytetään julistamaan sota voimalle, joka on uskonnollisesti kääntänyt yhden kaupungeistasi. Kaikki sotaisuuteen liittyvät rangaistukset puolitetaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_DESCRIPTION">
+      <Text>Käytetään julistamaan sota valtaa vastaan, joka on vanginnut yhden ystävistäsi tai liittolaisistasi omistamasta kaupungista. Ei ole sotakiihkoilijan rangaistusta vapauttaessa näitä kaupunkeja.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_RECONQUEST_WAR_DESCRIPTION">
+      <Text>Käytetään julistamaan sota valtaa vastaan, joka on vanginnut yhden kaupungeistasi. Ei rangaistuksia sotahulluudesta.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_PROTECTORATE_WAR_DESCRIPTION">
+      <Text>Käytetään sodan julistamiseen valtaa vastaan, joka on hyökännyt yhteen liittolaiskaupungeistasi. Ei sotahullun rangaistusta vapautettaessa kyseistä kaupunkivaltiota.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_COLONIAL_WAR_DESCRIPTION">
+      <Text>Käytetään julistamaan sota voimaa vastaan, joka on kaksi teknologista aikakautta jäljessä. Kaikki sodanlietsonnan rangaistukset puolitetaan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_DESCRIPTION">
+      <Text>Käytetään julistamaan sota voimaa vastaan, joka rajautuu sinun valtakuntaasi. Sinun täytyy omistaa kaksi kaupunkia alle 10 ruudun päässä kahdesta vastustajan kaupungista. Sotahulluuden rangaistus vähenee 25%.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_PROPOSE_TRADE_DESCRIPTION">
+      <Text>Aloita kauppaneuvottelut tämän vallan kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_PROPOSE_PEACE_DEAL_DESCRIPTION">
+      <Text>Ehdota rauhansopimusta tämän vallan kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_TECH">
+      <Text>Valitse teknologia</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_ALLIANCE">
+      <Text>Valitse Allianssi</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_SELECT_TARGET">
+      <Text>Valitse kohde</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_DEAL_HOW_MANY">
+      <Text>Kuinka monta?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_GIFT">
+      <Text>Hyväksyisin tämän lahjan</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_GIFT_EFFECT">
+      <Text>Lahjat parantavat suhdettasi</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_DEMAND">
+      <Text>Mielläni neuvottelisin.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_DEMAND_EFFECT">
+      <Text>Vaatimukset vahingoittavat suhdettasi</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_UNFAIR">
+      <Text>En voi hyväksyä tätä, tämä on epäreilu diili.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_WHAT_WOULD_YOU_GIVE_ME_TOOLTIP">
+      <Text>Kysy, mitä tämä johtaja antaisi sinulle tarjouksestasi.[NEWLINE]Tämä lisää vain kohteita heidän puolelleen diilipöydälle.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_UNACCEPTABLE_DEAL">
+      <Text>En voi hyväksyä tätä sopimusta missään olosuhteissa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_UNACCEPTABLE_ITEM_TOOLTIP">
+      <Text>Sulje tarjous</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_MARK_UNACCEPTABLE">
+      <Text>Merkkaa tämä tuote hyväksymättömäksi</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_STOP_ASKING_POPUP_TEXT">
+      <Text>Merkitsemällä tämän kohteen epähyväksyttäväksi ja kieltäytymällä kaupasta estät tämän tekoälyn pyytämästä tätä kohdetta uudelleen. Haluatko jatkaa?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_STOP_ASKING_POPUP_TITLE">
+      <Text>Lopeta kysyminen?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_REMOVE_ITEM">
+      <Text>Poista tuote tarjouksesta</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_EQUALIZE_SUCCEEDED">
+      <Text>How about this?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_EQUALIZE_FAILED">
+      <Text>En ole halukas vaihtamaan sitä</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_GIFT_EQUALIZE_FAILED">
+      <Text>Minulla ei ole mitään, mitä olisin valmis vaihtamaan siihen</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_FRIENDLY_1">
+      <Text>Ehkä tulevaisuudessa löydämme sopivan diilin?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_FRIENDLY_2">
+      <Text>Toinen kerta ehkä?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_FRIENDLY_3">
+      <Text>Olen yllättynyt siitä, ettemme päässeet sopimukseen.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_NEUTRAL_1">
+      <Text>Se on sääli.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_NEUTRAL_2">
+      <Text>En uskalla nostaa tarjoustani enää korkeammaksi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_NEUTRAL_3">
+      <Text>Kuinka ikävää.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_AGGRESSIVE_1">
+      <Text>Mikä on aarteen arvo, jos et käytä sitä?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_AGGRESSIVE_2">
+      <Text>Joko tavalla tai toisella, sinä annat minulle mitä haluan.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_LEADER_TRADE_REFUSED_AGGRESSIVE_3">
+      <Text>Hyväksyn kieltäytymisesi - ainakin toistaiseksi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_EXPAND_CATEGORY">
+      <Text>Laajenna diilien kategoriaa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_COLLAPSE_CATEGORY">
+      <Text>Pudota diilin kategoria.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_EXPAND_CITY_INFO">
+      <Text>Laajenna kaupungin tietoja.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_COLLAPSE_CITY_INFO">
+      <Text>Kutista kaupunkitiedot.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

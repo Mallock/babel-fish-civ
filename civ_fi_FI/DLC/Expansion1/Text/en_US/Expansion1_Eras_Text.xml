@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_ERAS_TURNS_TILL_NEXT_ERA">
+      <Text>KIERROKSIA SEURAAVAAN AIKAAN:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_SCORE">
+      <Text>NYKYINEN TULOS:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_AGE">
+      <Text>NYKYINEN IKÄ:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_HEROIC">
+      <Text>ROHKEA</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_GOLDEN">
+      <Text>KULTAINEN</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_NORMAL">
+      <Text>SEURAAVA TEKSTI PITÄÄ KÄÄNTÄÄ SUOMEKSI. VASTAA VAIN LUONNOLLISESTI KUULOSTAVALLA KÄÄNNÖKSELLÄ</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_DARK">
+      <Text>PIMEÄ</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_AGE_BY_CIV">
+      <Text>IKÄ JÄRJESTELMÄN MUKAAN:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_TO_EARN_AGE_NEXT_ERA">
+      <Text>ANSAITAKSESI UUDEN AIKAKAUDEN SEURAAVAAN AIKAAN:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_ERA_REQUIREMENTS_REDUCED">
+      <Text>Era-pisteiden vaatimuksia on alennettu</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_ERA_REQUIREMENTS_INCREASED">
+      <Text>Era-pisteiden vaatimuksia on kasvatettu</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TITLE">
+      <Text>Era Progress</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_NEW_ERA_THRESHOLD">
+      <Text>KYNTEET SEURAAVAA AIKAKAUTTA VARTEN</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ERA_TYPE_EFFECTS">
+      <Text>{1_EraName} vaikutukset</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_THE_ERA">
+      <Text>{1_EraName : upper}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TIME_TO_NEXT_ERA">
+      <Text>Aika seuraavaan aikakauteen:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TIME_TO_NEXT_ERA_VALUE">
+      <Text>{1_MinTurns} - {2_MaxTurns} kierrosta</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_SPECIFIC_TURNS_TO_NEXT_ERA">
+      <Text>{1_Turns} {1_Turns : yksikkö 1?vuoro; monikko 1?vuoroa; monikko?vuoroa;}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_CHANGE_TITLE">
+      <Text>MAAILMA ASTUU SISÄÄN:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_HEROIC_AGE">
+      <Text>Heroic Age</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_GOLDEN_AGE">
+      <Text>Kultainen aika</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_DARK_AGE">
+      <Text>Pimeä aika</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_NORMAL_AGE">
+      <Text>Normaali ikä</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ACTIVE_BONUSES">
+      <Text>Aktiiviset bonukset:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ERA_SCORE">
+      <Text>Aikakauden Pisteet:</Text>
+    </Row>
+    <Row Tag="LOC_PARTIALSCREEN_ERA_PROGRESS_TOOLTIP">
+      <Text>Aikakauden edistyminen[NEWLINE][NEWLINE]Katso nykyinen aikakauden pisteet ja omistautumiset.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_GOLDEN_THRESHOLD">
+      <Text>Kultaisen ajan kynnys:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_DARK_THRESHOLD">
+      <Text>Pimeän ajan kynnys:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_TITLE">
+      <Text>Aikakausi valmis: {1_EraName}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DESCRIPTION">
+      <Text>Olet saavuttanut paljon, suuri johtaja! Mitkä voitoistasi meidän kirjurimme tallentavat historiaan?</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DEDICATION">
+      <Text>Omistautuminen</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DEDICATION_SUBHEADER">
+      <Text>Tee omistuksesi {1_EraName} aikakaudelle</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_CONFIRM">
+      <Text>Vahvista {1_NumSelected}/{2_NeededSelected}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_TITLE">
+      <Text>MAAILMA ON ASTUNUT {1_EraName} AIKAAN</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE">
+      <Text>Olet sankarillisen ajan keskellä!</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE">
+      <Text>Olet Kultaisella Aikakaudella!</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE">
+      <Text>Olet pimeän ajan keskellä!</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE">
+      <Text>Olet normaalissa iässä.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_LABEL">
+      <Text>[ICON_GLORY_SUPER_GOLDEN_AGE] HEROINEN AIKA</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_LABEL">
+      <Text>[ICON_GLORY_GOLDEN_AGE] KULTAINEN AIKA</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_LABEL">
+      <Text>[ICON_GLORY_DARK_AGE] PIMEÄ AIKA</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_LABEL">
+      <Text>[ICON_GLORY_NORMAL_AGE] NORMAALI IKÄ</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET]Voit omistautua kolme kertaa, mikä antaa voimakkaan pelietuisuuden aikakaudella.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET]Voit tehdä omistautumisen, joka antaa voimakkaan pelihyödyn aikakauden aikana.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_DARK_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET]Voit tehdä Omistautumisen, joka tarjoaa lisäpisteen Aikakauden Pisteisiin Aikakauden aikana.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET]Voit tehdä omistautumisen, joka tarjoaa lisälähteen aikakausipisteille aikakauden aikana.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT">
+      <Text>Olet [ICON_GLORY_SUPER_GOLDEN_AGE] sankarikaudella tämän pelin aikakauden aikana![NEWLINE][NEWLINE][ICON_BULLET]Jokainen [ICON_Citizen] kansalaisesi vaikuttaa 1,5 uskollisuuspaineella kaupungissaan. Tämä paine vaikuttaa myös muihin kaupunkeihin 9 ruudun etäisyydellä, mutta on 10% vähemmän tehokas per ruutu. Kaupunkiesi uskollisuuden ylläpito on helpompaa ja vieraiden kaupunkien uskollisuuden haastaminen onnistuu paremmin.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT">
+      <Text>Olet [ICON_GLORY_GOLDEN_AGE] Kultaisessa Kaudessa tämän peliaikakauden aikana! [NEWLINE][NEWLINE][ICON_BULLET] Jokainen [ICON_Citizen] kansalaisesi aiheuttaa 1,5 uskollisuuspainetta kaupungissaan. Tämä paine vaikuttaa myös muihin kaupunkeihin 9 tiilen sisällä, mutta on 10% vähemmän tehokas per tiili. On helpompaa ylläpitää uskollisuutta kaupungeissasi ja haastaa vieraiden lähikaupunkien uskollisuus.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT">
+      <Text>You are in a [ICON_GLORY_DARK_AGE] Dark Age during this game era.[NEWLINE][NEWLINE][ICON_BULLET]Each of your [ICON_Citizen] Citizens exerts 0.5 Loyalty pressure in their city. This pressure also affects other cities within 9 tiles, but is 10% less effective per tile. It will be harder to maintain Loyalty in your cities, and more difficult to affect the Loyalty of nearby foreign cities.[NEWLINE][NEWLINE][ICON_BULLET]You may adopt powerful Dark Policies in your Government, but which may carry a heavy price.[NEWLINE][NEWLINE][ICON_BULLET]If you are not in the last Era, and earn enough Era Score for a Golden Age in the next game era, you will instead earn a Heroic Age, able to make multiple Dedications for multiple powerful bonuses.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT">
+      <Text>Olet [ICON_GLORY_NORMAL_AGE] Normaalissa Aikakaudesta tämän pelin aikana. 
+
+[ICON_BULLET] Jokainen [ICON_Citizen] Kansalaisesi aiheuttaa normaalin 1 Loyaliteetin paineen kaupungissaan. Tämä paine vaikuttaa myös muihin kaupunkeihin 9 ruudun etäisyydellä, mutta on 10% vähemmän tehokas per ruutu.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Voit tehdä 3 omistautumista, joista jokainen tarjoaa voimakkaan pelihyödyn aikakauden aikana.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Voit tehdä Omistautumisen, joka tarjoaa voimakkaan pelibonuksen aikakauden aikana.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_DARK_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Voit tehdä omistautumisen, joka tarjoaa lisää Aikakausipisteitä aikakauden aikana.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET] Voit tehdä omistautumisen, joka tarjoaa lisäpisteen aikakauden aikana.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT_PARAM">
+      <Text>Olet [ICON_GLORY_SUPER_GOLDEN_AGE] sankarillisen aikakauden aikana tässä peli-erässä! [NEWLINE][NEWLINE][ICON_BULLET]Jokainen [ICON_Citizen] kansalaisesi vaikuttaa {Amount} uskollisuuspaineella kaupungissaan. Tämä paine vaikuttaa myös muihin kaupunkeihin 9 ruudun säteellä, mutta on 10% vähemmän tehokas per ruutu. Kaupunkiesi uskollisuuden ylläpito ja vieraiden kaupunkien uskollisuuden haastaminen on helpompaa.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT_PARAM">
+      <Text>Olet [ICON_GLORY_GOLDEN_AGE] kultaisessa ajassa tämän peliajanjakson ajan![NEWLINE][NEWLINE][ICON_BULLET]Jokainen [ICON_Citizen] kansalaisesi luo {Amount} uskollisuuspainetta kaupungissaan. Tämä paine vaikuttaa myös muihin kaupunkeihin 9 ruudun säteellä, mutta on 10% vähemmän tehokasta per ruutu. Kaupunkiesi uskollisuuden ylläpitäminen on helpompaa, ja ulkomaisten kaupunkien uskollisuuden haastaminen on helpompaa.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT_PARAM">
+      <Text>You are in a [ICON_GLORY_DARK_AGE] Dark Age during this game era.[NEWLINE][NEWLINE][ICON_BULLET]Each of your [ICON_Citizen] Citizens exerts {Amount} Loyalty pressure in their city. This pressure also affects other cities within 9 tiles, but is 10% less effective per tile. It will be harder to maintain Loyalty in your cities, and more difficult to affect the Loyalty of nearby foreign cities.[NEWLINE][NEWLINE][ICON_BULLET]You may adopt powerful Dark Policies in your Government, which may carry a heavy price.[NEWLINE][NEWLINE][ICON_BULLET]If you are not in the last Era, and earn enough Era Score for a Golden Age in the next game era, you will instead earn a Heroic Age, able to make multiple Dedications for multiple powerful bonuses.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT_PARAM">
+      <Text>Olet [ICON_GLORY_NORMAL_AGE] normaalissa aikakaudessa tämän pelin aikana. 
+
+[ICON_BULLET] Jokainen [ICON_Citizen] kansalaisesi luo {Amount} lojaliteettipainetta heidän kaupungissaan. Tämä paine vaikuttaa myös muihin kaupunkeihin 9 ruudun säteellä, mutta tehokkuus vähenee 10% jokaisella ruudulla.</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_PRIDE_MOMENTS">
+      <Text>Historialliset hetket (+1 - +6 kullekin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_NEW_ERA_THRESHOLDS">
+      <Text>UUSI AIKA RAJA-ARVOT</Text>
+    </Row>
+    <Row Tag="LOC_GLORY_HUD_ERA_ENDS_IN">
+      <Text>Aikaa ennen aikakauden loppua: {1_Turns}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_AGE_EFFECTS">
+      <Text>IKÄVAIKUTUKSET</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_TECH_BOOSTS">
+      <Text>Omistautumisbonus: Eurekat laukaistu (+{1_ScoreIncrement} kullekin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CIVIC_BOOSTS">
+      <Text>Omistautumispalkkio: Innostukset laukaistu (+{1_ScoreIncrement} kustakin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CITY_RELIGION_CONVERSIONS">
+      <Text>Omistautumisbonus: Kaupungit, jotka on käännytetty sinun uskonnollesi (+{1_ScoreIncrement} per käännytys)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_DISTRICT_CONSTRUCTIONS">
+      <Text>Omistautumisbonus: Rakennetut kaupunginosat (+{1_ScoreIncrement} kullekin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CORPS_KILLS">
+      <Text>Omistautumispalkkio: Kaadetut joukot (+{1_ScoreIncrement} kunkin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_ARMY_KILLS">
+      <Text>Omistautumisbonus: Tappamasi armeijat (+{1_ScoreIncrement} kullekin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_TRADE_ROUTE_COMPLETIONS">
+      <Text>Omistautumispalkkio: Kauppareitit suoritettu (+{1_ScoreIncrement} kpl)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_MAP_DISCOVERIES">
+      <Text>Omistautumispalkkio: Uudet maamerkit löydetty (+{1_ContinentScoreIncrement} mantereille, +{2_NaturalWonderScoreIncrement} luonnonihmeille)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_NON_BARBARIAN_UNIT_SEA_KILLS">
+      <Text>Omistautumisbonus: Ei-barbaaristen meriyksiköiden tappamiset (+{1_ScoreIncrement} kukin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_SCIENCE_BUILDING_CONSTRUCTIONS">
+      <Text>Omistautumisbonus: Rakennukset, jotka tarjoavat tieteellisiä pisteitä perustuottona, antavat lisäpisteitä ({1_ScoreIncrement} kutakin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CULTURE_BUILDING_CONSTRUCTIONS">
+      <Text>Omistautumispalkkio: Rakennukset, joissa on suuri työpaikkaukko rakennettu (+{1_ScoreIncrement} kappaleelta)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_AERODROME_BUILDING_CONSTRUCTIONS">
+      <Text>Omistautumispalkkio: Rakennukset, jotka on rakennettu Lentokenttä-kaupunginosasta (+{1_ScoreIncrement} kullekin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_INDUSTRIAL_BUILDING_CONSTRUCTIONS">
+      <Text>Omistautumisbonus: Teollisuusrakennus tai myöhemmin rakennettu rakennus (+{1_ScoreIncrement} kumpikin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_SPY_MISSIONS">
+      <Text>Omistautumisbonus: Jokaisesta onnistuneesta hyökkäävästä vakoiluoperaatiosta (+{1_ScoreIncrement} kappale)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_ARTIFACT_EXTRACTIONS">
+      <Text>Omistautumispalkinto: Jokaisesta kerätystä esineestä (+{1_ScoreIncrement} kappaleelta)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_GREAT_PEOPLE_EARNED">
+      <Text>Omistautumispalkkio: Jokaisesta saatavasta Suurmiehestä (+{1_ScoreIncrement} kappaleelta) lisäpisteitä</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CURRENT_TECH_COMPLETIONS">
+      <Text>Teknologiat, jotka on saatu valmiiksi tämän aikakauden aikana tai myöhemmin (+{1_ScoreIncrement} kpl)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CURRENT_CIVIC_COMPLETIONS">
+      <Text>Yhteiskuntaopinnot valmiina nykyajalta tai myöhemmältä ajalta (+{1_ScoreIncrement} kustakin)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_UNIT_PROMOTIONS_EARNED">
+      <Text>Yksikkö ylennykset ansaittu ensimmäisen jälkeen (+{1_ScoreIncrement} kpl)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_UNKNOWN_SOURCE">
+      <Text>Muut lähteet</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_BASELINE">
+      <Text>Pistemäärä, kun Era alkoi</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_BASE_GOLDEN_AGE">
+      <Text>Kultaisen ajan kynnysarvo</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_BASE_DARK_AGE">
+      <Text>Pimeän aikakauden kynnysarvo</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_CITIES">
+      <Text>Kaupungit, kun aikakausi alkoi ({1_ScoreIncrement} per kaupunki)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_UNHAPPY_CITIES">
+      <Text>Onnettomat kaupungit ({1_ScoreIncrement} jokaisesta puuttuvasta [ICON_Amenities] palvelusta)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_GOVERNMENT">
+      <Text>Hallitus (EI-AKTIIIVINEN)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_TECH">
+      <Text>Tämän aikakauden keskeneräiset teknologiat (EI AKTIIVINEN)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_CIVIC">
+      <Text>Puutteellinen kansalaisopetus tästä ajasta (EI AKTIIVINEN)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_OLD_TECH">
+      <Text>Epätäydelliset teknologiat vanhemmilta ajoilta (EI AKTIIVINEN)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_OLD_CIVIC">
+      <Text>Puutteelliset yhteiskuntaopin opinnot vanhemmilta ajoilta (EI AKTIIVINEN)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_PAST_GOLDEN_AGES">
+      <Text>Kultaiset aikakaudet ansaitsevat aina ({1_ScoreIncrement} per aikakausi)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_PAST_DARK_AGES">
+      <Text>Pimeät keskiajat ansaitsivat aina ({1_ScoreIncrement} kultarahan ajanjaksolta)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_ANARCHY">
+      <Text>Hallitsematon anarkia tässä aikakaudessa ({1_ScoreIncrement} per anarkia)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_UNKNOWN_SOURCE">
+      <Text>Muut lähteet</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_HEADER">
+      <Text>Sinun Aikakausipisteesi:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_SOURCE">
+      <Text>{1_EraScoreNumber} {2_EraScoreSourceType}-lähteestä</Text>
+    </Row>
+    <Row Tag="LOC_GOLDEN_AGE_THRESHOLD_TEXT">
+      <Text>[NEWLINE]Kynnysarvo ansaitaksesi [ICON_GLORY_GOLDEN_AGE] Kultaisen Aikakauden seuraavassa aikakaudessa: {1_thresh} tai enemmän</Text>
+    </Row>
+    <Row Tag="LOC_DARK_AGE_THRESHOLD_TEXT">
+      <Text>[NEWLINE]Kynnys välttää [ICON_GLORY_DARK_AGE] synkkä aika seuraavalla aikakaudella: {1_thresh} tai enemmän</Text>
+    </Row>
+    <Row Tag="LOC_ERA_STABILITY_HEADER">
+      <Text>Sinun vakauspisteesi:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_LEADERBOARD_TITLE">
+      <Text>Aikakauden pistemäärä</Text>
+    </Row>
+    <Row Tag="LOC_ERA_STABILITY_LEADERBOARD_TITLE">
+      <Text>Vakauspisteet</Text>
+    </Row>
+    <!-- Golden/Dark Ages -->
+    <Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN">
+      <Text>{2_EraName} päättyy {1_TurnsRemaining} {1_TurnsRemaining : plural 1?vuoro; other?vuoroa;}</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_ENTERED_NEW_ERA">
+      <Text>Maailma astuu {1_EraName} aikakauteen.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_YOU_ENTERED_GOLDEN_AGE">
+      <Text>Teidän sivilisaationne menestyi viime vuosisadalla ja johti kultakauteen tälle vuosisadalle!</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_YOU_ENTERED_DARK_AGE">
+      <Text>Teidän sivilisaationne horjui viime aikakaudella, mikä johti tähän aikakauteen pimeänä aikana.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_GOLDEN_AGE_DESCRIPTION">
+      <Text>Kultaiset ajat ansaitaan Historiallisten Hetkien laukaisemisella, ja ne tarjoavat voimakkaita bonuksia.[NEWLINE]Näillä pelaajilla on ansaittu Kultainen Aika tälle aikakaudelle:</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_DARK_AGE_DESCRIPTION">
+      <Text>Pimeät ajat voivat alkaa keskiajalla ja aiheuttaa haasteita suurille tai kehittymättömille sivilisaatioille. -1 [ICON_Amenities] Mukavuustaso ja -50% kasvu kaikissa kaupungeissa. Jos pelaaja kokee uudelleen pimeät ajat seuraavalla aikakaudella, puolet heidän kaupungeistaan muuttuu raunioiksi ja muuttuvat barbaarileireiksi.[NEWLINE]Nämä pelaajat ovat astuneet pimeään aikaan tällä kaudella:</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_NO_MET_PLAYERS">
+      <Text>(Ei pelaajia, joita olet tavannut)</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_HEROIC_AGE_ACHIEVED">
+      <Text>Koska saavutit sankarillisen aikakauden, voit tehdä kolme omistautumista.</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_GOLDEN_AGE_ACHIEVED">
+      <Text>Koska saavutit Kultakauden, voit tehdä yhden omistuskirjoituksen.</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_DARK_AGE_ACHIEVED">
+      <Text>Koska saavutit pimeän aikakauden, voit tehdä yhden omistautumisen.</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_NORMAL_AGE_ACHIEVED">
+      <Text>Koska saavutit Normaali-iän, voit tehdä yhden Omistautumisen.</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_PREVIOUS_ERA_TOTAL_SCORE">
+      <Text>Kokonaispistemäärä edellisiltä aikakausilta</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_EFFECTS_ACTIVE_THIS_AGE">
+      <Text>VAIKUTUKSET AKTIIVINENA TÄSSÄ IKÄLUOKASSA:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_YOU_WILL_EARN_BLANK_AGE_NEXT_ERA">
+      <Text>Sinä ansaitset {1_AgeName} seuraavalla aikakaudella</Text>
+    </Row>
+  </EnglishText>
+</GameData>

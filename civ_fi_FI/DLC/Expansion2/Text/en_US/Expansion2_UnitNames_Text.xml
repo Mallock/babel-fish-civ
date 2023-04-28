@@ -1,0 +1,972 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_BANDNAME_BASE_TEMPLATE">
+      <Text>En osaa vastata tähän ilman tarkempaa kontekstia. Voitko ystävällisesti kertoa, mitä haluaisit minun kääntävän?</Text>
+    </Row>
+    <!-- Prefix -->
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_AIR">
+      <Text>Ilma</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ALIEN">
+      <Text>Avaruusolento (or "Ulkomaalainen" which also means "foreigner")</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ANCIENT">
+      <Text>Muinainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ANGRY">
+      <Text>Vihaava or vihainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ANIMAL">
+      <Text>Eläin</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_APPEALING">
+      <Text>Vetovoimainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ARCTIC">
+      <Text>Arktinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ASYLUM">
+      <Text>Turvapaikka</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ATOMIC">
+      <Text>Atomimääräinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_AUDIO">
+      <Text>Ääni</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_BAD">
+      <Text>Huono</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_BIG">
+      <Text>Iso</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_BLACK">
+      <Text>Musta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_BLIND">
+      <Text>Sovinisti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_BLONDE">
+      <Text>Vaalea</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_BLUE">
+      <Text>Sininen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_BROKEN">
+      <Text>Rikki</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_BROWN">
+      <Text>Ruskea</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_BUFFALO">
+      <Text>Buffalo</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_CHEAP">
+      <Text>Halpa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_CLASSICAL">
+      <Text>Klassinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_COLD">
+      <Text>Kylmä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_COLLECTIVE">
+      <Text>Kollektiivi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_COOL">
+      <Text>Siisti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_DARK">
+      <Text>Tumma</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_DAY">
+      <Text>Päivä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_DEEP">
+      <Text>Syvä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_DIRE">
+      <Text>Dire</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ELECTRIC">
+      <Text>Sähköinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ENLIGHTENED">
+      <Text>Valaistunut</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_EPIC">
+      <Text>Eeppinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_EXTREME">
+      <Text>Äärimmäinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_FAKE">
+      <Text>Väärä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_FLAMING">
+      <Text>Flamingo</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_FLYING">
+      <Text>Lentäminen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_FOREST">
+      <Text>Metsä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_FREE">
+      <Text>Ilmainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_FRIENDLY">
+      <Text>Ystävällinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_FRIGHTENED">
+      <Text>Pelästynyt</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_FURRY">
+      <Text>Furry </Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_FURY">
+      <Text>Kiukku</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_GIANT">
+      <Text>Jätti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_GOLD">
+      <Text>Kulta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_GRATEFUL">
+      <Text>Kiitollinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_GREEN">
+      <Text>Vihreä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_HILARIOUS">
+      <Text>Hauskaa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_HOLY">
+      <Text>Pyhä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_HOT">
+      <Text>Kuuma</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_HUMAN">
+      <Text>Ihminen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_HUNGRY">
+      <Text>Nälkäinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_INDIGO">
+      <Text>Indigo</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_INDUSTRIAL">
+      <Text>Teollisuus</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_IRON">
+      <Text>Rauta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_JOYOUS">
+      <Text>Iloinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_KIND">
+      <Text>Ystävällinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_LIGHT">
+      <Text>Valo</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_LITTLE">
+      <Text>Pieni</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_LONELY">
+      <Text>Yksinäinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_LOST">
+      <Text>Kadonnut</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_LOUD">
+      <Text>Äänekäs</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_LOW">
+      <Text>Matala</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_LOYAL">
+      <Text>Uskollinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MAGIC">
+      <Text>Taikuus</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MAJOR">
+      <Text>Pääaine</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MAXIMUM">
+      <Text>Enimmäismäärä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MEDIEVAL">
+      <Text>Keskaikaista</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MEGA">
+      <Text>Mega</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MENACING">
+      <Text>Uhkaava</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MIDDLE">
+      <Text>Keskimmäinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MIDNIGHT">
+      <Text>Keskiyö</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MIND">
+      <Text>Mieli</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MINI">
+      <Text>Mini</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MINOR">
+      <Text>Alaikäinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MODERN">
+      <Text>Moderni</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MODEST">
+      <Text>Vaatimaton</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MOUNTAIN">
+      <Text>Vuori</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MUTE">
+      <Text>Mute</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_MYSTERY">
+      <Text>Mysteeri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_NATURAL">
+      <Text>Okay, here's the translation:
+
+Seuraava teksti tulee kääntää suomeksi. Vastaa vain luonnolliselta kuulostavalla käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_NEW">
+      <Text>Uusi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_NIGHT">
+      <Text>Yö</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_NUCLEAR">
+      <Text>Ydin-</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_OLD">
+      <Text>Vanha</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ORANGE">
+      <Text>Oranssi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_OVERPOWERED">
+      <Text>Ylivoimainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_PALE">
+      <Text>Kalpea</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_PEOPLE">
+      <Text>Ihmiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_PERFECT">
+      <Text>Täydellinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_PERFUME">
+      <Text>Hajuvesi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_PETIT">
+      <Text>Petit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_PINK">
+      <Text>Vaaleanpunainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_POLITICAL">
+      <Text>Politiikka</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_PSYCHEDELIC">
+      <Text>Psykedeelinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_PURPLE">
+      <Text>Purppura</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_QUIET">
+      <Text>Hiljaa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_RADICAL">
+      <Text>Radikaali</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_RAINBOW">
+      <Text>Sateenkaari</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_RANDOM">
+      <Text>Satunnainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_REAL">
+      <Text>Todellinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_RED">
+      <Text>Punainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_RELIGIOUS">
+      <Text>Uskonnollinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_RENAISSANCE">
+      <Text>Renessanssi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_RIVAL">
+      <Text>Kilpailija</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_SICK">
+      <Text>Sairas</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_SILENT">
+      <Text>Hiljainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_SILVER">
+      <Text>Hopea</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_SMASHING">
+      <Text>Hienoa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_SOCIAL">
+      <Text>Sosiaalinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_SPACE">
+      <Text>Avaruus</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_SPEEDY">
+      <Text>Nopea</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_STOLEN">
+      <Text>Varastettu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_SUPER">
+      <Text>Hyvä!</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_TALKING">
+      <Text>Puhuminen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_TAME">
+      <Text>Kesy</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_TOXIC">
+      <Text>Toksinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_TRADITIONAL">
+      <Text>Seuraava teksti tulee kääntää. Vastaa vain luonnollisella kuulostavalla käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_UNIQUE">
+      <Text>Uniikki</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_UNDERGROUND">
+      <Text>Maanalainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_UNKNOWN">
+      <Text>Tuntematon</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_VEGAN">
+      <Text>Vegaani</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_WAR">
+      <Text>Sota</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_WATER">
+      <Text>Vesi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_WHITE">
+      <Text>Valkoinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_WILD">
+      <Text>Villi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_XERIC">
+      <Text>Xeric</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_YELLOW">
+      <Text>Keltainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_YOUNG">
+      <Text>Nuori</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_PREFIX_ZEALOUS">
+      <Text>Innokas</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_TITANIUM">
+      <Text>Titanium (same in Finnish)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_DEATH">
+      <Text>Kuolema</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_HELL">
+      <Text>Hei, or Moi (informal)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_DIABOLICAL">
+      <Text>Pahantahtoinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_LAND">
+      <Text>Maa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_GARGANTUAN">
+      <Text>Jättimäinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_MAMMOTH">
+      <Text>Mammutti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_MONSTROUS">
+      <Text>Hirviömäinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_ARMORED">
+      <Text>Panssaroitu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_CYBERNETIC">
+      <Text>Kyberneettinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_TERRIBLE">
+      <Text>Kauhea</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_ABOMINABLE">
+      <Text>Kauhea</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_INFERNAL">
+      <Text>Infernaalinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_PREFIX_DREAD">
+      <Text>Kauhu</Text>
+    </Row>
+    <!-- Suffix-->
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ANIMALS">
+      <Text>Eläimet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ANT">
+      <Text>eeksi tarvitsee kääntää seuraava teksti suomeksi. Vastaa vain luonnollisella käännöksellä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ATLAS">
+      <Text>Atlas</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_AUTHORS">
+      <Text>Kirjoittajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BAND">
+      <Text>Yhtye</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BARBARIANS">
+      <Text>Barbaarit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BEACH">
+      <Text>Ranta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BEARS">
+      <Text>Karhut</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BEATS">
+      <Text>Beats</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BELLS">
+      <Text>Kellot</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BOOKS">
+      <Text>Kirjat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BREAKFAST">
+      <Text>Aamiainen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BUCKET">
+      <Text>Ämpäri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BUFFALO">
+      <Text>Buffalo (this is already in English and doesn't require translation)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BUGS">
+      <Text>Ötökät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_BUILDERS">
+      <Text>Rakentajat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CANAL">
+      <Text>Kanava</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CARD">
+      <Text>Kortti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CARROTS">
+      <Text>Porkkanat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CARS">
+      <Text>Autot</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CASTLES">
+      <Text>Linnoitukset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CATS">
+      <Text>Kissat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CAVE">
+      <Text>Luola</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CELL">
+      <Text>Solu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CHAIR">
+      <Text>Tuoli</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CHINCHILLA">
+      <Text>Chinchilla</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CITIES">
+      <Text>Kaupungit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CIVICS">
+      <Text>Kansalaisoppi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CIVILIZATION">
+      <Text>Sivilisaatio</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CLUB">
+      <Text>Klubi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_COAST">
+      <Text>Rannikko</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_COFFEE">
+      <Text>Kahvi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CONTINENTS">
+      <Text>Maanosat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_COOKIES">
+      <Text>Evästeet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_COUNTRY">
+      <Text>Maa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CREW">
+      <Text>Miehistö</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CROWS">
+      <Text>Varikset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_CULTURE">
+      <Text>Kulttuuri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_DATES">
+      <Text>Päivämäärät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_DEATH">
+      <Text>Kuolema</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_DEITY">
+      <Text>Jumaluus</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_DIAMONDS">
+      <Text>Timantit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_DISTRICTS">
+      <Text>Alueet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_DOGS">
+      <Text>Koirat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_DRAGONS">
+      <Text>Lohikäärmeet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_EAGLE">
+      <Text>Kotka</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ECHIDNA">
+      <Text>Echidna</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_EEL">
+      <Text>Ankerias</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ELEPHANT">
+      <Text>Elefantti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_EMERGENCIES">
+      <Text>Hätätilanteet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_EMPEROR">
+      <Text>Keisari</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_EMPIRE">
+      <Text>Valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_EMPRESS">
+      <Text>Keisarinna</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_EMU">
+      <Text>Emu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ENEMY">
+      <Text>Vihollinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ENVOYS">
+      <Text>Lähettiläät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_EVENT">
+      <Text>Tapahtuma</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_EXPLOSIONS">
+      <Text>Räjähdykset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_EYES">
+      <Text>Silmät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_FAITH">
+      <Text>Usko</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_FARMS">
+      <Text>Maatilat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_FIGHTERS">
+      <Text>Taistelijat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_FIRE">
+      <Text>Tuli</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_FOOD">
+      <Text>Ruoka</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_GENIUS">
+      <Text>Nero</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_GHOST">
+      <Text>Haamu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_GIANTS">
+      <Text>Jättiläiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_GOATS">
+      <Text>Vuohet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_GOLD">
+      <Text>Kulta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_GOSSIP">
+      <Text>Juoru</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_GOVERNORS">
+      <Text>Kuvernöörit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_GUITARS">
+      <Text>Kitarat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_HATS">
+      <Text>Hatut</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_HEART">
+      <Text>Sydän</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_HIGH">
+      <Text>Korkea</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_HIPPOS">
+      <Text>Norsut</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_HISTORY">
+      <Text>Historia</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_HORSES">
+      <Text>Hevoset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_HOUSE">
+      <Text>Talo</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_HUNTED">
+      <Text>Jahtasi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_IMPROVEMENT">
+      <Text>Parannus</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ISLANDS">
+      <Text>Saaret</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_JACKET">
+      <Text>Takki</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_JETS">
+      <Text>Jets. (There is no context or sentence to provide a natural sounding translation.)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_KALE">
+      <Text>Kale</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_KING">
+      <Text>Kuningas</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_KITTEN">
+      <Text>Pentu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_LASER">
+      <Text>Laseri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_LEAGUE">
+      <Text>Liiga</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_LETTERS">
+      <Text>Kirjaimet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_LIZARD">
+      <Text>Lisko</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_LOW">
+      <Text>Matala</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_LOYALISTS">
+      <Text>Uskolliset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_MACHINE">
+      <Text>Kone</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_MANIACS">
+      <Text>Maniakit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_MAP">
+      <Text>Kartta</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_METAL">
+      <Text>Metalli</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_MINDS">
+      <Text>Mielet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_MINES">
+      <Text>Kaivokset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_NATION">
+      <Text>Kansa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_NOISE">
+      <Text>Melu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_OBSERVATIONS">
+      <Text>Havainnot</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ORCHESTRA">
+      <Text>Orkesteri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ORDER">
+      <Text>Tilaus</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PANTHEON">
+      <Text>Pantheon</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PARTY">
+      <Text>Juhla</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PEACOCK">
+      <Text>Peacock - Riikinkukko</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PENGUIN">
+      <Text>Pingviini</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PEOPLE">
+      <Text>Ihmiset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PEPPERS">
+      <Text>Pippurit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_POETS">
+      <Text>Runoilijat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_POND">
+      <Text>Lampi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_POWER">
+      <Text>Voima</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PRINCE">
+      <Text>Prinssi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PRINCESS">
+      <Text>Prinsessa</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PRODUCTION">
+      <Text>Tuotanto</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PROPHETS">
+      <Text>Profeetat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PUNK">
+      <Text>Punk</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_PUPPIES">
+      <Text>Pentuja</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_QUEEN">
+      <Text>Kuningatar</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_QUESTIONS">
+      <Text>Kysymykset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_RABBIT">
+      <Text>Kani</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_RANGER">
+      <Text>Rangeri</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_REJECTS">
+      <Text>Hylkää</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_REVOLUTION">
+      <Text>Vallankumous</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_RHINO">
+      <Text>Norsu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_RIOT">
+      <Text>Kapina</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_RIVERS">
+      <Text>Joet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ROBOTS">
+      <Text>Robottit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SABOTAGE">
+      <Text>Sabotaasi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SCIENCE">
+      <Text>Tiede</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SETTLERS">
+      <Text>Asukkaat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SLANG">
+      <Text>Slang</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SLOTH">
+      <Text>Laiskuus</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SNAKE">
+      <Text>Käärme</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SOUL">
+      <Text>Sielu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SPADES">
+      <Text>Patakortit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SPIDERS">
+      <Text>Hämähäkit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SPIES">
+      <Text>Vakoilijat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SQUIRRELS">
+      <Text>Oravat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_STAR">
+      <Text>Tähti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_STONES">
+      <Text>Kivet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_STOPLIGHT">
+      <Text>Pysäköintikielto- tai liikennevalo</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SURPRISE">
+      <Text>Yllätys</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SUSHI">
+      <Text>Sushi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_SUZERAINS">
+      <Text>Suzerains - ylijumalat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_TECHNOLOGIES">
+      <Text>Teknologiat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_TILES">
+      <Text>Tiikerit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_TIGERS">
+      <Text>Laatat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_TOMATOES">
+      <Text>Tomaatit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_TRADERS">
+      <Text>Kauppiaat</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_TRICK">
+      <Text>Temppu</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_TURNS">
+      <Text>Käännökset</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_TURTLE">
+      <Text>Kilpikonna</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_VULTURES">
+      <Text>Gribit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_WALLS">
+      <Text>Seinät</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_WOLF">
+      <Text>Susi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_WOMBATS">
+      <Text>Wombatit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_WONDERS">
+      <Text>Ihmeet</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_XYLOPHONES">
+      <Text>Ksylofonit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_YAKS">
+      <Text>Jakit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_ROCK_BAND_SUFFIX_ZOMBIES">
+      <Text>Zombit</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_MACHINE">
+      <Text>Kone</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_MECH">
+      <Text>Mech</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_GOLEM">
+      <Text>Golem</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_BEHEMOTH">
+      <Text>Behemoth</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_COLOSSUS">
+      <Text>Kolossi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_HULK">
+      <Text>Hulk</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_BEAST">
+      <Text>Eläin</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_OGRE">
+      <Text>Ogre (this word is the same in Finnish as well)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_MONSTROSITY">
+      <Text>Hirviöllisyys</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_ROBOT">
+      <Text>Robotti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_AUTOMATON">
+      <Text>Automaatti</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_CYCLOPS">
+      <Text>Kyklooppi</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_GIANT">
+      <Text>Jättiläinen</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_TITAN">
+      <Text>Titan</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_WALKER">
+      <Text>Kävelijä</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_GDR_SUFFIX_DEVASTATOR">
+      <Text>Devastator</Text>
+    </Row>
+  </EnglishText>
+</GameData>

@@ -1,0 +1,1884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <!-- Combat Modifiers -->
+    <Row Tag="LOC_GOVERNOR_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Kuvernööri)</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(Allianssi)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_DIPLOMATIC_BONUS">
+      <Text>+{1_Value} Viimeaikainen diplomaattinen muutos</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ESPIONAGE_BONUS">
+      <Text>+{1_Value} Tiedot vastustajan liikkeistä</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_CITY_COMBAT_BONUS">
+      <Text>+{1_Value} Linnakomentaja</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ALLIANCE_MILITARY_BUFF">
+      <Text>+{1_Value} sotilasliitosta</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_EMERGENCY_MILITARY_BUFF">
+      <Text>[COLOR_RED]{1_Value: number +#;-#}[ENDCOLOR] hätätilanteesta</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ALLIANCE_RELIGIOUS_COMBAT_BUFF">
+      <Text>Uskonnolliselta liitolta saatu {1_Value}</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ANTI_AIR_DEFENSE_BONUS_DESC">
+      <Text>+{1_Value} vahvisti ilmatorjuntapuolustusta</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_RELIGIOUS_CITY_BONUS">
+      <Text>+{1_Value} Suurinkvisitioorin kuvernööri ylennys</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_LESS_EFFECTIVE_VS_LAND_UNITS_DESC">
+      <Text>-{1_Value} Vähemmän tehokas maajoukkoja vastaan</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_LESS_EFFECTIVE_VS_NAVAL_UNITS_DESC">
+      <Text>-{1_Value} Vähemmän tehokas verrattuna merivoimien yksiköihin</Text>
+    </Row>
+    <Row Tag="LOC_REPORTS_LOYALTY">
+      <Text>Asiakasuskollisuus</Text>
+    </Row>
+    <Row Tag="LOC_REPORTS_GOVERNOR">
+      <Text>Kuvernööri</Text>
+    </Row>
+    <Row Tag="LOC_POST_COMBAT_LOYALTY_PLUS">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num} Uskollisuus[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_POST_COMBAT_LOYALTY_MINUS">
+      <Text>[COLOR_RED]{1_Num} Uskollisuus[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_AMENITIES_LOST_FROM_GOVERNORS">
+      <Text>Guvernöörin tarjoamat mukavuudet:</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_OCCUPIED_LOYALITY_STATUS">
+      <Text>Varattu: {1_LoyalityStatus}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_TITLE">
+      <Text>KUVERNÖÖRIT</Text>
+    </Row>
+    <Row Tag="LOC_NO_GOVERNORS_TITLE_AVAILABLE">
+      <Text>Ei saatavilla olevia kuvernööritittelit</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PANEL_UNMET_CIV">
+      <Text>Kohtaamaton sivilisaatio</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GROWTH_OCCUPIED">
+      <Text>Varattu</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_PATRONAGE_FAITH_OFF">
+      <Text>[COLOR_RED]Uskonnollisen uskon käyttäminen suojelukseen on pois käytöstä yhden nykyisten politiikkojesi vuoksi. [ICON_Faith][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_PATRONAGE_GOLD_OFF">
+      <Text>[COLOR_RED]Kuluttaa [ICON_Gold] Kultaa suojeluun käytettyä vallankäyttöä on estetty yhden nykyisistä politiikoistasi toimesta. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATIONS_CANNOT_REPAIR_BLOCKED_BY_POLICY">
+      <Text>Ei voi parantua tässä alueessa politiikkavalinnan vuoksi</Text>
+    </Row>
+    <!-- Alliance Text -->
+    <Row Tag="LOC_DIPLOACTION_INVALID_REASON_YOU_HAVE_THIS_ALLIANCE">
+      <Text>Sinulla on jo tämäntyyppinen liitto toisen sivilisaation kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_INVALID_REASON_THEY_HAVE_THIS_ALLIANCE">
+      <Text>{1_OtherCiv}illa on jo tämäntyyppinen liitto toisen sivilisaation kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_COLON_INPUT">
+      <Text>Liittouman taso: {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_COLON">
+      <Text>Liiton taso:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL">
+      <Text>Allianssin taso</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_COLON">
+      <Text>Liittouman pisteet:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_PER_TURN">
+      <Text>+{1_PisteetKohtiVuoroa}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_NEEDED">
+      <Text>{1_PointsNeeded}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_CURRENT">
+      <Text>Nykyinen liittouma: {1_AllianceTypeName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_BUTTON_TOOLTIP">
+      <Text>Näet tärkeitä tietoja liittoumasi tason suhteen tämän johtajan kanssa, mukaan lukien mitä liittouman etuja sinulla on käytettävissäsi.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_SCIENCE_NAME_LEVEL">
+      <Text>Tutkimusliiton taso {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_CULTURAL_NAME_LEVEL">
+      <Text>Kulttuuriliiton taso {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_ECONOMIC_NAME_LEVEL">
+      <Text>Taloudellinen liitto taso {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_MILITARY_NAME_LEVEL">
+      <Text>Sotilasliiton taso {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_RELIGIOUS_NAME_LEVEL">
+      <Text>Uskonnollisen liiton taso {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_RESEARCH">
+      <Text>Tutkimusliittouma</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_CULTURAL">
+      <Text>Kulttuuri-liittouma (or) Kulttuuriliitto</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_MILITARY">
+      <Text>Sotilasliitto</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_ECONOMIC">
+      <Text>Taloudellinen allianssi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_RELIGIOUS">
+      <Text>Uskonnollinen allianssi</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_RESEARCH">
+      <Text>Luo tutkimusliittouma</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_CULTURAL">
+      <Text>Luo kulttuuriyhteisö</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_MILITARY">
+      <Text>Luo sotilasliitto</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_ECONOMIC">
+      <Text>Luo taloudellinen liittouma</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_RELIGIOUS">
+      <Text>Luo uskonnollinen liittouma</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_RENEW_ALLIANCE">
+      <Text>Uudista liitto</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES">
+      <Text>Liittoumat</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_TT">
+      <Text>Ehdota allianssia tämän voiman kanssa</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_RENEW_ALLIANCE_TT">
+      <Text>Ehdota nykyisen liittoutumasi keston jatkamista tämän voiman kanssa</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_CURRENT_BENEFITS_HEADER">
+      <Text>Nykyinen liittoutumasi antaa nämä edut:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_LEVEL_UP_BENEFITS_HEADER">
+      <Text>Seuraavalla Liittotason nousulla Liittosi saavat seuraavat lisäedut:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_ALLIANCES">
+      <Text>{1_Tooltip}[NEWLINE]Kaiken kaikkiaan [ICON_Tourism] matkailu kasvoi +{2_Percent} liitoilta</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_SCIENCE_MODIFIER_FROM_ALLIANCES">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) kaikista liitoista</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_CULTURE_FROM_ALLIANCES">
+      <Text>{Value : number +#.#;-#.#}% ({ActualValue : number +#.#;-#.#}) kaikista liitoista</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAITH_FROM_ALLIANCES">
+      <Text>{Value : number +#.#;-#.#} uskonnollisista liitoista</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_SHARED_VIS_EFFECT">
+      <Text>Yhteinen näkyvyys</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_NO_CULTURE_PRESSURE_EFFECT">
+      <Text>Liittolaisesi kaupungit eivät vaikuta lojaalisuuspaineella sinun kaupunkeihisi, eikä päinvastoin</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_NO_RELIGIOUS_PRESSURE_EFFECT">
+      <Text>Sinun liittolaisesi uskonto ei aiheuta uskonnollista painetta kaupungeissa, jotka ovat hallitsemasi uskonnon dominoimia, ja päinvastoin</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_MILITARY_EFFECT_1">
+      <Text>+5 [ICON_Strength] Taisteluvoimaa pelaajien joukkoja vastaan, jotka ovat sodassa sinua ja liittolaistasi vastaan</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_1">
+      <Text>+4 [ICON_GOLD] Kultaa [ICON_TradeRoute] kauppareiteiltä liittolaisellesi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_2">
+      <Text>+2 [ICON_GOLD] Kulta [ICON_TradeRoute] kauppareiteiltä liittolaiseltasi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_1">
+      <Text>+2 [ICON_FAITH] Uskoa kauppareiteiltä [ICON_TradeRoute] liittolaisellesi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_2">
+      <Text>+1 [ICON_FAITH] Uskoa [ICON_TradeRoute] Kauppareittejä liittolaiseltasi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_1">
+      <Text>+2 [ICON_Culture] kulttuuria [ICON_TradeRoute] kauppateiden kautta liittolaisellesi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_2">
+      <Text>+1 [ICON_Culture] Kulttuuria liittolaisesi [ICON_TradeRoute] kauppateiltä</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_1">
+      <Text>+2 [ICON_SCIENCE] Tiedettä [ICON_TradeRoute] kauppareiteiltä liittolaisellesi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_2">
+      <Text>+1 [ICON_SCIENCE] tiede [ICON_TradeRoute] kauppareitiltä liittolaiseltasi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_ECONOMIC_EFFECT_1">
+      <Text>Bonuksena saat [ICON_Envoy] Lähettilään pisteen jokaisesta kaupunkivaltiosta, jonka liittolaisesi on Suzerainina</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_MILITARY_EFFECT_1">
+      <Text>+15% [ICON_PRODUCTION] tuotanto sotilasyksiköille kun sinä tai liittolaisesi ovat sodassa</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_RELIGIOUS_EFFECT_1">
+      <Text>+10 uskonnollista taisteluvoimaa ei-liittolaisten uskontoja vastaan</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_RESEARCH_EFFECT_1">
+      <Text>Joka 30 kierroksen välein (standardin mukaan) saat avattua [ICON_TechBoosted] Eurekan teknologialle, jonka liittolaisesi on tutkinut tai virittänyt, mutta jota et itse ole tutkinut</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_CULTURAL_EFFECT_1">
+      <Text>Jokainen [ICON_District]-kaupunginosasi myöntää lisäksi yhden [ICON_GreatPerson]-suurhenkilöpisteen vuosittain, jos sinulla on [ICON_TradeRoute]-kauppareitti kyseisestä kaupungista liittolaisesi luo</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_MILITARY_EFFECT_1">
+      <Text>Yksiköt aloittavat ilmaisella kampanjalla</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RELIGIOUS_EFFECT_1">
+      <Text>+1 [ICON_FAITH] Uskoa jokaiselle [ICON_Citizen] Kansalaiselle, jotka seuraavat liittolaisesi uskontoa</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RELIGIOUS_EFFECT_2">
+      <Text>Uskonnollinen painostus kaupungeissa, joissa ei ole liittolaisesi uskontoa seuraavia</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RESEARCH_EFFECT_1">
+      <Text>+10% [ICON_SCIENCE] Tiede, kun sinä tai liittolaisesi tutkivat teknologiaa, jonka toinen on jo suorittanut, tai tutkivat samaa teknologiaa</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_CULTURAL_EFFECT_1">
+      <Text>Saat +20% liittolaisesi [ICON_Tourism] matkailusta kaupungeista</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_CULTURAL_EFFECT_2">
+      <Text>Saavutat +10% liittolaisesi [ICON_Culture] kulttuurista kaupungeissa</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_ECONOMIC_EFFECT">
+      <Text>Jaa Suzerainin ainutlaatuiset edut liittolaisesi kanssa</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_DEFAULT">
+      <Text>{1_Amount} pistettä liittolaisuudesta</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_TRADE_ROUTES_TO_THEM">
+      <Text>[NEWLINE]{1_Amount} pistettä liittolaisellesi tekemästäsi [ICON_TradeRoute] kauppareitistä</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_TRADE_ROUTES_FROM_THEM">
+      <Text>[NEWLINE]{1_Amount} pistettä liittolaisesi kanssa olevasta [ICON_TradeRoute] kauppareitistä</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_COMMON_ENEMY">
+      <Text>[NEWLINE]{1_Amount} pistettä yhteisen vihollisen julistamisesta sotaan</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_YOUR_MODIFIER">
+      <Text>[NEWLINE]{1_Amount} pistettä muista lähteistäsi</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_THEIR_MODIFIER">
+      <Text>[NEWLINE]{1_Amount} pistettä liittolaisesi muista lähteistä</Text>
+    </Row>
+    <!-- New Government Text -->
+    <Row Tag="LOC_GOVT_POLICY_TYPE_DARKAGE">
+      <Text>Pimeän aikakauden politiikat</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_XP1">
+      <Text>+1 kaikille tuotoille jokaisesta hallintorakennuksesta ja palatsista kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_XP1">
+      <Text>Kaikki maalla hyökkäävät, hevosvastaiset ja merellä hyökkäävät yksiköt saavat +4 [ICON_Strength] taisteluvoimaa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_XP1">
+      <Text>Kaikki kaupungit, joilla on kaupunginosa, saavat +1 [ICON_Housing] asuntoa ja +1 [ICON_Amenities] mukavuutta.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_XP1">
+      <Text>+1 [ICON_Housing] Asuntoa kohden seinien tasoa kohti. +2 [ICON_Favor] Diplomatiaa suosimusta jokaista renessanssiaitausta kohden.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1">
+      <Text>+5 [ICON_Religion] Uskonnollinen voima teologisessa taistelussa.[NEWLINE]+0.5 [ICON_Faith] Usko per [ICON_Citizen] Kansalainen kaupungeissa, joissa on [ICON_Governor] Kuvernööreitä.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_XP1">
+      <Text>+10% [ICON_GOLD] Kultaa kaikissa kaupungeissa, joissa on [ICON_Governor] kuvernööri.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_XP1">
+      <Text>Kaikki yksiköt saavat +5 [ICON_Strength] taistelutehoa. Sotaväsymys vähentynyt 15%.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1">
+      <Text>+0,6 [ICON_Production] tuotantoa per [ICON_Citizen] kansalainen kaupungeissa, joissa on [ICON_Governor] kuvernööri.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP1">
+      <Text>+1 [ICON_Tuotanto] Tuotanto, +1 [ICON_Asuminen] Asuminen per Kaupunginosa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_XP1">
+      <Text>+10% tuotanto Ihmeille.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_XP1">
+      <Text>+20% yksikkökokemus.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_XP1">
+      <Text>+15% Suuren henkilön pisteitä.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1">
+      <Text>+50% Vaikutuspisteet.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_XP1">
+      <Text>15% alennus ostoksista [ICON_Faith] uskolla.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_XP1">
+      <Text>+15% tuotanto kaupunginosille.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_XP1">
+      <Text>+50% tuotanto yksiköitä kohti.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP1">
+      <Text>+15% Tuotanto.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_XP1">
+      <Text>15% alennus ostoksista [ICON_Gold] Goldin kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_UNLOCKS_POLICY_CARD">
+      <Text>Avaa {1_PolicyName} politiikkakortin.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+4 Oligarkisten perintö</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 Theokraattisesta perinnöstä</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_BUFF_MODIFIER_DESCRIPTION">
+      <Text>+5 fasismin perintöä</Text>
+    </Row>
+    <!-- Governors UI -->
+    <Row Tag="LOC_GOVERNORS_SCREEN_TAB_OWNED_GOVERNORS">
+      <Text>Nykyiset kuvernöörit</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_TAB_GOVERNOR_CANDIDATES">
+      <Text>Ehdokkaat</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_APPOINT_GOVERNOR">
+      <Text>Määrätä</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_DETAILS">
+      <Text>Details</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_PROMOTE">
+      <Text>Promotoida</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_VIEW_PROMOTIONS">
+      <Text>Näytä tarjoukset</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ESTABLISHED_IN">
+      <Text>Perustettu:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TRANSITIONING_TO">
+      <Text>Politiikan vallan vakiinnuttaminen:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_NEEDS_ASSIGNMENT">
+      <Text>Tarvitsee tehtävänanto</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_REPLACES">
+      <Text>Korvaa:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_CONFIRM_REPLACEMENT">
+      <Text>KORVATA KUVERNÖÖRI? Tämän kuvernöörin paikalle asettaminen korvaa kaupungin nykyisen kuvernöörin.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_PLUS_PRESSURE">
+      <Text>{1_Paine: numero +#;-#}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_IS_ESTABLISHED">
+      <Text>{1_Name} ({2_Type}) on perustettu tässä kaupungissa</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_IS_ESTABLISHING">
+      <Text>{1_Name} ({2_Type}) perustaa liiketoiminnan tässä kaupungissa</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_NO_GOVERNOR">
+      <Text>Ei nimettyä kuvernööriä</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_CURRENT_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>Nykyinen uskollisuus per kierros</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_FUTURE_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>Lojaalisuus kierrosta kohti tämän kuvernöörin kanssa vahvistettu</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TRANSITION_TURNS">
+      <Text>{1_NumTurns} Kierrokset</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TURNS_UNTIL_ESTABLISHED">
+      <Text>{1_NumTurns} käännöstä ennen kuin saavutetaan vakaa tila</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_NAME_WITH_TURNS">
+      <Text>{1_GovernorName} ({2_Turns} {2_Turns : plural 1?vuoro; other?vuoroa;})</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_NEUTRALIZED">
+      <Text>Neutralisoitu</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_NEUTRALIZED_TURNS_REMAINING">
+      <Text>({1_Turns} lisää kierrosta)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_CANDIDATE">
+      <Text>Kuvernöörikandidaatti</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ASSIGN_TO">
+      <Text>Määrää {1_GovernorName}:ksi:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_BASE_ABILITY_HEADER_TEXT">
+      <Text>Peruskyky:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_PROMOTIONS_HEADER_TEXT">
+      <Text>Kampanjat:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_CHANGE_ASSIGNMENT">
+      <Text>Vaihda kaupunkipalvelua</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_GRANT_PROMOTION">
+      <Text>Tuetun edistäminen</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_GOVERNOR_NEUTRALIZED">
+      <Text>Ei käytössä</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_CANCEL_PROMOTE_PROMPT">
+      <Text>Valittu tarjous ei aktivoidu, jos poistut tästä näytöstä. Haluatko jatkaa?</Text>
+    </Row>
+    <!-- Governors -->
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_NAME">
+      <Text>Victor</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_NAME">
+      <Text>Amani</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_NAME">
+      <Text>Moksha</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME">
+      <Text>Magnus</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_NAME">
+      <Text>Liang</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_NAME">
+      <Text>Pingala</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_NAME">
+      <Text>Reyna</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_TITLE">
+      <Text>Linnoituksen päällikkö</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_TITLE">
+      <Text>Diplomaatti</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_TITLE">
+      <Text>Kardinaali</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_TITLE">
+      <Text>Talonmies</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_TITLE">
+      <Text>Maanmittari</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_TITLE">
+      <Text>Kasvattaja</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_TITLE">
+      <Text>Finanssialan ammattilainen</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_SHORT_TITLE">
+      <Text>Castellan - linnavouti</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_SHORT_TITLE">
+      <Text>Diplomaatti</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_SHORT_TITLE">
+      <Text>Kardinaali</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_SHORT_TITLE">
+      <Text>Lentohenkilökunnan jäsen</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_SHORT_TITLE">
+      <Text>Mittausinsinööri</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_SHORT_TITLE">
+      <Text>Kasvattaja</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_SHORT_TITLE">
+      <Text>Rahoittaja</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_DESCRIPTION">
+      <Text>Kun se on kerran perustettu kaupunkiin, {LOC_GOVERNOR_THE_DEFENDER_NAME} on avainasemassa sen vahvistamisessa, säilyttämisessä ja puolustamisessa ulkoisia uhkia vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_DESCRIPTION">
+      <Text>Taitava saamaan tukea sivilisaatiollesi ja levittämään sen vaikutusta lähikaupunkeihin. {LOC_GOVERNOR_THE_AMBASSADOR_NAME} on ainoa kuvernööri, joka voi saada ulkomaisen tehtävän kaupunkivaltiossa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_DESCRIPTION">
+      <Text>Hengellinen ja uskonnollinen johtaja, joka voi lisätä kaupungin [ICON_Religion] uskonnollista voimaa ja siellä sijaitsevien uskonnollisten yksiköiden voimaa. {LOC_GOVERNOR_THE_CARDINAL_NAME} on uskon [ICON_FAITH] valopilkku sinun valtakunnassasi.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_DESCRIPTION">
+      <Text>Yritteliäs ja kyvykäs {LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME} pystyy hankkimaan arvokkaita resursseja tarvittaessa. Hän on myös taitava optimoimaan kaiken [ICON_PRODUCTION] tuotannon kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_DESCRIPTION">
+      <Text>{LOC_GOVERNOR_THE_EDUCATOR_NAME} keskittyy tieteellisen [ICON_SCIENCE] ja kulttuurillisen [ICON_Culture] kehityksen edistämiseen kaupungissa. Hän on myös taitava houkuttelemaan [ICON_GreatPerson] suuria henkilöitä kaupunkiinsa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_DESCRIPTION">
+      <Text>Kettumainen ja taloudellisesti taitava {LOC_GOVERNOR_THE_MERCHANT_NAME} pystyy vahvistamaan kaupungin taloudellista valtaa käyttäen rahoitusta tarjoamaan enemmän kuin normaalisti olisi mahdollista.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_DESCRIPTION">
+      <Text>Tehokkuuden asiantuntija, {LOC_GOVERNOR_THE_BUILDER_NAME} on taitava kaikissa rakentamiseen ja rakennusalaan liittyvissä asioissa. Asiantunteva suunnittelija, hän voi myös valvoa räätälöityjen parannusten kehittämistä kaupungissa.</Text>
+    </Row>
+    <!-- Governor Promotions -->
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_NAME">
+      <Text>Redutti</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION">
+      <Text>Lisää kaupungin varuskunnan [ICON_Strength] taisteluvoimaa +5:llä. Perustetaan 3 vuoron aikana.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_NAME">
+      <Text>Varuskuntakomentaja</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION">
+      <Text>Yksiköt, jotka puolustavat kaupungin alueella saavat +5 [ICON_Strength] taisteluvoimaa. Muut kaupunkisi 9 ruudun säteellä saavat +4 uskollisuutta vuorossa kohti sivilisaatiotasi.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_NAME">
+      <Text>Embrasure - hampaiden väli</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION">
+      <Text>Kaupunki saa joka vuoro lisää yhden [ICON_Ranged] kaukotaistelun. Tämän kaupungin kouluttamat sotayksiköt aloittavat ilmaisen ylennyksen, jos ne eivät jo aloita ilmaisella ylennyksellä.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_NAME">
+      <Text>Puolustuslogistiikka</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SECURITY_EXPERT_NAME">
+      <Text>Turvallisuusasiantuntija</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SECURITY_EXPERT_DESCRIPTION">
+      <Text>Vihollisen vakoojat toimivat kaksi tasoa normaalia alempana tässä kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION">
+      <Text>City cannot be put under siege. Accumulating Strategic resources in the city gain an additional +1 per turn.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_NAME">
+      <Text>Ilmapuolustusaloite</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION">
+      <Text>+25 [ICON_Strength] Taisteluvoimaa antiltaanilinjan tukiyksiköille kaupungin alueella puolustettaessa ilma-aluksilta ja ballistisilta ohjuksilta.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_NAME">
+      <Text>Viestinvälitys</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION">
+      <Text>Hänet voidaan nimittää kaupunkivaltioon, jossa hän toimii 2 [ICON_Envoy] lähettiläänä.</Text>
+    </Row>
+    <Row Tag="LOC_SETTLER_LOYALTY_WARNING_TOOLTIP">
+      <Text>Lähellä olevien kaupunkien vaikutus lisäisi {1_LoyaltyPerTurnAmount} Uskollisuutta per kierros uudelle kaupungille, joka sijoitettaisiin tänne. Harkitse [ICON_Governor] Kuvernööri käytön uudessa kaupungissa tai sijoita muualle.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_NAME">
+      <Text>Lähettiläs</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION">
+      <Text>Muut kaupungit, jotka ovat 9 laatan säteellä ja joita et omista, menettävät 2 uskollisuuspistettä vuorossa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE_NAME">
+      <Text>Prestiisi</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE_DESCRIPTION">
+      <Text>Muut kaupunkisi, jotka ovat 9 ruudun sisällä, saavat +2 uskollisuutta vuorossa kohti sivilisaatiotasi.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_NAME">
+      <Text>Vauraus</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_DESCRIPTION">
+      <Text>Vaikka kaupunkivaltiossa sijaitsee, se tarjoaa sinulle kopion sen ylellisyysresursseista.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER_NAME">
+      <Text>Promotoija</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER_DESCRIPTION">
+      <Text>+4 [ICON_Amenities] Palvelua kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_NAME">
+      <Text>Nukketeatterin esittäjä</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_DESCRIPTION">
+      <Text>Kun olet vakiinnuttanut aseman kaupunkivaltiossa, kaksinkertaistuu sinulla olevien [ICON_Envoy] lähettiläiden määrä siellä.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_NAME">
+      <Text>Piispa</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_NAME">
+      <Text>Suuri inkvisitio</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_NAME">
+      <Text>Jumalallinen arkkitehti</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_NAME">
+      <Text>Käsien päällepaneminen</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_NAME">
+      <Text>Jumalan linnoitus</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_NAME">
+      <Text>Pyhimys suojeluspyhimys</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION">
+      <Text>Uskonnollinen paine viereisille kaupungeille on 100% vahvempi tästä kaupungista. +2 [ICON_Faith] Uskoa jokaisesta erikoisalueesta tässä kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Uskonnollista voimaa teologisessa taistelussa tämän kaupungin tiilillä.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_DESCRIPTION">
+      <Text>Antaa kaupungille mahdollisuuden ostaa kaupunginosia [ICON_FAITH] uskonnolla.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_DESCRIPTION">
+      <Text>Kaikki [ICON_Governor] kuvernöörin yksiköt parantuvat täysin yhdessä vuorossa tämän kaupungin kentillä.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_DESCRIPTION">
+      <Text>Kaupunki jättää huomiotta uskonnollisen painostuksen uskonnoilta, jotka eivät ole [ICON_Governor] kuvernöörin pelaajan perustamia. Saat [ICON_FAITH] uskoa, joka vastaa 25%:a rakennuskustannuksista rakennusten valmistuttua.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_DESCRIPTION">
+      <Text>Apostolit ja soturimunkit, jotka ovat koulutettuina kaupungissa, saavat yhden ylimääräisen ylennyksen ensimmäisen ylennyksen yhteydessä.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_NAME">
+      <Text>Edelläkävijä</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION">
+      <Text>+50% suurempi sato kaupungin viljelmiltä ja ominaisuuksien poistoilta.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_NAME">
+      <Text>Ylijäämälogistiikka</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION">
+      <Text>+20% [ICON_Food] Kasvu kaupungissa. [ICON_TradeRoute] Kauppareittisi, jotka päättyvät tähän kaupunkiin, antavat +2 [ICON_Food] ruokaa lähtökaupungilleen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_NAME">
+      <Text>Määräys</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION">
+      <Text>Kaupungissa koulutetut uudisasukkaat eivät kuluta [ICON_Citizen] väestöä.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_NAME">
+      <Text>Teollisuusmies</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION">
+      <Text>Lisää hiilivoimalan, öljyvoimalan ja ydinvoimalan kunkin resurssin [ICON_POWER] tuotantovoimaa 1:llä ja [ICON_Production] tuotantoa +2:lla.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_NAME">
+      <Text>Mustakauppiaan</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION">
+      <Text>Yksiköiden strategiset resurssikustannukset ovat alennettu 80%.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_NAME">
+      <Text>Pystyintegraatio</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_DESCRIPTION">
+      <Text>Tämä kaupunki vastaanottaa [ICON_Production] tuotantoa kaikista lähellä sijaitsevista teollisuusalueen rakennuksista alueellisten bonusten kanssa, ei vain ensimmäisestä.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_NAME">
+      <Text>Killanjohtaja</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_DESCRIPTION">
+      <Text>Kaikki tämän kaupungin rakentajat saavat +1 rakennuskerran.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_INFRASTRUCTURE_NAME">
+      <Text>Infrastruktuuri</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_INFRASTRUCTURE_DESCRIPTION">
+      <Text>+30% [ICON_Production] Tuotanto kaupungintalon ja hallintokeskuksen rakennuksissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_NAME">
+      <Text>Vesienviljely</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION">
+      <Text>Can construct the Fishery improvement. +1 [ICON_Food] Food, +0.5 [ICON_Housing] Housing, +1 [ICON_Food] Food if adjacent to a sea resource. +1 [ICON_PRODUCTION] Production if Liang is in the city.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_NAME">
+      <Text>Puistot ja virkistys</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION">
+      <Text>Voit suorittaa kaupunkipuiston parannuksen tässä kaupungissa. +1 [ICON_Culture] kulttuuria ja +2 vetovoimaa. +1 [ICON_Amenities] mukavuus, jos vieressä on vettä. Kaupunkipuistot tarjoavat +3 [ICON_CULTURE] kulttuuria, jos Liang on kaupungissa</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_NAME">
+      <Text>Kaavoituskomissaari</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION">
+      <Text>+20% [ICON_Production] Tuotanto kaupungin kaupunginosien rakentamiseen.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ARCHITECT_NAME">
+      <Text>Huvittelu</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ARCHITECT_DESCRIPTION">
+      <Text>+30% [ICON_Production] Tuotanto viihdekeskuksille ja vesipuistoille kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_NAME">
+      <Text>Kirjastonhoitaja</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION">
+      <Text>Kaupungin tuottama [ICON_Science] tiede- ja [ICON_Culture] kulttuurin lisäys on 15%.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_NAME">
+      <Text>Tuntija</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_DESCRIPTION">
+      <Text>+1 [ICON_CULTURE] Kulttuuri piste jokaiselta [ICON_Citizen] kansalaiselta kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_NAME">
+      <Text>Tutkija</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_DESCRIPTION">
+      <Text>+1 [ICON_SCIENCE] tiedettä jokaiselle [ICON_Citizen] kansalaiselle kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_NAME">
+      <Text>Avustukset</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_DESCRIPTION">
+      <Text>+100% [ICON_GreatPerson] Erikoishenkilöpisteitä generoidaan kaupungissa joka vuoro.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_NAME">
+      <Text>Asevarustelun kannattaja</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION">
+      <Text>30% [ICON_Production] Tuotannon kasvu kaikissa ydinsotaprojekteissa kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_NAME">
+      <Text>Avaruusaloite</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_DESCRIPTION">
+      <Text>30% [ICON_Production] Tuotannon kasvu kaikille avaruusohjelmiin liittyville projekteille kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_NAME">
+      <Text>Maan hankinta</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION">
+      <Text>Hanki uusia tiiliä kaupungissa nopeammin. +3 [ICON_Gold] Kultaa per kierros jokaisesta kaupungin kautta kulkevasta ulkomaisesta [ICON_TradeRoute] kauppareitistä.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_NAME">
+      <Text>Satamamestari</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION">
+      <Text>Kaksinkertaiset vierekkäisyysbonukset kaupalliskeskuksista ja satamista kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE_NAME">
+      <Text>Valuutanvaihto</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE_DESCRIPTION">
+      <Text>+3 [ICON_Gold] Kultaa per vuoro jokaisesta vieraiden [ICON_TradeRoute] kauppareitistä, jotka kulkevat kaupungin kautta.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TARIFFS_NAME">
+      <Text>Tullimaksut</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TARIFFS_DESCRIPTION">
+      <Text>+3 [ICON_Gold] Kultaa per vuoro kaikista [ICON_TradeRoute] kauppareiteistä, jotka kulkevat kaupungin kautta.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_NAME">
+      <Text>Veronkantaja</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Kultaa per vuoro jokaisesta [ICON_Citizen] kansalaisesta kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_NAME">
+      <Text>Urakoitsija</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_DESCRIPTION">
+      <Text>Sallii kaupungin ostaa kaupunginosia [ICON_Gold] kullalla.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_NAME">
+      <Text>Kuraattori</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_DESCRIPTION">
+      <Text>+100% [ICON_Tourism] Matkailu kaupungissa on kasvanut merkittävästi suurten taideteosten, musiikin ja kirjoitusten ansiosta.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ACTION_AVAILABLE">
+      <Text>Voit ylentää tai nimittää [ICON_Governor] kuvernöörin!</Text>
+    </Row>
+    <!-- Leader Agendas-->
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_HORN_CHEST_LOINS">
+      <Text>Pitää kansoista, joilla on paljon yrityksiä ja armeijoita</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_HORSE_LORD">
+      <Text>Pitää sivistyksistä, jotka eivät kilpaile hänen kanssaan ratsuväestä</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_CULTURAL_ID">
+      <Text>Pitää sivistyksistä, jotka ovat korkean uskollisuuden omaavia, mutta ei pidä niistä, joilla on alhainen uskollisuus</Text>
+    </Row>
+    <!-- Unit Abilities-->
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING_NAME">
+      <Text>Alppiharjoittelu</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING__DESCRIPTION">
+      <Text>Alppiharjoittelu: +3 [ICON_Strength] Taisteluvoimaa taisteltaessa kukkuloilla ja ei liikkumisrangaistusta kukkula-alueella.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING_COMBAT_HILLS_MODIFIER_DESCRIPTION">
+      <Text>+3 [ICON_Strength] Taisteluvoimaa taisteltaessa kukkuloilla</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Bombard] Tykistövoimaa avustavalta yksiköltä</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SCOTTISH_HIGHLANDER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Taisteluvoimabonus kukkuloilla ja metsissä</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MONGOLIAN_KESHIG_DESCRIPTION">
+      <Text>Voiko saattue siirtää siviili- ja tukiyksiköitä heidän korkeampaan [ICON_Movement] liikkumisnopeuteensa?</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GEORGIAN_KHEVSURETI_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoima bonus, kun taistelet mäkisellä maastolla. [NEWLINE] [ICON_Bullet] Ei [ICON_Movement] Liikkeen rangaistusta mäkisellä maastolla.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAPUCHE_MALON_RAIDER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Taisteluvoimabonus ystävällisen alueen 4 hexan säteellä.[NEWLINE][ICON_Bullet]Ryöstäminen maksaa 1 [ICON_Movement] Siirron.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PREVIEW_ZEVEN_PROVINCIEN_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa puolustuskelpoisia alueita vastaan</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DUTCH_ZEVEN_PROVINCIEN_DESCRIPTION">
+      <Text>+7 [ICON_Strength] Taisteluvoimaa hyökkäyksissä puolustuskelpoisia kaupunginosia vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CREE_OKIHTCITAW_DESCRIPTION">
+      <Text>Alkaa yhdellä ilmaisella kampanjalla.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZULU_IMPI_DESCRIPTION">
+      <Text>+100% Sivustahyökkäys bonus.[NEWLINE][ICON_Bullet]Kerää kokemusta 25% nopeammin.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_INCREASED_MOVEMENT_NAME">
+      <Text>Mongolian preeria</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_INCREASED_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Liike</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>+25% taistelukokemusta Orduista</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_NAME">
+      <Text>Taloudellinen kultakausi</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_DESCRIPTION">
+      <Text>Tämän yksikön [ICON_TradeRoute] kauppareittiä ei voi ryöstää vihollisyksiköt. Saavutettu osana taloudellista kultakautta.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS_NAME">
+      <Text>Inkvisitio</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS_DESCRIPTION">
+      <Text>+15 Uskonnollinen taisteluvoima ystävällisellä alueella.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_NAME">
+      <Text>Hämärän arvo</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Taistelutehoa kaikille lähitaisteluhyökkäysyksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_MOVEMENT_BONUS_DESCRIPTION">
+      <Text>Antaa yksiköille +1 [ICON_Movement] liikettä aloittaessaan liikkeensä yhden heksan päässä.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PARADROP_DESCRIPTION">
+      <Text>Voit suorittaa paradropin ystävälliseltä laatalta 7 laatan päähän (12 jos aloitat Aerodromilta tai Airstripiltä).</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_XP_FROM_GOVERNOR_DESCRIPTION">
+      <Text>+10% Ansaittua kokemusta taisteluista (Toqui)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_XP_FROM_GOVERNOR_NOT_FOUNDED_DESCRIPTION">
+      <Text>+30% Ansaittu kokemus taistelusta (Toqui)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_COMBAT_BUFF_VS_GOLDEN_AGE_DESCRIPTION">
+      <Text>+10 [ICON_Voima] Taisteluvoimaa vapaakaupungeita tai sivilisaatioita vastaan kultaisella aikakaudella. [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TIMUR_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>+25% Ansaittu kokemus taistelusta (Timur)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DRONE_GRANT_SIEGE_BONUS_DESCRIPTION">
+      <Text>Antaa +5 [ICON_Bombard] Tykistö-luokan yksiköille piirittämisvoimaa yhden heksan säteellä.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GENGHIS_KHAN_CAVALRY_BONUS_DESCRIPTION">
+      <Text>+3 [ICON_Strength] Taisteluvoimaa (Genghis Khan).</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GENGHIS_KHAN_CAVALRY_CAPTURE_CAVALRY_DESCRIPTION">
+      <Text>Kyky vangita voitetut ratsuväkiyksiköt (Džingis Khan).</Text>
+    </Row>
+    <!-- Feature -->
+    <Row Tag="LOC_FEATURE_REEF_NAME">
+      <Text>Koralliriutta</Text>
+    </Row>
+    <!-- Cultural Identity UI-->
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_SUBSECTION">
+      <Text>Asiakasuskollisuus</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_ACCUMULATED_IDENTITY_SUBSECTION">
+      <Text>Kertynyt uskollisuus</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_DISTANCE_FROM_CAPITAL">
+      <Text>Läheisyys [ICON_Capital] pääkaupunkiin</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY">
+      <Text>[SIZE:16]{1_Loyalty} [SIZE:12]Asiakasuskollisuus</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_OF">
+      <Text>of</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_TOTAL_LOYALTY">
+      <Text>[SIZE:16]{1_Loyalty} [SIZE:12]Mahdollinen</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_STATUS">
+      <Text>Tila:</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_LINE">
+      <Text>Asiakasuskollisuus per kierros:</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OWNERSHIP">
+      <Text>Tämän kaupungin omistajuus</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_POPULATION">
+      <Text>[ICON_Citizen] Täällä asuvat kansalaiset</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_MARTIAL_LAW">
+      <Text>Sotilasyksikkö miehittämisen aikana</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OCCUPATION">
+      <Text>Ammatti</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_STARVATION">
+      <Text>Nälkäkuolema</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_TRADE_ROUTES">
+      <Text>[ICON_TradeRoute] Kauppareitit</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_GOVERNOR">
+      <Text>[ICON_Governor] Kuvernööri sijoitettu tähän</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_HAPPINESS">
+      <Text>Onnellisuustaso</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_RELIGION_MATCHING_FOUNDED">
+      <Text>Seuraamalla perustamaasi [ICON_Religion] uskontoa</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_RELIGION_MISMATCHING_FOUNDED">
+      <Text>Ei noudata perustamaasi [ICON_Religion] uskontoa</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_MODIFIERS">
+      <Text>Muut vaikutukset</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_ORIGINAL_OWNERSHIP">
+      <Text>Olemalla kaupungin alkuperäinen omistaja</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OWNERSHIP_BEFORE_OCCUPATION">
+      <Text>Olemalla kaupungin omistaja ennen miehitystä</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_FREE_CITIES">
+      <Text>Halua itsenäisyyteen</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_ALWAYS_LOYAL">
+      <Text>Aina täysin uskollinen</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_CITIZEN_PRESSURE">
+      <Text>Läheisten [ICON_Citizen] kansalaisten paine</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_OWNED_CITIES">
+      <Text>Lähistöllä [ICON_Citizen] kansalaisia</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_FOREIGN_CITIES">
+      <Text>Läheinen kilpailija [ICON_Citizen] kansalaisille</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_OWNED_GOVERNORS">
+      <Text>Läheisesti omistetut [ICON_Governor] kuvernöörit</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_FOREIGN_GOVERNORS">
+      <Text>Läheisiä kilpailevia diplomaatti [ICON_Governor] kuvernöörejä</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_OWNERSHIP">
+      <Text>{1_IdentiteettiPaineMäärä} kaupungin omistuksesta</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_POPULATION">
+      <Text>{1_IdentityPressureAmount} kaupungin kansalaisilta [ICON_Citizen]</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_AGES">
+      <Text>{1_IdentityPressureAmount} kultaiselta tai tummalta ajalta</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_GOVERNOR">
+      <Text>{1_IdentityPressureAmount} diplomaatti [ICON_Governor] kuvernööriltä</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_MODIFIERS">
+      <Text>{1_IdentityPressureAmount} vaikutuksista muihin verrattuna</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_OWN_CITIES">
+      <Text>Sinun [ICON_Citizen] kansalaiset 9 ruudun säteellä</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_MARTIAL_LAW">
+      <Text>Sotilashallinto</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_OCCUPATION">
+      <Text>[COLOR_RED]Ammatti</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_TRADE_ROUTES">
+      <Text>[ICON_TradeRoute] Kauppareitit</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_GOVERNOR">
+      <Text>[ICON_Governor] Asukkaiden kuvernööri</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_BASE_DECAY">
+      <Text>Perustan rappeutuminen</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_HAPPINESS">
+      <Text>Kansalaisen onni</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_UNHAPPINESS">
+      <Text>[COLOR_RED]Kansalaisten tyytymättömyys</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_GOLDEN_AND_DARK_AGES">
+      <Text>Kultaiset ja pimeät ajat</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_MISC">
+      <Text>Muut määritteet</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_INDEPENDENCE_DESIRE">
+      <Text>[COLOR_RED]Yleinen levottomuus</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_FOREIGN_CITIES">
+      <Text>[COLOR_RED]Muiden sivilisaatioiden [ICON_Citizen] Kansalaiset 9 ruudun säteellä</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_STARVATION">
+      <Text>[COLOR_RED]Kaupunki näkee nälkää</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_ADDITIONAL">
+      <Text>Lisälähteet</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_NO_GROWTH_PENALTY">
+      <Text>Ei rangaistusta</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CULTURAL_IDENTITY_LENS">
+      <Text>Asiakasuskollisuus</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CULTURAL_IDENTITY_LENS_TOOLTIP">
+      <Text>Näytä kaupunkien uskollisuus ja uskollisuuden lähteet, jotka vaikuttavat siihen.</Text>
+    </Row>
+    <!-- Disloyal City UI -->
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_EXPLANATION">
+      <!--New version of base game text used in conquer city UI popup, to describe Liberation effect on Loyalty-->
+      <Text>Kaupungin vapauttaminen palauttaa sen yhdelle sen entisistä omistajista ja saattaa tuoda kyseisen sivilisaation takaisin peliin.[NEWLINE][NEWLINE]{1_WarmongerInfo}[NEWLINE][NEWLINE]Tämä kaupunki on immuuni lojaalisuuspaineelle sinun kaupungeistasi ja kuvernööreistäsi.</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_HEADER">
+      <Text>KAUPUNKI KAPINOI</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_NAME_LABEL">
+      <Text>Kaupungin nimi:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_POPULATION_LABEL">
+      <Text>Väestö:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_DISTRICTS_LABEL">
+      <Text>Lukumäärä nykyisin:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_KEEP_BUTTON_LABEL">
+      <Text>Pitäkää kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_KEEP_EXPLANATION">
+      <Text>Pidä tämä kaupunki. Saattaa olla hyvä idea siirtää [ICON_Governor] kuvernööri tänne vahvistaaksesi näiden uusien kansalaisten uskollisuutta, jotka liittyvät valtakuntaasi.</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_REFUSE_BUTTON_LABEL">
+      <Text>Jätelä kaupunki</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_REFUSE_EXPLANATION">
+      <Text>Kieltäydy antamasta tämän kaupungin liittyä imperiumiisi. Se pysyy vapaana kaupunkina.[NEWLINE][NEWLINE]Tämä kaupunki on immuuni uskollisuuspaineelta sinun kaupungeistasi ja hallitsijoiltasi, eikä se pyydä liittyä sivilisaatioosi uudelleen. Se voisi kuitenkin voittaa toisen sivilisaation puolelleen.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_LOYALTY_TOOLTIP">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) {1_LoyaltyLevelName}-tasolta</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) Hwarangista ([ICON_Governor] kuvernööri, jolla on {1} {1 : plural 1?Promotion; other?Promotions;})</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_3_NAME">
+      <Text>Uskollinen</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_2_NAME">
+      <Text>Epävakaa uskollisuus</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_1_NAME">
+      <Text>Epälojaali</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_0_NAME">
+      <Text>Levottomuus</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_3_DESCRIPTION">
+      <Text>Kansalaiset ovat uskollisia sivilisaatiollesi</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_2_DESCRIPTION">
+      <Text>Kansalaisten uskollisuus teidän sivilisaatiolle horjuu.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_1_DESCRIPTION">
+      <Text>Kansalaiset eivät ole uskollisia sinun sivilisaatiollesi.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_0_DESCRIPTION">
+      <Text>Kansalaiset ovat levottomassa tilassa.</Text>
+    </Row>
+    <Row Tag="LOC_GLORY_SCORE_BREAKDOWN">
+      <Text>{1_Icon}({2_Pisteet}/{3_Kynnysarvo})</Text>
+    </Row>
+    <!-- Resources -->
+    <Row Tag="LOC_RESOURCE_AMBER_NAME">
+      <Text>Meripihka</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_OLIVES_NAME">
+      <Text>Oliivit</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_TURTLES_NAME">
+      <Text>Kilpikonnat</Text>
+    </Row>
+    <!-- HUD -->
+    <Row Tag="LOC_HUD_CITY_POPULATION_GRAPH_TOOLTIP">
+      <Text>{1_Amount} {2_CivName} {1_Amount : plural 1?Kansalainen; other?Kansalaista;}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_LOYALTY">
+      <Text>{1_LoyaltyAmount} Uskollisuuspistettä ({2_LoyaltyPerTurn : number +#.#;-#.#} pistettä kierroksessa)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_FULL_LOYALTY">
+      <Text>Täysi uskollisuus</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GAINING_LOYALTY">
+      <Text>Täysi uskollisuus {1_Turns} {1_Turns: monikko 1?kierros; muut?kierrosta;}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_LOSING_LOYALTY">
+      <Text>Kapina {1_Turns}</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_UNIT_PRODUCTION_MODIFIER">
+      <Text>{Value : number +#.#;-#.#}% kohti yksiköitä</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_BUILDING_PRODUCTION_MODIFIER">
+      <Text>{Value : number +#.#;-#.#}% rakennuksia ja ihmeitä kohti</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_BUILDING_NON_WONDER_PRODUCTION_MODIFIER">
+      <Text>{Value : number +#.#;-#.#}% rakennuksia kohti</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_STABLE_LOYALTY">
+      <Text>Kansalaisuskollisuus ei muutu</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_CULTURAL_EFFECT">
+      <Text>Ei positiivisia tai negatiivisia vaikutuksia</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR">
+      <Text>Kuvernööri</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CIVICS_TREE_AWARD_GOVERNOR">
+      <Text>Palkinnot 1 [Icon_Governor] Kuvernöörin titteli</Text>
+    </Row>
+    <Row Tag="LOC_HUD_LAUNCHBAR_GOVERNOR_BUTTON">
+      <Text>Kuvernöörit[NEWLINE][NEWLINE]Katsele tai hallitse [Icon_Governor] kuvernöörejä sivilisaatiossasi.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_LAUNCHBAR_HISTORIAN_BUTTON">
+      <Text>Historian aikajana[NEWLINE][NEWLINE]Katso aikajana historiallisista saavutuksista, jotka saavutettiin sivilisaatiossasi.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_CULTURE_TOOLTIP">
+      <Text>Kanta-asiakkuus ja kuvernöörit</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ESTABLISHED">
+      <Text>Perustettu kaupungissa</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ASSIGNED_SPECIFIC">
+      <Text>[ICON_Governor] {1_GovernorName} on nimetty kaupungin johtajaksi</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ESTABLISHED_SPECIFIC">
+      <Text>[ICON_Governor] Kuvernööri {1_GovernorName} perusti kaupungin</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_NO_GOVERNOR">
+      <Text>Ei nimettyä [ICON_Governor] kuvernööriä</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_NO_GOVERNOR_EFFECT">
+      <Text>...</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_TURNS">
+      <Text>{1_num} {1_Num : plural 1?kierros; other?kierrosta;}.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GOLD_FROM_POPULATION">
+      <Text>{Arvo: numero +#.#;-#.#} lisäverotuksesta</Text>
+    </Row>
+    <!-- Loyalty and Identity -->
+    <Row Tag="LOC_LOYALTY_STATUS_LOYAL">
+      <Text>[COLOR_GREEN]Uskollinen</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_STATUS_DISLOYAL">
+      <Text>[COLOR_RED]Epälojaali</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_GAINING">
+      <Text>[COLOR_GREEN][ICON_PressureUp] Nouseva</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_STABLE">
+      <Text>Vakaa</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_LOSING">
+      <Text>[COLOR_RED][ICON_PressureDown] Laskee</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_NONE">
+      <Text>Tämä kaupunki on lojaali sinulle, eikä siitä ole haitallisia vaikutuksia.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_DANGER_OF_REBELLION_TO_PLAYER">
+      <Text>Jos uskollisuus putoaa nollaan, kaupunki kapinoi ja liittyy {1_PlayerName}:n valtakuntaan, jolla on eniten uskollisuutta kertyneenä täällä.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_DANGER_OF_REBELLION_TIED_PLAYERS">
+      <Text>[COLOR_RED]Jos uskollisuus laskee nollaan, kaupunki kapinoi ja liittyy toiseen sivilisaatioon, jolla on eniten täällä kertynyttä uskollisuutta.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_GROWTH_AND_YIELD_EFFECTS_TEXT">
+      <Text>Kaupunkikasvu on vähentynyt {1_GrowthReduction} %[NEWLINE] Kaupungin saannot ovat vähentyneet {2_YieldPercentage} %</Text>
+    </Row>
+    <!-- Emergency Text Blocks -->
+    <Row Tag="LOC_EMERGENCY_PARTICIPANTS">
+      <Text>HÄTÄTIIMIN JÄSENET:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING">
+      <Text>Odottava {1_TypeEmergency}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_ONGOING">
+      <Text>Käynnissä oleva {1_TypeEmergency}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETED">
+      <Text>Valmis {1_TypeEmergency}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET">
+      <Text>Kohde: {1_Target}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_YOU_ARE_TARGET">
+      <Text>You</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_JOIN">
+      <Text>Hyväksy</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REJECT">
+      <Text>Hylätä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TURNS_REMAINING">
+      <Text>[ICON_Turn] Jäljellä {1_Turns : plural 1?{1 käänne} other?{1 käänettä};}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NO_TURNS_REMAINING">
+      <Text>Päättyy [ICON_Turn] Tämä vuoro</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TURNS_OVER">
+      <Text>Hätätilanne päättyi</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_BUFFS_EXPLANATION">
+      <Text>Tämän hätätilanteen aikana:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARDS_EXPLANATION">
+      <Text>Jos jäsenet onnistuvat:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARDS_EXPLANATION">
+      <Text>Mikäli aika loppuu ennen kuin jäsenet saavuttavat tavoitteensa:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBERS_HAVE_WON_REWARDS">
+      <Text>Jäsenten voiton vuoksi:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_HAS_WON_REWARDS">
+      <Text>Targetin voiton vuoksi:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_THESE_GOALS">
+      <Text>Täytä nämä tavoitteet:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_EXPLANATION">
+      <Text>Sinulla on mahdollisuus liittyä hätätilanteeseen tämän Kohteen vastaan.[NEWLINE]{1_GoalsExplanation}[NEWLINE]Onnistu ja sinut palkitaan. Epäonnistu ja Kohde vahvistuu. Sinun täytyy hyväksyä tai hylätä tämä hätätilanne.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_EXPLANATION_DEFENDER">
+      <Text>Sinua vastaan on julistettu hätätila![NEWLINE]{1_GoalsExplanation}[NEWLINE]Onnistu estämään jäseniä saavuttamasta nämä tavoitteet ja sinut palkitaan. Epäonnistu ja jäsenet vahvistuvat.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_SHORT_DESCRIPTION">
+      <Text>ODOTTAA: HYVÄKSY TAI HYLKÄÄ</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_MEMBERS_WIN">
+      <Text>Jäsenet ovat voittaneet</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_TARGET_WIN">
+      <Text>Kohde on voittaja</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_GOLD_REWARD">
+      <Text>Jäsenivilisaatiot jakavat {1_Amount} [ICON_Gold] kultapotin.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_GOLD_REWARD">
+      <Text>Kohde saa [ICON_Gold] {1_Amount} kultaa jäsentä kohden.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_BUFF_DESCRIPTION_IDENTITY_IN_CITY">
+      <Text>Kohde saa +20 uskollisuutta kohdekaupungissa joka vuoro.</Text>
+    </Row>
+    <!-- |||||||||  Goal Specific                                                   ||||||||||||| -->
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_CAPTURE_CITIES">
+      <Text>Ne, jotka liittyvät hätätilaan, joutuvat vangitsemaan tiettyjä kaupunkeja {TargetName}ilta [ICON_Turn] {Turns} kierroksen kuluessa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_CAPTURE_SPECIFIC_CITY">
+      <Text>Ne, jotka liittyvät hätätilaan, joutuvat valtaamaan {CityName} kaupungin {TargetName} ryhmältä [ICON_Turn] {Turns} kierroksessa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_CAPTURE_CITIES">
+      <Text>Hätätilan jäsenten on vallattava tiettyjä kaupunkeja {TargetName}ilta.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_CAPTURE_SPECIFIC_CITY">
+      <Text>Hätäjoukkojen jäsenten tulee vangita {TargetName} kaupungista {CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_CAPTURE_CITIES">
+      <Text>Vangitse {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_CAPTURE_CITIES_DEFENSE">
+      <Text>Puolusta {1_CityName}-kaupunkia</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_CAPTURE_CITY_DEFENSE">
+      <Text>Puolustakaa {1_CityName} loppuun asti hätätilan ajan.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_CAPTURE_CITIES">
+      <Text>Tallenna {1_CityName} ennen hätätilan päättymistä.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_UNCONVERT_CITY">
+      <Text>Ne, jotka liittyvät hätätilaan, joutuvat estämään {CityName} kaupunkia seuraamasta {TargetName} uskontoa seuraavat {HalfTurns} seuraavista [ICON_Turn] {Turns} käännöksistä.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_UNCONVERT_CITY">
+      <Text>Hätätilan jäsenten täytyy estää {CityName} seuraamasta {TargetName}'n uskontoa [ICON_Turn] {HalfTurns} kierroksen ajan.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_UNCONVERT_CITY">
+      <Text>Paheksua {NewReligion}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_UNCONVERT_CITY_DEFENSE">
+      <Text>Puolusta {NewReligion}-uskontoa</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_UNCONVERT_CITY_DEFENSE">
+      <Text>Tee {NewReligion} vallitsevaksi uskonnoksi {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_UNCONVERT_CITY">
+      <Text>Estä {NewReligion} hallitsevana uskontona {1_CityName}-kaupungissa.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_LIBERATE_CITY">
+      <Text>Ne, jotka liittyvät hätätilan joukkoihin, joutuvat vapauttamaan {CityName} {TargetName}:n hallinnasta [ICON_Turn] {Turns} vuoron sisällä.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIBERATE_CITY">
+      <Text>Hätätilan jäsenten täytyy vapauttaa {CityName} {TargetName}:sta.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_LIBERATE_CITY">
+      <Text>Vapauttakaa {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_LIBERATE_CITY_DEFENSE">
+      <Text>Puolusta {1_CityName}:ä</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_LIBERATE_CITY_DEFENSE">
+      <Text>Puolusta {1_CityName} loppuun asti hätätilan aikana.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_LIBERATE_CITY">
+      <Text>Vapauta {1_CityName} ennen hätätilan loppua.</Text>
+    </Row>
+    <!-- |||||||||  Emergency Specific                                              ||||||||||||| -->
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_MILITARY">
+      <Text>Sotilaallinen hätätilanne</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_MILITARY">
+      <Text>"Jos emme seisoo yhtenäisinä, tämän yhden kaupungin kohtalo tulee kohtaamaan meitä kaikkia."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_MILITARY">
+      <Text>{TargetName}, maailman sivilisaatioiden kärjessä, on vanginnut {OldCityName}. {TargetName}:n karkumatka menestyksessä on suuri huolenaihe.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_MILITARY">
+      <Text>Lisäksi kaikilla jäsenillä on rauha, avoin rajat ja jaettu näkyvyys toistensa kanssa. Kaikki jäsenet lähtevät sotaan kohteen kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_MILITARY_MOVEMENT">
+      <Text>Jäsenyksiköt saavat +1 [ICON_Movement] liikkumispistettä Kohde-alueen alueella.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_MILITARY_COMBAT_STRENGTH">
+      <Text>Kohdeyksiköillä on -2 [ICON_Strength] Taisteluvoimaa taistelussa jäsenyksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_MILITARY_INCREASED_HEALING">
+      <Text>Jäsenten yksiköt saavat +5 parantumista Kohteen alueella.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_MILITARY_CITY_STRIKE">
+      <Text>Kohde saa +2 [ICON_Strength] Taisteluvoimaa hyökätessään jäsenyksikköä vastaan, jolla on Kylihyökkäys.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_SETTLEMENT_MOVEMENT">
+      <Text>Jäsenyksiköt saavat +1 [ICON_Movement] liikkumisnopeutta.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_BUFF_DESCRIPTION_SETTLEMENT_MOVEMENT">
+      <Text>Kohdeyksiköt saavat +1 [ICON_Movement] liikkumispistettä.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SETTLEMENT_GOLD_PER_TURN">
+      <Text>Jäsenet saavat +1 kultaa vuorossa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_SETTLEMENT_GOLD_PER_TURN">
+      <Text>Kohde saa +1 kultaa kierroksen aikana.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_CITY_STATE">
+      <Text>Kaupunkivaltion hätätila</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_CITY_STATE">
+      <Text>"Kunnioitamme kaupunkivaltioiden itsenäisyyttä emmekä sulje silmiämme tämän valloituksen edessä."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_CITY_STATE">
+      <Text>{TargetName} on vallannut {OldCityName}. {OldCityName} valtaus on suuri huolenaihe.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_CITY_STATE">
+      <Text>Kaikilla jäsenillä on rauha, avoin rajaliikenne ja jaettu näkyvyys toistensa kanssa. Kaikki jäsenet menevät sotaan kohteen kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_CITY_STATE_GOLD_PER_ENVOY">
+      <Text>Jäsenet saavat +1 [ICON_Gold] Kultaa vuoron jokaisesta heidän [ICON_Envoy] Lähettiläästään.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_CITY_STATE_GOLD_FOR_TRADE_ROUTES">
+      <Text>Kohdistamalla [ICON_TradeRoute] kauppareittejä kaupunkivaltioihin, saat +2 [ICON_Gold] kultaa vuosittain.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_RELIGIOUS">
+      <Text>Uskonnollinen hätätilanne</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_RELIGIOUS">
+      <Text>"Uskollisten huudot kohoavat taivaaseen ja maan päällä meitä liikuttaa oikeutettu raivo."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_RELIGIOUS">
+      <Text>{TargetName} on kääntänyt {OldCityName}, {OldReligion} Pyhän kaupungin, {NewReligion}:ksi. Näyttää siltä, että {TargetName} ei ole halukas elämään rauhanomaisesti muiden maailman suurten uskontojen kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_RELIGIOUS_RELICS">
+      <Text>Jokainen jäsen saa reliikin.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_RELIGIOUS_PRESSURE">
+      <Text>Kohteen uskonto vapauttaa paineenpurkauksen kaikissa lähellä olevissa kaupungeissa.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_SPYING">
+      <Text>Vakoiluhätätilanne</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SPYING">
+      <Text>Kaikki vakoilevat, mutta tämä tyyppi jäi kiinni! Tehdään jotain sille!</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SPYING">
+      <Text>Vangitse kohdespion käyttäen ansaa kaupungissa, jossa kohde suorittaa operaatiota.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_SPYING_ACTION">
+      <Text>Jäsen-Vakoojat saavat uuden toiminnon Jäsenkaupungeissa: Aseta ansa. Jos Kohde-Vakooja yrittää Operaatiota tässä kaupungissa, he jäävät ansaan.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SPYING_SPY_KILLER">
+      <Text>Vangittu vakooja tapetaan.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SPYING_FORTITUDE">
+      <Text>Kohdeorganisaation on vaikeampaa suorittaa vakoilutoimia jäsenkaupungeissa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_SPYING_FREE_SPY">
+      <Text>Kohde saa yhden lisävakoojan.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_NUCLEAR">
+      <Text>Ydinonnettomuus</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_NUCLEAR">
+      <Text>"Kamalat voimat, käytetty kamaliin tarkoituksiin. Ei koskaan enää!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_NUCLEAR">
+      <Text>Onko {TargetName} käyttänyt maailman voimakkainta asetta, ja ydinhirviö on päässyt pullostaan? Onko sukupuutto meidän käsissämme?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_NUCLEAR">
+      <Text>Lisäksi kaikilla jäsenillä on rauha, avoimet rajat ja jaettu näkyvyys toistensa kanssa. Kaikki jäsenet lähtevät sotaan kohteen kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_NUCLEAR_MOVEMENT">
+      <Text>Jäsenyksiköt saavat +1 [ICON_Movement] liikkumispistettä Kohteen alueella.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_NUCLEAR_COMBAT_STRENGTH">
+      <Text>Kohdeyksiköillä on -2 [ICON_Strength] taistelutehoa taisteltaessa Jäsenyksiköitä vastaan</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_NUCLEAR_COMBAT_STRENGTH">
+      <Text>Kohdeyksiköillä on -3 [ICON_Strength] taisteluvoimaa taistellessaan Jäsenyksiköitä vastaan</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_NUCLEAR_CULTURE_SCARE">
+      <Text>Jäsenkaupungit aiheuttavat yhden vähemmän uskollisuuspaineen.</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_BACKSTAB">
+      <Text>Pettämisen hätätila</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_BACKSTAB">
+      <Text>"Avoimet ja rehelliset sodat ovat varmasti vähemmän inhottavia kuin tämä petollinen diplomatia."</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_BACKSTAB">
+      <Text>{TargetName} on lyönyt petollisen iskun julistaen sodan {OldPlayerName}:lle, pitkäaikaiselle ystävälle! Näyttää siltä, että kukaan ei ole turvassa {TargetName}:n aggressiolta.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_BACKSTAB">
+      <Text>Lisäksi kaikilla jäsenillä on rauha, avoimet rajat ja jaettu näkyvyys toistensa kanssa. Kaikki jäsenet lähtevät sotaan kohteen kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_MOVEMENT">
+      <Text>Jäsenyksiköt saavat +1 [ICON_Movement] liikkumispistettä kohteen alueella.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_COMBAT_STRENGTH">
+      <Text>Kohdeyksiköt ovat -3 [ICON_Strength] taisteluvoimaisia ​​taistellessaan Jäsenyksiköitä vastaan</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_CANCEL_TRADE_ROUTES">
+      <Text>Kaikki kauppareitit jäsenien ja kohteen välillä on peruutettu.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_TRADING">
+      <Text>Kaikki kauppareitit jäsenien välillä antavat +2 [ICON_Production] tuotantoa.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_MILITARY_COMBAT_STRENGTH">
+      <Text>Kohdeyksiköillä on -3 [ICON_Strength] taistelukykyä taistellessaan jäsenyksiköitä vastaan</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_MILITARY_WAR_WEARINESS">
+      <Text>Kohde saa vähemmän sotaväsymystä ollessaan sodassa jäseniä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TAB_COMPLETED">
+      <Text>Completed</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!--Spy-->
+    <Row Tag="LOC_UNITOPERATION_SPY_FABRICATE_SCANDAL_DESCRIPTION">
+      <Text>Keksi skandaali</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_FOMENT_UNREST_DESCRIPTION">
+      <Text>Lietsota levottomuutta</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_NEUTRALIZE_GOVERNOR_DESCRIPTION">
+      <Text>Neutralisoi kuvernööri</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FABRIRCATE_SCANDAL_REWARD">
+      <Text>vihollisen lähettiläiden poistaminen</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FOMENT_UNREST_REWARD">
+      <Text>vähentämällä uskollisuutta ja lisäämällä omaa uskollisuuttamme</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NEUTRALIZE_GOVERNOR_REWARD">
+      <Text>vihollisen [ICON_Governor] kuvernöörin kyvyttömäksi tekeminen</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_FABRICATE_SCANDAL">
+      <Text>Pakottamalla kärkikilpailijat häviämään {1_EnvoyString}</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_FOMENT_UNREST">
+      <Text>Vähennä vihollisen uskollisuutta {1_LoyaltyString}:lla</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_NEUTRALIZE_GOVERNOR">
+      <Text>Poista vihollispuolen [ICON_Governor] kuvernööri tehtävästään {1_TurnString} ajan ajaksi</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FABRICATE_SCANDAL_ESTIMATE">
+      <Text>{1_Amount} [ICON_Envoy] Lähettiläät</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FOMENT_UNREST_ESTIMATE">
+      <Text>{1_Määrä}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NEUTRALIZE_GOVERNOR_ESTIMATE">
+      <Text>{1_Amount} kierrosta</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SMEAR_CAMPAIGN_NAME">
+      <Text>Mustamaalauskampanja</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_COVERT_ACTION_NAME">
+      <Text>Salainen toiminta</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LICENSE_TO_KILL_NAME">
+      <Text>Lupa tappaa</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SMEAR_CAMPAIGN_DESCRIPTION">
+      <Text>Kehitä skandaali ikään kuin kaksi tasoa kokeneempana.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_COVERT_ACTION_DESCRIPTION">
+      <Text>Aiheuta levottomuutta kuin kaksi tasoa kokeneempana.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LICENSE_TO_KILL_DESCRIPTION">
+      <Text>Neutralisoi kuin kaksi tasoa kokeneempi kuvernööri.</Text>
+    </Row>
+    <!--Diplomacy modifiers-->
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_BROKEN_PLEDGE">
+      <Text>Rikkoi lupauksen siirtää joukkojaan heidän rajaltaan</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_KEPT_PLEDGE">
+      <Text>Pidettiin lupaus siirtää joukkoja heidän rajaltaan</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_NO_PLEDGE">
+      <Text>Päätettiin olla lupaamatta siirtää joukkoja</Text>
+    </Row>
+    <!--OPERATIONS AND COMMANDS TEXT-->
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_DESCRIPTION">
+      <Text>Laskuvarjohyppy</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_IN_ZOC">
+      <Text>Vihollisen hallinta-alueella</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_FRIENDLY_TERRITORY">
+      <Text>On oltava ystävällismielisellä alueella tai vieressä on lentokenttä tai lentokenttäalue.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_REQUIRES_FULL_MOVEMENT">
+      <Text>Vaatii täyden liikkeen</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PROJECT_PRODUCTION_DESCRIPTION">
+      <Text>Lisää [ICON_Production] tuotanto projektiin. Vain kerran kaupunkia kohti vuoron aikana.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PRIORITY_TARGET_DESCRIPTION">
+      <Text>Tärkein kohde</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IDENTITY_PRESSURE">
+      <Text>Asiakasuskollisuus per kierros</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_DETAILS_TURNS_TO_ESTABLISH">
+      <Text>Pyritään luomaan perusta</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>Tämä kuvernööri antaa kaupungille uskollisuuspisteitä per kierros kohti.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TRANSITION_STRENGTH">
+      <Text>Siirtymän vahvuus</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TRANSITION_STRENGTH_TOOLTIP">
+      <Text>Kuinka nopeasti tämä kuvernööri vakiintuu kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGN_GOVERNOR_TO">
+      <Text>Nimittää kuvernööriksi...</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_SELECT_A_CITY">
+      <Text>Valitse kaupunki...</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_NO_PREVIOUS_GOVERNOR">
+      <Text>Ei aiempaa kuvernööriä</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TURNS_TO_ESTABLISH">
+      <Text>Kuinka monta kierrosta ennen kuin säädin asettuu?</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_SKILL_TREE">
+      <Text>Taitopuu</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTE">
+      <Text>Mainosta</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_ASSIGN_GOVERNOR">
+      <Text>Määritä</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_REASSIGN_GOVERNOR">
+      <Text>Uudelleen määrittää</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_ABILITIES">
+      <Text>KYVYT</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ABILITIES">
+      <Text>KUVERNÖÖRIN KYVYT</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ABILITIES_SUBTEXT">
+      <Text>Käytä kuvernöörititteleitä mainostamiseen</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES">
+      <Text>Kuvernöörititteleitä: {1_PointsAvailable}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES_AVAILABLE">
+      <Text>KUVERNÖÖRIN TITTELIT SAATAVILLA: {1_PointsAvailable}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES_SPENT">
+      <Text>KÄYTETTY: {1_PointsSpent}</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_TIMELINE_TITLE">
+      <Text>{1_PlayerCiv}:n historia</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_NEW_MOMENT">
+      <Text>{1_PlayerCiv} tekee historiaa</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_MOMENT_EFFECTS">
+      <Text>{1_MomentDate}    \|    Kierros {2_MomentTurn}    \|    Aikakauden pistemäärä {3_MomentScore}</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_MOMENT_EFFECTS_NO_SCORE">
+      <Text>{1_MomentDate}    \|    Kierros {2_MomentTurn}</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_PERCENTAGE">
+      <Text>Asiakasuskollisuus: {1_CurrentLoyalty}/{2_MaxLoyalty} ({3_LoyaltyIcon}{4_LoyaltyPerTurn})</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POSITIVE_PRESSURE">
+      <Text>+{1_Value}</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_GOVERNORS_PRESSURE_TOOLTIP">
+      <Text>[ICON_Governor] Kuvernööri sijoitettu tähän</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_MY_CITIES_PRESSURE_TOOLTIP">
+      <Text>Omistajan [ICON_Citizen] Kansalaiset 9 ruudun sisällä</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_THEIR_CITIES_PRESSURE_TOOLTIP">
+      <Text>Muiden sivilisaatioiden [ICON_Citizen] kansalaiset 9 ruudun säteellä</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_INDEPENDENCE_PRESSURE_TOOLTIP">
+      <Text>Itsensä hallinnan halu</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_HAPPINESS_PRESSURE_TOOLTIP">
+      <Text>Onnen taso</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_OTHER_PRESSURE_TOOLTIP">
+      <Text>Muut vaikutukset täällä</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_CITY_STATES_PRESSURE_TOOLTIP">
+      <Text>Perusvoima kaupunkivaltiona</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_FREE_CITIES_PRESSURE_TOOLTIP">
+      <Text>Perusvoimana vapaana kaupunkina</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP">
+      <Text>Paine lähellä olevilta [ICON_Citizen] kansalaisilta</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP_MAJOR_CIVS">
+      <Text>Vaihtelee +20:sta -20:een läheisten [ICON_Citizen] kaupungin omistavan kansalaisen ja läheisten [ICON_Citizen] toisen sivilisaation kansalaisten paineen vertailun perusteella.[NEWLINE][ICON_Bullet]1 Painepiste per [ICON_Citizen] kansalainen normaalisti[NEWLINE][ICON_BULLET]Kasvaa [ICON_Capital] pääkaupungissa[NEWLINE][ICON_BULLET]Voivat vaikuttaa Kultaiset ajat, Synkät ajat ja Leipä ja sirkushuvit kaupunkiprojekti[NEWLINE][ICON_BULLET]Koskee myös muita kaupunkeja 9 ruudun säteellä, mutta on 10% vähemmän tehokas per ruutu</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP_MINOR_CIVS">
+      <Text>Vaihtelee välillä +20 ja -20, riippuen lähellä olevien [ICON_Citizen] kaupungin omistavan sivilisaation kansalaisten ja lähellä olevien [ICON_Citizen] eri sivilisaation kansalaisten paineen vertailusta.[NEWLINE][ICON_Bullet] 1 paine per [ICON_Citizen] kansalainen normaalisti[NEWLINE][ICON_BULLET] Kasvaa [ICON_Capital] pääkaupungissa</Text>
+    </Row>
+    <!-- Dedications-->
+    <Row Tag="LOC_TECH_BOOST_DEDICATION_NOTIFICATION">
+      <Text>Olet laukaissut [ICON_TechBoosted] Eureka-hetken.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOST_DEDICATION_NOTIFICATION">
+      <Text>Olet laukaissut [ICON_CivicBoosted] inspiraation.</Text>
+    </Row>
+    <Row Tag="LOC_RELIGIOUS_CONVERSION_DEDICATION_NOTIFICATION">
+      <Text>Olet ensimmäistä kertaa käännyttänyt kaupungin perustamasi uskonnon puolelle.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMPLETION_DEDICATION_NOTIFICATION">
+      <Text>Olet rakentanut uuden kaupunginosan.</Text>
+    </Row>
+    <Row Tag="LOC_TRADE_ROUTE_DEDICATION_NOTIFICATION">
+      <Text>Olet suorittanut [ICON_TradeRoute] kauppareitin.</Text>
+    </Row>
+    <Row Tag="LOC_MAP_DISCOVERY_DEDICATION_NOTIFICATION">
+      <Text>Olet löytänyt uuden mantereen tai luonnonihmeen.</Text>
+    </Row>
+    <Row Tag="LOC_CORPS_KILL_DEDICATION_NOTIFICATION">
+      <Text>Olet tuhonnut yhden joukon.</Text>
+    </Row>
+    <Row Tag="LOC_ARMY_KILL_DEDICATION_NOTIFICATION">
+      <Text>Olet tuhonnut armeijan.</Text>
+    </Row>
+    <Row Tag="LOC_NAVAL_UNIT_KILL_DEDICATION_NOTIFICATION">
+      <Text>Olet tuhonnut ei-barbaarisen meri-yksikön.</Text>
+    </Row>
+    <Row Tag="LOC_SCIENCE_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Olet rakentanut rakennuksen, joka tarjoaa [ICON_Science] tiedettä perustuottona.</Text>
+    </Row>
+    <Row Tag="LOC_CULTURE_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Olet rakentanut rakennuksen, jossa on suuri työpaikkalohko.</Text>
+    </Row>
+    <Row Tag="LOC_INDUSTRIAL_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Olet rakentanut rakennuksen teollisen aikakauden tai myöhemmin.</Text>
+    </Row>
+    <Row Tag="LOC_AERODROME_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>Olet rakentanut rakennuksen Aerodromen kaupunginosassa.</Text>
+    </Row>
+    <Row Tag="LOC_SPY_MISSION_DEDICATION_NOTIFICATION">
+      <Text>Olet suorittanut onnistuneen hyökkäävän tiedustelutoiminnon.</Text>
+    </Row>
+    <Row Tag="LOC_ARTIFACT_EXTRACTION_DEDICATION_NOTIFICATION">
+      <Text>Olet ottanut talteen [ICON_GreatWork_Artifact] Artefaktin.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EARNED_NOTIFICATION">
+      <Text>Olet ansainnut [ICON_GreatPerson] Suuren Henkilön.</Text>
+    </Row>
+    <!-- Scoring -->
+    <Row Tag="LOC_CATEGORY_ERA_SCORE_NAME">
+      <Text>Aikakauden Pisteet</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP">
+      <Text>Sivilisaatiot, jotka ovat nimittäneet lähettiläänsä [ICON_Governor] kuvernööriksi tähän kaupunkivaltioon:</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_VISIER">
+      <Text>Ottomaanien suurvisiiri määräsi tämän kaupunkivaltion hallittavakseen</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP_ENTRY">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName})</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP_ENTRY_UNMET">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_CIV_AMBASSADOR_TOOLTIP">
+      <Text>{1_CivName} on nimittänyt diplomaatin tähän kaupunkivaltioon.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_HAS_AMBASSADOR_TOOLTIP_ENTRY_LIMITED">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName})</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_HAS_AMBASSADOR_TOOLTIP_ENTRY_FULL">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName}) - {3_EstablishInfo}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_INHERENT_BONUS">
+      <Text>Luonnollinen vaikutus</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_ACCUMULATED_BONUS">
+      <Text>Luontainen vaikutus</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION">
+      <Text>+1 [ICON_Food] Ruoka Plantation-parannuksesta.</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_NEW_FEATURES">
+      <Text>Uudet ominaisuudet</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_NEW_FEATURES_TOOLTIP">
+      <Text>Arvostele uudet ominaisuudet nykyisessä laajennuksessa.</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_NEXT">
+      <Text>Seuraava</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_PREVIOUS">
+      <Text>Previous</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_CONTINUE">
+      <Text>with the translation</Text>
+    </Row>
+    <Row Tag="LOC_XP_INTRO_HIDETHIS">
+      <Text>Älä näytä tätä uudelleen</Text>
+    </Row>
+    <Row Tag="LOC_END_GAME_MENU_HISTORIAN_BUTTON">
+      <Text>Näytä aikajana</Text>
+    </Row>
+    <Row Tag="LOC_END_GAME_MENU_EXPORT_HISTORIAN_BUTTON">
+      <Text>Vientiaikataulu</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_CITY_IS_LOYAL_TO_TT">
+      <Text>Kaupunki on uskollinen {1_CivName}:lle</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_CITY_WILL_FALL_TO_TT">
+      <Text>Kaupunki kaatuu {1_CivName}in haltuun, kun uskollisuus laskee nollaan</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_RISING_BY_X_TT">
+      <Text>Uskollisuus {1_CivName}:lle kasvaa {2_PointsPerTurn} {2_PointsPerTurn : plural 1?pisteellä; other?pisteellä;} kierrosta kohti</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_DROPPING_BY_X_TT">
+      <Text>Uskollisuus {1_CivName}:a kohtaan laskee {2_PointsPerTurn} {2_PointsPerTurn : plural 1?pistettä; other:pistettä;} kierroksessa</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_NOT_CHANGING_TT">
+      <Text>Loyaliteetti {1_CivName}:iin ei muutu seuraavalla vuorolla</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_STATUS_TT">
+      <Text>{1_LoyaltyIcon} USKOLLISUUS {2_CurrentLoyalty}/{3_MaxLoyalty}[NEWLINE]Tila: {4_LoyaltyStatus}</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_ALLIANCE_TT">
+      <Text>Tutki aktiivisesti samaa teknologiaa kuin tutkimuskumppanisi ylläpitääksesi käänteistä [ICON_Science] tiedeboostia.</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_ALLIANCE_BONUS_TT">
+      <Text>Saatu taso 3 tutkimusliittouman tiedebonus.[NEWLINE]Samaa teknologiaa tutkittaessa kuin tutkimusliittolaisesi, saat kierroskohtaisen [ICON_Science] tiedebonuksen.</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_MAX_LOYALTY_TT">
+      <Text>Kaupunki on täysin uskollinen ja saa lisää uskollisuuspisteitä kierroksittain</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_NO_CHANGE_TT">
+      <Text>Ei muutosta</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_RISING_LOYALTY_TT">
+      <Text>Nouseva {1_LoyaltyPerTurn}</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_FALLING_LOYALTY_TT">
+      <Text>Laskee {1_LoyaltyPerTurn} kohden</Text>
+    </Row>
+    <!-- Replay DataSets -->
+    <Row Tag="LOC_REPLAYDATASET_ERASCORE_NAME">
+      <Text>Aikakausi-pisteet vuorolta</Text>
+    </Row>
+    <Row Tag="LOC_REPLAYDATASET_GOVERNORS_NAME">
+      <Text>Kokonaishallitsijat</Text>
+    </Row>
+    <Row Tag="LOC_REPLAYDATASET_GOVERNORTITLES_NAME">
+      <Text>Kaikkien kuvernöörien tittelit</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FILTER_DARK">
+      <Text>Tumma</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FISHERY_NAME">
+      <Text>Kalastus</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION">
+      <Text>[ICON_Governor] Kuvernöörin ainutlaatuinen parannus, joka voidaan rakentaa kaupunkiin, jossa on Mittaaja-kuvernööri, jolla on Vesiviljely-edistys. Antaa 1 [ICON_Food] Ravintoa, +0,5 [ICON_Housing] Asuntoa, +1 lisä [ICON_Food] Ravintoa, jos se on viereisenä merenvarantoon nähden. +1 [ICON_PRODUCTION] Tuotantoa, jos kaupungissa on mittausalan kuvernööri, jolla on vesiviljely-edistys. On rakennettava rannikolla sijaitsevalle tontille.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_CITY_PARK_NAME">
+      <Text>Kaupungin puisto</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION">
+      <Text>Kaupungin puiston [ICON_Governor] kuvernöörin uniikki parannus, joka voidaan rakentaa kaupunkiin, jossa on tutkijakuvernööri, jolla on puisto- ja virkistyskampanja. Antaa 2 vetovoimaa ja 1 [ICON_Culture] kulttuurin. +1 [ICON_Amenities] Viihtyisyys, jos se on vesialueen vieressä. +3 [ICON_CULTURE] kulttuurin, jos se on kaupungissa, jolla on tutkijakuvernööri, jolla on puisto- ja virkistyskampanja. Ei voi olla vierekkäin toisen kaupunginpuiston kanssa.</Text>
+    </Row>
+    <!-- MISC -->
+    <Row Tag="LOC_CIVILIZATION_NOT_ABLE_TO_DECLARE_SURPRISE_WAR">
+      <Text>Sinun sivilisaatiosi ei saa julistaa yllätys-sotaa; tämä sisältää sodan julistamisen kaupunkivaltiota vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JERUSALEM_DESCRIPTION_EXPANSION">
+      <Text>Sinun kaupunkisi, joissa on pyhät paikat, vaikuttavat painetta, ikään kuin ne olisivat pyhiä kaupunkeja (4x uskonnon paine kaikissa kaupungeissa 10 ruudun säteellä).</Text>
+    </Row>
+    <!-- Type Traits-->
+    <Row Tag="LOC_TYPE_TRAIT_GOVERNOR_POINTS">
+      <Text>{1_Amount: number +#,###.#;-#,###.#} [ICON_STAT_GOVERNOR] Kuvernöörin pisteet</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_GOVERNOR_POINTS_WITH_REQUIREMENT">
+      <Text>{1_Amount: number +#,###.#;-#,###.#} [ICON_STAT_GOVERNOR] Kuvernöörin pisteet (vaatii {2_TechOrCivicName})</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_REQUIRES_GOVERNMENT_TIER">
+      <Text>Vaadittu hallitustaso: {1_GovernmentTier}</Text>
+    </Row>
+  </EnglishText>
+</GameData>

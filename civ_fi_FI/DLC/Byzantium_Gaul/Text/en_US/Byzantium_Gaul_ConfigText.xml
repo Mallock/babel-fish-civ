@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <!-- Dramatic Ages Civ Ability Override -->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DRAMATIC_AGE_QUESTS_DESCRIPTION">
+      <Text>Kultakaudella saa yhden ylimääräisen Villin kortin aseman ja voi käyttää Pimeän ajan politiikkoja. +50% [ICON_Production] tuotantoa puolustusrakennuksiin.</Text>
+    </Row>
+    <!-- Byzantium: Civ Info -->
+    <Row Tag="LOC_CIVILIZATION_BYZANTIUM_NAME">
+      <Text>Bysantti</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BYZANTIUM_DESCRIPTION">
+      <Text>Bysantin valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BYZANTIUM_ADJECTIVE">
+      <Text>Bysanttilainen</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_NAME">
+      <Text>Taksit</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION">
+      <Text>Yksiköt saavat +3 [ICON_Strength] taisteluvoimaa tai [ICON_Religion] uskonnollista voimaa jokaista Pyhää kaupunkia kohti, jotka on käännytetty Bysantin uskonnolle (mukaan lukien Bysantin Pyhä kaupunki). Bysantin uskonto leviää lähellä oleviin kaupunkeihin kun vihollisen sivilisaation tai kaupunkivaltion yksikkö tuhotaan. Kaupungeista, joissa on Pyhä paikka -kaupunginosa, saa +1 [ICON_GreatProphet] Suuren profeetan pisteen.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYZANTIUM_COMBAT_UNITS_NAME">
+      <Text>Pyhä Kaupunki -taistelu</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYZANTIUM_COMBAT_UNITS_DESCRIPTION">
+      <Text>Saat +3 [ICON_Strength] Taisteluvoimaa jokaisesta pyhästä kaupungista, joka on käännytetty uskonnollasi. Lisäksi, kun suuren sivilisaation yksikkö kukistetaan, Bysantin uskonto leviää lähellä oleviin kaupunkeihin (Taxis)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_NUMBER_HOLY_CITIES_CONVERTED_BONUS_DESC">
+      <Text>+{1_Amount} Taisteluvoimaa Taksit-piirteen ansiosta</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYZANTIUM_RELIGIOUS_UNITS_NAME">
+      <Text>Pyhä kaupunki uskonnollinen voima</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYZANTIUM_RELIGIOUS_UNITS_DESCRIPTION">
+      <Text>Saat +3 [ICON_RELIGION] Uskonnollista voimaa jokaisesta pyhästä kaupungista, joka on käännytetty omaan uskontoon.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_NUMBER_HOLY_CITIES_CONVERTED_RELIGIOUS_BONUS_DESC">
+      <Text>+{1_Määrä} uskonnollista voimaa Taksis-ominaisuudesta</Text>
+    </Row>
+    <!-- Byzantium: District Info -->
+    <Row Tag="LOC_DISTRICT_HIPPODROME_NAME">
+      <Text>Hippodromi</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HIPPODROME_DESCRIPTION">
+      <Text>Erityinen alue Bysantille. Korvaa Viihdeteollisuusalueen, tarjoaa +3 [ICON_Amenities] mukavuutta ja on halvempi rakentaa. Kun Hipodromi ja rakennukset tällä alueella on rakennettu, saat Raskas ratsuväki yksikön.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HIPPODROME_EXPANSION1_DESCRIPTION">
+      <Text>Erityinen kaupunginosa Bysantinumille. Korvaa viihdekeskustan kaupunginosan, tarjoaa +3 [ICON_Amenities] hyödykettä ja on halvempi rakentaa. Kun hippodromi ja rakennukset tässä kaupunginosassa on rakennettu, saa raskas ratsuväki yksikön. Ei voi rakentaa vesipuiston kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HIPPODROME_EXPANSION2_DESCRIPTION">
+      <Text>Alue, joka on ainutlaatuinen Byzantiumille. Korvaa Viihdekeskus-alueen, tarjoaa +3 [ICON_Amenities] Viihtyisyyttä ja on halvempi rakentaa. Kun Hipodromi ja rakennukset tässä kaupunginosassa on rakennettu, saat raskaan ratsuväen yksikön. Tämän kaupunginosan myöntämät yksiköt eivät vaadi resurssien ylläpitokustannuksia. Ei voi rakentaa kaupunkiin, jossa on Vesipuisto.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FREE_RESOURCE_MAITENANCE_HIPPODROME_NAME">
+      <Text>Hippodromi</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FREE_RESOURCE_MAITENANCE_HIPPODROME_DESCRIPTION">
+      <Text>Tämä yksikkö ei maksa strategisia resursseja vuorossa Hippodromen kaupunginosasta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HIPPODROME_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kulttuuria vieressä sijaitsevasta Hippodrome-kaupunginosasta.</Text>
+    </Row>
+    <!-- Byzantium: Leader Info -->
+    <Row Tag="LOC_LEADER_BASIL_NAME">
+      <Text>Basil II</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_BASIL_NAME">
+      <Text>Porfyrogeneettinen</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_BASIL_DESCRIPTION">
+      <Text>Raskas ja kevyt ratsuväki yksiköt tekevät täyden vahingon kaupunkeihin, jotka noudattavat samaa uskontoa kuin Bysantti. Saat Tagma-erikoisyksikön, kun Jumalallisen oikeuden siviilioikeus on löydetty.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_BASIL">
+      <Text>Vihollisesi pelkäävät sinua, kuningas Basil II, sillä sinut on takonut tulenlieskat. Anna viekkautesi ja kunnianhimosi teroittaa miekkasi. Suojele ylpeytesi ja asetu vastustajiesi, niin sisäisten kuin ulkoistenkin, edessä.</Text>
+    </Row>
+    <!-- Byzantium: Unit Info -->
+    <Row Tag="LOC_UNIT_BYZANTINE_DROMON_NAME">
+      <Text>Dromon</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BYZANTINE_DROMON_DESCRIPTION">
+      <Text>Bysanttilainen uniikki klassinen aikakauden yksikkö, joka korvaa Quadriremen ja sillä on lisääntynyt kantama ja se saa +10 [ICON_Strength] taisteluvoimaa taistellessaan yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DROMON_NAME">
+      <Text>Kreikkalainen tuli</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DROMON_DESCRIPTION">
+      <Text>Saat +10 [ICON_Strength] taisteluvoimaa yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DROMON_COMBAT_STRENGTH_AGAINST_UNITS_DESCRIPTION">
+      <Text>+{1_Amount} Taisteluvoimaa yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BYZANTINE_TAGMA_NAME">
+      <Text>Tagma</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BYZANTINE_TAGMA_DESCRIPTION">
+      <Text>Basil II:n ainutlaatuinen keskiaikaisen ajan yksikkö, joka korvaa Ritarin. Maajoukot, jotka ovat 1 tiilen päässä Tagma-yksiköstä, saavat +4 [ICON_Strength] taisteluvoimaa tai [ICON_RELIGION] uskonnollista voimaa.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TAGMA_NAME">
+      <Text>Tagma</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TAGMA_DESCRIPTION">
+      <Text>Maajoukot, jotka ovat 1 ruudun etäisyydellä Tagmasta, saavat +4 [ICON_Strength] taisteluvoimaa tai [ICON_RELIGION] uskonnollista voimaa.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TAGMA_NONRELIGIOUS_COMBAT_NAME">
+      <Text>Tagma-kamppailuvoima</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TAGMA_NONRELIGIOUS_COMBAT_DESCRIPTION">
+      <Text>+4 [ICON_Strength] Taisteluvoimaa, kun olet yhden ruudun etäisyydellä Tagmasta.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TAGMA_COMBAT_STRENGTH_DESCRIPTION">
+      <Text>+{1_Amount} Taisteluvoimaa kun olet 1 laatan päässä Tagmasta.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TAGMA_RELIGIOUS_COMBAT_NAME">
+      <Text>Tagma Uskonnollinen Voima</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TAGMA_RELIGIOUS_COMBAT_DESCRIPTION">
+      <Text>+4 [ICON_RELIGION] Uskonnollinen voima, kun olet 1 ruudun säteellä Tagmasta.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TAGMA_RELIGIOUS_DESCRIPTION">
+      <Text>+{1_Amount} uskonnollista voimaa, kun olet yhden ruudun päässä Tagmasta.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_SAME_RELIGION_NAME">
+      <Text>Porfyrogeeni</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_SAME_RELIGION_DESCRIPTION">
+      <Text>Täysi vahinko kaupungeille, jotka seuraavat samaa uskontoa kuin Bysantin (Porphyrogénnētos)</Text>
+    </Row>
+    <!-- Gaul: Civ Info -->
+    <Row Tag="LOC_CIVILIZATION_GAUL_NAME">
+      <Text>Gaul</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GAUL_DESCRIPTION">
+      <Text>Gallialainen keisarikunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GAUL_ADJECTIVE">
+      <Text>Gallicum</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GAUL_NAME">
+      <Text>Hallstatt-kulttuuri</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GAUL_DESCRIPTION">
+      <Text>Kaivokset tarjoavat kaikille kaupunginosille vähäisen viereisyysbonuksen, kulttuuripommin omistamattomaan alueeseen ja saavat +1 [ICON_CULTURE] kulttuuria. Erikoiskaupunginosat eivät saa vähäistä viereisyysbonusta ollessaan vierekkäin toisen kaupunginosan kanssa, eivätkä näitä kaupunginosia voi rakentaa kaupungintalon viereen.</Text>
+    </Row>
+    <!-- Gaul: District Info -->
+    <Row Tag="LOC_DISTRICT_OPPIDUM_NAME">
+      <Text>Oppidum</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_OPPIDUM_DESCRIPTION">
+      <Text>Gallialainen alue, joka on halvempi ja saatavilla aikaisemmin kuin se alue, jota se korvaa, Teollisuusalue. Oppidum-alue on puolustuskelpoinen kaukohyökkäyksellä. Kun ensimmäinen Oppidum rakennetaan, avataan Oppipoikatekniikka.[NEWLINE][NEWLINE]+2 [ICON_Production] tuotantoetuliite kivilouhoksilta ja strategisilta resursseilta.</Text>
+    </Row>
+    <!-- Gaul: Leader Info -->
+    <Row Tag="LOC_LEADER_AMBIORIX_NAME">
+      <Text>Ambiorix</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_AMBIORIX_NAME">
+      <Text>Eburonien kuningas</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_AMBIORIX_DESCRIPTION">
+      <Text>Sinun sivilisaatiosi saa [ICON_CULTURE] kulttuuripisteitä yhtä suurena kuin 20% yksikön hinnasta, kun ei-siviiliyksikköä koulutetaan. Lähitaistelu-, anti-ratsastus- ja kaukotaistelu-yksiköt saavat +2 [ICON_Strength] taisteluvoimaa jokaista viereistä yksikköä kohti.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS_NAME">
+      <Text>Ambiorix</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS_DESCRIPTION">
+      <Text>Saat +2 [ICON_Strength] Taisteluvoimaa jokaisesta viereisestä yksiköstä (Eburonien kuningas)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_NEIGHBOR_COMBAT_BONUS_DESC">
+      <Text>+{1_Amount} Taisteluvoimaa Eburonien kuninkaan ominaisuudesta</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_AMBIORIX">
+      <Text>Älykkyytesi palvelee sinua hyvin, Ambiorix. Missä armeijasi koko epäonnistuu, käytä päätäsi ja kullanhohtoista kieltäsi palauttaaksesi maasi. Liittolaisesi seuraavat johtoasi ja vahva keihäsvarsi rikkoo vihollistesi vastarinnan. Taistele, suuri soturikuningas!</Text>
+    </Row>
+    <!-- Gaul: Unit Info -->
+    <Row Tag="LOC_UNIT_GAUL_GAESATAE_NAME">
+      <Text>Gaesatae</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GAUL_GAESATAE_DESCRIPTION">
+      <Text>Gallialainen ainutlaatuinen muinaisen ajan yksikkö, joka korvaa Warriorin. Tällä yksiköllä on korkeampi hinta ja se saa +10 [ICON_Strength] taisteluvoimaa taistellessaan yksiköitä vastaan, joilla on korkeampi perustaisteluvoima. +5 [ICON_Strength] taisteluvoimaa piirityspuolustuksia vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GAESATAE_NAME">
+      <Text>Gaesatae</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GAESATAE_DESCRIPTION">
+      <Text>Saat +10 [ICON_Strength] taisteluvoimaa yksiköitä vastaan, joilla on korkeampi perustaisteluvoima. +5 [ICON_Strength] taisteluvoimaa kaupunginosien puolustuksia vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GAESATAE_COMBAT_STRENGTH_DESCRIPTION">
+      <Text>+{1_Amount} Taisteluvoimaa yksiköitä vastaan, joilla on korkeampi perustaisteluvoima.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GAESATAE_COMBAT_DISTRICTS_DESCRIPTION">
+      <Text>+{1_Määrä} Taisteluvoimaa kaupunginosan puolustusta vastaan.</Text>
+    </Row>
+    <!-- Highlands-->
+    <Row Tag="LOC_MAP_HIGHLANDS_NAME">
+      <Text>Ylängöt</Text>
+    </Row>
+    <Row Tag="LOC_MAP_HIGHLANDS_DESCRIPTION">
+      <Text>Suuri alue, jota hallitsevat kukkulat ja vuorijonot.</Text>
+    </Row>
+    <!-- Dramatic Ages Mode -->
+    <Row Tag="LOC_GAMEMODE_DRAMATICAGES_NAME">
+      <Text>Dramaattiset aikakaudet -tila</Text>
+    </Row>
+    <Row Tag="LOC_GAMEMODE_DRAMATICAGES_DESCRIPTION">
+      <Text>This game mode makes Dark Ages and Golden Ages more potent than ever. Heroic Ages are removed, and players can only be in a Normal Age in the first era. After that, they will either earn a Dark or a Golden Age.[NEWLINE][NEWLINE]Instead of making Dedications, players get access to powerful new Social Policies based on their Age. Dark Policies make a return with refreshed powerful effects. Brand new Golden Policies are available to those who make it to a Golden Age. To keep earning Era Score, complete Techs and Civics and earn military unit promotions.[NEWLINE][NEWLINE]Dark Ages are particularly dangerous. Players in Dark Ages will have a portion of their empire immediately fall into Free Cities, and Free Cities can exert pressure on other cities. On easier difficulty settings, AI players lose a lot of cities. On harder difficulty settings, human players do. On Prince, they lose an equal amount.[NEWLINE][NEWLINE]Georgia's civilization unique ability is brand new, to match the mode's unique rules.</Text>
+    </Row>
+  </EnglishText>
+</GameData>

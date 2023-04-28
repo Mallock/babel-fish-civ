@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BaseGameText>
+    <!-- Victories -->
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_TITLE">
+      <Text>Valtapoliittinen sota</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_DESC">
+      <Text>Vangitse kolme kaupunkivaltiota.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_BLURB">
+      <Text>"Tässä on minun strategiani Kylmää sotaa vastaan: me voitamme, he häviävät." - Ronald Reagan</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_TITLE">
+      <Text>Armageddonin herra</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_DESC">
+      <Text>Mikäli mikä tahansa kaupungin keskusta on pommitettu ydinpommilla, pommita eniten kaupungin keskuksia rajoitetun ajan kuluessa.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_BLURB">
+      <Text>Ainoa tapa voittaa on olla pelaamatta.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_TITLE">
+      <Text>Pankkiiri Tankki</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_DESC">
+      <Text>Mikäli kaupunkikeskuksia ei pommiteta ydinasemilla, omista eniten tankkeja vuoron rajaan mennessä.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_BLURB">
+      <Text>Sinulla on eniten tankkeja pelin lopussa! Voitat!</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_RULESET_TITLE">
+      <Text>Maailmanlaajuinen termojeninen sota</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_RULESET_DESCRIPTION">
+      <!-- Keep in sync with LOC_COLDWAR_MOD_DESCRIPTION -->
+      <Text>The Cold War runs hot in this combat-based scenario set in the Atomic Era. Lasts 50 Turns.[NEWLINE]Victory Conditions[NEWLINE][ICON_Bullet]Lord of the Armageddon: If any city center is nuked, nuke the most city centers by the turn limit.[NEWLINE][ICON_Bullet]Tank Banker: If no city centers are nuked, have the most tanks by the turn limit.[NEWLINE][ICON_Bullet]Proxy War: Capture 3 city-states.[NEWLINE]Gameplay Changes[NEWLINE][ICON_Bullet]Units and nuclear devices are cheaper to build and maintain. They don't require strategic resources.[NEWLINE][ICON_Bullet]Extended ranges for WMD Strikes and Bombers.[NEWLINE][ICON_Bullet]Builders have more charges for faster city development.[NEWLINE][ICON_Bullet]The map starts revealed.[NEWLINE][ICON_Bullet]No Tribal Villages.[NEWLINE][ICON_Bullet]No Barbarians.[NEWLINE][ICON_Bullet]War Weariness is disabled.</Text>
+    </Row>
+    <!-- Mod Package Text -->
+    <Row Tag="LOC_COLDWAR_MOD_TITLE">
+      <Text>Moninpeli-skenaario: Globaali ydinsota</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_MOD_TEASER">
+      <Text>Kylmä sota kuumenee tässä taistelupohjaisessa skenaariossa, joka sijoittuu atomiaikaan. Kestää 50 kierrosta.</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_MOD_DESCRIPTION">
+      <!-- Keep in sync with LOC_COLDWAR_RULESET_DESCRIPTION -->
+      <Text>The Cold War runs hot in this combat-based scenario set in the Atomic Era. Lasts 50 Turns.[NEWLINE]Victory Conditions[NEWLINE][ICON_Bullet]Lord of the Armageddon: If any city center is nuked, nuke the most city centers by the turn limit.[NEWLINE][ICON_Bullet]Tank Banker: If no city centers are nuked, have the most tanks by the turn limit.[NEWLINE][ICON_Bullet]Proxy War: Capture 3 city-states.[NEWLINE]Gameplay Changes[NEWLINE][ICON_Bullet]Units and nuclear devices are cheaper to build and maintain. They don't require strategic resources.[NEWLINE][ICON_Bullet]Extended ranges for WMD Strikes and Bombers.[NEWLINE][ICON_Bullet]Builders have more charges for faster city development.[NEWLINE][ICON_Bullet]The map starts revealed.[NEWLINE][ICON_Bullet]No Tribal Villages.[NEWLINE][ICON_Bullet]No Barbarians.[NEWLINE][ICON_Bullet]War Weariness is disabled.</Text>
+    </Row>
+    <Row Tag="LOC_CW_GAME_TURN_LIMIT_REACHED_PROGRESS">
+      <Text>Vuororaja {ElapsedTurns}/{MinGameTurn} {StatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_PROXYWAR_VICTORY_CAPTURE_CITY_STATES_PROGRESS">
+      <Text>Kaupunkivaltiot vallattu {CurrentConquered}/{CityStatesConquered} {StatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_ARMAGEDDON_VICTORY_REQUIRES_PLAYER_HAS_MOST_WMD_DIRECT_CITY_HITS_PROGRESS">
+      <Text>Keskukset Nukutettu {NukedCityCenters} {NukeCountStatusIcon}[NEWLINE]Mikä tahansa Keskus Nukutettu {NukeWarStatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_TANKBANKER_REQUIRES_PLAYER_HAS_MOST_TANKS_PROGRESS">
+      <Text>Säilytetyt panssarit {NumPromotionClass} {PromotionStatusIcon}[NEWLINE]Ei yhtään kaupunkikeskustaa pommitettu ydinaseilla {NoNukeWarStatusIcon}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,944 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Buildings-->
+    <Row Tag="LOC_BUILDING_SCENARIO_LIGHTHOUSE_DESCRIPTION">
+      <Text>+1 [ICON_FOOD] Ruokaa kaikilla rannikkoruuduilla tälle kaupungille.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_TEMPLE_DESCRIPTION">
+      <Text>Uskonnolliset yksiköt, jotka ovat koulutettu täällä, saavat lisäkannusteen.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_SHIPYARD_DESCRIPTION">
+      <Text>Bonus [ICON_Production] tuotanto, joka vastaa satamakaupunginosan läheisyysbonusta.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_MOSQUE_DESCRIPTION">
+      <Text>Tämän paikan luotetut lähetys- ja munkkiyksiköt levittävät uskoa +1 verran.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_PAGODA_DESCRIPTION">
+      <Text>Tämän paikan luomat papit saavat +1 Poista harhaoppisuus -ominaisuuden ja Guru-yksiköille koulutettuna +1 Paranna -latauksen.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_MAHABODHI_TEMPLE_DESCRIPTION">
+      <Text>Palkinto 2 satunnaisesti valittua vapaata kansalaistaitoa, kun se on valmistettu. Kaikki vastikään koulutetut Lähetyssaarnaaja- ja Munkki-yksiköt saavat +1 leviäminen.[NEWLINE][NEWLINE]On rakennettava metsään tai sademetsään.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_ANGKOR_WAT_DESCRIPTION">
+      <Text>Kun tämä ihme on rakennettu, saat +3 [ICON_ENVOY] Lähettilästä ja +1 [ICON_Citizen] Väestön kaikissa nykyisissä kaupungeissa. +1 [ICON_Housing] Asuntoa kaikissa kaupungeissa. [NEWLINE][NEWLINE] Sen on oltava rakennettu akveduktialueen vieressä.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_POTALA_PALACE_DESCRIPTION">
+      <Text>+1 Villin kortin politiikkapaikka[NEWLINE][NEWLINE]On rakennettava kukkulalle.</Text>
+    </Row>
+    <!-- China-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KAIFENG">
+      <Text>Kaifeng</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LINAN">
+      <Text>Lin'an</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_QUANZHOU">
+      <Text>Quanzhou</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CHONGQING">
+      <Text>Chongqing</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CHANGAN">
+      <Text>Chang'an</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PANYU">
+      <Text>Panyu</Text>
+    </Row>
+    <!-- Chola-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ANURADHAPURA">
+      <Text>Anuradhapura</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VENGI">
+      <Text>Vengi</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BANAVASI">
+      <Text>Banavasi</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KADARAM">
+      <Text>Kadaram</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PEGU">
+      <Text>Pegu</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MA_NAKKAVARAM">
+      <Text>Ma-Nakkavaram</Text>
+    </Row>
+    <!-- Ghaznavid-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GHAZNA">
+      <Text>Ghazna</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAHORE">
+      <Text>Lahore</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BALKH">
+      <Text>Balkh</Text>
+    </Row>
+    <!-- Pala-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BIKRAMPUR">
+      <Text>Bikrampur</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PATALIPUTRA">
+      <Text>Pataliputra</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KANNAUJ">
+      <Text>Kannauj</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DURJAYA">
+      <Text>Durjaya</Text>
+    </Row>
+    <!-- Tufan-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LHASA">
+      <Text>Lhasa</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_QAMDO">
+      <Text>Qamdo</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BURANG">
+      <Text>Burang</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_XINING">
+      <Text>Xining</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NAGQU">
+      <Text>Nagqu</Text>
+    </Row>
+    <!-- City States-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DALI">
+      <Text>Dali</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DALI_DESCRIPTION">
+      <Text>Dalin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DELHI">
+      <Text>Delhi</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DELHI_DESCRIPTION">
+      <Text>Delhin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GAOCHANG">
+      <Text>Gaochang</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GAOCHANG_DESCRIPTION">
+      <Text>Gaochangin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GOA">
+      <Text>Goa</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GOA_DESCRIPTION">
+      <Text>Goan kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_HEIAN">
+      <Text>Heian. (Note: Heian is a proper noun and does not have a direct translation in Finnish.)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HEIAN_DESCRIPTION">
+      <Text>Heian kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KAESONG">
+      <Text>Kaesong</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KAESONG_DESCRIPTION">
+      <Text>Kaesong kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KASHGAR">
+      <Text>Kashgar (proper noun, a city in the Xinjiang Uygur Autonomous Region of China) = Kashgar (Kašgar)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KASHGAR_DESCRIPTION">
+      <Text>Kashgarin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KHOTAN">
+      <Text>Khotan</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KHOTAN_DESCRIPTION">
+      <Text>Khotan kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KUCHA">
+      <Text>Kucha</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KUCHA_DESCRIPTION">
+      <Text>Kucha kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAMPHUN">
+      <Text>Lamphun</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LAMPHUN_DESCRIPTION">
+      <Text>Lamphunin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAMURI">
+      <Text>Lamuri</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LAMURI_DESCRIPTION">
+      <Text>Lamurin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MALABANG">
+      <Text>Malabang</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MALABANG_DESCRIPTION">
+      <Text>Malabangin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PAGAN">
+      <Text>Pakanallinen</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PAGAN_DESCRIPTION">
+      <Text>Pakana kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PALEMBANG_DESCRIPTION">
+      <Text>Palembangin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SAMARKAND">
+      <Text>Samarkand</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SAMARKAND_DESCRIPTION">
+      <Text>Samarkandin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SOMNATH">
+      <Text>Somnath</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SOMNATH_DESCRIPTION">
+      <Text>Somnathin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_THANG_LONG">
+      <Text>Thăng Long</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THANG_LONG_DESCRIPTION">
+      <Text>Thăng Longin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TEMASEK">
+      <Text>Temasek</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TEMASEK_DESCRIPTION">
+      <Text>Temasekin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TONDO">
+      <Text>Tondo</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TONDO_DESCRIPTION">
+      <Text>Tondo kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TURPAN">
+      <Text>Turpan</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TURPAN_DESCRIPTION">
+      <Text>Turpan kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_UJJAIN">
+      <Text>Ujjain</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_UJJAIN_DESCRIPTION">
+      <Text>Ujjainin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VIJAYA">
+      <Text>Vijaya</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_VIJAYA_DESCRIPTION">
+      <Text>Vijayan kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_XINGQING">
+      <Text>Xingqing</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_XINGQING_DESCRIPTION">
+      <Text>Xingqingin kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ZHONGJING">
+      <Text>Zhongjing. (As a name, it does not require translation.)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ZHONGJING_DESCRIPTION">
+      <Text>Zhongjing kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGEGROUP_SCENARIO_MARITIME_NAME">
+      <Text>Merellinen</Text>
+    </Row>
+    <!-- City States Traits-->
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TRADE_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Tuotanto [ICON_Capital] pääkaupungissa yksiköitä tuotettaessa</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Tuotanto jokaisessa Kauppakeskusten kaupunginosassa, kun tuotetaan yksiköitä.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Lisäksi jokaisesta kauppakeskuspiiristä tuotetaan +2 [ICON_Production] lisää, kun yksiköitä tuotetaan.</Text>
+    </Row>
+		<Row Tag="LOC_MINOR_CIV_SCENARIO_CULTURAL_TRAIT_DESCRIPTION">
+			<Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+		</Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_CULTURE] Kulttuuria pääkaupungissa [ICON_Capital].</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_CULTURE] Kulttuuria jokaisessa kaupungin keskustan kaupunginosassa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Lisäksi kaikissa kaupungin keskustan kaupunginosissa on lisätty +2 [ICON_CULTURE] kulttuuria.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_NAME">
+      <Text>Merellinen kaupunkivaltio</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_DESCRIPTION">
+      <Text>PIENET VAIKUTUSLÄHETTILÄÄT: MERELLINEN PIIRRE -BONUS [NEWLINE] KESKITASON VAIKUTUSLÄHETTILÄÄT: MERELLINEN PIIRRE -BONUS [NEWLINE] SUURET VAIKUTUSLÄHETTILÄÄT: MERELLINEN PIIRRE -BONUS</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_FOOD] Ruokaa [ICON_Capital] pääkaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_FOOD] Ruokaa jokaisessa satamakaupunginosassa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Lisäksi jokaisessa satamakaupunginosassa on +2 [ICON_FOOD] ruokaa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_INDUSTRIAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] tuotanto [ICON_Capital] pääkaupungissa, kun tuotetaan ihmeitä, rakennuksia ja kaupunginosia.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] Tuotanto jokaisessa Vesijohto-kaupunginosassa, kun tuotetaan ihmeitä, rakennuksia ja kaupunginosia.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>Lisäksi jokaisessa Akvedukti kaupunginosassa tuotetaan +2 [ICON_Production] tuotantoa rakentaessa ihmeitä, rakennuksia ja kaupunginosia.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DALI_TRAIT_NAME">
+      <Text>Dali Suzerain bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DELHI_TRAIT_NAME">
+      <Text>Delhi Suzerain Bonus - Delhi Ylivalta Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GAOCHANG_TRAIT_NAME">
+      <Text>Gaochangin yliherra bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GOA_TRAIT_NAME">
+      <Text>Goan herraeduuslisä</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_HEIAN_TRAIT_NAME">
+      <Text>Heian hallitsijan bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KAESONG_TRAIT_NAME">
+      <Text>Kaesongin yliherruusbonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KASHGAR_TRAIT_NAME">
+      <Text>Kashgarin suurherttuakunnan bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KHOTAN_TRAIT_NAME">
+      <Text>Khotanin suurherra bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KUCHA_TRAIT_NAME">
+      <Text>Kucha Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMPHUN_TRAIT_NAME">
+      <Text>Lamphunin suurherra-bonus</Text>
+    </Row>
+		<Row Tag="LOC_MINOR_CIV_SCENARIO_LAMURI_TRAIT_NAME">
+			<Text>Lamuri Suzerain Bonus</Text>
+		</Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MALABANG_TRAIT_NAME">
+      <Text>Malabang Suzerain Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PAGAN_TRAIT_NAME">
+      <Text>Pakanallisen hallitsijan bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PALEMBANG_TRAIT_NAME">
+      <Text>Palembangin suvereeni bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SAMARKAND_TRAIT_NAME">
+      <Text>Samarkandin suurherruuden bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SOMNATH_TRAIT_NAME">
+      <Text>Somnathin suurherra bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_THANG_LONG_TRAIT_NAME">
+      <Text>Thăng Longin suvereenin bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TEMASEK_TRAIT_NAME">
+      <Text>Temasek Suzerain Bonus = Temasekin ylivaltausbonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TONDO_TRAIT_NAME">
+      <Text>Tondo suzeraanibonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TURPAN_TRAIT_NAME">
+      <Text>Turpan Suzerain Bonus (No context provided, unable to provide a natural sounding translation without further information)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_UJJAIN_TRAIT_NAME">
+      <Text>Ujjainin suurherttuan bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_VIJAYA_TRAIT_NAME">
+      <Text>Vijaya Suvereeni Bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_XINGQING_TRAIT_NAME">
+      <Text>Xingqing Suzerain Bonus = Xingqingin feodaaliherran bonukset</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_ZHONGJING_TRAIT_NAME">
+      <Text>Zhongjing Suzerain Bonus = Zhongjingin ylimääräinen bonus</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_BANDAR_BRUNEI_TRAIT_DESCRIPTION">
+      <Text>Sinun kaupunginosasi rannikon laattojen päällä tai vieressä tuottavat +2 [ICON_FAITH] Uskoa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DALI_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Mukavuus kaupungeissa, joissa on kaupallinen keskusta-alue.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DELHI_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradeRoute] kauppareittisi kaikkiin kaupunkivaltioihin tarjoavat +2 [ICON_FAITH] uskoa jokaisesta erikoispiiristä lähtökaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GAOCHANG_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Käyttöetu kaupungeissa, joissa on kaupallinen keskusta-alue.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GOA_TRAIT_DESCRIPTION">
+      <Text>Sinun piirikuntasi rannikkolaattojen päällä tai vieressä antavat +2 [ICON_FAITH] uskoa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_HEIAN_TRAIT_DESCRIPTION">
+      <Text>Sinun piirikuntasi rannikkolaatoilla tai niiden vieressä tuottavat +2 [ICON_FAITH] uskoa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KAESONG_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradeRoute] kauppareittisi kaupunkivaltioihin antavat +2 [ICON_FAITH] uskoa jokaisesta erikoistuneesta kaupunginosasta lähtökaupungissasi.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KASHGAR_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradeRoute] kauppareittisi ulkomaisiin kaupunkeihin ansaitsevat +1 [ICON_FAITH] uskoa kohdekaupungissa olevasta jokaisesta luksusresurssista.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KHOTAN_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Palvelu kaupungeissa, joissa on Kaupallinen keskus -kaupunginosa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KUCHA_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradingPost] kauppapaikkasi ulkomaisissa kaupungeissa tarjoavat +1 [ICON_CULTURE] kulttuuria kauppareiteillesi, jotka kulkevat tai ovat menossa kyseiseen kaupunkiin.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMPHUN_TRAIT_DESCRIPTION">
+      <Text>Bonus-resurssisi käyttäytyvät kuin ylellisyysresurssit, tarjoten 1 [ICON_Amenities] mukavuuslaatikkoa per tyyppi.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMURI_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradeRoute] kauppareittisi mihin tahansa kaupunkivaltioon tarjoavat +2 [ICON_FAITH] uskoa jokaisesta erikoisaluedistriktistä lähtökaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MALABANG_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradeRoute] kauppamatkat mihin tahansa kaupunkivaltioon antavat +2 [ICON_FAITH] uskoa jokaisesta erikoisalueliikkeestä alkuperäiskaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PAGAN_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradeRoute] kauppareittisi mihin tahansa kaupunkivaltioon tarjoavat +2 [ICON_FAITH] Uskoa jokaisesta erikoisaluekorttelista lähtökaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PALEMBANG_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Palvelu kaupungeissa, joissa on Kauppakeskus-kaupunginosa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SAMARKAND_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] Mukavuus kaupungeissa, joissa on kaupallinen keskusta-alue.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SOMNATH_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradeRoute] kauppareittisi mihin tahansa kaupunkivaltioon antavat +2 [ICON_FAITH] uskoa jokaisesta erikoiskaupunginosasta lähtökaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_THANG_LONG_TRAIT_DESCRIPTION">
+      <Text>Alueesi rannikkolaatoilla tai niiden vieressä tuottavat +2 [ICON_FAITH] Uskoa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TEMASEK_TRAIT_DESCRIPTION">
+      <Text>Sinun bonusresurssisi toimivat kuin ylellisyysresurssit, tarjoten yhden [ICON_Amenities] viihtyvyyden per tyyppi.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TONDO_TRAIT_DESCRIPTION">
+      <Text>Alueesi rannikkolaatoilla tai niiden vieressä tarjoavat +2 [ICON_FAITH] uskoa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TURPAN_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradeRoute] kauppareitit kaupunkivaltioon tarjoavat +2 [ICON_FAITH] uskoa jokaisesta erikoispiiristä alkuperäisessä kaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_UJJAIN_TRAIT_DESCRIPTION">
+      <Text>Bonus-resurssisi käyttäytyvät kuin ylellisyysresurssit ja tarjoavat yhden [ICON_Amenities] viihtyvyyden tyyppiä kohden.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_VIJAYA_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradeRoute] kauppareittisi mihin tahansa kaupunkivaltioon antavat +2 [ICON_FAITH] uskoa jokaisesta erikoisalueesta alkuperäiskaupungissa.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_XINGQING_TRAIT_DESCRIPTION">
+      <Text>Sinun bonusresurssisi käyttäytyvät kuin ylellisyysresurssit, tarjoten yhden [ICON_Amenities] mukavuuden per tyyppi.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_ZHONGJING_TRAIT_DESCRIPTION">
+      <Text>Sinun [ICON_TradingPost] kauppapaikat ulkomaisissa kaupungeissa antavat +1 [ICON_CULTURE] kulttuuria kauppareitteihisi, jotka kulkevat kaupungin läpi tai menevät sinne.</Text>
+    </Row>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_SCENARIO_PAPERMAKING_NAME">
+      <Text>Paperinvalmistus</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_PRINTING">
+      <Text>Puutavaroista paperia. Paperista sivuja. Sivuista kirjoja. Kirjoista mieliin. Mielistä sieluihin.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_COMPASS_NAME">
+      <Text>Kompassi</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_CELESTIAL_NAVIGATION_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Liikkuminen maihinnousuyksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_FUTURE_CIVIC_DESCRIPTION">
+      <Text>Voidaan suorittaa useita kertoja, lisäten [ICON_Envoy] Lähettiläitäsi.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_GUILDS">
+      <Text>Kun kaupungit kukoistavat, samanmieliset ihmiset kokoontuvat yhteen vauraudesta nauttiakseen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_ENGINEERING">
+      <Text>Rakenna 3 temppeliä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_ENGINEERING">
+      <Text>Standardisoitu kyynärä on arvokas myös sekulaarissa maailmassa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_THEOLOGY">
+      <Text>Omista 3 lähetystyöntekijää.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_THEOLOGY">
+      <Text>Kun lähetämme lähetystyöntekijöitä, havaitsemme tarpeen ortodoksiselle uskolle.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MACHINERY">
+      <Text>Rakenna 2 vesijohtoa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_MACHINERY">
+      <Text>"Kuvittele vesipyörä", sanovat insinöörimme, "mutta se voi pyörittää lähes mitä tahansa!"</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_FEUDALISM">
+      <Text>Kasvata kaupunki 14 asukkaaseen.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_FEUDALISM">
+      <Text>Kaupungimme sisältävät moninaisuutta. Koodataan velvollisuudet kuninkailta yleisön edustajille.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_PAPERMAKING">
+      <Text>Ylläpidä 3 [ICON_TradeRoute] kauppareittiä.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_PAPERMAKING">
+      <Text>On varmasti parempi tapa pitää karavaanitietoja kuin kirjoittaa niitä saviruukkuihin?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_CIVIL_SERVICE">
+      <Text>Olla aikanaan kolmen kaupunkivaltion suurherra.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_CIVIL_SERVICE">
+      <Text>Entä jos voisit delegoida delegoinnit legiolle sihteereitä?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_BANKING">
+      <Text>Rakenna 3 markkinapaikkaa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_BANKING">
+      <Text>Taivaaseen johtava polku saattaa olla hienompi kuin kulta, mutta kulta on lähes yhtä palkitsevaa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_COMPASS">
+      <Text>Rakenna 3 majakkaa.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_COMPASS">
+      <Text>Merimies unelmoi purjehtimisesta, jota ohjaa näkymätön taivaan majakka.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_DIVINE_RIGHT">
+      <Text>Saavuta 15 kaupunkia seuraamaan uskontoasi.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_DIVINE_RIGHT">
+      <Text>Mikäpä parempi todiste uskosi oikeellisuudesta kuin niin monien katseet sinuun suunnattuna?</Text>
+    </Row>
+    <!-- Districts-->
+    <Row Tag="LOC_DISTRICT_SCENARIO_RIVER_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kulttuuri viereltä virtaavalta joelta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_HARBOR_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kulttuuri viereisestä satama-alueesta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_CITY_CENTER_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kulttuuria viereiseltä keskustan kaupunginosalta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_DISTRICT_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kulttuuria viereisistä {1_Num : plural 1?kaupunginosasta; other?kaupunginosista;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_SEARESOURCE_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] Kulttuuria viereiseltä mereltä {1_Num : plural 1?resurssi; other?resurssia;}.</Text>
+    </Row>
+    <!-- Governments-->
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_MONARCHY_DESCRIPTION">
+      <Text>Pääkaupunki saa +3 [ICON_FAITH] Uskoa, +1 [ICON_CULTURE] Kulttuuria, +1 [ICON_PRODUCTION] Tuotantoa ja +1 [ICON_FOOD] Ravintoa.</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_SCENARIO_THALASSOCRACY_NAME">
+      <Text>Thalassokratia</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_THALASSOCRACY_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Uskoa jokaiselle kalastusveneelle.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_THEOCRACY_DESCRIPTION">
+      <Text>Kaikki uskonnolliset yksiköt saavat Marttyyri-kyvyn, joka myöntää [ICON_GreatWork_Relic] reliikin, jos tämä yksikkö kuolee teologisessa taistelussa.</Text>
+    </Row>
+    <!-- Improvements-->
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_CAMP_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa leirejä.[NEWLINE][NEWLINE]+1 [ICON_FOOD] ruokaa. Voidaan rakentaa vain pätevien resurssien päälle.[NEWLINE][NEWLINE]Jos rakennetaan ylellisyysresurssien päälle, kaupunki saa käyttöoikeuden kyseiseen resurssiin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_MINE_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa kaivoksia.[NEWLINE][NEWLINE]+1 [ICON_Production] Tuotanto. -1 Vetovoima. Voidaan rakentaa kukkuloille tai sopiville resursseille.[NEWLINE][NEWLINE]Jos rakennetaan luksusresurssien päälle, kaupunki saa käyttöönsä kyseisen resurssin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_PASTURE_DESCRIPTION">
+      <Text>Avaa Kykyrakentajan kyvyn rakentaa Laitumia.[NEWLINE][NEWLINE]+1 [ICON_Production] Tuotanto. Voidaan rakentaa vain kelvollisille resursseille.[NEWLINE][NEWLINE]Jos rakennetaan Ylellisyysresursseille, kaupunki saa käyttöönsä kyseisen resurssin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_PLANTATION_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa plantaaseja.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Ruokaa. Voidaan rakentaa vain pätevien resurssien päälle.[NEWLINE][NEWLINE]Jos rakennetaan luksusresurssien päälle, kaupunki saa käyttöönsä kyseisen resurssin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_KAMPUNG_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa Kampung.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] tuotantoa ja +1 [ICON_Housing] asumista. +1 [ICON_FOOD] ruokaa jokaisesta viereisestä kalastusaluksesta. Täytyy sijoittaa rannalle tai järven laiturille meren resurssin vieressä.</Text>
+    </Row>
+    <!-- Policies-->
+    <Row Tag="LOC_POLICY_SCENARIO_URBAN_PLANNING_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Usko kaikissa kaupungeissa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CARAVANSARIES_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Uskoa kansainvälisistä [ICON_TradeRoute] kauppareiteistä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_NOBLE_PATH_NAME">
+      <Text>Jalo polku</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_NOBLE_PATH_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Uskonnollisia vaikutteita kotimaisilta [ICON_TradeRoute] kauppaväyliltä.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CORVEE_DESCRIPTION">
+      <Text>+15% [ICON_Production] Tuotanto ihmeitä kohti.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_DEVOTION_NAME">
+      <Text>Omistautuminen</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_DEVOTION_DESCRIPTION">
+      <Text>+25% [ICON_Production] Tuotanto uskonnollisia yksiköitä kohti.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_RAJ_DESCRIPTION">
+      <Text>+6 [ICON_Faith] Uskoa jokaisesta kaupunkivaltiosta, joita hallitset suvereenina.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MERITOCRACY_DESCRIPTION">
+      <Text>Jokainen kaupunki saa +1 [ICON_FAITH] uskoa jokaisesta erikoispiiristä, jonka se rakentaa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MERCHANT_CONFEDERATION_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] Uskonto kustakin [ICON_Envoy] Lähettiläästäsi kaupunkivaltioissa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CHARITY_NAME">
+      <Text>Hyväntekeväisyys</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_QUECHANG_NAME">
+      <Text>Quechang</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_QUECHANG_DESCRIPTION">
+      <Text>+100% [ICON_PRODUCTION] Tuotanto lisääntyy kaupallisen keskuksen alueen rakennuksissa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_TRADE_CONFEDERATION_DESCRIPTION">
+      <Text>+3 [ICON_TradeRoute] Kaikista kauppareiteistä [ICON_FAITH] uskoa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_JUNK_NAME">
+      <Text>Roska</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_JUNK_DESCRIPTION">
+      <Text>Kaksinkertaistaa satama-alueen rakennusten [ICON_FOOD] ruoka- ja [ICON_PRODUCTION] tuotantotuotot.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_FESTIVALS_NAME">
+      <Text>Festivaalit</Text>
+    </Row>
+    <!-- Projects-->
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_HARBOR_DESCRIPTION">
+      <Text>Aluepohjainen projekti, joka tarjoaa [ICON_CULTURE] kulttuuria jokaisella kierroksella.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_COMMERCIAL_HUB_DESCRIPTION">
+      <Text>Aluepohjainen projekti, joka tarjoaa [ICON_CULTURE] kulttuuria jokaisella vuorolla.</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_HOLY_SITE_DESCRIPTION">
+      <Text>Alueperusteinen projekti, joka tarjoaa suuren määrän [ICON_FAITH] uskoa joka vuoro</Text>
+    </Row>
+    <!-- Religion-->
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM1_NAME">
+      <Text>Shaivismi</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM2_NAME">
+      <Text>Hindu-uskonto</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM3_NAME">
+      <Text>Theravada buddhalaisuus</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM4_NAME">
+      <Text>Mahayana buddhalaisuus</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM5_NAME">
+      <Text>Vajrayana buddhalaisuus</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_GOD_OF_THE_OPEN_SKY_DESCRIPTION">
+      <Text>+2 [ICON_FOOD] Ruokaa laitumilta.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_STONE_CIRCLES_DESCRIPTION">
+      <Text>+2 [ICON_Faith] Uskoa ja +2 [ICON_Production] Tuotantoa Louhoksista.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_DANA_NAME">
+      <Text>Dāna (ei tarvitse käännöstä)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_DANA_DESCRIPTION">
+      <Text>Jyväaitat tarjoavat kullekin +3 [ICON_FAITH] uskoa. +1 [ICON_Amenities] mukavuutta jokaiseen kaupunkiin.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_NUSANTARA_DESCRIPTION">
+      <Text>Rannikko- ja järvitilat tarjoavat pienemmän vierekkäisyyden bonuksen Pyhän paikan kaupunginosille.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_LINGA_NAME">
+      <Text>Linga</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_LINGA_DESCRIPTION">
+      <Text>Voin ostaa Kauppahallin ja Sataman alueen rakennuksia [ICON_Faith] uskonnolla.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_VAJRAYANA_STUPA_NAME">
+      <Text>Vajrayana Stupa</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_VAJRAYANA_STUPA_DESCRIPTION">
+      <Text>Mahdollistaa stupien rakentamisen (+3 [ICON_Faith] uskoa, +1 [ICON_Amenities] mukavuutta) Laitteistotekniikalla avattu.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MAHAYANA_STUPA_NAME">
+      <Text>Mahayana Stupa</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MAHAYANA_STUPA_DESCRIPTION">
+      <Text>Mahdollistaa stupien rakentamisen (+3 [ICON_Faith] uskoa, +1 [ICON_Amenities] mukavuutta). Avattu painamalla.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_STEWARDSHIP_DESCRIPTION">
+      <Text>Jokainen kaupallinen keskus tai satamakaupunginosa, joka seuraa tätä uskontoa, tarjoaa kaupungille +1 [ICON_FAITH] uskoa.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_KAMPUNG_DESCRIPTION">
+      <Text>Teidän rakentajat voivat nyt tehdä Kampungin parannuksia. Avattu Killan avulla.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MOSQUE_DESCRIPTION">
+      <Text>Mahdollistaa moskeijoiden rakentamisen (+3 [ICON_Faith] uskoa). Lähetyssaarnaajien ja munkkien yksiköiden levitys kasvaa yhdellä. Avattu painatuksen myötä.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_PAGODA_DESCRIPTION">
+      <Text>Sallii pagodien rakentamisen (+3 [ICON_Faith] uskoa). Papin yksiköt poistavat harhaoppisuutta +1 ja guru parantaa +1 kerran. Lukittu tulostamisella.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_WAT_DESCRIPTION">
+      <Text>Sallii Watin rakentamisen (+3 [ICON_Faith] uskoa, +1 [ICON_Housing] asumista). Avattu painotekniikalla.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_HOLY_ORDER_DESCRIPTION">
+      <Text>Lähetystyöntekijät ja munkit ovat 30% halvempia ostaa.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_YOGA_NAME">
+      <Text>Jooga</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_YOGA_DESCRIPTION">
+      <Text>Voit ostaa siviiliyksiköitä [ICON_Faith] uskolla.</Text>
+    </Row>
+    <!-- Route-->
+    <Row Tag="LOC_ROUTE_SCENARIO_ANCIENT_ROAD_DESCRIPTION">
+      <Text>Sijoitettu skenaarion alkuun. Parantaa [ICON_Movement] liikkumisnopeutta kaikilla yksiköillä, jotka liikkuvat yhdestä tiilistä toiselle.</Text>
+    </Row>
+    <Row Tag="LOC_ROUTE_SCENARIO_MEDIEVAL_ROAD_DESCRIPTION">
+      <Text>Sijoitettu skenaarion alkuun. Parantaa [ICON_Movement]-liikkumisnopeutta kaikilla yksiköillä, jotka liikkuvat yhdestä tiilistä toiselle.</Text>
+    </Row>
+    <!-- Scoring-->
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FOLLOWERS_NAME">
+      <Text>Seuraajat Seurattavana Uskonto</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FOREIGN_CITIES_NAME">
+      <Text>Ulkomaiset kaupungit, jotka seuraavat uskontoa</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FAITH_NAME">
+      <Text>Usko per kierros</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_1">
+      <Text>Erityisskenaariosäännöt:</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_2">
+      <Text>Ei Teknologiapuuta, Kultaa, Diplomatiaa, Matkailua tai Tiedettä. Kulttuurirajat ovat kiinteät. Ominaisuuksia ei voi poistaa.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_3">
+      <Text>Kaikki uskonnolliset yksiköt aloittavat yhden ylennyksen kanssa ja niitä voidaan kouluttaa.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_4">
+      <Text>Vain yksi kaupunkivaltion suvereenin bonuksen lisäominaisuus antaa lisää tuottoja tai [ICON_Amenities] mukavuuksia jokaisen kaupunkivaltion tyyppiin.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_5">
+      <Text>Kauppiaat eivät luo teitä.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_6">
+      <Text>Pisteet saadaan:</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_7">
+      <Text>Uskonnon seuraajat: {1_Followers} {1_Followers: yksikkö 1?piste; monikko? pistettä;} jokaista uskonnon seuraajaa kohden.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_8">
+      <Text>Ulkomaiset kaupungit: {2_Cities} {2_Cities : plural 1?piste; other?pistettä;} kaikille tämän uskonnon seuraamille ulkomaisille kaupungeille.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_9">
+      <Text>Usko: {1_Faith} {2_Faith : plural 1?piste; other?pistettä;} jokaisesta [ICON_FAITH] uskosta [ICON_TURN] vuorossa.</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_10">
+      <Text>Kun lähetät [ICON_ENVOY] Lähettilään kaupunkivaltioon, se lisää 300 uskonnollista painetta kyseiselle kaupunkivaltiolle.</Text>
+    </Row>
+    <!-- Slots-->
+    <Row Tag="LOC_SLOT_SCENARIO_RELIGIOUS_NAME">
+      <Text>Uskonnollinen</Text>
+    </Row>
+    <!-- Units-->
+    <Row Tag="LOC_UNIT_SCENARIO_BUILDER_DESCRIPTION">
+      <Text>Voit luoda laatoituksia tai kerätä joitakin resursseja. Rakentajia voi käyttää 3 kertaa. Tämä määrä voidaan kasvattaa politiikkojen avulla.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_TRADER_DESCRIPTION">
+      <Text>Saattaa luoda ja ylläpitää yhtä [ICON_TradeRoute] kauppareittiä.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_PRIEST_NAME">
+      <Text>Pappi</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_MONK_NAME">
+      <Text>Munkki</Text>
+    </Row>
+    <Row Tag="LOC_UI_RELIGION_PRIEST_TT">
+      <Text>Papit voivat poistaa muiden uskontojen läsnäolon alueeltaan ja aloittaa teologisen taistelun muiden uskontojen yksiköitä vastaan.</Text>
+    </Row>
+    <Row Tag="LOC_UI_RELIGION_MONK_TT">
+      <Text>Munkit voivat kääntää kansalaisia [ICON_Citizen] omalle uskonnolleen ja aloittaa teologisen taistelun muiden uskontojen yksiköitä vastaan.</Text>
+    </Row>
+    <!-- Unit Promotion Classes-->
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_MISSIONARY_NAME">
+      <Text>Uskonnollinen lähetystyöläinen</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_PRIEST_NAME">
+      <Text>Uskonnollinen pappi</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_MONK_NAME">
+      <Text>Uskonnollinen munkki</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_GURU_NAME">
+      <Text>Uskonnollinen guru</Text>
+    </Row>
+    <!-- Unit Promotions-->
+    <Row Tag="LOC_PROMOTION_SCENARIO_WALK_ON_WATER_NAME">
+      <Text>Kävele vedellä</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_WALK_ON_WATER_DESCRIPTION">
+      <Text>Ei rangaistusta [ICON_Movement] liikkumiselle, kun siirrytään mereltä tai joelta.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TRAVELER_NAME">
+      <Text>Matkustaja</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TRAVELER_DESCRIPTION">
+      <Text>Nopeammat [ICON_Movement] liikkeet metsässä, sademetsässä, kukkuloilla tai suolla.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PROPAGATOR_NAME">
+      <Text>Levittäjä</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PROPAGATOR_DESCRIPTION">
+      <Text>+2 [ICON_Movement] Liikkuminen.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PRACTITIONER_NAME">
+      <Text>Harjoittaja</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PRACTITIONER_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Uskonnollista voimaa teologisessa taistelussa vieraiden alueiden alueella.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GARRISON_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Uskonnollista voimaa teologisessa kamppailussa kun hallussa on kaupunginosa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ORATOR_DESCRIPTION">
+      <Text>Voi poistaa harhaopin kaksi kertaa lisää.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ALCHEMIST_NAME">
+      <Text>Alkemisti</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ALCHEMIST_DESCRIPTION">
+      <Text>+7 [ICON_Religion] Uskonnollinen voima teologisessa taistelussa, kun puolustetaan metsiä, sademetsiä, kukkuloita tai suota.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_INTERPRETER_NAME">
+      <Text>Tulkki</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_INTERPRETER_DESCRIPTION">
+      <Text>Saat 75 [ICON_FAITH] uskoa, jos tämä yksikkö käännyttää kaupungin uskontoosi ensimmäistä kertaa.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SANGHA_NAME">
+      <Text>Sangha</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SANGHA_DESCRIPTION">
+      <Text>2-kertainen reunusbonus.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GUIDE_NAME">
+      <Text>Opas</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GUIDE_DESCRIPTION">
+      <Text>+1 [ICON_Movement] Liikehtiminen uskonnollisille yksiköille vuoron alussa 2:n kentän säteellä.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SAGE_NAME">
+      <Text>Sage = Salvia</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SAGE_DESCRIPTION">
+      <Text>+10 [ICON_Religion] Uskonnollinen vahvuus teologisessa taistelussa uskonnollisille yksiköille 2 ruudun säteellä.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TEACHER_NAME">
+      <Text>Opettaja</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TEACHER_DESCRIPTION">
+      <Text>Tämä yksikkö toimii parantajana ja antaa lisäparannuksen yksiköille, jotka ovat yhden ruudun etäisyydellä.</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_MASTER_NAME">
+      <Text>Mestari</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_MASTER_DESCRIPTION">
+      <Text>+1 Parantava lataus.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_SAGE_COMBAT_STRENGTH_AOE_RELIGIOUS_MODIFIER">
+      <Text>+10 [ICON_Religion] Uskonnollista voimaa teologisessa taistelussa Guru-yksikön Viisas ylennysnoususta</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_SAGE_COMBAT_STRENGTH_AOE_RELIGIOUS">
+      <Text>+10 [ICON_Religion] Uskonnollinen voimakkuus teologisessa taistelussa uskonnollisille yksiköille 2 ruudun säteellä.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_GUIDE_MOVEMENT_AOE_RELIGIOUS">
+      <Text>+1 [ICON_Movement] Liikkuminen uskonnollisiin yksiköihin vuoron alussa 2 tiilen säteellä.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATES_SCENARIO_TYPE_MARITIME">
+      <Text>Merellinen</Text>
+    </Row>
+    <!--Citizen Names-->
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_1">
+      <Text>Norbu</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_2">
+      <Text>Phuntsok</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_3">
+      <Text>Rabten</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_4">
+      <Text>Tashi</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_5">
+      <Text>Wangchuk</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_1">
+      <Text>Dawa</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_2">
+      <Text>Jungney</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_3">
+      <Text>Pema</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_4">
+      <Text>Rinchen</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_5">
+      <Text>Tsering</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_NO_MILITARY_SLOTS">
+      <Text>Tämä hallitus ei tarjoa uskonnollisia politiikkapaikkoja.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FILTER_MILITARY">
+      <Text>Uskonnollinen</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICY_TYPE_MILITARY">
+      <Text>Uskonnolliset politiikat</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_1_NAME">
+      <Text>Arahant</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_2_NAME">
+      <Text>Anāgāmi</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_3_NAME">
+      <Text>Sakadagami</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_4_NAME">
+      <Text>Sotāpanna. (Note: "Sotāpanna" is a Pali term used in Buddhism that refers to a stream-enterer, someone who has achieved the first stage of enlightenment.)</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_5_NAME">
+      <Text>Puthujjana</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_1_QUOTE">
+      <Text>Valaistuminen saavutettu</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_2_QUOTE">
+      <Text>Henkilö, joka ei palaa fyysiseen maailmaan</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_3_QUOTE">
+      <Text>Kerranpalannut fyysiseen maailmaan</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_4_QUOTE">
+      <Text>Virtauksen astuja kohti valaistumisen polkua</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_5_QUOTE">
+      <Text>Tavallinen henkilö</Text>
+    </Row>
+  </EnglishText>
+</GameData>

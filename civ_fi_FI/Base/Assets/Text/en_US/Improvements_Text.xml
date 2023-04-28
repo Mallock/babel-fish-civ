@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by matthew beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Improvements Description-->
+    <Row Tag="LOC_IMPROVEMENT_BARBARIAN_CAMP_DESCRIPTION">
+      <Text>Luo lisää barbaareja. [ICON_Gold] Kultapalkinto tuhoamisesta. -1 Vetovoima</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION">
+      <Text>Avaa rakentajalle kyvyn rakentaa Rannikkokylpyläkohteita.[NEWLINE][NEWLINE]Tuottaa [ICON_Tourism] Matkailua yhtä suurena kuin alueen viehätys. Voidaan rakentaa vain rannikon aavikko-, tasanko- tai ruohokentille. Vähimmäisvaatimuksena on henkeäsalpaava viehätys.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa maatiloja.[NEWLINE][NEWLINE]+1 [ICON_Food] Ravintoa. Voi rakentaa vain Ruohikko- tai Tasanko-tileille.[NEWLINE][NEWLINE]Maatilojen rakentaminen muiden maatilojen viereen antaa bonuksen Asukaspaikoille.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION">
+      <Text>Avaa rakentajalle kyvyn rakentaa kaivoksia.[NEWLINE][NEWLINE]+1 [ICON_Production] Tuotanto. -1 Vetovoima. Voidaan rakentaa kukkuloille tai sopiviin resursseihin.[NEWLINE][NEWLINE]Jos rakennettu ylellisyys- tai strategiselle resurssille, kaupunki saa käyttöönsä kyseisen resurssin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_QUARRY_DESCRIPTION">
+      <Text>Avaa rakentajan kyvyn rakentaa louhimoita.[NEWLINE][NEWLINE]+1 [ICON_Production] tuotanto. -1 vetovoima. Voidaan rakentaa vain kelvollisille resursseille.[NEWLINE][NEWLINE]Jos rakennetaan luksusresurssille, kaupunki saa käyttöönsä kyseisen resurssin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FISHING_BOATS_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa kalastusveneitä.[NEWLINE][NEWLINE]+1 [ICON_Food] ruokaa. Voidaan rakentaa vain voimassa oleville resursseille.[NEWLINE][NEWLINE]Jos rakennetaan ylellisyysresurssien päälle, kaupunki saa käyttöönsä kyseisen resurssin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa niittyjä.[NEWLINE][NEWLINE]+1 [ICON_Production] tuotanto. Voidaan rakentaa vain oikeiden resurssien päälle.[NEWLINE][NEWLINE]Jos rakennetaan strategisten resurssien päälle, kaupunki saa käyttöönsä kyseisen resurssin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_PLANTATION_DESCRIPTION">
+      <Text>Avaa rakentajan kyvyn rakentaa plantaaseja.[NEWLINE][NEWLINE]+2 [ICON_Gold] Kultaa. Voidaan rakentaa vain hyväksyttäville resursseille.[NEWLINE][NEWLINE]Jos rakennettu ylellisyysresurssille, kaupunki saa käyttöönsä kyseisen resurssin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_CAMP_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa leirejä.[NEWLINE][NEWLINE]+1 [ICON_Gold] Kultaa. Voidaan rakentaa vain kelvollisille resursseille.[NEWLINE][NEWLINE]Jos rakennettu ylellisyysresurssien päälle, kaupunki saa käyttöoikeuden kyseiseen resurssiin.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_LUMBER_MILL_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa Sahaa.[NEWLINE][NEWLINE]+1 [ICON_Production] tuotantoa. +1 [ICON_Production] tuotantoa jos vieressä on joki. Voit rakentaa ainoastaan metsään. [ICON_Production] [ICON_Production]</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_OIL_WELL_DESCRIPTION">
+      <Text>Avaa rakentajan kyvyn rakentaa öljykaivo.[NEWLINE][NEWLINE]-1 vetovoimaa. Voidaan rakentaa vain maan laattoihin, joissa on [ICON_RESOURCE_OIL] öljyä.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_OFFSHORE_OIL_RIG_DESCRIPTION">
+      <Text>Avaa Rakentaja-kyvyn rakentamaan Offshore Oil Rig -rakennus. [NEWLINE][NEWLINE]-1 Vetovoima. Voidaan rakentaa vain rannikolle tai järvelle, jossa on [ICON_RESOURCE_OIL] öljyä.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FORT_DESCRIPTION">
+      <Text>Occupying-yksikkö saa +4 [ICON_Strength] puolustusvoimaa, ja saa automaattisesti kaksi kierrosta linnoitusta.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_AIRSTRIP_DESCRIPTION">
+      <Text>Avaa sotainsinöörin taidon rakentaa lentokenttä.[NEWLINE][NEWLINE]Tukee 3 ilmayksikköä. Voidaan rakentaa vain tasaiselle maastolle. -1 vetovoima.</Text>
+    </Row>
+    <!--Unique Improvements Description-->
+    <Row Tag="LOC_IMPROVEMENT_CHATEAU_DESCRIPTION">
+      <Text>Unlocks the Builder ability to construct a Château, unique to France.[NEWLINE][NEWLINE]+2 [ICON_Culture] Culture and +1  [ICON_Gold] Gold. +1 Appeal. +1 [ICON_Culture] Culture for every adjacent wonder (becomes +2 after researching Flight). +2 [ICON_Gold] Gold if on a tile containing a River edge. Provides [ICON_TOURISM] Tourism from [ICON_CULTURE] Culture after researching Flight. Must be placed adjacent to a Bonus or Luxury resource. Cannot be built adjacent to another Château.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_COLOSSAL_HEAD_DESCRIPTION">
+      <Text>Avaa rakentajan kyvyn rakentaa Kookas pää.[NEWLINE][NEWLINE]+2 [ICON_Faith] uskoa. +1 [ICON_Faith] uskoa jokaiselle 2 vierekkäiselle Sademetsälle. +1 [ICON_Faith] uskoa jokaiselle 2 vierekkäiselle Metsälle. Ei voi rakentaa Lumelle tai Lumiseille kukkuloille. [ICON_Faith] [ICON_Faith] [ICON_Faith]</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_GREAT_WALL_DESCRIPTION">
+      <Text>Avaa rakentajan kyvyn rakentaa Kiinan uniikkia Suurta Muuria.[NEWLINE][NEWLINE]Antaa lisäystä [ICON_Strength] puolustukselle, [ICON_Gold] kultabonuksen, jos vierekkäin on muita muuri segmenttejä. Lisää [ICON_Culture] kulttuuria ja [ICON_Tourism] matkailua sitä mukaan kun etenet teknologiapuussa vierekkäisten segmenttien kanssa. Täytyy rakentaa rivinä valtakuntasi rajoille.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_KURGAN_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa Kurgan, joka on ainutlaatuinen Skyytialle.[NEWLINE][NEWLINE]+1 [ICON_Faith] uskoa ja +3 [ICON_Gold] kultaa. +1 [ICON_Faith] uskoa jokaiselle vierekkäiselle laitumelle (tulee +2 Stirrups-tutkimuksen jälkeen). Tuottaa [ICON_TOURISM] matkailua [ICON_FAITH] uskosta Flight-tutkimuksen jälkeen. Ei voi rakentaa kukkuloille.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MISSION_DESCRIPTION">
+      <Text>Avaa rakentajalle kyvyn rakentaa Espanjalle ainutlaatuinen Missio.[NEWLINE][NEWLINE]+2 [ICON_Faith] Uskoa. Lisäksi +2 [ICON_SCIENCE] Tiedettä kun Kulttuuriperintö on löydetty. +2 [ICON_Faith] Uskoa, +1 [ICON_PRODUCTION] Tuotantoa ja +1 [ICON_FOod] Ruokaa jos eri mantereella kuin [ICON_Capital] pääkaupunki. +1 [ICON_Science] Tiedettä jokaisesta viereisestä Campus- ja Pyhäkköalueesta.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION">
+      <Text>Avaa Rooman legioonalle kyvyn rakentaa Rooman linnoitus, joka on ainutlaatuinen Roomalle.[NEWLINE][NEWLINE]Linnoitettava yksikkö saa +4 [ICON_Strength] puolustusvoimaa, ja saa automaattisesti 2 vuoroa linnoittumiseen.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SPHINX_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa sfinksi, joka on ainutlaatuinen Egyptille.[NEWLINE][NEWLINE]+1 [ICON_Faith] Uskoa ja +1 [ICON_Culture] Kulttuuria. +1 vetovoima. +2 [ICON_Faith] Uskoa jos vieressä on ihme. Ei voi rakentaa viereen toista sfinksia. Voidaan rakentaa tulvatasangoille.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_STEPWELL_DESCRIPTION">
+      <Text>Avaa rakentajan kyvyn rakentaa Sivellin, joka on ainutlaatuinen Intialle.[NEWLINE][NEWLINE]+1 [ICON_Food] ruokaa ja +1 [ICON_Housing] asumista. +1 [ICON_Faith] uskoa, jos vierekkäin pyhän paikan piirin kanssa. +1 [ICON_Food] ruokaa, jos vierekkäin maatilan kanssa. Lisää [ICON_Housing] asumista, [ICON_Faith] uskoa ja [ICON_Food] ruokaa, kun edistyt tekniikan ja sivistyksen puussa. Ei voi rakentaa kukkuloille tai vierekkäin toisen Sivellin kanssa.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION">
+      <Text>Avaa Rakentajan kyvyn rakentaa Ziggurat, joka on ainutlaatuinen Sumeriassa.[NEWLINE][NEWLINE]+2 [ICON_Science] tiedettä. +1 [ICON_Culture] kulttuuria, jos vieressä on joki. Ei voi rakentaa kukkuloille.</Text>
+    </Row>
+    <!--Goody Huts -->
+    <Row Tag="LOC_GOODYHUT_CULTURE_RELIC_DESCRIPTION">
+      <Text>[COLOR_FLOAT_CULTURE]{1_Relic} Relic palkittiin[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_LARGE_GOLD_DESCRIPTION">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MEDIUM_GOLD_DESCRIPTION">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_SMALL_GOLD_DESCRIPTION">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_LARGE_FAITH_DESCRIPTION">
+      <Text>+{1_Num} [ICON_Faith]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MEDIUM_FAITH_DESCRIPTION">
+      <Text>+{1_Num} [ICON_Faith]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_SMALL_FAITH_DESCRIPTION">
+      <Text>+{1_Num} [ICON_Faith]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_UNIT_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Sinulle myönnetään tiedusteluyksikkö.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_UPGRADE_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Yksikkösi on päivitetty.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_EXPERIENCE_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Yksikkösi on saavuttanut kokemusta.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_HEAL_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]Yksikkösi on parannettu.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_SCIENCE_ONE_TECH_DESCRIPTION">
+      <Text>[COLOR_FLOAT_SCIENCE]Yksi ilmainen teknologia.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_SURVIVORS_ADD_POP_DESCRIPTION">
+      <Text>+{1_Num} Uusi väestö</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_SURVIVORS_GRANT_UNIT_DESCRIPTION">
+      <Text>Sinulle myönnetään {1_Num} {1_Num: {2_Unit} yksikkö;{2_Unit} yksikköä;}.</Text>
+    </Row>
+    <!--Barbarian Camps -->
+    <Row Tag="LOC_BARB_CAMP_DISPERSAL_DESCRIPTION">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_BARB_CAMP_DISPERSAL_DESCRIPTION_FAITH">
+      <Text>[COLOR_FLOAT_FAITH]+{1_Num} [ICON_Faith][ENDCOLOR]</Text>
+    </Row>
+    <!--Nuclear -->
+    <Row Tag="LOC_IMPROVEMENT_MISSILE_SILO_DESCRIPTION">
+      <Text>Avaa sotainsinöörin kyvyn rakentaa ohjustorni.[NEWLINE][NEWLINE]Toimii laukaisupaikkana ydinaselaitteille ja termoydinaselaitteille.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

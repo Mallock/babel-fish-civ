@@ -1,0 +1,738 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- REPLACEMENTS -->
+    <Delete Tag="LOC_PRODUCTION_ITEM_DECONTAMINATE" />
+    <Delete Tag="LOC_TOOLTIP_PLOT_CONTAMINATED_TEXT" />
+    <Delete Tag="LOC_GOVERNMENT_MONARCHY_NAME" />
+    <Delete Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY" />
+    <Delete Tag="LOC_HUD_CITY_PURCHASE_TILE" />
+    <Delete Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING" />
+  </LocalizedText>
+  <EnglishText>
+    <!-- REPLACEMENTS -->
+    <Row Tag="LOC_PRODUCTION_ITEM_DECONTAMINATE">
+      <Text>(Ruttoon sairastunut)</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PLOT_CONTAMINATED_TEXT">
+      <Text>[COLOR:Civ6Red]PESÄTAUTINEN: {1_Turns} kierrosta[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_MONARCHY_NAME">
+      <Text>Katolinen Monarkia</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY">
+      <Text>+3 [ICON_Faith] Uskonto jokaisessa kaupungissa. Bonus [ICON_Faith] Uskonto, joka on yhtä suuri kuin 50% jokaisen vihollisyksikön vahvuudesta, jonka tapat.</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_PURCHASE_TILE">
+      <Text>Pakota Laatat</Text>
+    </Row>
+    <!-- City Names -->
+    <Row Tag="LOC_CITY_NAME_BREST">
+      <Text>Brest</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ANGERS">
+      <Text>Angers</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_LANCASTER">
+      <Text>Lancaster</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_DUBLIN">
+      <Text>Dublin</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MUNICH">
+      <Text>München</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_STRASBOURG">
+      <Text>Strasbourg</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BRANDENBURG">
+      <Text>Brandenburg</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_LEON">
+      <Text>León (Note: León is a Spanish word and doesn't require translation to Finnish.)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_UTRECHT">
+      <Text>Utrecht</Text>
+    </Row>
+    <!-- Units -->
+    <Row Tag="LOC_UNIT_SCHOLAR_NAME">
+      <Text>Tieteilijä / Akateemikko</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCHOLAR_DESCRIPTION">
+      <Text>Siviiliyksikkö, joka voi tutkia ruton vaivaamia kaupunkeja saadakseen [Icon_Science] tieteen. Tieteilijöitä voi käyttää 2 kertaa. Tämä voidaan lisätä Studia Generalia -politiikalla.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PLAGUE_DOCTOR_NAME">
+      <Text>Rutto lääkäri</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PLAGUE_DOCTOR_DESCRIPTION">
+      <Text>Siviiliyksikkö, joka voi lyhentää ruton kestoa ruton saastuttamilla laatoilla ja palauttaa uskollisuuden kaupunkeihin. Ruttolääkäreitä voi käyttää 2 kertaa. Tämä voidaan lisätä Studia Generalia -politiikalla.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FLAGELLANT_NAME">
+      <Text>Ruoskija</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FLAGELLANT_DESCRIPTION">
+      <Text>Siviiliyksikkö, joka voi saada [Icon_Faith] Uskoa, [Icon_Culture] Kulttuuria ja uskollisuutta tartunnan saaneista kaupungeista.</Text>
+    </Row>
+    <!-- Unit Commands -->
+    <Row Tag="LOC_UNITCOMMAND_STUDY_NAME">
+      <Text>Opiskele Ruttotaudit</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_STUDY_DESCRIPTION">
+      <Text>Hanki {1_Num} [ICON_Science] tieteellistä osaamista.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_STUDY_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]On käytettävä ruton runtelemassa kaupungissa. Ei voida käyttää kaupungissa, joka on aiemmin tutkittu.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_NAME">
+      <Text>Hoita sairaita ministerinä</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_DESCRIPTION">
+      <Text>Vähennä ruton kestoa tällä laataalla 50%.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Tämä on käytettävä saastuneella laatasta.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_NAME">
+      <Text>Rauhoita City</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_DESCRIPTION">
+      <Text>Lisää {1_Num} uskollisuuspistettä kaupungille.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Täytyy käyttää kaupungissa.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_NAME">
+      <Text>Puhdista synnit</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_DESCRIPTION">
+      <Text>Saat {1_Num} [ICON_Faith] uskoa ja {2_Num} [ICON_Culture] kulttuuria. Lisää {3_Num} uskollisuutta kaupunkiin. Flagellantti kulutetaan tämän toiminnan avulla.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]On käytettävä ruton runtelemassa kaupungissa.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_NAME">
+      <Text>Pyhä kiihko</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_DESCRIPTION">
+      <Text>Käytä {1_Num} [ICON_Faith] Uskoa palauttaaksesi tämän yksikön liikkumis- ja hyökkäyspisteet. Voidaan käyttää vain kerran vuorossa.</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]Voi käyttää vasta liikkeen tai toiminnan jälkeen.[ENDCOLOR]</Text>
+    </Row>
+    <!-- Unit Abilities -->
+    <Row Tag="LOC_ABILITY_TEUTONIC_KNIGHT_NAME">
+      <Text>Ristiretkeläisen kiihko</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TEUTONIC_KNIGHT_DESCRIPTION">
+      <Text>+8 [ICON_Strength] Taisteluvoimaa vihollisalueella.</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SCENARIO_ABILITY_TEUTONIC_KNIGHT_STRENGTH_ENEMY_TERRITORY_DESCRIPTION">
+      <Text>+{1_Amount} Taisteluvoimaa vihollisen alueella.</Text>
+    </Row>
+    <!-- Districts -->
+    <Row Tag="LOC_DISTRICT_WALLED_QUARTER_NAME">
+      <Text>Muurattu kortteli</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
+      <Text>15 prosentin mahdollisuus välttää ruton kuolemat jokaisella vuorolla.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_THEATER_CULTURE">
+      <Text>+{1_num} [ICON_Culture] Kulttuuria naapurissa sijaitsevalta Teatterialueelta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMMERCIAL_GOLD">
+      <Text>+{1_num} [ICON_Gold] Kultaa viereisestä Kauppakeskus-kaupunginosasta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOLY_SITE_FAITH">
+      <Text>+{1_num} [ICON_Faith] Usko viereisestä Pyhän Paikan kaupunginosasta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CAMPUS_SCIENCE">
+      <Text>+{1_num} [ICON_Science] Tiede viereiseltä Campus-alueelta.</Text>
+    </Row>
+    <!-- Buildings -->
+    <Row Tag="LOC_BUILDING_GUILDHALL_NAME">
+      <Text>Killan talo</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MASS_GRAVE_NAME">
+      <Text>Massahauta</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MASS_GRAVE_DESCRIPTION">
+      <Text>Vähennä taudin kestoa tässä kaupungissa 2 vuorolla (vähintään 1 vuoroon asti).</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_SEWER_DESCRIPTION">
+      <Text>20% mahdollisuus välttyä ruton kuolemilta joka vuoro.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_NAME">
+      <Text>Rutto sairaala</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION">
+      <Text>+50% [ICON_Production] Tuotanto rakennettaessa Tutkijoita ja Ruttotautien parantajia.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KEEP_NAME">
+      <Text>Pysy</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KEEP_DESCRIPTION">
+      <Text>Vähennä ruton kestoa tässä kaupungissa 1 vuorolla (vähintään yhden vuoron ajaksi).</Text>
+    </Row>
+    <!-- Techs -->
+    <Row Tag="LOC_TECH_SCENARIO_CIVIL_ENGINEERING_NAME">
+      <Text>Rakennustekniikka</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_MEDICINE_NAME">
+      <Text>Lääketiede</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_INVENTION_NAME">
+      <Text>Keksintö</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_INVENTION_DESCRIPTION">
+      <Text>Voita skenaario.</Text>
+    </Row>
+    <!-- Civics -->
+    <Row Tag="LOC_CIVIC_SCENARIO_FEUDALISM_DESCRIPTION">
+      <Text>+1 [ICON_Food] Ruoka maatilalta parannuksia.</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_WAGE_REFORM_NAME">
+      <Text>Palkkausreformi</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_HIGHER_LEARNING_NAME">
+      <Text>Korkeampi oppiminen</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_LABOR_ECONOMY_NAME">
+      <Text>Työmarkkinatalous</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_URBANIZATION_NAME">
+      <Text>Kaupungistuminen</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_MIDDLE_CLASS_NAME">
+      <Text>Keskiluokka</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_MIDDLE_CLASS_DESCRIPTION">
+      <Text>Voita skenaario.</Text>
+    </Row>
+    <!-- Policies -->
+    <Row Tag="LOC_SCENARIO_POLICY_CHIVALRY_DESCRIPTION">
+      <Text>+50% [ICON_Production] Tuotanto sotilasyksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_SERFDOM_DESCRIPTION">
+      <Text>Maatilat ja plantaasit saavat +1 [ICON_Food] ruokaa.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_TOWN_CHARTERS_DESCRIPTION">
+      <Text>+100% Kaupalliskeskus kaupunginosan sivustusbonukset.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_MERITOCRACY_DESCRIPTION">
+      <Text>+100% Kampuskorttelin vieressä olevat bonukset.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEALTY_NAME">
+      <Text>Uskollisuus (or alternatively, "vassallin uskollisuus" for a more specific feudal context)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEALTY_DESCRIPTION">
+      <Text>+50% [ICON_Production] Tuotanto siviiliyksiköille.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_UNDERCLASS_NAME">
+      <Text>Kaupungin alaluokka</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_UNDERCLASS_DESCRIPTION">
+      <Text>+2 [ICON_Gold] Kultaa ja +2 [ICON_Faith] Uskoa kaikissa kaupungeissa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STUDIA_GENERALIA_NAME">
+      <Text>Studia Generalia</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STUDIA_GENERALIA_DESCRIPTION">
+      <Text>Uudet koulutetut oppineet saavat 2 lisälatausta. Uudet koulutetut ruttolääkärit saavat 1 lisälatauksen.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COTTAGE_INDUSTRIES_NAME">
+      <Text>Käsityöläisammattit</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COTTAGE_INDUSTRIES_DESCRIPTION">
+      <Text>+3 [ICON_Gold] Kultaa työpajarakennuksista.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SKILLED_TRADES_NAME">
+      <Text>Pätevät ammatit</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SKILLED_TRADES_DESCRIPTION">
+      <Text>+100% Teollisuusvyöhykkeen läheisyysbonukset.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_SERVANTS_NAME">
+      <Text>Julkinen palvelija</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_SERVANTS_DESCRIPTION">
+      <Text>50% alennus rakennusten ja siviiliyksiköiden ostosta [ICON_Gold] Kultaa käyttäen.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPECIALIZATION_NAME">
+      <Text>Erikoistuminen</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPECIALIZATION_DESCRIPTION">
+      <Text>+4 [ICON_Production] Tuotanto tehdasrakennuksista.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COMMERCIAL_LEAGUE_NAME">
+      <Text>Kaupallinen liiga</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COMMERCIAL_LEAGUE_DESCRIPTION">
+      <Text>+4 [ICON_Gold] Kultaa Guildhall-rakennuksista.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INDENTURE_NAME">
+      <Text>Sitoumusasiakirja</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INDENTURE_DESCRIPTION">
+      <Text>Parannetuilla juonenkäänteillä voi työskennellä ruton aikana.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LABOR_MARKET_NAME">
+      <Text>Työmarkkinat</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LABOR_MARKET_DESCRIPTION">
+      <Text>+1 [ICON_Housing] Asuntoa per kaupunginosa, +2 [ICON_Gold] Kultaa kaikissa kaupungeissa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CIVIL_QUARANTINE_NAME">
+      <Text>Siviilirajoitus</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CIVIL_QUARANTINE_DESCRIPTION">
+      <Text>+2 [ICON_Science] Tiede kampusalueilta. Ruttotautia kantavat kaupungit saavat 10% mahdollisuuden välttää [ICON_Citizen] väestötappiot jokaisella vuorolla.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POGROM_NAME">
+      <Text>Pogromi</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POGROM_DESCRIPTION">
+      <Text>+2 [ICON_Culture] Kulttuuri, +4 [ICON_Gold] Kulta kaikissa kaupungeissa.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PATRONAGE_NAME">
+      <Text>Suojelu</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PATRONAGE_DESCRIPTION">
+      <Text>+100% Teatteritorin kaupunginosan läheisyysbonukset.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NOBLESSE_OBLIGE_NAME">
+      <Text>Noblesse oblige</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NOBLESSE_OBLIGE_DESCRIPTION">
+      <Text>Yksikköjen ylläpito vähennetty 1 [ICON_Gold] kulta vuorossa, per yksikkö.</Text>
+    </Row>
+    <!-- Misc -->
+    <Row Tag="LOC_SCENARIO_GOVT_INHERENT_BONUS_MONARCHY">
+      <Text>None.</Text>
+    </Row>
+    <!-- ************************************************ -->
+    <!-- UI -->
+    <!-- ************************************************ -->
+    <!-- HUD -->
+    <Row Tag="LOC_SCENARIO_HUD_CHARGES">
+      <Text>Syytteet</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_PLAGUE_POS">
+      <Text>[COLOR:FoodDark]+{1_Num} Rutto[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_PLAGUE">
+      <Text>[COLOR:FoodDark]{1_Num} Ruttotauti[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_LOYALTY_POS">
+      <Text>[COLOR:Happiness]+{1_Num} Uskollisuus[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_LOYALTY">
+      <Text>[COLOR:Happiness]{1_Num} Uskollisuus[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_HOLY_FERVOR">
+      <Text>[COLOR_FLOAT_FAITH]Pyhä kiihko![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_NAME">
+      <Text>Paavillinen politiikka</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_DESC">
+      <Text>Ylläpito: {1_Num} [ICON_Faith] uskoa vuorossa</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_FAITH_TT">
+      <Text>{1_Num} paavin politiikasta</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCE_LABEL">
+      <Text>Pakottaa ({1_Num} [ICON_Gold] Kultaa)</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCE_TT">
+      <Text>Pakota tämä laatta {1_NumTurns} kierroksen ajaksi. Pakotettuja laattoja voi käsitellä, parantaa tai rakentaa normaalisti, vaikka ne olisivat ruton saastuttamia.</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_YOU_NEED_MORE_GOLD_TO_COERCE">
+      <Text>Tarvitset vielä {1_num} [ICON_Gold] kultaa maksaaksesi tämän laatan.</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCED_TURNS_LABEL">
+      <Text>Pakotettu: {1_Num} Käännöstä</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS">
+      <Text>Rutto</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_TT">
+      <Text>Näyttää laattoja, jotka ovat saastuneet Mustasta surmasta (mustat laatat ovat suurimmassa tartunnassa, valkoiset laatat ovat lähellä toipumista tartunnasta).</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_KEY_MIN">
+      <Text>Rutto läsnä</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_KEY_MAX">
+      <Text>Ruttoepidemia</Text>
+    </Row>
+    <!-- Notifications -->
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_RUMOR_MESSAGE">
+      <Text>Ruttohuhu</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_RUMOR_SUMMARY">
+      <Text>On saapunut viesti, että Musta surma voi olla läsnä kaupungissa {1_CityName}.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_OUTBREAK_MESSAGE">
+      <Text>Ruttoepidemia!</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_OUTBREAK_SUMMARY">
+      <Text>Musta surma on saapunut kaupunkiimme {1_CityName}!</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_FRANCE_PAPAL_SLOT_SUMMARY">
+      <Text>Meillä ei ole tarpeeksi [ICON_Faith] uskoa ylläpitämään paavillista politiikkaa.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_FRANCE_PAPAL_SLOT_MESSAGE">
+      <Text>Paavillinen politiikka hylättiin!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING">
+      <Text>Olet menettänyt yhden {1_UnitName} ruton takia.</Text>
+    </Row>
+    <!-- Victory Conditions -->
+    <Row Tag="LOC_WORLD_RANKINGS_BLACKDEATH_SCENARIO_RULES">
+    <Text>Tässä skenaariossa sinun on johdettava keskiaikaista sivilisaatiotasi läpi kuuluisan Mustan Surman, pitäen sen kulttuuriset ja tieteelliset ponnistelut elossa, vaikka väestö kärsii kuolemasta ja epätoivosta. Voittaaksesi sinun on avattava joko lopullinen teknologia (keksintö) tai lopullinen kansalaisuus (keskiluokka), kylväen tulevan Valistuksen siemenen. [NEWLINE] [NEWLINE] PESTI [NEWLINE] [NEWLINE] Yli 85 kierroksen ajan Musta Surma pyyhkäisee mantereen aaltoina. Se lähtee satamakaupungeista jokaisessa kansakunnassa ja leviää ulospäin maisemassa. Se voi levitä mihin tahansa maan laattaan paitsi vuorille, ja se leviää helpommin kaupunkeihin, teihin, satamakaupunkeihin, jotka sisältävät satamalaitokset, ja maaseudun parannuksiin. Kun rutto saapuu laatalle, siitä tulee [COLOR:Red] Rutto-kohtalo [ENDCOLOR] usean kierroksen ajan. Kun kierrokset ovat ylös, laatta toipuu, mutta kun rutto on sairas, se kärsii seuraavista vaikutuksista: [NEWLINE] [NEWLINE] [COLOR:Red] [ICON_BULLET] Rutto-sairaita laattoja ei voi käyttää kansalaisilla, niitä ei voi parantaa tai korjata, eikä niitä voi käyttää rakentamaan kaupunginosia tai lisäämään rakennuksia, jos kaupunginosia on jo olemassa [NEWLINE] [NEWLINE] [ICON_BULLET] Jos laatta on kaupungin keskus, on suuri mahdollisuus, että yksi väestö kuolee joka kierros, kun rutto pysyy. Tätä mahdollisuutta voidaan vähentää rakentamalla tiettyjä rakennuksia tai käyttämällä tiettyjä hallituksen politiikkoja. [NEWLINE] [NEWLINE] [ICON_BULLET] Yksiköt, jotka lopettavat kierroksen rutto-sairastuneilla laatoilla, kärsivät 20 vahinkoa. [ENDCOLOR] [NEWLINE] [NEWLINE] Taistellaksesi Mustaa Surmaa vastaan, pyri säilyttämään kaupunkiesi voima työskennellä katastrofin läpi. Rakenna välttämättömiä kaupunginosia, kun kansalaisesi ovat kykeneviä. Pidä [ICON_Gold] Kulta- ja [ICON_Faith] Uskonvarasi korkealla, jotta voit ostaa rakennuksia ja yksiköitä, kun kaupunkisi ovat halvaantuneet. Perusta tiede- ja kulttuurikeskuksia aikaisin ja suojaa niitä parhaasi mukaan. Kun Ruttolääkärit tulevat saataville, käytä niitä suojaamaan haavoittuvimpia alueitasi tai vahvistamaan kaupunkien uskollisuutta, jotka horjuvat. [NEWLINE] [NEWLINE] Vaikeusaste vaikuttaa [ICON_GOLD] Kulta- ja [ICON_FAITH] Uskonvarasiin.</Text>
+</Row>
+
+    <Row Tag="LOC_VICTORY_BLACKDEATH_REQUIRES_PLAYER_HAS_FINAL_CIVIC_PROGRESS">
+      <Text>Kansalaisopinnot: {NumCompleted}/{NumTotal} (~{EstimatedTurns}[ICON_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_BLACKDEATH_REQUIRES_PLAYER_HAS_FINAL_TECH_PROGRESS">
+      <Text>Teknologiat: {NumCompleted}/{NumTotal} (~{EstimatedTurns}[ICON_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_VICTORY_BLACKDEATH_SCENARIO">
+      <Text>{1_CompletedCivics}/{2_TotalCivics} kansalaisopintoa, {3_CompletedTechs}/{4_TotalTechs} teknologiaa</Text>
+    </Row>
+    <!-- Tooltips -->
+    <Row Tag="LOC_CITY_BANNER_PLAGUE_TT">
+      <Text>Tämä kaupunki on koettu rutolla. Se menettää uskollisuutta ja mahdollisesti [ICON_Citizen] väestöä jokaisella vuorolla, kun rutto jatkuu.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CULTURE_THEATER">
+      <Text>+{1_num} [ICON_Culture] Kulttuuria viereisestä teatterista.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GOLD_COMMERCIAL_HUB">
+      <Text>+{1_num} [ICON_Gold] Kultaa viereisestä kauppahallista.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_FAITH_HOLY_SITE">
+      <Text>+{1_num} [ICON_Faith] Uskontoa viereisestä Pyhästä paikasta.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCIENCE_CAMPUS">
+      <Text>+{1_num} [ICON_Science] Tiedettä viereiseltä kampukselta.</Text>
+    </Row>
+    <!--Historic Rankings-->
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_1_NAME">
+      <Text>Vikaa vailla</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_1_QUOTE">
+      <Text>Ja jos pappi tulee sisään ja katsoo sitä ja näkee, että tartunta ei ole levinnyt talossa, sen jälkeen kun talo on rapattu, niin pappi julistaa talon puhtaaksi, koska tartunta on parantunut.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_2_NAME">
+      <Text>Rutto lääkäri</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_2_QUOTE">
+      <Text>Sillä, kuten muissakin taiteissa, niin myös lääketieteessä harjoittajat eroavat toisistaan taitavuudessa ja tiedossa.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_3_NAME">
+      <Text>Kolmas Sääty</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_3_QUOTE">
+      <Text>Leipureita ja oluentekijöitä,/Ja monia lihakauppiaita;/Puuvillan kutojia,/Ja pellavankutojia,/Räätäleitä ja tinureita,/Ja torilla myyjiä,/Rakentajia ja kaivostyöläisiä,/Ja monia muita ammatteja.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_4_NAME">
+      <Text>Filosofi</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_4_QUOTE">
+      <Text>Vaikka asiat, joita ihminen ei tiedä, eivät voi olla ihmisen järjen etsittävissä, ne on kuitenkin uskottava, kun ne paljastetaan Jumalan tahdosta.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_5_NAME">
+      <Text>Mendikantti</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_5_QUOTE">
+      <Text>Löysin sieltä veljekset, kaikki neljä järjestystä, saarnaten kansalle omaksi hyödykseen</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_6_NAME">
+      <Text>Rotankolmikko</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_6_QUOTE">
+      <Text>Miksi koiran, hevosen tai rotan tulisi olla elossa, kun sinä et hengitä ollenkaan?</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_7_NAME">
+      <Text>Hautausmaankaivaja</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_7_QUOTE">
+      <Text>...mihin tahansa hautaan he ensimmäisenä löysivät vapaana häiritsemättä itseään liian pitkällä tai muodollisella palvelulla.</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_8_NAME">
+      <Text>Ruoskija</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_8_QUOTE">
+      <Text>Herra armahda, anna heille rauha.</Text>
+    </Row>
+    <!-- Popup Events -->
+    <Row Tag="LOC_POPUP_SCENARIO_GENERIC_WHICH_PATH">
+      <Text>Minkä polun valitset?</Text>
+    </Row>
+    <!-- A New Plague Appears (Intro) -->
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_TITLE">
+      <Text>Uusi sairaus ilmenee</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_DESCRIPTION">
+      <Text>Huhut ovat levinneet, että tappava tauti on puhjennut Välimeren vilkkaissa satamissa. Se saattaa jo olla matkalla rannoillesi kauppalaivojen ja vaunujen kyydissä.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_EFFECT">
+      <Text>Seuraa tarkasti teitä ja satamia mahdollisen epidemian ensimmäisten merkkien varalta. Sinun täytyy toimia nopeasti taudin leviämisen estämiseksi.</Text>
+    </Row>
+    <!-- Outbreak! -->
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_TITLE">
+      <Text>Epidemia!</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_DESCRIPTION">
+      <Text>Rutto on saapunut [COLOR:Civ6Yellow]{1_CityName}[ENDCOLOR]:iin! Ei enää pelkkä huhu, tauti on nyt meidän joukossamme ja väestö vaipuu kauhuun ja paniikkiin.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_EFFECT">
+      <Text>Kuolonuhrien määrä voi olla välttämätön, mutta meidän on silti pidettävä kaupunki vakaina hidastaen samalla taudin leviämistä.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_REPEAT_DESCRIPTION">
+      <Text>Rutto on saapunut kaupunkiin [COLOR:Civ6Yellow]{1_CityName}[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_REPEAT_EFFECT">
+      <Text>Kuten aikaisempien epidemioiden kanssa, tämä kaupunki lamautuu, kun sen laatat ja kaupunginosat muuttuvat käyttökelvottomiksi ja väkiluku laskee. Ole tietoinen nälänhädän uhasta ja uskollisuuden menetyksestä.</Text>
+    </Row>
+    <!-- The Nobility Flees -->
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_TITLE">
+      <Text>Aristokratia pakenee</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_DESCRIPTION">
+      <Text>Varakkaat maanomistajat syyttävät miasmaa - mädän hajua, joka vallitsee tiheissä kaupungeissa - kuolemaksi johtavasta taudista. He pakenevat laumoittain maaseutuomaisuuksilleen ja ottavat palvelijansa mukaansa, jättäen kadut köyhille ja kodittomille.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_EFFECT">
+      <Text>Pelko ajaa joitakin väestöryhmiä kohti kaupunkejasi ja toisia pois niistä. Uudet politiikat antavat sinun valita, kumpaa tuet.</Text>
+    </Row>
+    <!-- False Cures, Empty Promises -->
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_TITLE">
+      <Text>Väärät parannuskeinot, tyhjät lupaukset</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_DESCRIPTION">
+      <Text>Monet väittävät omaavansa voiman tai tiedon pysäyttää tartuntataudin. Mutta olivatpa he sitten huijareita, pappeja, lääkäreitä tai kuninkaita, tartuntatauti uhmaa heitä kaikkia. Ihmiset ovat järkyttyneitä ja toivovat epätoivoisesti vastauksia.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_EFFECT">
+      <Text>Uudet politiikat mahdollistavat sinulle käyttää radikaalimpia toimenpiteitä helpottaaksesi kansan mieltä.</Text>
+    </Row>
+    <!-- We All Fall Down -->
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_TITLE">
+      <Text>Kaikki me kaadumme</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_DESCRIPTION">
+      <Text>Rutto ja sen kammottava saalis peittävät maan. Kaikkialla missä kansasi kääntyykin, kuolema kohtaa heitä. Mikä on ponnistelun merkitys, kun korkeat ja matalat, rikkaat ja köyhät kohtaavat saman kohtalon?</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_EFFECT">
+      <Text>-30% [ICON_Food] Kasvu, -3 [ICON_Production] Tuotanto, -3 [ICON_Gold] Kulta, ja -3 [ICON_Faith] Usko kaikissa kaupungeissa.</Text>
+    </Row>
+    <!-- Sick in Body and Soul -->
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_TITLE">
+      <Text>Sairas kehossa ja sielussa</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_DESCRIPTION">
+      <Text>Sairaus leviää maassa kaataen vakauden ja perinteet, joihin yhteiskuntamme on luottanut vuosikymmenten ajan. Vallanpitäjät asettavat esimerkin siitä, miten reagoida murentuneeseen sosiaaliseen järjestykseen.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_A">
+      <Text>Harjoittele katumusta</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_A_EFFECT">
+      <Text>-2 [ICON_Production] tuotantoa, +3 [ICON_Faith] uskoa kaikissa kaupungeissa</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_B">
+      <Text>Halaa irstailua</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_B_EFFECT">
+      <Text>-20% [ICON_Food] Kasvu, +3 [ICON_Gold] Kultaa kaikissa kaupungeissa</Text>
+    </Row>
+    <!-- Physician, Heal Thyself -->
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_TITLE">
+      <Text>Lääkäri, paranna itsesi</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_DESCRIPTION">
+      <Text>Kun kuolonuhrien määrä nousee, ihmiset pyytävät apua luottamaltaan viranomaisilta. Monet vetoavat siihen, että tiede on avain ja haluavat palkata lääkäreitä hoitamaan sairastuneita. Toiset ajautuvat fanatismiin ja vaativat sovintoa rukoillakseen Jumalaa lopettamaan ruton.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_CHOICE_A">
+      <Text>Hoida sairaita</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_CHOICE_B">
+      <Text>Häpeä syntinen</Text>
+    </Row>
+    <!-- The End of the World -->
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_TITLE">
+      <Text>Maailmanloppu</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_DESCRIPTION">
+      <Text>Kuolonuhrien määrä kasvaa kaikkea mielikuvituksellista suuremmaksi. Usko kirkkoon ja valtioon murenee, kun epätoivo vallitsee. Yhteiskunta ei voi jatkua entisellään - katkoksen on tapahduttava.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_A">
+      <Text>Antautua Jumalalle</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_A_EFFECT">
+      <Text>-3 kaikista saannoista paitsi [ICON_Faith] uskonnosta kaikissa kaupungeissa</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_B">
+      <Text>Luopua Jumalasta</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_B_EFFECT">
+      <Text>-10 [ICON_Faith] Uskonto kaikissa kaupungeissa</Text>
+    </Row>
+    <!-- Is This God's Judgement? -->
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_TITLE">
+      <Text>Onko tämä Jumalan tuomio?</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_DESCRIPTION">
+      <Text>Kuolleet täyttävät kaupungit ja hautausmaat. Jopa konservatiivisimmatkin todistavat tuhoa ja pohtivat, onko maailman pahuus lopulta ansainnut jumalallisen rangaistuksen.</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_A">
+      <Text>Henkemme ovat lannistuneita</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_A_EFFECT">
+      <Text>-1 [ICON_Culture] Kulttuuri, -1 [ICON_Faith] Usko kaikissa kaupungeissa</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_B">
+      <Text>Ponnistelumme ovat turhia</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_B_EFFECT">
+      <Text>-1 [ICON_Science] Tiede, -10% [ICON_Food] Kasvu kaikissa kaupungeissa</Text>
+    </Row>
+    <!-- ************************************************ -->
+    <!-- CIVILOPEDIA -->
+    <!-- ************************************************ -->
+    <!--Units-->
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SCHOLAR_CHAPTER_HISTORY_PARA_1">
+      <Text>Ennen Mustaa Surmaa Euroopassa oli kukoistava oppimisen ja koulutuksen aikakausi, ja yliopistojen nousu merkitsi uutta koulutettujen ammattilaisten luokkaa, joka omistautui opiskelulle. Jotkut oppineista keskittyivät käytännön asioihin kuten laki, mutta kasvava joukko kääntyi tiedon luonteen ja luonnontieteen kysymyksiin, mikä valmisti tietä varhaiselle renessanssille.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PLAGUE_DOCTOR_CHAPTER_HISTORY_PARA_1">
+      <Text>Yksi mustan surman vaikuttavimmista hahmoista on ruttolääkäri, joka kantaa macabre-tyylisiä nokka-muotoisia maskeja, pitkiä kaapuja ja sauvoja. Nokkamaskin kärjessä oli pussi aromattisia yrttejä (joiden makea tuoksu virheellisesti ajateltiin torjuvan tartunnan). Ruttolääkäri kutsuttiin paikalle, kun potilasta (tai kuollutta ruumista) epäiltiin saaneen tartunnan. Hän käytti sauvaansa tai keppiään potilaan tutkimiseen koskematta heihin, jotta tapaus voitiin todentaa tai potilas voitiin vapauttaa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FLAGELLANT_CHAPTER_HISTORY_PARA_1">
+      <Text>Uskonnollisesti latautuneessa myöhäiskeskiajan maailmassa rutto ajateltiin olevan jumalallinen rangaistus ihmiskunnan synneistä. Jotkut ihmisryhmät suorittivat äärimmäisiä julkisia parannustekoja synnillisen ihmiskunnan puolesta, marssiessaan ympäri maata ja ruoskiessaan itseään, jonka käytännöstä nimi juontuu. Aluksi nämä näyttelyt saivat (ainakin hiljaisen) kirkon viranomaisten suostumuksen, mutta kun käytännöstä tuli äärimmäistä, kirkolliset viranomaiset tuomitsivat sen. Tämä ei kuitenkaan lopettanut ruoskimiskäytäntöä eikä ruoskijoiden kulkueita.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TEUTONIC_KNIGHT_CHAPTER_HISTORY_PARA_1">
+      <Text>Eräs Euroopan ritarijärjestyksistä, Teutoniritarit, suorittivat Pohjoisristiretken pakanallisia heimoja vastaan Baltian alueella. He olivat erityisen tunnettuja aggressiivisuudestaan, tinkimättömyydestään, varallisuudestaan ja ankaran elämäntapansa vuoksi, jopa ristiretkijärjestöjen standardeilla mitattuna.</Text>
+    </Row>
+    <!--Districts-->
+    <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_WALLED_QUARTER_CHAPTER_HISTORY_PARA_1">
+      <Text>Ilman oikeaa ymmärrystä ruton epidemiologiasta kaupunkien asukkaat keksivät kuitenkin järjestelmän, jolla voitiin sisältää Musta Surma: Uhrit eristettiin pysyvään karanteeniin muurien taakse. Tämä ankara toimenpide tuomitsi eristetyt uhrit kauheaan kohtaloon, mutta saattoi joskus hidastaa taudin etenemistä. Se on esimerkki Mustan Surman kärsimyksen hirvittävästä laskutoimituksesta, että jotkut terveet ihmiset hyväksyivät karanteenin, jotta tauti ei leviäisi.</Text>
+    </Row>
+    <!--Buildings-->
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GUILDHALL_CHAPTER_HISTORY_PARA_1">
+      <Text>Killan talo on puolijulkinen rakennus, joka kuuluu killalle ja tarjoaa jäsenille kokouspaikan sekä osoittaa heidän rikkauttaan ja valtaansa. Ne olivat usein koristeellisesti koristeltuja voimakkaana ilmauksena kaupunki- ja kaupparyhdistyksestä ylpeydestä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MASS_GRAVE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kun kuolemantapaukset kasvoivat Mustan surman aikana, yksittäiset hautajaiset olivat epäkäytännöllisiä, ja kuolleet haudattiin suurina joukkoina, joille voitiin tarjota vain vähäinen kunnioitus. Joskus osittain hajoavia ruumiita kaivettiin ylös ja haudattiin uudelleen yhdessä tilan säästämiseksi. Toisissa tapauksissa hautausmaat tukkeutuivat niin pahasti, että kuolleet haudattiin maanpäällisiin hautakammioihin. Kaikkia joukkohautoja ei merkitty, ja niitä jatketaan löytämään nykyaikana.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PLAGUE_HOSPITAL_CHAPTER_HISTORY_PARA_1">
+      <Text>Kaupungit pyrkivät hoitamaan ruton uhreja parhaansa mukaan tai ainakin vähentämään heidän kärsimystään. Ruttoparantolat saattoivatkin tarjota kyseenalaista hoitoa, mutta ne ainakin antoivat potilaille toivon ripauksen siitä, että joku välitti heistä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_KEEP_CHAPTER_HISTORY_PARA_1">
+      <Text>Linnoituksen keskiosa, jota käytetään viimeisenä puolustuslinjana, jos ulommat seinät murretaan. Keepit ovat usein hyvin pienillä ja kapeilla sisäänkäynneillä, jotta vain muutama puolustaja voi torjua hyökkääjät</Text>
+    </Row>
+    <!--Techs-->
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_CIVIL_ENGINEERING_CHAPTER_HISTORY_PARA_1">
+      <Text>Useat tekijät vaikuttivat siihen, että siviili-insinööritaitojen kehitys parani keskiajalla, mukaan lukien vahvojen linnoitusten rakentamisen tärkeys, näiden linnoitusten piirittämisen tärkeys ja kaupunkien rakentamisen tarve, joissa voisi asua suuria väestöjä ilman, että ne hukkuisivat omaan jätteeseensä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_INVENTION_CHAPTER_HISTORY_PARA_1">
+      <Text>Taitavat käsityöläiset ja taiteilijat alkoivat löytää uudelleen klassisen maailman järjestelmiä ja teknologioita. Mustan surman aikana tapahtuneiden lukuisien kuolemien vuoksi työä säästävistä koneista tuli tärkeämpiä.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_MEDICINE_CHAPTER_HISTORY_PARA_1">
+      <Text>Lääketiede on käytännöllinen taito tasapainottaa kehon nesteitä - verta, limaa, mustaa sappia ja keltaista sappia - kuten Hippokrates on esittänyt. Se voi sisältää astrologian opiskelun (koska taivaankappaleet vaikuttavat näihin nesteisiin) ja neljän ensisijaisen elementin tutkimuksen: tuli, maa, ilma ja vesi. Se on sopiva opiskelunaihe niille, jotka eivät kykene täysin arvostamaan yleviä opiskelunaloja, kuten logiikkaa ja teologiaa.</Text>
+    </Row>
+    <!--Civics-->
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_WAGE_REFORM_CHAPTER_HISTORY_PARA_1">
+      <Text>Työvoimapula Mustan surman jälkeen johti perinteisten maaorjuusjärjestelmien laskuun Euroopassa. Nyt maatalous- ja muut työntekijät voivat odottaa saavansa palkkaa työstään sen sijaan, että heitä pakotettaisiin orjuuteen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_HIGHER_LEARNING_CHAPTER_HISTORY_PARA_1">
+      <Text>Roomalaisen oikeuden tekstien uudelleen löytäminen keskiajalla johti yliopistojärjestelmän kasvuun kaupungeissa kuten Bologna ja Pariisi. Koulutuksesta tuli laajasti saatavilla kirkon ulkopuolella ja se loi perustan renessanssille</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_LABOR_ECONOMY_CHAPTER_HISTORY_PARA_1">
+      <Text>Mustan Surman aiheuttama työntekijöiden puute nosti työn arvoa. Aateliston ei enää ollut mahdollista vain lyödä maatyöläisiä työhön, sillä nämä kiittämättömät siirtyivät palvelemaan uutta herraa, joka maksoi heille kolikoilla.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_MIDDLE_CLASS_CHAPTER_HISTORY_PARA_1">
+      <Text>Kaupunkien nousu Euroopassa merkitsi uuden luokan nousua perinteisten aristokraattien, kirkonmiesten ja talonpoikien mallien ulkopuolella. Useimmat hallitsijat pitivät heitä hyödyllisenä veropohjana sotien rahoittamiseen.</Text>
+    </Row>
+    <!--Policies-->
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_FEALTY_CHAPTER_HISTORY_PARA_1">
+      <Text>Fealty on prosessi, jossa vannotaan uskollisuutta mestarille feodaalisessa järjestelmässä, kuten ritari, joka vannoo palvelevansa paronia tai paronin vannoessa palvelevansa kuningasta.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_UNDERCLASS_CHAPTER_HISTORY_PARA_1">
+      <Text>Kaupunkien kasvu merkitsi sitä, että kauppiaiden ja taitavien käsityöläisten lisäksi syntyi luokka yksilöitä, joiden yhteiskunnallinen asema koettiin alempiarvoisena tai ei-toivottuna, koska he eivät sopineet feudalismin aikakauden sosiaalisiin normeihin. On perusteltua väittää, että nämä asenteet ulottuvat nykyaikaan asti.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_STUDIA_GENERALIA_CHAPTER_HISTORY_PARA_1">
+      <Text>Yliopiston alkuperäinen nimi tai yliopistossa annettu koulutus tarkoitti "yleisiä opintoja". Toisin kuin seitsemän vapaata taitoa, Studiaan ei ollut määriteltyä opetussuunnitelmaa, mikä edellytti yliopistojen myöntävän tutkinnon tunnustuksena siitä, että opiskelija oli onnistuneesti opiskellut ja saattanut oppia jotain.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COTTAGE_INDUSTRIES_CHAPTER_HISTORY_PARA_1">
+      <Text>Mökkiteollisuus tarkoittaa pientä yritystoimintaa, jonka perustaa yksilö tai perhe joko itsensä elättämiseksi tai lisätulon hankkimiseksi. Nämä pienet yritykset ovat yleensä osa siirtymistä feodaali talouksista markkinaeconomioihin</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SKILLED_TRADES_CHAPTER_HISTORY_PARA_1">
+      <Text>Taitavat käsityöläiset tai taiteilijat voivat hallita alaansa vain pitkän harjoittelun kautta, erityisesti arvoesineiden, kuten hopeaesineiden, kankaiden, lasiesineiden ja koneiden, tuotannossa. Käsityöläiset kokoontuivat kaupunkeihin, joissa he saattoivat työskennellä yhdessä, kouluttaa tulevia harjoittajia, määrittää hinnat ja yrittää hallita markkinoita tuotteilleen. Taitavat käsityöläiset olivat joitain ensimmäisiä todellisia keskiluokan kansalaisia historiassa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PUBLIC_SERVANTS_CHAPTER_HISTORY_PARA_1">
+      <Text>Kasvava käsitys siitä, että valtiot olivat poliittisia yksiköitä hallitsijoidensa ulkopuolella, johti palvelijaluokan kasvuun, jotka ilmaisivat velvollisuutensa valtion palvelemisesta sen hallitsijan sijaan. Tämä mahdollisti heille palvella valtion hyvää puolueettomasti, mutta ei tehnyt heistä yhtään suositumpia, kun tuli aika kerätä veroja.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SPECIALIZATION_CHAPTER_HISTORY_PARA_1">
+      <Text>Kun valmistetaan monimutkaisia esineitä, yksittäisten henkilöiden keskittyminen yhden tuotannon osa-alueen tekemiseen mahdollistaa korkeamman tuotantovauhdin kuin yhden artesaanin työskentely esineen valmistamisessa materiaalista viimeistelyyn asti. Useita esineitä valmistettiin tällä tavalla keskiajalla ja varhaisessa uusikaudessa, mukaan lukien aseet ja haarniskat. Erikoistumisen nousu löysi lopulta täyden ilmaisunsa teollisuusajalla ja kokoonpanolinjalla.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COMMERCIAL_LEAGUE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kauppiaiden ryhmät liittoutuivat yhteen harjoittaakseen suurempaa taloudellista valtaa. Nämä kauppaliitot toimivat lopulta nykyaikaisten pankki- ja valuuttajärjestelmien perustana</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_INDENTURE_CHAPTER_HISTORY_PARA_1">
+      <Text>Indentuuri on prosessi, jossa sitoutuu antamaan työpanoksensa toiselle määrätyn ajanjakson ajan, odottaen saavansa jotain hyötyä sen päätteeksi. Se on prosessi, jolla oppipojat sidottiin mestareihinsä koulutuksensa alussa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LABOR_MARKET_CHAPTER_HISTORY_PARA_1">
+      <Text>Jossain vaiheessa työmarkkinat olivat kirjaimellisesti paikka torilla, jossa taidottomat työläiset kokoontuivat odottaen palkkausta tiettyä työpaikkaa varten. Se on edelleen joissain paikoissa.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CIVIL_QUARANTINE_CHAPTER_HISTORY_PARA_1">
+      <Text>Karanteeni on sairaiden eristämistä taudin leviämisen estämiseksi väestön keskuudessa. Keltaisia lippuja on käytetty karanteenipaikkojen merkitsemiseen Mustan surman jälkeen</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_POGROM_CHAPTER_HISTORY_PARA_1">
+      <Text>Venäjän sanasta "tuhoaminen" pogromi on systemaattinen murha ja sorto ryhmää vastaan hyväksynnällä valtiolta. Sorrettu ryhmä on yleensä vähemmistö, kuten juutalaiset Euroopassa suurimman osan Euroopan historiasta. Oikeutus on yleensä panettelu jostain rikoksesta, jota he eivät tehneet. Pogromit ovat pitkä ja kauhea historia ja niitä on tapahtunut liian monta kertaa, vaikka ihmiset juhlallisesti vannottelevat "ja tämä ei koskaan tapahdu uudelleen" jokaisen jälkeen.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PATRONAGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Toisen työn suoran tukemisen käytäntöä kutsutaan patronaasiksi. Patronaasi voi olla näkyvä varallisuuden tunnus, tai sitä voi harjoittaa todella itsekkäistä syistä. Monet suuret taide- ja kirjallisuustyöt tehtiin varakkaiden patroonien toimeksiantoina.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_NOBLESSE_OBLIGE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kirjaimellisesti "Aristokratia tarjoaa", tämä ilmaisu tarkoittaa sitä, että yhteiskunnallisen aseman ja varojen omaavien henkilöiden tulisi olla anteliaita ja tarjota apua vähävaraisille. Pyyteetön hyväntekeväisyys ei aina saavuta sitä nöyrää kunnioitusta, jonka antaja odottaa</Text>
+    </Row>
+    <!--Leaders-->
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_1">
+      <Text>Philip VI oli Valois-dynastian ensimmäinen Ranskan kuningas, jonka hallintokautta leimasi satavuotisen sodan alkaminen Englannin kanssa. Yksi hänen ensimmäisistä teoistaan oli tukahduttaa kapina Flanderissa ja asettaa kreivi Louis takaisin valtaan. Hänen suhteensa Edward III:n kanssa alkoivat hyvin, mutta huononivat Aquitanian herttuakunnan aseman ja sen välillä, oliko Edward Philipin vasalli vai ei. Tämä ja muut asiat olivat satavuotisen sodan laukaisevia tekijöitä</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_2">
+      <Text>Kun Philip piti Edwardia uuvuttavassa hyökkäys- ja kulutussodassa, hänellä oli etu Ranskan vaurauden vuoksi, mutta avoimet ja ratkaisevat taistelut osoittautuivat englantilaisille suotuisimmiksi. Taistelun jälkeen Crecyssä vuonna 1346 ranskalainen aatelisto ja heidän liittolaisensa kärsivät niin suuria tappioita, että Ranskan valtiopäivät kieltäytyivät maksamasta enää sotia. Mustan surman saapuminen vuonna 1348 oli yhtä tuhoisa, ja kuolleiden joukossa oli myös hänen vaimonsa kuningatar Joan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_1">
+      <Text>Mahdollisesti Englannin menestynein keskiaikainen kuningas, hänen 50-vuotinen hallintokautensa oli merkitty sodilla, parlamentin nousulla ja rutolla. Hänen isänsä, Edward II, syrjäytettiin kun Edward III oli vasta lapsi, mutta Edward siirtyi nopeasti käyttämään valtaa omalla nimellään.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_2">
+      <Text>Taistellessaan Skotlantia ja Ranskaa vastaan, Edward III ja hänen alaisensa komentajat (erityisesti hänen vanhin poikansa, Edward Musta Prinssi) olivat vastuussa monista suurimmista englantilaisista voitoista Satavuotisessa sodassa, mukaan lukien meritaistelu Sluysin luona. Edward III itse komensi joukkojaan Crecyn taistelussa, jossa englantilaiset jalkaväkimiehet tappoivat Ranskan ylimystön parhaimmistoa yhden iltapäivän aikana.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_3">
+      <Text>Vuoden 1361 Musta kuolema merkitsi hänen hallintonsa laskua ja loppuvaihetta. Tartuntatauti vei häneltä resurssit, joita hän tarvitsi sotien käymiseen, ja kasvavat sosiaaliset jännitteet kotimaassa hallitsivat hänen elämäänsä suuren osan loppuelämästään</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_1">
+      <Text>Tunnettu oikeudenmukaisena Alfonsona, hän oli Kastilian ja Leonin kuningas, perien valtaistuimen isältään, Ferdinand IV:ltä ollessaan vasta yhden vuoden ikäinen. Tultuaan täysi-ikäiseksi vuonna 1325 hän onnistui tukahduttamaan aatelisten kiistat (ja vallan), käyttöönottamaan tärkeitä oikeudellisia uudistuksia Alcalá de Hernárezin asetuksissa ja soti Marinid Berbereitä vastaan, voittaen tärkeän taistelun Saladojoella Andalusiassa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_2">
+      <Text>Alfonso kuoli Mustaan surmaan piirityksessä Gibraltarin alueella vuonna 1350, ja hallitsijanvastuu siirtyi hänen pojalleen, Pedro Julmalle</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_1">
+      <Text>Louis Baijerilainen, Pyhän saksalais-roomalaisen keisarikunnan keisari, oli ensimmäinen Wittelsbach-keisari saksalaisille. Hänen varhainen hallintonsa oli merkitty taisteluilla sekä Habsburgin että Luxembourgin perheiden ja heidän vaatijoidensa kanssa keisarikruunusta. Tämä konflikti levisi sivulliseen konfliktiin paavin kanssa, joka erotti Louisin kirkosta kerettiläisenä. Tämä osoittautui hieman hankalaksi, kun Louis kruunattiin keisariksi Roomassa vuonna 1328 roomalaisten toimesta. Louisin hallintokausi keisarina varmistui lopulta suurelta osin hänen kilpailijoidensa kuoleman ja yleisen uupumuksen myötä valtakunnassa loputtomien perimyssuunnitelmien takia.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_2">
+      <Text>Liittoutuneena Englannin Eduard III:n kanssa hän oli vastakkain Ranskan (ja paavin Avignonissa) kanssa, mikä pahensi hänen poliittista tilannettaan kotimaassa. Hänen kuollessaan lähellä Müncheniä vuonna 1347, hän ei ollut onnistunut vakiinnuttamaan Wittelsbacheja hallitsevana talona keisarillisessa politiikassa</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_1">
+      <Text>Musta kuolema -aikana Keski-Euroopan suurin poliittinen elin oli polyglottinen, monikulttuurinen kokoelma kuningaskuntia, ruhtinaskuntia, piispankuntia, herttuakuntia, vapaita kaupunkeja, kiistanalaisia maita, paroneita ja seurakuntia, jotka kaikki olivat teoreettisesti keisarin maallisen hallinnon alaisuudessa. Vaikutusvaltaiset hallitsevat perheet ja paavi kilpailivat usein tehokkaasta hallinnasta tai autonomiasta omilla alueillaan.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_1">
+      <Text>Kastilian alue kattaa suuren osan nykyisen Espanjan keskiosasta. Keski-ajan aikana kuningaskunta oli usein sotatilassa eteläisen Espanjan muslimialueiden kanssa. Kastilian ja naapurikuninkaan Leonin kruunujen yhdistyminen loi pohjan Castilian vallalle Iberian niemimaalla.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_1">
+      <Text>Plantagenet-suku, joka hallitsi Englantia Mustan surman aikaan, vaati oikeuksia sekä englantilaiselle että ranskalaiselle kruunulle. He olivat lähteneet sotaisille valloitusretkille Skotlantia ja Walesia vastaan. Ajan kuluessa Englannin kuninkaan oli pakko luopua vallastaan parlamentille ja aatelille, joten Englannin kuninkaat olivat verrattain vähemmän valtaisia muihin Euroopan monarkkeihin nähden.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_1">
+      <Text>Keski-ajalla Ranska oli yksi Euroopan rikkaimmista ja menestyneimmistä alueista. Tänä aikana Ranskan kuninkaat hallitsivat suorassa valvonnassaan merkittävää maa-aluetta, mikä teki heistä yhden ajan keskitetyimmistä kuningaskunnista.</Text>
+    </Row>
+  </EnglishText>
+</GameData>
