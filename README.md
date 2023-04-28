@@ -22,7 +22,7 @@ The following languages are currently available:
 
 - Finnish -> Testing
 - Danish -> To be tested
-- Ukrainian -> In progress
+- Ukrainian -> To be tested
 - Hindi -> In progress
 
 ## Contributing
