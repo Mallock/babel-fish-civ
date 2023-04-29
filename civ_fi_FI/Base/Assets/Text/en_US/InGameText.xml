@@ -3677,13 +3677,13 @@
     </Row>
     <!-- ==================== Calendar Text ==================== -->
     <Row Tag="LOC_TIME_AD">
-      <Text>{1_Date: numero #} jKr</Text>
+      <Text>{1_Date: number #} jKr</Text>
     </Row>
     <Row Tag="LOC_TIME_AD_SAVE">
       <Text>{2} jKr-{1_Date}</Text>
     </Row>
     <Row Tag="LOC_TIME_BC">
-      <Text>{1_Date: luku #} eaa</Text>
+      <Text>{1_Date: number #} eaa</Text>
     </Row>
     <Row Tag="LOC_TIME_BC_SAVE">
       <Text>{2} eKr. - {1_Date}</Text>
@@ -3692,7 +3692,7 @@
       <Text>{1_Date},{2_Month}</Text>
     </Row>
     <Row Tag="LOC_TIME_MONTH_SAVE">
-      <Text>{1_Päivä}-{2_Kuukausi}</Text>
+      <Text>{1_Date}-{2_Month}</Text>
     </Row>
     <Row Tag="LOC_MONTH_JANUARY_NAME">
       <Text>Tammikuu</Text>
