@@ -428,7 +428,7 @@
       <Text>Klikkaa peruaksesi vuorosi valmiustilan, jos haluat tehdä lisää muutoksia. Voit tehdä sen vain ennen kuin kaikki muut pelaajat ovat valmiita vuoroihinsa.</Text>
     </Row>
     <Row Tag="LOC_ACTION_PANEL_SKIP_TURN">
-      <Text>SYÖKSY VUORO OHI</Text>
+      <Text>OHITA VUORO</Text>
     </Row>
     <Row Tag="LOC_ACTION_PANEL_SKIP_TURN_TOOLTIP">
       <Text>Jätä vuorosi väliin.</Text>
@@ -452,7 +452,7 @@
       <Text>Sinun täytyy valita teknologia tutkimusta varten.</Text>
     </Row>
     <Row Tag="LOC_ACTION_PANEL_NEEDS_CIVIC_TOOLTIP">
-      <Text>Sinun täytyy valita kansalainen, jonka puolesta edistyä.</Text>
+      <Text>Sinun täytyy valita kansallisuus, jota edistää.</Text>
     </Row>
     <Row Tag="LOC_ACTION_PANEL_FILL_CIVIC_SLOT_TOOLTIP">
       <Text>Yksi hallituksemme politiikoista on vanhentunut ja tarvitsee korvaamisen.</Text>
@@ -567,7 +567,7 @@
       <Text>Elinaikä</Text>
     </Row>
     <Row Tag="LOC_HUD_UNIT_PANEL_XP_TT">
-      <Text>{1_Nykyinen} / {2_Maksimi} tasolle {3_Taso} asti</Text>
+      <Text>{1_Current} / {2_Max} tasolle {3_Level} asti</Text>
     </Row>
     <Row Tag="LOC_HUD_UNIT_PANEL_RANGED_HEXES">
       <Text>Kantama: {1} ({2: plural 1?{2} heksa; other?{2} heksaa;})</Text>
@@ -838,16 +838,16 @@
       <Text>Laivasto</Text>
     </Row>
     <Row Tag="LOC_UNITFLAG_ACTIVITY_ON_SENTRY">
-      <Text>Sentrystä</Text>
+      <Text>Vartiossa</Text>
     </Row>
     <Row Tag="LOC_UNITFLAG_ACTIVITY_ON_INTERCEPT">
-      <Text>Interceptilla</Text>
+      <Text>Väijyssä</Text>
     </Row>
     <Row Tag="LOC_UNITFLAG_ACTIVITY_AWAKE">
       <Text>Valveilla</Text>
     </Row>
     <Row Tag="LOC_UNITFLAG_ACTIVITY_HOLD">
-      <Text>Hold</Text>
+      <Text>Pidä</Text>
     </Row>
     <Row Tag="LOC_UNITFLAG_ACTIVITY_SLEEP">
       <Text>Uni</Text>
@@ -988,7 +988,7 @@
     </Row>
     <!-- ==================== City Banner ==================== -->
     <Row Tag="LOC_CITY_BANNER_AERODROME_AIRCRAFT_STATIONED">
-      <Text>{1_Lentokone} / {2_Paikat} lentokonetta sijoitettuna täällä.</Text>
+      <Text>{1_Aircraft} / {2_Slots} lentokonetta sijoitettuna täällä.</Text>
     </Row>
     <Row Tag="LOC_CITY_BANNER_CITY_RANGE_STRIKE">
       <Text>Kaupunkialueen hyökkäys</Text>
@@ -997,7 +997,7 @@
       <Text>Alueen laajuusisku</Text>
     </Row>
     <Row Tag="LOC_CITY_BANNER_FOOD_SURPLUS">
-      <Text>{1_Ruoka} ylijäämä [ICON_Ruoka] Ruokaa.</Text>
+      <Text>{1_Food} ylijäämä [ICON_Food] Ruokaa.</Text>
     </Row>
     <Row Tag="LOC_CITY_BANNER_GARRISON_DEFENSE_STRENGTH">
       <Text>Varuskunnan puolustusvoimakapasiteetti</Text>
@@ -1006,7 +1006,7 @@
       <Text>Alueen puolustusvoima: {1_DefenseValue}</Text>
     </Row>
     <Row Tag="LOC_CITY_BANNER_GARRISON_HITPOINTS">
-      <Text>Garnison terveys: {1_Terveys}</Text>
+      <Text>Varuskunnan terveys: {1_Health}</Text>
     </Row>
     <Row Tag="LOC_CITY_BANNER_DISTRICT_HITPOINTS">
       <Text>Alueellinen terveys: {1_Health}</Text>
@@ -1042,13 +1042,13 @@
       <Text>{1_Turns : plural 1?{1_Turns} kierros; other? {1_Turn} kierrosta;} jäljellä kunnes valmista.</Text>
     </Row>
     <Row Tag="LOC_CITY_BANNER_WEAPON_UNAVAILABLE">
-      <Text>Weapon Unavailable</Text>
+      <Text>Ei asetta </Text>
     </Row>
     <Row Tag="LOC_CITY_BANNER_CONVERTS_IN_X_TURNS">
       <Text>Muuntaa {1_Turns}:ksi</Text>
     </Row>
     <Row Tag="LOC_CITY_BANNER_RELIGIOUS_PRESSURE">
-      <Text>+{1_Paine}</Text>
+      <Text>+{1_Pressure}</Text>
     </Row>
     <Row Tag="LOC_CITY_BANNER_HOUSING_INSUFFICIENT">
       <Text>Asuntopula</Text>
@@ -1082,7 +1082,7 @@
       <Text>Yritä parantaa kaupunkisi ympärillä olevaa maata saadaksesi mukavuuksia.</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_ALL_YIELDS">
-      <Text>Ei-elintarvikkeelliset saannot</Text>
+      <Text>Ei-elintarvikkeelliset varannot</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_AMENITIES">
       <Text>Mukavuudet</Text>
@@ -1184,7 +1184,7 @@
       <Text>Valmis</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_CULTURE_PER_TURN">
-      <Text>{1_Kulttuuri} Kulttuuripiste per vuoro</Text>
+      <Text>{1_Culture} Kulttuuripiste per vuoro</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_CURRENT_FOCUS">
       <Text>Nykyinen fokus</Text>
@@ -1229,7 +1229,7 @@
       <Text>Asuminen</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_HOUSING_BREAKDOWN">
-      <Text>Vesi {1_Vesi}, Rakennukset {2_Rakennukset}, Parannukset {3_Parannukset}, Kaupunginosat {4_Kaupunginosat}, Kansalaiset {5_Kansalaiset}</Text>
+      <Text>Vesi {1_Water}, Rakennukset {2_Buildings}, Parannukset {3_Improvements}, Kaupunginosat {4_Districts}, Kansalaiset {5_Civics}</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_HOUSING_CAPACITY">
       <Text>Asuntokapasiteetti</Text>
@@ -1442,7 +1442,7 @@
       <Text>{1_Turns : plural 1?{1_Turns} kierros; other?{1_Turns} kierrosta;} kasvuun saakka</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_TURNS_UNTIL_BORDER_GROWTH">
-      <Text>{1_Kierros: monikko 1?kierros; other?kierrosta;} raja-alueen kasvuun asti</Text>
+      <Text>{1_Turns: monikko 1?kierros; other?kierrosta;} raja-alueen kasvuun asti</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_TURNS_UNTIL_CITIZEN_BORN">
       <Text>{1_Turns : plural 1? {1_Turns} kierros; other?{1_Turns} kierrosta;} siihen asti, kunnes uusi kansalainen syntyy</Text>
@@ -1451,13 +1451,13 @@
       <Text>{1_Turns : plural 1? {1_Turns} kierros; other?{1_Turns} kierrosta;} siihen asti, kunnes kansalainen menetetään</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_TURNS_TO_COMPLETE">
-      <Text>{1_Kierros : other? kierrosta;} suorittaaksesi</Text>
+      <Text>{1_Turns : other? kierrosta;} suorittaaksesi</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_TURNS_UNTIL_COMPLETED">
-      <Text>{1_Kierrokset : monikko 1? kierros; muut? kierrosta;} valmistumiseen asti</Text>
+      <Text>{1_Turns : monikko 1? kierros; muut? kierrosta;} valmistumiseen asti</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_TURNS_UNTIL_GROWTH">
-      <Text>{1_Kierros: monikko 1? kierros; muut? kierrosta;} kasvuun asti</Text>
+      <Text>{1_Turns: monikko 1? kierros; muut? kierrosta;} kasvuun asti</Text>
     </Row>
     <Row Tag="LOC_HUD_CITY_TURNS_UNTIL_LOSS">
       <Text>{1_Turns: monikossa 1? kierros; muussa tilanteessa? kierrosta;} tappioon asti</Text>
@@ -2211,7 +2211,7 @@
       <Text>Omistettu</Text>
     </Row>
     <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_UNCLAIMED">
-      <Text>Löytämätön (literally "unfound")</Text>
+      <Text>Löytämätön</Text>
     </Row>
     <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_PILLAGED">
       <Text>Ryöstetty</Text>
