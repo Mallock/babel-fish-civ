@@ -180,7 +180,7 @@
       <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1: on; other: ovat;} ansainneet {2_unit} {3_GreatPerson}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_LAUNCHING_ATTACK">
-      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} aloittaa sotilaallisen hyökkäyksen {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}:a vastaan.</Text>
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?aikoo; other?aikovat;} aloittaa sotilaallisen hyökkäyksen  {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}}:a vastaan.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_WAR_PREPARATION">
       <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?on; other?ovat;} harkitsemassa sotaa {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}} vastaan.</Text>
