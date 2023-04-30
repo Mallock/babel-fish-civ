@@ -506,14 +506,15 @@
       <Text>Päästä vuorosi loppuun.</Text>
     </Row>
     <Row Tag="LOC_ACTION_PANEL_SKIP_UNIT_MOVES">
-      <Text>OHITA YKSIKKÖ SIIRTYY</Text>
+      <Text>OHITA SIIRTO</Text>
     </Row>
     <Row Tag="LOC_ACTION_PANEL_SKIP_UNIT_MOVES_TOOLTIP">
       <Text>Sinulla on yksiköitä, jotka voivat liikkua [ICON_Movement]-pisteitä. Klikkaa lopettaaksesi vuorosi nyt.</Text>
     </Row>
-    <Row Tag="LOC_ACTION_PANEL_UNIT_MOVES_REMAINING">
-      <Text>UNIT HAS MOVES</Text>
-    </Row>
+<Row Tag="LOC_ACTION_PANEL_UNIT_MOVES_REMAINING">
+  <Text>YKSIKÖLLÄ ON LIIKKUMISVARAA</Text>
+</Row>
+
     <Row Tag="LOC_ACTION_PANEL_UNIT_MOVES_REMAINING_TOOLTIP">
       <Text>Teillä on yksiköitä, joilla on jäljellä [ICON_Movement] liikepistettä.</Text>
     </Row>
@@ -4520,7 +4521,7 @@
       <Text>Suora sodanjulistus tuhoaa kaikki lähettiläämme [ICON_Envoy] täällä ja estää meitä lähettämästä uusia, kunnes rauha on tehty. Kaikki aktiiviset tehtävät peruutetaan</Text>
     </Row>
     <Row Tag="LOC_CITY_STATES_LEVY_MILITARY_BUTTON">
-      <Text>Levyarmeija</Text>
+      <Text>Vuokraa armeija</Text>
     </Row>
     <Row Tag="LOC_CITY_STATES_LEVY_MILITARY_DETAILS">
       <Text>Tämän kaupunkivaltion suurherra voi maksaa {1_GoldCost} [ICON_Gold] kultaa ottaakseen tilapäisen hallinnan kaupungin nykyisistä sotilasyksiköistä. Yksiköt eivät voi liikkua sitä vuoroa, kun ne ovat värvättyjä, mutta ne tottelevat suurherraa seuraavana vuorona. Ne palaavat kaupunkivaltioon {2_TurnLimit} [ICON_Turn] vuoron kuluttua tai jos suurherran valta-asema muuttuu.</Text>
