@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <!-- Government Buildings -->
+    <Row Tag="LOC_BUILDING_GOV_TALL_NAME">
+      <Text>श्रोता सभा (Shrota Sabha)</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_WIDE_NAME">
+      <Text>वंशजों का भवन</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_CONQUEST_NAME">
+      <Text>युद्धकर्ता की गद्दी</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_FAITH_NAME">
+      <Text>ग्रैंड मास्टर की चैपल</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_CITYSTATES_NAME">
+      <Text>विदेश मंत्रालय</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_SPIES_NAME">
+      <Text>खुफिया एजेंसी</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_MILITARY_NAME">
+      <Text>युद्ध विभाग (Yuddh Vibhag)</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_CULTURE_NAME">
+      <Text>राष्ट्रीय इतिहास संग्रहालय</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_SCIENCE_NAME">
+      <Text>रॉयल सोसाइटी</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION">
+      <Text>[ICON_Governor] गवर्नर के साथ शहरों में +2 [ICON_Amenities] सुविधाएं और +4 [ICON_Housing] आवास।[NEWLINE]बिना [ICON_Governor] गवर्नर के शहरों में -2 वफादारी।[NEWLINE]+1 [Icon_Governor] गवर्नर टाइटल का इनाम।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION">
+      <Text>इस शहर में सेटलर्स के प्रति [ICON_Production] उत्पादन में 50% की वृद्धि। [NEWLINE] नए शहरों को नि: शुल्क बिल्डर प्राप्त होते हैं। [NEWLINE] 1 [Icon_Governor] गवर्नर टाइटल प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION">
+      <Text>दुश्मन शहर को जीतने से 5 टर्न के लिए सभी शहरों में 20% बोनस [ICON_Production] उत्पादन प्रदान किया जाता है।[NEWLINE]+1 [Icon_Governor] गवर्नर शीर्षक पुरस्कार दिया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_CITYSTATES_DESCRIPTION">
+      <Text>शहर राज्यों का उपयोग करने से कीमत आधी [ICON_Gold] सोने की होती है। [NEWLINE]यदि आप शहर राज्य के सुजेरेन हैं (इसमें शामिल उपकरण), तो शहर राज्य इकाइयों की +4 [ICON_Strength] युद्ध शक्ति होती है। [NEWLINE]+1 [Icon_Governor] गवर्नर शीर्षक पुरस्कार देता है।</Text>
+    </Row>
+    <Row Tag="GOV_CITYSTATES_LEVIED_COMBAT_STRENGTH_DESCRIPTION">
+      <Text>विदेश मंत्रालय से +4</Text>
+    </Row>
+    <Row Tag="GOV_CITYSTATES_COMBAT_STRENGTH_DESCRIPTION">
+      <Text>विदेश मंत्रालय से +4</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION">
+      <Text>+1 जासूस और जासूस क्षमता।[NEWLINE]सभी जासूसी ऑपरेशन को सफलता के एक अधिक अवसर होता है।[NEWLINE][Icon_Governor] गवर्नर टाइटल को +1 अवार्ड मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION">
+      <Text>[ICON_Faith] धर्म से भूमि इकाइयों को ख़रीदने की क्षमता प्रदान करता है। [NEWLINE] सुधारों और जिलों की लूट देने से अतिरिक्त [ICON_Faith] धर्म प्रदान किया जाता है। [NEWLINE] +1 [Icon_Governor] गवर्नर शीर्षक पुरस्कार।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION">
+      <Text>सभी इकाइयों को अगर कोई दुश्मन की इकाई को खत्म करने में सफल होने पर 20 हिट पॉइंट्स का उपचार मिलता है। [NEWLINE] +1 [Icon_Governor] गवर्नर टाइटल से सम्मानित किया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION">
+      <Text>किसी भी महान काम के लिए 4 स्लॉट प्रदान करता है। [NEWLINE] +1 [Icon_Governor] गवर्नर शीर्षक पुरस्कार।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION">
+      <Text>निर्माताओं को सभी अधिभारों का उपयोग करके जिला परियोजना को बोनस [ICON_Production] उत्पादन प्रदान करने की क्षमता प्राप्त होती है। प्रति शहर प्रति टर्न। [NEWLINE] +1 [Icon_Governor] गवर्नर शीर्षक पुरस्कार।</Text>
+    </Row>
+    <!-- Water Entertainment Complex Buildings -->
+    <Row Tag="LOC_BUILDING_FERRIS_WHEEL_NAME">
+      <Text>फेरिस व्हील</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FERRIS_WHEEL_DESCRIPTION">
+      <Text>+2 [ICON_Tourism] पर्यटन।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_AQUARIUM_NAME">
+      <Text>एक्वेरियम (Ekvariyam)</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_AQUARIUM_DESCRIPTION">
+      <Text>बोनस [ICON_Amenities] सुविधा हर शहर के केंद्र में 9 टाइल्स के भीतर फैलता है। एक शहर के लिए यह बोनस एक बार लागू होता है, और एक शहर के 9 टाइल्स के भीतर कई प्रतिलिपियों का होना अतिरिक्त बोनस प्रदान नहीं करता है। इस शहर में प्रत्येक तटीय संसाधन, शिपरेक और रीफ टाइल के लिए +1 [ICON_SCIENCE] विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_AQUATICS_CENTER_NAME">
+      <Text>एक्वेटिक्स सेंटर</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_AQUATICS_CENTER_DESCRIPTION">
+      <Text>बोनस [ICON_Amenities] सुविधाएं प्रत्येक शहर केंद्र में 9 टाइल के भीतर फैली हुई हैं। यह बोनस एक शहर के लिए एक बार लागू होता है, और एक शहर के केंद्र से 9 टाइल के भीतर कई प्रतिलिपियों को अतिरिक्त बोनस प्रदान नहीं करते हैं। किनारे की टाइल पर या उसके आसपास इस शहर में बने हर हर सुंदरी के लिए +2 [ICON_Tourism] पर्यटन।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ARENA_EXPANSION1_DESCRIPTION">
+      <Text>संरक्षण सिविक प्रगति पर पहुँचने के बाद, 1 [ICON_TOURISM] पर्यटन प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TLACHTLI_EXPANSION1_DESCRIPTION">
+      <Text>पर्यटन का 1 [ICON_TOURISM] प्रदान करता है, संरक्षण सिविक पर आगे बढ़ने के बाद।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION">
+      <Text>बोनस [ICON_Amenities] सुविधा 6 टाइल्स के भीतर हर शहर केंद्र तक फैलता है। यह बोनस एक शहर पर लागू होता है, और एक शहर के केंद्र से 6 टाइल्स की दूरी के अंदर इस भवन के कई प्रतिलिपियों से अतिरिक्त बोनस नहीं मिलता है। रेनफोरेस्ट और मार्श के प्रत्येक टाइल पर इस शहर में + 1 [ICON_SCIENCE] विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_STADIUM_EXPANSION1_DESCRIPTION">
+      <Text>[ICON_Amenities] अतिथि सुविधाएँ हर शहर केंद्र में 6 टाइल्स के भीतर फैल जाती हैं। यह बोनस एक बार शहर के लिए लागू होता है, और एक शहर के 6 टाइल्स के भीतर कई प्रतिलिपियों का उपयोग अतिरिक्त बोनस प्रदान नहीं करता। अगर शहर [ICON_CITIZEN] आबादी 10 या उससे अधिक है तो +2 [ICON_Tourism] पर्यटन और अगर शहर [ICON_CITIZEN] आबादी 20 या उससे अधिक है तो +5 [ICON_Tourism] पर्यटन।</Text>
+    </Row>
+    <!-- Neighborhood Buildings -->
+    <Row Tag="LOC_BUILDING_FOOD_MARKET_NAME">
+      <Text>खाद्य बाजार</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION">
+      <Text>शहर में केवल एक बार बनाया जा सकता है, भले ही शहर में कई पड़ोस हों।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SHOPPING_MALL_NAME">
+      <Text>शॉपिंग मॉल</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION">
+      <Text>+4 [ICON_Tourism] पर्यटन। एक शहर में केवल एक बार बनाया जा सकता है, भले ही शहर में कई पड़ोस हों।</Text>
+    </Row>
+    <!-- Wonders -->
+    <Row Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_NAME">
+      <Text>अमुंडसेन-स्कॉट अनुसंधान स्टेशन</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_DESCRIPTION">
+      <Text>सभी शहरों में 20% [ICON_SCIENCE] विज्ञान और 10% [ICON_PRODUCTION] उत्पादन। यदि किसी खिलाड़ी के पास शहर के 3 टाइल के भीतर 5 बर्फ या बर्फ की पहाड़ियां हों और इनके मालिक हों तो यह उत्पाद दोगुना हो जाता है। एक बर्फ या बर्फ की पहाड़ियों वाली टाइल पर अध्ययन केंद्र वाले कैंपस के बगल में बनाया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CASA_DE_CONTRATACION_NAME">
+      <Text>कासा डे कॉन्ट्राटासियों (Casa de Contratación)</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION">
+      <Text>3 [ICON_Governor] गवर्नर प्रोमोशन प्राप्त करें। आपकी सभी शहर जो आपकी मूल [ICON_Capital] राजधानी के महाद्वीप पर नहीं हैं, उनमें [ICON_Governor] गवर्नर के साथ +15% [ICON_Production] उत्पादन, +15% [ICON_Faith] श्रद्धा और +15% [ICON_Gold] सोना मिलता है। सरकारी प्लाज़ा के आस-पास बनाए जाने चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_COLOSSEUM_DESCRIPTION">
+      <Text>कोलोसीयम हर शहर केंद्र को 6 टाइल की दूरी के भीतर [ICON_Culture] संस्कृति, प्रति टर्न वफादारी और [ICON_Amenities] सुविधाएं में से कुछ एक प्रदान करता है। इसे एक मनोरंजन जगह के समीप समतल भूमि पर बनाया जाना चाहिए जिसमें एक अरेना हो।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION">
+      <Text>सभी प्राचीन और क्लासिकल युग की तकनीकों में बढ़ोत्राप्राप्त करें। किसी अन्य खिलाड़ी के एक [ICON_GreatScientist] महान वैज्ञानिक की भर्ती के बाद एक यादृच्छिक तकनीक बढ़ोत्राप्राप्त करें। एक लाइब्रेरी के साथ समूहशाला जिसके पास समतल भूमि पर निर्मित होना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KILWA_KISIWANI_NAME">
+      <Text>किलवा किसिवानी</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KILWA_KISIWANI_DESCRIPTION">
+      <Text>+3 [ICON_ENVOY] राजदूत बनाया गया जब बनाया जाता है। जब आप एक सिटी-स्टेट के सुजेरेन होते हैं तो उस शहर को उस सिटी-स्टेट द्वारा प्रदान की जाने वाली प्रकार के बोनस को 15% बढ़ावा मिलता है। यदि आप उस प्रकार के 2 या अधिक सिटी-स्टेट के सुजेरेन होते हैं तो आपके सभी शहरों को एक अतिरिक्त 15% का बूस्ट मिलता है। तट के पास एक फ्लैट टाइल पर बनाया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KOTOKU_IN_NAME">
+      <Text>कोटोकु-इन</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KOTOKU_IN_DESCRIPTION">
+      <Text>+20% [ICON_Faith] इस शहर में विश्वास। 4 योद्धा संन्यासी देता है। [NEWLINE][NEWLINE]मंदिर वाली पवित्र स्थल जिले के साथ संबद्ध होना चाहिए। योद्धा संन्यासी को तभी प्राप्त किया जा सकता है जब खिलाड़ी ने धर्म स्थापित किया हो या इस खिलाड़ी या शहर के लिए अधिकांश धर्म हों।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_NAME">
+      <Text>सेंट बेसिल का गिरजाघर</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION">
+      <Text>इस शहर से धार्मिक पर्यटन [ICON_Tourism] +100% | इस शहर के सभी टंड्रा टाइल्स पर +1 [ICON_Food] खाद्य, +1 [ICON_Production] उत्पादन और +1 [ICON_Culture] संस्कृति। नगर केंद्र के आस-पास बनाया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_STATUE_LIBERTY_NAME">
+      <Text>स्वतंत्रता की मूर्ति</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_STATUE_LIBERTY_DESCRIPTION">
+      <Text>दो बस्तियों को देने का अनुदान। आपके सभी शहर 6 टाइल के भीतर हमेशा 100% वफादार होते हैं। तट पर बनाया जाना चाहिए, जमीन और हार्बर जिले के आसपास से संयुक्त होना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TAJ_MAHAL_NAME">
+      <Text>ताज महल (Taj Mahal)</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION">
+      <Text>इस आश्चर्य पूर्ण होने के बाद, अगले ऐतिहासिक पल के लिए +1 एरा स्कोर प्राप्त होगा, यदि वह पल आमतौर पर 2 या अधिक एरा स्कोर के लायक हो। नदी के पास निर्मित किया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_ARTEMIS_NAME">
+      <Text>आर्टेमिस का मंदिर</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION">
+      <Text>इस आश्चर्य के चार टाइल के भीतर प्रत्येक कैंप, चारागाह और बाग़ का सुधार +1 [ICON_AMENITIES] सुविधा प्रदान करता है। कैंप सुधार के पड़ोस में रखा जाना चाहिए।</Text>
+    </Row>
+    <!-- Trade balance changes -->
+    <Row Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION">
+      <Text>यदि इस शहर में अभी तक लाइटहाउस नहीं है, तो ट्रेड रूट क्षमता [ICON_TradeRoute] +1।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION1_DESCRIPTION">
+      <Text>इस शहर में प्रशिक्षित सभी नौसेना इकाइयों के लिए +25% युद्ध अनुभव। इस शहर के सभी तटीय टाइल्स पर +1 [ICON_FOOD] खाद्य। यदि इस शहर में अभी तक एक मार्केट भवन नहीं है, तो +1 [ICON_TradeRoute] व्यापार मार्ग क्षमता।</Text>
+    </Row>
+    <!-- Other balance changes -->
+    <Row Tag="LOC_BUILDING_MONUMENT_EXPANSION1_DESCRIPTION">
+      <Text>यह शहर प्रति टर्न +1 वफादारी प्रदान करता है। यदि शहर के पास पहले से ही अधिकतम वफादारी होती है, तो एक अतिरिक्त +1 [ICON_Culture] संस्कृति भी प्रदान करता है।</Text>
+    </Row>
+  </EnglishText>
+</GameData>

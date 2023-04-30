@@ -1,0 +1,946 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Buildings-->
+    <Row Tag="LOC_BUILDING_SCENARIO_LIGHTHOUSE_DESCRIPTION">
+      <Text>+1 [ICON_FOOD] इस शहर के सभी तट टाइलों पर खाद्य।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_TEMPLE_DESCRIPTION">
+      <Text>धार्मिक इकाइयों को यहाँ प्रशिक्षित करने से एक अतिरिक्त पदोन्नति प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_SHIPYARD_DESCRIPTION">
+      <Text>हार्बर जिले के सम्पर्क बोनस के बराबर बोनस [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_MOSQUE_DESCRIPTION">
+      <Text>यहाँ निर्मित मिशनरी और मंक इकाइयों के पास +1 फैलाव होता है।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_PAGODA_DESCRIPTION">
+      <Text>यहाँ बनाए गए पुजारी इकाईयों में +1 हेरेसी हटाने और गुरु इकाइयों के लिए +1 हील चार्ज होता है।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_MAHABODHI_TEMPLE_DESCRIPTION">
+      <Text>समाप्त करने पर एकाधिक मुक्त सिविक दो रंडम चुने जाते हैं। सभी नए प्रशिक्षित मिशनरी और मंक इकाइयों को +1 फैलाव मिलता है। [NEWLINE][NEWLINE]वुड्स या रेनफोरेस्ट पर बनाया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_ANGKOR_WAT_DESCRIPTION">
+      <Text>जब यह आश्चर्य निर्मित होता है तब सभी मौजूदा शहरों में +3 [ICON_ENVOY] दूत और +1 [ICON_Citizen] आबादी प्राप्त होती है। सभी शहरों में +1 [ICON_Housing] आवास। [NEWLINE][NEWLINE]एक नहर जिले के आसपास बनाया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_POTALA_PALACE_DESCRIPTION">
+      <Text>+1 वाइल्डकार्ड नीति स्लॉट[NEWLINE][NEWLINE]हिल पर बनाया जाना चाहिए।</Text>
+    </Row>
+    <!-- China-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KAIFENG">
+      <Text>काइफंग</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LINAN">
+      <Text>लिनान</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_QUANZHOU">
+      <Text>क्वांज़शो।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CHONGQING">
+      <Text>चोंगकिंग</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_CHANGAN">
+      <Text>चंगान</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PANYU">
+      <Text>पान्यू (Panyu)</Text>
+    </Row>
+    <!-- Chola-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ANURADHAPURA">
+      <Text>अनुराधपुरा</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VENGI">
+      <Text>Vengi</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BANAVASI">
+      <Text>बनावसी</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KADARAM">
+      <Text>Kadaram</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PEGU">
+      <Text>पेगू</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MA_NAKKAVARAM">
+      <Text>मा-नक्कावरम</Text>
+    </Row>
+    <!-- Ghaznavid-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GHAZNA">
+      <Text>गज़ना</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAHORE">
+      <Text>लाहौर</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BALKH">
+      <Text>बल्ख</Text>
+    </Row>
+    <!-- Pala-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BIKRAMPUR">
+      <Text>बिक्रमपुर</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PATALIPUTRA">
+      <Text>पाटलिपुत्र</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KANNAUJ">
+      <Text>कन्नौज</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DURJAYA">
+      <Text>दुर्जया</Text>
+    </Row>
+    <!-- Tufan-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LHASA">
+      <Text>ल्हासा</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_QAMDO">
+      <Text>कामडो</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BURANG">
+      <Text>बुरांग</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_XINING">
+      <Text>शिनिंग</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NAGQU">
+      <Text>नाग्कु</Text>
+    </Row>
+    <!-- City States-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DALI">
+      <Text>डाली</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DALI_DESCRIPTION">
+      <Text>डाली सिटी-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DELHI">
+      <Text>दिल्ली</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DELHI_DESCRIPTION">
+      <Text>दिल्ली शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GAOCHANG">
+      <Text>गाओचांग</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GAOCHANG_DESCRIPTION">
+      <Text>गावचांग शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_GOA">
+      <Text>गोवा</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_GOA_DESCRIPTION">
+      <Text>गोवा राज्य-राजधानी।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_HEIAN">
+      <Text>हेइयान</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HEIAN_DESCRIPTION">
+      <Text>हेइअन सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KAESONG">
+      <Text>केसोंग</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KAESONG_DESCRIPTION">
+      <Text>केसोंग शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KASHGAR">
+      <Text>काश्गर</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KASHGAR_DESCRIPTION">
+      <Text>काशगर शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KHOTAN">
+      <Text>खोटान</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KHOTAN_DESCRIPTION">
+      <Text>खोतान नगर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KUCHA">
+      <Text>Kucha</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KUCHA_DESCRIPTION">
+      <Text>कूचा शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAMPHUN">
+      <Text>लम्फून</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LAMPHUN_DESCRIPTION">
+      <Text>लम्फुन शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_LAMURI">
+      <Text>Lamuri</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LAMURI_DESCRIPTION">
+      <Text>लामुरी शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_MALABANG">
+      <Text>मालाबांग</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MALABANG_DESCRIPTION">
+      <Text>मालाबांग शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PAGAN">
+      <Text>पेगन</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PAGAN_DESCRIPTION">
+      <Text>पैगन शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PALEMBANG_DESCRIPTION">
+      <Text>पालेमबंग शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SAMARKAND">
+      <Text>समरकंद</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SAMARKAND_DESCRIPTION">
+      <Text>समरकंद शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SOMNATH">
+      <Text>सोमनाथ</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SOMNATH_DESCRIPTION">
+      <Text>सोमनाथ शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_THANG_LONG">
+      <Text>थांग लोंग</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THANG_LONG_DESCRIPTION">
+      <Text>थांग लोंग सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TEMASEK">
+      <Text>टेमासेक</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TEMASEK_DESCRIPTION">
+      <Text>टेमासेक सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TONDO">
+      <Text>Tondo</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TONDO_DESCRIPTION">
+      <Text>टोंडो शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_TURPAN">
+      <Text>टुर्पान</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_TURPAN_DESCRIPTION">
+      <Text>तुर्पान शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_UJJAIN">
+      <Text>उज्जैन</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_UJJAIN_DESCRIPTION">
+      <Text>उज्जैन शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_VIJAYA">
+      <Text>Vijaya</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_VIJAYA_DESCRIPTION">
+      <Text>विजया शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_XINGQING">
+      <Text>क्षमता या ऊर्जा</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_XINGQING_DESCRIPTION">
+      <Text>क्षिंग्कींग सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ZHONGJING">
+      <Text>जोंगजिंग</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ZHONGJING_DESCRIPTION">
+      <Text>जोंगजिंग शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CITYSTATES_PAGEGROUP_SCENARIO_MARITIME_NAME">
+      <Text>समुद्री (Samudri)</Text>
+    </Row>
+    <!-- City States Traits-->
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TRADE_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] इकाइयों का उत्पादन [ICON_Capital] राजधानी में करते समय।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>यूनिट उत्पादन के समय हर कमर्शियल हब जिले में +2 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>यूनिट उत्पादित करते समय हर वाणिज्यिक हब जिले में अतिरिक्त +2 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_CULTURAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_CULTURE] राजधानी में संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_CULTURE] हर सिटी सेंटर जिले में संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>हर सिटी सेंटर जिले में अतिरिक्त +2 [ICON_CULTURE] संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_NAME">
+      <Text>समुद्री नगर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_FOOD] राजधानी [ICON_Capital] में खाना।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_FOOD] हार्बर क्षेत्र में हर जगह खाने की व्यवस्था है।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>हर बंदरगाह में अतिरिक्त +2 [ICON_FOOD] खाद्य पदार्थ।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_INDUSTRIAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS}
+
+(THESE PHRASES ARE NOT TRANSLATABLE AS THEY APPEAR TO BE VARIABLES IN A SOFTWARE PROGRAM)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Production] अद्भुत विलास, इमारतें और जिलों का उत्पादन करते समय [ICON_Capital] राजधानी में।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>विस्मयाकारक, भव्य, तथा जगत्था के निर्माण के समय हर एक ऍक्वडक्ट जिले में +2 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>विस्मयकारी, भव्य और जगमगाती इमारतें तैयार करते समय प्रत्येक एक्वेडक्ट ज़िले में अतिरिक्त +2 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DALI_TRAIT_NAME">
+      <Text>डाली सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DELHI_TRAIT_NAME">
+      <Text>दिल्ली सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GAOCHANG_TRAIT_NAME">
+      <Text>गाओचांग सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GOA_TRAIT_NAME">
+      <Text>गोवा सुज़ेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_HEIAN_TRAIT_NAME">
+      <Text>हेइयन सूजरैन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KAESONG_TRAIT_NAME">
+      <Text>केसोंग सुज़ेरैन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KASHGAR_TRAIT_NAME">
+      <Text>काशगर सुज़ेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KHOTAN_TRAIT_NAME">
+      <Text>खोतान सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KUCHA_TRAIT_NAME">
+      <Text>कुछ सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMPHUN_TRAIT_NAME">
+      <Text>लम्फून सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMURI_TRAIT_NAME">
+      <Text>लामुरी सुज़ेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MALABANG_TRAIT_NAME">
+      <Text>मलाबंग सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PAGAN_TRAIT_NAME">
+      <Text>पेगन सुज़ेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PALEMBANG_TRAIT_NAME">
+      <Text>पालेमबांग सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SAMARKAND_TRAIT_NAME">
+      <Text>समरकंद सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SOMNATH_TRAIT_NAME">
+      <Text>सोमनाथ सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_THANG_LONG_TRAIT_NAME">
+      <Text>थांग लॉंग सूजरैन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TEMASEK_TRAIT_NAME">
+      <Text>टेमासेक सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TONDO_TRAIT_NAME">
+      <Text>तोंदो सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TURPAN_TRAIT_NAME">
+      <Text>तुर्पान सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_UJJAIN_TRAIT_NAME">
+      <Text>उज्जैन सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_VIJAYA_TRAIT_NAME">
+      <Text>विजय सुजेरेन बोनस (Vijaya Suzerain Bonus)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_XINGQING_TRAIT_NAME">
+      <Text>शिंग्किंग सूजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_ZHONGJING_TRAIT_NAME">
+      <Text>जोंगजिंग सूजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_BANDAR_BRUNEI_TRAIT_DESCRIPTION">
+      <Text>आपके जिले के तट टाइल पर या इसके पास [ICON_FAITH] धर्म का +2 प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DALI_TRAIT_DESCRIPTION">
+      <Text>+1 वाणिज्यिक हब जिले के शहरों में [ICON_Amenities] सुविधा।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_DELHI_TRAIT_DESCRIPTION">
+      <Text>आपके [ICON_TradeRoute] व्यापार मार्ग किसी भी नगर राज्य के लिए मूल शहर में हर विशेषता जिले के लिए +2 [ICON_FAITH] धर्म प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GAOCHANG_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] व्यावसायिक हब जिले के शहरों में सुविधा।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_GOA_TRAIT_DESCRIPTION">
+      <Text>आपके जिले समुद्र तट टाइल पर या उनके पास +2 [ICON_FAITH] धर्म प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_HEIAN_TRAIT_DESCRIPTION">
+      <Text>आपके जिले समुद्र तट टाइल पर या नेक्स्ट टू समुद्र तट टाइल पर  +2 [ICON_FAITH] धर्म प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KAESONG_TRAIT_DESCRIPTION">
+      <Text>आपके [ICON_TradeRoute] वाणिज्य मार्ग किसी भी शहर-राज्य के लिए उत्पादन शहर में प्रत्येक विशेषता जिले के लिए +2 [ICON_FAITH] धर्म उपलब्ध कराते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KASHGAR_TRAIT_DESCRIPTION">
+      <Text>आपके [ICON_TradeRoute] विदेशी शहरों के व्यापार रास्ते गंतव्य स्थान पर प्रत्येक सुविधा संसाधन के लिए +1 [ICON_FAITH] धर्म कमाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KHOTAN_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] शहरों में वाणिज्यिक हब जिले के साथ सुविधा।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_KUCHA_TRAIT_DESCRIPTION">
+      <Text>आपके विदेशी शहरों में [ICON_TradingPost] व्यापारिक स्थानों का उपयोग करते हुए आपके [ICON_TradeRoute] व्यापार मार्गों को जो शहर से गुजरते हैं या जिस शहर की ओर जाते हैं, उन्हें +1 [ICON_CULTURE] संस्कृति प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMPHUN_TRAIT_DESCRIPTION">
+      <Text>आपके बोनस संसाधन लक्जरी संसाधन की तरह व्यवहार करते हैं, प्रति प्रकार 1 [ICON_Amenities] सुविधा प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_LAMURI_TRAIT_DESCRIPTION">
+      <Text>आपकी [ICON_TradeRoute] व्यापार मार्गों के लिए किसी भी शहर राज्य को, मूल शहर में प्रत्येक विशेष जिले के लिए +2 [ICON_FAITH] धर्म प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_MALABANG_TRAIT_DESCRIPTION">
+      <Text>आपके [ICON_TradeRoute] व्यापार मार्ग किसी भी शहर-राज्य के लिए आवंटित करने पर मूल शहर में हर विशेषता जोन के लिए +2 [ICON_FAITH] धर्म की प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PAGAN_TRAIT_DESCRIPTION">
+      <Text>आपके [ICON_TradeRoute] वाणिज्य मार्ग किसी भी नगर-राज्य को +2 [ICON_FAITH] धर्म के साथ प्रदान करते हैं जो मूल शहर में विशेषता जिलों के लिए होता है।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_PALEMBANG_TRAIT_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] शहर में वाणिज्यिक हब जिले के साथ सुविधा।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SAMARKAND_TRAIT_DESCRIPTION">
+      <Text>[ICON_Amenities] कमर्शियल हब जिले के शहरों में आरामदायक सुविधा।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_SOMNATH_TRAIT_DESCRIPTION">
+      <Text>आपके [ICON_TradeRoute] व्यापार मार्ग किसी भी शहर-राज्य के लिए मूल शहर में हर विशेषता ज़ोन के लिए +2 [ICON_FAITH] धर्म प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_THANG_LONG_TRAIT_DESCRIPTION">
+      <Text>आपके जिले समुद्र तट टाइल पर या उसके आसपास +2 [ICON_FAITH] धर्म प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TEMASEK_TRAIT_DESCRIPTION">
+      <Text>आपके बोनस संसाधन लगभग लक्जरी संसाधनों की तरह व्यवहार करते हैं, प्रति प्रकार 1 [ICON_Amenities] सुविधा प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TONDO_TRAIT_DESCRIPTION">
+      <Text>आपके क्षेत्रों में से जो किनारे के टाइल पर होंगे उनसे +2 [ICON_FAITH] धर्म मिलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_TURPAN_TRAIT_DESCRIPTION">
+      <Text>आपके [ICON_TradeRoute] व्यापार मार्ग किसी भी नगर राज्य के लिए उत्पादक शहर में हर विशेषता जिले के लिए +2 [ICON_FAITH] धर्म प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_UJJAIN_TRAIT_DESCRIPTION">
+      <Text>आपके बोनस संसाधन विलासित संसाधन की तरह व्यवहार करते हैं और प्रति प्रकार 1 [ICON_Amenities] सुविधा प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_VIJAYA_TRAIT_DESCRIPTION">
+      <Text>आपकी [ICON_TradeRoute] शहर राज्य की लेन-देन मार्गों से मूल शहर में प्रत्येक विशेषता जोन के लिए +2 [ICON_FAITH] धर्म उपलब्ध कराती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_XINGQING_TRAIT_DESCRIPTION">
+      <Text>आपके बोनस संसाधन लगाम संसाधन की तरह आच्छादित संसाधन की तरह काम करते हैं, प्रति प्रकार 1 [ICON_Amenities] सुविधा प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCENARIO_ZHONGJING_TRAIT_DESCRIPTION">
+      <Text>आपकी विदेशी शहरों में स्थित [ICON_TradingPost] व्यापारिक ढांचे आपके [ICON_TradeRoute] व्यापार मार्गों के लिए शहर से गुजरते हुए या शहर तक जाने वाले मार्गों पर +1 [ICON_CULTURE] संस्कृति प्रदान करते हैं।</Text>
+    </Row>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_SCENARIO_PAPERMAKING_NAME">
+      <Text>कागज़ बनाना</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_PRINTING">
+      <Text>लॉग दस्तावेजों को कागज़ में बदलते हैं। कागज़ के पन्नों से पुस्तकें तैयार होती हैं। पुस्तकें लोगों की सोच में जाती हैं। लोगों की सोच उनकी आत्माओं तक पहुँचती है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_COMPASS_NAME">
+      <Text>कंपास</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_CELESTIAL_NAVIGATION_DESCRIPTION">
+      <Text>+2 [ICON_Movement] उतरते हुए इकाइयों के लिए गति।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_FUTURE_CIVIC_DESCRIPTION">
+      <Text>इसे अनेक बार पूरा किया जा सकता है, जो आपके [ICON_Envoy] सूत्रधारों को बढ़ाता है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_GUILDS">
+      <Text>जैसे हमारे शहर फलते-फूलते हैं, उसी तरह समान सोच वाले लोग समृद्धि में एक साथ आते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_ENGINEERING">
+      <Text>3 मंदिर बनाओ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_ENGINEERING">
+      <Text>एक मानक क्यूबिट धर्मनिरपेक्ष दुनिया में भी महत्व रखता है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_THEOLOGY">
+      <Text>तीन मिशनरी अपने हों।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_THEOLOGY">
+      <Text>हम मिशनरियों को भेजते हैं, हम धार्मिक विश्वास की आवश्यकता पाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_MACHINERY">
+      <Text>2 एक्वेडक्ट बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_MACHINERY">
+      <Text>"हमारे इंजीनियर्स कहते हैं कि एक जल चक्र की कल्पना करें," लेकिन लगभग कुछ भी चलाने के लिए!"</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_FEUDALISM">
+      <Text>14 जनसँख्या तक एक शहर को विकसित करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_FEUDALISM">
+      <Text>हमारे शहर बहुतायतों से भरे हुए हैं। चलो हम राजाओं से लेकर आम जनता तक के दायित्व को नियमित करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_PAPERMAKING">
+      <Text>3 [ICON_TradeRoute] व्यापार मार्ग बनाए रखें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_PAPERMAKING">
+      <Text>क्या कारवां रिकॉर्ड रखने का कोई बेहतर तरीका नहीं है, जो मिट्टी के ढेर पर लिखने से अलग हो?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_CIVIL_SERVICE">
+      <Text>एक समय पर 3 शहर-राज्यों के सुज़ेरेन बनें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_CIVIL_SERVICE">
+      <Text>यदि आप अपने नियुक्तियों को एक गुप्त सचिव सेना को अंतर्गत हस्तांतरित कर सकते तो क्या होगा?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_BANKING">
+      <Text>तीन मार्केट बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_BANKING">
+      <Text>स्वर्ग का मार्ग सोने से भी बेहतर हो सकता है, लेकिन सोना भी लगभग बहुत महत्वपूर्ण है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_COMPASS">
+      <Text>तीन लाइटहाउस बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_COMPASS">
+      <Text>एक समुद्री यात्री स्वर्ग के एक अदृश्य लाइटहाउस के मार्गदर्शन में बहराइ बनता है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_DIVINE_RIGHT">
+      <Text>अपने धर्म का अनुसरण करने वाले 15 शहरों को होने दीजिए।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCENARIO_LONGDESC_DIVINE_RIGHT">
+      <Text>तुम्हारे विश्वास की सही होने का कोई बेहतर सबूत क्या हो सकता है जब इतने सारे लोग तुम्हारे सामने खड़े हैं?</Text>
+    </Row>
+    <!-- Districts-->
+    <Row Tag="LOC_DISTRICT_SCENARIO_RIVER_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] पास की नदी से संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_HARBOR_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] उपयुक्त हार्बर जिले से संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_CITY_CENTER_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] पड़ोसी सिटी सेंटर जिले से संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_DISTRICT_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] पड़ोसी {1_Num : plural 1?जिले से; other?जिलों से;} की संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCENARIO_SEARESOURCE_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] पड़ोस की समुद्री संस्कृति {1_Num : plural 1?संसाधन; other?संसाधन;}।</Text>
+    </Row>
+    <!-- Governments-->
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_MONARCHY_DESCRIPTION">
+      <Text>राजधानी को +3 [ICON_FAITH] धर्म, +1 [ICON_CULTURE] संस्कृति, +1 [ICON_PRODUCTION] उत्पादन, और +1 [ICON_FOOD] खाद्य का उत्पादन मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_SCENARIO_THALASSOCRACY_NAME">
+      <Text>तलस्सोक्रेसी (Thalassocracy)</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_THALASSOCRACY_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] प्रत्येक मछली पकड़ने वाली नाव के लिए विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_SCENARIO_THEOCRACY_DESCRIPTION">
+      <Text>सभी धार्मिक इकाइयों को शहीद की क्षमता प्राप्त होती है जो धार्मिक युद्ध में इस इकाई की मृत्यु होने पर एक [ICON_GreatWork_Relic] समान की प्राप्ति करती है।</Text>
+    </Row>
+    <!-- Improvements-->
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_CAMP_DESCRIPTION">
+      <Text>बिल्डर क्षमता को कैंप निर्मित करने के लिए अनलॉक करता है। [NEWLINE] [NEWLINE] +1 [ICON_FOOD] भोजन। केवल वैध संसाधनों पर बनाया जा सकता है। [NEWLINE] [NEWLINE] यदि लक्जरी संसाधनों पर बनाया जाता है, तो शहर को उस संसाधन का उपयोग होगा।</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_MINE_DESCRIPTION">
+      <Text>निर्माता क्षमता कोखद बनाने के लिए खोद में सक्षम हो जाता है। [NEWLINE] [NEWLINE] +1 [ICON_Production] उत्पादन। -1 आकर्षण। पहाड़ों या मान्य संसाधनों पर बनाया जा सकता है। [NEWLINE] [NEWLINE] लक्जरी संसाधनों पर बनाया जाने पर, शहर को उस संसाधन का उपयोग हासिल होगा।</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_PASTURE_DESCRIPTION">
+      <Text>बिल्डर क्षमता को खोलता है जो चरागाह बनाने की क्षमता होती है। [NEWLINE] [NEWLINE] +1 [ICON_Production] उत्पादन। केवल वैध संसाधनों पर बनाया जा सकता है। [NEWLINE] [NEWLINE] यदि इसे रत्न श्रृंखला पर बनाया जाता है, तो शहर को उस संसाधन का उपयोग मिलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_PLANTATION_DESCRIPTION">
+      <Text>निर्माणकर्ता क्षमता को खोलता है जो बागानों का निर्माण करता है। [NEWLINE][NEWLINE]+1 [ICON_FOOD] भोजन। केवल मान्य संसाधनों पर बनाया जा सकता है। [NEWLINE][NEWLINE]यदि लक्जरी संसाधनों पर बनाया जाता है, तो शहर का उस संसाधन का उपयोग होगा।</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_SCENARIO_KAMPUNG_DESCRIPTION">
+      <Text>बिल्डर को एक कम्पंग निर्मित करने की क्षमता मिलती है। [NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] उत्पादन और +1 [ICON_Housing] आवास। प्रत्येक आसन्न मछली नाव के लिए +1 [ICON_FOOD] खाद्य। समुद्री संसाधन के पास की ओर समुद्र या झील की टाइल पर रखना होगा।</Text>
+    </Row>
+    <!-- Policies-->
+    <Row Tag="LOC_POLICY_SCENARIO_URBAN_PLANNING_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] सभी शहरों में विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CARAVANSARIES_DESCRIPTION">
+      <Text>+1 [ICON_TradeRoute] अंतरराष्ट्रीय [ICON_FAITH] धर्म।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_NOBLE_PATH_NAME">
+      <Text>उच्च पथ (Uchch Path)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_NOBLE_PATH_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] घरेलू [ICON_TradeRoute] व्यापार मार्गों से धर्म।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CORVEE_DESCRIPTION">
+      <Text>[ICON_Production] विस्मयकारियों की ओर +15% उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_DEVOTION_NAME">
+      <Text>भक्ति (Bhakti)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_DEVOTION_DESCRIPTION">
+      <Text>धार्मिक इकाइयों के प्रति [ICON_Production] 25% उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_RAJ_DESCRIPTION">
+      <Text>आपके शासन के अंतर्गत हर शहर-राज्य से [ICON_Faith] धर्म।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MERITOCRACY_DESCRIPTION">
+      <Text>प्रत्येक शहर जो विशेषता जिला निर्माण करता है, उसे +1 [ICON_FAITH] धर्म का प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_MERCHANT_CONFEDERATION_DESCRIPTION">
+      <Text>+1 [ICON_FAITH] प्रत्येक शहर राज्य के [ICON_Envoy] दूतों से विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_CHARITY_NAME">
+      <Text>दान देना (Daan dena)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_QUECHANG_NAME">
+      <Text>Quechang</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_QUECHANG_DESCRIPTION">
+      <Text>वाणिज्यक केंद्र जिले के भवनों से [ICON_PRODUCTION] उत्पादन उत्पन्नता में +100%।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_TRADE_CONFEDERATION_DESCRIPTION">
+      <Text>+3 [ICON_TradeRoute] सभी व्यापार मार्गों से [ICON_FAITH] धर्म।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_JUNK_NAME">
+      <Text>जुंक</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_JUNK_DESCRIPTION">
+      <Text>हार्बर जिले के भवनों से डबल [ICON_FOOD] खाद्य और [ICON_PRODUCTION] उत्पादन उत्पन्न होता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCENARIO_FESTIVALS_NAME">
+      <Text>त्योहारों</Text>
+    </Row>
+    <!-- Projects-->
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_HARBOR_DESCRIPTION">
+      <Text>जिला-आधारित परियोजना जो हर बार [ICON_CULTURE] संस्कृति प्रदान करती है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_COMMERCIAL_HUB_DESCRIPTION">
+      <Text>जिला-आधारित परियोजना जो हर बार [ICON_CULTURE] संस्कृति प्रदान करती है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SCENARIO_ENHANCE_DISTRICT_HOLY_SITE_DESCRIPTION">
+      <Text>जिला-आधारित परियोजना जो प्रति बार बड़ी मात्रा में [ICON_FAITH] धर्म का प्रदान करती है।</Text>
+    </Row>
+    <!-- Religion-->
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM1_NAME">
+      <Text>शैववाद (Shivaism)</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM2_NAME">
+      <Text>हिंदू धर्म</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM3_NAME">
+      <Text>थेरवाद बौद्ध धर्म</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM4_NAME">
+      <Text>महायान बौद्ध धर्म</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SCENARIO_CUSTOM5_NAME">
+      <Text>वज्रयान धर्म (Vajrayana Buddhism)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_GOD_OF_THE_OPEN_SKY_DESCRIPTION">
+      <Text>+2 [ICON_FOOD] चरागाह से खाद्य.</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_STONE_CIRCLES_DESCRIPTION">
+      <Text>कुआँ से +2 [ICON_Faith] धर्म और +2 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_DANA_NAME">
+      <Text>दान</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_DANA_DESCRIPTION">
+      <Text>खलिहानों के प्रत्येक एक +3 [ICON_FAITH] धर्म का आदान प्रदान करते हैं। प्रत्येक शहर को +1 [ICON_Amenities] सुविधा प्रदान की जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_NUSANTARA_DESCRIPTION">
+      <Text>कोस्ट और लेक टाइल होली साइट डिस्ट्रिक्ट के लिए एक मामूली एडजेसेंसी बोनस प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_LINGA_NAME">
+      <Text>लिंग</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_LINGA_DESCRIPTION">
+      <Text>[ICON_Faith] विश्वास के साथ वाणिज्य केंद्र और बंदरगाह क्षेत्र के भवनों को खरीद सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_VAJRAYANA_STUPA_NAME">
+      <Text>वज्रयान स्तूप</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_VAJRAYANA_STUPA_DESCRIPTION">
+      <Text>प्रिंटिंग से खुला स्तूपों (+3 [ICON_Faith] श्रद्धा, +1 [ICON_Amenities] सुविधा) का निर्माण करने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MAHAYANA_STUPA_NAME">
+      <Text>महायाना स्तूप</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MAHAYANA_STUPA_DESCRIPTION">
+      <Text>स्तूप का निर्माण अनुमति देता है (+3 [ICON_Faith] श्रद्धा, +1 [ICON_Amenities] सुविधा)। प्रिंटिंग के साथ अनलॉक किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_STEWARDSHIP_DESCRIPTION">
+      <Text>इस धर्म का पालन करने वाले शहर में प्रत्येक वाणिज्य केन्द्र या बंदरगाह जोड़े गए [ICON_FAITH] धर्म के लिए +1 धर्म प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_KAMPUNG_DESCRIPTION">
+      <Text>आपके बिल्डर अब कंपुंग में सुधार कर सकते हैं। गिल्ड्स के साथ अनलॉक हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_MOSQUE_DESCRIPTION">
+      <Text>मस्जिदों के निर्माण की अनुमति देता है (+3 [ICON_Faith] धर्म). मिशनरी और मंक इकाइयों को +1 फैलाव मिलता है। प्रिंटिंग के साथ अनलॉक किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_PAGODA_DESCRIPTION">
+      <Text>पगोड़ों का निर्माण अनुमति देता है (+3 [ICON_Faith] धर्म). पुजारी इकाइयों को +1 हटाएँ अधर्म और गुरु +1 चार्ज हील करें। प्रिंटिंग के साथ खुला है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_WAT_DESCRIPTION">
+      <Text>वाट निर्माण की अनुमति देता है (+3 [ICON_Faith] धर्म, +1 [ICON_Housing] आवास)। प्रिंटिंग के साथ अनलॉक होता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_HOLY_ORDER_DESCRIPTION">
+      <Text>मिशनरी और संन्यासी खरीदने के लिए 30% सस्ते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_YOGA_NAME">
+      <Text>योग</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCENARIO_YOGA_DESCRIPTION">
+      <Text>[ICON_Faith] विश्वास के साथ नागरिक इकाइयों को खरीद सकते हैं।</Text>
+    </Row>
+    <!-- Route-->
+    <Row Tag="LOC_ROUTE_SCENARIO_ANCIENT_ROAD_DESCRIPTION">
+      <Text>स्थित विधिवत स्थापित किया गया। [ICON_Movement] एकाधिकार से यह सुनिश्चित करता है कि कोई विकल्प जोड़ते समय किसी इकाई की गति वेग को बढ़ाता है जो एक सड़क टाइल से दूसरे टाइल पर चल रही हो।</Text>
+    </Row>
+    <Row Tag="LOC_ROUTE_SCENARIO_MEDIEVAL_ROAD_DESCRIPTION">
+      <Text>स्थित विषय के शुरुआत में रखा गया। [ICON_Movement] किसी भी इकाई की गति को बेहतर बनाता है जो एक सड़क टाइल से दूसरे टाइल पर चल रहा हो।</Text>
+    </Row>
+    <!-- Scoring-->
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FOLLOWERS_NAME">
+      <Text>अनुयायी धर्म पर आधारित परस्पर का पालन करना।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FOREIGN_CITIES_NAME">
+      <Text>धर्म का अनुसरण करने वाले विदेशी शहरों</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_CATEGORY_SCENARIO_FAITH_NAME">
+      <Text>धार्मिक विश्वास प्रति बदलें। (Dharmik vishwas prati badle)</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_1">
+      <Text>विशेष परिदृश्य नियम:</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_2">
+      <Text>कोई प्रौद्योगिकी पेड़, सोना, राजनीति, पर्यटन या विज्ञान नहीं है। संस्कृति सीमाएँ स्थायी हैं। सुविधाएँ हटाई नहीं जा सकती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_3">
+      <Text>सभी धार्मिक इकाइयां 1 प्रमोशन के साथ शुरू होती हैं और ट्रेन की जा सकती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_4">
+      <Text>केवल एक सिटी-स्टेट सुजेरिन बोनस हर सिटी-स्टेट प्रकार के अतिरिक्त उपज या [ICON_Amenities] सुविधाओं को जोड़ता है।</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_5">
+      <Text>व्यापारियों ने सड़कें नहीं बनाईं।</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_6">
+      <Text>अंक प्राप्त होते हैं से:</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_7">
+      <Text>आपके धर्म के अनुयायियों की संख्या: {1_Followers} {1_Followers: plural 1?एक; other?Points;} इस धर्म के प्रत्येक अनुयायी के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_8">
+      <Text>विदेशी शहर: {2_Cities} इस धर्म का पालन करने वाले सभी विदेशी शहरों के लिए {2_Cities : plural 1?बिंदु; other?बिंदु;}।</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_9">
+      <Text>विश्वास: प्रत्येक [ICON_TURN] टर्न के लिए {1_Faith} {2_Faith: बहुवचन 1?बिंदु; अन्य? बिंदु;} [ICON_FAITH] धर्म के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_WORLD_RANKING_10">
+      <Text>जब आप किसी सिटी-स्टेट के पास एक [ICON_ENVOY] प्रतिनिधि भेजते हैं तो उस सिटी-स्टेट के लिए 300 धार्मिक दबाव जोड़ा जाता है।</Text>
+    </Row>
+    <!-- Slots-->
+    <Row Tag="LOC_SLOT_SCENARIO_RELIGIOUS_NAME">
+      <Text>धार्मिक</Text>
+    </Row>
+    <!-- Units-->
+    <Row Tag="LOC_UNIT_SCENARIO_BUILDER_DESCRIPTION">
+      <Text>टाइल सुधार बनाया जा सकता है या कुछ संसाधनों को काटा जा सकता है। बिल्डर 3 बार इस्तेमाल किए जा सकते हैं। इसे नीतियों के माध्यम से बढ़ाया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_TRADER_DESCRIPTION">
+      <Text>एक [ICON_TradeRoute] व्यापार मार्ग बना और बनाएं रख सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_PRIEST_NAME">
+      <Text>पुजारी</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCENARIO_MONK_NAME">
+      <Text>संन्यासी</Text>
+    </Row>
+    <Row Tag="LOC_UI_RELIGION_PRIEST_TT">
+      <Text>पुजारियों को अपने क्षेत्र में अन्य धर्मों की उपस्थिति को हटा सकते हुए, और अन्य धर्मों की इकाइयों के साथ धार्मिक युद्ध शुरू कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UI_RELIGION_MONK_TT">
+      <Text>संन्यासी अपने धर्म में [ICON_Citizen] नागरिकों को परिवर्तित कर सकते हैं और अन्य धर्मों की इकाइयों के साथ धार्मिक युद्ध शुरू कर सकते हैं।</Text>
+    </Row>
+    <!-- Unit Promotion Classes-->
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_MISSIONARY_NAME">
+      <Text>धार्मिक मिशनरी</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_PRIEST_NAME">
+      <Text>धार्मिक पादरी</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_MONK_NAME">
+      <Text>धार्मिक संन्यासी</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SCENARIO_GURU_NAME">
+      <Text>धार्मिक गुरु</Text>
+    </Row>
+    <!-- Unit Promotions-->
+    <Row Tag="LOC_PROMOTION_SCENARIO_WALK_ON_WATER_NAME">
+      <Text>पानी पर चलना</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_WALK_ON_WATER_DESCRIPTION">
+      <Text>समुद्र या नदी से चलते समय [ICON_Movement] आंदोलन के लिए कोई जुर्माना नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TRAVELER_NAME">
+      <Text>यात्री</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TRAVELER_DESCRIPTION">
+      <Text>जंगल, वर्षा वन, पहाड़ या दलदल में तेज़ [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PROPAGATOR_NAME">
+      <Text>प्रचारक (Pracharak)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PROPAGATOR_DESCRIPTION">
+      <Text>+2 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PRACTITIONER_NAME">
+      <Text>व्यावसायिक/व्यावसायिकी</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_PRACTITIONER_DESCRIPTION">
+      <Text>विदेशी क्षेत्र में धार्मिक युद्ध में [ICON_Religion] धार्मिक शक्ति में +10।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GARRISON_DESCRIPTION">
+      <Text>जब जगह कब्ज़ा करते हुए थिएलोजिकल युद्ध में, धार्मिक ताकत में +10 [ICON_Religion]।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ORATOR_DESCRIPTION">
+      <Text>धर्मविरोधी को दो बार अधिक हटा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ALCHEMIST_NAME">
+      <Text>रसायनविद्।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_ALCHEMIST_DESCRIPTION">
+      <Text>वन, वर्षावन, पहाड़ या दलदल में रक्षा करते समय धार्मिक युद्ध में +7 [ICON_Religion] धार्मिक शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_INTERPRETER_NAME">
+      <Text>अनुवादक</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_INTERPRETER_DESCRIPTION">
+      <Text>यदि यह इकाई आपके धर्म को पहली बार एक शहर में परिवर्तित करती है तो 75 [ICON_FAITH] विश्वास प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SANGHA_NAME">
+      <Text>संघ (Sangha)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SANGHA_DESCRIPTION">
+      <Text>2 बाँयी और दायी समर्थन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GUIDE_NAME">
+      <Text>पथ प्रदर्शक</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_GUIDE_DESCRIPTION">
+      <Text>+1 [ICON_Movement] प्रतिबंधित क्षेत्र में अध्यात्मिक इकाइयों की शुरुआत में चलना 2 टाइल के भीतर।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SAGE_NAME">
+      <Text>रिषि</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_SAGE_DESCRIPTION">
+      <Text>+10 [ICON_Religion] धार्मिक शक्ति धार्मिक इकाइयों के धर्मान्तरण में, जो 2 टाइल के भीतर हों।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TEACHER_NAME">
+      <Text>शिक्षक (Shikshak)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_TEACHER_DESCRIPTION">
+      <Text>यह यूनिट एक मेडिक के रूप में कार्य करता है, जो 1 टाइल के भीतर इकाइयों को अतिरिक्त उपचार प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_MASTER_NAME">
+      <Text>मास्टर (maastar)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCENARIO_MASTER_DESCRIPTION">
+      <Text>+1 चिकित्सा शुल्क।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_SAGE_COMBAT_STRENGTH_AOE_RELIGIOUS_MODIFIER">
+      <Text>गुरु यूनिट के सेज प्रमोशन से धार्मिक युद्ध में [ICON_Religion] धार्मिक बल में +10 जोड़ा जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_SAGE_COMBAT_STRENGTH_AOE_RELIGIOUS">
+      <Text>[ICON_Religion] धार्मिक इच्छाशक्ति, आस्थावादी इकाईओं के धार्मिक युद्ध में 2 टाइल के भीतर।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_GUIDE_MOVEMENT_AOE_RELIGIOUS">
+      <Text>+1 [ICON_Movement] प्रत्येक टर्न की शुरुआत में 2 टाइल्स के भीतर धार्मिक इकाइयों के लिए आंदोलन।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATES_SCENARIO_TYPE_MARITIME">
+      <Text>समुद्री (samudri)</Text>
+    </Row>
+    <!--Citizen Names-->
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_1">
+      <Text>नोर्बू</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_2">
+      <Text>Phuntsok</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_3">
+      <Text>रबटेन</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_4">
+      <Text>Tashi</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_MALE_5">
+      <Text>वांगचुक</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_1">
+      <Text>दवा</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_2">
+      <Text>Jungney</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_3">
+      <Text>Pema</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_4">
+      <Text>रिन्चेन</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_SCENARIO_TUFAN_FEMALE_5">
+      <Text>Tsering</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_NO_MILITARY_SLOTS">
+      <Text>इस सरकार द्वारा कोई धार्मिक नीति स्लॉट नहीं प्रदान किए जाते।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FILTER_MILITARY">
+      <Text>धार्मिक</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICY_TYPE_MILITARY">
+      <Text>धार्मिक नीतियाँ</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_1_NAME">
+      <Text>अरहंत</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_2_NAME">
+      <Text>अनागामी</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_3_NAME">
+      <Text>सकदागामी</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_4_NAME">
+      <Text>सोतापन्न (Sotāpanna)</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_5_NAME">
+      <Text>पुथुज्जन (Puthujjana)</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_1_QUOTE">
+      <Text>बोध साधा गया।</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_2_QUOTE">
+      <Text>भौतिक दुनिया में वापस नहीं लौटने वाला</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_3_QUOTE">
+      <Text>शारीरिक दुनिया में एक बार वापस लौटने वाला।</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_4_QUOTE">
+      <Text>एक बोधिसत्त्व के मार्ग की ओर एक स्ट्रीम-एंट्रर।</Text>
+    </Row>
+    <Row Tag="LOC_INDONESIAKHMER_SCENARIO_ENDGAME_RANKING_LEADER_5_QUOTE">
+      <Text>एक साधारण व्यक्ति</Text>
+    </Row>
+  </EnglishText>
+</GameData>

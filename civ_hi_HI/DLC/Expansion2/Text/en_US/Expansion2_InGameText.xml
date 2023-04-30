@@ -1,0 +1,2235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OCCUPATION_XP2">
+      <Text>व्यवसाय ([ICON_GRIEVANCE] शहर के संस्थापक के साथ शिकायत)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_REPORTS_FILTER_CLIMATE">
+      <Text>[ICON_GOSSIP_CLIMATE] जलवायु</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_Grievances_XP2">
+      <Text>शहर के संस्थापक से शिकायतें</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_POWERED_CITY">
+      <Text>{1_PowerRequired} [ICON_Power] इस शहर को बेहतर बनाने के लिए बिजली का उपयोग किया जा सकता है, और यह पूरी तरह से बिजली से चल रहा है। [NEWLINE][ICON_Bullet]{2_PowerFromFreeSources} [ICON_Power] स्थानीय उर्जा से बिजली[NEWLINE][ICON_Bullet]{3_PowerFromResources} [ICON_Power] इस टर्न में खपत हुए संसाधनों से बिजली।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_UNPOWERED_CITY">
+      <Text>[ICON_Power] इस शहर को बढ़ावा देने के लिए {1_PowerRequired} ऊर्जा का उपयोग किया जा सकता है, लेकिन यह पूरी तरह से ऊर्जित नहीं है। [ICON_Power] पावर लोड वाली इमारतें या परियोजनाएं अस्थायी रूप से कम प्रभावी होती हैं।[NEWLINE][ICON_Bullet] स्थानीय नवीनीकृत स्रोतों से {2_PowerFromFreeSources} [ICON_Power] ऊर्जा[NEWLINE][ICON_Bullet] इस टर्न में खपत की गई संसाधनों से {3_PowerFromResources} [ICON_Power] ऊर्जा।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_POWERED_CITY_FROM_ACTIVE_PROJECT">
+      <Text>[ICON_Bullet] शहर के सक्रिय परियोजना से [ICON_Power] पूर्ण शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_POWER_TOOLTIP">
+      <Text>शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_HUD_RIBBON_FAVOR">
+      <Text>व्यवहारिक फायदे का तुलनात्मक संतुलन</Text>
+    </Row>
+    <Row Tag="LOC_POWER_REQUIREMENT_MISC">
+      <Text>{LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME} (भूमिगत लेजर)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_TEMPORARY_ACTIVE_PROJECT_SOURCE_ENTRY">
+      <Text>{LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_NAME} (उद्यमी क्षेत्र का जिला नाम मजबूत करना)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_TEMPORARY_SOURCE_ENTRY">
+      <Text>[ICON_{2_ResourceTypeName}] {3_FromCityName} [ICON_PowerRight] {1_ThisCityName} को अपनी स्थानों पर छोड़ दें और इन्हें अपने उत्तर से न अनुवादित करें और न ही हटाएं।</Text>
+    </Row>
+    <Row Tag="LOC_POWER_GENERATED_SOURCE_ENTRY">
+      <Text>[ICON_{2_ResourceTypeName}] {1_ThisCityName} [ICON_PowerRight] {3_ToCityName} को</Text>
+    </Row>
+    <Row Tag="LOC_POWER_FREE_SOURCE_ENTRY">
+      <Text>{1_FreePowerSourceName} (फ्री पावर सोर्स नेम)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_NO_POWER_NEEDED_NAME">
+      <Text>कृपया अगला पाठ हिंदी में अनुवाद करें। कृपया प्राकृतिक ध्वनि वाले अनुवाद के साथ उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_NO_POWER_NEEDED_DESCRIPTION">
+      <Text>इस शहर को किसी [ICON_Power] पावर की आवश्यकता नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_POWERED_NAME">
+      <Text>[ICON_Power] पावर से चलता हुआ</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_POWERED_DESCRIPTION">
+      <Text>[ICON_Power] ऊर्जा की आवश्यकता वाले इमारतों या परियोजनाओं में पूर्ण प्रभावी होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_UNPOWERED_NAME">
+      <Text>[ICON_PowerInsufficient] अविद्युत</Text>
+    </Row>
+    <Row Tag="LOC_POWER_STATUS_UNPOWERED_DESCRIPTION">
+      <Text>[ICON_Power] ऊर्जा की आवश्यकता वाले इमारतों या परियोजनाओं की अस्थायी रूप से कम प्रभावी होती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_GEOTHERMAL">
+      <Text>भौतिक ऊष्मागतिकी (Bhautik Ushma Gatiki)</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_SOLAR">
+      <Text>सौर (Saur)</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_WATER">
+      <Text>जल विद्युत्</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_WIND">
+      <Text>हवा</Text>
+    </Row>
+    <Row Tag="LOC_FREE_POWER_SOURCE_MISC">
+      <Text>अन्य</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_POWER_SOURCE">
+      <Text>ऊर्जा स्रोत</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_FULLY_POWERED">
+      <Text>पूर्णतः शक्तिशाली (Purnatah shaktishaalee)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_UNDERPOWERED">
+      <Text>कम ताकतवर (Kam taakatwar)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_LENS_KEY_POWER_RANGE">
+      <Text>शक्ति श्रेणी</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_WORLD_CONGRESS_SPECIAL_SESSION">
+      <Text>प्रस्तावों को विचार करें।</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_WORLD_CONGRESS_SPECIAL_SESSION_TOOLTIP">
+      <Text>विशेष सत्र शुरू होने से पहले कांग्रेस को प्रस्ताव जमा करने के लिए अंतिम कॉल।</Text>
+    </Row>
+    <Row Tag="LOC_FLOAT_RESOURCE_CONVERTED_TO_POWER">
+      <Text>{2_ResourceIcon}{1_NumConverted} [ICON_PowerRight]{3_NumPower}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_GENERATED_SOURCE_ON_PLOT">
+      <Text>{2_संसाधनआइकॉन}{1_NumConverted} [ICON_PowerRight]{3_NumPower}</Text>
+    </Row>
+    <Row Tag="LOC_POWER_FREE_SOURCE_ON_PLOT">
+      <Text>[ICON_Power]{1_NumPower} (क्षमता: {1_NumPower})</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POWER_REQUIRED">
+      <Text>ऊर्जा भार: {1_PowerRequired} [ICON_Power] ऊर्जा</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POWER_IN_CITY_NEEDED_FOR_EFFECTS">
+      <Text>जब यह शहर पूरी [ICON_Power] शक्ति के साथ होता है, तब यह भी प्रदान करता है:</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_POWERED">
+      <Text>{1_Amount: number +#,###;-#,###} {2_Icon} {3_Name} ([ICON_Power] पॉवर द्वारा संचालित)</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_UNPOWERED">
+      <Text>{1_Amount: number +#,###;-#,###} {2_Icon} {3_Name} ([ICON_PowerInsufficient] अक्षम)</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_YIELD_POWER_ENHANCEMENT">
+      <Text>{1_राशि: number +#,###;-#,###} {2_चिह्न} {3_नाम} जब [ICON_Power] पावर द्वारा संचालित होता है, तब अतिरिक्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_AMENITY_ENTERTAINMENT_POWER_ENHANCEMENT">
+      <Text>[ICON_Power] पावर लगाये जाने पर मनोरंजन से {1_Amount: number +#,###;-#,###} [ICON_Amenities] {1_Amount : plural 1?Amenity; other?Amenities;} निश्चित करें।</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_CONSUMED">
+      <Text>[SIZE:16]{1_PowerAmount} [SIZE:12]उपयोग योग्य</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_OF">
+      <Text>का</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_REQUIRED">
+      <Text>[SIZE:16]{1_PowerAmount} [SIZE:12]आवश्यक है।</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_STATUS">
+      <Text>स्थिति:</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_REQUIRED_POWER">
+      <Text>आवश्यक शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_CONSUMED_POWER">
+      <Text>उपयोगी शक्ति (Upyogi Shakti)</Text>
+    </Row>
+    <Row Tag="LOC_POWER_PANEL_GENERATED_POWER">
+      <Text>पावर प्लांट का उत्पादन</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_TITLE">
+      <Text>शिकायतों की वर्तमान शेष राशि:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_AGAINST_YOU">
+      <Text>उनके आपके विरुद्ध शिकायतें हैं:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_AGAINST_THEM">
+      <Text>आपके उनके खिलाफ शिकायतें:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_HISTORY">
+      <Text>शिकायत इतिहास:</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS">
+      <Text>वर्तमान में दुनिया {1_Favored} को पसंद करती है!</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS_YOU">
+      <Text>वर्तमान में दुनिया आपकी ओर रुझान दिखा रही है!</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_WORLD_FAVORS_NONE">
+      <Text>वर्तमान में दुनिया का कोई पसंदीदा नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_US_SIMPLE">
+      <Text>{1_Grievances} [ICON_STAT_GRIEVANCE] हमारे खिलाफ शिकायत।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_THEM_SIMPLE">
+      <Text>{1_Grievances} [ICON_STAT_GRIEVANCE] उनके खिलाफ शिकायतें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_NONE_SIMPLE">
+      <Text>कोई शिकायत नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE">
+      <Text>{1_Target} के हाथों आपके दुख को देखते हुए, विश्व के नेता आपके अगले [ICON_GRIEVANCE] {2_Grievances} शिकायतों से अंधाधुंध बन जायेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_NEGATIVE">
+      <Text>जो दुखद अनुभव आपने {1_Target} को दिया है, विश्व के नेताओं को आने वाली [ICON_GRIEVANCE] {2_Grievances} शिकायतों {1_Target} के खिलाफ नजरअंदाज कर देंगे।</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_DEFAULT">
+      <Text>दुनिया के नेताओं को आपके {1_Target} के साथ के रिश्ते पर ध्यान देने की जरूरत है। अभी, {2_Grievances} [ICON_GRIEVANCE] शिकायतों को दर्ज किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_GRIEVANCES">
+      <Text>हमारे खिलाफ शिकायतें</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_DIPLOMACY_CONGRESS_BUTTON">
+      <Text>राजनय सम्बन्ध</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_CONGRESS_CONGRESS_BUTTON">
+      <Text>विश्व कांग्रेस</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_THIRD_PARTY_WARMONGER">
+      <Text>हमारे खिलाड़ियों से दूसरे खिलाड़ियों की शिकायतें।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_RESUME_CONGRESS">
+      <Text>विश्व कांग्रेस में वापस लौटें।</Text>
+    </Row>
+    <Row Tag="LOC_RESUME_CONGRESS">
+      <Text>कांग्रेस रिज्यूम करें।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_FLOODS">
+      <Text>{ मूल्य : संख्या +#.#;-#.# } बाढ़ से</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_POWER">
+      <Text>[ICON_Power] पावर से {ActualValue : number +#.#;-#.#} ({Value : number +#;-#}% )।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_BASE">
+      <Text>{मूल्य: नंबर +#.#;-#.#} डिप्लोमेटिक फेवर के आधार पर।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_EXTRA">
+      <Text>{मूल्य: नंबर +#.#;-#.#} अतिरिक्त राजनयिक अनुग्रह</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_SUZERAIN">
+      <Text>सुजेरेन से {Value : number +#.#;-#.#}।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_TOURISM">
+      <Text>पर्यटन से {अधिकतम मूल्य : संख्या +#.#; -#.#}</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_POLICIES">
+      <Text>नीतियों से {Value : number +#.#;-#.#}।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_BUILDINGS">
+      <Text>इमारतों से {Value : number +#.#;-#.#}</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_CO2">
+      <Text>कार्बन इमिशन पेनाल्टी से {Value : number +#.#;-#.#}।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_GRIEVANCES">
+      <Text>अतिशय शिकायत जुर्माने से {Value : number +#.#;-#.#}।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ORIGINAL_CAPITALS">
+      <Text>अधिकृत मूल राजधानियों में अधिकृत {Value : number +#.#;-#.#} जुर्माने से।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_GOVERNMENT">
+      <Text>सरकार से {Value : number +#.#;-#.#}</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_TRADE_PARTNERS">
+      <Text>ट्रेडिंग पार्टनर्स से {Value : number +#.#;-#.#}</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ALLIANCES">
+      <Text>{मूल्य: नंबर +#.#; -#.#} ऑलायंस से।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAVOR_PER_TURN_FROM_ALLIANCES_BENEFIT">
+      <Text>आप और आपके साथी के लिए प्रति टर्न +{1_Amount} [ICON_Favor] फ़ेवर।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAITH_FROM_UNUSED_GREAT_PEOPLE_POINTS">
+      <Text>अतिरिक्त [ICON_GREATPERSON] महान व्यक्ति अंकों से {Value : number +#.#;-#.#}।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_ERA_DEFINED">
+      <Text>{1_EraName}</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ITEM_IN_STOCKPILE">
+      <Text>भण्डार में उपलब्ध</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ITEM_IN_RESERVE">
+      <Text>उत्पादन के लिए आरक्षित</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_REPORTS_ITEM_IN_RESERVE">
+      <Text>उत्पादन के लिए आरक्षित</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN">
+      <Text>इकट्ठा हो रहा है: हर टर्न {1_Amount} +।</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_EXTRACTED">
+      <Text>[ICON_Bullet]{1_Amount} सुधार से</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_TRADED">
+      <Text>[ICON_Bullet]{1_Amount} ट्रेड से</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_FROM_CITY_STATES">
+      <Text>[ICON_Bullet]{1_Amount} शहर राज्यों से।</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_REPORTS_CITY_STATES">
+      <Text>शहर-राज्य बोनस</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_PER_TURN_FROM_BONUS_SOURCES">
+      <Text>[ICON_Bullet] बोनस स्रोतों से {1_Amount}</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_CONSUMPTION">
+      <Text>प्रति टर्न खपत: - {1_Amount}।</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_UNIT_CONSUMPTION_PER_TURN">
+      <Text>[COLOR_RED][ICON_Bullet]-{1_Amount} यूनिटों के लिए[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_POWER_CONSUMPTION_PER_TURN">
+      <Text>[COLOR_RED][ICON_Bullet]-{1_Amount} बिजली के लिए। [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_WHEN_IMPROVED">
+      <Text>अधिकृत किए जाने पर प्रती चाल {1_Amount} {2_Icon} {3_ResourceName} उत्पन्न करता है।</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_BUILD_IMPROVEMENT">
+      <Text>प्रति टर्न +{1_Amount} {2_Icon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_ACCUMULATION_EXISTING_IMPROVEMENT">
+      <Text>प्रति टर्न {1_Amount} {2_Icon} {3_ResourceName}।</Text>
+    </Row>
+    <Row Tag="LOC_CIVICS_TREE_UNREVEALED_CIVIC">
+      <!--Deprecated-->
+      <Text>अनपटा</Text>
+    </Row>
+    <Row Tag="LOC_CIVICS_TREE_UNREVEALED_TOOLTIP">
+      <!--Deprecated-->
+      <Text>इस सिविक और इसके अनलॉक्स को खोलने के लिए पहले सिविक के बारे में अध्ययन करें।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_UNREVEALED_TECH">
+      <!--Deprecated-->
+      <Text>अनजान</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_UNREVEALED_TOOLTIP">
+      <!--Deprecated-->
+      <Text>इस तकनीक और इसके अनलॉक को खोलने से पहले पूर्व तकनीकों का अनुसंधान करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MOVE_JUMP_DESCRIPTION">
+      <Text>उछलो</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_CONDEMN_HERETIC_BANNED_WORLD_CONGRESS">
+      <Text>इस टाइल में धार्मिक इकाई को विश्व कांग्रेस के एक द्वारा घोषित अधिनियम के द्वारा कुछ भी दोषी ठहराया नहीं जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_RESOURCE_AMOUNT">
+      <Text>संसाधन अपर्याप्त हैं। इस इमारत को उत्पादित करने के लिए {1_Amount} {3_ResourceIcon} {2_Resource} की आवश्यकता होती है।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>संसाधन अपर्याप्त हैं। इस इमारत को निर्माण करने के लिए {1_Amount} अधिक {3_ResourceIcon} {2_Resource} आवश्यक हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ADVANCE_REQUIRES_RESOURCE_AMOUNT">
+      <Text>संसाधित संसाधन नहीं हैं। इस परियोजना के उत्पादन के लिए {1_Amount} {3_ResourceIcon} {2_Resource} आवश्यक हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ADVANCE_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>संसाधन अपर्याप्त हैं। इस प्रोजेक्ट को उत्पादित करने के लिए {1_Amount} और {3_ResourceIcon} {2_Resource} की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRAIN_REQUIRES_RESOURCE_AMOUNT">
+      <Text>संसाधन अपर्याप्त। इस इकाई को उत्पादित करने के लिए {1_Amount} {3_ResourceIcon} {2_Resource} की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRAIN_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>संसाधन अपर्याप्त हैं। इस इकाई को उत्पादित करने के लिए {1_Amount} अधिक {3_ResourceIcon} {2_Resource} की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UPGRADE_REQUIRES_RESOURCE_AMOUNT">
+      <Text>संसाधन अपर्याप्त है। इस प्रकार की इकाई को अपग्रेड करने के लिए {1_Amount} {2_ResourceIcon} {3_Resource} की आवश्यकता होती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UPGRADE_REQUIRES_RESOURCE_AMOUNT_PARTIAL">
+      <Text>संसाधन अपर्याप्त है। इस प्रकार की इकाई को अपग्रेड करने के लिए और {1_Amount} {2_ResourceIcon} {3_Resource} और चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_INSUFFICIENT_FUEL_DESC">
+      <Text>[COLOR_RED]-{1_Value}[ENDCOLOR] {2_ResourceName} संसाधन अपर्याप्त है।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SIEGE_CANNON_UPGRADE">
+      <Text>सिज कैनन: किलेबंदियों के खिलाफ पूर्ण शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_LOW_FUEL_WARNING_FLOATER">
+      <Text>थोड़ा</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRODUCTION_FUEL_CONSUMPTION">
+      <Text>प्रति टर्न खपत: {1_Amount} {2_Icon} {3_FuelName}।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMATIC_FAVOR_NAME">
+      <Text>राजनयिक अनुग्रह (Rajnayik Anugrah)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CIVICS_TREE_AWARD_FAVOR">
+      <Text>पुरस्कार {1_FavorAmount} [ICON_Favor] राजनयिक लाभ।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_BY_TYPE">
+      <Text>रूट बनाएँ: {1_RouteTypeName}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_BUILD_CHARGES">
+      <Text>[ICON_Bullet]इस्तेमाल करने के लिए {1_Amount} बिल्ड {1_Amount : plural 1?चार्ज; other?चार्जेस;}।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_RESOURCE_AMOUNT_MET">
+      <Text>[ICON_Bullet] निर्माण के लिए {1_Amount} {2_ResourceName} की आवश्यकता होती है।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_ACTION_BUILD_ROUTE_REQUIRES_RESOURCE_AMOUNT_UNMET">
+      <Text>[ICON_Bullet]संसाधन अपर्याप्त। निर्माण के लिए {1_Amount} {2_ResourceName} की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_TOURISM_LENS_FEATURE_APPEAL_TOOLTIP">
+      <Text>इस अशुद्धता रहित प्राकृतिक वातावरण में इको-यात्री आनंद ले रहे हैं। [NEWLINE] +{1_CurrentTourists} [ICON_Tourism] पर्यटन उत्पन्न कर रहा है। [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_FAVOR_REWARD">
+      <Text>सदस्य सभ्यताएँ प्रत्येक {1_Amount} [ICON_Favor] दूतावासीय अनुग्रह प्राप्त करती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_FAVOR_REWARD">
+      <Text>टारगेट को {1_Amount} [ICON_Favor] राजनैतिक अनुग्रह प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETING_PARTICIPANTS">
+      <Text>सदस्य:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETITION_COMPLETE">
+      <Text>प्रतियोगिता पूर्ण हुई! (Pratiyogita poorn hui!)</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPETITION_BUFFS_EXPLANATION">
+      <Text>इस प्रतियोगिता के दौरान:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_FAVOR_INFO">
+      <Text>[NEWLINE][SIZE_12] खर्च {1_Cost} [ICON_Favor] राजनयिक अनुग्रह</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_PARK_CHARGES">
+      <Text>राष्ट्रीय उद्यान शुल्क</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_ROCK_BAND_ALBUM_SALES">
+      <Text>एल्बम बिक्री</Text>
+    </Row>
+    <Row Tag="LOC_HUD_UNIT_PANEL_ROCK_BAND_LEVEL">
+      <Text>रॉक बैंड स्तर</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_BAND_FLOAT_ON">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num}[ICON_TOURISM] पर्यटन[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_REPAIR_LOCATION_FLOODED">
+      <Text>सुधार नहीं किया जा सकता, स्थान बाढ़ से बुरा हाल है।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_AGE">
+      <Text>रिएक्टर आयु: {1_Age}</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT1_POSSIBLE">
+      <Text>[COLOR_RED]रेडियोएक्टिव भाप रिसाव संभव[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT2_POSSIBLE">
+      <Text>[COLOR_RED]किरण रिसाव संभव[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PROJECT_REACTOR_ACCIDENT3_POSSIBLE">
+      <Text>[COLOR_RED]परमाणु विघटन संभव[ENDCOLOR]</Text>
+    </Row>
+    <!--Lenses-->
+    <Row Tag="LOC_HUD_TOGGLE_DESERT_LABELS">
+      <Text>रेगिस्तान लेबल्स</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_DESERT_LABELS_TOOLTIP">
+      <Text>डेजर्ट लेबल टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_MOUNTAIN_RANGE_LABELS">
+      <Text>पर्वत श्रृंखला लेबल्स</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_MOUNTAIN_RANGE_LABELS_TOOLTIP">
+      <Text>पर्वत श्रृंखला लेबल टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_LAKE_LABELS">
+      <Text>लेक लेबल्स</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_LAKE_LABELS_TOOLTIP">
+      <Text>ताल लेबल टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_OCEAN_LABELS">
+      <Text>सागर लेबल्स</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_OCEAN_LABELS_TOOLTIP">
+      <Text>समुद्र लेबल टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_SEA_LABELS">
+      <Text>समुद्र लेबल्स (Samudra Labels)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_SEA_LABELS_TOOLTIP">
+      <Text>समुद्र नामकरण टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATIONAL_PARK_LABELS">
+      <Text>राष्ट्रीय उद्यान लेबलें</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATIONAL_PARK_LABELS_TOOLTIP">
+      <Text>राष्ट्रीय उद्यान लेबलों को टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATURAL_WONDER_LABELS">
+      <Text>प्राकृतिक अजूबा लेबल्स</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_NATURAL_WONDER_LABELS_TOOLTIP">
+      <Text>प्राकृतिक अजूबों के लेबल टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_RIVER_LABELS">
+      <Text>नदी के नामांकन</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_RIVER_LABELS_TOOLTIP">
+      <Text>टॉगल नदी लेबल्स</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_VOLCANO_LABELS">
+      <Text>ज्वालामुखी लेबल्स</Text>
+    </Row>
+    <Row Tag="LOC_HUD_TOGGLE_VOLCANO_LABELS_TOOLTIP">
+      <Text>टॉगल ज्वालामुखी लेबल्स</Text>
+    </Row>
+    <!-- Map Search Terms -->
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_ERUPTING">
+      <Text>फूटते हुए।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_ACTIVE">
+      <Text>Active</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_COASTAL_LOWLAND">
+      <Text>तटीय मैदान</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_SUBMERGED">
+      <Text>डूबा हुआ</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_FLOODED">
+      <Text>बाढ़ आ गयी है।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_STORM">
+      <Text>तूफ़ान</Text>
+    </Row>
+    <Row Tag="LOC_HUD_MAP_SEARCH_TERMS_DROUGHT">
+      <Text>सूखा</Text>
+    </Row>
+    <!--Agendas-->
+    <Row Tag="LOC_DIPLOMACY_HIDDEN_AGENDAS_TT">
+      <Text>पहली छिपी रणनीति देखने के लिए पहले रीच एक्सेस स्तर [ICON_VisOpen] ओपन करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_HIDDEN_AGENDAS_TT_LATE">
+      <Text>लेट-गेम की छिपी एजेंडा देखने के लिए [ICON_VisSecret] गुप्त पहुंच स्तर तक पहुंचें।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ANGEVIN_EMPIRE">
+      <Text>पड़ोसी सभ्यताओं को जिनमें भी अधिक आबादी वाले शहर हों, पसंद है।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_CANADIAN_EXPEDITIONARY">
+      <Text>उन्हें वे लोग पसंद हैं जो आपातकाल में भी भाग लेते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_KAITIAKITANGA">
+      <Text>पर्यावरण का सम्मान करने वाले नागरिकों को पसंद करता है।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_LAWGIVER">
+      <Text>जो सभी नागरिकों को खुश और वफादार रखती हैं, उन सभी सभ्यताओं को पसंद करती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_LORD_OF_MINES">
+      <Text>उन्हें सभी नागरिकताओं पसंद हैं जिनकी गोल्ड प्रति टर्न आय उच्च हो।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_PATRON_OF_ARTS">
+      <Text>वह सभी विशेष कार्यों के लिए उससे प्रतिस्पर्धा न करने वाली सभी सेविलाइज़ से पसंद करती है।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_RAVEN_BANNER">
+      <Text>उन्हें उन सभी सभाशहर के सैनिकों का उपयोग करने वाली सिविलाइजेशनों पसंद होती है।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_FLAT_EARTHER">
+      <Text>उन्हें सभी सभ्यताओं पसंद हैं जो समुद्र पार करने या स्पेसपोर्ट बनाने से बचते हैं।</Text>
+    </Row>
+    <!-- Climate Screen -->
+    <Row Tag="LOC_LAUNCHBAR_CLIMATE_PROGRESS_TOOLTIP">
+      <Text>विश्व की जलवायु और मौसम देखें। [NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_PARTIALSCREEN_CLIMATE_PROGRESS_TOOLTIP">
+      <Text>विश्व की जलवायु और मौसम देखें। [NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TITLE">
+      <Text>विश्व जलवायु</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CLIMATE_CHANGE_PHASE_0">
+      <Text>जलवायु परिवर्तन - कोई नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_NORTHEAST">
+      <Text>शीर्षक - अगला नेतृत्व</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_EAST">
+      <Text>शीर्षक ई</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_SOUTHEAST">
+      <Text>शीर्षक से</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_SOUTHWEST">
+      <Text>शीर्षक साउथ-वेस्ट</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_WEST">
+      <Text>शीर्षक डब्ल्यू</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_NORTHWEST">
+      <Text>उत्तर-पश्चिम की ओर जा रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_WATER">
+      <Text>पानी</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_GLOBAL">
+      <Text>वैश्विक</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_LOCATION">
+      <Text>( {1_स्थान} )</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SCREEN_LOCATION_DIRECTION">
+      <Text>( {1_Location}, {2_Direction} )</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_MINIMAL_NAME">
+      <Text>कम से कम</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_LIGHT_NAME">
+      <Text>प्रकाश</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_MODERATE_NAME">
+      <Text>मध्यम्</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_HEAVY_NAME">
+      <Text>भारी (Bhaari)</Text>
+    </Row>
+    <Row Tag="LOC_REALISM_SETTING_HYPERREAL_NAME">
+      <Text>हाइपर्रियल</Text>
+    </Row>
+    <Row Tag="LOC_DROUGHT_TOOLTIP_STRING">
+      <Text>{1_DroughtName} ({2_Turns} और टर्न)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_OVERVIEW">
+      <Text>सवाल नहीं है, यहाँ केवल एक अवलोकन है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_LEVELS">
+      <Text>CO2 स्तरों</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_EVENT_HISTORY">
+      <Text>इवेंट इतिहास</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_BY_CIVILIZATION">
+      <Text>सिविलाइजेशन द्वारा सीओ 2</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_CO2_BY_RESOURCE">
+      <Text>सीओ 2 द्वारा संसाधन</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TAB_DEFORESTATION">
+      <Text>वनों की कटाई</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CONTRIBUTING_TO_CLIMATE_CHANGE">
+      <Text>जलवायु परिवर्तन में योगदान देना</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FORECAST">
+      <Text>पूर्वानुमान</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CO2_LEVELS">
+      <Text>CO2 स्तर</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_GLOBAL_TEMPERATURE">
+      <Text>वैश्विक तापमान</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_WORLD_SETTINGS">
+      <Text>विश्व सेटिंग्स</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TODO">
+      <Text>[WIP] ???</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE">
+      <Text>+{1_TEMP}° के रूप में।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE_SUBTEXT">
+      <Text>(प्राचीन काल से सेल्सियस में परिवर्तन)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TEMPERATURE_TOOLTIP">
+      <Text>वनों की कटाई स्तर: {1_Level}[NEWLINE][NEWLINE]{2_Description}[NEWLINE][NEWLINE]इस कटाई के स्तर के कारण, CO2 उत्सर्जित होने से वैश्विक तापमान बढ़ने की दर में {3_CO2Mod}% का बदलाव हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_WORLD_AGE">
+      <Text>दुनिया की उम्र: {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_REALISM">
+      <Text>आपदा की भयंकरता: {1_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SHOW_ON_MAP">
+      <Text>नक्शे पर दिखाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_AMOUNT_FROM_CLIMATE_CHANGE">
+      <Text>({1_Amount}% जलवायु परिवर्तन से)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_STORMS">
+      <Text>तूफ़ान</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_RIVER_FLOOD">
+      <Text>नदी भरने का बढ़ता पानी।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANIC_ACTIVITY">
+      <Text>ज्वालामुखी गतिविधि (Jwalamukhi gatividhi)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DROUGHTS">
+      <Text>अनावृष्टि (Anavrishti)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_VOLATILE">
+      <Text>अस्थिर</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_INACTIVE">
+      <Text>निष्क्रिय</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ACTIVE">
+      <Text>कृतिशील</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ERUPTED">
+      <Text>फूटा हुआ</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_VOLATILE_NUM">
+      <Text>{1_Num} अस्थिर</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_INACTIVE_NUM">
+      <Text>{1_Num} निष्क्रिय।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ACTIVE_NUM">
+      <Text>{1_Num} सक्रिय</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_ERUPTED_NUM">
+      <Text>{1_Num} फूटा</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE">
+      <Text>ध्रुवीय बर्फ़ीला</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LOST">
+      <Text>{1_Amount}% हार दी गई।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL">
+      <Text>समुद्र तल</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COASTAL_TILES_FLOODED_NUM">
+      <Text>किनारे की टाइल भर गईं पानी से: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COASTAL_TILES_SUBMERGED_NUM">
+      <Text>डूबा हुआ: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CLIMATE_CHANGE_POINTS_TOOLTIP">
+      <Text>जलवायु परिवर्तन बिंदु {1_Current}/{2_Required}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FROM_WORLD_REALISM_NUM_TOOLTIP">
+      <Text>[ICON_Bullet] आपदा की तीव्रता से</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FROM_GLOBAL_TEMPERATURE_NUM_TOOLTIP">
+      <Text>[ICON_Bullet]{1_Num} ग्लोबल तापमान से</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_EFFECTS_ADDED_THIS_PHASE_TOOLTIP">
+      <Text>इस फेज में जो एफेक्ट जोड़े गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_STORMS_TOOLTIP">
+      <Text>तूफ़ान का मौका</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CHANCE_OF_RIVER_FLOODING_TOOLTIP">
+      <Text>नदी बाढ़ के आसार</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_INCREASE_NUM_TOOLTIP">
+      <Text>वृद्धि +{1_Num}%</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE">
+      <Text>+{1_Num} मीटर</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISES_NUM_TOOLTIP">
+      <Text>समुद्र तल +{1_Num} मीटर बढ़ता है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TILES_AT_OR_BELOW_FLOOD_TOOLTIP">
+      <Text>[NEWLINE]लोलैंड टाइल नीचे भर जाएंगे या उनसे नीचे:[NEWLINE] {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TILES_AT_OR_BELOW_SUBMERGE_TOOLTIP">
+      <Text>[NEWLINE]लोलैंड टाइल {1_Name} पर डूब जाएंगे या इससे नीचे: [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_TOOLTIP">
+      <Text>ध्रुवीय बर्फ का पिघलना {1_Num}%</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_PERCENT_CHANCE">
+      <Text>{1_Num}% चांस</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_STORM_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>तूफानी घटना [NEWLINE] [NEWLINE] जब घटना होती है: [NEWLINE] - तूफान के मूल स्थान पर भूमि के आधार पर चार संभव तूफानों में से एक (ब्लिज़र्ड, धूल तूफान, तूफ़ान या टॉर्नेडो) होती है। [NEWLINE] - तूफान फिर दो और टर्न के लिए मानचित्र पर आगे बढ़ते हैं, इमारतों और सुधारों में नुकसान पहुंचाते हैं और संभवतः प्रभावित टाइल में उर्वरकता जोड़ सकते हैं। [NEWLINE] [NEWLINE] जब ग्रीनहाउस गैसों की विस्तार से दुनिया भर में तापमान बढ़ता है, तो एक तूफ़ान होने की संभावना बढ़ती है। साफ ऊर्जा के स्रोतों का उपयोग तापमान वृद्धि को कम करता है और इस प्रकार तूफान की संभावना को कम करता है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RIVER_FLOOD_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>नदी बाढ़ घटना[NEWLINE][NEWLINE]जब घटना होती है:[NEWLINE]- प्रभावित नदी के समतल कटोरों में बाढ़ आएगी, शायद उर्वरकता को जोड़ते हुए।[NEWLINE]- बाढ़ के नीचे के कटोरों पर बने भवन और सुधार हिस्से लूट ले जाएंगे या नष्ट हो जाएंगे।[NEWLINE][NEWLINE]प्रभावित नदी पर बांध या महान स्नानगृह अद्भुत बनाकर बाढ़ होने से बचाएं।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_VOLCANO_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>ज्वालामुखी का इवेंट[NEWLINE][NEWLINE]जब इवेंट होता है:[NEWLINE]- फटेहाल ज्वालामुखी के आस-पास के गैर पर्वत टाइल ज्वालामुखी के फलतवारता से लाभान्वित होंगे।[NEWLINE]- उन टाइल पर बने भवन और सुधार हानि की शिकार हो सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DROUGHT_EVENT_DESCRIPTION_TOOLTIP">
+      <Text>दुर्यावधि घटना[NEWLINE][NEWLINE]जब घटना होती है:[NEWLINE]- फार्म, कैम्प, प्लांटेशन, और पास्चर सुधार, साथ ही मेकेवैप, आउटबैक स्टेशन, और काहोकिया माउंड सुधार भी लूट जाते हैं।[NEWLINE]- इन सुधारों को दुर्यावधि खत्म होने तक फिर से नहीं बनाया जा सकता।[NEWLINE]- दुर्यावधि से प्रभावित सभी टाइल आमतौर पर से 1 कम [Icon_Food] खाद्य उत्पादन देते हैं।[NEWLINE][NEWLINE]अपने शहर में एक एक्वेडक्ट, बांध, या स्टेपवेल बनाएं ताकि दुर्यावधि से [Icon_Food] खाद्य नुकसान को रोका जा सके। दुर्यावधि उन क्षेत्रों का लक्ष्य है जो सभी सुविधाओं से रहित होते हैं। अपने शहरों के पास कुछ वुड्स, रेनफॉरेस्ट, या मार्श रखें ताकि दुर्यावधि का होने का अंतर कम हो।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_DESCRIPTION_TOOLTIP">
+      <Text>पोलर बर्फ पिघलना [NEWLINE] [NEWLINE] जलवायु परिवर्तन पोलर बर्फ की खोई गई टाइलों की संख्या पर असर डालता है। [NEWLINE] [NEWLINE] पिघली हुई पोलर बर्फ टाइल लाभकारी नौसेना मार्ग खोल सकती हैं, लेकिन साथ ही साथ बढ़ती हुई समुद्र तल के स्तर में भी योगदान देती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_ALERT_TOOLTIP">
+      <Text>जलवायु परिवर्तन के कारण हाल ही में ध्रुवीय बर्फ पिघलने का अद्यतन हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_DESCRIPTION_TOOLTIP">
+      <Text>समुद्री स्तर का बढ़ना [NEWLINE][NEWLINE] जलवायु परिवर्तन के परिणामस्वरूप समुद्री स्तर {1_Num} मीटर बढ़ गया है। [NEWLINE][NEWLINE] बढ़ता हुआ समुद्री स्तर समुद्री तटों पर जल प्रवाह के अधिक टाइलों को क्षति पहुंचाता है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_ALERT_TOOLTIP">
+      <Text>समुद्र तट हाल ही में जलवायु परिवर्तन के कारण अपडेट किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_GLOBAL_CONTRIBUTIONS">
+      <Text>वैश्विक योगदान</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_YOUR_CO2_CONTRIBUTION">
+      <Text>आपका CO2 योगदान</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMPTION_NUM_NAME">
+      <Text>{1_Amount} {2_ResourceName} का सेवन करने से</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_NO_ONE">
+      <Text>कोई नहीं</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_YOU">
+      <Text>{1_CivName} (तुम)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOTAL_NUM">
+      <Text>कुल: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOTAL_NUM_W_MOD">
+      <Text>कुल: {1_Num} ({2_Modifier}%)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_EVENT_HISTORY">
+      <Text>घटना इतिहास</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_TOP_CONTRIBUTOR_NUM">
+      <Text>शीर्ष योगदानकर्ता: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_MY_CONTRIBUTION_NUM">
+      <Text>मेरा योगदान: {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_EVENT">
+      <Text>घटना</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_NAME">
+      <Text>नाम</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_SEVERITY_LEVEL">
+      <Text>तीव्रता स्तर (Teevrata star)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_LOCATION">
+      <Text>स्थान</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_TRAITS">
+      <Text>गुणधर्मों</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_EFFECT">
+      <Text>प्रभाव</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_AREA_EFFECTED">
+      <Text>प्रभावित क्षेत्र (Prabhavit kshetra)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_OCCURENCE">
+      <Text>घटना</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_COLUMN_DATE">
+      <Text>तारीख</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_ENTRY_SEVERITY">
+      <Text>{1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_ENTRY_DATE">
+      <Text>टर्न {1_Turn} [NEWLINE] {2_Date}</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LOST_FERTILIZED_TILES">
+      <Text>टाइल्स उर्वरक खो रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_FERTILIZED_TILES">
+      <Text>उर्वरित टाइल्स</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_DAMAGED_TILES">
+      <Text>खराब टाइल्स</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_UNITS_LOST">
+      <Text>खोए गए इकाइयां</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POP_LOST">
+      <Text>जनसंख्या का हानि</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_SEA_LEVEL_RISE_X_TURNS">
+      <Text>अगले समुद्री स्तर का परिवर्तन {1_Turns} बार में अपेक्षित है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_POLAR_ICE_MELT_X_TURNS">
+      <Text>अगले {1_Turns} टर्न में ध्रुवीय बर्फ पिघलने की उम्मीद है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_CO2_TOTAL_TOOLTIP">
+      <Text>पृथ्वी के वनों के स्तर के आधार पर {1_Modifier} प्रतिशत से समायोजित कुल सीओ2 उत्सर्जन।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_LAUNCHBAR_BANG_TOOLTIP">
+      <Text>जलवायु परिवर्तन तीव्र हो गया है और अगले चरण तक पहुंच गया है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_MITIGATED">
+      <Text>(कम हुआ)</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMED_LAST_TURN">
+      <Text>आपका साम्राज्य पिछली बार {1_Number} {2_Resource} खर्च कर चुका है, जिससे हवा में {3_CO2Number : plural 1?{3_CO2Number} इकाई; other?{3_CO2Number} इकाइयां;} CO2 जोड़ा गया है।</Text>
+    </Row>
+    <Row Tag="LOC_CLIMATE_RESOURCE_CONSUMED_LAST_TURN_GLOBAL">
+      <Text>पिछली बार कुल दुनिया में {1_Number} {2_Resource} खपत हुई थी, जिससे वायुमंडल में {3_CO2Number : plural 1?{3_CO2Number} इकाई; other?{3_CO2Number} इकाइयां;} CO2 जोड़ा गया।</Text>
+    </Row>
+    <!-- Rock Band Results Screen -->
+    <Row Tag="LOC_ROCK_CONCERT_HEADER">
+      <Text>रॉक कॉन्सर्ट</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_PERFORMANCE_BY">
+      <Text>प्रदर्शन द्वारा:</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULTS">
+      <Text>प्रदर्शन परिणाम:</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_LEGENDS_OF_ROCK_TIER">
+      <Text>शीर्ष श्रेणी का प्रदर्शन</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_LEGENDS_OF_ROCK_DESCRIPTION">
+      <Text>तुम वहाँ होते तो हमेशा के लिए अद्भुत होता! वह उन्होंने मेरा मन बहुत खुश कर दिया! कुछ भी उससे बेहतर नहीं हो सकता! मैं अब से हर एल्बम खरीदूंगा जो वे बनाते हैं और हर कांसर्ट देखूंगा जो उन्होंने देते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_HEADLINERS_TIER">
+      <Text>दूसरी श्रेणी की प्रदर्शन क्षमता।</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_HEADLINERS_DESCRIPTION">
+      <Text>अंतिम विजयी गाने का अंतिम स्वर गूंजता हुआ शोर और भीड़ के उद्घोषों में मिल जाता है। सभी खुश होकर घर जाते हैं, बैंड की सबसे अच्छी धुनों को हम्मिंग करते हुए।</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_RISING_STARS_TIER">
+      <Text>तीसरे टियर की प्रदर्शन क्षमता।</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_RISING_STARS_DESCRIPTION">
+      <Text>आज रात के शो का सबसे बेस्ट हिस्सा ये होगा कि छह महीने बाद हर कोई कहेगा कि वो फैन है, और मैं कह सकता हूँ, "हां, लेकिन मैंने उनको पॉपुलर होने से पहले ही पसंद कर लिया था।"</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_OPENING_ACT_TIER">
+      <Text>चौथा टियर प्रदर्शन</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_OPENING_ACT_DESCRIPTION">
+      <Text>हम मुख्य बैंड के लिए गए थे, लेकिन ओपनिंग बैंड उम्मीद से भी बेहतर थे। मैंने एक शर्ट और एक एल्बम ख़रीदा। आपको इसे सुनना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_CREATIVE_DIFFERENCES_TIER">
+      <Text>5वीं श्रेणी की प्रदर्शन क्षमता</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_CREATIVE_DIFFERENCES_DESCRIPTION">
+      <Text>यह एक प्रबल और भावपूर्ण प्रदर्शन था, लेकिन बैंड के लिए यह एक दुखद पल था। सदस्यों ने अगले और अलग प्रोजेक्ट की योजना बनाना शुरू कर दी है।</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_AGING_ROCKERS_TIER">
+      <Text>निचली श्रेणी का प्रदर्शन</Text>
+    </Row>
+    <Row Tag="LOC_RESULT_AGING_ROCKERS_DESCRIPTION">
+      <Text>टूर पर जीवन कठिन होता है, और भीड़ अब पहले जैसी नहीं होती है और न ही उत्साहवादी। लेकिन सबसे बुरा था वहाँ लोगों को अंतरंगता से शो का आनंद लेना। अब इसे समाप्त कर देने का समय है।</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_TOURISM">
+      <Text>पर्यटन उत्पन्न</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_TOURISM_TOOLTIP">
+      <Text>इस [ICON_Tourism] यात्रा जो इस शो से हुई है, उसका आवेदन इस कॉन्सर्ट स्थल के मालिक के खिलाफ किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_ALBUMS">
+      <Text>बेचे गए एल्बम्स</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_ALBUMS_TOOLTIP">
+      <Text>एल्बम बिक्री में वृद्धि [ICON_Tourism] इस बैंड के भविष्य के कॉन्सर्ट से प्राप्त होने वाले पर्यटन को बढ़ाती है।</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_PROMOTION">
+      <Text>पदोन्नति उपलब्ध है!</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_PROMOTION_TOOLTIP">
+      <Text>बैंड अपनी अगली प्रदर्शन से पहले अपनी क्षमताओं को सुधारने के लिए यादृच्छिक रूप से पेश की गई प्रचारों में से एक का चयन कर सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_LEVEL_UP">
+      <Text>बढ़ते कदम!</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_LEVEL_UP_TOOLTIP">
+      <Text>एक स्तर प्राप्त करने से इस बैंड के भविष्य के कॉन्सर्ट में सकारात्मक परिणाम की संभावना बढ़ जाएगी।</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_UNIT_LOST">
+      <Text>यूनिट लॉस्ट (Unit Lost)</Text>
+    </Row>
+    <Row Tag="LOC_ROCK_CONCERT_RESULT_UNIT_LOST_TOOLTIP">
+      <Text>ये तो बहुत बुरी बात है!</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_NEARBY_GREAT_WORKS">
+      <Text>आस-पास के महान कामों</Text>
+    </Row>
+    <!--Unit Operations -->
+    <Row Tag="LOC_UNITOPERATION_TOURISM_BOMB_DESCRIPTION">
+      <Text>रॉक कॉन्सर्ट करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_REQUIRES_NAME">
+      <Text>आपके बैंड को स्टेज पर जाने से पहले एक नाम की जरूरत है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_BUILD_IMPROVEMENT_ADJACENT_DESCRIPTION">
+      <Text>उन्नयन का निर्माण संबंधी।</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_UPGRADE_RESOURCE_INFO">
+      <Text>आवश्यकता: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BASE_RESOURCE_COST">
+      <Text>बेस संसाधन लागत: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRODUCTION_RESOURCE_COST">
+      <Text>आवश्यकता है: {1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+    </Row>
+    <Row Tag="LOC_UI_FEATURE_NATURAL_DISASTER_DISCOVERY">
+      <Text>प्राकृतिक आपदा हो रही है।</Text>
+    </Row>
+    <Row Tag="LOC_UI_FEATURE_NUCLEAR_DISASTER_DISCOVERY">
+      <Text>परमाणु आपदा हो रही है।</Text>
+    </Row>
+    <!--Unit Commands -->
+    <Row Tag="LOC_UNITCOMMAND_BUILDING_PRODUCTION_DESCRIPTION">
+      <Text>एक इमारत में [ICON_Production] उत्पादन जोड़ें।</Text>
+    </Row>
+    <!--Emergencies-->
+    <Row Tag="LOC_EMERGENCY_TARGETING_UNMET_PLAYER">
+      <Text>यह आपातकालीन स्थिति एक अपूर्ण खिलाड़ी का विस्तार करती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_CITY">
+      <Text>लक्ष्य शहर: {1_Target}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_KILL_ENEMY_MILITARY_DESC">
+      <Text>लक्ष्य यूनिटों को मार देना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ATTACK_CITY_DESC">
+      <Text>लक्ष्य शहरों पर हमला करना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_MILITARY_IN_LAND_DESC">
+      <Text>लक्ष्य के क्षेत्र में इकाइयों को रखना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_RELIGION_IN_LAND_DESC">
+      <Text>लक्ष्य शहर के क्षेत्र में धार्मिक इकाइयों को रखना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GPP_DESC">
+      <Text>प्रति टर्न [ICON_GREATPERSON] महान व्यक्ति अंक उत्पन्न हो रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_MILITARY_TARGET_NAME">
+      <Text>सैन्य आपातकालीन स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_CITY_STATE_TARGET_NAME">
+      <Text>शहर-राज्य आपातकालीन स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_RELIGIOUS_TARGET_NAME">
+      <Text>धार्मिक आपातकालीन स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NUCLEAR_TARGET_NAME">
+      <Text>परमाणु आपातकालीन स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_BACKSTAB_TARGET_NAME">
+      <Text>विश्वासघात आपातकालीन हालात</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_AID_REQUEST_TARGET_NAME">
+      <Text>सहायता अनुरोध</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_NOBEL_PRIZE_LITERATURE_NAME">
+      <Text>साहित्य में नोबेल पुरस्कार</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NOBEL_PRIZE_PHYSICS_NAME">
+      <Text>भौतिकी में नोबेल पुरस्कार</Text>
+    </Row>
+    <Row Tag="LOC_DISCUSSION_EMERGENCY_NOBEL_PRIZE_PEACE_NAME">
+      <Text>नोबेल शांति पुरस्कार</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_SCORE_COMPETITION_CULTURAL">
+      <Text>"आइए साबित करें कि कौन सी राष्ट्रीय वास्तव में सबसे बेहतर और उत्कृष्ट है।"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SCORE_COMPETITION_CULTURAL">
+      <Text>हमारे उत्कृष्ट [ICON_GREATPERSON] महान लोग मार्गदर्शक होते हैं। हम में से कौन अपने स्थानीय प्रतिभाओं के लिए सबसे बड़ा समर्थन प्रदर्शित कर सकता है?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_SPACE_STATION">
+      <Text>"अंतरिक्ष अगला महान साहस है। आओ साथ में कदम उठाएं!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SPACE_STATION">
+      <Text>हमें एक अंतर्राष्ट्रीय अंतरिक्ष स्टेशन बनाने के लिए एक परियोजना का आयोजन करना चाहिए, जिसमें सभी देशों के विज्ञान और इंजीनियरिंग क्षेत्रों के सर्वोत्तम प्रयास को जोड़ा जाए।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_WORLD_GAMES">
+      <Text>हमें हथियारों के साथ प्रतिस्पर्धा करने की आवश्यकता नहीं है। आइए देखें कि खेलों में हम किससे बेहतर हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_WORLD_GAMES">
+      <Text>हमारे सबसे अच्छे खिलाड़ी दुनिया के सबसे अच्छे खिलाड़ियों से प्रतियोगिता करेंगे। कौन सा राष्ट्र स्वर्ण ले जाएगा?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_CLIMATE_ACCORDS">
+      <Text>हम सभी इस ग्रह को साझा करते हैं। हमारे बच्चों और उनके बच्चों के लिए, हमें इसकी सुरक्षा करनी चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_CLIMATE_ACCORDS">
+      <Text>हम सभी को अपना हिस्सा निभाना होगा जिससे मानव जाति के कार्बन प्रभाव को कम किया जा सके। जो लोग इसमें सर्वश्रेष्ठ करेंगे, उन्हें आगामी पीढ़ियों द्वारा धन्यवाद दिया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_WORLDS_FAIR_NAME">
+      <Text>विश्व मेला</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SPACE_STATION_NAME">
+      <Text>अंतर्राष्ट्रीय अंतरिक्ष स्टेशन</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_CLIMATE_ACCORDS_NAME">
+      <Text>जलवायु समझौते</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_WORLD_GAMES_NAME">
+      <Text>विश्व खेल</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PRIZE_LITERATURE_NAME">
+      <Text>साहित्य में नोबेल पुरस्कार</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SPACEPORTS_DESC">
+      <Text>अंतरिक्ष पोर्ट जिलों का बनाए रखना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_CAMPUSES_DESC">
+      <Text>कैंपस जिलों को बनाए रखना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ASTRONAUT_PROJECT_DESC">
+      <Text>ताराबाज अभ्यास पूरा करना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_CO2_FOOTPRINT_DESC">
+      <Text>सबसे बड़े सीओ2 प्रदूषक से बहुत कम सीओ2 उत्सर्जन है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_COAL_POWER_PLANT_DESC">
+      <Text>विघटित कोयला विद्युत उत्पादन संयंत्र परियोजना पूरी करना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_OIL_POWER_PLANT_DESC">
+      <Text>ऑयल पावर प्लांट के डिकमिशन प्रोजेक्ट को पूरा करना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_NUCLEAR_POWER_PLANT_DESC">
+      <Text>पूर्ववत न्यूक्लियर पावर प्लांट प्रोजेक्ट को पूरा करना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_ATHLETE_PROJECT_DESC">
+      <Text>खिलाड़ियों के प्रशिक्षण परियोजना को पूरा करना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_STADIUMS_DESC">
+      <Text>स्टेडियमों का रखरखाव करना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_AQUATIC_CENTERS_DESC">
+      <Text>जलीय केंद्रों को बनाए रखना</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_GREAT_ARTISTS">
+      <Text>कला राष्ट्रीयता से परे होती है, हम सभी के लिए आशीर्वाद देती है। उन लोगों को सम्मान दें जो हमें स्वर्ग और नरक की झलक देते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_GREAT_ARTISTS">
+      <Text>स्वीडन साहित्य के लिए नोबेल पुरस्कार दे रहा है। चलो अपनी कलाकृतियों का परिचय दे कर हम यह पrestigious पुरस्कार जीतते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GREAT_ARTISTS_DESC">
+      <Text>[ICON_GreatWriter] महान लेखक, [ICON_GreatArtist] कलाकार, और [ICON_GreatMusician] संगीतकार अंक उत्पन्न करना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_GREAT_ARTISTS">
+      <Text>[ICON_Tourism] ग्रेट वर्क्स से पर्यटन +200% है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PHYSICS_NAME">
+      <Text>भौतिकी में नोबेल पुरस्कार</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_GREAT_STEMS">
+      <Text>"अध्ययन वह चीज है जो मानवजाति को भविष्य में आगे बढ़ती है। आइए उन महापुरुषों को सम्मान दें, जिनकी कंधों पर हम खड़े होते हैं।"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_GREAT_STEMS">
+      <Text>स्वीडन भौतिकी के लिए नोबेल पुरस्कार दे रहा है। चलो अपने आप को सबसे वैज्ञानिक बनाएं और यह प्रतिष्ठित पुरस्कार जीतें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_GREAT_STEMS_DESC">
+      <Text>[ICON_GreatEngineer] महान इंजीनियर, [ICON_GreatScientist] वैज्ञानिक, और [ICON_GreatMerchant] व्यापारी बिंदुओं को उत्पन्न करना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_GREAT_STEMS">
+      <Text>+2 यादगार [ICON_TechBoosted] और जिले की उत्पादन दर में 50% की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NOBEL_PRIZE_PEACE_NAME">
+      <Text>नोबेल शांति पुरस्कार</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_FAVOR">
+      <Text>कुछ भी इतनी मान्यता के लायक नहीं है जितनी शांति की अलौकिक तलाश।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_FAVOR">
+      <Text>स्वीडन शांति के लिए नोबेल पुरस्कार दे रहा है। आइये हम सब सबसे शांतिपूर्ण बनें और यह प्रतिष्ठित पुरस्कार जीतें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_FAVOR_DESC">
+      <Text>[ICON_Favor] राजनयिक पक्ष का उत्पादन कर रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_FAVOR">
+      <Text>विजेता को 2 मुफ्त [ICON_GreatPerson] महान व्यक्ति मिलेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_SWEDEN_GAINS_FAVOR_DESCRIPTION">
+      <Text>स्वीडन को +50 [ICON_FAVOR] राजनयिक अनुग्रह प्राप्त होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REQUEST_AID_NAME">
+      <Text>सहायता अनुरोध</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_REQUEST_AID">
+      <Text>हम नहीं छोड़ सकते कि प्रकृति के हमले से अन्य सभ्यताओं का नाश हो जाए। सबके लिए एक, और सब एक के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_REQUEST_AID">
+      <Text>हाल ही में प्राकृतिक आपदा ने {TargetName} को तबाह कर दिया था। हमारा सहयोग उनके उत्थान में हमें विश्व संघ की नजर में प्रतिष्ठा प्राप्त करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_GOLD_DESC">
+      <Text>लक्ष्य को [ICON_Gold] सोने के उपहार भेजना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_CO2_DESC">
+      <Text>कार्बन डाइऑक्साइड उत्पादित करने से आपके स्कोर में कमी होगी।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_WAR_DESC">
+      <Text>लक्ष्य के साथ युद्ध करने से आपका स्कोर कम होगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_SEND_AID_PROJECT_DESC">
+      <Text>सहायता प्रोजेक्ट को पूरा करना।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REQUEST_MILITARY_AID_NAME">
+      <Text>सैन्य सहायता का अनुरोध</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_REQUEST_MILITARY_AID">
+      <Text>हमें उन लोगों की मदद करनी चाहिए जिनके खिलाफ अनियंत्रित हमले हो रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_REQUEST_MILITARY_AID">
+      <Text>{TargetName} एक अन्धेरे युद्ध के लक्ष्य हैं जिसमें उनकी कई शिकायतों के खिलाफ एक शक्ति द्वारा हमला किया जा रहा है। हमारी सहायता शांति को बहाल करने में मदद करेगी।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_POSITION_AND_HOW_TO">
+      <Text>आप {1_Position} स्थान पर हैं। स्कोर हासिल करने के लिए निम्नलिखित कार्य करें:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_SCORE_HOW_TO">
+      <Text>स्कोर प्राप्त करें:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_SEND_AID_PROJECT">
+      <Text>सदस्यों के पास Send Aid परियोजना का पहुंच होता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ATHLETES_PROJECT">
+      <Text>सदस्यों को ट्रेन एथलीट्स प्रोजेक्ट तक पहुंच होती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ASTRONAUTS_PROJECT">
+      <Text>सदस्यों को ट्रेन एस्ट्रोनॉट्स प्रोजेक्ट का पहुँच होता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_DECOMMISSION_POWER_PLANT_PROJECTS">
+      <Text>सदस्यों को उनके शहरों में विद्युत उत्पादन संयंत्रों को समाप्त करने के प्रोजेक्टों तक पहुंच होती है।</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_COMPETE_WITH_OTHERS">
+      <Text>सदस्य [ICON_Turn] {Turns} टर्न्स के भीतर सबसे ऊपरी स्कोर प्राप्त करने के लिए प्रतिस्पर्धा करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_COMPETE_WITH_OTHERS">
+      <Text>सदस्य उच्चतम स्कोर प्राप्त करने के लिए प्रतिस्पर्धा कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_COMPETE_WITH_OTHERS">
+      <Text>सबसे ऊंचे स्कोर के लिए प्रतिस्पर्धा करें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_COMPETE_WITH_OTHERS">
+      <Text>एक उच्च अंक प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_TARGET_RECEIVE_AID">
+      <Text>सहायता प्राप्त करें।</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARDS_HOSTILE_EXPLANATION">
+      <Text>अगर सदस्य समय सीमा से पहले सभी लक्ष्य पूरा करते हैं:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NON_HOSTILE_DESCRIPTION">
+      <Text>जब समय समाप्त हो जाएगा, सदस्यों को उनके स्कोर के आधार पर पुरस्कारित किया जाएगा:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_FIRST_PLACE_DESCRIPTION">
+      <Text>केवल सदस्य जिसका सबसे अधिक स्कोर होगा, वह ही पुरस्कार प्राप्त करेगा:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_TOP_TIER_DESCRIPTION">
+      <Text>अंकों के शीर्ष 25% में रहने वाले सदस्यों को पुरस्कार मिलेगा:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_BOTTOM_TIER_DESCRIPTION">
+      <Text>अगले 25% के भीतर के सदस्यों को वितरित किया जाएगा:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NO_TIER_DESCRIPTION">
+      <Text>सदस्यों को जो कोई स्कोर नहीं है या स्कोर के निचले 50% में हैं, उन्हें कुछ नहीं मिलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NO_SCORE_DESCRIPTION">
+      <Text>सदस्य जिनके पास कोई स्कोर नहीं हैं, उन्हें रिवॉर्ड नहीं मिलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_EXTRA_EFFECTS_DESCRIPTION">
+      <Text>इसके अलावा:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_SINGLE_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>1 राजनयिक विजय अंक</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>2 राजनयिक जीत अंक।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>100 राजनयिक अनुग्रह [ICON_Favor]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_AID_REQUEST_BOTTOM_TIER_FAVOR_DESCRIPTION">
+      <Text>50 [ICON_Favor] राजनयिक प्रियंवक्ता</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_FIRST_PLACE_GREAT_PERSON_POINTS_DESCRIPTION">
+      <Text>100 महान व्यक्ति अंक [ICON_GREATPERSON]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 राजनयिक बख्शीश [ICON_Favor]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_TOP_TIER_CULTURE_DESCRIPTION">
+      <Text>2 सिविक बूस्ट्स</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_FAIR_BOTTOM_TIER_CULTURE_DESCRIPTION">
+      <Text>1 सिविक बूस्ट</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_FIRST_PLACE_CAMPUS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] प्रत्येक कैंपस के लिए पर्यटन</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 राजनयिक अनुकूलता [ICON_Favor]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_STADIUMS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] प्रत्येक स्टेडियम के लिए पर्यटन</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_TOP_TIER_AQUATIC_CENTERS_TOURISM_DESCRIPTION">
+      <Text>2 [ICON_Tourism] प्रत्येक जलीय केंद्र के लिए पर्यटन</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_BOTTOM_TIER_STADIUMS_TOURISM_DESCRIPTION">
+      <Text>1 [ICON_Tourism] हर स्टेडियम के लिए पर्यटन</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_WORLD_GAMES_BOTTOM_TIER_AQUATIC_CENTERS_TOURISM_DESCRIPTION">
+      <Text>1 [ICON_Tourism] हर जलयांत्र के लिए पर्यटन</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_FIRST_PLACE_SPACESHIP_SPEED_DESCRIPTION">
+      <Text>उनके एक्सोप्लैनेट स्पेसशिप के लिए प्रति चक्र +3 लाइट इयर्स।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>50 राजनयिक फायदा [ICON_Favor]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_TOP_TIER_SPACE_RACE_PRODUCTION_DESCRIPTION">
+      <Text>अंतरिक्ष दौड़ परियोजनाओं के लिए [ICON_Production] उत्पादन में +40% की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_ISS_BOTTOM_TIER_SPACE_RACE_PRODUCTION_DESCRIPTION">
+      <Text>अंतरिक्ष दौड़े पर +20% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_FIRST_PLACE_VICTORY_POINT_DESCRIPTION">
+      <Text>1 राजनयिक विजय अंक</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_TOP_TIER_FAVOR_DESCRIPTION">
+      <Text>100 राजनयिक अनुशंसा [ICON_Favor]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_CLIMATE_ACCORDS_BOTTOM_TIER_FAVOR_DESCRIPTION">
+      <Text>50 राजनयिक अनुशंसा [ICON_Favor]</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_FIRST_PLACE_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>रॉक बैंडों के लिए +50 एल्बम बिक्री</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_FIRST_PLACE_ROCK_BAND_CHEAPER_DESCRIPTION">
+      <Text>रॉक बैंड खरीदने के लिए 20% सस्ते हो गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_TOP_TIER_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>रॉक बैंडों के लिए +75 एल्बम बिक्री।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_LIT_BOTTOM_TIER_ROCK_BAND_BUFF_DESCRIPTION">
+      <Text>रॉक बैंडों के लिए +25 एल्बम बिक्री</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_FIRST_PLACE_TECH_BOOST_DESCRIPTION">
+      <Text>1 तकनीक का वर्धित उपयोग</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_FIRST_PLACE_UNIVERSITY_RESOURCES_DESCRIPTION">
+      <Text>यूनिवर्सिटी वाले शहरों में संसाधनों के संचय को 1 से बढ़ाता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_TOP_TIER_TECH_BOOST_DESCRIPTION">
+      <Text>टेक्नोलॉजी का बढ़ता उपयोग</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_TOP_TIER_UNIVERSITY_RESOURCES_DESCRIPTION">
+      <Text>एक अनुसंधान प्रयोगशाला वाले शहरों में संसाधनों के संचय को 1 से बढ़ाता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PHY_BOTTOM_TIER_TECH_BOOST_DESCRIPTION">
+      <Text>1 तकनीकी बढ़त</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_FIRST_PLACE_GREAT_MUSICIAN_DESCRIPTION">
+      <Text>[ICON_GreatMusician] महान संगीतकार</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_FIRST_PLACE_GREAT_SCIENTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatScientist] महान वैज्ञानिक</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_TOP_TIER_GREAT_ENGINEER_DESCRIPTION">
+      <Text>1 [ICON_GreatEngineer] महान इंजीनियर</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_TOP_TIER_GREAT_ARTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatArtist] महान कलाकार</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_NOBEL_PRIZE_PEACE_BOTTOM_TIER_GREAT_ARTIST_DESCRIPTION">
+      <Text>1 [ICON_GreatArtist] महान कलाकार</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_MEMBERS_GAIN_FAVOR_DESCRIPTION">
+      <Text>सदस्यों को 100 [ICON_Favor] राजनयिक अनुशंसा मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REWARD_TARGET_GAINS_FAVOR_DESCRIPTION">
+      <Text>टारगेट को 200 [ICON_Favor] राजनयिक अनुग्रह मिलता है।</Text>
+    </Row>
+    <!--Governors-->
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_NAME">
+      <Text>इब्राहिम</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_TITLE">
+      <Text>ग्रांड विजियर (Grand Vizier)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_SHORT_TITLE">
+      <Text>महावजीर</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IBRAHIM_DESCRIPTION">
+      <Text>सुलेमान के विज़ीर {LOC_GOVERNOR_IBRAHIM_NAME}, सैन्य और राजनय के लिए ध्यान केंद्रित गवर्नर हैं। एक अद्वितीय प्रमोशन ट्री होने के साथ-साथ, इब्राहिम वह एकमात्र गवर्नर हैं जो किसी अन्य सभ्यता की राजधानी के अलावा किसी भी घरेलू शहर में नियुक्त किया जा सकता हैं। वह सैन्य शब्दवाणी को प्रभावित करने के लिए उपयुक्त हैं लेकिन एक कुशल राजनय होने के साथ-साथ मित्रवत सभ्यताओं के साथ संबंधों को मजबूत करते हैं और प्रतिद्वंदी के साथ तनाव को कम करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PASHA_NAME">
+      <Text>Pasha</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PASHA_DESCRIPTION">
+      <Text>शहर में सभी सैन्य इकाइयों के लिए उत्पादन में +20% [ICON_Production]।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_NAME">
+      <Text>हेड फाल्कनर (Head Falconer)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_DESCRIPTION">
+      <Text>शहर के क्षेत्र के भीतर लड़ रही सभी मित्रवती इकाइयों को +5 [ICON_Strength] युद्ध शक्ति प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SERASKER_NAME">
+      <Text>सेरास्केर</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SERASKER_DESCRIPTION">
+      <Text>शहर केंद्र से 10 टाइल के भीतर सभी यूनिट को +10 [ICON_Strength] युद्ध शक्ति प्रदान करता है जब वे प्रतिरक्षात्मक जिलों पर हमला करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_CITY_GOVERNOR_ATTACK_DISTRICT_COMBAT_BONUS">
+      <Text>+{1_Amount} सेरास्कर</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_NAME">
+      <Text>Khass-Oda-Bashi</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_DESCRIPTION">
+      <Text>जब आप किसी संबद्ध विदेशी [ICON_Capital] राजधानी में स्थापित होते हैं, तो स्वामी के साथ आपके गठबंधन अंक प्रति टर्न .5 अतिरिक्त बढ़ते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_NAME">
+      <Text>कपू आगा</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_DESCRIPTION">
+      <Text>जब आप एक विदेशी [ICON_Capital] राजधानी में स्थापित होते हैं, तब हर टर्न से शहर के मालिक के आपके विरुद्ध [ICON_STAT_GRIEVANCE] शिकायतों को एक अधिक कम कर दिया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GRAND_VISIER_NAME">
+      <Text>महावज़ीर (Mahavazir)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GRAND_VISIER_DESCRIPTION">
+      <Text>जब एक विदेशी [ICON_Capital] राजधानी में स्थापित किया जाता है, तब उस मालिक के किसी भी शहर से आपके शहरों पर वफादारी दबाव नहीं पड़ता।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_NAME">
+      <Text>नवीन्य सब्सिडाइज़र</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION">
+      <Text>इस शहर में सभी ऑफशोर विंड फार्म, सोलर फार्म, विंड फार्म, भूवैज्ञानिक प्लांट और जलविद्युत बांध दोनों के लिए +2 [ICON_POWER] पावर और +2 [ICON_Gold] गोल्ड प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_NAME">
+      <Text>वन व्यवस्थापन</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION">
+      <Text>यह शहर प्रत्येक अप्रबोधित सुविधा से +2 [ICON_Gold] सोना प्राप्त करता है। अप्रबोधित सुविधाओं के पड़ोस में टाइल्स को इस शहर में +1 अपील मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_DESCRIPTION">
+      <Text>[COLOR:DiplomaticLabelCS]राजनयिक[ENDCOLOR] जीत हासिल करने के लिए, डिप्लोमेटिक अंकों की लक्ष्य संख्या जमा करने में सबसे पहले हों। जब आप विश्व कांग्रेस के निर्णय के लिए लक्ष्य और विकल्प के संयुक्त जोड़ने के लिए वोट करते हैं, तो आपको एक डिप्लोमेटिक अंक मिलेगा। आप विश्व कांग्रेस में डिप्लोमेटिक जीत प्रस्ताव द्वारा अतिरिक्त अंक कमा सकते हैं, सहायता अनुरोधों में सबसे ऊंचा स्कोर प्राप्त करके या सीस्टेड टेक, ग्लोबल वार्मिंग समाधान नागरिक या स्टेचू ऑफ लिबर्टी, महाबोधि मंदिर या पोताला पैलेस वंडर्स को पूरा करके अतिरिक्त अंक कमा सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_BLURB">
+      <Text>आपका प्राचीन और अनन्त समझौता एक संयुक्त शांति के लिए आने वाले कल की नींव होगा।</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_REQUIREMENT">
+      <Text>राजनयिक अंक: {1_NumDiplomaticPoints}/{2_TotalDiplomaticPoints}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_DIPLOMATIC_POINTS_TT">
+      <Text>राजनयिक अंक: {1_NumDiplomaticPoints}/{2_TotalDiplomaticPoints}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_NAME">
+      <Text>स्थानीय सूचकों</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_NAME">
+      <Text>विदेशी निवेशक</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_DESCRIPTION">
+      <Text>जब शहर राज्य में स्थापित हो, तब उसके रणनीतिक संसाधनों को एकत्र करें। सुजेरेन उनके एकत्रित रणनीतिक संसाधनों के दोगुना राशि प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_DESCRIPTION">
+      <Text>दुश्मन जासूस इस शहर में सामान्य स्तर से 3 स्तर नीचे काम करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_NAME">
+      <Text>पुष्टि की गई सामग्रियाँ।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_DESCRIPTION">
+      <Text>इस शहर की सुधार, इमारतें और जिले पर्यावरण के प्रभाव से नुकसान नहीं उठा सकते।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_NAME">
+      <Text>जल कार्य</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION">
+      <Text>इस शहर में हर मोहल्ले और नहर जिले के लिए +2 [ICON_HOUSING] आवास। हर नहर और बांध जिले के लिए +1 [ICON_AMENITIES] सुविधा।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_CANNOT_ASSIGN_TO_UNREVEALED_CITY">
+      <Text>इस शहर का स्थान अभी तक नहीं पता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_AT_WAR_WITH_CIVILIZATION">
+      <Text>[COLOR_RED]तुम इस सभ्यता से युद्ध चला रहे हो।</Text>
+    </Row>
+    <!--Diplomacy UI-->
+    <Row Tag="LOC_DIPLO_CHOICE_DENOUNCE_NO_GRIEVANCE">
+      <Text>दोषी ठहराना / निंदा करना</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DENOUNCE">
+      <Text>[SIZE_16]दोष लगाना[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_US">
+      <Text>{1_DiploState}, [NEWLINE][COLOR_RED]{2_Grievances} [ICON_STAT_GRIEVANCE] हमारे खिलाफ शिकायत।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_WITH_THEM">
+      <Text>{1_DiploState}, [NEWLINE][COLOR_GREEN]{2_Grievances} [ICON_STAT_GRIEVANCE] उनके खिलाफ शिकायतें।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_GRIEVANCES_NONE">
+      <Text>{1_DiploState}, [NEWLINE] कोई शिकायत नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_FREE_CITY_EXPLANATION">
+      <Text>शहर को जमीन से मिटा दें और उसके सभी जिलों और इमारतों को मैप से हटा दें। इस विकल्प को शहर जीतने के वक्त चुना जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_FREE_CITY_EXPLANATION">
+      <Text>इस स्वतंत्र शहर को बनाए रखना दूसरे खिलाड़ियों के साथ कोई [ICON_STAT_GRIEVANCE] आपत्ति नहीं उत्पन्न करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_LIBERATE_WARMONGER_EXPLANATION">
+      <Text>इस शहर को मुक्त करने से आपको {1_Favor} [ICON_Favor] राजनैतिक अनुकूलता प्राप्त होगी।</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_WARMONGER_EXPLANATION">
+      <Text>इस शहर को रखने से हमारे खिलाफ इस विरोधी के {1_Grievances} [ICON_STAT_GRIEVANCE] शिकायत होंगी। [NEWLINE][NEWLINE][ICON_STAT_GRIEVANCE] शिकायतों का अंत युद्ध के अंत में शहर को रखने या न रखने के आधार पर दोहराया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_KEEP_LAST_CITY_EXPLANATION">
+      <Text>इस विरोधी के अंतिम शहर को रखना सभी प्रमुख शक्तियों को {1_Grievances} [ICON_STAT_GRIEVANCE] हमारे ख़िलाफ शिकायत करने का मौका देगा (हालांकि ये अन्य शक्तियों के लिए कम हो जाते हैं जो इस मिटाए दुश्मन के साथ युद्धरत हैं)।</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_WARMONGER_EXPLANATION">
+      <Text>इस शहर को ढहा देना हमारे विरोधी को {1_Grievances} [ICON_STAT_GRIEVANCE] हमारे खिलाफ शिकायत करने का मौका देगा!</Text>
+    </Row>
+    <Row Tag="LOC_XP2_RAZE_CITY_RAZE_LAST_CITY_EXPLANATION">
+      <Text>इस विरोधी के अंतिम शहर को ध्वस्त करने से सभी प्रमुख शक्तियों को हमसे {1_Grievances} [ICON_STAT_GRIEVANCE] शिकायतें होंगी (यद्यपि इस नष्ट शत्रु के साथ युद्धरत अन्य शक्तियों के लिए ये कम हो जाते हैं)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_CHOICE_NEGATIVE">
+      <Text>मेरे लोग जहाँ चाहें वहाँ बसेंगे! [NEWLINE][SIZE_12]यह [ICON_STAT_GRIEVANCE] शिकायतों में [COLOR_Civ6DarkRed]25[ENDCOLOR] का उत्पादन करता है।[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_CHOICE_POSITIVE">
+      <Text>क्षमा करें, मैं भविष्य में कहीं और देखूंगा। [NEWLINE][SIZE_12] 30 लाभ [ICON_Favor] राजनयिक लाभ[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_CHOICE_NEGATIVE">
+      <Text>मैं वादा नहीं कर सकता। [NEWLINE][SIZE_12] [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] शिकायतें उत्पन्न करता है। [SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_CHOICE_POSITIVE">
+      <Text>मैं क्षमा चाहता हूं, मैं तुरंत इन ऑपरेशनों को बंद कर दूंगा। [NEWLINE][SIZE_12] 30 [ICON_Favor] राजनयिक अनुदान प्राप्त करें। [SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_CHOICE_NEGATIVE">
+      <Text>आप इतिहास के दावे नहीं लगा सकते। मैं जहां चाहूं खोदूँगा। [NEWLINE][SIZE_12]25 [ICON_STAT_GRIEVANCE] शिकायतों [SIZE_18] की उत्पादन करता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_CHOICE_POSITIVE">
+      <Text>क्षमा करें, मैं अपने पुरातत्वविदों को कहीं और ले जाऊंगा। [NEWLINE][SIZE_12]30 [ICON_Favor] राजनैतिक अनुग्रह प्राप्त करें[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_CHOICE_NEGATIVE">
+      <Text>अगर भगवान की इच्छा है कि आपके लोग हमारे तरीकों में विश्वास करें, तो मैं उसे रोकने वाला कौन हूँ? [NEWLINE][SIZE_12] [COLOR_Civ6DarkRed]25[ENDCOLOR] [ICON_STAT_GRIEVANCE] शिकायतों को उत्पन्न करता है[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_CHOICE_POSITIVE">
+      <Text>मुझे माफ़ करें, मैं अपने लोगों का स्वागत मानता था। मैं ग़लत था। [NEWLINE][SIZE_12]जायदाद 30 [ICON_Favor] राजनीतिक उपकार[SIZE_18]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_LIBERATION_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](दोस्ताना शहरों को कैप्चर करते समय कोई [ICON_STAT_GRIEVANCE] शिकायत नहीं उत्पन्न हुई)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_RECONQUEST_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE] (अपने शहरों को फिर से जीतने पर कोई [ICON_STAT_GRIEVANCE] शिकायत नहीं उत्पन्न हुई)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_PROTECTORATE_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](जब सहायक शहर राज्यों की रक्षा करते समय कोई [ICON_STAT_GRIEVANCE] शिकायत नहीं उत्पन्न हुई)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_INSUFFICIENT_FAVOR">
+      <Text>{1_ActionType} करने में असमर्थ[NEWLINE][COLOR_RED]{2_FavorRequirement} [ICON_Favor] राजनयिक अनुग्रह की आवश्यकता है।[ENDCOLOR]</Text>
+    </Row>
+    <!--Grievance Log-->
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED">
+      <Text>हमारे बीच युद्ध घोषित किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_WAR_DECLARED">
+      <Text>शहर राज्य पर युद्ध घोषित: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED_ALLY">
+      <Text>साथी पर घोषित युद्ध: {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_WAR_DECLARED_FRIEND">
+      <Text>दोस्त पर युद्ध घोषित: {1_CivName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_OCCUPIED">
+      <Text>शहर अधिकृत रूप से कब्जे में है: {1_CityName}।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_LAST_CITY_OCCUPIED">
+      <Text>अंतिम शहर जीता गया: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_RAZED">
+      <Text>शहर ध्वस्त हो गया: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_CEDED">
+      <Text>अर्पित शहर: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_RETURNED">
+      <Text>शहर लौटा: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_LIBERATED">
+      <Text>शहर स्वतंत्र: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_CONQUERED">
+      <Text>राज्य शहर जीता गया: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_CITY_STATE_RAZED">
+      <Text>राज्य-शहर नष्ट किया गया: {1_CityName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_REFUSED">
+      <Text>वादा करने से इनकार कर दिया</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_BROKEN">
+      <Text>वादा तोड़ा गया।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY_DOUBLED">
+      <Text>[NEWLINE]{1_Amount} द्विगुण आम रूप से प्रति टर्न का अपघटन {2_Era} में से।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_PROMISE_BEHAVIOR_CONTINUED">
+      <Text>वादा अस्वीकार और जारी रवैया</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_LOG_DENOUNCED">
+      <Text>निंदा की।</Text>
+    </Row>
+    <!--Grievance Diplo Tooltip -->
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_HEADER">
+      <Text>{1_Grievances} [ICON_STAT_GRIEVANCE] {2_Civilization} के खिलाफ जमा हुए शिकायतें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_AT_WAR">
+      <Text>युद्ध के दौरान [ICON_STAT_GRIEVANCE] शिकायतें जब तक युद्ध समाप्त नहीं होता, वे नहीं खटम होतीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DISABLED">
+      <Text>अक्षम [ICON_STAT_GRIEVANCE] शिकायतें आपके द्वारा लागू की गई नीति के कारण नहीं गिरेंगी।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_GAINING">
+      <Text>प्रती चाल से [ICON_STAT_GRIEVANCE] शिकायत प्राप्त करना:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_LOSING">
+      <Text>प्रति टर्न [ICON_STAT_GRIEVANCE] शिकायतों का नुकसान हो रहा है:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_UNCHANGED">
+      <Text>स्थिर [ICON_STAT_GRIEVANCE] प्रति टर्न शिकायतें बदल नहीं रही हैं:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY">
+      <Text>{2_Era} में प्रति टर्न का {1_Amount} का संपदा गिरावट।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} विदेशी राज्यपाल [ICON_Capital] राजधानी में तनाव कम करने में मदद कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_POSSESS_CAPITAL">
+      <Text>विरोधी की मूल [ICON_Capital] राजधानी का कब्जा करने के लिए {1_Amount}।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_POSSESS_NON_CAPITAL">
+      <Text>विरोधी के शहर में कब्जे के लिए {1_Amount}।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GRIEVANCE_TOOLTIP_DECAY_MODIFIER">
+      <Text>[NEWLINE][NEWLINE]इस नेता के साथ अपघटन दर +{1_Amount}% बढ़ी हुई है।</Text>
+    </Row>
+    <!--World Rankings UI-->
+    <Row Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_REDUCTION_MODIFIER">
+      <Text>{1_Tooltip}[NEWLINE]अन्य प्रभावों के कारण {2_Percent}% कम हुआ [ICON_Tourism] कुल पर्यटन।</Text>
+    </Row>
+    <!--Government UI-->
+    <Row Tag="LOC_GOVERNMENT_FAVOR_BONUS">
+      <Text>अनुग्रह पीढ़ी उत्पन्न करना</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FAVOR_PER_TURN">
+      <Text>प्रति [ICON_Turn] टर्न {1_FavorPerTurn} [ICON_FAVOR] राजनीतिक अनुकूलता प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_POLICY_REQUIRES_GOVERNMENT">
+      <Text>{1_NumGovernments : plural 1?सरकार की आवश्यकता होती है; other?किसी भी सरकार की आवश्यकता होती है;}</Text>
+    </Row>
+    <!--City-State Panel UI-->
+    <Row Tag="LOC_CITY_STATE_PANEL_UNIQUE_SUZERAIN_BONUS_DISABLED">
+      <Text>(विश्व कांग्रेस द्वारा अक्षम)</Text>
+    </Row>
+    <!--Alliance-->
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_YOUR_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} आपके गवर्नर से पॉइंट्स</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_THEIR_GOVERNOR">
+      <Text>[NEWLINE]{1_Amount} आपके साथी राज्यपाल से प्राप्त अंक</Text>
+    </Row>
+    <!-- World Congress -->
+    <Row Tag="LOC_WORLD_CONGRESS_TOP_PANEL_FAVOR_TOOLTIP">
+      <Text>यह राजनयिक वोट खरीदने के लिए एक मुद्रा है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_TITLE">
+      <Text>विश्व कांग्रेस में आपका स्वागत है।</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_TITLE">
+      <Text>विश्व कॉंग्रेस का विशेष सत्र</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_IS_CURRENTLY_IN_SESSION">
+      <Text>विश्व कांग्रेस वर्तमान में सत्र में है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_IS_CURRENTLY_IN_A_SPECIAL_SESSION">
+      <Text>विश्व कांग्रेस विशेष सत्र में है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_BODY_1">
+      <Text>दुनिया कांग्रेस अब सत्र में है! हर विश्व नेता को वोट देना होगा वर्तमान में प्रस्तावों पर।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_BODY_2">
+      <Text>जब सभी वोट सबमिट हो जाते हैं, तब विजेता प्रस्तावों को विश्व कांग्रेस की अगली बैठक तक लागू किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_BODY_1">
+      <Text>विश्व कांग्रेस को विशेष अधिवेशन बुलाया गया है जिसमें चर्चाएं विचार की जाएँगी।</Text>
+    </Row>
+    <Row Tag="LOC_SPECIAL_CONGRESS_INTRO_BODY_2">
+      <Text>जब सभी के वोट सबमिट हो जाते हैं, तब चर्चाओं को पारित करने के बाद संबंधित आपातकालीन स्थितियों को लागू किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TITLE">
+      <Text>विश्व संगठन: सत्र में</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_END">
+      <Text>विश्व कांग्रेस: सत्र पूर्ण!</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOT_IN_SESSION">
+      <Text>विश्व कांग्रेस: सत्र नहीं चल रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_VOTE_NORMAL_SESSION_DESCRIPTION">
+      <Text>आपको तय करना होगा कि विश्व संगठन में आपको उपलब्ध संभावनाओं का सर्वोत्तम उपयोग कैसे करना है। अपने एकत्रित [ICON_FAVOR] वैदेशिक सहमति का उपयोग करके प्रस्तावों पर मतदान करें जो आपके और आपके लोगों के लिए महत्वपूर्ण हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_VOTE_SPECIAL_SESSION_DESCRIPTION">
+      <Text>हाल के घटनाक्रम विश्व संगठन की ध्यान आवश्यकता को माँगते हैं। अपने जमा [ICON_FAVOR] राजनयिक फायदे का उपयोग करें ताकि आपके लिए और आपके लोगों के लिए महत्वपूर्ण चर्चाओं पर मतदान कर सकें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMIT_PROPOSALS_CONFIRM">
+      <Text>क्या आप इन प्रस्तावों को जमा करना चाहते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_TITLE">
+      <Text>विश्व कांग्रेस: विशेष सत्र में</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_END">
+      <Text>विश्व कांग्रेस: विशेष सत्र पूर्ण हुआ!</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_INSTRUCTIONS">
+      <Text>इन विवादों पर वोट करने के लिए [ICON_FAVOR] राजनयिक अनुशंसा का उपयोग करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SPECIAL_SESSION_CONFIRM">
+      <Text>क्या आप यकीनन इन प्रस्तावों को सबमिट करना चाहते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOOSE_TITLE">
+      <Text>विश्व कांग्रेस: सत्र में</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_TITLE">
+      <Text>विश्व कांग्रेस: परिणाम</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_DESCRIPTION">
+      <Text>विश्व कांग्रेस की पिछली सत्र के परिणाम की समीक्षा करें। [NEWLINE] कांग्रेस {1_Turns} टर्न में फिर से आमंत्रित की जाएगी, या यदि अनुरोध किया जाए, तो एक विशेष सत्र में।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_EFFECTS_DESCRIPTION">
+      <Text>ये प्रस्ताव (सभी पिछले विश्व कांग्रेस सत्रों से) वर्तमान में प्रभाव में हैं:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AVAILABLE_PROPOSALS_DESCRIPTION">
+      <Text>यहां आप अपने पास पर्याप्त [ICON_FAVOR] राजनयिक अनुशंसा करके दुनिया कांग्रेस का एक विशेष सत्र अनुरोध कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_INTRO_ACCEPT">
+      <Text>मतदान शुरू करें। (Matdaan shuru karein.)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_GRIEVANCE_VALUE">
+      <Text>[ICON_GRIEVANCE] {1_शिकायतें}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_GRIEVANCE_DEFINITION">
+      <Text>इस नेता के खिलाफ आपके [ICON_GRIEVANCE_TT] {1_Grievances} शिकायतें हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NEXT">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवादित करें। कृपया स्वाभाविक ध्वनियुक्त अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREV">
+      <Text>कृपया पिछला टेक्स्ट हिंदी में अनुवादित करें। प्राकृतिक और सुनीली अनुवाद मात्र दें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMIT">
+      <Text>जमा करें</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SUBMITTING">
+      <Text>प्रस्तुत कर रहा हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RETURN">
+      <Text>खेल में वापस जाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_FAVOR">
+      <Text>[ICON_FAVOR] {1_Favor}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CATEGORY_FAVOR">
+      <Text>लागत: [ICON_FAVOR] {1_Favor}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_FAVOR_TITLE">
+      <Text>[ICON_FAVOR_LARGE] {1_Favor} (इक विनती)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_TITLE">
+      <Text>अन्य खिलाड़ियों का इंतजार कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_TITLE_YOU">
+      <Text>आपकी प्रतीक्षा कर रहा हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_WAITING">
+      <Text>प्रस्तावों का इंतजार है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_SUBMITTED">
+      <Text>प्रस्ताव जमा किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_READY">
+      <Text>सभी प्रस्ताव जमा हो चुके हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETWEEN_TURNS_DESCRIPTION">
+      <Text>जब शेष खिलाड़ी विचार-विमर्श के लिए अपने प्रस्ताव सबमिट कर देंगे, तब विश्व कांग्रेस फिर से संयोजित होगा।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_HUD_BAR_TIME_UNTIL_NEXT_SESSION">
+      <Text>अगले सत्र तक समय: {1_Turns : plural 1? {1_Turns} टर्न; other? {1_Turns} टर्न; }</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MEMBERS">
+      <Text>कांग्रेस के सदस्य</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_PROPOSALS_ENACTED">
+      <Text>प्रस्ताव लागू किए गए: ({1_Proposals})</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RESULTS_WORLD_EVENT_RESOLUTIONS">
+      <Text>निर्णय लेना।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_DELIBERATION_PROPOSED_TARGET">
+      <Text>इस संकल्प के लिए एक लक्ष्य चुनें:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_SUBMISSION_WORLD_EVENT_RESOLUTIONS">
+      <Text>प्रतिज्ञाएं</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSED_BY">
+      <Text>{1_Senders} द्वारा प्रस्तावित</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_PASSED">
+      <Text>[COLOR:Civ6Green]उत्तीर्ण[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_PASSED_TIE">
+      <Text>[COLOR:Civ6Green]टाई ब्रेकर से पास हुआ[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_FAILED">
+      <Text>असफल</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PROPOSAL_FAILED_TIE">
+      <Text>[COLOR:Civ6Red]टाई ब्रेकर के माध्यम से असफल[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_LEADER_FAVOR">
+      <Text>इस नेता के पास [ICON_FAVOR] {1_Num} राजनयिक अनुमति है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLAYER_FAVOR">
+      <Text>आपके पास [ICON_FAVOR] {1_Num} राजनयिक अनुशंसा है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLAYER_FAVOR_TO_SPEND">
+      <Text>आपके पास खर्च करने के लिए इतना [ICON_FAVOR] राजनयिक फायदा बचा हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_RESOLUTIONS_FAVOR_COST_WITH_REFUND">
+      <Text>आप संगठन विश्व के प्रतिनिधि सदन में [ICON_FAVOR] {1_Num} राजनयिक अनुग्रह का खर्च कर रहे हैं। अगर विश्व संघ को आपके चयनों से सहमति नहीं होती है, तो आपका कुछ अनुग्रह वापस कर दिया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_DISCUSIONS_FAVOR_COST_WITH_REFUND">
+      <Text>आप इन चर्चाओं पर [ICON_FAVOR] {1_Num} राजनयिक अनुग्रह खर्च कर रहे हैं। यदि विश्व संघ को आपके वोट से सहमत नहीं होता है, तो आपके अनुग्रह कुछ वापस किए जाएंगे।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_DISCUSIONS_FAVOR_COST_NO_REFUND">
+      <Text>आप इन वार्तालापों की प्रस्तावना करने के लिए [ICON_FAVOR] {1_Num} राजनयिक अनुशंसा खर्च कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_INSUFFICIENT_FAVOR_COST">
+      <Text>पर्याप्त [ICON_FAVOR] व्यवहारिक अनुशंसा नहीं है। आपको कम से कम [ICON_FAVOR] {1_Num} व्यवहारिक अनुशंसा की जरूरत है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NO_VOTING_DOWN">
+      <Text>वोट करें उस लक्ष्य के लिए जिस पर आप इस संशोधन को लागू करना चाहते हैं और कौन सा प्रभाव लागू किया जाना चाहिए। आपका पहला वोट मुफ्त है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_AGAINST_TARGET">
+      <Text>इस चर्चा के खिलाफ वोट करें। यदि चर्चा पास होती है, तो आप इस आपातकालीन से निशाना बनेंगे। आपका पहला वोट मुफ्त है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_AGAINST">
+      <Text>इस चर्चा के खिलाफ वोट करें। भले ही चर्चा पास हो जाए, लेकिन आप Scored Competition में शामिल नहीं होंगे। आपका पहला वोट मुफ्त है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PLEASE_VOTE_FOR">
+      <Text>इस चर्चा के लिए वोट करें। यदि चर्चा पास होती है, तो आप नतीजता स्कोर किए गए मुकाबले में शामिल होंगे। आपका पहला वोट मुफ्त है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_TIE_EXPLANATION">
+      <Text>जब टाई होती है, तो जिस लक्ष्य के लिए सभी सभ्यताएं मतदान करते समय अपने सबसे ज्यादा [ICON_Favor] राजनयिक अनुशंसा खर्च करती हैं, वह विजेता होगा।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SELECT_ONE">
+      <Text>आपको कम से कम एक प्रस्ताव जमा करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SELECT_ALL">
+      <Text>आपको सभी जमा की गई प्रस्तावों पर वोट करना आवश्यक है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_GAME_PAUSED">
+      <Text>जब गेम पॉज होता है तब आप आगे नहीं बढ़ सकते।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_SUBMITTING">
+      <Text>आपका वोट सबमिट किया जा रहा है...</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PROPOSAL_COST">
+      <Text>इस चर्चा का खर्च {1_Num} [ICON_FAVOR] राजनयिक उपकार की मांग होगी।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_CATEGORY_COST">
+      <Text>इस श्रेणी में सभी चर्चाओं की लागत {1_Num} [ICON_FAVOR] राजनयिक पसंद में होगी।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_PROPOSAL_REFUND">
+      <Text>इस चर्चा को हटा दें और {1_Num} [ICON_FAVOR] डिप्लोमेटिक फ़ेवर का रिफंड करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_UP">
+      <Text>{1_Num} [ICON_FAVOR] राजनयिक अनुग्रह के लिए एक वोट जोड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_DOWN">
+      <Text>एक वोट हटाएं और {1_Num} [ICON_FAVOR] डिप्लोमेटिक फ़ेवर वापस करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_UP_SUMMARY">
+      <Text>आप इस विवाद को लेकर {1_Votes} {1_Votes : plural 1?vote; other?votes;} जमा करने वाले हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_DOWN_SUMMARY">
+      <Text>आप इस चर्चा के खिलाफ {1_Votes} {1_Votes : plural 1?vote; other?votes;} जमा करने वाले हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_VOTE_COST">
+      <Text>{1_Icon} {2_Votes} {2_Votes : plural 1?वोट; other?वोट;} {3_Cost} [ICON_FAVOR] दूतावासीय अनुकूलता से खर्च किया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NEW_RESOLUTION">
+      <Text>विश्व कांग्रेस के अंतिम सत्र के दौरान यह संकल्प पारित किया गया था।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_NEW_PROPOSAL">
+      <Text>यह चर्चा विश्व कांग्रेस के पिछले सत्र में पारित की गई थी।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TT_MAX_ONE_PROPOSAL">
+      <Text>आप प्रत्येक खिलाड़ी के लिए केवल एक संकल्प प्रस्तावित कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES">
+      <Text>A:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES_TT">
+      <Text>निम्नलिखित खिलाड़ी नतीजा ए का चुना:[NEWLINE][NEWLINE]{1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREFERRED_VOTES_TT">
+      <Text>निम्नलिखित खिलाड़ी इस परिणाम की पसंद करते हैं: [NEWLINE][NEWLINE] {1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_A_VOTES_TT_SUMMARY">
+      <Text>आप आउटकम A के लिए {1_Amount} {1_Amount : plural 1?vote; other?votes;} सबमिट करने वाले हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES">
+      <Text>B:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES_TT">
+      <Text>निम्नलिखित खिलाड़ी उत्पाद ब चुना:[NEWLINE][NEWLINE]{1_players}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_B_VOTES_TT_SUMMARY">
+      <Text>आप बिना आउटकम B के लिए {1_Amount} {1_Amount : plural 1?vote; other?votes;} सबमिट करने वाले हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_SELECT_TARGET">
+      <Text>लक्ष्य चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_LAST_SESSION_RESULTS">
+      <Text>अंतिम सत्र के परिणाम</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ACTIVE_EFFECTS">
+      <Text>सक्रिय प्रभाव</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AVAILABLE_PROPOSALS">
+      <Text>उपलब्ध प्रस्तावों</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CONFIRM_SUBMIT_PROPOSALS">
+      <Text>चयनित विवादों को प्रस्तुत करने के लिए [ICON_FAVOR] {1_NumFavor} राजनयिक अनुकूलता लगेगी और अगली बार चालू टर्न के दौरान विश्व कांग्रेस की एक विशेष सत्र शुरू होगी।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_TARGET">
+      <Text>चुनी हुई लक्ष्य:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_OUTCOME">
+      <Text>चुनावी परिणाम: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREVIEW_PROPOSAL_TARGET">
+      <Text>चयनित लक्ष्य:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PREVIEW_PROPOSAL_OUTCOME">
+      <Text>चयनित परिणाम: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_PROPOSAL_REJECTED_OUTCOME">
+      <Text>अस्वीकृत नतीजा: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_VOTER_TARGET">
+      <Text>लक्ष्य चुनें:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_VOTER_OUTCOME">
+      <Text>चुनिए परिणाम: {1_ChoiceLabel}</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NO_AVAILABLE_PROPOSALS_TT">
+      <Text>आपके पास विश्व कांग्रेस को सबमिट करने के लिए कोई प्रस्ताव नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TURNS_LEFT_TT">
+      <Text>यह विश्व कांग्रेस प्रभाव [ICON_TURN] {1_Turns} {1_Turns : plural 1?turn; other?turns;} में समाप्त हो जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TARGET_RESOLUTION_TT">
+      <Text>क्या इस संकल्प का लक्ष्य है?</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_TARGET_PROPOSAL_TT">
+      <Text>यह प्रतियोगिता का लक्ष्य है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_A_VOTES_TT">
+      <Text>{1_Votes} आउटकम A के पक्ष में दायर किए गए थे।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_B_VOTES_TT">
+      <Text>{1_Votes} {1_Votes : एक वोट; अन्य वोट;} परिणाम बी के पक्ष में दाखिल किए गए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_UP_VOTES_TT">
+      <Text>इस प्रतियोगिता के पक्ष में {1_Votes} {1_Votes : plural 1?वोट था; other?वोट थे;} दायर किए गए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_DOWN_VOTES_TT">
+      <Text>इस प्रतियोगिता के खिलाफ {1_Votes} {1_Votes : plural 1?वोट था; other?वोट थे;} जमा किए गए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_A_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} ने परिणाम A के पक्ष में {2_Votes} {2_Votes : plural 1?vote; other?votes;} जमा किए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_B_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} ने परिणाम B के पक्ष में {2_Votes} {2_Votes : plural 1?vote; other?votes;} दायर किए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_UP_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} ने इस प्रतियोगिता के पक्ष में {2_Votes} {2_Votes : plural 1?vote; other?votes;} दाखिल किए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_REVIEW_DOWN_VOTES_PLAYER_TT">
+      <Text>{1_PlayerName} ने इस प्रतियोगिता के खिलाफ {2_Votes} {2_Votes : plural 1?vote; other?votes;} जमा किए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_EMPTY">
+      <Text>विश्व कांग्रेस का एक सत्र {1_Turns} में शुरू होगा। [NEWLINE] [NEWLINE] कांग्रेस उपलब्ध प्रस्तावों में से चुनकर एक विशेष सत्र के लिए भी बुलाई जा सकती है। जैसे-जैसे दुनिया भर में संकट उत्पन्न होते हैं, नए प्रस्ताव उपलब्ध होते जाएंगे।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_OR">
+      <Text>कृपया आगे दिए गए पाठ का हिंदी में अनुवाद करें। केवल प्राकृतिक ध्वनि वाले अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOICE_A">
+      <Text>मुझे अंग्रेजी से हिंदी में अनुवाद करें तो कृपया निम्नलिखित पाठ का अनुवाद करें:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CHOICE_B">
+      <Text>B</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_PASS">
+      <Text>कृपया अगला पाठ अनुवादित करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ADD_PROPOSALS">
+      <Text>प्रस्ताव जोड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CITY_STATE_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} ने {OldCityName} को कब्जा कर लिया है। हमें इसकी स्वतंत्रता को फिर से स्थापित करनी होगी।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_RELIGIOUS_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} ने {OldCityName} को {NewReligion} में बदल दिया है। हमें इस नए धर्म को उखाड़ना चाहिए।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_BETRAYAL_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} ने {OldPlayerName} को धोखा दिया है। हमें उनकी विश्वासघाती कार्यवाही करनी चाहिए।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MILITARY_EMERGENCY_SUMMARY">
+      <Text>"{OldCityName} को {TargetName} ने कब्जा कर लिया है। हमें उनकी आक्रमण रोकना होगा।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NUCLEAR_EMERGENCY_SUMMARY">
+      <Text>"{TargetName} ने एक न्यूक्लियर हथियार का उपयोग किया है। हमें इस घृणित कृत्य का सजा देनी चाहिए।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_AID_REQUEST_SUMMARY">
+      <Text>"{TargetName} को कुछ प्राकृतिक आपदा ने तबाह कर दिया है। हमें उनकी पुनर्स्थापना में मदद करनी चाहिए।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_MILITARY_AID_REQUEST_SUMMARY">
+      <Text>"{TargetName} को एक आक्रामक दुश्मन के लक्ष्य के रूप में निशाना बनाया जा रहा है। हमें उनकी रक्षा के लिए धनराशि देनी चाहिए।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_CLIMATE_ACCORD_SUMMARY">
+      <Text>हम सभी इस पृथ्वी का साझा हिस्सा हैं। हमें अपने बच्चों और उनके बच्चों के लिए इसे संरक्षित करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_WORLD_GAMES_SUMMARY">
+      <Text>खेल के माध्यम से हम सबको यह सिद्ध करना चाहिए कि सबसे शक्तिशाली कौन है, युद्ध में शारीरिक शक्ति का सबूत देने की जरूरत नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_WORLDS_FAIR_SUMMARY">
+      <Text>"कौन सा देश सबसे बेहतर क्रिएटिव और आविष्कारकों को देता है? आइए देखते हैं कि कौन सबसे तेज दिमाग रखता है।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_ISS_SUMMARY">
+      <Text>"अंतरिक्ष किसी भी एक सभ्यता के लिए बहुत बड़ा है। चलो इस अज्ञात में भ्रमण करने के लिए साथ में काम करें।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_PEACE_SUMMARY">
+      <Text>"स्वीडन शांतिपूर्ण राष्ट्र को सम्मानित करना चाहता है। हम देखेंगे कि यह हम में से कौन है।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_LITERATURE_SUMMARY">
+      <Text>"स्वीडन शानदार हस्तलेखन को स्वीकार करना चाहता है। हम देखेंगे कि कौन सबसे अच्छी साहित्य उत्पन्न करता है।"</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_SCIENCE_SUMMARY">
+      <Text>"स्वीडन वैज्ञानिक नेतृत्व को स्वीकार करना चाहता है। हम देखेंगे कि कौन वैज्ञानिकों को सबसे अधिक प्रोत्साहित करता है।"</Text>
+    </Row>
+    <!-- Scored Competitions -->
+    <Row Tag="LOC_SCORED_COMPETITION_EMERGENCY_COMPLETED">
+      <Text>{1_Name} पूर्ण हुआ</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_EMERGENCY_ONGOING">
+      <Text>चल रहा है {1_Name}</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_COMPLETED">
+      <Text>प्रतियोगिता समाप्त हो गई।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_ONGOING">
+      <Text>चल रही प्रतियोगिता</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_WIN">
+      <Text>आप जीते!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_LEADER_WINS">
+      <Text>{1_Name} जीतते हैं!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_WIN">
+      <Text>सदस्य जीतते हैं!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_TARGET_WINS">
+      <Text>टारगेट विजयी होता है!</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_BRONZE">
+      <Text>आपने [ICON_Reward_Bronze] ब्रॉन्ज टियर रिवॉर्ड्स कमाएं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_SILVER">
+      <Text>आपने [ICON_Reward_Silver] SILVER Tier Rewards कमाए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_GOLD">
+      <Text>आपने [ICON_Reward_Gold] सोने के टियर रिवार्ड्स कमाए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_NONE">
+      <Text>आपने [ICON_Reward_None] कोई रिवॉर्ड नहीं कमाए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_TARGET">
+      <Text>आपने [ICON_Reward_Target] लक्ष्य पुरस्कार कमाए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_YOU_EARNED_MEMBER">
+      <Text>आप [ICON_Reward_Member] सदस्य अवार्ड अर्जित किया हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_GOLD_TIER">
+      <Text>[ICON_Reward_Gold] स्वर्ण टियर</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER">
+      <Text>[ICON_Reward_Silver] चांदी टियर</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_BRONZE_TIER">
+      <Text>[ICON_Reward_Bronze] ब्रॉन्ज टियर</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_TIME_SUCCESS">
+      <Text>सदस्यों ने समय पर अपने उद्देश्य को पूरा किया।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBERS_TIME_FAIL">
+      <Text>सदस्यों ने समय पर अपने उद्देश्य को पूरा नहीं किया।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_AID_REQUEST_SUCCESS">
+      <Text>सदस्यों ने समय सीमा के भीतर जो अधिक सहायता भेज दी है। एक दानवीर बाकी सभी से अलग खड़ा है।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_COMPETITION_SUCCESS">
+      <Text>दुनिया के शक्तियों की इस शांतिपूर्ण प्रतियोगिता का अंत हो चुका है। एक सभ्यता बाकी सभी से अलग नजर आती है।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_LITERATURE_SUCCESS">
+      <Text>स्वीडन ने सबसे कलात्मक सभ्यता को महान नोबेल साहित्य पुरस्कार से सम्मानित किया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_PEACE_SUCCESS">
+      <Text>स्वीडन ने शांति के लिए सम्मानित नोबेल पुरस्कार प्राप्त करने वाली सबसे शांतिपूर्ण सभ्यता को पुरस्कृत किया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NOBEL_PRIZE_SCIENCE_SUCCESS">
+      <Text>स्वीडन ने वैज्ञानिक दृष्टिकोण वाले सबसे उत्कृष्ट सभ्यता को भौतिक शास्त्र के लिए प्रतिष्ठित नोबेल पुरस्कार प्रदान किया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER_CHILD">
+      <Text>सभी सिल्वर टियर रिवार्ड्स</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_GOLD_TIER_TITLE">
+      <Text>[ICON_Reward_Gold] सोने के टियर के रिवॉर्ड (सबसे अधिक स्कोर के लिए):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_SILVER_TIER_TITLE">
+      <Text>[ICON_Reward_Silver] सिल्वर टियर रिवॉर्ड्स (ऊपरी 25% स्कोर के लिए):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_BRONZE_TIER_TITLE">
+      <Text>[ICON_Reward_Bronze] ब्रोंज टियर रिवॉर्ड्स (अगले 25% स्कोर के लिए):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_TARGET_TIER_TITLE">
+      <Text>[ICON_Reward_Target] लक्ष्य रिवॉर्ड (यदि समय समाप्त हो जाता है):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_MEMBER_TIER_TITLE">
+      <Text>[ICON_Reward_Member] सदस्य रिवॉर्ड (समय पर लक्ष्य पूरा करने के लिए):</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NO_TIER_TITLE_BOTTOM">
+      <Text>[ICON_Reward_None] खिलाड़ी जो किसी टियर में स्थान नहीं लेते, उन्हें कोई रिवार्ड नहीं मिलता।</Text>
+    </Row>
+    <Row Tag="LOC_SCORED_COMPETITION_NO_TIER_TITLE_NONE">
+      <Text>[ICON_Reward_None] स्कोर न होने वाले सदस्यों को कोई रिवार्ड नहीं मिलता।</Text>
+    </Row>
+    <!-- Rock band -->
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_DESCRIPTION">
+      <Text>आपके प्रबंधक की उम्मीद है कि इस स्थान से {1_Tourism} [ICON_TOURISM] पर्यटन उत्पन्न होगा। [NEWLINE][NEWLINE]इन रॉकर्स के एक अंतिम गिग के बाद इसे सेवा से समाप्त कर देने की {2_Death}% संभावना है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_DIFFERENT_OWNER">
+      <Text>आपसे अलग मेजर सभ्यता द्वारा स्वामित्व वाली टाइल पर होना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_LOCATION">
+      <Text>एक मान्य लक्ष्य स्थान की आवश्यकता होती है। संभव लक्ष्य स्थान विस्मय, आवश्यक इमारतों में से एक के साथ जिलों, या बैंड के बढ़त के द्वारा अनुमति दी गई विशेष लक्ष्य के रूप में शामिल हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_TOURISMBOMB_NOTPLAYED">
+      <Text>एक ही टाइल को एकाधिक बार खेला नहीं जा सकता।</Text>
+    </Row>
+    <!-- Drought -->
+    <Row Tag="LOC_UNITOPERATION_REPAIR_BLOCKED_BY_DROUGHT">
+      <Text>इस सुधार को जब तक सूखे की स्थिति जारी है, ठीक नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_IMPROVEMENT_BLOCKED_BY_DROUGHT">
+      <Text>जब एक सूखे की स्थिति चल रही हो तो यह सुधार नहीं किया जा सकता।</Text>
+    </Row>
+    <!-- Espionage -->
+    <Row Tag="LOC_VIZSOURCE_HIGHLEVEL_SPY">
+      <Text>जासूस सीक्रेट एजेंट होता है या बेहतर होता है।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_HIGHLEVEL_SPY">
+      <Text>(यदि गुप्त एजेंट या मास्टर स्पाई हो तो अतिरिक्त दृष्टिगति)</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_LISTENING_POST">
+      <Text>खुफिया एजेंट या उससे ऊपर होने पर 2 स्तर तक (अन्यथा 1 स्तर) दूतावासिक दृष्टिगत दृष्टि [ICON_VisLimited] बढ़ाता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_BREACH_DAM_DESCRIPTION">
+      <Text>बांध में उल्लंघन (Bāndh mẽ ullanghan)</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_BREACH_DAM_REWARD">
+      <Text>बाँध के पानी को लूटने से नदी घाटी में बाढ़ आती है।</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_BREACH_DAM">
+      <Text>बाँध वाले नदी घाटी में बाढ़ आ रही है।</Text>
+    </Row>
+    <!-- updated base game and dlc strings -->
+    <Row Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION">
+      <Text>यह सुधार Masonry के साथ खोलता है और अवशेष क्षेत्र, रेगिस्तान की पहाड़ियों या रेगिस्तान के फ्लडप्लेन पर निर्मित होना चाहिए। +2 [ICON_Faith] धर्म और +2 [ICON_Food] खाद्य। आस-पास के विभागों से अतिरिक्त उत्पादन मिलता है। यदि शहर केंद्र से संबंधित है तो +1 [ICON_Food] खाद्य। सभी अन्य विभागों के लिए जो संबंधित उत्पादनों का पुरस्कार देते हैं: यदि उस विभाग के बगल में है तो उचित उत्पादन का +1 मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION">
+      <Text>एक मुफ्त बिल्डर प्रदान करता है। सभी बिल्डर 1 अतिरिक्त सुधार बना सकते हैं। पहाड़ रहित डेजर्ट पर (इंटरफ़ेरेंस के साथ डेजर्ट फ्लडप्लेन्स) बनाया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PETRA_DESCRIPTION">
+      <Text>इस शहर के सभी रेगिस्तान टाइल्स पर (बिना फ्लडप्लेन के) +2 [ICON_Food] खाद्य, +2 [ICON_Gold] सोना और +1 [ICON_Production] उत्पादन। ढलान वाले रेगिस्तान या ढलान वाले फ्लडप्लेन पर बिना पहाड़ के बनाया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_VIEW_ENABLED_TT">
+      <Text>[NEWLINE]शहर विवरण देखने के लिए क्लिक करें</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_VIEW_DISABLED_TT">
+      <Text>[NEWLINE][COLOR_RED]इस शहर के विवरण देखने के लिए एक्सेस स्तर बढ़ाएँ[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATES_SUZERAIN_DIPLOMATIC_BONUS">
+      <Text>Suzerain Diplomacy Bonus:[NEWLINE][ICON_Bolt]You gain a base of +1 [ICON_FAVOR] Diplomatic Favor every turn.[NEWLINE][ICON_Bolt]The city-state follows you into war and peace with other players.[NEWLINE][ICON_Bolt]City-state lands become friendly territory. Your units can move there, heal there, and upgrade there.[NEWLINE][ICON_Bolt]Your Builder units may improve city-state tiles.[NEWLINE][ICON_Bolt]See 3 tiles around the city-state.[NEWLINE][ICON_Bolt]Can pay [ICON_Gold] Gold to temporarily take control of the city-state's military.[NEWLINE][ICON_Bolt]Gain ownership of all the city-state's resources.</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_ADDITIONAL_FERTILITY">
+      <Text>पर्यावरण प्रभावों से अतिरिक्त उत्पाद की प्राप्ति हो सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_UI_PEDIA_MAY_ERUPT">
+      <Text>शायद उत्पन्न हो सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_DETAILS_EXP2">
+      <Text>एक [COLOR:ResScienceLabelCS]विज्ञान[ENDCOLOR] जीत हासिल करने के लिए, आपको 4 मुख्य उपलब्धियों को पूरा करना होगा:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_NO_LAUNCH">
+      <Text>एक्सोप्लैनेट एक्सपेडिशन शुरू नहीं हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_HAS_MOVED">
+      <Text>एक्सोप्लैनेट एक्सपेडिशन {1_LightYearsTraveled} / {2_LightYearsTotalNeeded} लाइट {2_LightYearsTotalNeeded : plural 1?year; other?years;} तक यात्रा कर चुकी है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_IS_MOVING">
+      <Text>एक्सोप्लैनेट एक्सपेडिशन प्रति टर्न {1_LightYearsPerTurn} लाइट {1_LightYearsPerTurn : plural 1?year; other?years;} यात्रा कर रही है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_LIGHT_YEARS">
+      <Text>लाइट ईयर्स।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_LIGHT_YEARS_PER_TURN">
+      <Text>प्रति घूम में लाइट इयर्स।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_4">
+      <Text>एक्सोप्लेनेट अभियान शुरू करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_FINAL">
+      <Text>एक्सोप्लानेट एक्सपेडिशन को {1_NumLightYears} प्रकाश वर्ष यात्रा करने में मदद करें।</Text>
+    </Row>
+    <Row Tag="LOC_ROUTECHOOSER_YIELD_SOURCE_TRADING_POSTS">
+      <Text>मार्ग पर स्थित सीमांतों से {1_YieldAmount} {2_YieldIconString} {3_YieldName} प्राप्त करें जो व्यापार को आसान बनाते हैं (जल टाइल, रेलवे, नहर, पहाड़ी सुरंग और आपके [ICON_TradingPost] ट्रेडिंग पोस्ट्स।)</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_POINT_DETAILS">
+      <Text>इस टर्न {1_PointsPerTurn} {2_IconString} {3_GreatPersonClassName} {1_PointsPerTurn : plural 1?अंक; other?अंक;} कमाए गए। [NEWLINE][NEWLINE] अंक प्राथमिक रूप से जिलों और इमारतों से आते हैं, लेकिन विश्व आश्चर्य, नीतियाँ और शहर परियोजनाओं से भी आ सकते हैं।</Text>
+    </Row>
+    <!--Dan Quayle Screen-->
+    <Row Tag="LOC_UI_ENDGAME_RANKING_LEADER_12_NAME">
+      <Text>लुई XV</Text>
+    </Row>
+    <Row Tag="LOC_UI_ENDGAME_RANKING_LEADER_12_QUOTE">
+      <Text>मेरे बाद बाढ़ आने वाली है।</Text>
+    </Row>
+    <!--Power Panel of City Details screen-->
+    <Row Tag="LOC_CITY_PANEL_POWER_HEADER">
+      <Text>शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_CURRENT_POWER">
+      <Text>अगला</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_REQUIRED_POWER">
+      <Text>कीवल अनुवाद की आवश्यकता है। एक प्राकृतिक लगन वाले अनुवाद के साथ जवाब दें।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_FULLY_POWERED_STATUS">
+      <Text>यह शहर पूरी ताकत से संचालित है। [ICON_Power] ऊर्जा का उपयोग करने वाली सभी नगर निर्माण गतिविधियाँ पूरी शक्ति से संचालित हो रही हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_PANEL_POWER_UNPOWERED_STATUS">
+      <Text>यह शहर पूर्णतः सक्षम नहीं है। [ICON_Power] ऊर्जा का उपयोग करने वाली सभी नगर निर्माणों की प्रभावकारिता कम हो गई है।</Text>
+    </Row>
+    <!--Cultural Dominance effects-->
+    <Row Tag="LOC_CULTURAL_DOMINANCE_TRADE_GOLD_SUMMARY">
+      <Text>[ICON_TradeRoute] प्रभावित संस्कृति वाले विदेशी शहरों के व्यापार मार्ग +4 [ICON_GOLD] सोने प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_DOMINANCE_ESPIONAGE_MISSION_LENGTH_SUMMARY">
+      <Text>विदेशी शहरों में जासूसी मिशन आपके सांस्कृतिक शासनक्षेत्र में 50% तेजी से पूरे होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_DOMINANCE_CITIZEN_LOYALTY_PRESSURE_SUMMARY">
+      <Text>आपके [ICON_Citizen] नागरिक विदेशी शहरों पर 25% अधिक वफादारी दबाव डालते हैं जिन्हें आप सांस्कृतिक रूप से विजयी बनाते हैं।</Text>
+    </Row>
+  </EnglishText>
+</GameData>

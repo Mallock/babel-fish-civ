@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Dido Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DIDO_ANY">
+      <Text>जब दो ऐसे महान लोग जैसे हम एक समझौते को शेयर करते हैं, तो उन्हें दोस्त कहना सही होता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DIDO_ANY">
+      <Text>आप अपनी तारीफ़ करते हैं। फोनीशिया आपके देश के अस्तित्व को स्वीकार करती है, लेकिन हम सम्मानित मित्रता का स्वीकार नहीं करते।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_DIDO_ANY">
+      <Text>आइए, कृपालु, और दुनिया को घोषित करें कि आप फोनिशिया के दोस्त के रूप में खड़े हैं!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_DIDO_ANY">
+      <Text>हाँ। मैं इसे कसम खाकर कहता हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_DIDO_ANY">
+      <Text>मैं इससे सहमत नहीं हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_DIDO_ANY">
+      <Text>आपकी प्रतिनिधि दल का स्वागत है, और वह हमारे बीच आराम पाएगी।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_DIDO_ANY">
+      <Text>फोनीशिया को आपकी प्रतिनिधि दल की कोई आवश्यकता नहीं है, क्योंकि हम पहले से ही आपके लोगों का माप ले चुके हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_DIDO_ANY">
+      <Text>इन मुरेक्स पर्पल, लेबनान सीदार और जैतून की उपहारों को स्वीकार करें - फोनिशिया की संपदा के केवल एक स्वाद है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_DIDO_ANY">
+      <Text>तुम्हारे सेनेटर हमारी विनाश की मांग करते हैं और तुम उन्हें उच्चवादी कहते हो? तुम अन्धे होकर अपनी विनाश की तरफ बढ़ रहे हो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_DIDO_ANY">
+      <Text>मैं प्रार्थना करता हूँ कि आप मोलोच के लिए आग में भेजे जाएँ! मैं प्रार्थना करता हूँ कि आप मोत के लिए अर्पित हो जाएँ! मैं प्रार्थना करता हूं कि यम उठ जाए और आपको खा जाए! (आपका खंडन करता हूं)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_DIDO_ANY">
+      <Text>आप लौट आए हैं। स्वागत है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_DIDO_ANY">
+      <Text>तुमने फोनीशिया के प्रति न्यायपूर्ण और सच्चे रहे हैं। क्या आप अगला कदम उठाएँगे और घोषणा करेंगे कि हम संबद्ध हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_DIDO_ANY">
+      <Text>आपने अपना तर्क पेश कर दिया है। दुनिया को बर्बाद करने से पहले हम शांति का आनंद लें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_DIDO_ANY">
+      <Text>नहीं। आप व्यर्थ पूछते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_DIDO_ANY">
+      <Text>मैं आपको शांति का प्रस्ताव करता हूँ - नष्ट दीवारों और विलाप गीतों से खुशहाल चुनाव।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_DIDO_ANY">
+      <Text>हाँ। हमारे देश के मुक्तता से आपके लोगों और हमारे लोगों दोनों का फायदा होगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_DIDO_ANY">
+      <Text>मैं देखता हूं कि हमारी भूमि पर आपकी इकाइयों को चलाने में कुछ लाभ नहीं है। फोनेशिया की सीमाओं को पार न करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_DIDO_ANY">
+      <Text>सीमाओं की कल्पना पर एक बेतुकी ज़बरदस्ती कमज़ोर शासकों के लिए है। आओ एक-दूसरे के लिए हमारी सीमाओं को खोलें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_DIDO_ANY">
+      <Text>आप कौटिल्य क्या करने वाले हैं? हमारी सीमाओं से अपनी सेनाएं हटाएं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_DIDO_ANY">
+      <Text>अपनी विजय में गर्व मत करो। एक दिन आप अपनी राजधानी को आग से जलते हुए देख सकते हो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_DIDO_ANY">
+      <Text>मैं इससे सहमत नहीं हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_DIDO_ANY">
+      <Text>एक सहमत प्रस्ताव।</Text>
+    </Row>
+    <!--Eleanor England Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>हाँ, आप मेरे लिए वास्तव में एक अच्छा दोस्त हैं और मैं आपको उस तरह से मानता हूं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>आपकी प्रशंसा बहुत अच्छी है, लेकिन मैं उसे अस्वीकार करता हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>हम जितने महाराज कला को समझते हैं, बहुत कम लोग होते हैं। क्या हम दुनिया को नहीं बताना चाहते कि हम मित्र हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>मैं एक इतने प्रभावशाली ऑफर को कैसे अस्वीकार कर सकता हूँ?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>नहीं, आपको अशीर्वाद दे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>आपकी श्रेणी मेरे दरबार में मेहमान के रूप में स्वागत की गई है। मैं आपको उस अवसर को ध्यान में रखते हुए लिखे गए कविताओं की एक प्रति भेजूंगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>मेरे दरबार में नीचे दर्जे का भोजन, बुरी तरह से पेश करने का कोई स्थान नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>कृपया मेरी उपहारों को स्वीकार करें: एक क्रिस्टल फूलदान, शराब, ट्रफल्स और आपके दरबार को जीवंत बनाने के लिए दस ट्रूबाडुर्स।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>एक समय आएगा जब आप अपने अपराधों के लिए भुगतान करेंगे। और उसके बाद, एक समय जब आपका नाम केवल हास्य कविता के शैतान के रूप में होगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>क्योंकि आपके कार्य केवल अंधेरे और धोखे को बढ़ाते हैं, मैं आपके खिलाफ खड़ा होऊँगा - और प्यार और हंसी के लिए खड़ा रहूँगा! (आपको निंदा करते हुए)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>अहा! हम तुम्हारे बारे में बात कर रहे थे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>क्या हमारे मामलों में हमने दो बार सहमति नहीं पाई है? चलो इसे एक संधि के साथ समाकृत करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>इस युद्ध को बढ़ाना लोभपूर्ण शौर्य से दुखद हत्याकाण्ड तक जाना होगा। मुझसे शांति में शामिल हों।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>निश्चित रूप से नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>बधाई हो - आपकी सैन्य कुशलता साबित हो चुकी है। क्या आपके पास शांति के लिए दिल है, या यह आपके चरित्र की सीमा है?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>फिर तो हमारी सीमाएं खुली रहें!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>अपने जासूसों और भटकते लोगों को मेरी जमीन खोलने के बारे में सोचना भी मत। अपनी सीमाओं से संतुष्ट रहो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>मैं अपने भूमि को आपकी इकाइयों के लिए खोलता हूं जो इन्हें पार करेंगे, लेकिन मैं भी आपसे अनुमति मांगता हूं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>अपनी सेनाओं को इस तरह परेड करना एक बेकसूर कमजोरी का संकेत देता है, न कि शक्ति का। मेरी सीमाओं से उन्हें हटा दो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>यदि आपकी शक्ति की तृष्णा मेरी शासनकाल को नष्ट करने के लिए आपके काम आती है, तो ठीक है! मैं अभी भी प्यार की दरबार में शासन करूंगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>कितना मजेदार! नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ELEANOR_ENGLAND_ANY">
+      <Text>आपकी शर्तें अच्छी हैं। हमारी कार्यालय लोगों को विवरण तैयार करने दें।</Text>
+    </Row>
+    <!--Eleanor France Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>हाँ, आप सचमुच मेरे लिए एक अच्छा दोस्त हैं, और मैं आपको उस तरह से पहचानता हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>आपकी प्रशंसा भावुक करती है, लेकिन मैं इसे अस्वीकार करता हूं। (Aapki prashansa bhavuk karti hai, lekin main ise asvikar karta hun.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>हम जैसे बहुत कम लोग राजा कला को समझते हैं। क्या हम दुनिया को नहीं बताना चाहिए कि हम मित्र के रूप में खड़े हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>मैं एक इतनी मोहक पेशकश कैसे अस्वीकार कर सकता हूँ?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>नहीं, आपको आशीर्वाद दे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>आपकी प्रतिनिधि दल का स्वागत मेरे दरबार में किया गया है। मैं आपको उस अवसर के लिए लिखे गए कविताओं की एक प्रति भेजूंगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>मुझे अप्रिय है कि मेरे दरबार में नीचे दर्जे का भोजन, अच्छी तरह से पेश करने में नहीं होता।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>कृपया मेरे उपहार स्वीकार करें: एक क्रिस्टल फूलदान, शराब, ट्रफल्स और आपके दरबार को सजाने के लिए डोज़न ट्रूबाडोर।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>एक समय आएगा जब आप अपनी बुराइयों के लिए भुगतान करेंगे। और उसके बाद, एक समय जब आपका नाम केवल हास्य कविताओं के शैतान के रूप में जीवित रहेगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>क्योंकि आपके कार्य केवल अंधेरे और धोखे को बढ़ावा देते हैं, मैं आपके विरोध में खड़ा होऊंगा - और प्यार और हँसी के लिए खड़ा होऊंगा! (आपका खंडन करता है)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>अरे! हम अभी अभी तुम्हारे बारे में बात कर रहे थे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>क्या हमने अपने मामलों में लंबे समय से सहमति नहीं पाई है? चलो इसे एक सहयोग से औपचारिक बनाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>इस युद्ध को बढ़ाना गर्वनीय साहस से दुखद संघर्ष में बदल जाएगा। मेरे साथ शांति की ओर जुड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>निश्चित रूप से नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>बधाई हो - आपकी युद्ध कौशल की प्रमाणिता हो गई है। क्या आपके पास शांति के लिए दिल है, या यह आपके व्यक्तित्व का सीमा है?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>चलो हमारी सीमाएं खुली रहें!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>मेरी भूमि को अपने जासूसों और भटकते व्यक्तियों के लिए खोलने की बात? बिल्कुल नहीं। अपनी सीमाओं से संतुष्ट रहें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>मैं अपनी जमीनों को वहाँ से गुजरने वाली आपकी इकाइयों के लिए खोलता हूँ, लेकिन मैं भी आपसे अनुमति मांगता हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>इस प्रकार अपनी सेनाओं का परेड करना एक त्रासदी भरे कमजोरी की बात है, न कि ताकत की। मेरी सीमाओं से उन्हें हटा दो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>यदि आपकी शक्ति का लोलुपता मेरी शासन व्यवस्था को नष्ट करने के लिए प्रेरित करता है, तो ठीक है! मैं फिर भी प्यार के दरबार में शासन करूंगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>कितना हास्यास्पद! नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ELEANOR_FRANCE_ANY">
+      <Text>आपकी शर्तें अच्छी हैं। चलिए हमारे चांसलरियां विस्तार से काम करें।</Text>
+    </Row>
+    <!--Kristina Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KRISTINA_ANY">
+      <Text>मैं आपको दोस्त मानता हूँ! मुझे यह दुनिया के साथ साझा करने में बहुत खुशी होगी।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KRISTINA_ANY">
+      <Text>मुझे लगता है कि आप मेरी प्रशंसा को दोस्ती से गलतफहमी कर रहे हैं। हम अभी तक दोस्त नहीं हैं। शायद कभी दोस्त बनें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>क्या आप मेरे साथ जुड़ेंगे जब हम दुनिया को बताएँगे कि हमारे देश एक दूसरे के दोस्त हैं? हम सभी को निश्चित रूप से प्रेरित करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>मैं सहमत हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>यह नहीं हो सकता।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KRISTINA_ANY">
+      <Text>मैं आपकी डिलीगेशन स्वीकार करता हूँ और वे मेरे सम्मानित मेहमान के रूप में रहेंगे। मेरे ड्रामाटर्ज ने उनके लिए एक नया काम साझा करने की तैयारी की है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KRISTINA_ANY">
+      <Text>स्वीडन को इन छोटी-छोटी बातों की कोई आवश्यकता नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>मैं आपको एक उपहार भेजता हूं जिसमें बैंडी स्टिक्स, पिकल्ड हैरिंग, लिंगोंस्यल्ट और क्नैकेब्रोड शामिल हैं। बैंडी स्टिक्स न खाएं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KRISTINA_ANY">
+      <Text>मैं आपकी दुष्टता, असभ्यता और धोखाधड़ी की पूरी दुनिया को बताउंगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>स्वीडन में हमारे पास कई मनोरंजक लोकगीत हैं जो आपको दुष्ट के रूप में चित्रित करते हैं। यहाँ तक ​​कि सबसे सरल कलाओं में भी जीवन की सत्यताओं का चित्रण होता है। (आपकी निंदा करता है)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_KRISTINA_ANY">
+      <Text>मुझे फिर से तुम्हें देखकर खुशी हुई।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>मुझे लगता है कि अब हमें दुनिया को हमारे संबंधों के सद्भाव का प्रदर्शन करने का समय आ गया है और सार्वजनिक रूप से एक संधि की घोषणा करनी चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KRISTINA_ANY">
+      <Text>जैसा कि हम दोनों एक-दूसरे के शौर्य पर सवाल नहीं उठाते, इसलिए अब हम एक गरिमामय शांति करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KRISTINA_ANY">
+      <Text>नहीं, मैं इसे अनुमति नहीं दूंगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>क्या हमारे लोगों के दुख अब हमें शांति करने की मांग नहीं करते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KRISTINA_ANY">
+      <Text>आपकी इकाइयां स्वीडन से बिना रुकावट के गुजर सकती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KRISTINA_ANY">
+      <Text>नहीं, यह स्वीडन के हित में नहीं है। हमारी सीमाओं का सम्मान करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>हम एक दूसरे के सीमाओं के मुक्त पहुंच से काफी फायदा पा सकते हैं, क्या आप सहमत हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KRISTINA_ANY">
+      <Text>हमारी सीमा के साथ अपनी इकाइयों को खिलौने सिपाहियों के साथ खेलते हुए ऊपर-नीचे मत चलाएं। अभी उन्हें भेज दें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>मैं कभी शक्ति से प्यार नहीं किया था, इस समय मेरे पास कला नहीं है। केवल पछतावा और हानि मेरे लिए बचा है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>मैं इस सौदे को स्वीकार नहीं कर सकता।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KRISTINA_ANY">
+      <Text>यह एक निष्पक्ष विनिमय है।</Text>
+    </Row>
+    <!-- Kupe Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KUPE_ANY">
+      <Text>हाँ, तुम ठीक हो। हम माओरी तुम्हारे दोस्त बनने के लिए खुश हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KUPE_ANY">
+      <Text>हां नहीं, माओरी अभी सार्वजनिक मित्रता के लिए तैयार नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KUPE_ANY">
+      <Text>दुनिया में आपसे बुरे लोग तो निश्चित रूप से होते हैं। क्या मैं दूसरों को बता सकती हूं कि आप पूरी तरह से एक दुष्ट नहीं हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KUPE_ANY">
+      <Text>Sure.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KUPE_ANY">
+      <Text>नहीं, मुझे ऐसा नहीं लगता।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KUPE_ANY">
+      <Text>आप इन शानदार उपहारों से हमें सम्मानित करते हैं, जो आपकी माना की निशानी है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KUPE_ANY">
+      <Text>नहीं। हमें अपने उपहार न भेजें। हमें आपके प्रति कोई ज़िम्मेदारी नहीं चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KUPE_ANY">
+      <Text>यहाँ पौनमू, कोरोवाई कपड़े और हुहू ग्रब का तोहफा है। आगे जाइए, मैं आपको हुहु ग्रब खाते देखना चाहता हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KUPE_ANY">
+      <Text>तुम्हारा बुरा व्यवहार हमारे इतिहास को परिभाषित करता है, और इसलिए मुझे यह दुनिया को घोषित करने में खुशी हो रही है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KUPE_ANY">
+      <Text>दुनिया आपके कार्यों को देखती है, और वे लोग जो हम बहुत समय से जानते हैं, उन्हें यह मानते हैं कि सभी नेताओं में आप सबसे दुष्ट हैं। (आपको दोष देता है)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_KUPE_ANY">
+      <Text>नमस्ते!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KUPE_ANY">
+      <Text>तुम अच्छे हो। क्या तुम सहयोग के बारे में कैसा महसूस करते हो?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KUPE_ANY">
+      <Text>तो पता चला कि हमारे दोनों लोग बहादुर और मजबूत हैं। चलो अब शांति की कोशिश करते हैं और देखते हैं यह कैसे जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KUPE_ANY">
+      <Text>वह होने वाला नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KUPE_ANY">
+      <Text>आपके पास युद्ध के लिए साहस है, यह सत्य है। क्या आप शांति के लिए साहस रखते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KUPE_ANY">
+      <Text>ठीक है। हमारी पृथ्वी के दूसरी ओर खोजने के लिए आपकी जमीनों के पार बहुत कुछ है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KUPE_ANY">
+      <Text>सीमाएँ किसी वजह से होती हैं। कृपया अपनी सीमा की ओर रहें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KUPE_ANY">
+      <Text>मैं माओरी के साथ खुले सीमाओं की पेशकश करता हूँ, आपकी जमीन को बिना धमकी के पार करने के अधिकार के बदले में।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KUPE_ANY">
+      <Text>शायद आप माओरी भूमि के पास सभी वो सेनाएं ले जाना चाहते हो? कुछ भयानक होने से पहले? बस एक विचार।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KUPE_ANY">
+      <Text>मैंने अपनी सबसे अधिक प्रयास किया, लेकिन आपकी ताकत अधिक थी। मेरा दिल कम से कम अजेय होगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KUPE_ANY">
+      <Text>यह एक भयानक सौदा है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KUPE_ANY">
+      <Text>हाँ, वह काम करेगा।</Text>
+    </Row>
+    <!-- Laurier Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LAURIER_ANY">
+      <Text>मैं कनाडा के लोगों के साथ आपकी मित्रता स्वीकार करने की इच्छा व्यक्त करता हूं। चलो दुनिया को इसे घोषित करें!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LAURIER_ANY">
+      <Text>जबकि आपके पास मेरा सम्मान है, और कनाडा के लोगों का सम्मान है, लेकिन एक स्थायी मित्रता की घोषणा करने का समय अभी नहीं आया है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>आपने कनाडा के एक दृढ़ और वफादार मित्र का साबित होने का सबूत दिया है। क्या आप हमें दुनिया के सामने हमारी संवैधानिक सहमति की घोषणा करने देंगे?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>हाँ, वास्तव में!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>मुझे माफ़ करना, नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_LAURIER_ANY">
+      <Text>आपकी अधिकारिक दल की दया के लिए धन्यवाद। हम उन्हें स्वागत करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_LAURIER_ANY">
+      <Text>कनाडा को छोटे उपहारों की कोई आवश्यकता नहीं है। कृपया अपनी प्रतिनिधि वापस ले लें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>कनाडा के लोग मेपल सिरप, ऊन कंबल और हमारे सम्मानित पारंपरिक सिर बंद होने वाले टोक के उपहार पेश करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_LAURIER_ANY">
+      <Text>तुमसे समझौता करना मानव धैर्य की सीमाओं का परीक्षण करता है, और मैं अब और आपके व्यवहार को बरतने का सौभाग्य नहीं दूंगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>मैं चाहता था कि आप एक बुद्धिमान, अधिक सहमत शासक साबित होते, लेकिन आपके कार्यों से मुझे शांतिपूर्ण भविष्य के लिए कम ही उम्मीद होती है। (आपकी निंदा करते हैं)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_LAURIER_ANY">
+      <Text>मुझे आपको फिर से देखकर खुशी हुई।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>हमारे कई सम्मिलित हित क्षेत्र हैं - क्या एक संघ के द्वारा इन्हें अच्छी तरह से सेव नहीं किया जा सकता है?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_LAURIER_ANY">
+      <Text>हमें क्यों दुख और नफरत को बढ़ाना चाहिए? चलो इस युद्ध को समाप्त करें और शांति बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_LAURIER_ANY">
+      <Text>मुझे माफ़ करें, नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>हथियारों के दबाव से अधिक जीत हृदय और आत्मा को प्रसन्न करके होती है। हमें शांति चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_LAURIER_ANY">
+      <Text>मुझे आपकी समझौते को स्वीकार करने में खुशी हो रही है, और मैं आपकी इकाइयों का कनाडाई भूमि के माध्यम से पारित करने का स्वागत करती हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_LAURIER_ANY">
+      <Text>मैं इस प्रस्ताव को स्वीकार नहीं कर सकता, क्योंकि आपकी इकाइयों को हमारी भूमि में दर्ज करना कनाडा के हित में नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>मैं हमारे लोगों के बीच खुले सीमाओं के बीच एक समझौते की प्रस्तावना करना चाहूँगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_LAURIER_ANY">
+      <Text>कुछ कुरेर दे बोआ मेरे बॉर्डर के कई सैन्य टुकड़े लाए हुए हैं जो मुझे चिंतित कर रहे हैं। क्या शायद आप उन्हें वापस ले सकते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>हमारे कनाडा के सपनों का अंत होता है। हमारे लोग दिल के साफ हैं। दया और करुणा से शासन करें, और उनसे सीखें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>यह प्रस्ताव हमारे लिए लाभदायक नहीं होगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_LAURIER_ANY">
+      <Text>मैं आपके प्रस्ताव को स्वीकार करता हूँ, धन्यवाद। (Main aapke prastav ko sveekar karta hoon, dhanyavaad.)</Text>
+    </Row>
+    <!-- Mansa Musa Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MANSA_MUSA_ANY">
+      <Text>मुझे खुशी होती है कि आप मुझे "दोस्त" कहें, क्योंकि मैं आपको मेरा दोस्त मानता हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MANSA_MUSA_ANY">
+      <Text>आपका उत्साह हमारी स्थिति से अधिक है। मैं अभी तक आपको माली का दोस्त नहीं कह सकता।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>क्या हमारे बंधन से हम दोनों बहुत लाभ प्राप्त नहीं करते? क्या हम दुनिया को बताएंगे कि हम मित्र के रूप में खड़े हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>हाँ! भगवान की जय हो!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>ऐसा नहीं हो सकता।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MANSA_MUSA_ANY">
+      <Text>हालांकि मुझे कुछ भी चाहिए नहीं है, लेकिन आपकी उपहार की ईमानदारी उसकी खुशी है। मैं आपकी प्रतिनिधि को स्वीकार करूँगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MANSA_MUSA_ANY">
+      <Text>सुलेमान ने अपनी शानदारता में शेबा की रानी से उपहारों को अस्वीकार कर दिया था, इसलिए मैं आपका उपहार भी स्वीकार नहीं करूँगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>कृपया इंडिगो कपड़े, किकेलिबा चाय और सोने के धूले भरे बोरियों के साथ एक सौ पोर्टर के ये सरल उपहार स्वीकार करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MANSA_MUSA_ANY">
+      <Text>सर्प! प्रलोभक! दुष्ट! अपमान के घंटे की ओर देखो, क्योंकि वह जल्द ही आ रहा है!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>ओ भगवान, आप क्यों इस अंधाधुंध व्यक्ति को राजाओं की शक्ति निभाने देते हैं? ओ स्वर्ग, अपनी क्रोध लाता डालो! (तुम्हें निंदा करता हूँ)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_MANSA_MUSA_ANY">
+      <Text>कृपया, बोलिए। (Kripaya, boliye.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>क्या हम साथ दोस्त बन जाएं? इन्शा अल्लाह, आप हाँ कहेंगे और हम इसे दुनिया को घोषित करेंगे!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MANSA_MUSA_ANY">
+      <Text>इस मूर्ख, व्यर्थ युद्ध को अलविदा कहने का समय आ गया है और हमारे लोगों के बीच शांति होना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MANSA_MUSA_ANY">
+      <Text>नहीं, यह स्वीकार्य नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>युद्ध बेकार और व्यर्थ है। क्या भगवान हमारे बीच शांति से ज्यादा खुश नहीं होंगे?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MANSA_MUSA_ANY">
+      <Text>हाँ, मुफ्त यात्रा हम दोनों के लिए आशीर्वाद ले कर जाएगी।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MANSA_MUSA_ANY">
+      <Text>अह, भलाई के लिए मुझे इसे स्वीकार करना चाहिए, पर ज्ञान इसे अभी रोकने की सलाह देता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>मेरी बड़ी इच्छा है कि मेरी इकाइयां आपकी सीमाओं पार करें बिना किसी रुकावट के। कृपया इसे स्वीकार करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MANSA_MUSA_ANY">
+      <Text>मुझे माली की सीमाओं पर आपकी बड़ी सेनाओं को दिखाने की कोई आवश्यकता नहीं दिखती। कृपया उन्हें अभी हटा दें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>धन अस्थायी होता है; शिक्षा शून्य होती है। हे भगवान, मैंने जो कुछ भी किया है, मैंने उसे आपके नाम में किया है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>यह एक अनुचित प्रस्ताव है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MANSA_MUSA_ANY">
+      <Text>भगवान की जय, इसे मैं स्वीकार करूंगा।</Text>
+    </Row>
+    <!-- Matthias Corvinus Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>हाँ! कुछ शासक आपकी तरह राजा के बोझ को समझते हैं। मुझे आपको अपना दोस्त कहने पर खुशी होती है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>एक राजा को अपने दोस्तों का चयन बड़ी सावधानी से करना चाहिए। मुझे आपको उस नाम से बुलाने का समय नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>क्या हम दोनों हमारे लोगों और भगवान की इच्छा के सम्मान के साथ शासन करते हैं? क्या यह हमें दुनिया के समक्ष सच्चे दोस्त के रूप में बाँधना नहीं चाहिए?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>हां, भगवान का धन्यवाद है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>यह संभव नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>आपकी श्रृंखला के उपहारों के लिए धन्यवाद, और आपकी उदारता को आशीर्वाद दीजिए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>हमें उपहार नहीं चाहिए और न ही उनकी निहित अनुशासनता। हंगरी पर्याप्तता से समृद्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>मैं आपको राजकुमार के लायक उपहार भेज रहा हूं: बहुत अच्छी लेस, आपके हेराल्ड्री से चिह्नित क्रॉसबो और मेरे परिवार के रेसिपी से तैयार किए गए पापरिकाश।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>तुम एक अविधि संगत सांप हो, एक लोभी गिद्ध हो, जो दुनिया को तुम्हारे सामने झुकते देखना चाहता है। जानो कि मैं कभी तुम्हारे डर से नहीं डरूंगा!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>तुम शक्ति की तलाश में हो — हमेशा और केवल शक्ति की तलाश में हो — लेकिन हंगरी तुमसे खड़ीट लड़ेगी। (तुम्हारी निंदा करती हुई)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>आपका वापसी मुझे सम्मानित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>आप हंगरी के अधिकार और अधिकार का सम्मान करते हैं, और एक योग्य मित्र का सबूत दिया है। हम एक संघटन से हमारी बंधन को मजबूत करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>ठीक है, मुझे लगता है हमने अपनी-अपनी बातें साबित कर दी हैं। अब चलो क्षमा और शांति की ओर बढ़ते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>कभी नहीं, कभी नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>इस युद्ध को बढ़ाने में दया नहीं है न इसके कारणों का पीछा करने में न्याय है। हम शांति करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>हाँ, यह ऐसा होने दें। खुले मार्ग के अधिकार के लिए धन्यवाद।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>यह एक अधिकार होगा, और एक अस्वीकार्य भी।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>हमें अपनी सीमाओं के पार चलने के अधिकार देने की अनुमति दीजिए, और मैं भी आपको उसी का विस्तार दूंगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>मेरी सेनाओं के स्काउट दिनों से आपकी सेनाओं की प्रगति का पीछा कर रहे हैं जो सीमा के पास हैं। उन्हें हंगरी से दूर ले जाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>आज तुम विजेता के मुकुट धारण करते हो, लेकिन क्या तुम वह सब जो तुमने लिया है संभाल सकते हो?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>एक राजकुमार के गरिमा के अनुकूल नहीं होगा कि वह इस प्रस्ताव को स्वीकार करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MATTHIAS_CORVINUS_ANY">
+      <Text>उदार प्रस्ताव! मैं आभारी मन से स्वीकार करता हूँ।</Text>
+    </Row>
+    <!-- Pachacuti Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PACHACUTI_ANY">
+      <Text>हाँ, हम भाई-बहन के तरह करीब हैं और दुनिया को इसके बारे में सुनना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PACHACUTI_ANY">
+      <Text>मुझे पता है कि आप दुनिया के सामने महान दिखने की तलाश में हैं, लेकिन आपको मेरे साथ इस दोस्ती का दावा नहीं करना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>हम सूरज और चंद्रमा की तरह हैं, जो दुनिया को रोशनी देते हैं। क्या हम दोस्ती का इजहार करें?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>यह बहुत अच्छा है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>मैं इसे स्वीकार नहीं करता।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_PACHACUTI_ANY">
+      <Text>आपकी वार्षा और उसकी उपहार स्वागत हैं। आप मेरी कृपाशीलता से मेरा सम्मान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_PACHACUTI_ANY">
+      <Text>अपनी अधिकारिता वापस ले लें और मेरे पर दया दिखाने की सोचना नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>अल्पाका के ऊन और फिरोज़े के इन तोहफों को स्वीकार करें। मैं आपको कुई भी भेज रहा हूँ - जब गर्म हो तब खाइए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_PACHACUTI_ANY">
+      <Text>मुस्कुराते हुए, भयभीत दिमाग वाले मूर्ख! आपकी सुरक्षा करने की ताकत नहीं होने के कारण आपके पास दोस्त कौन हैं, इनसे पूछें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>तुम्हारी अधिकारता खाली है, तुम्हारी ज़मीन नीच है, तुम्हारे लोग अनैतिक हैं। तुम्हारा विनाश का दिन जल्द ही आता है। (तुम्हें भर्त्सना करता है।)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_PACHACUTI_ANY">
+      <Text>स्वागत है। आप मेरे पास आ सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>आपने सम्मानजनक और अपने वचन के प्रति सत्य सिद्ध कर दिया है। हम एक दूसरे के प्रति अपनी अभिभावकता को गहराई तक बढ़ाते हैं और संधि शपथ लेते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_PACHACUTI_ANY">
+      <Text>हमारे विषय इस युद्ध में बहुत कष्ट सहे हैं। अब हम शांति चाहते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_PACHACUTI_ANY">
+      <Text>यह नहीं होगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>ऐसा लगता है कि आपके पास युद्ध में कुछ कौशल हैं। क्या आपके पास शांति के लिए भी दिल है?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_PACHACUTI_ANY">
+      <Text>मैं आपकी इकाइयों को इंका के भूमि में प्रवेश करने की अनुमति देता हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_PACHACUTI_ANY">
+      <Text>आपको हमारी सीमाओं को पार करने की अनुमति नहीं है। मामले को आगे बढ़ाने की कोशिश न करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>मुझे आपकी सीमाओं के पार इकाइयों को भेजने की जरूरत है। मुझे इस अनुमति का प्रदान करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PACHACUTI_ANY">
+      <Text>तुम्हारी सेनाएँ हमारी सीमाओं पर कुत्तों की तरह घूमती हैं। इसका तुम मतलब क्या हो? उन्हें तुरंत हटा दो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>तुमने सूरज को कैसे काला कर दिया? मैं सतर्कता और दया के साथ शासन करता था - आप भी ऐसा ही करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>मैं उदार हूँ - लेकिन उस प्रकार के नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_PACHACUTI_ANY">
+      <Text>हाँ, इंका आपको इसे स्वीकृति देगा।</Text>
+    </Row>
+    <!-- Suleiman Diplo Text -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SULEIMAN_ANY">
+      <Text>भगवान ने आपको बुद्धि दी है कि हमारे हितों की व्यवस्था को देख सकें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SULEIMAN_ANY">
+      <Text>तुम मुझसे दोस्ती का दावा करने के लिए कौन हो? तुम मेरे बराबर नहीं हो, बस एक उत्साही अनुयायी हो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>जैसे कि आपका व्यवहार मेरे प्रति हमेशा सही होता है, मैं आपको सार्वजनिक रूप से मेरी मित्रता का दावा करने की छूट देता हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>मैं तुम्हें इसे अनुदान करता हूं। (Main tumhe ise anudan karta hoon.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>क्या? नहीं, निश्चित रूप से नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SULEIMAN_ANY">
+      <Text>मैंने आपकी प्रतिनिधि समिति को प्राप्त किया है। उनके उपहारों को दूसरों के साथ खजाने में रख दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SULEIMAN_ANY">
+      <Text>यदि आप एक प्रतिनिधिमंडल भेजते हैं, तो वे गेट पर वापस भेज दिए जाएंगे। उन्हें और अपने आपको इस शर्म से बचाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>मैं आपको मानिक, पन्ने, सोने की काम, और कई स्वादिष्ट वस्तुओं का उपहार भेजता हूं, साथ ही एक चेस्निजिबाशी भी भेजता हूं जो आपके लिए जहर का स्वाद चखेगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SULEIMAN_ANY">
+      <Text>आप सर्प, सियार, गिद्ध, तोता और चूहे आदि के भयानक और कुटिल स्वरूप के शासक हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>तुम्हारी निरंकुशता और ढीठता बस इतनी ही अनुमति दी गई है कि वे दुनिया को सीख दें कि मुझे कैसे नहीं बर्ताव करना चाहिए। (तुम्हें निंदा करता है)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_SULEIMAN_ANY">
+      <Text>अब आप बोल सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>अगर आप मेरे साथ एक संघटन स्वीकार करें तो दुनिया में आपकी प्रतिष्ठा बहुत बढ़ जाएगी।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SULEIMAN_ANY">
+      <Text>आपको हमारे बीच युद्ध को समाप्त करना चाहिए, क्योंकि इस मुद्दे को बड़ा करना नाश को बुलाता है और भगवान को असंतुष्ट करता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SULEIMAN_ANY">
+      <Text>मुझे इस खेल से ऊब आ रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>दया की माँग है कि हमारे बीच के युद्ध की स्थिति तुरंत समाप्त की जाए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SULEIMAN_ANY">
+      <Text>मैं आपकी मान्यता को स्वीकार करता हूँ कि आप मेरे अधिकार को आपकी भूमि पार करने के लिए पहुंचने दें। और मैं आपको ऑटोमन भूमि से गुजरने की अनुमति देता हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SULEIMAN_ANY">
+      <Text>मैं अपने भूमि के राजा हूँ जिसके अलावा कोई दावा नहीं कर सकता और आप मेरी सीमाओं से गुजर नहीं सकते।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>तुम्हें मुझे अपनी सीमाओं को खोलना होगा, और इसके बदले में मैं अपने खुद के भूमि पर आपको एक समान विशेषाधिकार प्रदान करूँगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SULEIMAN_ANY">
+      <Text>मेरी सीमा पर मार्शल डिस्प्ले न करें, यह मुझे नाराज करने के खतरे से खेलता है। मेरे साम्राज्य में अब तो कई लोग मेरे लिए नाराज हो गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>विनाश! विनाश! इस्तांबुल शहर इराम के खंभों का हाल होता है, जो केवल उदासीन कवियों द्वारा याद किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>Impossible.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SULEIMAN_ANY">
+      <Text>मुझे लगता है कि मैं दान के भाव से इसे कर सकता हूँ।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

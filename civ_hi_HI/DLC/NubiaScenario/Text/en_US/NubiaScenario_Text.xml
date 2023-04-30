@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- OVERRIDES-->
+    <Row Tag="LOC_UI_RELIGION_WORKING_TOWARDS_RELIGION">
+      <Text>मेरा धर्म</Text>
+    </Row>
+    <Row Tag="LOC_RELIGIONPANEL_NEXT_STEP_EARN_PROPHET">
+      <Text>आपका धर्म एक पैंथियन विश्वास के साथ शुरू होता है। अपने धर्म में एक और विश्वास जोड़ें जब आप इन सिविक को पूरा करते हैं: मम्मिफिकेशन, बुक ऑफ द डेड और अमुन: ऑल गॉड्स का स्वामी।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_SCORE_DETAILS">
+      <Text>इस स्थिति में एक [COLOR:NeutralCS]SCORE[ENDCOLOR] विजय संभव नहीं हो सकती। स्कोर्स केवल आप 7 अमून के मंदिरों को पूरा करने के समय विजय की स्तर की निर्धारण करने के लिए ट्रैक किए जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Culture] प्रत्येक पवित्र स्थल जिले में संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>प्रत्येक पवित्र स्थल क्षेत्र में अतिरिक्त +2 [ICON_Culture] संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Science] प्रत्येक पवित्र स्थल जिले में विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>प्रत्येक पवित्र स्थल क्षेत्र में अतिरिक्त +2 [ICON_Science] विज्ञान।</Text>
+    </Row>
+    <!-- Beliefs-->
+    <Row Tag="LOC_BELIEF_NUN_NAME">
+      <Text>जलीय गहराई के भगवान (नून)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ATUM_NAME">
+      <Text>सृष्टि का देवता (अतुम)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_AMON_NAME">
+      <Text>सभी देवताओं के भगवान (अमुन)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ISIS_NAME">
+      <Text>प्रजनन की देवी (इसिस)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_APEDEMAK_NAME">
+      <Text>युद्ध के देवता (अपेडेमक)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ANUBIS_NAME">
+      <Text>मम्मीकरण का देवता (अनुबिस)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HORUS_NAME">
+      <Text>फिरओं का संरक्षक (होरस)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SEBIUMEKER_NAME">
+      <Text>गार्डियन देव (सेबियुमेकर)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_BES_NAME">
+      <Text>घर का देवता (बेस)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ASH_NAME">
+      <Text>ओएसीज का देवता (एश)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_NUN_DESCRIPTION">
+      <Text>+1 [ICON_Production] मछली पकड़ने वाले नावों से उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ATUM_DESCRIPTION">
+      <Text>सभी निर्माताओं को एक अतिरिक्त सुधार बनाने की अनुमति है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_AMON_DESCRIPTION">
+      <Text>[ICON_Production] आश्चर्यों की ओर 30% उत्पादन। [ICON_Faith] श्रद्धा खरीद लागत 30% घटाई गई।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ISIS_DESCRIPTION">
+      <Text>शहर की वृद्धि दर 15% अधिक है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_APEDEMAK_DESCRIPTION">
+      <Text>युद्ध जीत [ICON_Science] विज्ञान प्रदान करती है जो मारे गए इकाई की [ICON_Strength] युद्ध शक्ति के 50% के बराबर होता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ANUBIS_DESCRIPTION">
+      <Text>सभी पवित्र स्थलों के भवनों से +2 [ICON_Faith] धर्म प्रदान किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HORUS_DESCRIPTION">
+      <Text>किसी भी सरकार में एक अतिरिक्त वाइल्डकार्ड नीति स्लॉट।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SEBIUMEKER_DESCRIPTION">
+      <Text>लड़ाई इकाइयों को मित्र शहरों की सीमाओं के भीतर होने पर +10 [ICON_Strength] लड़ाई शक्ति प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_BES_DESCRIPTION">
+      <Text>सभी मित्रपूर्ण शहरों को +1 [ICON_Amenities] सुविधा प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ASH_DESCRIPTION">
+      <Text>[ICON_Culture] संस्कृति पर +3, [ICON_Faith] धर्म पर +3 और [ICON_Production] उत्पादन पर +2 ओएसिस टाइल पर।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SEBIUMEKER_DESCRIPTION">
+      <Text>+{1_Value} गार्डियन गॉड (सेबियुमेकर) का विश्वास</Text>
+    </Row>
+    <!-- Buildings-->
+    <Row Tag="LOC_BUILDING_OBELISK_NAME">
+      <Text>ओबेलिस्क (Obelisk)</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIAN_SHRINE_NAME">
+      <Text>मंदिर</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_AMUN_NAME">
+      <Text>अमुन का मंदिर</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NILOMETER_NAME">
+      <Text>नाइलोमीटर</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NILOMETER_DESCRIPTION">
+      <Text>+1 [ICON_Food] खाद्य और +1 [ICON_Production] उत्पादन बाढ़प्रवाह की सभी टाइल्स पर। यह केवल उस शहर में निर्मित किया जा सकता है जो नील नदी की एक पड़ोस में हो।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_WALLS_DESCRIPTION">
+      <Text>शहर केंद्र और छावनी क्षेत्र के चारों तरफ दीवारें प्रदान करती हैं। दीवारों से [ICON_Ranged] शहर केंद्र और छावनी क्षेत्र से रेंज्ड स्ट्राइक अनुमति देती हैं और शहर को आक्रमण करने से पहले उन्हें पराजित करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_GREAT_LIBRARY_DESCRIPTION">
+      <Text>सभी प्राचीन और क्लासिकल युग की तकनीकों में उन्नति प्राप्त करें। समतल भूमि पर बनाया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_GREAT_LIGHTHOUSE_DESCRIPTION">
+      <Text>+2 [ICON_Movement] सभी नौसेना इकाइयों के लिए आंदोलन[NEWLINE][NEWLINE] समुद्र तट पर बनाया जाना चाहिए, और भूमि और एक हार्बर जिले के समानांतर बनाया जाना चाहिए जिसमें एक लाइटहाउस हो।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_NUBIA_SCENARIO_PYRAMIDS_DESCRIPTION">
+      <Text>जो स्थान शहर-राज्य ऑन के पास है, उसके निकट जीजा में घटित होने वाली घटना से पहले पहले से तैयार हो जाता है। इसे जीतकर श्रद्धा का एक प्रमुख स्रोत प्राप्त किया जा सकता है और सभी नए निर्माताओं को 1 अतिरिक्त सुधार निर्माण करने की क्षमता प्रदान की जा सकती है।</Text>
+    </Row>
+    <!-- City State-->
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ASHMUNEIN">
+      <Text>अश्मुनेन</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BAHARIYA">
+      <Text>बहरीया</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_BYBLOS">
+      <Text>बाइब्लोस (Byblos)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_DAKHLA">
+      <Text>दखला</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_IHNASIYA">
+      <Text>Ihnasiya</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_IREM">
+      <Text>Irem</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_KHARGA">
+      <Text>Kharga</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_NEKHEN">
+      <Text>नेखेन</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_ON">
+      <Text>On</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_PUNT">
+      <Text>मूल्यांकन (Assessment)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SHARUHEN">
+      <Text>Sharuhen</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_SERABIT_EL_KHADIM">
+      <Text>सेराबिट एल-खादिम</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SCENARIO_THINIS">
+      <Text>थिनिस (Thinis)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASHMUNEIN_DESCRIPTION">
+      <Text>अश्मुनीन शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BAHARIYA_DESCRIPTION">
+      <Text>बहरिया राज्य-नगर</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_BYBLOS_DESCRIPTION">
+      <Text>बाइब्लॉस शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_DAKHLA_DESCRIPTION">
+      <Text>दखला शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_IHNASIYA_DESCRIPTION">
+      <Text>इहनासिया शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_IREM_DESCRIPTION">
+      <Text>इरेम सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_KHARGA_DESCRIPTION">
+      <Text>खरगा शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_NEKHEN_DESCRIPTION">
+      <Text>नेखेन शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ON_DESCRIPTION">
+      <Text>शहर राज्य पर।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PUNT_DESCRIPTION">
+      <Text>पंट सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SHARUHEN_DESCRIPTION">
+      <Text>शारुहेन शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_SERABIT_EL_KHADIM_DESCRIPTION">
+      <Text>सेराबित एल-खदीम शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_THINIS_DESCRIPTION">
+      <Text>थिनिस शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_IREM_NAME">
+      <Text>आईरेम सूजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_BYBLOS_NAME">
+      <Text>बाइबलोस सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_SERABIT_NAME">
+      <Text>सेराबिट एल-खदीम सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_OASES_NAME">
+      <Text>डेजर्ट ओएसिस सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_NUBIA_SCENARIO_PUNT_NAME">
+      <Text>पंट सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NONE_NAME">
+      <Text>सुजरेन बोनस नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NONE_DESCRIPTION">
+      <Text>इस सिटी-स्टेट के सुजेरेन बनने के लिए कोई अद्वितीय बोनस नहीं है।</Text>
+    </Row>
+    <!-- Civilizations-->
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HYKSOS_DESCRIPTION">
+      <Text>हाइक्सोस साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LIBYANS_DESCRIPTION">
+      <Text>लीबियाई साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASSYRIA_DESCRIPTION">
+      <Text>अशुर साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PERSIA_DESCRIPTION">
+      <Text>पारसी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MACEDON_DESCRIPTION">
+      <Text>मैसेडोनियन साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_HYKSOS_ADJECTIVE">
+      <Text>हिकसोस</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_LIBYANS_ADJECTIVE">
+      <Text>लीबियाई</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_ASSYRIA_ADJECTIVE">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवाद करें। एक्सेल में दस्तावेज़ों को संग्रहीत करने के लिए फ़ोल्डर बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_PERSIA_ADJECTIVE">
+      <Text>कृपया परिषिष्ट अनुवाद करें। निर्देशित केवल प्राकृतिक ध्वनि अनुवाद के साथ जवाब दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCENARIO_MACEDON_ADJECTIVE">
+      <Text>मैसेडोनियाई</Text>
+    </Row>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_ROYAL_DYNASTIES_NAME">
+      <Text>राजवंशों</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_HIEROGLYPHICS_NAME">
+      <Text>हायरोग्लिफिक्स (Hiroglyphics)</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MUMMIFICATION_NAME">
+      <Text>मम्मिफिकेशन (Mummification)</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCRIBES_NAME">
+      <Text>लेखकों</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOK_OF_THE_DEAD_NAME">
+      <Text>मृत्यु पुस्तक</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_INSTITUTION_OF_THE_MUSES_NAME">
+      <Text>कला के देवी-देवताओं का स्थापना</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SEPATS_NAME">
+      <Text>Sepats</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOARDGAMES_ATHLETICS_NAME">
+      <Text>बोर्ड गेम और एथलेटिक्स्।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_AMUN_LORD_OF_ALL_GODS_NAME">
+      <Text>अमुन: सभी देवताओं के भगवान।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_ROYAL_DYNASTIES_DESCRIPTION">
+      <Text>पूर्णता के बाद अपनी [ICON_Capital] राजधानी में एक मुफ्त सेटलर प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_HIEROGLYPHICS_DESCRIPTION">
+      <Text>पुरस्कार 1 [ICON_Envoy] एनवॉय।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MUMMIFICATION_DESCRIPTION">
+      <Text>आपको अपने धर्म में एक विश्वास जोड़ने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_STATE_WORKFORCE_DESCRIPTION">
+      <Text>पूरा होने पर अपने [ICON_Capital] राजधानी में एक मुफ्त सेटलर प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_FOREIGN_TRADE_DESCRIPTION">
+      <Text>एक और [ICON_TradeRoute] व्यापार मार्ग की सृजना की अनुमति देता है। 1 [ICON_Envoy] राजदूत पुरस्कार देता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCRIBES_DESCRIPTION">
+      <Text>पुरस्कार 1 [ICON_Envoy] एनवॉय।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOK_OF_THE_DEAD_DESCRIPTION">
+      <Text>आपको अपने धर्म में एक विश्वास जोड़ने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_INSTITUTION_OF_THE_MUSES_DESCRIPTION">
+      <Text>पुरस्कार 1 [ICON_Envoy] एनवॉय।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SEPATS_DESCRIPTION">
+      <Text>पूरा करने पर अपनी [ICON_Capital] राजधानी में एक मुफ़्त सेटलर प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOARDGAMES_ATHLETICS_DESCRIPTION">
+      <Text>पूर्ण करने पर अपनी [ICON_Capital] राजधानी में एक मुफ्त [ICON_GreatGeneral] महान सेनापति प्राप्त करें। सभी युद्ध इकाइयों को फ्लैंकिंग और समर्थन युद्ध बोनस प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_AMUN_LORD_OF_ALL_GODS_DESCRIPTION">
+      <Text>आपको अपने धर्म में एक विश्वास जोड़ने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NUBIA_SCENARIO_FUTURE_CIVIC_DESCRIPTION">
+      <Text>इसे कई बार पूरा किया जा सकता है।</Text>
+    </Row>
+    <!-- Districts-->
+    <Row Tag="LOC_DISTRICT_NUBIA_SCENARIO_HARBOR_DESCRIPTION">
+      <Text>आपके शहर में जल सेना गतिविधि के लिए एक जिला। इस टाइल से उतरने और उठरने के लिए [ICON_Movement] चलने की सज़ा को भी हटा देता है। इस से पहले यदि इस शहर में कोई वाणिज्यिक हब जिला नहीं है तो +1 [ICON_TradeRoute] व्यापार मार्ग क्षमता। यह जमीन के समीप किनारे, नील नदी या झील ढाल पर बनाया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NILE_RIVER_FAITH">
+      <Text>+{1_num} [ICON_Faith] आस-पास के नील नदी से आने वाली विश्वास {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NILE_RIVER_GOLD">
+      <Text>+{1_num} [ICON_Gold] आस-पास के नील नदी से सोना {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Row>
+    <!-- Governments-->
+    <Row Tag="LOC_GOVERNMENT_KANDAKE_NAME">
+      <Text>कंडाके</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_PHARAOH_NAME">
+      <Text>फिरऔँ (Pharaoh)</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_KANDAKE">
+      <Text>+1 [ICON_TradeRoute] व्यापार मार्ग।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_PHARAOH">
+      <Text>[ICON_Capital] राजधानी की सभी उपजों में +2 बूस्ट प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATING_BONUS_KANDAKE">
+      <Text>[ICON_Gold] गोल्ड के साथ खरीदारी पर 15% छूट।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATING_BONUS_PHARAOH">
+      <Text>+2 [ICON_Housing] किसी भी शहर में धार्मिक स्थल के साथ आवास।</Text>
+    </Row>
+    <!-- Great People-->
+    <Row Tag="LOC_NUBIA_SCENARIO_DOUBLE_COMBAT_STRENGTH_AOE_LAND">
+      <Text>2 टाइल्स की दूरी के सभी यूनिट्स को +10 [ICON_Strength] कामबैट बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_DOUBLE_COMBAT_STRENGTH_AOE_LAND_MODIFIER">
+      <Text>[ICON_GreatGeneral] महान सामन्य से +10 [ICON_Strength] युद्ध बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MONTUHOTEP_NAME">
+      <Text>मेन्टुहोटेप द्वितीय।</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PIYE_NAME">
+      <Text>Piye</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMANIRENAS_NAME">
+      <Text>अमानिरेनास</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHA_NABU_SHU_NAME">
+      <Text>शा-नाबु-शू</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CAMBYSES_NAME">
+      <Text>कंबिसीज द्वितीय</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALEXANDER_NAME">
+      <Text>अलेक्जेंडर</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMANISHAKETO_NAME">
+      <Text>Amanishaketo</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HOREMHEB_NAME">
+      <Text>होरेमहेब</Text>
+    </Row>
+    <!-- Improvements-->
+    <Row Tag="LOC_IMPROVEMENT_NUBIA_SCENARIO_SPHINX_DESCRIPTION">
+      <Text>मगरों की विशेषता सफ़ेद सिंहासन का निर्माण करने की, मिस्र के लिए विशिष्ट, को खोलता है। [NEWLINE] [NEWLINE] +1 [ICON_Faith] धर्म और +1 [ICON_Culture] संस्कृति। +1 आकर्षण। यदि किसी आश्चर्य या पवित्र स्थल के पास हो तो +2 [ICON_Faith] धर्म। एक दूसरे सिंहासन के पास नहीं बनाया जा सकता है। बाढ़प्रभावित क्षेत्रों पर बनाया जा सकता है। [ICON_Faith] [ICON_Culture] [ICON_Faith]</Text>
+    </Row>
+    <!-- Policies-->
+    <Row Tag="LOC_POLICY_ABU_SIMBEL_NAME">
+      <Text>अबू सिम्बल</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FRONTIER_FORTRESSES_NAME">
+      <Text>सीमा किलें</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INUNDATION_CALENDAR_NAME">
+      <Text>बाढ़ कैलेंडर</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERCENARIES_NAME">
+      <Text>प्रतिष्ठात्मकों</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_COMMUNICATION_NAME">
+      <Text>सैन्य संचार</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MUSAEUM_NAME">
+      <Text>म्यूजीयम</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RECORDKEEPING_NAME">
+      <Text>रिकॉर्डकीपिंग (rikord-keeping)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ROYAL_BODYGUARDS_NAME">
+      <Text>राजकीय बॉडीगार्ड्स</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCORPION_KING_NAME">
+      <Text>स्कॉर्पियन किंग</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_AGREEMENT_NAME">
+      <Text>व्यापार समझौता</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_VALLEY_OF_THE_KINGS_NAME">
+      <Text>राजाओं की घाटी (Rajaon ki Ghati)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_CONSCRIPTION_DESCRIPTION">
+      <Text>प्राचीन और शास्त्रीय युग में मीली और तीर की इकाइयों के प्रति [ICON_Production] उत्पादन में 50% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_GOD_KING_DESCRIPTION">
+      <Text>+2 [ICON_Faith] पूंजीवाद में विश्वास [ICON_Capital] की ओर।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUBIA_SCENARIO_MANEUVER_DESCRIPTION">
+      <Text>प्राचीन और क्लासिक काल में हेवी और लाइट कैवलरी इकाइयों के प्रति उत्पादन में +100% [ICON_Production]।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ABU_SIMBEL_DESCRIPTION">
+      <Text>+100% [ICON_Culture] पवित्र स्थल भवनों से संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FRONTIER_FORTRESSES_DESCRIPTION">
+      <Text>सभी [ICON_TradeRoute] व्यापार मार्गों से +4 [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INUNDATION_CALENDAR_DESCRIPTION">
+      <Text>प्रत्येक उन्मुख सहर के लिए +1 [ICON_Science] जल टाइल के संदर्भ में।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERCENARIES_DESCRIPTION">
+      <Text>शहर-राज्य इकाइयों का लगान देने के लिए सामान्य खर्च का आधा भुगतान करें।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_COMMUNICATION_DESCRIPTION">
+      <Text>+2 [ICON_Movement] सभी भूमि इकाइयों के लिए गति।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MUSAEUM_DESCRIPTION">
+      <Text>आपके सभी शहरों के विज्ञान उत्पाद को दोहरा देता है। [ICON_Science]</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RECORDKEEPING_DESCRIPTION">
+      <Text>प्रति यूनिट प्रति टर्न, एक [ICON_Gold] सोने से यूनिट रखरखाव में कमी हुई।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ROYAL_BODYGUARDS_DESCRIPTION">
+      <Text>+2 [ICON_Culture] राजधानी में संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCORPION_KING_DESCRIPTION">
+      <Text>सभी इकाइयों के लिए +4 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SCORPION_KING_COMBAT_STRENGTH">
+      <Text>खट्टा {1_Value} स्कॉर्पियन किंग से।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_AGREEMENT_DESCRIPTION">
+      <Text>अंतर्राष्ट्रीय [ICON_TradeRoute] व्यापार मार्ग से +2 [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_VALLEY_OF_THE_KINGS_DESCRIPTION">
+      <Text>+100% पवित्र स्थल जिला सम्बन्ध लाभ।</Text>
+    </Row>
+    <!-- Religions-->
+    <Row Tag="LOC_RELIGION_NUBIA_SCENARIO_NUBIA_NAME">
+      <Text>न्यूबियन देवताओं</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_NUBIA_SCENARIO_EGYPT_NAME">
+      <Text>मिस्री देवताओं</Text>
+    </Row>
+    <!-- Resources-->
+    <Row Tag="LOC_RESOURCE_SCENARIO_GOLD_NAME">
+      <Text>सोने का अयस्क</Text>
+    </Row>
+    <!-- Routes-->
+    <Row Tag="LOC_ROUTE_NUBIA_SCENARIO_ROAD_DESCRIPTION">
+      <Text>व्यापार मार्गों [ICON_TradeRoute] के माध्यम से निर्मित किया जा सकता है। यह किसी भी इकाई की [ICON_Movement] चाल की गति को बढ़ाता है जो एक सड़क टाइल से दूसरे टाइल पर जा रही हो।</Text>
+    </Row>
+    <!-- Technologies-->
+    <Row Tag="LOC_TECH_FISHING_NAME">
+      <Text>मछली पकड़ना</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MEDICINE_NAME">
+      <Text>दवाई</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FORTIFICATION_NAME">
+      <Text>किलेबंदी</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TOMB_BUILDING_NAME">
+      <Text>समाधि निर्माण</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FISHING_DESCRIPTION">
+      <Text>निर्माताओं को उतरने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_NUBIA_SCENARIO_SAILING_DESCRIPTION">
+      <Text>सभी भूमि इकाइयों को समुद्री यात्रा करने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_NUBIA_SCENARIO_MATHEMATICS_DESCRIPTION">
+      <Text>+2 [ICON_Movement] सभी नौसेना इकाइयों के लिए आंदोलन।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MEDICINE_DESCRIPTION">
+      <Text>समाप्ति पर आपके [ICON_Capital] राजधानी में 2 मुफ्त सेटलर प्राप्त करें।</Text>
+    </Row>
+    <!-- Units-->
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_GREAT_GENERAL_DESCRIPTION">
+      <Text>प्रत्येक [ICON_GreatGeneral] महान सेनापति के पासिव युद्ध प्रभाव होता है इस स्थिति में निकटवर्ती इकाइयों पर।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_GREAT_PROPHET_DESCRIPTION">
+      <Text>इस परिदृश्य में महान [ICON_GreatProphet] भविष्यवक्त नहीं मिलते। इजिप्ट और नुबिया दोनों ही अपने राजधानी शहर की स्थापना होते ही स्वचालित रूप से एक धर्म प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_EGYPTIAN_CHARIOT_ARCHER_DESCRIPTION">
+      <Text>मिस्री अनूठे प्राचीन काल के रेंज्ड यूनिट जो हैवी चारियट की जगह ले लेते हैं। खुले मैदान में शुरू करते समय 6 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUBIA_SCENARIO_SETTLER_DESCRIPTION">
+      <Text>नए शहर बनाए जा सकते हैं। अगर Civics और Technology Medicine को पूरा करके तब बस्तियों को स्थापित किया जा सकता है। वे कभी नहीं बनाए जा सकते।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HIGH_PRIESTESS_NAME">
+      <Text>उच्च मंत्री (uchch mantri)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDJAY_NAME">
+      <Text>मेडजे (Medjay)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HIGH_PRIESTESS_DESCRIPTION">
+      <Text>एक अद्वितीय बिल्डर जिसका केवल एक ही काम होता है, एक सिंफिंक्स या न्यूबियन पिरामिड बनाना।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDJAY_DESCRIPTION">
+      <Text>शक्तिशाली मेली इकाई जो मित्र राज्य में होने पर बड़ा युद्ध बोनस देती है और एक होली साइट के 1 टाइल के अंदर होती है। श्राइन बिल्डिंग होली साइट वाले शहर में ही मेडजे बना सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDJAY_HOLY_SITE_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>पवित्र स्थल के पास मित्र भूमि पर +{1_Value} युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_DOUBLE_STRENGTH_NAME">
+      <Text>पास का महान सरदार</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_DOUBLE_STRENGTH_DESCRIPTION">
+      <Text>महान सामंत के द्वारा +10 [ICON_Strength] युद्ध बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDJAY_DESCRIPTION">
+      <Text>पवित्र स्थल श्राइन के पास अग्रणी होने पर कॉम्बैट में +20 [ICON_Strength] बोनस।</Text>
+    </Row>
+    <!-- Civic Boosts-->
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_STATE_WORKFORCE">
+      <Text>8 टाइल्स को सुधारें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_FOREIGN_TRADE">
+      <Text>6 नगर-राज्यों से मिलें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SCRIBES">
+      <Text>2 अलग-अलग विशेषता के जिले बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_BOOK_OF_THE_DEAD">
+      <Text>एक शहर को जीतें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_INSTITUTION_OF_THE_MUSES">
+      <Text>गणित प्रौद्योगिकी पर अनुसंधान करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SEPATS">
+      <Text>2 शिविर क्षेत्रों का निर्माण करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_BOARDGAMES_ATHLETICS">
+      <Text>अपनी सभ्यता को कम से कम 24 जनसंख्या तक बढ़ाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_AMUN_LORD_OF_ALL_GODS">
+      <Text>तीन मंदिर बनाओ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_STATE_WORKFORCE">
+      <Text>हमारे पहले शहरों के चारों ओर की जमीन अच्छी तरह से विकसित होते हुए, हम अपनी उत्पादन तकनीकों को सुधार सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_FOREIGN_TRADE">
+      <Text>आपका अन्य राज्यों से संपर्क लाभदायक व्यापार के अवसरों को खोल दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SCRIBES">
+      <Text>हमारे शहर का विकास इतनी तेजी से हो रहा है कि हमें सब कुछ ट्रैक करने के लिए एक नई श्रेणी के कार्यकर्ताओं की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_BOOK_OF_THE_DEAD">
+      <Text>हमारे शहर के विजय से कुछ गिरफ्तार शहीद हमारे सामने हैं। आइए हम उनके अंतर्लोक के सफर को आसान बनाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_INSTITUTION_OF_THE_MUSES">
+      <Text>हमारे विद्वान गणितज्ञ विद्यार्थी के लिए एक मिसाल हैं। हमें उनकी मदद करनी चाहिए जिसके लिए हम दुनिया के ज्ञान को एक साथ एकत्रित करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SEPATS">
+      <Text>"अपने भूमि की रक्षा करने और बॉर्डर की सर्वेक्षण करने के लिए एंकैंपमेंट एक स्थान है, अब हम क्षेत्रीय अधिकार की दावेदारी जता सकते हैं।"</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_BOARDGAMES_ATHLETICS">
+      <Text>आपकी भूमि में निवास करने वाले नागरिकों की संख्या बढ़ती जा रही है जिन्हें अधिक मनोरंजन की जरूरत है। क्या हम सेनेट खेलेंगे या तीरंदाजी में हाथ लगाएँगे?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_AMUN_LORD_OF_ALL_GODS">
+      <Text>हमारे लोग अब एक सर्वोच्च देवता, अमुन को पहचानते हैं। चलो, जीवन के स्टाफ के निर्माता के उत्सव के लिए महान मंदिर बनाएँ।</Text>
+    </Row>
+    <!-- Tech Boosts-->
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_SAILING">
+      <Text>2 समुद्र संपदाओं को सुधारें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_IRRIGATION">
+      <Text>4 खेत बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_THE_WHEEL">
+      <Text>एक चरागाह बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_MEDICINE">
+      <Text>2 प्लांटेशन बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_FORTIFICATION">
+      <Text>घोषणा के लक्ष्य बनें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_TOMB_BUILDING">
+      <Text>मृत्यु पुस्तक नागरिकता प्राप्त करो।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_CELESTIAL_NAVIGATION">
+      <Text>दो गैलियों को अपने पास रखें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_MATHEMATICS">
+      <Text>तीन नाइलोमीटर बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_IRON_WORKING">
+      <Text>दुश्मन के सरदार को मार डालो।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_HORSEBACK_RIDING">
+      <Text>एक दुश्मन हॉर्समैन को मार डालो।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_SAILING">
+      <Text>आपके मछुआरे हमें सेना के उद्देश्यों के लिए नाव बनाने का ज्ञान सिखाने में मदद कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_IRRIGATION">
+      <Text>आपके कई खेतों से आपको फसलों को सिंचाई करने का महत्व समझने में मदद मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_THE_WHEEL">
+      <Text>पशु पालन से फायदा हो सकता है। क्या हम उन्हें युद्ध में सैनिकों को ले जाने के लिए प्रयोग कर सकते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_MEDICINE">
+      <Text>आप अपनी खेतों में फसलों के साथ जड़ी-बूटियों को मिला रहे हैं। क्या कुछ में औषधीय उपयोग होते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_FORTIFICATION">
+      <Text>आक्रमण के खतरे के सामने, आपके लोग नवाचारी रक्षा के साथ तैयार हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_TOMB_BUILDING">
+      <Text>सभी उचित प्रार्थनाओं को रिकॉर्ड करके, अब हम हमारे महानतम लोगों को सम्मानित करने के लिए मकबरे बना सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_CELESTIAL_NAVIGATION">
+      <Text>आपकी रसोई के क्रू को रात्रि आकाश का अध्ययन करके उनकी यात्रा के मार्गदर्शन करना सीखा जा रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_MATHEMATICS">
+      <Text>आपके सर्वोत्तम वैज्ञानिक मस्तिष्क नील बाढ़ों की भविष्यवाणियों में काफी सटीक हो रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_IRON_WORKING">
+      <Text>हमने पर्याप्त मात्रा में तलवारबाजों को हरा दिया है कि हम जल्द ही उसी तरह की इकाइयों को फील्ड कर सकेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_NUBIA_SCENARIO_TRIGGER_LONGDESC_HORSEBACK_RIDING">
+      <Text>हमने काफी हद तक घोड़ेदारों को हरा दिया है कि हम जल्द ही उसी प्रकार की इकाइयों को फील्ड कर सकेंगे।</Text>
+    </Row>
+    <!-- Terrain/Features-->
+    <Row Tag="LOC_FEATURE_CATARACT_NAME">
+      <Text>मोतियाबिंद</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_NILE_RIVER_NAME">
+      <Text>नील नदी</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_VICTORY_NUBIA_SCENARIO_TEXT">
+      <Text>तुम उस खिलाड़ी बन गए हो जिसने महान देवता अमुन की महिमा के लिए 7 मंदिर बनाए हैं। निश्चित रूप से तुम्हारी उपलब्धियों का जश्न मनाने के लिए एक महान पिरामिड बनाई जानी चाहिए!</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_TEMPLE_COUNT">
+      <Text>{1_Player} - अमुन के मंदिर बनाए गए: {2_Num}</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_1_NAME">
+      <Text>अमून की जीवंत छवि</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_2_NAME">
+      <Text>ईसिस द्वारा सम्मानित</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_3_NAME">
+      <Text>अनुबिस द्वारा अभिषिष्ट</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_4_NAME">
+      <Text>होरस के शिष्य</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_5_NAME">
+      <Text>भूला दिया बेस द्वारा।</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_6_NAME">
+      <Text>एश द्वारा संक्षिप्त किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_1_QUOTE">
+      <Text>सभी देवताओं के भगवान आपको सम्मानित करते हैं। (इसे अपने सिर पर मत चढ़ाना।)</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_2_QUOTE">
+      <Text>उन्होंने अपनी सफलता के लिए आनंद के आंसू बहाए।</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_3_QUOTE">
+      <Text>वह आपकी अंतःस्थानों के लिए विशेष कैनोपिक जार तैयार करता है।</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_4_QUOTE">
+      <Text>उसके कामों को सम्मानित करने के लिए, आप कभी भी एक भूरा आंधी से सामना नहीं करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_5_QUOTE">
+      <Text>शायद अगली बार वह आपको साँपों के बारे में चेतावनी देने के बारे में याद रखेगा।</Text>
+    </Row>
+    <Row Tag="LOC_NUBIA_SCENARIO_ENDGAME_RANKING_LEADER_6_QUOTE">
+      <Text>आप किसी भी रेगिस्तान में कोई ऑएसिस नहीं मिलेगा - केवल रेत के ढेरों पर रेत होगा।</Text>
+    </Row>
+    <!-- Events-->
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_1">
+      <Text>पुराने राज्य को फिर से बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_2">
+      <Text>नूबिया अपने धनुष को खींचती हुई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_3">
+      <Text>पीटाटी रिटर्न टू नुबिया</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_4">
+      <Text>हमारी सेवा में वापस आने के लिए पूछते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_5">
+      <Text>फिरांग मेन्टुहोटेप दो ताक पर उतरता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_6">
+      <Text>फिरों मेंटूहोटेप II ओसाइरिस से मिलते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_7">
+      <Text>उच्च पूजारी पवित्र स्थल को समर्पित करती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_8">
+      <Text>राजा पाइये गद्दी पर उतरते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_9">
+      <Text>राजा पिए ओसारिस से मिलते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_10">
+      <Text>रानी अमनिरेनास गद्दी पर उतरती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_11">
+      <Text>रानी अमानिरेनास ओसाइरिस से मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_12">
+      <Text>हिकसोस आक्रमण करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_13">
+      <Text>लीबिया आक्रमण करता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_14">
+      <Text>अश्शुरिया आक्रमण करता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_15">
+      <Text>पर्शिया आक्रमण करता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_16">
+      <Text>मैसेडोन आक्रमण करता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_17">
+      <Text>रोम आक्रमण करता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_TITLE_18">
+      <Text>गुप्त युद्ध हाथी</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_1">
+      <Text>पुराने राज्य का अस्तित्व नहीं रहा है। हालांकि नागरिक युद्ध भूमि को हिला रहा है, लेकिन आपके परिवार का भाग्य एक संयुक्त चीन का है। शायद नूबियन भर्तियों की छोटी अवधि की मदद आपको नील नदी के शहरों को फिर से हासिल करने में मदद कर सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_2">
+      <Text>आपके परिवार के पास नील नदी का एक महत्वपूर्ण खंड है। आपके उत्तरी मित्रों के आंतरिक संघर्ष से पीड़ित होने के साथ-साथ, धनुष देश साम्राज्य के कगार पर है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_3">
+      <Text>न्यूबियन वेतन भर्ती अपने अनुबंध को पूरा कर चुके हैं। वे धनुष के देश में लौटते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_4">
+      <Text>हमारे दलाल तीरंदाज ने मिस्र के साथ अपनी अनुबंधित देशीय पूरा कर लिया। वे घर लौटते हैं, ताकतवर और अच्छी संदर्भ में भुगतान किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_5">
+      <Text>महान मेन्टुहोटेप दूसरे कुछ नहीं चाहते हैं बल्कि ऊपरी और निचली मिस्र का पुनर्विनियोजन। अगर वह सफल होते हैं, तो हम उन्हें "दो भूमियों को जोड़ने वाले होरस" का उपाधि देंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_6">
+      <Text>मेन्टूहोटेप द्वितीय के मरने के साथ, उनकी जीवन शक्ति उनके शरीर से निकलती है और एक नया सफ़र आखिरत में शुरू होता है। वहाँ वह ओसिरिस के निर्णय से मिलेगा। उनके किए काम उन्हें अमर जीवन दिलाते हों।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_7">
+      <Text>एक धार्मिक नेता उठता है जो आपके नए पूजा स्थल को पूरा करने के लिए निकालता है। उसकी मदद से हम अपने देवताओं द्वारा प्रभावित दिव्य शक्तियों के नए प्रतीक बना सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_8">
+      <Text>धर्मात्मा राजा पीएवाई इजिप्शियों को उनके मालिकों के दिल में बसे घृणित तत्व से मुक्त करना चाहते हैं। उन्हें ऐसा करना होगा चाहे यह न्यूबियन के शासन को इजिप्शियन क्षेत्रों तक फैलाने तक के लिए बढ़ाना पड़े।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_9">
+      <Text>पाई की मृत्यु के साथ, उनकी जीवन शक्ति उनके शरीर से निकल जाती है और एक नए जीवन की यात्रा शुरू करती है। वहाँ वह ओसिरिस के न्याय का सामना करेगा। उसके कर्म उसे अमर जीवन दिला सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_10">
+      <Text>भयंकर रानी अमनिरेनास अंतरिक्षीय आक्रमणकारियों से नहीं डरती। अगर कोई नुबिया को धमकाए तो वह खुद हमला करेगी - चाहे वे दुनिया की सबसे शक्तिशाली सेनाएं हो।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_11">
+      <Text>अमानिरेनास की मृत्यु के साथ, उनकी जीवन शक्ति उनके शरीर से निकल जाती है और एक नया सफ़र आरंभ करती है। वहाँ वह ओसिरिस के न्याय का सामना करेगी। उनके कर्म उन्हें अमर जीवन प्राप्त कराएं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_12">
+      <Text>विदेशी आक्रमणकारियों की उत्तर पूर्व से आवाजाही हो रही है! हिक्षोस लेवांत से एक खतरनाक रथवाह सेना का कमांड ले आते हैं। वे नील तट पर पशु घोड़े से भी पहले कभी अनुभव नहीं की गई एक युद्ध उपकरण लेकर आते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_13">
+      <Text>विदेशी आक्रमणकारी मेडिटेरेनियन से आ रहे हैं! पश्चिम से लीबियों का आगमन हो रहा है, जो समुद्र तट के साथ नीले की ओर आगे बढ़ रहे हैं। पूर्व से उनके रहस्यमय मित्र आते हैं - समुद्री लोग।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_14">
+      <Text>पूर्वोत्तर से विदेशी आक्रमणकारी आ रहे हैं! शा-नाबू-शु द्वारा नेतृत्व किए जाने वाले अशुरों ने पहले से ही मेसोपोटेमियन भूमि को जीत लिया है। इस भयंकर दुश्मन से सावधान रहें!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_15">
+      <Text>विदेशी आक्रमणकारी उत्तर से आते हैं! पारसी अश्शूरियों के पीछे तेजी से आ रहे हैं। क्या पूर्व के कोई भी राज्य नील नदी के किनारे कब्जा करेगा?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_16">
+      <Text>पूर्वोत्तर से विदेशी आक्रमणकारी आ रहे हैं! मैसेडोन के अलेक्जेंडर तृतीय के विजयों का अंत धरती के किनारों तक फैला माना जाता है। अब वह नील नदी की जनता को अपने साम्राज्य में जोड़ने की कोशिश कर रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_17">
+      <Text>विदेशी आक्रमणकारी उत्तर से आ रहे हैं! रोमन सेना की शक्तिशाली लेजन खुद के लिए नील नदी को अपने नाम करने के लिए पश्चिम से आई। क्या कोई इस युग की शक्तिशाली सेना को रोक सकता है?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_DESCRIPTION_18">
+      <Text>हम एक गुप्त प्रशिक्षण के मैदान में आर्थिक लागत से युद्ध हाथियों को प्रशिक्षित किया। उन्हें सख्ती से रखें - हम उनकी संख्या को बनाए रख सकते हैं, अपनी धीमी प्रजनन दर के बावजूद, लेकिन नए ट्रेनिंग के लिए उम्मीद न करें।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_1">
+      <Text>ये नूबियन पिटाटी धनुरधारी आपकी सेना में अगले 6 टर्नों के लिए सेवा करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_2">
+      <Text>एक शहर मिला और उसके पास आसपास के समृद्ध खनिज भंडारों को खोजें।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_3">
+      <Text>आपकी पीटाती धनुषधारी इकाइयों को हटा दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_4">
+      <Text>ये अनुभवी पिताती धनुर्धारी अब हमारी [ICON_Capital] राजधानी के पास उपलब्ध हैं। हमने भी 100 [ICON_Gold] सोने की अर्ज़ी हासिल की है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_5">
+      <Text>यह [ICON_GreatGeneral] महान सामंत अगले 15 टर्नों के लिए हमारी सेना का नेतृत्व करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_6">
+      <Text>[ICON_GreatGeneral] महान सेनापति मेंटुहोटेप II को हटा दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_7">
+      <Text>जब आप मेसोन्री तकनीक का अध्ययन कर लें तब आप इस उच्च पूजारी का उपयोग अपने विशिष्ट सुधार (स्फिंक्स या नुबियाई पिरामिड) के निर्माण के लिए कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_8">
+      <Text>यह [ICON_GreatGeneral] महान महासेनापति अगले 15 टर्न के लिए हमारी सेना का नेतृत्व करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_9">
+      <Text>[ICON_GreatGeneral] महान सेनापति पिए हटा दिए गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_10">
+      <Text>यह [ICON_GreatGeneral] महान सेनापति अगले 15 टर्नों के लिए हमारी सेना का नेतृत्व करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_11">
+      <Text>[ICON_GreatGeneral] महान सेनापति अमनिरेनास को हटा दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_12">
+      <Text>ये हाइक्सोस आक्रमणकारी शहरों को जीतने और मेडिटेरेनियन तट के साथ एक राज्य स्थापित करने का प्रयास करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_13">
+      <Text>ये लीबियाई आक्रमणकारी शहरों को जीतने की कोशिश करेंगे और मेडिटेरेनियन के किनारे एक राज्य स्थापित करने की कोशिश करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_14">
+      <Text>ये अशुरी आक्रमणकारी शहरों को जीतने की कोशिश करेंगे और मेडिटेरेनियन सहारे पर एक राज्य स्थापित करने की कोशिश करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_15">
+      <Text>ये फारसी आक्रमणकारी शहरों को जीतने और मेडिटेरेनियन तट के आसपास एक राज्य स्थापित करने की कोशिश करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_16">
+      <Text>ये मैसेडोनियाई आक्रमणकारी शहरों का अधिकार करने और मध्य सागर के तटों पर एक राज्य स्थापित करने की कोशिश करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_17">
+      <Text>ये रोमन आक्रमणकारी शहरों को जीतने और मेडिटेरेनियन तट के साथ एक राज्य स्थापित करने की कोशिश करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_NUBIA_EVENT_EFFECT_18">
+      <Text>नए युद्ध हाथी इकाइयां अब उपलब्ध हैं। वे शहर में नहीं निर्मित किए जा सकते हैं और केवल इस इवेंट से प्राप्त किए जा सकते हैं।</Text>
+    </Row>
+  </EnglishText>
+</GameData>

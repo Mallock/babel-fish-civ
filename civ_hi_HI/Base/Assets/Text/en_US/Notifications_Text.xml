@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Turn-Blocking Notifications -->
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_ARTIFACT_PLAYER_MESSAGE">
+      <Text>वस्तु चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_ARTIFACT_PLAYER_SUMMARY">
+      <Text>आपने एक पुरातत्व स्थल का उत्खनन किया है। अब अपने संग्रहालय में वापस लाने के लिए एक वस्तु चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_TECH_MESSAGE">
+      <Text>एक तकनीक चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_TECH_SUMMARY">
+      <Text>एक नई तकनीक चुनें जिस पर शोध शुरू करना है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CITY_PRODUCTION_MESSAGE">
+      <Text>उत्पादन चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CITY_PRODUCTION_SUMMARY">
+      <Text>इस शहर में उत्पादन पूरा हुआ है। अगले कार्यक्रम चुनें कि हम क्या उत्पादन करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CIVIC_MESSAGE">
+      <Text>एक सिविक चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_CIVIC_SUMMARY">
+      <Text>किसी नए सिविक को विकसित करने के लिए चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMAND_UNITS_MESSAGE">
+      <Text>कमांड यूनिट्स</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMAND_UNITS_SUMMARY">
+      <Text>एक यूनिट को ले जाएँ या उसे कार्य कराएँ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGE_ATTACK_MESSAGE">
+      <Text>शहरी दूरस्त हमला</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGE_ATTACK_SUMMARY">
+      <Text>आपके शहर को दूरस्थ आक्रमण किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_GOVERNMENT_CHANGE_MESSAGE">
+      <Text>सरकार बदलने को विचार करें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_GOVERNMENT_CHANGE_SUMMARY">
+      <Text>आपने एक सिविक पूरा किया जिससे एक नई सरकार खुली है। आप उस शासन ढंगी में स्विच करने का विचार करना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_RAZE_CITY_MESSAGE">
+      <Text>शहर को तबाह करें या बचाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_RAZE_CITY_SUMMARY">
+      <Text>आपने इस बार एक शहर जीत लिया है। इसे मुक्त करना, उखाड़ फेंकना या रखना तय करें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FILL_CIVIC_SLOT_MESSAGE">
+      <Text>नीति स्लॉट भरें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FILL_CIVIC_SLOT_SUMMARY">
+      <Text>हमारी सरकार में एक नीति जोड़ने की जरूरत है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_PANTHEON_MESSAGE">
+      <Text>पैंथियन चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_RELIGION_MESSAGE">
+      <Text>धर्म चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CHOOSE_BELIEF_MESSAGE">
+      <Text>विश्वास चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAIM_GREAT_PERSON_MESSAGE">
+      <Text>महान व्यक्ति का दावा</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAIM_GREAT_PERSON_SUMMARY">
+      <Text>आपने एक महान व्यक्ति कमाया है और उन्हें स्वीकार करने या उन्हें छोड़ने के लिए चुनने की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GIVE_INFLUENCE_TOKEN_MESSAGE">
+      <Text>अभियान भेजें। (Abhiyan bhejen.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GIVE_INFLUENCE_TOKEN_SUMMARY">
+      <Text>आपने एक [ICON_Envoy] राजधानी को भेजने के लिए पात्र हो गए हैं, और बोनस के लिए उसे भेज सकते हैं।</Text>
+    </Row>
+    <!-- Unit Notifications -->
+    <Row Tag="LOC_NOTIFICATION_UNIT_DIED">
+      <Text>इकाई मर गई।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_DISBANDED_MESSAGE">
+      <Text>इकाई विघटित हो गई।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_DISBANDED_SUMMARY">
+      <Text>आपका [ICON_Gold] सोने का शेष ऋणात्मक है। आपका {1_UnitName} बिखरा दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_PROMOTION_AVAILABLE_MESSAGE">
+      <Text>पद विज्ञप्ति के लिए उपलब्ध।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_PROMOTION_AVAILABLE_SUMMARY">
+      <Text>{1_UnitName} इकाई एक प्रचार के लिए उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_MESSAGE">
+      <Text>हार गए! (Haar gaye!)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_SUMMARY">
+      <Text>{1_leader} को हरा दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DEFEATED_BY_SUMMARY">
+      <Text>{1_leader} को {2_leader} द्वारा हराया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_PLAYER_DEFEATED_MESSAGE">
+      <Text>हार गए! (Haar gaye!)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_PLAYER_DEFEATED_SUMMARY">
+      <Text>एक अनुभव नहीं होने वाला खिलाड़ी हराया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNMET_CITY_STATE_DEFEATED_SUMMARY">
+      <Text>एक असंतोषजनक शहर-राज्य हार गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_OCCUPATION">
+      <Text>आपको दुश्मन के कब्जे में एक {1_UnitName} हार गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_RETREAT_FROM_OCCUPATION">
+      <Text>एक दुश्मन अधिकार ने आपके {1_UnitName} को पीछे हटने के लिए मजबूर कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING">
+      <Text>आपको विकिरण रोग से एक {1_UnitName} खो दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_WATER_DAMAGE">
+      <Text>आपने जल पोषण के कारण एक {1_UnitName} खो दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_LIFESPAN_EXPIRED_MESSAGE">
+      <Text>यूनिट समाप्त हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_LIFESPAN_EXPIRED_SUMMARY">
+      <Text>{1_UnitName} अपनी [ICON_Lifespan] आयु सीमा के अंत तक पहुंच गया है।</Text>
+    </Row>
+    <!-- Diplomacy Notifications-->
+    <Row Tag="LOC_NOTIFICATION_DECLARE_WAR_MESSAGE">
+      <Text>युद्ध का घोषणापत्र</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DECLARE_WAR_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} के नेतृत्व में संघर्ष की घोषणा {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}} के विरुद्ध की गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MAKE_PEACE_MESSAGE">
+      <Text>समझौते द्वारा शांति</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MAKE_PEACE_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} के द्वारा {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}} के साथ शांति हुई। (In Hindi)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_MESSAGE_CIV">
+      <Text>आपने एक नई सभ्यता से मुलाकात की है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_MESSAGE_CITY_STATE">
+      <Text>आपने एक नए शहर-राज्य से मुलाकात की है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MET_SUMMARY">
+      <Text>आप {LOC_GRAMMAR_CIVDESC &lt;&lt; {2_CivDesc}} के {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}} से मिले हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BORDERS_NOW_ENFORCED_MESSAGE">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} सीमाओं का पालन करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BORDERS_NOW_ENFORCED_SUMMARY">
+      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} अब अपनी सीमाओं को प्रभार कर रहें हैं। उनके साम्राज्य के अंदर आपकी इकाइयों को बाहरी टाइल पर निलंबित कर दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_FRIENDSHIP_EXPIRED_MESSAGE">
+      <Text>दोस्ती समाप्त हो गई।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_FRIENDSHIP_EXPIRED_SUMMARY">
+      <Text>आपकी {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}} के साथ दोस्ती अब समाप्त हो गई है और उसे नवीनीकरण किया जाना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_ALLIANCE_EXPIRED_MESSAGE">
+      <Text>संधि समाप्त हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_ALLIANCE_EXPIRED_SUMMARY">
+      <Text>आपका {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}} के साथ संधि समाप्त हो चुकी है और इसे नवीनीकरण किया जाना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_GAINED_MESSAGE">
+      <Text>कारण युद्ध जीता गया</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_GAINED_SUMMARY">
+      <Text>आपने {2_leader} पर {1_WarType} घोषित करने के लिए एक कारण प्राप्त किया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_COLONIAL">
+      <Text>कलोनियल युद्ध (Colonial Yuddh)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_HOLY">
+      <Text>धर्मयुद्ध (Dharmayuddh)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_LIBERATION">
+      <Text>स्वतंत्रता युद्ध</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_PROTECTORATE">
+      <Text>संरक्षणशासन युद्ध (Sanrakshanashasan Yuddh)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_RECONQUEST">
+      <Text>पुनर्विजय युद्ध</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_TERRITORIAL_EXPANSION">
+      <Text>भू-विस्तार की युद्ध</Text>
+    </Row>
+    <!-- Espionage Notifications -->
+    <Row Tag="LOC_NOTIFICATION_SPY_CHOOSE_ESCAPE_ROUTE_MESSAGE">
+      <Text>भागने का रास्ता चुनें। (Bhaagne ka raasta chunen.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CHOOSE_DRAGNET_PRIORITY_MESSAGE">
+      <Text>चयन करें: पीछा करने की प्राथमिकता</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_HEIST_GREAT_WORK_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {2_CityName} में " {3_Work}" चुरा लेने में सफलता हासिल की।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_HEIST_GREAT_WORK_MESSAGE">
+      <Text>सफलता महान काम चुराने से नहीं मिलती। (Saphalta mahaan kaam churaane se nahin milti.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_HEIST_GREAT_WORK_SUMMARY">
+      <Text>एक दुश्मन जासूस {1_CityName} में शानदार काम "{2_Work}" चुराकर सफल रहा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_HEIST_GREAT_WORK_MESSAGE">
+      <Text>दुश्मन ने महान काम चुरा लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SABOTAGED_PRODUCTION_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {2_cityName} शहर के इंडस्ट्रियल जोन को नुकसान पहुंचाने में सफलता हासिल की।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SABOTAGED_PRODUCTION_MESSAGE">
+      <Text>सफलता उत्पादन को नुकसान पहुंचाने वाली होती है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SABOTAGED_PRODUCTION_SUMMARY">
+      <Text>दुश्मन जासूस ने {1_cityName} शहर के औद्योगिक क्षेत्र में असफलता उत्पन्न कर दी।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SABOTAGED_PRODUCTION_MESSAGE">
+      <Text>दुश्मन जासूस उत्पादन को नुकसान पहुंचाया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SIPHONED_FUNDS_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {3_cityName} शहर से {2_Amount} [ICON_Gold] सोने को उद्धरण करने में सफलता हासिल की है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_SIPHONED_FUNDS_MESSAGE">
+      <Text>सफलता सोने को साँईफ़ करना।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SIPHONED_FUNDS_SUMMARY">
+      <Text>दुश्मन जासूस ने {2_cityName} शहर से {1_Amount} [ICON_Gold] सोना चुरा लिया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_SIPHONED_FUNDS_MESSAGE">
+      <Text>दुश्मन जासूस सोना चोरी कर रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_STOLE_TECH_BOOST_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {2_CityName} में {3_Tech} को चुराने में सफलता हासिल की।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_STOLE_TECH_BOOST_MESSAGE">
+      <Text>सफलता चुराने वाली तकनीक उन्नयन</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_STOLE_TECH_BOOST_SUMMARY">
+      <Text>{1_CityName} में एक दुश्मन जासूस ने {2_Tech} को चुरा लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_STOLE_TECH_BOOST_MESSAGE">
+      <Text>दुश्मन ने तकनीकी बढ़त चुरा ली।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_RECRUITED_PARTISANS_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {2_CityName} में गुप्तचारी बलों को भर्ती करने में सफलता हासिल की है जो अपने शहर को वापस लेना चाहते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_RECRUITED_PARTISANS_MESSAGE">
+      <Text>सफलता में पार्टिजन भर्ती</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_RECRUITED_PARTISANS_SUMMARY">
+      <Text>{1_CityName} में एक दुश्मन जासूस को प्रफल होकर वे पक्षपाती बलों को भर्ती करने में कामयाब हुआ जो अब आपके शहर को खतरे में डाल रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_RECRUITED_PARTISANS_MESSAGE">
+      <Text>दुश्मन ने पार्टिज़ानों को भर्ती किया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_DISRUPTED_ROCKETRY_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {2_cityName} शहर के स्पेसपोर्ट को लूटने में सफलता हासिल की।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_DISRUPTED_ROCKETRY_MESSAGE">
+      <Text>सफलता रॉकेट्री को विस्थापित कर रही है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_DISRUPTED_ROCKETRY_SUMMARY">
+      <Text>दुश्मन जासूस ने {1_cityName} शहर में स्पेसपोर्ट को लूटने में कामयाब हो गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_DISRUPTED_ROCKETRY_MESSAGE">
+      <Text>दुश्मन जासूस रॉकेट्री में अवरोध उत्पन्न करता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CITY_SOURCES_GAINED_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {2_CityName} के आंतरिक कामकाज के बारे में ज्ञानवान स्रोतों को प्राप्त किया है। उस शहर में आपके जासूस {3_Levels} स्तर ऊपर चलेंगे {4_Turns} टर्न के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CITY_SOURCES_GAINED_MESSAGE">
+      <Text>स्रोत प्राप्त हुए।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_LISTENING_POST_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {2_CityName} में एक सुनवाई पोस्ट पर अपना समय समाप्त कर लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_LISTENING_POST_MESSAGE">
+      <Text>सुनने का स्थान पूर्ण हो गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_SUMMARY">
+      <Text>आपका एजेंट {1_unitName} शहर {2_CityName} से भाग गया है क्योंकि वहाँ एक नए साम्राज्य का राज है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_MESSAGE">
+      <Text>जासूस शहर से भागता हुआ निकल गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_ALLIANCE_SUMMARY">
+      <Text>आपका एजेंट {1_unitName} {2_CityName} शहर से बाहर निकल गया है ताकि आपके नए साथी के शर्तों का आदर किया जा सके।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FLED_CITY_ALLIANCE_MESSAGE">
+      <Text>जासूस शहर से बाहर निकलता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_FAILED_SUMMARY">
+      <Text>आपका एजेंट {1_unitName} ने {3_cityName} शहर में {2_mission} मिशन में असफलता प्राप्त की।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_FAILED_MESSAGE">
+      <Text>जासूस विफल रहा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CAPTURED_SUMMARY">
+      <Text>आपका एजेंट {1_unitName} {3_cityName} शहर में एक {2_mission} मिशन के दौरान गिरफ्तार हो गया था!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_CAPTURED_MESSAGE">
+      <Text>जासूस गिरफ्तार किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_CAPTURED_SUMMARY">
+      <Text>{1_civName} से एक जासूस {3_cityName} शहर में एक {2_mission} मिशन के दौरान गिरफ्तार किया गया था!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_CAPTURED_MESSAGE">
+      <Text>दुश्मन जासूस को गिरफ़्तार किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_KILLED_SUMMARY">
+      <Text>आपका एजेंट {1_unitName} {3_cityName} शहर में {2_mission} मिशन के दौरान मारा गया था!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_KILLED_MESSAGE">
+      <Text>जासूस मारा गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_KILLED_SUMMARY">
+      <Text>{1_civName} का एक जासूस {2_mission} मिशन के दौरान {3_cityName} शहर में मारा गया। {4_CounterspyAssist}</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_KILLED_MESSAGE">
+      <Text>दुश्मन जासूस को मार गिराया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_TO_CAPITAL">
+      <Text>आपके जासूस {1_unitName} ने यात्रा रोक दी है क्योंकि लक्ष्य शहर का दायित्व बदल गया है। आप उन्हें अपनी राजधानी में ढूँढ सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {3_cityName} शहर में {2_mission} मिशन अपूर्ण कर दिया है। मिशन लक्ष्य अब वैध नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_MISSION_ABORTED_MESSAGE">
+      <Text>जासूसी मिशन रद्द कर दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_PROMOTED_SUMMARY">
+      <Text>शहर {2_cityName} में दुश्मन {1_mission} मिशन रोकने में निभाए गए भूमिका के लिए आपके जासूस {3_unitName} को तबादला मिला है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_PROMOTED_MESSAGE">
+      <Text>काउंटरस्पाई को पदोन्नत किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_COUNTERSPY_ASSIST">
+      <Text>आपका काउंटरस्पाई {1_unitName} हमारी सुरक्षा बलों के इस विजय में महत्वपूर्ण भूमिका निभाया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ESCAPED_CAPTURE_SUMMARY">
+      <Text>आपके जासूस {1_unitName} को गिरफ्तारी से बचा लिया गया है और वह {2_turns} टर्न में आपकी [ICON_Capital] राजधानी में वापस आएगा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ESCAPED_CAPTURE_MESSAGE">
+      <Text>जासूस भाग गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_ESCAPED_CAPTURE_SUMMARY">
+      <Text>एक दुश्मन जासूस एक अज्ञात सभ्यता से बच निकला है और आपके शहर {1_cityName} से भाग निकला है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_ESCAPED_CAPTURE_MESSAGE">
+      <Text>दुश्मन जासूस भाग गया। (Dushman jaasoos bhaag gaya.)</Text>
+    </Row>
+    <!-- City-State Notifications -->
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_GIVEN_MESSAGE">
+      <Text>नई शहर-राज्य मिशन</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_GIVEN_SUMMARY">
+      <Text>{1_CityStateName} ने आपको एक नया क्वेस्ट दिया है: {2_QuestName}।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_COMPLETED_MESSAGE">
+      <Text>शहर-राज्य खोज पूर्ण हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_QUEST_COMPLETED_SUMMARY">
+      <Text>आपने {1_CityStateName} के लिए एक क्वेस्ट पूरा किया और इसका फलस्वरूप {2_RewardText} की उपज उपलब्ध की है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_MET_FIRST_MESSAGE">
+      <Text>नगर-राज्य बैठक बोनस</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_MET_FIRST_SUMMARY">
+      <Text>{1_CityStateName} से मिलने वाली पहली प्रमुख सभ्यता के रूप में, आपने वहाँ {2_NumEnvoys : plural 1?एक दूत; other?कुछ दूतों;} का हक हासिल किया है [ICON_Envoy]।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_USURPED_MESSAGE">
+      <Text>सुवेरेन स्थिति हार गई।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITYSTATE_USURPED_SUMMARY">
+      <Text>[ICON_Envoy] अभियोग के बाद, आप {1_CityStateName} के सुज़ेरेन नहीं रहे हैं।</Text>
+    </Row>
+    <!-- Trade Route Notifications -->
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_MESSAGE">
+      <Text>व्यापार मार्ग लूटा गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_SUMMARY_NO_ROUTE">
+      <Text>{1_PlayerName} आपकी व्यापारी इकाई को लूट लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_PLUNDERED_SUMMARY_ACTIVE_ROUTE">
+      <Text>{1_PlayerName} ने आपकी ट्रेडर यूनिट को लूट लिया है। आपकी [ICON_TradeRoute] {2_OriginCityName} से {3_DestinationCityName} के बीच ट्रेड रूट अब सक्रिय नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADING_POST_CREATED_MESSAGE">
+      <Text>ट्रेडिंग पोस्ट बनाया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADING_POST_CREATED_SUMMARY">
+      <Text>[ICON_TradeRoute] एक व्यापार रास्ता पूरा करने से आपके नाम का [ICON_TradingPost] ट्रेडिंग पोस्ट {1_CityName} शहर में बन गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_CAPACITY_INCREASED_MESSAGE">
+      <Text>व्यापार मार्ग क्षमता में वृद्धि</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADE_ROUTE_CAPACITY_INCREASED_SUMMARY">
+      <Text>अब आप पहले की तुलना में अधिक [ICON_TradeRoute] व्यापार मार्ग बना सकते हैं और उन्हें बनाए रख सकते हैं।</Text>
+    </Row>
+    <!-- Economic Notifications -->
+    <Row Tag="LOC_NOTIFICATION_REBELLION_MESSAGE">
+      <Text>विद्रोह!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_REBELLION_SUMMARY">
+      <Text>[ICON_Amenities] सुविधाओं की कमी {1_CityName} में लोगों को हमारे खिलाफ हथियार उठाने पर मजबूर कर दी है, जिससे {2_NumUnits} दुश्मनी इकाइयां उत्पन्न हुई हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOW_AMENITIES_MESSAGE">
+      <Text>और सुविधाएँ चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOW_AMENITIES_SUMMARY">
+      <Text>{1_CityName} को उत्पादक बनाए रखने के लिए अधिक [ICON_Amenities] सुविधाएं चाहिए। अगर यह बिगड़ता जाता है, तो लोग हमारे खिलाफ बगावत कर सकते हैं!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOUSING_PREVENTING_GROWTH_MESSAGE">
+      <Text>और आवास की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOUSING_PREVENTING_GROWTH_SUMMARY">
+      <Text>{1_CityName} को और अधिक [ICON_Housing] आवास की आवश्यकता है ताकि यह अधिक विकसित हो सके। अगर ऐसा जारी रहता है तो हमें नए [ICON_Citizen] नागरिकों को प्राप्त करने में कठिनाई हो सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_STARVING_MESSAGE">
+      <Text>शहर भूखा है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_STARVING_SUMMARY">
+      <Text>{1_CityName} अपने लोगों के लिए पर्याप्त [ICON_Food] खाद्य पदार्थ प्रदान नहीं करता है। यदि यह जारी रहता है, तो यह [ICON_Citizen] नागरिकों को खो देगा!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_FOOD_FOCUS_MESSAGE">
+      <Text>शहर को खाने की जरूरत है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_FOOD_FOCUS_SUMMARY">
+      <Text>{1_CityName} के लोगों के विकास के लिए पर्याप्त [ICON_Food] भोजन उपलब्ध नहीं है। [ICON_Food] भोजन पर अपने शहर का ध्यान केंद्रित करने का विचार करें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURY_BANKRUPT_MESSAGE">
+      <Text>खजाना दिवालिया हो गया!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TREASURY_BANKRUPT_SUMMARY">
+      <Text>हमारे पास कोई [ICON_Gold] सोना नहीं है, और हमारे खर्च हमारी आय से अधिक हैं। अगर यह ऐसा ही रहता है, तो हमारे शहरों से [ICON_Amenities] सुविधाएँ खत्म हो जाएंगी और हमारी यूनिट्स हमें छोड़ देंगी!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAN_PURCHASE_WITH_FAITH_MESSAGE">
+      <Text>विश्वास के साथ खरीद सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAN_PURCHASE_WITH_FAITH_SUMMARY">
+      <Text>आपने पर्याप्त [ICON_Faith] विश्वास जमा किया है ताकि आप {LOC_GRAMMAR_A_AN &lt;&lt; {1_ItemName}} खरीद सकें।</Text>
+    </Row>
+    <!-- Multiplayer Notifications -->
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTING">
+      <Text>{1_playerName} शामिल हो रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTING_TT">
+      <Text>{1_playerName} खेल में शामिल हो रहा है। यह प्रक्रिया कुछ मिनट लग सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTED">
+      <Text>{1_playerName} शामिल हुए।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTED_TT">
+      <Text>{1_playerName} खेल में शामिल हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DISCONNECT">
+      <Text>{1_playerName} डिस्कनेक्ट हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DISCONNECT_TT">
+      <Text>{1_playerName} ने गेम से डिस्कनेक्ट कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_KICKED">
+      <Text>{1_playerName} ने लात मारी।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_KICKED_TT">
+      <Text>{1_playerName} गेम से निकाल दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MOD_STATUS">
+      <Text>{1_playerName} मॉड डाउनलोड कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_MOD_STATUS_TT">
+      <Text>{1_playerName} इस गेम में खेलने के लिए आवश्यक मॉड डाउनलोड कर रहा है। ({2: number} का {3: number} कुल)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_MIGRATION">
+      <Text>होस्ट माइग्रेशन</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_MIGRATION_TT">
+      <Text>खेल एक नए गेम होस्ट के लिए स्थानांतरित हो रहा है। खेल शीघ्र ही फिर से शुरू होगा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_CHANGED">
+      <Text>होस्ट विस्थापित हो गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HOST_CHANGED_TT">
+      <Text>{1_playerName} नया गेम होस्ट है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_YOURTURN">
+      <Text>बादल में खेलें, अब आपकी बारी है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_YOURTURN_TT">
+      <Text>एक प्ले बाय क्लाउड गेम में अब आपकी बारी है। ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_GAMEREADY">
+      <Text>पाय बाय क्लाउड गेम रेडी</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_GAMEREADY_TT">
+      <Text>आपके Play By Cloud गेम में से एक शुरू करने के लिए तैयार है। ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_UNSEENCOMPLETE">
+      <Text>बादल के खेल का समापन किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYBYCLOUD_UNSEENCOMPLETE_TT">
+      <Text>आपके प्ले बाय क्लाउड गेम्स में से एक हाल ही में पूरा हुआ है। ({1_cloudGameName})</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WRONG_PHASE_TT">
+      <Text>[color:Civ6Red]गलत चरण[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SIMULTANEOUS_TURNS">
+      <Text>समवर्ती टर्न्स (Samavarti Turns)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SIMULTANEOUS_TURNS_TT">
+      <Text>आपका मानव खिलाड़ी के साथ युद्ध समाप्त हो गया है। अब आपकी बारी अन्य सभी राज्यों के साथ समवर्ती रूप से खेली जाएगी।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SEQUENTIAL_TURNS">
+      <Text>क्रमिक चलने</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SEQUENTIAL_TURNS_TT">
+      <Text>आप एक मानव खिलाड़ी के साथ युद्ध में हैं। सभी युद्धरत सभ्यताओं के साथ आपकी बारी से क्रमिक रूप से खेली जाएगी जब तक युद्ध समाप्त नहीं हो जाता।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DESYNCED">
+      <Text>{1_playerName} डिसिंक हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_DESYNCED_TT">
+      <Text>{1_playerName} का खेल मेजबान से अलग हो गया है। वे समस्या को ठीक करने के लिए पुन: लोड हो रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESYNC_COMPLETE">
+      <Text>{1_playerName} रीसिंक पूर्ण हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESYNC_COMPLETE_TT">
+      <Text>{1_playerName} लोड हो गया है।</Text>
+    </Row>
+    <!-- Multiplayer deferred popup notifications -->
+    <Row Tag="LOC_NOTIFICATION_TECH_BOOST_MESSAGE">
+      <Text>टेक बूस्ट (Tek Boost)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_BOOST_SUMMARY">
+      <Text>टेक बूस्टेड: {1_Name}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_BOOST_MESSAGE">
+      <Text>नागरिक उन्नयन</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_BOOST_SUMMARY">
+      <Text>Civic Boosted: {1_Name}! 
+सिविक बूस्टेड: {1_Name}!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_DISCOVERED_MESSAGE">
+      <Text>{1_Name} का खोज किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TECH_DISCOVERED_SUMMARY">
+      <Text>आपने {1_Name} का खोज कर लिया है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_DISCOVERED_MESSAGE">
+      <Text>{1_Name} का पता चला हुआ</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CIVIC_DISCOVERED_SUMMARY">
+      <Text>आपने {1_Name} का खोज कर लिया है!</Text>
+    </Row>
+    <!-- Great Work Notifications -->
+    <Row Tag="LOC_NOTIFICATION_RELIC_CREATED_MESSAGE">
+      <Text>उत्पादित स्मृति वस्तु</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_RELIC_CREATED_SUMMARY">
+      <Text>[ICON_GreatWork_Relic] पवित्र अवशेष {1_RelicName} को {3_CityName} के {2_BuildingName} में रखा गया है।</Text>
+    </Row>
+    <!-- Discovery Notifications -->
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_CONTINENT_MESSAGE">
+      <Text>नया महाद्वीप खोजा गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_CONTINENT_SUMMARY">
+      <Text>हमने एक नया महाद्वीप खोज लिया है। हमारे खोजकर्ता ने उसे {1_ContinentName} नाम देने का फैसला किया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_MESSAGE">
+      <Text>आदिवासी गांव खोजा गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_SUMMARY">
+      <Text>आपने एक दोस्ताने जनजाति द्वारा बसा हुए एक गांव खोजा है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_NATURAL_WONDER_MESSAGE">
+      <Text>अद्भुत प्राकृतिक विस्मय खोजा गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_NATURAL_WONDER_SUMMARY">
+      <Text>आपके खोजी {1_NaturalWonderName} प्राकृतिक आश्चर्य का खोज कर चुके हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_RESOURCE_MESSAGE">
+      <Text>संसाधन खोजा गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_RESOURCE_SUMMARY">
+      <Text>हमें एक नई {1_ResourceName} की स्रोत मिली है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_MESSAGE">
+      <Text>बर्बर नज़दीक आते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_SUMMARY">
+      <Text>हमने हमारे शहर {1_CityName} की ओर आतंकवादियों को देखा है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_MESSAGE">
+      <Text>नया बार्बेरियन आउटपोस्ट</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_SUMMARY">
+      <Text>हमें अफवाहें मिली हैं कि एक नई बार्बरियन कबीला निकटवर्ती क्षेत्र में घुस गया है।</Text>
+    </Row>
+    <!-- Victory Notifications -->
+    <Row Tag="LOC_NOTIFICATION_MY_DOMINANT_CULTURE_MESSAGE">
+      <Text>आपकी संस्कृति प्रभावशाली है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_DOMINANT_CULTURE_SUMMARY">
+      <Text>आपने पर्याप्त [ICON_Tourism] पर्यटकों को आकर्षित किया है जो आपकी संस्कृति को {1_CivName} पर शासक बना देगे।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_DOMINANT_CULTURE_MESSAGE">
+      <Text>विदेशी संस्कृति प्रबल</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_DOMINANT_CULTURE_SUMMARY">
+      <Text>{1_CivName} ने पर्यटकों को प्रभावित कर अपनी संस्कृति को आपकी संस्कृति से शासित करने के लिए पर्याप्त [ICON_Tourism] पर्यटकों को आकर्षित किया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_CULTURE_VICTORY_SOON_MESSAGE">
+      <Text>आपकी संस्कृति विजय निकट है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_MY_CULTURE_VICTORY_SOON_SUMMARY">
+      <Text>आपकी संस्कृति एक विदेशी सभ्यता के अलावा सभी पर शासित हो गई है। एक संस्कृति जीत आपके हाथ में है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_CULTURE_VICTORY_SOON_MESSAGE">
+      <Text>विदेशी संस्कृति की जीत निश्चित हो रही है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_OTHER_CULTURE_VICTORY_SOON_SUMMARY">
+      <Text>{1_CivName} को केवल एक और खिलाड़ी पर अपनी संस्कृति को प्रभावशाली बनाने की ज़रूरत है ताकि वह संस्कृति विजय हासिल कर सके।</Text>
+    </Row>
+    <!--Future Notifications (not yet implemented)-->
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_AVAILABLE_MESSAGE">
+      <Text>नया केसस बेली उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_AVAILABLE_SUMMARY">
+      <Text>अब हमारे पास {2_CivName} पर {1_WarType} घोषित करने के लिए न्याय है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGED_ATTACK_MESSAGE">
+      <Text>शहर रेंज स्ट्राइक</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_RANGED_ATTACK_SUMMARY">
+      <Text>{1_CityName} शहर दुश्मन बलों पर हमला कर सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENCAMPMENT_RANGED_ATTACK_MESSAGE">
+      <Text>छावनी सीमा हड़ताल</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENCAMPMENT_RANGED_ATTACK_SUMMARY">
+      <Text>{1_CityName} के शहर के बाहर छावनी दुश्मन बलों पर हमला कर सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUKE_DROPPED_MESSAGE">
+      <Text>परमाणु उपकरण विस्फोटित हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NUKE_DROPPED_SUMMARY">
+      <Text>{1_CivName} द्वारा {2_CityName} शहर के पास एक न्यूक्लियर डिवाइस विस्फोटित किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_THERMONUKE_DROPPED_MESSAGE">
+      <Text>थर्मोन्यूक्लियर उपकरण विस्फोटित हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_THERMONUKE_DROPPED_SUMMARY">
+      <Text>{1_CivName} द्वारा {2_CityName} शहर के करीब एक भयानक थर्मोन्यूक्लियर उपकरण विस्फोटित किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEW_AGENT_MESSAGE">
+      <Text>ट्रेन जासूस हो सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEW_AGENT_SUMMARY">
+      <Text>अब आप एक अतिरिक्त जासूस को प्रशिक्षित कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_CAPTURED_MESSAGE">
+      <Text>यूनिट कैप्चर्ड</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_CAPTURED_SUMMARY">
+      <Text>आपकी {1_UnitType} {3_CivName} से आए हुए {2_EnemyUnitType} द्वारा जब्त कर ली गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_ATTACKED_MESSAGE">
+      <Text>यूनिट आक्रमण किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_ATTACKED_SUMMARY">
+      <Text>आपकी {1_UnitType} को {2_CivName} ने हमला किया था।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_MESSAGE">
+      <Text>आश्चर्य पूरा हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_SUMMARY">
+      <Text>{1_CivName} ने विश्व विस्मयकारी {2_WonderName} का निर्माण पूरा कर लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_HOTSEAT_CURRENT_PLAYER_SUMMARY">
+      <Text>आपने {1_WonderName} विश्व विलास का निर्माण समाप्त कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_COMPLETED_UNMET_PLAYER_SUMMARY">
+      <Text>एक अपूर्ण खिलाड़ी ने दुनिया के विस्मयकर स्थापत्यकला {1_WonderName} का निर्माण पूरा कर लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_FAILED_MESSAGE">
+      <Text>उत्पादन बचाया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WONDER_FAILED_SUMMARY">
+      <Text>आप समय पर विश्व अद्भुत {1_WonderName} पूरा नहीं कर पाए। हालांकि, {3_CityName} शहर को अपनी प्रयास से [ICON_Production] {2_Production} उत्पादन को बचाया गया है और पुरस्कृत किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOST_MESSAGE">
+      <Text>शहर जीता गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOST_SUMMARY">
+      <Text>{1_CityName} शहर को {2_CivName} ने कब्जा कर लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_WALLS_BREACHED_MESSAGE">
+      <Text>शहर की दीवारों में अंदर की गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_WALLS_BREACHED_SUMMARY">
+      <Text>{1_CityName} की दीवारें {2_CivName} से आने वाले दलों द्वारा तोड़ दी गई हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_LOST_MESSAGE">
+      <Text>राजधानी अधिकृत रूप से जीत गई|</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_LOST_SUMMARY">
+      <Text>{1_CivName} की [ICON_Capital] राजधानी को {2_CivName} ने जीत लिया है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_RECLAIMED_MESSAGE">
+      <Text>पूंजी वापसी</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CAPITAL_RECLAIMED_SUMMARY">
+      <Text>{1_CivName} ने अपनी राजधानी वापस ले ली है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENEMY_IN_TERRITORY_MESSAGE">
+      <Text>सीमाओं में दुश्मन</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ENEMY_IN_TERRITORY_SUMMARY">
+      <Text>हमारी सीमाओं के अंदर शत्रु सैनिकों की गतिविधियों की खबर मिली है, {1_CityName} शहर के करीब।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_ANTIQUITY_SITE_MESSAGE">
+      <Text>पुरातत्व स्थल का पता लगाया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_ANTIQUITY_SITE_SUMMARY">
+      <Text>आपने एक नई पुरातत्व स्थल का खुलासा किया है। वस्तु निकालने के लिए एक पुरातत्वविद को भेजें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_SHIPWRECK_MESSAGE">
+      <Text>जहाज का दुर्घटना होने की खोज की गई।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_SHIPWRECK_SUMMARY">
+      <Text>आपने प्राचीन एक विमान दुर्घटना के स्थल का पता लगाया है। एक बार जब आप सांस्कृतिक विरासत नागरिकता हासिल कर लें, तो आपको एक पुरातत्वविद को भेजकर डूबे हुए आभूषण को उठाना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_COUNTERDEAL_RECEIVED_MESSAGE">
+      <Text>काउंटरऑफर प्राप्त हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_COUNTERDEAL_RECEIVED_SUMMARY">
+      <Text>{1_CivName} ने आपकी सौदे की प्रस्ताव के लिए एक काउंटरऑफर भेजा है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_RECEIVED_MESSAGE">
+      <Text>सौदा प्रस्तावित</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_RECEIVED_SUMMARY">
+      <Text>आपको {1_CivName} से एक सौदा प्रस्ताव मिला है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_AI_EXPIRED_MESSAGE">
+      <Text>तुम्हारी निंदा समाप्त हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_AI_EXPIRED_SUMMARY">
+      <Text>{1_CivName} द्वारा आपके विरुद्ध तलाक का समय समाप्त हो गया है। वे सुरक्षित रहना चाहते हैं तो आधिकारिक तौर पर युद्ध घोषित करने के लिए उसे फिर से जारी करने की आवश्यकता होगी।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_HUMAN_EXPIRED_MESSAGE">
+      <Text>आपकी तलाशख्वाही समाप्त हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DENUNCIATION_BY_HUMAN_EXPIRED_SUMMARY">
+      <Text>आपकी {1_CivName} की निंदा समाप्त हो गई है और आपको यदि आप औपचारिक रूप से युद्ध घोषित करना चाहते हैं तो पुनः जारी किया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_KEPT_MESSAGE">
+      <Text>आपके लिए पूरा किया गया वादा</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_KEPT_SUMMARY">
+      <Text>{1_CivName} ने आपसे की गई {2_PromiseType} की वादा पूरा कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_KEPT_MESSAGE">
+      <Text>आपका वादा पूरा हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_KEPT_SUMMARY">
+      <Text>आपका वादा {1_CivName} को पूरा कर दिया गया है जिसमें आपने {2_PromiseType} करने का वादा किया था।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_BROKEN_MESSAGE">
+      <Text>तुम्हारे साथ दिया गया वादा टूट गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_FROM_BROKEN_SUMMARY">
+      <Text>{1_CivName} ने आपको दिया गया वचन {2_PromiseType} करने का तोड़ दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_BROKEN_MESSAGE">
+      <Text>आपके वादे टूटे हुए हैं। (Aapke vaade toote hue hain.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PROMISE_TO_BROKEN_SUMMARY">
+      <Text>आपका {2_PromiseType} करने का वादा {1_CivName} के प्रति तोड़ दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_ARTIFACTS">
+      <Text>अवशेषों का उत्खनन रोकें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_ON_BORDER">
+      <Text>सीमा पर सैनिकों को आगे बढ़ाएं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_RELIGIOUS">
+      <Text>शहरों को बदलना बंद करो।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_SETTLING">
+      <Text>आस-पास बसना बंद करो।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PROMISE_TYPE_SPYING">
+      <Text>जासूसी बंद करो।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_EXPIRED_MESSAGE">
+      <Text>सौदा समाप्त हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_DEAL_EXPIRED_SUMMARY">
+      <Text>आपका {1_CivName} के साथ किया गया एक सौदा समाप्त हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISTRICT_PILLAGED_MESSAGE">
+      <Text>जिला लूटा गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISTRICT_PILLAGED_SUMMARY">
+      <Text>आपके {1_DistrictName} में {2_CityName} {3_CivName} द्वारा लूट लिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_IMPROVEMENT_PILLAGED_MESSAGE">
+      <Text>सुधार की लूट।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_IMPROVEMENT_PILLAGED_SUMMARY">
+      <Text>आपका {1_ImprovementName} {2_CityName} में {3_CivName} द्वारा लुट लिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_MESSAGE">
+      <Text>भवन लूट लिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_BUILDING_PILLAGED_SUMMARY">
+      <Text>आपका {1_BuildingName} {2_CityName} में {3_CivName} द्वारा लूट लिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROUTE_PILLAGED_MESSAGE">
+      <Text>सड़क लूट ली गई।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROUTE_PILLAGED_SUMMARY">
+      <Text>{2_CityName} के पास {1_RoadName} का एक टाइल {3_CivName} ने लूट लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESURRECTED_MESSAGE">
+      <Text>खिलाड़ी को जीवित कर दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_RESURRECTED_SUMMARY">
+      <Text>{1_civName} एक शहर को फिर से हासिल कर चुका है और फिर से जीवित हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_ELIMINATED_MESSAGE">
+      <Text>खिलाड़ी बाहर हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PLAYER_ELIMINATED_SUMMARY">
+      <Text>{1_civName} को हटा दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROADS_UPGRADED_MESSAGE">
+      <Text>सड़कों को अपग्रेड किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ROADS_UPGRADED_SUMMARY">
+      <Text>{1_RoadName} अनलॉक हो गया है, जो आपके क्षेत्र में सभी सड़कों को अपग्रेड करता है ({2_MovementCost} [ICON_Movement] आंदोलन {2_MovementCost : plural 1? बिंदु; other? बिंदु;}).</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_RELIGIOUS_UNIT_MESSAGE">
+      <Text>पहला धार्मिक इकाई</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_RELIGIOUS_UNIT_SUMMARY">
+      <Text>एक नए धर्म की स्थापना के समय आपके लोगों को व्याप्त हुए उत्साह के कारण, आपने अपना पहला {1_UnitName} मुफ्त में प्राप्त किया है। भविष्य में खरीदने के लिए [ICON_Faith] विश्वास का उपयोग करें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_ESPIONAGE_UNIT_MESSAGE">
+      <Text>पहला जासूस</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_ESPIONAGE_UNIT_SUMMARY">
+      <Text>आपके नए जासूस नेटवर्क के उत्साह के कारण, आपको मुफ्त में पहला {1_UnitName} मिला है। जब आप अधिक निर्माण करने की क्षमता को अनलॉक करते हैं, तो अपने शहरों में उन्हें ट्रेन करें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BESIEGED_BY_OTHER_PLAYER_MESSAGE">
+      <Text>शहर घेरा गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BESIEGED_BY_OTHER_PLAYER_SUMMARY">
+      <Text>{1_CityName} घेरे में है। जब तक विरोधी इकाइयां आपके शहर के आस-पास के सभी हेक्स पर कब्जा नहीं करती हैं, तब तक यह ठीक नहीं होगा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TILE_LOST_CULTURE_BOMB_MESSAGE">
+      <Text>खोया गया क्षेत्र।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TILE_LOST_CULTURE_BOMB_SUMMARY">
+      <Text>हम {1_CivName} द्वारा आरंभित एक संस्कृति बम से क्षेत्र हार गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_FORCED_REBASE_MESSAGE">
+      <Text>हवाई जहाज को मजबूरन रिबेस करना पड़ा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_FORCED_REBASE_SUMMARY">
+      <Text>{1_AirUnit} का स्थान खतरे में है और उसे दोबारा बेस नगरी में जाना पड़ रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_BASE_OVERRUN_MESSAGE">
+      <Text>वायु आधार पर दस्तक दी गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_AIRCRAFT_BASE_OVERRUN_SUMMARY">
+      <Text>{1_AirUnit} अपनी नई बेसिंग करने में असमर्थ था और तबाह कर दिया गया है।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

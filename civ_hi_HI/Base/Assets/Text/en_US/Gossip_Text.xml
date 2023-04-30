@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_VISIBILITY_NONE_NAME">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_VISIBILITY_LIMITED_NAME">
+      <Text>सीमित</Text>
+    </Row>
+    <Row Tag="LOC_VISIBILITY_FULL_NAME">
+      <Text>खोलें</Text>
+    </Row>
+    <Row Tag="LOC_VISIBILITY_SECRET_NAME">
+      <Text>रहस्य</Text>
+    </Row>
+    <Row Tag="LOC_VISIBILITY_TOP_SECRET_NAME">
+      <Text>शीर्ष रहस्यमय</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_FULL_STRING">
+      <Text>{1_SourceText} {2GossipText}</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_ALLIED">
+      <Text>संधियाँ</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_CHANGE_GOVERNMENT">
+      <Text>सरकारी बदलाव</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_CONQUER_CITY">
+      <Text>शहर विजय</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_CONSTRUCT_DISTRICT">
+      <Text>जिले निर्मित हुए।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_CULTURVATE_CIVIC">
+      <Text>नागरिकता पूरा हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_CITY_STATE_INFLUENCE">
+      <Text>नगर-राज्यों पर प्रभाव डाला</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_DENOUNCED">
+      <Text>दोषारोपण (Dosharopan)</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_FOUND_CITY">
+      <Text>नगर गठित</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_FOUND_RELIGION">
+      <Text>धर्म व्यवस्थापन</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_GREATPERSON_CREATED">
+      <Text>महान लोगों की भर्ती की गई।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_MAKE_DOW">
+      <Text>युद्ध की घोषणाएँ</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_POLICY_ENACTED">
+      <Text>छिपे एजेंड खुलासे</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_RESEARCH_TECH">
+      <Text>प्रौद्योगिकियों का अनुसंधान किया गया</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_TRADE_DEAL">
+      <Text>व्यापार डीलों को लागू किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_TRADE_RENEGE">
+      <Text>व्यापार समझौतों को तोड़ दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_TRAIN_SETTLER">
+      <Text>बस्तियों को प्रशिक्षित किया गया</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_WMD_BUILT">
+      <Text>विशाल विनाश के हथियार का निर्माण किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_WMD_STRIKE">
+      <Text>विस्फोटक मानव संहार का अस्त्र हमला हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_WONDER_STARTED">
+      <Text>चमत्कार शुरू हुए</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_ATTACK_LAUNCHED">
+      <Text>हमले किए गए</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_PROJECT_STARTED">
+      <Text>परियोजनाओं की शुरुआत हुई है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_SPACE_RACE_PROJECT_COMPLETED">
+      <Text>अंतरिक्ष दौड़ परियोजनाओं को पूरा किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_VICTORY_STRATEGY_CHANGED">
+      <Text>जीत की रणनीति बदल दी गई।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIPDESC_WAR_PREPARATION">
+      <Text>युद्ध की तैयारियाँ</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_AGENDA_KUDOS">
+      <Text>{LOC_GRAMMAR_LEADER &lt;&lt; {1_LeaderName}} {1_CivName : plural 1?के पास; other?के पास हैं;} ने {LOC_GRAMMAR_LEADER &lt;&lt; {2_LeaderName}} का धन्यवाद दिया जो {3_AgendaName} के साथ सहयोग कर रहे थे।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_AGENDA_WARNING">
+      <Text>{LOC_GRAMMAR_LEADER &lt;&lt; {1_LeaderName}} के पास {1_CivName : plural 1?है; other?हैं;} और वे {LOC_GRAMMAR_LEADER &lt;&lt; {2_LeaderName}} को चेतावनी दे रहे हैं कि {3_AgendaName} के साथ हस्तक्षेप न करें।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_ALLIED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के पास अभी {1_CivName : plural 1?एक; other?कई;} साथियों की एक गठबंधन जुड़ी हुई है जिसमें {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}} भी शामिल है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_ANARCHY_BEGINS">
+      <Text>{1_CivName} में {2_Government} के शासन को हटाने के लिए एक कूदेदारी हुई है। अराजकता शुरू हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_ARTIFACT_EXTRACTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के पास एक नई खुदाई उत्खनन का कामियाब होना हुआ है: {2_GreatWork}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_BARBARIAN_INVASION_STARTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName: plural 1?hai; other?hai (are)} {2_CityName} mein ek barbaar hamle se muqabla kar rahe hain.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_BARBARIAN_RAID_STARTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?है; other?हैं;} {2_CityName} में बर्बर हमले का सामना कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_BEACH_RESORT_CREATED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} को सुनहरे ताप का आनंद नए समुद्र तटीय रिसॉर्ट {2_CityName} के बाहर बहुत मजेदार लग रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CHANGE_GOVERNMENT">
+      <Text>{1_CivName} के नए सरकार {2_Government} हुए।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CITY_BESIEGED">
+      <Text>{1_CityName} एक घेराबंदी का सामना कर रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CITY_LIBERATED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}}} के पास अभी {2_CityName} शहर {LOC_GRAMMAR_CIVNAME &lt;&lt; {3_CivName}} को वापस मिला है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CITY_RAZED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के पास हाल ही में {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}} से जीता गया शहर था जिसे वे अभी हाल ही में नष्ट कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CLEAR_CAMP">
+      <Text>{1_CivName} के पास {2_UnitName} हैं जिनका उपयोग {3_ImprovementName} को साफ करने के लिए किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CITY_STATE_INFLUENCE">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के पास एक दूत {2_CityState} को भेजा है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CONQUER_CITY">
+      <Text>{1_CivName} ने {2_CityName} को विजय किया है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CONQUER_CAPITAL_CITY">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName} {1_CivName : plural 1?ने; other?ने;} मूल {2_CivAdjective} राजधानी {3_CityName} का अधिकार प्राप्त किया।}</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CONSTRUCT_BUILDING">
+      <Text>{1_CivName} के पास {3_CityName} में {2_BuildingName} बनाया हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CONSTRUCT_DISTRICT">
+      <Text>{1_CivName} के पास {LOC_GRAMMAR_A_AN &lt;&lt; {2_DistrictName}} हैं जो {3_CityName} में बनाए गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CREATE_PANTHEON">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?की पूजा करता है; other?की पूजा करते हैं;} {2_BeliefName} धार्मिकता पर केंद्रित देवताओं के एक पैंथन की पूजा करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_CULTURVATE_CIVIC">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} ने {2_CivicName} के विकास को पूरा कर लिया।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_DECLARED_FRIENDSHIP">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} का घोषणा हुआ है कि वे {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}} के साथ दोस्ती का इज़हार करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_DELEGATION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} को एक विदेशी प्रतिनिधि दल मिला है। ऐसा लगता है कि वे {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}} से आए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_DENOUNCED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के द्वारा {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}} के बुरे कामों की निंदा की गई।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_EMBASSY">
+      <Text>{1_CivName} की राजधानी में एक नया भवन दिखाई दिया है: {2_CivName} से एक स्थायी दूतावास।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_ERA_CHANGED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?के पास; other?के पास हैं;} {2_OldEra} से {3_NewEra} में बढ़त दर्शाते हुए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_FIND_NATURAL_WONDER">
+      <Text>{1_CivName} केवल {2_NWName} प्राकृतिक आश्चर्य पर ठोकर खा चुके हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_FOUND_CITY">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?बढ़ रही है; other?बढ़ रहे हैं;} नए बसे में {2_CityName} शामिल की जा रही है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_FOUND_RELIGION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?के पास; other?के पास हैं;} एक नई धर्म स्थापित किया: {2_ReligionName}.</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_GREATPERSON_CREATED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?के पास; other?के पास हैं;} {2_unit} {3_GreatPerson} कमाए गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_LAUNCHING_ATTACK">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} ने {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}} पर सैन्य हमला शुरू कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_WAR_PREPARATION">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} एक युद्ध पर विचार कर रहा है {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}} के खिलाफ।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_INQUISITION_LAUNCHED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?ने; other?ने;} {2_ReligionName} के विरोधी धर्मविरोधियों को उखाड़ फेंकने के लिए एक अन्वेषण शुरू किया।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_LAND_UNIT_LEVEL">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?के पास; other?के पास हैं;} एक {2_UnitName} है जिसने अभी {3_PromotionName} पदक प्राप्त किया है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_MAKE_DOW">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?ने; other?ने;} अभी {2_OtherPlayer} पर युद्ध घोषित किया है!</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_NATIONAL_PARK_CREATED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के पास {2_NationalParkName} है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_NAVAL_UNIT_LEVEL">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के पास एक {2_UnitName} है जो हाल ही में {3_PromotionName} पदक पाया है। (Note: Please do not remove or translate the text in curly braces.)</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_NEW_RELIGIOUS_MAJORITY">
+      <Text>{1_CivName} के अधिकांश शहर अब {2_ReligionName} धर्म का अनुसरण कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_PILLAGE">
+      <Text>{1_CivName} ने एक दुश्मन {2_TargetName} को {3_UnitName} के साथ लूटा है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_POLICY_ENACTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} ने {2_SlotName} नीति {3_PolicyName} को अपनाया।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_RECEIVE_DOW">
+      <Text>{1_CivName} को {2_OtherPlayer} द्वारा घोषणा युद्ध के लिए लक्ष्य बनाया गया है!</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_RELIC_RECEIVED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के तीर्थयात्री अब पवित्र अवशेष {2_RelicName} देखने के लिए उमड़ रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_RESEARCH_AGREEMENT">
+      <Text>{1_CivName} और {2_CivName} के वैज्ञानिकों ने एक वैज्ञानिक साझेदारी बनाई है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_RESEARCH_TECH">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} ने {2_TechName} के बारे में अनुसंधान पूरा किया।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_CAPTURED">
+      <Text>{3_SpyPlayer} के जासूस को {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} द्वारा {2_CityName} में पकड़ लिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_DISRUPT_ROCKETRY_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के स्पेसपोर्ट को {2_CityName} में {3_SpyPlayer} से एक जासूस द्वारा अवरुद्ध किया गया था।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_DISRUPT_ROCKETRY_UNDETECTED">
+      <Text>अज्ञात जासूस द्वारा {2_CityName} में {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के स्पेसपोर्ट को सबोटेज किया गया था।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_GREAT_WORK_HEIST_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के पास {2_CityName} में एक महान काम {3_SpyPlayer} से चोरी हो गया था।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_GREAT_WORK_HEIST_UNDETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} का एक महान कार्य {2_CityName} में एक अज्ञात जासूस द्वारा चुराया गया था।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_RECRUIT_PARTISANS_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName: plural 1?कोशिश कर रहा है; other?कोशिश कर रहे हैं;} {3_SpyPlayer} द्वारा भर्ती किए गए {2_CityName} में विद्रोहियों को दबाने की कोशिश कर रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_RECRUIT_PARTISANS_UNDETECTED">
+      <Text>{1_CivName} अज्ञात जासूस द्वारा भर्ती किए गए विद्रोहियों को {2_CityName} में दबाने की कोशिश कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_SABOTAGE_PRODUCTION_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के प्रोधोगिकी क्षेत्र {2_CityName} में {3_SpyPlayer} के जासूस से नुकसान पहुंचाया गया था।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_SABOTAGE_PRODUCTION_UNDETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के औद्योगिक क्षेत्र को अज्ञात जासूस द्वारा {2_CityName} में बाधित किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_SIPHON_FUNDS_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के फंड {2_CityName} में {3_SpyPlayer} से एक जासूस द्वारा चुराए गए।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_SIPHON_FUNDS_UNDETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के धन {2_CityName} में एक अज्ञात जासूस द्वारा चुराए गए।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_STEAL_TECH_BOOST_DETECTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के टेक्नोलॉजी के योजनाओं को {2_CityName} में {3_SpyPlayer} से एक जासूस ने चुराया।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPY_STEAL_TECH_BOOST_UNDETECTED">
+      <Text>अज्ञात जासूस ने {2_CityName} में {1_CivName} के टेक्नोलॉजी प्लान चुरा लिए थे।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_TRADE_DEAL">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} अभी {LOC_GRAMMAR_CIVNAME &lt;&lt; {2_CivName}} के साथ व्यापार कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_TRADE_RENEGE">
+      <Text>{1_CivName} ने {2_CivName} के साथ एक सौदे से पीछा हटा दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_TRAIN_SETTLER">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?शहर की स्थापना करना चाहता है; other?शहर की स्थापना करना चाहते हैं;} जहाँ उनके नवीन ट्रेन हुए {2_UnitName} को स्थान दिए जाने की इच्छा है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_TRAIN_UNIT">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के पास अभी दुनिया का पहला {2_UnitName} प्रशिक्षण पूरा हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_TRAIN_UNIQUE_UNIT">
+      <Text>{1_CivName} के पास एक अद्वितीय इकाई, {2_UnitName} को प्रशिक्षित करने की क्षमता {1_CivName : plural 1?है; other?हैं;}।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_PROJECT_STARTED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} के पास {2_ProjectType} शुरू किया है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SPACE_RACE_PROJECT_COMPLETED">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName: plural 1?ने; other?ने} Space Race project {2_ProjectType} पूरा कर लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_START_VICTORY_STRATEGY">
+      <Text>{1_CivName} {1_CivName: plural 1?एक; other?कुछ} {2_VictoryName} की तलाश में हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_STOP_VICTORY_STRATEGY">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName: singular?अब; plural?अब} {2_VictoryType} की तलाश नहीं कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_WMD_BUILT">
+      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} {1_CivName : plural 1?ne; other?ne;} {2_WMDCount} शून्यक का निर्माण किया है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_WMD_STRIKE">
+      <Text>{1_CivName} ने एक विस्फोटक आयुध जैसी चीज छोड़ दी है! एक {2_UnitName}! छिप जाओ और सुरक्षित रहो!</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_WONDER_STARTED">
+      <Text>{1_CivName} ने {2_CityName} में {3_BuildingName} के लिए जमीन साफ़ की है।</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_RUMOR">
+      <Text>अफवाह का कहना है कि</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_TECH">
+      <Text>हाल ही में एक समाचार लेखने ने खुलासा किया कि</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_TRADER">
+      <Text>आपके व्यापारी, {1_Name}, सुन लिया कि</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_DELEGATE">
+      <Text>आपके विनम्रता-प्रतिनिधि, {1_Name}, यह जान गया कि</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_TRAIT">
+      <Text>आपकी लेडी-इन-वेटिंग, {1_Name}, दरबार के बॉल पर सुनी है कि</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_ALLY">
+      <Text>एक सहयोगी मित्र रिपोर्ट करता है कि</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_SPY">
+      <Text>आपके जासूस, {1_Name}, ने खबर खोजी है कि</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_SOURCE_GREAT_PERSON_JOURNALISM">
+      <Text>आपके निडर रिपोर्टर, {1_Name}, ने खोज निकाला कि</Text>
+    </Row>
+    <Row Tag="LOC_GOSSIP_LOST_CITY">
+      <Text>एक "खोया हुआ" शहर</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_TECH">
+      <Text>छापाई प्रौद्योगिकी की अनुसंधान की गई।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_TRADER">
+      <Text>व्यापार मार्ग स्थापित हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_DELEGATE">
+      <Text>वाणिज्य या दूतावास भेजा गया है।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_TRAIT">
+      <Text>कैथरीन की उड़ान सेना (Katherine ki Udaan Sena)</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ALLY">
+      <Text>संधि स्थापित हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_SPY">
+      <Text>जासूस अपनी जगह पर है।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_GREAT_PERSON_JOURNALISM">
+      <Text>मेरी कैथरिन गोडार्ड का ग्रेट मर्चेंट प्रभाव</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_TECH">
+      <Text>छापाई प्रौद्योगिकी का अध्ययन करें।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_TRADER">
+      <Text>एक व्यापार मार्ग स्थापित करें।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_DELEGATE">
+      <Text>एक प्रतिनिधि मंडल भेजें या एक दूतावास स्थापित करें।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_TRAIT">
+      <Text>कैथरीन डी मेडिसी के रूप में खेलें।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_ALLY">
+      <Text>संघीय सेवा की आवश्यकता होती है, मित्र बनें।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_SPY">
+      <Text>एक स्पाई को सुनवाई पोस्ट मिशन पर भेजें।</Text>
+    </Row>
+    <Row Tag="LOC_VIZSOURCE_ACTION_GREAT_PERSON_JOURNALISM">
+      <Text>मैरी कैथरीन गोडार्ड के ग्रेट मर्चेंट क्षमता का उपयोग करें।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Civ Info-->
+    <Row Tag="LOC_CIVILIZATION_AUSTRALIA_NAME">
+      <Text>ऑस्ट्रेलिया</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_NAME">
+      <Text>अंग्रेज़ी शीर्षक: "लैंड डाउन अंडर" का हिंदी अनुवाद।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_DESCRIPTION">
+      <Text>+3 [ICON_Housing] तटीय शहरों में आवास। चरागाह संस्कृति बम ट्रिगर करते हैं। कैंपस, वाणिज्यिक हब, पवित्र स्थल और थिएटर स्क्वेयर्स से उत्पन्न उत्पादों में +1 टाइल्स में आकर्षक आकर्षण, ब्रेटथेकिंग में +3 हैं।</Text>
+    </Row>
+    <!-- Feature Info -->
+    <Row Tag="LOC_FEATURE_ULURU_NAME">
+      <Text>उलुरू</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_ULURU_DESCRIPTION">
+      <Text>एक टाइल अजेय प्राकृतिक आश्चर्य। आसपास के टाइलों को +2 [ICON_CULTURE] संस्कृति और +2 [ICON_FAITH] श्रद्धा प्रदान करता है। सामान्य +2 के बजाय आसपास के टाइलों को +4 आकर्षण प्रदान करता है।</Text>
+    </Row>
+    <!-- Improvement Info-->
+    <Row Tag="LOC_IMPROVEMENT_OUTBACK_STATION_NAME">
+      <Text>आउटबैक स्टेशन</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_OUTBACK_STATION_DESCRIPTION">
+      <Text>आस्ट्रेलिया के लिए अनोखे आउटबैक स्टेशन का निर्माण करने के लिए बिल्डर क्षमता को अनलॉक करता है। [NEWLINE] [NEWLINE] +1 [ICON_FOOD] खाद्य और +1 [ICON_PRODUCTION] उत्पादन। प्रत्येक आसपास के चारागाह के लिए +1 [ICON_Food] खाद्य। आगे बढ़ते टेक्नोलॉजी और सिविक ट्री में आसपास के आउटबैक स्टेशन और चारागाह के लिए अतिरिक्त [ICON_FOOD] खाद्य और [ICON_PRODUCTION] उत्पादन। केवल रेगिस्तान, रेगिस्तान के पहाड़, घास के मैदान और मैदान टाइल में बनाया जा सकता है।</Text>
+    </Row>
+    <!-- Leader Info-->
+    <Row Tag="LOC_LEADER_JOHN_CURTIN_NAME">
+      <Text>जॉन कर्टिन</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_JOHN_CURTIN">
+      <Text>प्रधानमंत्री कर्टिन, आप चुनौती के बाद चुनौती के माध्यम से ऑस्ट्रेलिया का नेतृत्व करेंगे और आपके लोग इससे और अधिक मजबूत निकलेंगे। दूसरे देश आपके बल के लिए मित्रता तलाशेंगे। अगर ये मित्र वफादार साबित होते हैं, तो आपकी शक्ति और संरक्षण आपको दूर तक ले जाएगी। लेकिन सतर्क रहें, क्योंकि आक्रमण आपका प्राकृतिक मार्ग नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_NAME">
+      <Text>सभ्यता का किला</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_DESCRIPTION">
+      <Text>यदि वे पिछले 10 टर्न में युद्ध की घोषणा प्राप्त कर चुके हैं या पिछले 20 टर्न में किसी शहर को मुक्त कराया है तो [ICON_Production] उत्पादन +100%।</Text>
+    </Row>
+    <!-- Unit Info-->
+    <Row Tag="LOC_UNIT_DIGGER_NAME">
+      <Text>खोदनेवाली मशीन (Kho dane wali machine)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_DIGGER_DESCRIPTION">
+      <Text>इंफैंट्री की जगह आस्ट्रेलियाई अद्वितीय आधुनिक युग इकाई। तब जब समुद्र तटीय टाइल पर लड़ाई हो तो +10 [ICON_Strength] युद्ध शक्ति। न्यूट्रल या विदेशी भूमि पर लड़ाई होते समय +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DIGGER_NAME">
+      <Text>डिगर (Digger)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DIGGER_DESCRIPTION">
+      <Text>समुद्र तट पर लड़ते समय +10 [ICON_Strength] युद्ध शक्ति। न्यूट्रल या विदेशी क्षेत्र पर लड़ते समय +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DIGGER_BONUS_ON_COAST_DESCRIPTION">
+      <Text>समुद्री टाइल पर +{1_Amount} युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DIGGER_NON_DOMESTIC_BONUS_DESCRIPTION">
+      <Text>दोस्ताना क्षेत्र के बाहर {1_Amount} युद्ध शक्ति।</Text>
+    </Row>
+    <!-- XP2-->
+    <Row Tag="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_EXPANSION2_DESCRIPTION">
+      <Text>पिछले 10 टर्नों में यदि उन्होंने युद्ध का घोषणापत्र प्राप्त किया हो या किसी शहर को मुक्त किया हो तो [ICON_PRODUCTION] उत्पादन +100%.</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

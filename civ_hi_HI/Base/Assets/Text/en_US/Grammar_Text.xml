@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_EMPTY">
+      <Text>कृपया आगे दिए गए पाठ का हिंदी में अनुवाद करें। केवल स्वाभाविक अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_COMMA_SEPARATOR">
+      <Text>, </Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_A_AN">
+      <Text>{1: लिंग *:अन?एक {1}; *:दा?दी {1}; *:no_article?{1}; other?एक {1};}</Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_A_AN_WITH_ICON">
+      <Text>{1:लिंग *:एक?एक {2} {1}; *:यह?यह {2} {1}; *:no_article?{2} {1}; other?एक {2} {1};}</Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_UPPER_A_AN">
+      <Text>{1: gender *:एक?एक {1}; *:यह?यह {1}; *:no_article?{1}; other?एक {1};}</Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_UPPER_A_AN_WITH_ICON">
+      <Text>{1:लिंग *:एक?एक {2} {1}; *:यह?यह {2} {1}; *:no_article?{2} {1}; other?एक {2} {1};}</Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_HAS_HAVE">
+      <Text>{1: प्लुरल 1?हैं; अन्य?हैं;}</Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_IS_ARE">
+      <Text>{1: plural 1?हैं ; other?हैं ;}</Text>
+    </Row>
+    <!-- These tags are similar to LOC_GRAMMAR_A_AN but the defaults are different -->
+    <!-- Civ Names usually don't have a prefix article.  For example "China has declared war on you!" -->
+    <Row Tag="LOC_GRAMMAR_CIVNAME">
+      <Text>{1: लिंग *:एक?एक {1}; *:वह?वह {1}; *:कोई_आर्टिकल_नहीं?{1}; other?{1};}</Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_CIVNAME_UPPER">
+      <Text>{1: लिंग *:एक?एक {1}; *:वह?वह {1}; *:no_article?{1}; other?{1};}</Text>
+    </Row>
+    <!-- Civ Descriptions usually have 'the' as the prefix article.  For example "The Chinese Empire has declared war on you!" -->
+    <Row Tag="LOC_GRAMMAR_CIVDESC">
+      <Text>{1: लिंग *:एक?एक {1}; *:वह?वह {1}; *:no_article?{1}; other?वह {1};}</Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_CIVDESC_UPPER">
+      <Text>{1:gender *:an?एक {1}; *:the?वह {1}; *:no_article?{1}; other?वह {1};}</Text>
+    </Row>
+    <!-- Civ adjectives usually have 'a' as the prefix article.  For example "A Chinese warrior has killed your settler." -->
+    <Row Tag="LOC_GRAMMAR_CIVADJ">
+      <Text>{1:लिंग *:एक?एकी {1}; *:द दी {1}; *:no_article?{1}; other?एक {1};}</Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_CIVADJ_UPPER">
+      <Text>{1: gender *:an?एक {1}; *:the?यह {1}; *:no_article?{1}; other?एक {1};}</Text>
+    </Row>
+    <!-- These tags are similar to LOC_GRAMMAR_A_AN but the defaults are different -->
+    <!-- Leader names usually don't have a prefix article.  For example "Gilgamesh has declared war on you!" -->
+    <Row Tag="LOC_GRAMMAR_LEADER">
+      <Text>{1:लिंग *:एक?एक {1}; *:यह?यह {1}; *:कोई_अनुच्छेद_नहीं?{1}; other?{1};}</Text>
+    </Row>
+    <Row Tag="LOC_GRAMMAR_LEADER_UPPER">
+      <Text>{1: gender *:एक?एक {1}; *:यह?यह {1}; *:no_article?{1}; other?{1};}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

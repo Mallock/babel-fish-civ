@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_DIPLO_PERSON_CLEO">
+      <Text>मिस्र की क्लियोपेट्रा</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_CLEO">
+      <Text>जय हो यात्री। तुम्हें यह जानना चाहिए कि तुम महानता के सामने खड़े हो रहे हो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ADVISOR_READY">
+      <Text>तुम क्या करना चाहोगे, मेरे राजा?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_FRIENDSHIP">
+      <Text>मित्रता की घोषणा करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_MAKE_PEACE">
+      <Text>शांति बनाएं। (Shanti banayein.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_OPEN_BORDERS">
+      <Text>[SIZE_16]खुले सीमाओं की अनुरोध[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DIPLOMATIC_DELEGATION">
+      <Text>[SIZE_16]प्रतिनिधि भेजें[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_RESIDENT_EMBASSY">
+      <Text>[SIZE_16]स्थानिक दूतावास स्थापित करें[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DENOUNCE">
+      <Text>दोष लगाना</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_SURPRISE_WAR">
+      <Text>[SIZE_16]अचानक युद्ध घोषित करें[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_FORMAL_WAR">
+      <Text>[SIZE_16]औपचारिक युद्ध घोषित करें[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_HOLY_WAR">
+      <Text>[SIZE_16]पवित्र युद्ध घोषित करें[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_LIBERATION_WAR">
+      <Text>[SIZE_16]स्वतंत्रता के लिए युद्ध घोषित करें[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_LIBERATION_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](दोस्ताना शहरों को जीतने पर युद्धाभिषण जुर्माना नहीं होगा)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_RECONQUEST_WAR">
+      <Text>[SIZE_16]पुनर्विजय के लिए युद्ध घोषित करें[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_RECONQUEST_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE] (अपने शहरों को दोबारा जीतने पर युद्धाभिषंग दंड नहीं होगा)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_PROTECTORATE_WAR">
+      <Text>[SIZE_16]प्रोटेक्टोरेट युद्ध घोषित करें[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_PROTECTORATE_WAR_TOOLTIP">
+      <Text>[NEWLINE][NEWLINE](जब टूटे दोस्ताना शहरों की रक्षा की जाए तो कोई युद्धभ्रम दंड नहीं होता)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_COLONIAL_WAR">
+      <Text>[SIZE_16]कलोनियल युद्ध घोषित करें[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DECLARE_TERRITORIAL_WAR">
+      <Text>[SIZE_16]भूगोलीय विस्तार के लिए युद्ध घोषित करें[NEWLINE][SIZE_12]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_WARMONGER_INFO">
+      <Text>युद्धकारी दंड: {1_WarmongerLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_GOLD_INFO">
+      <Text>लागत {1_Cost} [ICON_Gold] सोने में</Text>
+    </Row>
+    <Row Tag="LOC_CASUS_BELLI_HOLY_WAR_DESCRIPTION">
+      <Text>लक्ष्य पावर धार्मिक रूप से आपके शहरों में से एक का परिवर्तन कर लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_CASUS_BELLI_RECONQUEST_WAR_DESCRIPTION">
+      <Text>लक्ष्य पावर ने आपके शहरों में से एक को बंदी बनाया है।</Text>
+    </Row>
+    <Row Tag="LOC_CASUS_BELLI_LIBERATION_WAR_DESCRIPTION">
+      <Text>लक्ष्य पावर ने आपके वर्तमान दोस्त या सहयोगियों में से एक शहर को अपने कब्जे में कर लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_CASUS_BELLI_PROTECTORATE_WAR_DESCRIPTION">
+      <Text>लक्ष्य शक्ति ने आपकी वर्तमान मित्र शहर राज्यों में से एक के खिलाफ युद्ध घोषित किया है।</Text>
+    </Row>
+    <Row Tag="LOC_CASUS_BELLI_COLONIAL_WAR_DESCRIPTION">
+      <Text>लक्ष्य सत्तावधान दो तकनीक कालों पीछे है।</Text>
+    </Row>
+    <Row Tag="LOC_CASUS_BELLI_TERRITORIAL_WAR_DESCRIPTION">
+      <Text>दो लक्ष्य शक्ति के शहर दो विरोधियों के शहरों से 10 टाइल्स की दूरी पर हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ARE_YOU_SURE_WAR">
+      <Text>क्या आप युद्ध जाना चाहते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ARE_YOU_SURE_YES">
+      <Text>Yes</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ARE_YOU_SURE_NO">
+      <Text>Translation cannot be provided as there is no text to be translated</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_MAKE_DEAL">
+      <Text>सौदा करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_MAKE_DEMAND">
+      <Text>मांग करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_IGNORE">
+      <Text>स्वीकार नहीं करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_EXIT">
+      <Text>अलविदा (Alvida)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_PROPOSE_AUCTION">
+      <Text>प्रस्ताव नीलामी का है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_INTRO">
+      <Text>मैं आपके लिए क्या कर सकता हूँ?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_INTRO_AI">
+      <Text>आप इसके बारे में क्या सोचते हैं? (Aap iske baare mein kya sochte hain?)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEMAND_INTRO">
+      <Text>मेरी मांगों को पूरा किया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_VIEW_DEAL">
+      <Text>डील देखें</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_VIEW_DEMAND">
+      <Text>मांग देखें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEMAND_NO_AVAILABLE_ITEMS">
+      <Text>मांग के लिए कोई उपलब्ध आइटम नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEAL_NO_AVAILABLE_ITEMS">
+      <Text>डील में उपयोग करने के लिए कोई उपलब्ध आइटम नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DEMAND_PROMISE_DONT_SPY">
+      <Text>मुझ पर जासूसी नहीं करो का वादा करो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DEMAND_PROMISE_DONT_SETTLE_TOO_NEAR">
+      <Text>मेरे शहरों के पास बहुत करीब बसने का वादा करें नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DEMAND_PROMISE_DONT_CONVERT_CITY">
+      <Text>मेरे शहरों को धर्मांतरित न करने का वादा करें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_DEMAND_PROMISE_DONT_DIG_ARTIFACTS">
+      <Text>मेरे अवशेषों को खोदने का वादा करो।</Text>
+    </Row>
+    <!-- Action Failure Reasons -->
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_FRIENDLY_TEAM_MEMBERS">
+      <Text>{1_WarActionType} करने में असमर्थ [NEWLINE] आपकी टीम का कोई सदस्य इस खिलाड़ी की टीम के किसी सदस्य का दोस्त या सहयोगी है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_NO_DENOUNCEMENT">
+      <Text>{1_WarActionType} नहीं कर सकते [NEWLINE] आपने इस खिलाड़ी को अपशब्द नहीं कहा है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_DENOUNCEMENT_TOO_RECENT">
+      <Text>{1_WarActionType} करने में असमर्थ[NEWLINE]आपको {2_Turns} टर्न इंतजार करना होगा; जिसका दोष लगाने के {3_Remaining} टर्न शेष हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_DEFENSIVE_PACT">
+      <Text>अक्षम {1_WarActionType}[NEWLINE]आपके पास इस नेता से एक रक्षात्मक संधि है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_CASUS_BELLI_NOT_MET">
+      <Text>{1_WarActionType} करने में असमर्थ [NEWLINE][COLOR_RED]आप इस Casus Belli के शर्तों को पूरा नहीं करते हैं।[ENDCOLOR][NEWLINE][{2_CasusBelliDescription}]</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_PEACE_TOO_RECENT">
+      <Text>{1_WarActionType} करने में असमर्थ[NEWLINE]आपको {2_Turns} टर्न इंतजार करना होगा जब आप शांति कर चुके हों (जो {3_Remaining} टर्न में उपलब्ध है)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_WAR_TOO_EARLY">
+      <Text>{1_WarActionType} करने में असमर्थ[NEWLINE]इस खेल में एक प्रमुख सभ्यता पर युद्ध घोषित करने के लिए आपको टर्न {2_TurnNumber} तक प्रतीक्षा करनी होगी।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_INSUFFICIENT_GOLD">
+      <Text>{2_GoldRequirement} [ICON_Gold] गोल्ड की आवश्यकता है। [NEWLINE] आप {1_ActionType} नहीं कर सकते।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_WAR_TOO_RECENT">
+      <Text>{1_WarActionType} करने में असमर्थ[NEWLINE]यदि आपने युद्ध घोषणा की है तो आपको {2_Turns} टर्न प्रतीक्षा करनी चाहिए ({3_Remaining} टर्नों में उपलब्ध).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ACTION_FAILURE_REASON_WAR_WITHOUT_END">
+      <Text>इस गेम में {1_WarActionType} करने में असमर्थ [NEWLINE] युद्ध सदैव नहीं चलते।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

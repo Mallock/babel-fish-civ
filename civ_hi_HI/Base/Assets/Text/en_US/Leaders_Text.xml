@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Leader Names-->
+    <Row Tag="LOC_REPRESENTATIVE">
+      <Text>एक प्रतिनिधि</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_BARBAROSSA_NAME">
+      <Text>फ्रेडरिक बारबारोसा</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_CATHERINE_DE_MEDICI_NAME">
+      <Text>कैथरीन डी मेडिसी (Katherine di Medici)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_CLEOPATRA_NAME">
+      <Text>क्लिओपेट्रा (Kliopetra)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_GANDHI_NAME">
+      <Text>गांधी</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_GILGAMESH_NAME">
+      <Text>गिलगमेश</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_GORGO_NAME">
+      <Text>Gorgo</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_HARDRADA_NAME">
+      <Text>हराल्ड हार्द्राडा</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_HOJO_NAME">
+      <Text>होजो तोकिमुने</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MVEMBA_NAME">
+      <Text>म्वेंबा ए एन्जिंगा</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PEDRO_NAME">
+      <Text>पेड्रो दुसरा।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PERICLES_NAME">
+      <Text>पेरिक्लीज़्।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PETER_GREAT_NAME">
+      <Text>पीटर</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PHILIP_II_NAME">
+      <Text>फिलिप द्वितीय</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_QIN_NAME">
+      <Text>क़ीन शी हुआंग</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_SALADIN_NAME">
+      <Text>सलादिन</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TOMYRIS_NAME">
+      <Text>तोमिरिस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAJAN_NAME">
+      <Text>त्राजन</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_T_ROOSEVELT_NAME">
+      <Text>टेडी रूजवेल्ट</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_VICTORIA_NAME">
+      <Text>विक्टोरिया</Text>
+    </Row>
+    <!--Agenda Names-->
+    <Row Tag="LOC_AGENDA_ALLY_OF_ENKIDU_NAME">
+      <Text>एन्किडू का साथी</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_AYYUBID_DYNASTY_NAME">
+      <Text>अय्यूबी वंशावली</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BACKSTAB_AVERSE_NAME">
+      <Text>पीछे से छुरा लगाने से घबराहट होती है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BIG_STICK_POLICY_NAME">
+      <Text>बड़ी लाठी नीति</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BLACK_QUEEN_NAME">
+      <Text>काली रानी</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BUSHIDO_NAME">
+      <Text>बुशिडो</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CITY_STATE_ALLY_NAME">
+      <Text>शहर-राज्य मित्रता</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_COUNTER_REFORMER_NAME">
+      <Text>काउंटर रिफॉर्मर (Counter Reformer)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DELIAN_LEAGUE_NAME">
+      <Text>डेलियन लीग (Delian League)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ENTHUSIASTIC_DISCIPLE_NAME">
+      <Text>उत्साही शिष्य</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_GREAT_PERSON_OBSESSED_NAME">
+      <Text>कला का प्रशंसक (Kala ka prashansak)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_IRON_CROWN_NAME">
+      <Text>लोहे की ताज</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_LAST_VIKING_KING_NAME">
+      <Text>अंतिम वाइकिंग राजा</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_OPTIMUS_PRINCEPS_NAME">
+      <Text>ओप्टिमस प्रिन्सिप्स</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_PARANOID_NAME">
+      <Text>पैरानॉयड</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_PEACEKEEPER_NAME">
+      <Text>शांतिवादी</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_QUEEN_OF_THE_NILE_NAME">
+      <Text>नील की रानी</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_SUN_NEVER_SETS_NAME">
+      <Text>सूरज कभी नहीं डूबता।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_TLATOANI_NAME">
+      <Text>Tlatoani का अर्थ है "Aztec Empire के राजा"।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WESTERNIZER_NAME">
+      <Text>पश्चिमीकरणकर्ता</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WITH_YOUR_SHIELD_OR_ON_IT_NAME">
+      <Text>अपने ढाल के साथ या उस पर</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WONDER_OBSESSED_NAME">
+      <Text>10,000 ली की दीवार</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_AIRPOWER_NAME">
+      <Text>वायु शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BARBARIAN_LOVER_NAME">
+      <Text>बार्बेरियन सहायक</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CITY_STATE_PROTECTOR_NAME">
+      <Text>शहर राज्य संरक्षक (Shahar Rajya Sanrakshak)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CIVILIZED_NAME">
+      <Text>सभ्य</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CULTURED_NAME">
+      <Text>संस्कृतिक</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DARWINIST_NAME">
+      <Text>डार्विनवादी</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DEVOUT_NAME">
+      <Text>परम भक्त</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ENVIRONMENTALIST_NAME">
+      <Text>पर्यावरणवादी</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_EXPLOITATIVE_NAME">
+      <Text>शोषणात्मक (Shoshanatmak)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_EXPLORER_NAME">
+      <Text>खोजकर्ता</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_FUN_LOVING_NAME">
+      <Text>मजेदार-मोहक</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_GREAT_PERSON_ADVOCATE_NAME">
+      <Text>महान वकील व्यक्ति</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_IDEOLOGUE_NAME">
+      <Text>विचारवादी (Vichaarvaadi)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_INDUSTRIALIST_NAME">
+      <Text>भारी उद्योग (bhari udyog)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_MONEY_GRUBBER_NAME">
+      <Text>धन के पीछे भागने वाला</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_NATURALIST_NAME">
+      <Text>प्राकृतिकवादी</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_NUKE_LOVER_NAME">
+      <Text>न्यूक हैप्पी</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_POPULOUS_NAME">
+      <Text>जनसंख्या वाला (Jansankhya wala)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_STANDING_ARMY_NAME">
+      <Text>खड़ी सेना</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_TECHNOPHILE_NAME">
+      <Text>टेक्नोफाइल (Teknofaial)</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WONDER_ADVOCATE_NAME">
+      <Text>आश्चर्य विक्षिप्त</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ZEALOT_NAME">
+      <Text>उत्साही (Utsahi)</Text>
+    </Row>
+    <!--Agenda Description-->
+    <Row Tag="LOC_AGENDA_ALLY_OF_ENKIDU_DESCRIPTION">
+      <Text>जो नागरिकताओं को पसंद करते हैं जो एक लंबे समय तक सहयोग बनाने के लिए तैयार होते हैं। किसी भी व्यक्ति से नफरत करते हैं जो उनके दोस्तों और सहयोगियों का निंदा या हमला करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_AYYUBID_DYNASTY_DESCRIPTION">
+      <Text>वह अपने पूज्य भवन को कई शहरों में बनाना चाहता है और उसके साथ एक सभ्यता पसंद करता है। दूसरे धर्मों के अनुयायियों पर युद्ध करने वाली सभ्यताओं से नापसंद करता है या उनकी पीछा करने वाली सभ्यताओं से।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BACKSTAB_AVERSE_DESCRIPTION">
+      <Text>उन्हें उनके घोषित मित्र राष्ट्रों से प्यार होता है। वे उन सभी सभ्यताओं से नफरत करते हैं जो पीठ पीछे धोखा देकर आक्रमण करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BIG_STICK_POLICY_DESCRIPTION">
+      <Text>वह शांतिपूर्ण सभ्यताओं को पसंद करता है, जो उसके घर के महाद्वीप पर एक शहर होता है। उसे उन सभ्यताओं से नफरत है जो उसके महाद्वीप पर स्थित एक शहर-राज्य या सभ्यता के खिलाफ युद्ध शुरू करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BLACK_QUEEN_DESCRIPTION">
+      <Text>जितने अधिक जासूस और राजनयिक पहुंच हो सके, उन्हें जुटाता रहें। जो सभ्यताएं इन जासूसी गतिविधियों को अनदेखा करती हैं उन्हें पसंद नहीं करता।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BUSHIDO_DESCRIPTION">
+      <Text>[ICON_Faith] धर्म और [ICON_Culture] संस्कृति उत्पादन में मजबूत सेना वाली सभ्यताओं को पसंद करता है। [ICON_Faith] धर्म के रूप में मजबूत लेकिन [ICON_Culture] संस्कृति उत्पादन में कमजोर सभ्यताओं को पसंद नहीं करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CITY_STATE_ALLY_DESCRIPTION">
+      <Text>उन्हें वह सभ्यताओं पसंद है जो एक ही सिटी-स्टेट के वफादारी के लिए प्रतिस्पर्धा नहीं कर रही हों। जो सभ्यताएं सीधे सिटी-स्टेट वफादारी के लिए प्रतिस्पर्धा कर रही हैं, उन्हें नापसंद है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_COUNTER_REFORMER_DESCRIPTION">
+      <Text>वह सभी संस्कृतियों को पसंद करता है जो एक ही धर्म का अनुसरण करती हैं, और चाहता है कि उनके सभी शहर एक ही धर्म का अनुसरण करें। उसे उन लोगों से नफरत है जो उनके साम्राज्य में अपना धर्म फैलाने की कोशिश करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DELIAN_LEAGUE_DESCRIPTION">
+      <Text>उन्हें वह सभ्यताएं पसंद हैं जो एक ही नगर-राज्य के वफादारी के लिए प्रतिस्पर्धा नहीं कर रही हैं। वे उन सभ्यताओं से नाराज़ होते हैं जो सीधे नगर-राज्य वफादारी के लिए प्रतिस्पर्धा कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ENTHUSIASTIC_DISCIPLE_DESCRIPTION">
+      <Text>कोंगो में धर्म लाने वाली सभ्यताओं को पसंद करता है। कोंगो के शहर में एक धर्म की स्थापना की हो, लेकिन उसे लाने नहीं गए सभ्यताओं से नाफ़रत करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_GREAT_PERSON_OBSESSED_DESCRIPTION">
+      <Text>[ICON_GreatPerson] बड़े लोगों के लिए पसंद है जो [ICON_GreatPerson] ग्रेट लोगों के लिए प्रतिस्पर्धा नहीं कर रहे हैं, और जब संभव होता है तब [ICON_GreatPerson] ग्रेट लोगों को भर्ती करेगा। किसी अन्य सभ्यता को [ICON_GreatPerson] ग्रेट लोग को खोने से नापसंद करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_IRON_CROWN_DESCRIPTION">
+      <Text>शहर राज्यों से जुड़े नहीं होने वाली सभ्यताओं को पसंद करता है। शहर राज्यों के सुजेरेन या शहर राज्यों को जीतने वाली सभ्यताओं को पसंद नहीं करता।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_LAST_VIKING_KING_DESCRIPTION">
+      <Text>बड़ी नौसेना बनाता है और सभ्यताओं का सम्मान करता है जो उनकी नेतृत्व में चलती हैं। उसे कमजोर नौसेना वाली सभ्यताओं से पसंद नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_OPTIMUS_PRINCEPS_DESCRIPTION">
+      <Text>अपने साम्राज्य में जितने संभव हो तनाव शामिल करने की कोशिश करता है। कम क्षेत्र के नियंत्रण वाली सभ्यताओं से नापसंदीदा होता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_PARANOID_DESCRIPTION">
+      <Text>जो सभ्यता कोई खतरा नहीं पैदा करती है उससे पसंद करता है। शक्तिशाली सैन्य वाली सभ्यताओं या नजदीकी शहरों वाली सभ्यताओं से नापसंद करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_QUEEN_OF_THE_NILE_DESCRIPTION">
+      <Text>शक्तिशाली सैन्य ध्वज वाली सभ्यताओं से खुश होता है, और उनसे समझौता करने की कोशिश करता है ताकि सैन्य संघर्ष से बचा जा सके। कमजोर सैन्य ध्वज वाली सभ्यताओं से नापसंद करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_PEACEKEEPER_DESCRIPTION">
+      <Text>वह कभी ऐसी युद्ध घोषणा नहीं करता जिससे उसे एक गर्मजोश कहा जा सके, और जो शांति बनाए रखते हैं, उनसे मित्रता करने की कोशिश करेगा। गर्मजोशों से नफरत है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_SUN_NEVER_SETS_DESCRIPTION">
+      <Text>वह अपने घर के महाद्वीप से संस्कृतियों को पसंद करती है, और सभी महाद्वीपों में विस्तार करना चाहती है। अंग्रेज़ के कोई शहर न होने वाले महाद्वीपों पर संस्कृतियों को पसंद नहीं करती।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_TLATOANI_DESCRIPTION">
+      <Text>वह सभी ऐसी सभ्यताओं से पसंद करता है जिनके पास उसकी तरह के शानदार संसाधन होते हैं और हर उपलब्ध शानदार संसाधन को इकट्ठा करने की कोशिश करेगा। उसे उन सभ्यताओं से नफरत है जो उसने अभी तक नहीं इकट्ठा किए हुए नए शानदार संसाधन होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WESTERNIZER_DESCRIPTION">
+      <Text>वह उन सभी सभ्यताओं से मित्रता पसंद करता है जो उससे आगे हैं [ICON_Science] विज्ञान और [ICON_Culture] संस्कृति में। [ICON_Science] विज्ञान और [ICON_Culture] संस्कृति में कमजोर वापसी वाली पिछड़ी सभ्यताओं से नफरत करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WITH_YOUR_SHIELD_OR_ON_IT_DESCRIPTION">
+      <Text>एक शांति समझौते में कभी कुछ नहीं छोड़ता और जो सभ्यताएं इसी तरीके से होती हैं, उन्हें पसंद करता है। उन सभ्यताओं से नापसंद है जो हार मान चुकी हैं या जो कभी युद्ध नहीं किया हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_WONDER_OBSESSED_DESCRIPTION">
+      <Text>रहस्यों की सबसे महत्वपूर्ण निशानियों के लिए प्रतिस्पर्धा नहीं करना पसंद करता है, और जब भी संभव हो, वह निशानियों का निर्माण करता है। किसी दूसरे सभ्यता से निशानी हारने से नाखुश होता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BARBARIAN_LOVER_DESCRIPTION">
+      <Text>बर्बरों के साथ सहानुभूति करता है। बर्बर आवासों को नष्ट करने वाली सभ्यताओं से नाफरमानी करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CIVILIZED_DESCRIPTION">
+      <Text>जंगली लोग से नफरत करता है। सभी सभ्यताओं से प्यार करता है जो जंगली आवासों को साफ करती हैं। जंगली आवासों को नज़रअंदाज़ करने वाली सभ्यताओं से पसन्द नहीं करता।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CULTURED_DESCRIPTION">
+      <Text>[ICON_Culture] संस्कृति को बढ़ावा देने की कोशिश करता है, और उन सभी सभ्यताओं को पसंद करता है जो [ICON_Culture] संस्कृति पर भी ध्यान केंद्रित करती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DARWINIST_DESCRIPTION">
+      <Text>सभ्यताओं के बीच युद्ध देखना पसंद करता है, और निरंतर संघर्ष में विश्वास रखता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_FUN_LOVING_DESCRIPTION">
+      <Text>हर शहर के नागरिकों को संभवतः सबसे खुश रखने का प्रयास करता है। उन्हें उन सभ्यताओं से पसंद है, जो इस तरीके से विकसित होती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_INDUSTRIALIST_DESCRIPTION">
+      <Text>उद्योग का विकास करने का प्रयास करता है, और ऐसी सभ्यताओं से प्यार करता है जो [ICON_Production] उत्पादन पर ध्यान केंद्रित करती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_MONEY_GRUBBER_DESCRIPTION">
+      <Text>संभवतः सबसे अधिक [ICON_Gold] रोजाना आमदनी होने का प्रयास करता है। अन्य उच्च आमदनी वाली सभ्यताओं का सम्मान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_NATURALIST_DESCRIPTION">
+      <Text>सभी प्राकृतिक अद्भुतों को ढूंढने की कोशिश करता है। जो सभ्यताएं जंगल और वनों को न काटें, और जो राष्ट्रीय उद्यान स्थापित करती हैं, उन्हें पसंद करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_NUKE_LOVER_DESCRIPTION">
+      <Text>परमाणु हथियार का उपयोग करने में कोई हिचकिचाहट नहीं है। परमाणु हथियार के साथ शक्ति प्रदर्शित करने वाली अन्य सभ्यताओं का सम्मान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_POPULOUS_DESCRIPTION">
+      <Text>सर्वाधिक कुल जनसंख्या रखने की कोशिश करता है। अन्य उच्च जनसंख्या वाली सभ्यताओं का सम्मान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_STANDING_ARMY_DESCRIPTION">
+      <Text>हमेशा एक बड़ी स्थायी सेना रखने का प्रयास करता है। बड़ी सेनाओं वाली अन्य सभ्यताओं का सम्मान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_TECHNOPHILE_DESCRIPTION">
+      <Text>[ICON_Science] विज्ञान को बढ़ाने की कोशिश करता है, और जो सभ्यताएं भी [ICON_Science] विज्ञान पर ध्यान केंद्रित करती हैं, उन्हें पसंद करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_AIRPOWER_DESCRIPTION">
+      <Text>हवाई शक्ति का निर्माण करने की कोशिश करता है। उसमें बड़ी हवाई शक्ति वाली सभ्यताओं की प्रशंसा करता है। उसे कमजोर हवाई शक्ति वाली सभ्यताओं से नफरत है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CITY_STATE_PROTECTOR_DESCRIPTION">
+      <Text>संरक्षण संधियों को जोर देता है। संरक्षण संधियों की शुरुआत करने वाली सभ्यताओं की प्रशंसा करता है। शहर राज्यों पर हमला करने वाली सभ्यताओं से नफरत करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_EXPLOITATIVE_DESCRIPTION">
+      <Text>सभी विशेषताओं को साफ करता है और संभवतः सभी टाइलों को सुधारता है। उसे उन सभी सभ्यताओं से पसंद है जिनके पास सुधारे गए टाइलों का उच्च प्रतिशत होता है। जिन सभ्यताओं के पास सुधारे गए टाइलों का कम प्रतिशत होता है या जो राष्ट्रीय उद्यान खोजते हैं, उन्हें नापसंद करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ENVIRONMENTALIST_DESCRIPTION">
+      <Text>राष्ट्रीय उद्यान बनाता है, सुविधाओं को साफ नहीं करता है, वुड्स लगाता है। जो सभ्यताएं वुड्स लगाती हैं या राष्ट्रीय उद्यान बनाती हैं, उन्हें पसंद करता है। सुविधाओं को साफ करने वाली सभ्यताओं से नापसंद करता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_IDEOLOGUE_DESCRIPTION">
+      <Text>उसकी पसंद उसी प्रकार की सरकार वाली सभ्यताओं की है, उसे उन सभ्यताओं से नफरत है जिनकी अलग-अलग सरकारें होती हैं और जिनकी सरकारें उसकी अपनी युग की समान होती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_DEVOUT_DESCRIPTION">
+      <Text>[ICON_Faith] धर्म को बढ़ाने की कोशिश करता है, और उन सभ्यताओं को भी पसंद करता है जो [ICON_Faith] धर्म पर भी ध्यान केंद्रित करती हों।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_EXPLORER_DESCRIPTION">
+      <Text>नक्शे का अन्वेषण करने की कोशिश करता है और उससे कम जाने वाली सभ्यताओं को पसंद करता है जिन्होंने उससे कम नक्शा अन्वेषण किया है और उन सभ्यताओं से असंतुष्ट होता है जिन्होंने उससे अधिक नक्शा अन्वेषण किया है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_ZEALOT_DESCRIPTION">
+      <Text>धार्मिक जीत हासिल करने का प्रयास करता है। उन सभी सभ्यताओं को पसंद करता है जिन्होंने पहले ही उनके धर्म को अपनाया है।</Text>
+    </Row>
+    <!-- City-State Traits-->
+    <Row Tag="LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS">
+      <Text>1 [ICON_Envoy] अभियांत्रिक:</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS">
+      <Text>3 [ICON_Envoy] राजदूत:</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS">
+      <Text>6 [ICON_Envoy] दूत:</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_NAME">
+      <Text>वैज्ञानिक राज्य-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Science] विज्ञान आपकी [ICON_Capital] राजधानी में।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Science] हर कैंपस जिले में विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>प्रत्येक कैंपस जिले में अतिरिक्त +2 [ICON_Science] विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_NAME">
+      <Text>धार्मिक राज्य-नगर</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS} 
+
+(NOTE: THESE ARE PLACEHOLDER TEXTS AND DO NOT HAVE MEANING IN HINDI. THEY SHOULD NOT BE TRANSLATED OR REMOVED.)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Faith] मुद्रास्फीति में भरोसा [ICON_Capital] कपितल में।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Faith] प्रत्येक पवित्र स्थल जिले में विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>प्रत्येक पवित्र स्थल क्षेत्र में अतिरिक्त +2 [ICON_Faith] विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_NAME">
+      <Text>व्यापार नगर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+4 [ICON_Gold] राजधानी [ICON_Capital] में सोना।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>प्रत्येक वाणिज्यिक हब जिले में +4 [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>प्रत्येक वाणिज्यिक हब जिले में अतिरिक्त +4 [ICON_Gold] सोने।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_NAME">
+      <Text>सांस्कृतिक राज्य-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Culture] राजधानी में संस्कृति |</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>+2 [ICON_Culture] प्रत्येक थिएटर वर्ग जिले में संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>प्रत्येक थिएटर स्क्वेयर ज़िले में अतिरिक्त +2 [ICON_Culture] संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_NAME">
+      <Text>सैन्यवादी नगर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS}
+{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS}
+{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS} 
+
+(NOTE: THESE ARE PLACEHOLDERS AND CANNOT BE TRANSLATED)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>इकाई उत्पादन करते समय [ICON_Capital] राजधानी में [ICON_Production] उत्पादन +2।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>यूनिट उत्पादित करते समय हर आश्रय क्षेत्र में +2 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>इकाई उत्पादन करते समय हर आश्रय जिले में अतिरिक्त +2 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_NAME">
+      <Text>औद्योगिक शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_DESCRIPTION">
+      <Text>{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS}
+
+(NOTE: THESE APPEAR TO BE GAME-SPECIFIC PHRASES AND DO NOT HAVE DIRECT TRANSLATIONS. THEY SHOULD BE LEFT AS THEY ARE.)</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS">
+      <Text>[ICON_Production] विस्मयकारी, इमारतें और जिलों का उत्पादन करते समय [ICON_Capital] राजधानी में उत्पादन +2.</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS">
+      <Text>विलासों, इमारतों और जिलों का उत्पादन करते समय प्रत्येक औद्योगिक क्षेत्र जिले में +2 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS">
+      <Text>प्रत्येक औद्योगिक क्षेत्र ज़िले में आश्चर्य, भवन और क्षेत्र उत्पादित करते समय अतिरिक्त +2 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_AMSTERDAM_NAME">
+      <Text>एम्स्टर्डैम सुज़ेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_AMSTERDAM_DESCRIPTION">
+      <Text>आपके [ICON_TradeRoute] विदेशी शहरों के व्यापार मार्ग प्रत्येक लक्जरी संसाधन पर मिलने वाले +1 [ICON_Gold] सोने से लाभ कमाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_BANDAR_BRUNEI_NAME">
+      <Text>बंदर ब्रुनेई सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_BRUSSELS_NAME">
+      <Text>ब्रसेल्स सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_BRUSSELS_DESCRIPTION">
+      <Text>आपके शहरों को अद्भुत निर्माणों के प्रति +15% [ICON_Production] उत्पादन मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_BUENOS_AIRES_NAME">
+      <Text>ब्यूनॉस एयर्स सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_BUENOS_AIRES_DESCRIPTION">
+      <Text>आपके बोनस संसाधन वही विलास संसाधन की तरह व्यवहार करते हैं, प्रत्येक प्रकार के लिए 1 [ICON_Amenities] सुविधा प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_CARTHAGE_NAME">
+      <Text>कार्थेज सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_CARTHAGE_DESCRIPTION">
+      <Text>आपके परिसर निवास जिलों प्रत्येक का लाभ प्रदान करता है +1 [ICON_TradeRoute] व्यापार मार्ग क्षमता।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_GENEVA_NAME">
+      <Text>जिनेवा सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_GENEVA_DESCRIPTION">
+      <Text>जब आप किसी सभ्यता के साथ युद्ध नहीं कर रहे हों तो आपके शहरों को +15% [ICON_Science] विज्ञान मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_HATTUSA_NAME">
+      <Text>हट्टूषा सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_HATTUSA_DESCRIPTION">
+      <Text>आपको उन सभी रणनीतिक संसाधनों में से एक प्रदान किया जाएगा जिन्हें आपने खोला है, लेकिन आपके पास नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_HONG_KONG_NAME">
+      <Text>हांगकांग सुज़ेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_HONG_KONG_DESCRIPTION">
+      <Text>आपके शहरों में शहर परियोजनाओं के प्रति +20% [ICON_Production] उत्पादन मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JAKARTA_NAME">
+      <Text>जकार्ता सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JAKARTA_DESCRIPTION">
+      <Text>आपके विदेशी शहरों में [ICON_TradingPost] व्यापारिक ठिकाने आपके [ICON_TradeRoute] व्यापारिक मार्गों के लिए शहर से गुजरने या शहर जाने पर +1 [ICON_Gold] सोने प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JERUSALEM_NAME">
+      <Text>जेरूसलम सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JERUSALEM_DESCRIPTION">
+      <Text>यह स्वचालित रूप से आपके द्धारित धर्म में बदल जाता है और उसे एक पवित्र शहर की तरह दबाव बनाकर उस धर्म के लिए दबाव बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KABUL_NAME">
+      <Text>काबुल सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KABUL_DESCRIPTION">
+      <Text>आपकी इकाइयों को उन युद्धों से दोहरा अनुभव मिलता है जो वे आरंभ करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KANDY_NAME">
+      <Text>कैंडी सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KANDY_DESCRIPTION">
+      <Text>प्राकृतिक विस्मय का खोज करने पर हर बार आप [ICON_GreatWork_Relic] पुरातत्व प्राप्त करेंगे, और सभी [ICON_GreatWork_Relic] पुरातत्वों से +50% [ICON_Faith] धर्म कमाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KUMASI_NAME">
+      <Text>कुमासी सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_KUMASI_DESCRIPTION">
+      <Text>आपके [ICON_TradeRoute] वाणिज्य मार्ग किसी भी नगर राज्य के लिए +2 [ICON_Culture] संस्कृति और मूल स्थान शहर में प्रत्येक विशेषता जिले के लिए +1 [ICON_Gold] सोने प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_LA_VENTA_NAME">
+      <Text>ला वेंटा सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_LA_VENTA_DESCRIPTION">
+      <Text>आपके निर्माताओं को अब विशाल सिर सुधार बनाने की अनुमति है। [NEWLINE][NEWLINE][ICON_Faith] [ICON_Faith] [ICON_Faith] विशाल सिर +2 धर्म की प्रदान करता है। हर 2 आसपास के वर्षावन के लिए +1 [ICON_Faith] धर्म। हर 2 आसपास के वुड्स के लिए +1 [ICON_Faith] धर्म। बर्फ या बर्फ की पहाड़ियों पर नहीं बनाया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_LISBON_NAME">
+      <Text>मोगादीशु स्वामित्व बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_LISBON_DESCRIPTION">
+      <Text>आपकी ट्रेडर यूनिट जल टाइल पर लूट करने से अछूते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_NAME">
+      <Text>मोहेंजो-दारो सुजरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_DESCRIPTION">
+      <Text>आपके शहरों में पूर्ण [ICON_Housing] जल से निर्मित आवास हैं, जैसे कि वे सभी नदी के पास हों।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NAN_MADOL_NAME">
+      <Text>नान माडोल सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_NAN_MADOL_DESCRIPTION">
+      <Text>जब आपके जिले समुद्र तट या झील के टाइल के ऊपर या नज़दीक होते हैं तो आपको +2 [ICON_Culture] संस्कृति की प्रदान की जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_PRESLAV_NAME">
+      <Text>प्रेस्लाव सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION">
+      <Text>आपकी हलकी और भारी सवार इकाइयों की पहाड़ी टाइल पर लड़ाई करते समय +5 [ICON_Strength] ताकत रखती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_SEOUL_NAME">
+      <Text>सियोल सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_SEOUL_DESCRIPTION">
+      <Text>जब आप एक नयी युग में प्रवेश करते हैं, तो उस युग से 1 यादृच्छिक [ICON_TechBoosted] युरीका कमाएं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_STOCKHOLM_NAME">
+      <Text>स्टॉकहोम सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_STOCKHOLM_DESCRIPTION">
+      <Text>आपके जिलों से उनके प्रकार के लिए +1 [ICON_GreatPerson] महान व्यक्ति अंक प्रदान करते हैं ([ICON_GreatWriter] महान लेखक, [ICON_GreatArtist] महान कलाकार और [ICON_GreatMusician] महान संगीतकार थिएटर स्क्वायर जिलों के लिए)।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_TORONTO_NAME">
+      <Text>टोरंटो सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_TORONTO_DESCRIPTION">
+      <Text>आपके औद्योगिक क्षेत्र और मनोरंजन संयोजन जोन से क्षेत्रीय प्रभाव 3 टाइल दूर तक पहुँचता है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_VALLETTA_NAME">
+      <Text>वलेटा सुजेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_VALLETTA_DESCRIPTION">
+      <Text>[ICON_Faith] धर्म से सिटी सेंटर इमारतें और एनकैंपमेंट जिले की इमारतें खरीदी जा सकती हैं। प्राचीन, मध्यकालीन और रेनेसांस की दीवारों की खरीद की लागत कम होती है, लेकिन उन्हें केवल [ICON_Faith] धर्म से खरीदा जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_VILNIUS_NAME">
+      <Text>विल्नियस सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION">
+      <Text>जब आप एक नए युग में प्रवेश करते हैं, तो उस युग से 1 यादगार [ICON_CivicBoosted] प्रेरणा कमाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_YEREVAN_NAME">
+      <Text>येरेवान सुजेरेन बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION">
+      <Text>आपके अपोस्तल यूनिट कोई भी संभव प्रोमोशन चुन सकती हैं बजाय किसी रैंडम प्रोमोशन को पाने के।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_ZANZIBAR_NAME">
+      <Text>ज़ांज़ीबार सुज़ेरेन बोनस</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_ZANZIBAR_DESCRIPTION">
+      <Text>ये [ICON_RESOURCE_CINNAMON] दालचीनी और [ICON_RESOURCE_CLOVES] लौंग लक्जरी संसाधन प्राप्त करें। ये गेम में किसी अन्य तरीके से कमाए नहीं जा सकते और प्रत्येक संसाधन 6 [ICON_Amenities] सुविधाएं प्रदान करते हैं।</Text>
+    </Row>
+    <!--Leader Trait Names-->
+    <Row Tag="LOC_TRAIT_LEADER_THERMOPYLAE_NAME">
+      <Text>थर्मोपाइले</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_NAME">
+      <Text>एन्किडू की साहसिक कहानियां</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_NAME">
+      <Text>महासागर की दुल्हन।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_DIVINE_WIND_NAME">
+      <Text>दिव्य हवा (Divya Hawa)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_NAME">
+      <Text>एल एस्कोरियल</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_NAME">
+      <Text>द ग्रैंड एंबेसी</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_NAME">
+      <Text>पवित्र रोमन सम्राट</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_PAX_BRITANNICA_NAME">
+      <Text>पैक्स ब्रिटानिका</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_NAME">
+      <Text>धर्म की धार्मिकता</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_NAME">
+      <Text>धार्मिक धर्मांतरित</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_NAME">
+      <Text>रूजवेल्ट कोरॉलरी</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SATYAGRAHA_NAME">
+      <Text>सत्याग्रह</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_THUNDERBOLT_NAME">
+      <Text>उत्तर का बिजली का झटका</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_NAME">
+      <Text>पहला सम्राट</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_NAME">
+      <Text>कैथरीन का उड़ान दल</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_TRAJANS_COLUMN_NAME">
+      <Text>ट्रेजन का स्तंभ</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KILLER_OF_CYRUS_NAME">
+      <Text>साइरस का हत्यारा</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_NAME">
+      <Text>उदार (Udaar)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SURROUNDED_BY_GLORY_NAME">
+      <Text>महिमा से घिरा हुआ</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_UNIT_ENGLISH_REDCOAT_NAME">
+      <Text>विक्टोरिया का अद्वितीय यूनिट: रेडकोट</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_UNIT_NORWEGIAN_LONGSHIP_NAME">
+      <Text>हैराल्ड हार्द्राडा का अनूठा यूनिट: वाइकिंग लोंगशिप।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_UNIT_AMERICAN_ROUGH_RIDER_NAME">
+      <Text>थियोडोर रूजवेल्ट का अद्वितीय इकाई: रफ राइडर।</Text>
+    </Row>
+    <!--Leader Trait Descriptions-->
+    <Row Tag="LOC_TRAIT_LEADER_THERMOPYLAE_DESCRIPTION">
+      <Text>युद्ध जीत संघर्ष के हर प्रभाव के बराबर [ICON_Culture] संस्कृति प्रदान करती है जो मारे गए इकाई की [ICON_Strength] संघर्ष शक्ति के 50% के बराबर होती है। (स्टैंडर्ड स्पीड पर) प्रत्येक सैन्य नीति स्लॉट के लिए +1 [ICON_Strength] संघर्ष शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_DESCRIPTION">
+      <Text>वे अपने सङ्गठन से युद्धरत देशों के साथ युद्ध करने पर कोई सज़ा नहीं देते हैं। यदि उनके सभी मित्र एक ही शत्रु के खिलाफ लड़ रहे हों, तो वे लूट का भाग बाँटते हैं और युद्ध अनुभव भी साझा करते हैं यदि वे 5 टाइल के भीतर हों।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_DESCRIPTION">
+      <Text>आपके [ICON_TradeRoute] अन्य सभ्यताओं के साथ व्यापार मार्ग दिए जाने पर मिस्र के लिए +4 [ICON_Gold] सोना प्रदान करते हैं। मिस्र के पास [ICON_TradeRoute] अन्य सभ्यताओं के साथ व्यापार मार्ग होने पर उन्हें +2 [ICON_Food] खाद्य पदार्थ और मिस्र को +2 [ICON_Gold] सोना प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_DIVINE_WIND_DESCRIPTION">
+      <Text>भूमि इकाइयों को कोस्ट के पास स्थित भूमि टाइलों में +5 [ICON_Strength] युद्ध शक्ति प्राप्त होती है; नौसेना इकाइयों को ऊँचे पानी के टाइलों में +5 [ICON_Strength] युद्ध शक्ति प्राप्त होती है। अडालत शहर, पवित्र स्थल और थियेटर वर्ग जिलों को आधे समय में बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_DESCRIPTION">
+      <Text>जांचकर्ताओं के पास धर्म विरोधी तत्व को एक अतिरिक्त बार हटाने की शक्ति होती है। युद्ध और धार्मिक इकाइयों को अन्य धर्मों का अनुयायी होने वाले खिलाड़ियों के खिलाफ +5 [ICON_Strength] युद्ध शक्ति का बोनस होता है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_DESCRIPTION">
+      <Text>रूस से अधिक विकसित जातियों के साथ [ICON_TradeRoute] व्यापार मार्गों से [ICON_Science] विज्ञान या [ICON_Culture] संस्कृति प्राप्त करते हैं। 3 प्रौद्योगिकियों या नागरिकताओं से आगे प्रति +1।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION">
+      <Text>अतिरिक्त सैन्य नीति स्लॉट। सिटी-स्टेट्स पर हमला करते समय +7 [ICON_Strength] युद्ध ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_PAX_BRITANNICA_DESCRIPTION">
+      <Text>अपने घर के महाद्वीप से अलग महाद्वीप पर अधिकृत शहरों को मुफ्त मेली इकाई मिलेगी। उस शहर में एक रॉयल नेवी डॉकयार्ड निर्माण करने से एक अतिरिक्त मुफ्त मेली इकाई प्राप्त होगी। सैन्य विज्ञान प्रौद्योगिकी की खोज करने पर रेडकोट अनूठी इकाई प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION">
+      <Text>उनके धर्म के लिए पूजा भवन को किसी भी खिलाड़ी द्वारा साधारण [ICON_Faith] धर्म लागत के दसवें हिस्से के लिए खरीदा जा सकता है। यह पूजा भवन, अरबी शहरों के [ICON_Science] विज्ञान, [ICON_Faith] धर्म और [ICON_Culture] संस्कृति उत्पादन में 10% जोड़ा गया है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION">
+      <Text>पवित्र स्थल जिलों का निर्माण नहीं कर सकते, महान अवतार प्राप्त नहीं कर सकते, या धर्म स्थापित नहीं कर सकते। उसे उस धर्म की सभी विश्वासों की प्राप्ति होती है जो उसने अपने अधिकांश शहरों में स्थापित की हो। उसे उस शहर के अधिकांश धर्म के अपोस्तल प्राप्त होते हैं जहाँ वह म'बन्जा या थिएटर स्क्वेयर जिला पूरा करता है (उस शहर के अधिकांश धर्म के अपोस्तल)।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_DESCRIPTION">
+      <Text>यूनिटों को अपनी मूल धरती पर +5 [ICON_Strength] युद्ध शक्ति प्राप्त होती है। राष्ट्रीय उद्यान वाले शहर में सभी टाइलों को +1 आकर्षण प्राप्त होता है। राइफलिंग प्रौद्योगिकी का अध्ययन करते समय उन्हें रफ राइडर अनूठा यूनिट प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION">
+      <Text>[ICON_Faith] प्रत्येक सभ्यता (भारत समेत) के लिए +5 विश्वास, जो धर्म स्थापित कर चुकी हो और वर्तमान में युद्ध कर रही न हो। गांधी के विरोधी सभ्यताएं गांधी के विरुद्ध लड़ाई के लिए दोगुनी थकान को प्राप्त करती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_THUNDERBOLT_DESCRIPTION">
+      <Text>सभी समुद्री मीले यूनिट के लिए तटीय धावा अनुमति देता है और सभी समुद्री मीले यूनिट के +50% [ICON_PRODUCTION] उत्पादन प्राप्त करता है। सेलिंग के साथ वाइकिंग लॉन्गशिप अनोखी यूनिट प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_DESCRIPTION">
+      <Text>प्राचीन और क्लासिक अद्भुत निर्माण करते समय आप मूल अद्भुत मूल्य के 15% पूरा करने के लिए निर्माता शुल्क खर्च कर सकते हैं। बिल्डर्स को एक अतिरिक्त शुल्क प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_DESCRIPTION">
+      <Text>वह हर सभी सभ्यताओं के साथ जो उसने मिली है, [ICON_VisLimited] राजनयिक दर्शन का 1 स्तर सामान्य से अधिक होती है। कैसल टेक्नोलॉजी के साथ एक मुफ्त जासूस (और अतिरिक्त जासूस क्षमता) प्राप्त करती है। सभी जासूस मुफ्त पदोन्नति के साथ एजेंट के रूप में शुरू होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_TRAJANS_COLUMN_DESCRIPTION">
+      <Text>सभी शहरों की शुरुआत एक अतिरिक्त सिटी सेंटर इमारत से होती है। (प्राचीन युग में एक स्मारक इमारत के साथ शुरू होता है)।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KILLER_OF_CYRUS_DESCRIPTION">
+      <Text>जब घायल इकाइयों को हमला करते हुए सभी इकाइयों को +5 [ICON_Strength] युद्ध शक्ति प्राप्त होती है। जब वे किसी इकाई को नष्ट कर देते हैं, तो वे 30 हिट पॉइंट तक ठीक हो जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION">
+      <Text>एक [ICON_GreatPerson] महान व्यक्ति को भर्ती या प्रतिनिधित्व करने के बाद, उसके [ICON_GreatPerson] महान व्यक्ति बिंदु खर्च के 20% की वापसी होती है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SURROUNDED_BY_GLORY_DESCRIPTION">
+      <Text>+5% [ICON_Culture] संगठन-राज्य प्रत्येक शहर के लिए जिसके आप सुजेरेन हैं।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

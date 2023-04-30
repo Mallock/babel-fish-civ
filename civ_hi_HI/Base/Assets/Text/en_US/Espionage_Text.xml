@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_ESPIONAGE_CONFIRMATION">
+      <Text>{1_Name}[NEWLINE][NEWLINE]{2_Yield}[NEWLINE]{3_Header}[NEWLINE]{4_Success}[NEWLINE]{5_SuccessEscape}[NEWLINE]{6_Fail}[NEWLINE]{7_FailEscape}[NEWLINE]{8_Capture}[NEWLINE]{9_Killed}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_MISSION_HEADER">
+      <Text>मिशन ब्रीफिंग[NEWLINE][NEWLINE]आपका मिशन: {1_Mission}[NEWLINE]अवधि: {2_Num} टर्न्स</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_OPERATION_YIELD">
+      <Text>सफलता {1_Award} प्रदान करेगी। [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_OPERATION_CHANCES">
+      <Text>संभवित परिणाम:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SUCCESS">
+      <Text>{1_Num}% - सफलता</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SUCCESS_ESCAPE">
+      <Text>{1_Num}% - शहर से भागने में सफलता</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FAILURE">
+      <Text>{1_Num}% - असफलता</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FAILURE_ESCAPE">
+      <Text>{1_Num}% - असफलता और शहर से बचना आवश्यक है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_CAPTURED">
+      <Text>[COLOR_RED]{1_Num}%[ENDCOLOR] - जासूस पकड़ा गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_KILLED">
+      <Text>[COLOR_RED]{1_Num}%[ENDCOLOR] - जासूस मारा गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_START_MISSION">
+      <Text>Accept</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ABORT_MISSION">
+      <Text>गर्भपात करें</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_HEIST_REWARD">
+      <Text>जिले से एक महान काम।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_PARTISAN_REWARD">
+      <Text>नाराज पक्षियों की एक विद्रोहवादी उठापटक</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SABOTAGE_REWARD">
+      <Text>औद्योगिक क्षेत्र के सभी भवनों की लूट की जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SIPHON_REWARD">
+      <Text>शहर की [ICON_Gold] सोने का उत्पादन अगले {1_Num} टर्न में।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ROCKETRY_REWARD">
+      <Text>दुश्मन स्पेसपोर्ट जिले का लूटपाट करना।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_TECH_REWARD">
+      <Text>एक तकनीकी बढ़त (ek takneeki badhat)</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_GAIN_SOURCES">
+      <Text>मिशन ब्रीफिंग[NEWLINE][NEWLINE]आपका मिशन: स्रोत प्राप्त करना है[NEWLINE]अवधि: {1_Num} टर्न[NEWLINE][NEWLINE]जैसे ही जासूस ने स्थानीय संपर्कों को खोजने के लिए उपयुक्त समय बिताया होगा, यह मिशन स्वचालित रूप से सफल हो जाएगा। यह इस शहर में सभी आक्रामक जासूसी ऑपरेशन के चांस को अगले {2_Duration} टर्नों तक बेहतर बनाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LISTENING_POST">
+      <Text>मिशन ब्रीफिंग[NEWLINE][NEWLINE]आपका मिशन: सुनवाई ढांचा[NEWLINE]अवधि: {1_Num} टर्न[NEWLINE][NEWLINE]यह मिशन स्वचालित रूप से सफल होगा। इसे चलाने से आपकी राजनयिक दृष्टिकोण को इस सभ्यता पर 1 स्तर तक सुधार किया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PANEL_HEADER">
+      <Text>चेस सीक्वेंस।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CITY_HEADER">
+      <Text>{1_CityName} में</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_AGENT_LABEL">
+      <Text>एजेंट:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_LOOT">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_LOOT_LABEL">
+      <Text>लूट:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_BOOST_LOOT">
+      <Text>{1_TechName} सीक्रेट्स</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_LABEL">
+      <Text>पीछा किया जा रहा है:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_POLICE">
+      <Text>पुलिस</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_COUNTERSPY">
+      <Text>पुलिस और एजेंट {1_Counterspy}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_HEADER">
+      <Text>चुनें कि आपका एजेंट भागने की कोशिश कैसे करेगा:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_1">
+      <Text>विमान</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_2">
+      <Text>नाव</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_3">
+      <Text>वाहन</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_CHOICE_4">
+      <Text>पैर</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_NO_DISTRICT">
+      <Text>शहर में कोई {1_DistrictName} नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_TURNS">
+      <Text>लौटने के लिए बारी: {1_Turns}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_ESCAPE_TOOLTIP">
+      <Text>अपने एजेंट के लिए शहर से बाहर निकलने के लिए भागने का मार्ग चुनें। पुलिस एयरोड्रोम या हार्बर जैसे त्वरित निकास के स्थानों पर पहुंचने के अधिक संभावना होती है। पैदल निकास सबसे सुरक्षित विकल्प हमेशा होता है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_1_NAME">
+      <Text>जासूस भर्ती</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_2_NAME">
+      <Text>एजेंट</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_3_NAME">
+      <Text>गुप्त एजेंट</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_LEVEL_4_NAME">
+      <Text>मास्टर स्पाई</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SIPHON_ESTIMATE">
+      <Text>+{1_Amount} [ICON_Gold]</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_STEAL_TECH_ESTIMATE">
+      <Text>{1_Amount} {1_Amount: बूस्ट; other? बूस्ट;} सहित {2_TechName} चुरा लो।</Text>
+    </Row>
+    <!-- ==================== Espionage Text ==================== -->
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_HEADER">
+      <Text>{1_CivName} के लिए जासूस।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_NAME">
+      <Text>जासूस का नाम</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_LEVEL">
+      <Text>स्तर (STHAR)</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_PROMOTION">
+      <Text>प्रचार या पदोन्नति</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_CITY">
+      <Text>शहर (SHAHAR)</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_MISSION">
+      <Text>मिशन</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_PANEL_TURNS">
+      <Text>शेष टर्न्स (SHESH TURNS)</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPANEL_NO_MISSION">
+      <Text>none</Text>
+    </Row>
+    <!-- ==================== EspionageChooser ==================== -->
+    <Row Tag="LOC_ESPIONAGECHOOSER_PANEL_HEADER">
+      <Text>जासूसी एम्बेड करें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_SELECT_A_CITY">
+      <Text>जासूसी के लिए लक्ष्य बनाने के लिए एक शहर चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_POSSIBLE_MISSIONS">
+      <Text>संभवित मिशन:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_CONFIRM_PLACEMENT">
+      <Text>प्रविष्टि की पुष्टि करें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_CANCEL">
+      <Text>रद्द करें</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_CHOOSE_MISSION">
+      <Text>मिशन चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_GAIN_SOURCES_ACTIVE">
+      <Text>स्रोत प्राप्ति सक्रिय हुई! ({1_Turns}[Icon_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_SUCCESS_BOOSTED">
+      <Text>मिशन सफलता को बढ़ावा मिला।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_NO_BOOST_ACTIVE">
+      <Text>कोई बूस्ट नहीं सक्रिय है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_TRAVEL_TIME_TOOLTIP">
+      <Text>शहर तक जाने में {1_TravelTime} {1_TravelTime : plural 1?turn; other?turns;} लगेंगे। [NEWLINE] शहर में स्थापित होने में {2_EstablishTime} {2_EstablishTime : plural 1?turn; other?turns;} लगेंगे।</Text>
+    </Row>
+    <!-- ==================== Spy Operation Details ==================== -->
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_LISTENING_POST">
+      <Text>यह 1 स्तर से [ICON_VisLimited] राजनयिक दृश्यता को बढ़ाता है।</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_GAIN_SOURCES">
+      <Text>जासूस {2_Turns} {2_Turns : plural 1?turn; other?turns;} के लिए {1_Levels} {1_Levels : plural 1?level; other?levels;} ऊंचाई पर काम करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_GREAT_WORK_HEIST">
+      <Text>इस शहर से {1_GreatWorkName} चुरा लो।</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_SABOTAGE_PRODUCTION">
+      <Text>औद्योगिक क्षेत्र में सभी इमारतों को लूटो।</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_SIPHON_FUNDS">
+      <Text>मिशन की अवधि के दौरान {1_CityName} की [ICON_Gold] सोने की उपज को प्राप्त करें। ({2_GoldString})</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_DISRUPT_ROCKETRY">
+      <Text>शहर में स्पेसपोर्ट को अक्षम करें।</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_RECRUIT_PARTISANS">
+      <Text>शहर के भीतर बागी इकाइयां बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_STEAL_TECH_BOOST">
+      <Text>एक तकनीकी बढ़त चुराएं।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGECHOOSER_COUNTERSPY">
+      <Text>दुश्मन जासूसों से {1_District} (और सभी आस-पास के जिलों) की रक्षा करें।</Text>
+    </Row>
+    <!-- ==================== EspionagePopup ==================== -->
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_BRIEFING">
+      <Text>मिशन ब्रीफिंग: {1_MissionName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CURRENT_MISSION">
+      <Text>वर्तमान मिशन: {1_MissionName}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_OBJECTIVE">
+      <Text>मिशन का उद्देश्य</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_DETAILS">
+      <Text>मिशन विवरण</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_OUTCOME">
+      <Text>मिशन के परिणाम</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESS">
+      <Text>सफलता!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_FAILURE">
+      <Text>असफलता</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_DURATION">
+      <Text>मिशन अवधि</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_TURNS">
+      <Text>{1_NumberOfTurns} बारीयाँ</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_TURNS_REMAINING">
+      <Text>और {1_RemainingTurns} {1_RemainingTurns : plural 1?टर्न; other?टर्न;} शेष हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_POSSIBLE_OUTCOMES">
+      <Text>संभव नतीजे</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_OUTCOME_DETAILS">
+      <Text>हमारी बुद्धिमत्ता निम्नलिखित संभावनाओं को प्रस्तुत करती है:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESS_OUTCOME_CHANCE">
+      <Text>मिशन की सफलता के लिए अवसर</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_FAILURE_OUTCOME_CHANCE">
+      <Text>मिशन असफलता का खतरा</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CAPTUREDORKILLED_OUTCOME_CHANCE">
+      <Text>पकड़े जाने या मारे जाने का खतरा</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_DISCOVERED_WARNING">
+      <Text>यदि पता चल जाये तो {1_TargetName} हमारे लिए सम्मान खो देंगे।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_TARGET">
+      <Text>लक्ष्य</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_ACCEPT_MISSION">
+      <Text>मिशन स्वीकार करें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_RENEW_MISSION">
+      <Text>नए उद्देश्य के लिए पुनर्नवीनीकरण करें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_ABORT_MISSION">
+      <Text>मिशन रद्द करें!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CANCEL">
+      <Text>रद्द करें</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_GAIN_SOURCES_OUTCOME">
+      <Text>यह आपकी इस शहर में किसी भी आगामी ऑपरेशन की संभावना को बढ़ाएगा। आपके जासूस को कोई खतरा नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESSBUTTON">
+      <Text>OK</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_FAILUREBUTTON">
+      <Text>मैं समझता हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_REWARDS">
+      <Text>पुरस्कार</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_PROMOTIONREADY">
+      <Text>{1_NextRank} के लिए पदोन्नति</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENTREADYFORPROMOTION">
+      <Text>एजेंट पदोन्नति के लिए तैयार है। एक विशेष बोनस का चयन करने के लिए यूनिट क्रिया बटन का उपयोग करें। {1_SpyName} को भी सभी भविष्य ऑपरेशन में सफलता के लिए बढ़ी हुई संभावना होगी।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_LOOTREWARD_TITLE">
+      <Text>{1_LootName} चुराया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_LOOTREWARD_DESCRIPTION">
+      <Text>{1_LootName} सफलतापूर्वक प्राप्त की गई।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_CONSEQUENCES">
+      <Text>परिणाम</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_RELATIONSHIP_DAMAGED_TITLE">
+      <Text>संबंध टूटा हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_RELATIONSHIP_DAMAGED_DESC">
+      <Text>हमारे विरोधी का हमारे प्रति सम्मान खत्म हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_CAPTURED_TITLE">
+      <Text>एजेंट को पकड़ा गया। (Ajent ko pakda gaya.)</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_CAPTURED_DESC">
+      <Text>{1_AgentName} {2_CityName} शहर में पकड़ा गया था। आप उनकी रिहाई के लिए ट्रेड करने का प्रयास कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_KILLED_TITLE">
+      <Text>एजेंट मारा गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_KILLED_DESC">
+      <Text>{1_AgentName} ने {2_CityName} शहर में मारा गया।</Text>
+    </Row>
+    <!-- ==================== EspionageOverview ==================== -->
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_HEADER">
+      <Text>कार्यकर्ता</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_SUBHEADER">
+      <Text>गुप्तचर ({1_NumberOfSpies}/{2_SpyCapacity})</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_AWAITING_ASSIGNMENT">
+      <Text>असाइनमेंट का इंतजार हो रहा है...</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MORE_TURNS">
+      <Text>और {1_RemainingTurns} {1_RemainingTurns : plural 1?टर्न; other?टर्न;} शेष हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY_ACTIVITY_HEADER">
+      <Text>शहर की गतिविधि</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY_ACTIVITY_SUBHEADER">
+      <Text>शहर की गतिविधि</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY">
+      <Text>शहर</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TRANSIT_TO">
+      <Text>{1_DestinationName} के लिए ट्रांजिट में है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED">
+      <Text>गिरफ्तार कर लिया</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_ASK_FOR_TRADE">
+      <Text>व्यापार के लिए पूछें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TRAVELING">
+      <Text>यात्रा करना</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_GREAT_WORK_TO_STEAL">
+      <Text>कोई महान काम चोरी करने के लिए नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_TECH_BOOST_TO_STEAL">
+      <Text>कोई टेक बूस्ट चुराने के लिए नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSION_HISTORY_HEADER">
+      <Text>मिशन इतिहास</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSION_HISTORY_SUBHEADER">
+      <Text>मिशन इतिहास</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES">
+      <Text>गिरफ़्तार जासूस:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_OFFER_TRADE">
+      <Text>व्यापार का प्रस्ताव दें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_VIEW_CITY">
+      <Text>इस शहर को मानचित्र पर देखें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TURNS_AGO">
+      <Text>{1_RemainingTurns} पल {1_RemainingTurns: plural 1? turn; other? turns;} पहले</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME">
+      <Text>मिशन का परिणाम:</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_TARGETACQUIRED">
+      <Text>लक्ष्य हासिल किया गया</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_FAILURE">
+      <Text>असफलता</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SUCCESS">
+      <Text>सफलता (Safalta)</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYCAUGHT">
+      <Text>जासूस पकड़ा गया!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYKILLED">
+      <Text>जासूस मारा गया!</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYAPPREHENDED">
+      <Text>जासूसी ऐप को पकड़ा गया है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_COUNTERSPY">
+      <Text>शहर {1_CityName} की दुश्मन गतिविधियों का निगरानी करने की मिशन पूरा किया गया जिसमें किसी जासूस का पता नहीं चला।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_UNDETECTED">
+      <Text>{1_CityName} शहर में मिशन सफल रहा और जासूस का पता नहीं चला।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_UNDETECTED_STOLELOOT">
+      <Text>मैंने {2_CityName} शहर से अनजाने में {1_LootName} चुराया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_STOLELOOT">
+      <Text>{2_CityName} के शहर से पकड़ से बचकर {1_LootName} चुरा लिया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_ESCAPED">
+      <Text>{1_CityName} शहर में मिशन सफल रहा और जासूस को पकड़ने से बच गया जब उसे पहचान लग गई।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_CAPTURED">
+      <Text>{1_CityName} शहर में मिशन सफल रहा, लेकिन जासूस को पता चलने के बाद पकड़ लिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_CAPTURED_STOLELOOT">
+      <Text>{1_Loot} चुराने की मिशन सफल रही {2_CityName} शहर में लेकिन जासूस को पकड़ लिया गया जब उसे पहचान लगाई गई।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_KILLED">
+      <Text>{1_CityName} शहर में मिशन सफल रहा, लेकिन जासूस को पहचान के बाद मार डाला गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_KILLED_STOLELOOT">
+      <Text>{1_Loot} चुराने की मिशन {2_CityName} शहर में सफल रही पर करारे से पकड़े जाने के बाद जासूस की मौत हो गई।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_UNDETECTED">
+      <Text>{1_CityName} शहर में मिशन असफल रहा पर जासूस का पता नहीं चला।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_UNDETECTED_STOLELOOT">
+      <Text>{1_Loot} चुराने की मिशन {2_CityName} शहर में फेल हो गया लेकिन जासूस को पहचान नहीं लगी।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_ESCAPED">
+      <Text>{1_CityName} शहर में मिशन विफल रहा, लेकिन जासूस को पकड़ बचा लिया गया जब उसे पहचान लिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_ESCAPED_STOLELOOT">
+      <Text>{2_CityName} शहर में {1_Loot} चुराने की मिशन असफल रही लेकिन जासूस दर्ज किए जाने के बाद सफलतापूर्वक गिरफ्तारी से बच गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_CAPTURED">
+      <Text>{1_CityName} शहर में मिशन असफल रहा और जासूस को पहचान लगाने के बाद पकड़ लिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_CAPTURED_STOLELOOT">
+      <Text>{2_CityName} शहर में {1_Loot} चुराने की मिशन असफल रही और जासूस को पकड़ लिया गया, जब उसे पता चल गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_KILLED">
+      <Text>{1_CityName} शहर में मिशन असफल रहा और जासूस को पहचाना जाने के बाद मार गिराया गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_KILLED_STOLELOOT">
+      <Text>{2_CityName} शहर में {1_Loot} चुराने की मिशन असफल रही और जासूस को पहचाना जाने के बाद मार डाला गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_GOLD">
+      <Text>[ICON_Gold] {1_AmountOfGold} सोना</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_NO_GOLD">
+      <Text>[ICON_Gold] सोना</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_KILLED">
+      <Text>जासूस ने {1_CityName} शहर में एक मिशन के दौरान मारा गया था।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_KILLED_STOLELOOT">
+      <Text>जासूस {2_CityName} शहर में {1_Loot} चुराने के मिशन के दौरान मारा गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_CAPTURED">
+      <Text>जासूस {1_CityName} शहर में एक मिशन के दौरान पकड़ा गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_CAPTURED_STOLELOOT">
+      <Text>जासूस {2_CityName} शहर में {1_Loot} चुराने के लिए एक मिशन के दौरान पकड़ा गया।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_NOMISSIONHISTORY">
+      <Text>कोई हाल की जासूसी मिशन नहीं।</Text>
+    </Row>
+    <!-- ==================== Speculative text for temporary Captured Spies tab (which would become part of Mission History) ==================== -->
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES_HEADER">
+      <Text>गिरफ्तार जासूसों</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES_SUBHEADER">
+      <Text>गिरफ्तार जासूसों</Text>
+    </Row>
+    <!-- ==================== UnitPanel - Espionage ==================== -->
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_LOCATED_IN">
+      <Text>स्थित है</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_MORE_TURNS">
+      <Text>और {1_RemainingTurns} {1_RemainingTurns : plural 1?टर्न; other?टर्न;} शेष हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_AWAITING_ASSIGNMENT">
+      <Text>कार्य की अपेक्षा में...</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_SPY_RANK">
+      <Text>{1_RankName} (स्तर {2_RankLevel})</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_CANCEL_MISSION">
+      <Text>मिशन रद्द करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITPANEL_ESPIONAGE_CHOOSE_MISSION">
+      <Text>मिशन चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_SPY_TRADE_DISABLED_AT_WAR">
+      <Text>[COLOR_RED]{2_CivName} से आप वर्तमान में युद्ध में हैं, इसलिए {1_SpyName} के लिए व्यापार अभी संभव नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_OPERATIVES">
+      <Text>अपने शहर में एक जासूस तैयार करें ताकि उसकी स्थिति यहाँ देख सकें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_CITIES">
+      <Text>अपना शहर बनाएँ या दूसरी सभ्यता के शहर को खोजें ताकि यहां उसके जासूसी गतिविधि को देख सकें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NO_HISTORY">
+      <Text>यहां अपने मिशन इतिहास को देखने के लिए जासूसी मिशन चलाएं।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

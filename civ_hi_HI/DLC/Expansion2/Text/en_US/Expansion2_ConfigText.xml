@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_EXPANSION2_NAME">
+      <Text>विस्तार: जमा हुआ तूफान</Text>
+    </Row>
+    <Row Tag="LOC_EXPANSION2_DESCRIPTION">
+      <Text>यह एक खेल है जो विश्व संघ, पर्यावरणीय प्रभाव और आपदाएं, शक्ति और अधिक समेत गैदरिंग स्टॉर्म एक्स्पैंशन का उपयोग करता है। क्या आप एक बदलते विश्व की अपूर्वता से निपट सकते हैं ताकि आपकी सभ्यता समय के टेस्ट से खड़ी रहे?</Text>
+    </Row>
+    <!-- Setup Parameters -->
+    <Row Tag="LOC_GAME_REALISM">
+      <Text>आपदा की तीव्रता (Aapda ki teevrata)</Text>
+    </Row>
+    <Row Tag="LOC_GAME_REALISM_DESCRIPTION">
+      <Text>प्राकृतिक आपदा की तीव्रता सेट करें। 0 (कम आपदाओं की अधिकतम तीव्रता) से 4 (अधिक आपदाओं की अधिकतम तीव्रता) तक सेटिंग का चयन करें। ध्यान दें कि सेटिंग 3 और 4 पर, तीव्र ज्वालामुखी विस्फोटों से टाइल्स को दो हेक्स दूर नुकसान पहुंचा सकती हैं।</Text>
+    </Row>
+    <!-- Front End-->
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_NAME">
+      <Text>राजनयिक विजय (Rajnayik Vijay)</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_TT">
+      <Text>आप दुनिया को दिखाते हैं कि देशों के बीच सहयोग एक स्थायी और न्यायपूर्ण शांति के लिए एकमात्र रास्ता है। सम्मान और विश्व संगठन के माध्यम से इस जीत को हासिल करें।</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DIPLOMATIC_TEXT">
+      <Text>संगीत और शांति युद्ध और हिंसा की जगह लेते हैं। लोगों के बीच अंतर और असहमति हमेशा भले भाव से हल की जा सकती है। हमारे पीछे टकराव होते हुए, हमारे साझा भविष्य के कौन से महिमामय दृश्य होंगे?</Text>
+    </Row>
+    <!-- Natural Wonders-->
+    <Row Tag="LOC_FEATURE_CHOCOLATEHILLS_NAME">
+      <Text>चॉकलेट हिल्स</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_CHOCOLATEHILLS_DESCRIPTION">
+      <Text>चार टाइल का प्राकृतिक अद्भुत वह एक [ICON_Food] खाद्य, +2 [ICON_Production] उत्पादन, और +1 [ICON_Science] विज्ञान प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_DEVILSTOWER_NAME">
+      <Text>माटो टिपिला</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_DEVILSTOWER_DESCRIPTION">
+      <Text>एक टाइल अजेय प्राकृतिक आश्चर्य। प्राकृतिक रूप से निष्क्रिय होता है और आसपास के टाइलों को +1 [ICON_FAITH] धर्म और +1 [ICON_Production] उत्पादन प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_GOBUSTAN_NAME">
+      <Text>गोबुस्तान</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_GOBUSTAN_DESCRIPTION">
+      <Text>तीन टाइल का प्राकृतिक आश्चर्य है। यह +3 [ICON_CULTURE] संस्कृति और +1 [ICON_Production] उत्पादन प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_IKKIL_NAME">
+      <Text>ईक-किल</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_IKKIL_DESCRIPTION">
+      <Text>एक टाइल अजेय प्राकृतिक विस्मय। आसपास के टाइलों में विस्मय और जिलों का उत्पादन करते समय 50% [ICON_Production] उत्पादन प्रदान करता है। यह ताजा पानी प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_PAMUKKALE_NAME">
+      <Text>पामुक्काले</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_PAMUKKALE_DESCRIPTION">
+      <Text>दो टाइल अवरोधी प्राकृतिक विस्मय। +1 [ICON_AMENITIES] सुविधा। यदि मनोरंजन जगह से संबंधित होता है, तो एक अतिरिक्त [ICON_AMENITIES] सुविधा प्रदान करता है। थिएटर स्क्वेयर, कैंपस और वाणिज्यिक हब जिलों के लिए प्रमुख संबंध बोनस। होली साइट जिले के लिए मानक संबंध बोनस। यह ताजगी पानी प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_VESUVIUS_NAME">
+      <Text>माउंट वेसुवियस</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_VESUVIUS_DESCRIPTION">
+      <Text>एक टाइल जिसे अपार्थव नेचुरल वंडर के रूप में दिखाई देता है। यह एक ज्वालामुखी के रूप में प्रकट होता है और आसन्न स्थानों के लिए +1 [ICON_Production] उत्पादन प्रदान करता है। विस्फोट पर आसन्न स्थानों के लिए उच्च उपज, लेकिन बड़ा [ICON_Citizen] जनसंख्या हानि देता है। यह हमेशा सक्रिय होता है।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_WHITEDESERT_NAME">
+      <Text>सहारा एल बेय्दा</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_WHITEDESERT_DESCRIPTION">
+      <Text>चार टाइल का प्राकृतिक आश्चर्य। इससे +1 [ICON_SCIENCE] विज्ञान, +1 [ICON_Culture] संस्कृति, और +4 [ICON_GOLD] सोने की मदद मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION">
+      <Text>दो टाइल अप्रवेश्य प्राकृतिक विस्मय। यह एक ज्वालामुखी के रूप में प्रकट होता है और +1 [ICON_Culture] संस्कृति और +1 [ICON_Food] खाद्य प्रदान करता है। विस्फोट पर यह मध्यम उपज देता है और संभवतः इमारतों और जिलों को नुकसान पहुंचाने की संभावना होती है। अस्थिर तरीके से विस्फोट होता है, लेकिन हमेशा सक्रिय होता है।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_KILIMANJARO_XP2_DESCRIPTION">
+      <Text>एक टाइल जिसे पार नहीं किया जा सकता एक प्राकृतिक अजूबा है। यह एक ज्वालामुखी के रूप में प्रकट होता है और आस-पास के टाइलों को +2 [ICON_Food] खाद्य प्रदान करता है। विस्फोट पर यह कम उपज देता है और संभवतः सुधारों और इमारतों को नुकसान पहुंचाता है। अस्थिर तौर पर विस्फोट होता है, लेकिन हमेशा सक्रिय होता है।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_CLIFFS_DOVER_XP2_DESCRIPTION">
+      <Text>दो टाइल प्राकृतिक अद्भुति। यह जल के पड़ोस के छोटारे के साथ प्रकट होता है और +3 [ICON_Culture] संस्कृति, +2 [ICON_Food] खाद्य तथा +3 [ICON_Gold] सोना प्रदान करता है। आस-पास के टाइलों को मंदिराओं के सामान्य +2 दिखावट की बजाय +4 दिखावट प्रदान करता है। सुधार इस पर लगाए नहीं जा सकते।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_YOSEMITE_XP2_DESCRIPTION">
+      <Text>दो टाइल अपारदर्शी प्राकृतिक अजूबा। प्रत्यक्ष टाइलों को +1 [ICON_Gold] सोना, +1 [ICON_Food] खाद्य और +1 [ICON_Science] विज्ञान प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_EYE_OF_THE_SAHARA_XP2_DESCRIPTION">
+      <Text>तीन टाइल का प्राकृतिक चमत्कार। +2 [ICON_PRODUCTION] उत्पादन और +1 [ICON_SCIENCE] विज्ञान प्रदान करता है। खेल एटॉमिक युग तक पहुँचने के बाद यह अतिरिक्त +1 [ICON_PRODUCTION] उत्पादन और +3 [ICON_SCIENCE] विज्ञान प्रदान करता है।</Text>
+    </Row>
+    <!-- New Maps  -->
+    <Row Tag="LOC_MAP_CONTINENTS_ISLANDS_NAME">
+      <Text>महाद्वीप और द्वीप समूह</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PRIMORDIAL_NAME">
+      <Text>अध्यात्मिक।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SPLINTERED_FRACTAL_NAME">
+      <Text>टुकड़े-टुकड़े फ्रैक्टल</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TILTED_AXIS_NAME">
+      <Text>झुका हुआ धुरीयांतर</Text>
+    </Row>
+    <Row Tag="LOC_MAP_CONTINENTS_ISLANDS_DESCRIPTION">
+      <Text>कुछ बड़ी भूमि जो द्वीपों से घिरी हुई हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PRIMORDIAL_DESCRIPTION">
+      <Text>एक प्रारंभिक समय से नकारात्मक महाद्वीप और द्वीपों वाला नक्शा। अतिसंवेदनशील स्थितियाँ अतिरिक्त तटीय मैदान और ज्वालामुखियों के साथ मौजूद हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SPLINTERED_FRACTAL_DESCRIPTION">
+      <Text>एक बहुत अधिक यादृच्छिक नक्शा जो अक्सर पतले, साँपों जैसे महाद्वीप और द्वीप बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TILTED_AXIS_DESCRIPTION">
+      <Text>एक ध्रुवीय केंद्रित महाद्वीप मानचित्र।</Text>
+    </Row>
+    <!--America-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION">
+      <Text>वर्तमान सरकार में सभी राजनयिक नीति स्लॉट वाइल्डकार्ड स्लॉट में बदल दिए गए हैं। उनकी सरकार में हर वाइल्डकार्ड स्लॉट प्रति चाल के लिए +1 [ICON_FAVOR] राजनयिक अनुकूलता।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION">
+      <Text>अमेरिका के लिए एक अद्वितीय भवन। +100% [ICON_Tourism] जब खेल मॉडर्न युग में प्रवेश करता है तो इस शहर से अन्य सभ्यताओं के प्रति पर्यटन दबाव।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_ROUGH_RIDER_EXPANSION2_DESCRIPTION">
+      <Text>अमेरिकी विशिष्ट औद्योगिक युग इकाई जब टेडी रूजवेल्ट उनके नेता होते हैं, जो कुरासियर को बदलता है। [ICON_Culture] संस्कृति उनके [ICON_Capital] राजधानी के महाद्वीप पर मारों से कमाई जाती है। पहाड़ों पर लड़ाई करते समय +10 [ICON_Strength] युद्ध शक्ति। कम रखरखाव लागत।</Text>
+    </Row>
+    <!--Canada-->
+    <Row Tag="LOC_CIVILIZATION_CANADA_NAME">
+      <Text>कनाडा</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CANADA_ADJECTIVE">
+      <Text>कनाडियन</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CANADA_DESCRIPTION">
+      <Text>कैनेडियन साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_LAURIER_NAME">
+      <Text>विल्फ्रिड लॉरियर</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_NAME">
+      <Text>आइस हॉकी रिंक</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_DESCRIPTION">
+      <Text>Unlocks the Builder ability to construct an Ice Hockey Rink, unique to Canada.[NEWLINE][NEWLINE]+1 [ICON_AMENITIES] Amenity. +1 [ICON_CULTURE] Culture for each adjacent Tundra, Tundra Hills, Snow, and Snow Hills tile. Provides [ICON_Tourism] Tourism from Culture once Flight is unlocked. +2 [ICON_FOOD] Food and [ICON_PRODUCTION] Production once the Professional Sports civic is unlocked. +4 [ICON_CULTURE] Culture if adjacent to a Stadium building. Can be built on Tundra, Tundra Hills, Snow, and Snow Hills. One per city. +2 Appeal.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_NAME">
+      <Text>शांति के चार चेहरे</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_DESCRIPTION">
+      <Text>सिटी-स्टेट्स पर युद्ध घोषित नहीं किया जा सकता या अचानक के युद्ध नहीं किए जा सकते। कनाडा पर अचानक के युद्ध घोषित नहीं किए जा सकते। प्रति टर्न 100 [ICON_TOURISM] पर्यटन से, प्रति टर्न 1 [ICON_Favor] वैदेशिक सहमति कमाएं। एक इमरजेंसी या स्कोर्ड प्रतियोगिता को सफलतापूर्वक पूरा करने से +100% [ICON_Favor] वैदेशिक सहमति प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_LAST_BEST_WEST_NAME">
+      <Text>अंतिम सर्वोत्तम पश्चिम (Antim Sarvottam Pashchim)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_LAST_BEST_WEST_DESCRIPTION">
+      <Text>तुंद्रा भूमि पर खेत बनाने की अनुमति देता है। सिविल इंजीनियरिंग से खोलने के बाद टंडरा पहाड़ियों पर खेत बनाए जा सकते हैं। बर्फ, टंडरा, बर्फीली पहाड़ियाँ और टंडरा पहाड़ियों पर सभी खानों से +2 [ICON_PRODUCTION] उत्पादन, लंबर मिल से +2 [ICON_PRODUCTION] उत्पादन, शिकारगाह से +2 [ICON_FOOD] खाद्य, खेतों से +2 [ICON_FOOD] खाद्य प्रदान करते हैं, और रणनीतिक संसाधन एकत्रण दर +100% होती है। इन भूमि प्रकारों में टाइलों की खरीद की लागत को 50% कम करता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CANADA_MOUNTIE_NAME">
+      <Text>माउंटी (Mountie)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CANADA_MOUNTIE_DESCRIPTION">
+      <Text>कैनेडियन अद्वितीय आधुनिक काल इकाई। 2 राष्ट्रीय उद्यान बना सकता है। राष्ट्रीय उद्यान से 2 टाइल की दूरी पर लड़ाई करते समय +5 [ICON_Strength] युद्ध शक्ति। आपके पास होने वाले राष्ट्रीय उद्यान से 2 टाइल की दूरी पर लड़ाई करते समय अतिरिक्त +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <!--England-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_NAME">
+      <Text>दुनिया का कारखाना</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_DESCRIPTION">
+      <Text>लोहे और कोयला खानों में प्रति टर्न 2 अतिरिक्त संसाधन जमा होते हैं। सैन्य अभियंताओं के प्रति +100% [ICON_PRODUCTION] उत्पादन। सैन्य अभियंताओं को +2 चार्ज मिलते हैं। [ICON_POWER] Powered होने पर अतिरिक्त योगदान प्रदान करने वाले भवनों को +4 उस योगदान का प्राप्त होता है। औद्योगिक क्षेत्र भवनों के प्रति +20% [ICON_PRODUCTION] उत्पादन। हार्बर भवन स्टैंडर्ड स्पीड पर +10 रणनीतिक संसाधन स्टॉकपाइल को बढ़ाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PAX_BRITANNICA_EXPANSION2_DESCRIPTION">
+      <Text>प्रत्येक बार जब आप अपने घरेलू महाद्वीप के अलावा किसी अन्य महाद्वीप पर अपना पहला शहर खोजते हैं तो आपको एक मुफ्त मीली इकाई और [ICON_TradeRoute] ट्रेड रूट क्षमता मिलती है। किसी भी रॉयल नेवी डॉकयार्ड का निर्माण आपको सबसे शक्तिशाली नौसेना इकाई जो आप बना सकते हैं की एक प्रतिलिपि प्रदान करता है। सैन्य विज्ञान तकनीक के अनुसंधान के समय रेडकोट अनूठी इकाई प्राप्त करें।</Text>
+    </Row>
+    <!--Egypt-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ITERU_EXPANSION2_DESCRIPTION">
+      <Text>नदी के पास रखा जाएगा तो जिलों और अद्भुत निर्माणों की ओर [ICON_Production] उत्पादन में 15% की वृद्धि होगी। बाढ़ से कोई हानि नहीं होगी।</Text>
+    </Row>
+    <!--Eleanor-->
+    <Row Tag="LOC_LEADER_ELEANOR_NAME">
+      <Text>एलेनर ऑफ़ आक्विटेन (इंग्लैंड)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_ELEANOR_FRANCE_NAME">
+      <Text>एलेनोर ऑफ़ एक्विटेन (फ्रांस)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_NAME">
+      <Text>प्यार का न्यायालय</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION">
+      <Text>एलेनोर के शहरों में महान कामों का हर एक कारण उस परदेशी शहरों में हर टर्न में -1 वफादारी का कारण होता है जो 9 टाइल के भीतर होते हैं। एक शहर जो वफादारी की कमी के कारण दूसरी सभ्यता से निकलता है और वर्तमान में एलेनोर की सभ्यता से सबसे अधिक वफादारी प्राप्त करता है, उसे नि: शुल्क शहर चरण को छोड़कर इस सभ्यता से जुड़ने के लिए जाना होता है।</Text>
+    </Row>
+    <!--Georgia-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_EXPANSION2_DESCRIPTION">
+      <Text>स्वर्ण युग या वीर युग की शुरुआत में समर्पण बनाते समय, अन्य बोनस के अतिरिक्त युग स्कोर को सुधारने के लिए सामान्य आयु बोनस प्राप्त करें। रक्षात्मक इमारतों के प्रति +50% [ICON_Production] उत्पादन प्राप्त करें।</Text>
+    </Row>
+    <!--Hungary-->
+    <Row Tag="LOC_CIVILIZATION_HUNGARY_NAME">
+      <Text>हंगरी (Hangri)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HUNGARY_ADJECTIVE">
+      <Text>कृपया अगला पाठ हिंदी में अनुवादित करें। प्राकृतिक ध्वनियुक्त अनुवाद के साथ उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HUNGARY_DESCRIPTION">
+      <Text>हंगेरी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MATTHIAS_CORVINUS_NAME">
+      <Text>मैथियास कॉरविनस</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_THERMAL_BATH_NAME">
+      <Text>थर्मल बाथ</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION">
+      <Text>हंगरी के लिए अद्वितीय एक भवन। प्रत्येक शहर केंद्र में 6 टाइल के अंदर +2 [ICON_AMENITIES] सुविधाएं और +2 [ICON_PRODUCTION] उत्पादन फैलता है। ये बोनस एक बार एक शहर के लिए लागू होते हैं, और एक शहर के केंद्र से 6 टाइल के भीतर कई प्रतिलिपियों का होना अतिरिक्त बोनस प्रदान नहीं करता है। [NEWLINE] [NEWLINE] इस शहर को +3 [ICON_TOURISM] पर्यटन और यदि इस शहर की सीमाओं में कम से कम एक भूकंपीय दरार है, तो अतिरिक्त +2 [ICON_AMENITIES] सुविधाएं मिलती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_NAME">
+      <Text>दुनिया की हीरे जैसी दानुब नदी।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_DESCRIPTION">
+      <Text>[ICON_PRODUCTION] जनपदों और इमारतों के लिए उत्पादन में +50% वृक्षारोहण से एक नगर केंद्र से नदी के उस पार निर्मित।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RAVEN_KING_NAME">
+      <Text>कागा राजा</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_RAVEN_KING_DESCRIPTION">
+      <Text>लेवीड इकाइयों को एक क्षमता प्राप्त होती है जो उन्हें +2 [ICON_Movement] गति और +5 [ICON_Strength] युद्ध शक्ति देती है। लेवीड इकाइयों को अपग्रेड करने के लिए 75% कम [ICON_GOLD] सोने और संसाधन खर्च होते हैं। यदि आप शहर राज्य से सैनिक लेवी करते हैं तो उस शहर राज्य के साथ 2 [ICON_ENVOY] राजदूत प्राप्त करें। किलों प्रौद्योगिकी परिसर्जन होने पर ब्लैक आर्मी अद्वितीय इकाई प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_BLACK_ARMY_NAME">
+      <Text>काली सेना</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_BLACK_ARMY_DESCRIPTION">
+      <Text>कोर्सर की जगह लेने वाली हंगेरियन अद्वितीय मध्ययुगीन इकाई। प्रत्येक पड़ोस में भर्ती हुए इकाई के लिए +3 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_HUSZAR_NAME">
+      <Text>हूज़ार</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HUNGARY_HUSZAR_DESCRIPTION">
+      <Text>कूदने वाली घोड़ाबन्दी की जगह हंगेरियन विशिष्ट औद्योगिक युग इकाई। प्रत्येक सक्रिय संघ के लिए +3 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <!--Inca-->
+    <Row Tag="LOC_CIVILIZATION_INCA_NAME">
+      <Text>इंका</Text>
+      <Gender>Masculine:the</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_INCA_ADJECTIVE">
+      <Text>इंका</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_INCA_DESCRIPTION">
+      <Text>इंका साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_NAME">
+      <Text>मिटा</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_DESCRIPTION">
+      <Text>नागरिक पहाड़ी टाइल पर काम कर सकते हैं। पहाड़ी टाइल +2 [ICON_PRODUCTION] उत्पादन प्रदान करती हैं और जब खेल औद्योगिक युग तक पहुंचता है तो एक अतिरिक्त +1 [Icon_production] उत्पादन प्रदान करती है। प्रत्येक पास के टेरेस फार्म के लिए पहाड़ी टाइल को +1 [ICON_FOOD] खाद्य प्रदान किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PACHACUTI_NAME">
+      <Text>पचाकुटी</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_TERRACE_FARM_NAME">
+      <Text>टेरेस खेती</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION">
+      <Text>इन्का के लिए विशिष्ट टेरेस फार्म बनाने की योग्यता बिल्डर क्षमता को अनलॉक करता है। [NEWLINE] [NEWLINE] +1 [ICON_FOOD] खाद्य प्रदान करता है। +1 [ICON_Housing] आवास प्रदान करता है। प्रत्येक आसपास के पर्वत टाइल के लिए +1 [ICON_FOOD] खाद्य प्रदान करता है। प्रत्येक आसपास के एक्वेडक्ट जिले के लिए +2 [ICON_PRODUCTION] उत्पादन प्राप्त करें। ताजगी और पानी के पास आसपास होने पर, और एक्वेडक्ट जिला नहीं होने पर, +1 [ICON_PRODUCTION] उत्पादन प्राप्त करें। अन्य टेरेस फार्मों के सम्पर्क में स्थान पाने पर अतिरिक्त [ICON_FOOD] खाद्य। घास के मैदानी पहाड़ों, सादा मैदानी पहाड़ों और रेगिस्तानी पहाड़ों पर रखा जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INCA_WARAKAQ_NAME">
+      <Text>वारक'कू (Varak'aq)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INCA_WARAKAQ_DESCRIPTION">
+      <Text>इंकन अनूठी मध्यकाल युग इकाई है जो स्किर्मिशर की जगह लेती है। स्किर्मिशर से रेंज़ कॉम्बैट में ज्यादा ताकतवर है और प्रति टर्न +1 अतिरिक्त हमला होता है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_NAME">
+      <Text>क्वापाक नान</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_DESCRIPTION">
+      <Text>घरेलू [ICON_TradeRoute] व्यापार मार्ग मूल शहर में हर पहाड़ टाइल के लिए +1 [ICON_Food] खाद्य प्राप्त करते हैं। विदेशी व्यापार नीति के खोज पर Qhapaq Ñan सुधार प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME">
+      <Text>कपाक नान</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION">
+      <Text>Unlocks the Builder ability to construct a Qhapaq Ñan, unique to Pachacuti.[NEWLINE][NEWLINE]Acts as a movement portal on a mountain range, allowing units to move into it and exit from another portal at the cost of 2 [ICON_Movement] Movement. [ICON_TradeRoute] Trade Routes traveling through it can multiply the [ICON_Gold] Gold they get from districts at their destination. Can only be built on an adjacent Mountain tile. Cannot be pillaged or removed.</Text>
+    </Row>
+    <!--Mali-->
+    <Row Tag="LOC_CIVILIZATION_MALI_NAME">
+      <Text>माली</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MALI_ADJECTIVE">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवाद करें। केवल प्राकृतिक लगने वाले अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MALI_DESCRIPTION">
+      <Text>माली साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_NAME">
+      <Text>जेली के गाने</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_DESCRIPTION">
+      <Text>सिटी सेंटर को प्रत्यक्ष रूप से संबद्ध रेगिस्तान और रेगिस्तान पहाड़ी टाइल के प्रति +1 [ICON_FAITH] धर्म और +1 [ICON_FOOD] भोजन प्राप्त होता है। खानों को -1 [ICON_PRODUCTION] उत्पादन और +4 [ICON_GOLD] सोना प्राप्त होता है। [ICON_Faith] धर्म के साथ वाणिज्यिक हब जिले के भवनों को खरीद सकते हैं। इमारतों या प्रशिक्षण इकाइयों का निर्माण करने के लिए -30% [ICON_PRODUCTION] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MANSA_MUSA_NAME">
+      <Text>मांसा मूसा</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_NAME">
+      <Text>सहेल व्यापारियों</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_DESCRIPTION">
+      <Text>अंतरराष्ट्रीय [ICON_TradeRoute] व्यापार मार्गों पर मूल शहर में प्रत्येक समतल मरुस्थल पर +1 [ICON_GOLD] सोने की प्राप्ति होती है। हर बार जब आप स्वर्ण युग में प्रवेश करते हैं तब +1 [ICON_TradeRoute] व्यापार क्षमता प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SUGUBA_NAME">
+      <Text>Suguba</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION">
+      <Text>वित्त और व्यापार में विशेषज्ञ माली का एक जिला जो वाणिज्यिक हब को बदलता है। इस शहर में [ICON_GOLD] सोने और [ICON_FAITH] धर्म के साथ खरीदारी के लिए इक्कीस प्रतिशत की छूट होती है। [NEWLINE][NEWLINE] प्रत्येक समीपवर्ती पवित्र स्थल से +2 [ICON_Gold] सोने का बोनस। नदी के किनारे वाली टाइल से +2 [ICON_Gold] सोने का बोनस। प्रत्येक दो समीपवर्ती जिला टाइल पर +1 [ICON_Gold] सोने का बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MALI_MANDEKALU_CAVALRY_NAME">
+      <Text>मंडेकालु सवारी</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MALI_MANDEKALU_CAVALRY_DESCRIPTION">
+      <Text>माली अद्वितीय मध्यकालीन कला इकाई जो नाइट की जगह होती है। व्यापारी इकाइयों को तबाह करने से बचाया जाता है यदि वे एक मांडेकालू कैवलरी से 4 टाइल्स की दूरी पर हों और एक भूमि टाइल पर हों। युद्ध जीत से प्रदान की गई धनराशि मूल [ICON_Strength] युद्ध शक्ति (मानक गति पर) के 100% के बराबर [ICON_GOLD] सोना प्रदान करती है।</Text>
+    </Row>
+    <!--Maori-->
+    <Row Tag="LOC_CIVILIZATION_MAORI_NAME">
+      <Text>माओरी</Text>
+      <Gender>Masculine:the</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MAORI_ADJECTIVE">
+      <Text>Māori</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MAORI_DESCRIPTION">
+      <Text>माओरी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MAORI_MANA_NAME">
+      <Text>माना</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MAORI_MANA_DESCRIPTION">
+      <Text>जहाज निर्माण तकनीक और सेलिंग तकनीकों के साथ खेल शुरू करें और समुद्री टाइल में प्रवेश करने की क्षमता हो। एम्बार्क किए गए इकाइयों को +2 [ICON_Movement] चाल का लाभ होता है। अप्रबुद्ध वुड्स और रेनफॉरेस्ट में +1 [ICON_PRODUCTION] उत्पादन होता है। व्यापारवाद और संरक्षण से अतिरिक्त +1 [ICON_PRODUCTION] उत्पादन और मेढ़क से +2 [ICON_PRODUCTION] उत्पादन होता है। मछली पकड़ने वाली नावों से आसन्न समीप टाइल्स के लिए +1 [ICON_FOOD] खाद्य और संस्कृति बम्ब उपलब्ध होता है। संसाधनों को कटौती नहीं की जा सकती। [ICON_GreatWriter] महान लेखक प्राप्त नहीं किए जा सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_KUPE_NAME">
+      <Text>कुपे</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KUPES_VOYAGE_NAME">
+      <Text>कुपे का यात्रा</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KUPES_VOYAGE_DESCRIPTION">
+      <Text>पहले शहर को बसाते समय एक समुद्र टाइल में खेल शुरू करें। एक मुफ्त निर्माता और +1 [ICON_Citizen] आबादी प्राप्त करें। राजधानी को +3 [ICON_HOUSING] हाउसिंग और +1 [ICON_AMENITIES] आनंदमय सुविधा प्राप्त होती है। आप अपने पहले शहर को बसाने से पहले प्रति टर्न +2 [ICON_SCIENCE] विज्ञान और +2 [ICON_CULTURE] संस्कृति प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MARAE_NAME">
+      <Text>मारेह (Māreh)</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MARAE_DESCRIPTION">
+      <Text>माओरी की विशिष्टता वाले एक इमारत। फ्लाइट शोधित करने के बाद, एक फीचर या प्राकृतिक अद्भुति वाली इस शहर की टाइलों पर सभी के लिए [ICON_CULTURE] संस्कृति और [ICON_FAITH] धर्म मिलता है। एक सुलभ सुविधा होती है। मेनटेनेंस लागत नहीं होती है। इसमें कोई महान कार्य स्थान नहीं होता है। फ्लाइट शोधने के बाद एक फीचर या प्राकृतिक अद्भुति वाली इस शहर की टाइलों पर सभी के लिए +1 [ICON_TOURISM] पर्यटन प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAORI_TOA_NAME">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवादित करें। स्वाभाविक धुन के साथ उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAORI_TOA_DESCRIPTION">
+      <Text>माओरी अद्वितीय क्लासिकल युग के मीले इकाई। आसन्न दुश्मन इकाइयों को -5 [ICON_STRENGTH] लड़ाई ताकत मिलती है। अद्वितीय पा सुधार का निर्माण कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MAORI_PA_NAME">
+      <Text>कृपया, सही टेक्स्ट दें जिसे हिंदी में अनुवाद किया जाना है।</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_MAORI_PA_DESCRIPTION">
+      <Text>टोआ क्षमता का अनलॉक करता है एक पा बनाने के लिए, माओरी के लिए अनूठा। [NEWLINE] [NEWLINE] ध्वस्त इकाई को +4 [ICON_Strength] रक्षा शक्ति प्राप्त होती है, और स्वचालित रूप से 2 टर्न की अभिरक्षा प्राप्त करती है। एक माओरी इकाई जो पा में अधिकार करती है वह इलाज होती है भले ही वह बस अभी चली गई हो या आक्रमण किया हो। एक पहाड़ी टाइल पर बनाना चाहिए।</Text>
+    </Row>
+    <!--Netherlands-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GROTE_RIVIEREN_EXPANSION2_DESCRIPTION">
+      <Text>नदी के पास स्थित कैंपस, थिएटर स्क्वेयर और औद्योगिक क्षेत्रों के लिए मुख्य समग्रता बोनस। जब एक हार्बर समाप्त किया जाता है तो संस्कृति बम आसपास के टाइल्स के लिए। बाँध जिले और बाढ़ बाधार भवन के प्रति +50% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <!--Ottomans-->
+    <Row Tag="LOC_CIVILIZATION_OTTOMAN_NAME">
+      <Text>ओटोमन्स (Ottomans)</Text>
+      <Gender>Masculine:the</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_OTTOMAN_ADJECTIVE">
+      <Text>ओटोमन (Ottoman)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_OTTOMAN_DESCRIPTION">
+      <Text>अटोमन साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_NAME">
+      <Text>महान तुर्की बम्बार्ड करना</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_DESCRIPTION">
+      <Text>संगठन इकाई के प्रति 50% [ICON_Production] उत्पादन। सभी संगठन इकाइयों को जड़ की रक्षा के खिलाफ +5 [ICON_Strength] युद्ध ताकत प्राप्त होती है। जीते गए शहरों में कोई [ICON_Citizen] आबादी नहीं खोती है। जो शहर अलग-अलग संस्थानों द्वारा स्थापित नहीं किए गए हैं, उनको प्रति टर्न +1 [ICON_AMENITIES] सुविधा और +4 वफादारी प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_SULEIMAN_NAME">
+      <Text>सुलेमान</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GRAND_BAZAAR_NAME">
+      <Text>ग्रैंड बाजार</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION">
+      <Text>अंग्रेजों के लिए एक अद्वितीय भवन। इस शहर ने जितने भी विभिन्न प्रकार के रणनीतिक संसाधनों को सुधारा है, उनमें से प्रत्येक के लिए 1 अतिरिक्त रणनीतिक संसाधन जुटाएँ। इस शहर ने जितने भी विभिन्न प्रकार के सुखद संसाधनों को सुधारा है, उनमें से प्रत्येक के लिए 1 [ICON_AMENITIES] सुविधा प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_NAME">
+      <Text>बार्बरी कोरसेयर</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_DESCRIPTION">
+      <Text>ओटोमन अनूठी मध्यकालीन नौसेना इकाई, जो प्राइवेटीयर को बदलती है। समुद्र तट पर दस्तहदम करने के लिए [ICON_Movement] चलन खर्च नहीं करती। यह केवल दूसरे नौसैनिक डाकू द्वारा देखा जा सकता है यदि यह उससे सम्बद्ध हो। दृश्य सीमा के भीतर नौसैनिक डाकू को पता लगाता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SULEIMAN_JANISSARY_NAME">
+      <Text>जानिसरी (Janissary)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SULEIMAN_JANISSARY_DESCRIPTION">
+      <Text>ओटोमन अद्वितीय रेनेसांस युग इकाई होती है जो मस्केटमैन की जगह लेती है। एक मुफ्त प्रोमोशन के साथ शुरू होती है। मस्केटमैन से मजबूत और सस्ती होती है। जनिसारी को ट्रेन करने के लिए एक शहर की आबादी कम से कम 2 होनी चाहिए। अगर ओटोमन द्वारा एक शहर की स्थापना की जाती है और जनिसारी को ट्रेन किया जाता है तो उस शहर से जनसंख्या घटती है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_NAME">
+      <Text>मुख्य मंत्री</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_DESCRIPTION">
+      <Text>विशिष्ट अनोखे सैन्य और राजनयिक क्षमताओं के साथ [Icon_Governor] विशिष्ट गवर्नर। गनपाउडर प्रौद्योगिकी के अनुसंधान करने पर जानिसरी विशिष्ट इकाई प्राप्त करें और एक [Icon_Governor] गवर्नर शीर्षक प्राप्त करें।</Text>
+    </Row>
+    <!--Phoenicia-->
+    <Row Tag="LOC_CIVILIZATION_PHOENICIA_NAME">
+      <Text>फोनिशिया (Phoenicia)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PHOENICIA_ADJECTIVE">
+      <Text>फोनिशियन</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PHOENICIA_DESCRIPTION">
+      <Text>फोनीशियन साम्राज्य (Phoenician Empire)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_NAME">
+      <Text>मध्यवर्ती उपनिवेशों</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_DESCRIPTION">
+      <Text>शुरू करें लेखन टेक्नोलॉजी [ICON_TechBoosted] युरेका के साथ। फोनिशिया द्वारा स्थापित तटीय शहर तथा फोनिशियन [ICON_Capital] राजधानी से समान महाद्वीप पर स्थित होने वाले शहर पूर्णतया वफादार होते हैं। सेटलर दो अतिरिक्त [ICON_Movement] गति और उतरते समय दो अतिरिक्त दृष्टि दायरे प्राप्त करते हैं। सेटलर उतरते और उतरने के अतिरिक्त [ICON_Movement] गति लागत को अनदेखा करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_DIDO_NAME">
+      <Text>Dido</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_NAME">
+      <Text>कारथेज के संस्थापक</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION">
+      <Text>वे उन शहरों में अपनी मूल [ICON_Capital] राजधानी को ले जा सकते हैं जहां उन्होंने उस शहर में एक अद्वितीय परियोजना को पूरा करके कोथोन स्थापित किया है। प्रत्येक सरकारी प्लाजा भवन और सरकारी प्लाजा जिले के लिए +1 [ICON_TradeRoute] व्यापार मार्ग क्षमता। सरकारी प्लाजा वाले शहर में जिलों के प्रति +50% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_NAME">
+      <Text>Cothon</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_DESCRIPTION">
+      <Text>फोनिशिया के लिए जलीय गतिविधि के लिए एक जिला जो आपके शहर में अद्वितीय है। हार्बर जिले को बदलता है और इसे कम कीमत पर बनाना संभव है। यह पृथ्वी के आसपास के तट या झीलीय मैदान पर बनाया जाना चाहिए। [NEWLINE] [NEWLINE] इस शहर में जलीय इकाइयों और सेटलर्स के प्रति +50% [ICON_PRODUCTION] उत्पादन। इस शहर की सीमाओं में सभी घायल जलीय इकाइयों का हर टर्न +100 एचपी ठीक हो जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PHOENICIA_BIREME_NAME">
+      <Text>द्विसामी जहाज (Dvisami Jahaj)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PHOENICIA_BIREME_DESCRIPTION">
+      <Text>फोनेशियन अनोखा प्राचीन काल का यूनिट है जो गैली की जगह ले लेता है। बढ़ी [ICON_Strength] कुशलता और [ICON_Movement] गति। व्यापारी यूनिटों को चोरी की आशंका नहीं होती है अगर वे एक बायरीम के 4 टाइल की दूरी पर और पानी के एक टाइल पर हैं।</Text>
+    </Row>
+    <!--India-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DHARMA_EXPANSION2_DESCRIPTION">
+      <Text>हर धर्म से जो शासन कम से कम एक अनुयायी रखता है, उस शहर में अनुयायी विश्वास बोनस प्राप्त करता है। शहरों को कम से कम एक अनुयायी वाले हर धर्म के लिए [ICON_Amenities] सुविधा प्राप्त होती है। मिशनरीज के पास +2 प्रसार होते हैं। आपके [ICON_TradeRoute] व्यापार मार्गों से धार्मिक दबाव का +100%।</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_STEPWELL_EXPANSION2_DESCRIPTION">
+      <Text>भारत के लिए अनूठा स्टेपवेल निर्माण करने की बिल्डर क्षमता को अनलॉक करता है। [NEWLINE] [NEWLINE] +1 [ICON_Food] खाद्य और +1 [ICON_Housing] आवास। यदि मध्यस्थ हॉली साइट जिले के समीप हो तो +1 [ICON_Faith] धर्म। यदि फार्म के पास हो तो +1 [ICON_Food] खाद्य। प्रौद्योगिकी और सिविक्स ट्री से आगे बढ़ने पर अतिरिक्त [ICON_Housing] आवास, [ICON_Faith] धर्म, और [ICON_Food] खाद्य। सूखे से विपत्ति के दौरान [ICON_Food] खाद्य का नुकसान रोकता है। पहाड़ों पर या एक और स्टेपवेल के पास नहीं बनाया जा सकता है।</Text>
+    </Row>
+    <!--Japan-->
+    <Row Tag="LOC_TRAIT_LEADER_DIVINE_WIND_EXPANSION2_DESCRIPTION">
+      <Text>जमीनी इकाइयों को तट के पड़ोस में स्थित जमीन टाइल पर +5 [ICON_Strength] युद्ध शक्ति प्राप्त होती है; जलीय इकाइयों को गहरे पानी टाइल में +5 [ICON_Strength] युद्ध शक्ति प्राप्त होती है। अडालत, पवित्र स्थल और थिएटर वर्ग जिलों का निर्माण आधी समय में होता है। इकाइयों को तूफ़ान से कोई नुकसान नहीं होता है। जो सभ्यताएं जापान से युद्ध में होंगी, उनकी इकाइयों को जापानी क्षेत्र में तूफ़ान से दोगुना नुकसान होगा।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_SATYAGRAHA_EXPANSION2_DESCRIPTION">
+      <Text>उन्हें प्रति राज्य (भारत सहित) जिनसे वह मिल चुके हों, जिन्होंने धर्म स्थापित किया हो और वर्तमान में युद्ध नहीं कर रहे हों, प्रति टर्न +5 [ICON_Faith] धर्म और +1 [ICON_Favor] व्यवहारिक अनुग्रह प्राप्त होता है। गांधी के खिलाफ लड़ने वाले विरोधी सभ्यताएं दोहरी युद्ध थकावट प्राप्त करती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION">
+      <Text>एक जापान के लिए अद्वितीय भवन। बिजली प्रौद्योगिकी के अनुसंधान के बाद इस शहर को +4 [ICON_Culture] संस्कृति प्रदान करता है। इसका [ICON_Production] उत्पादन बोनस इस भवन प्रकार से पहले से ही बोनस नहीं होने वाली 6 टाइल के सभी सिटी सेंटर्स के लिए विस्तारित होता है।</Text>
+    </Row>
+    <!--Qin-->
+    <Row Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION">
+      <Text>प्राचीन और क्लासिक अद्भुत निर्माण करते समय आप मूल अद्भुत लागत का 15% पूरा करने के लिए निर्माणकर्ता शुल्क खर्च कर सकते हैं। निर्माणकर्ताओं को एक अतिरिक्त शुल्क प्राप्त होता है। कैनाल मेजबानी तकनीक के साथ अनलॉक किए जाते हैं।</Text>
+    </Row>
+    <!--Rome-->
+    <Row Tag="LOC_DISTRICT_BATH_EXPANSION2_DESCRIPTION">
+      <Text>A district unique to Rome for city growth. Replaces the Aqueduct district and cheaper to build.[NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. If built adjacent to a Geothermal Fissure +1 [ICON_Amenities] Amenity. In all cases the Bath provides an additional bonus of +2 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity. Prevents [ICON_Food] Food loss during Drought. Must be built adjacent to the City Center.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BATH_EXPANSION2_ALT_DESCRIPTION">
+      <Text>शहर के विकास के लिए रोम का एक अद्वितीय जिला। एक्वेडक्ट जिले को बदलता हुआ और इसे बनाना सस्ता होता है। [NEWLINE] [NEWLINE] यह शहर को एक पड़ोसी नदी, झील, ओएसिस या पहाड़ से ताजगी वाले पानी का स्रोत प्रदान करता है। जिन शहरों में पहले से मौजूद स्वच्छ पानी नहीं है उन्हें तकरीबन 6 [ICON_Housing] हाउसिंग मिलता है। जो शहरों में पहले से स्वच्छ पानी होता है, उन्हें बजाय +2 [ICON_Housing] हाउसिंग मिलती है। जो भूकंपीय फिशर के बगल में बनाया जाता है, उसमें +1 [ICON_Amenities] सुविधा होती है। सभी मामलों में बाथ अतिरिक्त बोनस प्रदान करता है, +2 [ICON_Housing] हाउसिंग और +1 [ICON_Amenities] सुविधा। दूषितकाल में [ICON_Food] खोने से रोकथाम। सिटी सेंटर के बगल में बनाना आवश्यक है। सैन्य इंजीनियर्स एक बाथ की उत्पादन राशि का 20% पूरा करने के लिए अपनी शुल्क खत्म कर सकते हैं।</Text>
+    </Row>
+    <!--Russia-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_EXPANSION2_DESCRIPTION">
+      <Text>नए शहर बनाने पर अतिरिक्त क्षेत्र। टंडरा से +1 [ICON_Faith] आस्था और +1 [ICON_Production] उत्पादन। ब्लिजर्ड से इकाई को कोई नुकसान नहीं होता है। जो सभ्यताएं रूस से युद्ध कर रही हैं, उनकी टेरिटोरी में ब्लिजर्ड से इकाई को +100% नुकसान होता है।</Text>
+    </Row>
+    <!--Sweden-->
+    <Row Tag="LOC_CIVILIZATION_SWEDEN_NAME">
+      <Text>स्वीडन</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SWEDEN_ADJECTIVE">
+      <Text>कृपया अगला पाठ स्वीडिश से हिंदी में अनुवाद करें। केवल प्राकृतिक शब्दों का उपयोग करें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SWEDEN_DESCRIPTION">
+      <Text>स्वीडिश साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_NAME">
+      <Text>नोबेल पुरस्कार</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION">
+      <Text>स्वीडन स्टैंडर्ड स्पीड पर ग्रेट पर्सन कमाने पर 50 [ICON_Favor] डिप्लोमेटिक फेवर हासिल करता है। स्वीडन को फैक्ट्रीज से +1 [ICON_GreatEngineer] ग्रेट इंजीनियर प्वाइंट और विश्वविद्यालयों से +1 [ICON_GreatScientist] ग्रेट साइंटिस्ट प्वाइंट मिलता है। खेल में स्वीडन होने से औद्योगिक युग से शुरू होने वाले तीन अद्वितीय विश्व कांग्रेस प्रतियोगिताएं शामिल होती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_KRISTINA_NAME">
+      <Text>क्रिस्टीना</Text>
+    </Row>.
+		<Row Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_NAME"><Text>उत्तर की मिनर्वा (Uttar ki Minerva)</Text></Row><Row Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION"><Text>तीन से अधिक महान कार्य स्लॉट वाले इमारतें और कम से कम दो महान कार्य स्लॉट वाले विस्मय को अपनी सभी स्लॉट भर लेने पर स्वचालित रूप से थीम हो जाते हैं। वह सरकारी प्लाजा में क्वीन की बिब्लियोथेक बना सकती है।</Text></Row><Row Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME"><Text>आउटडोर संग्रहालय</Text></Row><Row Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION"><Text>बिल्डर क्षमता को अनलॉक करता है ताकि स्वीडन के लिए अनूठा खुला-आसमान संग्रहालय निर्मित किया जा सके।[NEWLINE][NEWLINE]प्रत्येक इस शहर में प्रति टर्न +2 वफादारी प्रदान करता है। जहाँ कम से कम एक स्वीडिश शहर स्थापित होता है, वहाँ प्रत्येक प्रकार के टेरेन (हिमपात, टंडरा, रेगिस्तान, मैदान या घास के मैदान) के लिए +2 [ICON_Culture] संस्कृति और +2 [ICON_Tourism] पर्यटन। एक प्रति शहर। खुले आसमान संग्रहालयों वाले टाइल बदले नहीं जा सकते।</Text></Row><Row Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_NAME"><Text>राजा की पुस्तकालय (Raja ki Pustakalaya)</Text></Row><Row Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_DESCRIPTION"><Text>एक भारत की विशिष्ट इमारत। यह इमारत [ICON_GreatWork_WRITING] लेखन, [ICON_GreatWork_MUSIC] संगीत और किसी भी प्रकार की [ICON_GreatWork_Landscape] चित्रकला के 2 स्लॉट प्रदान करती है। [NEWLINE]+1 [Icon_Governor] गवर्नर टाइटल पुरस्कार।</Text></Row><Row Tag="LOC_UNIT_SWEDEN_CAROLEAN_NAME"><Text>कैरोलियन</Text></Row><Row Tag="LOC_UNIT_SWEDEN_CAROLEAN_DESCRIPTION"><Text>पाइक और शॉट की जगह स्वीडिश अद्वितीय रेनेसांस युग की इकाई। पाइक और शॉट से तेज। प्रति अप्रयुक्त [ICON_Movement] गति प्रति +3 [ICON_Strength] युद्ध शक्ति।</Text></Row><Row Tag="LOC_ERA_FUTURE_NAME"><Text>भविष्य युग (Bhavishya Yug)</Text></Row><Row Tag="LOC_ERA_FUTURE_DESCRIPTION"><Text>दुनिया प्राचीन भविष्यवक्ताओं के सपनों से अधिक आश्चर्यों से भरी है, और किसी अंत काल की भयंकरता से भी डरावनी घटनाएं हैं। मशीनें अर्थ और नया पदार्थ खोजती हैं जो सपनों की तरह बनाये गए रूपों को बुनता है। इस युग में लम्बे समय पहले लिए गए फैसलों के गंभीर परिणाम हैं और इस युग में निर्धारित उत्तर मांगते हैं। जाओ और सभ्यता के भविष्य के लिए अपने दृष्टिकोण को पूरा करो।</Text></Row><Row Tag="LOC_VICTORY_SCIENCE_TT_XP2"><Text>एक अन्य सितारा प्रणाली तक एक्सोप्लेनेट एक्सपेडिशन को पूरा करने के लिए पहले से ही जीत हासिल करें। यह जीत सीधी है, लेकिन समय समाप्त होने से पहले इसे हासिल करना कठिन हो सकता है।</Text></Row><!-- Configuration Changes that are Shared between XP1 and XP2. --><!-- District Config Text --><Row Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_NAME"><Text>कोपाकाबाना</Text></Row><Row Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_DESCRIPTION"><Text>ब्राजील के लिए एक अद्वितीय जिला। जल उद्यान जिला को बदलता है, और +2 [ICON_Amenities] सुविधाएं प्रदान करता है। यह भी कार्निवल परियोजना को अनलॉक करता है, जो चलती हुई अवस्था में एक अतिरिक्त +1 [ICON_Amenities] सुविधा और पूरा होने पर विभिन्न [ICON_GreatPerson] महान लोग अंक प्रदान करता है। स्ट्रीट कार्निवल वाले शहर में नहीं बनाया जा सकता। रीफ पर नहीं बनाया जा सकता।</Text></Row><Row Tag="LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION"><Text>ब्राजील के एक अद्वितीय जिले। मनोरंजन जगह जिले को बदलता है, और +2 [ICON_Amenities] सुविधाएं प्रदान करता है। इसके अलावा, कार्निवल परियोजना को अनलॉक करता है, जो लागू होने पर एक अतिरिक्त +1 [ICON_Amenities] सुविधा प्रदान करता है और पूर्ण होने पर विभिन्न [ICON_GreatPerson] महान व्यक्ति अंक प्रदान करता है। कोपाकाबाना वाले शहर में नहीं बनाया जा सकता।</Text></Row><!-- China --><Row Tag="LOC_IMPROVEMENT_GREAT_WALL_EXPANSION2_DESCRIPTION"><Text>बिल्डर क्षमता को अनलॉक करता है जो चीन के लिए अनूठा महान दीवार बनाने की क्षमता प्रदान करता है। [NEWLINE][NEWLINE]+2 [ICON_GOLD] सोने। [ICON_Strength] रक्षा को वृद्धि प्रदान करता है। अगर इससे सम्बंधित अन्य सेगमेंट के समीप हैं तो [ICON_Gold] सोने का बोनस। प्रासंगिक सेगमेंटों के लिए अतिरिक्त [ICON_Culture] संस्कृति और [ICON_Tourism] पर्यटन। आपके साम्राज्य की सीमाओं के बगल में एक पंक्ति में बनाना होगा। केवल प्राकृतिक आपदाओं द्वारा लूटा जा सकता है (कभी भी नष्ट नहीं हो सकता है)।</Text></Row><Row Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION"><Text>[ICON_TechBoosted] Eurekas और [ICON_CivicBoosted] Inspirations सभी Civilizations के लिए 40% के बजाय 50% की विविधता प्रदान करते हैं। एक आश्चर्य समाप्त करने पर आश्चर्य के युग से एक यादृच्छिक [ICON_TechBoosted] Eureka और [ICON_CivicBoosted] Inspiration प्राप्त करें, यदि उपलब्ध हो।</Text></Row><!-- Cleopatra --><Row Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_EXPANSION2_DESCRIPTION"><Text>आपके [ICON_TradeRoute] अन्य सभ्यताओं के साथ व्यापार मार्ग +4 [ICON_Gold] इजिप्ट के लिए सुविधा प्रदान करते हैं। इजिप्ट के पास अन्य सभ्यताओं के [ICON_TradeRoute] व्यापार मार्ग उनके लिए +2 [ICON_Food] खाद्य उत्पादों की सुविधा और इजिप्ट के लिए +2 [ICON_Gold] सोने प्रदान करते हैं। मित्रों के साथ व्यापार करने से दोहरी अलायंस प्वाइंट बोनस कमाएँ।</Text></Row><Row Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION"><Text>Unlocks the Builder ability to construct a Sphinx, unique to Egypt.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith and +1 [ICON_Culture] Culture. +2 Appeal. +2 [ICON_Faith] Faith if next to a wonder. +1 [ICON_CULTURE] Culture if built on Floodplains. Additional [ICON_CULTURE] Culture once Natural History is discovered. Provides [ICON_TOURISM] Tourism after researching Flight. Cannot be built next to another Sphinx. Cannot be built on Snow or Snow Hills.</Text></Row><Row Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_EXPANSION2_DESCRIPTION"><Text>मिस्री अनूठे प्राचीन काल के रेंज्ड यूनिट। खुले मैदान में शुरुआत करने पर 4 [ICON_Movement] चाल।</Text></Row><!-- England --><Row Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION"><Text>आपके शहर में नौसेना गतिविधि के लिए अंग्रेजी के अनोखे जिले। हार्बर जिले को बदलता है। इस टाइल से चढ़ने और उतरने के लिए [ICON_Movement] गति दंड को हटा देता है। समुद्र तट या भूमि के आसपास स्थित झील पृष्ठ के ऊपर बनाया जाना चाहिए। [NEWLINE] [NEWLINE]+ डॉकयार्ड में बने सभी नौसेना इकाइयों के लिए +1 [ICON_Movement] गति। [NEWLINE]+ पराधीन महाद्वीप पर बनाए जाने पर +2 [ICON_Gold] सोने और प्रति टर्न +4 वफ़ादारी। करंट में रीफ पर नहीं बनाया जा सकता है।</Text></Row><!-- France --><Row Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION"><Text>फ्रांस के लिए अनूठा चाटो का निर्माण करने के लिए बिल्डर क्षमता को खोलता है।[NEWLINE][NEWLINE]+2 [ICON_Culture] संस्कृति और +1 [ICON_Gold] सोना। +1 आकर्षण। हर संचार के लिए +1 [ICON_Culture] संस्कृति (उड़ान शोध के बाद +2 हो जाता है)। नदी के किनारे के टाइल पर +2 [ICON_Gold] सोना। उड़ान शोध के बाद [ICON_CULTURE] संस्कृति से [ICON_TOURISM] पर्यटन प्रदान करता है। एक बोनस या लक्जरी संसाधन के पास रखा जाना चाहिए। एक और चाटो के पास नहीं बनाया जा सकता।</Text></Row><!-- Gilgamesh--><Row Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION2_DESCRIPTION"><Text>जब एक सामान्य दुश्मन के साथ युद्ध किया जाता है, तो वे और उनके सहयोगी लूट बेलोना और लड़ाई अनुभव लाभ बांटते हैं अगर 5 टाइल के भीतर हैं। उनके गठबंधन एक सामान्य दुश्मन के साथ युद्ध में होने के लिए गठबंधन अंक प्राप्त करते हैं। आपके और आपके सहयोगी के साथ युद्ध करने वाले खिलाड़ियों के खिलाफ इकाईयों के लिए +5 [ICON_Strength] लड़ाई ताकत।</Text></Row><!-- Mongolia --><Row Tag="LOC_BUILDING_ORDU_EXPANSION2_DESCRIPTION"><Text>मंगोलिया के लिए अद्वितीय एक इमारत। इस शहर में प्रशिक्षित हेवी और लाइट कैवल्री को +1 [ICON_MOVEMENT] गति देने वाली योग्यता प्रदान करता है। इस शहर में प्रशिक्षित सभी कैवल्री और उपद्रव कक्ष इकाइयों के लिए +25% युद्ध अनुभव। [NEWLINE] मानक गति पर रणनीतिक संसाधन स्टॉकपाइल +10 बढ़ाया गया। [NEWLINE] [NEWLINE] बैरेक्स वाले एक एनकैम्पमेंट जिले में नहीं बनाया जा सकता।</Text></Row><!-- Norway --><Row Tag="LOC_TRAIT_LEADER_THUNDERBOLT_EXPANSION2_DESCRIPTION"><Text>सभी समुद्री मेले इकाइयों के लिए तटीय दक्षता देता है और सभी समुद्री मेले इकाइयों के लिए +50% [ICON_PRODUCTION] उत्पादन मिलता है। लूट और तटीय दक्षता के खनिज में [ICON_SCIENCE] विज्ञान को मिलता है इसके साथ ही [ICON_GOLD] सोना भी मिलता है। क्वारी, चारण, बागान, और शिविरों को लूटना या तटीय दक्षता करना [ICON_CULTURE] संस्कृति के साथ ही [ICON_FAITH] धर्म को भी प्रदान करता है। सेलिंग के साथ वाइकिंग लॉन्गशिप अद्वितीय इकाई प्राप्त करें।</Text></Row><!-- Spain --><Row Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_EXPANSION2_DESCRIPTION"><Text>वित्तवाद के साथ फ्लीट और आर्मडास बना सकते हैं, जग रण और संवेदनशीलता के साथ नहीं। [ICON_TradeRoute] व्यापार मार्ग +3 [ICON_Gold] धन, +2 [ICON_Faith] श्रद्धा और +1 [ICON_Production] उत्पादन प्राप्त करते हैं। एक से अधिक महाद्वीपों के बीच व्यापार मार्ग इन नंबरों के तिहाई प्राप्त करते हैं। आपकी मूल राजधानी के महाद्वीप पर नहीं होने वाले शहर जब स्थापित होंगे तो वे डिस्ट्रिक्ट के प्रति +25% [ICON_Production] उत्पादन और एक बिल्डर प्राप्त करते हैं।</Text></Row><Row Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_EXPANSION2_DESCRIPTION"><Text>जांचकर्ता धर्मांतर को एक अतिरिक्त बार हटा सकते हैं। जांचकर्ताओं अन्य धर्मों की उपस्थिति का 100% समाप्त करते हैं। युद्ध और धार्मिक इकाइयों को अन्य धर्मों का अनुसरण करने वाले खिलाड़ियों के खिलाफ +5 [ICON_Strength] युद्ध शक्ति का बोनस होता है।</Text></Row><Row Tag="LOC_IMPROVEMENT_MISSION_EXPANSION2_DESCRIPTION"><Text>इस तकनीशियन की सहायता से बिल्डर योग्यता को अनलॉक करें, जो स्पेन के लिए अद्वितीय है। [NEWLINE] [NEWLINE] + 2 [ICON_Faith] धर्म. +2 [ICON_Faith] धर्म, +1 [ICON_PRODUCTION] उत्पादन और +1 [ICON_FOod] खाद्य यदि आपकी [ICON_Capital] राजधानी से किसी अलग महाद्वीप पर हो। प्रत्येक आस-पास कैंपस और होली साइट जिले के लिए +1 [ICON_Science] विज्ञान। सांस्कृतिक विरासत खोजने के बाद अतिरिक्त [ICON_SCIENCE] विज्ञान। शहर केंद्र के पास एक मिशन सुधार के समीप स्थित शहरों के लिए प्रति टर्न +2 वफादारी। [ICON_Capital] राजधानी के महाद्वीप पर नहीं हो।</Text></Row><!-- Germany--><Row Tag="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION"><Text>जर्मनी के लिए एक औद्योगिक गतिविधि के लिए अद्वितीय जिला। औद्योगिक क्षेत्र जिला को बदलता है और इसे बनाना सस्ता है। [NEWLINE] [NEWLINE] + 2 [ICON_Production] प्रति प्रत्यक्ष वाणिज्यिक हब, एक्वेडक्ट, नहर और बांध जिलों के लिए उत्पादन बोनस। प्रत्यक्ष संसाधन के लिए +1 [ICON_Production] उत्पादन बोनस। हर दो प्रत्यक्ष जिले टाइल के लिए +1 [ICON_Production] उत्पादन बोनस।</Text></Row><!-- Scotland--><Row Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION"><Text>बिल्डर क्षमता को खोलता है ताकि एक गोल्फ कोर्स, स्कॉटलैंड के लिए अनूठा, निर्माण कर सकें। [NEWLINE] [NEWLINE] +2 [ICON_AMENITIES] सुविधाएँ और +2 [ICON_GOLD] सोने। यदि शहर केंद्र जिले से संबंधित है, तो +1 [ICON_CULTURE] संस्कृति और यदि मनोरंजन विस्तार जिले से संबंधित है, तो +1 [ICON_CULTURE] संस्कृति। सिविक और टेक्नोलॉजी ट्री में बढ़ती उन्नतियों के रूप में अतिरिक्त [ICON_TOURISM] पर्यटन और [ICON_HOUSING] आवास। डेजर्ट या डेजर्ट हिल पर नहीं रखा जा सकता। प्रति शहर एक। गोल्फ कोर्स वाली टाइल बदली नहीं जा सकती। +1 आकर्षण।</Text></Row><!-- Greece--><Row Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION"><Text>[ICON_Culture] [ICON_Culture] [ICON_Culture] यह क्षेत्र यूनान के संस्कृतिक स्थलों के लिए अद्वितीय है। थिएटर स्क्वायर जिले को बदलता है और इसे बिल्ड करना सस्ता होता है। पूरा होने पर 1 [ICON_Envoy] एनवॉय अवार्ड।[NEWLINE][NEWLINE]प्रत्याश्रित जिले के प्रत्येक आस-पास +1 [ICON_Culture] संस्कृति बोनस और आस-पास के सिटी सेंटर के लिए एक अतिरिक्त +1 [ICON_Culture] संस्कृति बोनस। प्रत्याश्रित हर आश्चर्य, मनोरंजन जगह और वाटर पार्क के लिए +2 [ICON_Culture] संस्कृति बोनस। केवल पहाड़ों पर निर्मित किया जा सकता है।</Text></Row></EnglishText>
+</GameData>

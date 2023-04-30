@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- REPLACEMENTS -->
+    <Delete Tag="LOC_PRODUCTION_ITEM_DECONTAMINATE" />
+    <Delete Tag="LOC_TOOLTIP_PLOT_CONTAMINATED_TEXT" />
+    <Delete Tag="LOC_GOVERNMENT_MONARCHY_NAME" />
+    <Delete Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY" />
+    <Delete Tag="LOC_HUD_CITY_PURCHASE_TILE" />
+    <Delete Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING" />
+  </LocalizedText>
+  <EnglishText>
+    <!-- REPLACEMENTS -->
+    <Row Tag="LOC_PRODUCTION_ITEM_DECONTAMINATE">
+      <Text>(बुभोनिक ताप)</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_PLOT_CONTAMINATED_TEXT">
+      <Text>[COLOR:Civ6Red]बीमारी से ग्रसित: {1_Turns} टर्न[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_MONARCHY_NAME">
+      <Text>कैथोलिक राज्यवाद</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY">
+      <Text>+3 [ICON_Faith] हर शहर में विश्वास। बोनस [ICON_Faith] हर शत्रु इकाई की शक्ति के 50% के बराबर विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_PURCHASE_TILE">
+      <Text>कोर्स टाइल्स</Text>
+    </Row>
+    <!-- City Names -->
+    <Row Tag="LOC_CITY_NAME_BREST">
+      <Text>ब्रेस्ट</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ANGERS">
+      <Text>अंजेर्स</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_LANCASTER">
+      <Text>लैंकास्टर</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_DUBLIN">
+      <Text>डब्लिन</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MUNICH">
+      <Text>म्यूनिख</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_STRASBOURG">
+      <Text>स्ट्रासबर्ग</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BRANDENBURG">
+      <Text>ब्रांडेनबर्ग</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_LEON">
+      <Text>लियॉन</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_UTRECHT">
+      <Text>यूट्रेख्ट</Text>
+    </Row>
+    <!-- Units -->
+    <Row Tag="LOC_UNIT_SCHOLAR_NAME">
+      <Text>विद्वान (Vidwaan)</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCHOLAR_DESCRIPTION">
+      <Text>जनवादी इकाई जो ताप मारा शहरों का अध्ययन कर सकती है ताकि वे [Icon_Science] विज्ञान हासिल कर सकें। विद्वानों का उपयोग 2 बार किया जा सकता है। इसे स्टूडिया जनरलिया नीति के साथ बढ़ाया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PLAGUE_DOCTOR_NAME">
+      <Text>टाईफ़ॉइड डॉक्टर</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PLAGUE_DOCTOR_DESCRIPTION">
+      <Text>एक नागरिक इकाई जो महामारी प्रभावित टाइल पर महामारी की अवधि को कम कर सकती है और शहरों को वफादारी को फिर से स्थापित कर सकती है। महामारी डॉक्टर का उपयोग 2 बार किया जा सकता है। इसे स्टूडिया जनरलिया नीति के साथ बढ़ाया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FLAGELLANT_NAME">
+      <Text>Flagellant का अर्थ है कड़ा तपस्या करने वाला व्यक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FLAGELLANT_DESCRIPTION">
+      <Text>अमानवीय इकाई जो महामारी से पीड़ित शहरों से [Icon_Faith] श्रद्धा, [Icon_Culture] संस्कृति और वफादारी प्राप्त कर सकती है।</Text>
+    </Row>
+    <!-- Unit Commands -->
+    <Row Tag="LOC_UNITCOMMAND_STUDY_NAME">
+      <Text>बुभोनिक विनाश की अध्ययन करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_STUDY_DESCRIPTION">
+      <Text>{1_Num} [ICON_Science] विज्ञान प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_STUDY_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]एक महामारी से प्रभावित शहर में उपयोग किया जाना चाहिए। पहले से अध्ययन किए गए शहर में उपयोग नहीं किया जा सकता।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_NAME">
+      <Text>रोगियों के लिए मंत्री</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_DESCRIPTION">
+      <Text>इस टाइल पर जाने की बीमारी की अवधि को 50% कम करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_MINISTER_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]एक तापमान-बीमार टाइल पर उपयोग किया जाना चाहिए।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_NAME">
+      <Text>शांति देंगे शहर</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_DESCRIPTION">
+      <Text>शहर में {1_Num} वफादारी जोड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PACIFY_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]शहर में उपयोग किया जाना चाहिए।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_NAME">
+      <Text>पापों को धो डालो।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_DESCRIPTION">
+      <Text>{1_Num} [ICON_Faith] धर्म व {2_Num} [ICON_Culture] संस्कृति प्राप्त करें। शहर में {3_Num} वफादारी जोड़ें। फ्लैगेलेंट इस कार्य से नष्ट हो जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PURGE_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]एक विपदा से पीड़ित शहर में उपयोग किया जाना चाहिए।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_NAME">
+      <Text>पवित्र उत्साह (Pavitr Utsaah)</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_DESCRIPTION">
+      <Text>इस इकाई के चलन और हमले के अंकों को पुनर्स्थापित करने के लिए {1_Num} [ICON_Faith] वित्त खर्च करें। प्रत्येक टर्न केवल एक बार उपयोग किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HOLY_FERVOR_DISABLED_TT">
+      <Text>[COLOR:Civ6Red]केवल उसके बाद इस्तेमाल किया जा सकता है जब कुछ कार्रवाई की जाए या फिर चला जाए।[ENDCOLOR]</Text>
+    </Row>
+    <!-- Unit Abilities -->
+    <Row Tag="LOC_ABILITY_TEUTONIC_KNIGHT_NAME">
+      <Text>क्रुसेडर उत्साह</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TEUTONIC_KNIGHT_DESCRIPTION">
+      <Text>दुश्मन क्षेत्र में +8 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_SCENARIO_ABILITY_TEUTONIC_KNIGHT_STRENGTH_ENEMY_TERRITORY_DESCRIPTION">
+      <Text>दुश्मन के क्षेत्र में +{1_Amount} युद्ध शक्ति।</Text>
+    </Row>
+    <!-- Districts -->
+    <Row Tag="LOC_DISTRICT_WALLED_QUARTER_NAME">
+      <Text>दीवारों से घिरी क्षेत्र (Deewaron se ghiri kshetra)</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
+      <Text>प्रत्येक टर्न में मौत से बचने के लिए 15% की संभावना।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_THEATER_CULTURE">
+      <Text>+{1_num} [ICON_Culture] सदर प्रदर्शन क्षेत्र से संबंधित संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMMERCIAL_GOLD">
+      <Text>+{1_num} [ICON_Gold] आसपास के वाणिज्यिक हब जिले से सोना।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOLY_SITE_FAITH">
+      <Text>+{1_num} [ICON_Faith] पवित्र स्थल क्षेत्र से विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CAMPUS_SCIENCE">
+      <Text>+{1_num} [ICON_Science] पड़ोसी कैंपस क्षेत्र से विज्ञान।</Text>
+    </Row>
+    <!-- Buildings -->
+    <Row Tag="LOC_BUILDING_GUILDHALL_NAME">
+      <Text>गिल्डहॉल</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MASS_GRAVE_NAME">
+      <Text>मास ग्रेव</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MASS_GRAVE_DESCRIPTION">
+      <Text>इस शहर में ताप अवधि को 2 टर्न से कम करें (1 तक कम से कम)।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SCENARIO_SEWER_DESCRIPTION">
+      <Text>प्रत्येक टर्न में मौत से बचने का 20% मौका।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_NAME">
+      <Text>ताप का अस्पताल</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION">
+      <Text>जब विद्वान और विष चिकित्सक बनाते हैं तो [ICON_Production] उत्पादन में 50% की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KEEP_NAME">
+      <Text>रखें</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_KEEP_DESCRIPTION">
+      <Text>इस शहर में ताप अवधि को 1 टर्न कम करें (न्यूनतम मात्रा 1 होनी चाहिए)।</Text>
+    </Row>
+    <!-- Techs -->
+    <Row Tag="LOC_TECH_SCENARIO_CIVIL_ENGINEERING_NAME">
+      <Text>नागरिक अभियांत्रिकी</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_MEDICINE_NAME">
+      <Text>दवाई (Dawai)</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_INVENTION_NAME">
+      <Text>आविष्कार (Aavishkaar)</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCENARIO_INVENTION_DESCRIPTION">
+      <Text>स्थिति जीतें।</Text>
+    </Row>
+    <!-- Civics -->
+    <Row Tag="LOC_CIVIC_SCENARIO_FEUDALISM_DESCRIPTION">
+      <Text>+1 [ICON_Food] खेत से आने वाले खाद्य सुधारों।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_WAGE_REFORM_NAME">
+      <Text>वेतन सुधार</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_HIGHER_LEARNING_NAME">
+      <Text>उच्च शिक्षा</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_LABOR_ECONOMY_NAME">
+      <Text>श्रम अर्थव्यवस्था</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_URBANIZATION_NAME">
+      <Text>शहरीकरण</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_MIDDLE_CLASS_NAME">
+      <Text>मध्यम वर्ग</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCENARIO_MIDDLE_CLASS_DESCRIPTION">
+      <Text>स्थिति जीतें।</Text>
+    </Row>
+    <!-- Policies -->
+    <Row Tag="LOC_SCENARIO_POLICY_CHIVALRY_DESCRIPTION">
+      <Text>सैन्य इकाइयों के लिए 50% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_SERFDOM_DESCRIPTION">
+      <Text>खेतों और बगीचों को +1 [ICON_Food] खाद्य प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_TOWN_CHARTERS_DESCRIPTION">
+      <Text>+100% वाणिज्यिक हब जिला सम्बन्ध बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_POLICY_MERITOCRACY_DESCRIPTION">
+      <Text>+100% कैंपस क्षेत्र अतिरिक्त लाभ।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEALTY_NAME">
+      <Text>वफादारी (vafadari)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEALTY_DESCRIPTION">
+      <Text>नागरिक इकाइयों के लिए [ICON_Production] उत्पादन में 50% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_UNDERCLASS_NAME">
+      <Text>शहरी अधोजाति</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_UNDERCLASS_DESCRIPTION">
+      <Text>सभी शहरों में +2 [ICON_Gold] सोने और +2 [ICON_Faith] विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STUDIA_GENERALIA_NAME">
+      <Text>स्टूडिया जेनरालिया</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STUDIA_GENERALIA_DESCRIPTION">
+      <Text>नए प्रशिक्षित विद्वानों को 2 अतिरिक्त चार्ज मिलते हैं। नए प्रशिक्षित विपदा डॉक्टर्स को 1 अतिरिक्त चार्ज मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COTTAGE_INDUSTRIES_NAME">
+      <Text>कोटेज उद्योगों</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COTTAGE_INDUSTRIES_DESCRIPTION">
+      <Text>वर्कशॉप भवन से +3 [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SKILLED_TRADES_NAME">
+      <Text>कुशल व्यापार</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SKILLED_TRADES_DESCRIPTION">
+      <Text>+100% औधोगिक क्षेत्र जिला समस्तता लाभ।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_SERVANTS_NAME">
+      <Text>सार्वजनिक सेवक</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_SERVANTS_DESCRIPTION">
+      <Text>[ICON_Gold] सोने के साथ इमारतों और नागरिक इकाइयों की खरीद पर 50% छूट।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPECIALIZATION_NAME">
+      <Text>विशेषज्ञता (Visheshgyata)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPECIALIZATION_DESCRIPTION">
+      <Text>+4 [ICON_Production] फैक्ट्री भवनों से उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COMMERCIAL_LEAGUE_NAME">
+      <Text>वाणिज्य लीग</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COMMERCIAL_LEAGUE_DESCRIPTION">
+      <Text>+4 [ICON_Gold] गिल्डहॉल इमारतों से सोना।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INDENTURE_NAME">
+      <Text>करारनामा</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INDENTURE_DESCRIPTION">
+      <Text>उन्नयन वाली जमीनों पर ताजा महामारी के समय भी काम किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LABOR_MARKET_NAME">
+      <Text>श्रम बाजार</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LABOR_MARKET_DESCRIPTION">
+      <Text>प्रति जिले एक [ICON_Housing] आवास, सभी शहरों में दो [ICON_Gold] सोने का।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CIVIL_QUARANTINE_NAME">
+      <Text>नागरिक क्वारंटाइन</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CIVIL_QUARANTINE_DESCRIPTION">
+      <Text>कैंपस जिलों से +2 [ICON_Science] विज्ञान | ताप युक्त शहरों को प्रत्येक टर्न में [ICON_Citizen] जनसंख्या के हानि से बचने का 10% मौका प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POGROM_NAME">
+      <Text>पोग्रोम</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POGROM_DESCRIPTION">
+      <Text>+2 [ICON_Culture] संस्कृति, +4 [ICON_Gold] सोना सभी शहरों में।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PATRONAGE_NAME">
+      <Text>प्रतिष्ठा</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PATRONAGE_DESCRIPTION">
+      <Text>थिएटर स्क्वायर जिले के सम्बन्धवाले अनुभव बढ़ाएं ।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NOBLESSE_OBLIGE_NAME">
+      <Text>शानदार जिम्मेदारी</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NOBLESSE_OBLIGE_DESCRIPTION">
+      <Text>प्रति यूनिट प्रति टर्न 1 [ICON_Gold] सोने का रखरखाव कम कर दिया गया।</Text>
+    </Row>
+    <!-- Misc -->
+    <Row Tag="LOC_SCENARIO_GOVT_INHERENT_BONUS_MONARCHY">
+      <Text>None.</Text>
+    </Row>
+    <!-- ************************************************ -->
+    <!-- UI -->
+    <!-- ************************************************ -->
+    <!-- HUD -->
+    <Row Tag="LOC_SCENARIO_HUD_CHARGES">
+      <Text>शुल्क</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_PLAGUE_POS">
+      <Text>[COLOR:FoodDark]+{1_Num} तापसी[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_PLAGUE">
+      <Text>[COLOR:FoodDark]{1_Num} ताप[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_LOYALTY_POS">
+      <Text>[COLOR:Happiness]+{1_Num} वफादारी[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_LOYALTY">
+      <Text>[COLOR:Happiness]{1_Num} निष्ठा[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_FLYOVER_HOLY_FERVOR">
+      <Text>[COLOR_FLOAT_FAITH]पवित्र उत्कटता! [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_NAME">
+      <Text>पोपल नीति</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_DESC">
+      <Text>रखवाली: {1_Num} [ICON_Faith] धर्म प्रति टर्न।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_PAPAL_SLOT_FAITH_TT">
+      <Text>पापल नीति से {1_Num}</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCE_LABEL">
+      <Text>बलपूर्वक ({1_Num} [ICON_Gold] गोल्ड)</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCE_TT">
+      <Text>{1_NumTurns} बार इस टाइल को जबरदस्ती करें। जबरदस्त की गई टाइलों को मैले से पीड़ित होने पर भी सामान्य रूप से काम किया जा सकता है, सुधार किया जा सकता है या उस पर निर्माण किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_YOU_NEED_MORE_GOLD_TO_COERCE">
+      <Text>आपको इस टाइल को मजबूर करने के लिए {1_num} और [ICON_Gold] सोने की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_PLOTINFO_COERCED_TURNS_LABEL">
+      <Text>बलप्रयोग करके: {1_Num} बार</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS">
+      <Text>बुभोनिक विषाणु रोग (Bubonic Plague)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_TT">
+      <Text>काला ताप द्वारा संक्रमित टाइल दिखाता है (काले टाइल संक्रमण के शीर्ष पर होते हैं, सफेद टाइल संक्रमण से बहाल होने के करीब होते हैं)।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_KEY_MIN">
+      <Text>ताप मौजूद</Text>
+    </Row>
+    <Row Tag="LOC_HUD_PLAGUE_LENS_KEY_MAX">
+      <Text>बुभोनिक ताप महामारी</Text>
+    </Row>
+    <!-- Notifications -->
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_RUMOR_MESSAGE">
+      <Text>ताप की अफवाह</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_RUMOR_SUMMARY">
+      <Text>खबर आई है कि {1_CityName} शहर में काला मौत मौजूद हो सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_OUTBREAK_MESSAGE">
+      <Text>बुभों का फैलाव!</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_PLAGUE_OUTBREAK_SUMMARY">
+      <Text>काला मौत हमारे शहर {1_CityName} में पहुँच गया है!</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_FRANCE_PAPAL_SLOT_SUMMARY">
+      <Text>हमारे पोपल नीति स्लॉट का उपयोग बनाए रखने के लिए पर्याप्त [ICON_Faith] विश्वास नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_NOTIFICATION_FRANCE_PAPAL_SLOT_MESSAGE">
+      <Text>पोपल नीति छोड़ दी गई!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_UNIT_LOST_TO_RADIATION_POISONING">
+      <Text>आपको महामारी के कारण एक {1_UnitName} खो दिया है।</Text>
+    </Row>
+    <!-- Victory Conditions -->
+    <Row Tag="LOC_WORLD_RANKINGS_BLACKDEATH_SCENARIO_RULES">
+      <Text>In this scenario you must guide your Medieval civilization through the infamous Black Death, keeping its cultural and scientific efforts alive as the population suffers death and despair. To win, you must unlock either the final Technology (Invention) or the final Civic (The Middle Class), sowing the seed of the Enlightenment to come.[NEWLINE][NEWLINE]THE PLAGUE[NEWLINE][NEWLINE]Over 85 turns the Black Death will sweep across the continent in waves. It originates in port cities in every nation and spreads outward across the landscape. It can spread to any land tile except Mountains, and will spread more easily to cities, roads, Coasts that contain Harbor districts, and rural improvements. When the plague arrives in a tile it becomes [COLOR:Red]Plague-Stricken[ENDCOLOR] for a number of turns. When the turns are up the tile will recover, but while plague-stricken it suffers the following effects:[NEWLINE][NEWLINE][COLOR:Red][ICON_BULLET]Plague-stricken tiles cannot be worked by citizens, cannot be improved or repaired, and cannot be used to construct districts or add buildings if a district already exists[NEWLINE][NEWLINE][ICON_BULLET]If the tile is a city center, there is a high chance one population will die each turn the plague remains. This chance can be reduced by constructing certain buildings or using certain government policies[NEWLINE][NEWLINE][ICON_BULLET]Units that end their turn on a plague-stricken tiles suffer 20 damage[ENDCOLOR][NEWLINE][NEWLINE]To combat the Black Death, look to preserve your cities' power to keep working through the calamity. Build essential districts while your citizens are able. Keep your [ICON_Gold] Gold and [ICON_Faith] Faith reserves high to purchase buildings and units when your cities are crippled. Establish centers of science and culture early and protect them as best you can. When Plague Doctors become available, use them to safeguard your most vulnerable areas or shore up the Loyalty of cities that are wavering.[NEWLINE][NEWLINE]Difficulty affects [ICON_GOLD] Gold and [ICON_FAITH] Faith.</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_BLACKDEATH_REQUIRES_PLAYER_HAS_FINAL_CIVIC_PROGRESS">
+      <Text>नागरिकता: {NumCompleted}/{NumTotal} (~{EstimatedTurns}[ICON_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_BLACKDEATH_REQUIRES_PLAYER_HAS_FINAL_TECH_PROGRESS">
+      <Text>तकनीक: {NumCompleted}/{NumTotal} (~{EstimatedTurns}[ICON_Turn])</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_VICTORY_BLACKDEATH_SCENARIO">
+      <Text>{1_CompletedCivics}/{2_TotalCivics} नागरिकता, {3_CompletedTechs}/{4_TotalTechs} तकनीकी</Text>
+    </Row>
+    <!-- Tooltips -->
+    <Row Tag="LOC_CITY_BANNER_PLAGUE_TT">
+      <Text>इस शहर को ताप में दलित कर दिया गया है। यह लोयल्टी खो देगा और संभवतः प्रति चाल जनसंख्या [ICON_Citizen] खो देगा अगर ताप बरकरार रहता है।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CULTURE_THEATER">
+      <Text>+{1_num} [ICON_Culture] पड़ोस के थिएटर से संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GOLD_COMMERCIAL_HUB">
+      <Text>+{1_num} [ICON_Gold] आसपास के वाणिज्यिक केंद्र से सोना।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_FAITH_HOLY_SITE">
+      <Text>+{1_num} [ICON_Faith] पड़ोस के पवित्र स्थल से विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SCIENCE_CAMPUS">
+      <Text>+{1_num} [ICON_Science] पड़ोसी कैंपस से विज्ञान.</Text>
+    </Row>
+    <!--Historic Rankings-->
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_1_NAME">
+      <Text>निष्कलंक</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_1_QUOTE">
+      <Text>और अगर पुजारी आए और उसे देखें और देखें कि घर में फफूंद फैल नहीं रहा है, जब घर को मोर्चे से चीरा गया था: फिर पुजारी अपशब्द कहेगा कि घर साफ है, क्योंकि फफूंद ठीक हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_2_NAME">
+      <Text>विषाणु चिकित्सक</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_2_QUOTE">
+      <Text>क्योंकि, जैसा कि सभी अन्य कलाओं में, जो इन्हें अभ्यास करते हैं, उनमें कुशलता और ज्ञान में बहुत अंतर होता है, ठीक उसी तरह मेडिसिन में भी होता है।</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_3_NAME">
+      <Text>तीसरी वर्ग (Teesri Varg)</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_3_QUOTE">
+      <Text>बैक्स्टेर्स और ब्रूस्टेर्स,/और बोचिएर्स मेनिए;/वूलन वेबस्टेर्स,/और लिनेन के वेवर्स,/टेलर्स और टिंकर्स,/और मार्केटों में टोलर्स,/मेसन्स और माइनर्स,/और कई अन्य क्राफ्ट्स।</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_4_NAME">
+      <Text>दर्शनशास्त्री (Darshan-shastri)</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_4_QUOTE">
+      <Text>हालांकि, जो चीजें मनुष्य के ज्ञान से बाहर होती हैं, उन्हें उसके द्वारा खोजा नहीं जा सकता है, फिर भी, जब भी वे भगवान द्वारा प्रकट किए जाते हैं, तो उन्हें विश्वास द्वारा स्वीकार किया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_5_NAME">
+      <Text>भिक्षुक</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_5_QUOTE">
+      <Text>मैं वहाँ चार ऑर्डरों के सभी फेरस पाया,/जो लोगों को उनके स्वार्थ के लिए प्रचार कर रहे थे।</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_6_NAME">
+      <Text>रात का जालासाज (Raat ka jaalasaj)</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_6_QUOTE">
+      <Text>कुत्ते, घोड़े, चूहे के पास जीवन क्यों होना चाहिए, जबकि तुम्हारी ही साँस नहीं होती है?</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_7_NAME">
+      <Text>कब्रखदेड़ी</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_7_QUOTE">
+      <Text>जहां भी उन्होंने पहली बार खाली कब्र पाई उसमें उन्होंने जल्दी से जाना डाल दिया, बहुत लंबी या फॉर्मल सेवा के लिए अपने आप को परेशान नहीं किया।</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_8_NAME">
+      <Text>व्हिपर</Text>
+    </Row>
+    <Row Tag="LOC_BLACKDEATH_SCENARIO_ENDGAME_RANK_8_QUOTE">
+      <Text>पाई जेसु दोमिने, दोना ऐस रेक्वियम।</Text>
+    </Row>
+    <!-- Popup Events -->
+    <Row Tag="LOC_POPUP_SCENARIO_GENERIC_WHICH_PATH">
+      <Text>आप कौन सा मार्ग चुनेंगे? (Aap kaun sa marg chunenge?)</Text>
+    </Row>
+    <!-- A New Plague Appears (Intro) -->
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_TITLE">
+      <Text>एक नई बीमारी नज़र आती है।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_DESCRIPTION">
+      <Text>अफवाहें फैल गई हैं कि मध्यवर्ती समुद्र के भीड़भाड़ वाले बंदरगाहों में एक घातक बीमारी फैल गई है। यह ट्रेड शिप के होलों में या व्याग्रों के पीठ पर आपके किनारों की तरफ पहले से ही जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_PLAGUE_APPEARS_EFFECT">
+      <Text>ब्रेकआउट के पहले संकेत के लिए अपने सड़कों और बंदरगाहों का ध्यान रखें। फैलाव को रोकने के लिए आपको त्वरित रूप से कदम उठाने की आवश्यकता होगी।</Text>
+    </Row>
+    <!-- Outbreak! -->
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_TITLE">
+      <Text>फैलाव!</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_DESCRIPTION">
+      <Text>ताप में [COLOR:Civ6Yellow]{1_CityName}[ENDCOLOR] में बीमारी पहुँच गई है! अब यह केवल एक अफवाह नहीं है, बल्कि यह अब हमारे बीच है और जनसंख्या आतंक और उन्माद में उतर रही है।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_EFFECT">
+      <Text>मौत की संख्या अनिवार्य हो सकती है, लेकिन हमें अभी भी शहर को स्थिर रखना होगा जबकि और फैलाव को धीमा करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_REPEAT_DESCRIPTION">
+      <Text>बुभोनिक रोग [COLOR:Civ6Yellow]{1_CityName}[ENDCOLOR] में पहुंच गया है!</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_OUTBREAK_REPEAT_EFFECT">
+      <Text>पिछली महामारियों की तरह, इस शहर के टाइल और जिलों की अव्यवस्था होने से यह कमजोर हो जाएगा और आबादी भी कम हो जाएगी। भूखमरी और वफादारी के नुकसान के खतरे से सावधान रहें।</Text>
+    </Row>
+    <!-- The Nobility Flees -->
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_TITLE">
+      <Text>उच्च जाति भाग जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_DESCRIPTION">
+      <Text>धनवान भूमि मालिकों का मानना है कि घने शहरों में फैले दुर्गंधी धुएं - मियास्मा - मौत के खतरे का जिम्मेदार है। वे अपने देशी खेतों की ओर भागते हुए, अपने सेवकों के साथ, शहर की गलियों को गरीबों और बेघरों के लिए छोड़ रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_NOBILITY_FLEES_EFFECT">
+      <Text>भय कुछ जनसंख्याओं को आपके शहरों की ओर ले जा रहा है और कुछ को इनसे दूर ले जा रहा है। नई नीतियों की मदद से आप उनमें से कौन से समर्थन करना चाहते हैं, उन्हें चुन सकते हैं।</Text>
+    </Row>
+    <!-- False Cures, Empty Promises -->
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_TITLE">
+      <Text>झूठे इलाज, खाली वादे</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_DESCRIPTION">
+      <Text>कई दावा करते हैं कि उनमें ताकत या ज्ञान है जो ताप रोकने के लिए काम आएगा। लेकिन चाहे वे धोखेबाज, पुजारियों, चिकित्सकों या राजाओं हों, ताप सबको जीतता है। लोग बेचैन और जवाबों के लिए बेहद उत्सुक हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_FALSE_CURES_EFFECT">
+      <Text>नई नीतियों के अनुसार, आप जनता के मन को आसान करने के लिए अधिक उत्तेजनापूर्ण उपाय अपना सकते हैं।</Text>
+    </Row>
+    <!-- We All Fall Down -->
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_TITLE">
+      <Text>हम सभी गिरते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_DESCRIPTION">
+      <Text>बुभोनिक रोग और उसकी भयानक फसल देश को आवृत करती है। जहां भी आपके लोग देखते हैं, मौत उनसे मुँह मोड़ती है। उच्च और निम्न, धनवान और गरीब सब बराबर हो जाते हैं, तो क्या करने का प्रयास है?</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_ALL_FALL_DOWN_EFFECT">
+      <Text>सभी शहरों में -30% [ICON_Food] वृद्धि, -3 [ICON_Production] उत्पादन, -3 [ICON_Gold] सोना, और -3 [ICON_Faith] धर्म।</Text>
+    </Row>
+    <!-- Sick in Body and Soul -->
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_TITLE">
+      <Text>शरीर और आत्मा दोनों में बीमार हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_DESCRIPTION">
+      <Text>यह बीमारी देश भर में फैल रही है, जो दशकों से हमारे समाज ने उस पर भरोसा किया है वह अस्थिरता और परंपराओं को उलट दे रहा है। शक्ति में रहने वाले लोग समाज में दिखने वाली दुर्बलता के सामने कैसे प्रतिक्रिया करनी है उसका उदाहरण प्रस्तुत करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_A">
+      <Text>क्षमायाचना का अभ्यास करें।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_A_EFFECT">
+      <Text>-2 [ICON_Production] उत्पादन, सभी शहरों में +3 [ICON_Faith] धर्म।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_B">
+      <Text>विषयवस्तु उद्दंडता को गले लगाओ।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_SICK_IN_BODY_CHOICE_B_EFFECT">
+      <Text>-20% [ICON_Food] वृद्धि, सभी शहरों में +3 [ICON_Gold] सोने का।</Text>
+    </Row>
+    <!-- Physician, Heal Thyself -->
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_TITLE">
+      <Text>डॉक्टर, खुद को ठीक करो।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_DESCRIPTION">
+      <Text>जब मृत्यु दर बढ़ता है, लोग उन अधिकारियों से मदद की मांग करते हैं जिन पर उन्हें भरोसा होता है। कई लोग कहते हैं कि विज्ञान में समाधान है और मरीजों की देखभाल के लिए डॉक्टरों को नियुक्त करना चाहते हैं। दूसरे लोग उत्साहवाद में भरे हुए होते हैं और महामारी को रोकने के लिए ईश्वर से कायम कराई की मांग करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_CHOICE_A">
+      <Text>रोगियों का उपचार करें।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_HEAL_THYSELF_CHOICE_B">
+      <Text>पापी का शर्म कराओ।</Text>
+    </Row>
+    <!-- The End of the World -->
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_TITLE">
+      <Text>दुनिया का अंत</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_DESCRIPTION">
+      <Text>मृत्यु की संख्या सोच से भी आगे बढ़ रही है। चर्च और राज्य में दोनों विश्वास टूट रहे हैं क्योंकि निराशा फैल रही है। समाज उसी तरह से नहीं चल सकता - एक बड़ा बदलाव आना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_A">
+      <Text>भगवान के समर्पण करें।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_A_EFFECT">
+      <Text>सभी यील्ड को -3 तक कम करें, [ICON_Faith] सभी शहरों में विश्वास को छोड़ कर।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_B">
+      <Text>भगवान से त्याग करें। (Bhagwan se tyag karen.)</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_END_OF_THE_WORLD_CHOICE_B_EFFECT">
+      <Text>-10 [ICON_Faith] सभी शहरों में धर्मविश्वास</Text>
+    </Row>
+    <!-- Is This God's Judgement? -->
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_TITLE">
+      <Text>क्या यह भगवान का फैसला है?</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_DESCRIPTION">
+      <Text>मृतक शहरों को भर देते हैं और कब्रिस्तानों को घेर लेते हैं। न होने की सबसे पारंपरिक गवाह तबाही को देखते हैं और सोचते हैं कि दुनिया की दुष्टता ने अंततः दिव्य अभिप्राय को प्राप्त किया है।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_A">
+      <Text>हमारी ऊर्जा खत्म हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_A_EFFECT">
+      <Text>-1 [ICON_Culture] संस्कृति, -1 [ICON_Faith] सभी शहरों में धर्म।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_B">
+      <Text>हमारे प्रयास बेकार हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POPUP_SCENARIO_GODS_JUDGEMENT_CHOICE_B_EFFECT">
+      <Text>-1 [ICON_Science] विज्ञान, -10% [ICON_Food] सभी शहरों में विकास</Text>
+    </Row>
+    <!-- ************************************************ -->
+    <!-- CIVILOPEDIA -->
+    <!-- ************************************************ -->
+    <!--Units-->
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SCHOLAR_CHAPTER_HISTORY_PARA_1">
+      <Text>काले मौत से पहले, यूरोप में शिक्षा और शिक्षण का फूलना हुआ था, और विश्वविद्यालय के उदय ने एक नई शिक्षित पेशेवर वर्ग का निर्माण किया जो अध्ययन के लिए समर्पित था। कुछ विद्वानों ने कानून जैसे व्यावहारिक मामलों पर ध्यान केंद्रित किया, लेकिन एक बढ़ती हुई समूह ने ज्ञान के स्वरूप और प्राकृतिक दर्शन के प्रश्नों पर ध्यान केंद्रित किया, जो प्रारंभिक रैनेसांस के लिए मार्ग बनाता था।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PLAGUE_DOCTOR_CHAPTER_HISTORY_PARA_1">
+      <Text>काला मौत के सबसे दिलचस्प आकृतियों में से एक प्लेग डॉक्टर है, जिसकी भयानक चोंच जैसा मास्क, लंबे कपड़े और छड़ी होती है। चोंच वाले मास्क की टिप में बहुमूल्य सुगंधित जड़ी बूटियाँ होती थीं (अश्वस्त रूप से मीठी खुशबू को मौत से दूर रखने की गलत धारणा थी)। एक प्लेग डॉक्टर को एक मरीज (या मृत शरीर) के संदिग्ध होने पर बुलाया जाता था जब वह मौत से पीड़ित हो जाता था। वह मरीज की जांच के लिए अपनी छड़ी या छड़ी का इस्तेमाल करता था ताकि उसे स्पर्श किए बिना मामले को प्रमाणित या मरीज को साफ किया जा सके।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FLAGELLANT_CHAPTER_HISTORY_PARA_1">
+      <Text>मध्ययुग के धार्मिक वातावरण में, ताप इंसानियत के पाप के लिए एक दैवी दण्ड माना जाता था। कुछ लोगों ने एक पापी मानवता के लिए अत्यधिक सार्वजनिक पश्चाताप के कार्यों को उठाया, देश भर में प्रदर्शन करते हुए खुद को दंडित करते थे, जिससे "flagellating" नाम की प्रथा उत्पन्न हुई। शुरुआत में, इन प्रदर्शनों को चर्च अधिकारियों की (कम से कम तथाकथित) सहमति थी, लेकिन जैसे ही यह प्रथा अत्यधिक हो गई, संगठन अधिकारियों ने इसे निंदित किया। इससे दंडित करने और flagellants की प्रदर्शनियों को खत्म नहीं हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TEUTONIC_KNIGHT_CHAPTER_HISTORY_PARA_1">
+      <Text>यूरोप में राजधानी के धर्म के नैतिक आदेशों में से एक, ट्यूटोनिक नाइट्स ने बाल्टिक क्षेत्र में अस्तित्व रखने वाले पेगान जातियों के खिलाफ उत्तरी क्रुसेड का आयोजन किया। वे अपनी आक्रामकता, अपनी अटलता, अपनी सम्पदा और अपने तपस्वी जीवन जीने के लिए खास थे, क्रुसेडर आदेशों के मानकों के अनुसार भी।</Text>
+    </Row>
+    <!--Districts-->
+    <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_WALLED_QUARTER_CHAPTER_HISTORY_PARA_1">
+      <Text>तापमान के बारे में सही समझ के बिना, शहर के निवासियों ने ब्लैक डेथ को रोकने के लिए एक प्रणाली खोज ली थी: पीड़ितों को एक स्थायी क्वारंटीन में रखना। यह कठोर उपाय पीड़ितों को एक भयानक भाग्य के लिए अनियंत्रित कर देता था, लेकिन कभी-कभी यह ब्लैक डेथ की प्रगति को रोक सकता था। यह ब्लैक डेथ में संत्रस्ति के घोर गणना का एक उदाहरण है कि कुछ स्वस्थ लोग क्वारंटीन को स्वीकार करने के बजाय मृगजैसे घूमते रहे थे ताकि महामारी फैलने से बचा जा सके।</Text>
+    </Row>
+    <!--Buildings-->
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GUILDHALL_CHAPTER_HISTORY_PARA_1">
+      <Text>एक गिल्डहाल गिल्ड द्वारा स्वामित्व रखा जाने वाला एक अर्ध-सार्वजनिक भवन होता है जो सदस्यों के लिए एक बैठक के स्थान के साथ-साथ उनकी धनवन्तता और शक्ति का प्रदर्शन करने के लिए होता है। वे अक्सर आभूषण से सजाए जाते थे जो नागरिक और व्यापार सम्मान के एक शक्तिशाली अभिव्यक्ति थे।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MASS_GRAVE_CHAPTER_HISTORY_PARA_1">
+      <Text>काले मौत के दौरान मृत्यु की संख्या बढ़ती गई तो व्यक्तिगत अंतिम संस्कार असम्भव हो गए और मृत शरीरों को कुछ विनम्रता के साथ बड़ी संख्या में दफना दिया गया। कभी-कभी अंस्थानों से अंशतः विघटित हुए शरीरों को बचाने के लिए एक साथ दफनाया जाता था। दूसरे मामलों में, कब्रिस्तान इतनी भीड़ से भर गए कि मृत लोग ऊपर से दफनाए गए। सभी बड़े मास गड्ढों के चिह्नित नहीं थे, और आजकल भी उन्हें खोजा जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PLAGUE_HOSPITAL_CHAPTER_HISTORY_PARA_1">
+      <Text>शहरों ने तब तक प्लेग पीड़ितों का इलाज करने की कोशिश की, या कम से कम उनके दर्द को कम करने की कोशिश की। प्लेग अस्पतालों ने सबसे अच्छा उपचार नहीं दिया हो सकता था, लेकिन कम से कम उनके रोगी को एक उम्मीद का एक माप दी गई थी कि कोई उनकी देखभाल कर रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_KEEP_CHAPTER_HISTORY_PARA_1">
+      <Text>किले या दुर्ग का केंद्रीय भाग, बाहरी दीवारों के ब्रीच हो जाने पर होल्डआउट और अंतिम रक्षा रेखा के रूप में उपयोग किया जाता है। कीप आमतौर पर बहुत कम और बहुत संकीर्ण प्रवेश द्वार होते हैं, ताकि कुछ ही प्रतिरक्षक आक्रमणकारियों को रोक सकें।</Text>
+    </Row>
+    <!--Techs-->
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_CIVIL_ENGINEERING_CHAPTER_HISTORY_PARA_1">
+      <Text>मध्यकालीन काल में नागरिक इंजीनियरिंग के सुधार में कई कारकों का प्रभाव था, जिसमें मजबूत किलों का निर्माण करने की महत्वता, इन किलों का बेसिग करने की महत्वता, और शहरों को ऐसे निर्मित करने की आवश्यकता थी जो बड़ी आबादी को धारण कर सके और अपनी खुद की गंदगी में दब नहीं जाएं।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_INVENTION_CHAPTER_HISTORY_PARA_1">
+      <Text>कुशल कलाकार और शिल्पकार क्लासिकल विश्व में जाने वाली व्यवस्थाओं और तकनीकों को फिर से खोजने लगे। काले महामारी के दौरान इतनी अधिक मौतों के साथ, श्रम बचाने वाली मशीनों का महत्व बढ़ गया।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_TECHNOLOGIES_PAGE_TECH_MEDICINE_CHAPTER_HISTORY_PARA_1">
+      <Text>चिकित्सा शरीर की हवाओं के संतुलन - रक्त, कफ, काला पित्त और पीला पित्त - के व्यवस्थित रूप से संतुलन करने की व्यावहारिक कला है। इसमें ज्योतिष का अध्ययन शामिल हो सकता है (क्योंकि आकाशीय शरीर इन हवाओं को प्रभावित करते हैं) और चार मौलिक तत्व: अग्नि, पृथ्वी, वायु और जल। यह उन लोगों के लिए एक उपयुक्त अध्ययन का पाठ्यक्रम है जो तर्क और धर्मशास्त्र जैसी उदात्त विषयों का पूरा समझ नहीं कर सकते हैं।</Text>
+    </Row>
+    <!--Civics-->
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_WAGE_REFORM_CHAPTER_HISTORY_PARA_1">
+      <Text>काले मौत के बाद श्रमिकों की कमी ने यूरोप में नौकरशाही के पारंपरिक सिस्टम के अपवाद का कारण बना। अब, कृषि और अन्य श्रमिकों को उनके काम के लिए मजदूरी दी जाने की उम्मीद थी इसके बजाय इसे उनसे बलपूर्वक लाया जाना था।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_HIGHER_LEARNING_CHAPTER_HISTORY_PARA_1">
+      <Text>मध्यकाल में रोमन कानून के लेखों की पुनर्खोज ने बोलोग्ना और पेरिस जैसे शहरों में विश्वविद्यालय प्रणाली के विकास को लेकर आगे बढ़ाया। शिक्षा चर्च के बाहर विस्तार से उपलब्ध हो गयी और यह मध्ययुगीन पुनर्जागरण के नेतृत्व करता है।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_LABOR_ECONOMY_CHAPTER_HISTORY_PARA_1">
+      <Text>ब्लैक प्लेग के मौत के बाद कामगारों की कमी ने श्रम की मूल्यवर्धिता को उठाया। अब नहीं हो सकता था कि महाराज आम लोगों को केवल जमीन पर काम करने के लिए पीटते रहें, क्योंकि वे बस नए स्वामी की सेवा में जाते, जो उन्हें सिक्के में भुगतान करता।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVICS_PAGE_CIVIC_MIDDLE_CLASS_CHAPTER_HISTORY_PARA_1">
+      <Text>यूरोप में शहरों का उदय फ्यूडल दुनिया के पारंपरिक अरिस्टोक्रेट-ईसाई-किसान मॉडल के बाहर एक नए वर्ग के उदय को दर्शाता है। अधिकांश शासक उन्हें युद्धों के लिए वित्तीय सहायता के लिए उपयोगी कर रहे हैं।</Text>
+    </Row>
+    <!--Policies-->
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_FEALTY_CHAPTER_HISTORY_PARA_1">
+      <Text>वफादारी एक वफदारी प्रक्रिया है जो फ्यूडल प्रणाली में मास्टर के समर्थन में शपथ लेने की होती है, जैसे कि एक राजकीय सेवा करने के लिए कोई नाइट एक बैरन के सेवा करने के लिए शपथ लेता है, या वह बैरन राजा की सेवा करने के लिए शपथ लेता है।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_UNDERCLASS_CHAPTER_HISTORY_PARA_1">
+      <Text>शहरों का उदय यह मानसिक तौर पर अर्थव्यवस्थाओं में उतरते व्यापारियों और कुशल शिल्पकारों के साथ ही एक वर्ग का उदय भी हुआ, जिसे सामाजिक दर्जा तथा मान्यता नहीं मिली क्योंकि वे फ्यूडल युग की सामाजिक नियमों में धार्मिक रूप से नहीं बैठते थे। इसके विरोधी विचारों का कहना है कि ये वृत्तियाँ वर्तमान युग में भी उसी तरह फैली हुई हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_STUDIA_GENERALIA_CHAPTER_HISTORY_PARA_1">
+      <Text>विश्वविद्यालय के लिए मूल नाम, या विश्वविद्यालय में दी जाने वाली शिक्षा, "सामान्य अध्ययन" को अर्थ है। सात मुक्त कलाओं के विपरीत, स्टूडिया के लिए कोई परिभाषित पाठ्यक्रम नहीं था, जिसने विश्वविद्यालयों को डिप्लोमा प्रदान करने की आवश्यकता पैदा की कि एक छात्र सफलतापूर्वक अध्ययन किया था और कुछ सीखा हो सकता हो।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COTTAGE_INDUSTRIES_CHAPTER_HISTORY_PARA_1">
+      <Text>एक कटेज उद्योग एक छोटा बिजनेस होता है जो किसी व्यक्ति या परिवार द्वारा स्थापित किया जाता है या तो खुद की सहायता के लिए या अतिरिक्त आय प्रदान करने के लिए। ये छोटे उद्यम आमतौर पर फीडल अर्थव्यवस्थाओं से मार्केट-आधारित अर्थव्यवस्थाओं में जाने का हिस्सा माने जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SKILLED_TRADES_CHAPTER_HISTORY_PARA_1">
+      <Text>कुशल व्यापार या कला को लंबी अभ्यास के माध्यम से ही संभव है, खासकर चांदी के बर्तन, कपड़े, कांच के बर्तन और मशीनरी जैसे मूल्यवान वस्तुओं का उत्पादन। व्यापारियों को शहरों में एकत्रित होना होता था जहां वे संगठित रूप से काम कर सकते थे, भविष्य के व्यवसायी की प्रशिक्षण देते थे, मूल्य निर्धारण करते थे और अपनी वस्तुओं के बाजार को नियंत्रित करने का प्रयास करते थे। कुशल व्यापारियों ने इतिहास में कुछ सच्चे मध्यवर्गीय नागरिकों को बनाया था।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PUBLIC_SERVANTS_CHAPTER_HISTORY_PARA_1">
+      <Text>राज्य अपने शासकों से परे राजनीतिक संस्थाओं थे यह महत्वपूर्ण धारणा विकसित की गई थी, जिसने एक सेवक वर्ग के विकास को बढ़ावा दिया जो अपनी कर्तव्य एक राज्य की सेवा के लिए अभिव्यक्त करते थे, न कि उसके शासक के लिए। यह उन्हें राज्य के भले की सेवा करने की असंवेदनशीलता से सेवा करने की अनुमति देता था, लेकिन जब टैक्स वसूल करने का समय आता था तब भी यह उन्हें लोकप्रिय नहीं बनाता था।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SPECIALIZATION_CHAPTER_HISTORY_PARA_1">
+      <Text>जब जटिल वस्तुओं का निर्माण किया जाता है, तो उत्पादन के एक पहलू पर व्यक्तियों को ध्यान केंद्रित करने से, सामग्री से पूर्णता तक कम उद्योग के एक शिल्पकार के द्वारा काम कराने से उच्च उत्पादन दर होती है। मध्ययुग और आधुनिक काल में ऐसी कई वस्तुएं इसी तरह बनाई गईं, जिनमें हथियार और कवच शामिल थे। विशेषज्ञता के उदय के बाद उद्योगी युग और असेंबली लाइन में शायद ही कोई ऐसा हो सकता होंगे जो इस बात को पूरी तरह से अभिव्यक्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COMMERCIAL_LEAGUE_CHAPTER_HISTORY_PARA_1">
+      <Text>व्यापारियों के समूह एकत्र होकर अधिक आर्थिक शक्ति का प्रयोग करने लगे। ये वाणिज्य गठबंधन आखिरकार बैंकिंग और मुद्रा के आधुनिक प्रणालियों का आधार प्रदान करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_INDENTURE_CHAPTER_HISTORY_PARA_1">
+      <Text>इंडेंचर एक प्रक्रिया है जिसमें किसी ने एक निर्दिष्ट समय अवधि के लिए अपनी श्रमदान को किसी अन्य को सौंपने की संगति से कुछ हासिल करने की उम्मीद के साथ समझौता कर लिया होता है। यह उन सीखने की शुरुआत में किसी अप्रेंटिस को मास्टर से बंधने की प्रक्रिया है।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LABOR_MARKET_CHAPTER_HISTORY_PARA_1">
+      <Text>एक समय पर, श्रम बाजार शब्द का शब्दार्थ बाजार के स्थान पर था जहां अनुभवहीन श्रमिकों का समूह एक निश्चित काम के लिए किराये पर लिया जाने के लिए इंतजार करता था। कुछ स्थानों में यह अभी भी ऐसा ही है।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CIVIL_QUARANTINE_CHAPTER_HISTORY_PARA_1">
+      <Text>क्वारंटाइन मरीजों के विलग को जनसंचार के माध्यम से रोग के फैलाव को रोकने के लिए किया जाता है। काली मौत के बाद से पीले झंडे क्वारंटाइन स्थानों के निशान के रूप में उपयोग किए जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_POGROM_CHAPTER_HISTORY_PARA_1">
+      <Text>"पोग्रोम" शब्द का उत्पादन रूसी शब्द से हुआ जिसका अर्थ "नष्ट करना" होता है। एक पोग्रोम एक समूचे समूह के वंशवाद और अत्याचार के लिए राज्य की मंजूरी के साथ व्यवस्थित हत्या होती है। अधिकांश यूरोप के इतिहास में यह कुछ ऐसे अल्पसंख्यक जैसे यहूदियों के साथ होता था। इसका न्याय आमतौर पर उन्होंने एक ऐसी अपराध के लिए छल किया जो उन्होंने नहीं किया था। पोग्रोमों का एक लम्बा और भयानक इतिहास है, और हर बार जब भी कुछ होता है, लोग संकल्प लेते हैं कि "और यह कभी नहीं होगा"।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PATRONAGE_CHAPTER_HISTORY_PARA_1">
+      <Text>दूसरों की कामयाबी की सीधी सहायता का अभ्यास प्रोत्साहन कहलाता है। प्रोत्साहन धन विभूति का एक स्पष्ट पहचानकर्ता हो सकता है, या यह वास्तविक तौर पर स्वार्थहीन कारणों के लिए किया जा सकता है। कई महान कला और साहित्य के काम धनवान प्रोत्साहकों के आह्वान पर किए गए थे।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_NOBLESSE_OBLIGE_CHAPTER_HISTORY_PARA_1">
+      <Text>शब्दांश "शानदारी प्रदान करती है" का अर्थ होता है कि जो लोग सामाजिक दर्जे और संसाधनों के साथ ज्यादा होते हैं, वे कम से कम उन लोगों को दान देने में उदार होने चाहिए जो उनसे कम होते हैं। बिना पूछे दिया गया दान देने वाले का उपेक्षापूर्ण आदर लेने वाली व्यक्ति की प्रतीक्षा नहीं की जा सकती।</Text>
+    </Row>
+    <!--Leaders-->
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_1">
+      <Text>फिलिप VI वैलोइस वंश के पहले फ्रांसीसी राजा थे, जिनकी शासनकाल का संक्षिप्त विवरण अंग्रेजों के साथ सैकड़ों वर्षों तक चलने वाले संघर्ष की शुरुआत से होता है। उनके पहले कार्यों में से एक फ्लैंडर्स में बगावत को दमन करना और काउंट लुइस को फिर से बैठाना था। उनके इश्क़ के रिश्ते एडवर्ड III के साथ अच्छे थे, लेकिन एक्विटेन के हक़ के बारे में और यह कि क्या एडवर्ड फिलिप का वासल था या नहीं उनके संबंध खराब हो गए। यह और कुछ और मुद्दे हुंडर्ड ईयर्स वार के शुरुआती घटनाओं में से कुछ थे।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_2">
+      <Text>जबकि फिलिप ने एडवर्ड को छिद्र और कमजोरी की युद्ध से जूझते हुए अपने धन से भरपूर फायदा उठाया, लेकिन खुला और निर्णायक युद्ध अंगरेजों के लिए अधिक अनुकूल साबित हुआ। 1346 में क्रेसी के युद्ध के बाद, फ्रांसीसी उच्चतम वर्ग और उनके संबंधित बहुत ही अस्त-व्यस्त थे जिससे फ्रांस की निधियाँ किसी और युद्ध के लिए अधिक भुगतान नहीं करने को तैयार थीं। 1348 में काला मौत के आगमन से हर तरफ बहुत नुकसान हुआ, जिसमें उनकी पत्नी रानी जोन भी थीं।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_1">
+      <Text>शायद इंग्लैंड का सबसे सफल मध्यकालीन राजा, उसके 50 वर्षीय शासनकाल में युद्ध, संसद के उदय, और ताप लगा। उसके पिता, एडवर्ड दूसरे, जब एडवर्ड तीसरे सिरे का बच्चा था, तब उसे उलटा कर दिया गया था, लेकिन एडवर्ड तुरंत अपने हक़ में शासन का व्यापार करने के लिए आगे बढ़ गया।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_2">
+      <Text>स्कॉटलैंड और फ्रांस के खिलाफ युद्ध चलाने वाले एडवर्ड III और उनके उप-कमांडर (विशेष रूप से उनके बड़े बेटे एडवर्ड द ब्लैक प्रिंस) सैकड़ों वर्षों के युद्ध में अंग्रेजों की कई सबसे बड़ी जीतों के लिए जिम्मेदार थे, जिनमें स्लूस में नौसेना के युद्ध शामिल थे। एडवर्ड III ने खुद ब्रिटेन के दोनों तरफ से लंबा धनुष चलाने वाले लड़ाकूओं के साथ क्रेसी के युद्ध में ट्रूप्स का कमांड किया, जहां अंग्रेजी लंबा धनुष चलाने वाले लड़ाकू एक दोपहर में फ्रांसीसी उच्च वर्गों को मार डाले।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_3">
+      <Text>1361 की काली मौत उसकी शासनकाल की अपघट्ति और सूर्यास्त को चिन्हित करती है। ताप प्रलय मौत उससे उसकी युद्ध लड़ने के लिए आवश्यक संसाधनों से वंचित कर दिया, और घर में बढ़ती सामाजिक टेंशन उसे उसके उत्तर भाग में अधिकांश समय के लिए व्यस्त रखी।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_1">
+      <Text>उसे अल्फोन्सो एक न्यायप्रिय के रूप में जाना जाता था, जो कैस्टिल और लिओन के राजा थे, जिन्होंने अपने पिता फर्डिनैंड IV से राजगदी संभाली थी जब वह सिर्फ एक साल का था। 1325 में उम्र पूरी करते ही, उन्होंने महान नामवाले परिवारों की झगड़ों (और शक्ति) को कुचल दिया, ऑर्डिनेंस ऑफ़ अल्काला डे हेर्नारेस में महत्वपूर्ण कानूनी सुधारों को लागू किया और मारिनीड बर्बरों के खिलाफ़ युद्ध शुरू किया, जो आंदलुसिया में सलादो नदी के युद्ध में उन्हें एक महत्वपूर्ण जीत दिलाई।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_2">
+      <Text>अल्फोन्सो 1350 में जिब्राल्टर के घेरे में काले महामारी से मर गया और राज्य उसके बेटे, पीटर द क्रूएल के हाथों में चला गया।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_1">
+      <Text>लुइस द बावेरियन, होली रोमन इम्पीरियल जर्मन के पहले विटेल्सबाच इम्पीरियल थे। उनकी शुरुआती शासनकाल में उन्हें इम्पीरियल ताज के दावेदारों के साथ हाब्सबर्ग और लक्समबर्ग परिवारों से लड़ाई करनी पड़ी। इस संघर्ष ने पोप के साथ एक तयौरी से बहरा हो गया, जो लुइस को एक विधर्मी के रूप में अव्यवहार्य कर दिया। जब लुइस को रोम में रोमन जनता द्वारा 1328 में इम्पीरर के रूप में ताज पहनाया गया तो यह कुछ उलझन पैदा कर गया। लुइस के शासनकाल को अंततः मुख्य घरों के अनवरत उत्तराधिकार योजनाओं के संदर्भ में सामान्य थकान से ज्यादातर उनके प्रतिद्वंद्वियों की मृत्यु के परिणामस्वरूप सुरक्षित किया गया था।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_2">
+      <Text>इंग्लैंड के एडवर्ड III के साथ संबद्ध, वह फ्रांस (और अविन्यों में पोप) के विरोध में था, जो उसकी राजनीतिक स्थिति को घोरतर बनाता था। 1347 में म्यूनिख के क़रीब उसकी मृत्यु के समय, उसने Wittelsbachs को संस्कृतिक राजनीति में एक प्रमुख घर के रूप में स्थापित करने में विफल रहा था।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_1">
+      <Text>काले मौत के समय केंद्रीय यूरोप में सबसे बड़ी राजनीतिक निकाय एक बहुभाषी, बहुजातीय संग्रह थी जो राज्यों, प्रांतों, बिशपरिक्स, ड्यूकशिप, स्वतंत्र शहरों, विवादित भूमि, बैरनियों और परिषदों का संग्रह था, सभी के लिए सामान्य रूप से सम्राज्य के नियम के तहत। शक्तिशाली शासक परिवार और पोप अक्सर अपने अपने क्षेत्रों के लिए प्रभावी नियंत्रण या स्वायत्तता के लिए लड़ाई करते थे।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_CASTILE_CHAPTER_HISTORY_PARA_1">
+      <Text>कास्टिल क्षेत्र आज के स्पेन के केंद्रीय क्षेत्र का बड़ा हिस्सा कब्जा करता है। मध्ययुग के दौरान, राज्य आमतौर पर दक्षिणी स्पेन के मुस्लिम क्षेत्रों से युद्ध करता था। कास्टिल और आसपास के लिए किंगडम ऑफ़ लियॉन के ताज एकीकरण का स्टेज तैयार करेगा जिससे कास्टिल इबेरियन प्रायद्वीप में प्रमुख शक्ति बन जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_ENGLAND_CHAPTER_HISTORY_PARA_1">
+      <Text>काले मौत के दौरान इंग्लैंड के शासन करने वाले प्लांटेजेनेट परिवार को अंग्रेजी और फ्रांसीसी राजघरानों का दावा था। वे स्कॉटलैंड और वेल्स के खिलाफ सैन्य दलों के साथ सैन्य अभियान पर निकल गए थे। समय के साथ, अंग्रेजी राजा को संसद और महत्वपूर्ण वंशजों को शासन अधिकार सौंपने के लिए मजबूर होना पड़ा, जिसका मतलब है कि अंग्रेजी राजाओं की तुलना में अन्य यूरोपीय राजाओं से वे कम शक्तिशाली थे।</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BLACKDEATH_SCENARIO_FRANCE_CHAPTER_HISTORY_PARA_1">
+      <Text>मध्यकालीन युग में, फ्रांस यूरोप के सबसे अमीर और समृद्ध क्षेत्रों में से एक था। इस समय में, फ्रांस के राजा सीधे अपने नियंत्रण में एक विशाल भूमि के एक भारी भाग को धारण किया करते थे, जो इस युग के सबसे केन्द्रीकृत राज्यों में से एक था।</Text>
+    </Row>
+  </EnglishText>
+</GameData>

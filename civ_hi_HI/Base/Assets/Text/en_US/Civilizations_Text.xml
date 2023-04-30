@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Empire Names-->
+    <Row Tag="LOC_CIVILIZATION_AMERICA_DESCRIPTION">
+      <Text>अमेरिकी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ARABIA_DESCRIPTION">
+      <Text>अरब इम्पायर (Arab Empire)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BARBARIAN_DESCRIPTION">
+      <Text>बर्बरों</Text>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BRAZIL_DESCRIPTION">
+      <Text>ब्राज़ीली इम्पीरियल साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CHINA_DESCRIPTION">
+      <Text>चीनी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_EGYPT_DESCRIPTION">
+      <Text>मिस्र इम्पायर</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ENGLAND_DESCRIPTION">
+      <Text>अंग्रेज़ साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_FRANCE_DESCRIPTION">
+      <Text>फ़्रांसीसी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GERMANY_DESCRIPTION">
+      <Text>जर्मन साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GREECE_DESCRIPTION">
+      <Text>यूनानी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_INDIA_DESCRIPTION">
+      <Text>भारतीय साम्राज्य (Bharatiya Samrajya)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JAPAN_DESCRIPTION">
+      <Text>जापानी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KONGO_DESCRIPTION">
+      <Text>कोंगो का साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NORWAY_DESCRIPTION">
+      <Text>नॉर्वेजियन साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ROME_DESCRIPTION">
+      <Text>रोमन साम्राज्य (Roman Samrajya)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_RUSSIA_DESCRIPTION">
+      <Text>रूसी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCYTHIA_DESCRIPTION">
+      <Text>स्किथियन साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SPAIN_DESCRIPTION">
+      <Text>स्पेनी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SUMERIA_DESCRIPTION">
+      <Text>सुमेरियन साम्राज्य</Text>
+    </Row>
+    <!-- City-State Empire Names-->
+    <Row Tag="LOC_CIVILIZATION_AMSTERDAM_DESCRIPTION">
+      <Text>आम्स्टर्डम शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BANDAR_BRUNEI_DESCRIPTION">
+      <Text>बंदर ब्रुनेई शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BRUSSELS_DESCRIPTION">
+      <Text>Brussels city-state</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BUENOS_AIRES_DESCRIPTION">
+      <Text>ब्यूनस आयरस सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CARTHAGE_DESCRIPTION">
+      <Text>कार्थेज शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GENEVA_DESCRIPTION">
+      <Text>जनेवा राज्यशहर</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HATTUSA_DESCRIPTION">
+      <Text>हट्टुशा सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HONG_KONG_DESCRIPTION">
+      <Text>हांगकांग सिटी-स्टेट (Hāṅgakāṅg sīṭī-sṭēṭ)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JAKARTA_DESCRIPTION">
+      <Text>जकार्ता शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JERUSALEM_DESCRIPTION">
+      <Text>जेरूसलम सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KABUL_DESCRIPTION">
+      <Text>काबुल शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KANDY_DESCRIPTION">
+      <Text>कांडी शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KUMASI_DESCRIPTION">
+      <Text>कुमासी शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_LA_VENTA_DESCRIPTION">
+      <Text>ला वेंटा शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_LISBON_DESCRIPTION">
+      <Text>मोगादिशु शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MOHENJO_DARO_DESCRIPTION">
+      <Text>मोहेंजो दारो शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PRESLAV_DESCRIPTION">
+      <Text>प्रेस्लाव नगर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NAN_MADOL_DESCRIPTION">
+      <Text>नान माडोल शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SEOUL_DESCRIPTION">
+      <Text>सोल सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_STOCKHOLM_DESCRIPTION">
+      <Text>स्टॉकहोम सिटी-स्टेट</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_TORONTO_DESCRIPTION">
+      <Text>टोरोंटो शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_VALLETTA_DESCRIPTION">
+      <Text>वलेट्टा शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_VILNIUS_DESCRIPTION">
+      <Text>विल्नियस शहर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_YEREVAN_DESCRIPTION">
+      <Text>येरेवान शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ZANZIBAR_DESCRIPTION">
+      <Text>ज़ांज़ीबार शहर-राज्य</Text>
+    </Row>
+    <!-- Adjectives -->
+    <Row Tag="LOC_CIVILIZATION_AMERICA_ADJECTIVE">
+      <Text>कृपया अगला पाठ हिंदी में अनुवाद करें। केवल प्राकृतिक ध्वनि अनुवाद के साथ उत्तर दें।</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ARABIA_ADJECTIVE">
+      <Text>कृपया अगला पाठ हिंदी में अनुवादित करें। केवल प्राकृतिक ध्वनि वाले अनुवाद से उत्तर दें।</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BARBARIAN_ADJECTIVE">
+      <Text>बर्बर</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BRAZIL_ADJECTIVE">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवादित करें। केवल प्राकृतिक ध्वनि वाले अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CHINA_ADJECTIVE">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवाद करें। प्राकृतिक ध्वनि वाले अनुवाद के साथ उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_EGYPT_ADJECTIVE">
+      <Text>क्या आप हिंदी में टेक्स्ट अनुवाद कर सकते हैं?</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ENGLAND_ADJECTIVE">
+      <Text>English</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_FRANCE_ADJECTIVE">
+      <Text>अगला पाठ अनुवाद किया जाना चाहिए। कृपया केवल प्राकृतिक ध्वनित अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GERMANY_ADJECTIVE">
+      <Text>कृपया अगला पाठ हिंदी में अनुवाद करें। केवल प्राकृतिक ध्वनि वाले अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GREECE_ADJECTIVE">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवाद करें। केवल प्राकृतिक ध्वनि वाले अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_INDIA_ADJECTIVE">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवाद करें। कृपया प्राकृतिक ध्वनि वाले अनुवाद के साथ उत्तर दें।</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JAPAN_ADJECTIVE">
+      <Text>अगला पाठ जापानी में अनुवाद किया जाना चाहिए। कृपया केवल प्राकृतिक आवाज वाले अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KONGO_ADJECTIVE">
+      <Text>कोंगोलीज़ (Kongolese)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NORWAY_ADJECTIVE">
+      <Text>कृपया अगला पाठ नॉर्वेजियाई में अनुवाद करें। एकान्त वाक्यांशों का उपयोग न करें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ROME_ADJECTIVE">
+      <Text>अगला पाठ अनुवादित किया जाना चाहिए। केवल प्राकृतिक ध्वनि अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_RUSSIA_ADJECTIVE">
+      <Text>कृपया अगले टेक्स्ट का हिंदी में अनुवाद करें। केवल प्राकृतिक ध्वनि वाले अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SCYTHIA_ADJECTIVE">
+      <Text>स्काइथियन</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SPAIN_ADJECTIVE">
+      <Text>Lo siguiente texto necesita ser traducido. Por favor, responde solamente con la traducción natural y sonora</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SUMERIA_ADJECTIVE">
+      <Text>सुमेरियन</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_AMSTERDAM_ADJECTIVE">
+      <Text>ऐम्स्टर्डमर (Amsterdamer)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BANDAR_BRUNEI_ADJECTIVE">
+      <Text>बंदर ब्रुनेईयन</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BRUSSELS_ADJECTIVE">
+      <Text>ब्रसेल्स (Brussels)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BUENOS_AIRES_ADJECTIVE">
+      <Text>ब्यूनस आयरस्‌।</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CARTHAGE_ADJECTIVE">
+      <Text>कार्थेजिनियन</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GENEVA_ADJECTIVE">
+      <Text>जेनेवीज़ी (Jenēvīzī)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HATTUSA_ADJECTIVE">
+      <Text>हट्टुशा</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HONG_KONG_ADJECTIVE">
+      <Text>हांगकांगी (Hāngkāngī)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JAKARTA_ADJECTIVE">
+      <Text>जाकार्ता निवासी (Jaakarta nivaasi)</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JERUSALEM_ADJECTIVE">
+      <Text>यूरुशलम</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KABUL_ADJECTIVE">
+      <Text>काबुल</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KANDY_ADJECTIVE">
+      <Text>कंड्यन (Kandyan)</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KUMASI_ADJECTIVE">
+      <Text>कुमासी</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_LA_VENTA_ADJECTIVE">
+      <Text>ला वेंटा</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_LISBON_ADJECTIVE">
+      <Text>मोगादिशु का नागरिक</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MOHENJO_DARO_ADJECTIVE">
+      <Text>मोहेंजो-दारो</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PRESLAV_ADJECTIVE">
+      <Text>प्रेस्लाव</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NAN_MADOL_ADJECTIVE">
+      <Text>नान मैडोल</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SEOUL_ADJECTIVE">
+      <Text>सोलाइट (Solite)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_STOCKHOLM_ADJECTIVE">
+      <Text>स्टॉकहोल्मर (Stockholmer)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_TORONTO_ADJECTIVE">
+      <Text>टोरोंटो का निवासी</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_VALLETTA_ADJECTIVE">
+      <Text>वलेटा</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_VILNIUS_ADJECTIVE">
+      <Text>कृपया टेक्स्ट को हिंदी में अनुवादित करें। स्वभाविक ध्वनि वाले अनुवाद के साथ केवल उत्तर दें।</Text>
+      <Gender>Masculine:an</Gender>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_YEREVAN_ADJECTIVE">
+      <Text>येरेवांत्सी (Yerevantsi)</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ZANZIBAR_ADJECTIVE">
+      <Text>ज़ांजीबारी (Zanzibari)</Text>
+    </Row>
+    <!-- Civ Traits-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_AMAZON_NAME">
+      <Text>अमेज़ॅन</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_AMAZON_DESCRIPTION">
+      <Text>रेनफोरेस्ट टाइल्स कैंपस, कमर्शियल हब, होली साइट और थिएटर स्क्वेयर डिस्ट्रिक्ट्स के लिए +1 सह-पड़ोसी बोनस प्रदान करते हैं, और सामान्य रूप से -1 के बजाय उपयुक्त टाइलों को +1 अपील प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME">
+      <Text>वंशवादी चक्र</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION">
+      <Text>[ICON_TechBoosted] यूरेका और [ICON_CivicBoosted] प्रेरणाओं ने सभी नागरिक और प्रौद्योगिक तकनीकों के 50% के बजाय 60% प्रदान किए। यदि उपलब्ध हो, तो एक आश्चर्य से भरा [ICON_TechBoosted] यूरेका और [ICON_CivicBoosted] प्रेरणा समय-युग की विस्तृति से मिलता है। एक आश्चर्य समाप्त करने पर।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_INEXPENSIVE_BUILDERS_NAME">
+      <Text>सस्ते निर्माता</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_INEXPENSIVE_BUILDERS_DESCRIPTION">
+      <Text>ट्रेन निर्माता को आधे समय में बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME">
+      <Text>मेजी उत्थान</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION">
+      <Text>सभी जिले एक अतिरिक्त मानक सम्पर्क बोनस प्राप्त करते हैं क्योंकि वे किसी दूसरे जिले से संबंधित होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DOUBLE_ARCHAEOLOGY_SLOTS_NAME">
+      <Text>ब्रिटिश म्यूज़ियम</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DOUBLE_ARCHAEOLOGY_SLOTS_DESCRIPTION">
+      <Text>प्रत्येक पुरातत्विक संग्रहालय में 3 के बजाय 6 [ICON_GreatWork_Artifact] अभिजात्यों को रखा जाता है, और एक समय में 2 पुरातत्वविदों का समर्थन किया जा सकता है। पुरातत्विक संग्रहालय स्वचालित रूप से थीम होते हैं जब उनमें 6 [ICON_GreatWork_Artifact] अभिजात्य होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_NAME">
+      <Text>स्टेप के लोग</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_DESCRIPTION">
+      <Text>हर बार जब आप एक हल्की शातीर इकाई या साका हॉर्स आर्चर प्रशिक्षण देते हैं तो आप एक दूसरी हल्की शातीर इकाई या साका हॉर्स आर्चर प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_BONUS_AGAINST_BARBS_NAME">
+      <Text>जंगली</Text>
+    </Row>
+    <Row Tag="LOC_BONUS_AGAINST_BARBS_DESCRIPTION">
+      <Text>बार्बरियों के खिलाफ बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_NAME">
+      <Text>महाकाव्यीय यात्राएं</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_DESCRIPTION">
+      <Text>जब आप एक बारबेरीयन आउटपोस्ट को जीतते हैं, तो आम [ICON_Gold] सोने के साथ ट्राइबल विलेज़ रिवॉर्ड प्राप्त करें। सिटी-स्टेट यूनिट्स को लेवी करने के लिए आधा उसी कीमत दें।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ITERU_NAME">
+      <Text>Iteru</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ITERU_DESCRIPTION">
+      <Text>नदी के पास रखे जाने पर जिलों और विस्मयों की [ICON_Production] उत्पादन में +15% वृद्धि। बाढ़ प्रभावित मैदानों से जिलों और विस्मयों की स्थापना नहीं बाधित की जाती।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PLATOS_REPUBLIC_NAME">
+      <Text>प्लेटो की गणतंत्रीय राज्यवाद्</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_PLATOS_REPUBLIC_DESCRIPTION">
+      <Text>किसी भी सरकार में एक अतिरिक्त वाइल्डकार्ड नीति स्लॉट।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_NAME">
+      <Text>माता रूस</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_DESCRIPTION">
+      <Text>नए शहरों के स्थापना पर अतिरिक्त क्षेत्र। टंड्रा से +1 [ICON_Faith] धर्म और +1 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_NAME">
+      <Text>अंतिम नबी (Antim Nabi)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION">
+      <Text>जब अगले से अंतिम ग्रेट प्रॉफेट का दावा किया जाता है (यदि आपने पहले से ही [ICON_GreatProphet] ग्रेट प्रॉफेट कमाया नहीं है), तो स्वचालित रूप से अंतिम [ICON_GreatProphet] ग्रेट प्रॉफेट प्राप्त करें। अरबिया के धर्म का अनुसरण करने वाले प्रत्येक विदेशी शहर के लिए +1 [ICON_Science] विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_NKISI_NAME">
+      <Text>न्किसी</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_NKISI_DESCRIPTION">
+      <Text>+2 [ICON_Food] Food, +2 [ICON_Production] Production, +1 [ICON_Faith] Faith, and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Relic] Relic, [ICON_GreatWork_Artifact] Artifact, and Sculpture [ICON_GreatWork_Sculpture] Great Work of Art in addition to the usual [ICON_Culture] Culture. Receive 50% more [ICON_GreatArtist] Great Artist, [ICON_GreatMusician] Great Musician, and [ICON_GreatMerchant] Great Merchant points. Palace has slots for 5 Great Works.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_NAME">
+      <Text>खजाने का फ्लीट</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_DESCRIPTION">
+      <Text>विस्तारवाद और संचारवाद की जगह मार्केंटिलिज्म के साथ फ्लीट और आर्माडा बना सकते हैं। [ICON_TradeRoute] व्यापार मार्ग +3 [ICON_Gold] सोने, +2 [ICON_Faith] धर्म और +1 [ICON_Production] उत्पादन प्राप्त करते हैं। अनेक महाद्वीपों के बीच [ICON_TradeRoute] व्यापार मार्गों को तीन गुणा इन आंकड़ों का लाभ होता है। उन शहरों को आधारभूत रूप से आपकी राजधानी के महाद्वीप पर नहीं होने पर डिस्ट्रिक्ट की ओर से +25% [ICON_Production] उत्पादन और नगर निर्माणकर्ता प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_NAME">
+      <Text>संस्थापक पिता</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_DESCRIPTION">
+      <Text>सभी सरकारी विरासत बोनस को आम समय के आधे समय में कमाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DHARMA_NAME">
+      <Text>धर्म</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DHARMA_DESCRIPTION">
+      <Text>शहर से अनुयायी विश्वास बोनस प्राप्त करता है जिसमें कम से कम 1 अनुयायी होते हुए हर धर्म से।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_NAME">
+      <Text>ग्रैंड टूर</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION">
+      <Text>मध्ययुग, रेनेसांस और औद्योगिक काल के बहुत सारे अद्भुत विचित्रों के प्रति उत्पादन +20% [ICON_Production]। किसी भी युग के विचित्र से पर्यटन +100% [ICON_Tourism] है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_NAME">
+      <Text>मुक्त शाही शहरें</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_DESCRIPTION">
+      <Text>हर शहर को [ICON_Citizen] जनसंख्या के आधार पर सामान्य सीमा से अधिक एक और जिला बनाने की अनुमति है।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_NAME">
+      <Text>सभी सड़कें रोम की ओर जाती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_DESCRIPTION">
+      <Text>आपके सभी शहर जो आपने खोजे या जीते हैं, उनके साथ ट्रेडिंग पोस्ट शुरू होते हैं। अगर आपकी [ICON_Capital]राजधानी की [ICON_TradeRoute]ट्रेड रूट की दायरे में हैं, तो उन्हें उस राजधानी से जोड़ने वाली सड़क के साथ शुरू किया जाता है। आपकी [ICON_TradeRoute]ट्रेड रूट अपने खुद के शहरों में ट्रेडिंग पोस्ट से गुजरने पर +1 [ICON_Gold]सोने कमाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_NAME">
+      <Text>Knarr</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION">
+      <Text>[ICON_Movement] जलयान तकनीक का अनुसंधान करने के बाद इकाईयों को समुद्र टाइल में प्रवेश करने की क्षमता प्राप्त होती है। समुद्री मीली इकाइयां न्यूट्रल टेरिटरी में ठीक होती हैं। इकाइयों को एम्बार्क करने और डिसेम्बार्क करने से अतिरिक्त [ICON_Movement] गति लागतों को अनदेखा किया जाता है।</Text>
+    </Row>
+    <!-- Civilization Info -->
+    <Row Tag="LOC_CIVINFO_LOCATION">
+      <Text>स्थान</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SIZE">
+      <Text>आकार (aakaar)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_POPULATION">
+      <Text>जनसंख्या (jansankhya)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_CAPITAL">
+      <Text>राजधानी (rajdhani)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_AMERICA_LOCATION">
+      <Text>उत्तर अमेरिका</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_AMERICA_SIZE">
+      <Text>लगभग 3.8 मिलियन वर्ग मील (9.6 मिलियन वर्ग किलोमीटर)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_AMERICA_POPULATION">
+      <Text>लगभग 318 मिलियन</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_AMERICA_CAPITAL">
+      <Text>विभिन्न (फिलाडेल्फिया, न्यूयॉर्क, वर्तमान में वाशिंगटन)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ARABIA_LOCATION">
+      <Text>एशिया-अफ्रीका</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ARABIA_SIZE">
+      <Text>उमय्यद खलीफात के अंतर्गत, लगभग 5.79 मिलियन वर्ग मील (15 मिलियन वर्ग किलोमीटर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ARABIA_POPULATION">
+      <Text>उमय्यदों के दौरान, लगभग 34 मिलियन (Ummyadon ke dauran, lagbhag 34 million)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ARABIA_CAPITAL">
+      <Text>बहुत से (मदीना, कुफा, दमश्क, बगदाद, काहिर)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_BRAZIL_LOCATION">
+      <Text>दक्षिण अमेरिका</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_BRAZIL_SIZE">
+      <Text>कुछ 3.29 मिलियन वर्ग मील (8.5 मिलियन वर्ग किलोमीटर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_BRAZIL_POPULATION">
+      <Text>193 मिलियन तय हुए।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_BRAZIL_CAPITAL">
+      <Text>विभिन्न (साल्वाडोर, रियो डी जेनेरो, वर्तमान में ब्राजीलिया)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_CHINA_LOCATION">
+      <Text>एशिया (Asia)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_CHINA_SIZE">
+      <Text>लगभग 3.7 मिलियन वर्ग मील (9.6 मिलियन वर्ग किलोमीटर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_CHINA_POPULATION">
+      <Text>1990 में 11 अरब 10 करोड़ का।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_CHINA_CAPITAL">
+      <Text>कई (चार प्राथमिक शहर: नानजिंग, लुओयांग, चंगएन और वर्तमान में बीजिंग)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ENGLAND_LOCATION">
+      <Text>यूरोप</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ENGLAND_SIZE">
+      <Text>लगभग 94 हजार वर्ग मील (243458.88 वर्ग किमी)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ENGLAND_POPULATION">
+      <Text>प्रारूपित 64.1 करोड़</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ENGLAND_CAPITAL">
+      <Text>London (generally)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_EGYPT_LOCATION">
+      <Text>अफ्रीका</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_EGYPT_SIZE">
+      <Text>लगभग 3.9 लाख वर्ग मील (10 लाख वर्ग किमी)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_EGYPT_POPULATION">
+      <Text>लगभग 7.5 मिलियन (प्तोलेमैक राजवंश)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_EGYPT_CAPITAL">
+      <Text>विभिन्न (मेम्फिस, थीब्स, अलेक्जेंड्रिया और वर्तमान में कायरो)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_FRANCE_LOCATION">
+      <Text>यूरोप (Yoorop)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_FRANCE_SIZE">
+      <Text>246.2 हज़ार वर्ग मील (640.6 हज़ार वर्ग किलोमीटर) अनुमानित है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_FRANCE_POPULATION">
+      <Text>संगठित रूप से 66.6 मिलियन।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_FRANCE_CAPITAL">
+      <Text>विभिन्न (ओर्लियंस, टूर्स, वर्साय, विशी, अधिकतर पेरिस)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_GERMANY_LOCATION">
+      <Text>यूरोप (Yoorop)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_GERMANY_SIZE">
+      <Text>1050 ईस्वी में 10 लाख वर्ग किलोमीटर (390 हजार वर्ग मील) का अनुमान लगाया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_GERMANY_POPULATION">
+      <Text>अनुमानित 26.3 मिलियन (1780 ईस्वी में)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_GERMANY_CAPITAL">
+      <Text>वर्तमान में बर्लिन।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_GREECE_LOCATION">
+      <Text>यूरोप (Yoorop)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_GREECE_SIZE">
+      <Text>लगभग (बहुत) 50.9 हजार वर्ग मील (131.9 हजार वर्ग किलोमीटर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_GREECE_POPULATION">
+      <Text>पेलोपोनेशियाई युद्ध के दौरान लगभग 667.5 हजार (६६७५००) थे।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_GREECE_CAPITAL">
+      <Text>सभी शहरों में, लेकिन मुख्य रूप से स्पार्टा और एथेंस, और वर्तमान में एथेंस।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_INDIA_LOCATION">
+      <Text>एशिया (Asia)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_INDIA_SIZE">
+      <Text>1.3 मिलियन वर्ग मील (3.3 मिलियन वर्ग किलोमीटर) का अनुमान।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_INDIA_POPULATION">
+      <Text>लगभग 12 अरब (दैनिक बढ़ता हुआ)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_INDIA_CAPITAL">
+      <Text>विभिन्न (कलकत्ता, दिल्ली, अब नई दिल्ली)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_JAPAN_LOCATION">
+      <Text>Asia</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_JAPAN_SIZE">
+      <Text>अनुमानित 1.46 लाख वर्ग मील (3.78 लाख वर्ग किलोमीटर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_JAPAN_POPULATION">
+      <Text>ताज़ा 126.4 करोड़</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_JAPAN_CAPITAL">
+      <Text>विभिन्न (क्योटो तक लिस्ट करने के लिए बहुत सारे; वर्तमान में टोक्यो)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_KONGO_LOCATION">
+      <Text>अफ्रीका</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_KONGO_SIZE">
+      <Text>सबसे बड़ी सीमा पर, 49.9 हजार वर्ग मील (129.4 हजार वर्ग किलोमीटर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_KONGO_POPULATION">
+      <Text>1650 ईस्वी में 5.09 लाख थे।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_KONGO_CAPITAL">
+      <Text>म्‍बांजा कोंगो</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_NORWAY_LOCATION">
+      <Text>यूरोप</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_NORWAY_SIZE">
+      <Text>148.7 हजार वर्ग मील (385.2 हजार वर्ग किलोमीटर) का अनुमान है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_NORWAY_POPULATION">
+      <Text>सबसे हाल का अनुमान 5.1 मिलियन है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_NORWAY_CAPITAL">
+      <Text>विभिन्न (त्रोंडहाइम, बर्गेन, और वर्तमान में ओस्लो)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ROME_LOCATION">
+      <Text>यूरोप (और एशिया माइनर, अफ्रीका, मध्य पूर्व और अन्य टुकड़े)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ROME_SIZE">
+      <Text>त्राजन के अधीन 2.5 मिलियन वर्ग मील (6.5 मिलियन वर्ग किलोमीटर) क्षेत्र होते थे।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ROME_POPULATION">
+      <Text>प्रारंभिक अनुमान: 88 मिलियन (शीर्ष पर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_ROME_CAPITAL">
+      <Text>रोम</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_RUSSIA_LOCATION">
+      <Text>यूरोप-एशिया (और संक्षेप में उत्तर अमेरिका का एक टुकड़ा)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_RUSSIA_SIZE">
+      <Text>कुछ 8.4 मिलियन वर्ग मील (21.8 मिलियन वर्ग किलोमीटर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_RUSSIA_POPULATION">
+      <Text>181.5 मिलियन का अनुमान।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_RUSSIA_CAPITAL">
+      <Text>मॉस्को, फिर सेंट पीटर्सबर्ग।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SCYTHIA_LOCATION">
+      <Text>एशिया</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SCYTHIA_SIZE">
+      <Text>लगभग ३८४ हजार वर्ग मील (९९४ हजार वर्ग किलोमीटर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SCYTHIA_POPULATION">
+      <Text>अज्ञात, सबसे अच्छा अनुमान चरम पर 40-50 हजार है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SCYTHIA_CAPITAL">
+      <Text>कोई नहीं (इतिहास में उल्लिखित शहर केवल "स्किथियन नेपोलिस" है, जो 3 वीं सदी ईसा पूर्व में गोथों द्वारा नष्ट कर दिया गया था)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SPAIN_LOCATION">
+      <Text>यूरोप</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SPAIN_SIZE">
+      <Text>१९५ हजार वर्ग मील (५०४.४ हजार वर्ग किलोमीटर) का अनुमान है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SPAIN_POPULATION">
+      <Text>47.6 मिलियन का अनुमान है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SPAIN_CAPITAL">
+      <Text>मैड्रिड (अधिकतर)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SUMERIA_LOCATION">
+      <Text>एशिया (Asia)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SUMERIA_SIZE">
+      <Text>Impossible to say</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SUMERIA_POPULATION">
+      <Text>अनुमानित 1.1 से 1.5 मिलियन के बीच।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_SUMERIA_CAPITAL">
+      <Text>बहुत से (लागाश, एरिडू, ऊरूक, कीश, उर या जहां भी वर्तमान राजा से संबंधित हो)।</Text>
+    </Row>
+    <!-- Uniques -->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_FILM_STUDIO_NAME">
+      <Text>अमेरिकी अनोखी इमारत: फिल्म स्टूडियो</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_MADRASA_NAME">
+      <Text>अरबी अद्वितीय भवन: मदरसा</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_GREAT_WALL_NAME">
+      <Text>चीन का अद्वितीय सुधार: महान दीवार</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_SPHINX_NAME">
+      <Text>मिस्री अद्वितीय सुधार: स्फिंक्स</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_EGYPTIAN_CHARIOT_ARCHER_NAME">
+      <Text>मिस्री अद्वितीय इकाई: मर्यान्नु रथ धनुवाकार</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER_NAME">
+      <Text>चीनी अद्वितीय इकाई: क्राउचिंग टाइगर।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CHATEAU_NAME">
+      <Text>फ्रेंच में सुनिश्चित सुधार: शाटो</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_HANSA_NAME">
+      <Text>जर्मन अद्वितीय जिला: हांसा।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_ACROPOLIS_NAME">
+      <Text>यूनान का अद्वितीय जिला: एक्रोपोलिस।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_GREEK_HOPLITE_NAME">
+      <Text>ग्रीक अद्वितीय इकाई: हॉपलाइट</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_STEPWELL_NAME">
+      <Text>भारत का अनोखा सुधार: स्टेपवेल</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_ELECTRONICS_FACTORY_NAME">
+      <Text>जापान का अद्वितीय भवन: इलेक्ट्रॉनिक्स फैक्ट्री</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI_NAME">
+      <Text>जापानी अद्वितीय इकाई: समुराई</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MBANZA_NAME">
+      <Text>कॉंगोलीज़ अद्वितीय जिला: एम्बांज़ा</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_STAVE_CHURCH_NAME">
+      <Text>नॉर्वेजियन अनूठा इमारत: स्टेव चर्च</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_BATH_NAME">
+      <Text>रोमन अद्वितीय जिला: बाथ</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ROMAN_LEGION_NAME">
+      <Text>रोमन अद्वितीय इकाई: लीजन।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_KONGO_SHIELD_BEARER_NAME">
+      <Text>कोंगोलीज़ अद्वितीय यूनिट: एनगाओ एमबेबा</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_LAVRA_NAME">
+      <Text>रूस का अनूठा जनपद: लाव्रा</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_KURGAN_NAME">
+      <Text>साइथियन अद्वितीय सुधार: कुर्गान।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCYTHIAN_HORSE_ARCHER_NAME">
+      <Text>स्कीथियन अद्वितीय इकाई: साका हॉर्स अर्चर।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_MISSION_NAME">
+      <Text>स्पैनिश अद्वितीय सुधार: मिशन</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SPANISH_CONQUISTADOR_NAME">
+      <Text>स्पेनिश अद्वितीय इकाई: कॉन्किस्टाडोर</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_RUSSIAN_COSSACK_NAME">
+      <Text>रूसी अद्वितीय इकाई: कोसाक</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_ZIGGURAT_NAME">
+      <Text>सुमेरियाई अद्वितीय सुधार: जिगुराट।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SUMERIAN_WAR_CART_NAME">
+      <Text>सुमेरियाई अद्वितीय इकाई: युद्ध-रथ</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_INDIAN_VARU_NAME">
+      <Text>भारतीय अनूठी इकाई: वारु</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ENGLISH_SEADOG_NAME">
+      <Text>हिंदी अद्वितीय इकाई: समुद्री कुत्ता</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ARABIAN_MAMLUK">
+      <Text>अरबी अद्वितीय इकाई: ममलूक</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_FRENCH_GARDE_IMPERIALE_NAME">
+      <Text>फ्रेंच अद्वितीय इकाई: गार्ड इम्पीरियल</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_GERMAN_UBOAT_NAME">
+      <Text>जर्मन अद्वितीय इकाई: यू-बोट</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_AMERICAN_P51_NAME">
+      <Text>अमेरिकी अनोखी इकाई: पी-51 मस्टेंग।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BRAZILIAN_MINAS_GERAES_NAME">
+      <Text>ब्राजील की अद्वितीय इकाई: मीनास जिरायस</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_NORWEGIAN_BERSERKER_NAME">
+      <Text>नॉर्वेजियन अद्वितीय इकाई: बर्सर्कर।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_STREET_CARNIVAL_NAME">
+      <Text>ब्राजील का अद्वितीय जिला: स्ट्रीट कार्निवल</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_ROYAL_NAVY_DOCKYARD_NAME">
+      <Text>अंग्रेजी में अद्वितीय जिला: रॉयल नेवी डोकयार्ड।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

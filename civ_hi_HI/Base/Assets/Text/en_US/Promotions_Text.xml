@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!---->
+    <!-- PROMOTION NAME TEXT -->
+    <!---->
+    <!--Recon-->
+    <Row Tag="LOC_PROMOTION_RANGER_NAME">
+      <Text>रेंजर</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ALPINE_NAME">
+      <Text>अल्पाइन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SENTRY_NAME">
+      <Text>सेंट्री (Sentry)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPYGLASS_NAME">
+      <Text>स्पाईग्लास</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GUERRILLA_NAME">
+      <Text>गुएरिला</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMBUSH_NAME">
+      <Text>घात (Ghaat)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAMOUFLAGE_NAME">
+      <Text>छलावा (Chhalawa)</Text>
+    </Row>
+    <!--Melee-->
+    <Row Tag="LOC_PROMOTION_BATTLECRY_NAME">
+      <Text>युद्धजीत हों!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORTOISE_NAME">
+      <Text>कछुआ</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMMANDO_NAME">
+      <Text>कमांडो (Kamando)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMPHIBIOUS_NAME">
+      <Text>जलचर</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZWEIHANDER_NAME">
+      <Text>ज्वाइहांडर (Jwaihandar)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_URBAN_WARFARE_NAME">
+      <Text>शहरी युद्ध (Shahri Yuddh)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ELITE_GUARD_NAME">
+      <Text>अलीगढ़ गार्ड</Text>
+    </Row>
+    <!--Ranged-->
+    <Row Tag="LOC_PROMOTION_VOLLEY_NAME">
+      <Text>वॉलीबॉल</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GARRISON_NAME">
+      <Text>गैरिसन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARROW_STORM_NAME">
+      <Text>तीर तूफ़ान</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INCENDIARIES_NAME">
+      <Text>उत्पादक</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPRESSION_NAME">
+      <Text>दमन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EMPLACEMENT_NAME">
+      <Text>स्थान निर्धारण</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_MARKSMAN_NAME">
+      <Text>विशेषज्ञ मार्क्समन</Text>
+    </Row>
+    <!--Siege-->
+    <Row Tag="LOC_PROMOTION_GRAPE_SHOT_NAME">
+      <Text>अंगूर की गोलाबारी</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREW_WEAPONS_NAME">
+      <Text>क्रू विविध शस्त्रें</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHELLS_NAME">
+      <Text>शेल्स</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHRAPNEL_NAME">
+      <Text>श्रैपनल (Shrapnel)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEAVY_PROJECTILES_2">
+      <Text>भारी प्रक्षेपण 2</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_RANGEFINDING_NAME">
+      <Text>उन्नत दूरीपतन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_CREW_NAME">
+      <Text>विशेषज्ञ दल</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FORWARD_OBSERVERS_NAME">
+      <Text>अग्र अवलोककों</Text>
+    </Row>
+    <!--Anti-Cavalry-->
+    <Row Tag="LOC_PROMOTION_ECHELON_NAME">
+      <Text>एशेलॉन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_THRUST_NAME">
+      <Text>धक्का</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SQUARE_NAME">
+      <Text>वर्ग (Varg)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCHILTRON_NAME">
+      <Text>शिल्ट्रॉन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REDEPLOY_NAME">
+      <Text>पुनर्नियोजित करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHOKE_POINTS_NAME">
+      <Text>चोक प्वाइंट्स (Choke Points)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOLD_THE_LINE_NAME">
+      <Text>लाइन पर भी रहिए।</Text>
+    </Row>
+    <!--Light Cavalry-->
+    <Row Tag="LOC_PROMOTION_ESCORT_MOBILITY_NAME">
+      <Text>एस्कॉर्ट मोबिलिटी</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAPARISON_NAME">
+      <Text>कैपारिसन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COURSERS_NAME">
+      <Text>कोर्सर्स</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEPREDATION_NAME">
+      <Text>विनाश (Vinash)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DOUBLE_ENVELOPMENT_NAME">
+      <Text>डबल आवरण (Dabal Avaran)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPIKING_THE_GUNS_NAME">
+      <Text>बंदूकों को खत्म करना।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PURSUIT_NAME">
+      <Text>पीछा।</Text>
+    </Row>
+    <!--Heavy Cavalry-->
+    <Row Tag="LOC_PROMOTION_BREAKTHROUGH_NAME">
+      <Text>परख (Parch)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHARGE_NAME">
+      <Text>चार्ज (Chaarge)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BARDING_NAME">
+      <Text>बार्डिंग</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARAUDING_NAME">
+      <Text>दस्तखत लेना (Dastakht lena)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROUT_NAME">
+      <Text>रूट</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARMOR_PIERCING_NAME">
+      <Text>आर्मर पियर्सिंग् | (Armour Piercing)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REACTIVE_ARMOR_NAME">
+      <Text>प्रतिक्रियाशील शस्त्रास्त्र</Text>
+    </Row>
+    <!--Aircraft Fighter-->
+    <Row Tag="LOC_PROMOTION_DOGFIGHTING_NAME">
+      <Text>कुत्तों के लड़ाई-झगड़े</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INTERCEPTOR_NAME">
+      <Text>इंटरसेप्टर</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_STRAFE_NAME">
+      <Text>सजा</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GROUND_CREWS_NAME">
+      <Text>ग्राउंड क्रूज़्‌।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COCKPIT_ARMOR_NAME">
+      <Text>कॉकपिट आर्मर</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TANK_BUSTER_NAME">
+      <Text>टैंक बस्टर (Tank Buster)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DROP_TANKS_NAME">
+      <Text>छोड़ टैंक्स (Chhod Tanks)</Text>
+    </Row>
+    <!--Aircraft Bomber-->
+    <Row Tag="LOC_PROMOTION_BOX_FORMATION_NAME">
+      <Text>बक्स फॉर्मेशन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EVASIVE_MANEUVERS_NAME">
+      <Text>टाल-मटोल चालें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORPEDO_BOMBER_NAME">
+      <Text>टॉर्पीडो बॉम्बर</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLOSE_AIR_SUPPORT_NAME">
+      <Text>निकट वायु सहायता</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TACTICAL_MAINTENANCE_NAME">
+      <Text>टैक्टिकल रखरखाव</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LONG_RANGE_NAME">
+      <Text>लम्बी दूरी (Lambi Doori)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPERFORTRESS_NAME">
+      <Text>सुपरफोर्ट्रेस (Suparfortres)</Text>
+    </Row>
+    <!--Naval Melee-->
+    <Row Tag="LOC_PROMOTION_EMBOLON_NAME">
+      <Text>एम्बोलन (Embolen)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REINFORCED_HULL_NAME">
+      <Text>मजबूत हल्का</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HELMSMAN_NAME">
+      <Text>हेल्मसमैन (Helmsman)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AUXILIARY_SHIPS_NAME">
+      <Text>सहायक जहाजों</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_RUTTER_NAME">
+      <Text>रुटर</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CONVOY_NAME">
+      <Text>कॉन्वॉय (kaunvai)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREEPING_ATTACK_NAME">
+      <Text>लुफ़्तगांग हमला</Text>
+    </Row>
+    <!--Naval Ranged-->
+    <Row Tag="LOC_PROMOTION_LINE_OF_BATTLE_NAME">
+      <Text>लड़ाई की लाइन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOMBARDMENT_NAME">
+      <Text>बम बर्डमेंट (Bam bardament)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PREPARATORY_FIRE_NAME">
+      <Text>तैयारी की आग (Taiyari ki aag)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROLLING_BARRAGE_NAME">
+      <Text>रोलिंग बैरेज</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROXIMITY_FUSES_NAME">
+      <Text>अन्तरदूरी फ्यूज़्सेस्।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COINCIDENCE_RANGEFINDING_NAME">
+      <Text>संयोग दूरी-जांच करना</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPLY_FLEET_NAME">
+      <Text>आपूर्ति फ्लीट</Text>
+    </Row>
+    <!--Naval Carrier-->
+    <Row Tag="LOC_PROMOTION_FLIGHT_DECK_NAME">
+      <Text>फ्लाइट डेक</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HANGAR_DECK_NAME">
+      <Text>हैंगर डेक (Hangar Deck)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FOLDING_WINGS_NAME">
+      <Text>लपेटने वाली पंखुड़ियाँ</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUT_PLANES_NAME">
+      <Text>स्काउट प्लेन्स</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_ENGINES_NAME">
+      <Text>उन्नत इंजन्स्।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DECK_CREWS_NAME">
+      <Text>डेक के क्रूज़्‌।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPER_CARRIER_NAME">
+      <Text>सुपरकैरियर</Text>
+    </Row>
+    <!--Naval Raider-->
+    <Row Tag="LOC_PROMOTION_LOOT_NAME">
+      <Text>लूट</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOARDING_NAME">
+      <Text>बोर्डिंग (Boarding)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SWIFT_KEEL_NAME">
+      <Text>स्विफ्ट कील</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_OBSERVATION_NAME">
+      <Text>अवलोकन (Avalokan)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SILENT_RUNNING_NAME">
+      <Text>चुपचाप रखें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOMING_TORPEDOES_NAME">
+      <Text>होमिंग टॉर्पिडोज़ (Homing Torpedoes)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_WOLFPACK_NAME">
+      <Text>वुल्फपैक</Text>
+    </Row>
+    <!--Apostles-->
+    <Row Tag="LOC_PROMOTION_ORATOR_NAME">
+      <Text>वक्ता</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROSELYTIZER_NAME">
+      <Text>प्रसारक (Prasarik)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TRANSLATOR_NAME">
+      <Text>तर्जुमान</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PILGRIM_NAME">
+      <Text>तीर्थयात्री (Tirthayatri)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INDULGENCE_VENDOR_NAME">
+      <Text>इंडल्जेंस वेंडर</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEATHEN_CONVERSION_NAME">
+      <Text>अशुद्ध विश्वास से शुद्ध विश्वास में परिवर्तन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEBATER_NAME">
+      <Text>वाद-विवाद करने वाला</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARTYR_NAME">
+      <Text>शहीद (shahid)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHAPLAIN_NAME">
+      <Text>चैपलिन (Chaplain)</Text>
+    </Row>
+    <!--Warrior Monk-->
+    <Row Tag="LOC_PROMOTION_MONK_SHADOW_STRIKE_NAME">
+      <Text>शैडो स्ट्राइक</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_TWILIGHT_VEIL_NAME">
+      <Text>ट्वाइलाइट वेल</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_EXPLODING_PALMS_NAME">
+      <Text>फटते हुए हथेलियाँ</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DISCIPLES_NAME">
+      <Text>शिष्यों</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_SWEEPING_WIND_NAME">
+      <Text>झाड़ती हवा</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DANCING_CRANE_NAME">
+      <Text>नृत्य करता सारस</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_COBRA_STRIKE_NAME">
+      <Text>नाग विवेक्षण</Text>
+    </Row>
+    <!--Spy-->
+    <Row Tag="LOC_PROMOTION_SPY_TECHNOLOGIST_NAME">
+      <Text>प्रौद्योगिकीविद् (Praudyogiki-vid)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CAT_BURGLAR_NAME">
+      <Text>बिल्ली चोर</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DEMOLITIONS_NAME">
+      <Text>विध्वंसकर्ता या विषय पर चर्चा करता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CON_ARTIST_NAME">
+      <Text>धोखेबाज़ (Dhokhebaaz)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_GUERILLA_LEADER_NAME">
+      <Text>गुएरिला नेता</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ROCKET_SCIENTIST_NAME">
+      <Text>रॉकेट वैज्ञानिक</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SEDUCTION_NAME">
+      <Text>वशीकरण</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DISGUISE_NAME">
+      <Text>उपेक्षा करना (Upeskha karna)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LINGUIST_NAME">
+      <Text>भाषाविद्</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_QUARTERMASTER_NAME">
+      <Text>क्वार्टरमास्टर</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ACE_DRIVER_NAME">
+      <Text>एस ड्राइवर (Es draivar)</Text>
+    </Row>
+    <!---->
+    <!-- PROMOTION DESCRIPTION TEXT -->
+    <!---->
+    <Row Tag="LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(पदोन्नति)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>नीति</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(सरकार)</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>महान व्यक्ति</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(धर्म)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>क्षमता</Text>
+    </Row>
+    <Row Tag="LOC_WONDER_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(आश्चर्य)</Text>
+    </Row>
+    <!--Recon-->
+    <Row Tag="LOC_PROMOTION_RANGER_DESCRIPTION">
+      <Text>वूड्स और रेनफोरेस्ट भूमि में [ICON_Movement] तेज़ गति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ALPINE_DESCRIPTION">
+      <Text>पहाड़ी भूमि पर तेज [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SENTRY_DESCRIPTION">
+      <Text>जंगल और वुड्स से देख सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPYGLASS_DESCRIPTION">
+      <Text>+1 दृष्टि दायरा।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GUERRILLA_DESCRIPTION">
+      <Text>आक्रमण करने के बाद चल सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMMANDO_DESCRIPTION">
+      <Text>+1 [ICON_Movement] गति। शिखर दीवारों को स्केल कर सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
+      <Text>सभी परिस्थितियों में +20 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAMOUFLAGE_DESCRIPTION">
+      <Text>केवल समग्र शत्रु इकाइयाँ इस इकाई को उजागर कर सकती हैं।</Text>
+    </Row>
+    <!--Melee-->
+    <Row Tag="LOC_PROMOTION_BATTLECRY_DESCRIPTION">
+      <Text>+7 [ICON_Strength] युद्ध बल शस्त्र और धनुष युक्तियों के खिलाफ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORTOISE_DESCRIPTION">
+      <Text>शक्ति [ICON_Strength] +10 जब रेंज हमलों के खिलाफ रक्षा करने के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AMPHIBIOUS_DESCRIPTION">
+      <Text>नदी या समुद्र से हमला करते समय कोई [ICON_Strength] युद्ध-शक्ति और [ICON_Movement] गति जुर्माना नहीं होता।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZWEIHANDER_DESCRIPTION">
+      <Text>+7 [ICON_Strength] लड़ाई ताकत विरोधी-घुड़सवार इकाइयों के खिलाफ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_URBAN_WARFARE_DESCRIPTION">
+      <Text>एक जिले में लड़ाई लड़ते समय +10 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ELITE_GUARD_DESCRIPTION">
+      <Text>[ICON_Movement] गति देने से अगले टर्न प्रत्येक बार एक अतिरिक्त हमला कर सकते हैं। हमला करने के बाद आगे चल सकते हैं।</Text>
+    </Row>
+    <!--Ranged-->
+    <Row Tag="LOC_PROMOTION_VOLLEY_DESCRIPTION">
+      <Text>+5 [ICON_Ranged] भूमि इकाइयों के ख़िलाफ़ रेंज स्ट्रेंथ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GARRISON_DESCRIPTION">
+      <Text>जब आप किसी भी सुधार का कब्ज़ा करते हैं जो [ICON_Strength] रक्षा शक्ति प्रदान करता है या एक जिले को विकसित करते हैं तो [ICON_Strength] संघर्ष शक्ति में +10 का वृद्धि होगी।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARROW_STORM_DESCRIPTION">
+      <Text>+7 [ICON_Ranged] भूमि और समुद्री इकाइयों के विरुद्ध रेंज शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INCENDIARIES_DESCRIPTION">
+      <Text>+7 [ICON_Ranged] ज़िला रक्षाओं के खिलाफ दूरस्थ शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPPRESSION_DESCRIPTION">
+      <Text>अभ्यास क्षेत्र के नियंत्रण।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EMPLACEMENT_DESCRIPTION">
+      <Text>शहर हमलों के खिलाफ रक्षा करते समय +10 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_MARKSMAN_DESCRIPTION">
+      <Text>यूनिट अगर चला नहीं हो तो प्रत्येक टर्न में +1 अतिक्रमण।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EXPERT_CREW_DESCRIPTION">
+      <Text>चलने के बाद हमला कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FORWARD_OBSERVERS_DESCRIPTION">
+      <Text>+1 [ICON_Range] रेंज।</Text>
+    </Row>
+    <!--Anti-Cavalry-->
+    <Row Tag="LOC_PROMOTION_ECHELON_DESCRIPTION">
+      <Text>कवलरी इकाइयों के विरुद्ध +5 [ICON_Strength] युद्ध ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_THRUST_DESCRIPTION">
+      <Text>मेले यूनिट के विरुद्ध +5 [ICON_Strength] युद्ध ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SQUARE_DESCRIPTION">
+      <Text>डबल सपोर्ट बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCHILTRON_DESCRIPTION">
+      <Text>मीली वर्ग इकाइयों के खिलाफ रक्षा करते समय +10 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REDEPLOY_DESCRIPTION">
+      <Text>+1 [ICON_Movement] आंदोलन।</Text>
+    </Row>
+    <!--Siege-->
+    <Row Tag="LOC_PROMOTION_CREW_WEAPONS_DESCRIPTION">
+      <Text>रक्षा करते समय +7 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GRAPE_SHOT_DESCRIPTION">
+      <Text>+7 [ICON_Strength] भूमि इकाइयों के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHRAPNEL_DESCRIPTION">
+      <Text>[ICON_Strength] भूमि इकाइयों के खिलाफ +10 युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SHELLS_DESCRIPTION">
+      <Text>+10 [ICON_Strength] युद्ध शक्ति जिले की रक्षाओं के खिलाफ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_RANGEFINDING_DESCRIPTION">
+      <Text>+10 [ICON_Strength] नौसेना इकाइयों के विरुद्ध युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHOKE_POINTS_DESCRIPTION">
+      <Text>जंगल, पहाड़ी क्षेत्र या झील में रक्षण करते समय +7 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOLD_THE_LINE_DESCRIPTION">
+      <Text>एक अलग क्लास के सम्मुखीन यूनिट को सेनापति के खिलाफ +10 [ICON_Strength] युद्ध ताकत मिलती है।</Text>
+    </Row>
+    <!--Light Cavalry-->
+    <Row Tag="LOC_PROMOTION_ESCORT_MOBILITY_DESCRIPTION">
+      <Text>सभी फॉर्मेशन यूनिट एस्कॉर्ट की [ICON_Movement] गति को अपनाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CAPARISON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] युद्ध शक्ति अग्रणी-घुड़सवारी के विरुद्ध।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COURSERS_DESCRIPTION">
+      <Text>जब आप दूरस्थ और तुच्छ इकाइयों पर हमला करते हैं तब +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEPREDATION_DESCRIPTION">
+      <Text>लूट करने के लिए केवल 1 [ICON_Movement] आंदोलन बिंदु लागू होता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DOUBLE_ENVELOPMENT_DESCRIPTION">
+      <Text>2 गुना बोनस परिवर्तन।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPIKING_THE_GUNS_DESCRIPTION">
+      <Text>+7 [ICON_Strength] सीमावर्ती इकाइयों के विरुद्ध युद्ध क्षमता।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PURSUIT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] आंदोलन।</Text>
+    </Row>
+    <!--Heavy Cavalry-->
+    <Row Tag="LOC_PROMOTION_CHARGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] किल्ले में आरक्षित रक्षक के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BARDING_DESCRIPTION">
+      <Text>रेंज अटैक के खिलाफ रक्षा के समय +7 [ICON_Strength] कम्बैट स्ट्रेंथ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARAUDING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] संरचनाओं में इकाइयों के विरुद्ध युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROUT_DESCRIPTION">
+      <Text>घायल इकाइयों के खिलाफ +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ARMOR_PIERCING_DESCRIPTION">
+      <Text>अन्य भारी सवार इकाइयों के खिलाफ +7 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REACTIVE_ARMOR_DESCRIPTION">
+      <Text>भारी सैनिक और एंटी-सैनिक के खिलाफ रक्षा के दौरान +7 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BREAKTHROUGH_DESCRIPTION">
+      <Text>प्रति टर्न अतिरिक्त हमला +1 अगर [ICON_Movement] गति इसे देती है।</Text>
+    </Row>
+    <!--Aircraft Fighter-->
+    <Row Tag="LOC_PROMOTION_DOGFIGHTING_DESCRIPTION">
+      <Text>+7 [ICON_Strength] लड़ाकू वर्ग के युनिट्स के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COCKPIT_ARMOR_DESCRIPTION">
+      <Text>विमान-विरोधी के खिलाफ रक्षा करते समय +7 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INTERCEPTOR_DESCRIPTION">
+      <Text>+7 [ICON_Strength] बम्बर वर्ग इकाइयों के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_STRAFE_DESCRIPTION">
+      <Text>+17 [ICON_Strength] बिना घुड़सवार इकाइयों के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GROUND_CREWS_DESCRIPTION">
+      <Text>आपत्तिकाल या तैनाती के दौरान ठीक हो जाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TANK_BUSTER_DESCRIPTION">
+      <Text>+17 [ICON_Strength] घुड़सवार इकाइयों के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DROP_TANKS_DESCRIPTION">
+      <Text>+2 [ICON_Range] दायरा।</Text>
+    </Row>
+    <!--Aircraft Bomber-->
+    <Row Tag="LOC_PROMOTION_BOX_FORMATION_DESCRIPTION">
+      <Text>युद्धकर्ता वर्ग के इकाइयों के खिलाफ रक्षा करते समय +7 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_EVASIVE_MANEUVERS_DESCRIPTION">
+      <Text>विमान बाधाओं के विरुद्ध रक्षा करते समय +7 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TORPEDO_BOMBER_DESCRIPTION">
+      <Text>+17 [ICON_Strength] जहाजों के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLOSE_AIR_SUPPORT_DESCRIPTION">
+      <Text>भूमि इकाइयों के खिलाफ +12 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TACTICAL_MAINTENANCE_DESCRIPTION">
+      <Text>हमला करने के बाद ठीक हो सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LONG_RANGE_DESCRIPTION">
+      <Text>+2 [ICON_Range] श्रेणी।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPERFORTRESS_DESCRIPTION">
+      <Text>एयर पिलेज के लिए कोई न्यूनतम स्वास्थ्य आवश्यकता नहीं है।</Text>
+    </Row>
+    <!--Naval Melee-->
+    <Row Tag="LOC_PROMOTION_EMBOLON_DESCRIPTION">
+      <Text>+7 [ICON_Strength] नौसेना इकाइयों के विरुद्ध युद्ध ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_REINFORCED_HULL_DESCRIPTION">
+      <Text>रेंज अटैक के विरुद्ध रक्षा के समय [ICON_Strength] 10 [ICON_Strength] कॉम्बैट स्ट्रेंथ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_RUTTER_DESCRIPTION">
+      <Text>+1 दूरी दर्शन।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HELMSMAN_DESCRIPTION">
+      <Text>+1 [ICON_Movement] आंदोलन।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_AUXILIARY_SHIPS_DESCRIPTION">
+      <Text>मित्रवत प्रदेश के बाहर ठीक हो जाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CONVOY_DESCRIPTION">
+      <Text>गठबंधन में होने पर +10 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CREEPING_ATTACK_DESCRIPTION">
+      <Text>+14 [ICON_Strength] नौसेना रेडर इकाइयों के विरुद्ध युद्ध ताकत।</Text>
+    </Row>
+    <!--Naval Ranged-->
+    <Row Tag="LOC_PROMOTION_SUPPLY_FLEET_DESCRIPTION">
+      <Text>मैत्रीपूर्ण क्षेत्र के बाहर ठीक करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_LINE_OF_BATTLE_DESCRIPTION">
+      <Text>+7 [ICON_Strength] नौसेना इकाइयों के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOMBARDMENT_DESCRIPTION">
+      <Text>+7 [ICON_Strength] जोंग की ताकत जिले की रक्षा के खिलाफ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PREPARATORY_FIRE_DESCRIPTION">
+      <Text>+7 [ICON_Strength] भूमि इकाइयों के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ROLLING_BARRAGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] जंग की ताकत जिले के रक्षात्मक तंत्रों के विरुद्ध।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROXIMITY_FUSES_DESCRIPTION">
+      <Text>वायु हमलों के खिलाफ रक्षा के दौरान +7 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COINCIDENCE_RANGEFINDING_DESCRIPTION">
+      <Text>+1 [ICON_Range] रेंज।</Text>
+    </Row>
+    <!--Naval Carrier-->
+    <Row Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION">
+      <Text>एक अतिरिक्त विमान स्लॉट।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HANGAR_DECK_DESCRIPTION">
+      <Text>एक अतिरिक्त विमान स्लॉट।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION">
+      <Text>एक अतिरिक्त हवाई जहाज स्लॉट।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUT_PLANES_DESCRIPTION">
+      <Text>+1 दृष्टि दायरा।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ADVANCED_ENGINES_DESCRIPTION">
+      <Text>+1 [ICON_Movement] आंदोलन।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DECK_CREWS_DESCRIPTION">
+      <Text>हमला करने के बाद ठीक हो सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SUPER_CARRIER_DESCRIPTION">
+      <Text>मित्र राज्य से बाहर ठीक हों।</Text>
+    </Row>
+    <!--Naval Raider-->
+    <Row Tag="LOC_PROMOTION_LOOT_DESCRIPTION">
+      <Text>समुद्र तटीय हमलों से +50 [ICON_Gold] सोना। (मानक गति पे)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_BOARDING_DESCRIPTION">
+      <Text>नौसेना विजयों से [ICON_Gold] सोना प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SWIFT_KEEL_DESCRIPTION">
+      <Text>+1 [ICON_Movement] आंदोलन।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_OBSERVATION_DESCRIPTION">
+      <Text>+1 दृश्य क्षेत्र।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HOMING_TORPEDOES_DESCRIPTION">
+      <Text>+10 [ICON_Strength] समर-शक्ति नौसेना इकाइयों के विरुद्ध।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SILENT_RUNNING_DESCRIPTION">
+      <Text>हमला करने के बाद आगे बढ़ सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_WOLFPACK_DESCRIPTION">
+      <Text>प्रति टर्न +1 अतिक्रमण।</Text>
+    </Row>
+    <!--Apostle-->
+    <Row Tag="LOC_PROMOTION_ORATOR_DESCRIPTION">
+      <Text>धर्म को 2 अतिरिक्त बार फैला सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PROSELYTIZER_DESCRIPTION">
+      <Text>धार्मिक प्रसार लक्ष्य शहर में मौजूद अन्य धर्मों से 75% दबाव को समाप्त करता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_TRANSLATOR_DESCRIPTION">
+      <Text>धार्मिक विस्तार अन्य सभ्यताओं के शहरों में तिगुना मजबूत होता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_PILGRIM_DESCRIPTION">
+      <Text>पहली बार किसी प्राकृतिक अजूबे के पास जाने पर 3 अतिरिक्त स्प्रेड प्राप्त करता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_INDULGENCE_VENDOR_DESCRIPTION">
+      <Text>यदि यह इकाई आपके धर्म को पहली बार शहर में रूपांतरित करती है तो [ICON_Gold] 100 सोने का लाभ प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_HEATHEN_CONVERSION_DESCRIPTION">
+      <Text>धार्मिक शक्ति का उपयोग करके आप सभी समग्र बार्बरों को अपनी ओर खींच सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_DEBATER_DESCRIPTION">
+      <Text>+20 [ICON_Religion] धार्मिक शक्ति धार्मिक युद्ध में।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MARTYR_DESCRIPTION">
+      <Text>यदि धार्मिक लड़ाई में यह अपोस्तल मर जाता है तो उससे एक अवशेष उत्पन्न होता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CHAPLAIN_DESCRIPTION">
+      <Text>एपॉस्टल एक मेडिक के रूप में काम करता है, जो 1 टाइल के भीतर इकाइयों को अतिरिक्त चिकित्सा प्रदान करता है।</Text>
+    </Row>
+    <!--Warrior Monk-->
+    <Row Tag="LOC_PROMOTION_MONK_SHADOW_STRIKE_DESCRIPTION">
+      <Text>2 बार फ्लैंकिंग बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_TWILIGHT_VEIL_DESCRIPTION">
+      <Text>केवल पड़ोसी दुश्मन इकाइयों के द्वारा इस इकाई का पता लगाया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_EXPLODING_PALMS_DESCRIPTION">
+      <Text>सभी स्थितियों में +10 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DISCIPLES_DESCRIPTION">
+      <Text>यह इकाई अपने धर्म को आसपास के शहरों में फैलाती है जब वह एक दुश्मन इकाई को हराती है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_SWEEPING_WIND_DESCRIPTION">
+      <Text>प्रति टर्न एक अतिरिक्त हमला, यदि [ICON_Movement] गति की अनुमति होती है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_DANCING_CRANE_DESCRIPTION">
+      <Text>+1 [ICON_Movement] आंदोलन।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_MONK_COBRA_STRIKE_DESCRIPTION">
+      <Text>सभी स्थितियों में +15 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <!--Spy-->
+    <Row Tag="LOC_PROMOTION_SPY_TECHNOLOGIST_DESCRIPTION">
+      <Text>तकनीक चुराएँ जैसे 2 स्तर अधिक अनुभव हो।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CAT_BURGLAR_DESCRIPTION">
+      <Text>जैसे दो स्तर अधिक अनुभवी होने की तरह महान कार्य चुराओ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DEMOLITIONS_DESCRIPTION">
+      <Text>जैसे दो स्तर अधिक अनुभव वाले हों, उसी तरह उत्पादन को नुकसान पहुंचाएं।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_CON_ARTIST_DESCRIPTION">
+      <Text>जैसे कि 2 स्तर अधिक अनुभवी होने की तरह फंड निकास करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_GUERILLA_LEADER_DESCRIPTION">
+      <Text>दलीय सैनिकों को 2 स्तर अधिक अनुभवी के रूप में भर्ती करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ROCKET_SCIENTIST_DESCRIPTION">
+      <Text>रॉकेट्री को 2 स्तर अधिक अनुभवी होने की तरह अवरोधित करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SEDUCTION_DESCRIPTION">
+      <Text>जैसे 2 स्तर अधिक अनुभव वाला काउंटर स्पाई।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_DISGUISE_DESCRIPTION">
+      <Text>दुश्मन शहर में मौजूदगी स्थापित करना कोई समय नहीं लेता।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LINGUIST_DESCRIPTION">
+      <Text>सभी मिशनों को पूरा करने का समय 25% तक कम कर दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_QUARTERMASTER_DESCRIPTION">
+      <Text>यदि यह जासूस अपने घर के क्षेत्र में है, तो आपके सभी जासूस +1 स्तर पर काम करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_ACE_DRIVER_DESCRIPTION">
+      <Text>यदि मिशन पर पकड़ा जाता है, तो बचने की संभावना बहुत अधिक होती है (+4 स्तर)।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

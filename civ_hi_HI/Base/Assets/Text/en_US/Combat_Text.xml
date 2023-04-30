@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_CITY_MAKE_RANGED_ATTACK">
+      <Text>अपने शहर से हमला करें! (Apne shahar se hamla karein!)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT">
+      <Text>रक्षा करते समय, आपके {2_UnitName} ({5_Num} हानि) ने {3_EnemyAdjective} {4_EnemyUnitName} को मार डाला!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT_DEFENDING_CITY">
+      <Text>{2_CityName} के शहर की रक्षा करते हुए ({5_Num} क्षति) आपके शहर ने {3_EnemyAdjective} {4_EnemyUnitName} को मार डाला!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_CITY_WAS_CAPTURED">
+      <Text>आपके शहर {1_CityName} को दुश्मन {2_UnitName} ने कब्जा कर लिया है!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_CAPTURED_ENEMY_CITY">
+      <Text>आपकी {1_UnitName} ({2_Num} क्षति) ने दुश्मन के {3_CityName} शहर को जीत लिया है!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_CAPTURED_ENEMY_UNIT">
+      <Text>आपकी {1_UnitName} ने शत्रु {2_UnitName} को पकड़ लिया है!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_CAPTURED_BY_ENEMY_UNIT">
+      <Text>आपकी {1_UnitName} एक दुश्मन {2_UnitName} द्वारा कब्ज़ा कर लिया गया था!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DESTROYED_ENEMY">
+      <Text>आपकी {1_UnitName} ({2_Num} क्षति) ने एक दुश्मन {3_UnitName} को नष्ट कर दिया!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_ANTI_AIR">
+      <Text>आपका हमलावर {1_UnitName} दुश्मन {2_EnUName} से मारा गया!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_INTERCEPTED">
+      <Text>आपका हमलावर {1_UnitName} दुश्मन {2_EnUName} द्वारा लगाए गए ({3_Num} हथियार) हमले में मारा गया!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING">
+      <Text>आपकी {1_UnitName} एक दुश्मन {2_EnUName} पर हमला करते समय मर गई ({3_Num} हानि)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_CITY">
+      <Text>आपकी {1_UnitName} {2_EnUName} शहर पर हमला करते हुए मर गई ({3_Num} क्षति)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_ANTI_AIR">
+      <Text>आपकी हमलावर {2_UnitName} ({3_Num} हानि) को {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} ने नुकसान पहुँचाया!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_INTERCEPTED">
+      <Text>आपका हमला करने वाला {2_UnitName} ({3_Num} हताशा) {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} ({6_Num} हताशा) द्वारा रोक दिया गया था!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW">
+      <Text>आपकी {1_UnitName} ({2_Num} हानि) ने एक दुश्मन {3_EnUName} ({4_Num} हानि) को आक्रमण किया है!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_CITY">
+      <Text>आपकी {1_UnitName} ({2_Num} क्षति) ने दुश्मन शहर {3_CityName} ({4_Num} क्षति) पर हमला किया है!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_FRIENDLY_UNIT_WITHDREW">
+      <Text>हमारी {1_UnitName} दुश्मन के हथियार से हुए मीले अटैक से वापस हो गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_UNIT_WITHDREW">
+      <Text>आपकी {1_UnitName} ({2_Num} क्षति) एक दुश्मन {3_EnUName} ({4_Num} क्षति) द्वारा अटैक की गई!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_UNIT_WITHDREW_INTERCEPTING">
+      <Text>आपकी {1_UnitName} ({2_Num} क्षति) ने एक दुश्मन {3_EnUName} ({4_Num} क्षति) को रोक लिया!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_INTERCEPTING">
+      <Text>अवरोधन के दौरान, {2_UnitName} को {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} द्वारा नष्ट कर दिया गया था ({6_Num} क्षति)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_DEFENDING">
+      <Text>रक्षा करते समय, आपकी {2_UnitName} को {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName} द्वारा नष्ट कर दिया गया था ({5_Num} हानि)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_STRAFED_ENEMY">
+      <Text>आपकी {1_UnitName} ने एक दुश्मन {2_EnUName} को फायर करके {3_Num} क्षति का कारण बनाया!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_BOMBED_ENEMY">
+      <Text>आपकी {1_UnitName} ने एक दुश्मन {2_EnUName} को बमबारी करके {3_Num} क्षति पहुंचाई!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_STRAFED_BY_ENEMY">
+      <Text>आपकी {1_UnitName} को एक दुश्मन {2_EnUName} द्वारा स्ट्राफ किया गया था और उसे {3_Num} क्षति पहुँची!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_DAMAGED_ENEMY">
+      <Text>आपकी {1_UnitName} ने दुश्मन {2_EnUName} को नुकसान पहुंचाया ({3_Num} नुकसान)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_BOMBARDED_ENEMY">
+      <Text>आपकी {1_UnitName} ने एक दुश्मन {2_EnUName} पर हमला करते हुए {3_Num} क्षति पहुंचाई!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_BOMBARDED_BY_ENEMY">
+      <Text>आपकी {1_UnitName} एक दुश्मन {2_EnUName} द्वारा बम विस्फोट से {3_Num} क्षति प्राप्त कर गई!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_WMD_SUCCEEDED">
+      <Text>आपका {1_UnitName} डब्ल्यूएमडी हमला सफल रहा!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_WMD_FAILED_HIGH_DAMAGE">
+      <Text>आपका {1_UnitName} डब्लूएमडी हमला उच्च नुकसान के कारण असफल रहा।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_WMD_SUCCEEDED">
+      <Text>आपने {1_दुश्मन_विशेषण} {2_दुश्मन_इकाई_नाम} के WMD हमले को रोकने में विफल रहे!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ENEMY_WMD_FAILED_HIGH_DAMAGE">
+      <Text>आपने {3_Num} नुकसान कराकर {1_EnemyAdjective} {2_EnemyUnitName} वापसी विमान अभ्यास का सफल रूप से रोक दी!</Text>
+    </Row>
+    <Row Tag="LOC_MISC_YOUR_UNIT_DIED_BY_UNKNOWN">
+      <Text>रक्षा करते समय, आपकी {1_UnitName} एक छलनी {2_EnUName} द्वारा नष्ट हो गयी ({3_Num} क्षति)!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_ATTACKED_ENEMY_DISTRICT">
+      <Text>आपकी {1_UnitName} ने एक दुश्मन {2_Name} पर हमला करते हुए {3_Num} हानि पहुंचाई!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_WAS_ATTACKED_BY_ENEMY">
+      <Text>आपका {1_Name} दुश्मन {2_EnUName} द्वारा हमला किया गया था और इससे {3_Num} हानि हुई!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_ATTACKED_ENEMY_DISTRICT_DEFENSES">
+      <Text>आपकी {1_UnitName} ने एक दुश्मन {2_Name} ({3_Num} {2_Name} होगा, {4_Num} रक्षा होगी) पर हमला किया।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_DEFENSE_WAS_ATTACKED_BY_ENEMY">
+      <Text>आपके {1_Name} को एक दुश्मन {2_EnUName} ({3_Num} {2_Name} नुकसान, {4_Num} रक्षा नुकसान) ने हमला किया था।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_DESTROYED_ENEMY">
+      <Text>{1_Name} ने दुश्मन {2_EnUName} को बम गिराया! ({3_Damage} हानि)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_DISTRICT_BOMBARDED_ENEMY">
+      <Text>{1_Name} ने एक दुश्मन {2_EnUName} को बम गिराया! ({3_Damage} क्षति)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_BOMBARDED_BY_ENEMY_DISTRICT">
+      <Text>आपके {1_Name} को दुश्मन {2_EnUName} द्वारा {3_Num} हानि पहुँचाई गई!</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_ICBM_DESTROYED">
+      <Text>आईसीबीएम रोका और नष्ट कर दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_UNIT_HEALED">
+      <Text>आपके लूटने के दौरान अपने {1_Name} का इलाज हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_CULTURE">
+      <Text>आपने अपनी लूट के दौरान {1_Num} [ICON_Culture] संस्कृति प्राप्त की है।</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_FAITH">
+      <Text>आपने अपनी लूट के दौरान {1_Num} [ICON_Faith] आस्था प्राप्त की।</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_GOLD">
+      <Text>आपने अपनी लूट के दौरान {1_Num} [ICON_Gold] सोने की लूट प्राप्त की है।</Text>
+    </Row>
+    <Row Tag="LOC_PLUNDER_SCIENCE">
+      <Text>आपने अपने विजय में से {1_Num} [ICON_Science] विज्ञान प्राप्त किए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_KILL_CULTURE">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num} [ICON_Culture][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_FAITH">
+      <Text>[COLOR_FLOAT_FAITH]+{1_Num} [ICON_Faith][ENDCOLOR] (इसमें कोई अनुवाद नहीं होगा।)</Text>
+    </Row>
+    <Row Tag="LOC_KILL_FAITH_PLUS">
+      <Text>[COLOR_FLOAT_FAITH]+{1_Num} {2_Religion}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_FAITH_MINUS">
+      <Text>[COLOR_RED]-{1_Num} {2_Religion}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_GOLD">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_SCIENCE">
+      <Text>[COLOR_FLOAT_SCIENCE]+{1_Num} [ICON_Science][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_KILL_GREATPERSON_BONUS">
+      <Text>[COLOR_FLOAT_FOOD]+{1_Num} {2_GreatPerson} अंक[ENDCOLOR]</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_DISTRICT_GARRISON_DAMAGE_DECREASE_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR] स्वास्थ्य</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_DISTRICT_GARRISON_DAMAGE_INCREASE_FLOATER">
+      <Text>[COLOR_RED]{1_Num}[ENDCOLOR] स्वास्थ्य</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_DISTRICT_DEFENSE_DAMAGE_DECREASE_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR] सुरक्षा प्रणाली</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_DISTRICT_DEFENSE_DAMAGE_INCREASE_FLOATER">
+      <Text>[COLOR_RED]{1_Num}[ENDCOLOR] सुरक्षा उपाय</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_HEADER">
+      <Text>शहर का अधिकार प्राप्त हो गया।</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_TRADED">
+      <Text>शहर प्राप्त हुआ</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_NAME_LABEL">
+      <Text>शहर का नाम:</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_POPULATION_LABEL">
+      <Text>जनसंख्या:</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_DISTRICTS_LABEL">
+      <Text>वर्तमान में जिलों की संख्या:</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_EXPLANATION">
+      <Text>एक शहर को मुक्त करने से उसे उसके पूर्व मालिकों में से एक लौटाया जाएगा, जो शायद उस नागरिकता को खेल में वापस लाएगा। [NEWLINE] [NEWLINE] {1_WarmongerInfo}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_WARMONGER_EXPLANATION">
+      <Text>एक शहर को मुक्त करने से पहले कमाए गए गुंडागर्दी दंड में [COLOR_MEDIUM_GREEN]गंभीर कमी[ENDCOLOR] होती है।</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_EXPLANATION">
+      <Text>अब इस शहर को अपने साम्राज्य में रखें। यह शहर युद्ध के बाद शांति सम्मेलन में इसके स्वामित्व की चर्चा होने तक एक कम उत्पादक, अधिकृत शहर होगा। [NEWLINE] [NEWLINE] {1_WarmongerInfo}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_EXPLANATION_TRADED">
+      <Text>इस शहर को अपने साम्राज्य में रखें।</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_WARMONGER_EXPLANATION">
+      <Text>इस शहर को रखने के लिए युद्धरत दंड है: {1_WarmongerLevel}[NEWLINE][NEWLINE]यदि आप शहर को रखते हैं तो दंड का भुगतान वापस किया जाएगा या दोगुना किया जाएगा यदि आप अंत में युद्ध जीतते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_LAST_CITY_EXPLANATION">
+      <Text>खिलाड़ी के अंतिम शहर को रखने के लिए जंगकीर्ती दंड इस युग के लिए अचानक युद्ध दंड पर आधारित होता है। यदि इस शहर को जीतने से एक प्रमुख सभ्यता को खत्म कर दिया जाता है (एक शहर राज्य नहीं), तो इस मूल्य को [COLOR_RED]दोहराया[ENDCOLOR] जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_EXPLANATION">
+      <Text>शहर को साफ करें और इसे नक्शे से हटा दें ताकि उसे पुनः बनाया न जा सके। यह विकल्प शहर का अधिकार पाने वाली बार का चुनाव किया जाना चाहिए।[NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_WARMONGER_EXPLANATION">
+      <Text>[COLOR_RED]एक शहर को उखाड़ फेंकना आपको एक गंभीर घुदचड़ दंड दे सकता है![ENDCOLOR] [NEWLINE][NEWLINE] इस शहर को उखाड़ फेंकने के लिए अब घुदचड़ दंड है: {1_WarmongerLevel}</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_LAST_CITY_EXPLANATION">
+      <Text>जब आप किसी खिलाड़ी के अंतिम शहर को नष्ट करते हैं तो वॉरमोंगर पेनल्टी इस युग के फॉर्मल वॉर पेनल्टी की [COLOR_RED]तीन गुना[ENDCOLOR] होती है।</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_DISABLED_EXPLANATION">
+      <Text>आप एक महान सभ्यता की मूल राजधानी या उस शहर को नहीं उखाड़ सकते जो आप या आपका सहयोगी इस युद्ध की शुरुआत में स्थापित किया था।</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_FOUNDER_BUTTON_LABEL">
+      <Text>स्थापक ({1_CivName}) को मुक्ति दें।</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_PREWAR_OWNER_BUTTON_LABEL">
+      <Text>पूर्व-युद्ध स्वामी ({1_CivName}) को मुक्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_KEEP_BUTTON_LABEL">
+      <Text>शहर को रखें।</Text>
+    </Row>
+    <Row Tag="LOC_RAZE_CITY_RAZE_BUTTON_LABEL">
+      <Text>रेज सिटी</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

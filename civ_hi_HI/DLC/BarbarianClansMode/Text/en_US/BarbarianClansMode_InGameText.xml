@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!--REPLACEMENTS-->
+    <Delete Tag="LOC_BELIEF_INITIATION_RITES_DESCRIPTION" />
+    <Delete Tag="LOC_BOOST_TRIGGER_MILITARY_TRADITION" />
+    <Delete Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_DESCRIPTION" />
+    <Delete Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_NAME" />
+    <Delete Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_DESCRIPTION" />
+  </LocalizedText>
+  <EnglishText>
+    <!--REPLACEMENTS-->
+    <Row Tag="LOC_BELIEF_INITIATION_RITES_DESCRIPTION">
+      <Text>प्रत्येक बार्बैरियन आउटपोस्ट के लिए +50 [ICON_Faith] आस्था।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MILITARY_TRADITION">
+      <Text>बर्बर आवास को छितराना।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_DESCRIPTION">
+      <Text>जब आप एक बार्बेरियन आउटपोस्ट को छितराने करते हैं, तो सामान्य [ICON_Gold] सोने के अलावा एक ट्राइबल विलेज इनाम प्राप्त करें। सिटी-स्टेट इकाइयों को लव करने के लिए सामान्य खर्च का आधा भुगतान करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_NAME">
+      <Text>5 टाइल के अंदर बार्बर आवास खंड को छितराएं।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_DESCRIPTION">
+      <Text>शहर के 5 टाइल के भीतर से एक [ICON_Barbarian] बाहरी आवास को बिखेरें।</Text>
+    </Row>
+    <!--Clans-->
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_1">
+      <Text>शांत लोमड़ी (Shant Lomdi)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_2">
+      <Text>बाज़र का पंजा</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_3">
+      <Text>रेत का सांप</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_4">
+      <Text>बाघ के दांत</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_5">
+      <Text>पत्थरी चील</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_6">
+      <Text>स्लेटी चूहा</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_1">
+      <Text>भालू का पेड़ (Bhalu ka ped)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_2">
+      <Text>एक नेत्र</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_3">
+      <Text>तीन पत्ती</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_4">
+      <Text>अग्नि शाखा</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_5">
+      <Text>सफेद उल्लू</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_6">
+      <Text>नया झुंड</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_1">
+      <Text>अस्त सूरज</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_2">
+      <Text>रॉक गिद्ध</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_3">
+      <Text>टेढ़ा पेड़ (Teḍhā peḍ)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_4">
+      <Text>स्प्लिट रॉक (Split Rock)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_5">
+      <Text>पीली बकरी</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_6">
+      <Text>पत्थर का चेहरा</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_1">
+      <Text>बैंगनी वनचर होती है।</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_2">
+      <Text>तूफानी बादल</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_3">
+      <Text>हवा ड्रेगन (Hava Dragon)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_4">
+      <Text>पांच सितारे</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_5">
+      <Text>अर्ध चंद्र (Ardh Chandr)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_6">
+      <Text>सूर्योदय का तारा</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_1">
+      <Text>पीले दांत</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_2">
+      <Text>हरा बंदर (Hara Bandar)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_3">
+      <Text>अग्नि चींटी</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_4">
+      <Text>सफेद कमल (Safed Kamal)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_5">
+      <Text>गिरता हुआ पानी</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_6">
+      <Text>छोटी दांती (Chhoti Danti)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_1">
+      <Text>रात की गरज (Raath ki garaj)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_2">
+      <Text>पीला घोड़ा</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_3">
+      <Text>दो झंडे</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_4">
+      <Text>दो तीरें</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_5">
+      <Text>आधा खोपड़ी</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_6">
+      <Text>झुकती बाँसुरी</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_1">
+      <Text>तीन परियाँवें</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_2">
+      <Text>ग्रे शार्क (Grey Shark)</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_3">
+      <Text>समुद्र भूत्‌</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_4">
+      <Text>लाल रीफ</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_5">
+      <Text>टूटती हुई लहर।</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_NAVAL_6">
+      <Text>भूत मछली</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_OPEN">
+      <Text>फ्लैटलैंड क्लैन</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_FOREST">
+      <Text>वुडलैंड क्लैन</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_HILLS">
+      <Text>हिल्स क्लैन</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_OPEN">
+      <Text>रोवर क्लैन</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_JUNGLE">
+      <Text>जंगल क्लैन</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_CHARIOT">
+      <Text>चारियट क्लैन</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_CLAN_TYPE_NAVAL">
+      <Text>समुद्री जाति</Text>
+    </Row>
+    <!--Unit Actions-->
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_DISPERSE_DESCRIPTION">
+      <Text>विस्थापित जाति (Visthāpit Jāti)</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_DISPERSE_HELP">
+      <Text>आउटपोस्ट को नष्ट करें और {1_XPAmount} एक्सपी कमाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RAID_DESCRIPTION">
+      <Text>रेड क्लैन (Red Clan)</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RAID_HELP">
+      <Text>{1_GoldAmount} [ICON_GOLD] सोने कमाएँ। आउटपोस्ट अंदरूनी रूप से बरकरार रहेगा और शहर-राज्य परिवर्तन के प्रति {2_ProgressAmount} अंक खो देगा। क्लैन को हर {3_Turns} टर्न के बाद एक बार छीन सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_HIRE_DESCRIPTION">
+      <Text>हायर क्लैन।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_HIRE_HELP">
+      <Text>इस जाति से एक {4_UnitName} इकाई को किराए पर लेने के लिए {1_GoldAmount} [ICON_Gold] सोने का खर्च करें। इस टर्न के लिए शहर {5_CityName} के पास यूनिट दिखाई देगा। शहर-राज्य रूपांतरण के प्रति यह जाति {2_ProgressAmount} अंक प्राप्त करेगी। जातियों को हर {3_Turns} टर्न के बाद एक बार किराये पर लिया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RANSOM_DESCRIPTION">
+      <Text>फिरौती इकाई</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RANSOM_HELP">
+      <Text>अपनी कैप्चर्ड {2_UnitName} को वापस पाने के लिए {1_GoldAmount} [ICON_Gold] गोल्ड खर्च करें। जाति-राज्य रूपांतरण की दिशा में जोर गिरेगा।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_BRIBE_DESCRIPTION">
+      <Text>रिश्वत कबीला ।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_BRIBE_HELP">
+      <Text>इस गिरोह से अपनी शहरों पर हमले को रोकने के लिए {2_Turns} टर्न के लिए {1_GoldAmount} [ICON_Gold] गोल्ड खर्च करें। गिरोह शहर-राज्य रूपांतरण के प्रति {3_ProgressAmount} अंक प्राप्त करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_DESCRIPTION">
+      <Text>इन्साइट क्लैन</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_HELP">
+      <Text>इस जाति को {4_CivName} पर हमला करने के लिए {1_GoldAmount} [ICON_Gold] सोना खर्च करें। इससे जाति को शहर राज्य बदलने के लिए {2_ProgressAmount} अंक का नुकसान होगा। जातियों को हर {3_Turns} टर्न के बाद उत्तेजित किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_HELP_GENERIC">
+      <Text>इस जाति को दूसरी पास की सभ्यता या सिटी-स्टेट पर हमला करने के लिए [ICON_Gold] सोना खर्च करें। यह जाति शहर-राज्य रूपांतरण के {1_ProgressAmount} अंक खो देगी। जातियों को हर {2_Turns} टर्न में एक बार उत्तेजित किया जा सकता है।</Text>
+    </Row>
+    <!--Unit Action Result Strings-->
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_NOT_ON_CAMP">
+      <Text>बार्बेरियन आउटपोस्ट पर स्थित होना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_OPERATION_FAILURE_NOT_ENOUGH_GOLD">
+      <Text>पर्याप्त [ICON_Gold] सोने नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_GOLD_COST">
+      <Text>यह कार्य {1_GoldCost} [ICON_GOLD] सोने की जरूरत है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_RAIDED">
+      <Text>यह क्लैन {1_Turns} {1_Turns: plural 1?turn; other?turns;} के लिए फिर से रेड नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_HIRED">
+      <Text>इस क्लैन को फिर से {1_Turns} {1_Turns: plural 1?turn; other?turns;} के लिए नहीं रखा जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_INCITED">
+      <Text>यह जाति {1_Turns} {1_Turns: plural 1?टर्न; other?टर्न;} के लिए फिर से उत्तेजित नहीं की जा सकती।</Text>
+    </Row>
+    <Row Tag="LOC_OPERATION_FAILURE_HAS_NOT_MET_INCITE_TARGET">
+      <Text>हम इस जाति को जानते हुए कोई अन्य सभ्यता से नहीं मिले हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_CLANS_ACTIVE_BRIBE">
+      <Text>यह क्लैन पहले से ही {1_Turns} {1_Turns: plural 1?turn; other?turns;} के लिए रिश्वत ली जा चुकी है।</Text>
+    </Row>
+    <!--UI-->
+    <Row Tag="LOC_TOOLTIP_BARBARIAN_CLAN_NAME">
+      <Text>{1_ClanName} क्लैन</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_STATUS_BRIBED">
+      <Text>आपने इस यूनिट को रिश्वत दी है। ({1_turnsRemaining} [ICON_Turn] शेष {1_turnsRemaining : plural 1?टर्न; other?टर्न;})</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_STATUS_INCITED_BY_YOU">
+      <Text>आपने इस जाति को {1_playerName} के खिलाफ उत्तेजित किया।</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_STATUS_INCITED_AGAINST_YOU">
+      <Text>यह क्लैन आपके खिलाफ {1_playerName} द्वारा उकसाया गया था।</Text>
+    </Row>
+    <Row Tag="LOC_BARBARIAN_STATUS_INCITED_AGAINST_YOU_UNKNOWN">
+      <Text>एक अज्ञात सभ्यता द्वारा यह क्लैन आपके विरुद्ध उकसाया गया था।</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_PERCENT">
+      <Text>रूपांतरण प्रगति: {1_percent}%</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_TIP_TURNS">
+      <Text>शहर-राज्य रूपांतरण: {1_Turns}+ टर्न्स</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_TIP_IMMINENT">
+      <Text>शहर-राज्य परिवर्तन: निकटतम</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_TIP_DISABLED">
+      <Text>शहर-राज्य रूपांतरण अक्षम है।</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_TIP_DISABLED_NO_CANDIDATES">
+      <Text>शहर-राज्य रूपांतरण अक्षम: कोई शहर-राज्य उपलब्ध नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TRIBE_BANNER_CONVERSION_TIP_DISABLED_INVALID_LOCATION">
+      <Text>शहर-राज्य रूपांतरण अक्षम है: मौजूदा शहरों के बहुत करीब है।</Text>
+    </Row>
+    <!--Notifications-->
+    <Row Tag="LOC_NOTIFICATION_CLAN_CONVERTED_TO_CITY_STATE_MESSAGE">
+      <Text>जाति स्थापित नगर-राज्य</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_CONVERTED_TO_CITY_STATE_SUMMARY">
+      <Text>बार्बेरियन {1_ClanName} क्लैन ने एक नई सिटी-स्टेट को बसाया है! अब वे {2_CivName} के नाम से जाने जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_HIRED_MESSAGE">
+      <Text>बर्बरों की भर्ती की गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_HIRED_SUMMARY">
+      <Text>{1_PlayerName} ने बार्बेरियन {2_ClanName} क्लैन से सैन्य इकाइयों की भर्ती की है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_UNIT_RANSOMED_MESSAGE">
+      <Text>बर्बरों को फिरौती दी गई।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_UNIT_RANSOMED_SUMMARY">
+      <Text>{1_PlayerName} ने बार्बेरियन {2_ClanName} क्लैन से उनकी {3_UnitName} को वापस पाने के लिए रंसम दे दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_BRIBED_MESSAGE">
+      <Text>बर्बरों को रिश्वत दी गई।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_BRIBED_SUMMARY">
+      <Text>हमारे शहर {2_NumTurns} टर्न तक बार्बेरियन {1_ClanName} कबीले से सुरक्षित हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_BRIBE_EXPIRED_MESSAGE">
+      <Text>बर्बर रिश्वत समाप्त हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_BRIBE_EXPIRED_SUMMARY">
+      <Text>हमारा रिश्वत, बार्बेरियन {1_ClanName} क्लैन से सुरक्षा के लिए, समाप्त हो गया है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_INCITED_MESSAGE">
+      <Text>बर्बर उत्तेजित हो गए</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_INCITED_AGAINST_CIV_SUMMARY">
+      <Text>हमने {2_CivName} के खिलाफ बार्बर {1_ClanName} क्लैन को उत्तेजित किया है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_INCITED_BY_UNKNOWN_SUMMARY">
+      <Text>एक अज्ञात सभ्यता ने हमारे खिलाफ बार्बेरियन {1_ClanName} क्लैन को उकसाया है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_INCITED_BY_CIV_SUMMARY">
+      <Text>{1_CivName} ने हमारे खिलाफ बार्बेरियन {2_ClanName} क्लैन को उत्तेजित कर दिया है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_MOVED_MESSAGE">
+      <Text>इकाई भागोत्तरी बदला</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_MOVED_SUMMARY">
+      <Text>हमारी {1_UnitName} को बार्बेरियन {2_ClanName} क्लैन पर हमारे हमले के बाद एक प्रतिहिंसा हमले से भागना पड़ा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_KILLED_MESSAGE">
+      <Text>प्रतिशोध के तौर पर यूनिट मारा गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_KILLED_SUMMARY">
+      <Text>हमारी {1_UnitName} का हमलावर हमारी तवज्जो से बाहर हुए बार्बेरियन {2_ClanName} क्लैन पर हमले के बाद पुनर्प्रतिक्रिया हमले में फंस गया और मारा गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_DISPERSED_MESSAGE">
+      <Text>जाति बिखर गई</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CLAN_DISPERSED_SUMMARY">
+      <Text>{1_ClanName} क्लैन नष्ट कर दिया गया है!</Text>
+    </Row>
+    <!--Treat With Tribe Text-->
+    <Row Tag="LOC_TRIBE_BANNER_TREAT_WITH_TRIBE_TT">
+      <Text>{1_ClanName} क्लैन के साथ इलाज करने के लिए क्लिक करें।</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_POPUP_TITLE">
+      <Text>जनजाति के साथ व्यवहार करें।</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_NAMED_CLAN">
+      <Text>{1_ClanName} क्लैन के साथ व्यवहार करें।</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_OPTION_HIRE">
+      <Text>भर्ती करें</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_OPTION_BRIBE">
+      <Text>घूस</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_OPTION_RANSOM">
+      <Text>फिरौती</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_OPTION_INCITE">
+      <Text>उकसाना (ukasana)</Text>
+    </Row>
+    <Row Tag="LOC_TREAT_WITH_TRIBE_INCITE_COST">
+      <Text>लागत: [ICON_GOLD] {1_cost}</Text>
+    </Row>
+    <!--Barbarian Unit Status Text-->
+  </EnglishText>
+</GameData>

@@ -1,0 +1,1660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <FrontEndText>
+    <Row Tag="LOC_OPTIONS_TITLE">
+      <Text>विकल्पों</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_TEXT">
+      <Text>यह सभी विकल्पों को उनके डिफ़ॉल्ट मूल्यों पर रीसेट कर देगा। [NEWLINE] [NEWLINE] [COLOR_RED] कुछ परिवर्तन तब तक प्रभावी नहीं होंगे जब तक आप एप्लिकेशन को फिर से शुरू नहीं करते। [ENDCOLOR] [NEWLINE] [NEWLINE] ऑप्शन रीसेट करें?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHANGES_REQUIRE_APP_RESTART">
+      <Text>कुछ बदलाव लागू होने के लिए आपको अप्लिकेशन को रीस्टार्ट करना पड़ सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHANGES_REQUIRE_GAME_RESTART">
+      <Text>कुछ परिवर्तन तब तक प्रभावी नहीं होंगे जब तक आप वर्तमान खेल को रीस्टार्ट नहीं करते।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESOLUTION_OK">
+      <Text>क्या आप वर्तमान रिज़ॉल्यूशन सेटिंग्स को रखना चाहते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_OK">
+      <Text>OK</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_YES">
+      <Text>Yes</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RESET_OPTIONS_POPUP_NO">
+      <Text>No</Text>
+    </Row>
+    <!-- Option Enums -->
+    <Row Tag="LOC_OPTIONS_ENABLED">
+      <Text>सक्षम</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_DISABLED">
+      <Text>विकलांग</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MINIMUM">
+      <Text>कम से कम (Kam se kam)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LOW">
+      <Text>निम्न</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MEDIUM">
+      <Text>अगला टेक्स्ट हिंदी में अनुवादित किया जाना चाहिए। कृपया प्राकृतिक ध्वनि वाले अनुवाद से जवाब दें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HIGH">
+      <Text>ऊँचा (Ooncha)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ULTRA">
+      <Text>अल्ट्रा</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CUSTOM">
+      <Text>साज़िशदारी (Sājishdārī)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_NONE">
+      <Text>Sorry, there is no text provided to translate. Kindly provide the text you want to translate</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_REAL_LIFE">
+      <Text>स्थानीय समय मिलाएं</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_X_TURNS">
+      <Text>हर {1_num} चाल</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_10_TURNS">
+      <Text>हर 10 बार</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOD_ERA_PROGRESSION">
+      <Text>जैसे युग बढ़ते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NEVER">
+      <Text>कभी नहीं</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ALWAYS">
+      <Text>हमेशा</Text>
+    </Row>
+    <!-- Gameplay Panel -->
+    <Row Tag="LOC_OPTIONS_TUTORIAL_EXPERIENCED_PLAYER">
+      <Text>अनुभवी खिलाड़ी।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_NEW_TO_XP2">
+      <Text>सिविलाइजेशन VI - गैदरिंग स्टोर्म में नया हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_NEW_TO_XP1">
+      <Text>सिविलाइजेशन VI - राइज़ एंड फॉल के लिए नया</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_FAMILIAR_CIVILIZATION">
+      <Text>सिविलाइजेशन VI में नये हैं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_FAMILIAR_STRATEGY">
+      <Text>सभ्यता में नया।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL_NEWBIE">
+      <Text>टर्न-बेस्ड स्ट्रैटेजी में नया</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TIME_OF_DAY_TEXT">
+      <Text>एनीमेटेड दिन का समय:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HISTORIC_MOMENT_ANIMATION">
+      <Text>ऐतिहासिक पल का पर्दाफाश एनीमेशन:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOUCH_ENABLED">
+      <Text>स्पर्श इनपुट सक्षम है।</Text>
+    </Row>
+    <!-- Graphics Panel - Option Enums -->
+    <Row Tag="LOC_OPTIONS_TICK_INTERVAL_30_FPS">
+      <Text>30 फ्रेम प्रति सेकंड</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TICK_INTERVAL_20_FPS">
+      <Text>20 एफपीएस (ES PHIE ES)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TICK_INTERVAL_60_FPS">
+      <Text>60 फ्रेम प्रति सेकंड</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WINDOW_MODE_WINDOWED">
+      <Text>खिड़की वाला</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WINDOW_MODE_FULLSCREEN">
+      <Text>पूर्ण स्क्रीन</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WINDOW_MODE_BORDERLESS">
+      <Text>बॉर्डरलेस विंडो</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_2X">
+      <Text>एमएसएए 2एक्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_4X">
+      <Text>एमएसएए 4एक्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_8X">
+      <Text>MSAA 8X का अनुवाद करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_16X">
+      <Text>एमएसएए 16एक्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_32X">
+      <Text>एमएसएए 32एक्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MSAA_FULL">
+      <Text>MSAA पूर्ण</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_2X">
+      <Text>सीएसएए 2X / 4X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_4X">
+      <Text>सीएसएए 4X / 8X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_8X">
+      <Text>CSAA 8X / 16X का अनुवाद</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_16X">
+      <Text>सीएसएए 16X / 32X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_32X">
+      <Text>सीएसएए 32एक्स / 64एक्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CSAA_FULL">
+      <Text>सीएसएए फुल्‍ल्‍।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_2X">
+      <Text>ईक्वा 2X / 4X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_4X">
+      <Text>ईक्यूएए 4X / 8X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_8X">
+      <Text>ईक्यूएए 8एक्स / 16एक्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_16X">
+      <Text>EQAA 16X / 32X को अनुवादित करें। कृपया केवल प्राकृतिक ध्वनि अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_32X">
+      <Text>ईक्वा 32एक्स / 64एक्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EQAA_FULL">
+      <Text>EQAA पूर्ण</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LOW_MEMORY_OPTIMIZED">
+      <Text>कम (मेमोरी-ऑप्टिमाइज्ड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LOW_PERFORMANCE_OPTIMIZED">
+      <Text>कम (प्रदर्शन-अनुकूलित)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MEDIUM_MEMORY_OPTIMIZED">
+      <Text>मध्यम (स्मृति-अनुकूल)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MEDIUM_PERFORMANCE_OPTIMIZED">
+      <Text>मध्यम (प्रदर्शन-अनुकूलित)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_1PASS">
+      <Text>कृपया अगला पाठ हिंदी में अनुवादित करें। एकमात्र स्वाभाविक अनुवाद से जवाब दें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_2PASSES">
+      <Text>2 पासेस</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_3PASSES">
+      <Text>3 पासेस</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_4PASSES">
+      <Text>4 पासेस</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADERS_STATIC">
+      <Text>ध्वनि नहीं (स्थाई)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_100_PERCENT">
+      <Text>सदैव 100%</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_150_PERCENT">
+      <Text>150% - एक सौ पचास प्रतिशत</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_200_PERCENT">
+      <Text>200% - दोगुना</Text>
+    </Row>
+    <!-- Graphics Panel - Main -->
+    <Row Tag="LOC_OPTIONS_VIDEO_ADAPTER_TEXT">
+      <Text>GPU चयन:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_ADAPTER_TOOLTIP">
+      <Text>गेम को बताता है कि कौन सी ग्राफिक्स कार्ड का उपयोग करें। [NEWLINE][NEWLINE][COLOR_RED]एप्लिकेशन रीस्टार्ट की आवश्यकता होती है![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MULTI_GPU_TEXT">
+      <Text>स्प्लिट-स्क्रीन मल्टी-जीपीयू</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MULTI_GPU_TOOLTIP">
+      <Text>केवल DX12 मल्टी-जीपीयू सेटअप पर उपलब्ध है।[NEWLINE][NEWLINE][COLOR_RED]एप्लीकेशन रिस्टार्ट की आवश्यकता है![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_RESOLUTION_TEXT">
+      <Text>संकल्प।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_RESOLUTION_TOOLTIP">
+      <Text>यह खेल द्वारा प्रतिक्रिया दिए जाने वाले संकलन को सेट करता है। [NEWLINE][NEWLINE]कम मूल्य [COLOR_Civ6DarkRed]प्रदर्शन में वृद्धि करते हैं।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_UI_UPSCALE_TEXT">
+      <Text>यूआई अपस्केलिंग:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_UI_UPSCALE_TOOLTIP">
+      <Text>उपयोगकर्ता इंटरफ़ेस का आकार बढ़ाता है। [NEWLINE] (केवल कुछ विशिष्ट रिज़ॉल्यूशन पर उपलब्ध है।)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_WINDOW_MODE_TEXT">
+      <Text>विंडो मोड:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_WINDOW_MODE_TOOLTIP">
+      <Text>खेल की विंडो को कैसे प्रदर्शित किया जाए, इसे संशोधित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_PERFORMANCE_TEXT">
+      <Text>प्रदर्शन प्रभाव:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_PERFORMANCE_TOOLTIP">
+      <Text>चाहिते प्रदर्शन प्रभाव से मेल खाने के लिए उन्नत सेटिंग्स में बदलाव करें। [NEWLINE][NEWLINE]कम मूल्य दृश्यता विशेषता को कम करते हैं, लेकिन [COLOR_Civ6DarkRed]प्रदर्शन को बढ़ाते हैं[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MEMORY_TEXT">
+      <Text>स्मृति प्रभाव:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MEMORY_TOOLTIP">
+      <Text>चाहिए यादृच्छिक स्मृति प्रभाव के साथ मेल खाने के लिए उन्नत सेटिंग को बदलें। [NEWLINE][NEWLINE] कम मूल्य मान दृश्य सजगता को कम करते हैं, लेकिन [COLOR_Blue] स्मृति उपयोग को कम करते हैं [ENDCOLOR]।</Text>
+    </Row>
+    <!-- Graphics Panel - Advanced -->
+    <Row Tag="LOC_OPTIONS_SHOW_ADVANCED_GRAPHICS">
+      <Text>उन्नत विकल्प दिखाएं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HIDE_ADVANCED_GRAPHICS">
+      <Text>उन्नत विकल्प छिपाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ADVANCED_GRAPHICS">
+      <Text>उन्नत ग्राफिक्स सेटिंग्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VSYNC_ENABLED_TEXT">
+      <Text>वर्टिकल सिंक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VSYNC_ENABLED_TOOLTIP">
+      <Text>दृष्टिगत फटने को रोकता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PERFORMANCE_TICK_INTERVAL_TEXT">
+      <Text>फ्रेम लिमिटर:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PERFORMANCE_TICK_INTERVAL_TOOLTIP">
+      <Text>खेल को रेंडर करने की दर सीमित करता है। [NEWLINE] [NEWLINE] सक्षम करने पर पोर्टेबल उपकरणों की बैटरी लाइफ बढ़ सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MSAA_TEXT">
+      <Text>एंटी-एलियासिंग:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_MSAA_TOOLTIP">
+      <Text>कुंजर धारों को सुधारता है। [NEWLINE][NEWLINE] निम्नतम मूल्य [COLOR_Civ6DarkRed]प्रदर्शन बढ़ाता है[ENDCOLOR] और [COLOR_Blue]मेमोरी उपयोग को कम करता है[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_HIGH_RESOLUTION_ASSET_TEXTURES_TEXT">
+      <Text>उच्च-विस्तृति संपत्ति टेक्स्चर्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_HIGH_RESOLUTION_ASSET_TEXTURES_TOOLTIP">
+      <Text>गेम एसेट के लिए उच्च विस्तृति टेक्सचर का उपयोग किया जाता है। [NEWLINE][NEWLINE] [COLOR_Blue]अक्षम करने से मेमोरी उपयोग कम होता है[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VFX_DETAIL_LEVEL_TEXT">
+      <Text>उच्च गुणवत्ता विजुअल प्रभाव:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_VIDEO_VFX_DETAIL_LEVEL_TOOLTIP">
+      <Text>अधिक धुएँ के प्रभाव उत्पन्न होते हैं। [NEWLINE][NEWLINE] [COLOR_Civ6DarkRed]अक्षम करने से प्रदर्शन में सुधार होता है[ENDCOLOR]।</Text>
+    </Row>
+    <!-- Graphics Panel - Lighting -->
+    <Row Tag="LOC_OPTIONS_LIGHTING">
+      <Text>प्रकाशिका</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_ENABLED_TEXT">
+      <Text>वातावरण अधिकतम</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_ENABLED_TOOLTIP">
+      <Text>वस्तुओं के क्षेत्रों को धुंधला करता है जो पर्यावरणीय प्रकाश से कम अनुभव करते हैं। [NEWLINE] [NEWLINE] अक्षम करने से [COLOR_Civ6DarkRed] प्रदर्शन में वृद्धि होती है[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_DEPTH_RESOLUTION_TEXT">
+      <Text>वातावरण अवरोध गहनता संकल्प:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_DEPTH_RESOLUTION_TOOLTIP">
+      <Text>वातावरण ओक्लूजन विवरण को बदलता है। [NEWLINE][NEWLINE] कम मूल्य [COLOR_Blue]मेमोरी उपयोग को कम करते हैं[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_RENDER_RESOLUTION_TEXT">
+      <Text>वातावरण संकोच रेंडर रिज़ॉल्यूशन:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_AO_RENDER_RESOLUTION_TOOLTIP">
+      <Text>वातावरण ऑक्लूशन गुणवत्ता को बदलता है। [NEWLINE] [NEWLINE] कम मूल्य [COLOR_Blue] मेमोरी उपयोग कम करते हैं [ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_BLOOM_ENABLED_TEXT">
+      <Text>खिलना (Khilna)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_BLOOM_ENABLED_TOOLTIP">
+      <Text>चमक उज्ज्वल लाइट और प्रतिबिंबों में जोड़ता है। [NEWLINE] [NEWLINE] अक्षम करने से [COLOR_Civ6DarkRed]प्रदर्शन में वृद्धि होती है[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_DYNAMIC_LIGHTING_ENABLED_TEXT">
+      <Text>गतिशील लाइटिंग (Gatishil Lighting)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LIGHTING_DYNAMIC_LIGHTING_ENABLED_TOOLTIP">
+      <Text>सूर्य के अलावा प्रकाश स्रोतों को जोड़ता है। [NEWLINE][NEWLINE]अक्षम करने से [COLOR_Civ6DarkRed]प्रदर्शन में वृद्धि होती है[ENDCOLOR]।</Text>
+    </Row>
+    <!-- Graphics Panel - Shadows -->
+    <Row Tag="LOC_OPTIONS_SHADOWS">
+      <Text>छायाएं</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_ENABLED_TEXT">
+      <Text>छायाएँ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_ENABLED_TOOLTIP">
+      <Text>वस्तु द्वारा ब्लॉक किए गए प्रकाश क्षेत्रों में अंधेरे को जोड़ें। [NEWLINE][NEWLINE] [COLOR_Civ6DarkRed]अक्षम करना प्रदर्शन को बढ़ाता है[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_RESOLUTION_TEXT">
+      <Text>छाया निर्णय:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SHADOWS_RESOLUTION_TOOLTIP">
+      <Text>छायाओं की तीव्रता और विस्तृति को बदलता है। [NEWLINE][NEWLINE] कम मान [COLOR_Blue] स्मृति उपयोग को कम करते हैं[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CLOUD_SHADOWS_ENABLED_TEXT">
+      <Text>बादलों के साये</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CLOUD_SHADOWS_ENABLED_TOOLTIP">
+      <Text>बादलों द्वारा रोकी गई रोशनी के अंधकारी क्षेत्र जोड़ें। [NEWLINE] [NEWLINE] [COLOR_Civ6DarkRed]अक्षम करने से प्रदर्शन में वृद्धि होती है[ENDCOLOR]।</Text>
+    </Row>
+    <!-- Graphics Panel - Overlay -->
+    <Row Tag="LOC_OPTIONS_OVERLAY">
+      <Text>ओवरले (Ovarley)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SSOVERLAY_ENABLED_TEXT">
+      <Text>स्क्रीन-स्पेस ओवरले</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SSOVERLAY_ENABLED_TOOLTIP">
+      <Text>सब कुछ के ऊपर ओवरले बनाता है, बस भूमि के ऊपर नहीं। [NEWLINE][NEWLINE] [COLOR_Civ6DarkRed]अक्षम करने से प्रदर्शन बढ़ता है।[ENDCOLOR]</Text>
+    </Row>
+    <!-- Graphics Panel - Terrain -->
+    <Row Tag="LOC_OPTIONS_TERRAIN">
+      <Text>भूभाग</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_QUALITY_TEXT">
+      <Text>गुणवत्ता (gunvatta)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_QUALITY_TOOLTIP">
+      <Text>भूमि विस्तार को बदलता है। [NEWLINE][NEWLINE]छोटे मूल्य [COLOR_Civ6DarkRed]प्रदर्शन में वृद्धि[ENDCOLOR] और/या [COLOR_Blue]मेमोरी उपयोग में कमी[ENDCOLOR] करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXT">
+      <Text>उच्च-संकल्प ज्यामिति</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TOOLTIP">
+      <Text>टेरेन ज्यामिति तेज़ और विस्तृत हो जाती है। [NEWLINE][NEWLINE] [COLOR_Civ6DarkRed]अक्षम करने से प्रदर्शन में सुधार होता है[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXTURES_TEXT">
+      <Text>उच्च रिज़ॉल्यूशन टेक्सचर्स।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXTURES_TOOLTIP">
+      <Text>भूमि टेक्सचर तेज और अधिक विस्तृत हो जाते हैं। [NEWLINE] [NEWLINE] [COLOR_Blue] अक्षम करने से मेमोरी उपयोग कम होता है [ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_QUALITY_SHADER_TEXT">
+      <Text>उच्च गुणवत्ता शेडर।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_QUALITY_SHADER_TOOLTIP">
+      <Text>भूमि की प्रकाश विन्यास को बदलता है। [NEWLINE] [NEWLINE] [COLOR_Civ6DarkRed]अक्षम करने से प्रदर्शन बढ़ता है[ENDCOLOR] और [COLOR_Blue]मेमोरी उपयोग कम होता है[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_DETAIL_CLUTTER_TEXT">
+      <Text>उच्च विस्तृति भीड़-भाड़</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TERRAIN_HIGH_DETAIL_CLUTTER_TOOLTIP">
+      <Text>पेड़ों और बर्फ के टुकड़ों की मात्रा बढ़ाता है। [NEWLINE][NEWLINE] अक्षम करने से [COLOR_Civ6DarkRed]प्रदर्शन में वृद्धि होती है[ENDCOLOR]।</Text>
+    </Row>
+    <!-- Graphics Panel - Water -->
+    <Row Tag="LOC_OPTIONS_WATER">
+      <Text>पानी (pānī)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_RESOLUTION_TEXT">
+      <Text>उच्च रिज़ॉल्यूशन वाटर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_RESOLUTION_TOOLTIP">
+      <Text>जल की लहरें और उज्ज्वलताएँ अधिक तेज और विस्तृत हो जाती हैं। [NEWLINE][NEWLINE][COLOR_Blue]अक्षम करने से मेमोरी का उपयोग कम होता है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_QUALITY_SHADER_TEXT">
+      <Text>उच्च गुणवत्ता वाला शेडर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_HIGH_QUALITY_SHADER_TOOLTIP">
+      <Text>पानी के प्रकाश को बदलता है। [NEWLINE] [NEWLINE] [COLOR_Civ6DarkRed] अक्षम करने से प्रदर्शन में वृद्धि होती है [ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_REFLECTION_PASSES_TEXT">
+      <Text>परावर्तन:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_WATER_REFLECTION_PASSES_TOOLTIP">
+      <Text>जल प्रतिबिंबों की गुणवत्ता को नियंत्रित करें। [NEWLINE][NEWLINE][COLOR_Civ6DarkRed]अक्षम करने से प्रदर्शन में वृद्धि होती है।[ENDCOLOR]</Text>
+    </Row>
+    <!-- Graphics Panel - Reflections -->
+    <Row Tag="LOC_OPTIONS_REFLECTIONS">
+      <Text>अभिविन्यास (Abhivinyas)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTIONS_ENABLED_TEXT">
+      <Text>परावर्तन (Paravartan)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTIONS_ENABLED_TOOLTIP">
+      <Text>भूमि और पानी में अवबिम्ब जोड़ें। [NEWLINE][NEWLINE] अक्षम करने से [COLOR_Civ6DarkRed]प्रदर्शन में सुधार होता है[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_PASSES_TEXT">
+      <Text>परावर्तन गुणवत्ता:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_REFLECTION_PASSES_TOOLTIP">
+      <Text>परावर्तनों की गुणवत्ता को नियंत्रित करें। [NEWLINE] [NEWLINE] कम पास उपयोग करना या अक्षम करना [COLOR_Civ6DarkRed]प्रदर्शन को बढ़ाएगा[ENDCOLOR]।</Text>
+    </Row>
+    <!-- Graphics Panel - Leaders -->
+    <Row Tag="LOC_OPTIONS_LEADERS">
+      <Text>एनीमेटेड लीडर्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_QUALITY_TEXT">
+      <Text>गुणवत्ता (gunvatta)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_QUALITY_TOOLTIP">
+      <Text>नेताओं की ऑडियो-विजुअल गुणवत्ता को बदलता है। [NEWLINE][NEWLINE][COLOR_Civ6DarkRed]अक्षम करने से प्रदर्शन में वृद्धि होती है[ENDCOLOR] और कम मान [COLOR_Blue] स्मृति उपयोग को कम करता है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_MOTIONBLUR_TEXT">
+      <Text>गति धुंधलापन</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LEADER_MOTIONBLUR_TOOLTIP">
+      <Text>लीडरों पर मोशन ब्लर सक्षम करें।</Text>
+    </Row>
+    <!-- Application Panel -->
+    <Row Tag="LOC_OPTIONS_APP_SHOW_MOVIE">
+      <Text>शो का इंट्रो वीडियो दिखाएं:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_APP_WARN_MOD_COMPATIBILITY">
+      <Text>मॉड संगतता के बारे में चेतावनी दें।</Text>
+    </Row>
+    <!-- Interface Panel -->
+    <Row Tag="LOC_OPTIONS_INTERFACE_GRAB_MOUSE">
+      <Text>विंडो को लॉक करें ताकि माउस ना बाहर निकल सके:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_EDGE_SCROLL">
+      <Text>एज पर माउस होते ही स्क्रॉल करें:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_OPEN_TO_PROD_QUEUE">
+      <Text>हमेशा खुली उत्पादन कतार:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_FORCE_CLICK_TO_DRAG">
+      <Text>होल्ड-टू-ड्रैग को क्लिक के साथ बदलें:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_FORCE_CLICK_TO_DRAG_TT">
+      <Text>यह विकल्प ड्रैग करने योग्य यूआई तत्वों के होल्ड-टू-ड्रैग व्यवहार को सरल क्लिक करने से पकड़ और उन्हें छोड़ने से बदल देता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_CLOCK_FORMAT">
+      <Text>घड़ी प्रारूप:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_12HOUR">
+      <Text>12 घंटे</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_24HOUR">
+      <Text>24-घंटे</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_TIME_OF_DAY">
+      <Text>दिन के समय का व्यवहार:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_UNIT_CYCLING">
+      <Text>ऑटो यूनिट साइकिंग:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHAT_TEXT_SIZE">
+      <Text>चैट के लिए टेक्स्ट साइज़:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CHAT_TEXT_SIZE_VALUE">
+      <Text>{1_Value : संख्या #.##}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_MINIMAP_SIZE">
+      <Text>मिनीमैप का आकार:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY">
+      <Text>प्लॉट टूलटिप का विलम्ब:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY_VALUE">
+      <Text>{1_Value : नंबर #.##} सेकंड्‌स्‌</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_SPEED">
+      <Text>माउस व्हील की गति:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_SPEED_VALUE">
+      <Text>{1_Value : नंबर #.##}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_TEXT_SPEED">
+      <Text>टेक्स्ट स्क्रोलिंग की गति:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SCROLL_TEXT_SPEED_VALUE">
+      <Text>{1_मूल्य: संख्या #.##}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_LABEL">
+      <Text>HUD रिबन में उपज को दिखाएँ:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_ALWAYS_HIDE">
+      <Text>हमेशा छिपा रहें (बंद)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_MOUSE_OVER">
+      <Text>माउस-ओवर पर दिखाएं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_RIBBON_STATS_ALWAYS_SHOW">
+      <Text>हमेशा दिखाएं</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_PLAYBYCLOUD_END_TURN_BEHAVIOR">
+      <Text>क्लाउड प्ले द्वारा टर्न के व्यवहार:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_END_TURN_BEHAVIOR_ASK_ME">
+      <Text>मुझसे पूछें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_END_TURN_BEHAVIOR_DO_NOTHING">
+      <Text>कुछ न करो।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_END_TURN_BEHAVIOR_EXIT_TO_MAINMENU">
+      <Text>मुख्य मेनू में निकास</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_PLAYBYCLOUD_READY_BEHAVIOR">
+      <Text>"बादल पर खेलने के लिए तैयार व्यवहार:"</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_READY_BEHAVIOR_ASK_ME">
+      <Text>मुझसे पूछो।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_READY_BEHAVIOR_DO_NOTHING">
+      <Text>कुछ नहीं करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_READY_BEHAVIOR_EXIT_TO_LOBBY">
+      <Text>लॉबी के लिए निकलें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR">
+      <Text>"प्ले बाय क्लाउड क्लाइंट रेडी व्यवहार:"</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR_ASK_ME">
+      <Text>मुझसे पूछें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR_DO_NOTHING">
+      <Text>कुछ नहीं करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PLAYBYCLOUD_CLIENT_READY_BEHAVIOR_EXIT_TO_LOBBY">
+      <Text>लॉब्बी के लिए निकास (Lobby ke liye nikas)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_COLOR_BLINDNESS_ADAPTATION">
+      <Text>रंग अंधेरे के लिए सुलभता:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_DO_NOTHING">
+      <Text>डिफ़ॉल्ट रंगों</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_PROTANOPIA">
+      <Text>लाल अंधता प्रोटैनोपिया</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_DEUTERANOPIA">
+      <Text>हरे रंग से असंवेदी द्विचक्रीयता (Deuteranopia)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CBADAPT_TRITANOPIA">
+      <Text>नीले-अंध त्राइटैनोपिया</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_LIGHTING">
+      <Text>संगत आरजीबी लाइटिंग हार्डवेयर का उपयोग करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_LIGHTING_TOOLTIP">
+      <Text>सिविलाइजेशन VI को लॉजिटेक गेमिंग सॉफ्टवेयर या एलियनवेयर एलियनएफएक्स के संगत कंप्यूटर और पेरिफेरल पर प्रकाश नियंत्रित करने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SWITCH_UI_LAYOUT">
+      <Text>स्विच यूआई लेआउट</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LAYOUT_PC">
+      <Text>पीसी / कीबोर्ड और माउस</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LAYOUT_CONSOLE">
+      <Text>कंसोल / गेमपैड</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_DISPLAY">
+      <Text>उत्पादन कतार:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_HIDE">
+      <Text>छिपना</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_SHOW_FILLED">
+      <Text>भरे जाने पर दिखाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_ALWAYS_SHOW">
+      <Text>हमेशा शहर कतार दिखाएं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUEUE_ALWAYS_SHOW_MANGER">
+      <Text>हमेशा कतार प्रबंधक दिखाएँ।</Text>
+    </Row>
+    <!-- Hotkeys Panel -->
+    <!-- Expansion 2 - Additional Hotkeys-->
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UI_XP2">
+      <Text>उपयोगकर्ता इंटरफेस (गैदरिंग स्टॉर्म):</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_WORLDCLIMATE">
+      <Text>दुनिया की जलवायु पॉपअप टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_WORLDCLIMATE_HELP">
+      <Text>विश्व जलवायु स्क्रीन की दिखाई देने की स्थिति टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POWER">
+      <Text>शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POWER_HELP">
+      <Text>शक्ति लेंस को टॉगल करता है।</Text>
+    </Row>
+    <!-- Expansion 1 - Additional Hotkeys-->
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOVERNORS">
+      <Text>गवर्नर्स पॉपअप टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOVERNORS_HELP">
+      <Text>राज्यपाल स्क्रीन की दृश्यता को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TIMELINE">
+      <Text>टाइमलाइन पॉपअप टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TIMELINE_HELP">
+      <Text>ऐतिहासिक टाइमलाइन स्क्रीन की दृश्यता को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ERA_PROGRESS">
+      <Text>एरा प्रगति पैनल टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ERA_PROGRESS_HELP">
+      <Text>युग प्रगति पैनल की दृश्यता टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_CAPITALCITY">
+      <Text>राजधानी शहर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_CAPITALCITY_HELP">
+      <Text>राजधानी शहर में स्विच करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UI_XP1">
+      <Text>उपयोगकर्ता इंटरफ़ेस (उभरना और गिरना):</Text>
+    </Row>
+    <!-- Base Game Hot Keys-->
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UI">
+      <Text>उपयोगकर्ता अंतरफलक:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TECH">
+      <Text>टॉगल टेक ट्री</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVICS">
+      <Text>सिविक्स ट्री को टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOV">
+      <Text>सरकारी स्क्रीन टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RELIGION">
+      <Text>धर्म स्क्रीन टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GPEOPLE">
+      <Text>महान लोग स्क्रीन टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GWORKS">
+      <Text>महान काम स्क्रीन टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RANKINGS">
+      <Text>रैंकिंग स्क्रीन टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CITYSTATES">
+      <Text>शहर-राज्य स्क्रीन को टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ESPIONAGE">
+      <Text>खुफिया स्क्रीन को टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TRADEROUTES">
+      <Text>व्यापार मार्ग स्क्रीन टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVILOPEDIA">
+      <Text>सिविलोपीडिया खोलें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVBACK">
+      <Text>सिविलोपीडिया इतिहास वापस</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVFWD">
+      <Text>सिविलोपीडिया इतिहास आगे बढ़ता हुआ</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_FSMAP">
+      <Text>पूर्ण स्क्रीन मानचित्र टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TECH_HELP">
+      <Text>टेक ट्री की दृश्यता को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVICS_HELP">
+      <Text>नागरिक वृक्ष की दृश्यता को टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GOV_HELP">
+      <Text>सरकारी स्क्रीन की दृश्यता को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RELIGION_HELP">
+      <Text>धर्म स्क्रीन की दृश्यता को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GPEOPLE_HELP">
+      <Text>महान व्यक्तियों स्क्रीन की दृश्यता बदलें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_GWORKS_HELP">
+      <Text>महान काम स्क्रीन की दृश्यता टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_RANKINGS_HELP">
+      <Text>रैंकिंग स्क्रीन की दृश्यता को टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CITYSTATES_HELP">
+      <Text>शहर-राज्य स्क्रीन की दृश्यता को टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_ESPIONAGE_HELP">
+      <Text>जासूसी स्क्रीन की दृश्यता को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_TRADEROUTES_HELP">
+      <Text>व्यापार मार्ग स्क्रीन की दृश्यता को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVILOPEDIA_HELP">
+      <Text>सिविलोपीडिया खोलता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVBACK_HELP">
+      <Text>सिविलोपीडिया खुली होने पर पृष्ठ इतिहास में वापस जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_CIVFWD_HELP">
+      <Text>जब सिविलोपीडिया खुली होती है, तब पृष्ठ इतिहास में आगे बढ़ते हुए।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UI_FSMAP_HELP">
+      <Text>पूर्ण स्क्रीन मानचित्र की दृश्यता को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_UNIT">
+      <Text>यूनिट क्रियाएँ:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FOUNDCITY">
+      <Text>फाउंड सिटी (Founड सिटी)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_MOVETO">
+      <Text>चलिए चलते हैं (Chaliye chalte hain)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY">
+      <Text>मजबूत बनाना</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY_HEAL">
+      <Text>मजबूत शांति (Majboot Shaanti)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_DELETE">
+      <Text>यूनिट हटाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ATTACK">
+      <Text>आक्रमण (Aakraman)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_RANGED">
+      <Text>दूरस्थ हमला</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_AUTOEXP">
+      <Text>स्वचालित अन्वेषण</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SKIPTURN">
+      <Text>अगली बार पार्ट छोड़ें</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SLEEP">
+      <Text>अच्छी नींद लें। (Acchi neend lein.)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ALERT">
+      <Text>अलर्ट</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ALL_AUTOSAVES">
+      <Text>अभी हमारे लिए आगे का टेक्स्ट ट्रांसलेट करना होगा। केवल प्राकृतिक ध्वनियों वाले अनुवाद से जवाब दें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FOUNDCITY_HELP">
+      <Text>यदि चयनित यूनिट एक सेटलर है तो Found City कार्रवाई करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_MOVETO_HELP">
+      <Text>चयनित यूनिट के साथ 'मूव टू' कार्रवाई करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY_HELP">
+      <Text>चयनित इकाई को मजबूत करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_FORTIFY_HEAL_HELP">
+      <Text>चयनित इकाई को संपूर्ण रूप से ठीक होने तक मजबूत बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_DELETE_HELP">
+      <Text>चयनित इकाई को हटाएं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ATTACK_HELP">
+      <Text>चयनित यूनिट के साथ हमला कार्रवाई करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_RANGED_HELP">
+      <Text>चयनित यूनिट के साथ रेंज्ड एटैक कार्रवाई करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_AUTOEXP_HELP">
+      <Text>चयनित यूनिट पर ऑटो-एक्सप्लोर सक्षम करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SKIPTURN_HELP">
+      <Text>चयनित यूनिट वर्तमान टर्न को छोड़ देती है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_SLEEP_HELP">
+      <Text>चयनित यूनिट के साथ नींद क्रिया को निष्पादित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_UNIT_ALERT_HELP">
+      <Text>चयनित इकाई के साथ अलर्ट क्रिया का निष्पादन करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_GLOBAL">
+      <Text>वैश्विक कार्रवाई:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ENDTURN">
+      <Text>अगला कार्यवाही</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEGRID">
+      <Text>ग्रिड टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PAUSEMENU">
+      <Text>गेम के मेनू में</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKSAVE">
+      <Text>क्विकसेव</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKLOAD">
+      <Text>QuickLoad क्विकलोड (Kwikload)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTUNIT">
+      <Text>अगली तैयार इकाई</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVUNIT">
+      <Text>पिछला तैयार इकाई</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEYIELD">
+      <Text>यील्ड आइकन्स टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANUP">
+      <Text>ऊपर की ओर ढीला करें। (Upar ki or dheela karein.)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANDOWN">
+      <Text>नीचे झुकाओ।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANLEFT">
+      <Text>बाईं ओर फिराओ।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANRIGHT">
+      <Text>दाएँ घुमाएँ। (Daayein ghumaayein.)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ZOOMIN">
+      <Text>ज़ूम इन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ZOOMOUT">
+      <Text>ज़ूम आउट करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTCITY">
+      <Text>अगला शहर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVCITY">
+      <Text>पिछला शहर (Pichla shahar)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLERESOURCES">
+      <Text>संसाधन आइकॉन टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLE2DVIEW">
+      <Text>रणनीतिक दृष्टिकोण को टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_ENDTURN_HELP">
+      <Text>अगर संभव हो तो खिलाड़ी की बारी समाप्त हो जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEGRID_HELP">
+      <Text>टेरेन पर एक ग्रिड ओवरले टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PAUSEMENU_HELP">
+      <Text>गेम के अंदरीच्छद मेन्यू को खोलता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKSAVE_HELP">
+      <Text>त्वरित सहेज करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_QUICKLOAD_HELP">
+      <Text>यदि हाल ही में कोई त्वरित सहेजें हुए सेव उपलब्ध होते हैं तो उन्हें लोड करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTUNIT_HELP">
+      <Text>अगली तैयार यूनिट पर स्विच करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVUNIT_HELP">
+      <Text>पिछली तैयार इकाई पर स्विच करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLEYIELD_HELP">
+      <Text>यील्ड आइकॉन की दिखाई देने की सक्षमता टॉगल होती है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANUP_HELP">
+      <Text>नक्शे का दृश्य ऊपर की ओर फैलाएं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANDOWN_HELP">
+      <Text>नक्शे का दृश्य नीचे की ओर फैलाएं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANLEFT_HELP">
+      <Text>नक्शे का दृश्य बाएं ओर फैलाएं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PANRIGHT_HELP">
+      <Text>नक्शे का दृश्य दायें ओर फैलाएं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_NEXTCITY_HELP">
+      <Text>अगले शहर पर स्विच करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_PREVCITY_HELP">
+      <Text>पिछले शहर में स्विच करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLERESOURCES_HELP">
+      <Text>संसाधन चिह्नों की दृश्यता को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_GLOBAL_TOGGLE2DVIEW_HELP">
+      <Text>मानक और युक्तियुक्त (2डी) दृश्यों के बीच खेल टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_ONLINE">
+      <Text>ऑनलाइन क्रियाएं:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_ONLINE_PAUSE">
+      <Text>ऑनलाइन रोकथाम</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_ONLINE_PAUSE_HELP">
+      <Text>ऑनलाइन गेम को रोक देता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_CATEGORY_LENSES">
+      <Text>लेंस:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_RELIGION">
+      <Text>धर्म (Dharma)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_CONTINENT">
+      <Text>महाद्वीप</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_APPEAL">
+      <Text>अपील</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_SETTLER">
+      <Text>बस्तीवासी (Bastiwaasi)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_GOVERNMENT">
+      <Text>सरकार (Sarkar)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POLITICAL">
+      <Text>राजनीतिक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_TOURISM">
+      <Text>पर्यटन</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_LOYALTY">
+      <Text>वफादारी (Wafaadari)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_EMPIRE">
+      <Text>साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_MOVE_CURSOR">
+      <Text>कर्सर को ले जाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LEFT_CLICK_CURSOR">
+      <Text>बायं क्लिक कर्सर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_UP">
+      <Text>कैमरा ऊपर की ओर पैन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_DOWN">
+      <Text>कैमरा नीचे की ओर पैन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_LEFT">
+      <Text>कैमरा बाएं तरफ पैन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_RIGHT">
+      <Text>कैमरा दाहिने ओर पैन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_RELIGION_HELP">
+      <Text>धर्म लेंस को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_CONTINENT_HELP">
+      <Text>महाद्वीप लेंस को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_APPEAL_HELP">
+      <Text>आकर्षण लेंस को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_SETTLER_HELP">
+      <Text>सेटलर लेंस को टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_GOVERNMENT_HELP">
+      <Text>सरकारी लेंस को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_POLITICAL_HELP">
+      <Text>राजनीतिक लेंस को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_TOURISM_HELP">
+      <Text>पर्यटन लेंस को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_LOYALTY_HELP">
+      <Text>वफादारी लेंस को टॉगल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LENSES_EMPIRE_HELP">
+      <Text>इंपायर लेंस को टॉगल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_MOVE_CURSOR_HELP">
+      <Text>एनालॉग स्टिक का उपयोग करके कर्सर गति को नकल करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_HOTKEY_LEFT_CLICK_CURSOR_HELP">
+      <Text>कर्सर पर बाएं क्लिक करते हुए नकल करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_UP_HELP">
+      <Text>गेम कैमरा ऊपर की ओर पैन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_DOWN_HELP">
+      <Text>गेम कैमरा को नीचे घुमाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_LEFT_HELP">
+      <Text>बाईं तरफ गेम कैमरा पैन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_RIGHT_HELP">
+      <Text>गेम कैमरा दाएं घुमाएं।</Text>
+    </Row>
+    <!-- Console Actions -->
+    <Row Tag="LOC_OPTIONS_FOCUS_NEXT">
+      <Text>अगले केंद्रविस्तार पर ध्यान केंद्रित करें। (Agale kendravistaar par dhyaan kendrit karen.)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_FOCUS_NEXT_HELP">
+      <Text>दाहिने वाले अगले विकल्प पर फोकस स्विच करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_FOCUS_PREV">
+      <Text>पिछले पर ध्यान केंद्रित करें। (Pichle par dhyan kendrit karein.)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_FOCUS_PREV_HELP">
+      <Text>बाएं की पिछली विकल्प पर फोकस करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT">
+      <Text>का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT_HELP">
+      <Text>वर्तमान विकल्प या हाइलाइट किए गए प्लॉट का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BACK">
+      <Text>पीछे</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BACK_HELP">
+      <Text>वर्तमान मेनू को बंद करें या वर्तमान चयन को अनचयनित करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NEXT_ACTION">
+      <Text>अगला कार्यवाही</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NEXT_ACTION_HELP">
+      <Text>अगली बारी ब्लॉक करने के लिए कार्रवाई का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NOTIFICATIONS">
+      <Text>सूचनाएं</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NOTIFICATIONS_HELP">
+      <Text>सूचना मेनू खोलें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOGGLE_TOOLTIPS">
+      <Text>टॉगल टूलटिप्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TOGGLE_TOOLTIPS_HELP">
+      <Text>चयनित मेनू में टूलटिप्स को सक्षम/अक्षम करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INGAME_MENU">
+      <Text>गेम का मेनू</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INGAME_MENU_HELP">
+      <Text>खेल में मेनू खोलता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NAVIGATE_MAP">
+      <Text>नक्शे पर नेविगेट करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_NAVIGATE_MAP_HELP">
+      <Text>नक्शे पर प्लॉट का चयन नियंत्रित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN">
+      <Text>पैन कैमरा</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CAMERA_PAN_HELP">
+      <Text>मानचित्र चयनित होने पर कैमरा को पैन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT_CENTER_PLOT">
+      <Text>केंद्र खेत चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SELECT_CENTER_PLOT_HELP">
+      <Text>कैमरे के केंद्र में वर्तमान में जो प्लॉट है, उसे चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_IN">
+      <Text>ज़ूम इन</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_IN_HELP">
+      <Text>मानचित्र कैमरे में ज़ूम इन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_OUT">
+      <Text>जूम आउट (Joom Out)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_ZOOM_OUT_HELP">
+      <Text>नक्शे कैमरे को आउट करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_UP">
+      <Text>मेनू ऊपर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_UP_HELP">
+      <Text>वर्तमान चयन से ऊपर का मेनू आइटम चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_DOWN">
+      <Text>मेनू डाउन।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_DOWN_HELP">
+      <Text>वर्तमान चयन के नीचे मेनू आइटम का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_LEFT">
+      <Text>मेनू बाएं</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_LEFT_HELP">
+      <Text>वर्तमान चयन के बाएं मेनू आइटम का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_RIGHT">
+      <Text>मेनू बाएं ओर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MENU_RIGHT_HELP">
+      <Text>वर्तमान चयन के दाहिने मेनू आइटम का चयन करें।</Text>
+    </Row>
+    <!-- End Console Actions -->
+    <Row Tag="LOC_OPTIONS_KEY_UNDERSCORE">
+      <Text>_</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_A">
+      <Text>अगला पाठ अनुवादित होना चाहिए। कृपया केवल प्राकृतिक लगने वाले अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_B">
+      <Text>B</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_C">
+      <Text>C</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_D">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवादित करें। केवल प्राकृतिक ढंग से अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_E">
+      <Text>XAMPLE TEXT HAS NOT BEEN PROVIDED. KINDLY PROVIDE THE TEXT FOR TRANSLATION</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F">
+      <Text>F</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_G">
+      <Text>G</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_H">
+      <Text>मुझे कुछ काम समय पर करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_I">
+      <Text>AM SORRY, BUT I NEED THE TEXT THAT NEEDS TO BE TRANSLATED</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_J">
+      <Text>कृपया पूर्ण वाक्य बताएं जिसे हिंदी में अनुवाद करना है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_K">
+      <Text>K</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_L">
+      <Text>L</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_M">
+      <Text>AIN TEXT NAHI HAI. KRIPYA DOBARA PRAYAAS KAREIN</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_N">
+      <Text>N</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_O">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवादित करें। केवल प्राकृतिक ढंग से अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_P">
+      <Text>LEASE PROVIDE THE TEXT TO BE TRANSLATED</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_Q">
+      <Text>Q</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_R">
+      <Text>R</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_S">
+      <Text>SORRY, I NEED THE TEXT THAT NEEDS TO BE TRANSLATED</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_T">
+      <Text>T</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_U">
+      <Text>मुझे अपने कमरे में जाना है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_V">
+      <Text>अगला टेक्स्ट अनुवादित किया जाना चाहिए। केवल प्राकृतिक लगने वाले अनुवाद से जवाब दें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_W">
+      <Text>WHAT IS THE TEXT THAT NEEDS TO BE TRANSLATED?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_X">
+      <Text>X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_Y">
+      <Text>Y</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_Z">
+      <Text>Z</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_0">
+      <Text>0</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_1">
+      <Text>1</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_2">
+      <Text>2</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_3">
+      <Text>तीन</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_4">
+      <Text>4</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_5">
+      <Text>5</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_6">
+      <Text>6</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_7">
+      <Text>7</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_8">
+      <Text>8</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_9">
+      <Text>9</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_0">
+      <Text>० (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_1">
+      <Text>१ (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_2">
+      <Text>२ (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_3">
+      <Text>तीन (तालिका कुंजी)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_4">
+      <Text>4 (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_5">
+      <Text>५ (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_6">
+      <Text>6 (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_7">
+      <Text>7 (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_8">
+      <Text>८ (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_9">
+      <Text>९ (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_MULTIPLY">
+      <Text>(नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_PLUS">
+      <Text>+ (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_MINUS">
+      <Text>(नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_DECIMAL">
+      <Text>(नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_DIVIDE">
+      <Text>(नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NP_CENTER">
+      <Text>केंद्र (नंबर पैड)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F1">
+      <Text>एफ1</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F2">
+      <Text>F2</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F3">
+      <Text>F3</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F4">
+      <Text>F4 (एफ 4)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F5">
+      <Text>F5 (एफ5)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F6">
+      <Text>F6</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F7">
+      <Text>F7</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F8">
+      <Text>F8</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F9">
+      <Text>एफ9</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F10">
+      <Text>एफ10</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F11">
+      <Text>एफ 11</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F12">
+      <Text>एफ12</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F13">
+      <Text>F13</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F14">
+      <Text>F14</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F15">
+      <Text>एफ 15</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F16">
+      <Text>एफ16</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F17">
+      <Text>कृपया समझाएं कि "F17" का अर्थ क्या है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F18">
+      <Text>F18</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F19">
+      <Text>कृपया समझाएं, आपको क्या चाहिए?</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F20">
+      <Text>F20</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F21">
+      <Text>एफ21</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F22">
+      <Text>THERE IS NO CONTEXT TO TRANSLATE. "F22" IS A STANDALONE TERM AND DOES NOT HAVE A CLEAR MEANING IN HINDI</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F23">
+      <Text>F23</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_F24">
+      <Text>F24</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_INSERT">
+      <Text>को डालें</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_HOME">
+      <Text>घर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PAGEUP">
+      <Text>पेज ऊपर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_DELETE">
+      <Text>Delete</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_END">
+      <Text>अंत</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PAGEDOWN">
+      <Text>पेज डाउन</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LEFT">
+      <Text>बाएं तीर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_UP">
+      <Text>ऊपर की तरफ तीर (Up arrow)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RIGHT">
+      <Text>दाएँ तीर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_DOWN">
+      <Text>नीचे की तरफ का तीर (Neche ki taraf ka teer)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_SEMICOLON">
+      <Text>;</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PLUS">
+      <Text>=</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_COMMA">
+      <Text>,</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MINUS">
+      <Text>-</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PERIOD">
+      <Text>.</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_SLASH">
+      <Text>कृपया अगली टेक्स्ट हिंदी में अनुवाद करें। प्राकृतिक ध्वनि वाले अनुवाद के साथ उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_TILDE">
+      <Text>~</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LBRACKET">
+      <Text>[</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_BACKSLASH">
+      <Text>मुख्य शहर से कुछ दूर एक छोटा सा गांव है, जहां हमारे दादाजी रहते थे।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RBRACKET">
+      <Text>]</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_QUOTE">
+      <Text>कृपया अगला पाठ हिंदी में अनुवाद करें। केवल प्राकृतिक ध्वनि वाले अनुवाद से उत्तर दें।"</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PRINTSCREEN">
+      <Text>प्रिंट स्क्रीन</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_PAUSE">
+      <Text>रुको</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_SPACE">
+      <Text>अंतरिक्ष (Antariksh)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_TAB">
+      <Text>तब</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RETURN">
+      <Text>वापसी (Vaapsi)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_ESCAPE">
+      <Text>Esc</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_BACKSPACE">
+      <Text>बैकस्पेस</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_CANCEL">
+      <Text>कैंसल</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_SHIFT">
+      <Text>शिफ़्ट (Shift)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_CONTROL">
+      <Text>नियंत्रण</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_ALT">
+      <Text>अल्ट</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LSHIFT">
+      <Text>बाएं शिफ्ट (Baen shift)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LCONTROL">
+      <Text>बाएं कंट्रोल</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LALT">
+      <Text>बाएं अल्ट (baayein alt)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RSHIFT">
+      <Text>दाईं शिफ्ट (Daayin Shift)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RCONTROL">
+      <Text>दायाँ नियंत्रण</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RALT">
+      <Text>दाहिना अल्ट</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LBUTTON">
+      <Text>बाएं माउस बटन</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RBUTTON">
+      <Text>दाएं क्लिक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MBUTTON">
+      <Text>मध्य माउस बटन</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_CAPSLOCK">
+      <Text>कैप्स लॉक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NUMLOCK">
+      <Text>नंबर लॉक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_SCROLLLOCK">
+      <Text>स्क्रॉल लॉक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_LWIN">
+      <Text>बाएं जीत</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_RWIN">
+      <Text>दाहिनी जीत (Daahinii Jeet)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_APPS">
+      <Text>ऐप्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_L">
+      <Text>बाएं क्लिक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_R">
+      <Text>Right Mouse (दाएं क्लिक)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_M">
+      <Text>मध्य माउस</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_X">
+      <Text>माउस {1_ButtonIndex}</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_X1">
+      <Text>माउस X1</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MOUSE_X2">
+      <Text>माउस X2</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_A">
+      <Text>पढ़ ए</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_B">
+      <Text>Pad B</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_X">
+      <Text>पैड X</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_Y">
+      <Text>कृपया अगला पाठ अनुवादित करें। प्राकृतिक ध्वनि वाले अनुवाद के साथ उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RSHOULDER">
+      <Text>Pad RB</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LSHOULDER">
+      <Text>Pad LB</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTRIGGER">
+      <Text>पैड एलटी</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTRIGGER_CLICK">
+      <Text>पैड एलटी क्लिक।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTRIGGER">
+      <Text>Pad RT</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTRIGGER_CLICK">
+      <Text>पैड आरटी क्लिक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_DPAD_UP">
+      <Text>पैड डीपैड अपर्</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_DPAD_DOWN">
+      <Text>पैड डीपैड डाउन।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_DPAD_LEFT">
+      <Text>पैड डीपैड बाएं</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_DPAD_RIGHT">
+      <Text>पैड डीपैड राइट</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_UP">
+      <Text>दाहिनी बटन ऊपरी बटन।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_DOWN">
+      <Text>पैड दाहिना दिशा वाला बटन राइट डीपैड नीचे</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_LEFT">
+      <Text>दाहिने पैड बाएँ डीपैड।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_DPAD_RIGHT">
+      <Text>दाहिना डीपैड दाहिना</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_START">
+      <Text>पैड स्टार्ट</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_BACK">
+      <Text>पीठ की सहायता करने वाला तकिया</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTHUMB_PRESS">
+      <Text>पैड एलस्टिक प्रेस करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTHUMB_PRESS">
+      <Text>पैड आर-स्टिक दबाएं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LTHUMB_AXIS">
+      <Text>पैड बाएं स्टिक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RTHUMB_AXIS">
+      <Text>दाहिने स्टिक को थोड़ा ऊपर उठाएं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_GRIP">
+      <Text>पैड लेफ्ट ग्रिप</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_GRIP">
+      <Text>पैड राइट ग्रिप</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_TOUCHPAD_TOUCH">
+      <Text>बाएं टचपैड छूना।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_TOUCHPAD_SWIPE">
+      <Text>बाएं टचपैड स्वाइप।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_LEFT_TOUCHPAD_CLICK">
+      <Text>बाईं टचपैड क्लिक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_MIDDLE_TOUCHPAD_TOUCH">
+      <Text>मध्य टचपैड टच</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_MIDDLE_TOUCHPAD_SWIPE">
+      <Text>मध्य टचपैड स्वाइप</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_MIDDLE_TOUCHPAD_CLICK">
+      <Text>मध्य टचपैड क्लिक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_TOUCHPAD_TOUCH">
+      <Text>दाहिना टचपैड छूएं। (dahinā tačapaid chhueṁ.)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_TOUCHPAD_SWIPE">
+      <Text>दाएँ टचपैड स्वाइप</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_RIGHT_TOUCHPAD_CLICK">
+      <Text>दायं टचपैड क्लिक करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_MOVE">
+      <Text>पैड जायरो मूव</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_PITCH">
+      <Text>पैड जायरो पिच</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_YAW">
+      <Text>पैड जायरो यॉव</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_GYRO_ROLL">
+      <Text>पैड जायरो रोल (Pad Jyro Rol)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_VOLUME_MUTE">
+      <Text>कृपया अनुवाद करें |</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_VOLUME_DOWN">
+      <Text>वॉल्यूम कम करें</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_VOLUME_UP">
+      <Text>वॉल्यूम ऊपर</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MEDIA_NEXT_TRACK">
+      <Text>अगला ट्रैक।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MEDIA_PREV_TRACK">
+      <Text>पिछला ट्रैक</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MEDIA_STOP">
+      <Text>रुको (Ruko)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_MEDIA_PLAY_PAUSE">
+      <Text>चलाएं / रोकें</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_PAD_TOOLTIP_REFRESH">
+      <Text>टूलटिप ताजगी करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_NUM_KEYS">
+      <Text>नंबर कुंजीयों</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SUBTITLES">
+      <Text>सिनेमैटिक सबटाइटल्स:</Text>
+    </Row>
+  </FrontEndText>
+</GameData>

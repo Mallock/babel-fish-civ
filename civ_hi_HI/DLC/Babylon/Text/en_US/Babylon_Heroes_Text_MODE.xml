@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- REPLACEMENTS -->
+    <Delete Tag="LOC_GREAT_PEOPLE_TITLE" />
+    <Delete Tag="LOC_HUD_GREATPEOPLE_TOOLTIP" />
+    <Delete Tag="LOC_BUILDING_ORACLE_DESCRIPTION" />
+    <Delete Tag="LOC_BUILDING_SHRINE_DESCRIPTION" />
+    <Delete Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" />
+    <Delete Tag="LOC_BUILDING_TEMPLE_DESCRIPTION" />
+  </LocalizedText>
+  <EnglishText>
+    <!-- REPLACEMENTS -->
+    <Row Tag="LOC_GREAT_PEOPLE_TITLE">
+      <Text>नायक और महान लोग</Text>
+    </Row>
+    <Row Tag="LOC_HUD_GREATPEOPLE_TOOLTIP">
+      <Text>हीरो और महान व्यक्ति[NEWLINE][NEWLINE][ICON_GreatPerson] महान लोग देखें और अपनी [ICON_GreatPerson] महान व्यक्ति की कमाई की तरफ अपनी प्रगति देखें। [NEWLINE]अपनी वर्तमान स्थिति और क्षमताओं के साथ सभी खोजे गए हीरो देखें।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_ORACLE_DESCRIPTION">
+      <Text>[ICON_Faith] धर्म से योग्यता प्राप्त रखने की याददाश्त की जाने वाली वस्तुओं की लागत 15% कम होती है और महान लोगों के पटरोनेज की लागत 25% कम होती है [ICON_Faith]। इस शहर में जनपदों के [ICON_GreatPerson] प्रकार के +2 महान व्यक्ति अंक प्रदान करते हैं (उदाहरण के लिए, थिएटर स्क्वेयर जनपद से [ICON_GreatWriter] ग्रेट राइटर अंक)। पहाड़ पर बनाई जानी चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_SHRINE_DESCRIPTION">
+      <Text>इस शहर में दावा किए या वापस बुलाए गए हीरो यूनिट की [ICON_Lifespan] आयु 10% अधिक होती है। मिशनरीज की खरीदारी की अनुमति देता है। मिशनरीज केवल [ICON_Faith] धर्म से खरीदे जा सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION">
+      <Text>सभी हीरो यूनिटों की अवधि [ICON_Lifespan] 10% अधिक होती है। सभी शहरों में विकास को 15% बढ़ाता है। एक नदी के पास निर्मित होना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_DESCRIPTION">
+      <Text>इस शहर में नायकों को याद करने का खर्च [ICON_Faith] विश्वास में 15% कम होता है। अपोस्टल, गुरु, इन्क्विसिटर और उचित विश्वास के साथ योद्धा संन्यासी की खरीद पर अनुमति देता है। ये इकाइयाँ केवल [ICON_Faith] विश्वास से खरीदी जा सकती हैं।</Text>
+    </Row>
+    <!--Hero Units-->
+    <Row Tag="LOC_UNIT_HERO_ANANSI_NAME">
+      <Text>अनानसी</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_ANANSI_DESCRIPTION">
+      <Text>अफ्रीकी लोककथा के दैत्य और यात्री, अपनी बुद्धिमता और छल के लिए प्रसिद्ध।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_ARTHUR_NAME">
+      <Text>Arthur</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_ARTHUR_DESCRIPTION">
+      <Text>गोल मेज़ वाले सेनापति और आदर्शता और नैतिकता के लिए प्रसिद्ध शीशों के राज्य का नेता।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_BEOWULF_NAME">
+      <Text>बियोवुल्फ</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_BEOWULF_DESCRIPTION">
+      <Text>उत्तर के शक्तिशाली योद्धा, जो एकल युद्ध में उनकी ताकत और बहादुरी के लिए प्रसिद्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HERCULES_NAME">
+      <Text>हर्कुलेस</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HERCULES_DESCRIPTION">
+      <Text>अधिमानव से भी अधिक शक्ति वाले देवताओं में से एक, उनके प्रसिद्ध कामों के लिए मशहूर।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIMIKO_NAME">
+      <Text>हिमिको</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIMIKO_DESCRIPTION">
+      <Text>प्राचीन जापान की शमन-रानी, उनकी बुद्धिमत्ता और रहस्यमय शक्ति के लिए प्रसिद्ध।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIPPOLYTA_NAME">
+      <Text>हिप्पोलिटा</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HIPPOLYTA_DESCRIPTION">
+      <Text>अमेज़ॉन की सेनानी जो अपने नेतृत्व और सैन्य कौशल के लिए प्रसिद्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HUNAHPU_NAME">
+      <Plurality>2</Plurality>
+      <Text>हुनाहपू और एक्सबालान्क्वे</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_HUNAHPU_DESCRIPTION">
+      <Text>माया के पौराणिक खिलाड़ी और नायक, मृत्यु और अंधकार पर उनकी शक्ति के लिए प्रसिद्ध।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_OYA_NAME">
+      <Text>क्या हुआ?</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_OYA_DESCRIPTION">
+      <Text>हवाओं, तूफ़ानों और बिजली की ओरिशा, जो अपनी अत्यधिक शक्ति के लिए प्रसिद्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MAUI_NAME">
+      <Text>मौई</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MAUI_DESCRIPTION">
+      <Text>पॉलिनेशियाई कथा के अर्धदैवत्व और नायक, उसके करतबों और मानवता को दिए गए उपहारों के लिए प्रसिद्ध।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MULAN_NAME">
+      <Text>मूलान</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_MULAN_DESCRIPTION">
+      <Text>भक्त और कुशल योद्धा, जो अपनी निष्ठा और वफादारी के लिए प्रसिद्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_SINBAD_NAME">
+      <Text>सिनबाद</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_SINBAD_DESCRIPTION">
+      <Text>[COLOR_LIGHTBLUE]नौसेना का वीर.[ENDCOLOR] साहसी और भाग्यशाली खोजी, जिन्हें उनकी अजीब और आश्चर्यजनक यात्राओं के लिए प्रसिद्ध किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_WUKONG_NAME">
+      <Text>सन वुकॉंग</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HERO_WUKONG_DESCRIPTION">
+      <Text>अभिमानी और अमरत्व के लिए प्रसिद्ध, प्राचीन चीन के नायक 'मंकी किंग'।</Text>
+    </Row>
+    <!--Other Units-->
+    <Row Tag="LOC_UNIT_QUESTING_KNIGHT_NAME">
+      <Text>क्वेस्टिंग नाइट्।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_QUESTING_KNIGHT_DESCRIPTION">
+      <Text>भारी सवारी। आर्थर के चुने हुए शूरवीरों में से एक और उनके आक्रमण से मजबूत हुआ।</Text>
+    </Row>
+    <!--Abilities and Classes-->
+    <Row Tag="LOC_HERO_CLASS_NAME">
+      <Text>नायक</Text>
+    </Row>
+    <Row Tag="LOC_HERO_ABILITY_COMBAT_STRENGTH_AOE_NAME">
+      <Text>प्रेरणादायक</Text>
+    </Row>
+    <Row Tag="LOC_HERO_ABILITY_COMBAT_STRENGTH_AOE">
+      <Text>2 टाइल की दूरी के सभी इकाइयों को +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_HERO_COMBAT_STRENGTH_UNIT_MODIFIER">
+      <Text>पास के प्रेरणादायक नायक से +{1_Amount} [ICON_Strength] युद्ध बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HIPPOLYTA_HEAL_PER_TURN_NAME">
+      <Text>हिप्पोलिटा की कृपा</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_HIPPOLYTA_HEAL_PER_TURN">
+      <Text>हिप्पोलिटा हर बार स्वचालित रूप से {1_Amount} एचपी ठीक करती है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HUNAHPU_RESURRECT_KILL_NAME">
+      <Text>जुड़वाँ की पुनर्जीवनी</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_HUNAHPU_RESURRECT_KILL">
+      <Text>हुनाहपू और शबलांके द्वारा मारे गए किसी भी साधारण भूमि इकाई को आपके नियंत्रण में पूर्ण एचपी और गति के साथ फिर से जीवित किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MULAN_STRENGTH_PER_TURN_NAME">
+      <Text>मुलान का समर्पण</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_MULAN_STRENGTH_PER_TURN">
+      <Text>मुलान हर बार {1_Amount} [ICON_Strength] युद्ध शक्ति प्राप्त करती है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MULAN_FORTIFY_NAME">
+      <Text>मुलान की अवहेलना</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_MULAN_FORTIFY">
+      <Text>हर टर्न के अंत में मुलान अपनी पूरी ताकत से सुरक्षित होती है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WUKONG_STEALTH_NAME">
+      <Text>सन वुकोंग का विदेश्यमानता</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_WUKONG_STEALTH">
+      <Text>सन वुकॉंग छिपा रहता है जब तक वह किसी दुश्मन इकाई के संग नहीं होता।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WUKONG_LIFESPAN_NAME">
+      <Text>सन वूकॉंग की अमरता</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WUKONG_LIFESPAN">
+      <Text>सन वूकोंग ने [ICON_Lifespan] लाइफस्पैन को बड़ा बढ़ा कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SINBAD_GOLD_FOR_DISCOVERY_NAME">
+      <Text>सिनबाद की यात्राएं</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_SINBAD_GOLD_FOR_DISCOVERY">
+      <Text>सिनबाद कोई महाद्वीप या प्राकृतिक विस्मय का खोज करते समय {1_GoldReward} [ICON_GOLD] सोना कमाता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SINBAD_OCEAN_VALID_TERRAIN_NAME">
+      <Text>नेविगेटर</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SINBAD_OCEAN_VALID_TERRAIN">
+      <Text>समुद्र टाइल में प्रवेश किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_TRAIT_SUMERIA_HEROES_LIFESPAN">
+      <Text>सभी हीरो यूनिट के [ICON_Lifespan] जीवनकाल {1_Amount} अधिक लंबा होता है।</Text>
+    </Row>
+    <Row Tag="LOC_MODIFIER_TRAIT_SUMERIA_HEROES_FASTER_CLAIM">
+      <Text>हीरोइक क्वेस्ट से {1_Amount}% [ICON_Production] उत्पादन वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_FOREST_TERRAIN_COST_NAME">
+      <Text>एजाइल</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_FOREST_TERRAIN_COST">
+      <Text>जंगल और वर्षावनी मैदान में [ICON_Movement] चलने के दंड को नजरअंदाज़ करता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_HILLS_TERRAIN_COST_NAME">
+      <Text>अस्थायी</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_HILLS_TERRAIN_COST">
+      <Text>पहाड़ी भूमि में [ICON_Movement] चलने पर आने वाली दंश पर ध्यान नहीं देता।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_ALL_TERRAIN_COST_NAME">
+      <Text>स्विफ्ट</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_IGNORE_ALL_TERRAIN_COST">
+      <Text>सभी भूमि को अनदेखा करता है [ICON_Movement] आगे बढ़ने के नुकसानों को।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_ENTER_FOREIGN_LANDS_NAME">
+      <Text>राजनयिक (Rajnayik)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HERO_ENTER_FOREIGN_LANDS_MODIFIER">
+      <Text>युद्ध न होने पर विदेशी देशों में प्रवेश कर सकते हैं।</Text>
+    </Row>
+    <!--Building Modifier strings-->
+    <Row Tag="LOC_MODIFIER_ORACLE_RECALL_FAITH_COST_DISCOUNT">
+      <Text>{1_Amount} [ICON_Faith] शूरवीरों को याद करने के लिए विश्वास।</Text>
+    </Row>
+    <!--Unit Commands-->
+    <Row Tag="LOC_UNITCOMMAND_KILL_WEAKER_UNIT_DESCRIPTION">
+      <Text>बेओवुल्फ का चुनौती देना</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_KILL_WEAKER_UNIT_HELP">
+      <Text>ब्योवुल्फ से [ICON_Strength] योद्धा ताकत से कम के आस-पास के दुश्मन इकाई को लक्ष्य बनाएं। ब्योवुल्फ तुरंत लक्ष्य को नष्ट कर देता है। इसका खर्च 1 चार्ज, 1 [ICON_MOVEMENT] गति है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TRANSFORM_UNIT_DESCRIPTION">
+      <Text>आर्थर का सम्मान</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_TRANSFORM_UNIT_HELP">
+      <Text>आपके नियंत्रण में अवकाश वाली पड़ोसी भूमि के सैन्य इकाई का लक्ष्य निशाना बनाएँ। आर्थर इस इकाई को एक क्वेस्टिंग नाइट में बदल देता है: एक अद्वितीय हैवी कैवल्री इकाई, जिसमें बढ़ी हुई [ICON_Strength] युद्ध शक्ति और {1_LifespanVal} [ICON_Lifespan] आयु होती है। इसके लिए 1 चार्ज, 1 [ICON_MOVEMENT] गति लागत होती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESOURCE_INSPIRE_DESCRIPTION">
+      <Text>अनांसी के चाल-धुंधले</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESOURCE_INSPIRE_HELP">
+      <Text>जब एक बोनस या लक्जरी संसाधन पर स्थित हो तो एनांसी संसाधन का उपभोग करता है और {1_ScienceReward} [ICON_SCIENCE] विज्ञान और {2_CultureReward} [ICON_CULTURE] संस्कृति उत्पन्न करता है। कोई सुधार उपलब्ध होने पर नष्ट कर दिया जाता है। एक चार्ज लगता है और टर्न समाप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_COMPLETE_DISTRICT_DESCRIPTION">
+      <Text>हर्क्यूलीज का काम</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_COMPLETE_DISTRICT_HELP">
+      <Text>जब आप एक मित्रवत जिले में हों जो निर्माण के अधीन हो, तो हेर्कुलेस जिले का निर्माण तुरंत पूरा कर देता है। इसके लिए 2 चार्ज खर्च होते हैं और टर्न समाप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_DESTROY_DEVELOPMENT_DESCRIPTION">
+      <Text>हरकुलेस का क्रोध</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_DESTROY_DEVELOPMENT_HELP">
+      <Text>जब दुश्मन जिले पर स्थित हो तो उपयोग करें। हर्क्यूलीज सभी मौजूदा इमारतों को नष्ट करता है और जिले का लूटपाट करता है। 1 चार्ज का खर्च होता है और टर्न समाप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_GRANT_ENVOY_DESCRIPTION">
+      <Text>हिमिको का अमुल्य रत्न</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_GRANT_ENVOY_HELP">
+      <Text>किसी भी आस-पास के शहर-राज्य को लक्ष्य बनाएँ। हिमिको तुरंत शहर-राज्य में 1 मुफ्त [ICON_Envoy] राजदूत नियुक्त करता है। यदि आप पहले से ही वहाँ सुजेरेन हैं, तो हिमिको को भी {1_FaithChange} [ICON_FAITH] धर्म कमाई करती है। 1 चार्ज लगता है और टर्न समाप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FORCE_LEVY_MILITARY_DESCRIPTION">
+      <Text>हिमिको का शासन</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FORCE_LEVY_MILITARY_HELP">
+      <Text>जब आप किसी शहर-राज्य के सुजेरेन हो, तब उस क्षेत्र में होने पर, हिमिको तुरंत अपनी सेना को मुफ्त में लगाता है। 1 चार्ज लगता है और टर्न समाप्त हो जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESTORE_UNIT_MOVES_DESCRIPTION">
+      <Text>हिप्पोलिटा का आदेश</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_RESTORE_UNIT_MOVES_HELP">
+      <Text>इस टर्न में किसी भी पड़ोसी मित्र इकाई को लक्ष्य बनाएं, जिसने चला या हमला किया है। हिपोलिटा तुरंत इकाई के चलन और हमलों को बहाल करती है। एक बार प्रति टर्न उपयोग किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_NAVAL_GOLD_RAID_DESCRIPTION">
+      <Text>सिनबाद का भाग्य</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_NAVAL_GOLD_RAID_HELP">
+      <Text>किसी भी आसन्न दुश्मन नौसेना इकाई या बार्बरियन कैंप का लक्ष्य निर्धारित करें। लक्ष्य या तो साफ होता है या 50% तक नुकसान पहुंचा होता है, और सिनबाद तुरंत {1_GoldReward} [ICON_GOLD] सोना कमाता है। इसका कीमत 1 चार्ज होती है और टर्न खत्म हो जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_CREATE_RANDOM_RESOURCE_DESCRIPTION">
+      <Text>मौई के आविष्कार</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_CREATE_RANDOM_RESOURCE_HELP">
+      <Text>जब एक अधिग्रहण नहीं किए गए, खाली प्लॉट पर स्थित होने पर उपयोग करें। मौई प्लॉट पर एक यादृच्छिक बोनस या लक्जरी संसाधन बनाता है। इसके लिए 1 चार्ज लगता है और टर्न समाप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_AREA_DAMAGE_HEAL_DESCRIPTION">
+      <Text>ओया का तूफान</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_AREA_DAMAGE_HEAL_HELP">
+      <Text>पड़ोसी सभी दुश्मनों को हमला करें और सभी आसन्न स्वामित्व यूनिट को {1_DamageAmount} से ठीक करें। इसके लिए 1 चार्ज लगता है और टर्न समाप्त होता है।</Text>
+    </Row>
+    <!--Projects-->
+    <!--Create Anansi-->
+    <Row Tag="LOC_PROJECT_DISCOVER_NEXT_HERO_NAME">
+      <Text>वीर गाथाएं</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DISCOVER_NEXT_HERO_SHORT_NAME">
+      <Text>वीर गाथाएं</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DISCOVER_NEXT_HERO_DESCRIPTION">
+      <Text>एक नया हीरो खोजें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ANANSI_NAME">
+      <Text>अनांसी के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ANANSI_SHORT_NAME">
+      <Text>अनंसी के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ANANSI_DESCRIPTION">
+      <Text>इस शहर को नायक अनांसी के नाम करें। पूर्ण होने पर, अनांसी शहर के केंद्र में दिखाई देगा।</Text>
+    </Row>
+    <!--Create Arthur-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ARTHUR_NAME">
+      <Text>आर्थर के प्रति भक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ARTHUR_SHORT_NAME">
+      <Text>आर्थर के प्रति भक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_ARTHUR_DESCRIPTION">
+      <Text>इस शहर को शूरवीर आर्थर को समर्पित करें। पूर्ण होने पर, आर्थर शहर के केंद्र में प्रकट होगा।</Text>
+    </Row>
+    <!--Create Beowulf-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_BEOWULF_NAME">
+      <Text>बियोवुल्फ के प्रति भक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_BEOWULF_SHORT_NAME">
+      <Text>ब्यूवोल्फ के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_BEOWULF_DESCRIPTION">
+      <Text>इस शहर को वीर बेओवुल्फ के नाम करें। पूर्ण होने पर, शहर के केंद्र में बेओवुल्फ दिखाई देगा।</Text>
+    </Row>
+    <!--Create Hercules-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HERCULES_NAME">
+      <Text>हर्क्यूलेस के प्रति भक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HERCULES_SHORT_NAME">
+      <Text>हर्केलेस के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HERCULES_DESCRIPTION">
+      <Text>इस शहर को वीर हेरकुलेस को समर्पित कीजिए। पूर्ण होने पर, हेरकुलेस शहर के केंद्र में प्रकट हो जाएगा।</Text>
+    </Row>
+    <!--Create Himiko-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIMIKO_NAME">
+      <Text>हिमिको के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIMIKO_SHORT_NAME">
+      <Text>हिमिको के प्रति भक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIMIKO_DESCRIPTION">
+      <Text>इस शहर को नायिका हिमिको को समर्पित करें। पूरा होने पर, हिमिको शहर के केंद्र में दिखाई देगी।</Text>
+    </Row>
+    <!--Create Hippolyta-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIPPOLYTA_NAME">
+      <Text>हिप्पोलिटा के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIPPOLYTA_SHORT_NAME">
+      <Text>हिपोलिटा के प्रति भक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HIPPOLYTA_DESCRIPTION">
+      <Text>इस शहर को शूरवीर हिप्पोलिटा को समर्पित करें। पूर्ण होने पर, हिप्पोलिटा शहर के केंद्र में दिखाई देगी।</Text>
+    </Row>
+    <!--Create Hunahpu-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_NAME">
+      <Text>हूनाह्पू और शबलांके के प्रति भक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_SHORT_NAME">
+      <Text>हुनाह्पु और शबलांके के प्रति भक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_DESCRIPTION">
+      <Text>इस शहर को हीरो ट्विन्स हूनाहपू और श्बलांके को समर्पित करें। पूर्ण होने पर, हूनाहपू और श्बलांके शहर के केंद्र में दिखाई देंगे।</Text>
+    </Row>
+    <!--Create Oya-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_OYA_NAME">
+      <Text>ओया के प्रति समर्पण।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_OYA_SHORT_NAME">
+      <Text>ओया के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_OYA_DESCRIPTION">
+      <Text>इस शहर को हीरो ओया को समर्पित करें। पूरा होने पर, ओया शहर के केंद्र में प्रकट होगा।</Text>
+    </Row>
+    <!--Create Maui-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MAUI_NAME">
+      <Text>मौई के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MAUI_SHORT_NAME">
+      <Text>मौई के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MAUI_DESCRIPTION">
+      <Text>इस शहर को नायक मौई के नाम करें। पूरा होने पर, मौई शहर के केंद्र में दिखाई देगा।</Text>
+    </Row>
+    <!--Create Mulan-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MULAN_NAME">
+      <Text>मुलान के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MULAN_SHORT_NAME">
+      <Text>मुलान के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_MULAN_DESCRIPTION">
+      <Text>इस शहर को वीरांगना मुलान के नाम कर दें। पूर्णतया होने पर, मुलान शहर के केंद्र में दिखाई देगी।</Text>
+    </Row>
+    <!--Create Sinbad-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_SINBAD_NAME">
+      <Text>सिंबाद के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_SINBAD_SHORT_NAME">
+      <Text>सिनबाद के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_SINBAD_DESCRIPTION">
+      <Text>इस शहर को नायक सिनबाद के नाम करें। पूर्ण होने पर, सिनबाद शहर के केंद्र में दिखाई देगा।</Text>
+    </Row>
+    <!--Create Wukong-->
+    <Row Tag="LOC_PROJECT_CREATE_HERO_WUKONG_NAME">
+      <Text>सूर्य वूकोंग के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_WUKONG_SHORT_NAME">
+      <Text>सूरज वुकोंग के प्रति भक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CREATE_HERO_WUKONG_DESCRIPTION">
+      <Text>इस शहर को शूरवीर सन वूकॉंग को समर्पित करें। पूर्ण होने पर, सन वूकॉंग शहर के केंद्र में दिखाई देंगे।</Text>
+    </Row>
+    <!--Great Works-->
+    <Row Tag="LOC_GREATWORKOBJECT_HERO">
+      <Text>[ICON_GreatWork_HeroRelic] वीर अवशेष</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_ANANSI_NAME">
+      <Text>अनांसी के ढोल।</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_ANANSI_NAME">
+      <Text>अनांसी का महाकाव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_ARTHUR_NAME">
+      <Text>आर्थर की पीयूष ग्रहणी।</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_ARTHUR_NAME">
+      <Text>आर्थर का महाकाव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_BEOWULF_NAME">
+      <Text>बेओवुल्फ का तलवार</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_BEOWULF_NAME">
+      <Text>बियोवुल्फ का महाकाव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HERCULES_NAME">
+      <Text>हेर्कुलेस क्लब</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HERCULES_NAME">
+      <Text>हरकलीस का भव्य काव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HIMIKO_NAME">
+      <Text>हिमिको का मुकुट</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HIMIKO_NAME">
+      <Text>हिमिको का महाकाव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HIPPOLYTA_NAME">
+      <Text>हिप्पोलिटा का कमरबंद</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HIPPOLYTA_NAME">
+      <Text>हिपोलिटा का महाकाव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_HUNAHPU_NAME">
+      <Text>हीरो ट्विन्स की मंटल्स</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_HUNAHPU_NAME">
+      <Text>हीरो ट्विन्स का महाकाव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_OYA_NAME">
+      <Text>ओया का चाकू (Oya ka chaku)</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_OYA_NAME">
+      <Text>ओया का महाकाव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_MAUI_NAME">
+      <Text>मौई का टॉर्च</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_MAUI_NAME">
+      <Text>माउई की महाकाव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_MULAN_NAME">
+      <Text>मुलान की कवची</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_MULAN_NAME">
+      <Text>मूलान का महाकाव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_SINBAD_NAME">
+      <Text>सिनबाद का कंपास</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_SINBAD_NAME">
+      <Text>सिनबाद का महाकाव्य</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_SYMBOL_WUKONG_NAME">
+      <Text>सन वूकोंग के कर्मचारी</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_HERO_EPIC_WUKONG_NAME">
+      <Text>सन वुकोंग का महाकाव्य</Text>
+    </Row>
+    <!--UI-->
+    <Row Tag="LOC_BUILDING_NAME_FOR_HERO">
+      <Text>{2_HeroName} का {1_BuildingName}</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NO_TARGETS">
+      <Text>कोई लक्ष्य उपलब्ध नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HERO_FAILURE_NOT_ENOUGH_CHARGES">
+      <Text>पर्याप्त कार्रवाई शुल्क नहीं बचे हुए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HERO_FAILURE_REQUIRES_FULL_MOVEMENT">
+      <Text>पूर्ण गति की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_HERO_FAILURE_NO_MOVES">
+      <Text>कोई चाल बची नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_ONCE_PER_TURN">
+      <Text>पहले से ही यह बारी इस्तेमाल हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_OWNED_PLOT">
+      <Text>ख़रीदी हुई ज़मीन पर नहीं उपयोग किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_USED_CITY">
+      <Text>यह क्षमता पहले से ही {1_CityName} में इस्तेमाल की गई है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_USED_FEATURE">
+      <Text>इस {1_FeatureName} पर पहले से ही यह क्षमता उपयोग की जा चुकी है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_DISTRICT_AT_WAR">
+      <Text>हमारे साथ जंग में शहर के किसी जिले को लक्ष्य नहीं बना सकते।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_CITY_AT_WAR">
+      <Text>हमारे साथ युद्धरत शहर को लक्ष्य नहीं बनाया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NO_LEVY_AVAILABLE">
+      <Text>यह सिटी-स्टेट लव करने के लिए कोई यूनिट उपलब्ध नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_IN_SUZERAIN_TERRITORY">
+      <Text>आपके अधीनस्थ शहर-राज्य के क्षेत्र में होना अनिवार्य है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_LEVY_ACTIVE">
+      <Text>इस शहर-राज्य की सेना पहले से ही लगाई जा चुकी है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_SUZERAIN_OF_CITY">
+      <Text>आप {1_CityName} के सुज़ेरेन नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_INCOMPLETE_DISTRICT">
+      <Text>इसे निर्माणाधीन जिले में उपयोग किया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_DISTRICT">
+      <Text>जिले पर उपयोग किया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_DEVELOPMENT">
+      <Text>जिला या सुधार पर उपयोग किया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NOT_ON_LUXURY_OR_BONUS_RESOURCE">
+      <Text>इसे एक विलासित या बोनस संसाधन पर उपयोग किया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_DISTRICT_PILLAGED">
+      <Text>यह जिला पहले से लूट लिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_CITY_CENTER">
+      <Text>शहर केंद्र पर इस्तेमाल नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_RESOURCE">
+      <Text>प्रविष्टि मौजूद वस्तु पर उपयोग नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_IMPROVEMENT">
+      <Text>एक उन्नत टाइल पर उपयोग नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_WONDER">
+      <Text>वंडर पर इस्तेमाल नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_NO_VALID_RESOURCES">
+      <Text>इस स्थान पर कोई संसाधन वैध नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_FAILURE_HERO_ON_ALLIED_PLOT">
+      <Text>एक सहयोगी सभ्यता द्वारा स्वामित्व में रखी गई भूमि पर उपयोग नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_CHOOSE_ARTIFACT_EXPLANATION_HEROIC_RELIC">
+      <Text>आपके पुरातत्वविद {1_UnitName} ने {2_ActingCiv} के एक पूर्वज हीरो द्वारा छोड़े गए एक प्रतीकात्मक वस्तु का खुदाई की है।</Text>
+    </Row>
+    <Row Tag="LOC_CAN_TRAIN_FAILURE_SAME_ERA">
+      <Text>युग के हर बार केवल एक बार ही नायक उभर सकते हैं।</Text>
+    </Row>
+    <!--Heroes Popup-->
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_GOODY_HUT">
+      <Text>जनजातीय गांव वालों ने हमारे साथ अपनी पौराणिक कथाएं और लोक कथाएं साझा की हैं। हमने {1_HeroName: plural 1?Hero; other?Heroes;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR] का खोज किया है।</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_PROJECT">
+      <Text>वीर गाथाएँ हमारे लोगों के बीच अनुपम कर्मों की खबर फैला देती हैं। हमने {1_HeroName: plural 1?Hero; other?Heroes;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR] का खोज किया है।</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_CITY_STATE">
+      <Text>जैसे ही हमारा {2_SourcePlayerName} के साथ प्रभाव बढ़ता जा रहा है, वे अपनी कथाओं और लोक कथाओं को साझा करते हैं। हमने {1_HeroName} [COLOR_LIGHTBLUE]{1_HeroName} को खोज निकाला है! [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_CITY_STATE_SUZERAIN">
+      <Text>हमारी सम्राज्यवाद के बारे में {2_SourcePlayerName} से अधिक जानकारी हमें उनकी कथाएं और लोक विश्वासों के बारे में पता चली है। हमने {1_HeroName} [COLOR_LIGHTBLUE]{1_HeroName: plural 1?Hero; other?Heroes;}[/COLOR] का खोज किया है!</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_NEW_CONTINENT">
+      <Text>हमने {2_ContinentName} महाद्वीप की खोज की है और इसके साथ ही नए कल्पना-कथाओं की खोज की है। हमने {1_HeroName} का खोज किया है!</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_NATURAL_WONDER">
+      <Text>{2_FeatureName} की भव्य दृश्यनीयता स्थानीय पौराणिक कथाओं और लोक-कथाओं को प्रेरित करती है। हमने {1_HeroName: plural 1?Hero; other?Heroes;} [COLOR_LIGHTBLUE]{1_HeroName}![ENDCOLOR] को खोज निकाला है।</Text>
+    </Row>
+    <Row Tag="LOC_HERO_DISCOVERED_DESC_ENCOUNTER">
+      <Text>एक किंवदंति हमारे सामने खड़ी है! हमारी सेनाएं ने निजी रूप से {1_HeroName: plural 1?हीरो; other?हीरो;} [COLOR_LIGHTBLUE]{1_HeroName} से मिली हैं! [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_DISCOVER_HERO_HELP">
+      <Text>आप किसी भी शहर में [COLOR:Civ6Yellow]{1_OriginBuilding}[ENDCOLOR] इमारत के साथ एक हीरो डिवोशन प्रोजेक्ट को पूरा करके इस हीरो का दावा कर सकते हैं। प्रत्येक शहर में केवल एक हीरो डिवोशन बनाया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_DISCOVER_HERO_NAVAL_HELP">
+      <Text>आप इस हीरो को उस शहर में एक हीरो देवोशन प्रोजेक्ट पूरा करके दावा कर सकते हैं जिसमें नौसेना इकाइयों को प्रशिक्षित करने की क्षमता वाले [COLOR:Civ6Yellow]{1_OriginBuilding}[ENDCOLOR] इमारत हो। प्रत्येक शहर में केवल एक हीरो देवोशन बनाया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_DISCOVER_CLAIMED_HERO_HELP">
+      <Text>यह नायक पहले से ही {1_PlayerName} द्वारा दावा किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_HERO_EXPIRED_MESSAGE">
+      <Text>हीरो [ICON_Lifespan] जीवनकाल समाप्त हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_HERO_EXPIRED_DESC">
+      <Text>हमारे {1_UnitName: plural 1?हीरो; other?हीरोस;} [COLOR_LIGHTBLUE]{1_UnitName}[ENDCOLOR] {1_UnitName: plural 1?के पास; other?के पास;} अपनी [ICON_Lifespan] आयु सीमा का अंत पहुँच गए हैं और हमारे देश से चले गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_HERO_KILLED_MESSAGE">
+      <Text>नायक मारा गया।</Text>
+    </Row>
+    <Row Tag="LOC_HERO_KILLED_DESC">
+      <Text>हमारे {1_UnitName: plural 1?हीरो; other?हीरोस;} [COLOR_LIGHTBLUE]{1_UnitName}[ENDCOLOR] के लड़ाई में गिर गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_HEROES_HELP_RECALL_DESC">
+      <Text>जब कोई नायक समाप्त होता है या मारा जाता है, तो उन्हें उन शहरों में [ICON_Faith] आस्था से खरीदने के द्वारा याद आ सकता है जहां उनका [COLOR:Civ6Yellow]{1_OriginBuilding}[ENDCOLOR] स्थित है। [NEWLINE] [NEWLINE] याद आए हुए नायकों को उनके [ICON_Lifespan] लाइफस्पैन और एक्शन चार्ज रिफ्रेश किए जाते हैं, लेकिन उन्हें याद करने के लिए [ICON_Faith] आस्था लागत हर बार बढ़ती है। नायकों को प्रति युग एक बार याद किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_LOOK_AT_HERO">
+      <Text>हीरो को देखो।</Text>
+    </Row>
+    <!--Notifications-->
+    <Row Tag="LOC_NOTIFICATION_HERO_DISCOVERED_MESSAGE">
+      <Text>हीरो पाया गया</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_DISCOVERED_SUMMARY">
+      <Text>आपने {1_HeroName: plural 1?योद्धा; other?योद्धाओं;} {1_HeroName} को खोज लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOW_LIFESPAN_MESSAGE">
+      <Text>हीरो [ICON_Lifespan] उम्र कम है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOW_LIFESPAN_SUMMARY">
+      <Text>हमारे {1_HeroClassName} केवल {2_NumTurns} टर्न बचे हैं उनकी [ICON_Lifespan] जीवनकाल में।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOST_LIFESPAN_EXPIRED_MESSAGE">
+      <Text>नायक हार गया</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_LOST_LIFESPAN_EXPIRED_SUMMARY">
+      <Text>हमारे {1_HeroClassName: plural 1?हीरो; other?हीरोस;} {1_HeroClassName} {1_HeroClassName: plural 1?के पास; other?के पास;} उनकी [ICON_Lifespan] आयु का अंत हो गया है। हम उन्हें इतिहास में शामिल करेंगे जब तक हमारे पास पर्याप्त [ICON_Faith] विश्वास नहीं होता।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CAN_PURCHASE_WITH_FAITH_MESSAGE">
+      <Text>याददाश्त हीरो कर सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CAN_PURCHASE_WITH_FAITH_SUMMARY">
+      <Text>आपने पर्याप्त [ICON_Faith] विश्वास एकत्र किए हैं ताकि आप {1_HeroClassName} {1_HeroClassName: plural 1?Hero; other?Heroes;} को {2_CityName} शहर में वापस बुला सकें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_KILLED_OTHER_MESSAGE">
+      <Text>हीरो मारा गया। (Heero mara gaya.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_KILLED_OTHER_SUMMARY">
+      <Text>लड़ाई में {1_HeroClassName: plural 1?Hero; other?Heroes;} {1_HeroClassName} {1_HeroClassName: plural 1?has; other?have;} हार गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_EXPIRED_OTHER_MESSAGE">
+      <Text>वीर विदाई पाया</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_EXPIRED_OTHER_SUMMARY">
+      <Text>[ICON_Lifespan] के अंत तक पहुँच गए हैं {1_HeroClassName: plural 1?Hero; other?Heroes;} {1_HeroClassName} जिनकी {1_HeroClassName: plural 1?has; other?have;} समाप्त हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIMED_OTHER_MESSAGE">
+      <Text>हीरो दावा किया</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIMED_OTHER_SUMMARY">
+      <Text>{1_CivName} ने {2_HeroName} {2_HeroName: plural 1?हीरो; other?हीरोज;} को दावा किया है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIMED_OTHER_UNMET_SUMMARY">
+      <Text>एक असंगत खिलाड़ी ने {1_HeroName: plural 1?Hero; other?Heroes;} {1_HeroName} को दावा कर लिया है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_RECALLED_OTHER_MESSAGE">
+      <Text>हीरो को स्मरण किया गया</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_RECALLED_OTHER_SUMMARY">
+      <Text>{1_CivName} ने {2_HeroName: plural 1?हीरो; other?हीरो;} {2_HeroName} को वापस बुलाया है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIM_FAILED_MESSAGE">
+      <Text>उत्पादन बचाया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_HERO_CLAIM_FAILED_SUMMARY">
+      <Text>आप समय पर {1_HeroName: plural 1?Hero; other?Heroes;} {1_HeroName} का दावा नहीं कर पाए। हालांकि {2_Production} [ICON_Production] उत्पादन का पुनरुत्थान किया गया है और {3_CityName} शहर को पुरस्कृत किया गया है।</Text>
+    </Row>
+    <!--GreatPeoplePopup-->
+    <Row Tag="LOC_GREAT_PEOPLE_TAB_HEROES">
+      <Text>नायकों</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_RECRUITED_STATE">
+      <Text>दावा किया गया है:</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_DISCOVERED_STATE">
+      <Text>खोजा गया।</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_LOOK_AT_HERO_TT">
+      <Text>इस पैनल को बंद करें और इस हीरो यूनिट का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_LOOK_AT_CITY_TT">
+      <Text>इस पैनल को बंद करें और इस मृत शहीद के शहर का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_CIVILOPEDIA_ENTRY_TT">
+      <Text>इस वीर यूनिट के लिए सिविलोपीडिया एंट्री खोलें।</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_FAITH_RECALL">
+      <Text>विश्वास के साथ स्मरण करें। (Vishwas ke saath smaran karein.)</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_FAITH_RECALL_TT">
+      <Text>यह नायक {1_Faith} [ICON_Faith] विश्वास के लिए याद किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_INSUFFICIENT_FAITH_TT">
+      <Text>[COLOR_RED]याद करने के लिए अपर्याप्त [ICON_Faith] विश्वास।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_HEROES_DECEASED">
+      <Text>[COLOR_RED]मृत[ENDCOLOR]</Text>
+    </Row>
+  </EnglishText>
+</GameData>

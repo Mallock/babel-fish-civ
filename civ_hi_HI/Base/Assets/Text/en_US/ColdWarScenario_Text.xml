@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BaseGameText>
+    <!-- Victories -->
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_TITLE">
+      <Text>प्रॉक्सी युद्ध (Praksi Yuddh)</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_DESC">
+      <Text>तीन शहर राज्यों को अधिग्रहण करें।</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_BLURB">
+      <Text>शीत युद्ध पर मेरी रणनीति यह है: हम जीतेंगे, वे हारेंगे। - रोनाल्ड रेगन</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_TITLE">
+      <Text>अर्मागेडन का भगवान</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_DESC">
+      <Text>यदि कोई शहर केंद्र नुक्कड़ हो जाता है, तो समय सीमा तक सबसे अधिक शहर केंद्रों को नुक्कड़ करें।</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_BLURB">
+      <Text>जीतने का एकमात्र तरीका खेल नहीं खेलना है।</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_TITLE">
+      <Text>टैंक बैंकर</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_DESC">
+      <Text>यदि कोई शहर केंद्र नहीं नष्ट होते हैं, तो टर्न सीमा तक सबसे अधिक टैंक्स हों।</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_BLURB">
+      <Text>आप खेल के अंत में सबसे ज्यादा टैंक रखते हैं! आप जीतते हैं!</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_RULESET_TITLE">
+      <Text>वैश्विक थर्मोन्यूक्लियर युद्ध</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_RULESET_DESCRIPTION">
+      <!-- Keep in sync with LOC_COLDWAR_MOD_DESCRIPTION -->
+      <Text>The Cold War runs hot in this combat-based scenario set in the Atomic Era. Lasts 50 Turns.[NEWLINE]Victory Conditions[NEWLINE][ICON_Bullet]Lord of the Armageddon: If any city center is nuked, nuke the most city centers by the turn limit.[NEWLINE][ICON_Bullet]Tank Banker: If no city centers are nuked, have the most tanks by the turn limit.[NEWLINE][ICON_Bullet]Proxy War: Capture 3 city-states.[NEWLINE]Gameplay Changes[NEWLINE][ICON_Bullet]Units and nuclear devices are cheaper to build and maintain. They don't require strategic resources.[NEWLINE][ICON_Bullet]Extended ranges for WMD Strikes and Bombers.[NEWLINE][ICON_Bullet]Builders have more charges for faster city development.[NEWLINE][ICON_Bullet]The map starts revealed.[NEWLINE][ICON_Bullet]No Tribal Villages.[NEWLINE][ICON_Bullet]No Barbarians.[NEWLINE][ICON_Bullet]War Weariness is disabled.</Text>
+    </Row>
+    <!-- Mod Package Text -->
+    <Row Tag="LOC_COLDWAR_MOD_TITLE">
+      <Text>बहु-खिलाड़ी दृश्यांक: वैश्विक अण्डाकार युद्ध</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_MOD_TEASER">
+      <Text>युद्ध आधारित स्थिति में ठंडी युद्ध धमाके आइएटम युग में चल रही है। 50 टर्न तक चलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_COLDWAR_MOD_DESCRIPTION">
+      <!-- Keep in sync with LOC_COLDWAR_RULESET_DESCRIPTION -->
+      <Text>The Cold War runs hot in this combat-based scenario set in the Atomic Era. Lasts 50 Turns.[NEWLINE]Victory Conditions[NEWLINE][ICON_Bullet]Lord of the Armageddon: If any city center is nuked, nuke the most city centers by the turn limit.[NEWLINE][ICON_Bullet]Tank Banker: If no city centers are nuked, have the most tanks by the turn limit.[NEWLINE][ICON_Bullet]Proxy War: Capture 3 city-states.[NEWLINE]Gameplay Changes[NEWLINE][ICON_Bullet]Units and nuclear devices are cheaper to build and maintain. They don't require strategic resources.[NEWLINE][ICON_Bullet]Extended ranges for WMD Strikes and Bombers.[NEWLINE][ICON_Bullet]Builders have more charges for faster city development.[NEWLINE][ICON_Bullet]The map starts revealed.[NEWLINE][ICON_Bullet]No Tribal Villages.[NEWLINE][ICON_Bullet]No Barbarians.[NEWLINE][ICON_Bullet]War Weariness is disabled.</Text>
+    </Row>
+    <Row Tag="LOC_CW_GAME_TURN_LIMIT_REACHED_PROGRESS">
+      <Text>टर्न सीमा {ElapsedTurns}/{MinGameTurn} {StatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_PROXYWAR_VICTORY_CAPTURE_CITY_STATES_PROGRESS">
+      <Text>शहर राज्य जीते {CurrentConquered}/{CityStatesConquered} {StatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_ARMAGEDDON_VICTORY_REQUIRES_PLAYER_HAS_MOST_WMD_DIRECT_CITY_HITS_PROGRESS">
+      <Text>शहर केंद्रों को नुकीला गया {NukedCityCenters} {NukeCountStatusIcon} [NEWLINE] कोई भी शहर केंद्र नुकीला किया गया {NukeWarStatusIcon}</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_TANKBANKER_REQUIRES_PLAYER_HAS_MOST_TANKS_PROGRESS">
+      <Text>टैंक प्राप्त {NumPromotionClass} {PromotionStatusIcon}[NEWLINE]कोई शहर केंद्र नहीं न्यूक्ड {NoNukeWarStatusIcon}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

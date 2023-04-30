@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BaseGameText>
+    <Row Tag="LOC_TECH_POTTERY_DESCRIPTION">
+      <Text>खेतों द्वारा सुधारित बोनस संसाधनों का कटाई करने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_ANIMAL_HUSBANDRY_DESCRIPTION">
+      <Text>[ICON_RESOURCE_CATTLE] गाय, [ICON_RESOURCE_SHEEP] भेड़ और [ICON_RESOURCE_DEER] हिरण काटने की अनुमति है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MINING_DESCRIPTION">
+      <Text>वुड काटने और [ICON_RESOURCE_Copper] कॉपर की फसल उगाने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SAILING_DESCRIPTION">
+      <Text>निर्माताओं को शुरूआत करने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_IRRIGATION_DESCRIPTION">
+      <Text>मार्श को साफ करने और [ICON_RESOURCE_BANANAS] केले की फसल काटने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MASONRY_DESCRIPTION">
+      <Text>[ICON_RESOURCE_STONE] पत्थर की कटाई की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_BRONZE_WORKING_DESCRIPTION">
+      <Text>वर्षावन काटने की अनुमति देता है। [ICON_RESOURCE_IRON] लोहा प्रकट करता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SHIPBUILDING_DESCRIPTION">
+      <Text>सभी भूमि इकाइयों को समुद्री यात्रा के लिए उतरने की अनुमति।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_CELESTIAL_NAVIGATION_DESCRIPTION">
+      <Text>व्यापारियों को चढ़ने की अनुमति देता है, और [ICON_RESOURCE_FISH] मछलियों और [ICON_RESOURCE_CRABS] केकड़ों का कटोरा लेने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_MATHEMATICS_DESCRIPTION">
+      <Text>+1 [ICON_Movement] सभी नौसेना इकाइयों के लिए गति।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_APPRENTICESHIP_DESCRIPTION">
+      <Text>+1 [ICON_Production] खनिज सुधार के लिए उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_STIRRUPS_DESCRIPTION">
+      <Text>गाय के चरागाह में सुधार +1 [ICON_Food] भोजन प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_CASTLES_DESCRIPTION">
+      <Text>अगर आप कैथरीन डी मेडिसी (काली रानी) के रूप में खेल रहे हैं तो प्रत्यादर्शता के लिए ग्रेट वॉल सुधार के लिए बोनस [ICON_Culture] संस्कृति हासिल करें। एक मुफ्त जासूस प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION">
+      <Text>नौका सुधार से +2 [ICON_Gold] सोना। सभी नौसेना एवं समुद्री इकाई महासागरीय टाइलों पर सफर कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SQUARE_RIGGING_DESCRIPTION">
+      <Text>+1 [ICON_Movement] चलन - जीते हुए यूनिट के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_BANKING_DESCRIPTION">
+      <Text>खदान सुधार से +2 [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_PRINTING_DESCRIPTION">
+      <Text>अन्य सभी सभ्यताओं पर एक नया राजनयिक दृष्टिकोण प्रदान करता है। सभी [ICON_Tourism] पर्यटन [ICON_GreatWork_Writing] लेखन के महान कामों से प्राप्त होने वाले लाभ दोगुने हो जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_RADIO_DESCRIPTION">
+      <Text>[ICON_RESOURCE_ALUMINUM] एल्यूमिनियम का खुलासा करता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION">
+      <Text>+1 [ICON_Production] खनिज सुधार के लिए उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION">
+      <Text>अनुसंधान समझौते वाणिज्यिक कार्यवाही की अनुमति देता है। [ICON_Food] बागान सुधार से +1 खाद्य।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SANITATION_DESCRIPTION">
+      <Text>स्टेपवेल में सुधार करने से +1 [ICON_Housing] आवास प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_STEAM_POWER_DESCRIPTION">
+      <Text>+2 [ICON_Movement] अपने साथ ले जाने वाली युनिटों के लिए आंदोलन।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FLIGHT_DESCRIPTION">
+      <Text>सभी सुधारों पर [ICON_Tourism] पर्यटन प्राप्त करें जो [ICON_Culture] संस्कृति प्रदान करते हैं। [ICON_Tourism] पर्यटन की उत्पत्ति की राशि सुधार के [ICON_Culture] संस्कृति उत्पादन के समान होती है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION">
+      <Text>खेत सुधारों को कर्म में बदला जाता है। हर खेत सुधार के लिए +1 [ICON_Food] खाद्य परिसर बोनस, जिसे वे अपने पड़ोस में सुधार करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_STEEL_DESCRIPTION">
+      <Text>+1 [ICON_Production] लंबर मिल सुधार से उत्पादन। शहरी रक्षा का विकल्प उपलब्ध होता है, जो आपके सभी शहरों को स्वचालित रूप से 400 संरक्षण शक्ति और एक दूरस्थ आक्रमण करने की क्षमता देता है। सभी पूर्व दीवार सुधार अप्रभावी हो जाते हैं और आक्रमण समर्थन इकाइयों का प्रभाव नहीं होता है।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_COMBUSTION_DESCRIPTION">
+      <Text>+1 [ICON_Movement] उतरे हुए इकाइयों के लिए गति का आंकड़ा।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_ROCKETRY_DESCRIPTION">
+      <Text>+1 [ICON_Production] क्वारी सुधार से उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_PLASTICS_DESCRIPTION">
+      <Text>+1 [ICON_Food] खाद्य फिशिंग बोट्स के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_COMPUTERS_DESCRIPTION">
+      <Text>एक अतिरिक्त जासूस निर्मित करने की क्षमता प्रदान करता है। आपके सारे साम्राज्य में +100% [ICON_Tourism] पर्यटन।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SYNTHETIC_MATERIALS_DESCRIPTION">
+      <Text>+1 [ICON_Gold] कैम्प्स को सोना।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_ROBOTICS_DESCRIPTION">
+      <Text>+1 [ICON_Production] उत्पादन से चरागाहों में।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_FUTURE_TECH_DESCRIPTION">
+      <Text>इसे बार-बार पूरा किया जा सकता है, जिससे स्कोर विजय की ओर आपके अंक बढ़ते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SAILING">
+      <Text>तट पर एक शहर मिला।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_ASTROLOGY">
+      <Text>कोई प्राकृतिक विस्मय खोजें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_IRRIGATION">
+      <Text>एक संसाधन खेती करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_ARCHERY">
+      <Text>एक स्लिंगर से एक यूनिट को मार डालें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_WRITING">
+      <Text>एक और सभ्यता से मिलें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MASONRY">
+      <Text>एक क्वारी बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_BRONZE_WORKING">
+      <Text>तीन बारबरों को मार डालो।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_THE_WHEEL">
+      <Text>किसी संसाधन को खनन करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CELESTIAL_NAVIGATION">
+      <Text>2 समुद्र संसाधनों को सुधारें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CURRENCY">
+      <Text>एक [ICON_TradeRoute] व्यापार मार्ग बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_HORSEBACK_RIDING">
+      <Text>एक चरागाह बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_IRON_WORKING">
+      <Text>एक लौह खदान बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SHIPBUILDING">
+      <Text>दो गैलियों को अपने पास रखें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MATHEMATICS">
+      <Text>तीन अलग-अलग विशेषता जिले बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CONSTRUCTION">
+      <Text>पानी की चक्की बनाओ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_ENGINEERING">
+      <Text>पुरातन दीवारें बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MILITARY_TACTICS">
+      <Text>एक स्पीयरमैन से एक यूनिट को मार डालें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_APPRENTICESHIP">
+      <Text>3 खदान बनाओ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_STIRRUPS">
+      <Text>फ्यूडलिज्म नागरिकता है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MACHINERY">
+      <Text>तीन आर्चर्स अपने पास हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_EDUCATION">
+      <Text>एक महान वैज्ञानिक बनें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MILITARY_ENGINEERING">
+      <Text>एक नहर बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CASTLES">
+      <Text>छः नीति स्लॉट्स के साथ सरकार हो। (Chhah neeti slots ke saath sarkar ho.)</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CARTOGRAPHY">
+      <Text>दो बंदरगाह बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MASS_PRODUCTION">
+      <Text>लम्बर मिल बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_BANKING">
+      <Text>गिल्ड सिविक हो जाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_GUNPOWDER">
+      <Text>आर्मरी बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_PRINTING">
+      <Text>दो विश्वविद्यालय बनाओ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SQUARE_RIGGING">
+      <Text>मस्केटमैन के द्वारा एक यूनिट को मार डालें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_ASTRONOMY">
+      <Text>एक पहाड़ के समीप एक विश्वविद्यालय बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_METAL_CASTING">
+      <Text>दो क्रॉसबोमैन खरीदें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SIEGE_TACTICS">
+      <Text>दो ट्रेबुशेट्स अपने पास हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_INDUSTRIALIZATION">
+      <Text>3 कार्यशालाओं का निर्माण करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCIENTIFIC_THEORY">
+      <Text>आधुनिकता सिविक हासिल करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_BALLISTICS">
+      <Text>अपने क्षेत्र में 2 किले होने चाहिए। दोनों को सैन्य अभियंता द्वारा निर्मित किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MILITARY_SCIENCE">
+      <Text>शत्रु को नाइट से मार दो।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_STEAM_POWER">
+      <Text>2 शिपयार्ड बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SANITATION">
+      <Text>2 मोहल्ले बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_ECONOMICS">
+      <Text>2 बैंक बनाओ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_RIFLING">
+      <Text>नाइटर माइन बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_FLIGHT">
+      <Text>औद्योगिक युग या उसके बाद की आश्चर्य का निर्माण करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_REPLACEABLE_PARTS">
+      <Text>तीन लाइन पैदल सैनिक ख़रीदें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_STEEL">
+      <Text>कोयला खदान और आयरनक्लैड बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_ELECTRICITY">
+      <Text>तीन निजी जहाज हों।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_RADIO">
+      <Text>राष्ट्रीय उद्यान बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CHEMISTRY">
+      <Text>अनुसंधान समझौता पूरा करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_COMBUSTION">
+      <Text>एक वस्तुविज्ञान विषयक अवशेष निकालें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_ADVANCED_FLIGHT">
+      <Text>तीन बाइप्लेन बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_ADVANCED_BALLISTICS">
+      <Text>दो विद्युत उत्पादन संयंत्र बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_COMBINED_ARMS">
+      <Text>तीन सेनाएं या अरमादें होनी चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_PLASTICS">
+      <Text>तेल का भंडार बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_COMPUTERS">
+      <Text>सरकार के पास 8 नीति स्लॉट हों।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SYNTHETIC_MATERIALS">
+      <Text>2 हवाई अड्डे बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_TELECOMMUNICATIONS">
+      <Text>2 प्रसार केंद्र बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_GUIDANCE_SYSTEMS">
+      <Text>लड़ाई करने वाले को मार दो।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_COMPOSITES">
+      <Text>तीन टैंक अपने पास हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_ROBOTICS">
+      <Text>वैश्वीकरण नागरिक हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_NANOTECHNOLOGY">
+      <Text>एक एल्यूमिनियम खदान बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MUST_STEAL">
+      <Text>महान वैज्ञानिक या जासूस के माध्यम से तेजी लाओ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SAILING">
+      <Text>समुद्र तट पर एक शहर जीतने से आपकी सभ्यता को लहरों के नाविगेशन के बारे में जानकारी मिली है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ASTROLOGY">
+      <Text>प्राकृतिक विस्मय की खोज आपके लोगों को ब्रह्मांड के महिमान्वित किया है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_IRRIGATION">
+      <Text>एक संसाधन का खेती करना ने आपको आपकी फसलों को सिंचाई करने के महत्व को समझाया है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ARCHERY">
+      <Text>एक स्लिंगर के द्वारा अंततः एक दुश्मन को मारने के बाद, आप एक और ताक़तवर दूरस्थ हथियार के लिए तड़पते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_WRITING">
+      <Text>एक अन्य सभ्यता से मुलाकात करने के बाद आपको संचार के नए तरीकों की आवश्यकता दिखती है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MASONRY">
+      <Text>खनन से आपके पास उस उपकरण के लिए कच्चे सामग्री हैं जिनके उपयोग से आप मजदूरों को नौकरी दे सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_BRONZE_WORKING">
+      <Text>बार्बेरियनों से आपकी लड़ाइयां मजबूत हथियार की आवश्यकता को उजागर करती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_THE_WHEEL">
+      <Text>आपके खनन ऑपरेशन ने आपको एक एक्सल बनाने की क्षमता दी है। क्या पहिया भी बनेगा?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CELESTIAL_NAVIGATION">
+      <Text>आपके मछुआरे रात के आसमान की अध्ययन करके अपनी यात्राओं के मार्गदर्शन करना सीख रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY">
+      <Text>आपका [ICON_TradeRoute] व्यापार मार्ग सीधे सामान का अदला-बदली करता है, लेकिन एक विनिमय का माध्यम व्यापार को अधिक लचीला बनाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_HORSEBACK_RIDING">
+      <Text>जबकि जानवर अब चरागाहों में पालतू हो गए हैं, इस समय सवारी करना सीखने का समय है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_IRON_WORKING">
+      <Text>एक स्थिर लोहे के स्रोत तक पहुँच के द्वारा आपने बेहतर हथियार और मजबूत कवच बनाने में सफलता प्राप्त की है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SHIPBUILDING">
+      <Text>गैलियों के एक वायु सेना का निर्माण बड़े जहाज बनाने के बारे में आपको बहुत कुछ सीखा है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MATHEMATICS">
+      <Text>आपके जिले के योजनाकर्ताओं ने ज्यामिति की मूल बातें निकाल ली हैं। शायद जल्द ही पूरा गणितीय प्रणाली भी शामिल होगी?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION">
+      <Text>जल मिल पर काम करने से आपके कामगारों को निर्माण पद्धतियों के बारे में बहुत कुछ सीखने को मिला है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ENGINEERING">
+      <Text>अपने शहर के चारों ओर दीवारें पूरी करने से अभयारण्य और कटापुल्ट के लिए आवश्यक इंजीनियरिंग के सिद्धांतों का प्रदर्शन किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_TACTICS">
+      <Text>आपके स्पीयरमैन प्रभावी साबित हो रहे हैं, लेकिन अब आपके विरोधी अधिक शक्तिशाली और तेज हो रहे हैं। शायद एक लंबी हथियार की आवश्यकता हो?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_APPRENTICESHIP">
+      <Text>अब विभिन्न खदानों से कच्ची सामग्री आ रही है, इसलिए नए शिल्पकारों को इनका उपयोग बेहतर ढंग से सिखाने की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_STIRRUPS">
+      <Text>आपके राज्य में फ़्यूडल लोर्ड अपने भूमि की रक्षा के लिए एक चैंपियन चाहते हैं। शायद किसी आर्मर्ड योद्धा को एक चुनौती देना चाहिए?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY">
+      <Text>आप अपनी बड़ी संख्या के रेंज ट्रूप्स के प्रदर्शन को सुधारने के लिए मशीनरी की ओर देखते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_EDUCATION">
+      <Text>आपके महान वैज्ञानिक के शिक्षणों से आपकी राज्य में सीखने की नई उत्सुकता का जन्म हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_ENGINEERING">
+      <Text>आपके सैन्य नेताओं ने ध्यान से आपके एक्वेडक्ट पर प्रगति का पालन किया। वे इन इंजीनियरिंग कौशल का नए तरीकों से उपयोग करने के तरीके देखते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CASTLES">
+      <Text>हमारे नए सरकार के रक्षा मंत्री का मत है कि हमें अपनी भरी हुई राजधानी की सुरक्षा के लिए भव्य रक्षात्मक व्यवस्था बनानी चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CARTOGRAPHY">
+      <Text>आपके साम्राज्य के बंदरगाहों से इतनी सारी जहाजों का निकलना होते हुए, आप अपनी खोजों को दर्ज करने की इच्छा रखते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MASS_PRODUCTION">
+      <Text>अब जब आपके पास मानकीकृत बोर्ड की तैयार आपूर्ति हो गई है, तो आपकी शिपिंग उद्योग जल्द ही उड़ान भरेगा।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_BANKING">
+      <Text>आपके उभरते हुए श्रेणियां बड़ी मात्रा में सोने की आवश्यकता वाली योजनाओं के साथ हैं। क्या हम उन्हें कर्ज लेने का रास्ता ढूंढ सकते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GUNPOWDER">
+      <Text>आपके आयुधगार में आपके लोग एक नया हथियार बना रहे हैं जो दुश्मनों को तबाह कर देगा।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_PRINTING">
+      <Text>आवश्यकता के कारण आपके विद्वान जल्दी से किताबें कॉपी करने के तरीके तैयार कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SQUARE_RIGGING">
+      <Text>आपके मस्केटमेन की भूमि पर सफलता ने एक नया विचार उत्पन्न किया है: क्या हम समुद्र पर गनपाउडर हथियार को अपग्रेड करें?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ASTRONOMY">
+      <Text>आपके वैज्ञानिक पर्वतों में ट्रैक कर रहे हैं ताकि आकाश की दृष्टि को बेहतर बनाया जा सके। क्या एक स्थायी सुविधा मदद करती होगी?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_METAL_CASTING">
+      <Text>फ़ील्ड में इतने सारे क्रॉसबोमेन होने के कारण, हमारे पास दूरस्थ हथियारों के अध्ययन के लिए बहुत सारी अभ्यास की संभावना होती है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SIEGE_TACTICS">
+      <Text>बम कूटों को बनाने के बाद आपको यह महसूस होता है कि किले अभेद्य नहीं हैं - आपको एक मजबूत रक्षा की आवश्यकता होती है!।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_INDUSTRIALIZATION">
+      <Text>आपके साम्राज्य की व्यस्त कार्यशालाओं में आगामी महानता का संकेत है। क्या एक औद्योगिक क्रांति प्रारंभ होने वाली है?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCIENTIFIC_THEORY">
+      <Text>हमारे क्षेत्र में जागृति का एक युग वैज्ञानिक विधियों पर एक गंभीर वाद-विवाद को प्रेरित किया है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_BALLISTICS">
+      <Text>आपके शहरों को कई किले द्वारा संरक्षित किया गया है, लेकिन अगर वे तोपों द्वारा रक्षित किए जा सकते हैं तो क्या होगा?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_SCIENCE">
+      <Text>तुम्हारा बहादुर योद्धा अपने दुश्मन को पराजित कर चुका है। इस विजय से हमें सीखना चाहिए और सैन्य कार्यों के छात्र बनना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_STEAM_POWER">
+      <Text>हम अपनी औद्योगिक कौशल को आपके हाल ही में निर्मित शिपयार्ड में लागू करें। भाप से संचालित नौसेना जहाज समुद्रों पर राज कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SANITATION">
+      <Text>पर्यवेक्षण क्षेत्रों के प्रवेश के साथ, हमारे शहर अब कभी से भी बड़े हैं। मलबा की योजना विकसित करना महत्वपूर्ण है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ECONOMICS">
+      <Text>आपके बैंकों की ताकत बढ़ रही है। अब आपके राष्ट्रीय अर्थव्यवस्था को आकार देने वाले ताकतों का विस्तृत अध्ययन करने का समय है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_RIFLING">
+      <Text>नाइटर के स्रोत के साथ, आपकी फायरआर्म उद्योग टॉप गियर में स्विच कर रहा है। अगला कदम हमारी सटीकता को सुधारना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_FLIGHT">
+      <Text>एक आधुनिक अद्भुत को पूरा करने के बाद, हमारे इंजीनियरों को यकीन है कि वे कुछ भी संभव हो सकता है। क्या वे अगले के लिए उड़ने की सोच रहे हैं?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_REPLACEABLE_PARTS">
+      <Text>आपके हथियार निर्माता इतने सारे मस्केट हाथ से बनाने से थक गए हैं। क्या शायद कुछ मानकीकरण मदद कर सकता है?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_STEEL">
+      <Text>आपका कोयला चलित ब्लास्ट फर्नेस और आयरन क्लैड के साथ टेस्ट रन हमें जल्द ही सबसे उत्कृष्ट ग्रेड स्टील उत्पादित करने की अनुमति देनी चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ELECTRICITY">
+      <Text>आपके धोखेबाज़ जलदूत विद्युत धारा के खोज से आकर्षित हो रहे हैं। क्या वे इसका उपयोग चुपके से प्रणोदन बनाने के लिए कर सकते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_RADIO">
+      <Text>आपके नए राष्ट्रीय उद्यान को दर्शकों की आवश्यकता है। क्या शायद एक नई संचार की फॉर्म इसे विज्ञापित करने में मदद करेगी?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CHEMISTRY">
+      <Text>अन्य राष्ट्रों के साथ जुड़ने से वैज्ञानिक उन्नयन की एक श्रृंखला शुरू हुई है। क्या अगली तेजी रसायन विज्ञान में होगी?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_COMBUSTION">
+      <Text>आपके पुरातत्वविद ने चट्टानों से पेट्रोलियम निकलते हुए देखा है। शायद आपके भूवैज्ञानिक इसे देखना चाहेंगे?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_FLIGHT">
+      <Text>बायप्लेन्स के साथ आपका विस्तृत अनुभव कुछ एयरोनॉटिक ब्रेकथ्रूज़ कर चुका है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_BALLISTICS">
+      <Text>नए पावर प्लांट के विकास ने उद्योगीय उन्नयन को उत्तेजित किया है जो आपकी हथियार उत्पादन में मदद कर सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_COMBINED_ARMS">
+      <Text>अब जब आपकी सेना बढ़ गई है, क्या एक नए स्रोत से इसे और बेहतर बनाया जा सकता है?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_PLASTICS">
+      <Text>पेट्रोकेमिकल्स की एक स्रोत होना कई तरकीबों में आगे बढ़ने के लिए नेतृत्व करना चाहिए। इसकी प्लास्टिसिटी विशेष रूप से दिलचस्पी की बात है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_COMPUTERS">
+      <Text>एक आधुनिक सरकार बहुत सी ब्यूरोक्रेसी के साथ आती है। डेटा को अधिकतम तरीके से ट्रैक करने के लिए तैयार तरीके विकसित करना बहुत उपयोगी होगा।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SYNTHETIC_MATERIALS">
+      <Text>एकाधिक शहरों में विमानों के लिए सुविधाओं के साथ, आपकी विमान उद्योग उड़ान भर रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_TELECOMMUNICATIONS">
+      <Text>आपके रेडियो और टेलीविजन के प्रथमवर्ग नेतृत्व में, आप जल्दी से डेटा ट्रांसमिट करने में कुशल हो गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GUIDANCE_SYSTEMS">
+      <Text>आपकी सेना ने एक दुश्मनी विमान को हराया है। अब दुश्मन विमानों के खिलाफ सबसे अच्छी रक्षा करने का समय है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_COMPOSITES">
+      <Text>टैंक आपकी सेना की गर्दन हैं, इसलिए आपके वैज्ञानिक एक और उन्नत मॉडल के लिए प्रयासरत हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ROBOTICS">
+      <Text>अन्योन्य मेटल परीक्षण के लिए एक विविध मेटल सेट होने से आपके वैज्ञानिक नए क्षेत्रों में अग्रसर होने में मदद मिलेगी।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NANOTECHNOLOGY">
+      <Text>एक विविध धातु सेट जिस पर प्रयोग किया जा सके, आपके वैज्ञानिकों को नए क्षेत्रों में आगे बढ़ने में मदद करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_TEAM_MEMBER_OWNS_TECH">
+      <Text>एक टीम सदस्य ने हाल ही में प्राप्त की गई तकनीक के लिए अपने अनुसंधान नोट्स साझा किए हैं। उनकी नवाचार स्वयं की प्रगति को बहुत खूबसूरत बनाएगी।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

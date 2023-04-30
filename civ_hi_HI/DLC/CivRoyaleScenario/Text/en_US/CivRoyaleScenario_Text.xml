@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData>
+  <EnglishText>
+    <!-- Loading Screen -->
+    <Row Tag="LOC_LOADING_INFO_CIVROYALE_SCENARIO">
+      <Text>{LOC_CIV_ROYALE_MOD_DESCRIPTION_TUTORIAL} (कृपया इसे अनुवादित न करें)</Text>
+    </Row>
+    <!-- Victories -->
+    <Row Tag="LOC_CIV_ROYALE_VICTORY_WIN_BLURB">
+      <Text>वे सभी हम पर हँसे। उन्होंने हमें बताया कि हम बहुत कमजोर और बहुत कम संख्या में हैं, लैंडर तक पहुँचने के लिए। अब कौन हँस रहा है? कौन इस बेकार, बेईमान प्लेनेट से अंतिम फ्रैक्शन है? कौन एक चमकदार नए अंतरिक्षवाहन के लिए एक-वाय टिकट लेकर, साफ पानी पीते हुए और जहरीले धूल को नहीं साँस रहा है? हम हैं! [NEWLINE] [NEWLINE] हम यहाँ से निकल रहे हैं! सावधान रहें, ब्रह्मांड!</Text>
+    </Row>
+    <!-- Goody Huts -->
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_WARRIOR_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]आपकी फ्रेक्शन में एक पैदल सैनिक इकाई शामिल हो गई है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ARCHER_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]आपकी गुट में एक मशीन गनर यूनिट शामिल हो गया है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_AT_TEAM_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]आपकी फ्रेक्शन में एक एंटी-टैंक यूनिट शामिल हो गया है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_SETTLER_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]क्षेत्रवासी खंडहरों में छिपकर आपके दल से जुड़ गए हैं।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_GUNSHIP_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]आपने एक कार्यक्षम हेलीकॉप्टर खोज लिया है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_TANK_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]आपने एक कार्यक्षम टैंक खोज लिया है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ARTILLERY_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]आपके फ्रैक्शन में एक आर्टिलरी यूनिट शामिल हो गया है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_NUKE_STRIKE_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]आपने एक कार्यकारी थर्मोन्यूक्लियर डिवाइस खोज लिया है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ZOMBIES_DESCRIPTION">
+      <Text>[COLOR_FLOAT_MILITARY]आपके ज़ॉम्बी एक और पीड़िता का दावा करते हुए।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ZOMBIES_DESCRIPTION_B">
+      <Text>[COLOR_FLOAT_MILITARY]ख़ून की और ज्यादा लाशें।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_MILITARY_GRANT_ZOMBIES_DESCRIPTION_C">
+      <Text>[COLOR_FLOAT_MILITARY]आपने ज़ोंबी सेना का पता लगाया है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_IMPROVISED_TRAP_GOODIES">
+      <Text>आपने एक फंदा ट्रिप कर दिया है!</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_GRIEVING_GIFT_GOODIES">
+      <Text>यह एक फंदा था! (Yeh ek fanda tha!)</Text>
+    </Row>
+    <!-- HUD UI -->
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS">
+      <Text>सुरक्षित क्षेत्र कम होने तक घूमे।</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_B">
+      <Text>{1_Turns} सुरक्षित क्षेत्र घटने तक बचे हुए टर्न।</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_MIN_SIZE">
+      <Text>सुरक्षित क्षेत्र न्यूनतम आकार में है।</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_MIN_SIZE_B">
+      <Text>सुरक्षित क्षेत्र स्थिर हो गया है। [COLOR_RED]अन्य जीवित फैक्शंस द्वारा एवेक्यूएशन ब्लॉक किया गया है।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_UNTIL_RING_SHRINKS_MIN_SIZE_C">
+      <Text>सुरक्षित क्षेत्र स्थिर हो गया है। [COLOR_RED]दूसरी फ्रैक्शंस द्वारा रिमोट लैंडर के सिग्नल को अभी भी जाम किया जा रहा है![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_STORM_STRENGTH">
+      <Text>फॉलआउट: श्रेणी {1_safeZonePhase} ({2_dangerZoneDamage} क्षति)</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_CATEGORY">
+      <Text>श्रेणी (Shreni)</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_CATEGORY_TOOLTIP">
+      <Text>एक इकाई को अंगारों में से {1_Damage} क्षति होगी। [NEWLINE] अब तक सेफ़ जोन {2_RingCount} बार बंद हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_DAMAGE">
+      <Text>नुकसान (Nukasaan)</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_DAMAGE_TOOLTIP">
+      <Text>लाल मौत में आपके जीवित रहने वालों को होने वाले नुकसान की मात्रा।</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS">
+      <Text>{1_Turns : एक; other?Turns;}</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_TURNS_TOOLTIP">
+      <Text>लाल मौत सुरक्षित क्षेत्र तक पहुँचने के लिए कितनी बार घूमेगी।</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_CIVILIAN_WARNING">
+      <Text>आपका नागरिक फॉलआउट में है! (Aapka nagarik fallout mein hai!)</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_HUD_PLAYER_NAME_LABEL">
+      <Text>खिलाड़ी का नाम:</Text>
+    </Row>
+    <!--Global Ability Tracker-->
+    <Row Tag="LOC_CIV_ROYALE_GLOBAL_ABILITY_AVAILABLE">
+      <Text>क्षमता उपलब्ध है!</Text>
+    </Row>
+    <Row Tag="LOC_CIV_ROYALE_GLOBAL_ABILITY_CHARGES">
+      <Text>शुल्क: {1_CurrentCharges} / {2_Max_Charges}</Text>
+    </Row>
+    <!-- Notifications -->
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SUPPLY_DROP_MESSAGE">
+      <Text>आपूर्ति ड्रॉप!</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SUPPLY_DROP_SUMMARY">
+      <Text>एक आपूर्ति ड्राप दिख रहा है!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_MESSAGE">
+      <Text>शहर के खंडहर का पता चला।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DISCOVER_GOODY_HUT_SUMMARY">
+      <Text>आपने एक शहर के खंडहर को खोजा है जो बुरी तरह से आवश्यक आपूर्ति शामिल हो सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_APPEARED_MESSAGE">
+      <Text>सुरक्षित क्षेत्र स्थापित किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_APPEARED_SUMMARY">
+      <Text>लाल मौत फिर से गठित हो रही है। तूफ़ान के आँख में एक सुरक्षित क्षेत्र तुम्हारे मानचित्र पर निर्धारित किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_CHANGED_MESSAGE">
+      <Text>सुरक्षित क्षेत्र कम हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_SAFE_ZONE_CHANGED_SUMMARY">
+      <Text>लाल मौत और बुरी हो रही है। सुरक्षित क्षेत्र बदल गया है और छोटा हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_NEW_TREASURE_MAP_MESSAGE">
+      <Text>नया खजाने का नक्शा</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_NEW_TREASURE_MAP_SUMMARY">
+      <Text>आपने एक नया गुप्त खजाने का नक्शा खोज लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_HAIL_MARY_READY_MESSAGE">
+      <Text>हेल मेरी तैयार</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_HAIL_MARY_READY_SUMMARY">
+      <Text>हेल मेरी तैयार डिप्लॉयमेंट के लिए। (Hail Mary taiyaar deployment ke liye.)</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_ZOMBIE_DECAYED_MESSAGE">
+      <Text>जॉम्बी हॉर्ड रिप्ट हो चुका है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_NOTIFICATION_ZOMBIE_DECAYED_SUMMARY">
+      <Text>आपकी जॉम्बी सेना का अस्तित्व खत्म हो गया क्योंकि वे जल्दी से ख़त्म हो गए थे।</Text>
+    </Row>
+    <!-- Supply Drop Improvement -->
+    <Row Tag="LOC_IMPROVEMENT_SUPPLY_DROP_NAME">
+      <Text>आपूर्ति ड्रॉप</Text>
+    </Row>
+    <!-- Goody Hut Improvements -->
+    <Row Tag="LOC_CIV_ROYALE_IMPROVEMENT_GOODY_HUT_NAME">
+      <Text>शहर के खंडहर</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_POPPED_GOODY_NAME">
+      <Text>शहरी विलुप्त स्थलों का अन्वेषण किया।</Text>
+    </Row>
+    <!--Improvised Trap Improvement-->
+    <Row Tag="LOC_IMPROVEMENT_IMPROVISED_TRAP">
+      <Text>आविष्कृत जाली।</Text>
+    </Row>
+    <!-- Destroyed City Feature -->
+    <Row Tag="LOC_FEATURE_DESTROYED_CITY_NAME">
+      <Text>नष्ट शहर</Text>
+    </Row>
+    <!-- MiniMap -->
+    <Row Tag="LOC_MINIMAP_RED_DEATH_TOOLTIP">
+      <Text>लाल मौत (Laal Maut)</Text>
+    </Row>
+    <Row Tag="LOC_MINIMAP_SAFE_ZONE_TOOLTIP">
+      <Text>सुरक्षित क्षेत्र</Text>
+    </Row>
+    <!-- Promotions -->
+    <Row Tag="LOC_PROMOTION_SCOUTING_REGIMENT_NAME">
+      <Text>स्काउट रेजिमेंट</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SCOUTING_REGIMENT_DESCRIPTION">
+      <Text>यूनिट और इसका गठन [ICON_Movement] जंगलों, वर्षावनों और पहाड़ों के लिए चलने के जुर्म से बचता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_CAPARISON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] युद्ध शक्ति AT क्रू के विरुद्ध।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_COURSERS_DESCRIPTION">
+      <Text>मशीन गन्स पर हमला करते समय +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_ARMOR_PIERCING_DESCRIPTION">
+      <Text>अन्य टैंकों के खिलाफ +7 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_REACTIVE_ARMOR_DESCRIPTION">
+      <Text>टैंक और AT क्रू के खिलाफ रक्षा करते समय +7 [ICON_Strength] कुशलता।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_ECHELON_DESCRIPTION">
+      <Text>+5 [ICON_Strength] टैंक और हेलीकॉप्टर के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_HOLD_THE_LINE_DESCRIPTION">
+      <Text>एक अलग वर्ग की आसपास की इकाइयों को टैंक और हेलीकॉप्टर के खिलाफ +10 [ICON_Strength] युद्ध शक्ति मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_PROMOTION_CHOKE_POINTS_DESCRIPTION">
+      <Text>जंगल, पहाड़ी क्षेत्र या दलदल में रक्षा करते समय +7 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_RANGE_NAME">
+      <Text>लॉन्चर ट्यूब को बदलें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_RANGE_DESC">
+      <Text>+1 [ICON_Range] हमले का दायरा</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_MOVE_NAME">
+      <Text>पैर के एक्टूएटर को बदलें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_MOVE_DESC">
+      <Text>+2 [ICON_Movement] आंदोलन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_LIMITED_HEAL_NAME">
+      <Text>नैनोट्स को भरें और मरम्मत करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_LIMITED_HEAL_DESC">
+      <Text>+10 ठीक होने की दर</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_1_NAME">
+      <Text>राइफल बैरल बदलें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_1_DESC">
+      <Text>+8 [ICON_Strength] युद्ध ताकत</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_2_NAME">
+      <Text>लक्ष्य निर्देशन कंप्यूटर को बदलें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_2_DESC">
+      <Text>+8 [ICON_Strength] युद्ध शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_3_NAME">
+      <Text>ताजा गोलीबारी</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_GDR_ATTACK_3_DESC">
+      <Text>+8 [ICON_Strength] युद्ध शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_1_NAME">
+      <Text>दिमाग!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_1_DESC">
+      <Text>+5 [ICON_Strength] युद्ध शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_2_NAME">
+      <Text>दिमाग!!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_2_DESC">
+      <Text>+5 [ICON_Strength] युद्ध शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_3_NAME">
+      <Text>दिमाग!!!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_ATTACK_3_DESC">
+      <Text>+5 [ICON_Strength] युद्ध शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_LESS_DECAY_NAME">
+      <Text>यक!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_LESS_DECAY_DESC">
+      <Text>कोई क्षय नुकसान नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_1_NAME">
+      <Text>ग्रह!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_1_DESC">
+      <Text>+1 [ICON_Movement] आंदोलन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_2_NAME">
+      <Text>ग्राह!!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_2_DESC">
+      <Text>+1 [ICON_Movement] आंदोलन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_3_NAME">
+      <Text>ग्राह!!!</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_ZOMBIE_MOVE_3_DESC">
+      <Text>+1 [ICON_Movement] आंदोलन</Text>
+    </Row>
+    <!-- Unit Abilities -->
+    <Row Tag="LOC_ABILITY_TANK_MOVEMENT_DESCRIPTION">
+      <Text>यदि वेस्टलैंड से प्रारंभ हो रहा हो तो +1 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_HEAL_MOVE_NAME">
+      <Text>जीवन-विज्ञानीक पुनर्जन्म</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_HEAL_MOVE_DESCRIPTION">
+      <Text>यूनिट प्रत्येक टर्न जल या फॉलआउट के बाहर दैनिकांश से 50% तेजी से ठीक होता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_HEAL_MOVE_UNITPANEL_DESCRIPTION">
+      <Text>पानी या फॉलआउट के बाहर हर टर्न में ठीक होता है। मानक दर के 50% की दर से ठीक होता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_XENO_STEALTH_NAME">
+      <Text>विद्वांशी छलावरण</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALIENS_XENO_STEALTH_DESCRIPTION">
+      <Text>दुश्मन इकाइयों के लिए अदृश्य, जब तक समीप न हो।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CULTISTS_UNIT_SIGHT_NAME">
+      <Text>अंत की निगरानी करना।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CULTISTS_UNIT_SIGHT_DESCRIPTION">
+      <Text>+3 दृष्टि।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNIT_BASE_WMD_RESISTANCE_NAME">
+      <Text>आपदाओं के आदी होना</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNIT_BASE_WMD_RESISTANCE_DESCRIPTION">
+      <Text>WMDs के बजाय 50 HP हार जाता है, बिना तुरंत मरने के।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ABILITY_WMD_STRIKE_NAME">
+      <Text>WMD लॉन्च क्षमता वाला</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WMD_STRIKE_DESCRIPTION">
+      <Text>एक डब्ल्यूएमडी को लांच किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PIRATES_IGNORE_EMBARK_DISEMBARK_COST_DESCRIPTION">
+      <Text>जहाज में चढ़ने और उतरने से अतिरिक्त [ICON_Movement] गतिरूप लागत को नजरअंदाज करता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAD_SCIENTISTS_UNIT_SHIELD_NAME">
+      <Text>रक्षात्मक असक्षमता ढलान</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAD_SCIENTISTS_UNIT_SHIELD_DESCRIPTION">
+      <Text>रक्षा करते समय +10 [ICON_Strength] युद्ध शक्ति। जल, लाल मौत और एकीकृत विनाशकारी हथियार से पूरी तरह संरक्षित।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CRIPPLED_GDR_NO_HEAL_NAME">
+      <Text>कोई अतिरिक्त पार्ट नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CRIPPLED_GDR_NO_HEAL_DESCRIPTION">
+      <Text>यूनिट प्रति टर्न ठीक नहीं होता।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_NO_HEAL_NAME">
+      <Text>ज़ॉम्बी का क्षयास्थिति</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_NO_HEAL_DESCRIPTION">
+      <Text>प्रति टर्न बिगड़ने के नुकसान का सामना करता है और केवल संवर्धन या गैर-जॉम्बी इकाइयों को मारकर ठीक होता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_COMBAT_SPAWN_NAME">
+      <Text>जॉम्बी युद्ध उत्पन्न होता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_COMBAT_SPAWN_DESCRIPTION">
+      <Text>जब कोई गैर-ज़ॉम्बी इकाई मारते हुए जब जीतते हैं तो एक ज़ॉम्बी होर्ड उत्पन्न होता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_RANGED_RESISTANCE_NAME">
+      <Text>कोई दर्द नहीं। (Koi dard nahi.)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZOMBIES_RANGED_RESISTANCE_DESCRIPTION">
+      <Text>यदि रेंज्ड हमलों के खिलाफ रक्षा करते समय, [ICON_Strength] +5 कम्बैट स्ट्रेंथ।</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_SPREAD_FALLOUT_IMMUNE_NAME">
+      <Text>म्यूटेंट फैलआउट प्रतिरक्षा</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_SPREAD_FALLOUT_IMMUNE_DESCRIPTION">
+      <Text>म्यूटेंट-फैलती लाल मौत से नुकसान से अविरोधी।</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_SPEED_NAME">
+      <Text>रेडियोएक्टिव आंदोलन</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_SPEED_DESCRIPTION">
+      <Text>+3 [ICON_Movement] लाल मौत में आंदोलन।</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_RESISTANCE_NAME">
+      <Text>रेडियोएक्टिव का विरोध</Text>
+    </Row>
+    <Row Tag="LOC_MUTANTS_FALLOUT_RESISTANCE_DESCRIPTION">
+      <Text>रेड डेथ क्षति में ५०% कमी।</Text>
+    </Row>
+    <Row Tag="LOC_MAD_SCIENTISTS_UNIT_SHIELD_MODIFIER">
+      <Text>+ {1_Amount} अविवेकीय ढाल</Text>
+    </Row>
+    <Row Tag="LOC_BORDERLORD_EDGENESS_COMBAT_BONUS_MODIFIER">
+      <Text>+{1_Amount} एज़डगनेस् |</Text>
+    </Row>
+    <Row Tag="LOC_ZOMBIES_DEFENSE_BONUS_VS_RANGED_COMBAT_MODIFIER">
+      <Text>+{1_Amount} ज़ोंबी रेंज रेजिस्टेंस</Text>
+    </Row>
+    <Row Tag="LOC_SHIELDS_DEPLETED">
+      <Text>ढालें खत्म हो गई हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_TT">
+      <Text>रक्षात्मक असंचालन ढाल [NEWLINE][NEWLINE] रक्षात्मक असंचालन ढाल प्रदान करें जो रक्षा करते समय +10 [ICON_Strength] युद्ध शक्ति प्रदान करती है। ढाल जल, लाल मृत्यु और एवं विश्वव्यापी विनाशकारी हथियार से बचाव प्रदान करती है। रक्षात्मक असंचालन ढाल 4 टर्न तक रहती है और पुनरारंभ करने के लिए 6 टर्न लगते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_ACTIVE_TT">
+      <Text>ढाल सक्रिय है। बाकी बचे हुए चाल: {1_turnsRemaining}।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_ACTIVE_WORLDTEXT">
+      <Text>ढाल उपर!</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SHIELD_RECHARGING_TT">
+      <Text>ढाल रिचार्ज हो रही है। बाकी हैं: {1_turnsRemaining} टर्न्स।</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_NAME">
+      <Text>सड़क दृष्टि</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_TT">
+      <Text>रोड विज़न [NEWLINE][NEWLINE] पहले से खोजे गए सभी क्षेत्रों का पता लगाता है।</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_ACTIVE_TT">
+      <Text>रोड विजन सक्रिय है। शेष टर्न: {1_turnsRemaining}।</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_ACTIVE_WORLDTEXT">
+      <Text>मैं उसे याद करता हूँ! (Main use yaad karta hoon!)</Text>
+    </Row>
+    <Row Tag="LOC_ROAD_VISION_RECHARGING_TT">
+      <Text>रोड विजन रिचार्ज हो रहा है। शेष टर्न: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_PLACE_TRAP_TT">
+      <Text>असंयोजित फंदा बनाएं [NEWLINE][NEWLINE] वर्तमान हेक्स पर असंयोजित फंदा रखें।</Text>
+    </Row>
+    <Row Tag="LOC_PLACE_TRAP_OUT_OF_TRAPS_TT">
+      <Text>जाल से बाहर।</Text>
+    </Row>
+    <Row Tag="LOC_PLACE_TRAP_FAILED_WORLDTEXT">
+      <Text>यहाँ जाल रखने में असमर्थ</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PANEL_TRAPS">
+      <Text>फंदे</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_NAME">
+      <Text>शोक संबंधी उपहार भेजें।</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_TT">
+      <Text>शोक संबंधी उपहार भेजें। [NEWLINE] [NEWLINE] अगली बार के लिए एक हेक्स का चयन करें जहां आप एक बूबी ट्रैप्ड शोक संबंधी उपहार डिप्लॉय करना चाहते हैं। सभी अन्य खिलाड़ियों के लिए शोक संबंधी उपहार एक सामान्य सप्लाई ड्रॉप की तरह दिखेगा। आप दो शोक संबंधी उपहार स्टोर कर सकते हैं और उन्हें रिचार्ज करने में 5 टर्न लगते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_ACTIVE_WORLDTEXT">
+      <Text>उपहार यहां रखने में असमर्थ</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_COUNT_TT">
+      <Text>तैयार उपहार: {1_giftCount}</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_RECHARGING_TT">
+      <Text>नए उपहारों को लपेटना। शेष बाकी हैं: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_GRIEVING_GIFT_EMPTY_TT">
+      <Text>शोक के उपहार समाप्त हो गए।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CLOAK_TT">
+      <Text>जैव विविधता में छिपने की कला [NEWLINE][NEWLINE] अधिकतम रूप से अदृश्य बनें।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CLOAK_ACTIVE_TT">
+      <Text>कपड़ा सक्रिय है। बचे हुए बार: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CLOAK_RECHARGING_TT">
+      <Text>कपड़ा रिचार्ज हो रहा है। बचे हुए घूमने के लिए: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_NAME">
+      <Text>खजाने का नक्शा जला दो।</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_TT">
+      <Text>खजाने का नक्शा जला दो[NEWLINE][NEWLINE]अपने दफने हुए खजाने के नक्शे को जलाएं और एक नया पाएं।[NEWLINE]"वे अब मेरी खजाना कभी नहीं ढूंढ पाएंगे!"</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_ACTIVE_WORLDTEXT">
+      <Text>यह जल रहा है!</Text>
+    </Row>
+    <Row Tag="LOC_BURN_TREASURE_MAP_RECHARGING_TT">
+      <Text>ट्रेजर मानचित्र रीचार्ज हो रहा है। शेष बार: {1_turnsRemaining}</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_TT">
+      <Text>त्याग इकाई [NEWLINE][NEWLINE] अदम्य आँख को पदोन्नति देने के लिए इस इकाई का त्याग करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_TT_B">
+      <Text>बलिदान यूनिट [NEWLINE][NEWLINE]{1_UnitName} को पदोन्नति देने के लिए इस यूनिट का बलिदान करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_TT_C">
+      <Text>प्लैंक चलिए [NEWLINE][NEWLINE] इस यूनिट को नष्ट करें GDRRRrrrr की दल से मनोरंजन करने के लिए और इसे एक पदोन्नति प्रदान करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_WORLDTEXT">
+      <Text>मैं सेवा करने के लिए मरता हूँ!</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_WORLDTEXT_PIRATE">
+      <Text>अरे! समुद्र के देवताओं के लिए एक वरदान!</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_NOT_ADJACENT_TT">
+      <Text>अमर आंख केवल समाप्त हेक्सेज के पास से बलिदानों को स्वीकार करती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_NOT_ADJACENT_TT_B">
+      <Text>{1_UnitName} केवल पड़ोसी हेक्स से बलिदानों को स्वीकार करता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_NOT_ADJACENT_TT_C">
+      <Text>आप केवल इकाइयों को गुलेल पर चलाने के लिए उनके पास जब जीडीआरआरआरआरर आसपास होता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_MAX_PROMOTIONS_TT">
+      <Text>अमर नेत्र पूर्ण रूप से प्रकट हो गया है और अब बलिदान की आवश्यकता नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_MAX_PROMOTIONS_TT_B">
+      <Text>{1_UnitName} पूरी तरह से प्रकट हो चुकी है और अब बलियों की आवश्यकता नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SACRIFICE_MAX_PROMOTIONS_TT_C">
+      <Text>जीडीआरआरआररर्र की टीम को यूनिट्स को बोरी में देखते हुए बोरियता हो रही है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RAD_SPREAD_TT">
+      <Text>रेडिएंट व्यक्तित्व टॉगल करें[NEWLINE][NEWLINE]इस यूनिट की क्षमता को टॉगल करें जो चलते समय लाल मौत विकिरण फैलाती है।</Text>
+    </Row>
+    <!-- Terrain Replacements -->
+    <Row Tag="LOC_CIVROYALE_TERRAIN_WASTELAND_NAME">
+      <Text>वेस्टलैंड (Vestland)</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME">
+      <Text>वेस्टलैंड (पहाड़ी)</Text>
+    </Row>
+    <Row Tag="LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME">
+      <Text>वेस्टलैंड (पहाड़)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_DESERT_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME} (क्षेत्र विरान)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_DESERT_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME} (हिल के बदले जहरीला भूमि)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_DESERT_MOUNTAIN_NAME">
+      <Text>डेजर्ट (पर्वत)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_GRASS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME} (हिंदी में अनुवाद नहीं किया जाएगा)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_GRASS_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_GRASS_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_OCEAN_NAME">
+      <Text>विषाक्त समुद्र</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_LAKE">
+      <Text>जहरीली झील</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_COAST">
+      <Text>जहरीली तटिया</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_PLAINS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME} (हिंदी में अनुवाद नहीं किया जाएगा)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_PLAINS_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME} (कंदराओं वाली वास्तविकता)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_PLAINS_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_SNOW_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME} (हिंदी में अनुवाद नहीं किया जाना चाहिए)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_SNOW_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME} (कंदराएँ)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_SNOW_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_TUNDRA_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_NAME} (हिंदी में नहीं अनुवाद किया जाएगा।)</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_TUNDRA_HILLS_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_HILLS_NAME}</Text>
+    </Row>
+    <Row Tag="LOC_TERRAIN_TUNDRA_MOUNTAIN_NAME">
+      <Text>{LOC_CIVROYALE_TERRAIN_WASTELAND_MOUNTAIN_NAME} (क्षेत्र घाटी शून्य)</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_ICE_NAME">
+      <Text>महान अस्थिरता (निषिद्ध)</Text>
+    </Row>
+    <Row Tag="LOC_FEATURE_MARSH_NAME">
+      <Text>बोग</Text>
+    </Row>
+    <!-- Unit Replacements -->
+    <Row Tag="LOC_UNIT_SETTLER_NAME">
+      <Text>नागरिक</Text>
+    </Row>
+    <!-- Barbarian Replacements -->
+    <Row Tag="LOC_IMPROVEMENT_BARBARIAN_CAMP_NAME">
+      <Text>रेडर आवासीय केंद्र</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BARBARIAN_NAME">
+      <Text>रेडर्स</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BARBARIAN_DESCRIPTION">
+      <Text>रेडर्स</Text>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_MESSAGE">
+      <Text>नया रेडर आवासीय केंद्र</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_SUMMARY">
+      <Text>हमें अफवाहें मिली हैं कि एक नया रेडर्स का बैंड निकटवर्ती क्षेत्र में आ गया है।</Text>
+    </Row>
+    <!-- Overlays -->
+    <Row Tag="LOC_EDGELORD_COMBAT_BONUS_OVERLAY_TT">
+      <Text>एजलॉर्ड कंबैट बोनस ज़ोन</Text>
+    </Row>
+    <!-- Zombie Combat Unit -->
+    <Row Tag="LOC_UNIT_ZOMBIE_NAME">
+      <Text>ज़ौंबी ढेर</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ZOMBIE_DESCRIPTION">
+      <Text>मुश्किल से हथियारों से लैस जॉम्बी का झुंड।</Text>
+    </Row>
+    <!-- Crippled GDR -->
+    <Row Tag="LOC_UNIT_CRIPPLED_GDR_NAME">
+      <Text>अपंग जीडीआर</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CRIPPLED_GDR_DESCRIPTION">
+      <Text>यह विशाल मृत्यु रोबोट बेहतर दिन देख चुका है। यह कभी भी उसी तरह नहीं होगा, लेकिन यह अभी भी एक शक्ति है जिसे खतरे का सामना करना होगा।</Text>
+    </Row>
+    <!-- Faction Specific Unit Naming -->
+    <Row Tag="LOC_UNIT_UNDYING_EYE_NAME">
+      <Text>अमर नेत्र</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATE_TREASURE_TANK_NAME">
+      <Text>रत्न टैंक</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATE_TREASURE_CRIPPLED_GDR_NAME">
+      <Text>GDRRRrrrr</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIRATE_TREASURE_INFANTRY_NAME">
+      <Text>जमीनी बेकसूर</Text>
+    </Row>
+    <!-- Combat Modifier Strings -->
+    <Row Tag="LOC_TRAIT_JOCKS_COMBAT_BONUS_DESC">
+      <Text>+{1_Amount} गवाह पूर्णता की गवाही देते हैं।</Text>
+    </Row>
+    <!-- WMDs -->
+    <Row Tag="LOC_WMD_HAIL_MARY_NAME">
+      <Text>हेल मेरी।</Text>
+    </Row>
+    <Row Tag="LOC_WMD_HAIL_MARY_DISABLED_COOLDOWN">
+      <Text>[COLOR:Red]{1_turns} अगले हेल मेरी वारहेड तक। [ENDCOLOR]</Text>
+    </Row>
+    <!-- Treasure Locations -->
+    <Row Tag="LOC_TREASURE_UNIT_INFANTRY_RECRUITED">
+      <Text>हमें कुछ नए भर्ती मिले हैं!</Text>
+    </Row>
+    <Row Tag="LOC_TREASURE_UNIT_TANK_RECRUITED">
+      <Text>यह एक टैंक है! (Yah ek tank hai!)</Text>
+    </Row>
+    <Row Tag="LOC_TREASURE_UNIT_CRIPPLED_GDR_RECRUITED">
+      <Text>जीडीआरआरआर...! (Note: This is an onomatopoeic sound and not a proper word, so it cannot be translated into a proper sentence.)</Text>
+    </Row>
+    <!-- UFO Unit Names -->
+    <Row Tag="LOC_UFO_UNIT_NAME1">
+      <Text>"झील गैस"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME2">
+      <Text>"दुर्लभ बादल"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME3">
+      <Text>"नशे में धुत गवाह"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME4">
+      <Text>"नींद की दवाएं"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME5">
+      <Text>"अनट्रैक कर नहीं पाए गए उल्का"</Text>
+    </Row>
+    <Row Tag="LOC_UFO_UNIT_NAME6">
+      <Text>"गुप्त आयुध परीक्षण"</Text>
+    </Row>
+  </EnglishText>
+</GameData>

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Promotion Class Names -->
+    <Row Tag="LOC_PROMOTION_CLASS_RECON_NAME">
+      <Text>रिकॉन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_MELEE_NAME">
+      <Text>मेली (Melee)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_RANGED_NAME">
+      <Text>दूरता</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SIEGE_NAME">
+      <Text>घेराबंदी</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_ANTI_CAVALRY_NAME">
+      <Text>विरोधी सवारी (Virodhi Savari)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_LIGHT_CAVALRY_NAME">
+      <Text>हल्की सवारी (Halki Sawari)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_HEAVY_CAVALRY_NAME">
+      <Text>भारी सवारी</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_AIR_FIGHTER_NAME">
+      <Text>वायु लड़ाकू (Vayu Ladaku)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_AIR_BOMBER_NAME">
+      <Text>वायु बमवाला</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_MELEE_NAME">
+      <Text>नौसेना के भीड़भाड़ का मतलब है।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_RANGED_NAME">
+      <Text>नौसेना की दूरस्थ शूटिंग</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_CARRIER_NAME">
+      <Text>नौसेना के विमानों का वाहनाधीन जहाज़ (Naval Carrier)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_NAVAL_RAIDER_NAME">
+      <Text>नौसेना का हमलावर (Naval Raider)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_APOSTLE_NAME">
+      <Text>धार्मिक अध्यक्ष</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_INQUISITOR_NAME">
+      <Text>धार्मिक जांचकर्ता</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SUPPORT_NAME">
+      <Text>समर्थन</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_SPY_NAME">
+      <Text>जासूसी (Jasoosi)</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_CLASS_MONK_NAME">
+      <Text>योद्धा संन्यासी (Yodha Sannyasi)</Text>
+    </Row>
+    <!-- Formation Class Names -->
+    <Row Tag="LOC_FORMATION_CLASS_AIR_NAME">
+      <Text>वायु युद्ध (Vayu Yuddh)</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_CIVILIAN_NAME">
+      <Text>अमूल्यलाब्ध व्यक्ति (Amulya-labdha vyakti)</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_LAND_COMBAT_NAME">
+      <Text>भू-युद्ध (Bhoo-Yuddh)</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_NAVAL_NAME">
+      <Text>नौसेना युद्ध (Nausena Yuddh)</Text>
+    </Row>
+    <Row Tag="LOC_FORMATION_CLASS_SUPPORT_NAME">
+      <Text>समर्थन</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_FAITH_INCREASE_FLOATER">
+      <Text>+{1_Num} [ICON_Faith] (श्रद्धा)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_FAITH_DECREASE_FLOATER">
+      <Text>{1_Num} [ICON_Faith] [COLOR_RED]खो दिया[ENDCOLOR]</Text>
+    </Row>
+    <!-- Damage Message -->
+    <Row Tag="LOC_WORLD_UNIT_DAMAGE_DECREASE_FLOATER">
+      <Text>[COLOR_GREEN]+{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_DAMAGE_INCREASE_FLOATER">
+      <Text>[COLOR_RED]{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <!-- Experience Message -->
+    <Row Tag="LOC_WORLD_UNIT_EXPERIENCE_INCREASE_FLOATER">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num}एक्सपी[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_UNIT_EXPERIENCE_INCREASE_LEVEL_FLOATER">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num}XP[NEWLINE]*प्रचार उपलब्ध*[ENDCOLOR]</Text>
+    </Row>
+    <!-- Production Yield Message -->
+    <Row Tag="LOC_WORLD_PRODUCTION_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_PRODUCTION]+{1_Num} [ICON_Production][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_PRODUCTION_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_PRODUCTION]{1_Num}[ICON_Production][ENDCOLOR] [COLOR_RED]खो गया[ENDCOLOR]</Text>
+    </Row>
+    <!-- Food Yield Message -->
+    <Row Tag="LOC_WORLD_FOOD_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_FOOD]+{1_Num} [ICON_Food][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_FOOD_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_FOOD]{1_Num} [ICON_Food][ENDCOLOR] [COLOR_RED]खो गया[ENDCOLOR]</Text>
+    </Row>
+    <!-- Gold Yield Message -->
+    <Row Tag="LOC_WORLD_GOLD_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_GOLD]+{1_Num} [ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_GOLD_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_GOLD]{1_Num} [ICON_Gold][ENDCOLOR] [COLOR_RED]खो गया[ENDCOLOR]</Text>
+    </Row>
+    <!-- Science Yield Message -->
+    <Row Tag="LOC_WORLD_SCIENCE_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_SCIENCE]+{1_Num} [ICON_Science][ENDCOLOR] (वैज्ञानिक संख्या)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_SCIENCE_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_SCIENCE]{1_Num} [ICON_Science][ENDCOLOR] [COLOR_RED]खो गया[ENDCOLOR]</Text>
+    </Row>
+    <!-- Culture Yield Message -->
+    <Row Tag="LOC_WORLD_CULTURE_INCREASE_FLOATER">
+      <Text>[COLOR_FLOAT_CULTURE]+{1_Num} [ICON_Culture][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_CULTURE_DECREASE_FLOATER">
+      <Text>[COLOR_FLOAT_CULTURE]{1_Num} [ICON_Culture][ENDCOLOR] [COLOR_RED]खो गया[ENDCOLOR]</Text>
+    </Row>
+    <!-- Civilian-->
+    <Row Tag="LOC_UNIT_SETTLER_DESCRIPTION">
+      <Text>नए शहर बनाएं सकते हैं। पूर्ण होने पर शहर की [ICON_Citizen] आबादी 1 से कम कर देता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BUILDER_DESCRIPTION">
+      <Text>टाइल सुधार बना सकते हैं, जंगल या वर्षा जैसी विशेषताओं को हटा सकते हैं, या कुछ संसाधनों को काट सकते हैं। बिल्डर का इस्तेमाल 3 बार किया जा सकता है। इसे धन नीतियों या पिरामिड जैसी आश्चर्यों के माध्यम से बढ़ाया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TRADER_DESCRIPTION">
+      <Text>एक [ICON_TradeRoute] व्यापार मार्ग बनाएं और बनाए रखें। जब यह यात्रा करता है तो स्वचालित रूप से सड़कें बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MISSIONARY_DESCRIPTION">
+      <Text>वह [ICON_Citizen] नागरिकों को अपने धर्म में परिवर्तित कर सकता है। वह अन्य धर्मों की इकाइयों के साथ धार्मिक युद्ध शुरू नहीं कर सकता (लेकिन बचा सकता है)।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_APOSTLE_DESCRIPTION">
+      <Text>[ICON_Citizen] नागरिकों को अपने धर्म में परिवर्तित करके दूसरे धर्मों के इकाइयों के साथ धार्मिक युद्ध प्रारंभ कर सकते हैं। एक खेल में एक बार इन्क्विजिटन लॉन्च कर सकते हैं जिससे इन्क्विजिटर खरीदा जा सकता है। एक बार खेल में उत्सव धर्मीय विश्वास को अपने धर्म में एक अतिरिक्त विश्वास जोड़ने के लिए अनुमति देता है। इन उपयोगों से सैनिक का उपभोग होता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INQUISITOR_DESCRIPTION">
+      <Text>वे अपने क्षेत्र में अन्य धर्मों की उपस्थिति को समाप्त कर सकते हैं और अन्य धर्मों की इकाईयों के साथ धार्मिक युद्ध प्रारंभ कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GURU_DESCRIPTION">
+      <Text>यह अपने आप को ठीक करने और सभी संबंधित मित्रवर्गीय धार्मिक इकाइयों को ठीक करने के लिए शुल्क का उपयोग कर सकता है। अन्य धर्मों की इकाइयों के साथ धार्मिक लड़ाई को प्रारंभ नहीं कर सकता (लेकिन बचाव कर सकता है)।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_WARRIOR_MONK_DESCRIPTION">
+      <Text>एक अनूठे प्रमोशन वृक्ष के साथ तेज़ गति वाली भूमि युद्ध इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARCHAEOLOGIST_DESCRIPTION">
+      <Text>अपने शहर के म्यूजियम में प्रदर्शित करने के लिए [ICON_GreatWork_Artifact] वस्तुओं को [ICON_RESOURCE_ANTIQUITY_SITE] प्राचीनता स्थलों से खोजें और निकालें।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPY_DESCRIPTION">
+      <Text>विदेशी शहरों में गुप्त मिशनों का निर्वहन करता है और दुश्मन जासूसों से आपके शहरों का सुरक्षा करता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NATURALIST_DESCRIPTION">
+      <Text>एक देर से आए गेम का नागरिक जो एक एकल राष्ट्रीय उद्यान बना सकता है जो [ICON_Tourism] पर्यटकों को आकर्षित करने के लिए होता है। [ICON_Faith] धर्म से खरीदी जा सकती है।</Text>
+    </Row>
+    <!-- Great People-->
+    <Row Tag="LOC_UNIT_GREAT_GENERAL_DESCRIPTION">
+      <Text>प्रत्येक [ICON_GreatGeneral] महान सेनापति के अनूठे दक्षताएं होती हैं, जिसमें एक पासिव प्रभाव और एक सेवन का प्रभाव शामिल होता है। अधिक जानने और अपनी प्रगति को ट्रैक करने के लिए महान लोग विवरण पैनल पर जाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ADMIRAL_DESCRIPTION">
+      <Text>प्रत्येक [ICON_GreatAdmiral] महान अद्मिराल अपनी विशिष्ट क्षमताओं के साथ आत्मसात प्रभाव और सेवन संबंधी प्रभाव जैसे विशेषताएं रखता है। अधिक जानने और अपनी प्रगति को ट्रैक करने के लिए महान व्यक्ति पैनल पर जाएं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ENGINEER_DESCRIPTION">
+      <Text>प्रत्येक [ICON_GreatEngineer] महान अभियंता के सक्रिय करने पर अनूठी क्षमताएं होती हैं। अधिक जानने के लिए महान लोग पैनल पर जाएं और अपनी प्रगति का ट्रैक करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_MERCHANT_DESCRIPTION">
+      <Text>प्रत्येक [ICON_GreatMerchant] महान व्यापारी के अद्वितीय कौशल जब सक्रिय होते हैं तो। अधिक जानने और अपनी प्रगति को ट्रैक करने के लिए महान लोग पैनल पर जाएं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_PROPHET_DESCRIPTION">
+      <Text>महान [ICON_GreatProphet] भविष्यवक्ता सक्रिय किए जाने पर धर्म स्थापित कर सकते हैं। अधिक जानने और अपनी प्रगति को ट्रैक करने के लिए महान लोग पैनल पर जाएं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_SCIENTIST_DESCRIPTION">
+      <Text>प्रत्येक [ICON_GreatScientist] महान वैज्ञानिक की सक्षमताएं सक्रिय करने पर अद्वितीय होती हैं। अधिक जानने और अपनी प्रगति को ट्रैक करने के लिए महान लोग पैनल पर जाएं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_WRITER_DESCRIPTION">
+      <Text>प्रत्येक [ICON_GreatWriter] महान लेखक जब सक्रिय होते हैं तो एक [ICON_GreatWork_Writing] महान लेख का निर्माण करते हैं। अधिक जानने और अपनी प्रगति का ट्रैक करने के लिए महान लोग पैनल पर जाएं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_ARTIST_DESCRIPTION">
+      <Text>प्रत्येक [ICON_GreatArtist] महान कलाकार सक्रिय होने पर एक [ICON_GreatWork_Landscape] महान कार्य कला उत्पन्न करता है। अधिक जानने और अपनी प्रगति को ट्रैक करने के लिए महान लोग विभाग पर जाएं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_MUSICIAN_DESCRIPTION">
+      <Text>प्रत्येक [ICON_GreatMusician] महान संगीतकार जब सक्रिय होते हैं तो एक [ICON_GreatWork_Music] महान संगीत का महान काम उत्पन्न करते हैं। अधिक जानने के लिए महान लोग तालिका पर जाएं और अपनी प्रगति का ट्रैक करें।</Text>
+    </Row>
+    <!-- Recon-->
+    <Row Tag="LOC_UNIT_SCOUT_DESCRIPTION">
+      <Text>त्वरित-गति से चलनेवाली प्राचीन काल की पुनर्विमान इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RANGER_DESCRIPTION">
+      <Text>तेज गति से चलने वाली औद्योगिक युग की पुनर्वास की इकाई।</Text>
+    </Row>
+    <!-- Melee-->
+    <Row Tag="LOC_UNIT_WARRIOR_DESCRIPTION">
+      <Text>पुराने काल की कमजोर मीली इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPEARMAN_DESCRIPTION">
+      <Text>पुरातन युग का अण्टी-कैवलरी इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SWORDSMAN_DESCRIPTION">
+      <Text>मजबूत क्लासिकल युग का मीली यूनिट।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PIKEMAN_DESCRIPTION">
+      <Text>शत्रुता के खिलाफ मध्यकालीन युद्धकाल में घुड़सवार विरोधी इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MUSKETMAN_DESCRIPTION">
+      <Text>पुनर्जागरण काल का लड़ाई के लिए युद्धकर इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INFANTRY_DESCRIPTION">
+      <Text>आधुनिक युग का हथियारी इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MECHANIZED_INFANTRY_DESCRIPTION">
+      <Text>जानकारी का युग मेले इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AT_CREW_DESCRIPTION">
+      <Text>कवलरी कक्षा इकाई के लिए आधुनिक युग की विरोधी तत्व।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MODERN_AT_DESCRIPTION">
+      <Text>सूचना युग घुड़सवार वार्ताकार इकाइयों के विरोध में है।</Text>
+    </Row>
+    <!-- Ranged-->
+    <Row Tag="LOC_UNIT_SLINGER_DESCRIPTION">
+      <Text>पुरानी युग की कमजोर दूरस्थ इकाई। रक्षा से अधिक हमले में बेहतर।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARCHER_DESCRIPTION">
+      <Text>पहली प्राचीन युग की [ICON_Range] दो की दूरी वाली इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION">
+      <Text>मध्यकालीन युग का दूरस्थ इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION">
+      <Text>औद्योगिक युग की इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION">
+      <Text>अणु युग की यूनिट रेंज।</Text>
+    </Row>
+    <!-- Light Cavalry-->
+    <Row Tag="LOC_UNIT_HORSEMAN_DESCRIPTION">
+      <Text>त्वरित चलने वाली शास्त्रकालीन लाइट कैवलरी इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CAVALRY_DESCRIPTION">
+      <Text>तेज गति वाली औद्योगिक युद्धकला की हल्की फौज।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HELICOPTER_DESCRIPTION">
+      <Text>त्वरित गति वाली अणुयुद्ध काल की प्रकाश सेना इकाई।</Text>
+    </Row>
+    <!-- Siege-->
+    <Row Tag="LOC_UNIT_CATAPULT_DESCRIPTION">
+      <Text>प्राचीन कालीन बलिस्त यूनिट, शहरों पर हमला करने के लिए उपयुक्त। वे एक ही टर्न में नहीं चल सकते और हमला नहीं कर सकते हैं यदि उन्होंने एक्सपर्ट क्रू प्रमोशन प्राप्त नहीं किया हो।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BOMBARD_DESCRIPTION">
+      <Text>वैविध्यावधारण काल का घेराबंद इकाई, शहरों पर हमला करने के लिए आदर्श है। वे एक ही दौरान नहीं चल सकते और हमला नहीं कर सकते हैं यदि उन्होंने विशेषज्ञ दल की पदोन्नति हासिल नहीं की है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARTILLERY_DESCRIPTION">
+      <Text>आधुनिक युग के घेराबंदी इकाई, शहरों पर हमला करने के लिए आदर्श हैं। वे Expert Crew पदक प्राप्त करने के बिना एक ही टर्न में चल नहीं सकते हैं और हमला नहीं कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ROCKET_ARTILLERY_DESCRIPTION">
+      <Text>जानकारी युग का घेराबंद इकाई, शहरों पर हमला करने के लिए आदर्श। उन्हें Expert Crew पदक प्राप्त करने के बिना वे एक ही टर्न में नहीं चल सकते और हमला नहीं कर सकते।</Text>
+    </Row>
+    <!-- Support-->
+    <Row Tag="LOC_UNIT_BATTERING_RAM_DESCRIPTION">
+      <Text>प्राचीन युग का समर्थन इकाई। जब शहर के पास होता है, तब हमला करने वाले मीली इकाइयों से शहर की दीवारों को पूरी तरह से क्षति पहुंचाई जा सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SIEGE_TOWER_DESCRIPTION">
+      <Text>क्लासिकल युग का समर्थन यूनिट। जब किसी शहर के आस-पास होता है, तब मेली इकाई दीवारों को अनदेखा करते हुए शहर पर तुरंत हमला करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MEDIC_DESCRIPTION">
+      <Text>औद्योगिक युग समर्थन इकाई। आसन्न इकाइयों का उपचार कर सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION">
+      <Text>आधुनिक युग समर्थन इकाई। 1 हेक्स के भीतर बलिस्त वर्ग इकाइयों को +1 [ICON_Range] रेंज प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MILITARY_ENGINEER_DESCRIPTION">
+      <Text>मध्यकालीन युग समर्थन इकाई। उत्पादन के लिए एक आर्मरी की आवश्यकता होती है। सड़कें, किले, एयरस्ट्रिप और मिसाइल साइलो सुधार निर्मित कर सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANTIAIR_GUN_DESCRIPTION">
+      <Text>एटॉमिक युग एंटी-एयर सपोर्ट यूनिट। हथियार से 1 हेक्स तक उड़ान द्वारा किए गए हमलों से आवरण प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MOBILE_SAM_DESCRIPTION">
+      <Text>जानकारी युग विरोधी-वायु समर्थन इकाई। हथियार से एक हेक्स तक वायु और परमाणु हमलों से आवरण प्रदान करता है।</Text>
+    </Row>
+    <!-- Heavy Cavalry -->
+    <Row Tag="LOC_UNIT_HEAVY_CHARIOT_DESCRIPTION">
+      <Text>एक कठोर आक्रामक, प्राचीन काल का भारी घुड़सवार इकाई। यदि यह वह एक फ्लैट टाइल पर बिना जंगल, वर्षा वन या पहाड़ के एक टर्न शुरू करता है, तो 1 बोनस [ICON_Movement] मूवमेंट प्राप्त करता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KNIGHT_DESCRIPTION">
+      <Text>कठोर टक्कर मार देने वाली, मध्यकालीन काल की भारी सवारी इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MODERN_ARMOR_DESCRIPTION">
+      <Text>जानकारी की युग की भारी सवारी इकाई जो तेज और मजबूत है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TANK_DESCRIPTION">
+      <Text>जोन ऑफ कंट्रोल को अनदेखा करती हुई फास्ट मूविंग मॉडर्न युद्धस्तरीय हेवी कैवलरी इकाई।</Text>
+    </Row>
+    <!--Naval-->
+    <Row Tag="LOC_UNIT_GALLEY_DESCRIPTION">
+      <Text>प्राचीन काल का जोड़ाव युद्ध यूनिट। कार्टोग्राफी की खोज तक केवल तटीय जलों पर काम कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_QUADRIREME_DESCRIPTION">
+      <Text>पुरातन युग में समुद्री इकाई का विस्तार हुआ। कार्टोग्राफी शोधित न होने तक केवल तटीय जलों पर काम कर सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CARAVEL_DESCRIPTION">
+      <Text>त्वरित रूप से रेनेसांस काल के अन्वेषण, हथियारी, नौसेना इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_IRONCLAD_DESCRIPTION">
+      <Text>शक्तिशाली औद्योगिक युग का कवचधारी मीली नौसेना यूनिट।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NUCLEAR_SUBMARINE_DESCRIPTION">
+      <Text>उच्चतर उन्नत जानकारी युग के रेंज में घेराबंद नौसेना इकाई जो न्यूक्लियर हथियारों से संयुक्त किया जा सकता है। इसे केवल अन्य नौसेना घेराबंदों द्वारा देखा जा सकता है यदि इसके आस-पास हो। नजर की दूरी के भीतर नौसेना घेराबंद उजागर करता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SUBMARINE_DESCRIPTION">
+      <Text>आधुनिक युग में विस्तार वाली तलवारी समुद्री इकाई। इसे केवल अन्य समुद्री दकैतों द्वारा देखा जा सकता है जब तक यह इसके निकट नहीं है। दृष्टि दायरे के भीतर समुद्री डाकूओं को पता लगाता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PRIVATEER_DESCRIPTION">
+      <Text>युगोत्तर युद्धबाजी युद्धी इकाई जिसके पास तटीय दुर्गरोहण की क्षमता है। यह केवल अन्य नौसेना दस्तावेजों द्वारा देखा जा सकता है जब तक यह उससे संबद्ध नहीं होता। दृश्य सीमा के भीतर नौसेना दस्तावेजों को उजागर करता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FRIGATE_DESCRIPTION">
+      <Text>पुनर्जागरण काल का समुद्री इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AIRCRAFT_CARRIER_DESCRIPTION">
+      <Text>एटॉमिक युग का मीले नौसेना इकाई जो वायु इकाइयों को ट्रांसपोर्ट कर सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION">
+      <Text>आधुनिक युग नौसेना के दूरी से हमलों से सुरक्षा प्रदान करने वाली इकाई। एक टाइल तक हवाई और परमाणु हमलों से आवरण प्रदान करती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION">
+      <Text>जो सूचना युग में उपलब्ध है, सबसे शक्तिशाली दूरस्थ नौसेना इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_DESTROYER_DESCRIPTION">
+      <Text>सबसे शक्तिशाली मीली नौसेना इकाई। दृश्य दायरे में नौसैनिक छापदारों को पता लगाता है।</Text>
+    </Row>
+    <!--Air Units-->
+    <Row Tag="LOC_UNIT_BIPLANE_DESCRIPTION">
+      <Text>पहली वायु युद्ध इकाई, आधुनिक युग में उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FIGHTER_DESCRIPTION">
+      <Text>अणु युग बाईप्लेन अपग्रेड।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BOMBER_DESCRIPTION">
+      <Text>पहली बमवाली इकाई, परमाणु युग में उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JET_FIGHTER_DESCRIPTION">
+      <Text>जानकारी युग के लड़ाकू अपग्रेड।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JET_BOMBER_DESCRIPTION">
+      <Text>जानकारी युग बम अपग्रेड।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAN_AT_ARMS_DESCRIPTION">
+      <Text>मध्यकालीन काल का हाथापाई यूनिट।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_LINE_INFANTRY_DESCRIPTION">
+      <Text>औद्योगिक युग का हथियार इकट्ठा हुआ इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TREBUCHET_DESCRIPTION">
+      <Text>मध्ययुगीन युद्धकाल का बलकान, शहरों पर हमला करने के लिए आदर्श। वे केवल उन्नत दल के प्रमोशन मिलने पर ही उसी टर्न में चल और हमला कर सकते हैं जबकि वे चल नहीं सकते।</Text>
+    </Row>
+    <!-- Unique Units-->
+    <Row Tag="LOC_UNIT_BARBARIAN_HORSEMAN_DESCRIPTION">
+      <Text>प्राचीन काल का अधमरा घोड़े पर लड़ाकू योद्धा।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BARBARIAN_HORSE_ARCHER_DESCRIPTION">
+      <Text>प्राचीन काल का अधिकृत घोड़ा ऊँट सहित तीरंदाज़ शिकारी।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_DESCRIPTION">
+      <Text>मिस्री अद्वितीय प्राचीन काल के दूरस्थ यूनिट जो हैवी चैरियट की जगह ले लेता है। खुले मैदान में शुरू करते समय 4 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREEK_HOPLITE_DESCRIPTION">
+      <Text>ग्रीक अद्वितीय प्राचीन काल का एक एंटी-कैवलरी इकाई है जो स्पीयरमैन की जगह ले लेती है। यदि कम से कम एक आसन्न हॉप्लाइट इकाई हो, तो +10 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_DESCRIPTION">
+      <Text>स्किथियन अद्वितीय क्लासिकल युग इकाई। एक दूरस्थ इकाई जो 4 [ICON_Movement] आंदोलन के साथ एक [ICON_Range] 1 की श्रृंखला है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SUMERIAN_WAR_CART_DESCRIPTION">
+      <Text>सुमेरियन अद्वितीय प्राचीन काल की यूनिट। सभी शुरुआती यूनिट से ज्यादा शक्तिशाली। एंटी-कैवलरी यूनिट के खिलाफ कोई जुर्माना नहीं। यदि यह यूनिट खुले मैदान में शुरू होता है तो 4 [ICON_Movement] मूवमेंट है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION">
+      <Text>विक्टोरिया उनके नेतृत्व में लाइन इन्फेंट्री की जगह लेने वाली एक अद्वितीय औद्योगिक युगिक इकाई। जब आप अपनी राजधानी के अलावा किसी अन्य महाद्वीप पर लड़ाई लड़ रहे होते हैं तो +10 [ICON_Strength] युद्ध शक्ति। कोई उतराई लागत नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_ROUGH_RIDER_DESCRIPTION">
+      <Text>अमेरिकी अद्वितीय औद्योगिक युग यूनिट जब टेडी रूजवेल्ट उनके नेता होते हैं। [ICON_Culture] संस्कृति उनकी [ICON_Capital] राजधानी के महाद्वीप पर मार कर कमाई जाती है। पहाड़ों पर लड़ाई लड़ते समय +10 [ICON_Strength] युद्ध शक्ति। कम रखरखाव लागत।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ROMAN_LEGION_DESCRIPTION">
+      <Text>रोमन अनोखी क्लासिकल युग की मीली इकाई है जो स्वर्ड्समैन की जगह लेती है। रोमन फोर्ट बना सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION">
+      <Text>मान-एट-आर्म्स के स्थान पर जापानी अद्वितीय मध्यकालीन युद्ध इकाई। जब भी नुकसान हो, उन्हें युद्ध में दंड नहीं मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION">
+      <Text>नॉर्वेजियन अद्वितीय मध्ययुगीन युद्ध इकाई है जो मैन-एट-आर्म्स की जगह लेता है। यदि यह इकाई दुश्मन क्षेत्र में शुरू होती है तो 4 [ICON_Movement] गति। हमला करते समय +10 [ICON_Strength] युद्ध शक्ति और मध्ययुद्ध अटैक के खिलाफ रक्षा करते समय -5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NORWEGIAN_LONGSHIP_DESCRIPTION">
+      <Text>नॉर्वेजियन अनूठी प्राचीन काल की नौसेना इकाई जो गैली की जगह ले लेती है। यह दुश्मन के तटीय भूमि को लूट सकती है और इसकी तटीय दस्तक की क्षमता का उपयोग करके आस-पड़ोस के नागरिकों को जब्त कर सकती है। तटीय जल में 4 [ICON_Movement] चलती हुई।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION">
+      <Text>चीनी अद्वितीय मध्यकालीन युनिट। एक [ICON_Range] की दायरे वाली रेंजड युनिट जिसकी युद्ध शक्ति बहुत उच्च है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION">
+      <Text>मुस्केटमैन को बदलने वाली स्पेनिश अद्वितीय रीनेसांस कालीन यूनिट। जब एक धार्मिक यूनिट एक हेक्स के भीतर होता है तब +10 [ICON_Strength] युद्ध शक्ति। यदि यह यूनिट एक शहर को कब्जा करता है या जब शहर को कब्जा किया जाता है तब शहर स्वचालित रूप से Conquistador खिलाड़ी के धर्म को प्रमुख धर्म के रूप में अपनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_RUSSIAN_COSSACK_DESCRIPTION">
+      <Text>रूसी अद्वितीय औद्योगिक युग इकाई जो घुड़सवारी की जगह होती है। घुड़सवारी से शक्तिशाली है, और अपने होम टेरिटोरी में या उससे आसपास लड़ाई करते समय +5 [ICON_Strength] युद्ध शक्ति प्राप्त करती है। [ICON_Movement] गति बिंदुओं के बाद आक्रमण करने के बाद भी चल सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION">
+      <Text>भारतीय अद्वितीय क्लासिकल काल की भारी फौज इकाई। आसन्न दुश्मन इकाइयों को -5 [ICON_STRENGTH] युद्ध शक्ति प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KONGO_SHIELD_BEARER_DESCRIPTION">
+      <Text>कोंगो अनूठी क्लासिकल युग इकाई जो स्वर्डमैन की जगह होती है। रेंज्ड हमलों के खिलाफ रक्षा करते समय +10 [ICON_Strength] युद्ध ताकत। जंगल और वर्षावन में चल सकते हैं और उनसे देख सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ARABIAN_MAMLUK_DESCRIPTION">
+      <Text>अरबी अद्वितीय मध्यकालीन काल की यूनिट जो नाईट की जगह होती है। हर टर्न के अंत में ठीक होती है, चाहे वह चलते हुए हो या हमला करते हुए।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ENGLISH_SEADOG_DESCRIPTION">
+      <Text>एक अद्वितीय रेनैसन्स कालीन नौसेना इकाई जो प्राइवेटीर की जगह लेती है। हर हराया गया दुश्मन का समुद्री जहाज़ पकड़ने का मौका देती है। समुद्री डाकूओं के अलावा इसे कोई देख नहीं सकता है जब तक कि यह उससे पड़ोस में न हो। दृश्य दायरे के भीतर समुद्री डाकू का पता लगाती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION">
+      <Text>फ़्रेंच एकमात्र औद्योगिक युग का मीली इकाई जो लाइन इन्फेंट्री की जगह लेती है। जब अपनी राजधानी के महाद्वीप पर लड़ाई लड़ रही हो तो +10 [ICON_Strength] युद्ध शक्ति। [ICON_GreatGeneral] यूनिट मारने पर महान जनरल अंक।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GERMAN_UBOAT_DESCRIPTION">
+      <Text>जर्मन अद्वितीय आधुनिक युद्ध नौसेना इकाई जो सबमरीन की जगह लेती है। उत्पादन करने में सस्ती, +1 दृष्टि, और समुद्र टाइलों पर लड़ाई करते समय +10 [ICON_Strength] युद्ध शक्ति। अन्य छलनगत इकाइयों को पता लगाने में सक्षम।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AMERICAN_P51_DESCRIPTION">
+      <Text>अमेरिकी अद्वितीय परमाणु काल वायु इकाई जो फाइटर की जगह लेती है। फाइटर विमानों के खिलाफ +5 [ICON_Strength] युद्ध शक्ति प्राप्त करती है, +2 उड़ान दूरी होती है और +50% अनुभव प्राप्ति करती है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_DESCRIPTION">
+      <Text>ब्राजीलीयन अद्वितीय औद्योगिक युग इकाई जो बैटलशिप की जगह ले लेती है। बैटलशिप से ताकतवर है। राष्ट्रवाद द्वारा अनलॉक किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UNIT_TYPE_NAME_SUFFIX">
+      <Text>({1_UnitTypeName})</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

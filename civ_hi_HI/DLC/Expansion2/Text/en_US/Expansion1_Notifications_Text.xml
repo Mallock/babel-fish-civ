@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_NOTIFICATION_PRIDE_MOMENT_RECORDED_MESSAGE">
+      <Text>ऐतिहासिक पल</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_PRIDE_MOMENT_RECORDED_SUMMARY">
+      <Text>आपके लोग एक ऐतिहासिक पल का जश्न मनाते हैं! {1_MomentDescription} (+{2_EraScoreAmount} युग स्कोर)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_ESTABLISHED_IN_CITY_MESSAGE">
+      <Text>राज्यपाल {1_CityName} में स्थापित किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_ESTABLISHED_IN_CITY_SUMMARY">
+      <Text>राज्यपाल {1_GovernorName} अब {2_CityName} में स्थापित हो गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_APPOINTMENT_AVAILABLE_MESSAGE">
+      <Text>नया राज्यपाल का अवसर उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_APPOINTMENT_AVAILABLE_SUMMARY">
+      <Text>नया राज्यपाल नियुक्त करें या मौजूदा राज्यपाल को तैयार करें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_OPPORTUNITY_AVAILABLE_MESSAGE">
+      <Text>नया राज्यपाल शीर्षक उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_OPPORTUNITY_AVAILABLE_SUMMARY">
+      <Text>अपनी सभ्यता में एक मौजूदा [ICON_Governor] गवर्नर की प्रचार करें, या एक नए गवर्नर को नियुक्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_OPPORTUNITY">
+      <Text>राज्यपाल शीर्षक</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_OPPORTUNITY_TOOLTIP">
+      <Text>अपनी सभ्यता के लिए एक मौजूदा राज्यपाल का प्रचार करें, या नए राज्यपाल का नियुक्ति करें।</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_PROMOTION">
+      <Text>राज्यपाल का पदोन्नति</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_PROMOTION_TOOLTIP">
+      <Text>आपके राज्यपालों में से एक को प्रचार करने के लिए एक शीर्षक उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_IDLE">
+      <Text>राज्यपाल आईडल</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_IDLE_TOOLTIP">
+      <Text>एक राज्यपाल नियुक्ति के लिए उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_APPOINTMENT">
+      <Text>राज्यपाल नियुक्ति</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_GOVERNOR_APPOINTMENT_TOOLTIP">
+      <Text>अपनी सभ्यता के लिए एक नया राज्यपाल नियुक्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_CONSIDER_DISLOYAL_CITY">
+      <Text>रखें या मुक्त शहर।</Text>
+    </Row>
+    <Row Tag="LOC_ACTION_PANEL_CONSIDER_DISLOYAL_CITY_TOOLTIP">
+      <Text>एक विदेशी शहर ने अपने पुराने स्वामी के खिलाफ बाग़ी होकर विरोध प्रदर्शन किया है, क्योंकि उसकी निष्ठा 0 हो गई है। आपकी निष्ठा वहाँ सबसे मजबूत है, इसलिए यह आपकी सभ्यता में शामिल होने की विनम्र अनुरोध करता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_PROMOTION_AVAILABLE_MESSAGE">
+      <Text>गवर्नर पदोन्नति उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_PROMOTION_AVAILABLE_SUMMARY">
+      <Text>आपके राज्यपालों में से एक के लिए पदोन्नति उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_IDLE_MESSAGE">
+      <Text>राज्यपाल आलसी (Rajyapal Aalsi)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_IDLE_SUMMARY">
+      <Text>{1_GovernorName} के लिए नियुक्ति उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_REMOVED_FROM_CITY_MESSAGE">
+      <Text>राज्यपाल {1_CityName} से हटाया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_REMOVED_FROM_CITY_SUMMARY">
+      <Text>राज्यपाल {1_GovernorName} {2_CityName} से अब नियुक्त नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_CHANGED_CITIES_MESSAGE">
+      <Text>राज्यपाल {1_GovernorName} ने {2_CityName} जाने का फ़ैसला किया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_CHANGED_CITIES_SUMMARY">
+      <Text>महामंडलेश्वर {1_GovernorName} {2_CityName} से {3_CityName} चले गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_RETURNING_TO_SERVICE_MESSAGE">
+      <Text>राज्यपाल {1_GovernorName} सेवानिवृत्त होने के बाद वापस लौट गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_GOVERNOR_RETURNING_TO_SERVICE_SUMMARY">
+      <Text>गवर्नर {1_GovernorName} सेवा में वापस आ गए हैं। अब {2_GovernorTitle} को एक शहर में नियुक्त किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOSING_CULTURAL_IDENTITY_MESSAGE">
+      <Text>शहर वफादारी खो रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_LOSING_CULTURAL_IDENTITY_SUMMARY">
+      <Text>{1_CityName} वफादारी खो रहा है। यदि वफादारी शून्य तक पहुंचती है, तो यह हमारे नियंत्रण से बाहर निकल सकता है। शहर के लोगों का वफादारी हासिल करने और उसे स्थिर करने के लिए शहर में एक गवर्नर नियुक्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BECAME_FREE_CITY_MESSAGE">
+      <Text>शहर की वफादारी हार गई।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BECAME_FREE_CITY_SUMMARY">
+      <Text>क्योंकि वफादारी कम हो गई, इसलिए {1_CityName} ने बगावत कर लिया है और मुक्त शहर बन गया है। उसे फिर से अपने नियंत्रण में करने के लिए, आपको वहां अपनी वफादारी को पुनः उत्पन्न करना होगा या सैन्य बल का उपयोग करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CITY_BECAME_CIV_SUMMARY">
+      <Text>क्योंकि वफादारी 0 पर गिर गई, इसलिए {1_CityName} ने विद्रोह कर दिया है और {2_CivName} से जुड़ गया है। इसे फिर से अपने नियंत्रण में करने के लिए, आपको वहां अपनी वफादारी का उत्सर्जन करना होगा या सैन्य बल का उपयोग करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FOREIGN_CITY_BECAME_FREE_CITY_MESSAGE">
+      <Text>विदेशी शहर स्वतंत्रता प्राप्त करता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FOREIGN_CITY_BECAME_FREE_CITY_SUMMARY">
+      <Text>{1_CivName} के पास अब अपनी साम्राज्य में {2_CityName} शहर को बनाए रखने के लिए पर्याप्त वफादारी नहीं है। पास के सभी सिविलाइजेशन वफादारी या सैन्य बल का उपयोग करके इस मुक्त शहर का नियंत्रण जल्द ही हासिल कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_CITY_BECAME_FOREIGN_CITY_MESSAGE">
+      <Text>मुक्त शहर अनुरोध सभ्यता के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_FREE_CITY_BECAME_FOREIGN_CITY_SUMMARY">
+      <Text>{2_CityName} का मुक्त शहर विदेशी दबाव में आकर {1_CivName} से शामिल होने के लिए अनुरोध करता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_GOLDEN_AGE">
+      <Text>स्वर्ण युग युद्ध</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_RETRIBUTION">
+      <Text>प्रतिशोध का युद्ध</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_WAR_TYPE_IDEOLOGICAL">
+      <Text>विचारधारा युद्ध</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_TRADING_POST_IMMEDIATELY_CREATED_SUMMARY">
+      <Text>[ICON_TradeRoute] व्यापार मार्ग आरंभ करने से {1_CityName} शहर में आपके लिए एक [ICON_TradingPost] व्यापारिक ढांचा बनाया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_DISLOYAL_CITY_MESSAGE">
+      <Text>रखें या मुक्त शहर</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_CONSIDER_DISLOYAL_CITY_SUMMARY">
+      <Text>एक मुक्त शहर अपनी स्वाधीनता बनाए रखने की इच्छा खो चुका है। क्योंकि आपकी निष्ठा सबसे ज्यादा मजबूत है, इसलिए यह आपके सभ्यता में शामिल होने का निवेदन करता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FABRICATE_SCANDAL_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} {2_CityName} में दुश्मन के एनवोय को हटाने में सफल रहे।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FABRICATE_SCANDAL_MESSAGE">
+      <Text>सफलता झूठी आरोप लगाने में</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_FABRICATE_SCANDAL_SUMMARY">
+      <Text>{1_CityName} में एक दुश्मन जासूस ने हमारे कुछ दूतों को हटा दिया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_FABRICATE_SCANDAL_MESSAGE">
+      <Text>दुश्मन निर्मित अफवाह</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FOMENT_UNREST_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {2_cityName} शहर में मालिक की वफादारी को कम करने में सफलता हासिल की।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_FOMENT_UNREST_MESSAGE">
+      <Text>सफलता अशांति बढ़ाने की प्रवृत्ति को उत्पन्न करती है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_FOMENT_UNREST_SUMMARY">
+      <Text>एक दुश्मन जासूस ने {1_cityName} में आपके नागरिकों की वफादारी को कम कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_FOMENT_UNREST_MESSAGE">
+      <Text>दुश्मन ने अशांति भड़काई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEUTRALIZE_GOVERNOR_SUMMARY">
+      <Text>आपके एजेंट {1_unitName} ने {2_cityName} शहर में दुश्मन राज्यपाल को निष्क्रिय करने में सफलता हासिल की, उन्हें दायित्व से हटाकर {3_turns} टर्न तक।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_NEUTRALIZE_GOVERNOR_MESSAGE">
+      <Text>गवर्नर को निष्क्रिय करने में सफलता।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_NEUTRALIZE_GOVERNOR_SUMMARY">
+      <Text>एक दुश्मन जासूस ने आपके राज्यपाल {1_governorName} को {2_cityName} शहर में निष्क्रिय करने में कामयाब रहा, जिससे वह {3_turns} टर्न के लिए ड्यूटी से हटा दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_SPY_ENEMY_NEUTRALIZE_GOVERNOR_MESSAGE">
+      <Text>दुश्मन जासूस निष्क्रिय किया गवर्नर।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ALLIANCE_EXPIRED_MESSAGE">
+      <Text>गठबंधन समाप्त हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ALLIANCE_EXPIRED_SUMMARY">
+      <Text>आपकी {1_CivName} से संघटन समाप्त हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ALLIANCE_LEVELED_MESSAGE">
+      <Text>संधि स्तर बढ़ गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_ALLIANCE_LEVELED_SUMMARY">
+      <Text>आपका {1_CivName} के साथ गठबंधन स्तर बढ़ गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_DECLARED_MESSAGE">
+      <Text>आपातकाल घोषित किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_DECLARED_SUMMARY">
+      <Text>{1_CivName} को एक आपातकालीन स्थिति का निशाना बनाया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_DECLARED_UNKNOWN_TARGET_SUMMARY">
+      <Text>एक अज्ञात खिलाड़ी एक आपातकालीन स्थिति के निशाने पर रखा गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_FAILED_MESSAGE">
+      <Text>आपातकाल पूरा हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_FAILED_TARGET_SUMMARY">
+      <Text>आपके लिए निशाने बनाए गए आपातकालीन उपाय असफल रहे। आपको इनाम दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_FAILED_SUMMARY">
+      <Text>आपातकालीन हल {1_CivName} का लक्ष्य नहीं साबित हुआ। {1_CivName} को पुरस्कार दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_FAILED_UNKNOWN_TARGET_SUMMARY">
+      <Text>अज्ञात खिलाड़ी को लक्षित करने वाली आपातकालीन योजना असफल रही।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_SUCCEEDED_MESSAGE">
+      <Text>आपातकालीन समाप्त हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_SUCCEEDED_TARGET_SUMMARY">
+      <Text>आपके विरुद्ध निशाना साधने से आपके खिलाफ लड़ रहे लोगों को इनाम मिला है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_SUCCEEDED_SUMMARY">
+      <Text>आपातकालीन चरम तकनीक {1_CivName} के लक्ष्य को प्राप्त हुआ। {1_CivName} के खिलाफ लड़ रहे वे लोग पुरस्कृत किए गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_SUCCEEDED_UNKNOWN_TARGET_SUMMARY">
+      <Text>अज्ञात खिलाड़ी को लक्ष्य बनाकर आपातकालीन उपाय सफल रहा।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_MESSAGE">
+      <Text>आपदा टल गई।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_CITY_DESTROYED">
+      <Text>{1_EmergencyType} जो {2_CivName} को निशाना बनाती थी, उसका अंत हो गया है क्योंकि {3_CityName} तबाह हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_CITY_RETURNED_ORIGINAL">
+      <Text>{1_EmergencyType} जो {2_CivName} को उद्देशित कर रहा था, उसका समापन हो गया है क्योंकि {3_CityName} अपने मूल मालिक के हाथ वापस चला गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_CITY_RETURNED_PREVIOUS">
+      <Text>{1_EmergencyType} जो {2_CivName} को निशाना बनाती थी, उसका अंत हुआ है क्योंकि {3_CityName} अपने पूर्व मालिक के हाथ लौट गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_CITY_GIFTED">
+      <Text>{2_CivName} प्रति होने वाली {1_EmergencyType} की वजह से शहर {3_CityName} अब अधिक {2_CivName} के नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_AVERTED_TARGET_DEFEATED">
+      <Text>{1_EmergencyType} जो {2_CivName} को लक्ष्य बनाता था, उसका अंत हो गया है क्योंकि {2_CivName} हार गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_NEEDS_ATTENTION_MESSAGE">
+      <Text>आपातकालीन!</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_EMERGENCY_NEEDS_ATTENTION_SUMMARY">
+      <Text>एक आपातकालीन स्थिति आपकी ध्यान की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_FROM_KEPT_MESSAGE">
+      <Text>आपको पूर्ण किया गया वचन।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_FROM_KEPT_SUMMARY">
+      <Text>{1_CivName} ने आपको दिया गया {2_PledgeType} पूरा कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_TO_KEPT_MESSAGE">
+      <Text>आपका वचन पूरा हो गया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_TO_KEPT_SUMMARY">
+      <Text>आपकी वचनबद्धता {1_CivName} के लिए {2_PledgeType} पूरी हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_FROM_BROKEN_MESSAGE">
+      <Text>आपको किया गया वचन तोड़ दिया।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_FROM_BROKEN_SUMMARY">
+      <Text>{1_CivName} द्वारा आपसे {2_PledgeType} के लिए किया गया शपथ टूट गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_TO_BROKEN_MESSAGE">
+      <Text>आपका वचन तोड़ा गया है। (Aapka vachan toda gaya hai.)</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_DIPLO_PLEDGE_TO_BROKEN_SUMMARY">
+      <Text>आपका {2_PledgeType} करने का वादा {1_CivName} के प्रति टूट गया है।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMEMORATION_AVAILABLE_MESSAGE">
+      <Text>समर्पण करें</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_COMMEMORATION_AVAILABLE_SUMMARY">
+      <Text>जबसे खेल एक नए युग में प्रवेश कर चुका है, आप अपने सभ्यता के लिए वांछित भविष्य की ओर अपने लोगों का मार्गदर्शन करने के लिए उत्सुक हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_QUEST_RECORDED_MESSAGE">
+      <Text>समर्पण बोनस चालू हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_NOTIFICATION_QUEST_RECORDED_SUMMARY">
+      <Text>{1_DedicationBonusTriggerSentence} इस कारण आपको अपने अर्पण बोनस से युग स्कोर प्राप्त होता है!</Text>
+    </Row>
+    <!--TUTORIAL EVENTS TEXT-->
+  </EnglishText>
+</GameData>

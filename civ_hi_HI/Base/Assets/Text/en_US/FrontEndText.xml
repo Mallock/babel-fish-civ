@@ -1,0 +1,2179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
+<GameData>
+  <FrontEndText>
+    <!-- Generic -->
+    <Row Tag="LOC_GENERIC_TEST">
+      <Text>Tomáš</Text>
+    </Row>
+    <Row Tag="LOC_GENERIC_DOT_DOT_DOT">
+      <Text>...</Text>
+    </Row>
+    <Row Tag="LOC_YES_BUTTON">
+      <Text>Yes</Text>
+    </Row>
+    <Row Tag="LOC_NO_BUTTON">
+      <Text>No</Text>
+    </Row>
+    <Row Tag="LOC_OK_BUTTON">
+      <Text>OK</Text>
+    </Row>
+    <Row Tag="LOC_DEFAULT_BUTTON">
+      <Text>मूलभूत ढंग से जो स्थिति होती है।</Text>
+    </Row>
+    <Row Tag="LOC_GENERIC_CONFIRM_BUTTON">
+      <Text>कन्फर्म करें।</Text>
+    </Row>
+    <Row Tag="LOC_SELECTION_NOTHING">
+      <Text>कुछ नहीं</Text>
+    </Row>
+    <Row Tag="LOC_SELECTION_EVERYTHING">
+      <Text>सब कुछ (Sab kuch)</Text>
+    </Row>
+    <Row Tag="LOC_SELECTION_CUSTOM">
+      <Text>अनुकूलित ({1_Count})</Text>
+    </Row>
+    <Row Tag="LOC_SELECT_ALL">
+      <Text>सभी का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_SELECT_NONE">
+      <Text>चुनिए नहीं।</Text>
+    </Row>
+    <!-- Front End Popups -->
+    <Row Tag="LOC_FRONTEND_POPUP_UNKNOWN_DEVICE">
+      <Text>ग्राफिक्स उपकरण क्षमताओं को निर्धारित करने में विफल रहा। [NEWLINE][NEWLINE] कृपया अपने ग्राफिक्स विकल्पों को मैन्युअल रूप से सेट करें।</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_OUTDATED_DRIVER">
+      <Text>आपके ग्राफिक्स ड्राइवर मिनिमम अनुशंसित संस्करण से पुराने हैं। [NEWLINE][NEWLINE]कृपया नवीनतम संस्करण पर अपने ड्राइवर को अपडेट करें।</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_OUTDATED_DRIVER_QUIET">
+      <Text>मुझे फिर से परेशान न करें। (Mujhe phir se pareshan na karein.)</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_OUTDATED_DRIVER_LOUD">
+      <Text>अगली बार मुझे याद दिलाना।</Text>
+    </Row>
+    <Row Tag="LOC_FRONTEND_POPUP_GRAPHICS_SETTINGS_CHANGED">
+      <Text>ग्राफ़िक्स सेटिंग्स समायोजित किए गए हैं। आप विकल्प मेनू में इन सेटिंग्स की समीक्षा या बदलाव कर सकते हैं।</Text>
+    </Row>
+    <!-- Main Menu-->
+    <Row Tag="LOC_MAIN_MENU_RESUME_GAME">
+      <Text>गेम फिर से शुरू करें।</Text>
+    </Row>
+    <Row Tag="LOC_PLAY_CIVILIZATION_6">
+      <Text>अभी खेलें</Text>
+    </Row>
+    <Row Tag="LOC_SINGLE_PLAYER">
+      <Text>एकल खिलाड़ी</Text>
+    </Row>
+    <Row Tag="LOC_PLAY_MULTIPLAYER">
+      <Text>बहु-खिलाड़ी</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_GAME">
+      <Text>गेम लोड करें।</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_CONFIG">
+      <Text>विन्यास लोड करें।</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_MAP">
+      <Text>मानचित्र लोड करें।</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_TILED">
+      <Text>संपादक से मानचित्र आयात करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPEN_DIRECTORY">
+      <Text>खोलें</Text>
+    </Row>
+    <Row Tag="LOC_NO_FILE_SELECTED">
+      <Text>वर्तमान में कोई फ़ाइल चयनित नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_OPTIONS">
+      <Text>खेल विकल्प</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MODS">
+      <Text>मॉड्स</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MODS_AND_DLC">
+      <Text>मॉड्स और डीएलसी</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MODS_AND_DLC_TT">
+      <Text>सिविलाइजेशन VI को बढ़ावा देने और उसे बढ़ाने के लिए संशोधन और डाउनलोड करने योग्य सामग्री।</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_MY2K_LOGIN">
+      <Text>मेरा 2K लॉगिन</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_EXIT_TO_DESKTOP">
+      <Text>डेस्कटॉप पर निकास (Dekstop par nikas)</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_BENCH">
+      <Text>मानकमापी</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_CREDITS">
+      <Text>क्रेडिट्स</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_TUTORIAL">
+      <Text>ट्यूटोरियल</Text>
+    </Row>
+    <!-- Load / Save Menus -->
+    <Row Tag="LOC_DELETE_BUTTON">
+      <Text>Delete</Text>
+    </Row>
+    <Row Tag="LOC_BACK_BUTTON">
+      <Text>वापस</Text>
+    </Row>
+    <Row Tag="LOC_AUTOSAVES">
+      <Text>ऑटोसेव्स</Text>
+    </Row>
+    <Row Tag="LOC_STEAMCLOUD">
+      <Text>बादल</Text>
+    </Row>
+    <Row Tag="LOC_2K_CLOUD">
+      <Text>मल्टीप्लेटफॉर्म क्लाउड</Text>
+    </Row>
+    <Row Tag="LOC_STANDARD_CLOUD_SAVES_HELP">
+      <Text>मानक क्लाउड सेव - सिविलाइजेशन VI के पीसी, मैक और लिनक्स संस्करणों के साथ संगत।</Text>
+    </Row>
+    <Row Tag="LOC_2K_CLOUD_SAVES_HELP">
+      <Text>मल्टीप्लेटफ़ॉर्म क्लाउड सेव - समर्थित प्लेटफ़ॉर्म के साथ संगत (मुख्य मेनू पर 2K खाता सक्षम करने की आवश्यकता है)।</Text>
+    </Row>
+    <Row Tag="LOC_NO_SAVED_GAMES">
+      <Text>कोई सेव्ड गेम्स नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_NO_SAVED_CONFIGS">
+      <Text>कोई सहेजी गई विन्यास नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_NO_SAVED_MAPS">
+      <Text>कोई सहेजी गई नक्शे नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SORTBY_NAME">
+      <Text>नाम के अनुसार क्रमबद्ध करें।</Text>
+    </Row>
+    <Row Tag="LOC_SORTBY_LASTMODIFIED">
+      <Text>अंतिम संशोधित द्वारा छांटें।</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_MENU_MODS">
+      <Text>मॉड्स</Text>
+    </Row>
+    <Row Tag="LOC_LOAD_MENU_DLC">
+      <Text>DLC (डीएलसी)</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_GAME">
+      <Text>गेम सेव करें।</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_MAP_BUTTON">
+      <Text>नक्शा बचाएं।</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_CONFIG">
+      <Text>कॉन्फ़िगरेशन सुरक्षित करें।</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_OBSERVER_MODE_TT">
+      <Text>अवलोकक मोड में होते हुए सहेजना संभव नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_AT_MAXIMUM_CLOUD_SAVES_TOOLTIP">
+      <Text>आपने क्लाउड सेव तक की अधिकतम संख्या प्राप्त कर ली है। सेव ओवरराइट या डिलीट करें।</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_INVALID_FILE_NAME_TOOLTIP">
+      <Text>अवैध फ़ाइल नाम।</Text>
+    </Row>
+    <Row Tag="LOC_SAVE_WAITING_FOR_CLOUD_SAVE_LIST_TOOLTIP">
+      <Text>बादल सहेजने की सूची का इंतजार कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_TITLE_TXT">
+      <Text>पुष्टि करें अधिलेखन को अधिलेखित करने के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_DELETE_TITLE_TXT">
+      <Text>हटाने की पुष्टि करें।</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_CHOICE">
+      <Text>क्या आप सुनिश्चित हैं?</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_EXIT_TXT">
+      <Text>क्या आप खेल से बाहर निकलना चाहते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_TXT">
+      <Text>क्या आप वाकई इसे करना चाहते हैं? यह आपकी सेव फ़ाइल को स्थायी रूप से हटा देगा।</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_TITLE_LOAD_TXT">
+      <Text>फ़ाइल लोड की पुष्टि करें।</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_LOAD_TXT">
+      <Text>कोई बचे हुए प्रगति को खो देगा। क्या आप इसे करना चाहते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_OVERWRITE_TXT">
+      <Text>क्या आप वाकई इसे करना चाहते हैं? यह आपकी मौजूदा सेव फ़ाइल को ओवरराइट कर देगा।</Text>
+    </Row>
+    <Row Tag="LOC_DELETE_MOD_TXT">
+      <Text>क्या आप वाकई इसे करना चाहते हैं? यह मॉड स्थायी रूप से हटा दिया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_DISABLE_MOD">
+      <Text>क्या आप निश्चित हैं कि आप इस मॉड को अक्षम करना चाहते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_WILL_ALSO_DISABLE_MODS">
+      <Text>यह निम्नलिखित मॉड्स भी अक्षम कर देगा:</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_ENABLE_MOD">
+      <Text>क्या आप इस मॉड को सक्रिय करना चाहते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_WILL_ALSO_ENABLE_MODS">
+      <Text>यह निम्नलिखित मॉड्स भी सक्षम करेगा:</Text>
+    </Row>
+    <Row Tag="LOC_EFFECTED_MODS_TXT">
+      <Text>प्रभावित मॉड:</Text>
+    </Row>
+    <Row Tag="LOC_MOD_VERSION_AVAILABLE">
+      <Text>{1_VersionNumber} संस्करण उपलब्ध है।</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_CURRENT_TURN">
+      <Text>बारी[ICON_Turn] {1}</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_SCENARIO_HEADER_TITLE">
+      <Text>दृश्य विवरण</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_HEADER_TITLE">
+      <Text>गेम विकल्प</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_RULESET_TYPE_TITLE">
+      <Text>नियम सेट:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_MAP_TYPE_TITLE">
+      <Text>मानचित्र प्रकार:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_MAP_SIZE_TITLE">
+      <Text>मानचित्र का आकार:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_WORLD_AGE_TITLE">
+      <Text>विश्व आयु:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_SAVED_BY_VERSION_TITLE">
+      <Text>संस्करण द्वारा बचा लिया:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_GAME_OPTIONS_ADVANCED_TITLE">
+      <Text>उन्नत विकल्प:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_NO_MAP_DATA">
+      <Text>कोई मानचित्र डेटा नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_TUNER_ACTIVE_TITLE">
+      <Text>ट्यूनर सक्रिय:</Text>
+    </Row>
+    <Row Tag="LOC_LOADSAVE_QUICK_SAVE">
+      <Text>(त्वरित बचत)</Text>
+    </Row>
+    <!-- Advanced Game Setup -->
+    <Row Tag="LOC_NETWORK_NAME_TT">
+      <Text>नेटवर्क का नाम[NEWLINE]यह आपके नाम को अन्य खिलाड़ियों के लिए दिखाई देगा।</Text>
+    </Row>
+    <Row Tag="LOC_NUMBER_OF_CIVILIZATIONS">
+      <Text>सभ्यताओं की संख्या</Text>
+    </Row>
+    <Row Tag="LOC_PLAYERS">
+      <Text>खिलाड़ी (Khiladi)</Text>
+    </Row>
+    <Row Tag="LOC_TEAM">
+      <Text>टीम|टीमें</Text>
+      <Plurality>1|2</Plurality>
+    </Row>
+    <Row Tag="LOC_TEAM_GENERIC_NAME">
+      <Text>टीम {1_Number}</Text>
+    </Row>
+    <Row Tag="LOC_TEAM_UNKNOWN_NAME">
+      <Text>अज्ञात टीम</Text>
+    </Row>
+    <Row Tag="LOC_BACK">
+      <Text>वापस (Vaapas)</Text>
+    </Row>
+    <Row Tag="LOC_GAME_HANDICAP">
+      <Text>खेल कठिनाई</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS">
+      <Text>Options</Text>
+    </Row>
+    <Row Tag="LOC_MAP_OPTIONS">
+      <Text>मानचित्र विकल्प</Text>
+    </Row>
+    <!-- Multiplayer Game Abandoned Popup -->
+    <Row Tag="LOC_GAME_ABANDONED_KICKED">
+      <Text>आपको मेजबान द्वारा खेल से निकाल दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_KICKED_TITLE">
+      <Text>ठोक दिया!</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_HOST_LOSTED">
+      <Text>होस्ट से नेटवर्क कनेक्शन खत्म हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_HOST_LOSTED_TITLE">
+      <Text>होस्ट कनेक्शन लॉस्ट हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_ROOM_FULL">
+      <Text>खेल में अधिकतम खिलाड़ियों की संख्या होती है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_ROOM_FULL_TITLE">
+      <Text>पूरा खेल</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_VERSION_MISMATCH">
+      <Text>होस्ट के साथ संस्करण मिलान नहीं हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_VERSION_MISMATCH_TITLE">
+      <Text>संस्करण मिलान नहीं हो रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_ERROR">
+      <Text>अतिरिक्त सामग्री लागू करने में असमर्थ।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_ERROR_TITLE">
+      <Text>मॉड त्रुटि</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_MISSING">
+      <Text>अतिरिक्त सामग्री की आवश्यकता है लेकिन या तो यह खरीदा नहीं गया है या नहीं स्थापित है। [NEWLINE] सामग्री: [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_MISSING_TITLE">
+      <Text>मॉड गुम हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_ACCESS_DENIED">
+      <Text>स्टीम वर्कशॉप ने आवश्यक अतिरिक्त सामग्री तक पहुंच नहीं दी। [NEWLINE] सामग्री: [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MOD_MISSING_DOWNLOADS_DISABLED">
+      <Text>इस गेम को अतिरिक्त सामग्री की आवश्यकता है जो स्थापित नहीं है। अतिरिक्त सामग्री के स्वचालित डाउनलोड को अक्सम्य किया गया है। गेम विकल्पों में स्वचालित डाउनलोड सक्षम किया जा सकता है।[NEWLINE]सामग्री: [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_CONNECTION_LOST">
+      <Text>नेटवर्क कनेक्शन खो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_CONNECTION_LOST_TITLE">
+      <Text>अलग हो गया।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_JOIN_FAILED">
+      <Text>मल्टीप्लेयर सत्र में शामिल होने में त्रुटि हुई।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_JOIN_FAILED_TITLE">
+      <Text>शामिल होना विफल हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MATCH_DELETED">
+      <Text>मेजबान ने खेल हटा दिया।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ABANDONED_MATCH_DELETED_TITLE">
+      <Text>गेम हटा दी गई है।</Text>
+    </Row>
+    <!-- Multiplayer PlayByCloud End Turn Error Popup -->
+    <Row Tag="LOC_GAME_CLOUD_END_TURN_FAILED">
+      <Text>गेम त्रुटि के कारण आपकी गेम टर्न प्रोसेस करने में असमर्थ था। अपनी इंटरनेट कनेक्शन की जांच करें और पुन: प्रयास करें। [NEWLINE] त्रुटि कोड: {1_ErrorCode}</Text>
+    </Row>
+    <Row Tag="LOC_GAME_CLOUD_END_TURN_FAILED_TITLE">
+      <Text>अंत टर्न विफल रहा</Text>
+    </Row>
+    <!-- Multiplayer Select Screen-->
+    <Row Tag="LOC_MULTIPLAYER_DEFAULT_GAME_NAME">
+      <Text>{1_PlayerName} का खेल</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STANDARD_GAME">
+      <Text>कृपया नीचे दिए गए पाठ का हिंदी में अनुवाद करें। केवल प्राकृतिक अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STANDARD_GAME_TT">
+      <Text>एक मल्टीप्लेयर गेम खेलें जहां खिलाड़ियों को एक दूसरे के साथ निरंतर फेरबदल करना होता है।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME">
+      <Text>इंटरनेट</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME_OFFLINE">
+      <Text>[ICON_CheckFail] इंटरनेट</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME_TT">
+      <Text>इंटरनेट पर मल्टीप्लेयर गेम खेलें।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_GAME_OFFLINE_TT">
+      <Text>जब स्टीम ऑफ़लाइन होता है, तब इंटरनेट गेम उपलब्ध नहीं होते।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LAN_GAME">
+      <Text>स्थानीय नेटवर्क</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LAN_GAME_TT">
+      <Text>लोकल नेटवर्क पर मल्टीप्लेयर गेम खेलें।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_GAME">
+      <Text>गर्म कुर्सी</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_GAME_TT">
+      <Text>एक मल्टीप्लेयर खेल खेलें जहां खिलाड़ी इस मशीन पर आल्टरनेटिंग टर्न लेते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MENU_BACK">
+      <Text>पीछे</Text>
+    </Row>
+    <!-- Multiplayer Chat Commands -->
+    <Row Tag="LOC_CHAT_HELP_COMMAND_HINT">
+      <Text>[COLOR:ChatMessage_Help]चैट कमांड मदद के लिए /help टाइप करें।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_CHAT_HELP_COMMAND_TEXT">
+      <Text>[COLOR:ChatMessage_Help]चैट कमांड[NEWLINE]/t टीम चैनल पर संदेश भेजें[NEWLINE]/g ग्लोबल चैनल पर संदेश भेजें[NEWLINE]/w [PlayerName] खिसकीदेंगे [NEWLINE]/r खिसकीदेंगे के जवाब में[NEWLINE]/help इस मदद संदेश को प्रदर्शित करता है [ENDCOLOR]</Text>
+    </Row>
+    <!-- Multiplayer Lobby Screen -->
+    <Row Tag="LOC_MULTIPLAYER_REFRESH_GAME_LIST">
+      <Text>ताजगी लाना</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_REFRESH_GAME_LIST_TT">
+      <Text>नवीनतम खेल सूची जानकारी निकालें।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STOP_REFRESH_GAME_LIST">
+      <Text>रेफ्रेश बंद करें</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STOP_REFRESH_GAME_LIST_TT">
+      <Text>खेल सूची सूचना निकालना बंद करो।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_BACK">
+      <Text>पीछे</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_END_GAME">
+      <Text>DELETE</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_TITLE">
+      <Text>खेल हटाएं।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_PROMPT">
+      <Text>खेल समाप्त हो रहा है...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_FAIL_TITLE">
+      <Text>त्रुटि हटाएं। (Truti hatayein.)</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_FAIL">
+      <Text>गेम समाप्त करते समय त्रुटि।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_ENDING_GAME_FAIL_ACCEPT">
+      <Text>Ok</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_LAUNCH_FAILED_TITLE">
+      <Text>लॉन्च त्रुटि</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_LAUNCH_FAILED">
+      <Text>गेम लांच नहीं हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_LAUNCH_FAILED_ACCEPT">
+      <Text>Ok</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_GAME">
+      <Text>खेल में शामिल हों।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_GAME_TT">
+      <Text>किसी मौजूदा बहु-खिलाड़ी गेम में शामिल हों।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_CODE">
+      <Text>ज्वाइन कोड का उपयोग करें।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOIN_CODE_TT">
+      <Text>जॉइन कोड का उपयोग करके एक मौजूदा बहु-खिलाड़ी गेम में शामिल हों।</Text>
+    </Row>
+    <Row Tag="LOC_MISC_BACK">
+      <Text>पीछे</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONNECT_TO_IP">
+      <Text>IP पते से कनेक्ट करें।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONNECT_TO_IP_TT">
+      <Text>दिए गए सार्वजनिक आईपी पते पर एक पिटबॉस गेम से कनेक्ट करें।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CREATE_GAME">
+      <Text>गेम बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONFIRM_SETTINGS">
+      <Text>सेटिंग्स की पुष्टि करें। (Setings ki pusti karein)</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOST_GAME">
+      <Text>मल्टीप्लेयर गेम सेटअप</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOST_GAME_TT">
+      <Text>एक नया बहु-खिलाड़ी खेल शुरू करें।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOAD_GAME_TT">
+      <Text>एक मौजूदा सेव से मल्टीप्लेयर गेम बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_FRIENDS">
+      <Text>दोस्त (Dost)</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_SHOW_FRIENDS">
+      <Text>मित्र सूची दिखाएं।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_SETUP">
+      <Text>खेल की स्थापना</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_SUMMARY">
+      <Text>गेम सारांश</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_NAME">
+      <Text>खेल का नाम</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_GAME_RULESET">
+      <Text>नियम सेट।</Text>
+    </Row>
+    <Row Tag="LOC_AD_SETUP_MAP_TYPE">
+      <Text>मानचित्र प्रकार</Text>
+    </Row>
+    <Row Tag="LOC_AD_SETUP_GAME_SPEED">
+      <Text>खेल की गति</Text>
+    </Row>
+    <Row Tag="LOC_AD_SETUP_MAP_SIZE">
+      <Text>मानचित्र का आकार</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_PLAYERS">
+      <Text>खिलाड़ी (Khiladi)</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DLCHOSTED">
+      <Text>डीएलसी</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_MODSHOSTED">
+      <Text>मॉड्स</Text>
+    </Row>
+    <Row Tag="LOC_STAGING_ROOM_LOADING_SAVE">
+      <Text>सेव गेम लोड हो रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_STAGING_ROOM_GAME_IN_PROGRESS">
+      <Text>खेल चल रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_INTERNET_LOBBY">
+      <Text>इंटरनेट गेम्स</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LAN_LOBBY">
+      <Text>स्थानीय नेटवर्क गेम्स</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_MODS">
+      <Text>अतिरिक्त सामग्री</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_GAMEMODES_OFFICIAL">
+      <Text>आधिकारिक गेम मोड:</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_MODS_OFFICIAL">
+      <Text>आधिकारिक सामग्री:</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_LOBBY_MODS_COMMUNITY">
+      <Text>समुदाय की सामग्री:</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_UNKNOWN">
+      <Text>अज्ञात</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_UNKNOWN_MAP_SIZE">
+      <Text>अज्ञात मानचित्र का आकार</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_TRUE">
+      <Text>True</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_FALSE">
+      <Text>False</Text>
+    </Row>
+    <!-- Options -->
+    <Row Tag="LOC_CONFIRM_KEY_BINDING">
+      <Text>कुंजी बाइंडिंग की पुष्टि करें।</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM">
+      <Text>कन्फर्म कीजिए।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GAME">
+      <Text>खेल</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GRAPHICS">
+      <Text>ग्राफिक्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUDIO">
+      <Text>Audio</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LANGUAGE">
+      <Text>Language</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE">
+      <Text>इंटरफ़ेस्‌टिंग्‌</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_BINDINGS">
+      <Text>कुंजी बाइंडिंग्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_APPLICATION">
+      <Text>अनुप्रयोग</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GAME_OPTIONS">
+      <Text>खेल विकल्प</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_GRAPHICS_OPTIONS">
+      <Text>ग्राफिक्स विकल्प</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUDIO_OPTIONS">
+      <Text>ऑडियो विकल्प</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LANGUAGE_OPTIONS">
+      <Text>भाषा विकल्प</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_INTERFACE_OPTIONS">
+      <Text>इंटरफ़ेस विकल्प</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_KEY_BINDINGS_OPTIONS">
+      <Text>कुंजी बाइंडिंग्स</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUICK_COMBAT">
+      <Text>त्वरित युद्ध:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_QUICK_MOVEMENT">
+      <Text>त्वरित गति:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_END_TURN">
+      <Text>ऑटो समाप्ति टर्न:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CITY_RANGE_ATTACK">
+      <Text>शहर दूरस्थ हमला पाली रोक:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CITY_RANGE_ATTACK_TOOLTIP">
+      <Text>जब सक्षम किया जाता है, तो शहर से हमले टर्न ब्लॉकिंग होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TIME_OF_DAY">
+      <Text>दिन का समय:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUNER">
+      <Text>त्यूनर (उपलब्धियों को निषेधित करता है):</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TUTORIAL">
+      <Text>Sorry, something went wrong</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_TURNS_BETWEEN_AUTOSAVES">
+      <Text>ऑटोसेव के बीच टर्न:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTOSAVES_TO_KEEP">
+      <Text>रखने के लिए ऑटो सेव की संख्या:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_LAN_PLAYER_NAME">
+      <Text>स्थानीय नेटवर्क प्लेयर नाम:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_DOWNLOAD_ADDITIONAL_CONTENT">
+      <Text>अतिरिक्त सामग्री को स्वचालित रूप से डाउनलोड करें:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AUTO_DOWNLOAD_ADDITIONAL_CONTENT_TOOLTIP">
+      <Text>जब एक मल्टीप्लेयर गेम में शामिल होने के लिए संगठित अतिरिक्त सामग्री की आवश्यकता होती है तो स्वचालित रूप से अधिक सामग्री डाउनलोड करें।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_STEAM_CONTROLLER_MESSAGE">
+      <Text>स्टीम कंट्रोलर कॉन्फ़िगरेशन स्टीम क्लाइंट के भीतर होता है और इस UI के भीतर नहीं। एस्केप, बाएं माउस बटन और दाएं माउस बटन आरक्षित होते हैं और बाइंड नहीं किए जा सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BIND_HEADER_PRIMARY">
+      <Text>प्राथमिक बाँधन (Prathmik baandhan)</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_BIND_HEADER_ALT">
+      <Text>वैकल्पिक बाँधने का तरीका</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_APPLICATION_OPTIONS">
+      <Text>एप्लीकेशन विकल्प</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SPOKEN_LANGUAGE">
+      <Text>कृपया मुख्य कथाकार के उद्देश्यों और पूर्वानुमान के आधार पर मुझे आपकी मदद की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_STRATEGIC_VIEW_START">
+      <Text>स्ट्रेटेजिक व्यू में शुरू करें:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_DISPLAY_LANGUAGE">
+      <Text>प्रदर्शित भाषा:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MASTER_VOLUME">
+      <Text>मास्टर वॉल्यूम:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MUSIC_VOLUME">
+      <Text>संगीत वॉल्यूम:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_EFFECTS_VOLUME">
+      <Text>ध्वनि प्रभाव वॉल्यूम:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_AMBIENT_VOLUME">
+      <Text>वातावरण ध्वनि आयतन:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_SPEECH_VOLUME">
+      <Text>भाषण की आवाज़:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_MUTE_FOCUS">
+      <Text>जब गेम विंडो निष्क्रिय हो तो म्यूट करें:</Text>
+    </Row>
+    <Row Tag="LOC_OPTIONS_CLEAR">
+      <Text>क्लियर</Text>
+    </Row>
+    <!-- Front End Popop -->
+    <Row Tag="LOC_CLOSE">
+      <Text>कृपया अगला पाठ हिंदी में अनुवाद करें। केवल प्राकृतिक ध्वनि वाले अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <!-- Multiplayer Joining Room Screen -->
+    <Row Tag="LOC_MULTIPLAYER_JOINING_ROOM_TITLE">
+      <Text>कृपया प्रतीक्षा करें।</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOINING_ROOM">
+      <Text>कमरे में शामिल हो रहा है...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_JOINING_HOST">
+      <Text>मेजबान जानकारी प्राप्त कर रहा है...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONFIGURING_CONTENT">
+      <Text>गेम सामग्री कॉन्फ़िगर कर रहे हैं...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CONNECTING_TO_PLAYERS">
+      <Text>खिलाड़ियों से कनेक्ट हो रहा है...</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_MATCHMAKING">
+      <Text>एक खेल ढूंढ़ रहे हैं...</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_FULL">
+      <Text>गेम में शामिल होने में असमर्थ। गेम में अधिकतम खिलाड़ियों की संख्या है।</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_FULL_TITLE">
+      <Text>पूरा खेल</Text>
+    </Row>
+    <Row Tag="LOC_MP_JOIN_FAILED">
+      <Text>बहु-खिलाड़ी सत्र में शामिल होने में त्रुटि हुई।</Text>
+    </Row>
+    <Row Tag="LOC_MP_JOIN_FAILED_TITLE">
+      <Text>शामिल होने में विफल रहा</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_GAME_STARTED">
+      <Text>खेल में शामिल होने में असमर्थ। खेल पहले से ही शुरू हो चुका है।</Text>
+    </Row>
+    <Row Tag="LOC_MP_ROOM_GAME_STARTED_TITLE">
+      <Text>शामिल होना विफल रहा।</Text>
+    </Row>
+    <!-- Multiplayer Staging Room Screen -->
+    <Row Tag="LOC_MP_SWAP_PLAYER">
+      <Text>विनिमय</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_SWAP_BUTTON_TT">
+      <Text>इस प्लेयर स्लॉट पर स्विच करें।</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_SWAP_WITH_PLAYER_BUTTON_TT">
+      <Text>यदि दूसरा खिलाड़ी भी स्वैप करने का चुनाव करता है तो केवल इस खिलाड़ी स्लॉट पर स्विच करें।</Text>
+    </Row>
+    <Row Tag="LOC_MP_KICK_PLAYER">
+      <Text>खिलाड़ी को निकालें</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_STAGING_ROOM">
+      <Text>स्टेजिंग रूम</Text>
+    </Row>
+    <Row Tag="LOC_READY_BUTTON">
+      <Text>अगला पाठ अनुवादित होने के लिए तैयार है।</Text>
+    </Row>
+    <Row Tag="LOC_ARE_YOU_READY">
+      <Text>क्या आप तैयार हैं? (Kya aap taiyaar hain?)</Text>
+    </Row>
+    <Row Tag="LOC_MP_GAME_SUMMARY_GAME_SETTINGS">
+      <Text>गेम सेटिंग्स</Text>
+    </Row>
+    <Row Tag="LOC_MP_GAME_SUMMARY_ADDITIONAL_CONTENT">
+      <Text>अतिरिक्त सामग्री</Text>
+    </Row>
+    <!-- Multiplayer Status Strings -->
+    <Row Tag="LOC_READY_LABEL">
+      <Text>Ready!</Text>
+    </Row>
+    <Row Tag="LOC_NOT_READY">
+      <Text>तैयार नहीं</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_MAP_SIZE">
+      <Text>[COLOR:StagingStatus_Invalid]मानचित्र आकार के लिए अमान्य[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_MAP_SIZE_TT">
+      <Text>यह खिलाड़ी स्लॉट वर्तमान मानचित्र आकार के लिए अनुपलब्ध है। मानचित्र आकार बढ़ाने या उपलब्ध खिलाड़ी स्लॉट में स्विच करने के लिए मेजबान को कहें।</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_HUMAN_REQUIRED">
+      <Text>[COLOR:StagingStatus_Invalid]खिलाड़ी चाहिए[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_INVALID_SLOT_HUMAN_REQUIRED_TT">
+      <Text>इस खिलाड़ी स्लॉट को खेल शुरू करने के लिए एक मानव खिलाड़ी द्वारा भरा जाना चाहिए।</Text>
+    </Row>
+    <!-- Multiplayer Status Strings END -->
+    <Row Tag="LOC_JOIN">
+      <Text>शामिल हो जाओ! (Shamil ho jao!)</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OPEN">
+      <Text>खोलें।</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OPEN_TT">
+      <Text>खुले स्लॉट को शामिल होने वाले खिलाड़ियों से भरा जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMANREQ">
+      <Text>खोलें।</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMANREQ_TT">
+      <Text>गेम शुरू होने से पहले खाली स्लॉटों में एक मानव खिलाड़ी की आवश्यकता होती है।</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OBSERVER">
+      <Text>अवलोकक</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_OBSERVER_TT">
+      <Text>खेल को सीधे भाग नहीं लेते, बल्कि देखते रहें।</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_HOST">
+      <Text>[ICON_Host] मेज़बान</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_PLAYER">
+      <Text>खिलाड़ी</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_COMPUTER">
+      <Text>कंप्यूटर (Kampyūṭar)</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_OPEN">
+      <Text>खोलें</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_OBSERVER">
+      <Text>अवलोकक (avalokak)</Text>
+    </Row>
+    <Row Tag="LOC_SLOTLABEL_OBSERVER_HOST">
+      <Text>[ICON_Host] अवलोकक</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_AI">
+      <Text>एआई (AI)</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_AI_TT">
+      <Text>एआई प्लेयर</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_CLOSED">
+      <Text>बंद है (Band hai)</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_CLOSED_TT">
+      <Text>बंद स्लॉट खिलाड़ियों द्वारा उपयोग नहीं किए जा सकते।</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMAN">
+      <Text>मानव (maanav)</Text>
+    </Row>
+    <Row Tag="LOC_SLOTTYPE_HUMAN_TT">
+      <Text>मानव खिलाड़ी</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DEFAULT_NO_TEAM_NAME">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DEFAULT_TEAM_NAME">
+      <Text>{1_Num} (यहाँ संख्या दर्ज करें)</Text>
+    </Row>
+    <Row Tag="LOC_CREATE_NEW_TEAM">
+      <Text>नया (naya)</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_TEAM_HEADER">
+      <Text>टीम (Teem)</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_DIFFICULTY_HEADER">
+      <Text>कठिनाई</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_READY_HEADER">
+      <Text>तैयार हों?</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_CIV_LEADER_HEADER">
+      <Text>सभ्यता और नेता</Text>
+    </Row>
+    <Row Tag="LOC_GAMESTART_COUNTDOWN_FORMAT">
+      <Text>खेल शुरू हो रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_READY_COUNTDOWN_FORMAT">
+      <Text>तैयार हो जाओ।</Text>
+    </Row>
+    <Row Tag="LOC_WAITING_FOR_PLAYERS_COUNTDOWN_FORMAT">
+      <Text>खिलाड़ियों के लिए प्रतीक्षा कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_DEFAULT_PLAYER_NAME">
+      <Text>खिलाड़ी (Khiladi)</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORD">
+      <Text>पासवर्ड</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORD_VERIFY">
+      <Text>Retype</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORDS_MATCH">
+      <Text>मिलाना</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_HOTSEAT_PASSWORDS_DONT_MATCH">
+      <Text>पासवर्ड मेल नहीं खाते।</Text>
+    </Row>
+    <!-- Staging Room Ready Button-->
+    <Row Tag="LOC_READY_UNSUPPORTED">
+      <Text>असमर्थित।</Text>
+    </Row>
+    <Row Tag="LOC_READY_UNSUPPORTED_TT">
+      <Text>असमर्थित खिलाड़ियों की मात्रा।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_TEAMS_INVALID">
+      <Text>अमान्य टीमें</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_TEAMS_INVALID_TT">
+      <Text>खेल शुरू नहीं कर सकते। सभी सभ्यताएं एकी टीम में हैं।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_CONNECTING_PLAYER">
+      <Text>खेल शुरू नहीं हो सकता। खिलाड़ी खेल में शामिल हो रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYER_MAP_SIZE">
+      <Text>मानचित्र का आकार समस्या</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYER_MAP_SIZE_TT">
+      <Text>खेल शुरू नहीं कर सकते। वर्तमान मानचित्र आकार के लिए एक खिलाड़ी एक अवैध खिलाड़ी स्लॉट में है। वर्तमान मानचित्र केवल {1_number} खिलाड़ियों का समर्थन करता है।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_NOT_ENOUGH_PLAYERS">
+      <Text>खिलाड़ी नहीं हैं। (Khiladi nahin hain.)</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_NOT_ENOUGH_PLAYERS_TT">
+      <Text>खेल शुरू नहीं किया जा सकता। शुरू करने के लिए दो खिलाड़ियों की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_CONNECTING">
+      <Text>खिलाड़ी गेम में शामिल हो रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_CONNECTING_TT">
+      <Text>खेल में खिलाड़ियों के शामिल होने की प्रतीक्षा कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_NOT_MOD_READY">
+      <Text>खिलाड़ी की अनुपस्थित मॉड्स</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_PLAYERS_NOT_MOD_READY_TT">
+      <Text>इस गेम के लिए जरूरी मॉड्स नहीं होने के कारण जो खिलाड़ी उपलब्ध नहीं हैं, उन्हें इंतजार कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_PASSWORD_MISMATCH">
+      <Text>पासवर्ड मैच नहीं हुआ</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_PASSWORD_MISMATCH_TT">
+      <Text>सभी पासवर्ड मेल खाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_NO_HUMAN_PLAYERS">
+      <Text>कोई मानव खिलाड़ियों नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_NO_HUMAN_PLAYERS_TT">
+      <Text>कम से कम 1 मानव खिलाड़ी चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_INVALID_TEAMS">
+      <Text>अमान्य टीमें</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_HOTSEAT_INVALID_TEAMS_TT">
+      <Text>कम से कम 2 खिलाड़ी अलग-अलग टीमों में होने चाहिए।</Text>
+    </Row>
+    <!-- Staging Room Invite Button -->
+    <Row Tag="LOC_INVITE_BUTTON">
+      <Text>दोस्तों को आमंत्रित करें।</Text>
+    </Row>
+    <Row Tag="LOC_INVITE_BUTTON_TT">
+      <Text>अपनी स्टीम फ्रेंड सूची से इस गेम को खेलने के लिए दोस्तों को आमंत्रित करें।</Text>
+    </Row>
+    <!-- Confirm Kick Popup -->
+    <Row Tag="LOC_CANCEL_BUTTON">
+      <Text>Sure, cancellation acknowledged</Text>
+    </Row>
+    <Row Tag="LOC_ACCEPT_BUTTON">
+      <Text>कृपया अनुवाद करें।</Text>
+    </Row>
+    <Row Tag="LOC_CONFIRM_KICK_PLAYER_DESC">
+      <Text>क्या आप सुनिश्चित हैं कि आप {1_player} को खेल से निकालना चाहते हैं?</Text>
+    </Row>
+    <!-- Edit Hotseat Player Popup -->
+    <Row Tag="LOC_HOTSEAT_EDIT_PLAYER_TT">
+      <Text>हॉट सीट खिलाड़ी को संपादित करें।</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_EDIT_PLAYER">
+      <Text>हॉट सीट खिलाड़ी को संपादित करें।</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_PLAYER_NAME">
+      <Text>खिलाड़ी का नाम:</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_PASSWORD">
+      <Text>पासवर्ड:</Text>
+    </Row>
+    <Row Tag="LOC_HOTSEAT_RETYPE_PASSWORD">
+      <Text>पासवर्ड फिर से टाइप करें:</Text>
+    </Row>
+    <!-- Network Connection Status -->
+    <Row Tag="LOC_MP_PLAYER_CONNECTED">
+      <Text>खिलाडी वर्तमान में गेम में है।</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_CONNECTED_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Connected]जुड़ा हुआ[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOTCONNECTED">
+      <Text>खिलाड़ी कनेक्ट नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOTCONNECTED_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Offline]ऑफ़लाइन[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_CONNECTING">
+      <Text>खिलाड़ी खेल में शामिल हो रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_CONNECTING_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Connecting]जुड़ रहा है[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOT_MOD_READY">
+      <Text>खिलाड़ी इस खेल में खेलने के लिए आवश्यक मॉड नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_NOT_MOD_READY_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_NotModReady]मॉड गुम हो गए हैं।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_RESYNCING">
+      <Text>खिलाड़ी डिसिंक को सही करने के लिए रिलोड कर रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_RESYNCING_SUMMARY">
+      <Text>[COLOR:ConnectionStatus_Resyncing]समन्वय कर रहा है[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_TIME_MILLISECONDS">
+      <Text>ms</Text>
+    </Row>
+    <Row Tag="LOC_TIME_SECONDS">
+      <Text>s</Text>
+    </Row>
+    <!-- Friend Actions  -->
+    <Row Tag="LOC_FRIEND_ACTION_PROFILE">
+      <Text>स्टीम प्रोफ़ाइल</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_PROFILE_TT">
+      <Text>इस मित्र के प्रोफाइल पेज को देखें।</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_CHAT">
+      <Text>संदेश भेजें</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_CHAT_TT">
+      <Text>इस दोस्त को एक संदेश भेजें।</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_INVITE">
+      <Text>खेल में आमंत्रित करना</Text>
+    </Row>
+    <Row Tag="LOC_FRIEND_ACTION_INVITE_TT">
+      <Text>इस दोस्त को खेलने के लिए आमंत्रित करें।</Text>
+    </Row>
+    <!-- Friend Status  -->
+    <Row Tag="LOC_PRESENCE_ONLINE">
+      <Text>[COLOR:ButtonCS]ऑनलाइन[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_SHELL">
+      <Text>[COLOR:ConnectionStatus_Connected]मुख्य मेनू[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_HOSTING_GAME">
+      <Text>[COLOR:ConnectionStatus_Connected]गेम होस्टिंग[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_STAGING_ROOM">
+      <Text>[COLOR:ConnectionStatus_Connected]स्टेजिंग रूम[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_SP">
+      <Text>[COLOR:ConnectionStatus_Connected]एकल खिलाड़ी[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_ONLINE">
+      <Text>[COLOR:ConnectionStatus_Connected]बहु-खिलाड़ी (ऑनलाइन)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_LAN">
+      <Text>[COLOR:ConnectionStatus_Connected]बहु-खिलाड़ी (LAN)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_HOTSEAT">
+      <Text>[COLOR:ConnectionStatus_Connected]बहुखिलाड़ी (हॉट सीट)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_IN_GAME_PLAYBYCLOUD">
+      <Text>[COLOR:ConnectionStatus_Connected]बहु-खिलाड़ी (प्ले बाय क्लाउड)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_INVITED_ONLINE">
+      <Text>[COLOR:ConnectionStatus_Connected]आमंत्रित[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_INVITED_OFFLINE">
+      <Text>[COLOR:ButtonCS]आमंत्रित[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_PRESENCE_WORLD_BUILDER">
+      <Text>[COLOR:ConnectionStatus_Connected]विश्व निर्माता[ENDCOLOR]</Text>
+    </Row>
+    <!-- Player Connection EVents -->
+    <Row Tag="LOC_MP_PLAYER_CONNECTED_CHAT">
+      <Text>जुड़ा हुआ</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_DISCONNECTED_CHAT">
+      <Text>डिस्कनेक्टेड (Dissconnected)</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_HOST_MIGRATED_CHAT">
+      <Text>क्या अब मेज़बान है? (Kya ab mezbaan hai?)</Text>
+    </Row>
+    <Row Tag="LOC_MP_PLAYER_KICKED_CHAT">
+      <Text>उठाया गया था। (Uthaya gaya tha.)</Text>
+    </Row>
+    <!-- Multiplayer Chat -->
+    <Row Tag="LOC_MULTIPLAYER_CHAT">
+      <Text>CHAT</Text>
+    </Row>
+    <Row Tag="LOC_MULTIPLAYER_TO_ALL">
+      <Text>सभी को:</Text>
+    </Row>
+    <!-- Multiplayer Mod Downloads -->
+    <Row Tag="LOC_BYTES">
+      <Text>b</Text>
+    </Row>
+    <Row Tag="LOC_KILOBYTES">
+      <Text>Kb</Text>
+    </Row>
+    <Row Tag="LOC_MEGABYTES">
+      <Text>Sorry, I need the text to translate it into Hindi</Text>
+    </Row>
+    <!-- Setup -->
+    <Row Tag="LOC_SETUP_CREATE_GAME">
+      <Text>गेम बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_CHOOSE_RULESET">
+      <Text>नियमसेट चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_CHOOSE_SCENARIO">
+      <Text>कृपया स्केनेरियो चुनें। (Kripya skenerio chunein.)</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_SCENARIOS">
+      <Text>प्रतिकृयाएँ</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_SCENARIO">
+      <Text>किसी विशेष परिस्थिति या अवसर का वर्णन।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_CIVILIZATION">
+      <Text>सभ्यता चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_DIFFICULTY">
+      <Text>खेल की मुश्किलता चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_SPEED">
+      <Text>खेल की गति चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_TYPE">
+      <Text>मानचित्र प्रकार चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_SIZE">
+      <Text>मानचित्र का आकार चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MODE_SELECT">
+      <Text>खेल के मोड़</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_NO_GAME_MODES">
+      <Text>कोई खेल मोड उपलब्ध नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_DELETE_AI">
+      <Text>Delete</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADVANCED_OPTIONS">
+      <Text>उन्नत सेटअप</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_VICTORY_CONDITIONS">
+      <Text>विजय शर्तें</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_GAME_MODES">
+      <Text>खेल मोड़े</Text>
+    </Row>
+    <Row Tag="LOC_ADVANCED_OPTIONS">
+      <Text>उन्नत विकल्पों</Text>
+    </Row>
+    <Row Tag="LOC_EDIT_BUTTON">
+      <Text>Edit</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_PLAYER">
+      <Text>खिलाड़ी जोड़ें। (Khiladi jodein.)</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_PLAYER_TT">
+      <Text>खेल में एक खिलाड़ी जोड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_AI_PLAYER">
+      <Text>एआई प्लेयर जोड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ADD_AI_PLAYER_TT">
+      <Text>खेल में एक AI खिलाड़ी जोड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_RESTORE_DEFAULT">
+      <Text>डिफ़ॉल्ट फिर से लागू करें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_RESTORE_DEFAULT_TT">
+      <Text>सभी पैरामीटर को उनकी डिफ़ॉल्ट मानों पर बहाल करें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_MAP_SELECT">
+      <Text>मानचित्र चुनें</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_CREATE_GAME_SELECT_MAP">
+      <Text>मानचित्र चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_SELECT_MAP">
+      <Text>नक्शा चुनें</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_OFFICIAL_MAPS">
+      <Text>आधिकारिक नक्शे</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_FIRAXIS_MAPS">
+      <Text>फाइरेक्सिस मानचित्रों</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_FIRAXIS_MAPS_TOOLTIP">
+      <Text>केवल फिरैक्सिस द्वारा बनाई गई आधिकारिक नक्शे दिखाएं।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_WORLD_BUILDER_MAPS">
+      <Text>विश्व निर्माता मानचित्रों</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_WORLD_BUILDER_MAPS_TOOLTIP">
+      <Text>केवल वर्ल्ड बिल्डर मानचित्र दिखाएं।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_ALL_MAPS">
+      <Text>सभी नक्शे</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_ALL_MAPS_TOOLTIP">
+      <Text>सभी नक्शे दिखाओ।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_MAP_INFO">
+      <Text>मानचित्र सूचना।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_MAP_SELECTED_MAP">
+      <Text>चयनित नक्शा (Chayanit Naksha)</Text>
+    </Row>
+    <Row Tag="LOC_START_GAME">
+      <Text>खेल शुरू करें</Text>
+    </Row>
+    <Row Tag="LOC_START_WORLD_BUILDER">
+      <Text>विश्व निर्माता शुरू करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_START_NEW">
+      <Text>नया नक्शा (Naya naksha)</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_LOAD">
+      <Text>मानचित्र लोड करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_IMPORT">
+      <Text>संपादक से मानचित्र को आयात करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_START_NEW_TOOLTIP">
+      <Text>एक नया खाली या उत्पन्न विश्व निर्माता मानचित्र बनाकर संपादित करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_LOAD_TOOLTIP">
+      <Text>पहले से सहेजी गई वर्ल्ड बिल्डर मैप लोड करता है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_IMPORT_TOOLTIP">
+      <Text>एक सही संरचित .TMX मानचित्र फ़ाइल को वर्ल्ड बिल्डर मानचित्र में रूपांतरित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_LEADER">
+      <Text>यादृच्छिक नेता</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_CIVILIZATION">
+      <Text>यादृच्छिक सभ्यता।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_NO_DUPLICATE_LEADERS">
+      <Text>कोई दोहरे नेता नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_NO_DUPLICATE_CIVILIZATIONS">
+      <Text>कोई दोहरी सभ्यताएं नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_HUMANS_REQUIRED">
+      <Text>अतिरिक्त खिलाड़ियों की प्रतीक्षा कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_HUMANS_REQUIRED_TT">
+      <Text>खेल शुरू नहीं किया जा सकता। खेल शुरू होने से पहले सभी खिलाड़ी स्लॉट भरे जाने चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_READY_BLOCKED_READY_COUNTDOWN_TT">
+      <Text>खेल शुरू नहीं कर सकते। तैयार काउंटडाउन या पूर्ण, तैयार गेम का इंतजार कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_READY_COUNTDOWN_TT">
+      <Text>इस अंतिम गिनती के अंत में आप तैयार हो जाएंगे। तैयार होने के लिए अभी क्लिक करें।</Text>
+    </Row>
+    <Row Tag="LOC_WAITING_FOR_PLAYERS_COUNTDOWN_TT">
+      <Text>अतिरिक्त खिलाड़ियों की प्रतीक्षा कर रहे हैं। गेम काउंटडाउन के अंत तक या जब खेल पूर्ण तैयार खिलाड़ियों से भर जाएगा तब शुरू होगा।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_INVALID_OPTION">
+      <Text>कृपया वैध विकल्प चुनें। (Please select a valid option.)</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_ERROR_LEADER_NOT_OWNED">
+      <Text>नहीं स्वामित्व में है।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PARAMETER_ERROR">
+      <Text>एक या अधिक विकल्प अमान्य हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PLAYER_PARAMETER_ERROR">
+      <Text>एक या अधिक खिलाड़ी विकल्प अमान्य हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PLAYER_PARAMETER_ERROR_POPUP">
+      <Text>यह आमतौर पर इससे होता है कि जब गेम विकल्पों को डुप्लिकेट न करने की अनुमति नहीं होती है, तब डुप्लिकेट लीडर या सभ्यताओं का चयन करने से होता है।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_PLAYER_COLOR_COLLISION">
+      <Text>इस सभ्यता के रंग दूसरी सभ्यता के रंगों से टकराते हो सकते हैं। अगर आप चाहें तो ड्रॉप-डाउन सूची से एक विकल्प रंग योजना चुन सकते हैं।</Text>
+    </Row>
+    <!-- Configuration Parameters.  Move these to a better location -->
+    <Row Tag="LOC_RULESET">
+      <Text>नियम सेट</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NAME">
+      <Text>खेल का नाम</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NAME_DESC">
+      <Text>बहु-खिलाड़ी सर्वर सूची में इस खेल के लिए प्रदर्शित नाम।</Text>
+    </Row>
+    <Row Tag="LOC_PRIVATE_GAME">
+      <Text>खास खेल (Khaas khel)</Text>
+    </Row>
+    <Row Tag="LOC_PRIVATE_GAME_DESC">
+      <Text>निजी खेल मल्टीप्लेयर लॉबी में नहीं दिखाए जाते। एक निजी खेल केवल एक खेल आमंत्रण या स्टीम फ्रेंड्स सूची के माध्यम से उपलब्ध होता है। यह सेटिंग स्थानीय नेटवर्क खेलों के लिए लागू नहीं होती।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_VICTORY_TIME">
+      <Text>समय</Text>
+    </Row>
+    <Row Tag="LOC_GAME_VICTORY_SCIENCE">
+      <Text>विज्ञान</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NO_GOODY_HUTS">
+      <Text>कोई आदिवासी गांव नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_NO_BARBARIANS">
+      <Text>कोई बर्बर नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ALLIES_SHARE_VISIBILITY">
+      <Text>टीम्स दृश्यता साझा करती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ALLIES_SHARE_VISIBILITY_DESCRIPTION">
+      <Text>एक ही टीम के खिलाड़ी मानचित्र की दृष्टिगति को साझा करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURNTIMER_TYPE">
+      <Text>टर्न टाइमर</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURN_TIMER_TIME">
+      <Text>समय बदलें</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURN_TIMER_TIME_TOOLTIP">
+      <Text>मानक टर्न टाइमर मोड द्वारा उपयोग किए जाने वाले समय को बदलें (सेकंड में)।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURNPHASE_TYPE">
+      <Text>मोड बदलें</Text>
+    </Row>
+    <Row Tag="LOC_GAME_TURNPHASE_DESC">
+      <Text>कई खिलाड़ियों द्वारा नियंत्रित मल्टीप्लेयर में उपयोग किए जाने वाले टर्न मोड।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_SYNC_RANDOM_SEED">
+      <Text>गेम रैंडम सीड।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_SYNC_RANDOM_SEED_TOOLTIP">
+      <Text>गेम नियमों के लिए यादृच्छिक बीज।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RANDOM_SEED">
+      <Text>मानचित्र रैंडम सीड</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RANDOM_SEED_TOOLTIP">
+      <Text>नक़ली बीज मानचित्र उत्पादन के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_NAME">
+      <Text>विश्व की आयु</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_NEW_NAME">
+      <Text>नया (Naya)</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_STANDARD_NAME">
+      <Text>कृपया अगला पाठ हिंदी में अनुवाद करें। केवल प्राकृतिक ध्वनियों वाले अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_OLD_NAME">
+      <Text>पुराना</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_RANDOM_NAME">
+      <Text>Random</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_NAME">
+      <Text>तापमान (Tāpmān)</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_HOT_NAME">
+      <Text>गर्म</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_STANDARD_NAME">
+      <Text>कृपया अगला पाठ हिंदी में अनुवादित करें। कृपया केवल प्राकृतिक अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_COLD_NAME">
+      <Text>ठंडा</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_RANDOM_NAME">
+      <Text>यादृच्छिक (Yadrichchik)</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_NAME">
+      <Text>वर्षा (Varsha)</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_ARID_NAME">
+      <Text>शुष्क (shushk)</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_STANDARD_NAME">
+      <Text>कृपया अगला पाठ अनुवादित करें। कृपया केवल प्राकृतिक ध्वनि अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_WET_NAME">
+      <Text>गीला</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_RANDOM_NAME">
+      <Text>कुछ भी</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_NAME">
+      <Text>समुद्र तल</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_LOW_NAME">
+      <Text>निम्न</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_STANDARD_NAME">
+      <Text>कृपया अगला पाठ हिंदी में अनुवाद करें। कृपया प्राकृतिक ध्वनित अनुवाद के साथ जवाब दें।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_HIGH_NAME">
+      <Text>उच्च</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_RANDOM_NAME">
+      <Text>Random</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_NAME">
+      <Text>संसाधनों</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_SPARSE_NAME">
+      <Text>अल्पतम/कमजोर/बिखरा हुआ</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_STANDARD_NAME">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवाद करें। कृपया स्वाभाविक अनुवाद के साथ उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_ABUNDANT_NAME">
+      <Text>प्रचुर</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_RANDOM_NAME">
+      <Text>कुछ भी</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_NAME">
+      <Text>शुरुआती स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_BALANCED_NAME">
+      <Text>संतुलित (Santulit)</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_STANDARD_NAME">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवाद करें। कृपया प्राकृतिक ध्वनि वाले अनुवाद के साथ उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_LEGENDARY_NAME">
+      <Text>पौराणिक (Pauranik)</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PREDEFINED_START_LOCATIONS_NAME">
+      <Text>पूर्वनिर्धारित प्रारंभ स्थानों</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_MIRRORED_NAME">
+      <Text>दर्पणीय (Darpneeya)</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PREDEFINED_START_LOCATIONS_DESCRIPTION">
+      <Text>मानचित्र में पूर्वनिर्धारित शुरुआती स्थानों का उपयोग करें।</Text>
+    </Row>
+    <!--Game Speed Descriptions -->
+    <Row Tag="LOC_GAMESPEED_MARATHON_HELP">
+      <Text>बहुत लंबा खेल (200% धीमा)।</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_EPIC_HELP">
+      <Text>लंबे समय तक चलने वाला खेल (50% धीमा)।</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_STANDARD_HELP">
+      <Text>सामान्य गति का खेल।</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_QUICK_HELP">
+      <Text>त्वरित खेल (33% तेजी से)।</Text>
+    </Row>
+    <Row Tag="LOC_GAMESPEED_ONLINE_HELP">
+      <Text>ऑनलाइन मल्टीप्लेयर के लिए इस्तेमाल होने वाला दोहरी गति वाला गेम।</Text>
+    </Row>
+    <!-- Map Type Descriptions -->
+    <Row Tag="LOC_MAP_ARCHIPELAGO_DESCRIPTION">
+      <Text>कुछ छोटे द्वीप समुद्र में हैं जिनके साथ कुछ बड़े द्वीप हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_CONTINENTS_DESCRIPTION">
+      <Text>कुछ बड़ी स्थलीय मस्से।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_FRACTAL_DESCRIPTION">
+      <Text>एक अप्रत्याशित मानचित्र जो एक या कई भूमि के परिणाम में उत्पन्न हो सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_INLANDSEA_DESCRIPTION">
+      <Text>नक्शे के केंद्र में एक बड़ा समुद्र।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEVEN_SEAS_DESCRIPTION">
+      <Text>भूमि द्वारा घिरे कुछ बड़े जल स्त्रोत। इन जल स्रोतों में द्वीप संगत होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SMALL_CONTINENTS_DESCRIPTION">
+      <Text>दुनिया कुछ मध्यम भूमि और कुछ छोटे द्वीपों से मिलेगी।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_ISLAND_PLATES_DESCRIPTION">
+      <Text>छोटे से बड़े आकार के द्वीप समेत।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_LAKES_DESCRIPTION">
+      <Text>समुद्रों के बिना एक दुनिया, केवल झील और समुद्री क्षेत्र हों।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_MIRROR_DESCRIPTION">
+      <Text>प्रतिस्पर्धी बहु-खिलाड़ी मैच के लिए आदर्श होने वाले यादृच्छिक तैयार किए गए चार खिलाड़ी मानचित्र।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_PANGAEA_DESCRIPTION">
+      <Text>एक विशाल भूमि का टुकड़ा जिसके चारों ओर द्वीप हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SHUFFLE_DESCRIPTION">
+      <Text>इस मानचित्र से कौनसे रहस्य सामने आएंगे?</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TERRA_DESCRIPTION">
+      <Text>सभी प्रमुख सभ्यताओं की शुरुआत सबसे बड़े महाद्वीप पर करने वाले एक महाद्वीप का मानचित्र।</Text>
+    </Row>
+    <!-- Map Size Descriptions -->
+    <Row Tag="LOC_MAPSIZE_DUEL_DESCRIPTION">
+      <Text>2 खिलाड़ियों के लिए बहुत छोटा नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_TINY_DESCRIPTION">
+      <Text>4 खिलाड़ियों के लिए थोड़ा सा छोटा नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_SMALL_DESCRIPTION">
+      <Text>6 खिलाड़ियों के लिए छोटा नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_STANDARD_DESCRIPTION">
+      <Text>8 खिलाड़ियों के लिए औसत आकार का मानचित्र।</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_LARGE_DESCRIPTION">
+      <Text>10 खिलाड़ियों के लिए बड़ा नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAPSIZE_HUGE_DESCRIPTION">
+      <Text>12 खिलाड़ियों के लिए विशाल मानचित्र।</Text>
+    </Row>
+    <!-- City-State Exclusion -->
+    <Row Tag="LOC_EXCLUDE_CITY_STATES_NAME">
+      <Text>शहर-राज्य चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_EXCLUDE_CITY_STATES_DESC">
+      <Text>खेल में कौन से सिटी-स्टेट्स शामिल हो सकते हैं, उन्हें चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_SORT_BY">
+      <Text>क्रमबद्ध करें:</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_SORT_NAME">
+      <Text>नाम</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_SORT_TYPE">
+      <Text>Type</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PICKER_COUNT_WARNING">
+      <Text>[COLOR_RED]आगे बढ़ने के लिए कम से कम {1_Min} सिटी-स्टेट चुने जाने आवश्यक हैं। अब और {2_Remaining} चुनें।[ENDCOLOR]</Text>
+    </Row>
+    <!-- Natural Wonder Exclusion -->
+    <Row Tag="LOC_EXCLUDE_NATURAL_WONDER_NAME">
+      <Text>प्राकृतिक विस्मयों का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_EXCLUDE_NATURAL_WONDER_DESC">
+      <Text>मानव सृष्टि के प्राकृतिक चमत्कार का चयन करें जो मैप पर दिखाई दे सकते हैं।</Text>
+    </Row>
+    <!-- Turn Timer Settings -->
+    <Row Tag="LOC_TURNTIMER_NONE">
+      <Text>कोई टर्न टाइमर नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_NONE_DESC">
+      <Text>खिलाड़ी समय की प्रतिबद्धता के बिना बारीबार खेलते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_DYNAMIC">
+      <Text>गतिशील टर्न टाइमर</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_DYNAMIC_DESC">
+      <Text>समय को खेल में शहरों और इकाइयों की संख्या के आधार पर गतिशील रूप से स्केल किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_STANDARD">
+      <Text>मानक टर्न टाइमर</Text>
+    </Row>
+    <Row Tag="LOC_TURNTIMER_STANDARD_DESC">
+      <Text>टर्न टाइम टर्न टाइम विकल्प (सेकंड में) पर आधारित होता है।</Text>
+    </Row>
+    <!-- Turn Mode Settings -->
+    <Row Tag="LOC_TURNPHASE_SIMULTANEOUS">
+      <Text>समवर्ती चालें</Text>
+    </Row>
+    <Row Tag="LOC_TURNPHASE_SIMULTANEOUS_DESC">
+      <Text>खिलाड़ी एक साथ अपनी बारी लेते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TURNPHASE_DYNAMIC">
+      <Text>गतिशील घुमावदार मोड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_TURNPHASE_DYNAMIC_DESC">
+      <Text>शांति स्थिति में खिलाड़ी एक साथ अपनी बारी हासिल करते हैं। युद्ध स्थिति में खिलाड़ी एक के बाद एक अपनी बारी हासिल करते हैं।</Text>
+    </Row>
+    <!-- Map Config Descriptions -->
+    <Row Tag="LOC_MAP_WORLD_AGE_DESCRIPTION">
+      <Text>नक्शे की ऊंचाई (पहाड़ और पर्वत) को बदलता है।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_NEW_DESCRIPTION">
+      <Text>एक नक्शा जिसमें और अधिक पहाड़, पर्वत और ज्वालामुखी हों।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_STANDARD_DESCRIPTION">
+      <Text>एक मानक पहाड़ों, पर्वतों और ज्वालामुखियों वाला नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_OLD_DESCRIPTION">
+      <Text>कम पहाड़ों, पर्वतों और ज्वालामुखियों वाला नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLD_AGE_RANDOM_DESCRIPTION">
+      <Text>एक नकली पहाड़ों, पर्वतों और ज्वालामुखियों वाला नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_DESCRIPTION">
+      <Text>मानचित्र के भूभाग को समायोजित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_HOT_DESCRIPTION">
+      <Text>एक मानचित्र जिसमें अधिक रेगिस्तान हो और कम टंडरा और बर्फ हो।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_STANDARD_DESCRIPTION">
+      <Text>औसत मैप जो पृथ्वी के भूमि पैटर्न के समान हो।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_COLD_DESCRIPTION">
+      <Text>एक नक्शा जिसमें ज्यादा टंडरा और बर्फ़ और कम रेगिस्तान हो।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_TEMPERATURE_RANDOM_DESCRIPTION">
+      <Text>एक मानचित्र जिसमें यादृच्छिक भूमि तापमान क्षेत्र हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_DESCRIPTION">
+      <Text>नक्शे पर मौजूद सुविधाओं की मात्रा बदलती है।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_ARID_DESCRIPTION">
+      <Text>कम जंगल, वर्षा वन और दलदल वाला नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_STANDARD_DESCRIPTION">
+      <Text>औसत वन, वर्षावन और दलदल की मात्रा वाला नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_WET_DESCRIPTION">
+      <Text>एक नक्शा जिसमें जंगल, वर्षा वन और दलदल ज्यादा हो।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RAINFALL_RANDOM_DESCRIPTION">
+      <Text>एक मानचित्र जिसमें अनियमित मात्रा में विशेषताएं हों।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_DESCRIPTION">
+      <Text>नक्शे पर पानी की मात्रा भिन्न होती है।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION">
+      <Text>कम पानी वाला नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_STANDARD_DESCRIPTION">
+      <Text>सामान्य मात्रा में पानी वाला नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_HIGH_DESCRIPTION">
+      <Text>अधिक जल से भरा हुआ नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SEA_LEVEL_RANDOM_DESCRIPTION">
+      <Text>एक यादृच्छिक मात्रा वाला जल के साथ नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_DESCRIPTION">
+      <Text>संसाधनों की मात्रा बदलें।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_SPARSE_DESCRIPTION">
+      <Text>कम संसाधनों के साथ एक नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_STANDARD_DESCRIPTION">
+      <Text>मानक संसाधनों वाला नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_ABUNDANT_DESCRIPTION">
+      <Text>अधिक संसाधनों वाला नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_RESOURCES_RANDOM_DESCRIPTION">
+      <Text>एक निर्दिष्ट संख्या के साथ एक नक़्शा जिसमें संसाधन हों।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_DESCRIPTION">
+      <Text>आपकी शुरुआती स्थिति का मूल्य बदलता है।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_BALANCED_DESCRIPTION">
+      <Text>सभी खिलाड़ियों के लिए शुरुआती स्थान समान रूप से अच्छे होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_STANDARD_DESCRIPTION">
+      <Text>मानक शुरुआती स्थितियाँ।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_LEGENDARY_DESCRIPTION">
+      <Text>सभी खिलाड़ियों की शुरुआत बढ़िया होती है, लेकिन आवश्यक नहीं है कि सभी की शुरुआत बराबर हो।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_START_POSITION_MIRRORED_DESCRIPTION">
+      <Text>सभी खिलाड़ी अपने मानचित्र चतुर्थांश में ठीक उसी स्थिति से शुरू करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERA">
+      <Text>आरंभ काल</Text>
+    </Row>
+    <Row Tag="LOC_KICK_VOTE">
+      <Text>किक वोटिंग (kik votig)</Text>
+    </Row>
+    <Row Tag="LOC_KICK_VOTE_TT">
+      <Text>किक वोटिंग के लिए एक बहुमत वोट की आवश्यकता होती है जिसके बाद खिलाड़ी गेम से सफलतापूर्वक किक किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_SCRIPT">
+      <Text>नक्शा</Text>
+    </Row>
+    <!-- Tutorial Select Screen-->
+    <Row Tag="LOC_SETUP_TUTORIAL_TITLE">
+      <Text>सभ्यता में आपका स्वागत है।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_TUTORIAL_DESCRIPTION">
+      <Text>यहाँ हम अपनी यात्रा शुरू करते हैं, जहां हम अपनी छोटी शुरुआत से महानता की ओर एक साम्राज्य का उत्थान करते हुए अपनी खुद की इतिहास की एक अपनी संस्करण लिखते हैं। [NEWLINE] [NEWLINE] क्या आप महान युद्धों में जगहों को जीतेंगे या अपने लोगों को सितारों की और भेजने में सबसे पहले होंगे? क्या आप अपने लोगों की संस्कृति से दुनिया को प्रभावित करेंगे, या आपके विश्वास धरती के किनारों तक फैलेंगे? [NEWLINE] [NEWLINE] समय ही बताएगा... [NEWLINE] [NEWLINE] सभी महान सभ्यताएं एक महान नेता के साथ शुरू होती हैं। नीचे दिए गए ट्यूटोरियल के माध्यम से जिस सभ्यता को आप खेलना चाहते हैं, उसे चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_TUTORIAL_LEADER_1">
+      <Text>मिस्र साम्राज्य की क्लियोपेट्रा मजबूत मित्रों और महान शहर निर्माताओं की एक सभ्यता का शासन करती है।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_TUTORIAL_LEADER_2">
+      <Text>सुमेरियाई साम्राज्य के गिलगमेश विशाल भूमि का शासन करते हुए एक सम्मानित विजेता है।</Text>
+    </Row>
+    <!-- Loading Screen / Dawn of man -->
+    <Row Tag="LOC_LOADING_DOMAIN_LAND">
+      <Text>एक अद्वितीय भूमि इकाई</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_DOMAIN_SEA">
+      <Text>एक अद्वितीय नौसेना इकाई।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_DOMAIN_AIR">
+      <Text>एक अद्वितीय हवाई यूनिट।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_PLEASE_WAIT">
+      <Text>लोड हो रहा है, कृपया प्रतीक्षा करें...</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_DISTRICT_BUILDING">
+      <Text>{1_DistrictName} जिला भवन</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_UNIQUE_BUILDING">
+      <Text>एक अनूठी इमारत</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_UNIQUE_DISTRICT">
+      <Text>एक अद्वितीय जिला</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_UNIQUE_IMPROVEMENT">
+      <Text>एक अनूठा सुधार</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_JOIN_THE_WORLD_STAGE">
+      <Text>दुनिया के मंच में शामिल होता है।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_FEATURES_ABILITIES">
+      <Text>विशेषताएँ और क्षमताएँ</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_START_GAME">
+      <Text>खेल शुरू करें</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_CONTINUE_GAME">
+      <Text>खेल जारी रखें</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_DEFAULT">
+      <Text>आप पर है कि आप अपने लोगों को गौरव तक ले जाने के लिए एक सभ्यता का निर्माण करके समय के टेस्ट से खड़ा होने वाला बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_BARBAROSSA">
+      <Text>महान फ्रेडरिक, जर्मनी के राजा, आपका काम आपस में घिरे स्वतंत्र राज्यों को एक साम्राज्य में बदलना है। आप महान सैन्य नेता होने के लिए धन्य हैं - इन शहरों को अपने अधीन करने के लिए इन कौशलों का उपयोग करें ताकि वे वाणिज्यिक और औद्योगिक शक्ति के केंद्र बन सकें। निश्चय ही फिर गायक शक्तिशाली लाल दाढ़ी वाले महान पारंपरिक रोमी सम्राट महान फ्रेडरिक का गीत गाएंगे।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_CATHERINE_DE_MEDICI">
+      <Text>आप पर गिरता है, कैथरीन डे मेडिसी, अपनी ज्ञान और कला के उपहार का उपयोग करके अपने लोगों को एक करने के लिए। फ्रांस की रानी माता के रूप में इन अस्त-व्यस्त समयों में सावधानी से स्टीयर करें। आप महान आश्चर्य बनाएंगे, जो सभी पृथ्वी के कोनों से आगंतुकों को आकर्षित करेगा। आपके सभी चीजों के जागरूकता के साथ, उन चीजों के साथ जो छायांकित में दिखाई नहीं देते हैं, आपका साम्राज्य निश्चित रूप से समय के परीक्षण का परीक्षण करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_CLEOPATRA">
+      <Text>वे लोग होंगे जो आपका कम महत्व समझेंगे, लेकिन आप तेजस्वी और चालाक हैं, रानी क्लियोपेट्रा। आपका आकर्षण दुनिया के सबसे शक्तिशाली नेताओं के साथ अविनाशी गठबंधन स्थापित करेगा। अपने दोस्तों को अपने पास रखें और आप अस्पष्ट हो जाएंगे, जबकि मिस्र की जय स्वयंसिद्ध होगी, जो दुनिया को जीतने के लिए प्रचुर है।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_GANDHI">
+      <Text>दयालु रहिए, गांधी बापू, और आप असली दोस्तों से घेरे हुए पाएंगे। महान हाथी सेनाओं से भारतीय लोगों को सुरक्षित रखें। आपकी आस्था आपको शांति और सद्भाव की ओर ले जाएगी। अपने दिमाग को खुला रखें, और दुनिया में देखना चाहते हुए परिवर्तन आप खुद हो जाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_GILGAMESH">
+      <Text>राजा गिलगमेश, बहुत सारी जिम्मेदारियाँ आपकी कंधों पर हैं। आपकी खुद की जनता और दुनिया की कई जनताएँ आपको नेता के रूप में देखती हैं। लेकिन आप एक साधारण इंसान से भी अधिक हैं और दुनिया का भार कभी आपको कमजोर नहीं कर सकता। सुमेर की जनता को नदियों के किनारे समृद्ध मैदानों में बसने के लिए प्रोत्साहित करें, और अपने साथियों को सावधानीपूर्वक चुनें - क्योंकि आपकी ताकत का एक टुकड़ा पाने के लिए कई लोग प्रतिस्पर्धा करेंगे। अग्रसर हों, यह आपकी महाकाव्य की शुरुआत का समय है।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_GORGO">
+      <Text>गोर्गो, स्पार्टा की रानी; आपको और आपकी वफादार होप्लाइट सेनाओं को महानता की बधाई! ग्रीस अरेस के आशीर्वाद से लड़ाई के प्रत्येक जीत से आनंद लेता है। और आपके लोग आपकी सोची समझी शासन और सांस्कृतिक अद्भुतों की सराहना करते हैं। सम्मान भरे खड़े हों, क्योंकि यूनान की विरासत और आपकी उपलब्धियों की कहानी नए नए पीढ़ियों के लिए बार-बार सुनाई जाएगी।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_HARDRADA">
+      <Text>तुम्हारी जहाजों के नजदीक आने से सभी पुरुष डरते हैं, नॉर्वे के राजा हैराल्ड, उत्तर के बिजली की तरह। तुम्हारी लम्बी कश्तियाँ तरंगों पर राज करती हैं, हमेशा तैयार रहती हैं कि अन्जान तट पर उनकी बर्सर्कर सेनाओं को छोड़ दें। ओडिन तुम्हारे राज्य को आशीर्वाद दे और स्काल्ड्स तुम्हारे शक्तिशाली सैनिकों की विजयों की कहानियां गाएं।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_HOJO">
+      <Text>शिक्केन ऑफ जापान, होजो टोकिमुने, बौद्ध धर्म का एक महान लहर आपके पीछे है। आपके लोग संतुलन का अभ्यास करने के लिए क्या है, यह सच है, और आपके सबसे अच्छे समुराई भी अच्छी तरह से शिक्षित और आध्यात्मिक रूप से योग्य होंगे। मजबूत रहें, दिव्य हवा को अपनाएं, और आप प्रबोध हो जाएंगे।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_MVEMBA">
+      <Text>माता पृथ्वी आपके लिए कई उपहार रखती हैं, राजा एमवेम्बा अ एन्जिंगा। आपके लोग घने जंगल और वर्षावनों को अपना घर मानते हैं और उनमें आसानी से फिरते हैं। दूरस्थ देशों के यात्रियों से भी बड़े-बड़े उपहार आते हैं। खुले दिमाग से रखें, क्योंकि खुले विश्व का प्रेरणा हमारे लोगों को शक्ति और महिमा से कला बनाने की स्पर्श देने वाली है।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PEDRO">
+      <Text>तुम्हारे लोग आपको विश्व मंच पर ब्राजील का नेतृत्व करने के लिए देखते हैं, समर्थकों, वैज्ञानिकों और इंजीनियरों के रूप में एक संरक्षक के रूप में आपकी प्रतिष्ठा का उपयोग करें ताकि हमारे उपजाऊ घर को सबसे बड़े दिमागों को आकर्षित कर सकें। क्योंकि इसमें घने जंगल हैं, जिनमें जीवन से भरपूर हैं, वहाँ आपके लोग फलन-फूलन करते हैं। आपके महान उपलब्धियों के उत्सव में, पेड्रो दी मैग्नेमेस के रूप में सम्मानित होते हुए संघर्ष के समय में उन्हें संवारते हुए सांबा नृत्य करते हुए उन्हें देखें।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PERICLES">
+      <Text>बोली गई शब्दों का आपका अधिकार महान मूल्य की खोज है, चांदी की जीभ वाले पेरीकलीज, यूनानी लोगों के नेता। इसके माध्यम से आप एक राज्य समूह की भक्ति आकर्षित कर सकते हैं, जिससे आप उनकी महिमा से घिर जाते हैं। ग्रीस के बाटों के उपार्यों पर सांस्कृतिक स्थल स्थापित करें, जिससे आप अपने मजबूत शासन के पीछे अपने लोगों को एकजुट कर सकते हैं। यदि सब कुछ अच्छी तरह से होता है तो सायरेंज़ पेरीकलीज की युग की गाथा गाएंगे!</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PETER_GREAT">
+      <Text>देश के ठंडे हवाओं को गले लगाएं, त्सार पीटर। विज्ञान और संस्कृति के प्रति आपका आकर्षण एक उपहार है, और विदेशी देशों की आपकी ग्रैंड एम्बेस्सीज से आप बहुत कुछ सीखेंगे। आपके शासन के तहत, रूस निश्चित रूप से फलने-फूलने और फैलने के लिए तैयार होगी, जो उसके आसपास सब कुछ समाप्त करेगी, शायद इस पृथ्वी पर देखा गया सबसे बड़ा भूमि साम्राज्य बनाते हुए।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_PHILIP_II">
+      <Text>आपकी प्रार्थनाओं का जवाब देने के लिए स्पेन सभी तैयार है, श्रद्धालु राजा फिलिप II। एल एस्कोरियल महल से आप अपने अनुयायियों को भेज सकते हैं: मिशनरी, अपॉस्टल और कंकिस्टाडोर जो आपके प्रति पवित्र साम्राज्य के बारे में अच्छी बात सुनाने के लिए समुद्रों को पार करने के लिए तैयार हैं। उन्होंने खोजे गए खजाने आपकी खोज को भरने के लिए होंगे, जो दुनिया को एक धर्म और एक साम्राज्य के तहत एकजुट करने के लिए दौड़ने में मदद करेंगे, जो आपको वास्तव में सबसे कैथोलिक राजा बनाएंगे।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_QIN">
+      <Text>तुम्हारे लोगों में तुम्हारी सबसे बड़ी ताकत है, सम्राट क्यूएन शी हुआंग। पूरी दुनिया से लोग आपकी एकीकृत चीन की शानदार दीवारों और उन्नति के लिए आएंगे। दुनिया के सबसे शानदार संरचनाओं को ऊंचा करने के लिए आपके लोग कड़ी मेहनत करते हुए इसे सबसे प्रभावशाली बनाने के लिए तेजी से काम करें। उन्हें अच्छी तरह से संरक्षित रखें, और आपको सदैव अमर बनाया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_SALADIN">
+      <Text>विज्ञान और धर्म के विवाह का एक नाजुक संतुलन अभिनय है, लेकिन आपने यह महारत हासिल की है, सलादिन। आपका ज्ञान का खोज उदात्त है, और आपके लोगों के पास आपके लिए एक गहरा सम्मान है। लेकिन आपको अज्ञात में जल्दी जाने की जरूरत नहीं है। समय देने पर, जीवन के सबसे उलझनभरे सवालों के जवाब अरबिया के तरफ वापस आ जाएंगे।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_TOMYRIS">
+      <Text>सभी लोग आपके लिए भय और सम्मान से काँपेंगे, महान योद्धा रानी टोमिरिस। क्योंकि आपकी घुड़सवारी की पीठ से ही आप स्काइथियन लोगों को देखेंगी और नेतृत्व करेंगी। महान कथाओं में भी सुनाई देगी कि आदेरे स्तेप से निकलकर आगे बढ़ते हुए घोड़े योद्धा, हर युद्ध के सीधे सामने - आपको ही मिलेंगे। आगे बढ़िए, तीखी रानी, और आशा करें कि आपके दोस्त सच्चे होंगे जबकि आपके दुश्मन हिमायती रहेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_TRAJAN">
+      <Text>अपनी जाल फैलाएं, हे महान रोम के सम्राट त्राजन। आपकी फौज तैयार खड़ी है कि दुनिया का सबसे बड़ा साम्राज्य स्थापित करने के लिए निकले। अगर आप सचमुच सभी सड़कों को रोम की ओर ले जा सकें, तो आपका साम्राज्य बड़ी संपदा और विलासिता का साम्राज्य होगा। निश्चित रूप से फिर हमारे नागरिक आपको अपने सबसे बेहतर शासक, ऑप्टिमस प्रिन्सेप्स के रूप में पुकारेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_T_ROOSEVELT">
+      <Text>और इसलिए यह आपके विशाल कंधों पर है, थेडोर रूज़वेल्ट, कि आप आगे बढ़कर अपने लोगों का नेतृत्व करें और उनकी महान यात्रा में मदद करें। आप अपनी सैन्य ताकत का उपयोग करके अपनी देशवासियों को उन चौकोर सौदों से पूर्ण करें जो उन्हें बहुत देख रहे हैं। निश्चित रूप से आप अमेरिका को प्रख्यापन में ले जाएंगे और समुद्रों के दूसरे किनारों से दर्शकों को आकर्षित करेंगे ताकि वे आपकी भूमि देख सकें। मिस्टर राष्ट्रपति, आपके लिए उत्साहित हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_VICTORIA">
+      <Text>आपकी महारानी विक्टोरिया ऑफ इंग्लैंड, अपने सीमाओं से परे और दुनिया के चेहरे पर अपनी छाप छोड़ें। अपने वफादार लाल सैनिकों और अत्यधिक नौसेना की वजह से, आप हार के संभावना की चिंता न करें, जो निश्चित रूप से दिन ले जाएगी। आपकी शांत और स्थिर स्पर्श से आप सभी भूमियों को इंग्लैंड के अधीन कर सकते हैं, एक सच्ची पैक्स ब्रिटैनिका स्थापित करते हुए।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_ANCIENT_DESCRIPTION">
+      <Text>जीवन की पहली उत्पत्ति से शुरू होकर पानी के नीचे... पत्थर युग के महान जानवरों तक... और इंसान अपने पहले खड़े और सीधे कदम उठाते हुए, आप दूर तक आए हैं। अब आपकी सबसे बड़ी खोज शुरू होती है: इस प्रारंभिक सभ्यता के क्रेडल से सितारों की ओर।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_CLASSICAL_DESCRIPTION">
+      <Text>आपने विनम्र शुरुआत से बेहद उत्कृष्ट विकास दिखाया है। लौह से कांस तक अपना स्थान बदलें और घोड़े और तलवार के साथ शासन करें। ऊपर की आकाशगंगा अपने रहस्यों का राज खोलने लगती है, स्वर्ग का एक संग्रह जो हमारे हृदयों को उठाता है और हमें विदेशी तटों की ओर निर्देशित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_MEDIEVAL_DESCRIPTION">
+      <Text>आपने पत्थर के महान शहर बनाए हैं और पहली साम्राज्यों को उभरते हुए देखा है। जल्द ही आप अपने साहसी योद्धाओं के साथ किलों के ऊँचे शिखरों के नीचे खड़े होंगे। वहीं आपके लोगों की कहानी लिखी जाएगी। जैसे कि युवा अपरेंटिस तलवार उठाना सीखता है, वैसे ही आप भी इस दुनिया में अपनी जगह समझने के लिए बढ़ेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_RENAISSANCE_DESCRIPTION">
+      <Text>नयी शक्तियाँ बढ़ रही हैं, बंदूकों के नोज़ले से आसमान में उगने वाले आग के फूल तक। हाल ही में प्रिंट हुए पन्नों पर लिखे शांत शब्द भी महत्वपूर्ण परिवर्तन लेते हैं। दुनिया, जो पहले इतनी विस्तारवादी और रहस्यमय थी, अब छोटी और अधिक परिचित हो गई है। फिर भी, जवाब देने के लिए हमेशा सवाल होते हैं, धर्मों को परीक्षित किया जाना होता है और राष्ट्रीय पहचान बनानी होती है।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_INDUSTRIAL_DESCRIPTION">
+      <Text>मशीनों का स्थिर गुंजन, धूएं और कोयले की तीव्र गंध, जल, धुएं और कोयले से धुंधली हुई दृष्टि - ये समय के बदलते संकेत हैं। वैज्ञानिक और सांस्कृतिक उन्नति की आकर्षण शक्ति आपकी संसार की उन्नति का इंजन है। अब आपका चुनौती है पृथ्वी और मनुष्य के बीच संवेदनशील संतुलन, शांति और युद्ध के बीच रखना।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_MODERN_DESCRIPTION">
+      <Text>शुरू में, उड़ने वाले लोगों की कहानियां उड़ी थीं। और आज, आप उन कहानियों को वास्तविकता में बदलने के कगार पर हैं। उड़ान और नई संचार के साथ आप एक छोटी और घनिष्ठ दुनिया बना सकते हैं। लेकिन क्या कीमत है? हमारे शासन और जीने के तरीकों के विपरीत विचारों की टक्कर एक वैश्विक स्तर पर विवाद लाने की खतरा है। आपको इस विचारधारा के बढ़ते शोर में अपना अपना मार्ग चुनना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_ATOMIC_DESCRIPTION">
+      <Text>खोज की नई सीमाएं हमारी समझ को विस्तारित करती हैं, छोटे अणु से बाहरी अंतरिक्ष के महिमा तक। लंबे समय से बर्दाश्त किए गए रहस्य अब हमें उनके सबसे गहरे रहस्यों के परे तक ले जा सकते हैं, हमें आसानी से नहीं दिखाई देता है। आप इस ज्ञान का उपयोग कैसे करना चाहते हैं, और सबसे बड़े अंधेरे को वापस धकेल देंगे।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_INFORMATION_DESCRIPTION">
+      <Text>आपकी हाथ की छांट में जानकारी का एक संसार होता है, और तुरंत संचार के लिए नेटवर्क दुनिया भर में फैले हुए हैं। फिर भी हमारे भविष्य के एक संगठित दृष्टिकोण का निर्माण कभी नहीं हुआ है। हम प्रौद्योगिकी, संस्कृति और राजनीति में प्रतिस्पर्धा करते हैं। हमारे पास पृथ्वी को नष्ट कर सकने वाले घातक हथियार हैं। हमें सावधानीपूर्वक नेतृत्व करें, लेकिन साहसपूर्वक दृढ़ता से निर्माण करें और एक वैश्विक समुदाय का निर्माण करें जो आने वाले वर्षों तक टिक सके।</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_DISABLE">
+      <Text>एडवाइजर को अक्षम करें।</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_NEW_TO_STRATEGY">
+      <Text>टर्न-बेस्ड स्ट्रैटेजी में नया हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_NEW_TO_CIV">
+      <Text>सभ्यता में नया</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_NEW_TO_CIV_6">
+      <Text>सिविलाइजेशन VI में नया हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_CIVILIZATIONS_NAME">
+      <Text>कोई दोहरी सभ्यताएं नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_LEADERS_NAME">
+      <Text>कोई दोहरे नेता नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_NO_TEAMS_NAME">
+      <Text>कोई टीम नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_CIVILIZATIONS_DESCRIPTION">
+      <Text>इस विकल्प को सक्षम करने से दो या दो से अधिक खिलाड़ियों को एक ही सभ्यता का चयन करने से रोका जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_NO_DUPLICATE_LEADERS_DESCRIPTION">
+      <Text>इस विकल्प को सक्षम करने से दो या दो से अधिक खिलाड़ी एक ही नेता का चयन नहीं कर सकते।</Text>
+    </Row>
+    <Row Tag="LOC_NO_TEAMS_DESCRIPTION">
+      <Text>इस विकल्प को सक्षम करने से टीम प्ले अक्षम हो जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_LIMIT_TURNS_NAME">
+      <Text>सीमा बदलें। (Seema badle)</Text>
+    </Row>
+    <Row Tag="LOC_LIMIT_TURNS_DESCRIPTION">
+      <Text>टर्न की अधिकतम संख्या को सीमित करें।</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_NONE_NAME">
+      <Text>कोई टर्न सीमा नहीं</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_NONE_DESCRIPTION">
+      <Text>बारों की संख्या का कोई सीमा नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_GAMESPEED_NAME">
+      <Text>गेम स्पीड द्वारा</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_GAMESPEED_DESCRIPTION">
+      <Text>खेल 2050 ईस्वी तक समाप्त हो जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_CUSTOM_NAME">
+      <Text>अनुकूलित (Anukoolit)</Text>
+    </Row>
+    <Row Tag="LOC_TURNLIMIT_CUSTOM_DESCRIPTION">
+      <Text>खेल निर्दिष्ट चरणों की संख्या पर समाप्त हो जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_CITYSTATE_COUNT_NAME">
+      <Text>नगर-राज्यों</Text>
+    </Row>
+    <Row Tag="LOC_CITYSTATE_COUNT_DESCRIPTION">
+      <Text>खेल में शामिल करने के लिए शहर राज्यों की संख्या।</Text>
+    </Row>
+    <Row Tag="LOC_MAX_TURNS_NAME">
+      <Text>मैक्स टर्न्स:</Text>
+    </Row>
+    <Row Tag="LOC_MAX_TURNS_DESCRIPTION">
+      <Text>खेल निर्दिष्ट संख्या के टर्न बीतने के बाद समाप्त हो जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_RESUME_GAME_TT">
+      <Text>अपना अंतिम खेल फिर से शुरू करें।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_LOAD_GAME_TT">
+      <Text>पहले से सहेजा हुआ गेम लोड करें।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_PLAY_NOW_TT">
+      <Text>एक छोटे महाद्वीप मैप पर यादृच्छिक नेताओं के साथ खेलें।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_CREATE_GAME_TT">
+      <Text>अपनी अपनी सेटिंग्स के साथ एक नया गेम बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_SCENARIOS_TT">
+      <Text>एक परिदृश्य खेलें, एक विशिष्ट अनुभव जिसमें विशेष नियम, नेताओं और लक्ष्य हों।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_SINGLE_PLAYER_TT">
+      <Text>अभी खेलें, एक नया खेल बनाएँ या मौजूदा खेल जारी रखें।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MULTIPLAYER_TT">
+      <Text>इंटरनेट, नेटवर्क, और हॉट सीट मैच यहां सेटअप या जुड़ाया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_GAME_OPTIONS_TT">
+      <Text>ग्राफिक्स, ऑडियो, कुंजी बाइंडिंग और अधिक के लिए सेटिंग्स।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_MODS_TT">
+      <Text>सभ्यता VI को विस्तार देने के लिए फैन्स द्वारा अनुकूलित निर्माण।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_TUTORIAL_TT">
+      <Text>फ्रेंचाइजी के लिए पूरी तरह से नए हो या एक रिफ्रेशर की ज़रूरत हो? हम आपकी मदद के लिए यहाँ हैं!</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_BENCHMARK_TT">
+      <Text>आपके हार्डवेयर कैसे हैं? (Aapke hardware kaise hain?)</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_WORLDBUILDER_TT">
+      <Text>द वर्ल्ड बिल्डर मैप एडिटर।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_CREDITS_TT">
+      <Text>सभी लोग जिन्होंने सिविलाइजेशन वीआई में योगदान दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_MAINMENU_EXIT_GAME_TT">
+      <Text>खेल पूरी तरह से बंद करें।</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_HALL_OF_FAME">
+      <Text>हॉल ऑफ फेम।</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_HALL_OF_FAME_TT">
+      <Text>क्या आपका गेमप्ले समय के परीक्षण को सहन करता है?</Text>
+    </Row>
+    <!-- Copyright screen -->
+    <Row Tag="LOC_COPYRIGHT_TEXT">
+      <Text>© 1991 - 2023 टेक-टू इंटरैक्टिव सॉफ्टवेयर, इंक। फायरैक्स गेम्स द्वारा विकसित। 2K, फायरैक्स गेम्स, सिड मीयर्स सिविलाइजेशन VI, सिड मीयर्स सिविलाइजेशन, सिविलाइजेशन, सिव, और उनके संबंधित लोगो टेक-टू इंटरैक्टिव सॉफ्टवेयर, इंक। के ट्रेडमार्क हैं। बिंक वीडियो का उपयोग किया जाता है। कॉपीराइट © 1997 - 2020 रैड गेम टूल्स, इंक। ग्रैनी एनिमेशन का उपयोग किया जाता है। कॉपीराइट © 1999 - 2020 रैड गेम टूल्स, इंक। WWise © 2006- 2020 ऑडियोकिनेटिक इंक। बख़ौबी कॉपीराइट © 2020 फोर्क पार्टिकल, इंक। सिड मीयर्स सिविलाइजेशन VI हवोक® का उपयोग करता है। © 1999 - 2020 हवोक.कॉम, इंक। (और इसके लाइसेंसदारों)। सभी अधिकार सुरक्षित। विवरण के लिए www.havok.com देखें। माइक्रोसॉफ्ट, डायरेक्टएक्स, विजुअल स्टूडियो, और विंडोज यूनाइटेड स्टेट्स और / या अन्य देशों में माइक्रोसॉफ्ट कॉर्पोरेशन के पंजीकृत ट्रेडमार्क या ट्रेडमार्क हैं। लुआ कॉपीराइट © 1994 - 2020 लुआ.ओर्ग, पी.यू.सी-रियो। सभी अन्य चिह्न और ट्रेडमार्क उनके संबंधित मालिकों की संपत्ति हैं। सभी अधिकार सुरक्षित। इस वीडियोगेम की सामग्री काल्पनिक है और खेल के ऐतिहासिक सेटिंग में घटित घटनाओं, व्यक्तियों या संस्थाओं का वास्तविक रूप से निरूपण या चित्रण करने का उद्देश्य नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_COPYRIGHT_ACCEPT">
+      <Text>Continue</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DEFAULT_NAME">
+      <Text>जीत (Jeet)</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_HEADER">
+      <Text>जीत!</Text>
+    </Row>
+    <Row Tag="LOC_DEFEATED_SUBHEADER">
+      <Text>हार गया।</Text>
+    </Row>
+    <Row Tag="LOC_ELIMINATED_SUBHEADER">
+      <Text>हटाया गया</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCORE_SUBHEADER">
+      <Text>विजय स्कोर</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCIENCE_SUBHEADER">
+      <Text>विज्ञान विजय</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_CULTURE_SUBHEADER">
+      <Text>संस्कृति जीत</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DOMINATION_SUBHEADER">
+      <Text>विजय में जीत दर्ज करें।</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_RELIGIOUS_SUBHEADER">
+      <Text>धार्मिक जीत</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCENARIO_SUBHEADER">
+      <Text>जीत: {1_ScenarioName}</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCENARIO_VICTORY_TYPE_SUBHEADER">
+      <Text>{1_ScenarioVictoryType}</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_GAME_WINNER_SUBHEADER">
+      <Text>गेम विनर</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCORE_NAME">
+      <Text>जीत हासिल करें। (Jeet haasil karen.)</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCIENCE_NAME">
+      <Text>विज्ञान विजय</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_CULTURE_NAME">
+      <Text>संस्कृति जीत</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DOMINATION_NAME">
+      <Text>विजय जीत।</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_RELIGIOUS_NAME">
+      <Text>धार्मिक विजय (Dhaarmik Vijay)</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCORE_TT">
+      <Text>जब आप एक महान विजय हासिल नहीं कर सके, तो आप जो कुछ भी पा सकते हैं, उसे ग्रहण करते हैं। यह विजय समय समाप्त होने पर ट्रिगर होती है, और कोई अन्य विजेता नहीं होता है।</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_SCIENCE_TT">
+      <Text>विज्ञान जीत के लिए मंगल ग्रह का पहला आबादी करने वाले पहले हों। यह जीत सीधा है, लेकिन समय समाप्त होने से पहले इसे हासिल करना कठिन हो सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_CULTURE_TT">
+      <Text>आपकी सांस्कृतिक महानता आपके साम्राज्य के लिए सभी दुनिया के लोगों को आकर्षित करेगी। यह सबसे कठिन विजय हासिल करने के लिए है।</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_DOMINATION_TT">
+      <Text>युद्ध के बल और कौशल से, आप दुनिया को अपने आधीन करते हैं। यह सबसे मूल विजय है जो प्राप्त करना सबसे आसान है।</Text>
+    </Row>
+    <Row Tag="LOC_VICTORY_RELIGIOUS_TT">
+      <Text>पृथ्वी के चारों कोनों तक अपने धर्म का प्रचार करें, जो एक अंधेरी दुनिया में रोशनी लाएगा। आपको दुनिया को एक सच्चे धर्म में परिवर्तित करने की उम्मीद है तो आपको दूतावासीय संबंधों का मास्टर बनना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_RULESET_NAME">
+      <Text>मानक नियम</Text>
+    </Row>
+    <Row Tag="LOC_RULESET_DESCRIPTION">
+      <Text>यह एक मानक सिविलाइजेशन VI गेम है।</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_PLAY_CLEO_NAME">
+      <Text>क्लेओपेट्रा के रूप में खेलें।</Text>
+    </Row>
+    <Row Tag="LOC_TUTORIAL_PLAY_GILG_NAME">
+      <Text>गिलगमेश के रूप में खेलें।</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_ADDITIONAL_CONTENT">
+      <Text>अतिरिक्त सामग्री</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_ADDITIONAL_CONTENT_TT">
+      <Text>सिविलाइजेशन VI के लिए अतिरिक्त सामग्री।</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_DEMO">
+      <Text>प्रदर्शन या नमूना</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_DEMO_PURCHASE">
+      <Text>अभी खरीदें।</Text>
+    </Row>
+    <Row Tag="LOC_MAIN_MENU_DEMO_PURCHASE_TT">
+      <Text>सिड मेयर का सिविलाइजेशन VI खरीदने के लिए स्टीम स्टोर खोलें।</Text>
+    </Row>
+    <Row Tag="LOC_DEMO_COMPLETE_CONTENT">
+      <Text>बधाई हो! आपने समय के परीक्षण के लिए खड़ी होने वाली एक सभ्यता बनाने की पहली कदम उठाए हैं। क्या आप इतिहास के सबसे महान नेताओं के खिलाफ खुद को आगे बढ़ाने के लिए जारी रखेंगे? क्या आपकी जनता की संस्कृति फल देगी? क्या आपका विज्ञान प्रकाशमान होगा? क्या आपकी धार्मिकता प्रेरित करेगी? क्या आपकी सेना शासन करेगी?[NEWLINE][NEWLINE]आप Sid Meier की सिविलाइजेशन VI में किस प्रकार नेतृत्व करेंगे? अभी यात्रा जारी रखें।[NEWLINE][NEWLINE]निर्माण करें। विजय प्राप्त करें। प्रेरित करें।</Text>
+    </Row>
+    <Row Tag="LOC_DEMO_COMPLETE_MAIN_MENU">
+      <Text>इतिहास में महाशय हो जाना</Text>
+    </Row>
+    <Row Tag="LOC_DEMO_COMPLETE_BUY">
+      <Text>महानता हासिल करें।</Text>
+    </Row>
+    <Row Tag="LOC_ARX_VICTORY_PROGRESS">
+      <Text>{1_CivName} जीत की प्रगति</Text>
+    </Row>
+    <Row Tag="LOC_ARX_TOP_5">
+      <Text>Top 5</Text>
+    </Row>
+    <Row Tag="LOC_ARX_GOSSIP_LOG">
+      <Text>गपशप लॉग</Text>
+    </Row>
+    <!-- File Errors -->
+    <Row Tag="LOC_SERIALIZATION_ERROR_VERSION_MISMATCH">
+      <Text>इस खेल के इस संस्करण में सेव लोड नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_OPEN">
+      <Text>सेव करने में असमर्थ।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_WRITE">
+      <Text>लिखने या सेव करने में असमर्थ।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_READ">
+      <Text>बचाने में असमर्थ।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_FAILED_TO_REMOVE">
+      <Text>सेव नहीं हटा सकते।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_NOT_SAVE_GAME">
+      <Text>फ़ाइल एक सेव गेम नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_CORRUPT_SAVE">
+      <Text>सेव गेम भ्रष्ट हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_UNEXPECTED_END_OF_FILE">
+      <Text>सेविंग लोड होना अनिर्दिष्ट रूप से समाप्त हो गया।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_RESTORING_STATE">
+      <Text>खेल स्थिति को पुनर्स्थापित करने में असमर्थ।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_PATH_NOT_FOUND">
+      <Text>सेव करने के लिए पथ नहीं मिल रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_INVALID_DEVICE">
+      <Text>सेव उपकरण अवैध है।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_FILE_LIST">
+      <Text>उपकरण से सेव लिस्ट प्राप्त नहीं कर सकते।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_MOD">
+      <Text>सेव के लिए एक या एक से अधिक आवश्यक मॉड इंस्टॉल नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_DLC">
+      <Text>सेव के लिए एक या एक से अधिक आवश्यक DLC पैकेज स्थापित नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SERIALIZATION_ERROR_MISSING_REQUIRED_EXPANSION">
+      <Text>सेव के लिए एक या एक से अधिक आवश्यक विस्तार पैकेज स्थापित नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TEAM_NAME_SELECT_TITLE">
+      <Text>टीम का नाम</Text>
+    </Row>
+    <Row Tag="LOC_TEAM_NAME_ENTRY_TITLE">
+      <Text>टीम का नाम दर्ज करें।</Text>
+    </Row>
+    <Row Tag="LOC_CHOOSE_TEAM_ICON">
+      <Text>टीम आइकॉन चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_MESSAGE_OF_THE_DAY_HEADING">
+      <Text>दिन का संदेश:</Text>
+    </Row>
+    <!-- -->
+    <Row Tag="LOC_GAME_START_ERROR_DESC">
+      <Text>खेल शुरू करने में त्रुटि हुई। [NEWLINE][NEWLINE] हम किसी भी मॉड को अक्षम करने और फिर से प्रयास करने की सलाह देते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_CODE">
+      <Text>त्रुटि - {1_ErrorCode}</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_VIEW_MODS">
+      <Text>मॉड्स का प्रबंधन करें।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_TITLE">
+      <Text>गेम शुरू करने में त्रुटि</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_UNKNOWN_VERSION">
+      <Text>सहेजी गई संस्करण असंगत है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_MOD_CONTENT">
+      <Text>एक या एक से अधिक मॉड अंतरण सामग्री लोड करने में विफल रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_MOD_CONFIG">
+      <Text>एक या अधिक मॉड्स ने सामग्री या डेटाबेस प्रविष्टियों को कॉन्फ़िगर करने में विफल हो गए।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_MOD_OWNERSHIP">
+      <Text>एक या एक से अधिक मॉड खरीदा नहीं गया है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_START_ERROR_SCRIPT_PROCESSING">
+      <Text>एक या अधिक स्टार्टअप स्क्रिप्ट में एक त्रुटि है। lua.log देखें।</Text>
+    </Row>
+    <Row Tag="LOC_CLOUD_SAVES_REQUIRE_LINKED_ACCOUNT">
+      <Text>क्लाउड सेव एक लिंक्ड 2K अकाउंट की आवश्यकता होती है।</Text>
+    </Row>
+    <Row Tag="LOC_CLOUD_SAVES_SERVICE_NOT_CONNECTED">
+      <Text>बादल बचाव सेवाएं अनुपलब्ध हैं।</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_OVERVIEW_TOOLTIP">
+      <Text>इस गेम के तकनीकी जानकारी:</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_VERSION_TOOLTIP">
+      <Text>Version: {1_Version}</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_MAP_SEED">
+      <Text>नक्शा बीज: {1_MapSeed}</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_GAME_SEED">
+      <Text>गेम सीड: {1_GameSeed}</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_MOUSE_COPY_TOOLTIP">
+      <Text>जानकारी कॉपी करने के लिए दाएं क्लिक करें।</Text>
+    </Row>
+    <Row Tag="LOC_PAUSEMENU_INFO_TOUCH_COPY_TOOLTIP">
+      <Text>5 सेकंड के लिए रखें जिससे सूचना कॉपी हो जाए।</Text>
+    </Row>
+    <Row Tag="LOC_MOD_SCOUT_CAT_TITLE">
+      <Text>स्काउट बिल्ली (Scout Billi)</Text>
+    </Row>
+    <Row Tag="LOC_MOD_SCOUT_CAT_TEASER">
+      <Text>स्काउट के कुत्ते को बिल्लियों के एक समूह से बदल देता है।</Text>
+    </Row>
+    <Row Tag="LOC_MOD_SCOUT_CAT_DESCRIPTION">
+      <Text>कभी-कभी खिलाड़ी कुत्ते "स्काउट" से इतना प्यार करते हैं कि वे स्काउट को जंगल में इतनी मेहनत करते हुए देखने से बेहद दुखी हो जाते हैं। तो स्पष्ट है कि स्काउट को बस गांव में ढीला करने के लिए बिल्लियों का एक समूह भेजा जाना चाहिए। या फिर, अगर आप बिल्लियों के बड़े चाहने वाले हैं, तो यह DLC सिर्फ एक गलती को ठीक करने के लिए है।</Text>
+    </Row>
+    <!-- Leader Pools -->
+    <Row Tag="LOC_LEADER_POOL_1_NAME">
+      <Text>लीडर पूल 1</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_1_DESC">
+      <Text>यह नेताओं का चयन यादृच्छिक नेता (पूल 1) से नेताओं का चयन करने के लिए उपयोग किया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_2_NAME">
+      <Text>लीडर पूल 2</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_2_DESC">
+      <Text>यह नेताओं का चयन रैंडम लीडर (पूल 2) से नेता चुनने के लिए उपयोग किया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_COUNTER_WARNING">
+      <Text>[COLOR_RED]{1_Min} कम से कम नेता चुनने होंगे।[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_PRESETS">
+      <Text>प्रीसेट:</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PICK_PRESET_ALL">
+      <Text>उपयुक्त हिंदी अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PICK_PRESET_NONE">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_PICK_PRESET_NO_WINS">
+      <Text>जीत के कोई नहीं रहे नेता</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_LEADER_POOL_1">
+      <Text>यादृच्छिक नेता (पूल 1)</Text>
+    </Row>
+    <Row Tag="LOC_RANDOM_LEADER_POOL_2">
+      <Text>अनियमित नेता (पूल 2)</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_POOL_TOO_FEW_WARNING">
+      <Text>एक नेता पूल के पास हर खिलाड़ी के लिए पर्याप्त नेता नहीं है जो उस पूल को चुनते हैं। यदि आप आगे बढ़ते हैं तो कुछ खिलाड़ियों को उस पूल के बाहर नेता नियुक्त कर दिया जाएगा। क्या यह ठीक है?</Text>
+    </Row>
+  </FrontEndText>
+</GameData>

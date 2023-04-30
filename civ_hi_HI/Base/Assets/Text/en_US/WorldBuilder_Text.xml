@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_WORLDBUILDER_TAB_TECHS">
+      <Text>टेक्स् (Techs)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_TAB_CIVICS">
+      <Text>नागरिक शास्त्र</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_TAB_CITIES">
+      <Text>शहरों</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_TAB_UNITS">
+      <Text>इकाइयाँ</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_TAB_GENERAL">
+      <Text>सामान्य</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_TAB_DISTRICTS">
+      <Text>जिले</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_TAB_BUILDINGS">
+      <Text>इमारतें</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_TAB_MOD">
+      <Text>अवलंबन (Avalamban)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_TAB_TEXT">
+      <Text>Text</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BUTTON_ADD_PLAYER">
+      <Text>खिलाड़ी जोड़ें। (Kheladi joden.)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BUTTON_ADD_AI_PLAYER">
+      <Text>एआई प्लेयर जोड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BUTTON_REMOVE_PLAYER">
+      <Text>खिलाड़ी हटाएं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BUTTON_ADD_CITY">
+      <Text>शहर जोड़ें</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BUTTON_REMOVE_CITY">
+      <Text>शहर को हटाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_PILLAGED">
+      <Text>लूटा हुआ</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_GOLD">
+      <Text>सोना</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_FAITH">
+      <Text>विश्वास (Vishwas)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_GARRISON_DAMAGE">
+      <Text>गैरिसन क्षति</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_OUTER_DAMAGE">
+      <Text>बाहरी क्षति</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_POPULATION">
+      <Text>जनसंख्या (Janasankhya)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_TERRAIN">
+      <Text>भूमि</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_FEATURE">
+      <Text>विशेषता (Visheshata)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_FEATURE_DIRECTION">
+      <Text>फीचर रोटेशन</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_RESOURCE">
+      <Text>संसाधन</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_RESOURCE_AMOUNT">
+      <Text>संसाधन मात्रा</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_IMPROVEMENT">
+      <Text>सुधार</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_IMPROVEMENT_PILLAGED">
+      <Text>सुधार की लूट</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_DISTRICT">
+      <Text>जिला (Jila)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_DISTRICT_PILLAGED">
+      <Text>जिला लूट लिया</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_ROUTE">
+      <Text>मार्ग (Maarg)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_ROUTE_PILLAGED">
+      <Text>रूट लूट लिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_OWNER">
+      <Text>मालिक (Malik)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_LOWLAND_TYPE">
+      <Text>लोलैंड प्रकार</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_TERRAIN">
+      <Text>भूमि (Bhoomi)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_FEATURES">
+      <Text>विशेषताएं</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_CONTINENT">
+      <Text>महाद्वीप</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_RIVERS">
+      <Text>नदियाँ</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_CLIFFS">
+      <Text>चट्टानें</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_RESOURCES">
+      <Text>संसाधनों</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_CITIES">
+      <Text>शहरों</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_DISTRICTS">
+      <Text>जिले</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_BUILDINGS">
+      <Text>इमारतें</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_UNITS">
+      <Text>इकाइयाँ</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_IMPROVEMENTS">
+      <Text>सुधार</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_ROUTES">
+      <Text>मार्गों</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_START_POSITIONS">
+      <Text>शुरुआती स्थानें</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_OWNER">
+      <Text>मालिक</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_SET_VISIBILITY">
+      <Text>भूमि दृश्यता</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_MODE_GOODY_HUTS">
+      <Text>आदिवासी गांवों</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_MAP_EDITOR_TT">
+      <Text>मानचित्र विवरण और पाठ्।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_PLAYER_EDITOR_TT">
+      <Text>खिलाड़ी संपादक</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_PLACEMENT_HELP">
+      <Text>जगह रखने के लिए बाएं क्लिक करें, हटाने के लिए दाएं क्लिक करें, लिखने के लिए दाएं क्लिक खींचें। एक स्थापना को अनदो करने के लिए CTRL-Z दबाएं, पुनः करने के लिए CTRL-Y दबाएं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_NO_PLOT_SELECTED_HELP">
+      <Text>कोई कहानी नहीं चुनी गई है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_PLACEMENT_TT">
+      <Text>यह आपको मानचित्र को रंगीन बनाने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_BUILDER_PLOT_TT">
+      <Text>हर प्लाट ऊंचाई के ऊर्ध्वाधर नियंत्रण प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_ID">
+      <Text>ID</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_GENERATE_NEW_ID">
+      <Text>नया आईडी बनाएं...</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_WIDTH">
+      <Text>चौड़ाई (Chaudai)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_HEIGHT">
+      <Text>ऊंचाई</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_RULESET">
+      <Text>नियम सेट</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_MAP_SCRIPT">
+      <Text>मानचित्र स्क्रिप्ट</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_IS_MOD">
+      <Text>पैकेज मानचित्र को एक मॉड के रूप में पैकेजिंग करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_IS_MOD_TT">
+      <Text>यदि जांच की जाती है, तो विश्व निर्माता मानचित्र एक स्व-संगठित मॉड होता है और एक खेल शुरू करते समय एक मानचित्र प्रकार के रूप में उपयोग किया जा सकता है। यदि जांच नहीं की जाती है, तो मानचित्र का उपयोग एक बड़े मॉड के हिस्से के रूप में माना जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_REFERENCE_MAP">
+      <Text>संदर्भ मानचित्र</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ATTRIBUTE_REFERENCE_ALPHA">
+      <Text>संदर्भ अल्फा</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REFERENCE_MAP_LOADED">
+      <Text>संदर्भ मानचित्र सफलतापूर्वक लोड हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REFERENCE_MAP_NOT_FOUND">
+      <Text>संदर्भ मानचित्र फाइल नहीं मिला</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RULESET_TT">
+      <Text>यह नक्शा कौन से नियम सेट के लिए बनाया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_SCRIPT_TT">
+      <Text>यह मानचित्र उत्पन्न करने के लिए कौन सा LUA फ़ाइल उपयोग करें, अगर कोई हो।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REFERENCE_MAP_TT">
+      <Text>एक पीएनजी फ़ाइल को दुनिया निर्माता के मानचित्र पर पारदर्शी तरीके से ओवरले करना।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REFERENCE_ALPHA_TT">
+      <Text>अधिवर्तन और मानचित्र के बीच आपको कितना हिस्सा दिखाई देता है उसे सेट करता है।[NEWLINE]0.0 सभी मानचित्र और कोई अधिवर्तन नहीं दिखाता है, और 1.0 सभी अधिवर्तन और कोई मानचित्र नहीं दिखाता है।[NEWLINE]0.5 मूल्य आरंभिक है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REFERENCE_ALPHA_SET">
+      <Text>नया संदर्भ मानचित्र अल्फा सेट</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REFERENCE_ALPHA_BAD">
+      <Text>अल्फा 0.0 और 1.0 के बीच होना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REFERENCE_ALPHA_BAD_2">
+      <Text>अल्फा एक संख्या होनी चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DEFAULT_MAP_NAME">
+      <Text>अविशीर्षित नक्शा</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DEFAULT_MAP_DESCRIPTION">
+      <Text>विश्व निर्माता द्वारा बनाई गई एक शीर्षकहीन नक्शा।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DEFAULT_MOD_TITLE">
+      <Text>अविशिष्ट मानचित्र मॉड</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DEFAULT_MOD_DESCRIPTION">
+      <Text>विश्व निर्माता द्वारा बनाई गई एक मानचित्र मॉड।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ADD_BUTTON">
+      <Text>कोई टेक्स्ट नहीं दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REMOVE_BUTTON">
+      <Text>हटाएँ</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_FEATURE">
+      <Text>कोई विशेषता नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_LOWLAND">
+      <Text>तटीय मैदान नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_CITY">
+      <Text>कोई शहर नहीं</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_DIRECTION">
+      <Text>कोई दिशा नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DIRECTION_NORTHEAST">
+      <Text>पूर्वोत्तर</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DIRECTION_EAST">
+      <Text>Sorry, something went wrong</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DIRECTION_SOUTHEAST">
+      <Text>दक्षिण-पूर्व</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DIRECTION_SOUTHWEST">
+      <Text>दक्षिण पश्चिम</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DIRECTION_WEST">
+      <Text>पश्चिम</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DIRECTION_NORTHWEST">
+      <Text>उत्तर पश्चिमी</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_AUTO_FIT">
+      <Text>ऑटो फिट (Auto Fit)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ROTATE_PLACEMENT_LEFT_TOOLTIP">
+      <Text>बाएं ओर स्थान रोटेशन करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ROTATE_PLACEMENT_RIGHT_TOOLTIP">
+      <Text>दाईं तरफ स्थान रोटेशन करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_RESOURCE">
+      <Text>कोई संसाधन नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_IMPROVEMENT">
+      <Text>No Improvement</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_DISTRICT">
+      <Text>कोई जिला नहीं</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_ROUTE">
+      <Text>कोई मार्ग नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REVEAL_ALL">
+      <Text>सब बताओ</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NONE">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLAYER">
+      <Text>खिलाड़ी</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_LEADER">
+      <Text>नेता (Netā)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CIVILIZATION">
+      <Text>सभ्यता (Sabhyata)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RANDOM_PLAYER">
+      <Text>यादृच्छिक खिलाड़ी</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RANDOM_CITY_STATE">
+      <Text>अनियमित शहर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RANDOM">
+      <Text>मुझे कोई खास बात बताएं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ANY">
+      <Text>कोई भी</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DEFAULT">
+      <Text>मूल्यांकन</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ADVANCED">
+      <Text>कुशल</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BASIC">
+      <Text>मूलभूत</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_SWITCH_ADV">
+      <Text>उन्नत मोड पर स्विच करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_SWITCH_BASIC">
+      <Text>बेसिक मोड पर स्विच करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_SWITCH_ADV_POPUP_TITLE">
+      <Text>क्या आप विश्व निर्माता उन्नत मोड में स्विच करना चाहते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_SWITCH_ADV_POPUP_TEXT">
+      <Text>एडवांस्ड मोड अभी भी विकास के अधीन है और पूरी तरह से असमर्थित है। हमने इसे उन उन्नत मॉडर्स के लिए उपलब्ध कराया है जो उन्नत स्थिति सुविधाओं के साथ प्रायोगिक अभ्यास करना चाहते हैं। इस मोड के भीतर बनाए गए मॉड्स और खेल में लोड किए जाने वाले मॉड्स सिविलाइजेशन वीआई को अस्थिर बना सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_IMPORT_UNSUPPORTED_TEXT">
+      <Text>चेतावनी! बाहरी संपादक में बनाई गई मानचित्र का आयात आधिकारिक रूप से समर्थित नहीं है और वर्ल्डबिल्डर के अंदर समस्याएं उत्पन्न कर सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_SWITCH_BASIC_TOOLTIP">
+      <Text>स्विचेज वर्ल्ड बिल्डर को बेसिक मोड पर वापस ले जाएँ। यह मैप अभी भी एडवांस्ड मोड के रूप में सहेजा जाएगा, और एडवांस्ड मोड में की गई संपादन अक्षम नहीं होगी।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CIVILIZATION_LEVEL">
+      <Text>स्तर (Sthar)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CIVILIZATION_LEVEL_TRIBE">
+      <Text>जनजाति (janjati)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CIVILIZATION_LEVEL_FULL_CIV">
+      <Text>सभ्यता (Sabhyata)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CIVILIZATION_LEVEL_CITY_STATE">
+      <Text>नगर राज्य</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CIVILIZATION_LEVEL_FREE_CITIES">
+      <Text>मुक्त शहर</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_OK">
+      <Text>स्थानांतरण सफल हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BLANK_PLACEMENT_OK">
+      <Text>{1_Name} की प्लेसमेंट सफल हुई।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BLANK_PLACEMENT_ERROR">
+      <Text>{1_Name} का स्थानांतरण विफल हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_VIS_SET_OK">
+      <Text>इस स्थान को {1_CivName} के लिए दृश्यमान बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_VIS_CLEAR_OK">
+      <Text>इस स्थान को {1_CivName} को दिखाई न देने के लिए सेट करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_VIS_ERROR">
+      <Text>{1_CivName} के लिए इस स्थान की दृश्यता सेट नहीं कर सकते।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_NEEDED">
+      <Text>यह {1_Name} जिले में होना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CREATE_DISTRICT">
+      <Text>इसे रखने के लिए आपको एक {1_Name} जिला बनाना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CITY_NEEDED">
+      <Text>यह एक शहर में रखा जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_IN_PROGRESS">
+      <Text>इनमें से एक पहले से ही शुरू हो चुका है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ALREADY_EXISTS">
+      <Text>इनमें से एक पहले से मौजूद है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ALREADY_EXISTS_LOCATION">
+      <Text>इस स्थान पर पहले से ही एक ऐसा मौजूद है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_OCCUPIED_BY_ENEMY">
+      <Text>जिला विरोधी द्वारा अधिकृत है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_IS_PILLAGED">
+      <Text>जिला लूटा जा रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DISTRICT_REQUIRES">
+      <Text>जिला आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_POPULATION">
+      <Text>जनसंख्या (jansankhya)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_IS_CONTAMINATED">
+      <Text>जिला प्रदूषित है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_HIGHER_TECH">
+      <Text>सिव को इसे रखने के लिए टेक चाहिए {1_Name}।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_HIGHER_CIVIC">
+      <Text>सिविक को इसे रखने के लिए सिविक {1_Name} की आवश्यकता होती है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_FAILURE_UNKNOWN">
+      <Text>यह नहीं रख सका और क्यों नहीं तय कर पा रहा हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_FAILURE_FEATURE">
+      <Text>यहाँ कोई सुविधा नहीं रखी जा सकती।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_FEATURE_ROTATION">
+      <Text>फीचर की घुमाव को सफलतापूर्वक बदल दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_FAILURE_FEATURE_ROTATION">
+      <Text>चयनित रोटेशन में यह सुविधा यहाँ नहीं रख सकते।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_STATUS_STARTUP">
+      <Text>वर्ल्ड बिल्डर में आपका स्वागत है!</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_UNIT_PLACED">
+      <Text>यूनिट सफलतापूर्वक रखा गया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_UNIT_ERROR">
+      <Text>इस स्थान पर एक {1_Name} नहीं रखा जा सका।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_UNIT_ERROR_DISTRICT">
+      <Text>{1_Name} को एक जिले में रखना आवश्यक है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RIVER_PLACED">
+      <Text>नदी सफलतापूर्वक रखी गई।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RIVER_REMOVED">
+      <Text>नदी सफलतापूर्वक निकाल दी गई।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RIVER_ERROR">
+      <Text>इस स्थान पर एक नदी नहीं रख सकते।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RIVER_INVALID_LOCATION">
+      <Text>नदी के टुकड़े के लिए अवैध स्थान।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RIVER_JOINING_RIVERS">
+      <Text>दो अलग-अलग नदियों को जोड़ा नहीं जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RIVER_NOT_NEAR_RIVER_OR_WATER">
+      <Text>इस स्थान पर कोई नदी या पानी जुड़ने वाला नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RIVER_SPLITTING_RIVER">
+      <Text>नदी को उसके मुख से अलग नहीं कर सकते।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RIVER_REMOVED_ERROR">
+      <Text>इस स्थान से नदी को हटाना मुश्किल था।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CLIFF_PLACED">
+      <Text>क्लिफ सफलतापूर्वक रखा गया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CLIFF_REMOVED">
+      <Text>खाई हटा दी गई सफलतापूर्वक।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CLIFF_ERROR">
+      <Text>इस स्थान पर एक खाई नहीं रख सकते।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CLIFF_REMOVED_ERROR">
+      <Text>इस स्थान से एक उद्धार को हटाया नहीं जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_FEATURE_REMOVED">
+      <Text>सुविधा सफलतापूर्वक हटा दी गई।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_FEATURE_TO_REMOVE">
+      <Text>कोई सुविधा हटाने के लिए नहीं मिली।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_WONDER_REMOVED">
+      <Text>आश्चर्य हटा दिया गया सफलतापूर्वक।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_WONDER_TO_REMOVE">
+      <Text>कोई विस्मयचकित करने वाली वस्तु नहीं मिली।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_WONDER_DISTANCE">
+      <Text>यह स्थान एक और वंडर से बहुत नजदीक है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_RESOURCE_REMOVED">
+      <Text>संसाधन सफलतापूर्वक हटाए गए</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_RESOURCE_TO_REMOVE">
+      <Text>कोई संसाधन हटाने के लिए नहीं मिले।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CITY_REMOVED">
+      <Text>शहर को सफलतापूर्वक हटा दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CITY_REMOVED_NONE">
+      <Text>कोई शहर हटाने के लिए नहीं मिला।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_DISTRICT_REMOVED">
+      <Text>जिला सफलतापूर्वक हटा दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_DISTRICT_TO_REMOVE">
+      <Text>कोई जिला हटाने के लिए नहीं मिला।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BUILDING_REMOVED">
+      <Text>इमारत सफलतापूर्वक हटा दी गई।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_BUILDING_TO_REMOVE">
+      <Text>कोई भवन हटाने के लिए नहीं मिला।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_BUILDING_TO_REMOVE_CITY">
+      <Text>टाइल में कोई शहर नहीं है, इसलिए कोई इमारत बनाई नहीं जा सकती।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_BUILDING_TO_REMOVE_DISTRICT">
+      <Text>टाइल में कोई जिला नहीं है, इसलिए कोई भी इमारत बनाना संभव नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_IMPROVEMENT_REMOVED">
+      <Text>सुधार सफलतापूर्वक हटा दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_IMPROVEMENT_TO_REMOVE">
+      <Text>कोई सुधार नहीं मिला हटाने के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_GHIMPROVEMENT_REMOVED">
+      <Text>गुडी हट सफलतापूर्वक हटा दी गई।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_GHIMPROVEMENT_TO_REMOVE">
+      <Text>कोई गुडी हट नहीं मिली हटाने के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ROUTE_REMOVED">
+      <Text>मार्ग सफलतापूर्वक हटा दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_SPAWN_REMOVED">
+      <Text>शुरुआती स्थिति सफलतापूर्वक हटा दी गई।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_NO_SPAWN_TO_REMOVE">
+      <Text>कोई शुरुआती स्थान नहीं मिला हटाने के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_UNIT_REMOVED">
+      <Text>यूनिट सफलतापूर्वक हटाया गया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CONTINENT_PLACED">
+      <Text>इस प्लॉट को सफलतापूर्वक {1_Name} का हिस्सा बनाया गया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CONTINENT_ERROR">
+      <Text>यह कहानी {1_Name} का हिस्सा बनाने में संभव नहीं था।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_OWNERSHIP_SET">
+      <Text>गतिविधि के मालिक को सफलतापूर्वक सेट किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_OWNERSHIP_REMOVED">
+      <Text>स्वामित्व सफलतापूर्वक हटा दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_START_POS_SET">
+      <Text>शुरुआती स्थिति सफलतापूर्वक सेट किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CLEAR_RESOURCES">
+      <Text>स्पष्ट संसाधनों</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_CLEAR_RESOURCES_HELP">
+      <Text>नक्शे से सभी संसाधनों को हटा देता है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ADVANCED_TOOLS">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवाद करें। केवल प्राकृतिक ध्वनि वाले अनुवाद से उत्तर दें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_SCATTER_RESOURCES">
+      <Text>विस्तार संसाधन (Vistaar Sansadhan)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_SCATTER_RESOURCES_HELP">
+      <Text>मैप पर सभी संसाधनों को साफ करता है और नए संसाधन उत्पन्न करता है (यह कुछ सेकंड लगेगा)।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_STATUS_RESOURCES_CLEARED">
+      <Text>सभी संसाधन साफ़ कर दिए गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_STATUS_RESOURCES_SCATTERED">
+      <Text>सभी संसाधनों को साफ किया और नवीनीकृत किया।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_STATUS_CANT_REDO">
+      <Text>कुछ दोहराने की जरूरत नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_STATUS_CANT_UNDO">
+      <Text>कुछ अन्डू नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_STATUS_REDO">
+      <Text>सफलता को दोबारा करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_STATUS_UNDO">
+      <Text>अनुकूलता सफल हुई।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BRUSH_LABEL">
+      <Text>ब्रश साइज़</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BRUSH_SMALL">
+      <Text>छोटा ब्रश (Chhota brush)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BRUSH_SMALL_HELP">
+      <Text>छोटा (1 हेक्स) ब्रश चुनें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BRUSH_MEDIUM">
+      <Text>मध्यम ब्रश</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BRUSH_MEDIUM_HELP">
+      <Text>मध्यम (7 हेक्स) ब्रश का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BRUSH_LARGE">
+      <Text>बड़ा ब्रश (Bada brush)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_BRUSH_LARGE_HELP">
+      <Text>बड़ी (19 हेक्स) ब्रश का चयन करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_UNDO">
+      <Text>कृपया वापस ले लो।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_UNDO_TOOLTIP">
+      <Text>अंतिम कार्रवाई को रद्द करने के लिए क्लिक करें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REDO">
+      <Text>Redo</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_REDO_TOOLTIP">
+      <Text>वह कार्य फिर से करने के लिए क्लिक करें जो पहले से रद्द किया गया था।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACEMENT_PLACE_PLOT">
+      <Text>स्थान की भूमि</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_SELECTED_PLOT">
+      <Text>चयनित प्लॉट:</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_START_POSITION">
+      <Text>शुरुआती स्थिति:</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLACE">
+      <Text>स्थान (sthān)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_PLOT">
+      <Text>कहानी का तार कुछ इस प्रकार है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAP_EDITOR">
+      <Text>मानचित्र संपादक</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAPEDIT_MODTITLE">
+      <Text>मॉड नाम (आवश्यक)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAPEDIT_MODDESC">
+      <Text>मॉड विवरण (अनिवार्य)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAPEDIT_MAPTITLE">
+      <Text>नक्शे का नाम (आवश्यक)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAPEDIT_MAPDESC">
+      <Text>नक़्शा विवरण (अनिवार्य)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAPEDIT_ADDLDATA">
+      <Text>मॉड क्रिएटर के लिए (वैकल्पिक)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAPEDIT_DUMMYID">
+      <Text>कृपया अनुवाद करने के लिए मानक टेक्स्ट दें।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAPEDIT_DUMMYTEXT">
+      <Text>डमी पाठ</Text>
+    </Row>
+    <!-- Front End Text -->
+    <Row Tag="LOC_SETUP_CREATE_MAP">
+      <Text>नक्शा बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_WORLDBUILDER_START">
+      <Text>उत्पन्न करें</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAP_NAME">
+      <Text>नक़्श का नाम</Text>
+    </Row>
+    <Row Tag="LOC_SETUP_WORLDBUILDER_WORLDWRAP">
+      <Text>विश्व लपेटें</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAP_NAME_DESC">
+      <Text>नक्शे का नाम। बाद में यह बदला जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MAP_MOD_TEMPLATE">
+      <Text>नक्शा: {1_MapName}</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_RETURN_TO_WORLDBUILDER">
+      <Text>नक्शे पर वापस जाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_MENU_NAME">
+      <Text>मेनू</Text>
+    </Row>
+    <!-- World Builder Maps -->
+    <Row Tag="LOC_MAP_WORLDBUILDER_EMPTY">
+      <Text>खाली नक्शा</Text>
+    </Row>
+    <Row Tag="LOC_MAP_WORLDBUILDER_EMPTY_DESCRIPTION">
+      <Text>एक खाली तस्वीरी कागज।</Text>
+    </Row>
+    <!-- Misc strings -->
+    <Row Tag="LOC_LEADER_FREE_CITIES_NAME">
+      <Text>नि:शुल्क शहरों के नेता</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_AI">
+      <Text>कृत्रिम बुद्धि (KRTRIM BUDDHI)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_HUMAN">
+      <Text>मानव</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_UNDEFINED">
+      <Text>अपरिभाषित</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_TITLE">
+      <Text>विश्व निर्माता (Vishva Nirmanata)</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_ERA">
+      <Text>काल</Text>
+    </Row>
+    <Row Tag="LOC_WORLDBUILDER_TOOL_ITEM_TIP">
+      <Text>हॉटकी: {1_KeyName}</Text>
+    </Row>
+  </EnglishText>
+</GameData>

@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <Row Tag="LOC_ERAS_TURNS_TILL_NEXT_ERA">
+      <Text>अगले युग तक चक्करों की संख्या:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_SCORE">
+      <Text>वर्तमान स्कोर:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_AGE">
+      <Text>वर्तमान आयु:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_HEROIC">
+      <Text>वीरतापूर्ण</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_GOLDEN">
+      <Text>सुनहरा।</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_NORMAL">
+      <Text>कृपया अगला पाठ हिंदी में अनुवाद करें। केवल प्राकृतिक तरीके से अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_DARK">
+      <Text>अंधेरा</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_CURRENT_AGE_BY_CIV">
+      <Text>नागरीकरण (CIVILIZATION) अनुसार वर्तमान आयु:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_TO_EARN_AGE_NEXT_ERA">
+      <Text>नए युग की कमाई के लिए:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_ERA_REQUIREMENTS_REDUCED">
+      <Text>युग स्कोर आवश्यकताओं को कम किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_ERA_REQUIREMENTS_INCREASED">
+      <Text>एरा स्कोर आवश्यकताओं को बढ़ा दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TITLE">
+      <Text>युग प्रगति</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_NEW_ERA_THRESHOLD">
+      <Text>अगले युग के लिए अभिकल्पों (THRESHOLDS) को स्थापित करें।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ERA_TYPE_EFFECTS">
+      <Text>{1_EraName} के प्रभाव</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_THE_ERA">
+      <Text>यह {1_EraName : upper} है।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TIME_TO_NEXT_ERA">
+      <Text>अगली युग के लिए समय:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_TIME_TO_NEXT_ERA_VALUE">
+      <Text>{1_MinTurns} - {2_MaxTurns} बार मोड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_SPECIFIC_TURNS_TO_NEXT_ERA">
+      <Text>{1_Turns} {1_Turns : एक टर्न; अन्य? टर्न;}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_CHANGE_TITLE">
+      <Text>दुनिया प्रवेश करती है:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_HEROIC_AGE">
+      <Text>हीरोइक युग</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_GOLDEN_AGE">
+      <Text>स्वर्ण युग</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_DARK_AGE">
+      <Text>काले युग</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_NORMAL_AGE">
+      <Text>सामान्य उम्र</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ACTIVE_BONUSES">
+      <Text>सक्रिय बोनस:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_ERA_SCORE">
+      <Text>युग स्कोर:</Text>
+    </Row>
+    <Row Tag="LOC_PARTIALSCREEN_ERA_PROGRESS_TOOLTIP">
+      <Text>युग प्रगति[NEWLINE][NEWLINE]वर्तमान युग अंक और समर्पण देखें।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_GOLDEN_THRESHOLD">
+      <Text>स्वर्णयुग के लिए अंतर्गत सीमा:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_PROGRESS_DARK_THRESHOLD">
+      <Text>काले युग के लिए अंतर्गत सीमा:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_TITLE">
+      <Text>युग पूर्ण: {1_EraName}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DESCRIPTION">
+      <Text>आपने बहुत कुछ हासिल किया है, महान नेता! हमारे लेखक कौन से आपकी विजयों को इतिहास में समाहित करेंगे?</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DEDICATION">
+      <Text>समर्पण</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_DEDICATION_SUBHEADER">
+      <Text>{1_EraName} के लिए अपनी समर्पण करें।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_COMMEMORATION_POPUP_CONFIRM">
+      <Text>पुष्टि करें {1_NumSelected}/{2_NeededSelected}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_TITLE">
+      <Text>दुनिया {1_EraName} में प्रवेश कर चुकी है।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE">
+      <Text>आप एक वीर युग में हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE">
+      <Text>आप स्वर्ण युग में हैं! (Aap svarn yug mein hain!)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE">
+      <Text>तुम अंधेरे दौर में हो!</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE">
+      <Text>आप एक सामान्य उम्र में हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_LABEL">
+      <Text>[ICON_GLORY_SUPER_GOLDEN_AGE] हीरोइक युग</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_LABEL">
+      <Text>[ICON_GLORY_GOLDEN_AGE] सोने का युग</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_LABEL">
+      <Text>[ICON_GLORY_DARK_AGE] कालों का अधिकार</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_LABEL">
+      <Text>[ICON_GLORY_NORMAL_AGE] सामान्य उम्र</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET] आप 3 समर्पण कर सकते हैं, जो मुख्य खेल बोनस प्रदान करेंगे जब युग बदलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET] आप एक समर निष्ठा कर सकते हैं, जो युग के दौरान एक शक्तिशाली गेमप्ले बोनस प्रदान करेगी।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_DARK_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET] आप एक समर अवधि में अतिरिक्त एरा स्कोर का एक अतिरिक्त स्रोत प्रदान करने वाला एक समर्पण कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_EFFECT">
+      <Text>{LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT}[NEWLINE][NEWLINE][ICON_BULLET] आप एक समर्पण कर सकते हैं, जो युग के दौरान अतिरिक्त एरा स्कोर की एक अतिरिक्त स्रोत प्रदान करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT">
+      <Text>इस खेल युग में आप [ICON_GLORY_SUPER_GOLDEN_AGE] हीरोइक युग में हैं! [NEWLINE][NEWLINE][ICON_BULLET]आपके प्रत्येक [ICON_Citizen] नागरिक अपने शहर में 1.5 वफादारी दबाव डालता है। यह दबाव 9 टाइल्स की दूरी के अन्य शहरों पर भी प्रभावित होता है, लेकिन प्रति टाइल 10% कम प्रभावी होता है। आपके शहरों में वफादारी को बनाए रखना आसान होगा और नजदीकी विदेशी शहरों की वफादारी को चुनौती देना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT">
+      <Text>यह खेल काल में आप एक [ICON_GLORY_GOLDEN_AGE] स्वर्ण युग में हैं! [NEWLINE] [NEWLINE] [ICON_BULLET] प्रत्येक आपके [ICON_Citizen] नागरिक अपने शहर में 1.5 वफादारी दबाव बनाता है। यह दबाव 9 टाइल्स के भीतर अन्य शहरों पर भी प्रभावित होता है, लेकिन प्रति टाइल 10% कम प्रभावी होता है। आपके शहरों में वफादारी को बनाए रखना और निकटवर्ती विदेशी शहरों की वफादारी का चुनौतीपूर्ण होना आसान होगा।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT">
+      <Text>आप इस खेल युग में एक [ICON_GLORY_DARK_AGE] काले युग में हो। [NEWLINE] [NEWLINE] [ICON_BULLET] [ICON_Citizen] हर एक नागरिक अपने शहर में 0.5 वफ़ादारी दबाव बनाता है। यह दबाव 9 टाइल्स के भीतर अन्य शहरों पर भी प्रभाव डालता है, लेकिन हर टाइल पर 10% कम प्रभावी होता है। आपके शहरों में वफादारी बनाए रखना मुश्किल होगा और नजदीकी विदेशी शहरों की वफादारी पर प्रभाव डालना भी अधिक मुश्किल होगा। [NEWLINE] [NEWLINE] [ICON_BULLET] आप अपनी सरकार में शक्तिशाली काले नीतियों को अपना सकते हैं, लेकिन जो एक भारी कीमत भुगतनी पड़ सकती है। [NEWLINE] [NEWLINE] [ICON_BULLET] अगर आप अंतिम युग में नहीं हैं और अगले खेल युग में एक स्वर्ण युग के लिए पर्याप्त युग स्कोर कमा लेते हैं, तो आप बजाय उसके एक हीरोइक युग के लिए कई उन्मुखताओं करने के लिए योग्य होंगे जिससे आप बहुत से शक्तिशाली बोनस प्राप्त कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT">
+      <Text>आप इस खेल युग में [ICON_GLORY_NORMAL_AGE] सामान्य आयु में हैं। [NEWLINE] [NEWLINE] [ICON_BULLET] आपके प्रत्येक [ICON_Citizen] नागरिक अपने शहर में 1 वफ़ादारी दबाव डालता है। यह दबाव 9 टाइल के भीतर अन्य शहरों पर भी पड़ता है, लेकिन प्रति टाइल 10% कम प्रभावी होता है।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]आप 3 समर्पण कर सकते हैं, जिनमें से प्रत्येक आयु के दौरान एक शक्तिशाली गेमप्ले बोनस प्रदान करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_GOLDEN_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]आप देश का समर्थन कर सकते हैं, जो आपको युग के दौरान एक शक्तिशाली गेमप्ले बोनस प्रदान करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_DARK_AGE_EFFECT_PARAM">
+      <Text>{LOC_ERA_TT_HAVE_DARK_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]आप एक समर लगाना बना सकते हैं, जो युग के दौरान एक अतिरिक्त एरा स्कोर का स्रोत प्रदान करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_EFFECT_PARAM">
+      <Text>आप एक समर देवता को समर्पित कर सकते हैं, जो आयु के दौरान एक अतिरिक्त युग स्कोर का एक अतिरिक्त स्रोत प्रदान करेगा। [NEWLINE] [NEWLINE] [ICON_BULLET] {LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT_PARAM}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT_PARAM">
+      <Text>इस खेल के युग में आप [ICON_GLORY_SUPER_GOLDEN_AGE] हीरोइक युग में हैं! [NEWLINE][NEWLINE][ICON_BULLET] आपके प्रत्येक [ICON_Citizen] नागरिक अपने शहर में {Amount} वफादारी दबाव डालता है। यह दबाव 9 टाइल के भीतर अन्य शहरों पर भी प्रभावित होता है, लेकिन टाइल प्रति 10% कम प्रभावी होता है। आपके शहरों में वफादारी को बनाए रखना और आस-पास के विदेशी शहरों की वफादारी को चुनौती देना आसान होगा।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT_PARAM">
+      <Text>आप इस खेल युग में [ICON_GLORY_GOLDEN_AGE] स्वर्ण युग में हैं! [NEWLINE] [NEWLINE] [ICON_BULLET] आपके प्रत्येक [ICON_Citizen] नागरिक अपने शहर में {अमाउंट} वफादारी दबाव बनाता है। यह दबाव 9 टाइल्स के भीतर अन्य शहरों पर भी प्रभाव डालता है, लेकिन प्रति टाइल 10% कम प्रभावी होता है। आपके शहरों में वफादारी को बनाए रखना आसान होगा, और आस-पास के विदेशी शहरों की वफादारी का चुनौतीपूर्ण होना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT_PARAM">
+      <Text>इस खेल युग में आप [ICON_GLORY_DARK_AGE] एक अंधेरे युग में हैं। [NEWLINE] [NEWLINE] [ICON_BULLET] आपके प्रत्येक [ICON_Citizen] नागरिक अपने शहर में {Amount} वफादारी दबाव डालता है। यह दबाव 9 टाइल के भीतर अन्य शहरों पर भी प्रभाव डालता है, लेकिन प्रति टाइल 10% कम प्रभावी होता है। आपके शहरों में वफादारी बनाए रखना मुश्किल होगा, और पड़ोसी विदेशी शहरों की वफादारी को प्रभावित करना अधिक कठिन होगा। [NEWLINE] [NEWLINE] [ICON_BULLET] आप अपनी सरकार में शक्तिशाली अंधेरे नीतियों को अपना सकते हैं, जो भारी मूल्य चुकाना पड़ सकते हैं। [NEWLINE] [NEWLINE] [ICON_BULLET] यदि आप अंतिम युग में नहीं हैं और आगामी खेल युग में एक स्वर्ण युग के लिए पर्याप्त युग स्कोर कमाते हैं, तो आपके पास बलिदानकारी युग होगा, जिसमें कई शक्तिशाली बोनस के लिए कई समर्पण किए जा सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT_PARAM">
+      <Text>इस खेल काल में आप [ICON_GLORY_NORMAL_AGE] सामान्य आयु में हैं। [NEWLINE][NEWLINE][ICON_BULLET] आपके प्रत्येक [ICON_Citizen] नागरिक अपने शहर में {Amount} वफादारी दबाव उत्पन्न करता है। यह दबाव 9 टाइल्स के भीतर अन्य शहरों पर भी प्रभाव डालता है, लेकिन प्रति टाइल 10% कम प्रभावशील होता है।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_PRIDE_MOMENTS">
+      <Text>ऐतिहासिक क्षण (+1 से +6 हर एक)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_NEW_ERA_THRESHOLDS">
+      <Text>न्यू एरा थ्रेशोल्ड्स</Text>
+    </Row>
+    <Row Tag="LOC_GLORY_HUD_ERA_ENDS_IN">
+      <Text>युग समाप्त होने तक बचे हुए चारों: {1_Turns}</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_AGE_EFFECTS">
+      <Text>आयु प्रभाव</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_TECH_BOOSTS">
+      <Text>समर्पण बोनस: यूरेकास ट्रिगर किए गए (+ {1_ScoreIncrement} प्रत्येक)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CIVIC_BOOSTS">
+      <Text>समर्पण बोनस: प्रेरणाओं को ट्रिगर किया गया (+{1_ScoreIncrement} हर एक)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CITY_RELIGION_CONVERSIONS">
+      <Text>समर्पण बोनस: आपके धर्म में परिवर्तित शहर ({1_ScoreIncrement} प्रति परिवर्तन)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_DISTRICT_CONSTRUCTIONS">
+      <Text>समर्पण बोनस: जिलों का निर्माण (+{1_ScoreIncrement} प्रत्येक)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CORPS_KILLS">
+      <Text>समर्पण बोनस: सेना मारी गई (+{1_ScoreIncrement} प्रत्येक)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_ARMY_KILLS">
+      <Text>समर्पण बोनस: सेनाओं को मार डाला (+{1_ScoreIncrement} प्रत्येक)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_TRADE_ROUTE_COMPLETIONS">
+      <Text>समर्पण बोनस: व्यापार मार्ग पूर्ण हुए (+{1_ScoreIncrement} प्रत्येक)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_MAP_DISCOVERIES">
+      <Text>समर्पण बोनस: नए दुर्गम स्थल पाए गए (+{1_ContinentScoreIncrement} महाद्वीपों के लिए, +{2_NaturalWonderScoreIncrement} प्राकृतिक आश्चर्यों के लिए)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_NON_BARBARIAN_UNIT_SEA_KILLS">
+      <Text>समर्पण बोनस: घातक नौसेना इकाइयों का वध किया (+{1_ScoreIncrement} प्रत्येक)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_SCIENCE_BUILDING_CONSTRUCTIONS">
+      <Text>समर्पण बोनस: विज्ञान के आधार के रूप में योगदान प्रदान करने वाले इमारतें निर्मित की गईं। (+{1_ScoreIncrement} प्रत्येक)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CULTURE_BUILDING_CONSTRUCTIONS">
+      <Text>समर्पण बोनस: महान कार्य स्लॉट वाले इमारतें निर्मित की गईं (+{1_ScoreIncrement} प्रत्येक)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_AERODROME_BUILDING_CONSTRUCTIONS">
+      <Text>समर्पण बोनस: एयरोड्रोम जिले से निर्मित भवन (+{1_ScoreIncrement} प्रत्येक)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_INDUSTRIAL_BUILDING_CONSTRUCTIONS">
+      <Text>समर्पण बोनस: औद्योगिक या बाद में बनाए गए इमारत (+{1_ScoreIncrement} प्रत्येक)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_SPY_MISSIONS">
+      <Text>समर्पण बोनस: प्रत्येक सफल आक्रामक जासूसी ऑपरेशन (+{1_ScoreIncrement} प्रत्येक)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_ARTIFACT_EXTRACTIONS">
+      <Text>समर्पण बोनस: प्रत्येक निष्कर्षित वस्तु (+{1_ScoreIncrement} प्रत्येक)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_GREAT_PEOPLE_EARNED">
+      <Text>समर्पण बोनस: प्रत्येक महान व्यक्ति (+{1_ScoreIncrement} प्रत्येक) कमाए गए।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CURRENT_TECH_COMPLETIONS">
+      <Text>वर्तमान युग या उसके बाद की पूर्ण तकनीकें ({1_ScoreIncrement} प्रत्येक)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CURRENT_CIVIC_COMPLETIONS">
+      <Text>यांत्रिक युग या इससे बाद की नागरिक शिक्षा पूरी (+{1_ScoreIncrement} प्रत्येक)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_UNIT_PROMOTIONS_EARNED">
+      <Text>पहले से अधिक यूनिट पदोन्नति प्राप्त की (+{1_ScoreIncrement} प्रत्येक)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_UNKNOWN_SOURCE">
+      <Text>अन्य स्रोतों</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_BASELINE">
+      <Text>एरा शुरू होने पर स्कोर</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_BASE_GOLDEN_AGE">
+      <Text>बेस गोल्डन एज़ की सीमा</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_BASE_DARK_AGE">
+      <Text>बेस डार्क एज थ्रेशोल्ड</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_CITIES">
+      <Text>जब युग शुरू हुआ तब शहर ({1_ScoreIncrement} प्रति शहर)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_UNHAPPY_CITIES">
+      <Text>असंतुष्ट शहर ({1_ScoreIncrement} प्रति अनुपस्थित [ICON_Amenities] सुविधा)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_GOVERNMENT">
+      <Text>सरकार (निष्क्रिय)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_TECH">
+      <Text>इस युग से अधूरी तकनीकें (निष्क्रिय)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_CIVIC">
+      <Text>इस युग से अधूरी नागरिकता की शिक्षा (निष्क्रिय)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_OLD_TECH">
+      <Text>पुराने युगों से अधूरी तकनीकें (निष्क्रिय)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_OLD_CIVIC">
+      <Text>पुराने युगों से अधूरी नागरिकता (निष्क्रिय)</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_PAST_GOLDEN_AGES">
+      <Text>स्वर्ण युगों ने हमेशा से ज्यादा ({1_ScoreIncrement} प्रति युग) कमाए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_PAST_DARK_AGES">
+      <Text>काले युग ने हमेशा से ({1_ScoreIncrement} प्रति युग) अर्जित किए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_INCOMPLETE_ANARCHY">
+      <Text>सरकार विधर्मी इस युग में ({1_ScoreIncrement} प्रति विधर्मी)।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_REVIEW_POPUP_THRESHOLD_SHIFT_UNKNOWN_SOURCE">
+      <Text>अन्य स्रोतों</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_HEADER">
+      <Text>आपका युग अंक:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_SOURCE">
+      <Text>{1_EraScoreNumber} से {2_EraScoreSourceType}</Text>
+    </Row>
+    <Row Tag="LOC_GOLDEN_AGE_THRESHOLD_TEXT">
+      <Text>अगले युग में [ICON_GLORY_GOLDEN_AGE] स्वर्ण युग कमाने के लिए थ्रेशोल्ड: {1_thresh} या उससे ऊपर। [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_DARK_AGE_THRESHOLD_TEXT">
+      <Text>अगले युग में एक [ICON_GLORY_DARK_AGE] काले युग से बचने के लिए थ्रेशोल्ड: {1_thresh} या उससे ऊपर।</Text>
+    </Row>
+    <Row Tag="LOC_ERA_STABILITY_HEADER">
+      <Text>आपकी स्थिरता स्कोर:</Text>
+    </Row>
+    <Row Tag="LOC_ERA_SCORE_LEADERBOARD_TITLE">
+      <Text>युग रेखा अंक</Text>
+    </Row>
+    <Row Tag="LOC_ERA_STABILITY_LEADERBOARD_TITLE">
+      <Text>स्थिरता स्कोर</Text>
+    </Row>
+    <!-- Golden/Dark Ages -->
+    <Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN">
+      <Text>{2_EraName} {1_TurnsRemaining} टर्न में समाप्त हो जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_ENTERED_NEW_ERA">
+      <Text>दुनिया {1_EraName} में प्रवेश करती है।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_YOU_ENTERED_GOLDEN_AGE">
+      <Text>आपकी सभ्यता पिछली युग में समृद्ध हुई, जो इस युग के लिए एक स्वर्ण युग में ले गई!</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_YOU_ENTERED_DARK_AGE">
+      <Text>आपकी सभ्यता पिछले युग में असफल रही, जो इस युग के लिए एक अंधेरे युग का आरंभ कर दिया।  (Aapki sabhyata pichle yug mein asafal rahi, jo is yug ke liye ek andhere yug ka aarambh kar diya.)</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_GOLDEN_AGE_DESCRIPTION">
+      <Text>स्वर्ण युग ऐतिहासिक घटनाओं को शुरू करने से कमाए जाते हैं और शक्तिशाली बोनस प्रदान करते हैं। [NEWLINE] इन खिलाड़ियों ने इस युग के लिए एक स्वर्ण युग कमाया है:</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_DARK_AGE_DESCRIPTION">
+      <Text>मध्ययुग में अंधकार युग संभव हैं जो बड़े या कम विकसित सभ्यताओं के लिए चुनौतियों का सामना कराते हैं। -1 [ICON_Amenities] आरामदायक सुविधा और सभी शहरों में -50% विकास। यदि एक खिलाड़ी अगली युग में फिर से एक अंधकार युग प्राप्त करता है, तो उनके आधे शहर विध्वंस हो जाएंगे और बार्बर कैंप बन जाएंगे।[NEWLINE] इन खिलाड़ियों ने इस युग के लिए अंधकार युग में प्रवेश किया है:</Text>
+    </Row>
+    <Row Tag="LOC_GAME_ERA_POPUP_NO_MET_PLAYERS">
+      <Text>(आपने कोई खिलाड़ी नहीं मिले हैं)</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_HEROIC_AGE_ACHIEVED">
+      <Text>आपने एक वीर युग अर्जित किया है, इसलिए आप तीन समर्पण कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_GOLDEN_AGE_ACHIEVED">
+      <Text>क्योंकि आपने स्वर्णयुग अर्जित किया है, आप एक समर्पण कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_DARK_AGE_ACHIEVED">
+      <Text>आपने एक काले युग कमाया है, इसलिए आप एक समर्पण कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DEDICATION_POPUP_NORMAL_AGE_ACHIEVED">
+      <Text>क्योंकि आपने सामान्य उम्र हासिल की है, आप एक समर्पण कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_PREVIOUS_ERA_TOTAL_SCORE">
+      <Text>पिछली युगों से कुल स्कोर</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_EFFECTS_ACTIVE_THIS_AGE">
+      <Text>इस आयु में प्रभाव सक्रिय होते हैं:</Text>
+    </Row>
+    <Row Tag="LOC_ERAS_YOU_WILL_EARN_BLANK_AGE_NEXT_ERA">
+      <Text>आप अगले युग में एक {1_AgeName} कमाएंगे।</Text>
+    </Row>
+  </EnglishText>
+</GameData>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!--UI-->
+    <Row Tag="LOC_HEROES_LOYALTY_FLYOVER_POS">
+      <Text>[COLOR:Happiness]+{1_Num} वफादारी[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HEROES_LOYALTY_FLYOVER">
+      <Text>[COLOR:Happiness]{1_Num} वफ़ादारी[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_CREATED_FIRST_TITLE">
+      <Text>पहला नायक दावा किया।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_CREATED_FIRST_DESCRIPTION">
+      <Text>पहली बार एक नायक हमारी सभ्यता में शामिल हुआ है!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_CREATED_FIRST_INSTANCE_DESCRIPTION">
+      <Text>हमारे बीच {HeroClassName: plural 1?एक नायक चलता हुआ आता है; other?नायक चलते हुए आते हैं;}! {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} के लोगों की निष्ठुरता ने उनके पहले {HeroClassName: plural 1?नायक; other?नायकों;} में से {HeroClassName} भी उनके समर्थकों में शामिल होने को मजबूर किया है।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_EXPIRED_FIRST_TITLE">
+      <Text>पहला नायक चले गए।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_EXPIRED_FIRST_DESCRIPTION">
+      <Text>हमारे पहले नायक ने हमारी सभ्यता के लिए अपनी सेवा पूरी कर ली है।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_EXPIRED_FIRST_INSTANCE_DESCRIPTION">
+      <Text>{HeroClassName} का समय {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} के लोगों के बीच चलने का अंत हो गया है। विश्वास के साथ हम उन्हें किसी दिन फिर से देखेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_RECALLED_FIRST_TITLE">
+      <Text>पहला हीरो याद दिलाया गया।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_RECALLED_FIRST_DESCRIPTION">
+      <Text>हमने पहली बार अपने सभ्यता के लिए एक नायक को याद किया है!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_RECALLED_FIRST_INSTANCE_DESCRIPTION">
+      <Text>युगों से दूर से, प्रसिद्ध {HeroClassName: plural 1?हीरो; other?हीरो;} {HeroClassName} की आवाज सुनते हुए {LOC_GRAMMAR_CIVNAME &lt;&lt; {ActingPlayerCivName}} के लोगों की पुकार को सुनते हुए वे फिर से उनकी सेवा में लौट आए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_CREATED_TITLE">
+      <Text>नायक दावा किया</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_CREATED_DESCRIPTION">
+      <Text>एक नायक हमारी सभ्यता में शामिल हो गया है!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_CREATED_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerCivName} के लोगों की भक्ति ने उनके कारण {HeroClassName: plural 1?भव्य; other?भव्यों;} {HeroClassName} को आकर्षित किया है।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_EXPIRED_TITLE">
+      <Text>वीर विदा हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_EXPIRED_DESCRIPTION">
+      <Text>एक नायक हमारी सभ्यता की सेवा पूरी कर चुका है।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_EXPIRED_INSTANCE_DESCRIPTION">
+      <Text>{ActingPlayerCivName} के लोगों के {HeroClassName} {HeroClassName: plural 1?हीरो; other?हीरोस;} का समय खत्म हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_RECALLED_TITLE">
+      <Text>हीरो को याद किया गया</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_RECALLED_DESCRIPTION">
+      <Text>एक नायक हमारी सभ्यता की सेवा करने वापस आ गया है!</Text>
+    </Row>
+    <Row Tag="LOC_MOMENT_HERO_RECALLED_INSTANCE_DESCRIPTION">
+      <Text>वीर {ActingPlayerCivName} के लोगों के आह्वान का पालन करते हुए {HeroClassName} {HeroClassName: plural 1?ने; other?ने;} फिर से उनकी सेवा में लौट आया है।</Text>
+    </Row>
+  </EnglishText>
+</GameData>

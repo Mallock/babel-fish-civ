@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--RELIGIONS-->
+    <Row Tag="LOC_RELIGION_PANTHEON">
+      <Text>पैंथियन (Paanthiyon)</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_BUDDHISM">
+      <Text>बौद्ध धर्म (Buddh Dharm)</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_CATHOLICISM">
+      <Text>कैथोलिक धर्म</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_CONFUCIANISM">
+      <Text>कंफ्यूशियनवाद</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_HINDUISM">
+      <Text>हिंदू धर्म (Hindu Dharm)</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_ISLAM">
+      <Text>इस्लाम</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_JUDAISM">
+      <Text>यहूदी धर्म</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_ORTHODOXY">
+      <Text>पूर्वी अर्थोडॉक्सी सम्प्रदाय</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_PROTESTANTISM">
+      <Text>प्रोटेस्टेंटवाद</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SHINTO">
+      <Text>शिंटो (Shinto)</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_SIKHISM">
+      <Text>सिख धर्म</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_TAOISM">
+      <Text>ताओवादी धर्म</Text>
+    </Row>
+    <Row Tag="LOC_RELIGION_ZOROASTRIANISM">
+      <Text>ज़ोरोएस्ट्रियनिज़म</Text>
+    </Row>
+    <!--BELIEF CLASSES-->
+    <Row Tag="LOC_BELIEF_CLASS_PANTHEON_NAME">
+      <Text>पैंथेओन (Paanthéon)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_FOLLOWER_NAME">
+      <Text>अनुयायी (Anuyayi)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_WORSHIP_NAME">
+      <Text>पूजा</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_FOUNDER_NAME">
+      <Text>संस्थापक</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CLASS_ENHANCER_NAME">
+      <Text>एनहांसर (Enhancer)</Text>
+    </Row>
+    <!--MISCELLANEOUS-->
+    <Row Tag="LOC_RELIGION_MARTYRED_APOSTLE">
+      <Text>शहीद अधिकारी</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_TRIBAL_VILLAGE">
+      <Text>जनजातीय गांव</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_GOVERNOR">
+      <Text>राज्यपाल</Text>
+    </Row>
+    <Row Tag="LOC_RELIC_CITY_STATE">
+      <Text>सुज़ेरेन</Text>
+    </Row>
+    <!--PANTHEON NAMES-->
+    <!--1. PANTHEON BELIEFS-->
+    <!--Pantheon - Adjacency Bonuses-->
+    <Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_NAME">
+      <Text>औरोरा का नृत्य (Aurora ka nrity)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DESERT_FOLKLORE_NAME">
+      <Text>रेगिस्तानी लोक कथाएं</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SACRED_PATH_NAME">
+      <Text>पवित्र पथ (Pavitr Path)</Text>
+    </Row>
+    <!--Pantheon - Amenity Bonuses-->
+    <Row Tag="LOC_BELIEF_RIVER_GODDESS_NAME">
+      <Text>नदी की देवी</Text>
+    </Row>
+    <!--Pantheon - Gameplay Race Bonuses-->
+    <Row Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_NAME">
+      <Text>देवताओं के लिए स्मारक</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_SPARK_NAME">
+      <Text>दिव्य ज्वाला (Divya Jwala)</Text>
+    </Row>
+    <!--Pantheon - Local Feature Bonuses-->
+    <Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_NAME">
+      <Text>घास और झीलों की महिला</Text>
+    </Row>
+    <!--Pantheon - Local Resource Bonuses-->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_SEA_NAME">
+      <Text>समुद्र का देवता</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_NAME">
+      <Text>खुले आसमान का ईश्वर</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_NAME">
+      <Text>शिकार की देवी</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STONE_CIRCLES_NAME">
+      <Text>पत्थर के वृत्ताकारों</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_NAME">
+      <Text>धार्मिक मूर्तियां</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_NAME">
+      <Text>शिल्पकारों का देवता</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_NAME">
+      <Text>त्योहारों की देवी</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ORAL_TRADITION_NAME">
+      <Text>मौखिक परंपरा (Maukhik Parmpara)</Text>
+    </Row>
+    <!--Pantheon - Military -->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_FORGE_NAME">
+      <Text>फोर्ज का भगवान</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_WAR_NAME">
+      <Text>युद्ध का देवता</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_INITIATION_RITES_NAME">
+      <Text>प्रारंभिक अनुष्ठानों</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_HEALING_NAME">
+      <Text>चिकित्सा का देवता</Text>
+    </Row>
+    <!--Pantheon - General Purpose-->
+    <Row Tag="LOC_BELIEF_FERTILITY_RITES_NAME">
+      <Text>प्रजनन धर्माचरण</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_NAME">
+      <Text>धार्मिक बसेंटें</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HARVEST_NAME">
+      <Text>फसल की देवी (Fasal ki Devi)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CITY_PATRON_GODDESS_NAME">
+      <Text>नगर की प्रतिनिधि देवी</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_EARTH_GODDESS_NAME">
+      <Text>पृथ्वी देवी</Text>
+    </Row>
+    <!--2. WORSHIP BELIEFS-->
+    <Row Tag="LOC_BELIEF_CATHEDRAL_NAME">
+      <Text>कैथेड्रल</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DAR_E_MEHR_NAME">
+      <Text>दर-ए मेहर</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GURDWARA_NAME">
+      <Text>गुरुद्वारा (Gurudwara)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MEETING_HOUSE_NAME">
+      <Text>मीटिंग हाउस</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MOSQUE_NAME">
+      <Text>मस्जिद (Masjid)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAGODA_NAME">
+      <Text>पगड़ी</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STUPA_NAME">
+      <Text>स्तूप</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SYNAGOGUE_NAME">
+      <Text>सिनेगॉग (Sinegog)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WAT_NAME">
+      <Text>Wat</Text>
+    </Row>
+    <!--3. FOLLOWER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHORAL_MUSIC_NAME">
+      <Text>शोरल संगीत</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_INSPIRATION_NAME">
+      <Text>दिव्य प्रेरणा</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_FEED_THE_WORLD_NAME">
+      <Text>दुनिया को खिलाओ (duniya ko khilao)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JESUIT_EDUCATION_NAME">
+      <Text>जेसुइट शिक्षा</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIQUARIES_NAME">
+      <Text>रिलिक्वेरीज़ (Reliquaries)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_NAME">
+      <Text>धार्मिक समुदाय (Dharmik Samuday)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WARRIOR_MONKS_NAME">
+      <Text>योद्धा संन्यासी</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORK_ETHIC_NAME">
+      <Text>काम का नैतिकता</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ZEN_MEDITATION_NAME">
+      <Text>जेन ध्यान</Text>
+    </Row>
+    <!--4. FOUNDER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHURCH_PROPERTY_NAME">
+      <Text>चर्च संपत्ति (Charch Sampatti)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CROSS_CULTURAL_DIALOGUE_NAME">
+      <Text>अन्तरसांस्कृतिक संवाद</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_LAY_MINISTRY_NAME">
+      <Text>ले मंत्रीयता</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAPAL_PRIMACY_NAME">
+      <Text>पोप का प्रधानता</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PILGRIMAGE_NAME">
+      <Text>तीर्थयात्रा (Tirthayatra)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_UNITY_NAME">
+      <Text>धार्मिक एकता</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STEWARDSHIP_NAME">
+      <Text>प्रबंधकीयता (Prabandhakiyata)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_TITHE_NAME">
+      <Text>दसवां भाग (dasvāṁ bhāg)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORLD_CHURCH_NAME">
+      <Text>विश्व चर्च</Text>
+    </Row>
+    <!--5. ENHANCER BELIEFS-->
+    <Row Tag="LOC_BELIEF_BURIAL_GROUNDS_NAME">
+      <Text>दफ़न स्थल (Dafan Sthal)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DEFENDER_OF_FAITH_NAME">
+      <Text>धर्म का रक्षक</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HOLY_ORDER_NAME">
+      <Text>पवित्र आदेश (Pavitr Aadesh)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ITINERANT_PREACHERS_NAME">
+      <Text>भ्रमणकारी प्रचारक</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JUST_WAR_NAME">
+      <Text>धर्मयुद्ध (Dharmayuddh)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MISSIONARY_ZEAL_NAME">
+      <Text>धर्माध्यापक का उत्साह</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MONASTIC_ISOLATION_NAME">
+      <Text>श्रमण संन्यासी अलगाव</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_NAME">
+      <Text>धार्मिक आक्रमण</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCRIPTURE_NAME">
+      <Text>शास्त्र (Shashtra)</Text>
+    </Row>
+    <!--PANTHEON DESCRIPTIONS-->
+    <!--1. PANTHEON BELIEFS-->
+    <!--Pantheon - Adjacency Bonuses-->
+    <Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION">
+      <Text>पवित्र स्थल जिलों को आसपास के टंडरा टाइल से +1 [ICON_Faith] धर्म मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION">
+      <Text>पवित्र स्थान जिले आस-पास के रेगिस्तान टाइल्स से +1 [ICON_Faith] धर्म प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SACRED_PATH_DESCRIPTION">
+      <Text>पवित्र स्थल जिलों को आस-पास के वर्षावन टाइल से +1 [ICON_Faith] धर्म मिलता है।</Text>
+    </Row>
+    <!--Pantheon - Amenity Bonuses-->
+    <Row Tag="LOC_BELIEF_RIVER_GODDESS_DESCRIPTION">
+      <Text>यदि किसी नगर में नदी के समीप एक पवित्र स्थान जिला हो तो वह [ICON_Amenities] सुविधा शहरों के लिए एक सुविधा है।</Text>
+    </Row>
+    <!--Pantheon - Gameplay Race Bonuses-->
+    <Row Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION">
+      <Text>प्राचीन और क्लासिक युग के आश्चर्यों के लिए उत्पादन में +15% [ICON_Production]।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_SPARK_DESCRIPTION">
+      <Text>होली साइट (पैगंबर), कैंपस (वैज्ञानिक) और थिएटर स्क्वेयर (लेखक) जिलों से [ICON_GreatPerson] महान व्यक्ति अंक का एक प्राप्त करें।</Text>
+    </Row>
+    <!--Pantheon - Local Feature Bonuses-->
+    <Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION">
+      <Text>+1 [ICON_Production] मार्श, ओएसिस, और फ्लडप्लेन से उत्पादन।</Text>
+    </Row>
+    <!--Pantheon - Local Resource Bonuses-->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_SEA_DESCRIPTION">
+      <Text>+1 [ICON_Production] मछली पकड़ने वाली नावों से उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION">
+      <Text>+1 [ICON_Culture] चरागाह से संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION">
+      <Text>+1 [ICON_Food] कैंप से खाना।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION">
+      <Text>+2 [ICON_Faith] क्वारी से विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION">
+      <Text>+2 [ICON_Faith] खनिजों से लगभग लक्ष्य और बोनस संसाधनों से धर्म।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_DESCRIPTION">
+      <Text>+1 [ICON_Production] तख्तों से रणनीतिक संसाधनों पर उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_DESCRIPTION">
+      <Text>+1 [ICON_Food] [ICON_RESOURCE_WINE] वाइन, [ICON_RESOURCE_INCENSE] इंसेंस, [ICON_RESOURCE_COCOA] कोको, [ICON_RESOURCE_TOBACCO] तम्बाकू, [ICON_RESOURCE_COFFEE] कॉफ़ी और [ICON_RESOURCE_TEA] चाय के बाग़ से आने वाला भोजन।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION">
+      <Text>+1 [ICON_Culture] कुल्चर मुस्कान, नीबू, कपास, रंग, सिल्क, मसाले और चीनी के बागवान से। [ICON_RESOURCE_BANANAS] [ICON_RESOURCE_CITRUS] [ICON_RESOURCE_COTTON] [ICON_RESOURCE_DYES] [ICON_RESOURCE_SILK] [ICON_RESOURCE_SPICES] [ICON_RESOURCE_SUGAR]</Text>
+    </Row>
+    <!--Pantheon - Military -->
+    <Row Tag="LOC_BELIEF_GOD_OF_THE_FORGE_DESCRIPTION">
+      <Text>प्राचीन और क्लासिक सैन्य इकाइयों के लिए 25% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_HEALING_DESCRIPTION">
+      <Text>आपके सांत्वना स्थल क्षेत्र में या किसी भी आस-पास के टाइल में चिकित्सा में +30 की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GOD_OF_WAR_DESCRIPTION">
+      <Text>बोनस [ICON_Faith] धर्म दिवंगत होने वाले प्रत्येक युद्ध इकाई की शक्ति के 50% के बराबर, 8 टाइल के एक पवित्र स्थान क्षेत्र के पास। (मानक गति पर)</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_INITIATION_RITES_DESCRIPTION">
+      <Text>प्रत्येक बार्बरियन आउटपोस्ट साफ करने के लिए +50 [ICON_Faith] विश्वास।</Text>
+    </Row>
+    <!--Pantheon - General Purpose-->
+    <Row Tag="LOC_BELIEF_FERTILITY_RITES_DESCRIPTION">
+      <Text>शहर की विकास दर 10% अधिक है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_DESCRIPTION">
+      <Text>सीमा का विस्तार दर 15% अधिक है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GODDESS_OF_THE_HARVEST_DESCRIPTION">
+      <Text>जब किसी संसाधन का अनुचित उपयोग होता है या कोई सुविधा हटाई जाती है तो उससे [ICON_Faith] विश्वास का समान मात्रा मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION">
+      <Text>शहरों में जिनमें कोई विशेषता जोन नहीं है, उन शहरों के जिलों के प्रति उत्पादन में +25% [ICON_Production]।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_EARTH_GODDESS_DESCRIPTION">
+      <Text>आकर्षक या उत्कृष्ट आकर्षण वाली टाइल से [ICON_Faith] धर्म का लाभ +1।</Text>
+    </Row>
+    <!--2. WORSHIP BELIEFS-->
+    <Row Tag="LOC_BELIEF_CATHEDRAL_DESCRIPTION">
+      <Text>कैथेड्रल के निर्माण की अनुमति देता है (+3 [ICON_Faith] धर्म, धार्मिक कला के लिए 1 स्लॉट)।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DAR_E_MEHR_DESCRIPTION">
+      <Text>दर-ए-मेहर निर्माण की अनुमति देता है (+3 [ICON_Faith] धर्म, निर्माण के बाद या अंतिम बार मरम्मत के बाद प्रत्येक युग के लिए अतिरिक्त +1 [ICON_FAITH]).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_GURDWARA_DESCRIPTION">
+      <Text>गुरुद्वारों का निर्माण संभव (+3 [ICON_Faith] धर्म, +2 [ICON_Food] खाद्य)।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MEETING_HOUSE_DESCRIPTION">
+      <Text>सभा घरों का निर्माण संभव है (+3 [ICON_Faith] धर्म, +2 [ICON_Production] उत्पादन)।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MOSQUE_DESCRIPTION">
+      <Text>मस्जिदों का निर्माण (+3 [ICON_Faith] देववाणी) की अनुमति देता है। मिशनरियों और अपोस्तलों को +1 फैलाने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAGODA_DESCRIPTION">
+      <Text>पगोडों का निर्माण अनुमति देता है (+3 [ICON_Faith] धर्म, +1 [ICON_Housing] आवास)।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STUPA_DESCRIPTION">
+      <Text>स्तूप का निर्माण स्वीकृत (+3 [ICON_Faith] श्रद्धा, +1 [ICON_Amenities] सुविधा)।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SYNAGOGUE_DESCRIPTION">
+      <Text>Synagogues का निर्माण सुविधा उपलब्ध है (+5 [ICON_Faith] धर्म).</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WAT_DESCRIPTION">
+      <Text>वात्स निर्माण की अनुमति देता है (+3 [ICON_Faith] धर्म, +2 [ICON_Science] विज्ञान)।</Text>
+    </Row>
+    <!--3. FOLLOWER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHORAL_MUSIC_DESCRIPTION">
+      <Text>मंदिर और तीर्थस्थल [ICON_Faith] धार्मिक महत्व के साथ [ICON_Culture] संस्कृति को भी प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DIVINE_INSPIRATION_DESCRIPTION">
+      <Text>सभी विश्व के अद्भुत आश्चर्य +4 [ICON_Faith] धर्म प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_FEED_THE_WORLD_DESCRIPTION">
+      <Text>मंदिर और धार्मिक स्थलों से [ICON_Food] भोजन मूल्यांकन के अनुसार उनके [ICON_Faith] धार्मिक मूल्य के बराबर प्रदान किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION">
+      <Text>[ICON_Faith] आस्था के साथ कैंपस और थिएटर स्क्वेयर ज़िले की इमारतें खरीदी जा सकती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIQUARIES_DESCRIPTION">
+      <Text>[ICON_GreatWork_Relic] अवशेषों का तीन गुणा उत्पादन होता है, [ICON_Faith] धर्म और [ICON_Tourism] पर्यटन का।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_DESCRIPTION">
+      <Text>श्राइन और मंदिर हर एक +1 [ICON_Housing] आवास प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WARRIOR_MONKS_DESCRIPTION">
+      <Text>मदद करता है [ICON_Faith] विश्वास का खर्च योद्धा मोंकों के प्रशिक्षण के लिए, जो एक अद्वितीय पदोन्नति वृक्ष के साथ मध्ययुगीन भूमि युद्ध इकाइयों हैं। केवल उसके पवित्र स्थल के मंदिर के साथ शहर में खरीदा जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORK_ETHIC_DESCRIPTION">
+      <Text>हर नागरिक के लिए [ICON_Production] शहर में इस धर्म का अनुसरण करने से 1% उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] शहरों में 2 विशेषता जिलों के साथ सुविधा।</Text>
+    </Row>
+    <!--4. FOUNDER BELIEFS-->
+    <Row Tag="LOC_BELIEF_CHURCH_PROPERTY_DESCRIPTION">
+      <Text>इस धर्म का अनुसरण करने वाले प्रत्येक शहर के लिए +2 [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_CROSS_CULTURAL_DIALOGUE_DESCRIPTION">
+      <Text>+1 [ICON_Science] इस धर्म के अन्य सभ्यताओं में हर 5 अनुयायी के लिए विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_LAY_MINISTRY_DESCRIPTION">
+      <Text>इस धर्म के अनुसार किसी भी शहर में हर पवित्र स्थल या थिएटर स्क्वेयर ज़ोन आपको एक अतिरिक्त धर्म का [ICON_Faith] +1 या संस्कृति का [ICON_Culture] +1 प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PAPAL_PRIMACY_DESCRIPTION">
+      <Text>आपके धर्म के अनुयायियों से मिलने वाले शहर राज्यों के बोनस 50% अधिक शक्तिशाली होंगे।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_PILGRIMAGE_DESCRIPTION">
+      <Text>+2 [ICON_Faith] धर्म का पालन करने वाली अन्य सभी सभ्यताओं और शहर-राज्यों में हर शहर के लिए विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_UNITY_DESCRIPTION">
+      <Text>इस धर्म को शुरू करने पर प्रत्येक सिटी-स्टेट में [ICON_Envoy] एक एन्वॉय, सिटी-स्टेट क्वेस्ट से किसी भी एन्वॉय के अतिरिक्त।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_STEWARDSHIP_DESCRIPTION">
+      <Text>शहर के प्रत्येक कैंपस या वाणिज्यिक हब जिले में इस धर्म का पालन करने वाले लोगों को +1 [ICON_Science] विज्ञान या +1 [ICON_Gold] सोने की प्रदान की जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_TITHE_DESCRIPTION">
+      <Text>+1 [ICON_Gold] इस धर्म के हर 4 अनुयायियों के लिए सोना।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_WORLD_CHURCH_DESCRIPTION">
+      <Text>+1 [ICON_Culture] इस धर्म के 5 अन्य सभ्यताओं में अनुयायियों के लिए संस्कृति।</Text>
+    </Row>
+    <!--5. ENHANCER BELIEFS-->
+    <Row Tag="LOC_BELIEF_BURIAL_GROUNDS_DESCRIPTION">
+      <Text>पवित्र स्थल को पूरा करते समय आसपास के टाइलों पर संस्कृति का बम फोड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_DEFENDER_OF_FAITH_DESCRIPTION">
+      <Text>युद्ध इकाइयों को यदि ये धर्म अनुसरण करने वाले मित्रपक्षीय शहरों की सीमाओं के भीतर हों तो +5 [ICON_Strength] युद्ध शक्ति प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_HOLY_ORDER_DESCRIPTION">
+      <Text>धर्मप्रचारक और अधिकारी खरीदने में 30% सस्ते हो गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_ITINERANT_PREACHERS_DESCRIPTION">
+      <Text>धर्म शहरों तक 30% दूर फैलता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_JUST_WAR_DESCRIPTION">
+      <Text>युद्ध इकाइयों को इस धर्म का अनुसरण करने वाले विदेशी शहरों की सीमाओं के भीतर होने पर +10 [ICON_Strength] युद्ध ताकत प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MISSIONARY_ZEAL_DESCRIPTION">
+      <Text>धार्मिक इकाइयों को भूमि और सुविधाओं के [ICON_Movement] आंदोलन लागतों की अनदेखी की जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_MONASTIC_ISOLATION_DESCRIPTION">
+      <Text>आपके धर्म का दबाव धार्मिक युद्ध में हार के कारण कभी नहीं घटता।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_DESCRIPTION">
+      <Text>शहर इस धर्म से शुरू होते हैं जिसे यदि किसी खिलाड़ी की अधिकांशता आ जाती है तो उसे स्थापित किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_BELIEF_SCRIPTURE_DESCRIPTION">
+      <Text>आस-पास के शहर से धार्मिकता का प्रचार 25% ज्यादा मजबूत होता है। प्रिंटिंग रिसर्च किया जाने के बाद 50% तक बढ़ जाता है।</Text>
+    </Row>
+    <!--BELIEF COMBAT BONUSES-->
+    <Row Tag="LOC_PROMOTION_DEFENDER_OF_FAITH_DESCRIPTION">
+      <Text>+{1_Value} धर्मरक्षक विश्वास</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_JUST_WAR_DESCRIPTION">
+      <Text>+{1_Value} क्रुसेड विश्वास</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_INCOMING_RELIGION_PRESSURE">
+      <Text>हर घुमाने पर आने वाला दबाव</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_OUTGOING_RELIGION_PRESSURE">
+      <Text>प्रति चक्कर निकलने वाला दबाव</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_PREDOMINANT_RELIGION">
+      <Text>{1_ReligionName} (प्रधानता से)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_FOLLOWER_PRESSURE_TOOLTIP_HEADER">
+      <Text>फॉलोअर्स / कुल दबाव प्राप्त:</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_FOLLOWER_PRESSURE_TOOLTIP">
+      <Text>{1_ReligionName}: [NEWLINE] {2_Followers} अनुयायी, कुल दबाव {3_TotalPressure}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

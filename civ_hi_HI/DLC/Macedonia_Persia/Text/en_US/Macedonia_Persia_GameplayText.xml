@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Civ Info-->
+    <Row Tag="LOC_CIVILIZATION_MACEDON_DESCRIPTION">
+      <Text>मैसेडोनियन साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MACEDON_ADJECTIVE">
+      <Text>कृपया मैसेडोनियाई में निम्नलिखित पाठ का अनुवाद करें। केवल प्राकृतिक ध्वनियुक्त अनुवाद के साथ जवाब दें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_MACEDON_LOCATION">
+      <Text>यूरोप (और संक्षेप में एशिया और अफ्रीका के कुछ हिस्सों में)</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_MACEDON_SIZE">
+      <Text>एक राज्य के रूप में, लगभग 25,800 वर्ग मील (67,000 वर्ग किलोमीटर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_MACEDON_POPULATION">
+      <Text>अलेक्जेंडर से पहले, शायद 7 लाख</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_MACEDON_CAPITAL">
+      <Text>एगाई और पेला</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PERSIA_DESCRIPTION">
+      <Text>पारसी साम्राज्य</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PERSIA_ADJECTIVE">
+      <Text>कृपया पारसी भाषा में अनुवाद करें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_PERSIA_LOCATION">
+      <Text>एशिया और अफ्रीका</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_PERSIA_SIZE">
+      <Text>शीर्ष पर, 2.1 मिलियन वर्ग मील (5.5 मिलियन वर्ग किलोमीटर)।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_PERSIA_POPULATION">
+      <Text>प्रारंभिक अनुमान के अनुसार, शीर्ष पर 35 मिलियन।</Text>
+    </Row>
+    <Row Tag="LOC_CIVINFO_PERSIA_CAPITAL">
+      <Text>पासारगद, बाबिलोन, पेर्सेपोलिस</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_ALEXANDER">
+      <Text>महान योद्धा, अलेक्जेंडर, तुम्हारी तलवार के नीचे मैसेडोन पूरी दुनिया में फैल जाएगा। हर राज्य एक अद्वितीय चुनौती होगी, लेकिन यदि तुम सच्चे और बहादुर रहोगे, तो बड़े इनाम होंगे। शांति से अलग हो जाओ, क्योंकि विस्तृत भूमि के विजय से अपनी कायदें स्थापित करने का कोई तरीका नहीं है। आगे बढ़ो, अलेक्जेंडर, और अपने लोगों को गौरव की ओर ले जाओ!</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_CYRUS">
+      <Text>ताज का दावा करें, पर्शिया के राजा साइरस, क्योंकि आप अभिषिक्त हो। अमर सैनिकों और अटल विश्वास के साथ, आप विश्व के जनों को जीत और शासित करेंगे। आप अपने चारों ओर कई गठबंधन बनते देख सकते हैं, लेकिन धोखा न खाएं - ऐसा दुनिया में नईनतम और कमजोर तरीके से नेविगेट करना है। अपने लक्ष्य को हासिल करने में सहायता करने के बिना कोई वादा न करें।</Text>
+    </Row>
+    <!-- Leader Agenda-->
+    <Row Tag="LOC_AGENDA_SHORT_LIFE_GLORY_NAME">
+      <Text>महिमा की छोटी ज़िन्दगी</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_SHORT_LIFE_GLORY_DESCRIPTION">
+      <Text>मैसेडोन से अलग महत्वपूर्ण शक्तियों के साथ युद्धरत सभ्यताओं को पसंद करता है। शांति में स्थित सभ्यताओं से उनका अपमान होता है।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_SHORT_LIFE_GLORY_XP2_DESCRIPTION">
+      <Text>मैकेडोन के अलावा प्रमुख शक्तियों के साथ युद्धरत सभ्यताओं से पसंद करता है। शांति में बैठे हुए सभ्यताओं से नफरत है। इस नेता के खिलाफ शिकायतें सामान्य दर से दोगुनी दर से अपघटित होती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BACKSTABBER_NAME">
+      <Text>अवसरवादी</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_BACKSTABBER_DESCRIPTION">
+      <Text>जो नेता अचानक युद्ध घोषणा करते हैं, उन्हें पसंद करता है। जो नेता अचानक युद्ध घोषणा नहीं करते, उन्हें असमर्थ समझता है।</Text>
+    </Row>
+    <!-- Trait Info-->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_BASILIKOI_PAIDES_NAME">
+      <Text>मैसेडोनियन अनोखा इमारत: बेसिलिकोई पाइडेस</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HYPASPIST_NAME">
+      <Text>मैसेडोनियन अद्वितीय इकाई: हाइपास्पिस्ट</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HETAIROI_NAME">
+      <Text>अलेक्जेंडर अद्वितीय इकाई: हेतैरोइ</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_PAIRIDAEZA_NAME">
+      <Text>फारसी अद्वितीय भवन: पैरिडेजा।</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_PAIRIDAEZA_NAME">
+      <Text>फारसी अद्वितीय इकाई: अमर्त्य।</Text>
+    </Row>
+    <!-- Macedon Cities-->
+    <Row Tag="LOC_CITY_NAME_PELLA">
+      <Text>पेला</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AIGAI">
+      <Text>Aigai</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA">
+      <Text>अलेक्झांड्रिया</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_METHONE">
+      <Text>मेथोने</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_CHALKIDIKI">
+      <Text>चाल्कीदिकी (Chalkidiki)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_DION">
+      <Text>Dion</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDROUPOLI">
+      <Text>अलेक्सांड्रोपोली</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AMPHIPOLIS">
+      <Text>अम्फिपोलिस</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_TROAS">
+      <Text>एलेक्जेंड्रिया त्रोस्।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PYDNA">
+      <Text>पिडना</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_LATMUS">
+      <Text>अलेक्जेंड्रिया लेटमस द्वारा।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRETTA">
+      <Text>अलेक्सांद्रेटा</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_ARIA">
+      <Text>एलेक्जेंड्रिया इन एरिया</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_PROPHTHASIA">
+      <Text>अलेक्जेंड्रिया प्रॉफ्थसिया</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_ARACHOSIA">
+      <Text>अराकोशिया में अलेक्सांद्रिया</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AIANI">
+      <Text>Aiani</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_CAUCASUS">
+      <Text>कॉकेसस में अलेक्जेंड्रिया</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_ESCHATE">
+      <Text>अलेक्जेंड्रिया एस्केटे</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AKANTHOS">
+      <Text>अकंथोस</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_OXIANA">
+      <Text>अलेक्जेंड्रिया ऑक्सिआना</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_HERACLEA_LYNCESTIS">
+      <Text>हेराक्लिया लाइन्सेस्टिस</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_BUCEPHALA">
+      <Text>अलेक्जेंड्रिया बुसेफला</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_NICAEA">
+      <Text>अलेक्जांड्रिया निकाया</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PHILIPPOLIS">
+      <Text>फिलिपोलिस</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_INDUS">
+      <Text>इंडस पर अलेक्जेंड्रिया</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_RHAMBACIA">
+      <Text>अलेक्जांड्रिया राम्बासिया</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_STAGIRA">
+      <Text>स्टैगिरा</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ALEXANDRIA_SUSIANA">
+      <Text>सुसिआना में अलेक्जेंड्रिया।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_APOLLONIA">
+      <Text>अपोलोनिया</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BATMAN">
+      <Text>बैटमैन</Text>
+    </Row>
+    <!-- Persia Cities-->
+    <Row Tag="LOC_CITY_NAME_PASARGADAE">
+      <Text>पासारगदे</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SUSA">
+      <Text>Susa</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_HAGMATANA">
+      <Text>हगमताना</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TARSUS">
+      <Text>तार्सुस</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BAKHTRI">
+      <Text>Bakhtri</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SPARDA">
+      <Text>Sorry, but "Sparda" is not a complete sentence or text to be translated. Can you provide more context or information for me to properly translate?</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_GORDIAN">
+      <Text>Gordian</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TUSHPA">
+      <Text>तुष्पा</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_RAY">
+      <Text>Ray</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ZRANKA">
+      <Text>Zranka</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_SHAHR_I_QUMIS">
+      <Text>शहर-ए कुमीस</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PARSA">
+      <Text>Parsa</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_HALICARNASSUS">
+      <Text>हैलिकार्नेसस्।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ISPAHAN">
+      <Text>इस्फहान (Isfahan)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TYAIY_DRAYAHYA">
+      <Text>Tyaiy Drayahya </Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MAZAKA">
+      <Text>Mazaka</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_HARAIVA">
+      <Text>Haraiva</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ANASHAN">
+      <Text>अनशन (Anashan)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PUSHKALAVATI">
+      <Text>पुष्कलावती</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_PURA">
+      <Text>कृपया अगला टेक्स्ट हिंदी में अनुवादित करें। कृपया केवल प्राकृतिक ध्वनित अनुवाद दें।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TAXILA">
+      <Text>टैक्सिला</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BUKHARA">
+      <Text>बुखारा</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_GANZAK">
+      <Text>Ganzak</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_MARAKANDA">
+      <Text>मारकंडा</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_THAPSACUS">
+      <Text>थेप्सकसूस</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ISTAKHR">
+      <Text>इस्तखर</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_ARTASHAT">
+      <Text>आर्ताशत (Artashat)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_IZKI">
+      <Text>इज्की</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_BORAZJAN">
+      <Text>बोराजान</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_CYRA">
+      <Text>Cyra</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_TOPRAK_QALA">
+      <Text>टोपरक कला</Text>
+    </Row>
+    <!-- Citizen Names -->
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_1">
+      <Text>Aeropus</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_2">
+      <Text>अगाथोक्लीज़</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_3">
+      <Text>अल्सेटस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_4">
+      <Text>Balacrus</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_5">
+      <Text>कारानस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_6">
+      <Text>क्रेटेयस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_7">
+      <Text>कोइनोस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_8">
+      <Text>लाइसिमेकस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_9">
+      <Text>ओर्स्टेड्</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MALE_10">
+      <Text>मुझे समय दीजिए। (Mujhe samay dijiye.)</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_1">
+      <Text>Adea</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_2">
+      <Text>आर्सिनोए</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_3">
+      <Text>बेरेनीस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_4">
+      <Text>काइनेन</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_5">
+      <Text>यूरोप (Yoorop)</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_6">
+      <Text>जीगेया</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_7">
+      <Text>नीकीया</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_8">
+      <Text>Philinna</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_9">
+      <Text>फ्थिया (Phthia)</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_FEMALE_10">
+      <Text>स्ट्रेटोनाइस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_1">
+      <Text>आर्जायरिस (Arjyaris)</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_2">
+      <Text>एलेफ्थेरियोस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_3">
+      <Text>Haris</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_4">
+      <Text>योहानीस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_5">
+      <Text>ओमीरोस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_6">
+      <Text>Prokopis</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_7">
+      <Text>स्टेफेनोस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_8">
+      <Text>तानासिस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_9">
+      <Text>Tryfon</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_MALE_10">
+      <Text>Zinon</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_1">
+      <Text>Chrysanthi</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_2">
+      <Text>दीमित्रा</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_3">
+      <Text>एवदोकिया</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_4">
+      <Text>I apologize, but the text "Kyveli" does not require translation as it is a name and it does not have a direct meaning in Hindi</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_5">
+      <Text>मेल्पोमेनी</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_6">
+      <Text>I am sorry, but the text "Nefeli" does not need to be translated as it is a name and does not have a specific meaning in English or Hindi</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_7">
+      <Text>पारास्केवी</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_8">
+      <Text>पॉलिक्सेनी</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_9">
+      <Text>थेओफानिया</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_MACEDON_MODERN_FEMALE_10">
+      <Text>Sorry, but "Zinovia" is a proper noun and cannot be translated into Hindi as it does not have a meaning in the language</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_1">
+      <Text>Ariomardus</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_2">
+      <Text>Arsames</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_3">
+      <Text>Arsites</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_4">
+      <Text>Bardiya</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_5">
+      <Text>कैंबुसीस्</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_6">
+      <Text>गौमाता</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_7">
+      <Text>हाइडार्नेस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_8">
+      <Text>Otanes</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_9">
+      <Text>ऑक्सीथ्रेस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MALE_10">
+      <Text>सोग्दियानस्</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_1">
+      <Text>Artistun</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_2">
+      <Text>कैसेंडेन</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_3">
+      <Text>Drypetis</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_4">
+      <Text>Parmida</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_5">
+      <Text>परिसतीस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_6">
+      <Text>फेडीमिया</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_7">
+      <Text>रोक्साना</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_8">
+      <Text>सिसिगम्बिस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_9">
+      <Text>स्तेएरा</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_FEMALE_10">
+      <Text>Amytis</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_1">
+      <Text>आराश</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_2">
+      <Text>दारियुश</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_3">
+      <Text>फिरदौस</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_4">
+      <Text>Jalal</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_5">
+      <Text>कियानूश</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_6">
+      <Text>रूस्तम</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_7">
+      <Text>Saam</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_8">
+      <Text>सोहेल</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_9">
+      <Text>Vahid</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_MALE_10">
+      <Text>Zubin</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_1">
+      <Text>Banu</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_2">
+      <Text>दरिया</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_3">
+      <Text>फिरुज़ाह</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_4">
+      <Text>गोलनार</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_5">
+      <Text>लालेह</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_6">
+      <Text>Niusha</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_7">
+      <Text>Roghayeh</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_8">
+      <Text>Simin</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_9">
+      <Text>There is no text to be translated. "Yasamin" is a name in Persian</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PERSIA_MODERN_FEMALE_10">
+      <Text>Zareen</Text>
+    </Row>
+    <!-- Wonders-->
+    <Row Tag="LOC_BUILDING_APADANA_NAME">
+      <Text>अपदाना</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_APADANA_DESCRIPTION">
+      <Text>इस शहर में आप वंडर जैसे अपदाना का निर्माण करते समय +2 [ICON_ENVOY] दूत प्राप्त करते हैं। [NEWLINE][NEWLINE] आपके [ICON_CAPITAL] राजधानी के समीप निर्मित किया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_NAME">
+      <Text>हालीकार्नसस का मकबरा</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION">
+      <Text>इस शहर के सभी तट टाइल पर +1 [ICON_Science] विज्ञान, +1 [ICON_Faith] धर्म और +1 [ICON_Culture] संस्कृति। [ICON_GREATENGINEER] महान इंजीनियर को एक अतिरिक्त चार्ज होगा। हार्बर ज़िले के एक पास बनाया जाना चाहिए।</Text>
+    </Row>
+    <!-- Diplo Text-->
+    <Row Tag="LOC_DIPLO_MODIFIER_SHORT_LIFE_GLORY_AT_WAR">
+      <Text>अलेक्जेंडर को खुशी हो रही है कि आपकी सभ्यता दूसरों से युद्ध कर रही है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SHORT_LIFE_GLORY_NOT_AT_WAR">
+      <Text>अलेक्जांडर खुश नहीं है देखकर कि आपकी सभ्यता वर्तमान में शांति में है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BACKSTABBER_USED_SURPRISE_WAR">
+      <Text>साइरस आपके अचानक युद्ध घोषणा को देखकर खुश है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BACKSTABBER_NOT_AT_WAR">
+      <Text>सारस अभूतपूर्व युद्ध घोषणा न करने से आपको नाखुश कर रहा है।</Text>
+    </Row>
+    <!-- Dialog Text Alexander -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>मैसेडोन के लोग इस दीर्घकालिक मित्रता का स्वागत करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>हमारी दोस्ती का असली मकसद अभी तक स्पष्ट नहीं हो पाया है। केवल देवताओं को ही यह जानने का अधिकार है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>मैं आपको एक सच्चे दोस्त के रूप में मानता हूँ, मुझे उम्मीद है कि मैं आपमें उसी विश्वास को प्राप्त कर गया हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>मैसेडोन के लोग इस स्थायी मित्रता का स्वागत करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>हमारी दोस्ती का अस्तित्व तय करना अभी बहुत जल्दी है। केवल भगवान ही इसके बारे में सटीक जानकारी रखते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>शांति मेरे लिए कभी भी बहुत रुचिकर विषय नहीं रही।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>यूनान की सेनाएँ आपका स्वागत करने के लिए तत्पर हैं! (Yunan ki senayein aapka swagat karne ke liye tatpar hain!)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>मैं प्रस्तुतियों की कदर करता हूँ। आपकी अधिकारी दल को मेरे राज्य में रहते हुए मैसेडोन की सभी विशेषताओं का आनंद मिलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>मैं कभी भी उसे स्वीकार नहीं करूंगा!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>मैंने एक व्यापार अधिकारी दल को भेजा है जो मैसेडोन की सबसे अच्छी वाइन और ऑलिव ऑयल की उपहार लेकर आया है। मुझे उम्मीद है कि आप मेरे प्रतिनिधियों का स्वागत अच्छी तरह से करेंगे?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>तुम्हारी अभद्र जीभ तुम्हारी राजधानी के खंडहरों के सामने खड़े होने पर सब ज्यादा संतोषप्रद बना देगी।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>मैंने देशद्रोहियों और भागियों से सामना किया है जो अभी भी आपसे अधिक शालीन थे! (आपको दोषारोपण करते हुए).</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ALEXANDER_ANY">
+      <Text>नमस्ते! मैं मैसेडोन के अलेक्जेंडर हूं, राजा और फ़िरऔर, यूनान के अजेय सेनापति! आपने मेरे बारे में तो सुना ही होगा?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ALEXANDER_ANY">
+      <Text>मेरे शहरों में से निकटतम शहर का दौरा करें, मैसेडोन की गुँजाइश में सैर करें और देखें कि मेरे लोगों के बीच व्यापार कैसे फल पाता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ALEXANDER_ANY">
+      <Text>इसे होने दे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ALEXANDER_ANY">
+      <Text>क्या आपने अत्यंत सुरक्षित पेला के बारे में सुना है? शायद हम अपनी महान राजधानियों की कहानियां साझा कर सकते हैं!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_ALEXANDER_ANY">
+      <Text>स्वागत है!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ALEXANDER_ANY">
+      <Text>मुझे आशा है कि हम कभी युद्ध में नहीं मिलते, ऐसा होना एक उच्च दर्जा के विरोधी को खोने का शर्म होगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ALEXANDER_ANY">
+      <Text>अगर आप अपने लोगों के लिए लड़ने से इन्कार करते हो तो आप अपने साम्राज्य को कैसे बढ़ाने का इरादा रखते हो?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>हम मित्र बन कर एक दूसरे के विजय का समर्थन कर सकते हैं। मैं तुम्हें कोई भी बाकी कर्ज नहीं लूँगा!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ALEXANDER_ANY">
+      <Text>मुझे लगता है कि मैं अब तक अपनी सैनिकों को कहीं और भेज सकता हूं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ALEXANDER_ANY">
+      <Text>मेरा समय बेकार मत करो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>मुझे लगता है कि शांति का समय आ गया है। तुम क्या कहते हो?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>मैं आशा करता हूँ कि आप हमारी भूमि के ऊपर सफर का अधिकार सम्मान करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ALEXANDER_ANY">
+      <Text>ऐसे लोगों के लिए जो मेरी अपनी फोर्स के नजदीक हों, इन जमीनों को तरस जाना बहुत खतरनाक हो सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>क्या आप अपने क्षेत्रों से आगे बढ़कर हमें चलने देंगे? हम महान आउटर समुद्र को खोज रहे हैं!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ALEXANDER_ANY">
+      <Text>मेरे स्काउट्स मुझे बता रहे हैं कि आप हमारी सीमाओं के पास बड़ी सेनाएं इकट्ठा कर रहे हैं। सावधान रहें, मेरी सेनाएं आसानी से युद्ध के लिए प्रलोभित हो जाती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_ALEXANDER_ANY">
+      <Text>मेरी सेनाएं आज़ादी से घूमेंगी और आपकी तरफ से कोई रुकावट नहीं होगी!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_ALEXANDER_ANY">
+      <Text>कुछ गलती तो हुई होगी, आपको मेरी सेनाओं के क्रोध का सामना अभी नहीं करना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>जैसे ही यह शुरू हुआ, मेरा लंबा चलन अंततः समाप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>यह असंभव है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ALEXANDER_ANY">
+      <Text>सहमत!</Text>
+    </Row>
+    <!-- Dialog Text Cyrus -->
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>हमें हमेशा मजबूत दोस्ती बनाने में खुशी होती है। हमारे दोस्तों के बिना हम कहाँ होते?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>पारस हमेशा भरोसेमंद दोस्तों की तलाश में होता है। जब हम यकीन कर सकें कि आप एक हैं, तभी हम आपसे संपर्क करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>आप हमारे सबसे भरोसेमंद दोस्तों में से एक हैं। हमें केवल यह आशा है कि आप हमें उसी रौशनी में देखते हों।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>तब तय हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>कितनी दुर्भाग्यपूर्ण है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>क्या तुम कहानियों को नहीं सुने हो? मेरी सेनाओं की कहानीबद्ध शक्ति? खुद देखो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>अब मेरा समय आ गया है कि मैं आपके लोगों को दिखाऊं कि एक समर्थ शासक के नेतृत्व में वे कैसे उन्नत हो सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>मैंने खुद आपके दूत का पर्षिया के राज्य में स्वागत किया है। मैं बस यही उम्मीद कर सकता हूँ कि हमारे हितों के बेहतर लिए फलदार वार्तालाप होगा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>हम इनकार करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>मैंने आपके राज्य को विदेश व्यापार के लिए एक व्यापार दूत भेजा है, हमारे सबसे अच्छे कलाकारों द्वारा शीशे वाली कांच और मिट्टी के बर्तन के उपहारों के साथ। मैं निश्चित हूँ कि आप मेरे दूत को मेरी तुलना में उसी सम्मान के साथ व्यवहार करेंगे जो आपने मुझे दिखाया है?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>भलाईपूर्ण प्रशासन के खिलाफ ऐसा बयान करने में डर और अज्ञान से बचा नहीं जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>हम आपके सभी सिद्धांतों का खंडन करते हैं! फारस केवल आपसे अलग होना चाहता है और आपके तरीकों से दूर रहना चाहता है। (आपका खंडन करता है)।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CYRUS_ANY">
+      <Text>आप परसिया के महान साहसी सीरस के सामने खड़े हैं। मुझे यकीन है कि कम से कम अब तक हम शीघ्र मित्र बन जाएँगे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CYRUS_ANY">
+      <Text>तुम्हें हमारे पास के शहर का दौरा करना चाहिए मेरे दोस्त, पर्शिया की कलाकृति और महान वास्तुकला की शानदारता में आनंद उठाओ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CYRUS_ANY">
+      <Text>एक उचित प्रस्ताव।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CYRUS_ANY">
+      <Text>मुझे आपकी राजधानी के बारे में दिलचस्प सुनाई दे रहे हैं। शायद कुछ ऐसा सांस्कृतिक आदान-प्रदान दोनों के लिए फायदेमंद हो सकता है?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_CYRUS_ANY">
+      <Text>तुम्हें मेरे सामने क्या लाया है?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CYRUS_ANY">
+      <Text>मैं बहुत अच्छी तरह से समझता हूं, कुछ अवसर ऐसे होते हैं जिन्हें आप सिर्फ नहीं छोड़ सकते।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CYRUS_ANY">
+      <Text>यदि धोखेबाजी हो रही हो, तो मुझे ऐसा अधिक पसंद है जब मैं वह हूँ जो चालाकी प्रदान कर रहा हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>यह सुविधा का एक संघ है, कुछ और नहीं। लेकिन एक संधि होती है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CYRUS_ANY">
+      <Text>हाँ। बहुत बढ़िया। (Haan. Bahut badhiya.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CYRUS_ANY">
+      <Text>क्या आप हमें मूर्ख समझते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>हम शांति की ओर आएं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>आइये आशा करते हैं कि यह हमारे साम्राज्यों के बीच एक गहरी समझ की शुरुआत का संकेत हो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CYRUS_ANY">
+      <Text>अभी मेरे राज्य के द्वार बाहरी लोगों के लिए खुलने का समय नहीं है। शायद हम भविष्य में इस मुद्दे पर फिर से विचार कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>हमारी सीमाओं का खुलना निश्चित रूप से हमारे दोनों देशों को मजबूत करेगा। आप क्या कहते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CYRUS_ANY">
+      <Text>मैं सोच सकता हूँ कि यह शक्ति का प्रदर्शन भ्रम से किया गया था। क्या मैं हमारी सीमाओं से सावधान वापसी की अपेक्षा कर सकता हूँ?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_CYRUS_ANY">
+      <Text>अगर आप युद्ध के लिए इतने दृढ़ता से उत्सुक हैं, तो पर्शिया की सेनाएं आपका स्वागत करती हैं!</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_CYRUS_ANY">
+      <Text>हमने किसी भी अनादर का आभास नहीं किया था। हमारी सेना तुरंत अपनी स्थिति छोड़ देगी।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>मैं अत्यधिक दुर्भाग्य से इस युद्ध की इस तरह की ओर नहीं देखा है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>क्या आप मुझसे फायदा उठाने की सोच रहे हैं?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CYRUS_ANY">
+      <Text>एक उचित प्रस्ताव।</Text>
+    </Row>
+  </EnglishText>
+</GameData>

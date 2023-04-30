@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!--Shared Districts-->
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_DESCRIPTION">
+      <Text>एक जिला जो इस शहर को एक पड़ोसी नदी, झील, ओएसिस या पहाड़ से ताजगी का स्रोत प्रदान करता है। जो शहरों के पास पहले से मौजूद ताजगी नहीं हैं, उन्हें तकनीक तक 6 [ICON_Housing] हाउसिंग प्राप्त होते हैं। शहरों के जो पहले से मौजूद ताजगी हैं, उन्हें बजाय में +2 [ICON_Housing] हाउसिंग मिलता है। यदि एक भूकंपित दरार के पास बनाया जाता है तो +1 [ICON_Amenities] सुविधा मिलती है। सूखे के दौरान [ICON_Food] खोने से रोकता है। शहर केंद्र के पास बनाया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION">
+      <Text>एक जिला जो इस शहर को एक पड़ोस के नदी, झील, ओएसिस, या पहाड़ से ताजगी के स्रोत प्रदान करता है। मौजूदा ताजगी वाले शहरों को +2 [ICON_Housing] हाउसिंग मिलेगा। शहरों को जो अभी ताजगी नहीं है, उन्हें तकनीकी सहायता से 6 [ICON_Housing] हाउसिंग मिलेगा। जो समीप मौजूद वेश्यालय ताप झरने से संलग्न है, उसे +1 [ICON_Amenities] सुविधा मिलेगी। आकाल के दौरान [ICON_Food] खोखला नहीं होगा। शहर केंद्र के आसपास बनाया जाना चाहिए। सैन्य अभियंता आकारों का 20% निर्माण करने के लिए एक प्रभार खर्च कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_NAME">
+      <Text>नहर</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_DESCRIPTION">
+      <Text>एक जनपद, जो दो जल शरीरों को जोड़ने या एक जल शरीर को शहर केंद्र से जोड़ने के लिए समतल जमीन पर बनाया गया है। [ICON_TradeRoute] इससे गुजरते व्यापार मार्ग अपने गंतव्य जनपदों में बने जनपदों से प्राप्त [ICON_Gold] सोने को गुणा कर सकते हैं। कैनाल सीधे हेक्स से गुजर सकते हैं या 60 डिग्री बेंड कर सकते हैं। हालांकि, तीन मार्ग कैनाल के जोड़करने की अनुमति नहीं है और कैनाल के दोनों तरफ पूर्ण भूमि के टाइल होने चाहिए जो उनके द्वारा बनाया जलमार्ग बनाते हैं। सैन्य इंजीनियर एक कैनाल की उत्पादनता का 20% पूरा करने के लिए एक चार्ज खर्च कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_NAME">
+      <Text>बांध</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_DESCRIPTION">
+      <Text>एक जिले को एक बाढ़पट्टी टाइल पर बनाया गया था ताकि इस नदी के साथ रहने की आरामदायक जिंदगी में सुधार हो सके। इस नदी के बाढ़ से होने वाले क्षति को रोकता है (यदि बाढ़ की उपज 50% गिर जाएँ)। दुष्काल के दौरान [ICON_Food] खो देने से बचाता है। नदी की बाढ़पट्टी पर केवल एक ही बनाया जा सकता है (जो भी खिलाड़ी पहले एक पूरा करता है) और नदी को बांध के हेक्स के कम से कम दोनों ओर से गुजरना चाहिए। सैन्य अभियंता एक डैम की उत्पादन शुरू करने के 20% पूरा करने के लिए एक चार्ज खर्च कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION_XP2">
+      <Text>एक जिला जो विज्ञान विजय परियोजनाओं {LOC_PROJECT_LAUNCH_EARTH_SATELLITE_NAME}, {LOC_PROJECT_LAUNCH_MOON_LANDING_NAME}, {LOC_PROJECT_LAUNCH_MARS_BASE_NAME} और {LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME} का निर्माण करने के लिए आवश्यक है। हिल पर नहीं बनाया जा सकता।</Text>
+    </Row>
+    <!--Adjacency Bonuses-->
+    <Row Tag="LOC_DISTRICT_DESERT_HILLS_FAITH">
+      <Text>+{1_num} [ICON_Faith] आस-पास के रेगिस्तानी पहाड़ियों से विश्वास {1_Num : plural 1?tile; other?tiles;}।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DESERT_FOOD">
+      <Text>+{1_num} [ICON_FOOD] पड़ोस के पास से खाने का सामान {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DESERT_HILLS_FOOD">
+      <Text>+{1_num} [ICON_FOOD] आस-पास की मरुधरा पहाड़ियों से खाने की वस्तु {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_GOLD">
+      <Text>+[ICON_GOLD] पड़ोस की पहाड़ से {1_num} {1_Num : plural 1?tile; other?tiles;} सोना।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] आस-पास की पहाड़ियों से उत्पादन {1_Num: singular 1? टाइल; other? टाइल;}।</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MACHU_PICCHU_CULTURE">
+      <Text>+{1_num} [ICON_CULTURE] परिसर से आस-पास की पहाड़ियों की संस्कृति {1_Num : plural 1?प्लेक; other?प्लेक;।}।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_GEOTHERMAL_SCIENCE">
+      <Text>प्रत्यक्ष ज्वालामुखी से प्रत्येक [ICON_SCIENCE] विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_REEF_SCIENCE">
+      <Text>प्रत्यक्ष रीफ से +{1_num} [ICON_SCIENCE] विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_GOLD">
+      <Text>+{1_num} [ICON_Gold] पड़ोसी कोथोन जिले से सोना।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COTHON_DESCRIPTION_ADJACENCY">
+      <Text>समीपता: मुख्य [ICON_Gold] सभी समीपवर्ती शहर केंद्रों के लिए बड़ा सोना बोनस। मानक [ICON_Gold] प्रत्येक समीपवर्ती तटीय संसाधन के लिए सोना बोनस। छोटा [ICON_Gold] प्रत्येक समीपवर्ती जिले के टाइल के लिए सोना बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOLY_SITE_GOLD">
+      <Text>+{1_num} [ICON_Gold] पड़ोसी पवित्र स्थल क्षेत्र से सोना।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_LAVRA_GOLD">
+      <Text>+{1_num} [ICON_Gold] आस-पास के लावरा जिले से सोना।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION_ADJACENCY">
+      <Text>आसन्नता: प्रत्येक समीपवर्ती पवित्र स्थल के लिए प्रमुख [ICON_Gold] सोने का बोनस। नदी के किनारे वाली टाइल से प्रमुख [ICON_Gold] सोने का बोनस। समान जिले टाइलों के लिए मामूली [ICON_Gold] सोने का बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_MINES_HALF_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] आस-पास के खदानों से उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_LUMBER_MILL_PRODUCTION">
+      <Text>+{1_num} [ICON_Production] उपज आसपास के लकड़ी के मिलों से।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_AQUEDUCT_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] पास के एक्वेडक्ट से उत्पादन {1_Num : plural 2?जिला; other?जिलों;}।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BATH_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] आसपास के बाथ {1_Num : plural 2?जिलों; other?जिलों;} से उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_CANAL_PRODUCTION">
+      <Text>+[ICON_PRODUCTION] पास के कैनाल से {1_num} उत्पादन {1_Num : plural 2?जिलों; other?जिलों;} से।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_DAM_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] आसपास के बांध से उत्पादन {1_Num : plural 2?जिला; other?जिलों;} से।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_STRATEGIC_PRODUCTION">
+      <Text>+{1_num} [ICON_PRODUCTION] आसपास के रणनीतिक {1_Num : plural 1?संसाधन; other?संसाधनों;} से उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HANSA_DESCRIPTION_ADJACENCY">
+      <Text>समीपता: प्रमुख [ICON_Production] उत्पादन बोनस एक वाणिज्यिक हब, नहर, नहर और बांध क्षेत्रों से सम्बंधित होने पर। प्रत्येक समीपवर्ती संसाधन के लिए मानक [ICON_Production] उत्पादन बोनस। समीपवर्ती जिलों के लिए लघु [ICON_Production] उत्पादन बोनस।</Text>
+    </Row>
+    <!--Projects-->
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_NAME">
+      <Text>राजधानी को स्थानांतरित करें</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_SHORT_NAME">
+      <Text>राजधानी बदलें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_DESCRIPTION">
+      <Text>फोनिशियन अनोखी परियोजना किसी भी शहर के लिए उपलब्ध है जिसमें कोथोन हो। पूर्ण होने पर, फोनिशियन [ICON_Capital] राजधानी इस शहर में जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_NAME">
+      <Text>कार्बन रिकैप्चर</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_SHORT_NAME">
+      <Text>कार्बन रीकैप्चर</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CARBON_RECAPTURE_DESCRIPTION">
+      <Text>इसे किसी भी शहर में जो एक औद्योगिक क्षेत्र के साथ हो सकता है चलाया जा सकता है। पूर्ण होने पर, इस सभ्यता के जीवनकाल कार्बन उत्सर्जन को 50 और 30 [ICON_FAVOR] राजनयिक अनुग्रह कमाए जाते हैं। यह परियोजना आपके कार्बन का कर्ज शून्य तक कम कर सकती है और आपको वैश्विक CO2 फुटप्रिंट के खिलाफ कमी के लिए घटाव जमा करने की अनुमति दे सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL">
+      <Text>कोयला ऊर्जा में बदलें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL_SHORT_NAME">
+      <Text>कोयला ऊर्जा में परिवर्तित करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_COAL_DESCRIPTION">
+      <Text>इस शहर में मौजूदा पावर प्लांट को निष्कासित करें और इसे {LOC_BUILDING_COAL_POWER_PLANT_NAME} से बदलें। [NEWLINE] [NEWLINE] {LOC_BUILDING_COAL_POWER_PLANT_NAME}: [NEWLINE] {LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL">
+      <Text>तेल ऊर्जा में रूपांतरित करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL_SHORT_NAME">
+      <Text>तेल ऊर्जा में रूपांतरित करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_OIL_DESCRIPTION">
+      <Text>इस शहर में वर्तमान बिजली विद्युत संयंत्र को निष्क्रिय करता हुआ, उसे {LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME} से बदल देता है। [NEWLINE][NEWLINE]{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME}: [NEWLINE]{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM">
+      <Text>परमाणु ऊर्जा में रूपांतरण करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM_SHORT_NAME">
+      <Text>परमाणु ऊर्जा में बदलें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_CONVERT_REACTOR_TO_URANIUM_DESCRIPTION">
+      <Text>इस शहर में वर्तमान बिजली उत्पादन संयंत्र का निष्क्रियकरण करता है और इसे {LOC_BUILDING_POWER_PLANT_EXPANSION2_NAME} से बदलता है। [NEWLINE] [NEWLINE] {LOC_BUILDING_POWER_PLANT_EXPANSION2_NAME}: [NEWLINE] {LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION}</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_NAME">
+      <Text>मंगल ग्रह का आवास शुरू करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_SHORT_NAME">
+      <Text>मंगल आवास लॉन्च करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_DESCRIPTION">
+      <Text>स्पेस रेस परियोजना जो मंगल ग्रह की सतह पर एक छोटा मानव आधार स्थापित करती है। विज्ञान विजय की तीसरी कदम को चिह्नित करती है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_MARS_BASE_POPUP">
+      <Text>आप मंगल ग्रह पर एक उपनिवेश सफलतापूर्वक स्थापित करते हैं! यह विज्ञान विजय की तीसरी कदम को चिह्नित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME">
+      <Text>एक्सोप्लानेट एक्सपेडिशन का शुभारंभ करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_SHORT_NAME">
+      <Text>एक्सोप्लैनेट एक्सपेडिशन</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_DESCRIPTION">
+      <Text>स्पेस रेस परियोजना जो गहरे अंतरिक्ष में हर टर्न पर 1 लाइट ईयर से यात्रा करती है ताकि मानव जाति को दूसरे सिस्टम में फैलाया जा सके। जब यह सफलतापूर्वक पहुंच जाती है तो विज्ञान विजय हासिल की जाती है। इसे अन्य परियोजनाओं द्वारा त्वरित किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_POPUP">
+      <Text>आपके बीज जहाज का एक दूसरे सिस्टम के तरफ जा रहा है! इस पहुंचते ही विज्ञान जीत हासिल करें। अपनी हर टर्न में 1 लाइट ईयर दूरी तय करता है, और इसे अन्य परियोजनाओं द्वारा तेजी से बढ़ाया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_NAME">
+      <Text>लाग्रांज लेजर स्टेशन को लांच करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME">
+      <Text>लाग्रैंज लेजर स्टेशन</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION">
+      <Text>निर्माण शुरू करने के लिए 30 [ICON_RESOURCE_ALUMINUM] एल्यूमिनियम की आवश्यकता है। (मानक गति पर) स्पेस रेस प्रोजेक्ट, जो आपकी एक्सोप्लैनेट एक्सपेडीशन को प्रति टर्न +1 लाइट ईयर से त्वरित करता है, जो आपके विज्ञान जीत की ओर बढ़ती गति को त्वरित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ORBITAL_LASER_POPUP">
+      <Text>आप उपग्रह में लग्रेंज लेजर स्टेशन स्थापित करते हैं, प्रति टर्न अपने एक्सोप्लैनेट एक्सपेडिशन जहाज की गति को 1 लाइट ईयर बढ़ाते हुए विज्ञान विजय के करीब ले जाते हैं!</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_NAME">
+      <Text>भूमध्यस्थ लेजर स्टेशन बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME">
+      <Text>भूमंडलीय लेजर स्टेशन</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_DESCRIPTION">
+      <Text>एक बार पूरा होने पर, इस शहर की [ICON_Power] ऊर्जा आवश्यकताएं 5 से बढ़ जाती हैं। स्पेस रेस प्रोजेक्ट, जो आपकी एक्सोप्लानेट एक्सपेडीशन को प्रति टर्न +1 लाइट ईयर तक त्वरित करता है, जब तक कि शहर [ICON_Power] पावर से संचालित हो, विज्ञान जीत की ओर आपकी प्रगति को त्वरित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TERRESTRIAL_LASER_POPUP">
+      <Text>आप अंतरिक्षपोर्ट में भू लेजर स्टेशन स्थापित करते हैं, प्रति टर्न 1 प्रकाश वर्ष से अपनी एक्सोप्लेनेट एक्सपेडिशन जहाज की गति तेज करते हुए और आपको विज्ञान जीत के नजदीक ले जाते हुए।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_NAME">
+      <Text>मदद भेजें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_SHORT_NAME">
+      <Text>मदद भेजें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_DESCRIPTION">
+      <Text>आपकी सहायता अनुरोध प्रतियोगिताओं के लिए स्कोर कमाने का प्रोजेक्ट।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_SEND_AID_POPUP">
+      <Text>आपकी मदद पैकेज डिलीवर कर दिया गया है, जिससे आपका एड रिक्वेस्ट कम्पटीशन में स्कोर बढ़ता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_NAME">
+      <Text>खिलाड़ियों को ट्रेन करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_SHORT_NAME">
+      <Text>खिलाड़ियों को ट्रेन करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_DESCRIPTION">
+      <Text>विश्व खेल प्रतियोगिता के लिए स्कोर कमाने का प्रोजेक्ट।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ATHLETES_POPUP">
+      <Text>आपके खिलाड़ी अब खेलों के लिए तैयार हैं, जो विश्व खेल स्पर्धा में आपके स्कोर को बढ़ाएँगे।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_NAME">
+      <Text>अंतरिक्ष यात्री ट्रेन करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_SHORT_NAME">
+      <Text>अंतरिक्ष यात्री ट्रेन कराएं।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_DESCRIPTION">
+      <Text>अंतर्राष्ट्रीय अंतरिक्ष स्टेशन प्रतियोगिता के लिए स्कोर कमाने का प्रोजेक्ट।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_POPUP">
+      <Text>आपके अंतरिक्ष यात्री अंतर्राष्ट्रीय अंतरिक्ष स्टेशन में काम करने के लिए तैयार हैं, जो अंतर्राष्ट्रीय अंतरिक्ष स्टेशन प्रतियोगिता में आपके स्कोर को बढ़ाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_EXPANSION2_DESCRIPTION">
+      <Text>जिला आधारित परियोजना जो हर बार [ICON_Faith] विश्वास और +100% धार्मिक दबाव प्रदान करती है। इसे पूरा करने के बाद [ICON_GreatProphet] महान धर्मगुरु अंकों का पुरस्कार देता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_EXPANSION2_DESCRIPTION">
+      <Text>जिला आधारित परियोजना जो इस शहर को पूर्ण [ICON_Power] ऊर्जा प्रदान करती है जब तक यह सक्रिय है। यह समाप्त होने पर [ICON_GreatEngineer] महान इंजीनियर अंक भी प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_NAME">
+      <Text>पुनर्संचालित करें न्यूक्लियर रिएक्टर।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_SHORT_NAME">
+      <Text>पुन: संचालित न्यूक्लियर रिएक्टर</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_RECOMMISSION_REACTOR_DESCRIPTION">
+      <Text>एक न्यूक्लियर रिएक्टर के फिर से शुरू करने की अनुमति देता है ताकि सुरक्षा उपायों को बढ़ाया जा सके और एक न्यूक्लियर दुर्घटना के जोखिम को कम किया जा सके। [NEWLINE] [NEWLINE] रिकमीशनिंग रिएक्टर की आयु को 0 से रीसेट करता है। जितना अधिक रिएक्टर पुराना होता है, उतनी ही ज्यादा संभावना होती है कि एक न्यूक्लियर दुर्घटना हो सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_NAME">
+      <Text>कोयले की ऊर्जा संयंत्र को बंद करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_SHORT_NAME">
+      <Text>कोयले से चलने वाले पावर प्लांट को बंद करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_COAL_POWER_PLANT_DESCRIPTION">
+      <Text>जलवायु समझौते प्रतियोगिता के लिए स्कोर कमाने के लिए परियोजना। इस शहर से कोयला पावर प्लांट और उसके सभी प्रभावों को हटाता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_NAME">
+      <Text>तेल पावर प्लांट को विलय करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_SHORT_NAME">
+      <Text>तेल ऊर्जा संयंत्र का निष्क्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_OIL_POWER_PLANT_DESCRIPTION">
+      <Text>जलवायु समझौते प्रतियोगिता के लिए अंक कमाने का प्रोजेक्ट। इस शहर से तेल पावर प्लांट और उसके सभी प्रभावों को हटा देता है।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_NAME">
+      <Text>परमाणु ऊर्जा संयंत्र को निष्क्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_SHORT_NAME">
+      <Text>परमाणु ऊर्जा प्लांट को समाप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT_DESCRIPTION">
+      <Text>जलवायु अनुबंध में स्कोर कमाने के लिए परियोजना। इस शहर से न्यूक्लियर पावर प्लांट और इससे होने वाले सभी प्रभावों को हटाता है।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_ENTERTAINMENT_CULTURE">
+      <Text>+{1_num} [ICON_Culture] प्रशासनिक जोड़ में से मनोरंजन जोन की संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_WATER_PARK_CULTURE">
+      <Text>+{1_num} [ICON_Culture] पड़ोसी वाटर पार्क जिले से संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_STREET_CARNIVAL_CULTURE">
+      <Text>+{1_num} [ICON_Culture] पड़ोसी सड़क कार्निवल ज़िले से संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COPACABANA_CULTURE">
+      <Text>+{1_num} [ICON_Culture] कोपाकाबाना जिले से संबंधित संस्कृति।</Text>
+    </Row>
+  </EnglishText>
+</GameData>

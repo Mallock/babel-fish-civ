@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- TEMPORARY KLUDGE: DO NOT USE ".", "'", or "-" punctuation in this file until DiplomacyActionView.lua has been updated to have a more robust string parsing algorithm! -->
+    <!-- Standard modifiers -->
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLY">
+      <Text>सहयोगी</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEMAND">
+      <Text>हमने उनसे मांग की।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_JOINT_WAR">
+      <Text>हमने साथ मिलकर एक संयुक्त युद्ध लड़ा था।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_CONVERTED">
+      <Text>हमने उनके धार्मिक शहर को बदल दिया।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CULTURE_BOMBED">
+      <Text>हमने उनके शहरों में से एक को संस्कृति विस्फोट से आक्रमण किया।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_OCCUPIED">
+      <Text>हम उनके शहरों में से एक को कब्जा कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_OCCUPIED_FRIEND">
+      <Text>हम उनके मित्र या सहयोगी के शहर को कब्जा किए हुए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_LIBERATED_CITY">
+      <Text>हमने एक शहर को मुक्त कर दिया।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_LIBERATED_MY_CITY">
+      <Text>हमने उनके शहरों में से एक को आज़ाद कर लिया।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_RAZED_MY_CITY">
+      <Text>हमने उनके शहरों में से एक को उखाड़ दिया।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_SURPRISE_WAR_ON_FRIEND">
+      <Text>अपने दोस्त पर अचानक युद्ध घोषित कर दिया।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_FRIEND">
+      <Text>एक दोस्त का दोष बताना।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_FRIENDSHIP_WITH_FRIEND">
+      <Text>दोस्त के साथ मित्रता घोषित की।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIED_WITH_FRIEND">
+      <Text>दोस्त के साथ एक संधि की घोषणा की।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_SURPRISE_WAR_ON_ENEMY">
+      <Text>एक दुखद युद्ध की घोषणा दुश्मन पर की।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_ENEMY">
+      <Text>दुश्मन की निंदा की।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_FRIENDSHIP_WITH_ENEMY">
+      <Text>दुश्मन के साथ मित्रता घोषित की।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_ALLIED_WITH_ENEMY">
+      <Text>दुश्मन के साथ एक संधि घोषित की।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DECLARED_FRIEND">
+      <Text>घोषित मित्र (Ghoshit Mitra)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEFENSIVE_PACT">
+      <Text>रक्षा संधि (Raksha Sandhi)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DELEGATION">
+      <Text>हमने उन्हें एक प्रतिनिधि मंडल भेजा।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED">
+      <Text>हमने उन्हें दोषी ठहराया।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_HAD_FRIENDLY_MEETING">
+      <Text>मित्रवत्सल मुलाकात</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_NEAR_BORDER_WARNING">
+      <Text>हमारी सेना उनकी सीमा पर थी।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SETTLED_NEAR_BORDER_WARNING">
+      <Text>हम उनकी सीमा के बहुत करीब बस गए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SHARED_RELIGION">
+      <Text>वे हमारे धर्म का अनुसरण कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_STOP_SPYING_ON_ME_WARNING">
+      <Text>हमें उन पर जासूसी करते हुए पकड़ लिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_STOP_DIGGING_UP_ARTIFACTS_WARNING">
+      <Text>हम उनके क्षेत्र में खनन करते हुए पकड़े गए थे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BROKEN_PROMISE">
+      <Text>हमने उनको दिए गए राजनयिक वादे को तोड़ दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CLOSE_TO_VICTORY">
+      <Text>हम जीत रहे हैं। वे हमें डरते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_KEPT_PROMISE">
+      <Text>हमने उनके साथ जो राजनैतिक वादा किया था उसे पूरा किया। (Humne unke saath jo rajneetik vaada kiya tha use poora kiya.)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_NO_PROMISE">
+      <Text>हमने उनसे कोई राजनयिक वादा नहीं किया तय किया।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_OPEN_BORDERS">
+      <Text>खुले सीमाएं</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GAVE_OPEN_BORDERS">
+      <Text>तुमने अनुमति दी खुले सीमाओं की।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_RECEIVED_OPEN_BORDERS">
+      <Text>तुम्हें खुले सीमाओं की प्राप्ति हुई।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_RESIDENT_EMBASSY">
+      <Text>हमने वहाँ एक स्थायी दूतावास स्थापित कर दिया।</Text>
+    </Row>
+    <!-- Historical agenda modifiers -->
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLY_OF_ENKIDU_DECLARED_FRIEND">
+      <Text>गिलगमेश को घोषित मित्रों से पसंद है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLY_OF_ENKIDU_DENOUNCED_FRIEND">
+      <Text>गिलगमेश को अपने दोस्तों को निंदा करने से नफरत होती है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BACKSTAB_AVERSE_FRIEND">
+      <Text>टोमिरिस को डिक्लेयर्ड फ्रेंड पसंद है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BACKSTAB_AVERSE_SURPRISE_WAR">
+      <Text>तोमिरिस उन लोगों से नापसंद करती है जो आश्चर्यजनक युद्ध घोषित करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_OBSESSED_LAGGING">
+      <Text>पेड्रो आपके बड़े लोगों की कमी से खुश है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_OBSESSED_LEADING">
+      <Text>पेड्रो को खेद है कि आपके पास उससे अधिक महान लोग हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WESTERNIZER_LAGGING">
+      <Text>पीटर निराश है क्योंकि आपके पास बहुत कम विज्ञान और संस्कृति है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WESTERNIZER_LEADING">
+      <Text>पीटर आपके विज्ञान और संस्कृति से खुश है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WITH_SHIELD_OR_ON_IT">
+      <Text>गोर्गो तुम्हें लड़ते हुए देखना चाहता है या जानता है कि तुमने शांति के लिए पैसे दिए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WITH_SHIELD_NEVER_WARRED">
+      <Text>गोर्गो चाहता है कि वह आपको लड़ते देखें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WITH_SHIELD_PAID_FOR_PEACE">
+      <Text>गोर्गो को पता है कि तुमने शांति के लिए पैसे दिए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_OBSESSED_LAGGING">
+      <Text>किन आपके वंडर्स की कमी से खुश है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_OBSESSED_LEADING">
+      <Text>क्यूइन को दुख है कि आपके पास उससे अधिक अजूबे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_PEACEKEEPER_NOT_WARMONGER">
+      <Text>गांधी खुश है कि आप शांति बनाए रखने में व्यस्त रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_PEACEKEEPER_WARMONGER">
+      <Text>गांधी आपकी युद्धकर्मी नीति से नाराज हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_COUNTER_REFORMER_SAME">
+      <Text>फिलिप खुश है कि आप एक धर्म साझा करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_COUNTER_REFORMER_ENCROACHING">
+      <Text>फिलिप अपने साम्राज्य में आपके धर्म का मौजूद होने से बहुत नाराज है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DELIAN_NOT_COMPETING">
+      <Text>पेरिकलीज खुश हैं कि आप शहर राज्यों पर प्रतिस्पर्धा नहीं कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DELIAN_COMPETING">
+      <Text>पेरिक्लीज आपके शहर राज्यों की भर्ती करने पर नाराज हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DISCIPLE_RECEIVED">
+      <Text>म्वेम्बा बड़ी खुशी हुआ कि आपने अपना धर्म उसको लेकर आए।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DISCIPLE_NOT_RECEIVED">
+      <Text>म्वेंबा को अपनी भूमि में आपका धर्म नहीं मिला, इससे वह निराश है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_IRON_CROWN_NOT_INVOLVED">
+      <Text>बार्बारोसा खुश है कि आप शहर राज्यों से दूर रह रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_IRON_CROWN_INVOLVED">
+      <Text>बार्बारोसा को तुम्हारी वजह से शहरी राज्यों को नियंत्रित कर रहे होने से नाराजगी हुई है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SUN_SETS_HOME_CONTINENT">
+      <Text>विक्टोरिया को खुशी होती है कि आप उसी घरेलू महाद्वीप के हो।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_SUN_SETS_NEW_CONTINENT">
+      <Text>विक्टोरिया आपके वही धरती पर फैलाव करना चाहती है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BIG_STICK_CONTINENT_ATTACKED">
+      <Text>टेडी अपने महाद्वीप पर आधारित नागरिकों पर हमलों से नफरत करता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_BIG_STICK_CONTINENT_PEACEFUL">
+      <Text>टेडी को उसके महाद्वीप पर शांतिपूर्ण नागरिकों पसंद हैं।</Text>
+    </Row>
+    <!-- Random agendas -->
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_ADVOCATE_LAGGING">
+      <Text>वे आपके बड़े लोगों की कमी से खुश हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GREAT_PEOPLE_ADVOCATE_LEADING">
+      <Text>वे उदास हैं कि आपके पास अधिक शानदार लोग हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_ADVOCATE_LAGGING">
+      <Text>वे आपके आश्चर्य की कमी से खुश हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_WONDER_ADVOCATE_LEADING">
+      <Text>वे उदास हैं कि आपके पास अधिक आश्चर्य हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_STATE_NOT_COMPETING">
+      <Text>वे खुश हैं कि आप नगर राज्यों पर प्रतिस्पर्धा नहीं कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_CITY_STATE_COMPETING">
+      <Text>वे नाराज हैं कि आप उनके शहर राज्यों को भर्ती कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CULTURE">
+      <Text>वे दूसरी संस्कृति को देखकर खुश हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_CULTURE">
+      <Text>उन्हें कम संस्कृति वाली सभ्यताएं अच्छी नहीं लगतीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_INDUSTRY">
+      <Text>वे दूसरी मेहनती सभ्यता को देखकर खुश हो जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_INDUSTRY">
+      <Text>उन्हें कम उत्पादकता वाली सभ्यताओं से नफरत है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_STANDING_ARMY">
+      <Text>वे दूसरी सभ्यता को देखकर खुश हैं जिसके पास एक बड़ी स्थायी सेना है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_STANDING_ARMY">
+      <Text>उन्हें छोटी स्थायी सेना वाली सभ्यताओं से नफरत होती है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_SCIENCE">
+      <Text>वे एक और वैज्ञानिक सभ्यता को देखकर खुश होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_SCIENCE">
+      <Text>उन्हें निम्न वैज्ञानिक संस्कृतियों से नफरत होती है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_HAPPINESS">
+      <Text>वे खुश हैं कि खुशहाल नागरिकों वाली एक सभ्यता देखने को मिल रही है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_HAPPINESS">
+      <Text>उन्हें खुश नहीं रखने वाली सभ्यताओं से नफरत है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_INCOME">
+      <Text>उन्हें एक ऊंची आय वाली सभ्यता देखकर खुशी होती है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_INCOME">
+      <Text>उन्हें कम आय वाली सभ्यताओं से नफरत है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_POPULATION">
+      <Text>उन्हें उच्च जनसंख्या वाली सभ्यता देखकर खुशी होती है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_POPULATION">
+      <Text>उन्हें कम जनसंख्या वाली सभ्यताएं अच्छी नहीं लगतीं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ENJOYS_WAR">
+      <Text>वे उन्हें पसंद करते हैं जो लड़ाई लड़कर जीतते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ATTACKS_BARBARIANS">
+      <Text>वे आपको बार्बर शिविरों को साफ करते हुए देखकर खुश होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_IGNORES_BARBARIANS">
+      <Text>वे उन सभ्यताओं से नापसंद हैं जो बर्बरों को साफ़ करने नहीं करते।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ENVIRONMENT">
+      <Text>वे प्राकृतिक दुनिया के साथ आपके व्यवहार को ध्यान से देख रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_EXPLOITATION">
+      <Text>वे आपके क्षेत्र को सुधारने में आपकी प्रगति को देख रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_SAME_GOVERNMENT">
+      <Text>वे आपको उसी तरीके से अपने लोगों को शासित करते हुए देखकर प्रसन्न हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_DIFFERENT_GOVERNMENT">
+      <Text>वे आपके शासन के तरीके से नाखुश हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_NUKE_LOVE">
+      <Text>वे सहमत हैं कि न्यूक्लियर हथियारों के लिए एक समय और स्थान होता है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_NUKE_LOVE">
+      <Text>उन्हें उन सभ्यताओं से नफरत है जो न्यूक्लियर हथियार बनाने में असमर्थ होती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_FAITH">
+      <Text>वे दूसरी धार्मिक सभ्यता को देखकर खुश होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_FAITH">
+      <Text>वे कम विश्वास वाली सभ्यताओं से नापसंद करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_EXPLORATION">
+      <Text>वे उन सभ्यताओं से नापसंद करते हैं जो उनसे अधिक खोजकर्ता होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_EXPLORATION">
+      <Text>वे दूसरों की दुनिया के अन्वेषण को समझते हुए खुश हैं जो उन्हें करने देते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_AIRPOWER">
+      <Text>वे एक मजबूत वायु सेना वाली सभ्यता को देख कर खुश हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_AIRPOWER">
+      <Text>वे कमजोर हवाई दल वाली सभ्यताओं से नापसन्द करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CITY_STATE_PROTECTION">
+      <Text>वे आपको कई शहर राज्यों को संरक्षित करते हुए देखकर बहुत खुश हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_MED_CITY_STATE_PROTECTION">
+      <Text>वे आपको शहर राज्यों की सुरक्षा करते हुए देखकर खुश हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_MED_CITY_STATE_AGGRESSION">
+      <Text>वे नगर राज्यों के प्रति कुछ अतिक्रमणकारी रहने वाली सभ्यताओं से नापसंद करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CITY_STATE_AGGRESSION">
+      <Text>वे वास्तव में उन सभी सभ्यताओं से बेहद नाराज होते हैं जो शहर राज्यों के प्रति बहुत हमलावर होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_WONDERS_COMPETING">
+      <Text>वे नाराज हैं कि आपके पास अधिक आश्चर्य हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_WONDERS_NOT_COMPETING">
+      <Text>वे आपकी अद्भुतता की कमी से खुश हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GREAT_PEOPLE_COMPETING">
+      <Text>वे नाराज हैं कि आपके पास और शानदार लोग हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GREAT_PEOPLE_NOT_COMPETING">
+      <Text>वे आपके महान लोगों की कमी से संतुष्ट हैं।</Text>
+    </Row>
+    <!-- Future modifiers (not yet implemented)-->
+    <Row Tag="LOC_DIPLO_MODIFIER_THIRD_PARTY_TRADE_POSITIVE">
+      <Text>हम उनके दोस्तों के साथ व्यापार कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_THIRD_PARTY_TRADE_NEGATIVE">
+      <Text>हम उनके दुश्मनों से व्यापार कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DOF_WITH_THEIR_FRIENDS">
+      <Text>हम उनके दोस्तों से दोस्त हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DOF_WITH_THEIR_ENEMIES">
+      <Text>हम उनके दुश्मनों से मित्र हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIED_WITH_THEIR_FRIENDS">
+      <Text>हम उनके दोस्तों से साझेदार हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIED_WITH_THEIR_ENEMIES">
+      <Text>हम उनके दुश्मनों के साथ मिले हुए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEFENSIVE_PACT_WITH_THEIR_FRIENDS">
+      <Text>हमारे पास उनके दोस्तों के साथ एक रक्षात्मक संधि है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DEFENSIVE_PACT_WITH_THEIR_ENEMIES">
+      <Text>हमारे दुश्मनों के साथ हमारा रक्षात्मक संप्रभुत्व है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_THEIR_ENEMIES">
+      <Text>हमने उनके दुश्मनों को निंदा किया है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_DENOUNCED_THEIR_FRIENDS">
+      <Text>हमने उनके दोस्तों को निंदा की है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_UNWANTED_RELIGION">
+      <Text>हम उन्हें हमारे धर्म में परिवर्तित करने की कोशिश कर रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_ALLIANCE_BROKEN">
+      <Text>हमने हमारा गठबंधन तोड़ दिया है।</Text>
+    </Row>
+    <!-- Non-leader specific versions of modifiers (to use in scenarios, etc.) -->
+    <Row Tag="LOC_DIPLO_MODIFIER_GENERIC_BIG_STICK_CONTINENT_ATTACKED">
+      <Text>वे उन ताक़तों से नफ़रत करते हैं जो उनके महाद्वीप के लोगों पर हमले करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MODIFIER_GENERIC_BIG_STICK_CONTINENT_PEACEFUL">
+      <Text>उन्हें अपनी महाद्वीप पर शांतिपूर्ण सभ्यताएं पसंद हैं।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

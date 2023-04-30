@@ -1,0 +1,1883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <EnglishText>
+    <!-- Combat Modifiers -->
+    <Row Tag="LOC_GOVERNOR_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>राज्यपाल</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_DESCRIPTOR_PREVIEW_TEXT">
+      <Text>(संधि)</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_DIPLOMATIC_BONUS">
+      <Text>+{1_Value} हाल के वैद्यकीय परिवर्तन</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ESPIONAGE_BONUS">
+      <Text>+ विरोधी के गतिविधियों पर इंटेलिजेंस{1_Value}</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_CITY_COMBAT_BONUS">
+      <Text>+{1_Value} गैरिसन कमांडर</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ALLIANCE_MILITARY_BUFF">
+      <Text>सैन्य संघ की ओर से +{1_Value}</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_EMERGENCY_MILITARY_BUFF">
+      <Text>आपातकाल से [COLOR_RED]{1_Value: number +#;-#}[ENDCOLOR]।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ALLIANCE_RELIGIOUS_COMBAT_BUFF">
+      <Text>धार्मिक गठबंधन से +{1_Value}</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_ANTI_AIR_DEFENSE_BONUS_DESC">
+      <Text>+{1_Value} एंटी-एयर रक्षा को मजबूत बनाया।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_RELIGIOUS_CITY_BONUS">
+      <Text>+{1_Value} महान जांचकर्ता राज्यपाल पदोन्नति।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_LESS_EFFECTIVE_VS_LAND_UNITS_DESC">
+      <Text>जमीनी इकाइयों की तुलना में {1_Value} कम सक्रिय होता है।</Text>
+    </Row>
+    <Row Tag="LOC_COMBAT_PREVIEW_LESS_EFFECTIVE_VS_NAVAL_UNITS_DESC">
+      <Text>जल सैन्य इकाइयों के विस-असरदार से कम असरदार्।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GROWTH_OCCUPIED">
+      <Text>अधिगृहित (Adhigrihit)</Text>
+    </Row>
+    <Row Tag="LOC_REPORTS_LOYALTY">
+      <Text>निष्ठा (Nishtha)</Text>
+    </Row>
+    <Row Tag="LOC_REPORTS_GOVERNOR">
+      <Text>राज्यपाल</Text>
+    </Row>
+    <Row Tag="LOC_POST_COMBAT_LOYALTY_PLUS">
+      <Text>[COLOR_LIGHTBLUE]+{1_Num} वफादारी[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_POST_COMBAT_LOYALTY_MINUS">
+      <Text>[COLOR_RED]{1_Num} निष्ठा[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_AMENITIES_LOST_FROM_GOVERNORS">
+      <Text>राज्यपाल के सुविधाएँ:</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_OCCUPIED_LOYALITY_STATUS">
+      <Text>व्यस्त: {1_LoyalityStatus}</Text>
+    </Row>
+    <Row Tag="LOC_NO_GOVERNORS_TITLE_AVAILABLE">
+      <Text>कोई गवर्नर शीर्षक उपलब्ध नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_TITLE">
+      <Text>राज्यपालों</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PANEL_UNMET_CIV">
+      <Text>अअधूरी सभ्यता (Adhuri Sabhyata)</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_PATRONAGE_FAITH_OFF">
+      <Text>[COLOR_RED]आपकी वर्तमान नीतियों में से एक द्वारा प्रणय-आश्रय पर विश्वास खर्च करना अक्षम है। [ICON_Faith][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PEOPLE_PATRONAGE_GOLD_OFF">
+      <Text>आपकी वर्तमान नीतियों में से एक ने प्रारंभिकता पर [ICON_Gold] सोना खर्च करने को अक्षम कर दिया है। [COLOR_RED][ICON_Gold][ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATIONS_CANNOT_REPAIR_BLOCKED_BY_POLICY">
+      <Text>नीति चयन के कारण इस क्षेत्र में ठीक नहीं हो सकता।</Text>
+    </Row>
+    <!-- Alliance Text -->
+    <Row Tag="LOC_DIPLOACTION_INVALID_REASON_YOU_HAVE_THIS_ALLIANCE">
+      <Text>आपके पास पहले से ही एक ऐसी सभामंच की गठबंधन है दूसरी सभ्यता के साथ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOACTION_INVALID_REASON_THEY_HAVE_THIS_ALLIANCE">
+      <Text>{1_OtherCiv} किसी दूसरी सभ्यता के साथ पहले से ही इस तरह का गठबंधन बनाया हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_COLON_INPUT">
+      <Text>संघ स्तर: {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_COLON">
+      <Text>संधि स्तर:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL">
+      <Text>संधि स्तर</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_COLON">
+      <Text>गठबंधन अंक:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_PER_TURN">
+      <Text>+{1_प्रति_टर्न_अंक}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_POINTS_NEEDED">
+      <Text>/ {1_PointsNeeded}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_CURRENT">
+      <Text>वर्तमान गठबंधन: {1_AllianceTypeName}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_LEVEL_BUTTON_TOOLTIP">
+      <Text>इस नेता के साथ आपके अलायंस स्तर के बारे में महत्वपूर्ण जानकारी देखें, जिसमें शामिल होने के लिए आपके पास कौन से अलायंस लाभ होंगे।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_SCIENCE_NAME_LEVEL">
+      <Text>अनुसंधान गठबंधन स्तर {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_CULTURAL_NAME_LEVEL">
+      <Text>सांस्कृतिक गठबंधन स्तर {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_ECONOMIC_NAME_LEVEL">
+      <Text>आर्थिक गठबंधन स्तर {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_MILITARY_NAME_LEVEL">
+      <Text>सैन्य गठबंधन स्तर {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCE_RELIGIOUS_NAME_LEVEL">
+      <Text>धार्मिक गठबंधन स्तर {1_AllianceLevel}</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_RESEARCH">
+      <Text>अनुसंधान संघ</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_CULTURAL">
+      <Text>सांस्कृतिक संधि</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_MILITARY">
+      <Text>सैन्य संधि</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_ECONOMIC">
+      <Text>आर्थिक संघटन</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_RELIGIOUS">
+      <Text>धार्मिक संधि (Dharmik Sandhi)</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_RESEARCH">
+      <Text>अनुसंधान संघ बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_CULTURAL">
+      <Text>सांस्कृतिक संधि बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_MILITARY">
+      <Text>एक सैन्य गठबंधन बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_ECONOMIC">
+      <Text>आर्थिक गठबंधन बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_ALLIANCE_RELIGIOUS">
+      <Text>धार्मिक संघटन बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_CHOICE_RENEW_ALLIANCE">
+      <Text>अलायंस ताज़ा करें</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES">
+      <Text>संधि-बन्धन</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_TT">
+      <Text>इस शक्ति के साथ एक गठबंधन का प्रस्ताव रखें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_RENEW_ALLIANCE_TT">
+      <Text>इस शक्ति के साथ आपकी वर्तमान गठबंधन की अवधि को बढ़ाने की प्रस्ताव दें।</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_CURRENT_BENEFITS_HEADER">
+      <Text>आपकी वर्तमान गठबंधन से ये लाभ हासिल होते हैं:</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMACY_ALLIANCES_LEVEL_UP_BENEFITS_HEADER">
+      <Text>अगले बैंड स्तर पर, आपकी गठबंधनों को इन अतिरिक्त लाभों का लाभ मिलेगा:</Text>
+    </Row>
+    <Row Tag="LOC_WORLD_RANKINGS_CULTURE_TOURIST_TOOLTIP_ALLIANCES">
+      <Text>{1_Tooltip}[NEWLINE]संयुक्त राज्यों से कुल [ICON_Tourism]पर्यटन में +{2_Percent} वृद्धि हुई।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_SCIENCE_MODIFIER_FROM_ALLIANCES">
+      <Text>Alliances से {Value : number +#;-#}% ({ActualValue : number +#.#;-#.#})।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_CULTURE_FROM_ALLIANCES">
+      <Text>Alliances से {Value : number +#.#;-#.#}% ({ActualValue : number +#.#;-#.#}) केरल्त।</Text>
+    </Row>
+    <Row Tag="LOC_PLAYER_YIELD_FAITH_FROM_ALLIANCES">
+      <Text>धार्मिक संगठनों से {Value : number +#.#;-#.#}।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_SHARED_VIS_EFFECT">
+      <Text>साझा दृश्यता</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_NO_CULTURE_PRESSURE_EFFECT">
+      <Text>आपके मित्र के शहर आपके शहरों पर वफादारी दबाव नहीं डालते हैं, और उम्मीदवार भी ठीक वैसे ही होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_NO_RELIGIOUS_PRESSURE_EFFECT">
+      <Text>आपके सहयोगी का धर्म आपके धर्म से विजयी शहरों पर धार्मिक दबाव नहीं डालता है, और उम्रकै धर्म से भी ऐसा नहीं होता।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_MILITARY_EFFECT_1">
+      <Text>आपके और आपके सहयोगी के खिलाफ युद्धरत खिलाड़ियों के खिलाफ +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_1">
+      <Text>आपके साथी को [ICON_TradeRoute] व्यापार मार्ग से +4 [ICON_GOLD] सोने का लाभ मिलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_2">
+      <Text>आपके साथी से [ICON_TradeRoute] व्यापार मार्ग से +2 [ICON_GOLD] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_1">
+      <Text>आपके साथी को [ICON_TradeRoute] व्यापार मार्ग से +2 [ICON_FAITH] धर्म का लाभ मिलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_2">
+      <Text>+1 [ICON_FAITH] आपके साथी से [ICON_TradeRoute] व्यापार मार्ग से धर्म।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_1">
+      <Text>आपके साथी को [ICON_TradeRoute] व्यापार मार्गों से +2 [ICON_Culture] संस्कृति मिलेगी।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_2">
+      <Text>आपके साथी से [ICON_TradeRoute] व्यापार मार्गों से [ICON_Culture] संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_1">
+      <Text>आपकी मित्रता के लिए [ICON_TradeRoute] व्यापार मार्गों से +2 [ICON_SCIENCE] विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_2">
+      <Text>आपके साथी से [ICON_TradeRoute] व्यापार मार्गों से [ICON_SCIENCE] विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_ECONOMIC_EFFECT_1">
+      <Text>प्रत्येक नगर राज्य के लिए एक बोनस [ICON_Envoy] राजदूत अंक आपको मिलेगा जहाँ आपका सहायक सुजेरेन हो।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_MILITARY_EFFECT_1">
+      <Text>युद्ध के समय आप या आपका सहयोगी होने पर सैन्य इकाइयों के उत्पादन में +15% [ICON_PRODUCTION]।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_RELIGIOUS_EFFECT_1">
+      <Text>गैर-साथी धर्मों के खिलाफ +10 धार्मिक युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_RESEARCH_EFFECT_1">
+      <Text>प्रत्येक 30 टर्न (मानक पर), आप उस तकनीक के लिए एक [ICON_TechBoosted] युरेका को अनलॉक करते हैं जिसे आपका सहयोगी अनुसंधान या बूस्ट किया है, लेकिन आपने नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV2_CULTURAL_EFFECT_1">
+      <Text>यदि आपके पास उस शहर से अपने सहयोगी तक एक [ICON_TradeRoute] ट्रेड रूट हो तो प्रत्येक आपके [ICON_District] जिलों से प्रति चाल एक अतिरिक्त [ICON_GreatPerson] ग्रेट पर्सन प्वाइंट प्रदान किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_MILITARY_EFFECT_1">
+      <Text>इकाइयों की शुरुआत मुफ्त प्रमोशन के साथ होती है।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RELIGIOUS_EFFECT_1">
+      <Text>+1 [ICON_FAITH] वह धर्म जिसका आपका साथी अनुयायी है, उसे अपने [ICON_Citizen] नागरिकों के लिए विश्वास |</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RELIGIOUS_EFFECT_2">
+      <Text>आपके सहायक के धर्म के अनुयायियों के बिना शहरों में धर्मानुयायी दबाव अतिरिक्त होगा।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_RESEARCH_EFFECT_1">
+      <Text>जब आप या आपका साथी उस तकनीक का अध्ययन कर रहे हो जिसे दूसरे ने पूरा कर लिया है, या वे एक ही तकनीक का अध्ययन कर रहे हैं, तो [ICON_SCIENCE] विज्ञान में +10% |</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_CULTURAL_EFFECT_1">
+      <Text>आप शहरों से अपने मित्र के [ICON_Tourism] पर्यटन का +20% प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_CULTURAL_EFFECT_2">
+      <Text>तुम अपने साथियों के शहरों से [ICON_Culture] संस्कृति का +10% प्राप्त करते हो।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_LV3_ECONOMIC_EFFECT">
+      <Text>अपने साथी के साथ सुजेरेन के अनूठे बोनस साझा करें।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_DEFAULT">
+      <Text>साथी होने के लिए {1_Amount} अंक।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_TRADE_ROUTES_TO_THEM">
+      <Text>[NEWLINE]{1_Amount} अंक अपने मित्रत्वी साथी के साथ एक [ICON_TradeRoute] व्यापार मार्ग होने से।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_TRADE_ROUTES_FROM_THEM">
+      <Text>[NEWLINE] आपके साथी से [ICON_TradeRoute] व्यापार मार्ग से {1_Amount} अंक।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_COMMON_ENEMY">
+      <Text>[NEWLINE] एक सामान्य दुश्मन पर युद्ध घोषित करने से {1_Amount} अंक।</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_YOUR_MODIFIER">
+      <Text>[NEWLINE]{1_Amount} आपके अन्य स्रोतों से प्राप्त हुए पॉइंट्स</Text>
+    </Row>
+    <Row Tag="LOC_ALLIANCE_POINTS_FROM_THEIR_MODIFIER">
+      <Text>[NEWLINE]{1_Amount} अपने मित्र के अन्य स्रोतों से प्राप्त हुए अंक।</Text>
+    </Row>
+    <!-- New Government Text -->
+    <Row Tag="LOC_GOVT_POLICY_TYPE_DARKAGE">
+      <Text>अंधकार के युग की नीतियां।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_XP1">
+      <Text>शहर में प्रत्येक सरकारी भवन और महल के सभी उत्पादों के लिए उन्नति में +1।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_XP1">
+      <Text>सभी भूमि युद्ध, एंटी-कैवलरी, और समुद्री युद्ध वर्ग की इकाईयों को +4 [ICON_Strength] युद्ध शक्ति प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_XP1">
+      <Text>सभी शहरों को एक जिले के साथ +1 [ICON_Housing] आवास और +1 [ICON_Amenities] सुविधा प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_XP1">
+      <Text>+1 [ICON_Housing] दीवारों के प्रति स्तर के लिए आवास।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1">
+      <Text>+5 [ICON_Religion] धार्मिक युद्ध में धार्मिक शक्ति। [NEWLINE]+0.5 [ICON_Faith] प्रति [ICON_Citizen] नागरिक शहरों में [ICON_Governor] गवर्नर्स के साथ।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_XP1">
+      <Text>स्थापित [ICON_Governor] गवर्नर वाले सभी शहरों में +10% [ICON_GOLD] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_XP1">
+      <Text>सभी इकाइयों को +5 [ICON_Strength] युद्ध शक्ति प्राप्त होती है। युद्ध की थकान 15% तक कम हो जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1">
+      <Text>[ICON_Governor] गवर्नर वाले शहरों में प्रति [ICON_Citizen] नागरिक के लिए +0.6 [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP1">
+      <Text>+1 [ICON_Production] उत्पादन, +1 [ICON_Housing] आवास प्रति जिला।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_XP1">
+      <Text>अद्भुत इमारतों की ओर +10% उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_XP1">
+      <Text>+20% यूनिट अनुभव।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_XP1">
+      <Text>+15% महान व्यक्ति बिंदु।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1">
+      <Text>+50% प्रभाव बिंदु।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_XP1">
+      <Text>[ICON_Faith] विश्वास के साथ खरीद पर 15% छूट।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_XP1">
+      <Text>जिलों की ओर 15% उत्पादन की ओर।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_XP1">
+      <Text>इकाई की ओर 50% उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP1">
+      <Text>+15% उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_XP1">
+      <Text>[ICON_Gold] गोल्ड के साथ खरीदारी पर 25% छूट।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_UNLOCKS_POLICY_CARD">
+      <Text>{1_PolicyName} नीति कार्ड को अनलॉक करता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF_MODIFIER_DESCRIPTION">
+      <Text>ओलीगार्किक विरासत से +4</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION">
+      <Text>धार्मिक विरासत से +5</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_BUFF_MODIFIER_DESCRIPTION">
+      <Text>फासिस्ट विरासत से +5</Text>
+    </Row>
+    <!-- Governors UI -->
+    <Row Tag="LOC_GOVERNORS_SCREEN_TAB_OWNED_GOVERNORS">
+      <Text>वर्तमान राज्यपालों</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_TAB_GOVERNOR_CANDIDATES">
+      <Text>उम्मीदवारों</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_APPOINT_GOVERNOR">
+      <Text>नियुक्त करें</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_DETAILS">
+      <Text>Details</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_PROMOTE">
+      <Text>प्रचार करें</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_VIEW_PROMOTIONS">
+      <Text>प्रचार देखें</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ESTABLISHED_IN">
+      <Text>स्थापित किया गया:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TRANSITIONING_TO">
+      <Text>राजनीतिक शक्ति स्थापित करना:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_NEEDS_ASSIGNMENT">
+      <Text>कार्य असाइनमेंट चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_REPLACES">
+      <Text>पुनर्स्थापित करता है:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_CONFIRM_REPLACEMENT">
+      <Text>क्या गवर्नर को बदला जाए? इस शहर में इस गवर्नर को स्लॉट करने से गवर्नर को बदल दिया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_PLUS_PRESSURE">
+      <Text>{1_दबाव: संख्या +#;-#}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_IS_ESTABLISHED">
+      <Text>इस शहर में {1_Name} ({2_Type}) स्थापित है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_IS_ESTABLISHING">
+      <Text>{1_Name} ({2_Type}) इस शहर में स्थापित हो रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_NO_GOVERNOR">
+      <Text>कोई गवर्नर नियुक्त नहीं हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_CURRENT_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>वर्तमान वफादारी प्रति टर्न।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGNMENT_FUTURE_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>इस गवर्नर के साथ प्रति टर्न वफादारी स्थापित हुई।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TRANSITION_TURNS">
+      <Text>{1_NumTurns} बार घुमाना</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_TURNS_UNTIL_ESTABLISHED">
+      <Text>{1_NumTurns} स्थापित होने तक टर्न्स।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_NAME_WITH_TURNS">
+      <Text>{1_GovernorName} ({2_Turns} बार)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_NEUTRALIZED">
+      <Text>न्यूट्रलाइज्ड:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_NEUTRALIZED_TURNS_REMAINING">
+      <Text>({1_Turns} और {1_Turns : plural 1?टर्न; other?टर्न;})</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_CANDIDATE">
+      <Text>राज्यपाल उम्मीदवार</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ASSIGN_TO">
+      <Text>{1_GovernorName} को नियुक्त करें:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_BASE_ABILITY_HEADER_TEXT">
+      <Text>आधार क्षमता:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_PROMOTIONS_HEADER_TEXT">
+      <Text>प्रचारण:</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_CHANGE_ASSIGNMENT">
+      <Text>शहर का असाइनमेंट बदलें।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_GRANT_PROMOTION">
+      <Text>पदोन्नति देना</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_GOVERNOR_NEUTRALIZED">
+      <Text>अनुपलब्ध</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_CANCEL_PROMOTE_PROMPT">
+      <Text>यदि आप इस स्क्रीन को छोड़ देंगे तो चयनित पदोन्नति लागू नहीं होगी। क्या आप आगे बढ़ना चाहते हैं?</Text>
+    </Row>
+    <!-- Governors -->
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_NAME">
+      <Text>विक्टर</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_NAME">
+      <Text>Amani</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_NAME">
+      <Text>मोक्ष (Moksha)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME">
+      <Text>मैग्नस</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_NAME">
+      <Text>Liang</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_NAME">
+      <Text>पिंगला</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_NAME">
+      <Text>रेयना</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_TITLE">
+      <Text>कैस्टेलन</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_TITLE">
+      <Text>डिप्लोमेट (Diplomat)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_TITLE">
+      <Text>कार्डिनल</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_TITLE">
+      <Text>स्टीवर्ड (Steward)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_TITLE">
+      <Text>सर्वेक्षक</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_TITLE">
+      <Text>शिक्षक (Shikshak)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_TITLE">
+      <Text>वित्तीय संचालक</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_SHORT_TITLE">
+      <Text>कैस्टेलन (Kastelan)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_SHORT_TITLE">
+      <Text>डिप्लोमेट (Diplomat)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_SHORT_TITLE">
+      <Text>कार्डिनल</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_SHORT_TITLE">
+      <Text>स्टीवर्ड।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_SHORT_TITLE">
+      <Text>सर्वेक्षक</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_SHORT_TITLE">
+      <Text>शिक्षक (Shikshak)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_SHORT_TITLE">
+      <Text>वित्तीय वित्तवाणीय</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_DEFENDER_DESCRIPTION">
+      <Text>सैन्य केंद्रित, एक बार शहर में स्थापित होने के बाद, {LOC_GOVERNOR_THE_DEFENDER_NAME} विदेशी खतरों से इसे मजबूत, संरक्षित और संरक्षित रखने में महत्वपूर्ण होता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_AMBASSADOR_DESCRIPTION">
+      <Text>अपनी सभ्यता के समर्थन प्राप्त करने और निकटवर्ती शहरों में इसके प्रभाव को फैलाने में निपुण होना। {LOC_GOVERNOR_THE_AMBASSADOR_NAME} एकमात्र गवर्नर है जिसे एक सिटी-स्टेट में विदेशी नियुक्ति दी जा सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_CARDINAL_DESCRIPTION">
+      <Text>एक आध्यात्मिक और धार्मिक नेता जो शहर की [ICON_Religion] धार्मिक ताकत और वहाँ स्थित धार्मिक इकाइयों को बढ़ा सकता है। {LOC_GOVERNOR_THE_CARDINAL_NAME} आपके साम्राज्य में [ICON_FAITH] विश्वास का एक प्रकाशक है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_DESCRIPTION">
+      <Text>{LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME} कुशल और उत्साही हैं जो जरूरत पड़ने पर मूल्यवान संसाधनों को उपलब्ध करवा सकते हैं। वे शहर में कुल [ICON_PRODUCTION] उत्पादन को अनुकूल बनाने में भी कुशल हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_EDUCATOR_DESCRIPTION">
+      <Text>{LOC_GOVERNOR_THE_EDUCATOR_NAME} शहर में [ICON_SCIENCE] वैज्ञानिक और [ICON_Culture] सांस्कृतिक प्रयासों के विकास पर ध्यान केंद्रित करते हैं। वह अपने शहर में [ICON_GreatPerson] महान लोगों को आकर्षित करने में भी कुशल हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_MERCHANT_DESCRIPTION">
+      <Text>चतुर और वित्तीय ज्ञानवान, {LOC_GOVERNOR_THE_MERCHANT_NAME} एक शहर की आर्थिक ताकत को मजबूत करने में सक्षम हैं, वित्तीय संसाधनों का उपयोग करके आम तौर पर संभव से अधिक प्रदान करने के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_THE_BUILDER_DESCRIPTION">
+      <Text>दक्षता के एक विशेषज्ञ, {LOC_GOVERNOR_THE_BUILDER_NAME} निर्माण और निर्माण से संबंधित सभी चीजों में कुशल हैं। एक विशेषज्ञ योजनाकार भी, वह शहर में उन्नतियों के विकास का निगरानी कर सकती हैं।</Text>
+    </Row>
+    <!-- Governor Promotions -->
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_NAME">
+      <Text>रिडाउट (Ridaaut)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION">
+      <Text>शहरी गारिसन [ICON_Strength] की लड़ाई ताकत को +5 बढ़ाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_NAME">
+      <Text>गैरिसन कमांडर</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION">
+      <Text>शहर के क्षेत्र में रक्षा करने वाली इकाइयों की युद्ध शक्ति में +5 [ICON_Strength] का वृद्धि होती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_NAME">
+      <Text>एम्ब्रेशर (Embrasure)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION">
+      <Text>शहर को प्रति टर्न एक अतिरिक्त [ICON_Ranged] दूरस्त्राण प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_NAME">
+      <Text>रक्षा लॉजिस्टिक्स</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SECURITY_EXPERT_NAME">
+      <Text>सुरक्षा विशेषज्ञ</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_SECURITY_EXPERT_DESCRIPTION">
+      <Text>दुश्मन जासूस इस शहर में सामान्य से 2 स्तर नीचे काम करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION">
+      <Text>शहर को घेराबंद नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_NAME">
+      <Text>वायु रक्षा पहल</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION">
+      <Text>शहर के क्षेत्र में विमान और आईसीबीएम के खिलाफ रक्षा करते समय एंटी-एयर सपोर्ट यूनिट्स को +25 [ICON_Strength] कॉम्बैट स्ट्रेंथ।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_NAME">
+      <Text>मैसेंजर</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION">
+      <Text>वह एक सिटी-स्टेट को असाइन किया जा सकता है, जहां वह 2 [ICON_Envoy] उपाध्यक्षों के रूप में काम करती है।</Text>
+    </Row>
+    <Row Tag="LOC_SETTLER_LOYALTY_WARNING_TOOLTIP">
+      <Text>यहाँ एक नई शहर बसाने पर पास के शहरों का प्रभाव प्रति टर्न {1_LoyaltyPerTurnAmount} वफादारी को लागू होगा। नए शहर में [ICON_Governor] राज्यपाल का उपयोग करने या कहीं और बसने का विकल्प विचार करें।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_NAME">
+      <Text>दूत (Doot)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION">
+      <Text>आपके स्वामित्व में न होने वाले 9 टाइल्स के अन्य शहर हर टर्न 2 वफादारी खो देते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE_NAME">
+      <Text>प्रतिष्ठा (Pratishtha)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE_DESCRIPTION">
+      <Text>आपके सभी नौ टाइल्स के भीतर अन्य शहर आपकी सभ्यता के प्रति प्रति टर्न +2 वफादारी प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_NAME">
+      <Text>समृद्धि (Samriddhi)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_DESCRIPTION">
+      <Text>जबकि एक शहर-राज्य में स्थापित होता है, तो वह आपको अपनी शानदार संसाधनों की एक प्रतिलिपि प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER_NAME">
+      <Text>प्रचारक</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER_DESCRIPTION">
+      <Text>+4 [ICON_Amenities] शहर में सुविधाएं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_NAME">
+      <Text>पप्पेटियर</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_DESCRIPTION">
+      <Text>जब एक सिटी-स्टेट में स्थापित होते हो तो वहां आपके [ICON_Envoy] दूतों की संख्या दोहरी हो जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_NAME">
+      <Text>बिशप</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_NAME">
+      <Text>महान जांचकर्ता</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_NAME">
+      <Text>दिव्य वास्तुकार</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_NAME">
+      <Text>हथेली रखना</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_NAME">
+      <Text>भगवान का किला</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_NAME">
+      <Text>पत्रोन सेंट (Patron Saint)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION">
+      <Text>इस शहर से पड़ोसी शहरों पर धार्मिक दबाव 100% ज्यादा महसूस होता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_DESCRIPTION">
+      <Text>इस शहर के टाइलों में धार्मिक युद्ध में [ICON_Religion] धार्मिक शक्ति का वृद्धि हुई।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_DESCRIPTION">
+      <Text>शहर में संत स्थान भवनों के प्रति [ICON_Production] उत्पादन में +20%।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_DESCRIPTION">
+      <Text>[ICON_Governor] राज्यपाल के धार्मिक इकाइयां इस शहर की टाइल में एक टर्न में पूरी तरह से ठीक हो जाती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_DESCRIPTION">
+      <Text>शहर वह दबाव नज़र अंदाज़ करता है और धर्मों के प्रभाव से लड़ाई, [ICON_Governor] गवर्नर के खिलाड़ी द्वारा स्थापित नहीं किए गए।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_DESCRIPTION">
+      <Text>शहर में प्रशिक्षित अपोस्टल और योद्धा संन्यासी अपने पहले पदोन्नति प्राप्त करते समय 1 अतिरिक्त पदोन्नति प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_NAME">
+      <Text>भूमिगत विक्रेता (Bhoomigat vikreta)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION">
+      <Text>शहर में खेती से +50% उत्पादकता और सुविधा हटाने से उत्पादकता में वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_NAME">
+      <Text>अतिरिक्त रसद वितरण</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION">
+      <Text>शहर में +20% [ICON_Food] विकास। यहाँ समाप्त होने वाले आपके [ICON_TradeRoute] व्यापार मार्ग अपने स्टार्टिंग शहर के लिए +2 [ICON_Food] खाद्य प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_NAME">
+      <Text>प्रावधान</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION">
+      <Text>शहर में औद्योगिक क्षेत्र इमारतों के प्रति [ICON_Production] +20%। शहर में प्रशिक्षित निवासी [ICON_Citizen] जनसंख्या का उपभोग नहीं करते।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_NAME">
+      <Text>उद्योगपति (udyogpati)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION">
+      <Text>प्रत्येक स्ट्रैटेजिक संसाधन से शहर में प्रति टर्न [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_NAME">
+      <Text>काला बाजारी</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION">
+      <Text>संयुक्त संसाधनों को संसाधन विशेषज्ञ इकाइयों का निर्माण करने के लिए शहर में आवश्यक नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_NAME">
+      <Text>ऊर्ध्वाधारीकरण (Urdhvadharikaran)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_DESCRIPTION">
+      <Text>इस शहर को 6 टाइल के भीतर किसी भी औद्योगिक क्षेत्र से [ICON_Production] उत्पादन मिलता है, सिर्फ पहले क्षेत्र से नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_NAME">
+      <Text>गिल्डमास्टर</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_DESCRIPTION">
+      <Text>शहर में प्रशिक्षित सभी निर्माताओं को +1 निर्माण चार्ज मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_INFRASTRUCTURE_NAME">
+      <Text>इंफ्रास्ट्रक्चर</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_INFRASTRUCTURE_DESCRIPTION">
+      <Text>सिटी सेंटर और गवर्नमेंट प्लाज़ा इमारतों के प्रति उत्पादन में +30% [ICON_Production]।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_NAME">
+      <Text>मत्स्यपालन</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION">
+      <Text>मछली पालन की विशेष सुधार तटीय खेतों पर शहर में बनाया जा सकता है। यह 1 [ICON_Food] खाद्य उत्पादन देता है, जो समुद्री संसाधन के आसपास होता है उसमें से +1 [ICON_Food] खाद्य उत्पादन भी मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_NAME">
+      <Text>पार्क और रिक्रिएशन</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION">
+      <Text>शहर में एक अद्वितीय सुधार के रूप में सिटी पार्क बनाया जा सकता है। यह 2 आकर्षण और 1 [ICON_Culture] संस्कृति प्रदान करता है। जल के समीप स्थित होने पर +1 [ICON_Amenities] सुविधा मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_NAME">
+      <Text>जोनिंग आयुक्त</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION">
+      <Text>शहर में जिलों का निर्माण करने के लिए [ICON_Production] उत्पादन में +20% की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ARCHITECT_NAME">
+      <Text>मनोरंजन</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_ARCHITECT_DESCRIPTION">
+      <Text>शहर में मनोरंजन केंद्र और वाटर पार्क इमारतों के लिए [ICON_Production] उत्पादन में 30% की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_NAME">
+      <Text>पुस्तकाध्यक्ष (Pustakadhayaksha)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION">
+      <Text>शहर द्वारा उत्पन्न [ICON_Science] विज्ञान और [ICON_Culture] संस्कृति में 15% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_NAME">
+      <Text>समझदारीवाला</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_DESCRIPTION">
+      <Text>शहर में थिएटर स्क्वेयर इमारतों के लिए [ICON_Production] उत्पादन में 20% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_NAME">
+      <Text>शोधकर्ता (Shodhakarta)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_DESCRIPTION">
+      <Text>शहर के कैंपस भवनों के प्रति [ICON_Production] उत्पादन में +20% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_NAME">
+      <Text>अनुदान (Anudan)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_DESCRIPTION">
+      <Text>शहर में प्रति टर्न [ICON_GreatPerson] महान व्यक्ति अंक उत्पन्न होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_NAME">
+      <Text>हथियार दौड़ के प्रोत्साहक</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION">
+      <Text>शहर में सभी न्यूक्लियर हथियार परियोजनाओं के लिए 30% [ICON_Production] उत्पादन वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_NAME">
+      <Text>अंतरिक्ष पहलवारी</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_DESCRIPTION">
+      <Text>शहर के सभी अंतरिक्ष-कार्यक्रमों में 30% [ICON_Production] उत्पादन वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_NAME">
+      <Text>भूमि अधिग्रहण</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION">
+      <Text>शहर में नए टाइल तेजी से प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_NAME">
+      <Text>हार्बरमास्टर</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION">
+      <Text>शहर में कमर्शियल हब और हार्बर से डबल अधिकतम पासीवाद लाभ।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE_NAME">
+      <Text>विदेशी मुद्रा</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE_DESCRIPTION">
+      <Text>प्रति वाणिज्य [ICON_TradeRoute] वाहन से शहर से गुजरने वाले हर विदेशी [ICON_TradeRoute] वाहन से प्रति टर्न +3 [ICON_Gold] सोने का लाभ।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TARIFFS_NAME">
+      <Text>तरीफ़ें</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TARIFFS_DESCRIPTION">
+      <Text>प्रत्येक शहर से बाहर जाने वाले [ICON_TradeRoute] व्यापार मार्गों से प्रति टर्न +3 [ICON_Gold] सोने का लाभ।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_NAME">
+      <Text>कर वसूलीकर्ता</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_DESCRIPTION">
+      <Text>प्रति टर्न [ICON_Citizen] नागरिक के लिए +2 [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_NAME">
+      <Text>ठेकेदार</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_DESCRIPTION">
+      <Text>शहर को [ICON_Gold] सोने के साथ विभागों को खरीदने की अनुमति है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_NAME">
+      <Text>संग्रहालय देखभालकर्ता</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_DESCRIPTION">
+      <Text>+100% [ICON_Tourism] शहर में कला, संगीत और लेखन की महान कृतियों से पर्यटन।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ACTION_AVAILABLE">
+      <Text>आप [ICON_Governor] राज्यपाल का पदोन्नति या नियुक्ति कर सकते हैं!</Text>
+    </Row>
+    <!-- Leader Agendas-->
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_HORN_CHEST_LOINS">
+      <Text>जो नागरिक कार्पोरेट और सेनाओं से भरे होते हैं, उन्हें पसंद होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_HORSE_LORD">
+      <Text>वह उन सभी सभ्यताओं से पसंद करता है जो उससे घुड़सवारी के लिए प्रतिस्पर्धा नहीं करते।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_CULTURAL_ID">
+      <Text>लोयल्टी उच्च नागरिकों की पसंद है, लेकिन कम लोयल्टी वालों से नापसंद है।</Text>
+    </Row>
+    <!-- Unit Abilities-->
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING_NAME">
+      <Text>अल्पाइन प्रशिक्षण</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING__DESCRIPTION">
+      <Text>अल्पाइन प्रशिक्षण: पहाड़ों में लड़ते समय +3 [ICON_Strength] के युद्ध शक्ति तथा पहाड़ी जमीन में कोई चलने की दंशा नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALPINE_TRAINING_COMBAT_HILLS_MODIFIER_DESCRIPTION">
+      <Text>पहाड़ों में लड़ते समय +3 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Bombard] मददगार इकाई से बमबार्ड की ताकत</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SCOTTISH_HIGHLANDER_DESCRIPTION">
+      <Text>पहाड़ और जंगल में +5 [ICON_Strength] युद्ध शक्ति बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MONGOLIAN_KESHIG_DESCRIPTION">
+      <Text>क्या सहायक उपकरण और नागरिकों को उनकी ऊंची [ICON_Movement] गति पर अनुसरण करने में सहायता कर सकते हैं?</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GEORGIAN_KHEVSURETI_DESCRIPTION">
+      <Text>हिल टेरेन में लड़ाई करते समय +7 [ICON_Strength] कॉम्बैट स्ट्रेंथ बोनस। [NEWLINE][ICON_Bullet]हिल टेरेन में कोई [ICON_Movement] मूवमेंट पेनाल्टी नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAPUCHE_MALON_RAIDER_DESCRIPTION">
+      <Text>मित्र राज्य के 4 हेक्स के भीतर +5 [ICON_Strength] युद्ध शक्ति बोनस। [NEWLINE] [ICON_Bullet] लूट करने का खर्च 1 [ICON_Movement] गति है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PREVIEW_ZEVEN_PROVINCIEN_DESCRIPTION">
+      <Text>+7 [ICON_Strength] लड़ाई की शक्ति बनाम रक्षणीय जिलों के प्रति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DUTCH_ZEVEN_PROVINCIEN_DESCRIPTION">
+      <Text>यदि किल्ले जैसे सुरक्षित क्षेत्रों पर हमला किया जाए तो +7 [ICON_Strength] लड़ाई ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CREE_OKIHTCITAW_DESCRIPTION">
+      <Text>एक मुफ्त प्रचार शुरू होता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ZULU_IMPI_DESCRIPTION">
+      <Text>+100% फ्लैंकिंग बोनस। [NEWLINE] [ICON_Bullet] अनुभव 25% तेजी से कमाता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_INCREASED_MOVEMENT_NAME">
+      <Text>मोंगोल स्टेप (Mongol Steppe)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_INCREASED_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] आंदोलन</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ORDU_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>ओर्डू से +25% युद्ध अनुभव।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_NAME">
+      <Text>आर्थिक सोने का युग</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_DESCRIPTION">
+      <Text>इस यूनिट का [ICON_TradeRoute] व्यापार मार्ग शत्रु इकाइयों द्वारा लूट नहीं किया जा सकता है। आर्थिक स्वर्ण युग के एक हिस्से के रूप में प्राप्त किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS_NAME">
+      <Text>अनुसूचना</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS_DESCRIPTION">
+      <Text>मित्रवत राज्य में धार्मिक युद्ध शक्ति +15।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_NAME">
+      <Text>ट्वाइलाइट वैलर (Twailight Valor)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_DESCRIPTION">
+      <Text>सभी मेले अटैक यूनिट के लिए +5 [ICON_Strength] कोम्बैट स्ट्रेंथ।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_MOVEMENT_BONUS_DESCRIPTION">
+      <Text>यूनिट्स को जो 1 हेक्स दूरी तक चलना शुरू करते हैं, उन्हें +1 [ICON_Movement] चलने का अनुदान दिया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PARADROP_DESCRIPTION">
+      <Text>दोस्ताना टाइल से पाराड्रॉप कर सकते हैं जो स्थान से 7 टाइल दूर हो (एयरोड्रोम या एयरस्ट्रिप से शुरू करते हुए 12 टाइल दूर).</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_XP_FROM_GOVERNOR_DESCRIPTION">
+      <Text>लड़ाई से कमाई गई अनुभव का +10% (तोकुई)।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_XP_FROM_GOVERNOR_NOT_FOUNDED_DESCRIPTION">
+      <Text>युद्ध से कमाई गई अनुभव में +30% वृद्धि (टोक्यू)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOQUI_COMBAT_BUFF_VS_GOLDEN_AGE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] संग्राम शक्ति मुक्त शहरों या स्वर्णयुग में सभ्यताओं के विरुद्ध। [NEWLINE]</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TIMUR_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>युद्ध से +25% प्राप्त किया गया अनुभव (तिमुर)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_DRONE_GRANT_SIEGE_BONUS_DESCRIPTION">
+      <Text>1 हेक्स के भीतर बेलागाम वर्ग के इकाईयों को +5 [ICON_Bombard] बॉम्बार्ड शक्ति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GENGHIS_KHAN_CAVALRY_BONUS_DESCRIPTION">
+      <Text>+3 [ICON_Strength] युद्ध शक्ति (मंगोल होर्ड)।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GENGHIS_KHAN_CAVALRY_CAPTURE_CAVALRY_DESCRIPTION">
+      <Text>हारे हुए घुड़सवार इकाइयों (मंगोल होर्ड) को पकड़ने की क्षमता।</Text>
+    </Row>
+    <!-- Feature -->
+    <Row Tag="LOC_FEATURE_REEF_NAME">
+      <Text>रीफ</Text>
+    </Row>
+    <!-- Cultural Identity UI-->
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_SUBSECTION">
+      <Text>वफादारी (Vafaadari)</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_ACCUMULATED_IDENTITY_SUBSECTION">
+      <Text>एकत्रित वफादारी</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_DISTANCE_FROM_CAPITAL">
+      <Text>आपकी [ICON_Capital] राजधानी के निकट होने की दूरी।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY">
+      <Text>[SIZE:16]{1_Loyalty} [SIZE:12]वफादारी</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_OF">
+      <Text>of</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_TOTAL_LOYALTY">
+      <Text>[SIZE:16]{1_Loyalty} [SIZE:12]संभव</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_STATUS">
+      <Text>स्थिति:</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_LINE">
+      <Text>प्रति टर्न निष्ठा:</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OWNERSHIP">
+      <Text>इस शहर की स्वामित्वता</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_POPULATION">
+      <Text>[ICON_Citizen] यहाँ रहने वाले नागरिक</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_MARTIAL_LAW">
+      <Text>आवास के दौरान गारिसन इकाई</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OCCUPATION">
+      <Text>व्यवसाय / रोजगार</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_STARVATION">
+      <Text>भूखमरी (Bhookhmari)</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_TRADE_ROUTES">
+      <Text>[ICON_TradeRoute] व्यापार मार्गों</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_GOVERNOR">
+      <Text>[ICON_Governor] राज्यपाल यहाँ नियुक्त किया गया</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_HAPPINESS">
+      <Text>खुशी का स्तर</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_RELIGION_MATCHING_FOUNDED">
+      <Text>आपके स्थापित [ICON_Religion] धर्म का अनुसरण करते हुए</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_RELIGION_MISMATCHING_FOUNDED">
+      <Text>आपके स्थापित [ICON_Religion] धर्म का अनुसरण नहीं करना।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_MODIFIERS">
+      <Text>अन्य प्रभाव</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_ORIGINAL_OWNERSHIP">
+      <Text>शहर के मूल मालिक होना</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_OWNERSHIP_BEFORE_OCCUPATION">
+      <Text>आवास से पहले शहर के मालिक होना।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_FREE_CITIES">
+      <Text>स्वतंत्रता की इच्छा</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_ALWAYS_LOYAL">
+      <Text>हमेशा पूरी तरह से वफादार हों।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_CITIZEN_PRESSURE">
+      <Text>पास के [ICON_Citizen] नागरिकों से दबाव</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_OWNED_CITIES">
+      <Text>पास के [ICON_Citizen] नागरिक</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_FOREIGN_CITIES">
+      <Text>आस-पास के प्रतिद्वंद्वी [ICON_Citizen] नागरिक</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_OWNED_GOVERNORS">
+      <Text>पास में स्थित [ICON_Governor] गवर्नर स्वामित्व वाले हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PER_TURN_NEARBY_FOREIGN_GOVERNORS">
+      <Text>पास के प्रतिद्वंदी राज्यपाल [ICON_Governor] राज्यपालों के पास</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_OWNERSHIP">
+      <Text>शहर के मालिकी से {1_IdentityPressureAmount}</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_POPULATION">
+      <Text>[ICON_Citizen] नगर के नागरिकों से {1_IdentityPressureAmount}</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_AGES">
+      <Text>स्वयं की पहचान {1_IdentityPressureAmount} गोल्डन या डार्क एज से।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_GOVERNOR">
+      <Text>डिप्लोमेट से {1_IdentityPressureAmount} [ICON_Governor] गवर्नर</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_PRESSURE_MODIFIERS">
+      <Text>अन्य प्रभावों से {1_IdentityPressureAmount}।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_OWN_CITIES">
+      <Text>आपके [ICON_Citizen] नागरिक 9 टाइल के भीतर</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_MARTIAL_LAW">
+      <Text>मार्शल लॉव</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_OCCUPATION">
+      <Text>[COLOR_RED]व्यवसाय/पेशा</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_TRADE_ROUTES">
+      <Text>[ICON_TradeRoute] व्यापार मार्ग</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_GOVERNOR">
+      <Text>[ICON_Governor] आवासीय राज्यपाल</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_BASE_DECAY">
+      <Text>बेस अध्रोण</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_HAPPINESS">
+      <Text>नागरिक सुख</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_UNHAPPINESS">
+      <Text>[COLOR_RED]नागरिक असंतोष</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_GOLDEN_AND_DARK_AGES">
+      <Text>सोने का युग और काल की अंधियारी दशा</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_MISC">
+      <Text>अन्य संशोधकों</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_INDEPENDENCE_DESIRE">
+      <Text>[COLOR_RED]सामान्य अस्थिरता</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_FOREIGN_CITIES">
+      <Text>[COLOR_RED]9 टाइल के भीतर अन्य सभ्यताओं [ICON_Citizen] नागरिकों को</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_STARVATION">
+      <Text>[COLOR_RED]शहर भूखा है।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_SOURCE_ADDITIONAL">
+      <Text>अतिरिक्त स्रोत</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_NO_GROWTH_PENALTY">
+      <Text>कोई जुर्माना नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CULTURAL_IDENTITY_LENS">
+      <Text>वफादारी</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CULTURAL_IDENTITY_LENS_TOOLTIP">
+      <Text>शहरों की वफादारी दिखाएं, और उसे प्रभावित करने वाले वफादारी के स्रोतों को दर्शाएं।</Text>
+    </Row>
+    <!-- Disloyal City UI -->
+    <Row Tag="LOC_RAZE_CITY_LIBERATE_EXPLANATION">
+      <!--New version of base game text used in conquer city UI popup, to describe Liberation effect on Loyalty-->
+      <Text>एक शहर को मुक्त करने से उसे उसके पूर्व मालिकों में से एक वापस लौटाया जाएगा, जो शायद उस नागरिकता को खेल में वापस लाएगा। [NEWLINE] [NEWLINE] {1_WarmongerInfo} [NEWLINE] [NEWLINE] यह शहर आपके शहरों और गवर्नरों से स्थायित्व दबाव से प्रतिरोधी होगा।</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_HEADER">
+      <Text>शहर बदराया</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_NAME_LABEL">
+      <Text>शहर का नाम:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_POPULATION_LABEL">
+      <Text>जनसंख्या:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_DISTRICTS_LABEL">
+      <Text>वर्तमान में जिलों की संख्या:</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_KEEP_BUTTON_LABEL">
+      <Text>शहर को रखें।</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_KEEP_EXPLANATION">
+      <Text>इस शहर को रखें। आप अपने साम्राज्य में शामिल होने वाले नए नागरिकों की निष्ठा को मजबूत करने के लिए एक [ICON_Governor] राज्यपाल इसे यहाँ ले जाना चाहेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_REFUSE_BUTTON_LABEL">
+      <Text>कचरे का शहर</Text>
+    </Row>
+    <Row Tag="LOC_DISLOYAL_CITY_CHOOSER_REFUSE_EXPLANATION">
+      <Text>इस शहर को अपने साम्राज्य में शामिल होने से इनकार करें। यह एक मुक्त शहर बना रहेगा। [NEWLINE][NEWLINE]इस शहर को आपके शहरों और गवर्नरों से वफादारी दबाव की प्रतिक्रिया नहीं होगी, और यह आपकी सभ्यता से फिर से शामिल होने की मांग नहीं करेगा। इसे अभी भी किसी अलग सभ्यता द्वारा जीता जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_FROM_LOYALTY_TOOLTIP">
+      <Text>{1_LoyaltyLevelName} से {ActualValue : number +#.#;-#.#}% ({Value : number +#;-#})</Text>
+    </Row>
+    <Row Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP">
+      <Text>ह्वारांग से {Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) ([ICON_Governor] राज्यपाल के साथ {1} {1 : plural 1?पदोन्नति; other?पदोन्नतियाँ;})।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_3_NAME">
+      <Text>निष्ठावान</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_2_NAME">
+      <Text>हिलती हुई निष्ठा</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_1_NAME">
+      <Text>अनवरत विश्वासघाती</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_0_NAME">
+      <Text>अस्थिरता</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_3_DESCRIPTION">
+      <Text>नागरिक आपकी सभ्यता के प्रति वफादार हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_2_DESCRIPTION">
+      <Text>आपकी सभ्यता के लोगों का निष्ठा कमजोर हो रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_1_DESCRIPTION">
+      <Text>नागरिक आपकी सभ्यता के प्रति अनवचनीय हैं।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_LEVEL_0_DESCRIPTION">
+      <Text>नागरिक अस्थिरता की स्थिति में हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GLORY_SCORE_BREAKDOWN">
+      <Text>{1_Icon} ({2_Score}/{3_threshold})</Text>
+    </Row>
+    <!-- Resources -->
+    <Row Tag="LOC_RESOURCE_AMBER_NAME">
+      <Text>अम्बर</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_OLIVES_NAME">
+      <Text>जैतून (Jaitun)</Text>
+    </Row>
+    <Row Tag="LOC_RESOURCE_TURTLES_NAME">
+      <Text>कछुओं</Text>
+    </Row>
+    <!-- HUD -->
+    <Row Tag="LOC_HUD_CITY_POPULATION_GRAPH_TOOLTIP">
+      <Text>{1_Amount} {2_CivName} नागरिकों</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_LOYALTY">
+      <Text>{1_LoyaltyAmount} वफादारी ({2_LoyaltyPerTurn : number +#.#;-#.#} प्रति टर्न)</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_FULL_LOYALTY">
+      <Text>पूर्ण निष्ठा</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GAINING_LOYALTY">
+      <Text>{1_Turns} में पूरी निष्ठा।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_LOSING_LOYALTY">
+      <Text>{1_Turns} में बाग़वानी</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_UNIT_PRODUCTION_MODIFIER">
+      <Text>{मान: नंबर +#.#;-#.#}% इकाइयों के प्रति।}</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_BUILDING_PRODUCTION_MODIFIER">
+      <Text>{मूल्य: संख्या +#.#;-#.#}% इमारतों और विस्मयकारिकों की ओर।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GET_BUILDING_NON_WONDER_PRODUCTION_MODIFIER">
+      <Text>{मूल्य: नंबर +#.#; -#.#}% भवनों की ओर।}</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_STABLE_LOYALTY">
+      <Text>नागरिक वफादारी बदल नहीं रही है।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_CULTURAL_EFFECT">
+      <Text>कोई सकारात्मक या नकारात्मक प्रभाव नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR">
+      <Text>राज्यपाल</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CIVICS_TREE_AWARD_GOVERNOR">
+      <Text>पुरस्कार 1 [Icon_Governor] राज्यपाल शीर्षक</Text>
+    </Row>
+    <Row Tag="LOC_HUD_LAUNCHBAR_GOVERNOR_BUTTON">
+      <Text>राज्यपाल[NEWLINE][NEWLINE]अपने सभ्यता में [Icon_Governor] राज्यपालों को देखें या प्रबंधित करें।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_LAUNCHBAR_HISTORIAN_BUTTON">
+      <Text>इतिहास टाइमलाइन[NEWLINE][NEWLINE]अपनी सभ्यता द्वारा हासिल की गई ऐतिहासिक घटनाओं का टाइमलाइन देखें।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_CULTURE_TOOLTIP">
+      <Text>निष्ठा और राज्यपालों के बीच का सम्बन्ध</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ESTABLISHED">
+      <Text>शहर में स्थापित</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ASSIGNED_SPECIFIC">
+      <Text>[ICON_Governor] राज्यपाल {1_GovernorName} नगर को सौंपे गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_ESTABLISHED_SPECIFIC">
+      <Text>[ICON_Governor] राज्यपाल {1_GovernorName} ने शहर में स्थापित किया।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_NO_GOVERNOR">
+      <Text>कोई नियत [ICON_Governor] राज्यपाल नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_NO_GOVERNOR_EFFECT">
+      <Text>...</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_GOVERNOR_TURNS">
+      <Text>{1_num} {1_Num : plural 1?बार; other?बारों;}.</Text>
+    </Row>
+    <Row Tag="LOC_CITY_GOLD_FROM_POPULATION">
+      <Text>अतिरिक्त कर से {Value : number +#.#;-#.#}।</Text>
+    </Row>
+    <!-- Loyalty and Identity -->
+    <Row Tag="LOC_LOYALTY_STATUS_LOYAL">
+      <Text>[COLOR_GREEN]निष्ठावान</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_STATUS_DISLOYAL">
+      <Text>[COLOR_RED]अविश्वासी</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_GAINING">
+      <Text>[COLOR_GREEN][ICON_PressureUp] बढ़ रहा है</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_STABLE">
+      <Text>स्थिर</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_PER_TURN_STATUS_LOSING">
+      <Text>[COLOR_RED][ICON_PressureDown] गिर रहा है</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_NONE">
+      <Text>यह शहर आपके लिए वफादार है और कोई अप्रत्याशित प्रभाव नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_DANGER_OF_REBELLION_TO_PLAYER">
+      <Text>यदि वफादारी 0 पर गिर जाती है, तो शहर विद्रोह करेगा और यहाँ सबसे अधिक वफादारी इकट्ठी की गई है उस {1_PlayerName} के साथ शामिल हो जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_EFFECT_DANGER_OF_REBELLION_TIED_PLAYERS">
+      <Text>[COLOR_RED]यदि वफादारी 0 पर गिरती है, तो शहर बागी हो जाएगा और सबसे अधिक यहां एकता जमा करने वाली अन्य सभ्यता के साथ शामिल हो जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_GROWTH_AND_YIELD_EFFECTS_TEXT">
+      <Text>शहर की वृद्धि {1_GrowthReduction}% पर है[NEWLINE]शहर की उपज {2_YieldPercentage}% कम हो गई हैं।</Text>
+    </Row>
+    <!-- Emergency Text Blocks -->
+    <Row Tag="LOC_EMERGENCY_PARTICIPANTS">
+      <Text>भागीदार:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING">
+      <Text>{1_TypeEmergency} की प्रलंबित होना</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_ONGOING">
+      <Text>चल रही {1_TypeEmergency}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETED">
+      <Text>{1_TypeEmergency} सम्पूर्ण हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET">
+      <Text>{1_Target} का लक्ष्य:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_YOU_ARE_TARGET">
+      <Text>में</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_JOIN">
+      <Text>कृपया स्वीकार करें। (Kripya svikar karein.)</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_REJECT">
+      <Text>अस्वीकार करें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TURNS_REMAINING">
+      <Text>[ICON_Turn] शेष {1_Turns : plural 1?{1_Turns} टर्न; other?{1_Turns} टर्न;}</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_NO_TURNS_REMAINING">
+      <Text>समाप्त होता है [ICON_Turn] यह बारी</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TURNS_OVER">
+      <Text>आपातकाल समाप्त हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_BUFFS_EXPLANATION">
+      <Text>इस आपातकाल में:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARDS_EXPLANATION">
+      <Text>यदि सदस्य सफल हों:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARDS_EXPLANATION">
+      <Text>अगर सदस्य असफल हो जाते हैं:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBERS_HAVE_WON_REWARDS">
+      <Text>सदस्यों की विजय के कारण:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_HAS_WON_REWARDS">
+      <Text>टारगेट की जीत के कारण:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_THESE_GOALS">
+      <Text>कृपया इन उद्देश्यों को पूरा करें:</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_EXPLANATION">
+      <Text>आपको इस लक्ष्य के खिलाफ एक आपातकालीन में शामिल होने का मौका है। [NEWLINE] {1_GoalsExplanation} [NEWLINE] सफल हों तो आपको अवार्ड मिलेगा। असफल हों तो लक्ष्य मजबूत होगा। आपको इस आपातकालीन को स्वीकार या अस्वीकार करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_EXPLANATION_DEFENDER">
+      <Text>तुम्हारे खिलाफ आपातकाल घोषित किया गया है! [NEWLINE] {1_GoalsExplanation} [NEWLINE] इन उद्देश्यों को हासिल करने से सदस्यों को रोकने में सफल हो जाओगे, तो आपको पुरस्कृत किया जाएगा। असफल हो जाओ और सदस्य शक्तिशाली होंगे।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_PENDING_SHORT_DESCRIPTION">
+      <Text>लंबित: स्वीकार या अस्वीकार</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_MEMBERS_WIN">
+      <Text>सदस्य विजयी हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_COMPLETE_TARGET_WIN">
+      <Text>लक्ष्य विजयी है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_GOLD_REWARD">
+      <Text>सदस्य सभ्यताएँ {1_Amount} [ICON_Gold] सोने की कुल्हड़ी को बाँटती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_GOLD_REWARD">
+      <Text>लक्ष्य प्रत्येक सदस्य से [ICON_Gold] {1_Amount} सोना प्राप्त करता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_BUFF_DESCRIPTION_IDENTITY_IN_CITY">
+      <Text>लक्ष्य लक्ष्य शहर में प्रति टर्न +20 वफादारी प्राप्त करता है।</Text>
+    </Row>
+    <!-- |||||||||  Goal Specific                                                   ||||||||||||| -->
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_CAPTURE_CITIES">
+      <Text>जो लोग आपातकालीन सेना में शामिल होंगे, उन्हें [ICON_Turn] {Turns} टर्न के भीतर {TargetName} से विशिष्ट शहरों को कब्जा करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_CAPTURE_SPECIFIC_CITY">
+      <Text>जो लोग आपातकालीन दल में शामिल होते हैं, उन्हें [ICON_Turn] {Turns} टर्न के भीतर {CityName} को {TargetName} से जीतना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_CAPTURE_CITIES">
+      <Text>आपातकालीन सदस्यों को {TargetName} से विशिष्ट शहरों को कब्जा करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_CAPTURE_SPECIFIC_CITY">
+      <Text>आपातकालीन सदस्यों को {TargetName} से {CityName} को पकड़ना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_CAPTURE_CITIES">
+      <Text>{1_CityName} को पकड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_CAPTURE_CITIES_DEFENSE">
+      <Text>{1_CityName} की रक्षा करें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_CAPTURE_CITY_DEFENSE">
+      <Text>आपातकाल के अंत तक {1_CityName} की रक्षा करें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_CAPTURE_CITIES">
+      <Text>आपातकाल के अंत से पहले {1_CityName} को कैप्चर करें।</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_UNCONVERT_CITY">
+      <Text>उन लोगों को जो आपातकालीन सेवाओं में शामिल होते हैं, {CityName} को {TargetName} के धर्म का अनुसरण अगले [ICON_Turn] {Turns} टर्न के {HalfTurns} टर्न रोकने की आवश्यकता होगी।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_UNCONVERT_CITY">
+      <Text>आपातकालीन सदस्यों को [ICON_Turn] {HalfTurns} बार के लिए {CityName} को {TargetName} के धर्म का अनुसरण रोकना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_UNCONVERT_CITY">
+      <Text>{NewReligion} को निंदा करें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_UNCONVERT_CITY_DEFENSE">
+      <Text>{NewReligion} की रक्षा करें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_UNCONVERT_CITY_DEFENSE">
+      <Text>{1_CityName} में {NewReligion} को प्रमुख धर्म बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_UNCONVERT_CITY">
+      <Text>{1_CityName} में {NewReligion} को प्रमुख धर्म बनने से रोकें।</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_GOAL_TENTATIVE_LIBERATE_CITY">
+      <Text>जो लोग आपातकालीन सेवाओं में शामिल होंगे, उन्हें [ICON_Turn] {Turns} टर्न के भीतर {CityName} को {TargetName} के नियंत्रण से मुक्त करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIBERATE_CITY">
+      <Text>आपातकालीन सदस्यों को {CityName} को {TargetName} से मुक्त करना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_LIBERATE_CITY">
+      <Text>{1_CityName} को स्वतंत्र बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SHORT_LIBERATE_CITY_DEFENSE">
+      <Text>{1_CityName} की रक्षा कीजिए।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_LIBERATE_CITY_DEFENSE">
+      <Text>आपातकाल के अंत तक {1_CityName} की रक्षा करें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_LIST_LIBERATE_CITY">
+      <Text>आपातकाल के अंत से पहले {1_CityName} को स्वतंत्र करें।</Text>
+    </Row>
+    <!-- |||||||||  Emergency Specific                                              ||||||||||||| -->
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_MILITARY">
+      <Text>सैन्य आपातकालीन स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_MILITARY">
+      <Text>अगर हम एकता से नहीं खड़े होंगे, तो इस एक शहर का भाग्य समय के साथ हम सबके पास आ जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_MILITARY">
+      <Text>दुनिया की सभी सभ्यताओं के सरोकार में {TargetName} है, लेकिन वह {OldCityName} को जीत गया है। {TargetName} की भाग्यशाली प्रगति एक महत्वपूर्ण चिंता का विषय है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_MILITARY">
+      <Text>इसके अतिरिक्त, सभी सदस्यों के बीच शांति, खुले सीमाओं और एक दूसरे के साथ साझा दृष्टिगति होगी। सभी सदस्य लक्ष्य के साथ युद्ध में जाएंगे।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_MILITARY_MOVEMENT">
+      <Text>सदस्य इकाइयों को टारगेट के क्षेत्र में +1 [ICON_Movement] गति प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_MILITARY_COMBAT_STRENGTH">
+      <Text>लक्ष्य इकाइयों के पास सदस्य इकाइयों से लड़ते समय -2 [ICON_Strength] युद्ध शक्ति होती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_MILITARY_INCREASED_HEALING">
+      <Text>सदस्य इकाइयों को टारगेट के क्षेत्र में +5 चिकित्सा मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_MILITARY_CITY_STRIKE">
+      <Text>टारगेट को सिटी स्ट्राइक के साथ एक मेंबर यूनिट पर हमला करते समय +2 [ICON_Strength] कॉम्बैट स्ट्रेंथ हासिल होती है।</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_SETTLEMENT_MOVEMENT">
+      <Text>सदस्य यूनिट्स को +1 [ICON_Movement] आगे बढ़ने की सुविधा मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_BUFF_DESCRIPTION_SETTLEMENT_MOVEMENT">
+      <Text>लक्षित यूनिट को +1 [ICON_Movement] गति प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SETTLEMENT_GOLD_PER_TURN">
+      <Text>सदस्यों को प्रति टर्न +1 सोना प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_SETTLEMENT_GOLD_PER_TURN">
+      <Text>लक्ष्य प्रति टर्न + 1 सोना हासिल करता है।</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_CITY_STATE">
+      <Text>शहर-राज्य आपातकालीन स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_CITY_STATE">
+      <Text>हम शहर राज्यों की स्वतंत्रता को सम्मान देते हैं और इस विजय से अंधेरे में देखने की अनुमति नहीं देंगे।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_CITY_STATE">
+      <Text>{TargetName} ने {OldCityName} को जीत लिया है। {OldCityName} के अधिग्रहण का मामला बहुत चिंताजनक है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_CITY_STATE">
+      <Text>सभी सदस्यों को एक दूसरे के साथ शांति, खुले सीमाओं और साझा दृश्यता होगी। सभी सदस्य लक्ष्य के साथ युद्ध करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_CITY_STATE_GOLD_PER_ENVOY">
+      <Text>सदस्यों को उनके प्रत्येक [ICON_Envoy] राजदूत के लिए प्रति टर्न +1 [ICON_Gold] सोना प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_CITY_STATE_GOLD_FOR_TRADE_ROUTES">
+      <Text>शहर-राज्यों के [ICON_TradeRoute] व्यापार मार्गों को लक्ष्य बनाएं तो प्रति टर्न +2 [ICON_Gold] सोने दिए जाते हैं।</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_RELIGIOUS">
+      <Text>धार्मिक आपातकाल</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_RELIGIOUS">
+      <Text>"विश्वासी की चीखें स्वर्ग की ओर उठती हैं, और पृथ्वी पर हमें धर्मनिष्ठा के रूप में भावनात्मक क्रोध उत्पन्न होता है।"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_RELIGIOUS">
+      <Text>{TargetName} ने {OldCityName} को, {OldReligion} का पवित्र शहर, {NewReligion} में बदल दिया है। ऐसा लगता है कि {TargetName} दुनिया के अन्य महान धर्मों के साथ शांतिपूर्वक सहज़ रहने के लिए तैयार नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_RELIGIOUS_RELICS">
+      <Text>हर सदस्य एक धरोहर प्राप्त करता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_RELIGIOUS_PRESSURE">
+      <Text>लक्ष्य के धर्म ने सभी नजदीकी शहरों में दबाव की एक झटका जारी की।</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_SPYING">
+      <Text>जासूसी आपातकालीन स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_SPYING">
+      <Text>हर कोई जासूसी करता है, लेकिन यह आदमी पकड़ा गया! इसके बारे में कुछ करें!</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_GOAL_SPYING">
+      <Text>शहर में जहां लक्ष्य एक ऑपरेशन कर रहा है, वहाँ जाल फैलाकर लक्ष्य जासूस को पकड़ें।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_SPYING_ACTION">
+      <Text>सदस्य जासूस Member Cities में एक नई कार्रवाई प्राप्त करते हैं: जाल रखें। यदि एक लक्ष्य जासूस इस शहर में एक ऑपरेशन का प्रयास करता है, तो वे जाल में फंस जाएंगे।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SPYING_SPY_KILLER">
+      <Text>गिरफ्तार जासूस को मार दिया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_SPYING_FORTITUDE">
+      <Text>सदस्य शहरों में जासूसी ऑपरेशन पूरा करना लक्ष्य के लिए अधिक मुश्किल होगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_SPYING_FREE_SPY">
+      <Text>टारगेट को एक अतिरिक्त जासूस मिलता है।</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_NUCLEAR">
+      <Text>परमाणु आपातकालीन स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_NUCLEAR">
+      <Text>"भयानक शक्तियां, भयानक अंतों के लिए इस्तेमाल की जाती हैं। कभी फिर नहीं!"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_NUCLEAR">
+      <Text>{TargetName} ने दुनिया का सबसे शक्तिशाली हथियार इस्तेमाल किया है, और न्यूक्लियर जीनी बाहर निकल गया है। क्या हमारा नाश हाथ में है?</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_NUCLEAR">
+      <Text>इसके अलावा, सभी सदस्यों के बीच शांति, खुले सीमाओं और साझा दृश्यता होगी। सभी सदस्य लक्ष्य के साथ युद्ध करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_NUCLEAR_MOVEMENT">
+      <Text>सदस्य इकाइयों को टारगेट के क्षेत्र में +1 [ICON_Movement] गति मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_NUCLEAR_COMBAT_STRENGTH">
+      <Text>लक्ष्य इकाइयों की [ICON_Strength] लड़ाई में सदस्य इकाइयों के खिलाफ -2 [ICON_Strength] कम होती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_NUCLEAR_COMBAT_STRENGTH">
+      <Text>लक्ष्य इकाइयों की संघ के विरुद्ध लड़ाई में -3 [ICON_Strength] युद्ध शक्ति होती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_NUCLEAR_CULTURE_SCARE">
+      <Text>सदस्य शहरों से एक कम वफादारी दबाव होता है।</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <Row Tag="LOC_EMERGENCY_NAME_BACKSTAB">
+      <Text>धोखा आपातकालीन स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_FLAVOR_BACKSTAB">
+      <Text>"खुले, ईमानदार युद्ध निश्चित रूप से इस धोखेबाज़ राजनीति से कम घिनौना है।"</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_DESCRIPTION_BACKSTAB">
+      <Text>{TargetName} ने एक धोखेबाज़ हमला किया है, लंबे समय से दोस्त {OldPlayerName} पर युद्ध घोषित करते हुए! ऐसा लगता है कि {TargetName} के हमलों से कोई सुरक्षित नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_EXTRA_EFFECTS_BACKSTAB">
+      <Text>इसके अलावा, सभी सदस्यों को एक दूसरे के साथ शांति, खुले सीमाओं और साझा दृष्टिकोण होगा। सभी सदस्य लक्ष्य के साथ युद्ध करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_MOVEMENT">
+      <Text>सदस्य इकाइयों को टारगेट के क्षेत्र में +1 [ICON_Movement] आगे बढ़ने का लाभ मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_COMBAT_STRENGTH">
+      <Text>लक्ष्य इकाइयों की लड़ाई में सदस्य इकाइयों के खिलाफ -3 [ICON_Strength] युद्ध शक्ति होती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_CANCEL_TRADE_ROUTES">
+      <Text>सभी सदस्यों और लक्ष्य के बीच व्यापार मार्ग रद्द कर दिए गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_BACKSTAB_TRADING">
+      <Text>सभी सदस्यों के बीच सभी व्यापार मार्ग दो [ICON_Production] उत्पादन प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_MEMBER_REWARD_DESCRIPTION_MILITARY_COMBAT_STRENGTH">
+      <Text>लक्ष्य इकाइयों की संघ के साथ लड़ाई में -3 [ICON_Strength] कमजोरी होती है।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TARGET_REWARD_DESCRIPTION_MILITARY_WAR_WEARINESS">
+      <Text>जब सदस्यों के साथ युद्ध करते समय लक्ष्य को कम कर दिया जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_EMERGENCY_TAB_COMPLETED">
+      <Text>Completed</Text>
+    </Row>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!--Spy-->
+    <Row Tag="LOC_UNITOPERATION_SPY_FABRICATE_SCANDAL_DESCRIPTION">
+      <Text>घटना का झूठ बनाना।</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_FOMENT_UNREST_DESCRIPTION">
+      <Text>अशांति बढ़ाओ।</Text>
+    </Row>
+    <Row Tag="LOC_UNITOPERATION_SPY_NEUTRALIZE_GOVERNOR_DESCRIPTION">
+      <Text>राज्यपाल को न्यूट्रलाइज करें।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FABRIRCATE_SCANDAL_REWARD">
+      <Text>दुश्मन दूतों को हटाना</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FOMENT_UNREST_REWARD">
+      <Text>हमारी निष्ठा को कम करते हुए और हमारी निष्ठा को बढ़ाते हुए</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NEUTRALIZE_GOVERNOR_REWARD">
+      <Text>दुश्मन [ICON_Governor] गवर्नर को निष्क्रिय करना।</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_FABRICATE_SCANDAL">
+      <Text>शीर्ष प्रतियोगियों को हार मानने के लिए जबरदस्ती करना {1_EnvoyString}</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_FOMENT_UNREST">
+      <Text>दुश्मन की निष्ठा को {1_LoyaltyString} से कम करें।</Text>
+    </Row>
+    <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_NEUTRALIZE_GOVERNOR">
+      <Text>शत्रु [ICON_Governor] गवर्नर को कर्तव्य से हटा दें {1_TurnString} के लिए।</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FABRICATE_SCANDAL_ESTIMATE">
+      <Text>{1_Amount} [ICON_Envoy] राजदूत</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_FOMENT_UNREST_ESTIMATE">
+      <Text>{1_Amount}</Text>
+    </Row>
+    <Row Tag="LOC_ESPIONAGE_NEUTRALIZE_GOVERNOR_ESTIMATE">
+      <Text>{1_Amount} टर्न्स</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SMEAR_CAMPAIGN_NAME">
+      <Text>दाग़ा अभियान</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_COVERT_ACTION_NAME">
+      <Text>गुप्त कार्रवाई</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LICENSE_TO_KILL_NAME">
+      <Text>हत्या करने के लिए लाइसेंस</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_SMEAR_CAMPAIGN_DESCRIPTION">
+      <Text>जैसे 2 स्तर अधिक अनुभवी होने की तरह घटना बनाओ।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_COVERT_ACTION_DESCRIPTION">
+      <Text>जैसे 2 स्तर अधिक अनुभवी होते हुए अशांति को उत्पन्न करें।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_SPY_LICENSE_TO_KILL_DESCRIPTION">
+      <Text>गवर्नर को ऐसे न्यूट्रलाइज़ करें जैसे 2 स्तर अधिक अनुभवी हो।</Text>
+    </Row>
+    <!--Diplomacy modifiers-->
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_BROKEN_PLEDGE">
+      <Text>अपनी सीमा से ट्रूपों को हटाने के लिए कसम तोड़ दी</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_KEPT_PLEDGE">
+      <Text>उन्होंने अपने सीमा से सैनिकों को हटाने के लिए वादा पूरा किया।</Text>
+    </Row>
+    <Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_NO_PLEDGE">
+      <Text>सैनिकों को भेजने के लिए एक प्रतिज्ञा नहीं करने का निर्णय लिया।</Text>
+    </Row>
+    <!--OPERATIONS AND COMMANDS TEXT-->
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_DESCRIPTION">
+      <Text>पैराड्रॉप</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_IN_ZOC">
+      <Text>दुश्मन के नियंत्रण क्षेत्र में</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_FRIENDLY_TERRITORY">
+      <Text>दोस्ताना क्षेत्र में होना चाहिए या एयरस्ट्रिप या एयरोड्रोम के पास होना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PARADROP_FAILURE_REQUIRES_FULL_MOVEMENT">
+      <Text>पूर्ण गति की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PROJECT_PRODUCTION_DESCRIPTION">
+      <Text>प्रोजेक्ट में [ICON_Production] उत्पादन जोड़ें। हर शहर में एक बार प्रति टर्न।</Text>
+    </Row>
+    <Row Tag="LOC_UNITCOMMAND_PRIORITY_TARGET_DESCRIPTION">
+      <Text>प्राथमिक लक्ष्य</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IDENTITY_PRESSURE">
+      <Text>प्रति टर्न वफादारी</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_DETAILS_TURNS_TO_ESTABLISH">
+      <Text>स्थापित करने के लिए फिर से मोड़ लें।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_IDENTITY_PRESSURE_TOOLTIP">
+      <Text>यह गवर्नर शहर के प्रति आपकी सभ्यता की वफादारी प्रति-टर्न प्रदान करने वाली राशि।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TRANSITION_STRENGTH">
+      <Text>अभिक्रिया शक्ति (Abhikriya Shakti)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TRANSITION_STRENGTH_TOOLTIP">
+      <Text>इस गवर्नर के स्थापित होने की गति एक शहर में।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_ASSIGN_GOVERNOR_TO">
+      <Text>राज्यपाल को काम में नियुक्त करें...</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_SELECT_A_CITY">
+      <Text>एक शहर चुनें...</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_NO_PREVIOUS_GOVERNOR">
+      <Text>कोई पूर्व राज्यपाल नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_TURNS_TO_ESTABLISH">
+      <Text>गवर्नर स्थापित होने से पहले बार की संख्या।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_SKILL_TREE">
+      <Text>कौशल पेड़ी</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_PROMOTE">
+      <Text>प्रचार करें</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_ASSIGN_GOVERNOR">
+      <Text>काम देना (Kaam dena)</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_BUTTON_REASSIGN_GOVERNOR">
+      <Text>पुनः नियुक्ति करना</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_ABILITIES">
+      <Text>क्षमताएं</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ABILITIES">
+      <Text>राज्यपाल की क्षमताएं</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ABILITIES_SUBTEXT">
+      <Text>प्रमोशन पर राज्यपाल शीर्षक खर्च करें।</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES">
+      <Text>राज्यपाल शीर्षक: {1_PointsAvailable}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES_AVAILABLE">
+      <Text>RAJYAPAL शीर्षक उपलब्ध: {1_PointsAvailable}</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNOR_GOVERNOR_TITLES_SPENT">
+      <Text>खर्च किए गए: {1_PointsSpent}</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_TIMELINE_TITLE">
+      <Text>{1_PlayerCiv} का इतिहास</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_NEW_MOMENT">
+      <Text>{1_PlayerCiv} इतिहास रचता है।</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_MOMENT_EFFECTS">
+      <Text>{1_MomentDate}    \|    टर्न {2_MomentTurn}    \|    {3_MomentScore} युग स्कोर</Text>
+    </Row>
+    <Row Tag="LOC_HISTORY_MOMENT_EFFECTS_NO_SCORE">
+      <Text>{1_MomentDate}    \|    टर्न {2_MomentTurn}</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_LOYALTY_PERCENTAGE">
+      <Text>लॉयल्टी: {1_CurrentLoyalty}/{2_MaxLoyalty} ({3_LoyaltyIcon}{4_LoyaltyPerTurn})</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POSITIVE_PRESSURE">
+      <Text>+{1_Value}</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_GOVERNORS_PRESSURE_TOOLTIP">
+      <Text>[ICON_Governor] राज्यपाल यहाँ नियुक्त किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_MY_CITIES_PRESSURE_TOOLTIP">
+      <Text>मालिक के [ICON_Citizen] 9 टाइल के भीतर के नागरिकों को।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_THEIR_CITIES_PRESSURE_TOOLTIP">
+      <Text>अन्य सभ्यताओं के [ICON_Citizen] नागरिक 9 टाइल्स के भीतर।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_INDEPENDENCE_PRESSURE_TOOLTIP">
+      <Text>स्वतंत्रता की इच्छा</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_HAPPINESS_PRESSURE_TOOLTIP">
+      <Text>खुशी का स्तर</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_OTHER_PRESSURE_TOOLTIP">
+      <Text>यहाँ अन्य प्रभाव हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_CITY_STATES_PRESSURE_TOOLTIP">
+      <Text>शहर राज्य के रूप में आधार शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_FREE_CITIES_PRESSURE_TOOLTIP">
+      <Text>मुक्त शहर के रूप में आधार ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP">
+      <Text>पास के [ICON_Citizen] नागरिकों से दबाव</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP_MAJOR_CIVS">
+      <Text>[ICON_Citizen]नजदीकी शहर के स्वामी के लोगों से आने वाले दबाव की तुलना में एक्स +20 से -20 तक की सीमा तक जाती है।[NEWLINE][ICON_Bullet]1 दबाव प्रति [ICON_Citizen]नागरिक आमतौर पर बढ़ता है[NEWLINE][ICON_BULLET][ICON_Capital]राजधानी में बढ़ता है[NEWLINE][ICON_BULLET] स्वर्ण युगों, काले युगों और ब्रेड एंड सर्कस सिटी प्रोजेक्ट से प्रभावित हो सकता है[NEWLINE][ICON_BULLET] 9 टाइल्स के भीतर अन्य शहरों पर भी लागू होता है, लेकिन प्रति टाइल 10% कम प्रभावी होता है।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURAL_IDENTITY_POPULATION_PRESSURE_TOOLTIP_MINOR_CIVS">
+      <Text>+20 से -20 तक की सीमा होती है, जो शहर के मालिक के [ICON_Citizen] निकटवर्ती नागरिकों द्वारा दबाव की तुलना और एक अलग सभ्यता के [ICON_Citizen] निकटवर्ती नागरिकों से आता है। [ICON_Bullet] 1 दबाव प्रति [ICON_Citizen] नागरिक आमतौर पर बढ़ता है [ICON_Capital] राजधानी में बढ़ जाता है।</Text>
+    </Row>
+    <!-- Dedications-->
+    <Row Tag="LOC_TECH_BOOST_DEDICATION_NOTIFICATION">
+      <Text>आपने एक [ICON_TechBoosted] युरीका को प्रेरित किया है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_BOOST_DEDICATION_NOTIFICATION">
+      <Text>आपने [ICON_CivicBoosted] प्रेरणा को ट्रिगर किया है।</Text>
+    </Row>
+    <Row Tag="LOC_RELIGIOUS_CONVERSION_DEDICATION_NOTIFICATION">
+      <Text>आपने पहली बार एक शहर को अपने स्थापित धर्म में परिवर्तित किया है।</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_COMPLETION_DEDICATION_NOTIFICATION">
+      <Text>आपने एक नया जिला बनाया है।</Text>
+    </Row>
+    <Row Tag="LOC_TRADE_ROUTE_DEDICATION_NOTIFICATION">
+      <Text>आपने एक [ICON_TradeRoute] व्यापार मार्ग पूरा किया है।</Text>
+    </Row>
+    <Row Tag="LOC_MAP_DISCOVERY_DEDICATION_NOTIFICATION">
+      <Text>आपने एक नये महाद्वीप या प्राकृतिक चमत्कार की खोज की है।</Text>
+    </Row>
+    <Row Tag="LOC_CORPS_KILL_DEDICATION_NOTIFICATION">
+      <Text>आपने एक सेना को नष्ट कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_ARMY_KILL_DEDICATION_NOTIFICATION">
+      <Text>आपने एक सेना को नष्ट कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_NAVAL_UNIT_KILL_DEDICATION_NOTIFICATION">
+      <Text>आपने एक गैर-बार्बेरियन नौसेना इकाई को नष्ट कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCIENCE_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>आपने एक भवन का निर्माण किया है जो [ICON_Science] विज्ञान को आधार उत्पादक रूप में प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_CULTURE_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>आपने एक इमारत निर्मित की है जिसमें एक महान कार्य स्लॉट है।</Text>
+    </Row>
+    <Row Tag="LOC_INDUSTRIAL_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>आपने औद्योगिक युग या उसके बाद की अवधि से एक इमारत बनाई है।</Text>
+    </Row>
+    <Row Tag="LOC_AERODROME_BUILDING_DEDICATION_NOTIFICATION">
+      <Text>आपने एयरोड्रोम जिले में एक इमारत निर्माण की है।</Text>
+    </Row>
+    <Row Tag="LOC_SPY_MISSION_DEDICATION_NOTIFICATION">
+      <Text>आपने एक सफल आक्रामक जासूसी ऑपरेशन पूरा कर लिया है।</Text>
+    </Row>
+    <Row Tag="LOC_ARTIFACT_EXTRACTION_DEDICATION_NOTIFICATION">
+      <Text>आपने एक [ICON_GreatWork_Artifact] वस्तु निकाली है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EARNED_NOTIFICATION">
+      <Text>आपने एक [ICON_GreatPerson] महान व्यक्ति का अर्ज़ी हासिल किया है।</Text>
+    </Row>
+    <!-- Scoring -->
+    <Row Tag="LOC_CATEGORY_ERA_SCORE_NAME">
+      <Text>युग स्कोर</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP">
+      <Text>वह सभी सभ्यताएं जिन्होंने इस सिटी-स्टेट को अपने राजदूत [ICON_Governor] गवर्नर के लिए नियुक्त किया हैं:</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP_ENTRY">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName})</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_HAS_AMBASSADOR_TOOLTIP_ENTRY_UNMET">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} (जहाजी जाति)</Text>
+    </Row>
+    <Row Tag="LOC_CITY_STATE_PANEL_CIV_AMBASSADOR_TOOLTIP">
+      <Text>{1_CivName} ने इस सिटी-स्टेट को एक राजनयिक नियुक्त किया है।</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_HAS_AMBASSADOR_TOOLTIP_ENTRY_LIMITED">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName})</Text>
+    </Row>
+    <Row Tag="LOC_CITY_BANNER_HAS_AMBASSADOR_TOOLTIP_ENTRY_FULL">
+      <Text>[NEWLINE][ICON_Bullet]{1_CivName} ({2_PlayerName}) - {3_EstablishInfo} 
+
+[NEWLINE][ICON_Bullet]भारत (आर्यमान) - साल 1947 में स्थापित हुआ|</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_INHERENT_BONUS">
+      <Text>महत्वपूर्ण अनुदान</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENT_ACCUMULATED_BONUS">
+      <Text>लघु बोनस</Text>
+    </Row>
+    <Row Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION">
+      <Text>+1 [ICON_Food] फल-सब्जी के बागान सुधार से बना खाना।</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_NEW_FEATURES">
+      <Text>नए सुविधाएं</Text>
+    </Row>
+    <Row Tag="LOC_GAME_MENU_NEW_FEATURES_TOOLTIP">
+      <Text>वर्तमान विस्तार में नए सुविधाओं की समीक्षा करें।</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_NEXT">
+      <Text>Next</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_PREVIOUS">
+      <Text>कृपया पिछले मैसेज का अनुवाद करें। स्वाभाविक तरीके से अनुवाद करें।</Text>
+    </Row>
+    <Row Tag="LOC_XP1_INTRO_CONTINUE">
+      <Text>with the translation. What is the text that needs to be translated?</Text>
+    </Row>
+    <Row Tag="LOC_XP_INTRO_HIDETHIS">
+      <Text>यह फिर से न दिखाएं।</Text>
+    </Row>
+    <Row Tag="LOC_END_GAME_MENU_HISTORIAN_BUTTON">
+      <Text>टाइमलाइन देखें</Text>
+    </Row>
+    <Row Tag="LOC_END_GAME_MENU_EXPORT_HISTORIAN_BUTTON">
+      <Text>टाइमलाइन निर्यात करें।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_CITY_IS_LOYAL_TO_TT">
+      <Text>शहर {1_CivName} के प्रति निष्ठावान है।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_CITY_WILL_FALL_TO_TT">
+      <Text>शहर {1_CivName} के हाथ में जायेगा जब वफादारी 0 तक पहुंचेगी।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_RISING_BY_X_TT">
+      <Text>{1_CivName} के प्रति वफादारी {2_PointsPerTurn} {2_PointsPerTurn : plural 1?point; other?points;} प्रति टर्न बढ़ रही है।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_DROPPING_BY_X_TT">
+      <Text>{1_CivName} के प्रति निष्ठा घट रही है। प्रति टर्न {2_PointsPerTurn} {2_PointsPerTurn : plural 1?बिंदु; other?बिंदु;} गिर रही है।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_IS_NOT_CHANGING_TT">
+      <Text>{1_CivName} के प्रति वफादारी अगली बार नहीं बदलेगी।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_STATUS_TT">
+      <Text>{1_LoyaltyIcon} वफादारी {2_CurrentLoyalty}/{3_MaxLoyalty}[NEWLINE]स्थिति: {4_LoyaltyStatus}</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_ALLIANCE_TT">
+      <Text>अपने अनुसंधान अलाइ के जैसी ही तकनीक का सक्रिय अनुसंधान करें ताकि प्रति-टर्न [ICON_Science] विज्ञान बूस्ट बनाए रखें।</Text>
+    </Row>
+    <Row Tag="LOC_TECH_TREE_ALLIANCE_BONUS_TT">
+      <Text>लेवल 3 अनुसंधान गठबंधन विज्ञान बोनस प्राप्त करना। [NEWLINE] अपने अनुसंधान गठबंधन के साथ एक ही प्रौद्योगिकी का अनुसंधान प्रति-टर्न [ICON_Science] विज्ञान बढ़ावा रखता है।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_MAX_LOYALTY_TT">
+      <Text>शहर पूरी तरह से वफादार है और प्रत्येक टर्न वफादारी प्राप्त कर रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_NO_CHANGE_TT">
+      <Text>As it is: कोई बदलाव नहीं</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_RISING_LOYALTY_TT">
+      <Text>{1_LoyaltyPerTurn} बढ़ती हुई</Text>
+    </Row>
+    <Row Tag="LOC_LOYALTY_FALLING_LOYALTY_TT">
+      <Text>{1_LoyaltyPerTurn} गिर रहा है।</Text>
+    </Row>
+    <!-- Replay DataSets -->
+    <Row Tag="LOC_REPLAYDATASET_ERASCORE_NAME">
+      <Text>प्रति-टर्न युग स्कोर</Text>
+    </Row>
+    <Row Tag="LOC_REPLAYDATASET_GOVERNORS_NAME">
+      <Text>कुल राज्यपालों की संख्या</Text>
+    </Row>
+    <Row Tag="LOC_REPLAYDATASET_GOVERNORTITLES_NAME">
+      <Text>कुल राज्यपाल शीर्षकों</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_FILTER_DARK">
+      <Text>अंधेरा</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FISHERY_NAME">
+      <Text>मत्स्य पालन उद्योग</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION">
+      <Text>एक [ICON_Governor] गवर्नर अनूठा सुधार जो सर्वेक्षक गवर्नर के साथ एक्वाकल्चर प्रमोशन के साथ एक शहर में निर्मित किया जा सकता है। यह 1 [ICON_Food] खाद्य उत्पादन करता है, यदि समुद्री संसाधन के पास हो तो अतिरिक्त 1 [ICON_Food] खाद्य उत्पादन करता है। एक समुद्र तटीय प्लॉट पर निर्मित किया जाना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_CITY_PARK_NAME">
+      <Text>सिटी पार्क</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION">
+      <Text>एक [ICON_Governor] गवर्नर अनोखा सुधार जो पार्क और रिक्रिएशन पदोन्नति वाले सर्वेयर गवर्नर के साथ एक शहर में निर्मित किया जा सकता है। 2 अपील और 1 [ICON_Culture] संस्कृति देता है। अगर जल के पास संबद्ध है तो +1 [ICON_Amenities] आरामदायकता। किसी अन्य सिटी पार्क के पास नहीं हो सकता।</Text>
+    </Row>
+    <!-- MISC -->
+    <Row Tag="LOC_CIVILIZATION_NOT_ABLE_TO_DECLARE_SURPRISE_WAR">
+      <Text>आपकी सभ्यता अचानक युद्ध घोषित नहीं कर सकती है; इसमें शहर राज्य पर युद्ध करने का भी सम्मिलन है।</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_TRAIT_JERUSALEM_DESCRIPTION_EXPANSION">
+      <Text>आपके स्थानों में पवित्र स्थल होने के कारण उन्हें पवित्र शहरों की तरह दबाव बनाते हैं (10 टाइल के भीतर सभी शहरों पर 4x धर्म दबाव)।</Text>
+    </Row>
+    <!-- Type Traits-->
+    <Row Tag="LOC_TYPE_TRAIT_GOVERNOR_POINTS">
+      <Text>{1_Amount: number +#,###.#;-#,###.#} [ICON_STAT_GOVERNOR] गवर्नर अंक</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_GOVERNOR_POINTS_WITH_REQUIREMENT">
+      <Text>{1_धन: number +#,###.#;-#,###.#} [ICON_STAT_GOVERNOR] राज्यपाल अंक ( {2_TechOrCivicName} की आवश्यकता होती है)।</Text>
+    </Row>
+    <Row Tag="LOC_TYPE_TRAIT_REQUIRES_GOVERNMENT_TIER">
+      <Text>आवश्यक सरकारी टियर: {1_GovernmentTier}</Text>
+    </Row>
+  </EnglishText>
+</GameData>

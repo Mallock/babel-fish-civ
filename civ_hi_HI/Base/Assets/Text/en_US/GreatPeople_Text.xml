@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- UI -->
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_DEFAULT">
+      <Text>सक्रिय प्रभाव</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_CREATE_GREAT_WORK">
+      <Text>महान कार्य बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_FOUND_RELIGION">
+      <Text>धर्म मिल गया</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_NAME_RETIRE">
+      <Text>सेवानिवृत्त होना</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_CHARGES">
+      <Text>{1_ChargeAmount} {1_ChargeAmount: 1 किराया; अन्य राशि? राशियों}</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_FOUND_RELIGION">
+      <Text>पवित्र स्थल जिले या स्टोनहेंज पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CREATE_GREAT_WORK">
+      <Text>एक जिले या चमत्कार में उपलब्ध बड़े कार्य स्लॉट के साथ सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNOWNED_TILE">
+      <Text>किसी भी खिलाड़ी के पास न होने वाली टाइल पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ENEMY_TERRITORY">
+      <Text>दुश्मन के क्षेत्र में सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_NONHOSTILE_TERRITORY">
+      <Text>एक अशांतिपूर्ण विदेशी शक्ति के क्षेत्र में सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CITY_STATE_TERRITORY">
+      <Text>एक शहर राज्य के क्षेत्र में सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_SUZERAIN_TERRITORY">
+      <Text>अपने सुजेरेनता के शासित शहर राज्य के क्षेत्र में सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_DOES_NOT_NEED_OWNED_TILE">
+      <Text>यह टाइल जिन पर आपका कब्जा नहीं है, उन पर भी सक्रिय किया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OWNED_TILE">
+      <Text>वह टाइल जो आपके पास है, उस पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_BARBARIAN_UNIT">
+      <Text>बार्बेरियन यूनिट्स के साथ अगले क्रियान्वयन को सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_MOUNTAIN">
+      <Text>पहाड़ के पास सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_TO_OWNED_TILE">
+      <Text>अपने पास जो टाइल है, उसके बगल में सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CITY_GREAT_WORK_OBJECT">
+      <Text>{LOC_GRAMMAR_A_AN_WITH_ICON &lt;&lt; {1_GreatWorkObjectTypeName} &lt;&lt; {2_IconString}} वाले एक शहर में सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_COMPLETED_DISTRICT">
+      <Text>{1_DistrictName} जिले में सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_INCOMPLETE_SPACE_RACE_PROJECT">
+      <Text>स्पेस रेस प्रोजेक्ट का निर्माण चालू करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_INCOMPLETE_WONDER">
+      <Text>एक आश्चर्य का निर्माण सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT">
+      <Text>सैन्य भूमि इकाई पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_SEA_UNIT">
+      <Text>सैन्य नौसेना इकाई पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_AIR_UNIT">
+      <Text>एक सैन्य वायु इकाई पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_NO_MILITARY_UNIT">
+      <Text>कोई सैन्य इकाई वाली टाइल पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT_WITHIN_RANGE">
+      <Text>{1_Distance} टाइल के भीतर एक सैन्य भूमि इकाई पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OR_ADJACENT_TO_FEATURE">
+      <Text>{1_FeatureName} के साथ टाइल पर सक्रिय करें या उसके पास।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OR_ADJACENT_TO_NATURAL_WONDER">
+      <Text>प्राकृतिक अद्भुत के पास चालू करें या अगले।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_STANDARD_MILITARY_FORMATION">
+      <Text>एक सैन्य इकाई को सक्रिय करें जो कोर या आर्मी नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_CORPS_MILITARY_FORMATION">
+      <Text>कोर्प्स सैन्य इकाई पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_ARMY_MILITARY_FORMATION">
+      <Text>सेना युनिट पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_STANDARD_MILITARY_FORMATION_SEA">
+      <Text>एक सैन्य इकाई को सक्रिय करें जो न कि एक फ्लीट या एक आर्माडा हो।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_CORPS_MILITARY_FORMATION_SEA">
+      <Text>एक फ्लीट सैन्य इकाई पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_ARMY_MILITARY_FORMATION_SEA">
+      <Text>एक आर्माडा सैन्य इकाई पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_LUXURY_RESOURCE">
+      <Text>एक शानदार संसाधन पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ANYWHERE">
+      <Text>किसी भी टाइल पर सक्रिय करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_OPEN_PLAYER_RELIC_SLOT">
+      <Text>आपके शहरों में से एक में एक खुला [ICON_GreatWork_Relic] रेलिक महान कार्य स्लॉट होना चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MISSING_BUILDING">
+      <Text>शहर में पहले से ही {1_BuildingName} इमारत नहीं होनी चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_USAGE_GOLD_COST">
+      <Text>कार्य करने की लागत {1_GoldAmount} [ICON_Gold] सोने की है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_EFFECT_FOUND_RELIGION">
+      <Text>एक धर्म की स्थापना करता है और इस शहर को एक पवित्र शहर के रूप में स्थापित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ACTION_EFFECT_GREAT_WORK_OBJECT">
+      <Text>{1_GreatWorkName} ({2_GreatWorkObjectIconString} {3_GreatWorkObjectName})।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_PASSIVE_NAME_DEFAULT">
+      <Text>गतिविधि का निष्क्रिय प्रभाव</Text>
+    </Row>
+    <!-- Shared by Multiple Classes -->
+    <Row Tag="LOC_GREATPERSON_GOLD">
+      <Text>तुरंत {Amount} {YieldType} प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMPUTERSTECHBOOST">
+      <Text>कंप्यूटर प्रौद्योगिकी के लिए [ICON_TechBoosted] युरेका का पल उत्पन्न करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MODERNTECHBOOST">
+      <Text>{Amount} आधुनिक युग की यादृच्छिक {Amount : plural 1?टेक्नोलॉजी; other?टेक्नोलॉजियों;} के लिए [ICON_TechBoosted] युरीका क्षण को ट्रिगर करता है।</Text>
+    </Row>
+    <!-- Generals -->
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_LAND_MODIFIER">
+      <Text>महान सामंत की ओर से +5 [ICON_Strength] के युद्ध बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_SEA_MODIFIER">
+      <Text>महान अड्मिरल से +5 [ICON_Strength] युद्ध बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] महान सेनापति से चाल.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_ADMIRAL_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] महान अड्मिरल से चलना।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND">
+      <Text>2 टाइल के भीतर क्लासिकल और मध्यकालीन क्षेत्र भूमि इकाइयों को +5 [ICON_Strength] टूट की ताकत और +1 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND">
+      <Text>2 टाइल्स के भीतर मध्यकालीन और विद्युत काल के लैंड यूनिट्स को +5 [ICON_Strength] कॉम्बैट स्ट्रेंथ और +1 [ICON_Movement] मूवमेंट मिलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND">
+      <Text>रेनेसांस और औद्योगिक काल के भूमि इकाइयों के लिए 2 टाइल के अंदर +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND">
+      <Text>+5 [ICON_Strength] कुशलता वाले युद्ध इकाइयों और 2 टाइल के भीतर के औद्योगिक और आधुनिक युग के भूमि इकाइयों को +1 [ICON_Movement] चलने की विशेषता मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND">
+      <Text>2 टाइल्स की दूरी के अंदर आधुनिक और परमाणु युग के भूमि इकाइयों को +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] गति मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND">
+      <Text>2 टाइल्स के भीतर परमाणु और सूचना युग के भूमि इकाइयों के लिए +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND">
+      <Text>2 टाइल्स की दूरी के भीतर सूचना युग के भूमि इकाइयों को +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] गति दी जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_BOUDICA_ACTIVE">
+      <Text>आपके नियंत्रण में आपके बगुलमुआवज़ा इकाई को बदल देता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HANNIBAL_BARCA_ACTIVE">
+      <Text>एक सैन्य भूमि इकाई को एक पदोन्नति स्तर प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE">
+      <Text>तुरंत एक नाइट यूनिट बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EL_CID_ACTIVE">
+      <Text>एक सैन्य भूमि इकाई से एक सेना कोर बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GENGHIS_KHAN_ACTIVE">
+      <Text>एक सैन्य भूमि इकाई को 1 पदोन्नति स्तर और +25% युद्ध अनुभव प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE">
+      <Text>एक पदोन्नति स्तर के साथ तुरंत एक बम्बार्ड इकाई बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOAN_OF_ARC_ACTIVE">
+      <Text>[ICON_GreatWork_Relic] एक पवित्र अवशेष बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ANA_NZINGA_ACTIVE">
+      <Text>{Amount} [ICON_Envoy] {Amount : plural 1?एन्वॉय; other?एनवाय;} प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE">
+      <Text>एक सैन्य भूमि इकाई से एक सेना बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RANI_LAKSHMIBAI_ACTIVE">
+      <Text>एक पदोन्नति स्तर के साथ तुरंत एक फौजी इकाई बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE">
+      <Text>{Amount} [ICON_Envoy] {Amount : plural 1?दूत; other?दूतों;} प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE">
+      <Text>एक सैन्य भूमि इकाई को 1 पदोन्नति स्तर और +75% युद्ध अनुभव प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MARINA_RASKOVA_ACTIVE">
+      <Text>इस टाइल में जिला को +1 वायु इकाई स्लॉट मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SAMORI_TURE_ACTIVE">
+      <Text>तुरंत एक सेना इकाई उत्पन्न करता है जिसमें 1 पदोन्नति स्तर होता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE">
+      <Text>सैन्य इकाइयों की ओर +5% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE">
+      <Text>सभी भूमि इकाइयों के लिए 50% फ्लैंकिंग बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SUDIRMAN_ACTIVE">
+      <Text>एक सैन्य भूमि इकाई को 1 पदोन्नति स्तर और +100% युद्ध अनुभव प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE">
+      <Text>तुरंत एक टैंक इकाई बनाता है जिसमें 1 पदोन्नति स्तर होता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE">
+      <Text>तुरंत एक मॉडर्न एंटी-टैंक यूनिट का निर्माण करता है जिसमें 1 प्रमोशन स्तर होता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE">
+      <Text>एक सैन्य भूमि इकाई को 1 पदोन्नति स्तर और +100% युद्ध अनुभव प्रदान करता है।</Text>
+    </Row>
+    <!-- Admirals -->
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA">
+      <Text>2 टाइल्स के भीतर प्राचीन और मध्ययुगीन युद्धपोतों को +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA">
+      <Text>2 टाइल की दूरी के भीतर मध्यकालीन और विद्युत काल के नौसेना इकाइयों को +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA">
+      <Text>रेनेसांस और इंडस्ट्रियल युग के समुद्री इकाइयों के लिए 2 टाइल्स के भीतर +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA">
+      <Text>दो टाइल्स के भीतर औद्योगिक और आधुनिक युग के नौसेना इकाइयों को +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] आंदोलन मिलेगा।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA">
+      <Text>2 टाइल के भीतर आधुनिक और परमाणु युग के नौसेना इकाइयों को +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] आंदोलन।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA">
+      <Text>2 टाइल्स के भीतर एटॉमिक और इनफार्मेशन युग के नौसेना इकाइयों को +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA">
+      <Text>2 टाइल्स के भीतर सूचना युग के नौसैन्य इकाइयों को +5 [ICON_Strength] युद्ध शक्ति और +1 [ICON_Movement] गति प्रदान की जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ARTEMISIA_ACTIVE">
+      <Text>एक सैन्य नौसेना इकाई को एक पदोन्नति स्तर देता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GAIUS_DUILIUS_ACTIVE">
+      <Text>एक सैन्य नौसेना इकाई से एक फ्लीट बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_THEMISTOCLES_ACTIVE">
+      <Text>तुरंत एक क्वैड्रीम इकाई बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LEIF_ERIKSON_ACTIVE">
+      <Text>सभी नौसेना इकाइयों को सामान्य तकनीक आवश्यकता के बिना समुद्र टाइल पर चलने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RAJENDRA_CHOLA_ACTIVE">
+      <Text>मानक गति पर 50 [ICON_Gold] सोने हासिल करें। सैन्य इकाइयों को समुद्र [ICON_TradeRoute] व्यापार मार्गों को लूटने के लिए +40% पारितोषिक मिलते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ZHENG_HE_ACTIVE">
+      <Text>[ICON_Envoy] {Amount : plural 1?वार्ताकार; other?वार्ताकारों;} प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FRANCIS_DRAKE_ACTIVE">
+      <Text>मानक गति पर 75 [ICON_Gold] सोने प्राप्त करें। सैन्य इकाइयों को समुद्र [ICON_TradeRoute] व्यापार मार्गों को लूटने के लिए +50% इनाम मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SANTA_CRUZ_ACTIVE">
+      <Text>सैन्य नौसेना इकाई से एक आर्माडा बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_YI_SUN_SIN_ACTIVE">
+      <Text>तुरंत एक आयरनक्लैड इकाई बनाता है जिसमें 1 पदोन्नति स्तर होता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHING_SHIH_ACTIVE">
+      <Text>मानक गति पर 100 [ICON_Gold] सोने कमाएँ। सैन्य इकाइयों को समुद्र [ICON_TradeRoute] व्यापार मार्गों की लुटाई के लिए +60% अवार्ड मिलते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HORATIO_NELSON_ACTIVE">
+      <Text>सभी समुद्री इकाइयों के लिए +50% फ्लैंकिंग बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE">
+      <Text>एक सैन्य नौसेना इकाई को 1 पदोन्नति स्तर और +50% युद्ध अनुभव प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FRANZ_VON_HIPPER_ACTIVE">
+      <Text>एक पदोन्नति स्तर के साथ तत्काल बटलशिप यूनिट बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE">
+      <Text>सामान्य से 25% कम युद्ध थकावट को जमा करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE">
+      <Text>एक सैन्य नौसेना इकाई को 1 पदोन्नति स्तर और +75% युद्ध अनुभव प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHESTER_NIMITZ_ACTIVE">
+      <Text>नौसेना रेडर पदक वर्ग की यूनिटों के लिए 20% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRACE_HOPPER_ACTIVE">
+      <Text>[ICON_TechBoosted] एयुरेका पल को {Amount} यादृच्छिक {Amount : plural 1?टेक्नोलॉजी; other?टेक्नोलॉजीज;} के लिए प्रेरित करता है, जो परमाणु युग या सूचना युग से हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SERGEY_GORSHKOV_ACTIVE">
+      <Text>एक सैन्य नौसेना इकाई को एक पदोन्नति स्तर और + 100% युद्ध अनुभव प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CLANCY_FERNANDO_ACTIVE">
+      <Text>एक सैन्य नौसेना इकाई को 1 पदोन्नति स्तर देता है और +200% युद्ध अनुभव प्रदान करता है।</Text>
+    </Row>
+    <!-- Engineers -->
+    <Row Tag="LOC_GREATPERSON_EXTRA_DISTRICT_CAPACITY">
+      <Text>आइए इस शहर को एक और जिला बनाने दें, जो [ICON_Citizen] जनसंख्या सीमा से अधिक हो।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_PRINTINGTECHBOOST">
+      <Text>[ICON_TechBoosted] मुद्रण प्रौद्योगिकी के लिए यूरेका क्षण को प्रेरित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL">
+      <Text>आश्चर्य के निर्माण के लिए उत्पादन {Amount} [ICON_Production] के लिए अनुदान।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE_ACTIVE">
+      <Text>इस शहर में प्राचीन और मध्ययुगीन दीवारों का तुरंत निर्माण करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_RENAISSANCE">
+      <Text>अद्भुत निर्माण की ओर संचालित {Amount} [ICON_Production] उत्पादन को संबंधित स्थानों पर दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_WORKSHOP_CULTURE">
+      <Text>वर्कशॉप +{Amount} [ICON_Culture] संस्कृति प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_HOUSING_SMALL">
+      <Text>+{Amount} [ICON_Housing] इस शहर के लिए आवास।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_AMENITIES_SMALL">
+      <Text>इस शहर के लिए +{Amount} [ICON_Amenities] {Amount : plural 1?सुविधा; other?सुविधाएँ;}।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL">
+      <Text>विस्मय निर्माण की ओर {Amount} [ICON_Production] उत्पादन के लिए अनुदान।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE">
+      <Text>इस जिले में तुरंत एक कारखाना और कार्यशाला का निर्माण करता है। कारखाने +2 [ICON_Production] उत्पादन प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_APPEAL_SMALL">
+      <Text>यह शहर अपने सभी टाइल को +{Amount} आकर्षण प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE">
+      <Text>इस जिले के क्षेत्रीय भवन {Amount} {Amount : plural 1?tile; other?tiles;} दूर तक फैले हुए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_PRODUCTION">
+      <Text>इस जिले के क्षेत्रीय भवन +{Amount} [ICON_Production] उत्पादन प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SPACE_RACE_PRODUCTION_RATE_SMALL">
+      <Text>+[Amount]% [ICON_Production] अंतरिक्ष दौड़ के प्रोजेक्ट्स की उत्पादन दर।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST">
+      <Text>रॉकेट्री तकनीक के लिए [ICON_TechBoosted] युरेका पल को ट्रिगर करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_HOUSING_MEDIUM">
+      <Text>+{Amount} [ICON_Housing] इस शहर के लिए आवास।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_HOUSING_LARGE">
+      <Text>+{Amount} [ICON_Housing] इस शहर के लिए आवास।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_AMENITIES_LARGE">
+      <Text>इस शहर के लिए +{Amount} [ICON_Amenities] {Amount : plural 1?सुविधा; other?सुविधाएँ;} हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_EARLY_SPACE_RACE">
+      <Text>स्पेस रेस परियोजना के निर्माण के लिए अनुदान {Amount} [ICON_Production] उत्पादन को संबोधित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CITY_APPEAL_LARGE">
+      <Text>यह शहर अपने सभी टाइलों को +{राशि} आकर्षण प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_ENTERTAINMENT">
+      <Text>इस जिले के क्षेत्रीय भवनों में +{Amount} [ICON_Amenities] {Amount : plural 1?Amenity; other?Amenities;} उपलब्ध कराए गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_INFORMATION">
+      <Text>विस्मय निर्माण के लिए उत्पादन {Amount} [ICON_Production] को स्वीकृति।</Text>
+    </Row>
+    <!-- Merchants -->
+    <Row Tag="LOC_GREATPERSON_GRANT_PLOT_RESOURCE">
+      <Text>इस टाइल पर {Amount} लग्ज़री संसाधन की मुफ्त {Amount : plural 1?copy; other?copies;} आपकी [ICON_Capital] राजधानी शहर को प्रदान किए जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FAITH_SMALL">
+      <Text>{Amount} [ICON_Faith] धर्म प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PLOT">
+      <Text>आपका निकटतम शहर इस टाइल को अपने क्षेत्र में सम्मिलित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_TINY">
+      <Text>{Amount : number #} [ICON_Gold] सोने प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE">
+      <Text>[ICON_TradeRoute] व्यापार मार्ग क्षमता 1 से बढ़ाता है। इस शहर से विदेशी [ICON_TradeRoute] व्यापार मार्ग दोनों शहरों को +2 [ICON_Gold] सोने प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MARCO_POLO_ACTIVE">
+      <Text>इस शहर में एक मुफ्त व्यापारी यूनिट प्रदान करता है, और [ICON_TradeRoute] ट्रेड रूट क्षमता को 1 से बढ़ाता है। इस शहर के विदेशी [ICON_TradeRoute] ट्रेड रूट्स दोनों शहरों को +2 [ICON_Gold] सोने प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_TO_INCOMING_FOREIGN_ROUTES">
+      <Text>यह शहर विदेशी [ICON_TradeRoute] व्यापार मार्गों को +{Amount} [ICON_Gold] सोना प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_FROM_INCOMING_FOREIGN_ROUTES">
+      <Text>यह शहर विदेशी [ICON_TradeRoute] व्यापार मार्गों से +{Amount} [ICON_Gold] सोना प्राप्त करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FREE_TRADER_UNIT">
+      <Text>इस शहर में एक मुफ्त ट्रेडर यूनिट हासिल करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EXTRA_TRADE_ROUTE_CAPACITY">
+      <Text>[ICON_TradeRoute] व्यापार मार्ग क्षमता {Amount} से बढ़ाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_SMALL">
+      <Text>{Amount : number #} [ICON_Gold] सोना हासिल करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_INFLUENCE_TOKENS_SMALL">
+      <Text>{Amount} [ICON_Envoy] {Amount:plural 1?दूत; other?दूतों;} प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GIOVANNI_DE_MEDICI_ACTIVE">
+      <Text>इस जिले में तुरंत एक बैंक और बाजार का निर्माण करता है। बैंक को 2 महान कार्य स्लॉट मिलते हैं, जो कुछ भी हो सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MARKET">
+      <Text>इस जिले में तुरंत एक मार्केट बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_BANK">
+      <Text>इस जिले में तुरंत बैंक बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_BANK_GREAT_WORK_SLOTS">
+      <Text>यह बैंक {Amount} महान काम स्लॉट प्राप्त करता है जिसमें [ICON_GreatWork_Relic] रिलिक को छोड़कर कुछ भी रखा जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_MEDIUM">
+      <Text>{Amount : number #} [ICON_Gold] सोने प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_INFLUENCE_TOKENS_MEDIUM">
+      <Text>{Amount} [ICON_Envoy] {Amount : plural 1?वायुदूत; other?वायुदूतों;} प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT">
+      <Text>आपकी [ICON_TradeRoute] अपने शहरों के लिए व्यापार रास्ते पहुँच स्थल पर प्रत्येक विशेष जिले के लिए +{Amount} [ICON_Gold] सोना प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ECONOMIC_POLICY_SLOT">
+      <Text>किसी भी सरकार में आर्थिक नीति की जगह +1 होती है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_JEANS">
+      <Text>{Amount} [ICON_RESOURCE_JEANS] जींस देने के लिए अनुदान जारी किए गए हैं, यह एक अद्वितीय विनिर्मित लक्जरी संसाधन है जो +4 [ICON_Amenities] सुविधाएं प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GOLD_LARGE">
+      <Text>{Amount : number #} [ICON_Gold] सोना प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PERFUME">
+      <Text>{Amount} [ICON_RESOURCE_PERFUME] परफ्यूम देता है, जो एक अद्वितीय रूप से विनिर्मित लक्जरी संसाधन है जो +6 [ICON_Amenities] सुविधाएं प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_JOHN_ROCKEFELLER_ACTIVE">
+      <Text>1 [ICON_RESOURCE_OIL] तेल प्रदान करता है, एक रणनीतिक संसाधन। आपके [ICON_TradeRoute] व्यापार मार्गों को गंतव्य शहर में प्रत्येक रणनीतिक संसाधन के लिए +2 [ICON_Gold] सोने का लाभ प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_OIL">
+      <Text>ग्रांट {रकम} [ICON_RESOURCE_OIL] तेल, एक रणनीतिक संसाधन।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_STRATEGIC">
+      <Text>आपके [ICON_TradeRoute] व्यापार मार्गों को प्राप्त संसाधनों के प्रत्येक सुधार से गणना करते हुए +{Amount} [ICON_Gold] सोने की अर्जित होगी।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_TRADE_ROUTE_TOURISM_MODIFIER">
+      <Text>+[राशि]% [ICON_Tourism] दूसरी सभ्यताओं की ओर पर्यटन दर, जिनके पास आपके पास [ICON_TradeRoute] ट्रेड रूट है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_COSMETICS">
+      <Text>{Amount} [ICON_RESOURCE_COSMETICS] कॉस्मेटिक्स प्रदान करता है, जो एक अद्वितीय रूप से निर्मित लक्जरी संसाधन है जो +4 [ICON_Amenities] आरामदायकता प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DIPLO_VISIBILITY">
+      <Text>सभी अन्य सभ्यताओं के साथ राजनयिक दृष्टिगति के {Amount} {Amount : plural 1?स्तर; other?स्तर;} +।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_TOYS">
+      <Text>अनुदान {Amount} [ICON_RESOURCE_TOYS] खिलौने, एक अद्वितीय विनिर्मित विलास संसाधन प्रदान करता है जो +4 [ICON_Amenities] सुविधाएं प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_INDUSTRIAL_ZONE_TOURISM">
+      <Text>औद्योगिक क्षेत्र क्षेत्र विभागों से +{Amount} [ICON_Tourism] पर्यटन प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CAMPUS_TOURISM">
+      <Text>कैंपस क्षेत्र टूरिज्म की +{Amount} [ICON_Tourism] प्रदान करते हैं।</Text>
+    </Row>
+    <!-- Scientists -->
+    <Row Tag="LOC_GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS">
+      <Text>[ICON_TechBoosted] युग प्राचीन या मध्यकालीन से {Amount} यादृच्छिक {Amount : plural 1?तकनीक; other?तकनीकियों;} के लिए युरीका के क्षण को ट्रिगर करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_EUCLID_ACTIVE">
+      <Text>गणित और मध्यकालीन युग से 1 यादृच्छिक टेक्नोलॉजी के लिए [ICON_TechBoosted] युरीका के पल को ट्रिगर करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MEDIEVALTECHBOOST">
+      <Text>मध्यकालीन काल से {Amount} के लिए यादगार [ICON_TechBoosted] युरेका क्षण को {Amount: plural 1?टेक्नोलॉजी; other?टेक्नोलॉजियों;} के लिए ट्रिगर करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_MATHTECHBOOST">
+      <Text>गणित प्रौद्योगिकी के लिए [ICON_TechBoosted] युरेका क्षण को ट्रिगर करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LIBRARY">
+      <Text>इस जिले में तुरंत एक पुस्तकालय बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LIBRARY_FREE_MAINTENANCE">
+      <Text>+{Amount} [ICON_Gold] सोने।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITY">
+      <Text>इस जिले में तुरंत एक विश्वविद्यालय बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITY_FREE_MAINTENANCE">
+      <Text>+{Amount} [ICON_Gold] सोने।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST">
+      <Text>मध्यकालीन या उन समय से संबंधित {Amount} यादृच्छिक {Amount : plural 1?तकनीक; other?तकनीकियों;} के लिए [ICON_TechBoosted] युरीका क्षण को प्रेरित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE">
+      <Text>यह पवित्र स्थल क्षेत्र का [ICON_Faith] धर्म सम्बन्धी सहयोग बोनस [ICON_Science] विज्ञान की भी प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_FAITH">
+      <Text>{Amount} [ICON_Faith] विश्वास प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE">
+      <Text>मध्यकालीन या विद्युत् काल के एक यादृच्छिक नागरिक के लिए [ICON_CivicBoosted] प्रेरणा के पल तथा 2 यादृच्छिक तकनीकों के लिए [ICON_TechBoosted] युरीका क्षण को प्रेरित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS">
+      <Text>मध्ययुग या रीनेसांस की {Amount : plural 1?तकनीक; other?तकनीकों} से {Amount} यादृच्छिक [ICON_TechBoosted] यूरेका क्षण को प्रेरित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST">
+      <Text>मध्यकालीन या नववर्ष युग से {Amount} यादृच्छिक {Amount : plural 1?civic; other?civics;} के लिए [ICON_CivicBoosted] प्रेरणा का पल शुरू करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GALILEO_GALILEI_ACTIVE">
+      <Text>प्रत्यक्ष पर्वत टाइल के प्रत्येक निकटतम टाइल के लिए मानक गति पर 250 [ICON_Science] विज्ञान प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RESEARCH_LAB">
+      <Text>इस जिले में तुरंत एक अनुसंधान प्रयोगशाला बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RESEARCHLABS_BIG_SCIENCE">
+      <Text>अनुसंधान लैब अतिरिक्त +{Amount} [ICON_Science] विज्ञान प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RESEARCH_LAB_FREE_MAINTENANCE">
+      <Text>+{Amount} [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ISAAC_NEWTON_ACTIVE">
+      <Text>इस जिले में तुरंत एक विश्वविद्यालय और पुस्तकालय बनाता है। विश्वविद्यालय +2 [ICON_Science] विज्ञान प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS">
+      <Text>[ICON_TechBoosted] युग रेनेसांस या औद्योगिक काल से {Amount} यादृच्छिक {Amount : plural 1?टेक्नोलॉजी; other?टेक्नोलॉजी;} के लिए यह [ICON_TechBoosted] युरीका क्षण शुरू करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GREAT_PERSON_FREE_POINTS">
+      <Text>{Amount} मुफ्त [ICON_GreatPerson] महान व्यक्तियों के बिंदुओं का नियोजन करने के लिए सभी वर्तमान और भविष्य के महान व्यक्तियों के रिक्रूटमेंट में लागू होता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHARLES_DARWIN_ACTIVE">
+      <Text>यहाँ या अग्रभूमि पर प्राकृतिक अद्भुत टाइल के प्रत्येक के लिए मानक गति पर 500 [ICON_Science] विज्ञान प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_DMITRI_MENDELEEV_ACTIVE">
+      <Text>रासायन विज्ञान के लिए [ICON_TechBoosted] युरीका पल तथा औधोगिक काल की किसी भी एक यांत्रिकी से सम्बंधित तकनीक को शुरू करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ALAN_TURING_ACTIVE">
+      <Text>कंप्यूटर और आधुनिक युग से 1 यादृच्छिक तकनीक के लिए [ICON_TechBoosted] युरेका पल को सक्रिय करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1INDUSTRIALTECHBOOST">
+      <Text>औद्योगिक युग से {Amount} यादृच्छिक {Amount : plural 1?टेक्नोलॉजी; other?टेक्नोलॉजी;} के लिए [ICON_TechBoosted] युरीका क्षण को ट्रिगर करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_CHEMISTRYTECHBOOST">
+      <Text>रसायन तकनीक के लिए [ICON_TechBoosted] युरीका क्षण को ट्रिगर करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_LIBRARIES_SCIENCE">
+      <Text>पुस्तकालय +{Amount} [ICON_Science] विज्ञान प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITIES_SMALL_SCIENCE">
+      <Text>विश्वविद्यालय +{Amount} [ICON_Science] विज्ञान प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_UNIVERSITIES_BIG_SCIENCE">
+      <Text>विश्वविद्यालयों में +{Amount} [ICON_Science] विज्ञान प्रदान किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_1MODERNATOMICTECHBOOST">
+      <Text>[ICON_TechBoosted] नवीन या परमाणु युग से {Amount} यादृच्छिक {Amount : plural 1?तकनीक; other?तकनीकों;} के लिए ईक्यूरेका के समय को प्रेरित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_REVEAL_OIL">
+      <Text>[ICON_RESOURCE_OIL] की उन्नत प्रौद्योगिकी की आवश्यकता के बिना [ICON_RESOURCE_OIL] खुलासा करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS">
+      <Text>औद्योगिक या आधुनिक युग से {Amount} यादृच्छिक {Amount : plural 1?टेक्नोलॉजी; other?टेक्नोलॉजीज़;} के लिए [ICON_TechBoosted] युरिका क्षण को ट्रिगर करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ADJACENT_RAINFOREST_SCIENCE">
+      <Text>यहाँ या आस-पास के प्रत्येक वर्षावन टाइल के लिए {Amount} [ICON_Science] विज्ञान प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ARTIFACT_TOURISM_MODIFIER">
+      <Text>[ICON_GreatWork_Artifact] आपके सभी शहरों में वस्तुकला {ScalingFactor}% उनके सामान्य [ICON_Tourism] पर्यटन का उत्पादन करती है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ARTIFACT_SCIENCE">
+      <Text>इस शहर में हर [ICON_GreatWork_Artifact] अभिजाति के लिए {Amount} [ICON_Science] विज्ञान प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS">
+      <Text>[ICON_TechBoosted] एक्युरेका क्षण को ट्रिगर करता है {Amount} यादृच्छिक {Amount : plural 1?टेक्नोलॉजी; other?टेक्नोलॉजियों;} के लिए परमाणु युग या सूचना युग से।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS">
+      <Text>सूचना के युग से सभी तकनीकों के लिए [ICON_TechBoosted] यूरेका क्षण को प्रेरित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE">
+      <Text>अंतरिक्ष रेस परियोजना के निर्माण के लिए {Amount} [ICON_Production] उत्पादन के लिए अनुदान दिया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SPACE_RACE_PRODUCTION_RATE_LARGE">
+      <Text>+{Amount}% [ICON_Production] अंतरिक्ष दौड़ परियोजनाओं के लिए उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE">
+      <Text>घायल भूमि यूनिटों को प्रति टर्न +5 HP की चिकित्सा हो सकती है।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!--Instance Names-->
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_INSTANCE_NAME">
+      <Text>ट्रेन {1_UnitName}।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_INSTANCE_NAME">
+      <Text>{1_DistrictName} बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_INSTANCE_NAME">
+      <Text>{1_TechName} के लिए एक [ICON_TechBoosted] युरेका ट्रिगर करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_INSTANCE_NAME">
+      <Text>{1_CivicName} के लिए एक [ICON_CivicBoosted] प्रेरणा ट्रिगर करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_INSTANCE_NAME">
+      <Text>{LOC_GRAMMAR_A_AN &lt;&lt; {1_GreatPersonClassName}} को भर्ती करें।</Text>
+    </Row>
+    <!--Descriptions-->
+    <Row Tag="LOC_QUEST_CONVERT_CAPITAL_TO_RELIGION_DESCRIPTION">
+      <Text>अपने [ICON_Religion] धर्म में शहर-राज्य को परिवर्तित करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_SEND_TRADE_ROUTE_DESCRIPTION">
+      <Text>शहर राज्य को एक [ICON_TradeRoute] व्यापार मार्ग भेजें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_DESCRIPTION">
+      <Text>शहर से 5 टाइल की दूरी पर एक [ICON_Barbarian] बाहरी आवास को नष्ट करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_DESCRIPTION">
+      <Text>एक यादृच्छिक चयनित सैन्य इकाई [ICON_Unit] की प्रशिक्षण दें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_DESCRIPTION">
+      <Text>एक यादृच्छिक रूप से चयनित विशेष [ICON_District] जिला प्रकार बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_DESCRIPTION">
+      <Text>एक यादगार [ICON_TechBoosted] युरीका क्षण ट्रिगर करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_DESCRIPTION">
+      <Text>एक यादृच्छिक रूप से चयनित [ICON_CivicBoosted] प्रेरणा क्षण को ट्रिगर करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_DESCRIPTION">
+      <Text>एक यादृच्छिक चयनित [ICON_GreatPerson] महान व्यक्ति वर्ग की भर्ती करें।</Text>
+    </Row>
+    <!--Instance Descriptions-->
+    <Row Tag="LOC_QUEST_TRAIN_UNIT_TYPE_INSTANCE_DESCRIPTION">
+      <Text>{1_UnitName} सैन्य इकाई को ट्रेन करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_ZONE_DISTRICT_TYPE_INSTANCE_DESCRIPTION">
+      <Text>{1_DistrictName} जिला निर्मित करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_TECH_BOOST_INSTANCE_DESCRIPTION">
+      <Text>{1_TechnologyName} तकनीक के लिए [ICON_TechBoosted] युरेका मोमेंट को ट्रिगर करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_TRIGGER_CIVIC_BOOST_INSTANCE_DESCRIPTION">
+      <Text>{1_CivicName} सिविक के लिए [ICON_CivicBoosted] प्रेरणा का पलटवार करें।</Text>
+    </Row>
+    <Row Tag="LOC_QUEST_RECRUIT_GREAT_PERSON_CLASS_INSTANCE_DESCRIPTION">
+      <Text>एक {1_IconString} {2_GreatPersonClassName} भर्ती करें।</Text>
+    </Row>
+    <!--Rewards-->
+    <Row Tag="LOC_QUEST_REWARD_ENVOYS">
+      <Text>[ICON_Envoy] राजदूतों</Text>
+    </Row>
+    <!--Instance Rewards-->
+    <Row Tag="LOC_QUEST_REWARD_ENVOYS_NUMBER">
+      <Text>[ICON_Envoy] {1_Amount} {1_Amount: 1 के लिए बहुवचन? दूत; अन्य? दूत;}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

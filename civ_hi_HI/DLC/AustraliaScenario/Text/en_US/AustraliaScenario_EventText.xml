@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <EnglishText>
+    <!-- Political Event Titles-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_1">
+      <Text>खोजक तैयार हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_2">
+      <Text>कॉलोनी जहाज आ गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_3">
+      <Text>एक राष्ट्र जन्म लेता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_4">
+      <Text>पहली विश्व युद्ध</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_5">
+      <Text>दुनिया युद्ध -दो विश्वयुद्धों में से दूसरा विश्वयुद्ध (WORLD WAR II) दुनिया भर के कई राष्ट्रों के बीच 1939 से 1945 तक लगातार लड़ा गया था।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_TITLE_6">
+      <Text>अतिरिक्त उपनिवासी</Text>
+    </Row>
+    <!-- Political Event Descriptions-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_1">
+      <Text>एक साहसी खोजी ने ऑस्ट्रेलियाई महाद्वीप के रहस्यों को खोलने के लिए ब्रिटिश कॉलोनी न्यू साउथ वेल्स से रवाना हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_2">
+      <Text>हमने एक कठिन प्राणियों के जहाज की भर्ती की है जो आपके नए आवासीय कोलोनी की शुरुआत करेंगे। हम इस बैंड के लिए उम्मीद रखते हैं: सभी उनमें दोषी नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_3">
+      <Text>अब जब कई पीढ़ियां अब तक नेटिव ऑस्ट्रेलियन के रूप में जीती और मरी हैं, तो हमारे लोग अपने अलग-अलग राज्यों को एक संयुक्त देश में संगठित करना चाहते हैं। यह ऑस्ट्रेलिया के लिए संघर्ष का समय है, जिससे ब्रिटेन से स्वतंत्र एक नया राष्ट्र गठित हो सके।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_4">
+      <Text>यूरोप के महादंगल से हमारी मातृभूमि ब्रिटेन प्रभावित हो रही है। हम अपना समर्थन देने के लिए सेना भेजेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_5">
+      <Text>एक और विश्व युद्ध तबाह हो गया है और इस बार हमारे देश ऑस्ट्रेलिया भी खतरे में है। हमारे प्रधानमंत्री जॉन कर्टिन ने हमें याद दिलाया है कि: "हमारे पहले सेटलर्स द्वारा इस भूमि पर जलाया गया स्वतंत्रता का दीपक और उसके बाद के पीढ़ियों द्वारा जगमगाता रहा है, किसी भी दुश्मन द्वारा बुझाया नहीं जा सकता।"</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_DESCRIPTION_6">
+      <Text>अंग्रेज़ से आपकी नागरिकता की प्रगति को देखा गया है। अब और कोलोनियां आ रही हैं जो आपकी कॉलोनी को अपना नया घर बनाना चाहती हैं।</Text>
+    </Row>
+    <!-- Political Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_1">
+      <Text>अगले चार टर्न में इस खोजक उपयोग करके नए बसेरे के लिए सबसे अच्छी जगह खोजें।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_2">
+      <Text>आपके एक्सप्लोरर के सबसे करीबी तटीय टाइल में अगले टर्न के शुरुआत में एक मुक्त सेट्लर आ जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_3">
+      <Text>जब आप संघ नागरिकता को पूरा कर लेंगे, तब आप सबसे मजबूत सरकारी प्रणाली, राज्य सरकार में अपग्रेड कर सकेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_4">
+      <Text>आप अब अपने किसी भी शहर में एएफ परियोजना की शुरुआत कर सकते हैं। इस तरह की प्रत्येक योगदान से जंग के प्रयास में आपके राज्य का स्थान हमारे देश में बढ़ेगा, जो आपको प्रति टर्न +10 [ICON_Gold] सोने से लाभ प्राप्त कराएगा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_5">
+      <Text>एएफ परियोजना को पूरा करना इस समय और भी अत्यधिक महत्वपूर्ण है और यह आपको प्रति टर्न +20 [ICON_Gold] सोना प्रदान करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_POLITICAL_EFFECT_6">
+      <Text>आपकी राजधानी में एक मुक्त सेटलर प्रकट हुआ है। अब से आगे, नए शहर केवल आपके मौजूदा शहरों में से किसी एक के 10 टाइल्स के भीतर ही बनाए जा सकते हैं।</Text>
+    </Row>
+    <!-- Danger Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_1">
+      <Text>आपकी {1_UnitName} को {2_Damage} क्षति हुई है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_2">
+      <Text>आपकी {1_UnitName} मार दी गई है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_3">
+      <Text>आपकी {1_UnitName} की स्थायी रूप से 1 [ICON_Movement] गति हानि हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_4">
+      <Text>आप {1_Amount} [ICON_Gold] सोना खो देते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_5">
+      <Text>आपकी {1_UnitName} नजदीकी शहर {2_CityName} में लौट आई है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DANGER_EFFECT_6">
+      <Text>आपके पास के {1_Improvement} को लूट लिया गया है।</Text>
+    </Row>
+    <!-- Delay Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_1">
+      <Text>इस टर्न के लिए आपकी {1_UnitName} को {2_Movement} मूवमेंट प्वाइंट का नुकसान हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_2">
+      <Text>इस बार आपकी {1_UnitName} को चलाया नहीं जा सकेगा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_DELAY_EFFECT_3">
+      <Text>{1_UnitName} के पास कुछ भूभाग के बारे में जानकारी खो गई है।</Text>
+    </Row>
+    <!-- Benefit Event Gameplay Effects-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_1">
+      <Text>{2_CityName} के नजदीकी शहर में एक {1_UnitName} पहुँच गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_2">
+      <Text>आपके {2_UnitName} के पास एक {1_UnitName} आ गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_3">
+      <Text>आपके {1_UnitName} के पास अनजान क्षेत्र का पर्दाफाश किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_4">
+      <Text>आपकी {1_UnitName} को स्थायी रूप से +1 [ICON_Movement] चलन मिल गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_5">
+      <Text>आपकी {1_UnitName} पूरी तरह से ठीक हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_6">
+      <Text>आपके {1_UnitName} के {2_HitPoints} हिट पॉइंट को ठीक कर दिया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_7">
+      <Text>आपके पास पड़ोसी शहर {1_CityName} में 1 आबादी बढ़ गई है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_8">
+      <Text>आपको {1_Amount} [ICON_Gold] सोने की अर्ज़ी मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_9">
+      <Text>आप {1_TechName} तकनीक के लिए यूरेका प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_BENEFIT_EFFECT_10">
+      <Text>आपको {1_CivicName} के लिए प्रेरणा मिली है।</Text>
+    </Row>
+    <!-- Exploration Event Titles-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_1">
+      <Text>रिप करंट में फंस गया</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_2">
+      <Text>बॉक्स जेलीफिश से टकरा दिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_3">
+      <Text>एक कोन शैल का संग्रह किया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_4">
+      <Text>खतरनाक कोहरे के कारण देरी हुई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_5">
+      <Text>अधिकृत मछुआरों द्वारा आपूर्ति की गई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_6">
+      <Text>रॉक हॉपर्स को किराए पर लेने के लिए</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_TITLE_7">
+      <Text>फलदार जल स्थिति</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_1">
+      <Text>दुखदर्शि रूप से जल की आवश्यकताओं का मूल्यांकन गलत हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_2">
+      <Text>भीड़-भाड़ करते ऊंटों का झुंड</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_3">
+      <Text>मृत्यु विषधारी पर कदम रख दिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_4">
+      <Text>अधिक मिट्टी के तूफान के कारण देरी हुई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_5">
+      <Text>ओएसिस स्पॉटेड।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_TITLE_6">
+      <Text>बिना संरक्षित डिंगो के बच्चे मिले।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_1">
+      <Text>बुशरेंगर्स द्वारा रास्ते में रोक लिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_2">
+      <Text>बुशफायर में फंस गए</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_3">
+      <Text>डिंगो द्वारा परेशान किया गया</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_4">
+      <Text>गलत बेरी खा ली</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_5">
+      <Text>स्क्वॉटर्स ने जब्त किए गए सामानों को फिर से आपूर्ति दी।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_TITLE_6">
+      <Text>स्वैगमेन फॉर हायर</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_1">
+      <Text>रॉकस्लाइड!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_2">
+      <Text>अत्यधिक ठंडी रातें।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_3">
+      <Text>सामग्री खाई में गिर गई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_4">
+      <Text>फलहीन दरवाजा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_5">
+      <Text>भूकंपकलेक्टर किराये पर उपलब्ध हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_TITLE_6">
+      <Text>पहाड़ी झरना खोजा गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_1">
+      <Text>लाल कैंगरू के साथ झगड़ा</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_2">
+      <Text>जारी रहने वाली सूखा स्थितियां</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_3">
+      <Text>स्पिनीफेक्स संक्रमण</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_4">
+      <Text>दिशा हारना</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_5">
+      <Text>किराये पर स्टॉकमेन</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_TITLE_6">
+      <Text>गेलाह फ्लॉक द्वारा पानी तक ले जाया गया</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_1">
+      <Text>मलेरिया के दुख</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_2">
+      <Text>चरबीहीन होकर तबाह हो गए तिड्दी दलदली से।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_3">
+      <Text>फ्लैश बाढ़ में धुल गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_4">
+      <Text>कीचड़ में फंस जाना।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_TITLE_5">
+      <Text>नदी में याबीज पकड़े</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_1">
+      <Text>नमकीन पानी क्रॉकोडाइल द्वारा खाया गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_2">
+      <Text>भयानक संक्रमित घाव</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_3">
+      <Text>फनेल वेब स्पाइडर ने काट लिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_4">
+      <Text>गलत मछली खा ली</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_5">
+      <Text>झाड़ियों में खो गया</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_TITLE_6">
+      <Text>भयंकर बन्यिप अफवाहें</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_1">
+      <Text>तार कीड़ों से भरा हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_2">
+      <Text>ज्यादा जल जल्दी पी लिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_3">
+      <Text>एक करीबी बगावत से बच गए।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_4">
+      <Text>बिलाबोंग में ठीक हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_TITLE_5">
+      <Text>शांतिपूर्ण पुनर्वास</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_1">
+      <Text>यहाँ सब कुछ विष है। (Yahan sab kuch vish hai.)</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_2">
+      <Text>कैसोवेरी को भयभीत कर दिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_3">
+      <Text>डेंगू बुखार से पीड़ित</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_4">
+      <Text>दर्दनाक मकड़ी किलकारियों से पीड़ित</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_TITLE_5">
+      <Text>अनावृत विज्ञानिक परीक्षा</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_1">
+      <Text>उत्तेजित पूर्वी भूरे सांप</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_2">
+      <Text>गम वृक्ष से जलाई गई लकड़ी का अश्तित्व</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_3">
+      <Text>गुस्से में आया क्षेत्रवासी इम्यू।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_4">
+      <Text>अवास्तविक ड्रॉप बेयर अफवाहें।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_TITLE_5">
+      <Text>खोजी गई ईमू अंडे का एक समूह।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_1">
+      <Text>अशुभ गिरावट।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_2">
+      <Text>कोर्वी से पीड़ित</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_3">
+      <Text>विरोधाभासित दिशा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_4">
+      <Text>घोड़ों को बांधना भूल गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_5">
+      <Text>एक शॉर्टकट खोजा</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_6">
+      <Text>अबोरिजिनल क्लैन द्वारा पुनर्संचारित</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_7">
+      <Text>डिंगो ट्रेल का पालन किया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_8">
+      <Text>प्रतिद्वंद्वी खोजकर्ताओं के साथ विवाद</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_9">
+      <Text>नक़ली नक्शों में गलतियों को खोजा गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_10">
+      <Text>खजाना!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_11">
+      <Text>अधिकृत गाइड किराये पर उपलब्ध हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_12">
+      <Text>अनजाने में अधिकृत अभोरिजनों का आहत किया</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_13">
+      <Text>दुर्भाग्य से जंगली आग लग गई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_14">
+      <Text>आदिम जनजाति का प्रवास</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_TITLE_15">
+      <Text>आदिवासियों के साथ फलहीन वार्तालाप।</Text>
+    </Row>
+    <!-- Exploration Event Descriptions-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_1">
+      <Text>जो महासागर में दोबके के रूप में एक ताजगी थी, वह एक दुखद दुर्घटना में समाप्त हुई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_2">
+      <Text>एक इतनी नाजुक चीज, दर्द के सारे लिक्विड से भरी।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_3">
+      <Text>एक सुंदर बाहरी चेहरा छोटे से, विषाक्त हार्पून को छिपाता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_4">
+      <Text>यह समुद्र से घिर कर आया, तोप के धुएं से भी घना।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_5">
+      <Text>उन्हें स्थानीय जलाशयों का ज्ञान था और स्थानीय मछलियों को पकड़ा था। हम न तो उनका ज्ञान रखते थे और न ही स्थानीय मछलियों को पकड़ते थे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_6">
+      <Text>कैसे वे तटीय चट्टानों से मछली पकड़ते हैं बिना फिसले? एक रहस्य!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_DESCRIPTION_7">
+      <Text>यह एक शानदार खोज थी। बसेरे का समर्थन करने के लिए पर्याप्त थी।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_1">
+      <Text>घोड़े प्यास से पागल होकर मर गए, इनके बाद अन्य जानवरों ने भी मौत को गले लगा लिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_2">
+      <Text>प्रारंभिक निवासियों द्वारा त्याग दिए जाने के बाद, उन्होंने फिर जंगली हो जाने का अनुभव किया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_3">
+      <Text>वह सूरज द्वारा तपाकर शुष्क भूमि में सब मिलकर मिश्रित हो जाता है। सांप भी।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_4">
+      <Text>यह सब कुछ में घुस गया। दिनों बाद हम अभी भी इसे अपने पीछे छोड़ते हुए बचाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_5">
+      <Text>हमने उस विनाशकारी वेस्टलैंड में जीवन का एक द्वीप मिला।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_DESCRIPTION_6">
+      <Text>आपको समझना चाहिए। हमारे अस्तित्व के लिए यह जरूरी था।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_1">
+      <Text>उन्होंने खाना ले लिया लेकिन हमें पानी छोड़ दिया। वे चोर थे, हत्यारे नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_2">
+      <Text>यह एक फाउंड्री से भी ज्यादा गरम था। भ्रूण जल गए थे और त्वचा सुनहरा था।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_3">
+      <Text>वे हमें दिनों तक पीछा करते रहे, अंत में एक आवारा पैक जानवर को मार दिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_4">
+      <Text>दर्द गरम अग्निकुंड की तरह हमारी तंत्रों से गुजर गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_5">
+      <Text>वे जंगल में अपने लिए नई ज़िंदगी बना रहे थे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_DESCRIPTION_6">
+      <Text>अंधाधुंध खेती करने वाले लोग मौसम के अनुसार स्थिर काम की तलाश में थे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_1">
+      <Text>हमारी बदकिस्मती उसकी राह में शिविर लगाना था।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_2">
+      <Text>पतले कंबल से पहाड़ों से चलने वाली ठंडी हवा रोक नहीं सकती थी।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_3">
+      <Text>वापस देखा जाए तो, हमें उन्हें किनारे से और दूर रखना चाहिए था।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_4">
+      <Text>जो एक उम्मीदवारी से भरपूर लग रहा था, उससे एक दिन की बेकार प्रयास की तरफ ले जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_5">
+      <Text>बहुत से लोग अपने आप को दूर-दूर के सोने के खदानों में ढूंढते थे। कुछ हीं को वास्तविक धनवान बनाने का मौका मिला।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_DESCRIPTION_6">
+      <Text>एक आश्रयदायक झरना हमें सभी पानी प्रदान करता था जिसे हम उठा सकते थे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_1">
+      <Text>हमारी रक्षा में, हमने यह जानने की कोशिश की कि उसकी पाउच में क्या था।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_2">
+      <Text>लोभी पौधे हमें प्यास लगाकर मरने के लिए तैयार हो जाएंगे जब तक वे नहीं मरते।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_3">
+      <Text>हम उनसे टकराते ही पत्तियों की अंतिम उभरी हुई भाग हमारी त्वचा में टूट गए।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_4">
+      <Text>अनंत रूप से समान मैदान में, हमारा रास्ता खोना बहुत आसान था।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_5">
+      <Text>यह एकाकी और कठिन काम था, लेकिन उन्हें उन शर्तों से कोई बात नहीं थी।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_DESCRIPTION_6">
+      <Text>हम वहाँ चल पड़े जहाँ वे बसे थे। खूबसूरत पक्षी। कुछ खेलने जैसे लगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_1">
+      <Text>हवा में इतने मच्छर थे कि उससे आसमान काला पड़ गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_2">
+      <Text>वे हमें संभालने के लिए कुछ भी न छोड़ते हुए लोकतंत्र को तबाह कर दिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_3">
+      <Text>अगर ऊँची जगह तक पहुंचना असंभव है, तो आसानी से गायब हो जाया जा सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_4">
+      <Text>कुछ बूट और स्टॉकिंग मट्टी में खो गए।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_DESCRIPTION_5">
+      <Text>उन्हें उबले हुए खाया जा सकता है, उनकी खोल को छोड़कर।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_1">
+      <Text>कोई आवाज या चीख नहीं थी। सिर्फ पानी पर एक लहर थी।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_2">
+      <Text>वे ताकतवर नीले मक्खियाँ निश्चित रूप से दोषी थे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_3">
+      <Text>जीव-जंतु जितने छोटे होते हैं, उनका विष उतना ही तीखा होता है। सामान्यतः।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_4">
+      <Text>सभी मछलियां खाने के लिए नहीं हैं। खासकर उसे नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_5">
+      <Text>दिनभर में भूमि बदलती सी लगती है। प्रकाश का जादू?</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_DESCRIPTION_6">
+      <Text>उस दलदल में एक झाड़ी आत्मा हमारा पीछा कर रही थी, इसमें कोई सवाल नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_1">
+      <Text>बाहरी क्षेत्र के सबसे ताजा पानी में भी आंतों के खतरे होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_2">
+      <Text>इतने लंबे समय तक बिना पानी के, प्यास निर्णयों में दोषपूर्ण नतीजे लेकर जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_3">
+      <Text>वे ओएसिस छोड़ने से इनकार कर दिए। ये लड़ाई के करीब पहुंच गए।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_4">
+      <Text>अकेला तलाब हमारी उत्साह को उठा ले गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_DESCRIPTION_5">
+      <Text>एक प्यारा दिन। काश यह सभी अन्य दिनों को संतुलित कर सकता।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_1">
+      <Text>प्रत्येक कीट, जानवर, फूल, जड़, या बेल कुछ हमें मार सकते थे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_2">
+      <Text>सोचो, जब यह पहली बार कूदा और अपने पैर फैलाये तो हम हँसे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_3">
+      <Text>बुखार कुछ समय तक रहा, जब तक कि एक घाव किस्मत के मुहरे से न बचा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_4">
+      <Text>हमारी एकमात्र बदकिस्मती थी कि हमने चींटी के दुंगल ऊपर सोना चुना।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_DESCRIPTION_5">
+      <Text>इस अजीब जंगल में चमत्कार होते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_1">
+      <Text>यह अच्छी वजह के बिना मार गिराने पर अपनी शुभहीन प्रकृति का पर्दाफाश कर दिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_2">
+      <Text>हम धमाके का पूर्वानुमान नहीं लगा पाए। कुछ लोगों को लगा कि यह तो तोपखाने से हमला है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_3">
+      <Text>उसका निर्दयी ठोंकना हमें अचानक ही उलझा दिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_4">
+      <Text>हमें कभी भी एक मांसाहारी कोआला से सामना नहीं करना पड़ा। हम भाग्यशाली थे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_DESCRIPTION_5">
+      <Text>जब सफेद अंडे कच्चे होते हैं, तो उनकी पीली गुदा बुश ऑस्टर की तरह का होता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_1">
+      <Text>यदि आवश्यकता हो तो आप असमर्थित जानवर को भी मार सकते हैं। लेकिन ऐसा एक इंसान के साथ नहीं कर सकते।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_2">
+      <Text>त्वचा मुँह के छत से अलग हो जाएगी। काफ़ी असुविधाजनक।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_3">
+      <Text>कठिन परिस्थितियों और उखड़े मिजाज अक्सर झगड़े की ओर ले जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_4">
+      <Text>शहर में एक साधारण गलती। आउटबैक में कम से कम नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_5">
+      <Text>एक दिखावटी रूप से असाधारण पथ कभी-कभी वादा दिखाता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_6">
+      <Text>हमारे भाग्य में, जंगल में हर जगह मानव जीवन की कमी नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_7">
+      <Text>डिंगो पानी और शिकार के लिए यात्रा करते थे। स्थानीय लोगों का अनुसरण करना सबसे अच्छा है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_8">
+      <Text>बहुत से लोग खुद के लिए खोज के परिणामों का दावा करने के लिए उत्सुक थे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_9">
+      <Text>शायद वे सही थे। आउटबैक में दृष्टिकोण अजीब होता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_10">
+      <Text>एक विफल खोजकर्ता के शव पर इसे पाया गया, यह शर्म की बात है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_11">
+      <Text>हम अपने पार्टी को विभाजित करके ज्यादा जगह को कवर करने में सक्षम थे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_12">
+      <Text>बहुत बाद में, हमें इसे जाति के लिए एक गंभीर अपमान समझ में आया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_13">
+      <Text>उस समय, हमें यह पता नहीं था कि यह कितनी दूर तक जाएगा। बहुत दूर.</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_14">
+      <Text>खराब हालातों ने उन्हें दूसरे स्थानों में अपनी किस्मत ढूंढने के लिए मजबूर किया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_DESCRIPTION_15">
+      <Text>ऐसा लगता है कि उनके पूर्व मुलाकातें बाहरी लोगों से नकारात्मक रहे थे।</Text>
+    </Row>
+    <!-- Exploration Event Journal Entries-->
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_1">
+      <Text>समुद्र में बह गए, डूब माना गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_2">
+      <Text>मटिंग स्टिंगर पर कदम रखा। कटाव असफल।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_3">
+      <Text>कान के पास कोन शैल रखा। समुद्र नहीं सुना।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_4">
+      <Text>दृष्टिगति अस्तित्वहीन। कोई प्रगति नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_5">
+      <Text>ताजा खाद्य और पानी के लिए विनिमय किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_6">
+      <Text>सहमत प्रकार के लोग, काम के लिए उत्सुक।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_COAST_ADJACENT_JOURNAL_7">
+      <Text>यह वास्तव में एक फल-पूर्ण केंद्र है। स्थान रिकॉर्ड हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_1">
+      <Text>जीवित रहने के लिए, हम उस पानी पर निर्भर करते हैं जो हम बनाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_2">
+      <Text>पाँवों से कुचल दिया। ऊँट की थूक से अंधे हो गए। मनोबल बहुत कम हो गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_3">
+      <Text>वड़े से काटा गया। फिर फुफ्फुंद जल्द ही बंद हो गए।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_4">
+      <Text>दृश्य अस्तित्वहीन है। थूक गंदा है। कोई प्रगति नहीं हुई है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_5">
+      <Text>सुखद राहत नजर आ रही है। स्थान रिकॉर्ड किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_DESERT_JOURNAL_6">
+      <Text>खाद्य सामग्री फिर से भरी गई। मनोबल कम है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_1">
+      <Text>प्रारंभिक हथकड़ी में दांतों को खो दिया। खाद्य भी खो दिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_2">
+      <Text>राख में अवशेष नहीं पहचाने जा सके। आगे बढ़ते हुए।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_3">
+      <Text>अनंत चीखें। नींद के बिना चार रातें। मनोबल कम।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_4">
+      <Text>सूखे. निराश. यात्रा के लिए बहुत कमजोर।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_5">
+      <Text>खिलाया हुआ और आपूर्ति कर दी गई। मनोबल उच्च है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_GRASSLAND_JOURNAL_6">
+      <Text>पास के बसेरे के लिए मानचित्र उपलब्ध किया गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_1">
+      <Text>मेडिकल सप्लाइज़ खो गए। घायल लोगों का इलाज अभी भी ठीक से नहीं हो पा रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_2">
+      <Text>फ्रॉस्टबाइट। हम सभी प्रभावित होने से पहले आगे बढ़ना होगा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_3">
+      <Text>बचाव का प्रयास असफल रहा। भूखे, घायल, मनोविष्ठ, तबियत भी ठीक नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_4">
+      <Text>पास एक बंद सड़क थी। पिछले कैंपिंग स्थान पर वापस लौट गए।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_5">
+      <Text>निर्देशित खानकाटों को सबसे निकटवर्ती कोलोनियल खनन कार्यालय की ओर दिया गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MOUNTAINS_ADJACENT_JOURNAL_6">
+      <Text>आश्रयित और पुनर्संचालित किए गए। अच्छा शिकार करना। मनोबल ऊँचा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_1">
+      <Text>दोहराए गए ठोंकों से अंगों में क्षति हुई, जिससे मृत्यु हो गई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_2">
+      <Text>जमीन सूखी। अभियान भी सूखा है। आगे बढ़ो।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_3">
+      <Text>इस भूमि में स्पिनीफेक्स क्लंप्स से बचना असंभव है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_4">
+      <Text>दोपहर से पहले कल का मार्ग दो बार पार किया। मनोबल कम है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_5">
+      <Text>निकटतम आउटबैक स्टेशन जल्द ही अधिक स्टॉकमेन होंगे।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_PLAINS_JOURNAL_6">
+      <Text>वॉटरस्किन और पेट भर जाते हुए। मोराल ऊँचा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_1">
+      <Text>अनंत ज्वर. उपशमन असंभव. मनोबल कम।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_2">
+      <Text>खोज कार्य व्यर्थ। बेल्ट तंग किए जाते हैं। मनोबल कम है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_3">
+      <Text>रात में शिविर से बाहर निकाल दिया गया था, मृतक माना जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_4">
+      <Text>कोई लोकप्रिय प्रगति नहीं। मक्खियों से भरा हुआ। मनोदशा कम।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_FLOODPLAINS_JOURNAL_5">
+      <Text>जलजीवाणु मिल गए! भोजन की आपूर्ति हुई। मनोबल उच्च है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_1">
+      <Text>जब हम लगातार संतुष्ट महसूस कर रहे थे, उस समय वह चला गया। एक बार गलत तरीके से समझा गया था।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_2">
+      <Text>पीड़ित दलदल में चिल्लाकर भाग गए। मृत माना गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_3">
+      <Text>यह अस्वागतपूर्ण भूमि कितनी भयानकताओं से भरी हुई है!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_4">
+      <Text>एक अस्तव्यस्त मौत पूर्ण लकवा के बाद आई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_5">
+      <Text>कठिन यात्रा के कुछ घंटे। कैंप मिला। हमारा, कल से।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_MARSH_JOURNAL_6">
+      <Text>ब्यूनिप का दावा साफ रूप से काम से टालने की कोशिश है। कोई प्रगति नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_1">
+      <Text>खुजली संक्रमण का कारण बनी। सोने या बैठने में आराम नहीं होता।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_2">
+      <Text>जल बीमारी से ठीक होने की उम्मीद थी। कोई प्रगति नहीं हुई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_3">
+      <Text>सभ्यता हमें हमारी आराम की अवधि बढ़ाने की सलाह देती है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_4">
+      <Text>मजेदार स्नान। मनोबल ऊंचा।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_OASIS_JOURNAL_5">
+      <Text>खाद्य सामग्री भरी हुई। वॉटरस्किन फूल रहे हैं। मनोबल ऊँचा है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_1">
+      <Text>दूसरा व्यक्ति अज्ञात स्थान से अज्ञात कारण से मर गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_2">
+      <Text>चाकू-जैसे पंजों वाले पक्षी द्वारा गले काट दिया गया। मृत्यु जल्दी हो गई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_3">
+      <Text>यह डेंगू है। हम सभी जानते हैं कि यह कैसे समाप्त होता है। मनोबल कम है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_4">
+      <Text>बेडरोल अयोग्य। चींटियों को बाहर निकालने में दिन बिताया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_RAINFOREST_JOURNAL_5">
+      <Text>बहुत सारे नोट्स लिखे। नेमिंग राइट्स हमारे होंगे!</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_1">
+      <Text>सांपों को कोने में पकड़ने के खतरों को फिर से बताया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_2">
+      <Text>घोड़े विचलित हो गए। जले हुए घाव संभाले गए। भोर पुंछी जलीं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_3">
+      <Text>आँख खो दी। ओर्बिट संक्रमित हो गया। शिकारी को एमू की जांघ प्रस्तुत की गई।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_4">
+      <Text>एक दिन निराशाजनक बकवास में खो दिया। मैं बेवकूफों के बीच हूँ।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_WOODS_JOURNAL_5">
+      <Text>खाद्य सामग्री ताजगी से भरी हुई है। मनोबल ऊँचा है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_1">
+      <Text>भूखंड के उतार-चढ़ाव के कारण गंभीर घायली।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_2">
+      <Text>उत्कट आवश्यकता है कि गुणवत्ता वाले खाद्य पदार्थों की आवश्यकता है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_3">
+      <Text>हाथापाई हो गयी, उनमें से कुछ गंभीर थीं। मोराल कम हो गया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_4">
+      <Text>ताकत से उठाया कि टेदरिंग की आवश्यकता है। (Takat se uthaya ki tethering ki avashyakta hai.)</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_5">
+      <Text>कल की यात्रा को तेज करने के लिए एक छुपी हुई ट्रेल मिली।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_6">
+      <Text>ताजा खाद्य एवं पानी के लिए व्यापार किया। सदैव आगे बढ़ते हुए।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_7">
+      <Text>बिलाबोंग मिल गया, डिंगो को भगाया, पानी की आपूर्ति फिर से की।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_8">
+      <Text>अंततः साझा नामांकन के लिए सहमति हासिल की।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_9">
+      <Text>कुछ अतिरिक्त अन्वेषण की आवश्यकता है। स्थान नोट किया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_10">
+      <Text>पुरस्कार का वादा हमारे नंबर को उत्तेजित कर दिया है। मुख्याधिकारी ऊर्जावान हैं।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_11">
+      <Text>किस्मत क्या है! हमने अब अपनी दौलत दोगुनी कर दी है।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_12">
+      <Text>और भी बदले की समस्याओं से बचने के लिए जल्दी से क्षेत्र छोड़ दिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_13">
+      <Text>शिविर के अंदर के अंगारे ने आग फैलाई। हमने जान बचाकर भाग लिया।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_14">
+      <Text>निकटतम बसेरे की ओर जाने के लिए जाति का मार्गदर्शन करें। आगे बढ़ो।</Text>
+    </Row>
+    <Row Tag="LOC_SCENARIO_AUSTRALIA_EVENT_EXPLORATION_ANY_JOURNAL_15">
+      <Text>व्यापार मना कर दिया गया, अनुशासनों के बावजूद। जल्द ही दूर हो गए।</Text>
+    </Row>
+  </EnglishText>
+</GameData>

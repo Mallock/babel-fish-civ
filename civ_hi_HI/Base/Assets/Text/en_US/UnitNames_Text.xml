@@ -1,0 +1,914 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameData>
+  <BaseGameText>
+    <Row Tag="LOC_UNITNAME_BASE_TEMPLATE">
+      <Text>{1_Prefix} {2_Suffix}</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_RANDOMIZE_BUTTON_TEXT">
+      <Text>यादृच्छिक करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_CHOOSE_NAME">
+      <Text>इस यूनिट के लिए एक शीर्षक चुनें:</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_CONFIRM">
+      <Text>नाम की पुष्टि करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_RANDOM_FIRST">
+      <Text>पहला नाम रैंडमाइज़ करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_RANDOM_SECOND">
+      <Text>दूसरा नाम यादृच्छिक करें।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_1ST">
+      <Text>पहला</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_2ND">
+      <Text>दूसरा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_3RD">
+      <Text>तीसरा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_4TH">
+      <Text>चौथी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_AIMED">
+      <Text>लक्ष्य (Lakshya)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ALPHA">
+      <Text>अल्फा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ALPINE">
+      <Text>अल्पाईन</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ANGEL">
+      <Text>एंजल (Angel)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ARMORED">
+      <Text>आर्मर्ड (Armored)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BIG_RED">
+      <Text>लाल</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BLACK">
+      <Text>काला (Kala)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BLOOD">
+      <Text>रक्त</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BLOODY">
+      <Text>खूनी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BRAVE">
+      <Text>बहादुर (Bahadur)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BULL">
+      <Text>सांड (Saand)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_CELESTIAL">
+      <Text>दिव्यगमन (Divyagaman)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_COLONIAL">
+      <Text>कोलोनियल (Koloniyal)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_CRAZY">
+      <Text>पागल (Paagal)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DEAD_CENTER">
+      <Text>केंद्र (Kendra)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DEADLY">
+      <Text>खतरनाक (Khatarnak)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DEATHS">
+      <Text>मौत</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DELTA">
+      <Text>डेल्टा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DESERT">
+      <Text>दरिया</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DIRTY">
+      <Text>गंदा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DRAGON">
+      <Text>अजगर (Ajgar)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_DRAWN">
+      <Text>खींचा हुआ।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ELITE">
+      <Text>एलीट (Elite)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_FIGHTING">
+      <Text>लड़ाई (Ladaai)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_FLYING">
+      <Text>उड़ना</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GALLOPING">
+      <Text>द गैलोपिंग (The Galloping)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GHOST">
+      <Text>भूत</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GLORY">
+      <Text>महिमा (Mahima)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GOLDEN">
+      <Text>सोना</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GREAT">
+      <Text>महान</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GREEN">
+      <Text>हरा (Hara)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GRIM">
+      <Text>द ग्रिम</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HADES">
+      <Text>हेड्स (The Hades)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HELLISH">
+      <Text>दोजख़ (Dozakh)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HELLS">
+      <Text>दोज़ख (Dozakh)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HOLY">
+      <Text>पवित्र</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_INVINCIBLE">
+      <Text>अजेय (Ajey)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_IRON">
+      <Text>आयरन (Ayran)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_JUNGLE">
+      <Text>जंगल</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_KINGS">
+      <Text>राजा का</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_LAVA">
+      <Text>लावा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_LIGHT">
+      <Text>दीप्ति (Deepti)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_LIGHTNING">
+      <Text>बिजली (Bijli)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_LION">
+      <Text>सिंह</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_LONG">
+      <Text>द लॉंग</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_MAGNIFICENT">
+      <Text>शानदार</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_MOUNTAIN">
+      <Text>पहाड़ी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_MOUNTED">
+      <Text>घुड़सवार (Ghudsavar)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_NOMADIC">
+      <Text>ख़ोजी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_OLD">
+      <Text>पुराना (Purana)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ORPHAN">
+      <Text>अनाथ</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_PARTISAN">
+      <Text>दलीय (Dalīya)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_PRESIDENTS">
+      <Text>राष्ट्रपति का</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_QUEENS">
+      <Text>रानी की</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_RAGGED">
+      <Text>दरिद्र (Daridra)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_RAINING">
+      <Text>बारिश हो रही है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_REVOLUTIONARY">
+      <Text>क्रांतिकारी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_RIVER">
+      <Text>नदी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ROCK">
+      <Text>द रॉक</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ROYAL">
+      <Text>रॉयल (Royal)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SACRED">
+      <Text>शांतिपूर्ण (Shantipurna)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SALTY">
+      <Text>खारा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SCREAMING">
+      <Text>चीखते हुए</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SEA">
+      <Text>समुद्र</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SHARP">
+      <Text>शार्प (Shaarp)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SILENT">
+      <Text>खामोश (Khamosh)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SOARING">
+      <Text>ऊँची उड़ान।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_STONE">
+      <Text>पत्थर (patthar)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_STONEWALL">
+      <Text>स्टोनवॉल</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_STORM">
+      <Text>तूफ़ान</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TALL">
+      <Text>लंबा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TEN">
+      <Text>दस (Das)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TERRIBLE">
+      <Text>भयानक</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_THUNDERING">
+      <Text>गरजना (Garajna)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TIMBER">
+      <Text>वृक्षयांत्रिका (Vrikshayantrika)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TROPIC">
+      <Text>ट्रॉपिक (Tropic)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_TUNDRA">
+      <Text>तंद्रा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WALKING">
+      <Text>द वॉकिंग (Da walking)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WAR">
+      <Text>युद्ध (Yuddh)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WHITE">
+      <Text>सफेद (Safed)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WILD">
+      <Text>जंगली</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WINDING">
+      <Text>घुमावदार (Ghumavadar)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ARTISTS">
+      <Text>कलाकारों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BANNER">
+      <Text>बैनर</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BASTARDS">
+      <Text>अश्लीलता भरी शब्दावली है।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BATTALION">
+      <Text>बटालियन</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BERETS">
+      <Text>बेरेट्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BODYGUARDS">
+      <Text>बॉडीगार्ड्स (bodigaards)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BOOTS">
+      <Text>जूते (Jootey)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BOYS">
+      <Text>लड़के (Ladke)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BRAVES">
+      <Text>ब्रेव्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BRIGADE">
+      <Text>ब्रिगेड (Brigade)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BROTHERS">
+      <Text>भाईयों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BUTCHERS">
+      <Text>कसाई (Kasai)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CAPS">
+      <Text>कैप्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CHAMPIONS">
+      <Text>विजेता (Vijeta)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CIRCUS">
+      <Text>सर्कस</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_COMPANY">
+      <Text>कंपनी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_COMRADES">
+      <Text>साथियों (Sathiyon)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CROSSES">
+      <Text>क्रॉसेस (Krosses)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CROWS">
+      <Text>कौआ।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DEAD">
+      <Text>मृत</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DEMONS">
+      <Text>दानव (Daanav)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DEVILS">
+      <Text>दुष्टात्मा (Duṣṭ-ātmā)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DOGS">
+      <Text>कुत्ते</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DOZEN">
+      <Text>दर्जन (Darjan)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DRAGONS">
+      <Text>ड्रैगन्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_EAGLES">
+      <Text>ईगल्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_EXCELLERS">
+      <Text>उत्कृष्टतावादी (Utkrishthavaadi)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FORCE">
+      <Text>बल</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FUSILIERS">
+      <Text>फुजिलियर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GAMBLERS">
+      <Text>जुआरियों (juariyon)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GANG">
+      <Text>गैंग</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GARDE">
+      <Text>कच्चे</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GIANTS">
+      <Text>विशालकाय (vishaalkaay)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GOONS">
+      <Text>गुंडे</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GRENADIERS">
+      <Text>ग्रेनेडियर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GUARD">
+      <Text>रक्षक (rakshak)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GUARDIANS">
+      <Text>निर्वाहकों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HATS">
+      <Text>टोपियां</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HELMETS">
+      <Text>हेलमेट्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HORDE">
+      <Text>सेना</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HOUNDS">
+      <Text>शिकारी कुत्ते (Shikari Kutte)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HUNTERS">
+      <Text>शिकारी (Shikari)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_IMMORTALS">
+      <Text>अमर् लोगों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_INFANTRY">
+      <Text>पैदलसैनिक (Paidaalsainik)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_IRONS">
+      <Text>आयरन्स (Irons)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KILLERS">
+      <Text>हत्यारे</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KINGS">
+      <Text>राजा (Raja)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LADS">
+      <Text>लड़के</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LAMBS">
+      <Text>भेड़ियाँ (bhediyon)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LEGION">
+      <Text>लेजियन</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LIBERATORS">
+      <Text>मुक्तिदाताओं</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LINE">
+      <Text>लाइन</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LIONS">
+      <Text>सिंहों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MARTYRS">
+      <Text>शहीदों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ONE">
+      <Text>एक (Ek)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_OWN">
+      <Text>Apna</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PANTHERS">
+      <Text>बाघें (Baghein)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PEACEMAKERS">
+      <Text>शांतिदूतों (Shantiduton)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PHANTOMS">
+      <Text>प्रेत-आवाज़्म्यों (Pret-aavazmyon)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PROFESSIONALS">
+      <Text>व्यावसायिकों (Vyavasaayikon)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RAIDERS">
+      <Text>रेडर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RAMPAGERS">
+      <Text>रैम्पेजर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_REDS">
+      <Text>लाल</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_REGIMENT">
+      <Text>शाखा (shaakha)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RELIABLES">
+      <Text>विश्वसनीय्</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SAINTS">
+      <Text>संतों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SAVAGES">
+      <Text>जंगली लोग (Jangli log)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SEEKERS">
+      <Text>खोजने वाले</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SHIELDS">
+      <Text>ढालें</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SHIRTS">
+      <Text>कमीज़ें</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SONS">
+      <Text>बेटे</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TIGERS">
+      <Text>बाघ (Bagh)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TIMBERWOLVES">
+      <Text>टिम्बरवुल्व्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TOUGHS">
+      <Text>विचार (Vichaar)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TROOP">
+      <Text>सैनिक दल</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_VOLUNTEERS">
+      <Text>स्वयंसेवकों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WARLORDS">
+      <Text>युद्धपति (Yuddhpati)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WATCH">
+      <Text>घड़ी (Ghadi)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WIDOWMAKERS">
+      <Text>विधवा बनाने वाले</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WOLFHOUNDS">
+      <Text>वोल्फहाउंड्स (Wolfhounds)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WOLVES">
+      <Text>भेड़िये (Bhediyae)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_APES">
+      <Text>वानर (Vaanar)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BLADES">
+      <Text>ब्लेड्स (Blades)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_COMMANDOS">
+      <Text>कमांडोज़ (Kamandoz)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_EYES">
+      <Text>आँखें (aankhen)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_JACKETS">
+      <Text>जैकेट्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KNIVES">
+      <Text>चाकू (Chaku)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MARAUDERS">
+      <Text>दस्तावेज़ी हमलवारों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_NOMADS">
+      <Text>खानाबदोश (Khanabadosh)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_OUTLAWS">
+      <Text>अपराधी (Aparadhi)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PATHFINDERS">
+      <Text>पथ प्रवर्तकों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RANGERS">
+      <Text>रेंजर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RECON">
+      <Text>Recon का मतलब होता है बहिष्कार करना या तटस्थ होना।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RUNNERS">
+      <Text>दौड़ने वाले</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SCOUTS">
+      <Text>स्काउट्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SNAKES">
+      <Text>साँप (saanp)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WANDERERS">
+      <Text>वंदरर्स (Vandarars)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ARROWS">
+      <Text>तीरें</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ARTILLERY">
+      <Text>तोपखाना (Topkhana)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BATTERY">
+      <Text>बैटरी (baitari)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BLAZERS">
+      <Text>ब्लेज़र्स (Blazers)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BOMBARDIERS">
+      <Text>बॉम्बार्डियर्स (Bombardiers)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BOWS">
+      <Text>धनुष्य (Dhanushya)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DEATH">
+      <Text>मृत्यु</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FIRE_BREATHERS">
+      <Text>साँस लेनेवाले</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GUNNERS">
+      <Text>गनर्स (Ganars)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KNOCKERS">
+      <Text>दरवाजे के नख़रे</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MARKSMEN">
+      <Text>निशानेबाज़्।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RAIN">
+      <Text>बारिश (Barish)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SHARPS">
+      <Text>शार्प्स्</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SHARPSHOOTERS">
+      <Text>शार्पशूटर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SLINGERS">
+      <Text>स्लिंगर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SNIPERS">
+      <Text>स्नाइपर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_STRIKERS">
+      <Text>स्ट्राइकर्स (Strikers)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DRAGOONS">
+      <Text>ड्रैगून्स (Draagoons)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FEATHERS">
+      <Text>पंख</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FOXES">
+      <Text>लोमड़ी (Lomdi)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HAMMER">
+      <Text>हथौड़ा (Hathauda)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HORSE">
+      <Text>घोड़ा (Ghoda)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HORSEMEN">
+      <Text>घोड़ेबाज़ (Ghodebaaz)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HUSSARS">
+      <Text>हुसार्स (Hussars)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KNIGHTS">
+      <Text>राजपूत</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_KORPS">
+      <Text>कोर्प्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_LANCERS">
+      <Text>लांसर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PONIES">
+      <Text>घुड़सवारी के लिए छोटे घोड़े।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RIDERS">
+      <Text>राइडर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_STEEDS">
+      <Text>घोड़े (ghode)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_VANGUARD">
+      <Text>अग्रणी सेना</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WARHORSES">
+      <Text>युद्ध घोड़े</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ARMADA">
+      <Text>अरमाडा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BOUNTY">
+      <Text>बाउंटी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BUCCANEERS">
+      <Text>बकनियर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CONQUEROR">
+      <Text>विजेता</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_DREADNOUGHT">
+      <Text>ड्रेडनॉट</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_EEL">
+      <Text>एल (Eel)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ENDEAVOR">
+      <Text>प्रयास (Prayās)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FLAGSHIP">
+      <Text>मुख्य ध्वजवाहक</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FLOTILLA">
+      <Text>फ्लोटिला</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_INTREPID">
+      <Text>निडर</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_INVINCIBLE">
+      <Text>अजेय</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_IRONSIDES">
+      <Text>आयरनसाइड्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_NARWHAL">
+      <Text>नारव्हाल</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ORCA">
+      <Text>ओर्का</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_REDOUBTABLE">
+      <Text>शानदार।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_RESOLUTION">
+      <Text>फैसला</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_REVENGE">
+      <Text>प्रतिशोध (Pratishodh)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SEAWOLVES">
+      <Text>सीवुल्फ्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SHARK">
+      <Text>शार्क</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_STRIKE_GROUP">
+      <Text>समूह</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TRIDENT">
+      <Text>त्रिशूल</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_VICTORY">
+      <Text>जीत (Jeet)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WHALE">
+      <Text>ह्वेल</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ACES">
+      <Text>एसेस (Esas)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_AIRMEN">
+      <Text>वायुसैनिक (Vayusainik)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ANGELS">
+      <Text>देवदूत (Devdoot)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_BIRDS">
+      <Text>पक्षीयों (Pakshiyo)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FALCONS">
+      <Text>बाज़ या उल्लूंसमेत पक्षी।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FLYERS">
+      <Text>फ्लायर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GUNFIGHTERS">
+      <Text>गनफाइटर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GUNS">
+      <Text>बंदूकें (Bandooken)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HAWKS">
+      <Text>बाज़्‌ (baaz)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HORNETS">
+      <Text>भड़भड़ाते मक्खियाँ</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_INTERCEPTORS">
+      <Text>इंटरसेप्टर्स (Intarसेप्टर्स)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_INTRUDERS">
+      <Text>अतिथि</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_NIGHTSTALKERS">
+      <Text>नाइटस्टॉकर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SQUADRON">
+      <Text>वायु दल</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_THUNDERBOLTS">
+      <Text>बिजलियाँ (Bijliyaan)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_VAMPIRES">
+      <Text>वैंपायर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WARHAWKS">
+      <Text>वॉरहॉक्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WING">
+      <Text>पंख</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HEAVENLY">
+      <Text>स्वर्गीय</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BRIGHT">
+      <Text>ब्राइट</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_HIDDEN">
+      <Text>छिपा हुआ</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_JADE">
+      <Text>द जेड (The Jade)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_CRIMSON">
+      <Text>क्रिमसन (Krimsan)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SPIRIT">
+      <Text>आत्मा (Aatma)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_ETERNAL">
+      <Text>अनन्त (Anant)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_NORTHERN">
+      <Text>उत्तरी (Uttari)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SOUTHERN">
+      <Text>दक्षिणी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_EASTERN">
+      <Text>पूर्वी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WESTERN">
+      <Text>पश्चिमी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_EARTHEN">
+      <Text>मिट्टीदेह or मिट्टी का घड़ा</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_GALE">
+      <Text>गेल (Ge‌l)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_FIRE">
+      <Text>आग।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_METAL">
+      <Text>धातु</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_WATER">
+      <Text>पानी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_BOXING">
+      <Text>बॉक्सिंग (Boxing)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_OPEN">
+      <Text>द ओपन (Da Open)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_RAGING">
+      <Text>उग्र विक्रोश।</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_CALM">
+      <Text>शांति</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_PREFIX_SLEEPING">
+      <Text>शयनकला</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FLAMES">
+      <Text>लगाना (Lagana)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_WINDS">
+      <Text>हवाएँ</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FLOODS">
+      <Text>बाढ़े</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MONKEYS">
+      <Text>बंदर</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CRANES">
+      <Text>क्रेनें</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MANTIS">
+      <Text>मांतिस</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PANDAS">
+      <Text>पांडा (Panda)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_ORDER">
+      <Text>आदेश</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_HAND">
+      <Text>हाथ</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FIST">
+      <Text>मुट्ठी</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_CLAW">
+      <Text>तलवारी (Talwari)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_STARS">
+      <Text>तारे</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PALM">
+      <Text>ताड़ (Taad)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MENDICANTS">
+      <Text>भिक्षुकों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_PILGRIMS">
+      <Text>तीर्थयात्री (Tirthayatri)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_TEACHERS">
+      <Text>शिक्षकों</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_MASTERS">
+      <Text>मास्टर्स</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_SWEEPERS">
+      <Text>सफाईकर्मी (Safai karmi)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_FOOT">
+      <Text>पैर (pair)</Text>
+    </Row>
+    <Row Tag="LOC_UNITNAME_SUFFIX_GRASSHOPPERS">
+      <Text>तिड्डीदाना</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

@@ -1,0 +1,854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Civics-->
+    <Row Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION">
+      <Text>[ICON_TradeRoute] व्यापार मार्गों का निर्माण करने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MILITARY_TRADITION_DESCRIPTION">
+      <Text>सभी युद्ध इकाइयों को फ्लैंकिंग और समर्थन युद्ध बोनस प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_EARLY_EMPIRE_DESCRIPTION">
+      <Text>सीमाओं को लागू करने और अन्य सभ्यताओं को खुली सीमाएं देने की क्षमताओं को खोलता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MYSTICISM_DESCRIPTION">
+      <Text>पुरस्कार 1 [ICON_Envoy] एनवोय।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MILITARY_TRAINING_DESCRIPTION">
+      <Text>पुरस्कार 1 [ICON_Envoy] एनवॉय।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_THEOLOGY_DESCRIPTION">
+      <Text>पुरस्कार 1 [ICON_Envoy] एनवॉय।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NAVAL_TRADITION_DESCRIPTION">
+      <Text>पुरस्कार 1 [ICON_Envoy] एनवॉय |</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_FEUDALISM_DESCRIPTION">
+      <Text>फार्म के सुधार अब हर 2 आसपास के फार्म सुधार से +1 [ICON_Food] खाद्य प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION">
+      <Text>संधियों को अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MERCENARIES_DESCRIPTION">
+      <Text>पुरस्कार 1 [ICON_Envoy] एन्वॉय।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_EXPLORATION_DESCRIPTION">
+      <Text>चरागाह में सुधारों से +1 [ICON_Food] खाद्य प्राप्त होता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_DIPLOMATIC_SERVICE_DESCRIPTION">
+      <Text>जासूस बनाने की क्षमता प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION">
+      <Text>शिविर में सुधार करने से +1 [ICON_Production] उत्पादन और +1 [ICON_Food] खाद्य मिलता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_THE_ENLIGHTENMENT_DESCRIPTION">
+      <Text>धार्मिक [ICON_Tourism] पर्यटन प्रभाव आपकी सभ्यता के विपरीत आधा होता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_COLONIALISM_DESCRIPTION">
+      <Text>पुरस्कार 2 [ICON_Envoy] एन्वॉय को।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION">
+      <Text>हम घास के मैदान और मैदानी पहाड़ों पर खेत बना सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NATIONALISM_DESCRIPTION">
+      <Text>एक अतिरिक्त जासूस निर्माण करने की क्षमता प्रदान करता है। दो एक जैसी इकाइयों को कोर या फ्लीट में बनाने की अनुमति देता है। एक नया कासूस बेली देता है जो युद्धों को न्याय देने के लिए उपयोग किया जा सकता है: कोलोनियल युद्ध।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_OPERA_BALLET_DESCRIPTION">
+      <Text>पुरस्कार 2 [ICON_Envoy] एनवॉय को दिए जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION">
+      <Text>[ICON_RESOURCE_ANTIQUITY_SITE] पुरातत्व स्थल उजागर करता है। अर्कियोलॉजिस्ट का निर्माण संभव होता है। 2 [ICON_Envoy] राजदूत देता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_SCORCHED_EARTH_DESCRIPTION">
+      <Text>पुरस्कार 2 [ICON_Envoy] दूतों को।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION">
+      <Text>[ICON_Envoy] दूतों को 3 पुरस्कार देता है। राष्ट्रीय उद्यानों का निर्माण और [ICON_Faith] धर्म से प्राकृतिकविदों की खरीदारी की अनुमति देता है। बिल्डर को वुड्स (दूसरी उगाई गई) लगाने की अनुमति देता है। आपकी जमीन में बिना हटाए गए लकड़ी (पुरानी वृख्या) +1 आकर्षण प्राप्त करते हैं। दीवारों से [ICON_TOURISM] पर्यटन प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_MOBILIZATION_DESCRIPTION">
+      <Text>रक्षात्मक संधियों के गठन की अनुमति देता है। सेना या नौसेना में तीन एक समान इकाइयों के गठन की अनुमति देता है। एक नया कासूस बेली जो युद्धों के न्याय के लिए उपयोग किया जा सकता है, उसकी अनुमति देता है: भूमि विस्तार का युद्ध।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_IDEOLOGY_DESCRIPTION">
+      <Text>एक अतिरिक्त जासूस निर्माण करने की क्षमता प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_COLD_WAR_DESCRIPTION">
+      <Text>एक अतिरिक्त जासूस बनाने की क्षमता प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_CULTURAL_HERITAGE_DESCRIPTION">
+      <Text>यह [ICON_RESOURCE_SHIPWRECK] विघटित जहाजों को प्रकट करता है, और पुरातत्वविदों को उनसे [ICON_GreatWork_Artifact] वस्तुओं को निकालने की अनुमति देता है। 3 [ICON_Envoy] राजदूतों का पुरस्कार।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_RAPID_DEPLOYMENT_DESCRIPTION">
+      <Text>वायुपट्टियों को समेत करने वाले एयरोड्रोम जिलों के बीच भूमि इकाइयों के परिवहन की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_GLOBALIZATION_DESCRIPTION">
+      <Text>वन्य उपजाऊ क्षेत्रों को +2 [ICON_Gold] सोने की मदद की जाए।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_FUTURE_CIVIC_DESCRIPTION">
+      <Text>यह कई बार पूरा किया जा सकता है, जो स्कोर विजय के लिए आपके अंकों को बढ़ाता है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_ENVOY_AWARDED_TOOLTIP">
+      <Text>पुरस्कार {1_NumOfEnvoys} [ICON_Envoy] {1_NumOfEnvoys : plural 1?दूत; other?दूतों;}</Text>
+    </Row>
+    <!-- Civic Boosts-->
+    <Row Tag="LOC_BOOST_TRIGGER_CRAFTSMANSHIP">
+      <Text>3 टाइल्स में सुधार करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_FOREIGN_TRADE">
+      <Text>दूसरे महाद्वीप की खोज करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MILITARY_TRADITION">
+      <Text>बार्बेरियन आवास से छुटकारा पाना।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_STATE_WORKFORCE">
+      <Text>किसी विशेषता के जिले का निर्माण करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_EARLY_EMPIRE">
+      <Text>अपनी सभ्यता को कम से कम 6 जनसँख्या तक बढ़ाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MYSTICISM">
+      <Text>एक पंथेओं को मिल गया।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_GAMES_RECREATION">
+      <Text>निर्माण प्रौद्योगिकी का अध्ययन करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_POLITICAL_PHILOSOPHY">
+      <Text>तीन शहर राज्यों से मिलें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_DRAMA_POETRY">
+      <Text>एक अद्भुत चमत्कार बनाओ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MILITARY_TRAINING">
+      <Text>एक छावनी बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_DEFENSIVE_TACTICS">
+      <Text>घोषणा-युद्ध का लक्ष्य बनें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_RECORDED_HISTORY">
+      <Text>2 कैंपस जिले बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_THEOLOGY">
+      <Text>धर्म मिल गया। (Dharm mil gaya.)</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_NAVAL_TRADITION">
+      <Text>क्वाड्रिरेम से एक यूनिट को मार डालें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_FEUDALISM">
+      <Text>6 फार्म बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CIVIL_SERVICE">
+      <Text>शहर की आबादी को 10 तक बढ़ाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MERCENARIES">
+      <Text>आपकी सैन्य ताकत में 8 भूमिकरण युद्ध इकाइयाँ होनी चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MEDIEVAL_FAIRES">
+      <Text>4 व्यापार मार्ग बनाए रखें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_GUILDS">
+      <Text>2 बाजार बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_DIVINE_RIGHT">
+      <Text>दो मन्दिर बनाओ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_EXPLORATION">
+      <Text>2 कैरवेल बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_HUMANISM">
+      <Text>एक महान कलाकार बनें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_DIPLOMATIC_SERVICE">
+      <Text>एक और सभ्यता के साथ संधि होना।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_REFORMED_CHURCH">
+      <Text>अपने धर्म का अनुसरण करने वाले 6 शहरों को अनुसरण करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MERCANTILISM">
+      <Text>एक महान व्यापारी कमाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_THE_ENLIGHTENMENT">
+      <Text>3 महान लोग कमाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CIVIL_ENGINEERING">
+      <Text>7 विभिन्न विशेषता जोन बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_NATIONALISM">
+      <Text>केवल तब युद्ध घोषित करें जब कारण विवादपूर्ण हो। (Keval tab yuddh ghoshit karen jab karan vivadapurn ho.)</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_OPERA_BALLET">
+      <Text>कला संग्रहालय बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_COLONIALISM">
+      <Text>खगोल विज्ञान प्रौद्योगिकी का अध्ययन करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_NATURAL_HISTORY">
+      <Text>एक पुरातत्व संग्रहालय बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_URBANIZATION">
+      <Text>शहर को 15 जनसंख्या तक बढ़ाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SCORCHED_EARTH">
+      <Text>2 क्षेत्र तोप बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CONSERVATION">
+      <Text>एक पड़ोस महाप्रभावी ज़िला हो।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MOBILIZATION">
+      <Text>अपनी सेना में 3 कोर्स होने चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_MASS_MEDIA">
+      <Text>अनुसंधान रेडियो।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CAPITALISM">
+      <Text>तीन शेयर बाजार बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_NUCLEAR_PROGRAM">
+      <Text>एक अनुसंधान प्रयोगशाला बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SUFFRAGE">
+      <Text>4 नालियां बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_TOTALITARIANISM">
+      <Text>तीन सैन्य अकादमियाँ बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CLASS_STRUGGLE">
+      <Text>तीन फैक्ट्री बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_COLD_WAR">
+      <Text>परमाणु विघटन प्रौद्योगिकी का अध्ययन करें।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_PROFESSIONAL_SPORTS">
+      <Text>4 मनोरंजन समूह जिले बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_CULTURAL_HERITAGE">
+      <Text>एक थीम वाली इमारत होना।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_RAPID_DEPLOYMENT">
+      <Text>एक विदेशी महाद्वीप पर एयरोड्रोम या एयरस्ट्रिप बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SPACE_RACE">
+      <Text>अंतरिक्ष अड्डे क्षेत्र बनाएँ।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_GLOBALIZATION">
+      <Text>तीन हवाई अड्डे बनाएं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_SOCIAL_MEDIA">
+      <Text>दूरसंचार प्रौद्योगिकी का अनुसंधान करें।</Text>
+    </Row>
+    <!-- Civic Boosts Long Descriptions-->
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CRAFTSMANSHIP">
+      <Text>हमारे पहले शहर के आस-पास की भूमि अच्छी तरह से विकसित हो रही है, इसलिए हम अपनी उत्पादन तकनीकों को समायोजित कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_FOREIGN_TRADE">
+      <Text>एक और महाद्वीप की खोज करने के बाद हमें यह समझ में आता है कि व्यापार के कई अवसर हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_TRADITION">
+      <Text>आपके सैनिक उम्मीद करते हैं कि एक बार्बर आवास से जीत हासिल करने के बाद, आपकी सैन्य सफलताओं की लंबी श्रृंखला की शुरुआत होगी।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_STATE_WORKFORCE">
+      <Text>हमारी पहली जिले को ऑनलाइन लाना राज्य के परियोजनाओं के लिए श्रमिकों को भर्ती करने के महत्व को साबित कर चुका है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_EARLY_EMPIRE">
+      <Text>आपकी भूमि में रहने वाले नागरिकों की बढ़ती संख्या सपना देखती है कि उनका साम्राज्य हो।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MYSTICISM">
+      <Text>आपकी देवता समूह की पूजा ने हमारे विश्व में आध्यात्मिक शक्तियों के बारे में और सवाल उठाए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GAMES_RECREATION">
+      <Text>आपके नए निर्माण कौशल निश्चित रूप से खेल और मनोरंजन के लिए स्थानों को बनाने में मदद करेंगे।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_POLITICAL_PHILOSOPHY">
+      <Text>अन्य राज्यों से आपका संपर्क आपकी अपनी जनता के शासन के विषय में आपकी विचारों को स्पष्ट कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_DRAMA_POETRY">
+      <Text>एक अद्भुतता को पूरा करने की महिमा ने आपके लोगों को ऊर्जावान किया है। वे इस महान घटना को स्मरण करने के लिए काम लिख रहे हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_TRAINING">
+      <Text>अब जब एक छावनी स्थापित हो गई है, हम अपने सैन्य प्रशिक्षण को संगठित रूप दे सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_DEFENSIVE_TACTICS">
+      <Text>आक्रमण की धमकी के सामने, आपके लोग नवाचारी रक्षाओं के साथ तैयार हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_RECORDED_HISTORY">
+      <Text>आपके कैंपस की पुस्तकालयों में कई स्क्रोलों को रखने की योजना के साथ, आपके लोग आपके साम्राज्य के इतिहास को रिकॉर्ड करना शुरू करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_THEOLOGY">
+      <Text>आपके महान धर्मगुरु द्वारा एक धर्म का गठन, परमात्मा की प्रकृति पर गहरी सोच को प्रेरित करता है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NAVAL_TRADITION">
+      <Text>आपकी समुद्र में जीत आपके लोगों को तैराकी शक्ति बनने के लिए प्रेरित करती है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_FEUDALISM">
+      <Text>आपके साम्राज्य के सभी खेतों को प्रबंधित करने के लिए लॉर्ड्स और वासलों का एक सिस्टम तैयार हो रहा है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CIVIL_SERVICE">
+      <Text>आपके बड़े शहर जल्द ही अधिकारियों की एक सेना की आवश्यकता होगी।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MERCENARIES">
+      <Text>इस तरह के बड़े स्थायी सेना के साथ, आप अधिक आक्रमण के लिए अपनी सेना को बढ़ाने की आवश्यकता होने पर एक मेजनार को जोड़ना विचार कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MEDIEVAL_FAIRES">
+      <Text>आपकी भूमि से वाणिज्य का वृद्धि जल्द ही एक व्यापार मेले को आकर्षित करेगा।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GUILDS">
+      <Text>आपके वाणिज्यिक क्षेत्रों की सफलता ने व्यापार गिल्ड के विकास को प्रोत्साहित किया है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_DIVINE_RIGHT">
+      <Text>आपके भक्त लोग गहनता से विश्वास करते हैं कि आपके शासन की दिव्य से वरदान है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_EXPLORATION">
+      <Text>जिन सबकों को आपने कैरावेल खोज से सीखा है, वो आपके लोगों को शासन करने का एक नया तरीका लाने में मददगार साबित हुए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_HUMANISM">
+      <Text>आपके हाल ही में प्राप्त किए गए महान कलाकार से मिली प्रेरणा के द्वारा हमारे लोगों को व्यक्ति की शक्ति का अनुभव हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_DIPLOMATIC_SERVICE">
+      <Text>एक गठबंधन बनाने के लिए की जाने वाली मेहनत ने आपके पहले डिप्लोमैट कोर को तैयार कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_REFORMED_CHURCH">
+      <Text>आपके धर्म का विकास विभाजन का खतरा साथ लाता है। भ्रष्ट चर्च अभ्यासों का सुधार जल्द होना चाहिए!</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MERCANTILISM">
+      <Text>आपका नया महावाणिज्य व्यापारी हमें बता रहा है कि हम अर्थव्यवस्थाई दुश्मनों से अग्रणी बनाने के लिए कैसे विचारों को साझा कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_THE_ENLIGHTENMENT">
+      <Text>आपके महान लोगों के विचार से देशभर में बौद्धिक चर्चा की प्रेरणा मिली है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_COLONIALISM">
+      <Text>आकाशगंगा के नए ज्ञान से आपके नौसेना को नेविगेट करने और एक वैश्विक साम्राज्य स्थापित करने में मदद मिल रही है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CIVIL_ENGINEERING">
+      <Text>इतने सारे जिलों का निर्माण करने के बाद, आपके इंजीनियर शहर का निर्माण में निपुण हो गए हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NATIONALISM">
+      <Text>आपके लोग इस युद्ध की न्यायपूर्ण प्रकृति पर विश्वास रखते हैं। यह हमारे लिए राष्ट्रीय गर्व का मुद्दा बन गया है!</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_OPERA_BALLET">
+      <Text>एक नए संग्रहालय के खुलासे से कला के लोगों को आकर्षित किया जा रहा है। शायद नृत्य और ओपेरा अगले हों?</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NATURAL_HISTORY">
+      <Text>एक संग्रहालय अब आपकी खोज को संभालने के लिए तैयार है, इसलिए अब प्राकृतिक दुनिया में क्या खोज सकते हैं देखने का समय है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_URBANIZATION">
+      <Text>आपके बड़े शहर में भीड़ हो रही है। कुछ उपनगरियों की योजना बनाने का समय है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SCORCHED_EARTH">
+      <Text>आधुनिक युद्ध निश्चित रूप से एक क्रूर व्यवस्था है। आपकी सैन्य डॉक्ट्रिन अब पूर्ण युद्ध के कुछ सिद्धांतों को दर्शाने लगी है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSERVATION">
+      <Text>आपकी नई आश्चर्यजनक पड़ोस के निवासियों की माँग है कि सभी दुनिया के प्राकृतिक खजानों को संरक्षित रखने की योजना बनाई जाए।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MASS_MEDIA">
+      <Text>रेडियो के आगमन से संचार के एक नए युग की शुरुआत हो रही है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MOBILIZATION">
+      <Text>आपकी सेना बेहतर तरीके से संगठित है। अब दुनिया के सामने अपनी ताकत लेकर आने की बारी है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CAPITALISM">
+      <Text>कई शहरों में स्टॉक एक्सचेंज उभरते हुए, निवेश पूंजी समृद्ध हो रही है और एक बाजार अर्थव्यवस्था उभरने के लिए तैयार है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_PROGRAM">
+      <Text>एक समर्पित अनुसंधान प्रयोगशाला के साथ, अब आपकी पहल वैष्णव शोध कार्यक्रम में वैज्ञानिकों की भर्ती शुरू की जा सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE">
+      <Text>आपके साम्राज्य की महिलाओं ने सही स्वच्छता के लिए मांग की है। उन्होंने उस युद्ध को जीत लिया है, अब उन्हें मतदान करने का अधिकार चाहिए।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_TOTALITARIANISM">
+      <Text>आपके सैन्य अकादमीओं द्वारा डाली गई अनुशासन अब आपके नागरिकों के लिए दोष स्वभाव है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CLASS_STRUGGLE">
+      <Text>आपके कारखाने के कर्मचारी बेहतर काम की शर्तों के लिए उतावले हैं। दुनिया के कामगारों का एक होने का समय हो गया है!</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_COLD_WAR">
+      <Text>परमाणु हथियारों के आगमन से विश्व भर में सशस्त्र संघर्ष की प्रकृति निश्चित रूप से बदल जाएगी।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS">
+      <Text>आपके 2 शहरों के मनोरंजन संयोजनों के साथ नए पेशेवर खेल संघ में प्रतिस्पर्धा करना चाहते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CULTURAL_HERITAGE">
+      <Text>एक पूरी तरह से संरचित संग्रहालय के साथ, आपके लोगों की मजबूत संस्कृति की विस्तारपूर्वक प्रदर्शित होती है जिसे सभी देख सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_RAPID_DEPLOYMENT">
+      <Text>With air bases now spanning the globe, our military is ready to be deployed anywhere in the world at a moment's notice.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SPACE_RACE">
+      <Text>आपके नए स्पेसपोर्ट का अनावरण आपके लोगों को ऊपरी अंतरिक्ष में जाने के लिए ऊर्जावान कर दिया है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GLOBALIZATION">
+      <Text>इतने सारे हवाई अड्डों के साथ, दुनिया वास्तव में एक छोटी जगह बन रही है।</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SOCIAL_MEDIA">
+      <Text>आपकी संचार प्रौद्योगिकी की आगे की बढ़त लोगों को ऑनलाइन एकत्रित होने की अनुमति दे रही है।</Text>
+    </Row>
+    <!-- Governments -->
+    <Row Tag="LOC_GOVERNMENT_OF">
+      <Text>{1_civ} की सरकार</Text>
+    </Row>
+    <Row Tag="LOC_CHANGE_GOVERNMENT">
+      <Text>सरकार बदलो।</Text>
+    </Row>
+    <Row Tag="LOC_MY_GOVERNMENT">
+      <Text>मेरी सरकार (Meri Sarkar)</Text>
+    </Row>
+    <Row Tag="LOC_policIES">
+      <Text>नीतियाँ</Text>
+    </Row>
+    <Row Tag="LOC_GOVERNMENTS">
+      <Text>सरकारें</Text>
+    </Row>
+    <Row Tag="LOC_CULTURE_PER_TURN">
+      <Text>प्रति टर्न संस्कृति: +{1_Culture}</Text>
+    </Row>
+    <Row Tag="LOC_MILITARY">
+      <Text>सैन्यता (Sainyata)</Text>
+    </Row>
+    <Row Tag="LOC_ECONOMIC">
+      <Text>आर्थिक</Text>
+    </Row>
+    <Row Tag="LOC_DIPLOMATIC">
+      <Text>राजनयिकीय</Text>
+    </Row>
+    <Row Tag="LOC_WILDCARD">
+      <Text>वाइल्डकार्ड</Text>
+    </Row>
+    <Row Tag="LOC_EMPTY_POLICY_SLOT">
+      <Text>खाली {1_policyType} नीति स्लॉट।</Text>
+    </Row>
+    <Row Tag="LOC_NO_AVAIL_policIES">
+      <Text>कोई उपलब्ध नीतियां नहीं हैं।</Text>
+    </Row>
+    <Row Tag="LOC_VIEW_LOCKED_policIES">
+      <Text>बंद नीतियों को देखें।</Text>
+    </Row>
+    <!-- Government Effects-->
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_CHIEFDOM">
+      <Text>कोई बोनस नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY">
+      <Text>राजधानी को सभी उपजों में +1 वृद्धि प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY">
+      <Text>All Land Melee units gain +4 [ICON_Strength] Combat Strength.</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP">
+      <Text>सभी जिलों वाले शहरों को +1 [ICON_Amenities] सुविधा मिलती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY">
+      <Text>रक्षात्मक इमारतों के प्रति उत्पादन में +50% [ICON_Production]। प्रति दीवार के स्तर के लिए +1 [ICON_Housing] आवास।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY">
+      <Text>धर्म से भूमि के लिए युद्ध इकाइयां खरीदी जा सकती हैं। सभी इकाइयों के लिए धार्मिक युद्ध में [ICON_Religion] धार्मिक ताकत +5।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP">
+      <Text>+2 [ICON_TradeRoute] व्यापार मार्ग।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_FASCISM">
+      <Text>सभी युद्ध इकाइयों को +5 [ICON_Strength] युद्ध शक्ति प्राप्त होती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM">
+      <Text>भूमि इकाइयों को +4 [ICON_Strength] रक्षा शक्ति हासिल होती है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY">
+      <Text>महान लोगों के प्रबंधन के लिए सोने की कीमत 50% कम है।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CHIEFDOM">
+      <Text>कोई बोनस नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY">
+      <Text>वंडर उत्पादन पर बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY">
+      <Text>लड़ाई इकाइयों के लिए अनुभव।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP">
+      <Text>बोनस महान लोग अंक।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY">
+      <Text>बोनस प्रभाव अंक।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY">
+      <Text>फेथ की खरीदारी पर छूट।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP">
+      <Text>सोने की खरीद पर छूट।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM">
+      <Text>इकाई उत्पादन पर बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM">
+      <Text>सभी उत्पादन के लिए बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY">
+      <Text>जिला परियोजनाओं से बोनस उत्पादकता।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_CHIEFDOM">
+      <Text>कोई बोनस नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_AUTOCRACY">
+      <Text>वंडर [ICON_Production] उत्पादन के लिए बोनस (10%, मानक गति पर हर 20 टर्न के लिए 1% अतिरिक्त)।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_OLIGARCHY">
+      <Text>इकाई के लिए बोनस युद्ध अनुभव (20%, मानक गति पर हर 5 टर्न के लिए 1%)।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_CLASSREP">
+      <Text>बोनस [ICON_GreatPerson] महान व्यक्तित्व अंक (15%, मानक गति पर हर 15 टर्न के लिए 1% अतिरिक्त)।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_MONARCHY">
+      <Text>[ICON_Envoy] एन्वॉय की ओर बोनस प्रभाव अंक (20%, Standard गति पर 10 टर्न हर प्रति 1%) की ओर।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_THEOCRACY">
+      <Text>[ICON_Faith] धर्म की खरीद पर छूट (15%, मानक गति पर हर 15 टर्न के लिए 1% अतिरिक्त)।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_MERCHREP">
+      <Text>[ICON_Gold] सोने की खरीद पर छूट (15%, साथ ही हर 15 टर्न पर 1% और भी)।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_FASCISM">
+      <Text>[ICON_Production] इकाई के उत्पादन में बोनस (20%, मानक गति पर हर 10 टर्न के बाद 1% अधिक)।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_COMMUNISM">
+      <Text>सभी [ICON_Production] उत्पादन के लिए बोनस (10%, स्टैंडर्ड स्पीड पर हर 20 टर्न के लिए 1% अतिरिक्त)।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_ACCUMULATED_BONUS_DEMOCRACY">
+      <Text>जिले के परियोजनाओं से बोनस उत्पन्न होते हैं (30%, साथ ही साथ मानक गति पर 10 टर्न प्रति 1% अधिकतम बोनस उत्पन्न करते हैं।)</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICIES_NO_REMAINING_PLACED">
+      <Text>इस सरकार के लिए और कोई {1_policyName} सेट नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICIES_NO_TOTAL_PLACED">
+      <Text>इस सरकार के तहत कोई भी {1_policyName} नहीं बनाया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICIES_REMAINING_PLACED">
+      <Text>{2_policyName} क्षेत्र में और {1_Num: number #} {1_Num : plural 1?नीति; other?नीतियां;} रखी जा सकती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_POLICIES_TOTAL_PLACED">
+      <Text>{2_policyName} क्षेत्र में {1_Num: number #} {1_Num : plural 1?नीति; other?नीतियां;} सेट की जा सकती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_GOVT_INFLUENCE_POINTS_TOWARDS_ENVOYS">
+      <Text>प्रति [ICON_Turn] टर्न {1_InfluencePointRate} प्रभाव {1_InfluencePointRate : plural 1?बिंदु; other?बिंदु;} प्राप्त करें। {2_InfluencePointThreshold} {2_InfluencePointThreshold : plural 1?बिंदु; other?बिंदु;} पर, {3_EnvoysPerThreshold} [ICON_Envoy] {3_EnvoysPerThreshold : plural 1?दूत; other?दूत;} कमाएँ।</Text>
+    </Row>
+    <!-- Policy Descriptions-->
+    <Row Tag="LOC_POLICY_PLACEHOLDER_DESC">
+      <Text>स्थान ध्वजाकृति।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_AESTHETICS_DESCRIPTION">
+      <Text>थिएटर स्क्वेयर जिले के संवर्धन अनुदेशों में 100% की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_AGOGE_DESCRIPTION">
+      <Text>प्राचीन और क्लासिक युद्धकला के मीले, एंटी-सवारी और तीर-कमान इकाइयों के लिए [ICON_Production] उत्पादन में 50% की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ARSENAL_OF_DEMOCRACY_DESCRIPTION">
+      <Text>आपकी [ICON_TradeRoute] संबंध एक मित्र के शहरों के साथ +2 [ICON_Food] खाद्य और +2 [ICON_Production] उत्पादन दोनों शहरों के लिए प्रदान करती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_BASTIONS_DESCRIPTION">
+      <Text>+6 नगर [ICON_Strength] संरक्षण शक्ति। +5 नगर [ICON_Ranged] रेंजड शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION">
+      <Text>सभी [ICON_TradeRoute] व्यापार मार्गों से +2 [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CHARISMATIC_LEADER_DESCRIPTION">
+      <Text>प्रति टर्न +2 प्रभाव अंक शहर राज्य [ICON_Envoy] एनवॉय कमाने की ओर।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CHIVALRY_DESCRIPTION">
+      <Text>औद्योगिक काल और पहले भारी और हल्की सवार इकाइयों के प्रति उत्पादन में +50% [ICON_Production]।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLLECTIVE_ACTIVISM_DESCRIPTION">
+      <Text>आप सुजेरेन हैं उन सभी नगर राज्यों के, जिनमें आपकी शासनकाल में हैं, उन सभी के लिए +5% [ICON_Culture] संस्कृति।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLLECTIVIZATION_DESCRIPTION">
+      <Text>+4 [ICON_Food] घरेलू [ICON_TradeRoute] व्यापार मार्ग से खाद्य सामग्री।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLONIAL_OFFICES_DESCRIPTION">
+      <Text>वे शहर जो आपकी मूल [ICON_Capital] मुख्य नगर से अलग महाद्वीप पर स्थित हैं, उनकी विकास दर 15% तेज होगी।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLONIAL_TAXES_DESCRIPTION">
+      <Text>अपनी मूल [ICON_Capital] राजधानी के महाद्वीप पर नहीं होने वाले शहरों में [ICON_Gold] सोने में 25% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_COLONIZATION_DESCRIPTION">
+      <Text>सेटलर्स के प्रति [ICON_Production] उत्पादन में 50% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CONSCRIPTION_DESCRIPTION">
+      <Text>यूनिट रखरखाव प्रत्येक यूनिट प्रति टर्न 1 [ICON_Gold] सोने से कम हो गया है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CONTAINMENT_DESCRIPTION">
+      <Text>प्रत्येक [ICON_Envoy] राजधानी के लिए जो आप भेजते हैं, उनकी गणराज्य सेनापति के साथ दो गिना जाता है, अगर आपसे भिन्न सरकार हो।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CORVEE_DESCRIPTION">
+      <Text>प्राचीन और क्लासिकल विलक्षणों के प्रति +15% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CRAFTSMEN_DESCRIPTION">
+      <Text>100% औद्योगिक क्षेत्र संलग्न लाभ।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CRYPTOGRAPHY_DESCRIPTION">
+      <Text>आपकी भूमि में शत्रु जासूस का स्तर 2 से कम हो गया है। आपके जासूस स्तर को आक्रामक ऑपरेशन के लिए 1 से बढ़ाया गया है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_DEFENSE_OF_MOTHERLAND_DESCRIPTION">
+      <Text>आपके क्षेत्र में युद्ध से कोई थकान नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_DIPLOMATIC_LEAGUE_DESCRIPTION">
+      <Text>प्रत्येक सिटी-स्टेट को भेजे जाने वाले पहले [ICON_Envoy] एन्वॉय को दो [ICON_Envoy] एन्वॉय के रूप में गिना जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION">
+      <Text>जंगली लोगों से लड़ते समय इकाई की लड़ाई ताकत +5 [ICON_Strength]।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ECOMMERCE_DESCRIPTION">
+      <Text>अंतरराष्ट्रीय [ICON_TradeRoute] व्यापार मार्गों से +5 [ICON_Production] उत्पादन और +10 [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ECONOMIC_UNION_DESCRIPTION">
+      <Text>+100% वाणिज्य केंद्र और बंदरगाह जिले से संबंधित लाभ।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION">
+      <Text>सेटलर के प्रति उत्पादन में [ICON_Production] 50% वृद्धि। प्लॉट खरीद लागत में 20% की कमी।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION">
+      <Text>प्राचीन, शास्त्रीय, मध्ययुगीन और रेनेसांस युग के मीले, एंटी-कैवलरी और रेंज्ड इकाइयों के लिए [ICON_Production] उत्पादन में +50% की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FINEST_HOUR_DESCRIPTION">
+      <Text>मॉडर्न और एटमिक वायु इकाइयों की ओर [ICON_Production] 50% उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FIVE_YEAR_PLAN_DESCRIPTION">
+      <Text>कैंपस और इंडस्ट्रियल जोन जवाबदेह क्षेत्र से 100% अधिक लाभ।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION">
+      <Text>वाणिज्यक केंद्र क्षेत्र भवनों से [ICON_Gold] सोने का उत्पादन +100%।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FRESCOES_DESCRIPTION">
+      <Text>प्रति टर्न +2 [ICON_GreatArtist] महान कलाकार अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GOD_KING_DESCRIPTION">
+      <Text>+1 [ICON_Faith] धर्म और +1 [ICON_Gold] सोने की राशि [ICON_Capital] राजधानी में।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GOTHIC_ARCHITECTURE_DESCRIPTION">
+      <Text>रेनेसाँस, मध्ययुगीन, प्राचीन और प्राचीन आश्चर्यों के प्रति [ICON_Production] उत्पादन में +15%।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GRANDE_ARMEE_DESCRIPTION">
+      <Text>औद्योगिक युग तथा पहले के मेले, एंटी-कैवलरी और रेंज्ड यूनिट की [ICON_Production] उत्पादन में 50% की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION">
+      <Text>थिएटर स्क्वेयर जिले की इमारतों से [ICON_Culture] संस्कृति उत्पादन में 100% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_GUNBOAT_DIPLOMACY_DESCRIPTION">
+      <Text>सभी शहर राज्यों के साथ खुले सीमाओं वाला और [ICON_Envoy] एनवॉय कमाने के लिए प्रत्येक टर्न के लिए +4 प्रभाव अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_HERITAGE_TOURISM_DESCRIPTION">
+      <Text>+100% [ICON_Tourism] पर्यटन [ICON_GreatWork_Landscape] महान कृतियों और [ICON_GreatWork_Artifact] वस्तुओं के द्वारा।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ILKUM_DESCRIPTION">
+      <Text>+30% [ICON_Production] निर्माणकर्ताओं के लिए उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INSPIRATION_DESCRIPTION">
+      <Text>प्रति टर्न +2 [ICON_GreatScientist] महान वैज्ञानिक अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INSULAE_DESCRIPTION">
+      <Text>+1 [ICON_Housing] कम से कम 2 विशेष जिलों वाले सभी शहरों में आवास।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INTEGRATED_SPACE_CELL_DESCRIPTION">
+      <Text>यदि किसी शहर में एक सैन्य अकादमी या बंदरगाह हो तो अंतरिक्ष दौड़ परियोजनाओं की [ICON_Production] उत्पादन में 15% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INTERNATIONAL_SPACE_AGENCY_DESCRIPTION">
+      <Text>प्रति शहर-राज्य जिस पर आप सुजेरेन हैं, +5% [ICON_Science] विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INTERNATIONAL_WATERS_DESCRIPTION">
+      <Text>सभी नौसेना इकाइयों के लिए [ICON_Production] उत्पादन में +100%, कैरियर्स को छोड़कर।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_INVENTION_DESCRIPTION">
+      <Text>प्रति टर्न +2 [ICON_GreatEngineer] महान इंजीनियर अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LAISSEZ_FAIRE_DESCRIPTION">
+      <Text>प्रति टर्न +4 [ICON_GreatMerchant] महान वाणिज्यिक अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION">
+      <Text>टाइल खरीदने की लागत को 20% तक कम करता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LEVEE_EN_MASSE_DESCRIPTION">
+      <Text>प्रति यूनिट प्रति टर्न [ICON_Gold] 2 सोने से इकाई रखरखाव लागत कम हो गई है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LIBERALISM_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] आवास के शहरों के लिए जो कम से कम 2 विशेषता क्षेत्र वाले हों।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LIGHTNING_WARFARE_DESCRIPTION">
+      <Text>सभी हैवी और लाइट कैवलरी इकाइयों के लिए [ICON_Production] प्रोडक्शन में 50% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LIMES_DESCRIPTION">
+      <Text>रक्षात्मक इमारतों के लिए उत्पादन में +100% [ICON_Production]।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LITERARY_TRADITION_DESCRIPTION">
+      <Text>प्रती चाल के लिए +2 [ICON_GreatWriter] उत्कृष्ट लेखक अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_LOGISTICS_DESCRIPTION">
+      <Text>+1 आंदोलन यदि मित्र राज्य में टर्न शुरू होता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MACHIAVELLIANISM_DESCRIPTION">
+      <Text>जासूसों की ओर [ICON_Production] 50% अतिरिक्त उत्पादन। जासूसी ऑपरेशनों में 25% कम समय लगता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MANEUVER_DESCRIPTION">
+      <Text>प्राचीन और क्लासिक युग की हैवी और लाइट कैवलरी यूनिट की ओर [ICON_Production] 50% उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MARITIME_INDUSTRIES_DESCRIPTION">
+      <Text>प्राचीन और शास्त्रीय युग के नौसेना इकाइयों की ओर +100% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION">
+      <Text>आपके अंतरराष्ट्रीय [ICON_TradeRoute] व्यापार मार्ग स्थानांतरण पर लक्जरी और स्ट्रैटेजिक संसाधन प्रत्येक के लिए +1 [ICON_Gold] सोने की समान वस्तु प्रदान करते हैं, साथ ही +2 [ICON_Culture] संस्कृति और +2 [ICON_Science] विज्ञान के लाभ भी प्रदान करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MARTIAL_LAW_DESCRIPTION">
+      <Text>सामान्य से 25% कम युद्ध ऊर्जा जमा करें।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION">
+      <Text>+2 [ICON_Housing] कम से कम 3 विशेषता जिलों वाले सभी शहरों में आवास।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERCHANT_CONFEDERATION_DESCRIPTION">
+      <Text>+1 शहर राज्यों में आपके प्रत्येक [ICON_Envoy] दूत से [ICON_Gold] सोना।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MERITOCRACY_DESCRIPTION">
+      <Text>प्रत्येक शहर [ICON_Culture] प्रत्येक विशेषता जिले के लिए +1 [ICON_Culture] संस्कृति प्राप्त करता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_FIRST_DESCRIPTION">
+      <Text>सभी मीली, एंटी-कैवल्री और रेंज्ड यूनिट के लिए [ICON_Production] उत्पादन में 50% की वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_ORGANIZATION_DESCRIPTION">
+      <Text>प्रति दौर में +4 [ICON_GreatGeneral] महान सेनापति अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MILITARY_RESEARCH_DESCRIPTION">
+      <Text>सैन्य अकादमियां और समुद्री बंदरगाह +1 [ICON_Science] विज्ञान उत्पन्न करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NATIONAL_IDENTITY_DESCRIPTION">
+      <Text>इकाइयों को घायल होने से [ICON_Strength] लड़ाई ताक़त में 50% कम कमजोरी होती है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NATIVE_CONQUEST_DESCRIPTION">
+      <Text>पूर्व काल की इकाइयों पर विजय से [ICON_Gold] जीता हुआ गोल्ड उत्पन्न होता है जो मारे गए इकाई की [ICON_Strength] कम्बैट स्ट्रेंथ के 50% के बराबर होता है। (मानक गति पर)</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NATURAL_PHILOSOPHY_DESCRIPTION">
+      <Text>कैंपस क्षेत्र के आस-पास लाभ के रूप में +100% है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NAVAL_INFRASTRUCTURE_DESCRIPTION">
+      <Text>हार्बर क्षेत्र आसन्नता बोनस +100%।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NAVIGATION_DESCRIPTION">
+      <Text>प्रति टर्न +2 [ICON_GreatAdmiral] महान अधिराज अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NEW_DEAL_DESCRIPTION">
+      <Text>+4 [ICON_Housing] आवास, +2 [ICON_Amenities] सुविधाएँ, कम से कम 3 विशेषता जिलों वाले सभी शहरों को -8 [ICON_Gold] सोने के साथ।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NOBEL_PRIZE_DESCRIPTION">
+      <Text>प्रति टर्न +4 [ICON_GreatScientist] महान वैज्ञानिक अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_NUCLEAR_ESPIONAGE_DESCRIPTION">
+      <Text>जासूस जो तकनीकी वृद्धि चोरी करते हैं बिना किसी खोज में पाए जाने को अधिक उन्नति प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_ONLINE_COMMUNITIES_DESCRIPTION">
+      <Text>जिन सभी सभ्यताओं के साथ आपके पास [ICON_TradeRoute] ट्रेड रूट हैं, उन्हें [ICON_Tourism] पर्यटन उत्पाद का 50% अधिक प्रभाव होगा।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION">
+      <Text>आधुनिक, परमाणु और सूचना काल के समर्थन यूनिटों के लिए +100% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POLICE_STATE_DESCRIPTION">
+      <Text>आपकी भूमि में दुश्मन जासूसों का स्तर 2 से कम हो गया है। हालांकि, सभी शहरों में -1 [ICON_Amenities] सुविधा का हानि हुआ है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PRESS_GANGS_DESCRIPTION">
+      <Text>औद्योगिक युग और पहले नौसेना इकाइयों के लिए 100% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION">
+      <Text>सभी यूनिट अपग्रेड पर 50% छूट।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PROPAGANDA_DESCRIPTION">
+      <Text>सामान्यतया से 25% कम युद्ध के थकाने को जमा करें।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_TRANSPORT_DESCRIPTION">
+      <Text>जब एक नेबरहुड जिला से फार्म को बदलते समय हर टाइल के अपील के लिए 50 [ICON_Gold] सोने प्राप्त करें।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_PUBLIC_WORKS_DESCRIPTION">
+      <Text>[ICON_Production] निर्माताओं की ओर 30% से अधिक उत्पादन, और नये प्रशिक्षित निर्माताओं को 2 अतिरिक्त निर्माण कार्रवाइयों के साथ मिलते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RAJ_DESCRIPTION">
+      <Text>आप जब एक शहर-राज्य के सुजेरेन होते हैं तो उससे [ICON_Science] विज्ञान, [ICON_Culture] संस्कृति, [ICON_Faith] धर्म और [ICON_Gold] सोना प्राप्त करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RAID_DESCRIPTION">
+      <Text>लूट करने से प्राप्त होने वाले उत्पादों का दोगुना लाभ उन्नयनों के लूट करने पर होता है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RATIONALISM_DESCRIPTION">
+      <Text>+100% [ICON_Science] कैंपस जिले के भवनों से विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RELIGIOUS_ORDERS_DESCRIPTION">
+      <Text>धर्मिक इकाइयों की सभी [ICON_Religion] धर्मिक ताक़त धार्मिक युद्ध में +5 बढ़ जाती है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RESOURCE_MANAGEMENT_DESCRIPTION">
+      <Text>एक रणनीतिक संसाधन की एक प्रति आपको उसे आवश्यकता वाले इकाई उत्पादित और खरीदने की अनुमति देती है जो किसी भी शहर में हो।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_RETAINERS_DESCRIPTION">
+      <Text>+1 [ICON_Amenities] ऐसे शहरों के लिए जहां एक सैनिक इकाई स्थित है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_REVELATION_DESCRIPTION">
+      <Text>प्रती चाल [ICON_GreatProphet] महान प्रवचन अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SACK_DESCRIPTION">
+      <Text>लूट करने से प्राप्त उपज लूटने वाले जिलों के लिए दोगुनी हो जाती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SATELLITE_BROADCASTS_DESCRIPTION">
+      <Text>[ICON_GreatWork_Music] संगीत की महान कृतियों से [ICON_Tourism] पर्यटन में 200% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SCRIPTURE_DESCRIPTION">
+      <Text>+100% पवित्र स्थल संलग्नता बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SERFDOM_DESCRIPTION">
+      <Text>नए प्रशिक्षित निर्माताओं को 2 अतिरिक्त निर्माण क्रियाएं मिलती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION">
+      <Text>पवित्र स्थल जिले के भवनों से धर्म की दोहरी [ICON_Faith] उपज होती है।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SKYSCRAPERS_DESCRIPTION">
+      <Text>सभी आश्चर्यों की ओर +15% [ICON_Production] उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION">
+      <Text>+100% थिएटर स्क्वायर ज़ोन अवास्तविकता बोनस, और स्टेडियम +1 [ICON_Amenities] सुविधा उत्पन्न करते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION">
+      <Text>सभी हवाई इकाइयों और कैरियर्स के लिए [ICON_Production] उत्पादन में 50% वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_STRATEGOS_DESCRIPTION">
+      <Text>प्रति टर्न +2 [ICON_GreatGeneral] महान सेनानी अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SURVEY_DESCRIPTION">
+      <Text>रिकॉन इकाइयों के लिए दोहरी अनुभव।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SYMPHONIES_DESCRIPTION">
+      <Text>प्रति टर्न +4 [ICON_GreatMusician] महान संगीतकार अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION">
+      <Text>प्रत्येक शोध लैब, सैन्य अकादमी और पावर प्लांट से +4 [ICON_Gold] गोल्ड।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TOTAL_WAR_DESCRIPTION">
+      <Text>लूट करने से प्राप्त होने वाली लाभ दोगुने हो जाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TOWN_CHARTERS_DESCRIPTION">
+      <Text>वाणिज्यिक हब जिला अवकाश बोनस +100%.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION">
+      <Text>अंतरराष्ट्रीय [ICON_TradeRoute] व्यापार मार्गों से +1 [ICON_Culture] संस्कृति और +1 [ICON_Science] विज्ञान।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRAVELING_MERCHANTS_DESCRIPTION">
+      <Text>प्रति टर्न +2 [ICON_GreatMerchant] महान व्यापारी अंक।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRIANGULAR_TRADE_DESCRIPTION">
+      <Text>सभी [ICON_TradeRoute] व्यापार मार्गों से +4 [ICON_Gold] सोना और +1 [ICON_Faith] विश्वास।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_URBAN_PLANNING_DESCRIPTION">
+      <Text>+1 [ICON_Production] सभी शहरों में उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_VETERANCY_DESCRIPTION">
+      <Text>[ICON_Production] निर्माण की दिशा में शिविर जिलों और उस जिले के भवनों के लिए +30% उत्पादन।</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_WARS_OF_RELIGION_DESCRIPTION">
+      <Text>जब किसी गैर-धार्मिक इकाई की लड़ाई किसी ऐसी सभ्यता के साथ होती है जो किसी अन्य धर्म का अनुयायी है, तब +4 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <!-- Preview Text -->
+    <Row Tag="LOC_GOVT_OLIGARCHY_COMBAT_BONUS_DESCRIPTION">
+      <Text>+4 शासनांग पुरस्कार</Text>
+    </Row>
+    <!-- Temporary UI -->
+    <Row Tag="LOC_CIVIC_STARTED">
+      <Text>{1_CivicName} की ओर प्रगति शुरू हुई है।</Text>
+    </Row>
+    <Row Tag="LOC_CIVIC_COMPLETE">
+      <Text>सिविक पूरा: {1_CivicName}</Text>
+    </Row>
+  </BaseGameText>
+</GameData>

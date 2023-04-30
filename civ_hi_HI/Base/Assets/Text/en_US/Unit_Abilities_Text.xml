@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <BaseGameText>
+    <!-- Names -->
+    <Row Tag="LOC_ABILITY_ANTI_CAVALRY_NAME">
+      <Text>एंटी-कैवलरी</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAVY_CHARIOT_NAME">
+      <Text>भारी रथ</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_TERRAIN_COST_NAME">
+      <Text>भू भाग की लागत को नज़रअंदाज़ करें।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_NAME">
+      <Text>नदियों के पार करने के खर्च को अनदेखा करें।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_ZOC_NAME">
+      <Text>ज़ीओसी को अनदेखा करें।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHT_CHARIOT_NAME">
+      <Text>प्रकाश रथ</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_MOVE_AND_SHOOT_NAME">
+      <Text>कोई चलने और फायर करने की अनुमति नहीं है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_OCEAN_NAME">
+      <Text>केवल तटीय।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CANNOT_ATTACK">
+      <Text>हमला नहीं कर सकते।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_COMBAT">
+      <Text>मित्रवत भू-क्षेत्र बोनस</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_NAME">
+      <Text>दीवार हमले को संभव बनाता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_WALLS_NAME">
+      <Text>दीवारों को अनदेखा करना।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_SPEAR_NAME">
+      <Text>एंटी-स्पियर (Anti-Spear)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_RANGE_BONUS_NAME">
+      <Text>लक्ष्य स्थान खोजें।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_NAME">
+      <Text>बिना रुकावट दृश्य (bina rukaavat drishya)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_NAME">
+      <Text>ओलिगार्की मेले</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_NAME">
+      <Text>धर्मशासन (Dharmashaasan)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ORDERS_BUFF_NAME">
+      <Text>धार्मिक आदेश</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_NAME">
+      <Text>फासीवादी हमला</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COMMUNISM_DEFENSE_BUFF_NAME">
+      <Text>कम्युनिज्म भूमि की रक्षा</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDIC_HEAL_NAME">
+      <Text>मेडिक हीलिंग (Medik Hīling)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STEALTH_NAME">
+      <Text>छिपकर काम करना</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SEE_HIDDEN_NAME">
+      <Text>छिपे हुए वस्तु को प्रकट करें।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COASTAL_RAID_NAME">
+      <Text>तटीय हमला</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MELEE_COASTAL_RAID_NAME">
+      <Text>थंडरबोल्ट कोस्टल रेड।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_COMBAT_UNIT_NAME">
+      <Text>निर्देशित हमला</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAL_NEUTRAL_TERRITORY_NAME">
+      <Text>संतुलित क्षेत्र को ठीक करें।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA_NAME">
+      <Text>समुद्र पर लूट के विरुद्ध संरक्षण</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_RAGE_NAME">
+      <Text>बरसर्कर क्रोध</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_MOVEMENT_NAME">
+      <Text>बेर्सर्कर आंदोलन</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LONGSHIP_MOVEMENT_NAME">
+      <Text>लॉन्गशिप आंदोलन</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PRIZE_SHIPS_NAME">
+      <Text>पुरस्कार जहाज़े</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CAPTIVE_WORKERS_NAME">
+      <Text>बंधक कर्मचारी</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BALKAN_CAVALRY_NAME">
+      <Text>बाल्कन कैवलरी</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALTITUDE_TRAINING_NAME">
+      <Text>ऊंचाई ट्रेनिंग (Unchaai Training)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COSSACK_NAME">
+      <Text>और शांत धारा है डॉन</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_REDCOAT_NAME">
+      <Text>वैश्विक सेना</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VARU_NAME">
+      <Text>भय</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NAGAO_NAME">
+      <Text>वन योद्धा (Van Yoddha)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CONQUISTADOR_NAME">
+      <Text>बलपूर्वक धर्मांतरण</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GARDE_NAME">
+      <Text>नेपोलियन की अलावा उनकी सेना के शीर्ष अधिकारियों को 'एलीट' कहा जाता था।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOPLITE_NAME">
+      <Text>फलांग्स् (Phalanx)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UBOAT_NAME">
+      <Text>वुल्फ्सरूडल (Wolfsrudel)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROUGH_RIDER_NAME">
+      <Text>टेडी का रफ राइडर</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MUSTANG_NAME">
+      <Text>मुस्तंग</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAMLUK_NAME">
+      <Text>फुरुसीया</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SAMURAI_NAME">
+      <Text>समुराई</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_FOREIGN_SPREAD_NAME">
+      <Text>घरेलू तैयारी।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ARCHAEOLOGIST_ENTER_FOREIGN_LANDS_NAME">
+      <Text>विदेश में प्रवेश करें।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_CANNOT_ATTACK_NAME">
+      <Text>शांति स्थापक</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_RELIGIOUS_NAME">
+      <Text>मित्रवत्ता का अधिकार</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ENTER_FOREIGN_LANDS_NAME">
+      <Text>सीमाओं को नजरअंदाज करता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_IGNORE_TERRAIN_COST_NAME">
+      <Text>हवा पर चलें। (Hawa par chalein.)</Text>
+    </Row>
+    <!-- Full description -->
+    <Row Tag="LOC_ABILITY_ANTI_CAVALRY_DESCRIPTION">
+      <Text>+10 [ICON_Strength] लोहे और हल्की सवारी इकाइयों के खिलाफ युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_SPEAR_DESCRIPTION">
+      <Text>एंटी-कैवलरी यूनिट के खिलाफ +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAVY_CHARIOT_DESCRIPTION">
+      <Text>अगर बीच रेगिस्तान, मैदान, घास के भूमि या टंडरा से आरंभ कर रहे हो तो आगे [ICON_Movement] आगे बढ़ सकते हो।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_IGNORE_TERRAIN_COST_DESCRIPTION">
+      <Text>जंगल, वन, पहाड़ और दलदल केवल एक [ICON_Movement] चाल लेते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_ZOC_DESCRIPTION">
+      <Text>दुश्मन के कब्जे क्षेत्र से प्रभावित नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHT_CHARIOT_DESCRIPTION">
+      <Text>डेजर्ट, प्लेन, ग्रासलैंड या टंडरा में शुरू होने पर +2 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_MOVE_AND_SHOOT_DESCRIPTION">
+      <Text>एक टर्न में चलने और हमला नहीं कर सकते।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_OCEAN_DESCRIPTION">
+      <Text>समुद्र वर्गों में प्रवेश नहीं कर सकते।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CANNOT_ATTACK_DESCRIPTION">
+      <Text>दुश्मनों पर हमला नहीं कर सकते; केवल बचाव कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_COMBAT_DESCRIPTION">
+      <Text>मित्रवत क्षेत्र में युद्ध बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_DESCRIPTION">
+      <Text>जब दुश्मन शहर के पास स्थित होते हैं, तब मीली यूनिट शहर की दीवारों को पूरी ताकत से नुकसान पहुंचाते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_WALLS_DESCRIPTION">
+      <Text>जब दुश्मन शहर के समीप हो, तब मित्रवत मीली इकाइयां शहर की दीवारों को अनदेखा कर शहर को सीधे हमला कर सकती हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANIT_SPEAR_DESCRIPTION">
+      <Text>स्पियरमेन और पाइकमेन के विरुद्ध +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_RANGE_BONUS_DESCRIPTION">
+      <Text>+1 [ICON_Range] नजदीकी फ़ौजी हथियारों के लिए दायरे में वृद्धि।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_DESCRIPTION">
+      <Text>दृश्य सीमा भूमि द्वारा अवरोधित नहीं होती।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OBSERVATION_STRENGTH_BONUS_DESCRIPTION">
+      <Text>1 हेक्स के भीतर बलिस्ती वर्ग के युद्ध यूनिट्स को +1 [ICON_Range] देता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_DESCRIPTION">
+      <Text>ओलीगार्की सरकार से +4 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_DESCRIPTION">
+      <Text>धर्म शासन सरकार से +5 [ICON_Religion] धार्मिक शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ORDERS_BUFF_DESCRIPTION">
+      <Text>+5 [ICON_Religion] धार्मिक शक्ति धार्मिक आदेश नीति से।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_DESCRIPTION">
+      <Text>फ़ाशिज़म सरकार से अटैक करते समय +5 [ICON_Strength] कॉम्बैट स्ट्रेंथ।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COMMUNISM_DEFENSE_BUFF_DESCRIPTION">
+      <Text>कम्युनिज्म सरकार से रक्षा करते समय +6 [ICON_Strength] युद्ध ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDIC_HEAL_DESCRIPTION">
+      <Text>1 टाइल के भीतर खिलाड़ी की इकाइयों के लिए +20 HP चिकित्सा।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STEALTH_DESCRIPTION">
+      <Text>एक हेक्स से दूर इकाइयों से छिपा रहता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SEE_HIDDEN_DESCRIPTION">
+      <Text>दृष्टि दायरे में मानचित्र पर छिपे हुए यूनिट्स को प्रकट करें।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COASTAL_RAID_DESCRIPTION">
+      <Text>तबाही कर सकते हैं भवनों और सुधार और तटीय भूमि पर नागरिक इकाइयों को दबोच सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MELEE_COASTAL_RAID_NAME_DESCRIPTION">
+      <Text>तबाह कर सकते हैं इमारतें और सुधार और कोस्टल स्थलों पर नागरिक इकाइयों को कैप्चर कर सकते हैं। (हार्डराडा)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_COMBAT_UNIT_DESCRIPTION">
+      <Text>आक्रमण समर्थन इकाइयों को सीधे हमला करें, यदि वे कुशल इकाई के साथ एक स्थापना में हों।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAL_NEUTRAL_TERRITORY_DESCRIPTION">
+      <Text>उपचार न्यूट्रल क्षेत्र में किया जा सकता है। (Knarr)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA_DESCRIPTION">
+      <Text>जब जल टाइल पर होते हैं, तब उसका [ICON_TradeRoute] ट्रेड रूट दुश्मन इकाइयों द्वारा नहीं लूटा जा सकता है। लिस्बन सिटी-स्टेट के सूजेरेन बनने पर प्राप्त किया जाता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_RAGE_DESCRIPTION">
+      <Text>आक्रमण के दौरान +10 [ICON_Strength] युद्ध शक्ति। [NEWLINE][ICON_Bullet]रक्षा के दौरान -5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BERSERKER_MOVEMENT_DESCRIPTION">
+      <Text>यदि यह इकाई दुश्मन क्षेत्र में शुरू होती है तो +2 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LONGSHIP_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] तटीय जलों में गति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PRIZE_SHIPS_DESCRIPTION">
+      <Text>शिक्षित विरोधी नौसेना वाहनों को पकड़ सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CAPTIVE_WORKERS_DESCRIPTION">
+      <Text>हराया हुआ शत्रु सभ्यता के युद्ध इकाइयों को पकड़ सकते हैं और उन्हें निर्माताओं में बदल सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BALKAN_CAVALRY_DESCRIPTION">
+      <Text>जब प्रेस्लाव सिटी स्टेट का सूजेरेन हो तब पहाड़ों पर हेवी और लाइट कैवलरी की +5 [ICON_Strength] कॉम्बैट स्ट्रेंथ।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ALTITUDE_TRAINING_DESCRIPTION">
+      <Text>मिशनरी, इंक्विजीटर और अपोस्टल पहाड़ों पर तेजी से आगे बढ़ सकते हैं जब वे माउंट एवरेस्ट प्राकृतिक आश्चर्य के पास आते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COSSACK_DESCRIPTION">
+      <Text>हमला करने के बाद चल सकते हैं। [NEWLINE][ICON_Bullet]+5 [ICON_Strength] युद्ध शक्ति आपकी जमीन या उससे संबंधित क्षेत्र में।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_REDCOAT_DESCRIPTION">
+      <Text>आपकी [ICON_Capital] राजधानी के अलावा किसी अन्य महाद्वीप पर लड़ाई लड़ते समय +10 [ICON_Strength] युद्ध शक्ति।[NEWLINE][ICON_Bullet] उतरने का कोई [ICON_Movement] चार्ज नहीं होगा।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VARU_DESCRIPTION">
+      <Text>पड़ोसी दुश्मन इकाइयों के [ICON_Strength] -5 युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NAGAO_DESCRIPTION">
+      <Text>रैंजड यूनिट के खिलाफ रक्षा करते समय +10 [ICON_Strength] युद्ध शक्ति। [NEWLINE][ICON_Bullet] विशेषताओं के माध्यम से देख सकता है। [NEWLINE][ICON_Bullet] वुड्स और रेनफ़ॉरेस्ट से बिना [ICON_Movement] गति दंश के चल सकता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CONQUISTADOR_DESCRIPTION">
+      <Text>एक धार्मिक यूनिट एक हेक्स के भीतर होने पर लड़ाई की ताकत में +10 [ICON_Strength] [NEWLINE] [ICON_Bullet] यदि यह यूनिट एक शहर को कब्ज़ा करता है या जब इसे कब्ज़ा किया जाता है तब शहर स्वचालित रूप से कोंकिस्टडोर खिलाड़ी के अधिकांश धर्म में रूपांतरित हो जाएगा।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GARDE_DESCRIPTION">
+      <Text>[ICON_Capital] राजधानी के सम्मिलित उपमहाद्वीप पर होते हुए +10 [ICON_Strength] युद्ध शक्ति। [NEWLINE][ICON_Bullet] किल्लों के लिए +10 [ICON_GreatGeneral] महान सेनापति अंक।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOPLITE_DESCRIPTION">
+      <Text>यदि कम से कम एक होप्लाइट समकक्ष होता है तो +10 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UBOAT_DESCRIPTION">
+      <Text>समुद्र युद्ध में +10 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROUGH_RIDER_DESCRIPTION">
+      <Text>जब आप अपनी [ICON_Capital] राजधानी के महाद्वीप पर एक दुश्मन यूनिट को जीतते हैं, तब उस यूनिट की आधार [ICON_Strength] लड़ाई शक्ति के 50% के बराबर [ICON_Culture] संस्कृति प्राप्त करें (मानक गति पर)[NEWLINE][ICON_Bullet] पहाड़ों पर लड़ते समय +10 [ICON_Strength] लड़ाई शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MUSTANG_DESCRIPTION">
+      <Text>+5 [ICON_Strength] लड़ाई में युद्धकर्ताओं के विरुद्ध युद्ध शक्ति बोनस[NEWLINE][ICON_Bullet]+50% युद्ध से अनुभव.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MAMLUK_DESCRIPTION">
+      <Text>यह यूनिट हर टर्न में ठीक होता है, चाहे वह घुमाव या युद्ध के बाद हो।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SAMURAI_DESCRIPTION">
+      <Text>यह यूनिट नुकसान होने पर युद्ध दंडों से पीड़ित नहीं होता।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BARRACKS_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>बैरेक्स से +25% कमाई हुए अनुभव।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STABLE_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>स्थिर से +25% अर्जित अनुभव</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ARMORY_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>अर्मोरी से प्राप्त की गई अनुभव का +25% अंशित आवेदन।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MILITARY_ACADEMY_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>सैन्य अकादमी से +25% कमाई हुई अनुभव।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHTHOUSE_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>लाइटहाउस से +25% कमाई हुई अनुभव।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SHIPYARD_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>शिपयार्ड से प्राप्त किए गए अनुभव में +25% बढ़ोतरी।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SEAPORT_TRAINED_UNIT_XP_DESCRIPTION">
+      <Text>समुद्र बंदरगाह से +25% अर्जित अनुभव।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HANGAR_TRAINED_AIRCRAFT_XP_DESCRIPTION">
+      <Text>हैंगर से प्राप्त की गई अनुभव की 25% अधिक कमाई।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AIRPORT_TRAINED_AIRCRAFT_XP_DESCRIPTION">
+      <Text>एयरपोर्ट से +50% कमाए हुए अनुभव।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROYAL_NAVY_DOCKYARD_MOVEMENT_BONUS_DESCRIPTION">
+      <Text>+1 [ICON_Movement] रॉयल नेवी डॉकयार्ड से चलन।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROMAN_LEGION_BUILD_DESCRIPTION">
+      <Text>रोमन फोर्ट अद्वितीय सुधार का निर्माण कर सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_LIGHTHOUSE_MOVEMENT_DESCRIPTION">
+      <Text>+1 [ICON_Movement] महान लाइटहाउस से चलना।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_LIGHTHOUSE_EMBARKED_MOVEMENT_DESCRIPTION">
+      <Text>+1 उतरा [ICON_Movement] महान लाइटहाउस से आगमन.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RANGED_ATTACK_DISTRICT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Ranged][ENDCOLOR] जोन शक्ति जिलों और नौसेना इकाइयों के खिलाफ।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BOMBARD_ATTACK_UNIT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Bombard][ENDCOLOR] इकाइयों के विरुद्ध बॉम्बार्ड स्ट्रेंथ।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AIR_FIGHTER_ATTACK_DISTRICT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Ranged][ENDCOLOR] जिलों के खिलाफ दूरस्थता की ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AIR_BOMBER_ATTACK_UNIT_DEBUFF_DESCRIPTION">
+      <Text>[COLOR_RED]-17 [ICON_Bombard][ENDCOLOR] इकाइयों के खिलाफ बम्बार्ड ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_AIR_COVER_DESCRIPTION">
+      <Text>1 हेक्स तक के हवाई हमलों से संरक्षण प्रदान करता है।</Text>
+    </Row>
+    <Row Tag="LOC_PREVIEW_MONTEZUMA_COMBAT_BONUS_PER_LUXURY_DESCRIPTION">
+      <Text>लक्ज़री से +{1_Amount} [ICON_Strength] युद्ध शक्ति। (मोंटेज़ुमा)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION_DESCRIPTION">
+      <Text>+5 [ICON_Strength] जंग की ताकत, दूसरे धर्म के इकाईयों के विरुद्ध। (फिलिप II)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES_DESCRIPTION">
+      <Text>+7 [ICON_Strength] शहर राज्यों के विरुद्ध युद्ध शक्ति। (बार्बारोसा)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT_DESCRIPTION">
+      <Text>घरेलू महाद्वीप पर +5 [ICON_Strength] युद्ध ताकत। (रूज़वेल्ट)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS_DESCRIPTION">
+      <Text>घायल इकाइयों के विरुद्ध +5 [ICON_Strength] युद्ध शक्ति। (तोमीरिस)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT_DESCRIPTION">
+      <Text>एक दुश्मन इकाई को हराने के बाद +30 [ICON_Damaged] स्वास्थ्य। (टोमीरिस)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_KNARR_IGNORE_EMBARK_DISEMBARK_COST_DESCRIPTION">
+      <Text>जहाज पर सवारी और उतरने की अतिरिक्त गति लागत को अनदेखा करता है। (क्नार)</Text>
+    </Row>
+    <!--Great People Assigned-->
+    <Row Tag="LOC_ABILITY_RAJENDRA_CHOLA_PLUNDER_BONUS_DESCRIPTION">
+      <Text>व्यापार मार्गों को लूटने के लिए +40% रिवॉर्ड। (राजेंद्र चोला)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRANCIS_DRAKE_PLUNDER_BONUS_DESCRIPTION">
+      <Text>व्यापार मार्गों को लूटने के लिए +50% रिवॉर्ड। (फ्रांसिस ड्रेक)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CHING_SHIH_PLUNDER_BONUS_DESCRIPTION">
+      <Text>व्यापार रूट को लूटने के लिए +60% रिवॉर्ड। (चिंग शिह)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CLANCY_FERNANDO_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>लड़ाई से +200% कमाई हुई अनुभव। (क्लांसी फर्नांडो)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HORATIO_NELSON_FLANKING_BONUS_DESCRIPTION">
+      <Text>+50% फ्लैंकिंग बोनस। (होरेशियो नेल्सन)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LASKARINA_BOUBOULINA_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>लड़ाई से प्राप्त अनुभव में +50% अधिकार प्राप्त हुआ। (लास्कारिना बौबुलीना)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SERGEY_GORSHKOV_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>लड़ाई से +100% अनुभव कमाया (सेर्गे गोर्शकोव)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS_DESCRIPTION">
+      <Text>+50% फ्लैंकिंग बोनस। (जॉर्जी झुकोव)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>संघर्ष से +75 अर्जन किए गए अनुभव। (जॉन मोनाश)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VIJAYA_WIMALARATNE_BONUS_EXPERIENCE_DESCRIPTION">
+      <Text>लड़ाई से +100 अनुभव प्राप्त हुआ। (विजय विमलारत्न)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS_DESCRIPTION">
+      <Text>समुद्र तटीय भूमि पर लड़ाई करते समय +5 [ICON_Strength] युद्ध शक्ति। (होजो टोकिमुने)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOJO_TOKIMUNE_SHALLOW_WATER_COMBAT_BONUS_DESCRIPTION">
+      <Text>गहरे पानी में लड़ते समय +5 [ICON_Strength] युद्ध शक्ति। (होजो टोकिमुने)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY_DESCRIPTION">
+      <Text>प्रत्येक अद्वितीय सुविधा के लिए +1 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS_DESCRIPTION">
+      <Text>वर्तमान सरकार में स्थापित हर सैन्य नीति के लिए +1 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <!-- Combat preview description -->
+    <Row Tag="LOC_COMBAT_DIFFICULTY_SCALING">
+      <Text>+{राशि} [ICON_Strength] कठिनाई के कारण युद्ध शक्ति बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_CAVALRY_MODIFIER_DESCRIPTION">
+      <Text>कवलरी के विरुद्ध +10 [ICON_Strength] युद्ध ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANTI_FIGHTER_AIRCRAFT_MODIFIER_DESCRIPTION">
+      <Text>विमान लड़ाकू विमानों के विरुद्ध +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HEAVY_CHARIOT_MODIFIER_DESCRIPTION">
+      <Text>+1 [ICON_Movement] खुले मैदान में शुरूआत में चलना।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION">
+      <Text>सभी भूमिका एक [ICON_Movement] चलने में खर्च होती है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_ZOC_MODIFIER_DESCRIPTION">
+      <Text>ZOC से प्रभावित नहीं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_LIGHT_CHARIOT_MODIFIER_DESCRIPTION">
+      <Text>खुले मैदान में शुरूआत करते समय +2 [ICON_Movement] गति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_MOVE_AND_SHOOT_MODIFIER_DESCRIPTION">
+      <Text>फिर आक्रमण करने से पहले नहीं हिल सकते।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_OCEAN_MODIFIER_DESCRIPTION">
+      <Text>समुद्र हेक्स में प्रवेश नहीं कर सकते।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CANNOT_ATTACK_MODIFIER_DESCRIPTION">
+      <Text>इकाई को हमला नहीं करने देता।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>मित्रवर्ग में [ICON_Strength] युद्ध शक्ति में बोनस।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_MODIFIER_DESCRIPTION">
+      <Text>मेली यूनिट्स को दीवारों पर हमला करने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BYPASS_WALLS_MODIFIER_DESCRIPTION">
+      <Text>मेली इकाइयों को दीवारों को निगरानी करने की अनुमति देता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ANIT_SPEAR_MODIFIER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] लड़ाई क्षमता गुड़सखत इकाइयों के विरुद्ध घुड़सखत इकाइयों के खिलाफ।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GRANT_RANGE_BONUS_MODIFIER_DESCRIPTION">
+      <Text>[ICON_Ranged] निकटवर्ती युद्ध औपचारिक फ़ौज के हथियारों की आक्रमण दूरी में +1 जोड़ता है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_MODIFIER_DESCRIPTION">
+      <Text>बिना बाधा की दृष्टि</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_MODIFIER_DESCRIPTION">
+      <Text>ओलिगार्की से +4 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION">
+      <Text>धर्मशास्त्र से +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ORDERS_BUFF_MODIFIER_DESCRIPTION">
+      <Text>धार्मिक आदेशों से +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION">
+      <Text>फ़ासीवाद से +5 हमले [ICON_Strength] युद्ध शक्ति</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COMMUNISM_DEFENSE_BUFF_MODIFIER_DESCRIPTION">
+      <Text>कम्युनिज्म से +4 रक्षा [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_OTHER_RELIGION_DESCRIPTION">
+      <Text>+5 [ICON_Strength] युद्ध शक्ति दूसरे धर्म का अनुसरण करने वाली सभ्यताओं के विपरीत।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_WARS_OF_RELIGION">
+      <Text>धर्म युद्ध: अन्य धर्म के अनुयायियों के खिलाफ +4 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_HOME_CONTINENT_DESCRIPTION">
+      <Text>गृह खंड पर +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_VS_CITY_STATES_DESCRIPTION">
+      <Text>+7 [ICON_Strength] शहर-राज्यों के विरुद्ध युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_LAND_ON_COAST_DESCRIPTION">
+      <Text>समुद्र तटीय भूमि पर +5 [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_PROMOTION_COMBAT_SHALLOW_WATER_DESCRIPTION">
+      <Text>शालोव जल में +5 [ICON_Strength] कॉम्बैट स्ट्रेंथ।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MEDIC_HEAL_MODIFIER_DESCRIPTION">
+      <Text>1 टाइल के भीतर इकाइयों के लिए +{1_Amount} एचपी चिकित्सा।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_STRONG_WHEN_ATTACKING_DESCRIPTION">
+      <Text>आक्रमण करते समय +{1_Amount} [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_WEAK_WHEN_DEFENDING_DESCRIPTION">
+      <Text>जब रक्षा करते समय {1_Amount} [ICON_Strength] युद्ध ताकत।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PRIZE_SHIPS_MODIFIER_DESCRIPTION">
+      <Text>दुश्मन को पकड़ने का {1_Amount}% मौका।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CAPTIVE_WORKERS_MODIFIER_DESCRIPTION">
+      <Text>{1_Amount}% दुश्मन को पकड़ने का मौका।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_BALKAN_CAVALRY_COMBAT_HILLS_MODIFIER_DESCRIPTION">
+      <Text>पहाड़ों में लड़ते समय +{1_Amount} [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_COSSACK_LOCAL_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>जब आपके क्षेत्र में हों या आपके क्षेत्र के आस-पास हों तो +{1_Amount} [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_REDCOAT_FOREIGN_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>जब आपकी राजधानी की महाद्वीप से अलग महाद्वीप पर लड़ाई लड़ रहे हों, तब लड़ाई में +{1_Amount} [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_VARU_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>दुश्मन वारू के संग अग्रवर्ती होने पर {1_Amount} [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NAGAO_RANGED_DEFENSE_MODIFIER_DESCRIPTION">
+      <Text>जब रेंज्ड को हमला करने पर रक्षा करते हुए, [ICON_Strength] {1_Amount} के प्रभाव का होगा।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_CONQUISTADOR_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>एक धार्मिक इकाई एक हेक्स के भीतर होने पर [ICON_Strength] {1_Amount} युद्ध शक्ति+।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GARDE_CONTINENT_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>अपनी राजधानी के सम्पर्क में स्थित सम्भावित द्वीप पर [ICON_Strength] {1_Amount} युद्ध शक्ति+।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_HOPLITE_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>एक दूसरे होप्लाइट के पास होने पर {1_Amount} [ICON_Strength] युद्ध शक्ति +</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UBOAT_OCEAN_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>समुद्री मैदान पर +{1_Amount} [ICON_Strength] युद्ध ताकत</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ROUGH_RIDER_BONUS_IN_HILLS_DESCRIPTION">
+      <Text>पहाड़ी टेरेन पर +{1_Amount} [ICON_Strength] युद्ध शक्ति।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_NO_FOREIGN_SPREAD_DESCRIPTION">
+      <Text>वे केवल अपने साम्राज्य की शहरों तक अपने धर्म को फैला सकते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_CANNOT_ATTACK_DESCRIPTION">
+      <Text>धार्मिक युद्ध प्रारंभ नहीं किया जा सकता।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_FRIENDLY_TERRITORY_RELIGIOUS_DESCRIPTION">
+      <Text>धार्मिक युद्ध का उनके साम्राज्य में महत्वपूर्ण फायदा है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_RELIGIOUS_ENTER_FOREIGN_LANDS_DESCRIPTION">
+      <Text>खुले सीमाओं के बिना भी यह इकाई विदेशी क्षेत्र में प्रवेश कर सकती है।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_TERRAIN_COST_DESCRIPTION">
+      <Text>जंगल, वन, पहाड़, और दलदल केवल एक [ICON_Movement] गति लेते हैं।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION">
+      <Text>नदी पार करने के लिए आंदोलन लागत को अनदेखा करें।</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_ARCHAEOLOGIST_ENTER_FOREIGN_LANDS_DESCRIPTION">
+      <Text>खुले सीमाओं के बिना भी, यह इकाई विदेशी क्षेत्र में प्रवेश कर सकती है।</Text>
+    </Row>
+  </BaseGameText>
+</GameData>
