@@ -21,9 +21,9 @@ Note: The `assets` folder contains the base game translations, while the `DLC` f
 The following languages are currently available:
 
 - Finnish -> Testing
-- Danish -> To be tested
-- Ukrainian -> To be tested
-- Hindi -> In progress
+- Danish -> Done -> Needs testing and clean up
+- Ukrainian -> Done -> Needs testing and clean up
+- Hindi -> Tested -> Doesn't work in Civ 6
 
 ## Contributing
 
