@@ -99,7 +99,7 @@
       <Text>{1_LeaderName} {1_CivName : plural 1?on; other?ovat;} varoittanut {2_LeaderName} puuttumasta agendan: {3_AgendaName} toimintaan.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_ALLIED">
-      <Text>{1_CivName}  {1_CivName : plural 1: on; other: ovat;} juuri solminut liiton {2_CivName} kanssa.</Text>
+      <Text>{1_CivName}  {1_CivName : plural 1?on; other?ovat;} juuri solminut liiton {2_CivName} kanssa.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_ANARCHY_BEGINS">
       <Text>{1_CivName} ssa on tapahtunut vallankaappaus, jossa on syrjäytetty {2_Government} hallinto. Anarkia on alkanut.</Text>
@@ -117,7 +117,7 @@
       <Text>{1_CivName} ovat kuulleet, että auringonotto on loistavaa uudessa lomakohteessa {2_CityName} ulkopuolella. {1_CivName : plural 1?On; other?On} kuullut, että auringonotto on loistavaa uudessa lomakohteessa {2_CityName} ulkopuolella.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CHANGE_GOVERNMENT">
-      <Text>{1_CivName}  {1_CivName : plural 1: vaihtoi; other: vaihtoivat;} hallitusta {2_Government}.</Text>
+      <Text>{1_CivName}  {1_CivName : plural 1?vaihtoi; other?vaihtoivat;} hallitusta {2_Government}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CITY_BESIEGED">
       <Text>{1_CityName} on piiritetty.</Text>
@@ -153,7 +153,7 @@
       <Text>{1_CivName}  onnistui kehittämään {2_CivicName}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_DECLARED_FRIENDSHIP">
-      <Text>{1_CivName}  {1_CivName : plural 1: on; other: ovat;} ilmoittaneet ystävyydestään {2_CivName} kanssa.</Text>
+      <Text>{1_CivName}  {1_CivName : plural 1?on; other?ovat;} ilmoittaneet ystävyydestään {2_CivName} kanssa.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_DELEGATION">
       <Text>{1_CivName} illa on juuri vastaanotettu vierailijaedustus. He tuntuvat tulleen {2_CivName}ista.</Text>
@@ -288,7 +288,7 @@
       <Text>{1_CivName}  {1_CivName : plural 1?on; other?ovat;} enää tavoittelemassa {2_VictoryType}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_WMD_BUILT">
-      <Text>{1_CivName}  {1_CivName : plural 1: rakensi; other:rakensivat;} juuri {2_WMDCount} joukkotuhoaseita.</Text>
+      <Text>{1_CivName}  {1_CivName : plural 1?rakensi; other?rakensivat;} juuri {2_WMDCount} joukkotuhoaseita.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_WMD_STRIKE">
       <Text>{1_CivName}  {1_CivName : plural 1?on; other?ovat;} juuri vapauttanut joukkotuhoaseen! {2_UnitName}! Pidä pääsi piilossa!</Text>
