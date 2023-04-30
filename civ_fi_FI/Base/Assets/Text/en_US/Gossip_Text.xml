@@ -93,10 +93,10 @@
       <Text>Sodan valmistelut</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_AGENDA_KUDOS">
-      <Text>{LOC_GRAMMAR_LEADER &lt;&lt; {1_LeaderName}} {1_CivName : plural 1?on; other?ovat;} kiittäneet {LOC_GRAMMAR_LEADER &lt;&lt; {2_LeaderName}} yhteistyöstä agendan: {3_AgendaName} kanssa.</Text>
+      <Text>{1_LeaderName} {1_CivName : plural 1?on; other?ovat;} kiittäneet {2_LeaderName} yhteistyöstä agendan: {3_AgendaName} kanssa.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_AGENDA_WARNING">
-      <Text>{LOC_GRAMMAR_LEADER &lt;&lt; {1_LeaderName}} {1_CivName : plural 1?on; other?ovat;} varoittanut {LOC_GRAMMAR_LEADER &lt;&lt; {2_LeaderName}} puuttumasta agendan: {3_AgendaName} toimintaan.</Text>
+      <Text>{1_LeaderName} {1_CivName : plural 1?on; other?ovat;} varoittanut {2_LeaderName} puuttumasta agendan: {3_AgendaName} toimintaan.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_ALLIED">
       <Text>{1_CivName}  {1_CivName : plural 1: on; other: ovat;} juuri solminut liiton {2_CivName} kanssa.</Text>
@@ -123,28 +123,28 @@
       <Text>{1_CityName} on piiritetty.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CITY_LIBERATED">
-      <Text>{1_CivName} } {1_CivName : plural 1?on; other?ovat;} juuri vapauttaneet {2_CityName} palauttaen sen {LOC_GRAMMAR_CIVNAME &lt;&lt; {3_CivName}} hallintaan.</Text>
+      <Text>{1_CivName} {1_CivName : plural 1?on; other?ovat;} juuri vapauttaneet {2_CityName} palauttaen sen {3_CivName} hallintaan.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CITY_RAZED">
       <Text>{1_CivName}  {1_CivName : plural 1?on; other?ovat;} juuri hävittäneet kaupungin, jonka he olivat vallanneet {2_CivName}:lta.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CLEAR_CAMP">
-      <Text>{1_CivName}illa on käytössään {LOC_GRAMMAR_A_AN &lt;&lt; {2_UnitName}}, jolla he puhdistavat {LOC_GRAMMAR_A_AN &lt;&lt; {3_ImprovementName}}.</Text>
+      <Text>{1_CivName}illa on käytössään {2_UnitName}, jolla he puhdistavat {3_ImprovementName}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CITY_STATE_INFLUENCE">
       <Text>{1_CivName}  {1_CivName : plural 1?on; other?ovat;} lähettäneet lähettilään {2_CityState}:iin.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CONQUER_CITY">
-      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName} {1_CivName : plural 1?on; other?ovat;}} valloittanut kaupungin {2_CityName}.</Text>
+      <Text>{1_CivName} {1_CivName : plural 1?on; other?ovat;} valloittanut kaupungin {2_CityName}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CONQUER_CAPITAL_CITY">
-      <Text>{LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName} {1_CivName : plural 1?on; other?ovat;}} valloittanut alkuperäisen {2_CivAdjective} pääkaupungin {3_CityName}.</Text>
+      <Text>{1_CivName} {1_CivName : plural 1?on; other?ovat;} valloittanut alkuperäisen {2_CivAdjective} pääkaupungin {3_CityName}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CONSTRUCT_BUILDING">
-      <Text>{1_CivName}  {1_CivName : plural 1?omistaa; other?omistavat;} rakennuksen {LOC_GRAMMAR_A_AN &lt;&lt; {2_BuildingName}} kaupungissa {3_CityName}.</Text>
+      <Text>{1_CivName}  {1_CivName : plural 1?omistaa; other?omistavat;} rakennuksen {2_BuildingName} kaupungissa {3_CityName}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CONSTRUCT_DISTRICT">
-      <Text>{1_CivName}illä on rakennettuna {LOC_GRAMMAR_A_AN &lt;&lt; {2_DistrictName}} {3_CityName:ssa}.</Text>
+      <Text>{1_CivName}illä on rakennettuna {2_DistrictName} {3_CityName:ssa}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_CREATE_PANTHEON">
       <Text>{1_CivName}  {1_CivName : plural 1?on; other?ovat;} palvomassa jumalien pantheonia, joka keskittyy {2_BeliefName}-uskontoon.</Text>
@@ -174,7 +174,7 @@
       <Text>{1_CivName}  {1_CivName : plural 1?laajenee; other?laajenevat;} ja lisää uuden siirtokunnan: {2_CityName}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_FOUND_RELIGION">
-      <Text>{1_CivName} perusti uuden uskonnon: {2_ReligionName}. {1_CivName : plural 1?Hänen; other?Heidän;} {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName} {1_CivName : plural 1?paikassaan; other?paikoissaan;}}.</Text>
+      <Text>{1_CivName} perusti uuden uskonnon: {2_ReligionName}. {1_CivName : plural 1?Hänen; other?Heidän;} {1_CivName} {1_CivName : plural 1?paikassaan; other?paikoissaan;}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_GREATPERSON_CREATED">
       <Text>{1_CivName}  {1_CivName : plural 1?on; other?ovat;} ansainneet {2_unit} {3_GreatPerson}.</Text>
@@ -282,7 +282,7 @@
       <Text>{1_CivName}  {1_CivName : plural 1?on; other?ovat;} suorittanut Avaruuskilpajuoksu-projektin {2_ProjectType}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_START_VICTORY_STRATEGY">
-      <Text>{1_CivName}  on etsimässä {LOC_GRAMMAR_A_AN &lt;&lt; {2_VictoryName}}.</Text>
+      <Text>{1_CivName}  on etsimässä {2_VictoryName}.</Text>
     </Row>
     <Row Tag="LOC_GOSSIP_STOP_VICTORY_STRATEGY">
       <Text>{1_CivName}  {1_CivName : plural 1?on; other?ovat;} enää tavoittelemassa {2_VictoryType}.</Text>
