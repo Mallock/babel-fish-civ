@@ -23,7 +23,7 @@
       <Text>PIMEÄ</Text>
     </Row>
     <Row Tag="LOC_ERAS_CURRENT_AGE_BY_CIV">
-      <Text>IKÄ NYKYISEN SIVILISAATION MUKAAN:</Text>
+      <Text>SIVILISAATIOT TÄLLÄ AIKAKAUDELLA:</Text>
     </Row>
     <Row Tag="LOC_ERAS_TO_EARN_AGE_NEXT_ERA">
       <Text>ANSAITAKSESI UUDEN AIKAKAUDEN SEURAAVAAN AIKAAN:</Text>
@@ -101,7 +101,7 @@
       <Text>Vahvista {1_NumSelected}/{2_NeededSelected}</Text>
     </Row>
     <Row Tag="LOC_ERA_REVIEW_POPUP_TITLE">
-      <Text>MAAILMA ON ASTUNUT SISÄÄN[NEWLINE]{1_EraName}:EN</Text>
+      <Text>MAAILMA ON ASTUNUT AIKAKAUTEEN [NEWLINE]{1_EraName}</Text>
     </Row>
     <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE">
       <Text>Olet sankarillisella aikakaudella!</Text>
@@ -149,7 +149,7 @@
       <Text>Olet [ICON_GLORY_DARK_AGE] synkän aikakauden kourissa tässä pelin vaiheessa. [NEWLINE][NEWLINE][ICON_BULLET]Jokainen [ICON_Citizen] kansalaisesi vaikuttaa 0,5 uskollisuuspaineella kaupungissaan. Tämä paine vaikuttaa myös muihin kaupunkeihin 9 ruudun säteellä, mutta on 10% vähemmän tehokas per ruutu. Kaupunkiesi uskollisuuden ylläpitäminen on vaikeampaa ja vieraiden kaupunkien uskollisuuden vaikuttaminen on entistäkin hankalampaa. [NEWLINE][NEWLINE][ICON_BULLET]Voit ottaa käyttöön voimakkaita synkkiä politiikkoja hallituksessasi, mutta niillä voi olla raskas hinta. [NEWLINE][NEWLINE][ICON_BULLET]Jos et ole viimeisessä aikakaudessa ja ansaitset tarpeeksi aikakausipisteitä kultaisen aikakauden saavuttamiseksi seuraavassa pelin vaiheessa, saat sen sijaan sankarillisen aikakauden, jolloin voit tehdä useita omistautumisia ja saada useita voimakkaita bonuksia.</Text>
 </Row>
     <Row Tag="LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT">
-      <Text>Olet [ICON_GLORY_NORMAL_AGE] Normaalissa Aikakauteen tässä peli-ajassa.[NEWLINE][NEWLINE][ICON_BULLET]Jokainen [ICON_Citizen] Kansalaisesi aiheuttaa normaalin 1 Lojaalisuuspaineen kaupungissaan. Tämä paine vaikuttaa myös muihin kaupunkeihin 9 ruudun säteellä, mutta on 10% vähemmän tehokas per ruutu.</Text>
+      <Text>Olet [ICON_GLORY_NORMAL_AGE] Normaalissa aikakaudessa tässä peli-ajassa.[NEWLINE][NEWLINE][ICON_BULLET]Jokainen [ICON_Citizen] Kansalaisesi aiheuttaa normaalin 1 Lojaalisuuspaineen kaupungissaan. Tämä paine vaikuttaa myös muihin kaupunkeihin 9 ruudun säteellä, mutta on 10% vähemmän tehokas per ruutu.</Text>
     </Row>
     <Row Tag="LOC_ERA_REVIEW_HAVE_HEROIC_AGE_EFFECT_PARAM">
       <Text>{LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Voit tehdä 3 omistautumista, joista jokainen antaa voimakkaan pelillisen edun aikakauden aikana.</Text>
@@ -161,7 +161,7 @@
       <Text>{LOC_ERA_TT_HAVE_DARK_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET] Voit tehdä omistautumisen, joka antaa lisää Aikakausipisteitä Aikakauden aikana.</Text>
     </Row>
     <Row Tag="LOC_ERA_REVIEW_HAVE_NORMAL_AGE_EFFECT_PARAM">
-      <Text>{LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Voit tehdä Pyhittämisen, mikä tarjoaa lisäksi Eräpisteitä aikakauden aikana.</Text>
+      <Text>{LOC_ERA_TT_HAVE_NORMAL_AGE_EFFECT_PARAM}[NEWLINE][NEWLINE][ICON_BULLET]Voit tehdä Omistautumise, mikä tarjoaa lisäpisteitä aikakauden aikana.</Text>
     </Row>
     <Row Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT_PARAM">
       <Text>Olet [ICON_GLORY_SUPER_GOLDEN_AGE] sankarillisen aikakauden aikana tässä pelissä![NEWLINE][NEWLINE][ICON_BULLET]Jokainen [ICON_Citizen] kansalaisesi aiheuttaa {Amount} uskollisuuspainetta kaupungissaan. Tämä paine vaikuttaa myös muihin kaupunkeihin 9 laatan etäisyydellä, mutta on 10% vähemmän tehokas per laatta. On helpompaa ylläpitää uskollisuutta kaupungeissasi ja haastaa vieraiden kaupunkien uskollisuutta.</Text>
@@ -348,7 +348,7 @@
       <Text>Kokonaispistemäärä edellisiltä ajoilta</Text>
     </Row>
     <Row Tag="LOC_ERAS_EFFECTS_ACTIVE_THIS_AGE">
-      <Text>VAIKUTUKSET AKTIIVISET TÄSSÄ IKÄLUOKASSA:</Text>
+      <Text>AKTIIVISET VAIKUTUKSET TÄLLÄ AIKAKAUDELLA:</Text>
     </Row>
     <Row Tag="LOC_ERAS_YOU_WILL_EARN_BLANK_AGE_NEXT_ERA">
       <Text>Ansaitset {1_AgeName} seuraavassa aikakaudessa</Text>
