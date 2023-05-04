@@ -135,13 +135,13 @@
       <Text>Sodanjulistus</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_DECLARE_WAR_SUMMARY">
-      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?on julistanut; other?ovat julistaneet;} sodan {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}} vastaan.</Text>
+      <Text>{1_leader} {1_leader: plural 1?on julistanut; other?ovat julistaneet;} sodan {2_leader} vastaan.</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_MAKE_PEACE_MESSAGE">
       <Text>Neuvoteltu rauha</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_MAKE_PEACE_SUMMARY">
-      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?on; other?ovat;} sopineet rauhasta {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}} kanssa.</Text>
+      <Text>{1_leader} {1_leader: plural 1?on; other?ovat;} sopineet rauhasta {2_leader} kanssa.</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_PLAYER_MET_MESSAGE_CIV">
       <Text>Olet tavannut uuden sivilisaation</Text>
@@ -150,31 +150,31 @@
       <Text>Olet tavannut uuden kaupunkivaltion</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_PLAYER_MET_SUMMARY">
-      <Text>Olet tavannut {LOC_GRAMMAR_CIVDESC &lt;&lt; {2_CivDesc}}n johtajan {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}}.</Text>
+      <Text>Olet tavannut {2_CivDesc}n johtajan {1_leader}.</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_BORDERS_NOW_ENFORCED_MESSAGE">
-      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} valvoo rajoja</Text>
+      <Text>{1_leader} valvoo rajoja</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_BORDERS_NOW_ENFORCED_SUMMARY">
-      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} ovat nyt vahvistaneet rajojaan. Yksikkösi heidän valtakunnassaan on siirretty laatan ulkopuolelle heidän mailleen.</Text>
+      <Text>{1_leader} ovat nyt vahvistaneet rajojaan. Yksikkösi heidän valtakunnassaan on siirretty laatan ulkopuolelle heidän mailtaan.</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_DIPLO_FRIENDSHIP_EXPIRED_MESSAGE">
       <Text>Ystävyyden viimeinen käyttöpäivä</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_DIPLO_FRIENDSHIP_EXPIRED_SUMMARY">
-      <Text>Ystävyytesi {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader} kanssa on tullut päätökseensä ja se tulee uusia.</Text>
+      <Text>Ystävyytesi {1_leader} kanssa on tullut päätökseensä ja se tulee uusia.</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_DIPLO_ALLIANCE_EXPIRED_MESSAGE">
       <Text>Liittoumaa vanhentunut</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_DIPLO_ALLIANCE_EXPIRED_SUMMARY">
-      <Text>Liittonne {LOC_GRAMMAR_LEADER &lt;&lt; {1_leader}} kanssa on tullut päätökseensä ja se on uusittava.</Text>
+      <Text>Liittonne {1_leader} kanssa on tullut päätökseensä ja se on uusittava.</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_GAINED_MESSAGE">
       <Text>Casus Belli saavutettu</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_CASUS_BELLI_GAINED_SUMMARY">
-      <Text>Olet saanut Casus Bellin julistaaksesi sodan {LOC_GRAMMAR_LEADER &lt;&lt; {2_leader}}:lle {1_WarType}-tyyppisesti.</Text>
+      <Text>Olet saanut Casus Bellin julistaaksesi sodan {2_leader}:lle {1_WarType}-tyyppisesti.</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_WAR_TYPE_COLONIAL">
       <Text>Koloniaalisota</Text>
@@ -445,7 +445,7 @@
       <Text>Voi ostaa uskolla</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_CAN_PURCHASE_WITH_FAITH_SUMMARY">
-      <Text>Olet kerännyt tarpeeksi [ICON_Faith] uskoa ostamaan {LOC_GRAMMAR_A_AN &lt;&lt; {1_ItemName}}.</Text>
+      <Text>Olet kerännyt tarpeeksi [ICON_Faith] uskoa ostamaan {1_ItemName}.</Text>
     </Row>
     <!-- Multiplayer Notifications -->
     <Row Tag="LOC_NOTIFICATION_PLAYER_CONNECTING">

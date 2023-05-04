@@ -6,7 +6,7 @@
       <Text>Hyökkää kaupungillasi!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT">
-      <Text>Puolustaessa, sinun {2_UnitName} ({5_Num} vahinkoa) tappoi {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>
+      <Text>Puolustaessa, sinun {2_UnitName} ({5_Num} vahinkoa) tappoi {3_EnemyAdjective} {4_EnemyUnitName}!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT_DEFENDING_CITY">
       <Text>Puolustaessasi kaupunkiasi {2_CityName} ({5_Num} vahinkoa), tappoit {3_EnemyAdjective} {4_EnemyUnitName}!</Text>
@@ -39,10 +39,10 @@
       <Text>Sinun {1_UnitName} kuoli hyökätessään vihollisen {2_EnUName} kaupunkia ({3_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_ANTI_AIR">
-      <Text>Hyökkäyksesi {2_UnitName} ({3_Num} vahinkoa) vaurioitui {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} toimesta!</Text>
+      <Text>Hyökkäyksesi {2_UnitName} ({3_Num} vahinkoa) vaurioitui {4_EnemyAdjective} {5_EnemyUnitName} toimesta!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_INTERCEPTED">
-      <Text>Hyökkäyksesi {2_UnitName} ({3_Num} vahinkoa) torjuttiin {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} ({6_Num} vahinkoa) toimesta!</Text>
+      <Text>Hyökkäyksesi {2_UnitName} ({3_Num} vahinkoa) torjuttiin {4_EnemyAdjective} {5_EnemyUnitName} ({6_Num} vahinkoa) toimesta!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW">
       <Text>Sinun {1_UnitName} ({2_Num} vahinkoa) hyökkäsi vihollisen {3_EnUName} ({4_Num} vahinkoa) kimppuun!</Text>
@@ -63,7 +63,7 @@
       <Text>Saadessanne väijytystä, teidän {2_UnitName} tuhoutui {4_EnemyAdjective} {5_EnemyUnitName}n ({6_Num} vahinkoa) toimesta!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_DEFENDING">
-      <Text>Puolustaessasi, {2_UnitName} tuhoutui {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName} toimesta ({5_Num} vahinkoa)!</Text>
+      <Text>Puolustaessasi, {2_UnitName} tuhoutui {3_EnemyAdjective} {4_EnemyUnitName} toimesta ({5_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_STRAFED_ENEMY">
       <Text>Sinun {1_UnitName} ammuskelivat vihollisen {2_EnUName} aiheuttaen {3_Num} vahinkoa!</Text>
@@ -90,10 +90,10 @@
       <Text>Sinun {1_UnitName} WMD-iskusi epäonnistui korkean vahingon vuoksi.</Text>
     </Row>
     <Row Tag="LOC_COMBAT_ENEMY_WMD_SUCCEEDED">
-      <Text>Epäonnistuit pysäyttämään {LOC_GRAMMAR_A_AN &lt;&lt; {1_EnemyAdjective}} {2_EnemyUnitName} joukkotuhoasehyökkäyksen!</Text>
+      <Text>Epäonnistuit pysäyttämään {1_EnemyAdjective} {2_EnemyUnitName} joukkotuhoasehyökkäyksen!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_ENEMY_WMD_FAILED_HIGH_DAMAGE">
-      <Text>Onnistuit pysäyttämään {LOC_GRAMMAR_A_AN &lt;&lt; {1_EnemyAdjective}} {2_EnemyUnitName} joukkotuhoasehyökkäyksen aiheuttamalla {3_Num} vahinkoa!</Text>
+      <Text>Onnistuit pysäyttämään {1_EnemyAdjective} {2_EnemyUnitName} joukkotuhoasehyökkäyksen aiheuttamalla {3_Num} vahinkoa!</Text>
     </Row>
     <Row Tag="LOC_MISC_YOUR_UNIT_DIED_BY_UNKNOWN">
       <Text>While defending, your {1_UnitName} was destroyed by a disguised {2_EnUName} ({3_Num} damage)!</Text>

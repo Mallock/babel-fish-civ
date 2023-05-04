@@ -60,7 +60,7 @@
       <Text>Jokitulvien estäminen</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_RIVER_FLOOD_MITIGATED_SUMMARY">
-      <Text>Voimakkaat sateet {1_RiverName} varrella olisivat voineet olla suuri ongelma. Onneksi {LOC_GRAMMAR_A_AN &lt;&lt; {2_BuildingOrDistrict}} {2_BuildingOrDistrict: plural 1?oli; other?olivat;} paikoillaan nousevien vesien hallitsemiseksi. ({3_Yields} {3_Yields: plural 1?laatta; other?laatat;} saivat lisää hedelmällisyyttä)</Text>
+      <Text>Voimakkaat sateet {1_RiverName} varrella olisivat voineet olla suuri ongelma. Onneksi {2_BuildingOrDistrict} {2_BuildingOrDistrict: plural 1?oli; other?olivat;} paikoillaan nousevien vesien hallitsemiseksi. ({3_Yields} {3_Yields: plural 1?laatta; other?laatat;} saivat lisää hedelmällisyyttä)</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_STORM_ARRIVED_MESSAGE">
       <Text>Voimakas myrsky!</Text>
@@ -257,10 +257,10 @@
       <Text>{1_PlayerName} on lähettänyt sinulle {2_Amount} [ICON_Gold] kultaa avustuksena.</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_ROCK_BANDS_PROHIBITED_MESSAGE">
-      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} sensuroi rock-musiikkia</Text>
+      <Text>{1_leader} sensuroi rock-musiikkia</Text>
     </Row>
     <Row Tag="LOC_NOTIFICATION_ROCK_BANDS_PROHIBITED_SUMMARY">
-      <Text>{LOC_GRAMMAR_LEADER_UPPER &lt;&lt; {1_leader}} {1_leader: plural 1?kieltää; other?kieltävät;} nyt rock-konsertit. Teidän rock-yhtyeet heidän valtakunnassaan on siirretty laatalle juuri heidän maittensa ulkopuolelle.</Text>
+      <Text>{1_leader} {1_leader: plural 1?kieltää; other?kieltävät;} nyt rock-konsertit. Teidän rock-yhtyeet heidän valtakunnassaan on siirretty laatalle juuri heidän maittensa ulkopuolelle.</Text>
     </Row>
   </EnglishText>
 </GameData>

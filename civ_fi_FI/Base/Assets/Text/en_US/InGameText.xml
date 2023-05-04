@@ -1567,16 +1567,16 @@
       <Text>Ei sopivaa paikkaa rakentamiselle.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_DISTRICT">
-      <Text>Tämä rakennus vaatii {LOC_GRAMMAR_A_AN &lt;&lt; {1_District}} kaupunginosan.</Text>
+      <Text>Tämä rakennus vaatii {1_District} kaupunginosan.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_BUILDING">
-      <Text>Tämä rakennus vaatii {LOC_GRAMMAR_A_AN &lt;&lt; {1_Building}} rakentamisen.</Text>
+      <Text>Tämä rakennus vaatii {1_Building} rakentamisen.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_TWO_BUILDINGS">
-      <Text>Tämä rakennus vaatii joko rakennuksen {LOC_GRAMMAR_A_AN &lt;&lt; {1_Building}} tai {LOC_GRAMMAR_A_AN &lt;&lt; {2_BuildingTheSecond}}.</Text>
+      <Text>Tämä rakennus vaatii joko rakennuksen {1_Building} tai {2_BuildingTheSecond}.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRES_THREE_BUILDINGS">
-      <Text>Tämä rakennus vaatii {LOC_GRAMMAR_A_AN &lt;&lt; {1_Building}}, {2_BuildingTheSecond} tai {3_BuildingTheThird} rakennuksen.</Text>
+      <Text>Tämä rakennus vaatii {1_Building}, {2_BuildingTheSecond} tai {3_BuildingTheThird} rakennuksen.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_CONSTRUCT_REQUIRE_WALL_REPAIR">
       <Text>{1_Rakennus} on korjattava.</Text>
@@ -1631,7 +1631,7 @@
     </Row>
     <!-- TODO: Add reason strings here -->
     <Row Tag="LOC_DISTRICT_ZONE_CONFIRM_DISTRICT_POPUP">
-      <Text>Haluatko rakentaa {LOC_GRAMMAR_A_AN &lt;&lt; {1_DistrictName}} alueen tänne?</Text>
+      <Text>Haluatko rakentaa {1_DistrictName} alueen tänne?</Text>
     </Row>
     <Row Tag="LOC_DISTRICT_ZONE_CONFIRM_WONDER_POPUP">
       <Text>Haluatko rakentaa {1_WonderName} ihmeen tänne?</Text>
@@ -3089,7 +3089,7 @@
       <Text>Täytyy olla {1_FeatureTypeName} tontilla tai vieressä.</Text>
     </Row>
     <Row Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_CITY_GREAT_WORK_OBJECT_TYPE">
-      <Text>Täytyy olla kaupungissa, jossa on {LOC_GRAMMAR_A_AN_WITH_ICON &lt;&lt; {1_GreatWorkObjectTypeName} &lt;&lt; {2_IconString}} suuri teos.</Text>
+      <Text>Täytyy olla kaupungissa, jossa on {1_GreatWorkObjectTypeName} {2_IconString} suuri teos.</Text>
     </Row>
     <Row Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_INCOMPLETE_WONDER">
       <Text>Pitää olla ihmeessä, joka on rakenteilla.</Text>
@@ -3196,13 +3196,13 @@
       <Text>{1_DistrictName}</Text>
     </Row>
     <Row Tag="LOC_TOOLTIP_BUILDING_REQUIRES_ADJACENT_DISTRICT">
-      <Text>Täytyy olla vierekkäin tämän kaupungin omistaman {LOC_GRAMMAR_A_AN &lt;&lt; {1_DistrictName}} kanssa.</Text>
+      <Text>Täytyy olla vierekkäin tämän kaupungin omistaman {1_DistrictName} kanssa.</Text>
     </Row>
     <Row Tag="LOC_TOOLTIP_BUILDING_REQUIRES_ADJACENT_RESOURCE">
       <Text>Täytyy olla vierekkäin {1_ResourceName} kanssa</Text>
     </Row>
     <Row Tag="LOC_TOOLTIP_BUILDING_MUTUALLY_EXCLUSIVE_WITH">
-      <Text>Ei voi rakentaa samalla alueella kuin {LOC_GRAMMAR_A_AN &lt;&lt; {1_BuildingName}}</Text>
+      <Text>Ei voi rakentaa samalla alueella kuin {1_BuildingName}</Text>
     </Row>
     <Row Tag="LOC_TOOLTIP_PLACEMENT_REQUIRES_ADJACENT_RIVER">
       <Text>Täytyy olla joen vieressä</Text>
