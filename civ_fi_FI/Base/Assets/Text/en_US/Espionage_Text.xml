@@ -3,47 +3,31 @@
 <GameData>
   <BaseGameText>
     <Row Tag="LOC_ESPIONAGE_CONFIRMATION">
-      <Text>{1_Name}
-
-{2_Yield}
-
-{3_Header}
-
-{4_Success}
-
-{5_SuccessEscape}
-
-{6_Fail}
-
-{7_FailEscape}
-
-{8_Capture}
-
-{9_Killed}</Text>
+      <Text>{1_Name}[NEWLINE][NEWLINE]{2_Yield}[NEWLINE]{3_Header}[NEWLINE]{4_Success}[NEWLINE]{5_SuccessEscape}[NEWLINE]{6_Fail}[NEWLINE]{7_FailEscape}[NEWLINE]{8_Capture}[NEWLINE]{9_Killed}</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_MISSION_HEADER">
-      <Text>TEHTÄVÄN TIIVISTELMÄ[NEWLINE][NEWLINE]Tehtäväsi: {1_Mission}[NEWLINE]Kesto: {2_Num} kierrosta</Text>
+      <Text>TEHTÄVÄTIIVISTELMÄ[NEWLINE][NEWLINE]Tehtäväsi: {1_Mission}[NEWLINE]Kesto: {2_Num} Vuoroa</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_OPERATION_YIELD">
-      <Text>Onnistuminen myöntää {1_Award}. [NEWLINE]</Text>
+      <Text>Menestys tuo mukanaan {1_Award}.[NEWLINE]</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_OPERATION_CHANCES">
-      <Text>Mahdolliset lopputulokset:</Text>
+      <Text>Mahdolliset Tulokset:</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_SUCCESS">
-      <Text>{1_Num}% - Onnistuminen</Text>
+      <Text>{1_Num}% - Menestys</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_SUCCESS_ESCAPE">
-      <Text>{1_Num}% - Onnistuminen mikäli pääset kaupungista pakoon</Text>
+      <Text>{1_Num}% - Onnistuminen, jos paetaan kaupungista</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_FAILURE">
       <Text>{1_Num}% - Epäonnistuminen</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_FAILURE_ESCAPE">
-      <Text>{1_Num}% - Epäonnistuminen ja on paettava kaupungista</Text>
+      <Text>{1_Num}% - Epäonnistuminen ja pakko paeta kaupungista</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_CAPTURED">
-      <Text>[COLOR_RED]{1_Num}%[ENDCOLOR] - Vakoilija Saatu Kiinni</Text>
+      <Text>[COLOR_RED]{1_Num}%[ENDCOLOR] - Vakoilija Vangittu</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_KILLED">
       <Text>[COLOR_RED]{1_Num}%[ENDCOLOR] - Vakooja tapettu</Text>
@@ -52,52 +36,52 @@
       <Text>Hyväksy</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ABORT_MISSION">
-      <Text>Keskeytys</Text>
+      <Text>Keskeytä</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_HEIST_REWARD">
-      <Text>Mahtava työ kaupunginosalta</Text>
+      <Text>suuri teos alueelta</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_PARTISAN_REWARD">
-      <Text>tyytymättömien partisanien kapina</Text>
+      <Text>tyytymättömien osapuolten kapina</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_SABOTAGE_REWARD">
-      <Text>ryöstämällä kaikki rakennukset Teollisuusalueen kaupunginosassa</Text>
+      <Text>ryöstäen kaikki rakennukset teollisuusalueen kaupunginosassa</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_SIPHON_REWARD">
-      <Text>kaupungin [ICON_Gold] kulta tuotanto seuraavien {1_Num} kierroksen aikana</Text>
+      <Text>kaupungin [ICON_Gold] Kultatuotanto seuraavan {1_Num} vuoron aikana</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ROCKETRY_REWARD">
-      <Text>vihollisen avaruussatama-alueen ryöstö</Text>
+      <Text>vihollisen Avaruussatama-alueen ryöstely</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_TECH_REWARD">
-      <Text>teknologian lisäys</Text>
+      <Text>teknologiapotku</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_GAIN_SOURCES">
-      <Text>TEHTÄVÄALOITUS[NEWLINE][NEWLINE]Tehtäväsi: Hanki tiedonlähteitä[NEWLINE]Kesto: {1_Num} kierrosta[NEWLINE][NEWLINE]Kun vakoilija on käyttänyt tarvittavan ajan paikallisten kontaktien löytämiseen, tämä tehtävä onnistuu automaattisesti. Se parantaa kaikkien hyökkäävien vakoilijatoimintojen mahdollisuuksia tässä kaupungissa seuraavien {2_Duration} kierroksen ajan.</Text>
+      <Text>TEHTÄVÄTIIVISTELMÄ[NEWLINE][NEWLINE]Tehtäväsi: Hanki Tietolähteitä[NEWLINE]Kesto: {1_Num} Vuoroa[NEWLINE][NEWLINE]Kun vakooja on käyttänyt tarvittavan ajan paikallisten kontaktien löytämiseen, tämä tehtävä onnistuu automaattisesti. Se parantaa kaikkien hyökkäävien vakoojaoperaatioiden mahdollisuuksia tässä kaupungissa seuraavien {2_Duration} vuoron ajan.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_LISTENING_POST">
-      <Text>TEHTÄVÄN OHJEET[NEWLINE][NEWLINE]Tehtävä: Kuuntelupiste[NEWLINE]Kesto: {1_Num} kierrosta[NEWLINE][NEWLINE]Tämä tehtävä on automaattisesti onnistunut. Sen suorittaminen parantaa diplomaattista näkyvyyttäsi tämän sivilisaation suhteen yhdellä tasolla.</Text>
+      <Text>TEHTÄVÄN TIIVISTELMÄ[NEWLINE][NEWLINE]Tehtäväsi: Kuunteluasema[NEWLINE]Kesto: {1_Num} Vuoroa[NEWLINE][NEWLINE]Tämä tehtävä onnistuu automaattisesti. Sen aikana diplomaattinen näkyvyytesi tähän sivilisaatioon paranee 1 tasolla.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ESCAPE_PANEL_HEADER">
-      <Text>JAHTIKOHTAUS</Text>
+      <Text>TAKAA-AJO JAKSO</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ESCAPE_CITY_HEADER">
-      <Text>kaupungissa {1_CityName}</Text>
+      <Text>{1_CityName} kaupungissa</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ESCAPE_AGENT_LABEL">
-      <Text>Agentti:</Text>
+      <Text>Edustaja:</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_NO_LOOT">
-      <Text>Ei saalista</Text>
+      <Text>Ei mitään</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ESCAPE_LOOT_LABEL">
-      <Text>saalis:</Text>
+      <Text>Saalis:</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ESCAPE_BOOST_LOOT">
       <Text>{1_TechName} salaisuudet</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_LABEL">
-      <Text>Ajoivat takaa:</Text>
+      <Text>Tavoittelema:</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ESCAPE_PURSUIT_POLICE">
       <Text>Poliisi</Text>
@@ -124,41 +108,41 @@
       <Text>Ei {1_DistrictName} kaupungissa</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ESCAPE_TURNS">
-      <Text>Käännöksiä palautukseen: {1_Turns}</Text>
+      <Text>Vuorot palautumiseen: {1_Turns}</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_ESCAPE_TOOLTIP">
-      <Text>Valitse pako reitti kaupungista agentillesi. Poliisi todennäköisesti partioi nopeiden uloskäyntien, kuten lentokentän tai sataman lähistöllä. Poistuminen kävellen on aina turvallisin vaihtoehto.</Text>
+      <Text>Valitse pakoreitti kaupungista agentillesi. Poliisi on todennäköisemmin partioimassa nopeita poistumisteitä, kuten lentokenttää tai satamaa. Poistuminen jalan on aina turvallisin vaihtoehto.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_LEVEL_1_NAME">
-      <Text>Vakoojan rekrytoi</Text>
+      <Text>Vakoojan Rekrytointi</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_LEVEL_2_NAME">
-      <Text>Edustaja</Text>
+      <Text>Agentti</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_LEVEL_3_NAME">
-      <Text>Salainen agentti</Text>
+      <Text>Salainen Agentti</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_LEVEL_4_NAME">
-      <Text>Päävakoilija</Text>
+      <Text>Mestarivakooja</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_SIPHON_ESTIMATE">
-      <Text>+{1_Määrä} [ICON_Gold]</Text>
+      <Text>+{1_Amount} [ICON_Gold]</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_STEAL_TECH_ESTIMATE">
-      <Text>Varasta {1_Amount} {1_Amount : plural 1?boost; other?boosts;} mukaan lukien {2_TechName}.</Text>
+      <Text>Varasta {1_Amount} {1_Amount : plural 1?tehoste; other?tehostetta;} mukaan lukien {2_TechName}.</Text>
     </Row>
     <!-- ==================== Espionage Text ==================== -->
     <Row Tag="LOC_ESPIONAGEPANEL_PANEL_HEADER">
-      <Text>Vakoilijoita {1_CivName}ille</Text>
+      <Text>Vakoojat {1_CivName}lle</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPANEL_PANEL_NAME">
-      <Text>VAKOOJANIMI</Text>
+      <Text>VAKOOJAN NIMI</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPANEL_PANEL_LEVEL">
       <Text>TASO</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPANEL_PANEL_PROMOTION">
-      <Text>YLENNYS</Text>
+      <Text>YLLENNESTY</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPANEL_PANEL_CITY">
       <Text>KAUPUNKI</Text>
@@ -170,17 +154,17 @@
       <Text>VUOROJA JÄLJELLÄ</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPANEL_NO_MISSION">
-      <Text>none</Text>
+      <Text>ei mitään</Text>
     </Row>
     <!-- ==================== EspionageChooser ==================== -->
     <Row Tag="LOC_ESPIONAGECHOOSER_PANEL_HEADER">
-      <Text>UPOTA VAKOOJA</Text>
+      <Text>SOLUTTAUDU VAKOOJAKSI</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGECHOOSER_SELECT_A_CITY">
-      <Text>Valitse kaupunki, jota varten haluat suorittaa vakoilutoiminnan.</Text>
+      <Text>Valitse kaupunki, johon haluat kohdistaa vakoilun.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGECHOOSER_POSSIBLE_MISSIONS">
-      <Text>MAHDOLLISIA TEHTÄVIÄ:</Text>
+      <Text>MAHDOLLISET TEHTÄVÄT:</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGECHOOSER_CONFIRM_PLACEMENT">
       <Text>VAHVISTA SIJOITUS</Text>
@@ -189,26 +173,26 @@
       <Text>PERUUTA</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGECHOOSER_CHOOSE_MISSION">
-      <Text>VALITSE TEHTÄVÄKSI</Text>
+      <Text>VALITSE TEHTÄVÄ</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGECHOOSER_GAIN_SOURCES_ACTIVE">
-      <Text>Voitonlähteet aktiivisia! ({1_Turns}[Icon_Turn])</Text>
+      <Text>Lähteiden hankinta aktiivinen! ({1_Turns}[Icon_Turn])</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGECHOOSER_SUCCESS_BOOSTED">
-      <Text>Onnistunut tehtävä lisäsi menestystä</Text>
+      <Text>Tehtävän onnistuminen paransi</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGECHOOSER_NO_BOOST_ACTIVE">
-      <Text>Ei Boostia aktiivisena</Text>
+      <Text>Ei tehosteita aktiivisena</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGECHOOSER_TRAVEL_TIME_TOOLTIP">
-      <Text>Matka-aika on {1_TravelTime} {1_TravelTime : plural 1?kierros; other?kierrosta; } kaupunkiin matkustaessa. [NEWLINE] Kaupunkiin asettumiseen kuluu {2_EstablishTime} {2_EstablishTime : plural 1?kierros; other?kierrosta;}</Text>
+      <Text>{1_TravelTime} {1_TravelTime : plural 1?vuoro; other?vuoroa;} matkustamiseen kaupunkiin[NEWLINE]{2_EstablishTime} {2_EstablishTime : plural 1?vuoro; other?vuoroa;} sijoittumiseen kaupunkiin</Text>
     </Row>
     <!-- ==================== Spy Operation Details ==================== -->
     <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_LISTENING_POST">
-      <Text>Lisää [ICON_VisLimited] diplomaattista näkyvyyttä yhdellä tasolla.</Text>
+      <Text>Lisää [ICON_VisLimited] diplomaattisen näkyvyyden tasoa yhdellä.</Text>
     </Row>
     <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_GAIN_SOURCES">
-      <Text>Vakoojat toimivat {2_Turns} {2_Turns : plural 1?kierros; other?kierrosta;} {1_Levels} {1_Levels : plural 1?taso; other?tasoa;} korkeammalla.</Text>
+      <Text>Vakoojat toimivat {1_Levels} {1_Levels : plural 1?tasolla; other?tasoilla;} korkeammalla {2_Turns} {2_Turns : plural 1?vuoron; other?vuorojen;} ajan.</Text>
     </Row>
     <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_GREAT_WORK_HEIST">
       <Text>Varasta {1_GreatWorkName} tästä kaupungista</Text>
@@ -217,23 +201,23 @@
       <Text>Ryöstä kaikki rakennukset teollisuusalueella.</Text>
     </Row>
     <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_SIPHON_FUNDS">
-      <Text>Kerää [ICON_Gold] kullan määrä kaupungista {1_CityName} tehtävän keston aikana. ({2_GoldString})</Text>
+      <Text>Saat käyttöösi {1_CityName} kaupungin [ICON_Gold] kultatuotot tehtävän keston ajan. ({2_GoldString})</Text>
     </Row>
     <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_DISRUPT_ROCKETRY">
-      <Text>Poista avaruussatama kaupungista.</Text>
+      <Text>Poista avaruussataman käytöstä kaupungissa.</Text>
     </Row>
     <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_RECRUIT_PARTISANS">
-      <Text>Luo kapinallisjoukkoja kaupungin sisällä.</Text>
+      <Text>Luo kapinallisyksiköitä kaupungin sisällä.</Text>
     </Row>
     <Row Tag="LOC_SPYMISSIONDETAILS_UNITOPERATION_SPY_STEAL_TECH_BOOST">
-      <Text>Varasta teknologiaetulyönti.</Text>
+      <Text>Varasta teknologiaparannus.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGECHOOSER_COUNTERSPY">
-      <Text>Suojaa {1_District} (ja kaikki viereiset piirikunnat) vihollisen vakoojilta.</Text>
+      <Text>Suojaa {1_District} (ja kaikki viereiset alueet) vihollisvakoilijoilta.</Text>
     </Row>
     <!-- ==================== EspionagePopup ==================== -->
     <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_BRIEFING">
-      <Text>TEHTÄVÄN TIIVISTELMÄ: {1_MissionName}</Text>
+      <Text>TEHTÄVÄTIETOISKU: {1_MissionName}</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_CURRENT_MISSION">
       <Text>NYKYINEN TEHTÄVÄ: {1_MissionName}</Text>
@@ -242,13 +226,13 @@
       <Text>TEHTÄVÄN TAVOITE</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_DETAILS">
-      <Text>TEHTÄVÄN YKSIKOHDAT</Text>
+      <Text>TEHTÄVÄN TIEDOT</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_MISSION_OUTCOME">
-      <Text>TEHTÄVÄN TULOS</Text>
+      <Text>TEHTÄVÄN LOPPUTULOS</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESS">
-      <Text>ONNISTUMINEN!</Text>
+      <Text>MENESTYS!</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_FAILURE">
       <Text>EPÄONNISTUMINEN</Text>
@@ -257,61 +241,61 @@
       <Text>TEHTÄVÄN KESTO</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_TURNS">
-      <Text>{1_NumberOfTurns} {1_NumberOfTurns : plural 1?kierros; other?kierrosta;}</Text>
+      <Text>{1_NumberOfTurns} {1_NumberOfTurns : plural 1?Vuoro; other?Vuoroa;}</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_TURNS_REMAINING">
-      <Text>{1_RemainingTurns} lisää {1_RemainingTurns : plural 1?vuoro; other?vuoroa;}</Text>
+      <Text>Vielä {1_RemainingTurns} {1_RemainingTurns : plural 1?vuoro; other?vuoroa;}</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_POSSIBLE_OUTCOMES">
-      <Text>MAHDOLLISET LOPPUTULOKSET</Text>
+      <Text>MAHDOLLISIA LOPPUTULOKSIA</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_OUTCOME_DETAILS">
-      <Text>Meidän tiedustelupalvelumme ennustavat seuraavia todennäköisyyksiä:</Text>
+      <Text>Tiedustelumme arvioi seuraavat todennäköisyydet:</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESS_OUTCOME_CHANCE">
-      <Text>Mahdollisuus onnistuneelle tehtävälle</Text>
+      <Text>Mahdollisuus tehtävän onnistumiseen</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_FAILURE_OUTCOME_CHANCE">
-      <Text>Mahdollisuus epäonnistua tehtävässä</Text>
+      <Text>Mahdollisuus tehtävän epäonnistumiseen</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_CAPTUREDORKILLED_OUTCOME_CHANCE">
-      <Text>Mahdollisuus joutua vangituksi tai tapetuksi</Text>
+      <Text>Mahdollisuus tulla vangituksi tai tapetuksi</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_DISCOVERED_WARNING">
-      <Text>Jos {1_TargetName} havaitsee tämän, menetämme hänen kunnioituksensa</Text>
+      <Text>Jos {1_TargetName} löytää meidät, he menettävät kunnioituksensa meitä kohtaan</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_TARGET">
-      <Text>KOHDISTAA</Text>
+      <Text>KOHDE</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_ACCEPT_MISSION">
       <Text>HYVÄKSY TEHTÄVÄ</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_RENEW_MISSION">
-      <Text>TOISTA TEHTÄVÄ</Text>
+      <Text>UUDISTA TEHTÄVÄ</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_ABORT_MISSION">
-      <Text>PERUUTA TEHTÄVÄ!</Text>
+      <Text>KESKEYTÄ TEHTÄVÄ!</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_CANCEL">
       <Text>PERUUTA</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_GAIN_SOURCES_OUTCOME">
-      <Text>Tämä lisää mahdollisuuttasi seuraavaan operaatioon tässä kaupungissa. Vakoojasi ei ole vaarassa.</Text>
+      <Text>Tämä lisää mahdollisuuksiasi onnistua kaikissa myöhemmissä toiminnoissa tässä kaupungissa. Vakoojallesi ei ole minkäänlaista riskiä.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_SUCCESSBUTTON">
-      <Text>OK</Text>
+      <Text>ONNISTUI</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_FAILUREBUTTON">
-      <Text>SELVÄ</Text>
+      <Text>YMMÄRRÄN.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_REWARDS">
-      <Text>PALKINNOT</Text>
+      <Text>PALKKIOT</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_PROMOTIONREADY">
-      <Text>Ylennys seuraavalle {1_NextRank}:lle</Text>
+      <Text>Ylennys {1_NextRank}</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_AGENTREADYFORPROMOTION">
-      <Text>Agentti on valmis ylennykseen. Käytä yksikkötoimintopainiketta valitaksesi erikoisbonuksen. {1_SpyName}lla on myös lisääntynyt onnistumismahdollisuus kaikissa tulevissa operaatioissa.</Text>
+      <Text>Agentti on valmis ylennykseen. Käytä yksikkötoimintopainiketta valitaksesi erityisen bonuksen. {1_SpyName}:lla on myös paremmat mahdollisuudet onnistua kaikissa tulevissa operaatioissa.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_LOOTREWARD_TITLE">
       <Text>Varasti {1_LootName}</Text>
@@ -323,26 +307,26 @@
       <Text>SEURAUKSET</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_RELATIONSHIP_DAMAGED_TITLE">
-      <Text>Suhteessa vahinkoa</Text>
+      <Text>Suhde Vaurioitunut</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_RELATIONSHIP_DAMAGED_DESC">
       <Text>Vastustajamme on menettänyt kunnioituksen meitä kohtaan.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_CAPTURED_TITLE">
-      <Text>Agent Captured</Text>
+      <Text>Agentti Vangittu</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_CAPTURED_DESC">
-      <Text>{1_AgentName} on vangittu kaupungissa {2_CityName}. Voit yrittää neuvotella heidän vapauttamisestaan.</Text>
+      <Text>{1_AgentName} vangittiin kaupungissa {2_CityName}. Voit yrittää neuvotella heidän vapauttamisestaan vaihtokaupalla.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_KILLED_TITLE">
-      <Text>Agentti tapettiin</Text>
+      <Text>Agentti Tapettu</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEPOPUP_AGENT_KILLED_DESC">
-      <Text>{1_AgentName} tapettiin {2_CityName} kaupungissa.</Text>
+      <Text>{1_AgentName} tapettiin kaupungissa {2_CityName}.</Text>
     </Row>
     <!-- ==================== EspionageOverview ==================== -->
     <Row Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_HEADER">
-      <Text>Toimijat</Text>
+      <Text>Agentit</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_SUBHEADER">
       <Text>AGENTIT ({1_NumberOfSpies}/{2_SpyCapacity})</Text>
@@ -354,10 +338,10 @@
       <Text>{1_RemainingTurns} lisää {1_RemainingTurns : plural 1?vuoro; other?vuoroa;}</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY_ACTIVITY_HEADER">
-      <Text>Kaupunkitoiminta</Text>
+      <Text>Kaupungin toiminta</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY_ACTIVITY_SUBHEADER">
-      <Text>KAUPUNKITOIMINTA</Text>
+      <Text>KAUPUNGIN TOIMINTA</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_CITY">
       <Text>Kaupunki</Text>
@@ -369,40 +353,40 @@
       <Text>Vangittu</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_ASK_FOR_TRADE">
-      <Text>Pyydä kauppaa</Text>
+      <Text>Pyydä Kauppaa</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_TRAVELING">
       <Text>Matkustaminen</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_NO_GREAT_WORK_TO_STEAL">
-      <Text>Ei suurta työtä varastettavaksi</Text>
+      <Text>Ei suurteosta varastettavaksi</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_NO_TECH_BOOST_TO_STEAL">
-      <Text>Ei teknologian buustia varastettavaksi</Text>
+      <Text>Ei teknologiabuustia varastettavaksi</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSION_HISTORY_HEADER">
-      <Text>Kuuntele historian selostus</Text>
+      <Text>Tehtävän Historia</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSION_HISTORY_SUBHEADER">
-      <Text>TEHTÄVÄHISTORIA</Text>
+      <Text>TEHTÄVÄN HISTORIA</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES">
-      <Text>OTETUT VAKOOJAT:</Text>
+      <Text>VANGITUT VAKOOJAT:</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_OFFER_TRADE">
-      <Text>Tarjous kaupasta</Text>
+      <Text>Tarjoa kauppaa</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_VIEW_CITY">
-      <Text>Katso tämä kaupunki kartalta.</Text>
+      <Text>Näytä tämä kaupunki kartalla.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_TURNS_AGO">
       <Text>{1_RemainingTurns} {1_RemainingTurns : plural 1?vuoro; other?vuoroa;} sitten</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME">
-      <Text>Tehtävän tulos:</Text>
+      <Text>Tehtävän lopputulos:</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_TARGETACQUIRED">
-      <Text>Kohde havaittu</Text>
+      <Text>Kohde Hankittu</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_FAILURE">
       <Text>Epäonnistuminen</Text>
@@ -411,64 +395,64 @@
       <Text>Menestys</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYCAUGHT">
-      <Text>Vakooja kiinni otettu!</Text>
+      <Text>Vakooja Vangittu!</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYKILLED">
-      <Text>Vakooja tapettiin!</Text>
+      <Text>Vakooja tapettu!</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_SPYAPPREHENDED">
-      <Text>Vakooja pidätetty</Text>
+      <Text>Vakoilija Vangittu</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_COUNTERSPY">
-      <Text>Tehtävä valvoa {1_CityName} vihollistoiminnan varalta on suoritettu havaitsematta mitään vakoojia.</Text>
+      <Text>Tehtävä seurata {1_CityName} vihollistoimintaa vakoilijoiden varalta suoritettu onnistuneesti ilman vakoojien havaitsemista.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_UNDETECTED">
-      <Text>Tehtävä onnistui kaupungissa {1_CityName} ja vakooja pysyi huomaamattomana.</Text>
+      <Text>Tehtävä onnistui kaupungissa {1_CityName} ja vakooja jäi huomaamatta.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_UNDETECTED_STOLELOOT">
-      <Text>Varasti {1_LootName} kaupungista {2_CityName} huomaamatta.</Text>
+      <Text>Varastettu {1_LootName} huomaamatta kaupungista {2_CityName}.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_STOLELOOT">
-      <Text>Varasti {1_LootName} välttäen havaitsemisen {2_CityName} kaupungissa.</Text>
+      <Text>Varastettu {1_LootName} havaitsematta jääden kaupungista {2_CityName}.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_ESCAPED">
-      <Text>Tehtävä onnistui kaupungissa {1_CityName} ja vakooja onnistui välttämään kiinnioton havaittuaan.</Text>
+      <Text>Tehtävä onnistui kaupungissa {1_CityName} ja vakooja onnistui välttämään kiinnijäämisen havaitsemisen jälkeen.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_CAPTURED">
-      <Text>Tehtävä onnistui kaupungissa {1_CityName}, mutta vakooja saatiin kiinni hänen paljastuttuaan.</Text>
+      <Text>Tehtävä onnistui kaupungissa {1_CityName}, mutta vakooja jäi kiinni paljastumisen jälkeen.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_CAPTURED_STOLELOOT">
-      <Text>Tehtävä saada {1_Loot} varastettua onnistui kaupungissa {2_CityName}, mutta vakoilija jäi kiinni havaittuaan.</Text>
+      <Text>Tehtävä varastaa {1_Loot} onnistui kaupungissa {2_CityName}, mutta vakooja jäi kiinni tultuaan havaituksi.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_KILLED">
-      <Text>Tehtävä onnistui kaupungissa {1_CityName}, mutta vakooja tapettiin havaittuaan.</Text>
+      <Text>Tehtävä onnistui {1_CityName} kaupungissa, mutta vakooja kuoli havaitsemisen jälkeen.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_SUCCESS_DETECTED_KILLED_STOLELOOT">
-      <Text>Operaatio {1_Loot} anastamiseksi onnistui kaupungissa {2_CityName}, mutta vakooja tapettiin havaittuaan.</Text>
+      <Text>Tehtävä varastaa {1_Loot} onnistui kaupungissa {2_CityName}, mutta vakooja kuoli havaitsemisen jälkeen.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_UNDETECTED">
-      <Text>Tehtävä epäonnistui {1_CityName} kaupungissa, mutta vakooja jäi huomaamatta.</Text>
+      <Text>Tehtävä epäonnistui kaupungissa {1_CityName}, mutta vakooja jäi huomaamatta.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_UNDETECTED_STOLELOOT">
-      <Text>Tehtävä varastaa {1_Loot} epäonnistui kaupungissa {2_CityName}, mutta vakooja ei jäänyt kiinni.</Text>
+      <Text>Tehtävä varastaa {1_Loot} epäonnistui kaupungissa {2_CityName}, mutta vakooja jäi huomaamatta.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_ESCAPED">
-      <Text>Tehtävä epäonnistui kaupungissa {1_CityName}, mutta vakooja onnistui välttämään kiinnijäämisen sen jälkeen, kun hänet havaittiin.</Text>
+      <Text>Tehtävä epäonnistui kaupungissa {1_CityName}, mutta vakooja onnistui välttämään kiinnijäämisen havaitsemisen jälkeen.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_ESCAPED_STOLELOOT">
-      <Text>Tehtävä varastaa {1_Loot} epäonnistui kaupungissa {2_CityName}, mutta vakooja välttyi onnistuneesti kiinniotolta sen jälkeen, kun hänet havaittiin.</Text>
+      <Text>Tehtävä varastaa {1_Loot} epäonnistui kaupungissa {2_CityName}, mutta vakooja onnistui välttämään kiinnijäämisen havaitsemisen jälkeen.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_CAPTURED">
-      <Text>Tehtävä epäonnistui kaupungissa {1_CityName} ja vakooja saatiin kiinni havaittuaan hänet.</Text>
+      <Text>Tehtävä epäonnistui kaupungissa {1_CityName} ja vakooja vangittiin hänen jäätyään kiinni.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_CAPTURED_STOLELOOT">
-      <Text>Tehtävä varastaa {1_Loot} epäonnistui kaupungissa {2_CityName} ja vakooja vangittiin havaittuaan.</Text>
+      <Text>Tehtävä varastaa {1_Loot} epäonnistui kaupungissa {2_CityName} ja vakooja otettiin kiinni paljastumisen jälkeen.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_KILLED">
-      <Text>Tehtävä epäonnistui {1_CityName}-kaupungissa ja vakooja tapettiin havaittuaan.</Text>
+      <Text>Tehtävä epäonnistui {1_CityName} kaupungissa ja vakooja kuoli tultuaan havaituksi.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_FAILURE_DETECTED_KILLED_STOLELOOT">
-      <Text>Tehtävä varastaa {1_Loot} epäonnistui kaupungissa {2_CityName} ja vakooja tapettiin havaittuaan.</Text>
+      <Text>Tehtävä varastaa {1_Loot} epäonnistui kaupungissa {2_CityName} ja vakooja tapettiin havaitsemisen jälkeen.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_GOLD">
       <Text>[ICON_Gold] {1_AmountOfGold} Kultaa</Text>
@@ -477,23 +461,23 @@
       <Text>[ICON_Gold] Kulta</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_KILLED">
-      <Text>Vakooja kuoli tehtävän aikana {1_CityName} kaupungissa.</Text>
+      <Text>Vakooja kuoli tehtävän aikana kaupungissa {1_CityName}.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_KILLED_STOLELOOT">
-      <Text>Vakooja kuoli tehtävän aikana varastaessaan {1_Loot} kaupungista {2_CityName}.</Text>
+      <Text>Vakooja kuoli tehtävässä varastaessaan {1_Loot} kaupungista {2_CityName}.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_CAPTURED">
       <Text>Vakooja jäi kiinni tehtävänsä aikana kaupungissa {1_CityName}.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_MISSIONOUTCOME_CAPTURED_STOLELOOT">
-      <Text>Vakooja jäi kiinni tehtävässään varastaessaan {1_Loot} kaupungissa {2_CityName}.</Text>
+      <Text>Vakooja vangittiin tehtävän aikana, jossa hänen piti varastaa {1_Loot} kaupungista {2_CityName}.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_NOMISSIONHISTORY">
-      <Text>Ei viimeaikaisia vakoojatehtäviä</Text>
+      <Text>Ei Hiljattaisia Vakoilutehtäviä</Text>
     </Row>
     <!-- ==================== Speculative text for temporary Captured Spies tab (which would become part of Mission History) ==================== -->
     <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES_HEADER">
-      <Text>Vangitut vakoojat</Text>
+      <Text>Vangitut Vakoojat</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGEOVERVIEW_CAPTURED_SPIES_SUBHEADER">
       <Text>KAAPATUT VAKOOJAT</Text>
@@ -512,22 +496,22 @@
       <Text>{1_RankName} (Taso {2_RankLevel})</Text>
     </Row>
     <Row Tag="LOC_UNITPANEL_ESPIONAGE_CANCEL_MISSION">
-      <Text>Peruuta tehtävä</Text>
+      <Text>Peruuta Tehtävä</Text>
     </Row>
     <Row Tag="LOC_UNITPANEL_ESPIONAGE_CHOOSE_MISSION">
-      <Text>Valitse tehtävä</Text>
+      <Text>Valitse Tehtävä</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_SPY_TRADE_DISABLED_AT_WAR">
-      <Text>[COLOR_RED]{1_SpyName}:n kauppaaminen ei ole tällä hetkellä mahdollista. Olet sodassa {2_CivName}:n kanssa.</Text>
+      <Text>[COLOR_RED]{1_SpyName} -vakoilijan vaihtaminen ei ole tällä hetkellä mahdollista. Olet sodassa {2_CivName} -sivilisaation kanssa.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_NO_OPERATIVES">
-      <Text>Laita vakoilija yhteen kaupungeistasi tarkkailemaan sen tilannetta täällä.</Text>
+      <Text>Tuota vakooja yhdessä kaupungeistasi nähdäksesi sen tilanteen täällä.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_NO_CITIES">
-      <Text>Rakenna oma kaupunkisi tai löydä toisen sivilisaation kaupunki ja tarkastele sen vakoilutoimintaa täällä.</Text>
+      <Text>Rakenna oma kaupunkisi tai löydä toisen sivilisaation kaupunki nähdäksesi sen vakoilutoiminnan täällä.</Text>
     </Row>
     <Row Tag="LOC_ESPIONAGE_NO_HISTORY">
-      <Text>Suorita vakoojatehtäviä tarkastellaksesi tehtävähistoriaasi täällä.</Text>
+      <Text>Suorita vakoilutehtäviä nähdäksesi tehtävähistoriasi täällä.</Text>
     </Row>
   </BaseGameText>
 </GameData>

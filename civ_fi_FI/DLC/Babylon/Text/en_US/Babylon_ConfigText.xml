@@ -3,28 +3,27 @@
   <EnglishText>
     <!-- Babylon: Building Info -->
     <Row Tag="LOC_BUILDING_PALGUM_NAME">
-    <Text>Palgum</Text>
-</Row>
-<Row Tag="LOC_BUILDING_PALGUM_DESCRIPTION">
-    <Text>Rakennus, joka on ainutlaatuinen Babyloniassa. Tarjoaa +1 [ICON_HOUSING] asumista ja +2 [ICON_PRODUCTION] tuotantoa. Makean veden alueet saavat +1 [ICON_FOOD] ruokaa. Kaupungin täytyy olla joen vieressä.</Text>
-</Row>
-<!-- Babylon: Civ Info -->
-<Row Tag="LOC_CIVILIZATION_BABYLON_STK_NAME">
-    <Text>Babylon</Text>
-</Row>
-<Row Tag="LOC_CIVILIZATION_BABYLON_STK_DESCRIPTION">
-    <Text>Babylonian valtakunta</Text>
-</Row>
-<Row Tag="LOC_CIVILIZATION_BABYLON_STK_ADJECTIVE">
-    <Text>Babylonialainen</Text>
-</Row>
-<Row Tag="LOC_TRAIT_CIVILIZATION_BABYLON_NAME">
-    <Text>Enuma Anu Enlil</Text>
-</Row>
-<Row Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION">
-    <Text>[ICON_TechBoosted] Eurekat tarjoavat kaiken [ICON_SCIENCE] tieteen teknologioille. -50% [ICON_SCIENCE] tiedettä per vuoro.</Text>
-</Row>
-
+      <Text>Palgum</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PALGUM_DESCRIPTION">
+      <Text>Rakennus, joka on yksinomainen Babylonille. +1 [ICON_HOUSING] Asuminen ja +2 [ICON_PRODUCTION] Tuotanto. Makean veden ruudut saavat +1 [ICON_FOOD] Ruokaa. Kaupungin on oltava joen vieressä.</Text>
+    </Row>
+    <!-- Babylon: Civ Info -->
+    <Row Tag="LOC_CIVILIZATION_BABYLON_STK_NAME">
+      <Text>Babylon</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BABYLON_STK_DESCRIPTION">
+      <Text>Babylonian valtakunta</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BABYLON_STK_ADJECTIVE">
+      <Text>Babylonialainen</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BABYLON_NAME">
+      <Text>Enuma Anu Enlil</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION">
+      <Text>[ICON_TechBoosted] Eurekat tarjoavat kaiken [ICON_SCIENCE] tieteen teknologioille. -50% [ICON_SCIENCE] tiedettä per vuoro.</Text>
+    </Row>
     <!-- Babylon: Leader Info -->
     <Row Tag="LOC_LEADER_HAMMURABI_NAME">
       <Text>Hammurabi</Text>
@@ -33,61 +32,61 @@
       <Text>Ninu Ilu Sirum</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_HAMMURABI_DESCRIPTION">
-      <Text>Kun jokainen erikoispiiri rakennetaan ensimmäistä kertaa, saat kyseisen piirin rakentamiseen tällä hetkellä alhaisimman [ICON_PRODUCTION] tuotantokustannuksen rakennuksen. Saat [ICON_ENVOY] lähettilään, kun mikä tahansa muu piiri rakennetaan ensimmäistä kertaa.</Text>
+      <Text>Kun jokainen erikoisalue rakennetaan ensimmäistä kertaa, saat alimman [ICON_PRODUCTION] tuotantokustannuksen rakennuksen, joka voidaan tällä hetkellä rakentaa kyseiselle alueelle. Saat [ICON_ENVOY] lähettilään, kun jokin muu alue rakennetaan ensimmäistä kertaa.</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_HAMMURABI_XP1_DESCRIPTION">
-      <Text>Kun jokainen erikoisalueen tyyppi paitsi Hallintokeskusta rakennetaan ensimmäistä kertaa, saat rakennuksen, joka voidaan tällä hetkellä rakentaa kyseisessä kaupunginosassa, ja sen tuotantokustannus on alin mahdollinen [ICON_PRODUCTION]. Saat [ICON_ENVOY] Lähettilään, kun mikä tahansa muu kaupunginosa rakennetaan ensimmäistä kertaa.</Text>
+      <Text>Kun erikoisalueen tyyppi paitsi Hallitusaukio rakennetaan ensimmäistä kertaa, saat alimman [ICON_PRODUCTION] Tuotantokustannuksen rakennuksen, joka voidaan tällä hetkellä rakentaa kyseiseen alueeseen. Saat [ICON_ENVOY] Lähettilään, kun jokin muu alue rakennetaan ensimmäistä kertaa.</Text>
     </Row>
     <!-- Babylon: Unit Info -->
     <Row Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME">
       <Text>Sabum Kibittum</Text>
     </Row>
     <Row Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_DESCRIPTION">
-      <Text>Babylonialainen ainutlaatuinen antiikin aikakauden lähitaistelu yksikkö. +17 [ICON_Strength] taisteluvoimaa raskaita ja kevyitä ratsuväki promootion luokan yksiköitä vastaan. Tällä yksiköllä on 3 [ICON_Movement] liikkumispistettä ja näkökenttä.</Text>
+      <Text>Babylonialainen ainutlaatuinen muinainen aikakauden lähitaistelu-yksikkö. +17 [ICON_Strength] taisteluvoimaa raskaita ja kevyitä ratsuväkiyksiköitä vastaan. Tällä yksiköllä on 3 [ICON_Movement] liikkumista ja näkökenttää.</Text>
     </Row>
     <Row Tag="LOC_ABILITY_SABUM_KIBITTUM_ANTI_CAVALRY_NAME">
       <Text>Sabum Kibittum</Text>
     </Row>
     <Row Tag="LOC_ABILITY_SABUM_KIBITTUM_ANTI_CAVALRY_DESCRIPTION">
-      <Text>+17 [ICON_Strength] Taisteluvoimaa raskaita ja kevyitä ratsuväki yksiköitä vastaan.</Text>
+      <Text>+17 [ICON_Strength] taisteluvoimaa raskaita ja kevyitä ratsuväkiyksiköitä vastaan, joilla on ylennysluokka.</Text>
     </Row>
     <Row Tag="LOC_ABUM_KIBITTUM_ANTI_CAVALRY_MODIFIER_DESCRIPTION">
-      <Text>+{1_Amount} Taisteluvoimaa raskaita ja kevyitä ratsuväkiyksiköitä vastaan edistysluokan yksiköitä vastaan</Text>
+      <Text>+{1_Amount} taisteluvoimaa raskaita ja kevyitä ratsuväkiyksiköitä vastaan, joilla on ylennysluokka</Text>
     </Row>
     <!-- Heroes & Legends Mode -->
     <Row Tag="LOC_GAMEMODE_HEROES_NAME">
-      <Text>"Sankarien ja legendojen tila"</Text>
+      <Text>Sankarit &amp; Legendat -tila</Text>
     </Row>
     <Row Tag="LOC_GAMEMODE_HEROES_DESCRIPTION">
-      <Text>Tämä pelimuoto lisää kaksitoista voimakasta sankarikohdetta maailman myyteistä ja legendoista.[NEWLINE][NEWLINE]Löydä sankarit tutkimalla maailmaa ja vaikuttamalla kaupunkivaltioihin, ja vaati ne sitten kaupungeillesi. Jokainen sankari on ainutlaatuinen maailmassa ja voi olla vain yhden sivilisaation hallussa.[NEWLINE][NEWLINE]Sankarit omaavat suuren voiman ja ainutlaatuiset kyvyt, mutta myös rajoitetun elinkaaren. Aina kun sankari ilmestyy, he pysyvät paikoillaan tietyn käännöksen verran, ennen kuin heidän aikansa loppuu ja he kuolevat luonnollisesti. Kun sankari on poissa, heidän vaatiminen sivilisaationsa voi kuitenkin muistaa heidät käyttämällä uskoa.[NEWLINE][NEWLINE]Kullakin kahdestatoista sankarista on omat erityiset voimansa ja erilaiset roolinsa. Viisaan pelaajan käsissä oikea sankari voi todella olla peliä muuttava voima!</Text>
+      <Text>Tämä pelimuoto lisää kaksitoista voimakasta sankariyksikköä maailman myyteistä ja legendoista.[NEWLINE][NEWLINE]Löydä sankareita tutkimalla maailmaa ja vaikuttamalla kaupunkivaltioihin, sitten lunasta heidät omiin kaupunkeihisi. Jokainen sankari on ainutlaatuinen maailmassa ja sen voi lunastaa vain yksi sivilisaatio.[NEWLINE][NEWLINE]Sankareilla on suuri voima ja ainutlaatuiset kyvyt, mutta myös rajallinen elinikä. Kun sankari ilmestyy, he pysyvät asetetun määrän vuoroja ennen kuin heidän aikansa päättyy ja he katoavat luonnollisesti. Sankarin kadottua kuitenkin hänen lunastanut sivilisaatio voi kutsua heidät takaisin kuluttamalla uskoa.[NEWLINE][NEWLINE]Jokaisella kahdestatoista sankarista on omat erityiset voimansa ja erillinen rooli. Viisaan pelaajan käsissä oikea sankari voi todella olla peliä muuttava voima!</Text>
     </Row>
     <!--Heroes & Legends Descriptions-->
     <Row Tag="LOC_TRAIT_LEADER_GILGAMESH_HEROES_NAME">
-      <Text>Enkidun perintö</Text>
+      <Text>Enkidun Perintö</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_GILGAMESH_HEROES_DESCRIPTION">
-      <Text>25% [ICON_Production] Tuotannon lisäys kun sankareita lunastetaan, ja sankareilla on 20% pidempi [ICON_Lifespan] elinikä.</Text>
+      <Text>25% [ICON_Production] tuotannon lisäys sankareita värvättäessä, ja sankareiden [ICON_Lifespan] elinikä on 20% pidempi.</Text>
     </Row>
     <Row Tag="LOC_TRAIT_CIVILIZATION_NKISI_HEROES_DESCRIPTION">
       <Text>+2 [ICON_Food] Food, +2 [ICON_Production] Production, +1 [ICON_FAITH] Faith, and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Relic] Relic, [ICON_GreatWork_HeroRelic] Heroic Relic, [ICON_GreatWork_Artifact] Artifact, and Sculpture [ICON_GreatWork_Sculpture] Great Work of Art in addition to the usual [ICON_Culture] Culture. Receive 50% more [ICON_GreatArtist] Great Artist, [ICON_GreatMusician] Great Musician, and [ICON_GreatMerchant] Great Merchant points. Palace has slots for 5 Great Works.</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_HEROES_DESCRIPTION">
-      <Text>Puolan perustama uskonto muuttuu enemmistöksi vieressä sijaitsevassa kaupungissa, joka menettää yhden laatan Puolan kulttuuripommille. Pyhäköt saavat normaalin uskonnon viereisyysbonuksen viereisistä kaupunginosista. [ICON_GreatWork_Relic] Reliikit ja [ICON_GreatWork_HeroRelic] sankarireliikit tuottavat +2 [ICON_Faith] uskoa, +2 [ICON_Culture] kulttuuria ja +4 [ICON_Gold] kultaa.</Text>
+      <Text>Uskonto, jonka Puola on perustanut, tulee enemmistöksi viereisessä kaupungissa, joka menettää laatan puolalaisen kulttuuripommin seurauksena. Pyhät paikat saavat tavanomaisen uskon läheisyysbonuksen vierekkäisistä alueista. [ICON_GreatWork_Relic] Reliikit ja [ICON_GreatWork_HeroRelic] sankarilliset reliikit tuottavat +2 [ICON_Faith] uskoa, +2 [ICON_Culture] kulttuuria ja +4 [ICON_Gold] kultaa.</Text>
     </Row>
     <Row Tag="LOC_BELIEF_RELIQUARIES_HEROES_DESCRIPTION">
-      <Text>[ICON_GreatWork_Relic] Reliikit ja [ICON_GreatWork_HeroRelic] sankarireliikit antavat kolminkertaisen määrän sekä [ICON_Faith] uskoa että [ICON_Tourism] matkailua.</Text>
+      <Text>[ICON_GreatWork_Relic] Reliikit ja [ICON_GreatWork_HeroRelic] Sankarireliikit tuottavat kolminkertaisen määrän sekä [ICON_Faith] Uskoa että [ICON_Tourism] Matkailua.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_PRASAT_HEROES_DESCRIPTION">
-      <Text>[ICON_Faith] Khmerin ainutlaatuinen rakennus. Korvaa temppelin. Vaaditaan ostettaessa apostoleita ja inkvisiittoreita [ICON_Faith] uskolla. Tässä kaupungissa ostetut lähettiläät saavat marttyyriominaisuuden, joka myöntää [ICON_GreatWork_Relic] pyhäinjäännöksen, jos tämä lähettiläs kuolee teologisessa taistelussa. Sankareiden kutsuminen tässä kaupungissa maksaa 15% vähemmän [ICON_Faith] uskoa.</Text>
+      <Text>Rakennus, joka on ainutlaatuinen Khmerille. Korvaa Temppelin. Tarvitaan apostolien ja inkvisiittorien ostamiseen [ICON_Faith] Uskolla. Tässä kaupungissa ostetut lähetyssaarnaajat saavat marttyyrikyvyn, joka antaa [ICON_GreatWork_Relic] Reliikin, jos tämä lähetyssaarnaaja kuolee teologisessa taistelussa. Sankareiden kutsuminen takaisin tässä kaupungissa maksaa 15% vähemmän [ICON_Faith] Uskoa.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_PRASAT_HEROES_XP1_DESCRIPTION">
-      <Text>+6 [ICON_FAITH] Faith. A building unique to Khmer. Replaces the Temple. Required to purchase Apostles and Inquisitors with [ICON_Faith] Faith. +0.5 [ICON_Culture] Culture for every [ICON_CITIZEN] population in this city. Once Flight is researched receive +10 [ICON_Tourism] Tourism if the city [ICON_CITIZEN] population is 10 or higher and +20 [ICON_Tourism] Tourism if the city [ICON_CITIZEN] population is 20 or higher. Recalling Heroes in this city costs 15% less [ICON_Faith] Faith.</Text>
+      <Text>+6 [ICON_FAITH] Uskoa. Rakennus, joka on ainutlaatuinen Khmerille. Korvaa Temppelin. Vaaditaan ostamaan lähettiläät ja inkvisiittorit [ICON_Faith] uskolla. +0.5 [ICON_Culture] Kulttuuria jokaista [ICON_CITIZEN] kaupungin asukasta kohden. Kun lentotekniikka on tutkittu, saat +10 [ICON_Tourism] matkailua, jos kaupungin [ICON_CITIZEN] väestö on 10 tai enemmän ja +20 [ICON_Tourism] matkailua, jos kaupungin [ICON_CITIZEN] väestö on 20 tai enemmän. Sankareiden kutsuminen tässä kaupungissa maksaa 15% vähemmän [ICON_Faith] uskoa.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_PRASAT_HEROES_XP2_DESCRIPTION">
-      <Text>+6 [ICON_FAITH] Usko. Rakennus, joka on ainutlaatuinen Khmerille. Korvaa temppelin. Vaaditaan ostettaessa apostoleja ja inkvisitoreja [ICON_Faith] uskolla. +0,5 [ICON_Culture] Kulttuuria jokaisesta [ICON_CITIZEN] asukkaasta tässä kaupungissa. Lentämisen tutkimisen jälkeen saat +10 [ICON_Tourism] Matkailua, jos kaupungin [ICON_CITIZEN] asukasluku on 10 tai enemmän, ja +20 [ICON_Tourism] Matkailua, jos kaupungin [ICON_CITIZEN] asukasluku on 20 tai enemmän. Sankarien kutsu tässä kaupungissa maksaa 15% vähemmän [ICON_Faith] uskoa.</Text>
+      <Text>+6 [ICON_FAITH] Faith. A building unique to Khmer. Replaces the Temple. Required to purchase Apostles and Inquisitors with [ICON_Faith] Faith. +0.5 [ICON_Culture] Culture for every [ICON_CITIZEN] population in this city. Once Flight is researched receive +10 [ICON_Tourism] Tourism if the city [ICON_CITIZEN] population is 10 or higher and +20 [ICON_Tourism] Tourism if the city [ICON_CITIZEN] population is 20 or higher. Recalling Heroes in this city costs 15% less [ICON_Faith] Faith.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_STAVE_CHURCH_HEROES_DESCRIPTION">
-      <Text>A building unique to Norway. Required to purchase Apostles and Inquisitors with [ICON_Faith] Faith. Holy Site districts get an additional standard adjacency bonus from Woods. +1 [ICON_PRODUCTION] Production to each coastal resource tile in this city. Recalling Heroes in this city costs 15% less [ICON_Faith] Faith.</Text>
+      <Text>Rakennus, joka on ainutlaatuinen Norjalle. Tarvitaan apostolien ja inkvisiittoreiden ostamiseen [ICON_Faith] uskolla. Pyhät alueet saavat lisästandardin vieressä olevan bonuksen metsistä. +1 [ICON_PRODUCTION] tuotanto jokaiselle rannikkoresurssilaatalle tässä kaupungissa. Sankareiden kutsuminen takaisin tässä kaupungissa maksaa 15% vähemmän [ICON_Faith] uskoa.</Text>
     </Row>
   </EnglishText>
 </GameData>

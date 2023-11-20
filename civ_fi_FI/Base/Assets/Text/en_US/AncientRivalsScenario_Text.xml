@@ -3,37 +3,37 @@
   <BaseGameText>
     <!-- Ruleset -->
     <Row Tag="LOC_ANCIENT_RIVALS_RULESET_TITLE">
-      <Text>Ikivanhat kilpakumppanit</Text>
+      <Text>Muinaiset Kilpailijat</Text>
     </Row>
     <Row Tag="LOC_ANCIENT_RIVALS_RULESET_TEASER">
-      <Text>Laajenna horisonttiasi ja sivisty tällä tutkimus- ja kulttuuripainotteisella skenaariolla, joka sijoittuu Antiikin aikaan. Kestää 50 vuoroa.[NEWLINE]Voittoehdot[NEWLINE]Vuoron loppuessa voitto myönnetään pelaajalle, jolla on eniten seuraavista ehdoista. Tasatilanteessa ratkaisee pisteet.[NEWLINE][ICON_Bullet]Sivistynyt - Tutki eniten sivistystä.[NEWLINE][ICON_Bullet]Tutkimusmatkailija - Paljasta kartalta eniten kuusikulmioita.[NEWLINE][ICON_Bullet]Antiikin ryöväri - Ryösti eniten kuusikulmioita.[NEWLINE][ICON_Bullet]Muinaisen maailman ihme - Omista eniten ihmeitä.</Text>
+      <Text>Laajenna näköalojasi ja sivisty tässä muinaisaikaan sijoittuvassa tutkimus- ja kulttuuripainotteisessa skenaariossa. Kestää 50 vuoroa.[NEWLINE]Voittoehdot[NEWLINE]Vuororajan saavuttua voitto myönnetään pelaajalle, jolla on eniten seuraavista ehdoista. Tasapelit ratkaistaan pisteiden perusteella.[NEWLINE][ICON_Bullet]Sivistynyt - Tutki eniten siviilinvalintoja.[NEWLINE][ICON_Bullet]Tutkimusmatkailija - Paljasta eniten kuusikulmioita kartalla.[NEWLINE][ICON_Bullet]Muinaisryöstäjä - Ryöstä eniten kuusikulmioita.[NEWLINE][ICON_Bullet]Muinaismaailman ihme - Omista eniten ihmeitä.</Text>
     </Row>
     <!-- Victories  -->
     <Row Tag="LOC_ANCIENT_RIVALS_VICTORY_TITLE">
-      <Text>Muinaiset kilpailijat</Text>
+      <Text>Muinaiset Kilpailijat</Text>
     </Row>
     <Row Tag="LOC_ANCIENT_RIVALS_VICTORY_DESC">
-      <Text>At the turn limit, victory is awarded to the player with the most of the following conditions. Ties are resolved based on score.[NEWLINE][ICON_Bullet]Cultured - Research the most civics.[NEWLINE][ICON_Bullet]Explorer - Reveal the most hexes on the map.[NEWLINE][ICON_Bullet]Ancient Raider - Pillage the most hexes.[NEWLINE][ICON_Bullet]Wonder of the Ancient World - Possess the most wonders.[NEWLINE]</Text>
+      <Text>Kierrosrajan saavuttamisen jälkeen voitto annetaan pelaajalle, jolla on eniten seuraavia ehtoja. Tasapelit ratkaistaan pistemäärän perusteella.[NEWLINE][ICON_Bullet]Sivistynyt - Tutki eniten kansalaisuuksia.[NEWLINE][ICON_Bullet]Tutkimusmatkailija - Paljasta eniten kuusikulmioita kartalla.[NEWLINE][ICON_Bullet]Muinaisrosvo - Ryöstä eniten kuusikulmioita.[NEWLINE][ICON_Bullet]Muinaismaailman ihme - Omista eniten ihmeitä.[NEWLINE]</Text>
     </Row>
     <!-- Victories -->
     <Row Tag="LOC_ANCIENT_RIVALS_VICTORY_WIN_BLURB">
-      <Text>Anna minulle tarpeeksi pitkä vipuvarsi ja piste, johon sen asettaa, niin minä liikutan maailman. - Arkimedes</Text>
+      <Text>Anna minulle tarpeeksi pitkä vipuvarsi ja tukipiste, jolle asettaa se, niin minä liikutan maailmaa. - Arkhimedes</Text>
     </Row>
     <!-- Scenario Package -->
     <Row Tag="LOC_ANCIENT_RIVALS_MOD_TITLE">
-      <Text>Moninpelitilanne: Muinaiset kilpailijat</Text>
+      <Text>Moninpeliskenaario: Muinaiset Kilpakumppanit</Text>
     </Row>
     <Row Tag="LOC_ANCIENT_RIVALS_MOD_TEASER">
-      <Text>Laajenna näköpiiriäsi ja sivisty siinä tutkimus- ja kulttuuriperusteisessa skenaariossa, joka on asetettu Antiikin aikaan. Kestää 50 vuoroa.</Text>
+      <Text>Laajenna näköalasi ja käy sivistyneeksi tässä tutkimus- ja kulttuuripohjaisessa skenaariossa, joka sijoittuu Muinaiseen aikakauteen. Kestää 50 vuoroa.</Text>
     </Row>
     <Row Tag="LOC_ANCIENT_RIVALS_MOD_DESCRIPTION">
-      <Text>Voittoperusteet[NEWLINE]Kierrosrajan saavutettua voitto myönnetään pelaajalle, jolla on eniten seuraavista ominaisuuksista. Tasatilanteen ratkaisee pistemäärä.[NEWLINE]Sivistynyt - Tutki eniten sivistystekniikoita.[NEWLINE]Tutkimusmatkailija - Paljasta eniten kartalla olevia alueita.[NEWLINE]Muinaisryöstäjä - Ryösti eniten alueita.[NEWLINE]Muinaisen maailman ihme - Omista eniten ihmeitä. [NEWLINE]</Text>
+      <Text>Voittoehdot[NEWLINE]Kierrosrajan saavuttua pelaajalle annetaan voitto, jolla on eniten seuraavista ehdoista. Tasapelit ratkaistaan pisteiden perusteella.[NEWLINE]Sivistynyt - Tutki eniten kansalaisuusasioita.[NEWLINE]Tutkimusmatkailija - Paljasta eniten kuusikulmaisia soluja kartalla.[NEWLINE]Muinaisryöstäjä - Ryöstä eniten kuusikulmaisia soluja.[NEWLINE]Muinaisen maailman ihme - Omista eniten ihmeitä.[NEWLINE]</Text>
     </Row>
     <Row Tag="LOC_AR_GAME_TURN_LIMIT_REACHED_PROGRESS">
-      <Text>Vuoron raja {ElapsedTurns}/{MinGameTurn} {StatusIcon}</Text>
+      <Text>Vuororaja {ElapsedTurns}/{MinGameTurn} {StatusIcon}</Text>
     </Row>
     <Row Tag="LOC_VICTORY_ANCIENT_RIVALS_PLAYER_HAS_MOST_ANCIENT_RIVALS_POINTS_PROGRESS">
-      <Text>Voittopisteet {VictoryPoints} {VictoryStatusIcon}[NEWLINE]Tutkittuja kuusikulmioita {HexesExplored} {ExploredStatusIcon}[NEWLINE]Ryöstettyjä laattoja {TilesPillaged} {PillagedStatusIcon}[NEWLINE]Valmiiksi suoritettuja siviilitaitoja {CivicsCompleted} {CivicsStatusIcon}[NEWLINE]Hallussa olevia ihmeitä {WondersPossessed} {WondersStatusIcon}</Text>
+      <Text>Voittopisteet {VictoryPoints} {VictoryStatusIcon}[NEWLINE]Tutkitut alueet {HexesExplored} {ExploredStatusIcon}[NEWLINE]Ryöstetyt ruudut {TilesPillaged} {PillagedStatusIcon}[NEWLINE]Suoritetut siviilitaidot {CivicsCompleted} {CivicsStatusIcon}[NEWLINE]Hallussa olevat ihmeet {WondersPossessed} {WondersStatusIcon}</Text>
     </Row>
   </BaseGameText>
 </GameData>

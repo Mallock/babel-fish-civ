@@ -4,124 +4,124 @@
   <BaseGameText>
     <!-- UI -->
     <Row Tag="LOC_GREATPERSON_ACTION_NAME_DEFAULT">
-      <Text>Aktivoituva vaikutus</Text>
+      <Text>Aktivoitu Efekti</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_NAME_CREATE_GREAT_WORK">
-      <Text>Luo loistavaa työtä</Text>
+      <Text>Luo Suuri Teos</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_NAME_FOUND_RELIGION">
-      <Text>Löysi uskonnon</Text>
+      <Text>Perusta Uskonto</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_NAME_RETIRE">
-      <Text>Eläköityä</Text>
+      <Text>Eläkkeelle</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_CHARGES">
-      <Text>{1_ChargeAmount} {1_ChargeAmount : monikko 1?maksu; other?maksut;}</Text>
+      <Text>{1_ChargeAmount} {1_ChargeAmount : plural 1?varaus; other?varausta;}</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_FOUND_RELIGION">
-      <Text>Aktivoi Pyhällä Paikka -kaupunginosassa tai Stonehengellä.</Text>
+      <Text>Aktivoi Pyhällä Alueella tai Stonehengessä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CREATE_GREAT_WORK">
-      <Text>Aktivoi alueella tai ihmeessä, jossa on käytettävissä oleva Suuri Teos -paikka.</Text>
+      <Text>Aktivoi alueella tai ihmeellä, jossa on saatavilla suuren teoksen paikka.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNOWNED_TILE">
-      <Text>Aktivoi laatta, jota mikään pelaaja ei omista.</Text>
+      <Text>Aktivoi ruudussa, jota kukaan pelaaja ei omista.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ENEMY_TERRITORY">
       <Text>Aktivoi vihollisen alueella.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_NONHOSTILE_TERRITORY">
-      <Text>Aktivoi ei-vihamielisessä ulkovaltion alueella.</Text>
+      <Text>Aktivoi ei-vihollisen ulkomaan alueella.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CITY_STATE_TERRITORY">
       <Text>Aktivoi kaupunkivaltion alueella.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_SUZERAIN_TERRITORY">
-      <Text>Aktivoi alueella, joka on kaupunkivaltion hallinnassa, josta olet suurherttua.</Text>
+      <Text>Aktivoi alueella kaupunkivaltiossa, jonka suzerain olet.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_DOES_NOT_NEED_OWNED_TILE">
-      <Text>Saattaa aktivoitua jopa laatoilla, joita et omista.</Text>
+      <Text>Voi aktivoida jopa ruuduilla, joita et omista.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OWNED_TILE">
-      <Text>Aktivoi laatalle, jonka omistat.</Text>
+      <Text>Aktivoi omistamallasi ruudulla.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_BARBARIAN_UNIT">
-      <Text>Aktivoi vieressä olevat Barbaari-yksiköt.</Text>
+      <Text>Aktivoi Barbari-yksiköiden vieressä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_MOUNTAIN">
-      <Text>Aktivoi seuraavaksi vuoren vieressä.</Text>
+      <Text>Aktivoi vieressä oleva vuori.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_TO_OWNED_TILE">
-      <Text>Aktivoi vieressä oleva laatta, joka sinulle kuuluu.</Text>
+      <Text>Aktivoi vieressä oleva ruutu, jonka omistat.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_CITY_GREAT_WORK_OBJECT">
-      <Text>Aktivoi kaupungissa, jossa on  {1_GreatWorkObjectTypeName} {2_IconString} suuren taideteoksen.</Text>
+      <Text>Aktivoi kaupungissa, jossa on {LOC_GRAMMAR_A_AN_WITH_ICON &lt;&lt; {1_GreatWorkObjectTypeName} &lt;&lt; {2_IconString}} suuri teos.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_COMPLETED_DISTRICT">
       <Text>Aktivoi {1_DistrictName} alueella.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_INCOMPLETE_SPACE_RACE_PROJECT">
-      <Text>Aktivoi rakenteilla oleva Avaruuskilpailu-projekti.</Text>
+      <Text>Aktivoi avaruuskilpailuprojekti, joka on rakenteilla.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_INCOMPLETE_WONDER">
-      <Text>Aktivoi ihmeellä, jota ollaan rakentamassa.</Text>
+      <Text>Aktivoi ihmeen rakentamisen aikana.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT">
-      <Text>Aktivoi sotilasyksikkö maalla.</Text>
+      <Text>Aktivoi sotilaalliselle maa-yksikölle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_SEA_UNIT">
-      <Text>Aktivoi sotilasmerivoimien yksikössä.</Text>
+      <Text>Aktivoi sotilaallinen meriyksikkö.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_AIR_UNIT">
-      <Text>Aktivoi sotilaslentoyksikkö.</Text>
+      <Text>Aktivoi sotilasilma-alayksikkö.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_NO_MILITARY_UNIT">
-      <Text>Aktivoi laatta, jolla ei ole sotilasyksikköä.</Text>
+      <Text>Aktivoi ruudussa, jossa ei ole sotilasyksikköä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT_WITHIN_RANGE">
-      <Text>Aktivoi sotilaslaitoksen yksikkö {1_Distance} tiilen säteellä.</Text>
+      <Text>Aktivoi sotilasmaa-yksikkö {1_Distance} ruudun sisällä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OR_ADJACENT_TO_FEATURE">
-      <Text>Aktivoi laattaan, jossa on ominaisuus {1_FeatureName} tai sen vieressä.</Text>
+      <Text>Aktivoi ruudussa tai sen vieressä, jossa on {1_FeatureName}.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_OR_ADJACENT_TO_NATURAL_WONDER">
-      <Text>Aktivoi luonnonihmeen vieressä tai lähellä.</Text>
+      <Text>Aktivoi luonnonihmeen päällä tai sen vieressä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_STANDARD_MILITARY_FORMATION">
-      <Text>Aktivoi sotilasyksikkö, joka ei ole Korpusta tai Armeijaa.</Text>
+      <Text>Aktivoi sotilasyksikköön, joka ei ole armeijakunta tai armeija.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_CORPS_MILITARY_FORMATION">
-      <Text>Aktivoi sotilasyksikössä.</Text>
+      <Text>Aktivoi Corps-sotilasyksikkö.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_ARMY_MILITARY_FORMATION">
-      <Text>Aktivoi armeijan sotilasyksikössä.</Text>
+      <Text>Aktivoi armeijan sotilasyksikkö.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_STANDARD_MILITARY_FORMATION_SEA">
-      <Text>Aktivoidu sotilasyksikössä, joka ei ole laivasto tai armada.</Text>
+      <Text>Aktivoi sotilasyksikköön, joka ei ole laivasto tai armeija.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_CORPS_MILITARY_FORMATION_SEA">
-      <Text>Aktivoi Laivaston sotilasyksikössä.</Text>
+      <Text>Aktivoi laivaston sotilasyksikössä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_UNIT_ARMY_MILITARY_FORMATION_SEA">
-      <Text>Aktivoi laivastollinen sotilasyksikkö.</Text>
+      <Text>Aktivoi laivastojen sotilaallinen yksikkö.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_LUXURY_RESOURCE">
-      <Text>Aktivoi ylellisyysresurssi.</Text>
+      <Text>Aktivoi luksusresurssiin.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ANYWHERE">
-      <Text>Aktivoi minkä tahansa laatan päällä.</Text>
+      <Text>Aktivoi missä tahansa ruudussa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_OPEN_PLAYER_RELIC_SLOT">
-      <Text>Sinun täytyy omistaa avoin [ICON_GreatWork_Relic] reliikkien suurtyöpaikka yhdessä kaupungeistasi.</Text>
+      <Text>Sinulla täytyy olla avoin [ICON_GreatWork_Relic] Reliikki-suuri työpaikka yhdessä kaupungeistasi.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MISSING_BUILDING">
-      <Text>Kaupungissa ei saa vielä olla {1_BuildingName} rakennusta.</Text>
+      <Text>Kaupungilla ei saa jo olla {1_BuildingName} rakennusta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_USAGE_GOLD_COST">
-      <Text>Toiminnon kustannus on {1_GoldAmount} [ICON_Gold] kultaa.</Text>
+      <Text>Toiminto maksaa {1_GoldAmount} [ICON_Gold] kultaa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_EFFECT_FOUND_RELIGION">
-      <Text>Perustaa uskonnon ja tekee tästä kaupungista pyhän kaupungin.</Text>
+      <Text>Perustaa uskonnon ja tekee tästä kaupungista Pyhän Kaupungin.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ACTION_EFFECT_GREAT_WORK_OBJECT">
       <Text>{1_GreatWorkName} ({2_GreatWorkObjectIconString} {3_GreatWorkObjectName}).</Text>
@@ -131,471 +131,471 @@
     </Row>
     <!-- Shared by Multiple Classes -->
     <Row Tag="LOC_GREATPERSON_GOLD">
-      <Text>Saat välittömästi voittoa {Amount} {YieldType}.</Text>
+      <Text>Saat heti {Amount} {YieldType}.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMPUTERSTECHBOOST">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken Tietokoneiden teknologialle.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken tietokoneteknologialle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_1MODERNTECHBOOST">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle modernin ajan {Amount : plural 1?teknologia; other?teknologialle;}.</Text>
+      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} modernista aikakaudesta.</Text>
     </Row>
     <!-- Generals -->
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_LAND_MODIFIER">
-      <Text>+5 [ICON_Strength] Taistelubonus Suurelta Yleiseltä.</Text>
+      <Text>+5 [ICON_Strength] Taisteluvoitto suuren kenraalin ansiosta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_SEA_MODIFIER">
-      <Text>+5 [ICON_Strength] Taistelubonus Suurelta Amiraalilta.</Text>
+      <Text>+5 [ICON_Strength] taisteluvoiton bonus Suurelta Amiraalilta.</Text>
     </Row>
     <Row Tag="LOC_ABILITY_GREAT_GENERAL_MOVEMENT_DESCRIPTION">
-      <Text>+1 [ICON_Movement] Liikettä suurelta kenraalilta.</Text>
+      <Text>+1 [ICON_Movement] Liike suuresta kenraalista.</Text>
     </Row>
     <Row Tag="LOC_ABILITY_GREAT_ADMIRAL_MOVEMENT_DESCRIPTION">
-      <Text>+1 [ICON_Movement] Liike suurelta amiraalilta.</Text>
+      <Text>+1 [ICON_Movement] Liikkumista Suurelta Amiraalilta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND">
-      <Text>+5 [ICON_Strength] taistelukykyä ja +1 [ICON_Movement] liikkumiskykyä kahden ruudun säteellä oleville klassisen ja keskiaikaisen ajan maayksiköille.</Text>
+      <Text>+5 [ICON_Strength] taisteluvoimaa ja +1 [ICON_Movement] liikkuvuutta Klassisen ja Keskiajan maayksiköille 2 ruudun säteellä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumisnopeutta keskiaikaisille ja renessanssin aikakauden maayksiköille 2 ruudun säteellä.</Text>
+      <Text>+5 [ICON_Strength] taisteluvoimaa ja +1 [ICON_Movement] liikkuvuutta keskiajan ja renessanssin aikakauden maayksiköille 2 ruudun sisällä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikettä Renessanssin ja Teollistumisen ajan maajoukoille 2 tiilen säteellä.</Text>
+      <Text>+5 [ICON_Strength] taisteluvoimaa ja +1 [ICON_Movement] liikkumiskykyä renessanssin ja teollisuuden aikakauden maayksiköille kahden ruudun säteellä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumista Teollisuus- ja Moderni aikakauden maayksiköille 2 ruudun säteellä.</Text>
+      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumista teollisuuden ja modernin aikakauden maayksiköille 2 ruudun säteellä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumispistettä modernin ja atomiaikakauden maajoukoille 2 ruudun säteellä.</Text>
+      <Text>+5 [ICON_Strength] taisteluvoimaa ja +1 [ICON_Movement] liikkumista nykyaikaisille ja atomiajalle maayksiköille 2 ruudun sisällä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumista atomi- ja informaatioaikakauden maajoukoille 2 ruudun säteellä.</Text>
+      <Text>+5 [ICON_Strength] taisteluvoimaa ja +1 [ICON_Movement] liikkumista atomi- ja informaatioaikakauden maayksiköille kahden ruudun säteellä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumisnopeutta tietoajan maajoukoille 2 tiilen säteellä.</Text>
+      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumista informaatioajan maayksiköille 2 ruudun sisällä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_BOUDICA_ACTIVE">
-      <Text>Muuttaa viereiset barbaariyksiköt hallinnassasi oleviksi.</Text>
+      <Text>Muuntaa viereiset barbaariyksiköt omalle puolellesi.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_HANNIBAL_BARCA_ACTIVE">
-      <Text>Antaa yhden edistys tason sotilaalliselle maajoukolle.</Text>
+      <Text>Myöntää 1 ylennystason sotilasmaa-yksikölle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE">
-      <Text>Luo välittömästi Ritari-yksikön.</Text>
+      <Text>Luo välittömästi Ritariksi yksikön.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_EL_CID_ACTIVE">
-      <Text>Muodostaa armeijan maayksiköstä joukon.</Text>
+      <Text>Muodostaa Armeijakunnan maavoimien yksiköstä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GENGHIS_KHAN_ACTIVE">
-      <Text>Antaa yhden ylennystason ja +25% taistelukokemusta maajoukon sotilasosastolle.</Text>
+      <Text>Myöntää 1 ylennyksen tason ja +25% taistelukokemusta maasotilasyksikölle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE">
-      <Text>Luo välittömästi Pommitus-yksikön, jolla on yksi ylennystaso.</Text>
+      <Text>Luo välittömästi Bombard-yksikön, jolla on 1 ylennystaso.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_JOAN_OF_ARC_ACTIVE">
       <Text>Luo [ICON_GreatWork_Relic] reliikin.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ANA_NZINGA_ACTIVE">
-      <Text>Saat {Amount} [ICON_Envoy] {Amount : plural 1?Lähettiläs; other?Lähettiläät;}.</Text>
-    </Row>
-    <Row Tag="LOC_GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE">
-      <Text>Muodostaa armeijan sotilasmaajoukosta.</Text>
-    </Row>
-    <Row Tag="LOC_GREATPERSON_RANI_LAKSHMIBAI_ACTIVE">
-      <Text>Luo heti ratsuväen yksikön, jolla on yksi ylennystaso.</Text>
-    </Row>
-    <Row Tag="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE">
       <Text>Saat {Amount} [ICON_Envoy] {Amount : plural 1?Lähettiläs; other?Lähettilästä;}.</Text>
     </Row>
+    <Row Tag="LOC_GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE">
+      <Text>Muodostaa armeijan maavoimien yksiköstä.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_RANI_LAKSHMIBAI_ACTIVE">
+      <Text>Luo välittömästi ratsuväkiyksikön, jolla on 1 ylennystaso.</Text>
+    </Row>
+    <Row Tag="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE">
+      <Text>Saat {Amount} [ICON_Envoy] {Amount : plural 1?lähettiläs; other?lähettilästä;}.</Text>
+    </Row>
     <Row Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE">
-      <Text>Antaa yhden ylennys tason ja +75% taistelukokemusta sotilas maajoukolle.</Text>
+      <Text>Myöntää 1 ylennystason ja +75% taistelukokemusta maavoimien sotilasyksikölle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_MARINA_RASKOVA_ACTIVE">
-      <Text>Tämä alue lisää yhden ilmayksikön paikan.</Text>
+      <Text>Alue tällä laattalla saa +1 ilmayksikön paikan.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_SAMORI_TURE_ACTIVE">
-      <Text>Luo välittömästi jalkaväkijoukon, jolla on yksi ylennystaso.</Text>
+      <Text>Luo välittömästi jalkaväkiyksikön, jolla on 1 ylennystaso.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE">
-      <Text>+5% [ICON_Production] Tuotanto sotilasyksiköitä kohti.</Text>
+      <Text>+5% [ICON_Production] tuotantoa sotilasyksiköiden valmistamiseen.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE">
-      <Text>Kaikki maajoukot saavat +50% sivustahyökkäysbonusta.</Text>
+      <Text>+50% sivuttaishyökkäysbonus kaikille maayksiköille.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_SUDIRMAN_ACTIVE">
-      <Text>Antaa yhden edistysasteen ja +100% taistelukokemusta sotilasmaalle.</Text>
+      <Text>Myöntää 1 ylennystason ja +100% taistelukokemusta maavoimien sotilasyksikölle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE">
-      <Text>Luo välittömästi yksikön Tankki, jolla on yksi ylennystaso.</Text>
+      <Text>Luo välittömästi Tank-yksikön, jolla on 1 ylennystaso.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE">
-      <Text>Luo välittömästi modernin panssarintorjunta yksikön 1 ylennyksen tasolla.</Text>
+      <Text>Luo välittömästi modernin panssarintorjunta-yksikön, jolla on 1 ylennystaso.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE">
-      <Text>Antaa yhden ylennystason ja 100% taistelukokemusta sotilasmaalle.</Text>
+      <Text>Myöntää 1 ylennystason ja +100% taistelukokemusta sotilaalliselle maayksikölle.</Text>
     </Row>
     <!-- Admirals -->
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA">
-      <Text>+5 [ICON_Strength] Taistelukykyä ja +1 [ICON_Movement] Liikkumista klassisen ja keskiaikaisen ajan meriyksiköille 2 ruudun säteellä.</Text>
+      <Text>+5 [ICON_Strength] taisteluvoimaa ja +1 [ICON_Movement] liikkumista klassisen ja keskiajan meriyksiköille 2 ruudun säteellä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumismahdollisuutta keskiaikaisille ja renessanssinkautta oleville meriyksiköille 2 ruudun säteellä.</Text>
+      <Text>+5 [ICON_Strength] taisteluvoimaa ja +1 [ICON_Movement] liikkumista keskiajan ja renessanssin aikaisille meriyksiköille 2 ruudun sisällä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikettä Renessanssi- ja Teollisuusaikakauden meriyksiköille 2 ruudun säteellä.</Text>
+      <Text>+5 [ICON_Strength] taisteluvoimaa ja +1 [ICON_Movement] liikkumiskykyä renessanssin ja teollisuuden aikakauden laivastoille 2 laatikon sisällä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumisnopeutta teollisuus- ja nykyaikaiselle merivoimille 2 ruudun säteellä.</Text>
+      <Text>+5 [ICON_Strength] taisteluvoimaa ja +1 [ICON_Movement] liikkumista teollisuus- ja modernin aikakauden meriyksiköille 2 laatikon sisällä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumista nykyaikaiselle ja atomiaikaiselle merivoimille 2 ruudun säteellä.</Text>
+      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumista Modernin ja Atoomisen aikakauden meriyksiköille 2 ruudun säteellä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikettä Atomiajan ja Informaatioajan meriyksiköille 2 ruudun säteellä.</Text>
+      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumista atomi- ja informaatioaikakauden meriyksiköille kahden ruudun säteellä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA">
-      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikettä tietoajan laivayksiköille 2 tiilen säteellä.</Text>
+      <Text>+5 [ICON_Strength] Taisteluvoimaa ja +1 [ICON_Movement] Liikkumista informaatioajan meriyksiköille 2 ruudun sisällä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ARTEMISIA_ACTIVE">
-      <Text>Myöntää yhden edistysaskeleen sotilaalliselle merivoimien yksikölle.</Text>
+      <Text>Myöntää 1 ylennystason sotilaalliselle meriyksikölle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GAIUS_DUILIUS_ACTIVE">
-      <Text>Muodostaa laivastosta sotilaallisen merivoimayksikön.</Text>
+      <Text>Muodostaa laivaston sotilaallisesta meriyksiköstä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_THEMISTOCLES_ACTIVE">
-      <Text>Luo välittömästi Quadrireme yksikön.</Text>
+      <Text>Luo välittömästi Quadrireme-yksikön.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_LEIF_ERIKSON_ACTIVE">
-      <Text>Mahdollistaa kaikkien meriyksiköiden liikkumisen valtamerten yli ilman normaalia teknologia vaatimusta.</Text>
+      <Text>Sallii kaikkien laivastoyksiköiden liikkua valtameriruutujen yli ilman normaalia teknologiavaatimusta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_RAJENDRA_CHOLA_ACTIVE">
-      <Text>Saat 50 [ICON_Gold] kultaa (vakionopeudella). Sotilaalliset yksiköt saavat +40% palkkion meriteitse ryöstetyistä [ICON_TradeRoute] kauppareiteistä.</Text>
+      <Text>Saat 50 [ICON_Gold] kultaa (normaalilla nopeudella). Sotilasyksiköt saavat +40% palkintoja meri[ICON_TradeRoute]kauppareittien ryöstämisestä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ZHENG_HE_ACTIVE">
       <Text>Saat {Amount} [ICON_Envoy] {Amount : plural 1?Lähettiläs; other?Lähettilästä;}.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_FRANCIS_DRAKE_ACTIVE">
-      <Text>Saat 75 [ICON_Gold] kultaa (vakionopeudella). Sotilasyksiköt saavat +50% palkkion merellä [ICON_TradeRoute] tehdyistä ryöstöistä.</Text>
+      <Text>Saat 75 [ICON_Gold] kultaa (standardinopeudella). Sotilasyksiköt saavat +50% palkintoja meri [ICON_TradeRoute] kauppareittien ryöstämisestä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_SANTA_CRUZ_ACTIVE">
-      <Text>Muodostaa armeijan laivaston yksiköstä.</Text>
+      <Text>Muodostaa armandaan sotilaallisesta laivastoyksiköstä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_YI_SUN_SIN_ACTIVE">
-      <Text>Luo välittömästi rautapaitaisen yksikön, jolla on yksi ylennystaso.</Text>
+      <Text>Luo välittömästi Ironclad-yksikön 1 ylentämisasteella.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CHING_SHIH_ACTIVE">
-      <Text>Saat 100 [ICON_Gold] Kultaa (vakiotahti). Sotilaallisille yksiköille annetaan +60% palkkio saalistamalla meri [ICON_TradeRoute]-kauppareittejä.</Text>
+      <Text>Saat 100 [ICON_Gold] kultaa (normaalilla nopeudella). Sotilasyksiköt saavat +60% palkkioita meri[ICON_TradeRoute]kauppareittien ryöstämisestä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_HORATIO_NELSON_ACTIVE">
-      <Text>+50% sivustoetu kaikille meriyksiköille.</Text>
+      <Text>+50% sivustahyökkäysbonus kaikille meriyksiköille.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE">
-      <Text>Antaa yhden ylennystason ja +50% taistelukokemusta sotilaalliselle meriyksikölle.</Text>
+      <Text>Myöntää 1 ylennystason ja +50% taistelukokemusta sotilaalliselle laivastoyksikölle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_FRANZ_VON_HIPPER_ACTIVE">
-      <Text>Luo välittömästi laivaston yksikön, jolla on yksi ylennys taso.</Text>
+      <Text>Luo välittömästi Taistelulaiva-yksikön, jolla on 1 ylennystaso.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE">
-      <Text>Kerää 25% vähemmän sotaväsymystä kuin tavallisesti.</Text>
+      <Text>Kerry 25% vähemmän sotaväsymystä kuin tavallisesti.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE">
-      <Text>Antaa yhden ylennystason ja lisää 75% taistelukokemusta sotilaalliselle meriyksikölle.</Text>
+      <Text>Myöntää 1 ylennyksen tason ja +75% taistelukokemusta sotilaalliselle laivastoyksikölle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CHESTER_NIMITZ_ACTIVE">
-      <Text>+20% [ICON_Production] Tuotanto meripartiolaivueen promootioluokan yksiköille.</Text>
+      <Text>+20% [ICON_Production] Tuotanto kohti Naval Raider -luokan yksiköitä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRACE_HOPPER_ACTIVE">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} Atomi- tai Tietoajalta.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} atomi- tai informaatioaikakaudelta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_SERGEY_GORSHKOV_ACTIVE">
-      <Text>Antaa yhden ylennystason ja +100% taistelukokemusta sotilasmerivoimayksikölle.</Text>
+      <Text>Myöntää 1 ylennystason ja +100% taistelukokemusta sotilaalliselle laivastoyksikölle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CLANCY_FERNANDO_ACTIVE">
-      <Text>Antaa yhden ylennystason ja +200% taistelukokemusta sotilasnaval-yksikölle.</Text>
+      <Text>Myöntää 1 ylennystason ja +200% taistelukokemusta sotilaalliselle laivasto-yksikölle.</Text>
     </Row>
     <!-- Engineers -->
     <Row Tag="LOC_GREATPERSON_EXTRA_DISTRICT_CAPACITY">
-      <Text>Sallitaan tämän kaupungin rakentaa yksi kaupunginosa enemmän kuin [ICON_Citizen] asukasrajoitus sallii.</Text>
+      <Text>Antaa tämän kaupungin rakentaa yhden enemmän aluetta kuin [ICON_Citizen] väestöraja sallii.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_PRINTINGTECHBOOST">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken painotekniikalle.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken painamistekniikalle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL">
-      <Text>Apurahat {Amount} [ICON_Production] tuotantoon ihmeiden rakentamista kohti.</Text>
+      <Text>Myöntää {Amount} [ICON_Production] tuotantoa ihmettä rakennettaessa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE_ACTIVE">
-      <Text>Rakentaa välittömästi muuria kaupungin antiikin ja keskiaikaisilla alueille.</Text>
+      <Text>Rakentaa välittömästi muinaiset ja keskiaikaiset muurit tässä kaupungissa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_RENAISSANCE">
-      <Text>Antaa {Amount} [ICON_Production] tuotantoa ihmeen rakentamiselle.</Text>
+      <Text>Myöntää {Amount} [ICON_Production] tuotantoa ihmettä rakennettaessa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_WORKSHOP_CULTURE">
       <Text>Työpajat tarjoavat +{Amount} [ICON_Culture] kulttuuria.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CITY_HOUSING_SMALL">
-      <Text>+{Määrä} [ICON_Housing] Asuntoja tässä kaupungissa.</Text>
+      <Text>+{Amount} [ICON_Housing] Asumista tälle kaupungille.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CITY_AMENITIES_SMALL">
-      <Text>Tämän kaupungin alueella on yhteensä {Amount} [ICON_Amenities] {Amount : plural 1?palvelu; other?palvelua;}.</Text>
+      <Text>+{Amount} [ICON_Amenities] {Amount : plural 1?hyödyke; other?hyödykkeet;} tälle kaupungille.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL">
-      <Text>Tuet {Amount} [ICON_Production] tuotantoon ihmeen rakentamista varten.</Text>
+      <Text>Myöntää {Amount} [ICON_Production] tuotantoa ihmetysten rakentamiseen.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE">
-      <Text>Rakentaa välittömästi tehtaan ja verstas tämän kaupunginosan alueelle. Tehdas tarjoaa +2 [ICON_Production] tuotantoa.</Text>
+      <Text>Rakentaa välittömästi Tehdas- ja Työpaja-rakennukset tässä kaupunginosassa. Tehtaat tarjoavat +2 [ICON_Production] Tuotantoa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CITY_APPEAL_SMALL">
-      <Text>Tämä kaupunki antaa +{Amount} vetovoimaa kaikille omistamilleen laattoille.</Text>
+      <Text>Tämä kaupunki tarjoaa +{Amount} viehätysvoimaa kaikille sen omistamille ruuduille.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE">
-      <Text>Tämän alueen alueelliset rakennukset ulottuvat {Amount} {Amount : plural 1?tiili; other?tiiliä;} kauemmas.</Text>
+      <Text>Tämän alueen alueelliset rakennukset ulottuvat {Amount} {Amount : plural 1?ruutu; other?ruutua;} kauemmas.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_PRODUCTION">
-      <Text>Tämän alueen alueelliset rakennukset tuottavat +{Amount} [ICON_Production] tuotantoa.</Text>
+      <Text>Tämän alueen rakennukset tarjoavat +{Amount} [ICON_Production] tuotantoa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_SPACE_RACE_PRODUCTION_RATE_SMALL">
-      <Text>+{Määrä}% [ICON_Production] Tuotanto avaruuskilpailuprojekteihin.</Text>
+      <Text>+{Amount}% [ICON_Production] tuotantoa avaruuskilpailuprojekteihin.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken Raketit-teknologialle.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken Raketti-teknologialle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CITY_HOUSING_MEDIUM">
-      <Text>+{Määrä} [ICON_Housing] Asuntoja tälle kaupungille.</Text>
+      <Text>+{Amount} [ICON_Housing] Asumista tässä kaupungissa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CITY_HOUSING_LARGE">
-      <Text>+{Määrä} [ICON_Housing] Asuntoja tässä kaupungissa.</Text>
+      <Text>+{Amount} [ICON_Housing] Asumista tässä kaupungissa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CITY_AMENITIES_LARGE">
-      <Text>Tämän kaupungin [ICON_Amenities] määrä on {Amount : plural 1?yksi tila; other?tilaa;}.</Text>
+      <Text>+{Amount} [ICON_Amenities] {Amount : plural 1?Amenity; other?Amenities;} tälle kaupungille.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_EARLY_SPACE_RACE">
-      <Text>Apurahaa {Amount} [ICON_Production] tuotantoon avaruuskilpailuprojektin rakentamiseksi.</Text>
+      <Text>Myöntää {Amount} [ICON_Production] Tuotantoa avaruuskilpailuprojektin rakentamiseen.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CITY_APPEAL_LARGE">
-      <Text>Tämä kaupunki tarjoaa +{Määrä} Vetovoimaa kaikille omistamilleen laatoille.</Text>
+      <Text>Tämä kaupunki tarjoaa +{Amount} viehätysvoimaa kaikille sen omistamille laatoille.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_ENTERTAINMENT">
-      <Text>Tämän kaupunginosan alueen rakennukset tarjoavat +{Amount} [ICON_Amenities] {Amount : plural 1?palvelu; other?palvelua;}.</Text>
+      <Text>Tämän kaupunginosan alueelliset rakennukset tarjoavat +{Amount} [ICON_Amenities] {Amount : plural 1?Amenity; other?Amenities;}.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_INFORMATION">
-      <Text>Antaa {Amount} [ICON_Produktio] tuotantoa ihmeen rakentamiseen.</Text>
+      <Text>Myöntää {Amount} [ICON_Production] tuotantoa ihmetysten rakentamiseen.</Text>
     </Row>
     <!-- Merchants -->
     <Row Tag="LOC_GREATPERSON_GRANT_PLOT_RESOURCE">
-      <Text>Antaa [ICON_Capital] pääkaupunkisi alueella sijaitsevalle ruudulle {Amount} ilmaista luksusresurssia.</Text>
+      <Text>Myöntää {Amount} ilmaista {Amount : plural 1?kappaletta; other?kappaletta;} luksusresurssia tästä ruudusta [ICON_Capital] pääkaupunkiisi.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_FAITH_SMALL">
-      <Text>Hanki {Amount} [ICON_Faith] uskoa.</Text>
+      <Text>Saat {Amount} [ICON_Faith] uskoa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_PLOT">
-      <Text>Lähin kaupunki liittää tämän laatan alueeseensa.</Text>
+      <Text>Lähin kaupunkisi liittää tämän ruudun alueeseensa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GOLD_TINY">
-      <Text>Saat {Amount : number #} [ICON_Gold] kultaa.</Text>
+      <Text>Gain {Amount : number #} [ICON_Gold] Gold.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE">
-      <Text>Lisää [ICON_TradeRoute] kauppareittien kapasiteettia yhdellä. Ulkomaiset [ICON_TradeRoute] kauppareitit tähän kaupunkiin tarjoavat +2 [ICON_Gold] kultaa molemmille kaupungeille.</Text>
+      <Text>Lisää [ICON_TradeRoute] kauppareitin kapasiteettia yhdellä. Ulkomaiset [ICON_TradeRoute] kauppareitit tähän kaupunkiin tuovat molemmille kaupungeille +2 [ICON_Gold] kultaa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_MARCO_POLO_ACTIVE">
-      <Text>Antaa ilmaisen kauppiaayksikön tässä kaupungissa ja lisää [ICON_TradeRoute] kauppareittikapasiteettia yhdellä. Ulkomaiset [ICON_TradeRoute] kauppareitit tähän kaupunkiin antavat +2 [ICON_Gold] kultaa molemmille kaupungeille.</Text>
+      <Text>Myöntää ilmaisen kauppiasyksikön tässä kaupungissa ja lisää [ICON_TradeRoute] kauppareittien kapasiteettia yhdellä. Ulkomaiset [ICON_TradeRoute] kauppareitit tähän kaupunkiin tuottavat +2 [ICON_Gold] kultaa molemmille kaupungeille.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GOLD_TO_INCOMING_FOREIGN_ROUTES">
-      <Text>Tämä kaupunki tarjoaa +{Amount} [ICON_Gold] kultaa ulkomaisille [ICON_TradeRoute] kauppareiteille.</Text>
+      <Text>Tämä kaupunki tarjoaa +{Amount} [ICON_Gold] kultaa ulkomaisille [ICON_TradeRoute] kauppaväylille.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GOLD_FROM_INCOMING_FOREIGN_ROUTES">
-      <Text>Tämä kaupunki saa ulkomaisista [ICON_TradeRoute] kauppareiteistä +{Amount} [ICON_Gold] Kultaa.</Text>
+      <Text>Tämä kaupunki saa +{Amount} [ICON_Gold] kultaa ulkomaisista [ICON_TradeRoute] kauppareiteistä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_FREE_TRADER_UNIT">
-      <Text>Saat tässä kaupungissa ilmaisen kauppiaan yksikön.</Text>
+      <Text>Saa ilmainen Kauppias-yksikkö tässä kaupungissa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_EXTRA_TRADE_ROUTE_CAPACITY">
-      <Text>Lisää [ICON_TradeRoute]-kauppareittien kapasiteettia {Amount} verran.</Text>
+      <Text>Lisää [ICON_TradeRoute] kauppareittien kapasiteettia {Amount}.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GOLD_SMALL">
       <Text>Saat {Amount : number #} [ICON_Gold] kultaa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_INFLUENCE_TOKENS_SMALL">
-      <Text>Saat {Amount} [ICON_Envoy] {Amount : plural 1?lähettiläs; other?lähettilästä;}.</Text>
+      <Text>Saat {Amount} [ICON_Envoy] {Amount : plural 1?Lähettiläs; other?Lähettilästä;}.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GIOVANNI_DE_MEDICI_ACTIVE">
-      <Text>Rakentaa välittömästi Pankin ja Markkinan tähän kaupunginosaan. Pankkiin tulee kaksi Suuren Taideteoksen paikkaa, joihin voi sijoittaa mitä tahansa.</Text>
+      <Text>Rakentaa välittömästi Pankin ja Markkinat tähän kaupunginosaan. Pankki saa 2 suuren teoksen paikkaa, joihin voi sijoittaa mitä tahansa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_MARKET">
-      <Text>Rakentaa välittömästi markkinat tälle alueelle.</Text>
+      <Text>Rakentaa välittömästi Markkinat tähän alueeseen.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_BANK">
-      <Text>Rakentaa heti pankin tähän kaupunginosaan.</Text>
+      <Text>Rakentaa välittömästi pankin tässä kaupunginosassa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_BANK_GREAT_WORK_SLOTS">
-      <Text>This Bank gets {Amount} Great Work slots to hold anything except [ICON_GreatWork_Relic] Relics.</Text>
+      <Text>Tämä pankki saa {Amount} Suurteoksen paikkaa, joihin voi sijoittaa mitä tahansa, paitsi [ICON_GreatWork_Relic] Reliikkejä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GOLD_MEDIUM">
       <Text>Saat {Amount : number #} [ICON_Gold] kultaa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_INFLUENCE_TOKENS_MEDIUM">
-      <Text>Saat {Amount} [ICON_Envoy] {Amount : plural 1?Lähettiläs; other?Lähettiläistä;}.</Text>
+      <Text>Saat {Amount} [ICON_Envoy] {Amount : plural 1?lähettiläs; other?lähettilästä;}.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT">
-      <Text>Sinun [ICON_TradeRoute] kauppareittisi omiin kaupunkeihin saavat +{Amount} [ICON_Gold] kultaa jokaisesta erikoisaluesirpaleesta määränpäässä.</Text>
+      <Text>Omat [ICON_TradeRoute] kauppareitit kaupunkeihisi saavat +{Amount} [ICON_Gold] kultaa jokaisesta erikoisalueesta määränpäässä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ECONOMIC_POLICY_SLOT">
-      <Text>+1 talouspolitiikan paikka missä tahansa hallituksessa.</Text>
+      <Text>+1 Talouspoliittinen paikka missä tahansa hallituksessa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_JEANS">
-      <Text>Myöntää {Amount} [ICON_RESOURCE_JEANS] farkkuja, yksilöllisesti valmistettu luksusresurssi, joka tarjoaa +4 [ICON_Amenities] mukavuutta.</Text>
+      <Text>Myöntää {Amount} [ICON_RESOURCE_JEANS] Farkut, uniikki valmistettu Luksusresurssi, joka tarjoaa +4 [ICON_Amenities] Mukavuutta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GOLD_LARGE">
-      <Text>Saat {Amount : number #} [ICON_Gold] Kultaa.</Text>
+      <Text>Saat {Amount : number #} [ICON_Gold] kultaa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_PERFUME">
-      <Text>Antaa {Määrä} [ICON_RESOURCE_PERFUME] parfyymia, ainutlaatuisesti valmistettua luksusresurssia, joka tarjoaa +6 [ICON_Amenities] mukavuuspistettä.</Text>
+      <Text>Myöntää {Amount} [ICON_RESOURCE_PERFUME] Parfyymia, uniikisti valmistettu Luksustuote, joka tarjoaa +6 [ICON_Amenities] Mukavuutta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_JOHN_ROCKEFELLER_ACTIVE">
-      <Text>Antaa 1 [ICON_RESOURCE_OIL] öljyä, strategisen resurssin. [ICON_TradeRoute] Kauppareittisi saavat +2 [ICON_Gold] kultaa jokaisesta strategisesta resurssista määränpääkaupungissa.</Text>
+      <Text>Myöntää 1 [ICON_RESOURCE_OIL] öljyä, strategisen resurssin. Kauppasi [ICON_TradeRoute] Kauppareitit saavat +2 [ICON_Gold] kultaa jokaisesta strategisesta resurssista määränpääkaupungissa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_OIL">
-      <Text>Myöntää {Amount} [ICON_RESOURCE_OIL] öljyä, strategisen resurssin.</Text>
+      <Text>Myöntää {Amount} [ICON_RESOURCE_OIL] öljyä, strateginen resurssi.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_STRATEGIC">
-      <Text>Sinun [ICON_TradeRoute] kauppareittisi saavat +{Amount} [ICON_Gold] kultaa jokaisesta strategisesta resurssista, jonka määränpääkaupunki on parantanut.</Text>
+      <Text>Sinun [ICON_TradeRoute] kauppareitit saavat +{Amount} [ICON_Gold] kultaa jokaisesta strategisesta resurssista, jonka kohdekaupunki on parantanut.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_TRADE_ROUTE_TOURISM_MODIFIER">
-      <Text>+{Amount}% [ICON_Tourism] Matkailun osuus muihin sivilisaatioihin, joihin sinulla on [ICON_TradeRoute] kauppareitti.</Text>
+      <Text>+{Amount}% [ICON_Tourism] matkailunopeus muihin sivilisaatioihin, joiden kanssa sinulla on [ICON_TradeRoute] kauppareitti.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_COSMETICS">
-      <Text>Myöntää {Amount} [ICON_RESOURCE_COSMETICS] kosmetiikkaa, ainutlaatuisen valmistetun ylellisyystuotteen, joka tarjoaa +4 [ICON_Amenities] mukavuutta.</Text>
+      <Text>Myöntää {Amount} [ICON_RESOURCE_COSMETICS] kosmetiikkaa, ainutlaatuisesti valmistettua luksusresurssia, joka tarjoaa +4 [ICON_Amenities] mukavuutta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_DIPLO_VISIBILITY">
-      <Text>+{Amount} diplomaattisen näkyvyyden taso muille sivilisaatioille.</Text>
+      <Text>+{Amount} {Amount : plural 1?tason; other?tasoja;} diplomaattista näkyvyyttä kaikkien muiden sivilisaatioiden kanssa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_TOYS">
-      <Text>Myöntää {Amount} [ICON_RESOURCE_TOYS] lelua, ainutlaatuisesti valmistettua luksushyödykettä, joka tarjoaa +4 [ICON_Amenities] mukavuutta.</Text>
+      <Text>Myöntää {Amount} [ICON_RESOURCE_TOYS] lelua, ainutlaatuisesti valmistettu luksusresurssi, joka tarjoaa +4 [ICON_Amenities] mukavuutta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_INDUSTRIAL_ZONE_TOURISM">
-      <Text>Teollisuusalueet tarjoavat +{Amount} [ICON_Tourism] matkailua.</Text>
+      <Text>Teollisuusalueet tuottavat +{Amount} [ICON_Tourism] matkailua.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CAMPUS_TOURISM">
       <Text>Kampusalueet tarjoavat +{Amount} [ICON_Tourism] matkailua.</Text>
     </Row>
     <!-- Scientists -->
     <Row Tag="LOC_GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} klassiselta tai keskiajalta.</Text>
+      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} Klassiselta tai Keskiaikaiselta aikakaudelta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_EUCLID_ACTIVE">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka -hetken matematiikassa ja yhden sattumanvaraisen teknologian keskiajalta.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken matematiikalle ja 1 satunnaiselle teknologialle keskiajalta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_1MEDIEVALTECHBOOST">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle keskiaikaiselle {Amount : pluraali 1?teknologia; muut?teknologiat;}.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} keskiajalta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_MATHTECHBOOST">
-      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken Matematiikan teknologiassa.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken Matematiikka-teknologialle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_LIBRARY">
-      <Text>Rakentaa välittömästi kirjaston tälle alueelle.</Text>
+      <Text>Rakentaa välittömästi kirjaston tähän kaupunginosaan.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_LIBRARY_FREE_MAINTENANCE">
-      <Text>+{Määrä} [ICON_Gold] Kultaa.</Text>
+      <Text>+{Amount} [ICON_Gold] kultaa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_UNIVERSITY">
       <Text>Rakentaa välittömästi yliopiston tähän kaupunginosaan.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_UNIVERSITY_FREE_MAINTENANCE">
-      <Text>+{Määrä} [ICON_Gold] Kultaa.</Text>
+      <Text>+{Amount} [ICON_Gold] kultaa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?tekniikka; other?tekniikoille;} keskiajalta tai renessanssiajalta.</Text>
+      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} keskiajalta tai renessanssiajalta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE">
-      <Text>Tämän Pyhän alueen kaupunginosan uskon [ICON_Faith] viereisyysbonus tarjoaa myös [ICON_Science] tiedettä.</Text>
+      <Text>Tämän pyhäkköalueen [ICON_Faith] uskon läheisyysbonus tuottaa myös [ICON_Science] tiedettä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_FAITH">
       <Text>Saat {Amount} [ICON_Faith] uskoa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE">
-      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken kahdelle satunnaiselle teknologialle sekä [ICON_CivicBoosted] Inspiration-hetken yhdelle satunnaiselle kunta-alan aiheelle keskiajalta tai renessanssikaudelta.</Text>
+      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken 2 satunnaiselle teknologialle ja [ICON_CivicBoosted] Inspiraatio-hetken 1 satunnaiselle kulttuurille keskiajalta tai renessanssista.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle keskiajan tai renessanssin ajan {Amount: plural 1?teknologia; other?teknologiat;}.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologia; other?teknologioille;} keskiajalta tai renessanssista.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST">
-      <Text>Laukaisee [ICON_CivicBoosted] Inspiraatiomomentin {Amount} satunnaiselle keskiaikaiselle tai renessanssi ajan {Amount : plural 1?civic; other?civics;}.</Text>
+      <Text>Laukaisee [ICON_CivicBoosted] inspiraatiohetken {Amount} satunnaiselle {Amount : plural 1?keskiaikaiselle sivistykselle; other?keskiaikaisille ja renessanssiaikaisille sivistyksille;} keskiajalta tai renessanssista.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GALILEO_GALILEI_ACTIVE">
-      <Text>Saat 250 [ICON_Science] tieteen (Standard-nopeudella) jokaiselta viereiseltä vuoristolaatalta.</Text>
+      <Text>Saa 250 [ICON_Science] tiedettä (normaalilla nopeudella) jokaisesta vierekkäisestä vuoriruudusta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_RESEARCH_LAB">
-      <Text>Rakentaa välittömästi tutkimuslaboratorion tähän kaupunginosaan.</Text>
+      <Text>Rakentaa heti tutkimuslaboratorion tähän kaupunginosaan.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_RESEARCHLABS_BIG_SCIENCE">
-      <Text>Tutkimuslaboratoriot tarjoavat +{Amount} [ICON_Science] tieteen.</Text>
+      <Text>Tutkimuslaboratoriot tarjoavat +{Amount} [ICON_Science] tiedettä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_RESEARCH_LAB_FREE_MAINTENANCE">
-      <Text>+{Määrä} [ICON_Gold] Kultaa.</Text>
+      <Text>+{Amount} [ICON_Gold] kultaa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ISAAC_NEWTON_ACTIVE">
-      <Text>Rakentaa välittömästi yliopiston ja kirjaston tälle kaupunginosalle. Yliopistot tarjoavat +2 [ICON_Science] tiedettä.</Text>
+      <Text>Rakentaa välittömästi Yliopiston ja Kirjaston tähän kaupunginosaan. Yliopistot tuottavat +2 [ICON_Science] tiedettä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} Renessanssin tai Teollisen aikakauden ajalta.</Text>
+      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} renessanssin tai teollisen aikakauden aikana.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GREAT_PERSON_FREE_POINTS">
-      <Text>Lisää {Amount} ilmaista [ICON_GreatPerson] suurmiehen pistettä rekrytoidaksesi kaikki nykyiset ja tulevat suurmiehet.</Text>
+      <Text>Soveltaa {Amount} ilmaista [ICON_GreatPerson] suuren henkilön pistettä nykyisten ja tulevien suurten henkilöiden värväämiseen.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CHARLES_DARWIN_ACTIVE">
-      <Text>Hanki 500 [ICON_Science] tiedettä (tavallisella nopeudella) jokaisesta luonnon ihmeestä täällä tai viereisillä ruuduilla.</Text>
+      <Text>Saat 500 [ICON_Science] tiedettä (normaalilla nopeudella) jokaisesta tässä tai viereisessä luonnonihmeen ruudussa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_DMITRI_MENDELEEV_ACTIVE">
-      <Text>Laukaisee [ICON_TechBoosted]-Eureka-hetken kemiassa ja yhden satunnaisen teknologian teollisuusaikakaudelta.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken kemiassa ja 1 satunnaisessa teknologiassa teollisuuskaudelta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ALAN_TURING_ACTIVE">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken tietokoneille ja yhden satunnaisen teknologian Moderni-ajanjaksolta.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken Tietokoneille ja 1 satunnaiselle teknologialle modernista aikakaudesta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_1INDUSTRIALTECHBOOST">
-      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle teollisuusajan {Amount : plural 1?teknologialle; other?teknologioille;}.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} teollisuuskaudesta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_CHEMISTRYTECHBOOST">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken kemianteollisuuden teknologialle.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken Kemian teknologialle.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_LIBRARIES_SCIENCE">
       <Text>Kirjastot tarjoavat +{Amount} [ICON_Science] tiedettä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_UNIVERSITIES_SMALL_SCIENCE">
-      <Text>Yliopistot tarjoavat +{Amount} [ICON_Science] tiedettä.</Text>
+      <Text>Yliopistot tuottavat +{Amount} [ICON_Science] tiedettä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_UNIVERSITIES_BIG_SCIENCE">
       <Text>Yliopistot tarjoavat +{Amount} [ICON_Science] tiedettä.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_1MODERNATOMICTECHBOOST">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} Modernista tai Atomiajasta.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} modernista tai atomiajasta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_REVEAL_OIL">
-      <Text>Paljastaa [ICON_RESOURCE_OIL] öljyn ilman normaalia teknologia vaatimusta.</Text>
+      <Text>Paljastaa [ICON_RESOURCE_OIL] öljyn ilman normaalia teknologiavaatimusta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS">
-      <Text>Laukaisee [ICON_TechBoosted] eureka-hetken {Amount} satunnaiselle teollisuus- tai modernin aikakauden {Amount : plural 1?teknologialle; other?teknologioille;}.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} teollisuus- tai modernilta aikakaudelta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ADJACENT_RAINFOREST_SCIENCE">
-      <Text>Saat {Amount} [ICON_Science] tieteen jokaisesta tällä tai viereisellä sademetsälaatalalla.</Text>
+      <Text>Saat {Amount} [ICON_Science] tiedettä jokaisesta tässä tai viereisessä sademetsälaatassa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ARTIFACT_TOURISM_MODIFIER">
-      <Text>[ICON_GreatWork_Artifact] Kaupunkisi kaikkiin artefakteihin liittyy {ScalingFactor}% normaalista [ICON_Tourism] matkailusta.</Text>
+      <Text>[ICON_GreatWork_Artifact] Artefaktit kaikissa kaupungeissasi tuottavat {ScalingFactor}% normaalista [ICON_Tourism] Matkailusta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ARTIFACT_SCIENCE">
-      <Text>Saat {Amount} [ICON_Science] tiedettä jokaisesta [ICON_GreatWork_Artifact] taideteoksesta tässä kaupungissa.</Text>
+      <Text>Saat {Amount} [ICON_Science] tiedettä jokaista [ICON_GreatWork_Artifact] esinettä kohden tässä kaupungissa.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS">
-      <Text>Laukaisee [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologia; other?teknologialle;} Atomiselta tai Informaatioajalta.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken {Amount} satunnaiselle {Amount : plural 1?teknologialle; other?teknologioille;} atomi- tai informaatioaikakaudelta.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS">
-      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken kaikille Tiedon aikakauden teknologioille.</Text>
+      <Text>Käynnistää [ICON_TechBoosted] Eureka-hetken kaikille Informaatioaikakauden teknologioille.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE">
-      <Text>Avustukset {Amount} [ICON_Production] tuotantoa kohti Space Race -projektin rakentamisessa.</Text>
+      <Text>Myöntää {Amount} [ICON_Production] tuotantoa avaruuskilpailuprojektin rakentamiseen.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_SPACE_RACE_PRODUCTION_RATE_LARGE">
-      <Text>+{Määrä}% [ICON_Production] Tuotantoa kohti Avaruuskilpailu-projekteja.</Text>
+      <Text>+{Amount}% [ICON_Production] tuotantoa avaruuskilpailuprojekteihin.</Text>
     </Row>
     <Row Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE">
-      <Text>Haavoittuneet maajoukot voivat parantua +5 HP joka vuorolla.</Text>
+      <Text>Haavoittuneet maayksiköt voivat parantua +5 HP joka vuoro.</Text>
     </Row>
   </BaseGameText>
 </GameData>

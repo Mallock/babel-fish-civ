@@ -2,61 +2,58 @@
 <GameData>
   <BaseGameText>
     <Row Tag="LOC_EMPTY">
-      <Text>TYHJÄ</Text>
+      <Text></Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_COMMA_SEPARATOR">
-      <Text>, </Text>
+      <Text>,</Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_A_AN">
-      <Text>{1: gender an {1}; the {1}; {1}; a {1};}</Text>
+      <Text>{1: gender *:an?an {1}; *:the?se {1}; *:no_article?{1}; other:eräs {1};}</Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_A_AN_WITH_ICON">
-      <Text>{1: Sukupuoli *:an?an {2} {1}; *:the?the {2} {1}; *:no_article?{2} {1}; other? eräs {2} {1};}</Text>
+      <Text>{1: gender *:an?an {2} {1}; *:the?the {2} {1}; *:no_article?{2} {1}; other:?{2} {1};}</Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_UPPER_A_AN">
-      <Text>{1: gender *:an?Eräs {1}; *:the?Se {1}; *:no_article?{1}; other?Eräs {1};}</Text>
+      <Text>{1: gender *:an?Eräs {1}; *:the?Se {1}; *:no_article?{1}; other?Yksi {1};}</Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_UPPER_A_AN_WITH_ICON">
-      <Text>{1: gender *:an?Eräs {2} {1}; *:the?Se {2} {1}; *:no_article?{2} {1}; other?Eräs {2} {1};}</Text>
+      <Text>{1: gender *:an?Yksi {2} {1}; *:the?{2} {1}; *:no_article?{2} {1}; other?Eräs {2} {1};}</Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_HAS_HAVE">
-      <Text>{1: monikko 1?on ; muut?ovat ;}</Text>
+      <Text>{1: plural 1?on ; other?ovat ;}</Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_IS_ARE">
-      <Text>{1: monikko 1?ovat ; muut?ovat ;}</Text>
+      <Text>{1: plural 1?on ; other?ovat ;}</Text>
     </Row>
     <!-- These tags are similar to LOC_GRAMMAR_A_AN but the defaults are different -->
     <!-- Civ Names usually don't have a prefix article.  For example "China has declared war on you!" -->
     <Row Tag="LOC_GRAMMAR_CIVNAME">
-      <Text>{1: Sukupuoli *:an?an {1}; *:the?the {1}; *:no_article?{1}; other?{1};}</Text>
+      <Text>{1: sukupuoli *:an?an {1}; *:the?the {1}; *:no_article?{1}; other?{1};}</Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_CIVNAME_UPPER">
-      <Text>{1: gender an {1}; the {1}; {1}; {1};}</Text>
+      <Text>{1: gender *:an?An {1}; *:the?The {1}; *:no_article?{1}; other?{1};}</Text>
     </Row>
     <!-- Civ Descriptions usually have 'the' as the prefix article.  For example "The Chinese Empire has declared war on you!" -->
     <Row Tag="LOC_GRAMMAR_CIVDESC">
-      <Text>{1:gender *:an?an {1}; *:the?kyseinen {1}; *:no_article?{1}; other?kyseinen {1};}</Text>
+      <Text>{1: gender *:an?an {1}; *:the?se {1}; *:no_article?{1}; other?se {1};}</Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_CIVDESC_UPPER">
       <Text>{1: gender *:an?Eräs {1}; *:the?Se {1}; *:no_article?{1}; other?Se {1};}</Text>
     </Row>
     <!-- Civ adjectives usually have 'a' as the prefix article.  For example "A Chinese warrior has killed your settler." -->
     <Row Tag="LOC_GRAMMAR_CIVADJ">
-      <Text>{1: gender *:an?an {1}; *:the?se {1}; *:no_article?{1}; other?jotkut {1};}</Text>
+      <Text>{1: sukupuoli *:an?an {1}; *:the?the {1}; *:no_article?{1}; muu?a {1};}</Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_CIVADJ_UPPER">
-      <Text>{1: gender *:an?Eräs {1}; *:the?Se {1}; *:no_article?{1}; other?Eräs {1};}</Text>
+      <Text>{1: gender *:an?Yksi {1}; *:the?{1}; *:no_article?{1}; other?A {1};}</Text>
     </Row>
     <!-- These tags are similar to LOC_GRAMMAR_A_AN but the defaults are different -->
     <!-- Leader names usually don't have a prefix article.  For example "Gilgamesh has declared war on you!" -->
     <Row Tag="LOC_GRAMMAR_LEADER">
-      <Text>{1: gender *:an?an {1}; *:the?kyseinen {1}; *:no_article?{1}; other?{1};}</Text>
+      <Text>{1: gender *:an?an {1}; *:the?the {1}; *:no_article?{1}; other?{1};}</Text>
     </Row>
     <Row Tag="LOC_GRAMMAR_LEADER_UPPER">
-      <Text>{1:gender an} {1} = {1:sukupuoli an} {1}
-{1:the} {1} = {1:artikkeli the} {1}
-{1:no_article?{1}} = {1:ei_artikkelia?{1}}
-{1:other?{1}} = {1:muu?{1}}</Text>
+      <Text>{1: gender *:an?An {1}; *:the?The {1}; *:no_article?{1}; other?{1};}</Text>
     </Row>
   </BaseGameText>
 </GameData>

@@ -6,109 +6,109 @@
       <Text>Hyökkää kaupungillasi!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT">
-      <Text>Puolustaessa, sinun {2_UnitName} ({5_Num} vahinkoa) tappoi {3_EnemyAdjective} {4_EnemyUnitName}!</Text>
+      <Text>Puolustaessasi {2_UnitName}si (teki {5_Num} vahinkoa) tappoi {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOU_KILLED_ENEMY_UNIT_DEFENDING_CITY">
-      <Text>Puolustaessasi kaupunkiasi {2_CityName} ({5_Num} vahinkoa), tappoit {3_EnemyAdjective} {4_EnemyUnitName}!</Text>
+      <Text>Puolustaessasi omaa kaupunkiasi {2_CityName}, se aiheutti {5_Num} vahinkoa ja tappoi {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName}!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_CITY_WAS_CAPTURED">
-      <Text>Teidän {1_CityName} kaupunki on vallattu vihollisen {2_UnitName} toimesta!</Text>
+      <Text>Kaupunkisi {1_CityName} valloitettiin vihollisen {2_UnitName} toimesta!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_CAPTURED_ENEMY_CITY">
-      <Text>Teidän {1_UnitName} ({2_Num} vahinkoa) valloitti vihollisen kaupungin {3_CityName}!</Text>
+      <Text>Sinun {1_UnitName} (teki {2_Num} vahinkoa) valtasi vihollisen kaupungin nimeltä {3_CityName}!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_CAPTURED_ENEMY_UNIT">
-      <Text>Teidän {1_UnitName} vangitsi vihollisen {2_UnitName}!</Text>
+      <Text>Sinun {1_UnitName} vangitsi vihollisen {2_UnitName}!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_CAPTURED_BY_ENEMY_UNIT">
-      <Text>Vihollisen {2_UnitName} on vanginnut teidän {1_UnitName}!</Text>
+      <Text>Sinun {1_UnitName} vangittiin vihollisen {2_UnitName} toimesta!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_DESTROYED_ENEMY">
-      <Text>Sinun {1_UnitName} ({2_Num} vahinkoa) tuhosi vihollisen {3_UnitName}!</Text>
+      <Text>Sinun {1_UnitName} (vahinko {2_Num}) tuhosi vihollisen {3_UnitName}!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_ANTI_AIR">
-      <Text>Hyökkäävä {1_UnitName} yksikkösi kuoli vihollisen {2_EnUName} takia!</Text>
+      <Text>Hyökkäävä {1_UnitName} kuoli vihollisen {2_EnUName} toimesta!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_INTERCEPTED">
-      <Text>Hyökkäävä {1_UnitName} yksikkösi kuoli vihollisen {2_EnUName} yksikön (vahinko {3_Num}) torjunnassa!</Text>
+      <Text>Hyökkäävä {1_UnitName} kuoli vihollisen {2_EnUName} ({3_Num} vahinkoa) väliintuloon!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING">
-      <Text>Sinun {1_UnitName} kuoli hyökätessään vihollisen {2_EnUName} ({3_Num} vahinkoa)!</Text>
+      <Text>Sinun {1_UnitName} kuoli hyökkätessään vihollisen {2_EnUName} kimppuun ({3_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_ATTACKING_CITY">
-      <Text>Sinun {1_UnitName} kuoli hyökätessään vihollisen {2_EnUName} kaupunkia ({3_Num} vahinkoa)!</Text>
+      <Text>Sinun {1_UnitName} kuoli hyökätessään vihollisen kaupunkiin {2_EnUName} (teki {3_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_ANTI_AIR">
-      <Text>Hyökkäyksesi {2_UnitName} ({3_Num} vahinkoa) vaurioitui {4_EnemyAdjective} {5_EnemyUnitName} toimesta!</Text>
+      <Text>Hyökkäävä {2_UnitName} (vahinko {3_Num}) vaurioitui {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} -yksikön toimesta!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_INTERCEPTED">
-      <Text>Hyökkäyksesi {2_UnitName} ({3_Num} vahinkoa) torjuttiin {4_EnemyAdjective} {5_EnemyUnitName} ({6_Num} vahinkoa) toimesta!</Text>
+      <Text>Hyökkäävä {2_UnitName} ({3_Num} vahinkoa) torjuttiin {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} ({6_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW">
-      <Text>Sinun {1_UnitName} ({2_Num} vahinkoa) hyökkäsi vihollisen {3_EnUName} ({4_Num} vahinkoa) kimppuun!</Text>
+      <Text>Sinun {1_UnitName} (teki {2_Num} vahinkoa) hyökkäsi vihollisen {3_EnUName} ({4_Num} vahinkoa) kimppuun!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WITHDREW_CITY">
       <Text>Sinun {1_UnitName} ({2_Num} vahinkoa) hyökkäsi vihollisen kaupunkiin {3_CityName} ({4_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_FRIENDLY_UNIT_WITHDREW">
-      <Text>Yksikkömme on vetäytynyt vihollisen lähitaistelusta.</Text>
+      <Text>Meidän {1_UnitName} on vetäytynyt vihollisen lähitaisteluhyökkäyksestä.</Text>
     </Row>
     <Row Tag="LOC_COMBAT_ENEMY_UNIT_WITHDREW">
-      <Text>Sinun {1_UnitName} ({2_Num} vahinkoa) on hyökätty vihollisen {3_EnUName} ({4_Num} vahinkoa) toimesta!</Text>
+      <Text>Sinun {1_UnitName} ({2_Num} vahinkoa) hyökkäsi vihollisen {3_EnUName} ({4_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_ENEMY_UNIT_WITHDREW_INTERCEPTING">
-      <Text>Sinun {1_UnitName} ({2_Num} vahinkoa) onnistui pysäyttämään vihollisen {3_EnUName} ({4_Num} vahinkoa)!</Text>
+      <Text>Sinun {1_UnitName} ({2_Num} vahinkoa) keskeytti vihollisen {3_EnUName} ({4_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_INTERCEPTING">
-      <Text>Saadessanne väijytystä, teidän {2_UnitName} tuhoutui {4_EnemyAdjective} {5_EnemyUnitName}n ({6_Num} vahinkoa) toimesta!</Text>
+      <Text>Keskustellessaan {2_UnitName} tuhoutui {LOC_GRAMMAR_A_AN &lt;&lt; {4_EnemyAdjective}} {5_EnemyUnitName} -yksikön toimesta ({6_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_DIED_DEFENDING">
-      <Text>Puolustaessasi, {2_UnitName} tuhoutui {3_EnemyAdjective} {4_EnemyUnitName} toimesta ({5_Num} vahinkoa)!</Text>
+      <Text>Puolustaessaan {2_UnitName} yksikkösi tuhoutui {LOC_GRAMMAR_A_AN &lt;&lt; {3_EnemyAdjective}} {4_EnemyUnitName} yksikön hyökkäyksessä ({5_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_STRAFED_ENEMY">
-      <Text>Sinun {1_UnitName} ammuskelivat vihollisen {2_EnUName} aiheuttaen {3_Num} vahinkoa!</Text>
+      <Text>Sinun {1_UnitName} hyökkäsi vihollisen {2_EnUName} kimppuun aiheuttaen {3_Num} vahinkoa!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_BOMBED_ENEMY">
-      <Text>Sinun {1_UnitName} pommiti vihollisen {2_EnUName} ja aiheutti {3_Num} vahinkoa!</Text>
+      <Text>Sinun {1_UnitName} pommitti vihollisen {2_EnUName} aiheuttaen {3_Num} vahinkoa!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_STRAFED_BY_ENEMY">
-      <Text>Vihollisen {2_EnUName} ammuttiin teidän {1_UnitName}:a kohti ja se sai {3_Num} vahinkoa!</Text>
+      <Text>Sinun {1_UnitName} joutui vihollisen {2_EnUName} hyökkäyksen kohteeksi ja otti {3_Num} vahinkoa!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_DAMAGED_ENEMY">
       <Text>Sinun {1_UnitName} vahingoitti vihollisen {2_EnUName}({3_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_BOMBARDED_ENEMY">
-      <Text>Sinun {1_UnitName} pommitti vihollisen {2_EnUName}, aiheuttaen {3_Num} vahinkoa!</Text>
+      <Text>Sinun {1_UnitName} pommitti vihollisen {2_EnUName} aiheuttaen {3_Num} vahinkoa!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_BOMBARDED_BY_ENEMY">
-      <Text>Vihollisen {2_EnUName} pommitti {1_UnitName} yksikköäsi aiheuttaen {3_Num} vahinkoa!</Text>
+      <Text>Sinun {1_UnitName} yksikköäsi pommitettiin vihollisen {2_EnUName} toimesta, ja se otti {3_Num} vahinkoa!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_WMD_SUCCEEDED">
-      <Text>Sinun {1_UnitName} joukkueesi WMD-isku onnistui!</Text>
+      <Text>Sinun {1_UnitName} WMD-hyökkäys onnistui!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_WMD_FAILED_HIGH_DAMAGE">
-      <Text>Sinun {1_UnitName} WMD-iskusi epäonnistui korkean vahingon vuoksi.</Text>
+      <Text>Sinun {1_UnitName} YMS-hyökkäys epäonnistui korkeiden vahinkojen vuoksi.</Text>
     </Row>
     <Row Tag="LOC_COMBAT_ENEMY_WMD_SUCCEEDED">
-      <Text>Epäonnistuit pysäyttämään {1_EnemyAdjective} {2_EnemyUnitName} joukkotuhoasehyökkäyksen!</Text>
+      <Text>Et onnistunut estämään {LOC_GRAMMAR_A_AN &lt;&lt; {1_EnemyAdjective}} {2_EnemyUnitName} YJH-hyökkäystä!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_ENEMY_WMD_FAILED_HIGH_DAMAGE">
-      <Text>Onnistuit pysäyttämään {1_EnemyAdjective} {2_EnemyUnitName} joukkotuhoasehyökkäyksen aiheuttamalla {3_Num} vahinkoa!</Text>
+      <Text>Onnistuit estämään {LOC_GRAMMAR_A_AN &lt;&lt; {1_EnemyAdjective}} {2_EnemyUnitName} WMD -hyökkäyksen aiheuttamalla {3_Num} vahinkoa!</Text>
     </Row>
     <Row Tag="LOC_MISC_YOUR_UNIT_DIED_BY_UNKNOWN">
-      <Text>While defending, your {1_UnitName} was destroyed by a disguised {2_EnUName} ({3_Num} damage)!</Text>
+      <Text>Puolustaessaan {1_UnitName} tuhoutui naamioituneen {2_EnUName} hyökkäyksessä ({3_Num} vahinkoa)!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_ATTACKED_ENEMY_DISTRICT">
       <Text>Sinun {1_UnitName} hyökkäsi vihollisen {2_Name} kimppuun aiheuttaen {3_Num} vahinkoa!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_DISTRICT_WAS_ATTACKED_BY_ENEMY">
-      <Text>Sinun {1_Name} hyökättiin vihollisen {2_EnUName} toimesta, ottaen {3_Num} vahinkoa!</Text>
+      <Text>{1_Name}iasi hyökättiin vihollisen {2_EnUName} toimesta, ja se sai {3_Num} vahinkoa!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_ATTACKED_ENEMY_DISTRICT_DEFENSES">
       <Text>Sinun {1_UnitName} hyökkäsi vihollisen {2_Name} kimppuun ({3_Num} {2_Name} vahinkoa, {4_Num} puolustusvahinkoa)</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_DISTRICT_DEFENSE_WAS_ATTACKED_BY_ENEMY">
-      <Text>Sinun {1_Name} on hyökätty vihollisen {2_EnUName} toimesta ({3_Num} vahinkoa {2_Name}lle, {4_Num} puolustusvahinkoa)</Text>
+      <Text>Sinun {1_Name} hyökkäsi vihollisen {2_EnUName} ({3_Num} {2_Name} vahinkoa, {4_Num} puolustusvahinkoa)</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_DISTRICT_DESTROYED_ENEMY">
       <Text>{1_Name} pommitti vihollisen {2_EnUName}! ({3_Damage} vahinkoa)</Text>
@@ -117,25 +117,25 @@
       <Text>{1_Name} pommitti vihollisen {2_EnUName}! ({3_Damage} vahinkoa)</Text>
     </Row>
     <Row Tag="LOC_COMBAT_YOUR_UNIT_WAS_BOMBARDED_BY_ENEMY_DISTRICT">
-      <Text>Vihollisen {2_EnUName} pommitus kohtasi sinun {1_Name}, vahinkona {3_Num}!</Text>
+      <Text>Sinun {1_Name} pommitettiin vihollisen {2_EnUName} toimesta aiheuttaen {3_Num} vahinkoa!</Text>
     </Row>
     <Row Tag="LOC_COMBAT_ICBM_DESTROYED">
-      <Text>ICBM (interkontinentaalinen ballistinen ohjus) onnistuneesti torjuttu ja tuhottu.</Text>
+      <Text>ICBM on torjuttu ja tuhottu.</Text>
     </Row>
     <Row Tag="LOC_PLUNDER_UNIT_HEALED">
-      <Text>Sinun {1_Name} on parantunut ryöstöretkiltäsi ryövättyjen aarteiden ansiosta.</Text>
+      <Text>Plunder from your pillaging has healed your {1_Name}.</Text>
     </Row>
     <Row Tag="LOC_PLUNDER_CULTURE">
-      <Text>Sinä sait {1_Num} [ICON_Culture] kulttuuria ryöstäessäsi.</Text>
+      <Text>Sait {1_Num} [ICON_Culture] kulttuuria saaliina ryöstelystäsi.</Text>
     </Row>
     <Row Tag="LOC_PLUNDER_FAITH">
-      <Text>Sait {1_Num} [ICON_Faith] Uskoa ryöstösaaliistasi.</Text>
+      <Text>Sait {1_Num} [ICON_Faith] uskontoa ryöstösaaliina ryöstelystäsi.</Text>
     </Row>
     <Row Tag="LOC_PLUNDER_GOLD">
-      <Text>Sait ryöstöstä {1_Num} [ICON_Gold] Kultaa.</Text>
+      <Text>Sait {1_Num} [ICON_Gold] kultaa ryöstösaaliina ryöstelyistäsi.</Text>
     </Row>
     <Row Tag="LOC_PLUNDER_SCIENCE">
-      <Text>Sinä sait {1_Num} [ICON_Science] tiedettä saaliiksi ryöstöstäsi.</Text>
+      <Text>Sait {1_Num} [ICON_Science] tiedettä saaliina ryöstelyistäsi.</Text>
     </Row>
     <Row Tag="LOC_KILL_CULTURE">
       <Text>[COLOR_FLOAT_CULTURE]+{1_Num} [ICON_Culture][ENDCOLOR]</Text>
@@ -175,7 +175,7 @@
       <Text>KAUPUNKI VALLOITETTU</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_TRADED">
-      <Text>KAUPUNKI SAI</Text>
+      <Text>KAUPUNKI VASTAANOTTI</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_NAME_LABEL">
       <Text>Kaupungin nimi:</Text>
@@ -184,49 +184,49 @@
       <Text>Väestö:</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_DISTRICTS_LABEL">
-      <Text>Alueiden määrä:</Text>
+      <Text>Läsnä olevien alueiden määrä:</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_LIBERATE_EXPLANATION">
-      <Text>Kaupungin vapauttaminen palauttaa sen yhdelle sen aikaisemmista omistajista, mahdollisesti tuoden kyseisen sivilisaation takaisin peliin.[NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
+      <Text>Vapauttaminen kaupungin palauttaa sen yhdelle aiemmista omistajista, mahdollisesti tuoden kyseisen sivilisaation takaisin peliin.[NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_LIBERATE_WARMONGER_EXPLANATION">
-      <Text>Kaupungin vapauttaminen aiheuttaa merkittävän vähennyksen aiemmin ansaittuihin sotapoliittisiin rangaistuksiin.</Text>
+      <Text>Vapauttamalla kaupungin saat [COLOR_MEDIUM_GREEN]MERKITTÄVÄN VÄHENNYKSEN[ENDCOLOR] aiemmin ansaittuihin sotahulluusseuraamuksiin.</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_KEEP_EXPLANATION">
-      <Text>Pidä tämä kaupunki hallussasi toistaiseksi. Se on vähemmän tuottelias, miehitetty kaupunki, kunnes sen omistus käsitellään rauhanneuvotteluissa. [NEWLINE][NEWLINE] {1_WarmongerInfo}</Text>
+      <Text>Pidä tämä kaupunki toistaiseksi valtakunnassasi. Se on vähemmän tuottava, miehitetty kaupunki, kunnes sen sodanjälkeistä omistajuutta käsitellään rauhanneuvotteluissa.[NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_KEEP_EXPLANATION_TRADED">
-      <Text>Pitäkää tämä kaupunki valtakunnassanne.</Text>
+      <Text>Pidä tämä kaupunki valtakunnassasi.</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_KEEP_WARMONGER_EXPLANATION">
-      <Text>Sodanlietsona kaupungin pitämisestä on nyt: {1_WarmongerLevel}[NEWLINE][NEWLINE]Rangaistus joko hyvitetään tai kaksinkertaistetaan sodan lopussa riippuen siitä, pidätkö kaupunkia vai et.</Text>
+      <Text>Sotahullun rangaistus tämän kaupungin pitämisestä on nyt: {1_WarmongerLevel}[NEWLINE][NEWLINE]Rangaistus palautetaan tai kaksinkertaistetaan sodan lopussa sen mukaan, pidätkö kaupungin vai et.</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_KEEP_LAST_CITY_EXPLANATION">
-      <Text>Sodanlietsojan rangaistus pelaajan viimeisen kaupungin pitämisestä perustuu tähän ajanjakson Yllätyssodan rangaistusarvoon. Tämä arvo [COLOR_RED]KAHDENNAISTETAAN[/ENDCOLOR], jos tämän kaupungin valtaaminen poistaa suuren sivilisaation (ei kaupunkivaltion).</Text>
+      <Text>Sotahullun rangaistus viimeisen kaupungin pitämisestä perustuu tämän aikakauden yllätyssodan rangaistukseen. Tämä arvo on [COLOR_RED]KAKSINKERTAINEN[ENDCOLOR], jos tämän kaupungin valtaaminen poistaa suuren sivilisaation (ei kaupunkivaltiota).</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_RAZE_EXPLANATION">
-      <Text>Tyhjennä kaupunki ja sen kaikki kaupunginosat ja rakennukset kartalta. Tämä vaihtoehto on valittava kaupungin valloituksen yhteydessä.[NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
+      <Text>Tuhota kaupunki poistamalla se ja kaikki sen alueet ja rakennukset kartalta. Tämä vaihtoehto on valittava sillä vuorolla, kun kaupunki vallataan.[NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_RAZE_WARMONGER_EXPLANATION">
-      <Text>[COLOR_RED]Kaupungin tuhoaminen voi antaa sinulle vakavan Sotahulluuden rangaistuksen![ENDCOLOR] [NEWLINE][NEWLINE]Sotahulluuden rangaistus tästä kaupungista on nyt: {1_WarmongerLevel}</Text>
+      <Text>[COLOR_RED]Kaupungin hävittäminen voi aiheuttaa vakavan sotahulluusseuraamuksen![ENDCOLOR] [NEWLINE][NEWLINE]Sotahulluusseuraamus hävittämällä tämän kaupungin nyt on: {1_WarmongerLevel}</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_RAZE_LAST_CITY_EXPLANATION">
-      <Text>Sotahaukka-rangaistus on [COLOR_RED]KOLMINKERTAINEN[ENDCOLOR] muodolliseen sotarangaistukseen verrattuna tälle aikakaudelle, kun tuhoat pelaajan viimeisen kaupungin.</Text>
+      <Text>Sotahullu-rangaistus on [COLOR_RED]KOLMIN-KERTAINEN[ENDCOLOR] tämän aikakauden muodollisen sodan rangaistukseen verrattuna, kun tuhoat pelaajan viimeisen kaupungin.</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_RAZE_DISABLED_EXPLANATION">
-      <Text>Et voi hävittää suuren sivilisaation alkuperäistä pääkaupunkia tai kaupunkia, jonka sinä tai liittolaisesi perusti tai omisti tämän sodan alussa.</Text>
+      <Text>Et voi tuhota suuren sivilisaation alkuperäistä pääkaupunkia tai kaupunkia, jonka sinä tai liittolaisesi perustitte tai omistitte tämän sodan alussa.</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_LIBERATE_FOUNDER_BUTTON_LABEL">
       <Text>Vapauta perustajalle ({1_CivName})</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_LIBERATE_PREWAR_OWNER_BUTTON_LABEL">
-      <Text>Vapauta ennakkosodan omistajaksi ({1_CivName})</Text>
+      <Text>Vapauta entiselle sodanajan omistajalle ({1_CivName})</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_KEEP_BUTTON_LABEL">
-      <Text>Pidä kaupunki</Text>
+      <Text>Pidä Kaupunki</Text>
     </Row>
     <Row Tag="LOC_RAZE_CITY_RAZE_BUTTON_LABEL">
-      <Text>Tuhoa Kaupunki</Text>
+      <Text>Raze City</Text>
     </Row>
   </BaseGameText>
 </GameData>

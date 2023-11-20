@@ -3,34 +3,34 @@
   <BaseGameText>
     <!-- Victories -->
     <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_TITLE">
-      <Text>Valtapoliittinen sota</Text>
+      <Text>Su proxy-sota</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_DESC">
-      <Text>Vangitse kolme kaupunkivaltiota.</Text>
+      <Text>Valtaa kolme kaupunkivaltiota.</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_PROXYWAR_VICTORY_BLURB">
-      <Text>"Tässä on minun strategiani Kylmää sotaa vastaan: me voitamme, he häviävät." - Ronald Reagan</Text>
+      <Text>Tässä on strategiani kylmästä sodasta: me voitamme, he häviävät. - Ronald Reagan</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_TITLE">
-      <Text>Armageddonin herra</Text>
+      <Text>Armageddonin Herra</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_DESC">
-      <Text>Mikäli mikä tahansa kaupungin keskusta on pommitettu ydinpommilla, pommita eniten kaupungin keskuksia rajoitetun ajan kuluessa.</Text>
+      <Text>Jos jokin kaupungin keskusta tuhotaan ydinaseella, tuhoa eniten kaupungin keskuksia vuororajan puitteissa.</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_ARMAGEDDON_VICTORY_BLURB">
       <Text>Ainoa tapa voittaa on olla pelaamatta.</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_TITLE">
-      <Text>Pankkiiri Tankki</Text>
+      <Text>Panssarivaunupankkiiri</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_DESC">
-      <Text>Mikäli kaupunkikeskuksia ei pommiteta ydinasemilla, omista eniten tankkeja vuoron rajaan mennessä.</Text>
+      <Text>Jos yhtään kaupungin keskustaa ei tuhota ydinaseella, omista eniten panssarivaunuja vuororajan saapuessa.</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_TANKBANKER_VICTORY_BLURB">
-      <Text>Sinulla on eniten tankkeja pelin lopussa! Voitat!</Text>
+      <Text>Sinulla on eniten panssarivaunuja pelin lopussa! Voitat!</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_RULESET_TITLE">
-      <Text>Maailmanlaajuinen termojeninen sota</Text>
+      <Text>Globaali ydinsota</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_RULESET_DESCRIPTION">
       <!-- Keep in sync with LOC_COLDWAR_MOD_DESCRIPTION -->
@@ -38,10 +38,10 @@
     </Row>
     <!-- Mod Package Text -->
     <Row Tag="LOC_COLDWAR_MOD_TITLE">
-      <Text>Moninpeli-skenaario: Globaali ydinsota</Text>
+      <Text>Moninpeli-skenaario: Globaali termoydinvoimasota</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_MOD_TEASER">
-      <Text>Kylmä sota kuumenee tässä taistelupohjaisessa skenaariossa, joka sijoittuu atomiaikaan. Kestää 50 kierrosta.</Text>
+      <Text>Kylmä sota kuumenee tässä taistelupainotteisessa skenaariossa, joka sijoittuu atomiaikaan. Kestää 50 vuoroa.</Text>
     </Row>
     <Row Tag="LOC_COLDWAR_MOD_DESCRIPTION">
       <!-- Keep in sync with LOC_COLDWAR_RULESET_DESCRIPTION -->
@@ -51,13 +51,13 @@
       <Text>Vuororaja {ElapsedTurns}/{MinGameTurn} {StatusIcon}</Text>
     </Row>
     <Row Tag="LOC_PROXYWAR_VICTORY_CAPTURE_CITY_STATES_PROGRESS">
-      <Text>Kaupunkivaltiot vallattu {CurrentConquered}/{CityStatesConquered} {StatusIcon}</Text>
+      <Text>Kaupunkivaltiot Valloitettu {CurrentConquered}/{CityStatesConquered} {StatusIcon}</Text>
     </Row>
     <Row Tag="LOC_ARMAGEDDON_VICTORY_REQUIRES_PLAYER_HAS_MOST_WMD_DIRECT_CITY_HITS_PROGRESS">
-      <Text>Keskukset Nukutettu {NukedCityCenters} {NukeCountStatusIcon}[NEWLINE]Mikä tahansa Keskus Nukutettu {NukeWarStatusIcon}</Text>
+      <Text>Ydinpommitetut kaupungin keskustat {NukedCityCenters} {NukeCountStatusIcon}[NEWLINE]Mikä tahansa ydinpommitettu kaupungin keskus {NukeWarStatusIcon}</Text>
     </Row>
     <Row Tag="LOC_VICTORY_TANKBANKER_REQUIRES_PLAYER_HAS_MOST_TANKS_PROGRESS">
-      <Text>Säilytetyt panssarit {NumPromotionClass} {PromotionStatusIcon}[NEWLINE]Ei yhtään kaupunkikeskustaa pommitettu ydinaseilla {NoNukeWarStatusIcon}</Text>
+      <Text>Tankkeja hallussa {NumPromotionClass} {PromotionStatusIcon}[NEWLINE]Ei ydinsodan kohteeksi joutuneita kaupunkikeskuksia {NoNukeWarStatusIcon}</Text>
     </Row>
   </BaseGameText>
 </GameData>
